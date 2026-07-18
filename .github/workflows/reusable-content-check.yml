@@ -28,7 +28,7 @@ jobs:
           echo -e "$missing" >> "$GITHUB_OUTPUT"
           echo "EOF" >> "$GITHUB_OUTPUT"
       - if: steps.scan.outputs.missing != ''
-        uses: actions/github-script@v7
+        uses: actions/github-script@v9
         with:
           script: |
             const missing = `${{ steps.scan.outputs.missing }}`;

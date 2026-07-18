@@ -32,7 +32,7 @@ jobs:
 
       - name: Report build failure
         if: steps.build.outputs.ok == 'false'
-        uses: actions/github-script@v7
+        uses: actions/github-script@v9
         with:
           github-token: ${{ secrets.SITES_PAT }}
           script: |
@@ -51,7 +51,7 @@ jobs:
 
       - name: Trigger publish (marketing) if healthy
         if: steps.build.outputs.ok == 'true'
-        uses: actions/github-script@v7
+        uses: actions/github-script@v9
         with:
           github-token: ${{ secrets.SITES_PAT }}
           script: |
