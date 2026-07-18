@@ -1,0 +1,19 @@
+# To get started with Dependabot version updates, you'll need to specify which
+# package ecosystems to update and where the package manifests are located.
+# Please see the documentation for all configuration options:
+# https://docs.github.com/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
+
+version: 2
+updates:
+  # يتابع تحديثات إصدارات الـ GitHub Actions المستخدمة في كل الـ workflows
+  # (زي actions/checkout, actions/setup-node, actions/deploy-pages, إلخ)
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+
+  # يتابع تحديثات باكدجات بايثون المستخدمة في social/ (requirements.txt)
+  - package-ecosystem: "pip"
+    directory: "/social"
+    schedule:
+      interval: "weekly"
