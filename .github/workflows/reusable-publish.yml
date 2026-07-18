@@ -17,11 +17,7 @@ jobs:
           file=$(ls "${{ inputs.queue-dir }}"/*.txt 2>/dev/null | sort | head -n 1 || true)
           if [ -z "$file" ]; then echo "found=false" >> "$GITHUB_OUTPUT"
           else echo "found=true" >> "$GITHUB_OUTPUT"; echo "file=$file" >> "$GITHUB_OUTPUT"; fi
-      - if: steps.pick.outputs.found == 'true'
-        run: |
-          TEXT=$(cat "${{ steps.pick.outputs.file }}")
-          curl -s -X POST "https://api.telegram.org/bot${{ secrets.BOT_TOKEN }}/sendMessage" \
-            -d chat_id="${{ secrets.CHAT_ID }}" --data-urlencode text="$TEXT"
+     
       - if: steps.pick.outputs.found == 'true'
         run: |
           mkdir -p "${{ inputs.queue-dir }}/published"
