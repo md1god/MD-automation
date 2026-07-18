@@ -1,0 +1,62 @@
+name: Master Pipeline
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+jobs:
+  orchestrate:
+    strategy:
+      fail-fast: false
+      matrix:
+        site: [MD1usd.com, MDM1.org]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout ${{ matrix.site }}
+        uses: actions/checkout@v4
+        with:
+          repository: md1god/${{ matrix.site }}
+          token: ${{ secrets.SITES_PAT }}
+          path: site
+
+      - name: Detect & build if needed
+        id: build
+        working-directory: site
+        run: |
+          if [ -f package.json ]; then
+            npm ci
+            npm run build && echo "ok=true" >> "$GITHUB_OUTPUT" || echo "ok=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "ok=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Report build failure
+        if: steps.build.outputs.ok == 'false'
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.SITES_PAT }}
+          script: |
+            await github.rest.issues.create({
+              owner: 'md1god', repo: '${{ matrix.site }}',
+              title: 'Build فشل في آخر تشغيل للـ Pipeline',
+              body: 'راجع تفاصيل الـ run: ' + context.serverUrl + '/' + context.repo.owner + '/' + context.repo.repo + '/actions/runs/' + context.runId,
+              labels: ['build-failed']
+            });
+
+      - name: Deploy if build ok
+        if: steps.build.outputs.ok == 'true'
+        working-directory: site
+        run: |
+          echo "هنا استدعاء deploy الحقيقي بيحصل من داخل ريبو الموقع نفسه (Deploy.yml بتاعه) — الـ pipeline هنا بس بيتأكد إن البناء سليم قبل ما يسمحله يستمر."
+
+      - name: Trigger publish (marketing) if healthy
+        if: steps.build.outputs.ok == 'true'
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.SITES_PAT }}
+          script: |
+            await github.rest.actions.createWorkflowDispatch({
+              owner: 'md1god', repo: 'MD-robot',
+              workflow_id: 'publish.yml',
+              ref: 'main'
+            });
