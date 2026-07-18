@@ -5,4 +5,4 @@ on:
 jobs:
   check:
     permissions: { contents: read, issues: write, actions: read }
-    uses: md1god/MD-automation/.github/workflows/reusable-watchdog.yml@main
+    uses: md1god/MD-robot/.github/workflows/reusable-watchdog.yml@main
