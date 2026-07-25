@@ -30,7 +30,7 @@ jobs:
           if [ "${{ steps.detect.outputs.has_package }}" = "true" ]; then echo "dir=${{ inputs.output-dir }}" >> "$GITHUB_OUTPUT"
           else echo "dir=${{ inputs.site-dir }}" >> "$GITHUB_OUTPUT"; fi
       - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v5
         with: { path: '${{ steps.path.outputs.dir }}' }
       - id: deployment
         uses: actions/deploy-pages@v4
