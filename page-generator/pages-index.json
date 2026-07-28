@@ -798,5 +798,13 @@
     "audio": "theme-tech.mp3",
     "date": "2026-07-28T02:47:10.861Z",
     "file": "pages/page-0100.html"
+  },
+  {
+    "id": "page-0101",
+    "title": "الاحتياطي الكامل",
+    "image": "reserves-vault.jpg",
+    "audio": "theme-calm.mp3",
+    "date": "2026-07-28T05:50:18.217Z",
+    "file": "pages/page-0101.html"
   }
 ]
