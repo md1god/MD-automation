@@ -33,7 +33,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Run Slither
-        uses: crytic/slither-action@v0.4.1
+        uses: crytic/slither-action@v0.4.2
         continue-on-error: true
         id: slither
         with:
