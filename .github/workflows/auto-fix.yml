@@ -1,0 +1,33 @@
+name: Auto Fix
+on:
+  issues: { types: [opened, labeled] }
+
+jobs:
+  gate:
+    if: contains(github.event.issue.labels.*.name, 'build-failed')
+    runs-on: ubuntu-latest
+    permissions: { contents: read }
+    outputs:
+      allowed: ${{ steps.check.outputs.allowed }}
+    steps:
+      - id: check
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const { data } = await github.rest.repos.getCollaboratorPermissionLevel({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              username: context.payload.sender.login,
+            });
+            const allowed = data.permission === 'admin' || data.permission === 'write';
+            core.setOutput('allowed', String(allowed));
+            if (!allowed) {
+              core.warning(`المستخدم ${context.payload.sender.login} مالوش صلاحية كافية لتشغيل auto-fix (permission: ${data.permission}).`);
+            }
+
+  fix:
+    needs: gate
+    if: needs.gate.outputs.allowed == 'true'
+    permissions: { contents: write, issues: write }
+    uses: md1god/MD-automation/.github/workflows/reusable-autofix.yml@main
+    with: { build-command: npm run build }
