@@ -1,5 +1,4 @@
 name: Telegram Publish
-
 on:
   workflow_dispatch:
   schedule:
@@ -15,6 +14,16 @@ jobs:
         with:
           python-version: '3.11'
       - run: pip install -r social/requirements.txt
+
+      - name: Debug token (temporary)
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        run: |
+          echo "Token length: ${#TELEGRAM_BOT_TOKEN}"
+          echo "First 6 chars: ${TELEGRAM_BOT_TOKEN:0:6}"
+          echo "Last 4 chars: ${TELEGRAM_BOT_TOKEN: -4}"
+          curl -s "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/getMe"
+
       - name: Publish to Telegram
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
