@@ -1,0 +1,8 @@
+name: Build
+on:
+  push: { branches: [main] }
+  pull_request: { branches: [main] }
+jobs:
+  build:
+    uses: md1god/MD-automation/.github/workflows/reusable-build.yml@main
+    with: { build-command: npm run build }
