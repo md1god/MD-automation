@@ -1,0 +1,36 @@
+name: Reusable Deploy
+on:
+  workflow_call:
+    inputs:
+      node-version: { type: string, default: '20' }
+      build-command: { type: string, default: 'npm run build' }
+      output-dir: { type: string, default: 'dist' }
+      site-dir: { type: string, default: '.' }
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v6
+      - id: detect
+        run: |
+          if [ -f package.json ]; then echo "has_package=true" >> "$GITHUB_OUTPUT"
+          else echo "has_package=false" >> "$GITHUB_OUTPUT"; fi
+      - uses: actions/setup-node@v4
+        if: steps.detect.outputs.has_package == 'true'
+        with: { node-version: '${{ inputs.node-version }}', cache: 'npm' }
+      - run: npm ci
+        if: steps.detect.outputs.has_package == 'true'
+      - run: ${{ inputs.build-command }}
+        if: steps.detect.outputs.has_package == 'true'
+      - id: path
+        run: |
+          if [ "${{ steps.detect.outputs.has_package }}" = "true" ]; then echo "dir=${{ inputs.output-dir }}" >> "$GITHUB_OUTPUT"
+          else echo "dir=${{ inputs.site-dir }}" >> "$GITHUB_OUTPUT"; fi
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with: { path: '${{ steps.path.outputs.dir }}' }
+      - id: deployment
+        uses: actions/deploy-pages@v4
