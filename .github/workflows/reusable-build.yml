@@ -1,0 +1,45 @@
+name: Reusable Build
+on:
+  workflow_call:
+    inputs:
+      node-version: { type: string, default: '20' }
+      build-command: { type: string, default: 'npm run build' }
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - id: detect
+        run: |
+          if [ -f package.json ]; then echo "has_package=true" >> "$GITHUB_OUTPUT"
+          else echo "has_package=false" >> "$GITHUB_OUTPUT"; fi
+      - uses: actions/setup-node@v4
+        if: steps.detect.outputs.has_package == 'true'
+        with: { node-version: '${{ inputs.node-version }}', cache: 'npm' }
+
+      - name: Install (attempt 1)
+        id: install1
+        if: steps.detect.outputs.has_package == 'true'
+        continue-on-error: true
+        run: npm ci
+
+      - name: Install (clean retry)
+        if: steps.detect.outputs.has_package == 'true' && steps.install1.outcome == 'failure'
+        run: |
+          rm -rf node_modules package-lock.json
+          npm install
+
+      - name: Build (attempt 1)
+        id: build1
+        if: steps.detect.outputs.has_package == 'true'
+        continue-on-error: true
+        run: ${{ inputs.build-command }}
+
+      - name: Build (retry after cache clear)
+        if: steps.detect.outputs.has_package == 'true' && steps.build1.outcome == 'failure'
+        run: |
+          rm -rf node_modules/.cache .next dist build 2>/dev/null || true
+          ${{ inputs.build-command }}
+
+      - if: steps.detect.outputs.has_package == 'false'
+        run: echo "مشروع static — مفيش build مطلوب"
