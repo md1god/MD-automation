@@ -1,0 +1,48 @@
+name: Generate Pages Automatically
+
+on:
+  schedule:
+    - cron: '0 * * * *'
+  workflow_dispatch:
+
+jobs:
+  generate-pages:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: page-generator
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Generate New Page
+        run: node build-pages.js
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          if git diff --quiet -- content-library pages build-state.json pages-index.json; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit and Push
+        if: steps.check_changes.outputs.changed == 'true'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "MD1 Bot"
+          git add -A
+          git commit -m "New page - $(date +%Y-%m-%d_%H-%M-%S)"
+          git pull --rebase
+          git push
