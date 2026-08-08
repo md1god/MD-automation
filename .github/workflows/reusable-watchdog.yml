@@ -1,0 +1,148 @@
+name: Reusable Watchdog
+on:
+  workflow_call:
+    inputs:
+      build-workflow-file:
+        description: "اسم ملف الـ workflow المطلوب مراقبته، مثال: Deploy.yml"
+        required: true
+        type: string
+      branch:
+        description: "الفرع المطلوب مراقبته"
+        required: false
+        type: string
+        default: 'main'
+      stale-hours:
+        description: "أقصى عدد ساعات مسموح بيها من غير تشغيل جديد قبل ما تعتبر مشكلة"
+        required: false
+        type: string
+        default: '24'
+
+jobs:
+  watchdog:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write
+      actions: read
+    steps:
+      - name: Check latest run of target workflow
+        id: watch
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const workflowFile = '${{ inputs.build-workflow-file }}';
+            const branch = '${{ inputs.branch }}';
+            const staleHours = parseFloat('${{ inputs.stale-hours }}');
+
+            const { data } = await github.rest.actions.listWorkflowRuns({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              workflow_id: workflowFile,
+              branch: branch,
+              per_page: 1
+            });
+
+            if (data.workflow_runs.length === 0) {
+              core.setOutput('problem', 'true');
+              core.setOutput('reason', `لا يوجد أي تشغيل مسجل لـ \`${workflowFile}\` على فرع \`${branch}\` من الأساس.`);
+              return;
+            }
+
+            const run = data.workflow_runs[0];
+            const finishedAt = run.updated_at ? new Date(run.updated_at) : new Date(run.created_at);
+            const hoursSince = (Date.now() - finishedAt.getTime()) / (1000 * 60 * 60);
+
+            let problems = [];
+
+            if (run.status === 'completed' && run.conclusion === 'failure') {
+              problems.push(`آخر تشغيل لـ \`${workflowFile}\` فشل (run #${run.run_number}).`);
+            }
+
+            if (hoursSince > staleHours) {
+              problems.push(`مفيش تشغيل جديد لـ \`${workflowFile}\` من أكتر من ${staleHours} ساعة (آخر تشغيل من ${hoursSince.toFixed(1)} ساعة).`);
+            }
+
+            if (problems.length > 0) {
+              core.setOutput('problem', 'true');
+              core.setOutput('reason', problems.join('\n'));
+              core.setOutput('run_url', run.html_url);
+            } else {
+              core.setOutput('problem', 'false');
+            }
+
+      - name: Open or update issue
+        if: steps.watch.outputs.problem == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const workflowFile = '${{ inputs.build-workflow-file }}';
+            const reason = `${{ steps.watch.outputs.reason }}`;
+            const runUrl = `${{ steps.watch.outputs.run_url }}`;
+            const title = `🐕 Watchdog: مشكلة في ${workflowFile}`;
+
+            const bodyLines = [
+              `الـ Watchdog لاقى مشكلة في \`${workflowFile}\`:`,
+              '',
+              reason
+            ];
+            if (runUrl) {
+              bodyLines.push('', `رابط آخر تشغيل: ${runUrl}`);
+            }
+            bodyLines.push('', `وقت الفحص: ${new Date().toISOString()}`);
+            const body = bodyLines.join('\n');
+
+            const { data: issues } = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              labels: 'watchdog'
+            });
+
+            const existing = issues.find(i => i.title === title);
+            if (existing) {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: existing.number,
+                body: body
+              });
+            } else {
+              await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title: title,
+                body: body,
+                labels: ['watchdog']
+              });
+            }
+
+      - name: Close stale watchdog issues if healthy
+        if: steps.watch.outputs.problem == 'false'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const workflowFile = '${{ inputs.build-workflow-file }}';
+            const title = `🐕 Watchdog: مشكلة في ${workflowFile}`;
+
+            const { data: issues } = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              labels: 'watchdog'
+            });
+
+            const existing = issues.find(i => i.title === title);
+            if (existing) {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: existing.number,
+                body: `✅ الوضع رجع طبيعي - آخر تشغيل لـ \`${workflowFile}\` نجح وفي الوقت المتوقع.`
+              });
+              await github.rest.issues.update({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: existing.number,
+                state: 'closed'
+              });
+            }
