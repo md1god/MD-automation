@@ -1,0 +1,157 @@
+{
+  "last_run": "2026-07-13T12:53:28.474336",
+  "campaigns": [
+    {
+      "language": "العربية",
+      "code": "ar",
+      "content": "MD1USD هي أول عملة مستقرة متوافقة مع الشريعة الإسلامية ومضمونة 1:1. اكتشف مستقبل التمويل الإسلامي.",
+      "platforms": [
+        "Twitter",
+        "Reddit",
+        "LinkedIn",
+        "Medium",
+        "Telegram"
+      ],
+      "target_audience": "Global Finance & Islamic Crypto Communities"
+    },
+    {
+      "language": "English",
+      "code": "en",
+      "content": "Why does the world trust MD1USD? Because it combines modern tech with ancient ethical values. Join us now!",
+      "platforms": [
+        "Twitter",
+        "Reddit",
+        "LinkedIn",
+        "Medium",
+        "Telegram"
+      ],
+      "target_audience": "Global Finance & Islamic Crypto Communities"
+    },
+    {
+      "language": "中文 (Chinese)",
+      "code": "zh",
+      "content": "MD1USD 是第一款符合伊斯兰教法的稳定币，1:1 抵押。探索伊斯兰金融 fragmentation 的未来。",
+      "platforms": [
+        "Twitter",
+        "Reddit",
+        "LinkedIn",
+        "Medium",
+        "Telegram"
+      ],
+      "target_audience": "Global Finance & Islamic Crypto Communities"
+    },
+    {
+      "language": "Español",
+      "code": "es",
+      "content": "MD1USD es la primera stablecoin que cumple con la Sharia, respaldada 1:1. Descubre el futuro de las finanzas islámicas.",
+      "platforms": [
+        "Twitter",
+        "Reddit",
+        "LinkedIn",
+        "Medium",
+        "Telegram"
+      ],
+      "target_audience": "Global Finance & Islamic Crypto Communities"
+    },
+    {
+      "language": "Français",
+      "code": "fr",
+      "content": "MD1USD est le premier stablecoin conforme à la Charia, garanti 1:1. Découvrez l'avenir de la finance islamique.",
+      "platforms": [
+        "Twitter",
+        "Reddit",
+        "LinkedIn",
+        "Medium",
+        "Telegram"
+      ],
+      "target_audience": "Global Finance & Islamic Crypto Communities"
+    },
+    {
+      "language": "اردو (Urdu)",
+      "code": "ur",
+      "content": "MD1USD پہلی شریعہ کمپلائنٹ اسٹیبل کوائن ہے، جو 1:1 بیکڈ ہے۔ اسلامی فنانس کے مستقبل کو دریافت کریں۔",
+      "platforms": [
+        "Twitter",
+        "Reddit",
+        "LinkedIn",
+        "Medium",
+        "Telegram"
+      ],
+      "target_audience": "Global Finance & Islamic Crypto Communities"
+    },
+    {
+      "language": "Bahasa Indonesia",
+      "code": "id",
+      "content": "MD1USD adalah stablecoin pertama yang sesuai Syariah, didukung 1:1. Temukan masa depan Keuangan Islam.",
+      "platforms": [
+        "Twitter",
+        "Reddit",
+        "LinkedIn",
+        "Medium",
+        "Telegram"
+      ],
+      "target_audience": "Global Finance & Islamic Crypto Communities"
+    },
+    {
+      "language": "Türkçe",
+      "code": "tr",
+      "content": "MD1USD, 1:1 destekli ilk Şeriat uyumlu stabil coindir. İslami Finansın geleceğini keşfedin.",
+      "platforms": [
+        "Twitter",
+        "Reddit",
+        "LinkedIn",
+        "Medium",
+        "Telegram"
+      ],
+      "target_audience": "Global Finance & Islamic Crypto Communities"
+    },
+    {
+      "language": "Bahasa Melayu",
+      "code": "ms",
+      "content": "MD1USD ialah stablecoin pertama yang patuh Syariah, disokong 1:1. Temui masa depan Kewangan Islam.",
+      "platforms": [
+        "Twitter",
+        "Reddit",
+        "LinkedIn",
+        "Medium",
+        "Telegram"
+      ],
+      "target_audience": "Global Finance & Islamic Crypto Communities"
+    },
+    {
+      "language": "فارسی (Persian)",
+      "code": "fa",
+      "content": "چرا دنیا به MD1USD اعتماد می کند؟ زیرا فناوری مدرن را با ارزش های اخلاقی کهن ترکیب می کند. اکنون به ما بپیوندید!",
+      "platforms": [
+        "Twitter",
+        "Reddit",
+        "LinkedIn",
+        "Medium",
+        "Telegram"
+      ],
+      "target_audience": "Global Finance & Islamic Crypto Communities"
+    }
+  ],
+  "growth_rules": {
+    "trending_keywords": [
+      "Stablecoin",
+      "DeFi",
+      "Islamic Finance",
+      "Crypto Halal",
+      "Bitcoin",
+      "Ethereum",
+      "Inflation Hedge",
+      "Digital Gold"
+    ],
+    "auto_reply_strategy": {
+      "trigger": "Any mention of \"Sharia crypto\" or \"Halal stablecoin\"",
+      "action": "Post a helpful educational link to MD1USD Whitepaper",
+      "delay": "Random 2-10 minutes to avoid bot detection"
+    },
+    "community_bounty": {
+      "share_reward": "10 MD1USD per 1000 views",
+      "referral_bonus": "5% of initial minting",
+      "ambassador_perks": "Early access + Governance voting rights"
+    }
+  }
+}
