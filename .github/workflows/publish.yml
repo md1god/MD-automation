@@ -1,0 +1,10 @@
+name: Publish
+on:
+  workflow_dispatch:
+jobs:
+  publish:
+    permissions: { contents: write }
+    uses: md1god/MD-automation/.github/workflows/reusable-publish.yml@main
+    secrets:
+      BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+      CHAT_ID: ${{ secrets.CHAT_ID }}
