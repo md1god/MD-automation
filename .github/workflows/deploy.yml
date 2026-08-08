@@ -1,0 +1,12 @@
+name: Deploy
+on:
+  workflow_run:
+    workflows: ["Build"]
+    types: [completed]
+    branches: [main]
+jobs:
+  deploy:
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    permissions: { contents: read, pages: write, id-token: write }
+    uses: md1god/MD-automation/.github/workflows/reusable-deploy.yml@main
+    with: { build-command: npm run build, output-dir: dist }
