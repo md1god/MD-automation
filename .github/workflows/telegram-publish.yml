@@ -1,0 +1,28 @@
+name: Telegram Publish
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 9 * * *'   # كل يوم الساعة 9 صباحًا UTC — عدّل حسب رغبتك
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install -r social/requirements.txt
+      - name: Publish to Telegram
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        run: python social/telegram/bot.py
+      - name: Commit updated posts sequence
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add social/stats.py social/telegram/publish_log.json 2>/dev/null || true
+          git diff --staged --quiet || git commit -m "chore: update publish log [skip ci]"
+          git push
