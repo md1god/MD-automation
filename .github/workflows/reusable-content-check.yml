@@ -1,0 +1,158 @@
+name: Reusable Content Check
+
+on:
+  workflow_call:
+    inputs:
+      required-files:
+        description: "قائمة الملفات المطلوبة، كل ملف في سطر (مسارات نسبية لجذر الريبو، مثال dist/index.html)"
+        required: true
+        type: string
+      min-bytes:
+        description: "أقل حجم مقبول بالبايت لكل ملف مطلوب"
+        required: false
+        type: string
+        default: '1'
+      build-command:
+        description: "أمر البناء (لو المشروع فيه build step زي Vite). سيبه فاضي لو مفيش build"
+        required: false
+        type: string
+        default: 'npm run build'
+      skip-build:
+        description: "true لو الريبو مش محتاج npm install/build خالص (مثلاً موقع HTML ثابت)"
+        required: false
+        type: boolean
+        default: false
+      node-version:
+        required: false
+        type: string
+        default: '20'
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        if: ${{ inputs.skip-build == false }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ inputs.node-version }}
+
+      - name: Detect package manager and install deps
+        if: ${{ inputs.skip-build == false }}
+        run: |
+          if [ -f "pnpm-lock.yaml" ]; then
+            echo "PKG_MANAGER=pnpm" >> "$GITHUB_ENV"
+            corepack enable
+            corepack prepare pnpm@latest --activate
+            pnpm install --frozen-lockfile || pnpm install
+          elif [ -f "yarn.lock" ]; then
+            echo "PKG_MANAGER=yarn" >> "$GITHUB_ENV"
+            corepack enable
+            yarn install --frozen-lockfile || yarn install
+          elif [ -f "package-lock.json" ]; then
+            echo "PKG_MANAGER=npm" >> "$GITHUB_ENV"
+            npm ci
+          elif [ -f "package.json" ]; then
+            echo "PKG_MANAGER=npm" >> "$GITHUB_ENV"
+            npm install
+          else
+            echo "لا يوجد package.json — تخطي تثبيت الاعتمادات"
+            echo "PKG_MANAGER=none" >> "$GITHUB_ENV"
+          fi
+
+      - name: Build project
+        if: ${{ inputs.skip-build == false }}
+        run: |
+          if [ "$PKG_MANAGER" = "none" ]; then
+            echo "مفيش package.json، تخطي خطوة البناء"
+          elif [ "$PKG_MANAGER" = "pnpm" ]; then
+            pnpm run build
+          elif [ "$PKG_MANAGER" = "yarn" ]; then
+            yarn build
+          else
+            ${{ inputs.build-command }}
+          fi
+
+      - name: Check required files
+        id: content_check
+        run: |
+          set +e
+          MIN_BYTES="${{ inputs.min-bytes }}"
+          FAILED=0
+          REPORT=""
+
+          while IFS= read -r file; do
+            [ -z "$file" ] && continue
+            if [ ! -f "$file" ]; then
+              REPORT="${REPORT}❌ الملف غير موجود: \`$file\`\n"
+              FAILED=1
+              continue
+            fi
+            SIZE=$(stat -c%s "$file")
+            if [ "$SIZE" -lt "$MIN_BYTES" ]; then
+              REPORT="${REPORT}⚠️ الملف \`$file\` صغير جدًا ($SIZE بايت، الحد الأدنى $MIN_BYTES)\n"
+              FAILED=1
+            else
+              REPORT="${REPORT}✅ \`$file\` ($SIZE بايت)\n"
+            fi
+          done <<< "${{ inputs.required-files }}"
+
+          echo -e "$REPORT"
+          {
+            echo "report<<EOF"
+            echo -e "$REPORT"
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
+
+          if [ "$FAILED" -eq 1 ]; then
+            echo "failed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "failed=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Open issue on failure
+        if: steps.content_check.outputs.failed == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const report = `${{ steps.content_check.outputs.report }}`;
+            const title = `🚨 فشل فحص المحتوى - ${new Date().toISOString().slice(0,10)}`;
+            const body = [
+              'فحص المحتوى الدوري لقى مشكلة في الملفات المطلوبة:',
+              '',
+              report,
+              '',
+              `تفاصيل التشغيل: ${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`
+            ].join('\n');
+
+            const { data: issues } = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              labels: 'content-check'
+            });
+
+            const existing = issues.find(i => i.title.startsWith('🚨 فشل فحص المحتوى'));
+            if (existing) {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: existing.number,
+                body: body
+              });
+            } else {
+              await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title: title,
+                body: body,
+                labels: ['content-check']
+              });
+            }
+
+      - name: Fail job if content check failed
+        if: steps.content_check.outputs.failed == 'true'
+        run: exit 1
