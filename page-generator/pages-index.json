@@ -1822,5 +1822,13 @@
     "audio": "theme-horus.mp3",
     "date": "2026-08-09T03:42:54.431Z",
     "file": "pages/page-0228.html"
+  },
+  {
+    "id": "page-0229",
+    "title": "جسر السلاسل",
+    "image": "chains-bridge.jpg",
+    "audio": "theme-tech.mp3",
+    "date": "2026-08-09T05:05:01.600Z",
+    "file": "pages/page-0229.html"
   }
 ]
