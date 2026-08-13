@@ -2422,5 +2422,13 @@
     "audio": "theme-calm.mp3",
     "date": "2026-08-13T16:03:20.460Z",
     "file": "pages/page-0303.html"
+  },
+  {
+    "id": "page-0304",
+    "title": "ثقة بلا وسيط",
+    "image": "code-trust.jpg",
+    "audio": "theme-horus.mp3",
+    "date": "2026-08-13T17:57:22.256Z",
+    "file": "pages/page-0304.html"
   }
 ]
