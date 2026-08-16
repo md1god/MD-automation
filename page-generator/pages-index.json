@@ -2950,5 +2950,13 @@
     "audio": "theme-calm.mp3",
     "date": "2026-08-16T20:21:51.429Z",
     "file": "pages/page-0369.html"
+  },
+  {
+    "id": "page-0370",
+    "title": "عين حورس",
+    "image": "horus-eye.jpg",
+    "audio": "theme-horus.mp3",
+    "date": "2026-08-16T21:19:47.552Z",
+    "file": "pages/page-0370.html"
   }
 ]
