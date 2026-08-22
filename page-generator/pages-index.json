@@ -3998,5 +3998,13 @@
     "audio": "theme-horus.mp3",
     "date": "2026-08-22T14:20:59.310Z",
     "file": "pages/page-0500.html"
+  },
+  {
+    "id": "page-0501",
+    "title": "ميزان العدالة المالية",
+    "image": "scale-balance.jpg",
+    "audio": "theme-tech.mp3",
+    "date": "2026-08-22T15:20:50.464Z",
+    "file": "pages/page-0501.html"
   }
 ]
