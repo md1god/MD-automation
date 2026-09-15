@@ -5606,5 +5606,13 @@
     "audio": "theme-calm.mp3",
     "date": "2026-09-15T01:12:03.316Z",
     "file": "pages/page-0701.html"
+  },
+  {
+    "id": "page-0702",
+    "title": "جسر السلاسل",
+    "image": "chains-bridge.jpg",
+    "audio": "theme-tech.mp3",
+    "date": "2026-09-15T07:16:31.975Z",
+    "file": "pages/page-0702.html"
   }
 ]
