@@ -29,6 +29,10 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Install OpenCode CLI (free models only work from inside OpenCode)
+        continue-on-error: true
+        run: npm install -g opencode-ai
+
       - name: Run scout (Dry Run - nothing is published)
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
