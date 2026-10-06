@@ -71,6 +71,16 @@ def _bundle_keys():
         key, value = line.split("=", 1)
         if value.strip():
             out[key.strip().upper()] = value.strip().strip('"').strip("'")
+    if out:
+        return out
+    # Some secret managers store several unnamed tokens separated by whitespace.
+    # Infer only well-known prefixes; never send an unrecognized token anywhere.
+    for token in raw.replace(",", " ").split():
+        token = token.strip().strip('"').strip("'")
+        if token.startswith("sk-or-v1-"):
+            out["OPENROUTER_API_KEY"] = token
+        elif token.startswith("gsk_"):
+            out["GROQ_API_KEY"] = token
     return out
 
 
