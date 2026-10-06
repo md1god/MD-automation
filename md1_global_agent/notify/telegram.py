@@ -7,11 +7,25 @@ TOKEN_NAMES = ["BOT_TOKEN", "TELEGRAM_BOT_TOKEN"]
 CHAT_NAMES = ["CHAT_ID", "TELEGRAM_CHAT_ID"]
 
 
+def _clean_token(value: str) -> str:
+    """Secrets often carry a trailing newline/space or a leading 'bot' copied from the URL."""
+    value = "".join(value.split())
+    return value[3:] if value.lower().startswith("bot") and ":" in value[3:] else value
+
+
+def _hint(err: str) -> str:
+    if err.startswith(("404", "401")):
+        return " -> Telegram does not accept this TOKEN (revoked, mistyped or from another bot)"
+    if "chat not found" in err:
+        return " -> token is valid; this bot cannot reach that chat: open the bot and send /start"
+    return ""
+
+
 def _candidates():
     """(token_name, token, chat_name, chat) pairs. Different secrets may belong to different
     bots, so every token/chat combination is tried; only secret NAMES are ever logged."""
-    tokens = [(n, os.getenv(n)) for n in TOKEN_NAMES if os.getenv(n)]
-    chats = [(n, os.getenv(n)) for n in CHAT_NAMES if os.getenv(n)]
+    tokens = [(n, _clean_token(os.getenv(n))) for n in TOKEN_NAMES if os.getenv(n, "").strip()]
+    chats = [(n, os.getenv(n).strip()) for n in CHAT_NAMES if os.getenv(n, "").strip()]
     seen, out = set(), []
     for tn, tv in tokens:
         for cn, cv in chats:
@@ -59,7 +73,7 @@ def send(text: str) -> bool:
         if ok:
             print(f"Telegram: report sent (token={tn}, chat={cn})")
             return True
-        print(f"Telegram: {tn} + {cn} failed ({err})")
+        print(f"Telegram: {tn} + {cn} failed ({err}){_hint(err)}")
     # Last resort: the private chat that wrote to one of the bots (needs one /start).
     for tn, tv in tokens:
         chat, why = _discover_chat(tv)

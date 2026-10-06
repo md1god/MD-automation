@@ -37,14 +37,13 @@ destinations:
   - md1usd.com
   - mdm1.org
 
-# Free-first planning providers, tried in order; models listed per provider are tried in order too.
-# API_KEYS secret may be JSON or KEY=value lines (OPENCODE_API_KEY, OPENROUTER_API_KEY, GROQ_API_KEY).
+# Free-first planning providers, tried in order. Models are discovered at run time where possible
+# (OpenRouter free list, Groq key's model list, OpenCode CLI model list); names below are preferences.
+# opencode_cli = the real OpenCode CLI (free models are refused over the API).
 llm:
-  providers: [opencode, openrouter, groq, github]
+  providers: [opencode_cli, openrouter, groq, github]
   models:
-    opencode: [big-pickle, mimo-v2.5-free, nemotron-3-ultra-free]
-    openrouter: [openrouter/free]
-    groq: [llama-3.3-70b-versatile]
+    opencode_cli: [big-pickle, mimo-v2.6-flash-free, nemotron-3-ultra-free]
     github: [openai/gpt-4o]
 
 memory_file: memory/memory.json
