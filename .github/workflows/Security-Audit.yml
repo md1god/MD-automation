@@ -12,35 +12,54 @@ on:
 
 jobs:
   rust-audit:
-    name: Rust Dependency Audit (MD1usd - Solana)
+    name: Rust Dependency Audit (when Rust exists)
     runs-on: ubuntu-latest
     permissions:
       contents: read
       issues: write
     steps:
       - uses: actions/checkout@v4
+      - name: Detect Rust lockfile
+        id: detect
+        run: |
+          if find . -name Cargo.lock -type f -print -quit | grep -q .; then
+            echo "present=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "present=false" >> "$GITHUB_OUTPUT"
+            echo "No Cargo.lock found; Rust audit skipped for this repository."
+          fi
       - name: Run cargo audit
+        if: steps.detect.outputs.present == 'true'
         uses: actions-rust-lang/audit@v1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
   solidity-audit:
-    name: Solidity Static Analysis (MDM1 - Polygon)
+    name: Solidity Static Analysis (when Solidity exists)
     runs-on: ubuntu-latest
     permissions:
       contents: read
       security-events: write
     steps:
       - uses: actions/checkout@v4
+      - name: Detect Solidity sources
+        id: detect
+        run: |
+          if find . -name '*.sol' -type f -print -quit | grep -q .; then
+            echo "present=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "present=false" >> "$GITHUB_OUTPUT"
+            echo "No Solidity source found; Slither audit skipped for this repository."
+          fi
       - name: Run Slither
+        if: steps.detect.outputs.present == 'true'
         uses: crytic/slither-action@v0.4.1
         continue-on-error: true
-        id: slither
         with:
           sarif: results.sarif
           fail-on: high
       - name: Upload SARIF results
+        if: always() && steps.detect.outputs.present == 'true' && hashFiles('results.sarif') != ''
         uses: github/codeql-action/upload-sarif@v3
-        if: always()
         with:
           sarif_file: results.sarif
