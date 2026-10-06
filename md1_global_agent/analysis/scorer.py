@@ -19,7 +19,9 @@ def score(repo: dict, config: dict, memory: dict):
         ok, license_note = True, "closed product: rebuild original (no code/design/name reuse)"
     else:
         ok, license_note = license_check(repo, config.get("allowed_licenses", []))
-    popularity = min(30, math.log10(max(repo["stars"], 1)) * 8)       # audience proof
+    # Audience proof, peaking for mid-size projects (~300-8000 stars); giants have no room.
+    logs = math.log10(max(repo["stars"], 1))
+    popularity = min(30, logs * 8) if logs <= 3.9 else max(5, 30 - (logs - 3.9) * 20)
     activity_days = _days_since(repo["pushed_at"])
     activity = 25 if activity_days < 30 else 15 if activity_days < 180 else 0
     # repos: many open issues vs stars = unmet needs; products: heavy discussion = demand
