@@ -1,0 +1,50 @@
+name: MD1 Global Scout
+
+on:
+  schedule:
+    - cron: "0 6 * * *"   # daily 06:00 UTC (09:00 Cairo)
+  workflow_dispatch: {}    # manual run button
+
+permissions:
+  contents: read
+
+jobs:
+  scout:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    defaults:
+      run:
+        working-directory: md1_global_agent
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: md1_global_agent/requirements.txt
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run scout (Dry Run - nothing is published)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python main.py | tee report.txt
+
+      - name: Show report in job summary
+        if: always()
+        run: |
+          {
+            echo "## MD1 Global Scout report"
+            echo '```'
+            cat report.txt 2>/dev/null || echo "no report"
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: scout-report
+          path: md1_global_agent/report.txt
+          if-no-files-found: ignore
