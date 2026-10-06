@@ -38,4 +38,14 @@ destinations:
   - md1usd.com
   - mdm1.org
 
+# LLM used for planning. Tried in order; first with credentials that works wins.
+# github = FREE (built-in GITHUB_TOKEN, no secret). groq = free tier (GROQ_API_KEY).
+# anthropic = paid (ANTHROPIC_API_KEY).
+llm:
+  providers: [github, groq, anthropic]
+  models:
+    github: openai/gpt-4o
+    groq: llama-3.3-70b-versatile
+    anthropic: claude-sonnet-5-5
+
 memory_file: memory/memory.json
