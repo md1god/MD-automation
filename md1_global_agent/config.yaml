@@ -46,4 +46,7 @@ llm:
     opencode_cli: [big-pickle, mimo-v2.6-flash-free, nemotron-3-ultra-free]
     github: [openai/gpt-4o]
 
+# Where the daily report goes if no private chat works (set "" to disable). Uses TELEGRAM_BOT_TOKEN.
+telegram_report_channel: "@md1god"
+
 memory_file: memory/memory.json

@@ -18,7 +18,7 @@ def main():
         print(f"{a['score']:5} | {o['mode']:16} | {r['full_name']} | {r['category']} | {a['license_note']}")
     print("Advice:", report["advice"])
     title, error = write_plan(opportunities, config.get("llm", {}))
-    telegram.send(telegram.daily_report(
+    telegram.send(channel=config.get("telegram_report_channel", ""), text=telegram.daily_report(
         config, opportunities, report, title, make_plan.used, error,
         "تفاصيل الخطة في Issue باسم Scout plan اليوم على الريبو." if title else ""))
 

@@ -63,7 +63,7 @@ def _post(token, chat, text):
     return resp.ok, ("" if resp.ok else f"{resp.status_code}: {resp.text[:150]}")
 
 
-def send(text: str) -> bool:
+def send(text: str, channel: str = "") -> bool:
     tokens, pairs = _candidates()
     if not tokens:
         print("Telegram: skipped - no BOT_TOKEN / TELEGRAM_BOT_TOKEN secret reached the job")
@@ -85,6 +85,14 @@ def send(text: str) -> bool:
             print(f"Telegram: report sent (token={tn}, chat discovered via /start)")
             return True
         print(f"Telegram: {tn} + discovered chat failed ({err})")
+    # The daily publisher bot (TELEGRAM_BOT_TOKEN) is known to post to the owner's channel.
+    token = dict(tokens).get("TELEGRAM_BOT_TOKEN")
+    if channel and token:
+        ok, err = _post(token, channel, text)
+        if ok:
+            print(f"Telegram: report sent to channel {channel} (private chat unavailable; send /start to the bot to receive it privately)")
+            return True
+        print(f"Telegram: channel {channel} failed ({err})")
     print("Telegram: not delivered")
     return False
 
