@@ -4,10 +4,13 @@ on:
     - cron: '0 */6 * * *'
   workflow_dispatch:
 
-# المستودعات المستهدفة عامة؛ لا نستخدم SITES_PAT منتهي الصلاحية للفحص.
-# نشر المواقع نفسه يتم من داخل كل مستودع عبر Workflow الخاص به.
+# المستودعات عامة؛ لا نستخدم SITES_PAT منتهي الصلاحية للفحص.
+permissions:
+  contents: read
+  actions: write
+
 jobs:
-  orchestrate:
+  validate:
     strategy:
       fail-fast: false
       matrix:
@@ -21,7 +24,6 @@ jobs:
           path: site
 
       - name: Detect and build if needed
-        id: build
         working-directory: site
         run: |
           set -e
@@ -33,6 +35,21 @@ jobs:
           fi
 
       - name: Report successful validation
-        run: |
-          echo "✅ ${{ matrix.site }} passed the shared validation."
-          echo "Deployment remains owned by the site's own GitHub Pages workflow."
+        run: echo "✅ ${{ matrix.site }} passed the shared validation."
+
+  publish:
+    needs: validate
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Telegram publish after both site checks
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ github.token }}
+          script: |
+            await github.rest.actions.createWorkflowDispatch({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              workflow_id: 'publish.yml',
+              ref: 'main'
+            });
+            core.info('✅ تم تشغيل Workflow النشر التسويقي بعد نجاح فحص الموقعين.');
