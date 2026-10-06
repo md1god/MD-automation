@@ -30,22 +30,19 @@ categories:
 
 # Trending closed products (idea sources only - never copied)
 product_sources:
-  - hackernews          # free, no key
-  - producthunt         # optional: set PRODUCTHUNT_TOKEN, otherwise skipped
+  - hackernews
+  - producthunt
 
-# Where promotion traffic is sent
 destinations:
   - md1usd.com
   - mdm1.org
 
-# LLM used for planning. Tried in order; first with credentials that works wins.
-# github = FREE (built-in GITHUB_TOKEN, no secret). groq = free tier (GROQ_API_KEY).
-# anthropic = paid (ANTHROPIC_API_KEY).
+# Free-first planning providers. API_KEYS may be JSON or KEY=value lines.
 llm:
-  providers: [github, groq, anthropic]
+  providers: [openrouter, groq, github]
   models:
-    github: openai/gpt-4o
+    openrouter: openrouter/free
     groq: llama-3.3-70b-versatile
-    anthropic: claude-sonnet-5-5
+    github: openai/gpt-4o
 
 memory_file: memory/memory.json

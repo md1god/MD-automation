@@ -1,24 +1,27 @@
-"""Builder step 1: turns an opportunity into a concrete business + build plan using an LLM.
+"""Turn a scored opportunity into a short, license-aware business/build plan.
 
-Providers are tried in the order given by config `llm.providers`; the first one that has
-credentials AND answers successfully wins:
-  github     FREE. Uses the workflow's built-in GITHUB_TOKEN (needs `models: read`).
-  groq       free tier. Needs GROQ_API_KEY.
-  anthropic  paid. Needs ANTHROPIC_API_KEY.
-Planning only: it publishes nothing.
+Providers are tried in config order. Credentials may be supplied directly or inside
+API_KEYS as JSON (for example {"OPENROUTER_API_KEY":"...","GROQ_API_KEY":"..."})
+or KEY=value lines. Secret values are never printed.
 """
+import json
 import os
 import requests
 
 PROVIDERS = {
-    "github": {
-        "url": "https://models.github.ai/inference/chat/completions",
-        "key_env": "GITHUB_TOKEN",
+    "openrouter": {
+        "url": "https://openrouter.ai/api/v1/chat/completions",
+        "key_env": "OPENROUTER_API_KEY",
         "style": "openai",
     },
     "groq": {
         "url": "https://api.groq.com/openai/v1/chat/completions",
         "key_env": "GROQ_API_KEY",
+        "style": "openai",
+    },
+    "github": {
+        "url": "https://models.github.ai/inference/chat/completions",
+        "key_env": "GITHUB_TOKEN",
         "style": "openai",
     },
     "anthropic": {
@@ -29,9 +32,10 @@ PROVIDERS = {
 }
 
 DEFAULT_MODELS = {
-    "github": "openai/gpt-4o",
+    "openrouter": "openrouter/free",
     "groq": "llama-3.3-70b-versatile",
-    "anthropic": "claude-sonnet-5-5",
+    "github": "openai/gpt-4o",
+    "anthropic": "claude-sonnet-4-5",
 }
 
 PROMPTS = {
@@ -46,6 +50,38 @@ PROMPTS = {
         "code written from scratch. Copy nothing from it. Prefer a free-to-start model."
     ),
 }
+
+
+def _bundle_keys():
+    """Read API_KEYS without ever logging it; tolerate JSON and KEY=value formats."""
+    raw = os.getenv("API_KEYS", "").strip()
+    if not raw:
+        return {}
+    try:
+        data = json.loads(raw)
+        if isinstance(data, dict):
+            return {str(k).upper(): str(v) for k, v in data.items() if v}
+    except (json.JSONDecodeError, TypeError):
+        pass
+    out = {}
+    for line in raw.splitlines():
+        line = line.strip()
+        if not line or line.startswith("#") or "=" not in line:
+            continue
+        key, value = line.split("=", 1)
+        if value.strip():
+            out[key.strip().upper()] = value.strip().strip('"').strip("'")
+    return out
+
+
+def _key_for(provider: str, spec: dict):
+    aliases = [spec["key_env"], provider.upper(), f"{provider.upper()}_API_KEY"]
+    bundle = _bundle_keys()
+    for name in aliases:
+        value = os.getenv(name) or bundle.get(name.upper())
+        if value:
+            return value
+    return None
 
 
 def build_prompt(opp: dict) -> str:
@@ -74,7 +110,6 @@ def _call(name: str, model: str, prompt: str, key: str) -> str:
                 "messages": [{"role": "user", "content": prompt}]}
     resp = requests.post(spec["url"], headers=headers, json=body, timeout=120)
     if not resp.ok:
-        # Show the provider's own error text (never contains our key) to make failures debuggable.
         raise RuntimeError(f"{resp.status_code}: {resp.text[:300]}")
     data = resp.json()
     if spec["style"] == "anthropic":
@@ -86,9 +121,12 @@ def make_plan(opp: dict, llm: dict = None) -> str:
     llm = llm or {}
     prompt = build_prompt(opp)
     errors = []
-    for name in llm.get("providers", ["github", "groq", "anthropic"]):
+    for name in llm.get("providers", ["openrouter", "groq", "github"]):
         spec = PROVIDERS.get(name)
-        key = os.getenv(spec["key_env"]) if spec else None
+        if not spec:
+            errors.append(f"{name}: unsupported provider")
+            continue
+        key = _key_for(name, spec)
         if not key:
             continue
         model = llm.get("models", {}).get(name, DEFAULT_MODELS[name])
@@ -96,5 +134,5 @@ def make_plan(opp: dict, llm: dict = None) -> str:
             return _call(name, model, prompt, key)
         except Exception as exc:
             errors.append(f"{name}: {exc}")
-    raise RuntimeError("no LLM provider succeeded -> " + " | ".join(errors) if errors
-                       else "no LLM credentials available")
+    raise RuntimeError("no LLM provider succeeded -> " + " | ".join(errors)
+                       if errors else "no LLM credentials available")
