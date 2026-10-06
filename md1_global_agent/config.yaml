@@ -1,0 +1,31 @@
+# MD1 Global Agent configuration
+dry_run: true            # true = discover & evaluate only, never publish or push anything
+max_results_per_query: 10
+min_score_to_build: 60   # opportunities below this score are not built
+max_fix_cycles: 3        # hard cap on Builder auto-fix loops (no infinite loops)
+
+# Licenses that allow commercial use / modification
+allowed_licenses:
+  - mit
+  - apache-2.0
+  - bsd-2-clause
+  - bsd-3-clause
+  - isc
+  - unlicense
+  - mpl-2.0
+
+categories:
+  saas:
+    query: "saas starter in:name,description stars:>200"
+  ai_agents:
+    query: "ai agents in:name,description stars:>300"
+  developer_tools:
+    query: "developer tools cli in:name,description stars:>300"
+  ecommerce:
+    query: "ecommerce in:name,description stars:>200"
+  productivity:
+    query: "productivity app in:name,description stars:>300"
+  apis:
+    query: "api boilerplate in:name,description stars:>200"
+
+memory_file: memory/memory.json
