@@ -16,20 +16,17 @@ def main():
         r, a = o["repo"], o["analysis"]
         print(f"{a['score']:5} | {o['mode']:16} | {r['full_name']} | {r['category']} | {a['license_note']}")
     print("Advice:", report["advice"])
-    write_plan(opportunities)
+    write_plan(opportunities, config.get("llm", {}))
 
 
-def write_plan(opportunities):
-    """If ANTHROPIC_API_KEY is set, plan the best buildable opportunity into plan.md."""
-    if not os.getenv("ANTHROPIC_API_KEY"):
-        print("Plan: skipped (no ANTHROPIC_API_KEY)")
-        return
+def write_plan(opportunities, llm=None):
+    """Plan the best buildable opportunity into plan.md using the first working LLM provider."""
     best = next((o for o in opportunities if "builder" in o), None)
     if not best:
         print("Plan: no opportunity passed the build threshold")
         return
     try:
-        text = make_plan(best)
+        text = make_plan(best, llm)
     except Exception as exc:
         print(f"Plan: failed ({exc})")
         return
