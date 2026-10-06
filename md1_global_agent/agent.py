@@ -1,11 +1,17 @@
 """Orchestrates the roles: Scout -> Investigator/Strategist -> Builder/Monetizer/Distributor -> Analyst -> Memory."""
-from discovery.github_source import scout
+from discovery.github_source import scout as scout_github
+from discovery.products_source import scout as scout_products
 from analysis.scorer import score
+from analysis.classifier import mode as classify
 from builder.builder import plan as builder_plan
 from monetization.monetizer import suggest
 from distribution.distributor import plan as distribution_plan
 from analytics.analyst import summarize
 from memory import store
+
+
+def scout(config: dict):
+    return scout_github(config) + scout_products(config)
 
 
 def run(config: dict):
@@ -14,11 +20,14 @@ def run(config: dict):
     opportunities = []
     for repo in repos:
         analysis = score(repo, config, memory)
-        item = {"repo": repo, "analysis": analysis}
-        if analysis["score"] >= config["min_score_to_build"]:
-            item["builder"] = builder_plan(repo, analysis, config["max_fix_cycles"], config["dry_run"])
+        build_mode = classify(repo, analysis)
+        item = {"repo": repo, "analysis": analysis, "mode": build_mode}
+        if build_mode != "skip" and analysis["score"] >= config["min_score_to_build"]:
+            item["builder"] = builder_plan(repo, analysis, build_mode,
+                                           config["max_fix_cycles"], config["dry_run"])
             item["monetization"] = suggest(repo)
-            item["distribution"] = distribution_plan(repo, config["dry_run"])
+            item["distribution"] = distribution_plan(repo["full_name"], repo["category"],
+                                                     config.get("destinations", []))
         opportunities.append(item)
     opportunities.sort(key=lambda o: o["analysis"]["score"], reverse=True)
     report = summarize(opportunities)
