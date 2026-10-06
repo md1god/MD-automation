@@ -13,12 +13,18 @@ def _days_since(iso):
 
 
 def score(repo: dict, config: dict, memory: dict):
-    ok, license_note = license_check(repo, config.get("allowed_licenses", []))
+    is_product = repo.get("kind") == "product"
+    if is_product:
+        # Closed product: only the idea is reusable, so no license is needed.
+        ok, license_note = True, "closed product: rebuild original (no code/design/name reuse)"
+    else:
+        ok, license_note = license_check(repo, config.get("allowed_licenses", []))
     popularity = min(30, math.log10(max(repo["stars"], 1)) * 8)       # audience proof
     activity_days = _days_since(repo["pushed_at"])
     activity = 25 if activity_days < 30 else 15 if activity_days < 180 else 0
-    # many open issues vs stars = unmet needs = room for a better/different version
-    gap = min(20, repo["open_issues"] / max(repo["stars"], 1) * 400)
+    # repos: many open issues vs stars = unmet needs; products: heavy discussion = demand
+    ratio = repo["open_issues"] / max(repo["stars"], 1)
+    gap = min(20, ratio * (60 if is_product else 400))
     commercial = 25 if ok else 0
     total = popularity + activity + gap + commercial
     if repo["archived"]:

@@ -28,4 +28,14 @@ categories:
   apis:
     query: "api boilerplate in:name,description stars:>200"
 
+# Trending closed products (idea sources only - never copied)
+product_sources:
+  - hackernews          # free, no key
+  - producthunt         # optional: set PRODUCTHUNT_TOKEN, otherwise skipped
+
+# Where promotion traffic is sent
+destinations:
+  - md1usd.com
+  - mdm1.org
+
 memory_file: memory/memory.json
