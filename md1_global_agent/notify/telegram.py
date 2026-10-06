@@ -9,11 +9,33 @@ def _creds():
     return token, chat
 
 
+def _discover_chat(token: str):
+    """Find the owner's private chat: the most recent private chat that wrote to the bot."""
+    try:
+        resp = requests.get(f"https://api.telegram.org/bot{token}/getUpdates", timeout=30)
+    except requests.RequestException as exc:
+        return None, f"getUpdates failed ({type(exc).__name__})"
+    if not resp.ok:
+        return None, f"getUpdates {resp.status_code}: {resp.text[:150]}"
+    for update in reversed(resp.json().get("result", [])):
+        msg = update.get("message") or update.get("my_chat_member") or {}
+        chat = msg.get("chat") or {}
+        if chat.get("type") == "private" and chat.get("id"):
+            return str(chat["id"]), None
+    return None, "no private chat found: open the bot in Telegram and send it /start once"
+
+
 def send(text: str) -> bool:
     token, chat = _creds()
-    if not token or not chat:
-        print("Telegram: skipped (no bot token / chat id in secrets)")
+    if not token:
+        print("Telegram: skipped - no TELEGRAM_BOT_TOKEN / BOT_TOKEN secret reached the job")
         return False
+    if not chat:
+        chat, why = _discover_chat(token)
+        if not chat:
+            print(f"Telegram: skipped - no TELEGRAM_CHAT_ID secret and discovery failed: {why}")
+            return False
+        print("Telegram: chat id discovered automatically; add it as TELEGRAM_CHAT_ID secret to make it permanent")
     try:
         resp = requests.post(
             f"https://api.telegram.org/bot{token}/sendMessage",
