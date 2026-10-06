@@ -3,17 +3,41 @@ import os
 import requests
 
 
-def _creds():
-    token = os.getenv("TELEGRAM_BOT_TOKEN") or os.getenv("BOT_TOKEN")
-    chat = os.getenv("TELEGRAM_CHAT_ID") or os.getenv("CHAT_ID")
-    return token, chat
+TOKEN_NAMES = ["BOT_TOKEN", "TELEGRAM_BOT_TOKEN"]
+CHAT_NAMES = ["CHAT_ID", "TELEGRAM_CHAT_ID"]
 
 
-def send(text: str) -> bool:
-    token, chat = _creds()
-    if not token or not chat:
-        print("Telegram: skipped (no bot token / chat id in secrets)")
-        return False
+def _candidates():
+    """(token_name, token, chat_name, chat) pairs. Different secrets may belong to different
+    bots, so every token/chat combination is tried; only secret NAMES are ever logged."""
+    tokens = [(n, os.getenv(n)) for n in TOKEN_NAMES if os.getenv(n)]
+    chats = [(n, os.getenv(n)) for n in CHAT_NAMES if os.getenv(n)]
+    seen, out = set(), []
+    for tn, tv in tokens:
+        for cn, cv in chats:
+            if (tv, cv) not in seen:
+                seen.add((tv, cv))
+                out.append((tn, tv, cn, cv))
+    return tokens, out
+
+
+def _discover_chat(token: str):
+    """Find the owner's private chat: the most recent private chat that wrote to the bot."""
+    try:
+        resp = requests.get(f"https://api.telegram.org/bot{token}/getUpdates", timeout=30)
+    except requests.RequestException as exc:
+        return None, f"getUpdates failed ({type(exc).__name__})"
+    if not resp.ok:
+        return None, f"getUpdates {resp.status_code}: {resp.text[:150]}"
+    for update in reversed(resp.json().get("result", [])):
+        msg = update.get("message") or update.get("my_chat_member") or {}
+        chat = msg.get("chat") or {}
+        if chat.get("type") == "private" and chat.get("id"):
+            return str(chat["id"]), None
+    return None, "no private chat found: open the bot in Telegram and send it /start once"
+
+
+def _post(token, chat, text):
     try:
         resp = requests.post(
             f"https://api.telegram.org/bot{token}/sendMessage",
@@ -21,13 +45,34 @@ def send(text: str) -> bool:
             timeout=30,
         )
     except requests.RequestException as exc:
-        print(f"Telegram: failed ({type(exc).__name__})")
+        return False, type(exc).__name__
+    return resp.ok, ("" if resp.ok else f"{resp.status_code}: {resp.text[:150]}")
+
+
+def send(text: str) -> bool:
+    tokens, pairs = _candidates()
+    if not tokens:
+        print("Telegram: skipped - no BOT_TOKEN / TELEGRAM_BOT_TOKEN secret reached the job")
         return False
-    if not resp.ok:
-        print(f"Telegram: failed ({resp.status_code}: {resp.text[:200]})")
-        return False
-    print("Telegram: report sent")
-    return True
+    for tn, tv, cn, cv in pairs:
+        ok, err = _post(tv, cv, text)
+        if ok:
+            print(f"Telegram: report sent (token={tn}, chat={cn})")
+            return True
+        print(f"Telegram: {tn} + {cn} failed ({err})")
+    # Last resort: the private chat that wrote to one of the bots (needs one /start).
+    for tn, tv in tokens:
+        chat, why = _discover_chat(tv)
+        if not chat:
+            print(f"Telegram: {tn} discovery failed: {why}")
+            continue
+        ok, err = _post(tv, chat, text)
+        if ok:
+            print(f"Telegram: report sent (token={tn}, chat discovered via /start)")
+            return True
+        print(f"Telegram: {tn} + discovered chat failed ({err})")
+    print("Telegram: not delivered")
+    return False
 
 
 def daily_report(config, opportunities, report, plan_title, provider, plan_error, issue_hint=""):
