@@ -37,12 +37,14 @@ destinations:
   - md1usd.com
   - mdm1.org
 
-# Free-first planning providers. API_KEYS may be JSON or KEY=value lines.
+# Free-first planning providers, tried in order; models listed per provider are tried in order too.
+# API_KEYS secret may be JSON or KEY=value lines (OPENCODE_API_KEY, OPENROUTER_API_KEY, GROQ_API_KEY).
 llm:
-  providers: [openrouter, groq, github]
+  providers: [opencode, openrouter, groq, github]
   models:
-    openrouter: openrouter/free
-    groq: llama-3.3-70b-versatile
-    github: openai/gpt-4o
+    opencode: [big-pickle, mimo-v2.5-free, nemotron-3-ultra-free]
+    openrouter: [openrouter/free]
+    groq: [llama-3.3-70b-versatile]
+    github: [openai/gpt-4o]
 
 memory_file: memory/memory.json
