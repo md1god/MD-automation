@@ -1,14 +1,24 @@
 """Turn a scored opportunity into a short, license-aware business/build plan.
 
-Providers are tried in config order. Credentials may be supplied directly or inside
-API_KEYS as JSON (for example {"OPENROUTER_API_KEY":"...","GROQ_API_KEY":"..."})
-or KEY=value lines. Secret values are never printed.
+Providers are tried in config order (free first). Credentials may be supplied directly
+as env vars or inside API_KEYS as JSON (for example {"OPENCODE_API_KEY":"...",
+"OPENROUTER_API_KEY":"...","GROQ_API_KEY":"..."}) or KEY=value lines. A label that merely
+contains the provider name (e.g. "opencode", "OPENCODE_ZEN_KEY") is accepted too.
+Secret values are never printed.
+
+A provider may have several models (config list): they are tried one after another, so a
+free model that is down or rate-limited does not stop the run.
 """
 import json
 import os
 import requests
 
 PROVIDERS = {
+    "opencode": {
+        "url": "https://opencode.ai/zen/v1/chat/completions",
+        "key_env": "OPENCODE_API_KEY",
+        "style": "openai",
+    },
     "openrouter": {
         "url": "https://openrouter.ai/api/v1/chat/completions",
         "key_env": "OPENROUTER_API_KEY",
@@ -32,10 +42,11 @@ PROVIDERS = {
 }
 
 DEFAULT_MODELS = {
-    "openrouter": "openrouter/free",
-    "groq": "llama-3.3-70b-versatile",
-    "github": "openai/gpt-4o",
-    "anthropic": "claude-sonnet-4-5",
+    "opencode": ["big-pickle", "mimo-v2.5-free", "nemotron-3-ultra-free"],
+    "openrouter": ["openrouter/free"],
+    "groq": ["llama-3.3-70b-versatile"],
+    "github": ["openai/gpt-4o"],
+    "anthropic": ["claude-sonnet-4-5"],
 }
 
 PROMPTS = {
@@ -66,9 +77,12 @@ def _bundle_keys():
     out = {}
     for line in raw.splitlines():
         line = line.strip()
-        if not line or line.startswith("#") or "=" not in line:
+        if not line or line.startswith("#"):
             continue
-        key, value = line.split("=", 1)
+        sep = "=" if "=" in line else (":" if ":" in line else None)
+        if not sep:
+            continue
+        key, value = line.split(sep, 1)
         if value.strip():
             out[key.strip().upper()] = value.strip().strip('"').strip("'")
     if out:
@@ -85,13 +99,23 @@ def _bundle_keys():
 
 
 def _key_for(provider: str, spec: dict):
-    aliases = [spec["key_env"], provider.upper(), f"{provider.upper()}_API_KEY"]
+    exact = [spec["key_env"], provider.upper(), f"{provider.upper()}_API_KEY"]
     bundle = _bundle_keys()
-    for name in aliases:
+    for name in exact:
         value = os.getenv(name) or bundle.get(name.upper())
         if value:
             return value
+    # Labeled loosely, e.g. OPENCODE_ZEN_KEY -> opencode. Skip the generic GitHub token name.
+    if provider != "github":
+        for label, value in bundle.items():
+            if provider.upper() in label:
+                return value
     return None
+
+
+def _models_for(name: str, llm: dict):
+    configured = llm.get("models", {}).get(name, DEFAULT_MODELS[name])
+    return [configured] if isinstance(configured, str) else list(configured)
 
 
 def build_prompt(opp: dict) -> str:
@@ -112,37 +136,46 @@ def _call(name: str, model: str, prompt: str, key: str) -> str:
     if spec["style"] == "anthropic":
         headers = {"x-api-key": key, "anthropic-version": "2023-06-01",
                    "content-type": "application/json"}
-        body = {"model": model, "max_tokens": 2000,
-                "messages": [{"role": "user", "content": prompt}]}
     else:
         headers = {"Authorization": f"Bearer {key}", "content-type": "application/json"}
-        body = {"model": model, "max_tokens": 2000,
-                "messages": [{"role": "user", "content": prompt}]}
+    body = {"model": model, "max_tokens": 2000,
+            "messages": [{"role": "user", "content": prompt}]}
     resp = requests.post(spec["url"], headers=headers, json=body, timeout=120)
     if not resp.ok:
         raise RuntimeError(f"{resp.status_code}: {resp.text[:300]}")
     data = resp.json()
     if spec["style"] == "anthropic":
-        return "".join(b.get("text", "") for b in data["content"])
-    return data["choices"][0]["message"]["content"]
+        text = "".join(b.get("text", "") for b in data["content"])
+    else:
+        text = data["choices"][0]["message"]["content"] or ""
+    if not text.strip():
+        raise RuntimeError("empty answer")
+    return text
 
 
 def make_plan(opp: dict, llm: dict = None) -> str:
+    """Return the plan text. The provider/model that answered is stored in make_plan.used."""
     llm = llm or {}
     prompt = build_prompt(opp)
     errors = []
-    for name in llm.get("providers", ["openrouter", "groq", "github"]):
+    make_plan.used = None
+    for name in llm.get("providers", ["opencode", "openrouter", "groq", "github"]):
         spec = PROVIDERS.get(name)
         if not spec:
             errors.append(f"{name}: unsupported provider")
             continue
         key = _key_for(name, spec)
         if not key:
+            errors.append(f"{name}: no key")
             continue
-        model = llm.get("models", {}).get(name, DEFAULT_MODELS[name])
-        try:
-            return _call(name, model, prompt, key)
-        except Exception as exc:
-            errors.append(f"{name}: {exc}")
-    raise RuntimeError("no LLM provider succeeded -> " + " | ".join(errors)
-                       if errors else "no LLM credentials available")
+        for model in _models_for(name, llm):
+            try:
+                text = _call(name, model, prompt, key)
+                make_plan.used = f"{name}/{model}"
+                return text
+            except Exception as exc:
+                errors.append(f"{name}/{model}: {exc}")
+    raise RuntimeError("no LLM provider succeeded -> " + " | ".join(errors))
+
+
+make_plan.used = None
