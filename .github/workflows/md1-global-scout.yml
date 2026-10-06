@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: read
+  issues: write
 
 jobs:
   scout:
@@ -30,7 +31,18 @@ jobs:
       - name: Run scout (Dry Run - nothing is published)
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          PRODUCTHUNT_TOKEN: ${{ secrets.PRODUCTHUNT_TOKEN }}
         run: python main.py | tee report.txt
+
+      - name: Open an issue with today's plan (if a plan was written)
+        if: hashFiles('md1_global_agent/plan.md') != ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue create --repo "$GITHUB_REPOSITORY" \
+            --title "Scout plan $(date -u +%F)" \
+            --body-file plan.md
 
       - name: Show report in job summary
         if: always()
