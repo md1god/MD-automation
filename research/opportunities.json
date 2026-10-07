@@ -26,6 +26,29 @@
       "found_at": "2026-10-07T03:59:18.422367+00:00"
     },
     {
+      "name": "AI search visibility / GEO brand-citation checker",
+      "field": "Marketing & SEO (GEO/AEO)",
+      "summary": "A free web tool that checks how often a brand or competitor is named (and where) inside answers from ChatGPT, Perplexity, Gemini and Claude, then generates an llms.txt/citation audit with fixes.",
+      "why_now": "AI answer engines handle an estimated 28% of online search and 'Answer Engine Optimization' search interest is ~99x i.e. exploding; 54% of marketing teams plan GEO but only ~23% measure it, so the demand is huge right now.",
+      "monetization": "Enterprise GEO platforms sell ACVs of $48k-$285k; Peec AI claims 3,000+ customers and Otterly AI 10,000+ users; this free audit becomes the funnel for a $29-$212/mo monitoring product.",
+      "evidence": [
+        "https://researchintelo.com/report/ai-generative-search-optimization-geoaeo-platforms-market",
+        "https://seoscaleup.com/blog/geo-aeo-statistics-2026",
+        "https://www.producthunt.com/leaderboard/daily/2026/10/1",
+        "https://www.omnibound.ai/blog/generative-engine-optimization-statistics",
+        "https://explodingtopics.com/blog/trending-topics"
+      ],
+      "how_searched": [
+        "web search engine",
+        "trend-discovery tool (Exploding Topics)",
+        "launch/review site (Product Hunt)",
+        "market research reports",
+        "newsletter/SEO statistics pages"
+      ],
+      "score": 90.0,
+      "found_at": "2026-10-07T23:12:47.481533+00:00"
+    },
+    {
       "name": "PDF/Document Parsing & Data Extraction API",
       "field": "B2B SaaS / Fintech",
       "summary": "AI-powered API that extracts structured data (tables, line items, fields) from PDFs, scans, and photos — invoices, bank statements, receipts, contracts — without templates, returning clean JSON/CSV/Excel.",
@@ -50,6 +73,29 @@
       ],
       "score": 88.0,
       "found_at": "2026-10-07T03:59:22.011234+00:00"
+    },
+    {
+      "name": "LLM model router / cost-optimization calculator",
+      "field": "Developer tools & AI infrastructure",
+      "summary": "A free website comparing 400+ LLMs live by price per token, latency and quality, telling users which model to route each task to and what it would cost.",
+      "why_now": "AI model routing became core infrastructure: OpenRouter went from ~$19M to ~$160M annualized revenue in 8 months (reported Stripe acquisition ~$7.5B), and a beginner product 'LLM Gateway' hit +260% MoM to $57k MRR; indies and enterprises all need cost-per-task decisions.",
+      "monetization": "Take-rate/affiliate on inference spend (OpenRouter's model is a ~5% fee; ~$2.5B in routed spend crossed its platform), plus enterprise tiers.",
+      "evidence": [
+        "https://sacra.com/research/openrouter-growing-29-mom-at-140m-year",
+        "https://www.acquiry.com/deal-intelligence/stripe-acquires-openrouter",
+        "https://techcrunch.com/2026/05/26/openrouter-more-than-doubles-valuation-to-1-3b-in-a-year",
+        "https://www.producthunt.com/leaderboard/daily/2026/10/5",
+        "https://www.systemaic.com/tools/bootstrapped-risers"
+      ],
+      "how_searched": [
+        "web search engine",
+        "revenue estimator/research pages (Sacra, Acquiry, jimmyresearch)",
+        "launch site (Product Hunt)",
+        "bootstrapped-revenue leaderboard",
+        "tech news"
+      ],
+      "score": 88.0,
+      "found_at": "2026-10-07T23:12:49.341388+00:00"
     },
     {
       "name": "Short-Form Video Intelligence & Analytics",
@@ -128,6 +174,29 @@
       ],
       "score": 83.0,
       "found_at": "2026-10-07T03:59:30.499766+00:00"
+    },
+    {
+      "name": "Buyer-intent finder for Reddit / X / HN",
+      "field": "Lead generation & market research",
+      "summary": "A free tool that scans Reddit, X and Hacker News for posts where people are actively asking for a solution ('am I looking for a tool that...', 'mailchimp alternative'), scores buying intent and shows the best threads in a ranked digest.",
+      "why_now": "After GummySearch/Howitzer shut down in late 2025, a wave of small replacements (MentionLeads, Buska, ReplyGain, Heardley, IntentAlert, Leadly) launched, and Buska's study of 451,903 posts found Reddit supplies ~77% of high-intent buying signals; founders on r/ycombinator explicitly say they'd pay $100/mo for this.",
+      "monetization": "Established pricing is $9-$249/mo; MentionLeads $19-$59/mo, Buska $49-$249/mo, Heardley $9/mo or $54 lifetime; the free tier does UGC discovery, paid tiers automate scoring/slack/CRM.",
+      "evidence": [
+        "https://mentionleads.com",
+        "https://www.buska.io/platforms/reddit",
+        "https://replygain.com",
+        "https://heardley.com",
+        "https://www.producthunt.com/leaderboard/daily/2026/10/7"
+      ],
+      "how_searched": [
+        "web search engine",
+        "competitor product marketing pages with public pricing",
+        "launch site (Product Hunt)",
+        "forum threads (Reddit r/ycombinator, r/SaaS)",
+        "vendor-published studies"
+      ],
+      "score": 82.0,
+      "found_at": "2026-10-07T23:12:51.030437+00:00"
     },
     {
       "name": "AI SDR & Autonomous Sales Agents",
@@ -223,6 +292,29 @@
       "found_at": "2026-10-07T03:59:35.300183+00:00"
     },
     {
+      "name": "Interactive demo / product tour builder",
+      "field": "Sales & marketing software (demo automation)",
+      "summary": "A free web tool that turns screenshots or a recorded click-through into an embeddable, clickable product tour with hotspots and analytics.",
+      "why_now": "Navattic built 40,000+ demos in a year (+43% YoY), only 18% of ~5,000 B2B sites have one vs 12% in 2024, and AI demo products keep launching (Supademo AI Demo Agent was #7 on Product Hunt Oct 7 2026); the demo-automation category is projected ~$2.1B for 2026.",
+      "monetization": "Category pricing is $38-$575/mo (Arcade $42.50/seat, Supademo $38/creator, Walnut $575/mo) with weak free tiers - a strong free/open version has clear upgrade headroom.",
+      "evidence": [
+        "https://www.navattic.com/report/state-of-the-interactive-product-demo-2026",
+        "https://ciela.ai/blogs/demo-software-market-statistics-2026",
+        "https://dataintelo.com/report/interactive-demo-platform-market",
+        "https://any2.video/resources/interactive-demo-software-compared/",
+        "https://www.producthunt.com/leaderboard/daily/2026/10/7"
+      ],
+      "how_searched": [
+        "web search engine",
+        "vendor benchmark reports",
+        "market research reports",
+        "pricing/comparison pages",
+        "launch site (Product Hunt)"
+      ],
+      "score": 76.0,
+      "found_at": "2026-10-07T23:12:51.691039+00:00"
+    },
+    {
       "name": "Invoice & AP Automation (AI-First)",
       "field": "Fintech / B2B SaaS",
       "summary": "End-to-end invoice processing: email/file intake → AI extraction (line items, PO matching) → validation → ERP/accounting sync → approval workflow → payment — with KPI dashboards (cost/invoice, cycle time, touchless rate).",
@@ -244,6 +336,129 @@
       ],
       "score": 75.0,
       "found_at": "2026-10-07T03:59:36.619481+00:00"
+    },
+    {
+      "name": "Chat-first personal AI assistant (web app)",
+      "field": "Consumer AI / personal agents",
+      "summary": "A free web tool where users text or type tasks (research, organise, shop/reserve, schedule) to a personal agent that does them end-to-end in the browser.",
+      "why_now": "This is the single fastest-moving consumer category right now: Meta's Muse hit 5M downloads in 22 days (Fastest since ChatGPT), Instinct passed 100,000 users in 3 weeks and claims ~$1B annualized transaction volume, and OpenAI launched 'Dots' in October.",
+      "monetization": "Subscription ($20/$100 per month at Muse; ChatGPT/Claude ~$20-100 tiers) moving toward transaction/affiliate fees as agents make purchases attributable to them.",
+      "evidence": [
+        "https://www.a16z.news/p/top-100-consumer-ai-apps-seventh",
+        "https://techstartups.com/2026/10/01/metas-muse-ai-hits-5-million-downloads-in-22-days-outpacing-chatgpt-grok-and-claude/",
+        "https://www.producthunt.com/leaderboard/daily/2026/10/1",
+        "https://www.producthunt.com/leaderboard/daily/2026/10/3"
+      ],
+      "how_searched": [
+        "VC/market report (a16z Top 100)",
+        "tech news (TechStartups/Sensor Tower data)",
+        "launch site (Product Hunt)",
+        "app-store chart analysis"
+      ],
+      "score": 74.0,
+      "found_at": "2026-10-07T23:12:52.157584+00:00"
+    },
+    {
+      "name": "LLM / agent spend & cost observability dashboard",
+      "field": "Developer tools (LLMOps / FinOps)",
+      "summary": "A free web tool that ingests API logs and shows cost per user, per feature, per model, plus latency, caching and runaway-agent alerts.",
+      "why_now": "'AI Observability' search growth is ~9,300% (Exploding Topics), Braintrust raised at an $800M valuation, Langfuse was acquired by ClickHouse and Helicone by Mintlify in 2026, and Chargebee just open-sourced the AUDR standard for tracking agent run costs (top-3 Product Hunt launch).",
+      "monetization": "Paid tiers run $29-$249/mo (Langfuse Core $29, LangSmith $39/seat, Braintrust Pro $249); caching/optimization claims save 20-30% on LLM bills.",
+      "evidence": [
+        "https://presenc.ai/research/ai-agent-observability-startups-2026",
+        "https://coverge.ai/blog/llmops-tools-pricing-comparison",
+        "https://explodingtopics.com/blog/trending-topics",
+        "https://www.producthunt.com/leaderboard/daily/2026/10/6"
+      ],
+      "how_searched": [
+        "web search engine",
+        "vendor matrix/comparison pages with pricing",
+        "trend-discovery tool",
+        "launch site (Product Hunt)"
+      ],
+      "score": 72.0,
+      "found_at": "2026-10-07T23:12:52.752043+00:00"
+    },
+    {
+      "name": "AI resume + job-application toolkit (ATS-tailored)",
+      "field": "Careers / job search",
+      "summary": "A free web app that writes and tailors a resume to a pasted job description (keyword targeting/ATS pass-through) plus interview practice.",
+      "why_now": "'AI recruitment tools' search interest grew ~5,800% (explodingtitles), Rezi is pulling ~$257k-294k verified MRR with ~10,000 paying subs and ~1M new users/year, and Reactive Resume v6 launched on Product Hunt in the last week of October 2026.",
+      "monetization": "Freemium to $29/mo plus $149 lifetime (Rezi); job seekers pay while hunting because the problem is urgent and time-boxed.",
+      "evidence": [
+        "https://trustmrr.com/startup/rezi",
+        "https://small-start.com/en/cases/global-rezi-257k-mrr/",
+        "https://www.systemaic.com/teardowns/rezi",
+        "https://www.producthunt.com/leaderboard/daily/2026/10/5",
+        "https://explodingtopics.com/blog/trending-topics"
+      ],
+      "how_searched": [
+        "revenue-verified startup trackers (TrustMRR)",
+        "teardown/revenue analysis sites",
+        "launch site (Product Hunt)",
+        "trend-discovery tool",
+        "founder interviews/case studies"
+      ],
+      "score": 70.0,
+      "found_at": "2026-10-07T23:12:53.592987+00:00"
+    },
+    {
+      "name": "AI-ready help center / llms.txt knowledge base",
+      "field": "Customer support & developer docs",
+      "summary": "A free static-site tool that generates an AI-readable knowledge base (llms.txt, markdown pages, MCP-ready) so a company's docs surface correctly in ChatGPT/Claude/Perplexity answers and agent crawlers can't be blocked by a bad robots.txt.",
+      "why_now": "AI crawler compatibility is the most common GEO failure (blocked robots.txt), and 'docs for agents' products are launching weekly: Chat.sh (#8, Oct 1), DocsAlot MCP (#5) and Blume (#4) on Oct 4 2026, plus WikiFix for stale knowledge bases.",
+      "monetization": "Chat.sh sells one-time $199/$599 lifetime, DocsAlot/Bracket pursue SaaS subscriptions; free generator monetizes via AI-citation/visibility audit upsell.",
+      "evidence": [
+        "https://www.producthunt.com/leaderboard/daily/2026/10/1",
+        "https://www.producthunt.com/leaderboard/daily/2026/10/4",
+        "https://www.omnibound.ai/blog/answer-engine-optimization-aeo-statistics"
+      ],
+      "how_searched": [
+        "launch site (Product Hunt leaderboards)",
+        "GEO/AEO statistics round-ups",
+        "web search engine",
+        "SEO/GEO newsletter data"
+      ],
+      "score": 66.0,
+      "found_at": "2026-10-07T23:12:53.720573+00:00"
+    },
+    {
+      "name": "AI study & exam-practice platform",
+      "field": "Education / online learning",
+      "summary": "A free web app that generates exam-style practice questions from any syllabus (or past papers) with instant feedback and adaptive review, plus an AI tutor.",
+      "why_now": "Gauth topped Product Hunt's October list (468 points, 200M+ downloads since 2020), Coddy reports 5M+ learners, a niche CELPIP practice-site hit $1,101 MRR in 59 days, and 'a&p 1 study tips' surged +330% on TikTok in the first week of October 2026.",
+      "monetization": "Freemium subscriptions/ads; Coddy is free-forever with premium, Gauth and niche exam-prep sites convert urgency (exam dates) into paid users.",
+      "evidence": [
+        "https://www.producthunt.com/leaderboard/monthly/2026/10",
+        "https://www.producthunt.com/leaderboard/daily/2026/10/6",
+        "https://tokconnect.com/guides/tiktok-trends-2026/"
+      ],
+      "how_searched": [
+        "launch site (Product Hunt)",
+        "indie-revenue dataset",
+        "TikTok search-volume analysis",
+        "web search engine"
+      ],
+      "score": 64.0,
+      "found_at": "2026-10-07T23:12:54.033092+00:00"
+    },
+    {
+      "name": "Browser voice-dictation / hands-free writing tool",
+      "field": "Consumer productivity / voice AI",
+      "summary": "A free on-device web tool that turns speech into formatted, cleaned-up text (removing filler words, auto-punctuating) for emails, prompts and chat apps.",
+      "why_now": "AI voice/dictation keeps launching with real traction: Willow Voice (Product Hunt top-10 Oct 6, 'thousands of users daily, replacing up to 90% of typing'), Increible voice computer-control (top-5 Oct 6), and Plaud was #16 on consumer AI spending while voice players like ElevenLabs sit #10 in spend.",
+      "monetization": "Subscription (Willow/Incredible subscription pricing); async voice revenue is red-hot across the a16z consumer-AI spend list.",
+      "evidence": [
+        "https://www.producthunt.com/leaderboard/daily/2026/10/6",
+        "https://www.a16z.news/p/top-100-consumer-ai-apps-seventh"
+      ],
+      "how_searched": [
+        "launch site (Product Hunt)",
+        "VC/market report (a16z Top 100)",
+        "web search engine"
+      ],
+      "score": 36.7,
+      "found_at": "2026-10-07T23:12:54.127848+00:00"
     }
   ]
 }
