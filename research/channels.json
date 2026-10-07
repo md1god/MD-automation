@@ -1,0 +1,302 @@
+{
+  "items": [
+    {
+      "name": "Google Search Console: sitemap submission, URL inspection & Search generative-AI inclusion control",
+      "url": "https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap",
+      "kind": "search",
+      "requires_account": true,
+      "official_free_api": true,
+      "how_to_use": "Create a Google account and verify site ownership once (DNS, HTML file or meta tag — account creation and verification must be done by a human). Submit sitemap.xml (or an RSS/Atom feed) in Search Console, or push it via the Search Console API (webmaster-tools v1 sitemaps submit, documented on the sitemap page). Use URL Inspection to request indexing of the first key URLs. Keep Settings > Search generative AI set to Include (the default; rolled out worldwide Aug 31, 2026) so the site can appear in AI Overviews, AI Mode and AI-in-Discover, then monitor the Generative AI performance report and expand pages sitting in positions 8-20.",
+      "rules_and_risks": "A sitemap is only a hint — indexing is never guaranteed and pages must satisfy Google's indexing, spam and helpful-content policies; the official AI-optimization guide warns against scaled low-value AI content. Choosing Exclude forfeits AI-surface traffic. Robust noindex/robots.txt mistakes can hide the whole site. Google's guide also states llms.txt and structured data are not used to select AI citations, so don't build the strategy on them.",
+      "why_it_works": "Google's documentation states AI features in Search are grounded in the Search index and that generative AI features can bring impressions and traffic; Search Console is the only official surface to verify indexing, measure those impressions and control inclusion. A tactics guide retrieved this run mirrors this as the day-one quick win (submit sitemap, inspect priority URLs).",
+      "evidence": [
+        "https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap",
+        "https://support.google.com/webmasters/answer/16908024",
+        "https://developers.google.com/search/docs/fundamentals/ai-optimization-guide",
+        "https://www.varynforge.com/blog/how-to-get-organic-traffic-free-tactics-small-sites"
+      ],
+      "how_searched": [
+        "webfetch: Google Search Central sitemap, AI-optimization and generative-AI-control docs",
+        "websearch: Search generative AI control setting / free organic traffic guides"
+      ],
+      "score": 84.0,
+      "found_at": "2026-10-07T04:19:30.630509+00:00"
+    },
+    {
+      "name": "IndexNow: instant URL notifications to Bing, Naver, Seznam, Yandex & Yep",
+      "url": "https://www.indexnow.org/",
+      "kind": "search",
+      "requires_account": false,
+      "official_free_api": true,
+      "how_to_use": "Generate a random 8-128 character hex key, host it as {key}.txt at the site root, then GET or POST (batches of up to 10,000 URLs) to api.indexnow.org/indexnow or any participant endpoint whenever you publish or update pages; the key stays on-site so engines can verify ownership. Wire the call into the CMS publish hook so it fires automatically. Optional: verify the property in Bing Webmaster Tools.",
+      "rules_and_risks": "Only submit your own URLs that return HTTP 200; a 429 response means you are submitting too fast. Keep the key file at the advertised location or verification breaks. IndexNow accelerates discovery only — pages still must be indexable, canonical and policy-compliant, and there is no ranking guarantee.",
+      "why_it_works": "IndexNow's documentation says participating engines are notified immediately of new, updated or deleted URLs instead of waiting for a crawl, and Bing's own get-started page describes the same key-file plus HTTP submission flow. For a brand-new site this cuts days or weeks of discovery latency across several engines at once.",
+      "evidence": [
+        "https://indexnow.org/documentation",
+        "https://www.indexnow.org/",
+        "https://www.indexnow.org/searchengines",
+        "https://www.bing.com/indexnow/getstarted"
+      ],
+      "how_searched": [
+        "websearch: IndexNow official documentation",
+        "webfetch: indexnow.org pages and Bing IndexNow get-started"
+      ],
+      "score": 76.0,
+      "found_at": "2026-10-07T04:19:31.562405+00:00"
+    },
+    {
+      "name": "ChatGPT search visibility: Bing Webmaster Tools + allowing OAI-SearchBot",
+      "url": "https://blogs.bing.com/webmaster/2025/6/Start-Using-Bing-Webmaster-Tools-to-Improve-Your-Site-Visibility/",
+      "kind": "search",
+      "requires_account": true,
+      "official_free_api": true,
+      "how_to_use": "Verify the site in Bing Webmaster Tools (it can import properties from Google Search Console), submit the XML sitemap (Bing's blog says submitted sitemaps are processed at least every 24 hours), enable IndexNow from the dashboard, and use URL Inspection to fix pages Bing has not indexed; Bing also documents a URL Submission API for programmatic pushes. Separately, add a 'User-agent: OAI-SearchBot / Allow: /' rule to robots.txt so OpenAI can surface the site in ChatGPT's search features (robots.txt changes take about 24 hours to apply).",
+      "rules_and_risks": "OpenAI's official crawler docs state sites that opt out of OAI-SearchBot will not be shown in ChatGPT search answers (they may still appear as navigational links); blocking GPTBot only affects training, not search. Bing Webmaster account creation is a manual step. Keep key pages server-rendered, indexable and canonical — JS-only or noindex content cannot be retrieved by either system.",
+      "why_it_works": "Bing's official blog states Bing powers AI and search experiences including ChatGPT, DuckDuckGo, Yahoo and Microsoft Start; OpenAI's official docs say OAI-SearchBot is used to surface websites in ChatGPT's search features and recommend allowing it. Maintaining both indexes gives a new site two independent paths into AI answers instead of one.",
+      "evidence": [
+        "https://blogs.bing.com/webmaster/2025/6/Start-Using-Bing-Webmaster-Tools-to-Improve-Your-Site-Visibility/",
+        "https://developers.openai.com/api/docs/bots",
+        "https://www.bing.com/webmasters/help/url-submission-62f2860b",
+        "https://www.bing.com/indexnow/getstarted"
+      ],
+      "how_searched": [
+        "websearch: ChatGPT search OAI-SearchBot Bing index Webmaster Tools",
+        "webfetch: Bing Webmaster URL Submission help page"
+      ],
+      "score": 75.0,
+      "found_at": "2026-10-07T04:19:32.347667+00:00"
+    },
+    {
+      "name": "Reddit: niche subreddits where your users already gather",
+      "url": "https://www.reddit.com/",
+      "kind": "community",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Pick one or two subreddits that match the target audience, read each subreddit's sidebar rules first, and answer questions with the full value in the comment itself, linking the article only when it directly completes the answer. Build genuine comment history before ever posting a link; prefer native summaries over bare URLs. Accounts must be created and used by a real person — automated account creation is not permitted.",
+      "rules_and_risks": "Reddit's site-wide Rule 2 requires you to 'Participate authentically in communities where you have a personal interest, and do not spam or engage in disruptive behaviors (including content manipulation)'; the same page notes moderators enforce each community's own rules and admins can escalate from warnings to account suspension. reddit.com and the old self-promotion wiki returned HTTP 403 to automated fetches this run, so subreddit rules must be read manually in a browser. A tactics guide adds the practical rule: participate first, promote second, or you will get ignored or banned.",
+      "why_it_works": "Subreddits are pre-selected audiences actively asking the questions your site answers; a distribution guide retrieved this run recommends posting to one engaged subreddit per article with the answer first and the link second. GEO research retrieved this run also shows Reddit threads are heavily cited by AI answer engines, so useful comments can keep earning visibility long after posting.",
+      "evidence": [
+        "https://redditinc.com/policies/reddit-rules",
+        "https://factors.ai/blog/increase-blog-traffic",
+        "https://www.varynforge.com/blog/how-to-get-organic-traffic-free-tactics-small-sites",
+        "https://ecosire.com/ur/blog/ai-search-optimization-business-guide"
+      ],
+      "how_searched": [
+        "webfetch: redditinc.com Reddit Rules policy page (body extracted from saved output)",
+        "websearch: community distribution tactics and AI-answer citation sources"
+      ],
+      "score": 73.0,
+      "found_at": "2026-10-07T04:19:33.151356+00:00"
+    },
+    {
+      "name": "Google News: Publisher Center setup + Google News sitemap",
+      "url": "https://support.google.com/news/publisher-center/answer/9606538?hl=en",
+      "kind": "feed",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Sign in to publishercenter.google.com with a Google account, add the publication (basic info, headquarters location, contact details) and verify the website property URL; add a Google News sitemap and follow the 'Help Google News discover your web crawled content' checklist so stories are crawlable. Content must comply with the Google News content policies linked from the help center.",
+      "rules_and_risks": "The Publisher Center overview states Google automatically considers all web content for inclusion in Google News so you do not need to apply, but eligibility requires meeting Google's overall requirements and News content policies — thin, syndicated-only or policy-violating content will not be picked up. Sign-in and property verification are manual, and Publisher Center is not a CMS for authoring content.",
+      "why_it_works": "A verified publication plus a News sitemap puts stories onto Google News and other Google news surfaces — an interest-driven feed where a focused new site can appear next to established outlets rather than competing only on classic blue-link rankings.",
+      "evidence": [
+        "https://support.google.com/news/publisher-center/answer/9606538?hl=en",
+        "https://support.google.com/news/publishercenter",
+        "https://publishercenter.google.com/"
+      ],
+      "how_searched": [
+        "webfetch: Google News / Publisher Center help pages and publishercenter.google.com (sign-in wall confirms account requirement)"
+      ],
+      "score": 66.0,
+      "found_at": "2026-10-07T04:19:35.595551+00:00"
+    },
+    {
+      "name": "SourceBottle: free journalist call-outs and expert profiles",
+      "url": "https://www.sourcebottle.com/",
+      "kind": "partnership",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Sign up free as a source, filter call-outs by industry and deadline, and reply with a short answer (the retrieved pitching guide suggests roughly 60 words containing one specific number and one anecdote) plus your bio and link. Also build a free Expert Profile so journalists can find you inbound, and track where mentions appear so you can republish them as social proof.",
+      "rules_and_risks": "Respond only to genuinely relevant queries before the stated deadline; paid promotion tiers are optional upgrades, not required for free source participation. Off-topic or exaggerated pitches waste the journalist's time and can get your profile ignored — credentials and quotes must be truthful.",
+      "why_it_works": "The site matches query call-outs from named media outlets with expert sources at no cost, and one placed quote yields an authoritative third-party citation — news outlets are also among the sources most frequently cited by AI answer engines according to GEO research retrieved this run.",
+      "evidence": [
+        "https://www.sourcebottle.com/",
+        "https://ecosire.com/ur/blog/ai-search-optimization-business-guide",
+        "https://www.varynforge.com/blog/how-to-get-organic-traffic-free-tactics-small-sites"
+      ],
+      "how_searched": [
+        "websearch: journalist source query platforms / HARO alternatives",
+        "webfetch: sourcebottle.com"
+      ],
+      "score": 63.0,
+      "found_at": "2026-10-07T04:19:37.303621+00:00"
+    },
+    {
+      "name": "Original research, benchmarks and downloadable content upgrades",
+      "url": "https://www.varynforge.com/blog/how-to-get-organic-traffic-free-tactics-small-sites",
+      "kind": "tactic",
+      "requires_account": false,
+      "official_free_api": false,
+      "how_to_use": "Publish one primary-source asset per quarter — a small-N benchmark or survey (the retrieved guide notes even N=20 comparisons win links because they are hard to copy) — and attach one downloadable content upgrade (checklist, template, spreadsheet) to each pillar page. Package findings as citable stats and pitch them with a 'scoop, source, support' note offering the underlying file.",
+      "rules_and_risks": "Data must be real with methodology disclosed; fabricated numbers destroy trust. Follow Google's helpful-content and spam guidance in the official AI-optimization guide — it warns that scaled, low-value content production is a policy violation, so ship fewer, genuinely first-hand assets rather than mass-generated 'research'.",
+      "why_it_works": "Comparison and benchmark formats earn links per hour invested because readers cannot get the numbers anywhere else; journalists, bloggers and AI answer engines all prefer citing concrete primary statistics over generic prose, so one dataset can keep producing citations and links over time.",
+      "evidence": [
+        "https://www.varynforge.com/blog/how-to-get-organic-traffic-free-tactics-small-sites",
+        "https://developers.google.com/search/docs/fundamentals/ai-optimization-guide"
+      ],
+      "how_searched": [
+        "webfetch: varynforge tactics playbook and Google AI-optimization guide"
+      ],
+      "score": 41.3,
+      "found_at": "2026-10-07T04:19:37.719239+00:00"
+    },
+    {
+      "name": "Free instant web directories with no account: DevElif and Directory Index",
+      "url": "https://develif.com/",
+      "kind": "directory",
+      "requires_account": false,
+      "official_free_api": true,
+      "how_to_use": "On DevElif, either use the submission form or POST JSON to https://develif.com/api/submit with url, email, name, English description and category — no key, no login — and the listing publishes instantly with a public page, dofollow link, sitemap entry and JSON-LD structured data. Reuse one submission kit (URL, name, honest description, category) across a handful of quality free directories such as Directory Index, re-checking yearly for dead listings; handle larger launch platforms that require sign-up manually.",
+      "rules_and_risks": "DevElif requires an English name/description, one listing per domain and no adult content; advertising on the site is paid but the listing itself stays free. Bulk-submitting to hundreds of low-quality directories is a waste and looks like link spam — favor a few relevant, live directories with real editorial standards, and keep descriptions honest.",
+      "why_it_works": "An instant dofollow link plus structured data gives a brand-new domain its first crawlable, citable references, helping discovery systems find the site at all; curated directories also feed 'best X tools' style queries used by both search engines and AI answer engines.",
+      "evidence": [
+        "https://develif.com/",
+        "https://directory-index.com/"
+      ],
+      "how_searched": [
+        "webfetch: develif.com homepage and submission FAQ",
+        "websearch: free directory submission sites / no-account directories"
+      ],
+      "score": 40.0,
+      "found_at": "2026-10-07T04:19:38.966322+00:00"
+    },
+    {
+      "name": "Podcast guesting and cross-promotion swaps with peer sites",
+      "url": "https://www.varynforge.com/blog/how-to-get-organic-traffic-free-tactics-small-sites",
+      "kind": "partnership",
+      "requires_account": false,
+      "official_free_api": false,
+      "how_to_use": "Pitch small niche podcasts with a specific angle and one concrete number — the retrieved guide suggests shows under about 1,000 listeners and reports a single episode usually nets a show-notes dofollow link plus 10-30 referral visits. Reciprocate with peers of similar size: guest posts, newsletter shoutouts, joint webinars and content swaps, each linking to a genuinely useful resource on your site (checklist or hub page).",
+      "rules_and_risks": "Never buy links or run pay-for-placement schemes; keep collaborations strictly on-topic so the audiences overlap, disclose sponsorship relationships, and don't scale pitches with automated mail merges — irrelevant or mass pitches get ignored and damage reputation.",
+      "why_it_works": "Borrowed audiences convert far better than cold traffic: a guest post or episode puts the site in front of listeners who already trust the host, and the retrieved guides note guest posts and newsletter/podcast/webinar collaborations produce backlinks plus referral visitors while compounding as both audiences overlap.",
+      "evidence": [
+        "https://www.varynforge.com/blog/how-to-get-organic-traffic-free-tactics-small-sites",
+        "https://factors.ai/blog/increase-blog-traffic"
+      ],
+      "how_searched": [
+        "webfetch: varynforge tactics playbook and factors.ai traffic guide",
+        "websearch: partnership / guest posting distribution tactics"
+      ],
+      "score": 38.7,
+      "found_at": "2026-10-07T04:19:39.269491+00:00"
+    },
+    {
+      "name": "Hacker News: Show HN and story submissions",
+      "url": "https://news.ycombinator.com/newsguidelines.html",
+      "kind": "community",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Submit from a human account using the site's submit form; for launches use 'Show HN:' followed by the project name, keep the title close to the original source, answer technical questions candidly in the comments, and let the community vote organically.",
+      "rules_and_risks": "HN's official guidelines state the site must not be used primarily for promotion, forbid generated or automated posts and automated account activity, require original titles and forbid deleting and reposting to refresh a story, restrict submissions to on-topic tech/computer matters, and prohibit soliciting votes. Moderators can kill stories and ban accounts.",
+      "why_it_works": "The guidelines describe an actively moderated, high-intent audience of builders; a well-received front-page story can send thousands of targeted visitors plus a durable discussion thread that other sites later cite.",
+      "evidence": [
+        "https://news.ycombinator.com/newsguidelines.html"
+      ],
+      "how_searched": [
+        "webfetch: news.ycombinator.com newsguidelines"
+      ],
+      "score": 24.0,
+      "found_at": "2026-10-07T04:19:33.235389+00:00"
+    },
+    {
+      "name": "Dev.to (Forem) cross-publishing via the official Forem API",
+      "url": "https://developers.forem.com/api/v1",
+      "kind": "platform",
+      "requires_account": true,
+      "official_free_api": true,
+      "how_to_use": "Create a dev.to account once and generate an API key, then POST /api/articles with the API key header carrying title, markdown body, tags and canonical_url pointing at the original page (leave published=false first to review the preview). Syndicate technical posts shortly after the original is indexed so the canonical copy holds SEO credit while the platform copy reaches dev.to's tag feeds.",
+      "rules_and_risks": "Always set canonical_url to the original article — the API docs describe it as the way to maintain SEO integrity for cross-posts; duplicate copies without canonicals split ranking signals. The account and API key must be created manually, and platform moderation/tag rules still apply to what you publish.",
+      "why_it_works": "The official Forem API makes cross-posting free and programmable (one authenticated POST per article), and dev.to's topic feeds put content in front of an existing developer readership without needing your own audience yet.",
+      "evidence": [
+        "https://developers.forem.com/api/v1"
+      ],
+      "how_searched": [
+        "webfetch: developers.forem.com API v1 docs"
+      ],
+      "score": 23.3,
+      "found_at": "2026-10-07T04:19:33.753353+00:00"
+    },
+    {
+      "name": "Unlinked brand-mention reclamation + resource-page outreach",
+      "url": "https://www.varynforge.com/blog/how-to-get-organic-traffic-free-tactics-small-sites",
+      "kind": "tactic",
+      "requires_account": false,
+      "official_free_api": false,
+      "how_to_use": "Every month search your brand name excluding your own domain; when the site is quoted without a link, send a one-line ask to add the source link. For net-new links, search inurl:resources for your topic and pitch the piece as the missing entry. Keep outreach emails under about 80 words with one specific compliment and one specific value; the guide's example script runs roughly 80 words with a named page, a data point and a missing angle.",
+      "rules_and_risks": "Do it manually at small scale and skip link buying entirely (the retrieved guide explicitly says to skip it). Expect a low reply rate on cold pitches; only contact pages where your content is genuinely relevant, and never fabricate relationships or spam editors.",
+      "why_it_works": "Unlinked mentions convert near 50 percent according to the retrieved tactics guide, because the site already wrote about you — the link is the only missing piece. Resource pages exist specifically to link out, so the pitch matches the page's purpose.",
+      "evidence": [
+        "https://www.varynforge.com/blog/how-to-get-organic-traffic-free-tactics-small-sites"
+      ],
+      "how_searched": [
+        "webfetch: varynforge organic-traffic tactics playbook",
+        "websearch: free organic traffic / link building tactics for small sites"
+      ],
+      "score": 22.3,
+      "found_at": "2026-10-07T04:19:33.873872+00:00"
+    },
+    {
+      "name": "Web Stories in Google Search and Discover",
+      "url": "https://developers.google.com/search/docs/appearance/enable-web-stories",
+      "kind": "tactic",
+      "requires_account": false,
+      "official_free_api": false,
+      "how_to_use": "Build stories with one of the no-code Web Story editors linked from the Google doc, make them valid AMP with the required metadata (publisher logo, poster image, title, publisher name), set a self-canonical URL, add the story to the sitemap, then verify indexing with URL Inspection in Search Console.",
+      "rules_and_risks": "Stories must satisfy AMP validity, the Web Story content policy and Google's indexing rules; blocked or noindex stories are invisible. The doc notes Web Stories are eligible in all regions in Search, while Discover cards for stories are most likely in the US, India and Brazil — so traffic geography can be uneven. No platform account is required to publish on your own site.",
+      "why_it_works": "Google's official doc states Web Stories can appear in Google Search and Google Discover, giving a brand-new site a visual carousel surface that does not depend on domain authority the way classic rankings do.",
+      "evidence": [
+        "https://developers.google.com/search/docs/appearance/enable-web-stories"
+      ],
+      "how_searched": [
+        "webfetch: Google Search Central enable-web-stories doc"
+      ],
+      "score": 21.7,
+      "found_at": "2026-10-07T04:19:35.972383+00:00"
+    },
+    {
+      "name": "Quora: durable answers on questions your audience already asks",
+      "url": "https://factors.ai/blog/increase-blog-traffic",
+      "kind": "community",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Find questions in your area of expertise, write thoughtful and specific answers in your own voice, and link to a relevant blog post only when the link directly completes the answer (the retrieved guide calls Quora 'SEO with fewer gatekeepers' and notes answers can rank on Google and send referral traffic for years). Answer consistently rather than in bursts.",
+      "rules_and_risks": "A Quora account must be created manually. Community norms apply: link-dropping without a substantive answer gets downvoted or collapsed, and answers should disclose material affiliation. Prioritize genuinely answering — the retrieved guide's core instruction is to link only if it directly adds value.",
+      "why_it_works": "Questions are intent-matched demand that persists; because answers are indexed independently they can rank for long-tail queries and keep sending referral traffic long after publication — the retrieved guide explicitly says these answers can push consistent referral traffic for years.",
+      "evidence": [
+        "https://factors.ai/blog/increase-blog-traffic"
+      ],
+      "how_searched": [
+        "websearch: free organic traffic channels / Q&A site tactics",
+        "webfetch: factors.ai how-to-increase-traffic guide"
+      ],
+      "score": 18.7,
+      "found_at": "2026-10-07T04:19:39.470808+00:00"
+    },
+    {
+      "name": "Lobsters: invite-tree link aggregator for computing topics",
+      "url": "https://lobste.rs/about",
+      "kind": "community",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Get an invite through the site's invite tree (ask in the community chat or find a member willing to vouch — accounts cannot be self-registered), then submit stories with accurate topical tags and participate in threads before ever submitting your own domain.",
+      "rules_and_risks": "The About page states new accounts cannot submit previously unseen domains for roughly 70 days, self-promotion should stay under about 25 percent of your activity, stories must be computing-related, and moderation is strict; invites must be earned, not farmed or bought, so automated signup is not an option.",
+      "why_it_works": "A small but high-signal technical audience: front-page stories bring qualified referral traffic, and links from long-lived Lobsters threads are the kind of editorial citations that other dev and tech blogs then pick up.",
+      "evidence": [
+        "https://lobste.rs/about"
+      ],
+      "how_searched": [
+        "webfetch: lobste.rs/about"
+      ],
+      "score": 17.3,
+      "found_at": "2026-10-07T04:19:39.697402+00:00"
+    }
+  ]
+}
