@@ -14,7 +14,14 @@ def _days_since(iso):
 
 def score(repo: dict, config: dict, memory: dict):
     is_product = repo.get("kind") == "product"
-    if is_product:
+    if "agent_score" in repo:      # researched by an agent with cited evidence: its verified score is used
+        return {"score": round(float(repo["agent_score"]), 1), "license_ok": True,
+                "license_note": "idea only: rebuilt original (no code/design/name reuse)",
+                "days_since_push": 0, "differentiation_question": repo.get("why_now", "")}
+    idea_only = bool(config.get("idea_only"))
+    if idea_only:
+        ok, license_note = True, "idea only: rebuilt original (no code/design/name reuse)"
+    elif is_product:
         # Closed product: only the idea is reusable, so no license is needed.
         ok, license_note = True, "closed product: rebuild original (no code/design/name reuse)"
     else:

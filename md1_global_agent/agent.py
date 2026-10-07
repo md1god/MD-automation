@@ -8,10 +8,11 @@ from monetization.monetizer import suggest
 from distribution.distributor import plan as distribution_plan
 from analytics.analyst import summarize
 from memory import store
+from discovery.research_source import scout as scout_research
 
 
 def scout(config: dict):
-    return scout_github(config) + scout_products(config)
+    return scout_research(config) + scout_github(config) + scout_products(config)
 
 
 def run(config: dict):
@@ -20,7 +21,7 @@ def run(config: dict):
     opportunities = []
     for repo in repos:
         analysis = score(repo, config, memory)
-        build_mode = classify(repo, analysis)
+        build_mode = classify(repo, analysis, config)
         item = {"repo": repo, "analysis": analysis, "mode": build_mode}
         if build_mode != "skip" and analysis["score"] >= config["min_score_to_build"]:
             item["builder"] = builder_plan(repo, analysis, build_mode,

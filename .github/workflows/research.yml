@@ -1,0 +1,57 @@
+name: MD1 Research Agents
+
+on:
+  schedule:
+    - cron: "17 * * * *"          # every hour
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: research
+  cancel-in-progress: false
+
+jobs:
+  research:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: md1_global_agent/requirements.txt
+
+      - run: pip install -r md1_global_agent/requirements.txt
+
+      - name: Install OpenCode CLI (free models with web access)
+        run: npm install -g opencode-ai
+
+      - name: Agent - what is most in demand, popular and profitable now
+        working-directory: md1_global_agent
+        continue-on-error: true
+        run: python -m agents.runner opportunities
+
+      - name: Agent - free ways to publish and reach a real audience (every 6 hours)
+        working-directory: md1_global_agent
+        continue-on-error: true
+        run: |
+          if [ "$GITHUB_EVENT_NAME" = "workflow_dispatch" ] || [ $(( 10#$(date -u +%H) % 6 )) -eq 0 ]; then
+            python -m agents.runner channels
+          else
+            echo "channels mission runs every 6 hours; skipping this hour"
+          fi
+
+      - name: Save findings straight to main (no pull request)
+        if: always()
+        run: |
+          git config user.name "MD1 Bot"
+          git config user.email "action@github.com"
+          git add research/opportunities.json research/channels.json 2>/dev/null || true
+          if git diff --cached --quiet; then echo "nothing new"; exit 0; fi
+          git commit -m "research: hourly findings [skip ci]"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"

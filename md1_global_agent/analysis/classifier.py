@@ -18,9 +18,12 @@ def _is_hardware(repo: dict) -> bool:
     return any(w in text for w in HARDWARE_WORDS)
 
 
-def mode(repo: dict, analysis: dict) -> str:
+def mode(repo: dict, analysis: dict, config: dict = None) -> str:
     if repo.get("archived"):
         return "skip"
+    if (config or {}).get("idea_only"):
+        # Open or closed does not matter: only the idea is used, everything is rebuilt original.
+        return "skip" if _is_hardware(repo) else "rebuild_original"
     if repo.get("kind") == "product":
         return "skip" if _is_hardware(repo) else "rebuild_original"
     if repo.get("stars", 0) > MAX_STARS:
