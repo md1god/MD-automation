@@ -1,46 +1,22 @@
-"""Investigator + Strategist roles: scores each opportunity 0-100."""
+"""Commercial opportunity scoring."""
 import math
-from datetime import datetime, timezone
-
+from datetime import datetime,timezone
 from .license_check import check as license_check
-
-
-def _days_since(iso):
-    if not iso:
-        return 9999
-    dt = datetime.fromisoformat(iso.replace("Z", "+00:00"))
-    return (datetime.now(timezone.utc) - dt).days
-
-
-def score(repo: dict, config: dict, memory: dict):
-    is_product = repo.get("kind") == "product"
-    if is_product:
-        # Closed product: only the idea is reusable, so no license is needed.
-        ok, license_note = True, "closed product: rebuild original (no code/design/name reuse)"
-    else:
-        ok, license_note = license_check(repo, config.get("allowed_licenses", []))
-    # Audience proof, peaking for mid-size projects (~300-8000 stars); giants have no room.
-    logs = math.log10(max(repo["stars"], 1))
-    popularity = min(30, logs * 8) if logs <= 3.9 else max(5, 30 - (logs - 3.9) * 20)
-    activity_days = _days_since(repo["pushed_at"])
-    activity = 25 if activity_days < 30 else 15 if activity_days < 180 else 0
-    # repos: many open issues vs stars = unmet needs; products: heavy discussion = demand
-    ratio = repo["open_issues"] / max(repo["stars"], 1)
-    gap = min(20, ratio * (60 if is_product else 400))
-    commercial = 25 if ok else 0
-    total = popularity + activity + gap + commercial
-    if repo["archived"]:
-        total = 0
-    # Memory: boost categories that worked before, penalise ones that failed
-    cat = memory.get("categories", {}).get(repo["category"], {})
-    total += 5 * cat.get("wins", 0) - 5 * cat.get("fails", 0)
-    return {
-        "score": round(max(0, min(100, total)), 1),
-        "license_ok": ok,
-        "license_note": license_note,
-        "days_since_push": activity_days,
-        "differentiation_question": (
-            f"Can we build a better/different version of {repo['full_name']} "
-            f"with a real reason to use it?"
-        ),
-    }
+BUYER=("automation","invoice","billing","payment","analytics","monitoring","dashboard","crm","erp","api","workflow","productivity","scheduler","backup","security","compliance","report","converter","generator","editor","search","scraper","integration","email","marketing","ecommerce","shopify","woocommerce","sales","resume","pdf")
+def score(repo,config,memory):
+    product=repo.get("kind")=="product"
+    ok,note=(True,"closed product: rebuild the problem with original code/design/brand") if product else license_check(repo,config.get("allowed_licenses",[]))
+    stars=max(int(repo.get("stars",0)),1); days=9999
+    if repo.get("pushed_at"):
+        days=max(0,(datetime.now(timezone.utc)-datetime.fromisoformat(repo["pushed_at"].replace("Z","+00:00"))).days)
+    text=(repo.get("full_name","")+" "+repo.get("description","")+" "+" ".join(repo.get("topics",[]))).lower()
+    popularity=min(30,math.log10(stars)*8)
+    activity=25 if days<30 else 15 if days<180 else 0
+    gap=min(20,(int(repo.get("open_issues",0))/stars)*400)
+    buyer=min(20,sum(x in text for x in BUYER)*2)
+    total=popularity+activity+gap+buyer+(25 if ok else 0)
+    if repo.get("archived"): total=0
+    return {"score":round(max(0,min(100,total)),1),"license_ok":ok,"license_note":note,
+            "days_since_push":days,"buyer_intent":round(buyer,1),
+            "demand_signal":round(min(100,popularity+gap+buyer),1),
+            "differentiation_question":f"What can we make materially better or easier to buy than {repo['full_name']}?"}
