@@ -1,10 +1,9 @@
 name: Generate Pages Automatically
 
 on:
-  schedule:
-    - cron: '0 * * * *'
   workflow_dispatch:
 
+# Legacy sample generator kept manual only. It is unrelated to commercial opportunity discovery.
 jobs:
   generate-pages:
     runs-on: ubuntu-latest
@@ -13,21 +12,15 @@ jobs:
         working-directory: page-generator
     permissions:
       contents: write
-
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v6
+      - uses: actions/checkout@v6
         with:
           fetch-depth: 0
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+      - uses: actions/setup-node@v4
         with:
           node-version: '20'
-
       - name: Generate New Page
         run: node build-pages.js
-
       - name: Check for changes
         id: check_changes
         run: |
@@ -36,7 +29,6 @@ jobs:
           else
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
-
       - name: Commit and Push
         if: steps.check_changes.outputs.changed == 'true'
         run: |
