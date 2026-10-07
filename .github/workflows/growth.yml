@@ -6,9 +6,9 @@ on:
   workflow_dispatch:
     inputs:
       dry:
-        description: "dry run (write the posts, publish nothing)"
+        description: "dry run - writes the posts, publishes NOTHING (untick to publish for real)"
         type: boolean
-        default: false
+        default: true
 
 permissions:
   contents: write
