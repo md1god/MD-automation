@@ -1,6 +1,29 @@
 {
   "items": [
     {
+      "name": "Product Hunt launch (self-hunt, free)",
+      "url": "https://www.producthunt.com/launch",
+      "kind": "platform",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Log in with a personal account (company/brand accounts cannot post or comment) and click Submit -> New Product, enter your product URL, then schedule the launch up to 1 month ahead; posts go live at 12:01am PT because the homepage runs on a 24-hour Pacific cycle. Self-hunting is officially supported: 'posting yourself gives you full control over the launch' and no hunter is needed. Contribute a maker 'first comment' when you submit (70% of Product of the Day/Week/Month winners had one) introducing the team, key features, use cases and a request for feedback. Optionally create a free teaser up to 30 days ahead so interested people can opt into a notify-me email on launch day. Mechanism: web form; account must be a human personal account (Product Hunt requires community membership for at least a week before you gain access to contribute a product) — signup/aging cannot be safely automated.",
+      "rules_and_risks": "Product Hunt is free for everyone. Promotion rule: you can share your launch link however you wish, but you cannot ask people directly to upvote — ask for feedback, comments and opinions instead; asking specifically for upvotes is against policy and PH may ask you to remove social posts. No paying or giving monetary compensation in exchange for upvotes (disqualification); makers found spamming audiences or paying for upvotes get the product removed and spammers are permanently removed. No gated giveaway contests tied to launch activity. Brand/company accounts are not allowed; authenticity is enforced.",
+      "why_it_works": "A single high-authority page concentrates a daily cycle of early-adopter attention: competing on the homepage leaderboard gives a brand-new product a spike of qualified traffic, real user feedback, and an indexed profile page on a domain that ranks well for 'alternatives/product for X' queries.",
+      "evidence": [
+        "https://www.producthunt.com/launch",
+        "https://www.producthunt.com/launch/preparing-for-launch",
+        "https://www.producthunt.com/launch/sharing-your-launch",
+        "https://www.producthunt.com/launch/how-product-hunt-works",
+        "https://help.producthunt.com/en/articles/479557-how-to-post-a-product"
+      ],
+      "how_searched": [
+        "websearch: 'Product Hunt launch rules 12:01am PT self-launch no asking for upvotes official guide' — search provider opened the five producthunt.com/help URLs above and returned their text; direct webfetch of producthunt.com and help.producthunt.com returned HTTP 403, so rules were read from those same pages via the search index",
+        "websearch (earlier in run): 'Product Hunt launch rules', 'search-engine submission 2026'"
+      ],
+      "score": 86.0,
+      "found_at": "2026-10-07T18:25:20.364470+00:00"
+    },
+    {
       "name": "Google Search Console: sitemap submission, URL inspection & Search generative-AI inclusion control",
       "url": "https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap",
       "kind": "search",
@@ -21,6 +44,50 @@
       ],
       "score": 84.0,
       "found_at": "2026-10-07T04:19:30.630509+00:00"
+    },
+    {
+      "name": "Google Merchant Center free listings (surfaces across Google)",
+      "url": "https://support.google.com/merchants/answer/13889434?hl=en",
+      "kind": "platform",
+      "requires_account": true,
+      "official_free_api": true,
+      "how_to_use": "Create a Merchant Center account at merchants.google.com, verify your online store URL, and upload product data with the required attributes (id, title, link, image_link, price, description, availability, plus condition/brand/GTIN/MPN, shipping and return-policy data as applicable). When you create a new Merchant Center account you are opted in to free listings by default; existing accounts can confirm status under Marketing -> Marketing methods -> 'Free listings' card (Admin access needed to change it). Partner-created accounts ingest data via the Merchant API. Mechanism: product feed / Merchant API; account creation requires human store-URL verification and is not autonomously automatable.",
+      "rules_and_risks": "Must follow Google's policies for showing products free across Google; shipping settings (or the [shipping] attribute) and a return policy are required, including for a long list of countries (US, UK, CA, AU, DE, FR, JP etc.). Google explicitly says products 'aren't guaranteed to show across Google' — eligibility depends on data quality and matching. Listing quality rules apply (no promotional text in images, accurate price/GTIN matching). Free listings work for both online and local in-store products.",
+      "why_it_works": "Free listings put your catalog into Google Search, Images, Lens, YouTube, Gemini, the Shopping tab and the products module on Business Profile — organic placements on the highest-intent commercial queries without paying per click, feeding discovery straight to your product pages.",
+      "evidence": [
+        "https://support.google.com/merchants/answer/13889434?hl=en",
+        "https://support.google.com/merchants/answer/9826670?hl=en",
+        "https://support.google.com/merchants/answer/13692890?hl=en"
+      ],
+      "how_searched": [
+        "websearch (earlier in run): 'Google Merchant Center free listings' and 'Google Merchant Center free listings 2026'",
+        "webfetch support.google.com/merchants/answer/13692890 (Show your products for free on Google) and support.google.com/merchants/answer/9826670 which served the 'Free listings for products' article (answer/13889434)"
+      ],
+      "score": 84.0,
+      "found_at": "2026-10-07T18:25:21.713562+00:00"
+    },
+    {
+      "name": "HARO (Help a Reporter Out) — free journalist query email digests",
+      "url": "https://www.helpareporter.com/",
+      "kind": "community",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Sign up free with your email at www.helpareporter.com (relaunched under Featured.com after acquiring HARO from Cision in April 2025; first emails went out April 22, 2025). You receive journalist queries by email — up to 3 editions per weekday (morning/afternoon/evening) — filtered to your categories; reply directly to the journalist's email with a specific, useful answer, your name, title and company before the stated deadline. Journalists also submit queries via the site ('Submit a Query'). Mechanism: email newsletter + direct email reply; account is an email signup that a human must control — automating pitch blasts would violate the anti-spam posture.",
+      "rules_and_risks": "Free for journalists and sources, ad-supported, no subscription needed. HARO now detects AI-generated responses (per HARO's own blog) and bans abusive accounts extremely aggressively ('We Ban a HARO Account Every 23 Minutes' is a HARO blog post) — pitch only topics you are genuinely qualified on, write human-specific answers, and never spam irrelevant queries. Coverage is never guaranteed; you are competing with other sources on deadline. Owned/operated by Featured.com (also runs Connectively, which relaunched June 2026 while HARO continues).",
+      "why_it_works": "Reporters on deadline actively need quotable experts, so a well-targeted reply converts into real editorial mentions, bylines and backlinks from news sites — earned media that both sends referral traffic and adds domain authority that AI search engines increasingly cite.",
+      "evidence": [
+        "https://blog.helpareporter.com/help-a-reporter-out-haro-is-back/",
+        "https://featured.com/press/press-release/featured-com-acquires-help-a-reporter-out-haro-from-cision",
+        "https://www.helpareporter.com/about",
+        "https://featured.com/product/features/journalist-requests"
+      ],
+      "how_searched": [
+        "websearch (earlier in run): 'journalist-request platforms'",
+        "websearch: 'HARO Help A Reporter Out relaunched free 2025 Featured.com journalists queries' — opened helpareporter.com, helpareporter.com/about and featured.com pages (direct webfetch of helpareporter.com returned HTTP 429 rate limit)",
+        "webfetch blog.helpareporter.com/help-a-reporter-out-haro-is-back/ and featured.com press release (both fetched successfully)"
+      ],
+      "score": 81.0,
+      "found_at": "2026-10-07T18:25:22.377029+00:00"
     },
     {
       "name": "IndexNow: instant URL notifications to Bing, Naver, Seznam, Yandex & Yep",
@@ -130,6 +197,67 @@
       "found_at": "2026-10-07T04:19:37.303621+00:00"
     },
     {
+      "name": "Threads API — official free cross-posting to Threads",
+      "url": "https://developers.facebook.com/docs/threads/overview/",
+      "kind": "platform",
+      "requires_account": true,
+      "official_free_api": true,
+      "how_to_use": "Create a Meta developer app, connect a Threads account, obtain permissions threads_basic and threads_content_publish, then publish via the documented flow: POST the media/text container, then POST /{threads-user-id}/threads_publish; check quota with GET /{threads-user-id}/threads_publishing_limit. Official rate limits: calls within 24 hours = 4800 * number of impressions (impressions minimum defaults to 10), plus CPU-time caps, and profiles are limited to 250 API-published posts per rolling 24 hours (carousels count as one). Mechanism: official free Graph API; requires a human-owned Threads account and a Meta app — neither can be created autonomously (human identity/login verification), and app review is needed before exposing it publicly.",
+      "rules_and_risks": "You may only publish on a person's behalf and display those posts to the person who created them within your app (per official overview) — no undisclosed ghost-posting for others. 250-post/day profile cap and impression-based call budgets mean bulk automation will hit limits; platform spam policies still apply to account-level behavior. API surface can change; enforce limits in your app as Meta instructs.",
+      "why_it_works": "Threads is Meta's fast-growing text feed with real organic reach and no chronological-paywall problems: an official API lets a new site atomize blog posts into daily threads automatically, keeping a distribution channel warm with near-zero marginal effort — a rare case where posting automation is explicitly sanctioned by the platform.",
+      "evidence": [
+        "https://developers.facebook.com/docs/threads/overview/",
+        "https://developers.facebook.com/docs/threads/posts/",
+        "https://developers.facebook.com/documentation/threads/reference/publishing"
+      ],
+      "how_searched": [
+        "websearch (earlier in run): 'Threads API rate limits' — confirmed 4800 * impressions limit",
+        "websearch: 'Threads API rate limit 4800 impressions publishing documentation Meta' — search provider opened developers.facebook.com/docs/threads/overview/ and /docs/threads/posts/ and returned their text; direct webfetch of developers.facebook.com URLs returned HTTP 400"
+      ],
+      "score": 58.0,
+      "found_at": "2026-10-07T18:25:31.515149+00:00"
+    },
+    {
+      "name": "HackerNoon free story submission (human editor review)",
+      "url": "https://publish.hackernoon.com/",
+      "kind": "platform",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Create an account, click 'Start Writing' / the Write button (top right), write or upload your story in the WYSIWYG editor, then Story Settings -> 'Submit Story for Review'. Required fields include a featured image, meta description, a TL;DR and up to 8 tags plus story indicators; you can leave a note to editors. Every story goes through an open editorial pool where any of the on-shift human editors can pick it up (editor shifts shown across UTC-7 to UTC+11). Mechanism: web editor submission; account signup needs a human email — not autonomously automatable (a bot mass-submitting would fail editorial review anyway).",
+      "rules_and_risks": "Publishing is free with 'no pop-ups, no paywalls'; content goes through human editorial review and must follow HackerNoon's editorial guidelines (publishing philosophy, republishing rules, backlink rules, headlines, grammar, plagiarism checks). You keep ownership: 'you own your content and can remove it at anytime'. Stories must fit tech topics; expect rejection feedback rather than guaranteed publication. Features like automatic audio conversion and 12-language translations are applied by the platform to accepted stories.",
+      "why_it_works": "HackerNoon claims 4,000,000+ monthly readers, 50,000+ published writers, an audience that is 64% aged 18-34 and 27% US, and top demographic 'technophiles' — so a genuinely useful technical article gets curated distribution on a high-authority tech domain plus syndication (audio/translations), driving referral traffic and credentialed backlinks without any ad spend.",
+      "evidence": [
+        "https://publish.hackernoon.com/",
+        "https://hackernoon.com/p/publish"
+      ],
+      "how_searched": [
+        "websearch (earlier in run): 'HackerNoon publishing'",
+        "webfetch publish.hackernoon.com/ (submission flow, audience stats, editorial review details)"
+      ],
+      "score": 50.0,
+      "found_at": "2026-10-07T18:25:23.276534+00:00"
+    },
+    {
+      "name": "Apple Business Connect — claim your location on Apple Maps",
+      "url": "https://businessconnect.apple.com/",
+      "kind": "platform",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Sign up at businessconnect.apple.com (Apple Business) with a user whose role can manage locations -> Brands -> Locations -> Add -> enter the location name, address, primary category, status, phone and an optional website address (a Facebook, Instagram or TikTok page can be used instead of a website) -> set hours -> choose or create a brand -> verify the organization (first location is sent to Apple for review; if the location already exists on Maps you may verify with a phone call and a 4-digit code). The listing then shows logo, hours, images and key details on Apple Maps ('Claim your location on Maps so millions of customers can connect with your business'). Mechanism: web console; account + organization verification needs human interaction (mail from apple.com domains must be allowed) — not autonomously automatable.",
+      "rules_and_risks": "Requires a real, verifiable location/address — this channel fits businesses with local presence, not anonymous websites. If the location is already claimed by another organization you must continue and request a transfer (review up to 5 business days with documentation). Photo and text standards apply to showcases/actions. Apple's guide (updated April 2026) shows no listing fee, but confirm current terms in-country. Feature availability varies by country and region.",
+      "why_it_works": "Maps is a default discovery surface on every iPhone/Mac: a verified, optimized place card captures 'near me' and brand searches inside Apple Maps and Siri results — a distribution surface most competitors neglect, with a website link straight back to your domain.",
+      "evidence": [
+        "https://businessconnect.apple.com/",
+        "https://support.apple.com/guide/business/add-a-location-abcb98816a34/web"
+      ],
+      "how_searched": [
+        "websearch (earlier in run): 'Apple Business Connect' — confirmed free location/brand listing",
+        "webfetch businessconnect.apple.com/ and support.apple.com/guide/business/add-a-location-abcb98816a34/web (full location-add and verification flow)"
+      ],
+      "score": 48.7,
+      "found_at": "2026-10-07T18:25:24.295185+00:00"
+    },
+    {
       "name": "Original research, benchmarks and downloadable content upgrades",
       "url": "https://www.varynforge.com/blog/how-to-get-organic-traffic-free-tactics-small-sites",
       "kind": "tactic",
@@ -189,6 +317,25 @@
       "found_at": "2026-10-07T04:19:39.269491+00:00"
     },
     {
+      "name": "AlternativeTo 'Suggest new application' listing",
+      "url": "https://alternativeto.net/faq/",
+      "kind": "directory",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Create a free AlternativeTo account (email verification is mandatory before you can submit — the site does this 'to discourage spammers and bots'), then use User icon (top right) -> 'Suggest new application' -> fill Platforms, License, Description, Tags -> 'Submit the application'. You can also add your product as an alternative to a competitor via the competitor's page -> 'Contribute to this page' -> 'Suggest Alternatives'. Optional one-time $5 priority review moves you to the front of the queue (usually reviewed within 1-2 business days, up to a week in busy periods); paying does not buy approval. Mechanism: web form; account creation needs human email verification — not autonomously automatable.",
+      "rules_and_risks": "Free to submit; the normal queue holds several thousand apps with no promised review date, and your app is invisible to everyone until approved (and gone entirely if declined). Strict criteria: English-language software only; nothing unreleased/closed-beta/invite-only; no hardware; no content sites (blogs, newspapers, review/comparison/coupon sites); one-off calculator/converter/PDF/QR-style tools are declined; thin LLM wrappers, AI companion/headshot tools and 'directories of AI tools' are declined; no links, phone numbers or emails inside descriptions; UTM parameters on the Official Website link are rejected; using your user profile to advertise is blocked as spam; incentivized upvotes or fake accounts can drop your rank or remove you from the front page.",
+      "why_it_works": "AlternativeTo ranks on high-intent 'alternatives to X' queries, so a verified listing intercepts users actively shopping for competitors — one of the few directories where traffic arrives with purchase/switch intent rather than casual browsing.",
+      "evidence": [
+        "https://alternativeto.net/faq/"
+      ],
+      "how_searched": [
+        "websearch (earlier in run): 'AlternativeTo FAQ'",
+        "webfetch alternativeto.net/faq/ (full FAQ: submission flow, $5 priority review, approval criteria, spam rules)"
+      ],
+      "score": 26.0,
+      "found_at": "2026-10-07T18:25:22.592988+00:00"
+    },
+    {
       "name": "Hacker News: Show HN and story submissions",
       "url": "https://news.ycombinator.com/newsguidelines.html",
       "kind": "community",
@@ -207,6 +354,25 @@
       "found_at": "2026-10-07T04:19:33.235389+00:00"
     },
     {
+      "name": "G2 free product listing + profile claim",
+      "url": "https://documentation.g2.com/help/docs/finding-or-listing-a-product-on-g2",
+      "kind": "directory",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Fill out the Product Submission Form at g2.com/products/new; G2's research team verifies eligibility and categorization; once approved, claim your profile (hover the 'Unclaimed' badge on the listing -> 'Claim this profile') to manage branding. Claim requests are reviewed with final approval within 1-3 business days; contact G2 Support for help. Mechanism: web form + profile claim; account needed, human review gates everything — not autonomously automatable.",
+      "rules_and_risks": "G2 does not accept business-to-consumer (B2C) products or products in alpha/beta (official warning in G2 docs). Listing approval is at G2's discretion; the site is review-driven, so competitor or customer review activity on your profile becomes the ongoing risk surface (game-orchestrated reviews violate G2 policies). Claim flow requires proof you represent the product. B2B/tooling fit only.",
+      "why_it_works": "G2 is where B2B buyers comparison-shop: category and 'alternatives' pages consistently rank in Google for '[product] vs' and 'best [category] software' queries, so a free listing plus claimed profile captures bottom-funnel traffic and generates third-party review signals that both buyers and AI answer engines cite.",
+      "evidence": [
+        "https://documentation.g2.com/help/docs/finding-or-listing-a-product-on-g2"
+      ],
+      "how_searched": [
+        "websearch (earlier in run): 'G2 product listing' — confirmed free Product Submission Form, claim review in 1-3 business days, no B2C/beta",
+        "webfetch documentation.g2.com/help/docs/finding-or-listing-a-product-on-g2 (G2 docs, updated 2025-09-18)"
+      ],
+      "score": 23.7,
+      "found_at": "2026-10-07T18:25:24.946569+00:00"
+    },
+    {
       "name": "Dev.to (Forem) cross-publishing via the official Forem API",
       "url": "https://developers.forem.com/api/v1",
       "kind": "platform",
@@ -223,6 +389,44 @@
       ],
       "score": 23.3,
       "found_at": "2026-10-07T04:19:33.753353+00:00"
+    },
+    {
+      "name": "Substack Notes as a growth engine",
+      "url": "https://www.onlinewritingclub.com/p/new-writers-grow-your-newsletter",
+      "kind": "feed",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Publish on Substack (free) and post in Notes — short-form posts, links, quotes, images and restacks that surface you in the Substack app's feeds before readers ever land on your newsletter; engage genuinely with others' notes and restack what you value. In an interview with Linda Lebrun from Substack's Writer Partnerships team (Feb 2025) she says she now starts writer conversations 'with Notes and with the app' rather than recommendations, and calls Notes where growth happens ('growth happens where engagement happens'). Mechanism: in-app social feed; requires a Substack account/publication (human email signup) — not autonomously automatable, and spammy growth tactics work against you.",
+      "rules_and_risks": "No fixed posting quota — consistency and enjoyment matter more than volume ('short and sweet is king'). Avoid treating it like a LinkedIn/X growth hack or playing subscribe-for-subscribe games; the interviewed writer explicitly frames organic engagement, not gaming, as the source of results. Figures cited are one writer's self-reported outcome (about 25% of her ~11,000 subscribers attributed to Notes/app), not a platform guarantee. Results vary with niche and effort.",
+      "why_it_works": "Notes is inside Substack's own network effects: the app is a top-download product where restacks and comments put a new publication in front of readers who are already in buying/reading mode for newsletters, converting app engagement into subscriptions without needing an existing audience — a cold-start solution for brand-new sites.",
+      "evidence": [
+        "https://www.onlinewritingclub.com/p/new-writers-grow-your-newsletter"
+      ],
+      "how_searched": [
+        "websearch (earlier in run): 'Substack Notes growth' — 50% of new subscriptions from recommendations, Notes as #1 growth tool",
+        "webfetch www.onlinewritingclub.com/p/new-writers-grow-your-newsletter (interview with Substack's Writer Partnerships team)"
+      ],
+      "score": 23.3,
+      "found_at": "2026-10-07T18:25:25.093279+00:00"
+    },
+    {
+      "name": "Bluesky starter packs + custom feeds for your niche",
+      "url": "https://bsky.social/about/blog/06-26-2024-starter-packs",
+      "kind": "feed",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Create a Bluesky account, then from your profile's Starter Packs tab build a pack (use 'Make one for me' to auto-generate or 'Create' to hand-pick) recommending up to 150 people and up to 3 custom feeds — include your own site's account among them — and share the pack link/QR code on your site and other networks; new users who join via your pack get your recommended follows and feeds, and you get notified when they join. Custom feeds let you (or anyone) set any algorithm/topic as a home timeline — examples shown are Quiet Posters, Science and Catch Up. Anyone with a Bluesky account can do this. Mechanism: in-app feature; account creation is a human mobile/email flow — not autonomously automatable.",
+      "rules_and_risks": "Starter packs do not appear in Bluesky search — they spread only via direct links and embed previews, so you must distribute the link yourself. Packs are moderation-governed: users can block the creator to drop out of a pack, and packs can be reported to Bluesky's moderation team under the Community Guidelines. Don't add people who don't want to be there; no fake-account seeding (platform-managed, and duplicate/automated accounts violate Bluesky norms).",
+      "why_it_works": "Starter packs are an official onboarding primitive: every new user who joins through your pack adopts your niche's accounts and feeds — meaning you shape what a cohort of fresh users sees, compounding your account's reach inside an engagement-driven, chronological-ish network that early adopters and tech audiences use heavily.",
+      "evidence": [
+        "https://bsky.social/about/blog/06-26-2024-starter-packs"
+      ],
+      "how_searched": [
+        "websearch (earlier in run): 'Bluesky custom feeds/starter packs'",
+        "webfetch bsky.social/about/blog/06-26-2024-starter-packs (official announcement with 150-people/3-feeds limits); docs.bsky.app custom-feeds tutorial URLs returned empty/404 during this run"
+      ],
+      "score": 23.0,
+      "found_at": "2026-10-07T18:25:25.247399+00:00"
     },
     {
       "name": "Unlinked brand-mention reclamation + resource-page outreach",
@@ -262,6 +466,82 @@
       "found_at": "2026-10-07T04:19:35.972383+00:00"
     },
     {
+      "name": "Kagi Small Web inclusion (GitHub list of personal-blog feeds)",
+      "url": "https://github.com/kagisearch/smallweb",
+      "kind": "directory",
+      "requires_account": false,
+      "official_free_api": false,
+      "how_to_use": "Add your site's RSS/Atom feed to smallweb.txt in the kagisearch/smallweb repo (one-click 'Add website RSS feed' edit link opens the file) and submit a pull request. Official rule: 'If submitting your own website, you must add at least 2 other sites that are not yours (and are not in list yet) in the same commit.' No Kagi account is required — only a GitHub account for the PR route (email/issue routes aren't offered here; GitHub sign-up is a human step). Feed shows in Kagi search results, and on kagi.com/smallweb if the blog has posts under 7 days old and can render in an iframe.",
+      "rules_and_risks": "Strict inclusion rules: English content only; personal blogs only (no multi-author blogs); no illegal/NSFW; no auto-generated, LLM-generated or spam content (LLM assistance is allowed if human-guided/reviewed at human scale, with heavier use acknowledged); blog must have a post no older than 12 months; no advertisements or undisclosed affiliate links; no popups (newsletter signup, cookie banners). YouTube channels: under 100k subscribers and at most 2 videos/week. Removal requests are honored when guidelines break. So this works only for authentic personal-blog-style sites — a commercial content farm will be rejected.",
+      "why_it_works": "Kagi surfaces Small Web posts directly in its search results (1.7k-star repo, feeds also exposed via Kagi's RSS feed and OPML), giving personal writing distribution inside a search engine built to reward human, non-LLM content — exactly the anti-AI-slop positioning that is scarce in 2026.",
+      "evidence": [
+        "https://github.com/kagisearch/smallweb"
+      ],
+      "how_searched": [
+        "websearch (earlier in run): 'Kagi Small Web'",
+        "webfetch github.com/kagisearch/smallweb (full inclusion guidelines and submission instructions)"
+      ],
+      "score": 21.7,
+      "found_at": "2026-10-07T18:25:25.642130+00:00"
+    },
+    {
+      "name": "Qiita API v2 — publish developer articles programmatically",
+      "url": "https://qiita.com/api/v2/docs",
+      "kind": "platform",
+      "requires_account": true,
+      "official_free_api": true,
+      "how_to_use": "Create a Qiita account, generate an access token (OAuth 2.0 flow or the /settings/applications page) with the write_qiita scope, then publish with POST /api/v2/items (JSON body: title, body in Markdown, tags, private flag). Rate limits from the official docs: 1000 authenticated requests per hour, and 60 unauthenticated requests per hour per IP. All endpoints require TLS. You can also post via the normal web editor. Mechanism: official free API; account + token generation is a human sign-up step — the token cannot be issued without a human logging in, but publishing itself is scriptable.",
+      "rules_and_risks": "Rate limit 1000/hour authenticated — plenty for human-scale publishing, but bulk cross-posting identical articles looks like spam and Qiita moderates content quality. Articles must be genuinely useful technical write-ups; duplicated/syndicated content and promotional posts erode standing. The API is free but tokens carry your account's identity — never expose the token (it grants read_qiita/write_qiita on your account).",
+      "why_it_works": "Qiita is a high-traffic developer article platform where well-tagged tutorials surface in site search and Google for programming questions; having an official API means one integration lets you keep a technical blog mirrored to a developer audience that actively searches for how-to content.",
+      "evidence": [
+        "https://qiita.com/api/v2/docs"
+      ],
+      "how_searched": [
+        "websearch (earlier in run): 'Qiita API v2' — confirmed free POST /api/v2/items publishing",
+        "webfetch qiita.com/api/v2/docs (auth scopes, rate limits, item creation endpoint)"
+      ],
+      "score": 21.3,
+      "found_at": "2026-10-07T18:25:27.071354+00:00"
+    },
+    {
+      "name": "Slashdot story submission",
+      "url": "https://slashdot.org/submit",
+      "kind": "community",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Create a free Slashdot account and log in at slashdot.org/submit (the page states 'You must be logged in to submit stories. You can login here. Once logged in you can still post anonymously'), then fill in the story URL, title, and the topic/disposition selections (fresh, insightful, interesting, etc.) — the site has processed 18,606,170 submissions to date. Mechanism: web form behind login; account creation needs human email verification — not autonomously automatable, and sockpuppet/automated accounts violate the moderation system.",
+      "rules_and_risks": "Submissions are community-moderated; stories that get modded down disappear from view, so only submit genuinely newsworthy, on-topic items (pure self-promotion reads as spam in that culture). Posting requires an account (though post-login you may submit anonymously). Expect slow or no pickup for anything that isn't actually news; submission volume is enormous (18.6M+).",
+      "why_it_works": "Slashdot's ('News for Nerds') front page still delivers a large, tech-native audience that comments and shares, and stories that catch ride the community's moderation system into sustained referral traffic from a 25-year-old high-authority domain.",
+      "evidence": [
+        "https://slashdot.org/submit"
+      ],
+      "how_searched": [
+        "websearch (earlier in run): 'Slashdot submissions' — free submission requiring login",
+        "webfetch slashdot.org/submit (login wall and submission form shown: 'You must be logged in to submit stories')"
+      ],
+      "score": 20.7,
+      "found_at": "2026-10-07T18:25:30.248218+00:00"
+    },
+    {
+      "name": "Marginalia Search — independent-web index submission",
+      "url": "https://github.com/MarginaliaSearch/submit-site-to-marginalia-search",
+      "kind": "search",
+      "requires_account": false,
+      "official_free_api": false,
+      "how_to_use": "Four official routes per the repo README: (A) search 'site:yoursite.com' on Marginalia's search page — if the domain is already known, a button appears to add it manually; (B) fork the submit-site-to-marginalia-search repo, add your URL to sites.txt, open a PR (applied when the next crawl runs, 'a month or more — be patient'); (B1/2) open a GitHub issue with your URL; (C) email the URL to contact@marginalia-search.com (no reply expected). Separately, for 'random exploration' discovery, use the 'suggest' button under your site's screenshot. Only route C needs no account at all; GitHub routes need a GitHub account (human signup).",
+      "rules_and_risks": "Manual submission is deliberate anti-abuse friction — 'Adding obstacles makes this much harder. Otherwise it would be possible to use the search engine's crawler essentially as a weapon'. Expect slow inclusion (a month+ until crawl cycle) and no email confirmation. Marginalia is tiny versus Google, so treat it as incremental indie-web discovery and link equity from a genuinely independent index, not a traffic flood. Don't mass-submit hundreds of URLs — that's exactly what the friction is designed against.",
+      "why_it_works": "Marginalia indexes the small/indie web that commercial engines under-crawl; inclusion gets your pages into a crawler that actively promotes independent sites, earning you visibility (and a backlink-adjacent presence) among readers deliberately seeking non-corporate content.",
+      "evidence": [
+        "https://github.com/MarginaliaSearch/submit-site-to-marginalia-search"
+      ],
+      "how_searched": [
+        "websearch (earlier in run): 'Marginalia Search submission' — found site:-button, GitHub issue/PR and contact@marginalia-search.com routes",
+        "webfetch github.com/MarginaliaSearch/submit-site-to-marginalia-search (all four submission options verbatim)"
+      ],
+      "score": 20.0,
+      "found_at": "2026-10-07T18:25:30.704703+00:00"
+    },
+    {
       "name": "Quora: durable answers on questions your audience already asks",
       "url": "https://factors.ai/blog/increase-blog-traffic",
       "kind": "community",
@@ -279,6 +559,25 @@
       ],
       "score": 18.7,
       "found_at": "2026-10-07T04:19:39.470808+00:00"
+    },
+    {
+      "name": "Wiby submit — indie search engine for simple web pages",
+      "url": "https://wiby.me/submit/",
+      "kind": "search",
+      "requires_account": false,
+      "official_free_api": false,
+      "how_to_use": "Open wiby.me/submit/, enter your page URL, choose the worksafe flag, solve the image CAPTCHA (cookies must be enabled) and submit — no account, no email, no API key required. Official indexing guidance: 'Pages must be simple in design. Simple HTML, non-commercial sites are preferred. Pages should not use much scripts/css for cosmetic effect.'",
+      "rules_and_risks": "Designed against the modern ad-heavy web: no intrusive ads (ads over content), don't use Wiby as 'a portal to other bloated websites', avoid submitting many pages from one site ('In most cases, only the page you submit will be crawled'), pages with no text or using frames need a meta description tag, Angelfire/Tripod pages are no longer grandfathered because their ads are too intrusive. The CAPTCHA inherently blocks automated submission, and heavy commercial or script-laden sites simply won't be indexed — this channel only fits lean, non-commercial pages.",
+      "why_it_works": "Wiby deliberately surfaces lightweight, independent pages that Google buries under ad-heavy results; its users are exactly the small-web audience that tends to link, bookmark and community-share indie sites, so inclusion delivers qualified, culture-aligned discovery even at modest volume.",
+      "evidence": [
+        "https://wiby.me/submit/"
+      ],
+      "how_searched": [
+        "websearch (earlier in run): 'Wiby submit' — found free form submission",
+        "webfetch wiby.me/submit/ (form fields, CAPTCHA requirement and full indexing rules)"
+      ],
+      "score": 18.0,
+      "found_at": "2026-10-07T18:25:31.665402+00:00"
     },
     {
       "name": "Lobsters: invite-tree link aggregator for computing topics",
