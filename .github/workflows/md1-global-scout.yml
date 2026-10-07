@@ -6,7 +6,7 @@ on:
   workflow_dispatch: {}
 
 permissions:
-  contents: read
+  contents: write
   issues: write
   models: read
 
@@ -55,6 +55,18 @@ jobs:
           gh issue create --repo "$GITHUB_REPOSITORY" \
             --title "Scout plan $(date -u +%F)" \
             --body-file plan.md
+
+      - name: Remember what was planned (straight to main, no PR)
+        if: always()
+        working-directory: .
+        run: |
+          git config user.name "MD1 Bot"
+          git config user.email "action@github.com"
+          git add md1_global_agent/memory/planned.json md1_global_agent/memory/memory.json 2>/dev/null || true
+          if git diff --cached --quiet; then echo "nothing new to remember"; exit 0; fi
+          git commit -m "scout: remember planned repos [skip ci]"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
 
       - name: Show report in job summary
         if: always()
