@@ -1,0 +1,83 @@
+name: MD1 Opportunity Engine
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 7 * * *"
+  push:
+    branches: [main]
+    paths:
+      - "md1_global_agent/**"
+      - ".github/workflows/opportunity-engine.yml"
+
+permissions:
+  contents: write
+  pull-requests: write
+  models: read
+
+concurrency:
+  group: md1-opportunity-engine
+  cancel-in-progress: false
+
+jobs:
+  pipeline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    defaults:
+      run:
+        working-directory: md1_global_agent
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install
+        run: pip install -r requirements.txt
+      - name: Scout and plan
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          API_KEYS: ${{ secrets.API_KEYS }}
+          OPENCODE_API_KEY: ${{ secrets.OPENCODE_API_KEY }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          PRODUCTHUNT_TOKEN: ${{ secrets.PRODUCTHUNT_TOKEN }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+          CHAT_ID: ${{ secrets.CHAT_ID }}
+        run: python opportunity_engine.py | tee report.txt
+      - name: Publish isolated MDM1 page
+        env:
+          MDM1_REPO: md1god/MDM1.org
+          MDM1_GITHUB_TOKEN: ${{ secrets.MDM1_GITHUB_TOKEN }}
+        run: python site/publish_opportunity.py
+      - name: Build MVP
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          test -f build_request.md || exit 0
+          npm install -g opencode-ai
+          MODEL=$(opencode models opencode 2>/dev/null | grep -Eo 'opencode/(big-pickle|[^ ]+-free)' | head -1 | cut -d/ -f2)
+          test -n "$MODEL" || MODEL=big-pickle
+          SLUG=$(cat opportunity_slug.txt)
+          BRANCH="agent/opportunity-$SLUG-$GITHUB_RUN_ID"
+          git switch -c "$BRANCH"
+          opencode run --model "opencode/$MODEL" "$(cat build_request.md)"
+          git diff --check
+          test -n "$(git status --porcelain -- products/)" || exit 0
+          git add products/
+          git commit -m "feat: autonomous MVP $SLUG"
+          git push -u origin "$BRANCH"
+          gh pr create --repo "$GITHUB_REPOSITORY" --head "$BRANCH" --base main --title "feat: MVP $SLUG" --body "Automated MVP candidate isolated under products/."
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: md1-opportunity-report
+          path: |
+            md1_global_agent/report.txt
+            md1_global_agent/plan.md
+            md1_global_agent/build_request.md
+            md1_global_agent/out/*.json
+          if-no-files-found: ignore
