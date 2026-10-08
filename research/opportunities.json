@@ -243,6 +243,21 @@
       "found_at": "2026-10-07T03:59:31.632342+00:00"
     },
     {
+      "name": "Prompt-injection & AI-guardrail red-team scanner",
+      "field": "AI security / LLM testing",
+      "summary": "Free web tool where builders paste a system prompt, agent definition or RAG config and instantly get a scored report of prompt-injection, data-exfiltration and jailbreak failures, plus a reusable test suite that can be re-run on every model change. It is the open/free version of what enterprise vendors now sell as continuous agent red-teaming.",
+      "why_now": "Search interest for 'AI Guardrails' is up 8,400% on Exploding Topics; commercial tool BenchBot claims most AI applications fail at least 30% of its injection tests; and the EU AI Act's Article 50 transparency duties have been enforceable since 02 Aug 2026, making basic guardrail testing a compliance-driven habit rather than a nice-to-have.",
+      "monetization": "Free scans in the browser, paid seats for CI/API re-runs, team dashboards and compliance-ready exportable reports — the same packaging BenchBot/Nforcer use with enterprise buyers.",
+      "evidence": [
+        "https://explodingtopics.com/blog/trending-topics",
+        "https://benchbot.ai/landing/prompt-injection-detection",
+        "https://ai-act-service-desk.ec.europa.eu/en/ai-act/timeline/timeline-implementation-eu-ai-act"
+      ],
+      "how_searched": "Searched trending AI-security and compliance terms on Exploding Topics and Google Trends, then opened the EU AI Act implementation timeline and a commercial prompt-injection testing vendor to verify live demand.",
+      "score": 81.0,
+      "found_at": "2026-10-08T10:47:41.190808+00:00"
+    },
+    {
       "name": "Text or image to 3D model generator",
       "field": "3D / Design tools",
       "summary": "A free web tool that turns a text prompt or a photo into a downloadable 3D model (glTF/STL) for games, printing and product mockups.",
@@ -460,6 +475,36 @@
       "found_at": "2026-10-07T23:12:52.157584+00:00"
     },
     {
+      "name": "Event invite, RSVP & date-poll page builder",
+      "field": "Consumer social / events",
+      "summary": "Free browser tool that turns a few clicks into a shareable invite page: RSVP, group chat, guest list, date polls and an optional paid-ticket link — the Partiful-style flow without requiring an app install, built as an original product.",
+      "why_now": "Partiful's search volume is up 99x+ on Exploding Topics and it now draws roughly 30.2M monthly visits (+13.9% over 3 months per Systemaic's teardown); on 02 Jun 2026 it launched ticketing as its first-ever monetization, proving hosts will pay inside the invite flow while demand for a free, open alternative keeps rising.",
+      "monetization": "Transaction fee on paid events (Partiful's own first revenue move), premium invite themes/designs, custom domains and promoted event placement.",
+      "evidence": [
+        "https://explodingtopics.com/blog/trending-topics",
+        "https://www.systemaic.com/teardowns/partiful",
+        "https://www.tbpndigest.com/story/2026-06-02/partiful-launches-ticketing-as-its-first-monetization-move-targeting-supper-clubs-concerts-and-community-events"
+      ],
+      "how_searched": "Looked up viral consumer event apps in Exploding Topics, opened an independent traffic teardown of Partiful, then read contemporaneous coverage of its ticketing launch to confirm monetization.",
+      "score": 74.0,
+      "found_at": "2026-10-08T10:47:41.787327+00:00"
+    },
+    {
+      "name": "Personal data-broker opt-out & removal-request generator",
+      "field": "Privacy / consumer safety",
+      "summary": "Free tool that shows where your name, address and phone appear across people-search/data-broker sites, generates the opt-out requests for you, and lets you track status; ongoing automated re-removal and breach monitoring sits behind a paid plan.",
+      "why_now": "DeleteMe is estimated at ~$21.3M annual revenue (Growjo) while its Apr 16, 2026 TD SYNNEX partnership explicitly cites AI-driven PII harvesting as the new threat driver; a fresh WIRED hands-on review (Jun 27, 2026) documents mainstream demand and a $129/yr price point that a free self-serve generator can undercut.",
+      "monetization": "Free one-time scan and self-serve request generation; paid annual subscription for continuous monitoring and automatic re-submissions (benchmark: DeleteMe $129/yr for one person).",
+      "evidence": [
+        "https://growjo.com/company/deleteme",
+        "https://markets.businessinsider.com/news/stocks/deleteme-announces-partnership-with-td-synnex-to-combat-ai-driven-social-engineering-1036030024",
+        "https://www.wired.com/story/i-tried-deleteme-the-original-data-broker-removal-service/"
+      ],
+      "how_searched": "Searched data-removal service revenue and recent partnerships, opened a company-revenue estimate page, a news wire release and a dated consumer review to triangulate demand and pricing.",
+      "score": 73.0,
+      "found_at": "2026-10-08T10:47:43.732474+00:00"
+    },
+    {
       "name": "LLM / agent spend & cost observability dashboard",
       "field": "Developer tools (LLMOps / FinOps)",
       "summary": "A free web tool that ingests API logs and shows cost per user, per feature, per model, plus latency, caching and runaway-agent alerts.",
@@ -500,6 +545,21 @@
       ],
       "score": 72.0,
       "found_at": "2026-10-08T03:07:46.544427+00:00"
+    },
+    {
+      "name": "GLP-1 price, coverage & provider comparison tool",
+      "field": "Health-tech / consumer finance",
+      "summary": "Free comparison site for GLP-1 medications: cash-pay prices across LillyDirect, NovoCare, GoodRx and telehealth providers, subscription-vs-direct cost calculator, insurance-coverage checker and dose cost explorer — pure information tooling, no medical services.",
+      "why_now": "'GLP 1 Supplement' searches are up 99x+ on Exploding Topics; Fact.MR sizes GLP-1 telehealth platforms at $763.8M in 2026 growing to $3,280M by 2036; and AInvest (Sep 12, 2026) reports ~19M Americans now on these drugs while prices collapse (GoodRx $39/mo, manufacturer-direct channels, 30+ FDA warning letters) — maximum consumer confusion right now.",
+      "monetization": "Qualified lead-gen/affiliate fees from telehealth providers and pharmacies, display advertising, and premium price-drop/coverage alerts.",
+      "evidence": [
+        "https://explodingtopics.com/blog/trending-topics",
+        "https://www.factmr.com/media-release/2166/glp-1-telehealth-platforms-market",
+        "https://www.ainvest.com/news/glp-1-gold-rush-ran-gold-2609/"
+      ],
+      "how_searched": "Checked GLP-1-related breakout queries on Exploding Topics, opened the market-research size estimate, then read a dated 2026 analysis of provider pricing and channel shifts.",
+      "score": 72.0,
+      "found_at": "2026-10-08T10:47:44.578406+00:00"
     },
     {
       "name": "AI resume + job-application toolkit (ATS-tailored)",
@@ -624,6 +684,21 @@
       "found_at": "2026-10-08T03:07:51.435240+00:00"
     },
     {
+      "name": "Free web microdrama platform (episodic short-drama player)",
+      "field": "Entertainment / streaming",
+      "summary": "Browser-based vertical short-drama experience: swipeable episodic series with coin/web-billing unlocks or ad-supported free episodes, a discovery feed, and original or AI-assisted series — rebuilding the format as a free website rather than cloning any catalog.",
+      "why_now": "Media Partners Asia (report via Variety, Aug 6, 2026) sizes microdrama outside China at $3.6B in 2026 rising to $9.5B by 2031, with ReelShort alone at $1.05B (+34%); US app charts on Oct 7-8, 2026 show the format flooding top-free lists (PineDrama #12 iPhone, plus BlinkDrama, StoryReel, NetShort, DramaBox in the top 100).",
+      "monetization": "Coin packs billed through our own web store (MPA notes margin upside from exactly this shift), ad-supported free episodes (MPA projects ads reaching ~15% of category revenue), and optional unlimited-pass subscriptions.",
+      "evidence": [
+        "https://variety.com/2026/tv/news/reelshort-1-billion-revenue-profit-2026-mpa-1236828885/",
+        "https://appinsider.io/top-charts/us/all/free",
+        "https://appstorestatistics.com/charts/us/top-free"
+      ],
+      "how_searched": "Searched short-drama market revenue and reports, opened the Variety/MPA story, then verified live demand in two independent US app-store chart trackers updated Oct 7-8, 2026.",
+      "score": 63.0,
+      "found_at": "2026-10-08T10:47:47.044511+00:00"
+    },
+    {
       "name": "Viral-product dupe finder",
       "field": "Commerce / Shopping",
       "summary": "A free web tool where you paste a viral product or brand and get cheaper equivalent items that people are actively searching for instead.",
@@ -641,6 +716,48 @@
       ],
       "score": 62.0,
       "found_at": "2026-10-08T03:07:51.940232+00:00"
+    },
+    {
+      "name": "Free AI-text detector & authorship-proof checker",
+      "field": "Writing authenticity",
+      "summary": "No-signup paste-in tool that returns AI probability with sentence-level highlights, plus an optional 'writing replay' that logs keystrokes so users can prove human authorship; freemium with word-count limits and an API.",
+      "why_now": "Superhuman (formerly Grammarly) acquired GPTZero on 23-24 Jun 2026 — 19M registered users and ~$30M ARR (TNW); Sacra independently estimates $24M ARR in 2025, +253% YoY. The category's biggest winner literally started as a free single-page web tool, and consolidation by incumbents leaves room for a fast free alternative.",
+      "monetization": "Free tier with monthly word allowance, $15-24/mo paid tiers, API credits for publishers/recruiters, and education plans — pricing model documented in Sacra's breakdown.",
+      "evidence": [
+        "https://thenextweb.com/news/superhuman-gptzero-acquisition-ai-detection",
+        "https://sacra.com/c/gptzero/"
+      ],
+      "how_searched": "Searched AI-detector acquisition and revenue coverage, then opened both a news report and an independent revenue-research profile to confirm the numbers from two sources.",
+      "score": 46.0,
+      "found_at": "2026-10-08T10:47:45.022353+00:00"
+    },
+    {
+      "name": "Cross-network competitor ad-library search (free tier)",
+      "field": "Marketing intelligence",
+      "summary": "One search box across Meta, Google, TikTok, YouTube and LinkedIn ad-transparency libraries with saved swipe files and brand tracking; free tier runs on public transparency data, paid tier adds persistent archive, spend/run-length signals and a single API.",
+      "why_now": "adlibrary.com reports 4,200+ paying users at €179/mo Pro (€29 entry) precisely because Meta's free library hides spend, drops paused ads and covers only 2 of 7 networks; a Sep 2026 MarketResearch.com report on the Digital Ad Intelligence Software market confirms the category is being re-priced right now.",
+      "monetization": "Freemium subscriptions (€29-179/mo benchmark), API keys for data teams, multi-seat agency workspaces.",
+      "evidence": [
+        "https://adlibrary.com/ad-library-alternative",
+        "https://www.marketresearch.com/Bosson-Research-v4252/Global-Digital-Ad-Intelligence-Software-46469268/"
+      ],
+      "how_searched": "Searched ad-library/AdSpy alternatives and pricing, opened the leading alternative's own pricing-and-coverage page, plus a current market-research report page for category sizing.",
+      "score": 44.7,
+      "found_at": "2026-10-08T10:47:46.101693+00:00"
+    },
+    {
+      "name": "Promo-code finder & price-drop tracker",
+      "field": "E-commerce savings",
+      "summary": "Free web tool where you paste a product URL and get working promo codes (community-submitted plus store feeds), price history and drop alerts — a no-signup coupon/price tracker in the Honey mold, rebuilt as an independent site.",
+      "why_now": "US free-app charts on Oct 7-8, 2026 show deal tools surging ahead of the holiday season: DealSeek at #7 on Android (up 28), Koupon and Capital One Shopping in the top 30 (Capital One Shopping brand-new to the chart), and Freecash at #5 on iPhone — seasonal demand is spiking right now.",
+      "monetization": "Affiliate commissions on purchases (established cashback/affiliate rev-share model), merchant-funded placement of verified codes, premium price-drop alerts.",
+      "evidence": [
+        "https://appinsider.io/top-charts/us/all/free",
+        "https://appstorestatistics.com/charts/us/top-free"
+      ],
+      "how_searched": "Pulled current US top-free app charts from two independent chart trackers and looked specifically for coupon/deal/price-tracking apps and their rank movement.",
+      "score": 37.3,
+      "found_at": "2026-10-08T10:47:47.837504+00:00"
     },
     {
       "name": "Browser voice-dictation / hands-free writing tool",
