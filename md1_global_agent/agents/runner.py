@@ -55,7 +55,7 @@ def prompt_for(mission: str, known: list) -> str:
             + ("\n".join(f"- {n}" for n in known[:80]) or "- (nothing yet)"))
 
 
-def run_agent(prompt: str, models: list, timeout: int = 1200) -> tuple:
+def run_agent(prompt: str, models: list, timeout: int = 600) -> tuple:
     errors = []
     for model in models:
         try:

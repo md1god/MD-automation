@@ -33,7 +33,7 @@ social/                 بوت تليجرام للنشر التلقائي + إح
 | `deploy.yml` | بعد نجاح `Build` | `reusable-deploy.yml` |
 | `auto-fix.yml` | عند فتح/تصنيف Issue بعلامة `build-failed`، بعد التحقق من صلاحيات المستخدم | `reusable-autofix.yml` |
 | `publish.yml` | يدويًا | `reusable-publish.yml` |
-| `pipeline.yml` | كل 6 ساعات | يعمل checkout لريبوهات المواقع الأخرى (`SITES_PAT`)، يبني، يبلّغ بالفشل، ويشغّل `publish.yml` لو كل حاجة تمام |
+| `pipeline.yml` | كل 6 ساعات | يفحص بناء ريبوهات المواقع الأخرى، ثم يشغّل `publish.yml` لو كل حاجة تمام |
 
 ### مستقلة (منطقها بالكامل جوه الملف، من غير استدعاء)
 
@@ -67,3 +67,19 @@ jobs:
 | `TELEGRAM_BOT_TOKEN` | `telegram-publish.yml` — بوت تليجرام للنشر اليومي المجدول |
 
 لازم تتأكد إن دول موجودين فعليًا في `Settings → Secrets and variables → Actions` قبل ما تعتمد على أي workflow بيستخدمهم.
+
+## التحقق المحلي قبل التشغيل
+
+```bash
+python -m pip install -r md1_global_agent/requirements.txt
+python -m compileall -q md1_global_agent growth-engines social
+node --check page-generator/build-pages.js
+```
+
+`MD1 Global Scout` لا ينشئ Issues عامة بعد الآن؛ تقارير التشغيل والخطة التفصيلية تُحفظ كـ
+Artifacts مرتبطة بالتشغيل، بينما تقرير Telegram يستخدم معرفات مجهّلة ولا يكشف اسم أو رابط المصدر.
+
+الـ Issues القديمة بعنوان `Scout plan ...` كانت ناتجة عن خطوة `gh issue create` داخل
+`md1-global-scout.yml` وليست أعطالًا؛ تم إيقاف هذا السلوك لأنه كان يكرر الخطط ويكشف المصدر
+في مستودع عام. إعادة بناء كود مشاريع خارجية ليست مفعّلة تلقائيًا: الوكيل يولد خطة فقط ولا
+يشغّل كودًا غير موثوق داخل GitHub Actions.

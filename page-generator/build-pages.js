@@ -31,6 +31,12 @@ function shuffle(arr) {
   return a;
 }
 
+function escapeHtml(value) {
+  return String(value ?? '').replace(/[&<>"']/g, ch => ({
+    '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+  }[ch]));
+}
+
 if (!fs.existsSync(LIBRARY_DIR)) {
   console.error(`❌ مجلد ${LIBRARY_DIR} غير موجود. تم إيقاف التنفيذ.`);
   process.exit(1);
@@ -78,10 +84,14 @@ const slug = `page-${String(state.pageCount).padStart(4, '0')}`;
 const pagePath = path.join(PAGES_DIR, `${slug}.html`);
 const now = new Date();
 
-const fragment = `<article class="generated-page" id="${slug}" data-title="${item.title}" data-image="${item.image}" data-audio="${item.audio}">
-  <h2>${item.title}</h2>
-  <p>${item.description}</p>
-  <button class="cta-button" type="button">${item.cta}</button>
+const safeTitle = escapeHtml(item.title);
+const safeDescription = escapeHtml(item.description);
+const safeCta = escapeHtml(item.cta || 'اكتشف المزيد');
+const safeTarget = escapeHtml(item.ctaUrl || item.url || '#');
+const fragment = `<article class="generated-page" id="${slug}" data-title="${safeTitle}" data-image="${escapeHtml(item.image)}" data-audio="${escapeHtml(item.audio)}">
+  <h2>${safeTitle}</h2>
+  <p>${safeDescription}</p>
+  <a class="cta-button" href="${safeTarget}" rel="noopener noreferrer">${safeCta}</a>
   <meta name="page-date" content="${now.toISOString()}">
 </article>`;
 

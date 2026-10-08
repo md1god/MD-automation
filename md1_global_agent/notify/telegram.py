@@ -1,4 +1,5 @@
-"""Daily report to the owner's Telegram chat. Never prints the token or chat id."""
+"""Daily report to the owner's Telegram chat. Never prints secrets or source identities."""
+import hashlib
 import os
 import requests
 
@@ -103,7 +104,10 @@ def daily_report(config, opportunities, report, plan_title, provider, plan_error
              f"فرص تم تقييمها: {report['total']}"]
     for o in opportunities[:3]:
         r, a = o["repo"], o["analysis"]
-        lines.append(f"- {a['score']} | {o['mode']} | {r['full_name']}")
+        # The source identity is internal-only. Telegram is a public/social channel,
+        # so expose a stable opaque id and category instead of a name or URL.
+        source_id = hashlib.sha256(r["full_name"].encode("utf-8")).hexdigest()[:10]
+        lines.append(f"- {a['score']} | {o['mode']} | فرصة {source_id} | {r['category']}")
     if plan_title:
         lines.append(f"الخطة: {plan_title}")
         lines.append(f"النموذج المستخدم: {provider}")

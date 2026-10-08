@@ -6,8 +6,7 @@ on:
   workflow_dispatch: {}
 
 permissions:
-  contents: write
-  issues: write
+  contents: read
   models: read
 
 jobs:
@@ -30,10 +29,28 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Install OpenCode CLI (free models only work from inside OpenCode)
-        continue-on-error: true
         run: npm install -g opencode-ai
 
-      - name: Run scout (Dry Run - nothing is published)
+      - name: Validate production credentials
+        env:
+          API_KEYS: ${{ secrets.API_KEYS }}
+          OPENCODE_API_KEY: ${{ secrets.OPENCODE_API_KEY }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+        run: |
+          set -euo pipefail
+          if [ -z "${API_KEYS}${OPENCODE_API_KEY}${OPENROUTER_API_KEY}${GROQ_API_KEY}" ]; then
+            echo 'No LLM provider secret is configured.' >&2
+            exit 1
+          fi
+          if [ -z "${TELEGRAM_BOT_TOKEN}${BOT_TOKEN}" ]; then
+            echo 'No Telegram bot secret is configured.' >&2
+            exit 1
+          fi
+
+      - name: Run scout (production report; no public source identity)
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           API_KEYS: ${{ secrets.API_KEYS }}
@@ -47,26 +64,15 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python main.py | tee report.txt
 
-      - name: Open an issue with today's plan (if a plan was written)
-        if: hashFiles('md1_global_agent/plan.md') != ''
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          gh issue create --repo "$GITHUB_REPOSITORY" \
-            --title "Scout plan $(date -u +%F)" \
-            --body-file plan.md
-
-      - name: Remember what was planned (straight to main, no PR)
+      - name: Upload private run artifacts
         if: always()
-        working-directory: .
-        run: |
-          git config user.name "MD1 Bot"
-          git config user.email "action@github.com"
-          git add md1_global_agent/memory/planned.json md1_global_agent/memory/memory.json 2>/dev/null || true
-          if git diff --cached --quiet; then echo "nothing new to remember"; exit 0; fi
-          git commit -m "scout: remember planned repos [skip ci]"
-          git pull --rebase origin "${GITHUB_REF_NAME}"
-          git push origin "HEAD:${GITHUB_REF_NAME}"
+        uses: actions/upload-artifact@v4
+        with:
+          name: scout-${{ github.run_id }}
+          path: |
+            md1_global_agent/plan.md
+            md1_global_agent/report.txt
+          if-no-files-found: ignore
 
       - name: Show report in job summary
         if: always()

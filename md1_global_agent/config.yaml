@@ -1,5 +1,5 @@
 # MD1 Global Agent configuration
-dry_run: true            # true = discover & evaluate only, never publish or push anything
+dry_run: false           # discovery + Telegram report are live; source-code rebuilding remains plan-only
 max_results_per_query: 10
 min_score_to_build: 60   # opportunities below this score are not built
 idea_only: true         # take the IDEA only (open or closed, any license); everything is rebuilt original
