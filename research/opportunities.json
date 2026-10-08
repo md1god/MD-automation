@@ -98,6 +98,29 @@
       "found_at": "2026-10-07T23:12:49.341388+00:00"
     },
     {
+      "name": "Medical-bill audit & dispute web tool",
+      "field": "Consumer health finance / insurance navigation",
+      "summary": "Upload an itemized hospital or physician bill; it flags duplicate, mis-coded and inflated line items against published price benchmarks and auto-drafts dispute and financial-assistance letters. A free, no-signup web version of what physician-led negotiation startups now sell.",
+      "why_now": "Fresh entrants and rules landed in the last weeks: Clearity Health launched a physician-led negotiation service on 2026-09-28 (20% of savings, capped at $1,000); calliora raised $6M pre-seed on 2026-10-06; CMS began enforcing expanded 2026 hospital price-transparency data on 2026-04-01. The negotiation/payment-plan service market is $2.31B in 2026 heading to $4.28B by 2034 (8.2% CAGR), with CFPB citing ~$88B of medical bills in collections.",
+      "monetization": "Peers charge a share of savings (Clearity: 20% capped at $1,000), flat per-bill fees (mediloop $129 per bill, $499/yr for up to 6 bills), or one-time audits around $99. A free audit tool monetizes via upsell to human negotiation, lead-gen/affiliate, or premium letter packets.",
+      "evidence": [
+        "https://www.prnewswire.com/news-releases/austin-based-clearity-health-launches-physician-led-medical-bill-negotiation-service-with-fees-capped-at-1-000--302890954.html",
+        "https://www.intelmarketresearch.com/medical-bill-negotiationpayment-plan-service-market-44721",
+        "https://techfundingnews.com/bertelsmann-and-redalpine-back-calliora-with-6m-for-ai-that-cuts-hospital-billing-errors/",
+        "https://mediloop.ai/",
+        "https://www.parlio.ai/"
+      ],
+      "how_searched": [
+        "news/PR wire",
+        "market-research report",
+        "startup funding news",
+        "competitor product sites",
+        "web search"
+      ],
+      "score": 88.0,
+      "found_at": "2026-10-08T23:25:22.388490+00:00"
+    },
+    {
       "name": "Short-Form Video Intelligence & Analytics",
       "field": "Creator Economy / MarTech",
       "summary": "Real-time analytics platform for TikTok, Reels, Shorts that tracks viral trends, competitor performance, outlier detection, and content gaps — turning signals into scripts, briefs, and ad creative.",
@@ -410,6 +433,25 @@
       "found_at": "2026-10-07T23:12:51.691039+00:00"
     },
     {
+      "name": "AI contract-review / plain-English clause explainer",
+      "field": "Legal tech / contract analysis",
+      "summary": "Upload a contract and get a plain-English summary, flagged one-sided clauses, missing standard terms and suggested redlines. A free self-serve layer under tools that enterprises pay heavily for.",
+      "why_now": "Multiple independent market reports published Aug-Oct 2026 show rapid growth: generative-AI legal contract drafting/review reaches $4.21B in 2026 to $14.76B by 2031 (28.52% CAGR); AI contract-analysis tools $4.3B in 2026 to $12.06B by 2030 (29.6% CAGR); a separate estimate puts AI contract review at $823M in 2025 to $6.83B by 2034 (26.5% CAGR). Vendors report 60-80% cuts in initial review time, pushing adoption from trials to production.",
+      "monetization": "Freemium: free single-contract explanation, paid bulk review, redline packs, team plans, or API. Enterprise incumbents monetize via per-seat/annual subscriptions and per-agreement pricing; a free consumer tier is an open wedge.",
+      "evidence": [
+        "https://www.mordorintelligence.com/industry-reports/generative-ai-in-legal-contract-drafting-and-review-market",
+        "https://www.thebusinessresearchcompany.com/report/artificial-intelligence-ai-powered-contract-analysis-tools-market-report",
+        "https://trendxinsights.com/syndicated-market-research-reports/ai-contract-review-market/",
+        "https://www.technavio.com/report/ai-powered-contract-analysis-software-market-industry-analysis"
+      ],
+      "how_searched": [
+        "market-research reports (multiple firms)",
+        "web search"
+      ],
+      "score": 76.0,
+      "found_at": "2026-10-08T23:25:29.482066+00:00"
+    },
+    {
       "name": "Invoice & AP Automation (AI-First)",
       "field": "Fintech / B2B SaaS",
       "summary": "End-to-end invoice processing: email/file intake → AI extraction (line items, PO matching) → validation → ERP/accounting sync → approval workflow → payment — with KPI dashboards (cost/invoice, cycle time, touchless rate).",
@@ -452,6 +494,27 @@
       ],
       "score": 75.0,
       "found_at": "2026-10-08T03:07:43.568964+00:00"
+    },
+    {
+      "name": "AI phone-receptionist / missed-call recovery web tool",
+      "field": "SMB voice AI / front desk",
+      "summary": "A web-based assistant that answers or texts back missed business calls, books appointments and captures leads. The rebuildable free angle is an instant missed-call ROI calculator plus a browser-based answering agent.",
+      "why_now": "2026 data is emphatic: 62% of small-business calls go unanswered and 85% of missed callers never call back; the virtual-receptionist market hit $4.64B in 2026 while voice AI agents grow at 34.8% CAGR toward $47.5B by 2034; a separate 1.4M-call analysis found avg missed-call cost ~$450. Healthcare adoption jumped to ~38% of practices (from ~12% in 2023).",
+      "monetization": "Monthly subscriptions ($49-$569/mo typical; one vendor $147/mo + $0.25/min) versus $30K-$60K/yr for a human receptionist. A free calculator/web agent funnels into paid call volumes.",
+      "evidence": [
+        "https://ai-answering-review.com/industry-report/",
+        "https://getsawy.com/statistics/ai-receptionist-statistics",
+        "https://revsquared.ai/blog/ai-receptionist-industry-report-2026",
+        "https://www.sci-tech-today.com/stats/ai-receptionist-statistics/"
+      ],
+      "how_searched": [
+        "industry reports",
+        "statistics aggregators",
+        "vendor research blogs",
+        "web search"
+      ],
+      "score": 75.0,
+      "found_at": "2026-10-08T23:25:30.248948+00:00"
     },
     {
       "name": "Chat-first personal AI assistant (web app)",
@@ -503,6 +566,25 @@
       "how_searched": "Searched data-removal service revenue and recent partnerships, opened a company-revenue estimate page, a news wire release and a dated consumer review to triangulate demand and pricing.",
       "score": 73.0,
       "found_at": "2026-10-08T10:47:43.732474+00:00"
+    },
+    {
+      "name": "AI dubbing / video-localization web tool",
+      "field": "Media localization / creator tools",
+      "summary": "Auto-translate and dub a video into many languages while preserving the speaker's voice, with subtitles. A free creator-facing tool sits below enterprise OTT localization suites.",
+      "why_now": "Adoption jumped in 2025-2026: ~58% of streaming platforms had deployed AI dubbing by June 2026 (from ~12% in 2022) and ~82% of YouTube creators over 100K subs now dub content; YouTube auto-dubbing expanded to 27 languages with 6M+ daily viewers. Markets: AI dubbing tools $1.35B in 2026 to $2.56B by 2030 (17.3% CAGR); AI dubbing for OTT $0.75B in 2026 to $2.45B by 2031 (26.71% CAGR); AI video localization $3.8B in 2025 to $21.2B by 2034 (19.4% CAGR).",
+      "monetization": "Freemium minutes, per-minute credits, or creator subscriptions; incumbents charge per localized minute and enterprise licensing. Free watermark-free tier with paid minute packs is the classic wedge.",
+      "evidence": [
+        "https://www.thebusinessresearchcompany.com/report/artificial-intelligence-ai-dubbing-tools-global-market-report",
+        "https://www.mordorintelligence.com/industry-reports/ai-dubbing-for-ott-market",
+        "https://www.astuteanalytica.com/industry-report/ai-dubbing-and-localization-market",
+        "https://marketintelo.com/report/ai-video-localization-market"
+      ],
+      "how_searched": [
+        "market-research reports (multiple firms)",
+        "web search"
+      ],
+      "score": 73.0,
+      "found_at": "2026-10-08T23:25:31.857440+00:00"
     },
     {
       "name": "LLM / agent spend & cost observability dashboard",
@@ -562,6 +644,27 @@
       "found_at": "2026-10-08T10:47:44.578406+00:00"
     },
     {
+      "name": "Cookie-consent / privacy-compliance generator",
+      "field": "Privacy compliance / web tooling",
+      "summary": "Scan a site, detect trackers, generate a compliant cookie banner plus cookie/privacy policy, and block non-essential scripts before consent. A free generator for the long tail of small sites that big CMPs ignore.",
+      "why_now": "Enforcement and penalties rose sharply in 2026: the UK's maximum PECR cookie fine jumped from £500K to £17.5M on 2026-02-05, and the ICO finalized equal-prominence \"Reject All\" guidance on 2026-04-29; the EDPB launched a 25-authority coordinated enforcement on transparency (March 2026). Industry audits still find ~35% of sites using pre-checked boxes, and the consent-management market grows from $1.2B in 2026 to $2.8B by 2033 (13.1% CAGR).",
+      "monetization": "Freemium scan + paid hosted CMP subscription (incumbents charge roughly €29-€588/yr per domain, enterprise far higher); add-on policy generation, monitoring, and agency multi-site plans.",
+      "evidence": [
+        "https://www.grandviewresearch.com/industry-analysis/consent-management-market-report",
+        "https://orchestrix.co.uk/blog/uk-small-business-cookie-consent-april-2026-ico-update",
+        "https://sitegrade.io/en/blog/cookie-banner-2026-legal-implementation/",
+        "https://vaultjs.com/resources/cookie-compliance-2026-consent-banner-risk/"
+      ],
+      "how_searched": [
+        "market-research report",
+        "regulatory/news analysis",
+        "compliance blogs",
+        "web search"
+      ],
+      "score": 71.0,
+      "found_at": "2026-10-08T23:25:32.646392+00:00"
+    },
+    {
       "name": "AI resume + job-application toolkit (ATS-tailored)",
       "field": "Careers / job search",
       "summary": "A free web app that writes and tailors a resume to a pasted job description (keyword targeting/ATS pass-through) plus interview practice.",
@@ -583,6 +686,26 @@
       ],
       "score": 70.0,
       "found_at": "2026-10-07T23:12:53.592987+00:00"
+    },
+    {
+      "name": "Prescription price-comparison & savings tool",
+      "field": "Consumer health / pharmacy savings",
+      "summary": "Search a drug plus ZIP to compare cash prices across discount programs and nearby pharmacies, with alerts on price changes. A free, no-insurance comparison tool.",
+      "why_now": "Consumer interest is spiking: CompareMedsRx grew from ~10,000 to over 280,000 users in twelve months (April 2026) aggregating 20+ discount programs. GoodRx shows where the money is moving: Q2 2026 revenue was $200.4M from ~25M annual consumers, with subscriptions up 39% to $28.5M and Pharma Direct up 76% to $61.6M, even as legacy prescription-transaction revenue fell 26%.",
+      "monetization": "Pharmacy/discount-program referral fees, manufacturer \"consumer direct pricing\" partnerships, and paid subscriptions (GoodRx Companion at $14.99/mo, or $9.99/mo annual).",
+      "evidence": [
+        "https://www.einpresswire.com/article/904315973/comparemedsrx-growth-highlights-rising-consumer-interest-in-prescription-price-comparison-tools",
+        "https://www.sec.gov/Archives/edgar/data/1809519/000180951926000151/gdrxq226-exx991pressrelease.htm",
+        "https://www.fool.com/earnings/call-transcripts/2026/08/12/goodrx-gdrx-q2-2026-earnings-call-transcript/"
+      ],
+      "how_searched": [
+        "PR/wire news",
+        "SEC filings",
+        "earnings-call transcript",
+        "web search"
+      ],
+      "score": 69.0,
+      "found_at": "2026-10-08T23:25:33.798044+00:00"
     },
     {
       "name": "AI agent memory manager",
@@ -665,6 +788,24 @@
       "found_at": "2026-10-08T03:07:50.510814+00:00"
     },
     {
+      "name": "Online will / estate-document builder",
+      "field": "Legal tech / estate planning",
+      "summary": "A guided web questionnaire that produces a jurisdiction-aware will and related documents (power of attorney, healthcare directive), optionally bundled with digital-asset inventory.",
+      "why_now": "Structural demand keeps rising: online will/estate services grow from ~$0.97B in 2025 to $2.78B by 2034 (12.5% CAGR) with self-service at 54.3% share and LegalZoom alone estimated at $0.35-0.40B annual revenue; a separate estimate has it growing from $587.6M in 2026 to $1,364.77M by 2035 (9.3% CAGR). Drivers are remote online notarization laws, digital-asset succession, and a large intergenerational wealth transfer. (Market-size estimates vary widely by firm.)",
+      "monetization": "Flat per-document ($100-$300 self-service), tiered managed review ($500-$1,200), or annual subscription for updates and bundled documents; fintech/advisor referral fees.",
+      "evidence": [
+        "https://dataintelo.com/report/online-will-service-market",
+        "https://www.marketgrowthreports.com/market-reports/online-will-writing-service-market-108052",
+        "https://www.verifiedmarketreports.com/product/online-will-writing-service-market/"
+      ],
+      "how_searched": [
+        "market-research reports (multiple firms)",
+        "web search"
+      ],
+      "score": 64.0,
+      "found_at": "2026-10-08T23:25:34.384248+00:00"
+    },
+    {
       "name": "AI language conversation tutor",
       "field": "EdTech / Consumer AI",
       "summary": "A free web tool for spoken conversation practice with an AI partner: real-time dialogue, correction and pronunciation feedback in the learner's target language.",
@@ -716,6 +857,24 @@
       ],
       "score": 62.0,
       "found_at": "2026-10-08T03:07:51.940232+00:00"
+    },
+    {
+      "name": "AI interior-design / room-redesign web tool",
+      "field": "Consumer AI design / home improvement",
+      "summary": "Upload a photo of a room and get a redesigned rendering in a chosen style, with shoppable furniture suggestions. Mobile apps in this niche are already pulling six-figure monthly revenue.",
+      "why_now": "Third-party trackers show large, monetizing audiences updating in the last weeks: Home AI (interior.home.design.ai) ~908K MAU / $10K+ per month est.; AI Home Design: Interior DecAI ~951K MAU / $50K+ per month est. and an independent estimate of ~$400K per month; AI Decor est. $120K-$660K per month with data updated 2026-10-07. The category keeps ship updates through September 2026.",
+      "monetization": "In-app purchases/subscriptions (weekly/monthly plans) plus ads. Reported models mix IAP and ads (e.g., 63% IAP / 37% ads for one top app). Revenue figures are third-party estimates, not audited.",
+      "evidence": [
+        "https://peekly.app/apps/294b470b-d4e9-4445-b799-1c9759525ff3",
+        "https://appcurrents.com/apps/ai-decor-ai-home-design-ios-6752771686"
+      ],
+      "how_searched": [
+        "app-store analytics",
+        "revenue/traffic estimators",
+        "web search"
+      ],
+      "score": 55.3,
+      "found_at": "2026-10-08T23:25:23.402692+00:00"
     },
     {
       "name": "Free AI-text detector & authorship-proof checker",
