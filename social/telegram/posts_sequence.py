@@ -24,7 +24,7 @@ POSTS_SEQUENCE = [
             "🌐 mdm1.org"
         ),
         "image_path": None,
-        "sent": False,
+        "sent": True,
     },
     {
         "id": "post_003",
