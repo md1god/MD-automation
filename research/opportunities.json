@@ -148,6 +148,27 @@
       "found_at": "2026-10-07T03:59:26.219081+00:00"
     },
     {
+      "name": "Free meeting transcription & AI meeting notes",
+      "field": "Productivity / AI SaaS",
+      "summary": "A free web tool that records or ingests meetings, transcribes them, and produces summaries, action items and searchable notes without a meeting bot.",
+      "why_now": "Transcription/meeting-notes was the fastest-growing AI site category July→August 2026 (+35.3% MoM), with hinoter.com +2,416% to ~2.48M visits and iamtypist.dev +771% to ~6.61M; OpenAI launched a Meetings plugin beta at DevDay (Sept 29, 2026); Circleback opened unlimited transcription for free on Aug 31, 2026, cutting its paid plan from ~$21 to $15/mo.",
+      "monetization": "Circleback claims ~$8M annual revenue with just 8 employees while replacing ads with a free tier; Plaud (device + subscription) debuted at #16 on the a16z consumer-spend list — so freemium tiers plus team seats are proven.",
+      "evidence": [
+        "https://dev.to/anjinradar/what-2916-ai-websites-told-us-about-august-2026-transcription-and-image-to-3d-are-taking-off-1cpl",
+        "https://beckmann.ai/en/ai-in-practice/2026-08/circleback-free-tier",
+        "https://thenextweb.com/news/openai-devday-pro-200-usage-cut-pro-500-plan",
+        "https://www.a16z.news/p/top-100-consumer-ai-apps-seventh"
+      ],
+      "how_searched": [
+        "traffic-estimator study via dev.to (2,916 AI-site crawl)",
+        "vendor blog/news search (Circleback free tier)",
+        "news search (OpenAI DevDay coverage)",
+        "consumer AI app index (a16z Top 100, 7th edition)"
+      ],
+      "score": 84.0,
+      "found_at": "2026-10-08T03:07:36.549545+00:00"
+    },
+    {
       "name": "Self-Hosted Workflow Automation for AI Agents (n8n-style)",
       "field": "DevTools / AI Infrastructure",
       "summary": "Fair-code / open-source workflow automation platform that technical teams self-host for free (unlimited executions) to build AI agent pipelines, RAG, and multi-step automations — with paid cloud/enterprise for governance, SSO, and managed infrastructure.",
@@ -222,6 +243,26 @@
       "found_at": "2026-10-07T03:59:31.632342+00:00"
     },
     {
+      "name": "Text or image to 3D model generator",
+      "field": "3D / Design tools",
+      "summary": "A free web tool that turns a text prompt or a photo into a downloadable 3D model (glTF/STL) for games, printing and product mockups.",
+      "why_now": "3D modeling grew +34.6% MoM across 2,916 tracked AI sites (July→Aug 2026), hi3d.ai hit ~2.72M visits (+55%), open-source text-to-CAD repos are scaling fast (earthtojake/text-to-cad 18,301 stars, pushed Oct 8, 2026; Adam-CAD/CADAM 5,218 stars), and Meshy.ai reached 18.1M monthly visits (+97.8% MoM) per AlphaMoat's April 2026 report.",
+      "monetization": "Revenue not verified (null); the category's standard model is per-generation credits/subscriptions — Meshy's 18.1M-visit scale and paid CAD tools (Backflip, $30M raised) show willingness to pay.",
+      "evidence": [
+        "https://dev.to/anjinradar/what-2916-ai-websites-told-us-about-august-2026-transcription-and-image-to-3d-are-taking-off-1cpl",
+        "https://github.com/earthtojake/text-to-cad",
+        "https://github.com/Adam-CAD/CADAM",
+        "https://www.alphamoat.ai/en/report/global-ai-traffic-202604"
+      ],
+      "how_searched": [
+        "traffic-estimator study via dev.to (category +34.6% MoM)",
+        "GitHub API + repository pages (star counts, last push)",
+        "traffic analytics vendor report (AlphaMoat monthly)"
+      ],
+      "score": 80.0,
+      "found_at": "2026-10-08T03:07:37.627424+00:00"
+    },
+    {
       "name": "Embeddable AI Agent / Copilot for SaaS",
       "field": "DevTools / SaaS Infrastructure",
       "summary": "Drop-in AI agent (one line of code) that lets end-users control any SaaS via natural language — turning clicks into conversations, with scoped permissions, audit logs, and model-agnostic deployment.",
@@ -242,6 +283,26 @@
       ],
       "score": 79.0,
       "found_at": "2026-10-07T03:59:33.429627+00:00"
+    },
+    {
+      "name": "AI music generator",
+      "field": "Creator tools / Audio",
+      "summary": "A free web tool where anyone types a style and lyrics and gets an original playable, downloadable song in seconds.",
+      "why_now": "Suno hit 2M paid subscribers and $300M ARR (Feb 2026) and raised $400M at a $5.4B valuation (June 2026); 'AI Music Generator' search growth is +5,200% in Exploding Topics' Oct 6, 2026 list; flowmusic.app grew +105% MoM to ~6.19M visits.",
+      "monetization": "Subscriptions: Suno's 2M payers generate $300M ARR; MBW reports 100M total users — free tier for discovery, paid tiers for downloads/commercial rights.",
+      "evidence": [
+        "https://techcrunch.com/2026/02/27/ai-music-generator-suno-hits-2-million-paid-subscribers-and-300m-in-annual-recurring-revenue/",
+        "https://www.musicbusinessworldwide.com/suno-hits-2m-paid-subscribers-300m-annual-revenue/",
+        "https://explodingtopics.com/blog/trending-topics",
+        "https://techcrunch.com/2026/06/03/still-facing-copyright-lawsuits-ai-music-generator-suno-raises-another-400m/"
+      ],
+      "how_searched": [
+        "news/funding coverage (TechCrunch, Music Business Worldwide)",
+        "search-trend tool (Exploding Topics trending-topics, Oct 2026)",
+        "traffic study via dev.to (audio/music category +19% MoM)"
+      ],
+      "score": 79.0,
+      "found_at": "2026-10-08T03:07:39.374213+00:00"
     },
     {
       "name": "Browser Extension AI Productivity Tools",
@@ -265,6 +326,25 @@
       ],
       "score": 77.0,
       "found_at": "2026-10-07T03:59:34.107064+00:00"
+    },
+    {
+      "name": "Background removal & AI product photography",
+      "field": "Ecommerce / Image tools",
+      "summary": "A free browser tool that removes image backgrounds and generates clean product photos (and virtual try-on shots) for listings and ads.",
+      "why_now": "'Background Removal' is #1 on Rising Trends' retail list at 1,000,000 monthly searches, +641% YoY; Upwork's In-Demand Skills 2026 shows AI image generation & editing demand +95% YoY; Photoroom ranks among the top AI-native apps in the a16z consumer index; 'Try On' also entered the Oct 2026 retail trend list.",
+      "monetization": "Freemium export credits plus per-image packs; Upwork's +95% growth in paid AI image work shows businesses already pay for this output.",
+      "evidence": [
+        "https://www.risingtrends.co/trends/retail-trends-2026",
+        "https://www.nasdaq.com/press-release/upworks-demand-skills-2026-demand-top-ai-skills-more-doubles-ai-embedded-everyday",
+        "https://www.a16z.news/p/top-100-consumer-ai-apps-seventh"
+      ],
+      "how_searched": [
+        "search-trend database (Rising Trends retail trends, Sept/Oct 2026)",
+        "freelance marketplace report (Upwork In-Demand Skills 2026 via Nasdaq PR)",
+        "consumer AI app index (a16z Top 100)"
+      ],
+      "score": 77.0,
+      "found_at": "2026-10-08T03:07:40.768645+00:00"
     },
     {
       "name": "AI Content Repurposing (Long-Form → Short-Form)",
@@ -338,6 +418,27 @@
       "found_at": "2026-10-07T03:59:36.619481+00:00"
     },
     {
+      "name": "AI ad-creative & UGC generator for marketers",
+      "field": "Marketing / Adtech",
+      "summary": "A free web tool that turns a product link or brief into ad creatives — static ads, hooks and UGC-style scripts — ready for paid campaigns.",
+      "why_now": "Melius raised $25M ($20M Series A led by CRV, $5M seed led by General Catalyst) announced Oct 6, 2026 to build 'agents for creative work'; 'UGC Creator' search growth is +8,600% in Exploding Topics' Oct 6, 2026 list; Upwork shows AI video generation & editing +329% and display advertising +26% YoY.",
+      "monetization": "Subscription/credit plans for creative teams; the market pays freelancers for exactly this work (Upwork display advertising +26%, AI video gen +329%) and VCs just funded standalone tools (Melius $25M).",
+      "evidence": [
+        "https://techcrunch.com/2026/10/06/ex-ramp-engineers-raise-20m-for-platform-melius-after-scrapping-their-first-product/",
+        "https://www.melius.com/blog/melius-seed-and-series-a",
+        "https://explodingtopics.com/blog/trending-topics",
+        "https://www.nasdaq.com/press-release/upworks-demand-skills-2026-demand-top-ai-skills-more-doubles-ai-embedded-everyday"
+      ],
+      "how_searched": [
+        "funding news (TechCrunch, Oct 6 2026)",
+        "company announcement blog (Melius)",
+        "search-trend tool (Exploding Topics 'UGC Creator')",
+        "freelance marketplace report (Upwork skills data)"
+      ],
+      "score": 75.0,
+      "found_at": "2026-10-08T03:07:43.568964+00:00"
+    },
+    {
       "name": "Chat-first personal AI assistant (web app)",
       "field": "Consumer AI / personal agents",
       "summary": "A free web tool where users text or type tasks (research, organise, shop/reserve, schedule) to a personal agent that does them end-to-end in the browser.",
@@ -380,6 +481,27 @@
       "found_at": "2026-10-07T23:12:52.752043+00:00"
     },
     {
+      "name": "TikTok Shop & winning-product trend finder",
+      "field": "Ecommerce research",
+      "summary": "A free dashboard that ranks products by live TikTok Shop GMV and search demand, flagging items with high searches but few videos (open lanes).",
+      "why_now": "RapidTok's Sept 2026 report: the TikTok Shop USA top 10 made $23.2M in 30 days; TokConnect's Oct 2026 pull found 10 of 11 dupe searches had zero matching videos (1,490,773 searches/week unanswered); 'Fastmoss' search growth +6,600% in Exploding Topics' Oct 6, 2026 list.",
+      "monetization": "Paid research subscriptions — competitors charge Kalodata from $45.99/mo, FastMoss from $49/mo, EchoTik up to $57/mo (prices checked Oct 5, 2026); TokConnect itself starts free then 50 free credits.",
+      "evidence": [
+        "https://rapidtok.com/blog/10-best-selling-tiktok-shop-products-usa-september-2026",
+        "https://tokconnect.com/trends/products/october-2026/",
+        "https://tokconnect.com/for/ecommerce/",
+        "https://explodingtopics.com/blog/trending-topics"
+      ],
+      "how_searched": [
+        "marketplace/GMV report (RapidTok monthly top 10)",
+        "search-demand tool (TokConnect monthly product report)",
+        "vendor pricing pages (TokConnect comparison, checked Oct 5 2026)",
+        "search-trend tool (Exploding Topics 'Fastmoss')"
+      ],
+      "score": 72.0,
+      "found_at": "2026-10-08T03:07:46.544427+00:00"
+    },
+    {
       "name": "AI resume + job-application toolkit (ATS-tailored)",
       "field": "Careers / job search",
       "summary": "A free web app that writes and tailors a resume to a pasted job description (keyword targeting/ATS pass-through) plus interview practice.",
@@ -401,6 +523,25 @@
       ],
       "score": 70.0,
       "found_at": "2026-10-07T23:12:53.592987+00:00"
+    },
+    {
+      "name": "AI agent memory manager",
+      "field": "Developer tools",
+      "summary": "A free, open web tool that captures what an AI coding agent did, compresses it, and replays the context into future sessions so agents remember across runs.",
+      "why_now": "thedotmack/claude-mem has 97,798 stars (GitHub API, Oct 8, 2026), was pushed Oct 7, 2026, and appears on GitHub's trending list today; its site claude-mem.ai is live and describes cross-agent support (Claude Code, Codex, Gemini, OpenCode and more).",
+      "monetization": "Revenue not verified (null); open-source core with hosted/team add-ons is the plausible path — the star base (97.8K) is the distribution asset, and teams pay for managed memory.",
+      "evidence": [
+        "https://github.com/thedotmack/claude-mem",
+        "https://github.com/trending",
+        "https://claude-mem.ai/"
+      ],
+      "how_searched": [
+        "GitHub trending page (daily + weekly)",
+        "GitHub REST API (exact star/push counts)",
+        "project website"
+      ],
+      "score": 68.0,
+      "found_at": "2026-10-08T03:07:48.806006+00:00"
     },
     {
       "name": "AI-ready help center / llms.txt knowledge base",
@@ -441,6 +582,65 @@
       ],
       "score": 64.0,
       "found_at": "2026-10-07T23:12:54.033092+00:00"
+    },
+    {
+      "name": "Free no-signup, no-subscription web tools",
+      "field": "Consumer web / Privacy",
+      "summary": "Single-purpose web tools that work instantly with no account, no subscription and (where possible) no server round-trip — the opposite of gated AI SaaS.",
+      "why_now": "NoteWorthy ('on-device AI, no account, no subscription') hit #10 on Product Hunt's daily leaderboard for Oct 6, 2026 with a score of 109; independently, magicremover.org — 'free, no-signup image tool' — grew +4,374% MoM to 62.2K visits in the tracked AI-site sample.",
+      "monetization": "Ad-supported or optional one-time pro unlocks; monetization per user is small — judged honestly as a traffic play first (upstream to paid products).",
+      "evidence": [
+        "https://www.producthunt.com/leaderboard/daily/2026/10/6",
+        "https://noteworthy.wtf/",
+        "https://dev.to/i007/reverse-engineering-ai-tool-sites-how-to-read-traffic-data-like-a-growth-analyst-390",
+        "https://roipad.com/saas-metrics/product/ph_4065/noteworthy"
+      ],
+      "how_searched": [
+        "launch site (Product Hunt daily leaderboard)",
+        "product site (no-account/no-server claims)",
+        "traffic-growth analysis via dev.to (fastest-growing AI sites)",
+        "third-party launch data mirror (roipad)"
+      ],
+      "score": 64.0,
+      "found_at": "2026-10-08T03:07:50.510814+00:00"
+    },
+    {
+      "name": "AI language conversation tutor",
+      "field": "EdTech / Consumer AI",
+      "summary": "A free web tool for spoken conversation practice with an AI partner: real-time dialogue, correction and pronunciation feedback in the learner's target language.",
+      "why_now": "'TalkPal' search growth is +6,600% in Exploding Topics' Oct 6, 2026 list (and 5-year +6,300% in its generative-AI startups list); revenue is proven — Speak made $100M in 2025 at a $1B valuation and Praktika.ai made $20M (GetLatka).",
+      "monetization": "Freemium subscriptions: Speak's $100M/yr and Praktika's $20M/yr show learners pay $10-30/mo for conversation practice; free tier acquires, paid removes limits.",
+      "evidence": [
+        "https://explodingtopics.com/blog/trending-topics",
+        "https://explodingtopics.com/blog/generative-ai-startups",
+        "https://getlatka.com/companies/speak.com",
+        "https://getlatka.com/companies/praktika.ai"
+      ],
+      "how_searched": [
+        "search-trend tool (Exploding Topics Oct 2026 + startup list)",
+        "revenue database (GetLatka company pages)"
+      ],
+      "score": 63.0,
+      "found_at": "2026-10-08T03:07:51.435240+00:00"
+    },
+    {
+      "name": "Viral-product dupe finder",
+      "field": "Commerce / Shopping",
+      "summary": "A free web tool where you paste a viral product or brand and get cheaper equivalent items that people are actively searching for instead.",
+      "why_now": "TokConnect (Oct 2026): 10 of 11 dupe searches had no matching videos, together 1,490,773 searches/week unanswered; 'Dupe Of' has 22,200 monthly searches, up +236% in three months (Rising Trends); Circana (Aug 21, 2026) found 58% of shoppers have bought a dupe.",
+      "monetization": "Affiliate/commerce revenue on referred cheaper alternatives; direct sales figures for such a tool were not found (null) — judged as demand-strong but monetization-unproven.",
+      "evidence": [
+        "https://tokconnect.com/trends/products/october-2026/",
+        "https://www.risingtrends.co/trends/retail-trends-2026",
+        "https://www.circana.com/post/life-imitates-brands-how-dupe-demand-is-evolving"
+      ],
+      "how_searched": [
+        "search-demand tool (TokConnect October 2026 product report)",
+        "search-trend database (Rising Trends retail list)",
+        "industry research (Circana consumer study)"
+      ],
+      "score": 62.0,
+      "found_at": "2026-10-08T03:07:51.940232+00:00"
     },
     {
       "name": "Browser voice-dictation / hands-free writing tool",
