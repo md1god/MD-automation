@@ -71,6 +71,12 @@ def plan_and_publish(best: dict, config: dict, ledger: Ledger):
     except mdm1_page.PageRejected as exc:
         print(f"Plan {pub_id}: page rejected - {exc}")
         return None, {"state": "failed", "url": "", "reason": f"رُفضت الصفحة: {exc}"}, provider, None, False
+    if not config.get("publish_pages", True):
+        # Publishing is paused until a COMPLETE project exists: the plan goes to the owner only.
+        sent = telegram.send_private(f"📝 خطة جاهزة للمراجعة — فرصة {pub_id}\n\n{plan_md[:3400]}")
+        if not sent:
+            return "تعذر إرسال الخطة في رسالة خاصة (أرسل /start للبوت)", None, provider, None, False
+        return None, {"state": "held", "url": "", "reason": ""}, provider, payload, False
     payload["translations"] = translate_all(payload, terms, llm, config.get("page_languages", []),
                                             budget=config.get("translate_budget_seconds", 900))
     outcome = mdm1_page.publish(payload, mdm1_page.env_token())
@@ -99,7 +105,7 @@ def main():
         config = yaml.safe_load(f)
     ledger = Ledger()
     migrate_legacy(ledger)
-    retried = retry_pending(ledger, config)
+    retried = retry_pending(ledger, config) if config.get("publish_pages", True) else []
 
     opportunities, report = run(config, ledger)
     print(f"dry_run={config['dry_run']} | new_opportunities={report['total']}")
@@ -118,7 +124,7 @@ def main():
 
     planned = best if best and not plan_error else None
     page = ({"title": payload["title"], "languages": ["ar"] + list(payload["translations"])}
-            if payload else None)
+            if payload and outcome and outcome["state"] != "held" else None)
     text = telegram.daily_report(config, opportunities, report,
                                  public_id(planned["repo"]["full_name"]) if planned else None,
                                  provider, plan_error, outcome, page, promo_sent, retried)

@@ -179,6 +179,9 @@ def daily_report(config, opportunities, report, plan_id, provider, plan_error, p
                       f"الرابط: {publish['url']}",
                       f"اللغات ({len((page or {}).get('languages', []))}): {langs}",
                       "الترويج في القناة: " + ("تم ✅" if promo_sent else "لم يتم ⚠️")]
+        elif publish and publish["state"] == "held":
+            lines += ["", "⏸️ النشر على الموقع متوقف حتى يوجد مشروع مكتمل.",
+                      "الخطة وصلتك للمراجعة في رسالة خاصة منفصلة."]
         elif publish:
             lines += ["", f"⚠️ الخطة جاهزة لكن النشر لم يتم: {publish['reason']}",
                       "ستُعاد المحاولة تلقائيًا في التشغيل القادم."]

@@ -3,6 +3,9 @@ dry_run: false           # discovery + Telegram report are live; source-code reb
 max_results_per_query: 10
 min_score_to_build: 60   # opportunities below this score are not built
 idea_only: true         # take the IDEA only (open or closed, any license); everything is rebuilt original
+# Publishing pages on mdm1.org is PAUSED: a plan is not a finished project. While false, the plan is sent
+# only to the owner's private Telegram chat. Set to true once a complete, working product exists.
+publish_pages: false
 max_pages: 4            # GitHub search pages scanned per category to find NEW (never examined) projects
 # Page languages (Arabic is always included). The site opens each page in the visitor's device
 # language and shows a language selector button.
