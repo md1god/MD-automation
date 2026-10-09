@@ -121,6 +121,27 @@
       "found_at": "2026-10-08T23:25:22.388490+00:00"
     },
     {
+      "name": "AI Presentation / Deck Generator (Gamma-model)",
+      "field": "Productivity - presentation & visual-storytelling software",
+      "summary": "A free web tool that turns a topic, prompt, or pasted document into a fully designed slide deck / web-native presentation in seconds. Users type an idea, pick a style, and get editable slides, matching layouts and images.",
+      "why_now": "Gamma is the break-out category winner: $100M ARR reached profitably in under 3 years, 70M users, 600K+ paying subs, 40% of Fortune 500 have a user, and a $68M Series B at $2.1B (Nov 2025). The 'replace PowerPoint with AI' job-to-be-done is proven and still expanding.",
+      "monetization": "Freemium: free generation + watermark/limited exports; paid one-time export packs or a low monthly tier for HD export, more slides, brand kit and PDF/PPTX export.",
+      "evidence": [
+        "https://gamma.app/insights/how-we-built-a-usd100m-business-differently",
+        "https://techcrunch.com/2025/11/10/ai-powerpoint-killer-gamma-hits-2-1b-valuation-100m-arr-founder-says/",
+        "https://stripe.com/customers/gamma",
+        "https://sacra.com/c/gamma/"
+      ],
+      "how_searched": [
+        "Source kind: official company milestone post (gamma.app insights)",
+        "Source kind: tech-press funding coverage (TechCrunch)",
+        "Source kind: payment-processor customer case study (Stripe)",
+        "Source kind: revenue-estimate database (Sacra); query: 'Gamma AI presentation $100M ARR valuation 2026'"
+      ],
+      "score": 86.0,
+      "found_at": "2026-10-09T19:35:53.343225+00:00"
+    },
+    {
       "name": "Short-Form Video Intelligence & Analytics",
       "field": "Creator Economy / MarTech",
       "summary": "Real-time analytics platform for TikTok, Reels, Shorts that tracks viral trends, competitor performance, outlier detection, and content gaps — turning signals into scripts, briefs, and ad creative.",
@@ -241,6 +262,26 @@
       ],
       "score": 82.0,
       "found_at": "2026-10-07T23:12:51.030437+00:00"
+    },
+    {
+      "name": "AI Headshot & Portrait Generator (Aragon-model)",
+      "field": "Consumer AI photography",
+      "summary": "A free web tool: upload a few selfies, and it generates professional headshots / portraits in multiple outfits and backdrops. Rebuildable purely in-browser/backend with open image models.",
+      "why_now": "Aragon reached 8-figures ARR, profitability, 2M users and 40M photos generated in 3 years with a 15-person team. Category grew from near-zero to an estimated $350-500M by 2025. Repeatable, high-margin B2C purchase with clear SEO acquisition loop.",
+      "monetization": "One-time packs (e.g. $29-$69) for HD headshots, plus team/enterprise credit packs; optional affiliate program (15-30% commission) like incumbents.",
+      "evidence": [
+        "https://www.aragon.ai/blog/three-years-of-aragon-2-million-users-40-million-photos-and-the-future-of-ai-photography",
+        "https://www.founded.org/companies/headshotpro/",
+        "https://stealwhatworks.com/blogs/news/headshot-still-making-money"
+      ],
+      "how_searched": [
+        "Source kind: official company blog/anniversary post (Aragon)",
+        "Source kind: company-profile database (Founded.org)",
+        "Source kind: critical source-audit article (OperatorBook)",
+        "Source kind: business-analysis blog with traffic estimates (Steal What Works)"
+      ],
+      "score": 82.0,
+      "found_at": "2026-10-09T19:36:09.249365+00:00"
     },
     {
       "name": "AI SDR & Autonomous Sales Agents",
@@ -553,6 +594,25 @@
       "found_at": "2026-10-08T10:47:41.787327+00:00"
     },
     {
+      "name": "Website-to-Code / Design-Token Extractor (MiroMiro-model)",
+      "field": "Developer tools / design engineering",
+      "summary": "A free web tool that inspects any live URL and exports its UI as clean Tailwind/HTML/React/Vue, plus images, SVGs, fonts, colors and design tokens, ready to paste into an AI coding tool.",
+      "why_now": "MiroMiro hit Product of the Day #2 on Product Hunt and reports 20,000+ developers with a pay-once (EUR 69) / EUR 9-mo model; the 'AI sites don't give usable code' pain is widely voiced. Design-to-code is a durable developer need feeding the vibe-coding boom.",
+      "monetization": "Free inspection/downloads + paid one-time lifetime license for full code/token export and API/MCP access; affiliate and AppSumo-style lifetime deals.",
+      "evidence": [
+        "https://miromiro.app/compare-plans",
+        "https://www.producthunt.com/products/miromiro",
+        "https://siteprint.app/"
+      ],
+      "how_searched": [
+        "Source kind: vendor pricing/landing page (MiroMiro)",
+        "Source kind: launch/review community (Product Hunt)",
+        "Source kind: competing vendor site (Siteprint)"
+      ],
+      "score": 74.0,
+      "found_at": "2026-10-09T19:36:09.631138+00:00"
+    },
+    {
       "name": "Personal data-broker opt-out & removal-request generator",
       "field": "Privacy / consumer safety",
       "summary": "Free tool that shows where your name, address and phone appear across people-search/data-broker sites, generates the opt-out requests for you, and lets you track status; ongoing automated re-removal and breach monitoring sits behind a paid plan.",
@@ -686,6 +746,25 @@
       ],
       "score": 70.0,
       "found_at": "2026-10-07T23:12:53.592987+00:00"
+    },
+    {
+      "name": "AI-Shopping / Agentic-Commerce Feed & Readiness Optimizer (ACP/UCP-model)",
+      "field": "E-commerce - AI product-discovery / feed optimization",
+      "summary": "A free web tool that audits a store's product feed, schema markup and robots.txt for AI shopping agents (ChatGPT, Copilot, Google AI Mode), then generates a ready-to-paste enriched feed/schema and a machine-readable llms.txt-style catalog.",
+      "why_now": "AI-driven traffic to Shopify stores grew 197% YoY in Q2 2026 and AI-attributed orders tripled; McKinsey projects $3-5T of commerce mediated by AI agents by 2030. New open standards (UCP, ACP) create a fresh, technical compliance job with no dominant free tool.",
+      "monetization": "Free one-page audit; paid unlimited audit, bulk feed rewriting, competitor AI-visibility tracking and monitoring subscription; API for agencies.",
+      "evidence": [
+        "https://www.shopify.com/blog/agentic-commerce",
+        "https://blog.google/products/ads-commerce/agentic-commerce-ai-tools-protocol-retailers-platforms/",
+        "https://www.emarketer.com/content/faq-on-agentic-commerce-how-brands-should-act-now-compete-ai-driven-landscape"
+      ],
+      "how_searched": [
+        "Source kind: platform editorial/playbook (Shopify blog)",
+        "Source kind: big-tech official product blog (Google)",
+        "Source kind: market-research publication (eMarketer); query: 'agentic commerce product feed optimization ACP UCP 2026'"
+      ],
+      "score": 70.0,
+      "found_at": "2026-10-09T19:36:10.263361+00:00"
     },
     {
       "name": "Prescription price-comparison & savings tool",
@@ -859,6 +938,25 @@
       "found_at": "2026-10-08T03:07:51.940232+00:00"
     },
     {
+      "name": "Failed-Payment Recovery / Dunning for Small SaaS (Rebounce-model)",
+      "field": "SaaS / fintech - revenue recovery",
+      "summary": "A free web tool that connects to Stripe, detects failed/expiring-card payments, and runs smart retry + email/WhatsApp dunning sequences to recover involuntary churn, with a recovery dashboard.",
+      "why_now": "Incumbents (Churn Buster ~$249/mo, Churnkey ~$100/mo) leave a wide gap for a cheap flat-fee alternative such as Rebounce ($3.50/mo), and Stripe has published recovery wins (e.g. recovering $870K for a customer). Involuntary churn is a recurring, measurable revenue leak.",
+      "monetization": "Free audit/calculator; flat low monthly fee per connected Stripe account, or usage-based; agency/white-label tier.",
+      "evidence": [
+        "https://rebounce.dev/",
+        "https://stripe.com/customers/chatbase",
+        "https://trustmrr.com/stats"
+      ],
+      "how_searched": [
+        "Source kind: vendor landing page (Rebounce pricing vs incumbents)",
+        "Source kind: payment-processor customer case study (Stripe)",
+        "Source kind: verified-revenue aggregator (TrustMRR stats)"
+      ],
+      "score": 57.0,
+      "found_at": "2026-10-09T19:36:12.113544+00:00"
+    },
+    {
       "name": "AI interior-design / room-redesign web tool",
       "field": "Consumer AI design / home improvement",
       "summary": "Upload a photo of a room and get a redesigned rendering in a chosen style, with shoppable furniture suggestions. Mobile apps in this niche are already pulling six-figure monthly revenue.",
@@ -891,6 +989,24 @@
       "found_at": "2026-10-09T06:13:25.523098+00:00"
     },
     {
+      "name": "AI Personalized Children's Storybook Generator (DreamStories/Magic Story-model)",
+      "field": "Consumer / education / gifting",
+      "summary": "A free web tool that creates an illustrated, personalized children's storybook from a child's name, appearance and a chosen theme/adventure, delivered as a viewable digital book.",
+      "why_now": "DreamStories.ai reports a $3M run rate with 100K customers at ~$48/book and ~$60 CAC (7 employees); Magic Story saw 200x revenue growth in year one with 10,000+ subscriptions. Personalized gifting content monetizes directly and is shareable/viral.",
+      "monetization": "Freemium digital book preview + paid HD PDF / printed hardcover upsell, themed packs and subscriptions; print-on-demand margin.",
+      "evidence": [
+        "https://getlatka.com/companies/dreamstories.ai",
+        "https://medium.com/@pressonvc/why-were-backing-magic-story-76eea1dc37e4"
+      ],
+      "how_searched": [
+        "Source kind: SaaS revenue database with on-camera founder interview (GetLatka)",
+        "Source kind: venture-investor thesis post (Medium/Press On VC)",
+        "Source kind: market-size report (Tamfinder) for the custom-AI-books category"
+      ],
+      "score": 48.0,
+      "found_at": "2026-10-09T19:36:09.819633+00:00"
+    },
+    {
       "name": "Free AI-text detector & authorship-proof checker",
       "field": "Writing authenticity",
       "summary": "No-signup paste-in tool that returns AI probability with sentence-level highlights, plus an optional 'writing replay' that logs keystrokes so users can prove human authorship; freemium with word-count limits and an API.",
@@ -919,6 +1035,23 @@
       "found_at": "2026-10-08T10:47:46.101693+00:00"
     },
     {
+      "name": "AI Landing-Page Personalization & Autonomous A/B Testing (GenPage-model)",
+      "field": "Marketing - conversion-rate optimization",
+      "summary": "A free web tool that rewrites a landing page's copy/headline per visitor segment (ad-source, referrer, keyword or UTM) and auto-runs A/B tests, showing the highest-converting variant.",
+      "why_now": "GenPage 3.0 ranked near the top of Product Hunt's October 2026 monthly leaderboard, and AI-generated, personalized landing pages tie directly to paid-ad ROI. CRO remains one of the highest-willingness-to-pay growth functions.",
+      "monetization": "Free tier for one page/limited visitors; paid usage-based plans for unlimited pages/visitors, auto A/B testing and integration with ad platforms.",
+      "evidence": [
+        "https://www.producthunt.com/leaderboard/monthly/2026/10",
+        "https://www.genpage.ai/"
+      ],
+      "how_searched": [
+        "Source kind: launch leaderboard (Product Hunt monthly 2026/10)",
+        "Source kind: vendor product site (GenPage)"
+      ],
+      "score": 41.3,
+      "found_at": "2026-10-09T19:36:10.599355+00:00"
+    },
+    {
       "name": "Promo-code finder & price-drop tracker",
       "field": "E-commerce savings",
       "summary": "Free web tool where you paste a product URL and get working promo codes (community-submitted plus store feeds), price history and drop alerts — a no-signup coupon/price tracker in the Honey mold, rebuilt as an independent site.",
@@ -931,6 +1064,23 @@
       "how_searched": "Pulled current US top-free app charts from two independent chart trackers and looked specifically for coupon/deal/price-tracking apps and their rank movement.",
       "score": 37.3,
       "found_at": "2026-10-08T10:47:47.837504+00:00"
+    },
+    {
+      "name": "Open-Source SEO / Keyword & Backlink Research Tool (OpenSEO-model)",
+      "field": "Marketing - SEO research software",
+      "summary": "A free, open-source web alternative to paid SEO suites: keyword research, difficulty scoring, SERP inspection and backlink/gap analysis, with data export for content planning.",
+      "why_now": "An open-source 'Semrush alternative' surfaced near the top of Product Hunt's October 2026 daily charts, showing demand for a free substitute to expensive subscriptions. Independent of the AI-visibility/GEO category, this covers classic keyword and backlink workflows.",
+      "monetization": "Free open-source core; paid hosted data-refresh, larger keyword quotas, API access and team seats; affiliate/lead-gen for SEO services.",
+      "evidence": [
+        "https://www.openseo.so/",
+        "https://www.producthunt.com/leaderboard/monthly/2026/10"
+      ],
+      "how_searched": [
+        "Source kind: vendor product site (OpenSEO)",
+        "Source kind: launch leaderboard (Product Hunt monthly 2026/10)"
+      ],
+      "score": 37.3,
+      "found_at": "2026-10-09T19:36:12.309501+00:00"
     },
     {
       "name": "Browser voice-dictation / hands-free writing tool",
