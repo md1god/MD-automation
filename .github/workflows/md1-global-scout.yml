@@ -6,13 +6,17 @@ on:
   workflow_dispatch: {}
 
 permissions:
-  contents: read
+  contents: write      # commits the anti-repeat ledger + pending pages
   models: read
+
+concurrency:
+  group: scout
+  cancel-in-progress: false
 
 jobs:
   scout:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 75
     defaults:
       run:
         working-directory: md1_global_agent
@@ -58,11 +62,25 @@ jobs:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           PRODUCTHUNT_TOKEN: ${{ secrets.PRODUCTHUNT_TOKEN }}
+          SITES_PAT: ${{ secrets.SITES_PAT }}
+          LEDGER_SALT: ${{ secrets.LEDGER_SALT }}
           BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           CHAT_ID: ${{ secrets.CHAT_ID }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python main.py | tee report.txt
+
+      - name: Save anti-repeat ledger (hashes only) and pending pages
+        if: always()
+        working-directory: .
+        run: |
+          git config user.name "MD1 Bot"
+          git config user.email "action@github.com"
+          git add -A md1_global_agent/memory
+          if git diff --cached --quiet; then echo "ledger unchanged"; exit 0; fi
+          git commit -m "scout: update ledger [skip ci]"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
 
       - name: Upload private run artifacts
         if: always()

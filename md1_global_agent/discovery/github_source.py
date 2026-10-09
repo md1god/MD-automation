@@ -1,5 +1,6 @@
 """Scout role: finds opportunities on GitHub (first live connector)."""
 import os
+import time
 import requests
 
 API = "https://api.github.com/search/repositories"
@@ -13,11 +14,11 @@ def _headers():
     return h
 
 
-def search(query: str, limit: int = 10):
+def search(query: str, limit: int = 10, page: int = 1):
     """Return a list of normalized repo dicts for a GitHub search query."""
     r = requests.get(
         API,
-        params={"q": query, "sort": "stars", "order": "desc", "per_page": limit},
+        params={"q": query, "sort": "stars", "order": "desc", "per_page": limit, "page": page},
         headers=_headers(),
         timeout=20,
     )
@@ -42,14 +43,28 @@ def search(query: str, limit: int = 10):
     return out
 
 
-def scout(config: dict):
-    """Run every configured category query."""
+def scout(config: dict, is_known=None):
+    """Run every configured category query.
+
+    `is_known(full_name)` skips opportunities that were already examined/published; the search keeps
+    paging (up to `max_pages`) until it has `max_results_per_query` NEW ones, so every day digs deeper
+    instead of returning the same top results.
+    """
     found = []
+    limit = config.get("max_results_per_query", 10)
+    max_pages = config.get("max_pages", 4)
     for category, spec in config.get("categories", {}).items():
+        fresh = []
         try:
-            for repo in search(spec["query"], config.get("max_results_per_query", 10)):
-                repo["category"] = category
-                found.append(repo)
+            for page in range(1, max_pages + 1):
+                batch = search(spec["query"], limit, page)
+                fresh += [r for r in batch if not (is_known and is_known(r["full_name"]))]
+                if len(fresh) >= limit or len(batch) < limit:
+                    break
+                time.sleep(2)
         except Exception as exc:  # network / rate-limit: keep going
             print(f"[scout] {category} failed: {exc}")
+        for repo in fresh[:limit]:
+            repo["category"] = category
+            found.append(repo)
     return found
