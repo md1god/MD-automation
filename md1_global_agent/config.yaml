@@ -3,7 +3,11 @@ dry_run: false           # discovery + Telegram report are live; source-code reb
 max_results_per_query: 10
 min_score_to_build: 60   # opportunities below this score are not built
 idea_only: true         # take the IDEA only (open or closed, any license); everything is rebuilt original
-replan_days: 30        # a repo that already got a plan is not planned again for this many days
+max_pages: 4            # GitHub search pages scanned per category to find NEW (never examined) projects
+# Page languages (Arabic is always included). The site opens each page in the visitor's device
+# language and shows a language selector button.
+page_languages: [en, es, pt, id, tr, fr, de, hi, ru]
+translate_budget_seconds: 900
 max_fix_cycles: 3        # hard cap on Builder auto-fix loops (no infinite loops)
 
 # Licenses that allow commercial use / modification

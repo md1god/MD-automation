@@ -11,13 +11,26 @@ from memory import store
 from discovery.research_source import scout as scout_research
 
 
-def scout(config: dict):
-    return scout_research(config) + scout_github(config) + scout_products(config)
+def scout(config: dict, ledger=None):
+    is_known = ledger.is_known if ledger else None
+    return scout_research(config) + scout_github(config, is_known) + scout_products(config)
 
 
-def run(config: dict):
+def _unique_new(repos: list, ledger=None) -> list:
+    """Drop opportunities already examined/published and duplicates inside this run."""
+    seen, out = set(), []
+    for repo in repos:
+        name = repo["full_name"].strip().lower()
+        if name in seen or (ledger and ledger.is_known(repo["full_name"])):
+            continue
+        seen.add(name)
+        out.append(repo)
+    return out
+
+
+def run(config: dict, ledger=None):
     memory = store.load(config["memory_file"])
-    repos = scout(config)
+    repos = _unique_new(scout(config, ledger), ledger)
     opportunities = []
     for repo in repos:
         analysis = score(repo, config, memory)

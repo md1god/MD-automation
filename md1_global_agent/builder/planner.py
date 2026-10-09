@@ -19,6 +19,7 @@ import re
 import shutil
 import subprocess
 import tempfile
+import time
 import requests
 
 PROVIDERS = {
@@ -135,10 +136,15 @@ def build_prompt(opp: dict) -> str:
         f"{PROMPTS[opp['mode']]}\n\n"
         f"Opportunity: {r['full_name']}\nURL: {r['url']}\nCategory: {r['category']}\n"
         f"Description: {r['description']}\nPopularity: {r['stars']} | Score: {a['score']}\n\n"
-        "Answer in Markdown with these sections: 1) Target audience 2) Differentiation "
-        "(why choose ours) 3) MVP scope (max 8 tasks) 4) Pricing and revenue model "
-        "5) Global distribution plan using free channels 6) Risks (legal, technical) "
-        "7) Suggested name and one-line pitch. Be concrete and short."
+        "اكتب الخطة كاملة باللغة العربية الفصحى المبسطة (يمكن إبقاء أسماء التقنيات بالإنجليزية). "
+        "لا تذكر اسم المشروع المصدر أو رابطه أو اسم مطوّره في أي موضع من إجابتك، وصِف الفكرة والمشكلة فقط.\n"
+        "استخدم Markdown بهذه الأقسام بالترتيب: 1) الجمهور المستهدف 2) نقاط التميز (لماذا نختار منتجنا) "
+        "3) نطاق النسخة الأولى (8 مهام كحد أقصى) 4) التسعير ونموذج الربح "
+        "5) خطة الانتشار العالمية بقنوات مجانية 6) المخاطر (قانونية وتقنية) 7) الاسم المقترح والجملة التسويقية.\n"
+        "في القسم السابع اكتب سطرين بالضبط بهذا الشكل:\n"
+        "الاسم المقترح: <اسم جديد كليًا>\n"
+        "الجملة التسويقية: <جملة واحدة>\n"
+        "كن محددًا ومختصرًا."
     )
 
 
@@ -252,12 +258,14 @@ def _call_http(name: str, model: str, prompt: str, key: str) -> str:
     return text
 
 
-def make_plan(opp: dict, llm: dict = None) -> str:
-    """Return the plan text. The provider/model that answered is stored in make_plan.used."""
+def complete(prompt: str, llm: dict = None, deadline: float = None) -> str:
+    """Run `prompt` through the configured providers (free first). Answering provider -> complete.used.
+
+    `deadline` (epoch seconds) stops further attempts once passed, so a slow chain cannot hang a job.
+    """
     llm = llm or {}
-    prompt = build_prompt(opp)
     errors = []
-    make_plan.used = None
+    complete.used = None
     for name in llm.get("providers", ["opencode_cli", "openrouter", "groq", "github"]):
         spec = PROVIDERS.get(name)
         if not spec:
@@ -272,14 +280,28 @@ def make_plan(opp: dict, llm: dict = None) -> str:
             errors.append(f"{name}: no usable model")
             continue
         for model in models:
+            if deadline and time.time() > deadline:
+                errors.append("deadline reached")
+                raise RuntimeError("no LLM provider succeeded -> " + " | ".join(errors))
             try:
                 text = (_call_cli(model, prompt) if spec["style"] == "cli"
                         else _call_http(name, model, prompt, key))
-                make_plan.used = f"{name}/{model}"
+                complete.used = f"{name}/{model}"
                 return text
             except Exception as exc:
                 errors.append(f"{name}/{model}: {str(exc)[:200]}")
     raise RuntimeError("no LLM provider succeeded -> " + " | ".join(errors))
+
+
+complete.used = None
+
+
+def make_plan(opp: dict, llm: dict = None) -> str:
+    """Return the plan text. The provider/model that answered is stored in make_plan.used."""
+    make_plan.used = None
+    text = complete(build_prompt(opp), llm)
+    make_plan.used = complete.used
+    return text
 
 
 make_plan.used = None
