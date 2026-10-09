@@ -877,6 +877,20 @@
       "found_at": "2026-10-08T23:25:23.402692+00:00"
     },
     {
+      "name": "AI multi-model answer cross-checker",
+      "field": "AI developer/productivity / hallucination verification",
+      "summary": "A free web tool that sends one question to several LLMs and highlights agreements/disagreements, giving users a fast 'second opinion' on AI answers. Original build: a normalizer that calls multiple model APIs (or free endpoints), a diff/consensus scorer, and a shareable verdict view.",
+      "why_now": "Launched 27 Sep 2026 and hit ~2,000 Chrome Web Store users with a 5.0 rating (11 reviews) almost immediately; priced $18.99/mo. It rode the Sept 2026 'verify your AI' wave on Product Hunt, where trust/verification tools ranked well. Model proliferation (multiple frontier models with different failure modes) makes cross-checking newly valuable in 2026.",
+      "monetization": "Freemium: free N checks/day, Pro ~$18.99/mo for unlimited models and history. B2B/team tiers plausible for fact-checking workflows at media/research firms.",
+      "evidence": [
+        "https://makerstack.co/reviews/cuey-review/ — Cuey review: 6.5/10, $18.99/mo, Chrome Web Store ~2,000 users, 5.0/11 ratings, launched 27 Sep 2026",
+        "https://www.producthunt.com/leaderboard/monthly/2026/9 — Sept 2026 leaderboard shows AI verification/trust tools gaining traction"
+      ],
+      "how_searched": "Scanned Product Hunt monthly/daily leaderboards for new AI tooling; reviewed Chrome Web Store listing stats via browser-extension trackers; read independent review sites for pricing and user counts.",
+      "score": 50.7,
+      "found_at": "2026-10-09T06:13:25.523098+00:00"
+    },
+    {
       "name": "Free AI-text detector & authorship-proof checker",
       "field": "Writing authenticity",
       "summary": "No-signup paste-in tool that returns AI probability with sentence-level highlights, plus an optional 'writing replay' that logs keystrokes so users can prove human authorship; freemium with word-count limits and an API.",

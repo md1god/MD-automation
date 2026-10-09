@@ -67,6 +67,28 @@
       "found_at": "2026-10-07T18:25:21.713562+00:00"
     },
     {
+      "name": "Pinterest (visual search + pinning)",
+      "url": "https://developers.pinterest.com/docs/key-concepts/access-tiers/",
+      "kind": "platform",
+      "requires_account": true,
+      "official_free_api": true,
+      "how_to_use": "Create a free business account (manual signup; no automated account creation). Make boards + image/video Pins for each important site page; every Pin carries a clickable URL back to your site (limits: 2,000 boards, 200,000 Pins). Write keyword-rich titles/descriptions — Pinterest is a visual search engine. For automation: create an app at developers.pinterest.com, get Trial access (free, pins visible only to creator), then request Standard access with a screen recording of your OAuth flow to create public Pins via POST /v5/pins with pins:write scope.",
+      "rules_and_risks": "Trial-access Pins are invisible to other users until Standard approval; developer guidelines ban incentivizing saves, storing API data, or sharing credentials; pin-flooding or repetitive content gets accounts limited. Account creation is manual only.",
+      "why_it_works": "Pinterest hit 619M global monthly active users in Q4 2025 (+12% YoY) with 80B+ monthly searches; users arrive with commercial intent and Pins stay discoverable for months, unlike posts on most social networks.",
+      "evidence": [
+        "https://developers.pinterest.com/docs/key-concepts/access-tiers/",
+        "https://developers.pinterest.com/docs/work-with-organic-content-and-users/create-boards-and-pins/",
+        "https://policy.pinterest.com/en/developer-guidelines",
+        "https://s204.q4cdn.com/369458543/files/doc_earnings/2025/q4/earnings-result/Q425-PressRelease.pdf"
+      ],
+      "how_searched": [
+        "Pinterest developers API create pin free app review",
+        "Pinterest monthly active users 2025 statistics"
+      ],
+      "score": 82.0,
+      "found_at": "2026-10-09T06:45:10.332556+00:00"
+    },
+    {
       "name": "HARO (Help a Reporter Out) — free journalist query email digests",
       "url": "https://www.helpareporter.com/",
       "kind": "community",
@@ -134,6 +156,29 @@
       "found_at": "2026-10-07T04:19:32.347667+00:00"
     },
     {
+      "name": "YouTube (channel + free Data API)",
+      "url": "https://developers.google.com/youtube/v3/determine_quota_cost",
+      "kind": "platform",
+      "requires_account": true,
+      "official_free_api": true,
+      "how_to_use": "Create a free Google account and channel (manual signup). Publish how-to/explainer videos targeting queries your audience searches; put your site link in descriptions and pinned comments. Automation: enable the YouTube Data API in Google Cloud Console — free default quota is 10,000 units/day with a separate 100-calls/day bucket for videos.insert (uploads) and search.list; authenticate via OAuth 2.0. Optimize titles/thumbnails for search intent; videos also rank inside Google Search.",
+      "rules_and_risks": "A separate undocumented 'Video Uploads per day' quota has been reported to block uploads after ~7/day despite unit headroom (GitHub issue googleapis/google-api-python-client#2753, May 2026); raising quota requires a compliance audit. Buying views or engagement bait violates YouTube policies and gets channels terminated. Account creation is manual.",
+      "why_it_works": "YouTube reached 2.53-2.58B users in 2025-26 and is the world's 2nd most-visited website after Google; it functions as the second-largest search engine, giving durable, compounding traffic to new channels.",
+      "evidence": [
+        "https://developers.google.com/youtube/v3/determine_quota_cost",
+        "https://developers.google.com/youtube/v3/docs/videos/insert",
+        "https://datareportal.com/essential-youtube-stats",
+        "https://searchengineland.com/guide/youtube-users",
+        "https://github.com/googleapis/google-api-python-client/issues/2753"
+      ],
+      "how_searched": [
+        "YouTube Data API free quota 10000 units day upload videos",
+        "YouTube monthly users 2025 second largest search engine statistics"
+      ],
+      "score": 74.0,
+      "found_at": "2026-10-09T06:45:12.190050+00:00"
+    },
+    {
       "name": "Reddit: niche subreddits where your users already gather",
       "url": "https://www.reddit.com/",
       "kind": "community",
@@ -156,6 +201,28 @@
       "found_at": "2026-10-07T04:19:33.151356+00:00"
     },
     {
+      "name": "Medium (free publishing + import tool with canonical links)",
+      "url": "https://help.medium.com/hc/en-us/articles/214550207-Importing-a-post-to-Medium",
+      "kind": "platform",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Create a free account (manual signup; no public publishing API exists). Go to Stories → 'Import a story', paste the URL of any page you own; Medium fetches it into a draft, auto-backdates it and adds a canonical link to your original site so you are not penalized for duplicate content. Add up to 5 tags, then publish. Republish your best-performing pages; get featured by relevant publications for extra distribution.",
+      "rules_and_risks": "Only import content you have rights to; the Partner Program (paid) is optional — free publishing works. Overly promotional or low-quality content gets limited distribution; there is no API for automated posting. Account creation is manual.",
+      "why_it_works": "Medium drew ~95-106M monthly views in 2025 (top-500 site); Medium's own August 2025 report says readers are shown stories 15M times/day, and its June 2025 report notes LLMs referred 404k visits — real recommendation, search and AI-referral traffic for free.",
+      "evidence": [
+        "https://help.medium.com/hc/en-us/articles/214550207-Importing-a-post-to-Medium",
+        "https://medium.com/blog/it-happened-on-medium-august-2025-roundup-939a73121f81",
+        "https://medium.com/blog/it-happened-on-medium-june-2025-roundup-f89084d2f6e6",
+        "https://medium.com/readers-club/the-shocking-truth-about-mediums-audience-in-2025-7ddc55547c30"
+      ],
+      "how_searched": [
+        "Medium import story from URL tool free publish existing content",
+        "Medium monthly readers 2025 audience size statistics"
+      ],
+      "score": 70.0,
+      "found_at": "2026-10-09T06:45:12.815145+00:00"
+    },
+    {
       "name": "Google News: Publisher Center setup + Google News sitemap",
       "url": "https://support.google.com/news/publisher-center/answer/9606538?hl=en",
       "kind": "feed",
@@ -174,6 +241,28 @@
       ],
       "score": 66.0,
       "found_at": "2026-10-07T04:19:35.595551+00:00"
+    },
+    {
+      "name": "TikTok (organic video reach, no follower base needed)",
+      "url": "https://sydium.com/blog/tiktok-algorithm-explained",
+      "kind": "platform",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Create a free account (manual signup; TikTok's Content Posting API is application-gated for businesses, so organic posting via the free app is the free mechanism). Post short videos (15-60s) that answer niche questions; hook viewers in the first 1-3 seconds; use 3-5 niche hashtags and keyword-rich captions/on-screen text (TikTok SEO — the For You feed now behaves like a search engine); post consistently (1-4/day); put your site link in your bio.",
+      "rules_and_risks": "Engagement bait, bought views/followers and mass-DMing violate Community Guidelines and cause shadowbans; business accounts get fewer trending sounds; each video is judged independently, so weak content flatlines. Account creation is manual.",
+      "why_it_works": "TikTok's recommendation system distributes to non-followers in test batches regardless of follower count (per TikTok's transparency documentation cited in algorithm guides); it has ~1.99B users, and H2-2025 benchmark data shows +25% reach growth and a 5.0% engagement rate — the highest among major platforms.",
+      "evidence": [
+        "https://sydium.com/blog/tiktok-algorithm-explained",
+        "https://www.loomly.com/blog/tiktok-algorithm",
+        "https://pages.dashsocial.com/hubfs/social-media-benchmark/2025/H2/tiktok.pdf",
+        "https://www.sotrender.com/blog/2025/08/tiktok-algorithm/"
+      ],
+      "how_searched": [
+        "TikTok organic reach new creators 2025 algorithm views",
+        "TikTok Content Posting API requirements business verification"
+      ],
+      "score": 64.0,
+      "found_at": "2026-10-09T06:45:16.124783+00:00"
     },
     {
       "name": "SourceBottle: free journalist call-outs and expert profiles",
@@ -197,6 +286,29 @@
       "found_at": "2026-10-07T04:19:37.303621+00:00"
     },
     {
+      "name": "AI answer-engine visibility via robots.txt crawler allowlists",
+      "url": "https://docs.perplexity.ai/docs/resources/perplexity-crawlers",
+      "kind": "tactic",
+      "requires_account": false,
+      "official_free_api": false,
+      "how_to_use": "Edit your /robots.txt to explicitly allow PerplexityBot (Perplexity's crawler that surfaces and links websites in its search results), plus GPTBot, ClaudeBot and Applebot-Extended for ChatGPT/Claude/Apple answers. If behind Cloudflare or AWS WAF, create allow rules matching Perplexity's user agents AND the IP ranges it publishes at perplexity.com/perplexitybot.json (and perplexity-user.json). Verify with curl -A 'PerplexityBot' -I on a public page. Optionally add a small /llms.txt as a cheap hedge. No account needed; changes take effect within ~24 hours.",
+      "rules_and_risks": "Perplexity-User (fetches triggered by a user's question) generally ignores robots.txt — only a firewall rule controls it, and blocking it makes your page unreadable in answers. Cloudflare documented Perplexity stealth crawlers evading blocks in Aug 2025, and some CDNs now challenge its UA, so check server logs. llms.txt is NOT a proven lever: Ahrefs found 97% of 137,000 llms.txt files received zero crawler requests (May 2026) and Google says it does not use the file — treat it as housekeeping, not a citation driver.",
+      "why_it_works": "Perplexity officially recommends allowing PerplexityBot for inclusion in its search results, and AI answer engines increasingly send referral traffic; the whole tactic costs minutes and zero money, with no account or API required.",
+      "evidence": [
+        "https://docs.perplexity.ai/docs/resources/perplexity-crawlers",
+        "https://www.perplexity.ai/help-center/en/articles/10354969-how-does-perplexity-follow-robots-txt",
+        "https://blog.cloudflare.com/perplexity-is-using-stealth-undeclared-crawlers-to-evade-website-no-crawl-directives/",
+        "https://rctrl.com/blog/llms-txt-adoption-vs-crawler-behavior",
+        "https://llmstxt.org/index.html"
+      ],
+      "how_searched": [
+        "PerplexityBot robots.txt allow Perplexity crawl your site",
+        "llms.txt standard website AI crawlers adoption"
+      ],
+      "score": 62.0,
+      "found_at": "2026-10-09T06:45:17.423751+00:00"
+    },
+    {
       "name": "Threads API — official free cross-posting to Threads",
       "url": "https://developers.facebook.com/docs/threads/overview/",
       "kind": "platform",
@@ -216,6 +328,46 @@
       ],
       "score": 58.0,
       "found_at": "2026-10-07T18:25:31.515149+00:00"
+    },
+    {
+      "name": "SmartNews (free publisher distribution via SmartFormat RSS)",
+      "url": "https://about.smartnews.com/en/press/publishers.html",
+      "kind": "feed",
+      "requires_account": false,
+      "official_free_api": false,
+      "how_to_use": "Prepare an RSS 2.0 or Atom feed of your editorial content; validate it against the SmartFormat Specification using SmartNews' feed validator (many existing feeds already validate; a WordPress plugin helps). Fill out the publisher application form at about.smartnews.com/en/press/publishers.html with your feed and full details; their team reviews applications and contacts you if your brand fits. Once accepted, articles appear in SmartNews US topic channels with links back to your site, rendered in their native SmartView reader. No account or API needed to apply.",
+      "rules_and_risks": "Free but editorial: 'we review applications based on the current content needs of our product' and may never respond due to volume; the feed must validate as SmartFormat; US edition only; aimed at journalistic/editorial publications, not personal blogs or pure aggregators. Application is manual.",
+      "why_it_works": "SmartNews partners with 300+ media companies and 3,000+ brands and distributes through its news app's topic channels, giving a new site free placement alongside major publishers with a native, fast reading experience.",
+      "evidence": [
+        "https://about.smartnews.com/en/press/publishers.html",
+        "https://publishers.smartnews.com/hc/en-us/articles/56500436151065-SmartFormat-Specification-Version-2-2",
+        "https://publishers.smartnews.com/hc/en-us"
+      ],
+      "how_searched": [
+        "SmartNews Publisher Program free add feed news app"
+      ],
+      "score": 54.0,
+      "found_at": "2026-10-09T06:45:18.668352+00:00"
+    },
+    {
+      "name": "Google Business Profile (free placement on Search + Maps)",
+      "url": "https://business.google.com/us/business-profile/",
+      "kind": "directory",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Go to business.google.com/add and click 'Add your business to Google' (requires a Google Account, created manually). Enter business name, category, address or service area, website URL, hours and photos; verify the profile (postcard, phone, email or video depending on eligibility); then keep details current, post updates and respond to reviews. Free, no fees for any feature.",
+      "rules_and_risks": "Only eligible real businesses (storefront or service area) qualify; fake listings, keyword-stuffed names or unverifiable businesses get removed; verification blocks edits until completed. Multi-location businesses must verify each location. Account creation is manual.",
+      "why_it_works": "Google states creating a Business Profile is free and it surfaces your business on Google Search and Maps — exactly where local-intent searches happen — with insights into which keywords people use to find you.",
+      "evidence": [
+        "https://business.google.com/us/business-profile/",
+        "https://support.google.com/business/answer/2911778?hl=en",
+        "https://support.google.com/business/answer/7039811"
+      ],
+      "how_searched": [
+        "Google Business Profile free create listing cost"
+      ],
+      "score": 54.0,
+      "found_at": "2026-10-09T06:45:20.031632+00:00"
     },
     {
       "name": "HackerNoon free story submission (human editor review)",
@@ -258,6 +410,66 @@
       "found_at": "2026-10-07T18:25:24.295185+00:00"
     },
     {
+      "name": "Connectively (HARO's successor — new facts on the free plan)",
+      "url": "https://docs.connectively.us/en/articles/15233722-what-s-included-with-connectively-s-free-plan",
+      "kind": "partnership",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "HARO has rebranded to Connectively under HubSpot. Sign up for the free Starter plan (manual signup), build an expert profile with credentials, and answer up to 3 journalist queries per month; the free plan also includes early access to HARO queries, 1 monthly bylined-article submission, 1 monthly interview-profile submission, 3 keyword alerts and 10 monthly Find Journalists searches. Write concise, quotable expert answers with a short bio linking to your site.",
+      "rules_and_risks": "Free plan caps at 3 answers/month (Lite is $19/mo for 10; Pro/Business are seat-based); irrelevant or promotional pitches get profiles removed; one paid seat = one profile for 30 days. The old HARO email newsletter still runs, but Connectively is where queries are answered. Account creation is manual.",
+      "why_it_works": "Connectively has the largest established publisher base of the journalist-source platforms; being quoted earns high-authority media mentions and referral traffic, and the free tier still exists post-rebrand — these plan details are new since the HARO era.",
+      "evidence": [
+        "https://docs.connectively.us/en/articles/15233722-what-s-included-with-connectively-s-free-plan",
+        "https://docs.connectively.us/en/articles/15233685-connectively-expert-pricing-and-subscriptions",
+        "https://blog.connectively.us/featured-vs-connectively-whats-the-difference/"
+      ],
+      "how_searched": [
+        "Connectively HARO free plan paid HubSpot"
+      ],
+      "score": 46.0,
+      "found_at": "2026-10-09T06:45:21.201931+00:00"
+    },
+    {
+      "name": "Mastodon (fediverse, fully documented free API)",
+      "url": "https://docs.joinmastodon.org/methods/statuses/",
+      "kind": "community",
+      "requires_account": true,
+      "official_free_api": true,
+      "how_to_use": "Create a free account on an instance matching your niche (many allow self-registration; some require admin approval — all manual, no automated account creation). Register an app on your instance to get an OAuth user token with write:statuses scope, then post via POST /api/v1/statuses (public/unlisted visibility, media, polls, scheduling). Engage in hashtag timelines and reply to others' posts; your posts can also federate to Mastodon users from other instances via ActivityPub.",
+      "rules_and_risks": "Automated account creation is against instance rules and platform norms; link-only or mass posting gets you silenced/locked; bot accounts must be labeled; each instance sets its own ToS and can suspend you. Content is public by default on a federated network.",
+      "why_it_works": "The API is completely free, open and documented — no approval process beyond OAuth — and the federated network gives new accounts organic discovery through hashtag timelines and shares, unlike follower-gated platforms.",
+      "evidence": [
+        "https://docs.joinmastodon.org/methods/statuses/",
+        "https://docs.joinmastodon.org/api/",
+        "https://docs.joinmastodon.org/dev/routes/"
+      ],
+      "how_searched": [
+        "Mastodon API posting statuses documentation free"
+      ],
+      "score": 42.0,
+      "found_at": "2026-10-09T06:45:22.138574+00:00"
+    },
+    {
+      "name": "Indie Hackers (founder community with built-in early-adopter audience)",
+      "url": "https://www.indiehackers.com/post/how-we-got-our-first-500-users-for-free-1e0d03f7db",
+      "kind": "community",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Create a free account (manual signup). Write transparent posts about building/launching your site — traffic, revenue, failures, lessons — with a link to your site in the body; answer other founders' questions in comments; share progress updates. Case study on the site: a team went from 150 to 500 users with zero ad spend via IH posts, directory submissions and newsletter cross-promos. IH's own analysis of 450+ founders ranks community channels and Hacker News among the top first-user sources.",
+      "rules_and_risks": "Overt self-promotion without genuine insight gets downvoted/removed; comment-spamming links violates community rules; one account per person; posts must be real stories, not ads. No public posting API.",
+      "why_it_works": "The audience is exactly early adopters who click through to new products; documented founder case studies show free signups and users from well-written IH posts and community participation.",
+      "evidence": [
+        "https://www.indiehackers.com/post/how-we-got-our-first-500-users-for-free-1e0d03f7db",
+        "https://www.indiehackers.com/post/whats-new-do-founders-really-need-an-existing-audience-8c8e24e56a",
+        "https://www.indiehackers.com/"
+      ],
+      "how_searched": [
+        "Indie Hackers free post startup community audience"
+      ],
+      "score": 42.0,
+      "found_at": "2026-10-09T06:45:25.067708+00:00"
+    },
+    {
       "name": "Original research, benchmarks and downloadable content upgrades",
       "url": "https://www.varynforge.com/blog/how-to-get-organic-traffic-free-tactics-small-sites",
       "kind": "tactic",
@@ -297,6 +509,47 @@
       "found_at": "2026-10-07T04:19:38.966322+00:00"
     },
     {
+      "name": "Stack Exchange network (high-intent Q&A traffic)",
+      "url": "https://stackoverflow.com/help/promotion",
+      "kind": "community",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Create a free account (manual signup) on the site matching your niche (Webmasters, Super User, Ask Ubuntu, Security, etc.). Write genuinely detailed answers to questions your audience asks; when you mention your own product/site, disclose affiliation in the post (e.g. 'disclosure: I'm the author'); link only to specific, directly relevant pages — never your homepage. Open-source projects and nonprofits can also apply for free community promotion ads. Note: the free Stack Exchange API is read-only, so answers must be written manually.",
+      "rules_and_risks": "Overt self-promotion is voted down and flagged as spam; undisclosed affiliation violates the Acceptable Use Policy; link-only answers get deleted; a pattern of linking to your site gets you banned from the network.",
+      "why_it_works": "Answers rank in Google and reach people with high-intent, search-driven questions in your exact topic; the network's promotion policy explicitly permits relevant, disclosed mentions, and free promo ads exist for OSS/nonprofits.",
+      "evidence": [
+        "https://stackoverflow.com/help/promotion",
+        "https://meta.stackexchange.com/help/promotion",
+        "https://meta.stackexchange.com/questions/398955/does-including-commercial-links-to-the-poster-s-benefit-explicitly-violate-sta"
+      ],
+      "how_searched": [
+        "Stack Exchange self-promotion policy disclose affiliation links"
+      ],
+      "score": 40.0,
+      "found_at": "2026-10-09T06:45:25.642931+00:00"
+    },
+    {
+      "name": "SaaSHub (free software directory with verification + alternatives traffic)",
+      "url": "https://www.saashub.com/services/submit",
+      "kind": "directory",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Search SaaSHub first — products are auto-aggregated from Product Hunt, GitHub and AppSumo, so your product may already be listed; if so, claim it via 'Verify' using either an email address on the product's domain or an HTML snippet added to your site (both free). If unlisted, submit through the submit form (requires a released product on its own domain, in English; agencies, waitlist landing pages and free-subdomain products are rejected). Then, from the management page, add yourself as an alternative on every competitor page you genuinely replace — that is where high-intent 'alternatives to X' traffic lives. Re-verify quarterly. Free account, manual signup.",
+      "rules_and_risks": "All submissions go through an approval process and can be rejected or removed; featured placement is paid (skip it — basic listing is free); claiming competitor slots you don't actually replace risks removal. Account creation is manual.",
+      "why_it_works": "Free listing with a backlink and access to buying-intent search traffic; SaaSHub's free 'submit' tool also cross-posts to a monitored list of 110+ startup directories.",
+      "evidence": [
+        "https://www.saashub.com/services/submit",
+        "https://www.saashub.com/site/product_verification",
+        "https://www.saashub.com/submit",
+        "https://www.saashub.com/faq"
+      ],
+      "how_searched": [
+        "SaaSHub add your product free listing claim"
+      ],
+      "score": 40.0,
+      "found_at": "2026-10-09T06:45:26.174273+00:00"
+    },
+    {
       "name": "Podcast guesting and cross-promotion swaps with peer sites",
       "url": "https://www.varynforge.com/blog/how-to-get-organic-traffic-free-tactics-small-sites",
       "kind": "partnership",
@@ -315,6 +568,68 @@
       ],
       "score": 38.7,
       "found_at": "2026-10-07T04:19:39.269491+00:00"
+    },
+    {
+      "name": "There's An AI For That (TAAFT) — AI tool directory",
+      "url": "https://theresanaiforthat.com/launch/",
+      "kind": "directory",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "For AI tools only: sign in free (manual signup) and submit via the launch form with name, URL, tagline, description and logo; all submissions are manually reviewed by staff. Free listings also happen through a monthly X thread where indie makers submit and one tool is listed free each month. Once listed, updates are free and self-service for verified tools, and listings don't expire — newer tools rank higher, so traffic compounds while the listing lives.",
+      "rules_and_risks": "Submissions are manually reviewed and can be rejected under editorial policy; a paid 'Get Featured' option ($437 one-off) exists — don't buy it for reach; free submissions are limited (monthly thread model) so approval can take time; only AI tools, GPTs and AI influencers are accepted.",
+      "why_it_works": "TAAFT is one of the largest AI-tool discovery directories with high-intent search traffic; free, permanent listings give long-tail exposure, and the directory explicitly offers free submission paths.",
+      "evidence": [
+        "https://theresanaiforthat.com/launch/",
+        "https://theresanaiforthat.com/get-featured/",
+        "https://theresanaiforthat.com/s/submit/",
+        "https://justhunt.co/directories/there-s-an-ai-for-that"
+      ],
+      "how_searched": [
+        "There's An AI For That submit your AI tool free listing",
+        "Futurepedia submit AI tool free directory listing"
+      ],
+      "score": 36.0,
+      "found_at": "2026-10-09T06:45:27.167253+00:00"
+    },
+    {
+      "name": "Podcast Index (free, open podcast directory with free API)",
+      "url": "https://api.podcastindex.org/developer_docs",
+      "kind": "directory",
+      "requires_account": true,
+      "official_free_api": true,
+      "how_to_use": "If you have a podcast (or start one about your topic): sign up for a free API key at api.podcastindex.org (manual signup), then register your feed via GET /api/1.0/add/byfeedurl?url=YOUR_FEED — this endpoint requires a read-write key. Your show becomes searchable in this free, open, nonprofit directory and in apps that consume it; publish episodes whose show notes link back to your site. Requests must include a descriptive User-Agent header and a signed Authorization header (SHA-1 of key+secret+unix time).",
+      "rules_and_risks": "The API requires request signing and self-identification; the feed must be a valid RSS podcast feed; the directory is donation-funded with no paid placement; spam feeds are removed. Account creation is manual.",
+      "why_it_works": "It is a genuinely free, open, nonprofit directory with a documented free API for adding podcasts by feed URL — no company gatekeeping — complementing Apple/Spotify listings and driving referral traffic through show notes.",
+      "evidence": [
+        "https://api.podcastindex.org/developer_docs",
+        "https://podcastindex-org.github.io/docs-api/",
+        "https://www.music-assistant.io/music-providers/podcast-index/"
+      ],
+      "how_searched": [
+        "Podcast Index register podcast free open directory API"
+      ],
+      "score": 36.0,
+      "found_at": "2026-10-09T06:45:27.909409+00:00"
+    },
+    {
+      "name": "Eventbrite free events (free event pages that rank in search)",
+      "url": "https://www.eventbrite.com/organizer/pricing/",
+      "kind": "partnership",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Create a free organizer account (manual signup). Publish an event with a 'Free' ticket type (optional capacity limit); write a keyword-rich description and add your website link; publish. Since September 4, 2024, Eventbrite is free to publish unlimited events of any size, and free tickets carry no service or processing fees for you or attendees. Promote the event page; attendees land on your Eventbrite page and click through to your site.",
+      "rules_and_risks": "Paid tickets incur a 3.7% + $1.79 service fee (paid by attendee by default); fake or misleading events get removed; Eventbrite Ads are paid add-ons — skip them to stay free. Account creation is manual.",
+      "why_it_works": "Eventbrite event pages rank in Google and its own events marketplace; free workshops, webinars and meetups attract real people who click through to your site, at zero cost for free events.",
+      "evidence": [
+        "https://www.eventbrite.com/organizer/pricing/",
+        "https://www.eventbrite.com/blog/free-to-publish-events/",
+        "https://www.eventbrite.com/features/free-ticketing/"
+      ],
+      "how_searched": [
+        "Eventbrite free events no fees free ticket"
+      ],
+      "score": 30.0,
+      "found_at": "2026-10-09T06:45:29.473821+00:00"
     },
     {
       "name": "AlternativeTo 'Suggest new application' listing",
