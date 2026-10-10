@@ -7,6 +7,7 @@ from memory.ledger import public_id
 
 TOKEN_NAMES = ["BOT_TOKEN", "TELEGRAM_BOT_TOKEN"]
 CHAT_NAMES = ["CHAT_ID", "TELEGRAM_CHAT_ID"]
+OWNER_CHAT_NAME = "OWNER_CHAT_ID"      # the owner's PRIVATE chat id (positive number); optional but most reliable
 
 
 def _clean_token(value: str) -> str:
@@ -109,18 +110,37 @@ def chat_is_private(token: str, chat: str) -> bool:
 
 
 def send_private(text: str) -> bool:
-    """Owner-only message (the id -> source mapping). Refuses channels and groups."""
+    """Owner-only message (plan text, id -> source mapping). Never goes to a channel or group.
+
+    Order: OWNER_CHAT_ID secret -> CHAT_ID secrets that turn out to be private chats ->
+    a private chat discovered via getUpdates (needs /start sent to the bot in the last 24h).
+    Only secret NAMES and reasons are printed, never ids or tokens.
+    """
     tokens, pairs = _candidates()
-    targets = [(tn, tv, cv) for tn, tv, _cn, cv in pairs]
+    owner = os.getenv(OWNER_CHAT_NAME, "").strip()
+    targets = []
+    if owner:
+        if owner.lstrip("-").isdigit() and not owner.startswith("-"):
+            targets += [(tn, tv, owner, True) for tn, tv in tokens]
+        else:
+            print("Telegram: OWNER_CHAT_ID ignored - a private chat id is a positive number (channels/groups are negative)")
+    targets += [(tn, tv, cv, False) for tn, tv, _cn, cv in pairs]
     for tn, tv in tokens:
-        chat, _why = _discover_chat(tv)
+        chat, why = _discover_chat(tv)
         if chat:
-            targets.append((tn, tv, chat))
-    for tn, tv, chat in targets:
-        if chat_is_private(tv, chat) and _post(tv, chat, text)[0]:
-            print(f"Telegram: private details sent (token={tn})")
+            targets.append((tn, tv, chat, False))
+        else:
+            print(f"Telegram: {tn} discovery: {why}")
+    for tn, tv, chat, trusted in targets:
+        if not trusted and not chat_is_private(tv, chat):
+            continue
+        ok, err = _post(tv, chat, text)
+        if ok:
+            print(f"Telegram: private message sent (token={tn})")
             return True
-    print("Telegram: private details NOT sent (no private chat reachable - send /start to the bot)")
+        print(f"Telegram: private send via {tn} failed ({err[:80]}){_hint(err)}")
+    print("Telegram: private message NOT sent - set the OWNER_CHAT_ID secret (your private chat id), "
+          "and press Start on the bot")
     return False
 
 
@@ -179,6 +199,10 @@ def daily_report(config, opportunities, report, plan_id, provider, plan_error, p
                       f"الرابط: {publish['url']}",
                       f"اللغات ({len((page or {}).get('languages', []))}): {langs}",
                       "الترويج في القناة: " + ("تم ✅" if promo_sent else "لم يتم ⚠️")]
+        elif publish and publish["state"] == "held_unsent":
+            lines += ["", "⚠️ الخطة جاهزة لكن لم تصلك: لا توجد محادثة خاصة بينك وبين البوت.",
+                      "الحل: اضغط Start على البوت، وأضف سر OWNER_CHAT_ID (رقم محادثتك الخاصة).",
+                      "ستُعاد المحاولة تلقائيًا في التشغيل القادم."]
         elif publish and publish["state"] == "held":
             lines += ["", "⏸️ النشر على الموقع متوقف حتى يوجد مشروع مكتمل.",
                       "الخطة وصلتك للمراجعة في رسالة خاصة منفصلة."]

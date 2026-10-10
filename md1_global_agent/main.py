@@ -74,9 +74,8 @@ def plan_and_publish(best: dict, config: dict, ledger: Ledger):
     if not config.get("publish_pages", True):
         # Publishing is paused until a COMPLETE project exists: the plan goes to the owner only.
         sent = telegram.send_private(f"📝 خطة جاهزة للمراجعة — فرصة {pub_id}\n\n{plan_md[:3400]}")
-        if not sent:
-            return "تعذر إرسال الخطة في رسالة خاصة (أرسل /start للبوت)", None, provider, None, False
-        return None, {"state": "held", "url": "", "reason": ""}, provider, payload, False
+        state = "held" if sent else "held_unsent"       # unsent -> not marked examined, retried next run
+        return None, {"state": state, "url": "", "reason": ""}, provider, payload, False
     payload["translations"] = translate_all(payload, terms, llm, config.get("page_languages", []),
                                             budget=config.get("translate_budget_seconds", 900))
     outcome = mdm1_page.publish(payload, mdm1_page.env_token())
@@ -122,18 +121,18 @@ def main():
     else:
         print("Plan: no NEW opportunity passed the build threshold")
 
-    planned = best if best and not plan_error else None
+    planned = best if best and not plan_error and not (outcome and outcome["state"] == "held_unsent") else None
     page = ({"title": payload["title"], "languages": ["ar"] + list(payload["translations"])}
-            if payload and outcome and outcome["state"] != "held" else None)
+            if payload and outcome and not outcome["state"].startswith("held") else None)
     text = telegram.daily_report(config, opportunities, report,
-                                 public_id(planned["repo"]["full_name"]) if planned else None,
+                                 public_id(best["repo"]["full_name"]) if best and not plan_error else None,
                                  provider, plan_error, outcome, page, promo_sent, retried)
     delivered = telegram.send(channel=config.get("telegram_report_channel", ""), text=text)
     top = opportunities[:3]
     if delivered:
         telegram.send_private(private_details(top, planned))
         for o in top:                              # level 1: what was shown is never shown again
-            if plan_error and o is best:
+            if best and o is best and not planned:
                 continue                           # a failed plan is retried tomorrow
             ledger.mark_examined(o["repo"]["full_name"])
     if planned:
