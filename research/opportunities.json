@@ -284,6 +284,28 @@
       "found_at": "2026-10-09T19:36:09.249365+00:00"
     },
     {
+      "name": "Chat-with-your-data / AI spreadsheet analyst (upload CSV, ask questions, auto-charts)",
+      "field": "Productivity / Data Analytics",
+      "summary": "A free web tool where you upload a CSV/Excel file and interrogate it in plain English — the AI runs real queries, returns exact answers, KPIs and charts. Rebuilt as an original no-code web app (no scraping of others).",
+      "why_now": "The space is exploding right now: Livedocs (\"general data agent\") was #4 on Product Hunt's October 2026 monthly leaderboard with 472 votes; Julius AI reports 2M+ users with $20–45/mo plans; Databricks acquired cloud-spreadsheet startup Row Zero on Sept 24, 2026 to give its AI assistant a spreadsheet surface; Y Combinator's current analytics cohort is full of chat-with-data agents (PandasAI, MinusX, BitBoard, Mito, Upsolve).",
+      "monetization": "Freemium: free tier for small files, paid tiers for larger data, exports and advanced charts. Comparable market pricing: Julius AI Starter $20/mo / Pro $45/mo; ChatCSV paid tier $19/mo.",
+      "evidence": [
+        "https://www.producthunt.com/leaderboard/monthly/2026/10",
+        "https://www.tellius.com/resources/blog/best-ai-analytics-platforms-in-2026-12-tools-compared-by-capability-governance-and-depth-of-insight",
+        "https://www.unite.ai/row-zero-joins-databricks-to-give-genie-a-governed-spreadsheet/",
+        "https://aichief.com/ai-data-management/chatcsv-co/"
+      ],
+      "how_searched": [
+        "Launch/review site (Product Hunt leaderboard)",
+        "Trend & SEO tool content",
+        "Revenue/pricing databases and analysis blogs",
+        "VC portfolio directories (YC)",
+        "Tech news (acquisition coverage)"
+      ],
+      "score": 82.0,
+      "found_at": "2026-10-10T00:11:04.459088+00:00"
+    },
+    {
       "name": "AI SDR & Autonomous Sales Agents",
       "field": "Sales Tech / AI Automation",
       "summary": "AI agents that engage website visitors in real time, qualify leads, give personalized demos, handle objections, and book meetings — integrating with CRM and sales stacks for 24/7 pipeline generation.",
@@ -493,6 +515,26 @@
       "found_at": "2026-10-08T23:25:29.482066+00:00"
     },
     {
+      "name": "AI mock-interview coach for job seekers (audio/chat role-play with scored feedback)",
+      "field": "Career / HR-Tech",
+      "summary": "A free web tool where job seekers paste a job description, get a realistic AI interviewer that asks adaptive follow-ups, then receive a graded feedback report (role fit, clarity, STAR structure, fillers, pacing).",
+      "why_now": "Interview-prep is a fast-rising paid category: The Business Research Company sizes the interview preparation tool market at $2.8B (2025) growing to $3.16B (2026) and $5.03B (2030); other reports show mock-interview platforms compounding at 15-23% CAGR; Big Interview launched its AI 'PracticeAI' in Sept 2025; Google pushes free 'Interview Warmup'; 'AI Recruitment Tools' shows +5,800% 5-year search growth on Exploding Topics.",
+      "monetization": "Freemium subscriptions: comparable AI interview coaches price ~$49/mo (Revarta) to $75–280 per human-coached session. Free tier = practice + basic feedback; paid = role-specific question banks, analytics, export.",
+      "evidence": [
+        "https://www.thebusinessresearchcompany.com/report/interview-preparation-tool-market-report",
+        "https://pmarketresearch.com/worldwide-mock-interview-service-market-research/",
+        "https://explodingtopics.com/blog/trending-topics"
+      ],
+      "how_searched": [
+        "Market-research report pages",
+        "Trend aggregator (Exploding Topics)",
+        "News articles on competitor launches",
+        "Freelance-platform trend indexes"
+      ],
+      "score": 76.0,
+      "found_at": "2026-10-10T00:11:05.760360+00:00"
+    },
+    {
       "name": "Invoice & AP Automation (AI-First)",
       "field": "Fintech / B2B SaaS",
       "summary": "End-to-end invoice processing: email/file intake → AI extraction (line items, PO matching) → validation → ERP/accounting sync → approval workflow → payment — with KPI dashboards (cost/invoice, cycle time, touchless rate).",
@@ -647,6 +689,26 @@
       "found_at": "2026-10-08T23:25:31.857440+00:00"
     },
     {
+      "name": "Free landlord / rental-property finance toolkit (rent ledger, per-unit P&L, tax-ready reports)",
+      "field": "Fintech / PropTech (vertical SaaS)",
+      "summary": "A rebuilt free web tool for the ~12M US independent landlords: track rent, deposits and expenses per unit, auto-generate monthly P&L and tax-ready annual reports, plus cash-flow / 1%-rule calculators and late-rent reminders.",
+      "why_now": "Baselane — the banking-plus-bookkeeping platform for individual landlords — grew >900% since its Series A, passed 50,000 landlord customers processing over $2B/yr, and raised $34.4M (Series A + Series B) in Oct 2025; 'Baselane' sits at +7,300% search growth on Exploding Topics' Oct 2026 list. Individual investors own ~25M US rental units (half the rental supply), and this category is under-tooled.",
+      "monetization": "Free core tool monetized via premium automation tier and affiliate/partner revenue (landlord insurance, rental loans, tenant screening). Baselane itself earns on banking and a paid AI tier (Baselane Smart); reported scale: 50,000+ users, $2B+ processed annually.",
+      "evidence": [
+        "https://www.baselane.com/resources/baselane-announces-34m-in-new-funding-to-invest-in-customers",
+        "https://explodingtopics.com/blog/trending-topics",
+        "https://fintech.global/2025/10/02/fintech-platform-baselane-secures-34m-for-ai-expansion/"
+      ],
+      "how_searched": [
+        "Company funding pages",
+        "Trend aggregator (Exploding Topics)",
+        "Fintech/PropTech trade press",
+        "Revenue & scale figures from company PR"
+      ],
+      "score": 73.0,
+      "found_at": "2026-10-10T00:11:07.006100+00:00"
+    },
+    {
       "name": "LLM / agent spend & cost observability dashboard",
       "field": "Developer tools (LLMOps / FinOps)",
       "summary": "A free web tool that ingests API logs and shows cost per user, per feature, per model, plus latency, caching and runaway-agent alerts.",
@@ -723,6 +785,27 @@
       ],
       "score": 71.0,
       "found_at": "2026-10-08T23:25:32.646392+00:00"
+    },
+    {
+      "name": "US visa wait-time & green-card tracker with priority-date calculator",
+      "field": "Immigration / Consumer tools / SEO",
+      "summary": "A free dashboard that ingests U.S. State Department interview wait times and the monthly Visa Bulletin, and gives applicants per-country/per-category wait estimates, a priority-date eligibility calculator, and change alerts.",
+      "why_now": "Visa friction is at historic peaks and rising fast in the last weeks: worldwide average visitor-visa interview wait hit 201 days in FY2025 (vs 26 days pre-COVID), Indian applicants average 346 days (GAO report); Oct 2026 waits reach 20 months in Toronto and 17.5 in Vancouver; a worldwide immigrant-visa interview freeze (since Aug 25, 2026) delayed the October Visa Bulletin; travel search data shows 'visa' at 450K monthly searches (+124% QoQ) and 'immigrant visas' +513%.",
+      "monetization": "Ads + premium alerts/affiliate (appointment-slot watchers, legal referrals). No verified first-party revenue figure available for the model; existing independent trackers (e.g. usvisastatus.com) prove the SEO demand.",
+      "evidence": [
+        "https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/global-visa-wait-times.html",
+        "https://immigration-analytics.com/2026/09/25/the-missing-october-visa-bulletin-three-restrictions-one-court-fight-and-where-the-visa-numbers-go/",
+        "https://usvisastatus.com/monthly/2026-10",
+        "https://indianexpress.com/article/world/us-news/us-visitor-visa-wait-time-indians-346-days-gao-report-10899350/"
+      ],
+      "how_searched": [
+        "Government data pages (State Dept, GAO via news)",
+        "Specialist immigration analytics blogs",
+        "Existing niche trackers (competitor/model signal)",
+        "Travel keyword trend data"
+      ],
+      "score": 71.0,
+      "found_at": "2026-10-10T00:11:07.544770+00:00"
     },
     {
       "name": "AI resume + job-application toolkit (ATS-tailored)",
@@ -885,6 +968,27 @@
       "found_at": "2026-10-08T23:25:34.384248+00:00"
     },
     {
+      "name": "Faceless / automated YouTube channel operating system",
+      "field": "Creator Economy / AI content tools",
+      "summary": "A rebuilt free web tool that runs the whole pipeline for monetized 'faceless' YouTube channels: niche & trend research, script generation, text-to-voiceover and stock-video assembly, auto-descriptions/tags/thumbnail guidance, and a publish+monetization plan.",
+      "why_now": "The strongest cluster in Fiverr's 2026 Business Trends Index: searches for 'YouTube automation faceless channels' are up +239% (Digital Marketing) and +230% (Video & Animation), with AI video demand overall up +278%; Gumroad is full of best-selling faceless-channel playbooks (priced ~$15–47) and Reddit (r/FacelessVideos) shows working channels earning $5K–50K/mo.",
+      "monetization": "Freemium + usage credits; affiliate revenue from video/voice/stock tools. Gumroad equivalent is one-off playbooks at $15–47; a SaaS version can charge monthly. No verified revenue figure for this exact idea (null).",
+      "evidence": [
+        "https://www.fiverr.com/news/business-trends-index-ai-2026",
+        "https://stealwhatworks.com/blogs/news/fiverr-services-growing-fastest-now",
+        "https://techninjaa.gumroad.com/l/YouTube",
+        "https://www.reddit.com/r/FacelessVideos/comments/1s5f01h/i_researched_50_faceless_ai_youtube_channels/"
+      ],
+      "how_searched": [
+        "Freelance marketplace trend reports (Fiverr Business Trends Index)",
+        "Digital-goods marketplace (Gumroad listings)",
+        "Community/forum threads (Reddit)",
+        "Independent analysis blogs cross-checking Fiverr data"
+      ],
+      "score": 64.0,
+      "found_at": "2026-10-10T00:11:08.325209+00:00"
+    },
+    {
       "name": "AI language conversation tutor",
       "field": "EdTech / Consumer AI",
       "summary": "A free web tool for spoken conversation practice with an AI partner: real-time dialogue, correction and pronunciation feedback in the learner's target language.",
@@ -938,6 +1042,27 @@
       "found_at": "2026-10-08T03:07:51.940232+00:00"
     },
     {
+      "name": "Fractional-executive rate benchmark & matching tool",
+      "field": "Talent / Executive hiring",
+      "summary": "A rebuilt free web tool where executives and startups get live compensation benchmarks (hourly/retainer by role and company stage), plus a directory and simple match flow for fractional CFO/COO/CTO/CMO engagements.",
+      "why_now": "Fractional COO is a +7,400% search-growth topic on Exploding Topics (Oct 2026); Malt reports interim & fractional tech leadership (+23%) as its fastest-growing job category with AI-agent briefs up 60x; the Fractional Work Report 2026 shows hiring demand up 149% YoY (Q1'25→Q1'26), a ~150,000-strong US fractional workforce, exec rates averaging ~$153–223/hr, and competing platforms charging $3K–8K per placement.",
+      "monetization": "Free benchmarks/directory monetized via placement fees, premium listings and subscription benchmarking reports. Positioned in a market estimated at $5.7B (2026) compounding ~14%/yr; per-placement prices at existing platforms: $3,000–$8,000 one-time.",
+      "evidence": [
+        "https://www.fractionaljobs.io/the-fractional-work-report",
+        "https://www.fractionaljobs.io/blog/the-5-best-fractional-coo-platforms-and-services-2026",
+        "https://explodingtopics.com/blog/trending-topics",
+        "https://over50pros.com/wp-content/uploads/2026/04/Over-50-Pros-Fractional-Work-State-of-the-Market-April-2026.pdf"
+      ],
+      "how_searched": [
+        "Trend aggregator (Exploding Topics)",
+        "Marketplace / job-board reports (Fractional Jobs)",
+        "Freelance-platform data (Malt via analysis blogs)",
+        "Industry state-of-market PDFs"
+      ],
+      "score": 61.0,
+      "found_at": "2026-10-10T00:11:08.996621+00:00"
+    },
+    {
       "name": "Failed-Payment Recovery / Dunning for Small SaaS (Rebounce-model)",
       "field": "SaaS / fintech - revenue recovery",
       "summary": "A free web tool that connects to Stripe, detects failed/expiring-card payments, and runs smart retry + email/WhatsApp dunning sequences to recover involuntary churn, with a recovery dashboard.",
@@ -955,6 +1080,27 @@
       ],
       "score": 57.0,
       "found_at": "2026-10-09T19:36:12.113544+00:00"
+    },
+    {
+      "name": "Programmatic-SEO quality-gate & pre-flight audit tool",
+      "field": "Marketing / SEO",
+      "summary": "A rebuilt free web tool that audits a programmatic-SEO template before you publish: uniqueness/shingle-overlap score, schema completeness, indexability and AI-citation readiness — the exact gates that decide whether 1,000 generated pages rank or get deindexed.",
+      "why_now": "Programmatic SEO shows +2,050% 5-year search growth (Exploding Topics, Oct 2026) and 45% of SaaS companies now run it; the 2026 quality floor is measurable — sites that enforce ≥3 unique data fields and <40% shingle-overlap rank at 3.2x the rate of thin templates, and median sites lose ~62% of budget on pages that never index. Paid tools for this sell at $79–299/mo, leaving room for a credible free tier.",
+      "monetization": "Freemium: free pre-flight audit per URL, paid monitoring/citations. Comparable tools price $79/mo (Novelty SEO, 10K pages) to $99/mo (SEOmatic, 50K pages).",
+      "evidence": [
+        "https://wpbulkpublishing.com/research/state-of-programmatic-seo-2026",
+        "https://quickseo.ai/blog/programmatic-seo-stats-2026-is-pseo-still-viable-in-the-ai-search-era",
+        "https://explodingtopics.com/blog/trending-topics",
+        "https://marketingenigma.ai/statistics/programmatic-seo-statistics-2026"
+      ],
+      "how_searched": [
+        "Trend aggregator (Exploding Topics)",
+        "Specialist SEO research studies",
+        "Tool-comparison reviews with pricing",
+        "Keyword/statistics roundup blogs"
+      ],
+      "score": 57.0,
+      "found_at": "2026-10-10T00:11:11.425926+00:00"
     },
     {
       "name": "AI interior-design / room-redesign web tool",
@@ -987,6 +1133,25 @@
       "how_searched": "Scanned Product Hunt monthly/daily leaderboards for new AI tooling; reviewed Chrome Web Store listing stats via browser-extension trackers; read independent review sites for pricing and user counts.",
       "score": 50.7,
       "found_at": "2026-10-09T06:13:25.523098+00:00"
+    },
+    {
+      "name": "Vibe-coding spec & prompt generator (idea → build-ready plan for Claude Code / Cursor)",
+      "field": "Developer tools / AI-assisted building",
+      "summary": "A rebuilt free web tool for solo builders: paste an idea, answer 4-5 clarifying questions, and get a structured build spec plus a copy-paste prompt pack and architecture checklist tailored to Claude Code / Cursor / Codex.",
+      "why_now": "'Vibe coding' is the fastest-moving freelancing skill of 2026: Fiverr searches for Claude Code specialists surged +938% in six months and n8n AI automation +125%; Malt reports briefs asking for AI agents multiplied by 60, and AI-agent services became Fiverr's fastest-growing category (+18,347% search growth). Beginners need structured specs/prompts to get usable prototypes.",
+      "monetization": "Free generator monetized via premium prompt packs, templates and affiliate tool subscriptions. No verified revenue figure for this exact concept (null).",
+      "evidence": [
+        "https://www.fiverr.com/news/business-trends-index-ai-2026",
+        "https://www.9am.works/freelancer-academy/blog/what-clients-ordered-2026-fiverr-malt-data",
+        "https://www.accio.com/wow/business-fiverr-most-popular-categories-2026-trend.html"
+      ],
+      "how_searched": [
+        "Freelance marketplace trend reports (Fiverr, Malt)",
+        "Trend analysis blogs",
+        "News coverage of platform demand data"
+      ],
+      "score": 50.0,
+      "found_at": "2026-10-10T00:11:12.828775+00:00"
     },
     {
       "name": "AI Personalized Children's Storybook Generator (DreamStories/Magic Story-model)",

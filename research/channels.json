@@ -651,6 +651,25 @@
       "found_at": "2026-10-07T18:25:22.592988+00:00"
     },
     {
+      "name": "daily.dev (Squads + Direct Posting + source feeds)",
+      "url": "https://docs.daily.dev/how-to-get-featured/",
+      "kind": "feed",
+      "requires_account": true,
+      "official_free_api": true,
+      "how_to_use": "Register free, then pick a path: (1) create a public Squad and post your own articles/links there; (2) 'Suggest new source' with your publication's public RSS/Atom feed (Sources section -> enter feed URL -> Check link -> Submit for review); (3) click 'New Post' anywhere to directly post a link to your own page. Add twitter:creator meta to articles and claim ownership to get analytics. There is a documented public GraphQL API (and MCP server) for reading feeds; writing posts is done in the app UI.",
+      "rules_and_risks": "Sources must be well-known publications or developer blogging platforms; corporate and personal blogs are explicitly excluded, manual review up to 30 days, and only content published AFTER approval is indexed. Squads and direct posts must follow content guidelines; low-quality/self-promotional spam gets removed and can cost your account. Account cannot be auto-created.",
+      "why_it_works": "Reaches a large developer audience through an algorithmic new-tab extension feed plus a public sources directory; official docs describe three legit on-ramps including automatic RSS indexing for qualifying publications.",
+      "evidence": [
+        "https://docs.daily.dev/how-to-get-featured/"
+      ],
+      "how_searched": [
+        "websearch: 'daily.dev submit source RSS feed how to get content featured'",
+        "opened official docs page https://docs.daily.dev/how-to-get-featured/"
+      ],
+      "score": 24.7,
+      "found_at": "2026-10-10T00:17:33.052950+00:00"
+    },
+    {
       "name": "Hacker News: Show HN and story submissions",
       "url": "https://news.ycombinator.com/newsguidelines.html",
       "kind": "community",
@@ -667,6 +686,25 @@
       ],
       "score": 24.0,
       "found_at": "2026-10-07T04:19:33.235389+00:00"
+    },
+    {
+      "name": "Hashnode (free dev blog + GraphQL API + custom domain)",
+      "url": "https://hashnode.com/",
+      "kind": "platform",
+      "requires_account": true,
+      "official_free_api": true,
+      "how_to_use": "Create a free Hashnode blog (subdomain or point your own custom domain at it), write/publish Markdown posts, and use tags to enter topic feeds. Publish and manage programmatically via the GraphQL API and the official CLI/MCP server; import existing Markdown with tags, dates and canonical URLs intact. Posts mirror to GitHub and can be published back from the repo.",
+      "rules_and_risks": "Publishing via API requires an auth token tied to your manually-created account (no automated signup). Duplicate/thin/SEO-spam content is suppressed; importing without setting canonical URLs can create duplicate-content issues. Personal blogs are welcome here (unlike daily.dev sources).",
+      "why_it_works": "Hashnode hosts on a domain search engines already trust and which the platform claims AI assistants cite; built-in SEO, topic feeds and ~hundreds of articles/day of active readership give a new site immediate topical distribution plus a durable canonical home.",
+      "evidence": [
+        "https://hashnode.com/"
+      ],
+      "how_searched": [
+        "websearch for non-obvious dev publishing platforms beyond Dev.to",
+        "opened https://hashnode.com/ and read its feature/pricing/API claims"
+      ],
+      "score": 24.0,
+      "found_at": "2026-10-10T00:17:33.207054+00:00"
     },
     {
       "name": "G2 free product listing + profile claim",
@@ -725,6 +763,25 @@
       "found_at": "2026-10-07T18:25:25.093279+00:00"
     },
     {
+      "name": "Flipboard (RSS feed -> auto magazines in topic feeds)",
+      "url": "https://about.flipboard.com/forpublishers/",
+      "kind": "feed",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Create a free Flipboard account, go to Flipboard's publisher flow, 'Add your Content' / 'Create a new magazine', and submit your site's full RSS feed under the magazine's 'sources'. After human review, each feed becomes a magazine and items are auto-indexed/tagged into Flipboard topics that have large built-in audiences; you can also manually flip your own posts into themed magazines and embed magazine widgets on your site.",
+      "rules_and_risks": "Feed must be a FULL feed (not titles/excerpts) with at least one image >=400px on its shortest side and at least 30 items, or posts won't render. Submitted feeds are human-reviewed and can be rejected. No public write API; account cannot be auto-created. Don't post compensated content without FTC disclosure.",
+      "why_it_works": "Flipboard distributes flipped articles into topic feeds with hundreds of thousands to millions of readers based on subject, and links open the original source (traffic lands on your site), giving a new blog passive discovery without an existing follower base.",
+      "evidence": [
+        "https://about.flipboard.com/forpublishers/"
+      ],
+      "how_searched": [
+        "websearch: 'Flipboard magazine publish RSS feed own content get readers free'",
+        "opened https://about.flipboard.com/forpublishers/"
+      ],
+      "score": 23.3,
+      "found_at": "2026-10-10T00:17:33.687126+00:00"
+    },
+    {
       "name": "Bluesky starter packs + custom feeds for your niche",
       "url": "https://bsky.social/about/blog/06-26-2024-starter-packs",
       "kind": "feed",
@@ -744,6 +801,25 @@
       "found_at": "2026-10-07T18:25:25.247399+00:00"
     },
     {
+      "name": "Telegram channel + official Bot API",
+      "url": "https://core.telegram.org/bots/api",
+      "kind": "platform",
+      "requires_account": true,
+      "official_free_api": true,
+      "how_to_use": "Create a Telegram channel manually, create a bot via @BotFather to get a token, add the bot as an admin of your channel, then call the Bot API over HTTPS (e.g. https://api.telegram.org/bot<token>/sendMessage with the channel chat_id) to publish posts automatically. Use rich messages/links, and let Telegram's in-app search and channel discovery surface content to non-followers.",
+      "rules_and_risks": "Requires a real Telegram account (phone) and manual @BotFather step; accounts/bots cannot be auto-created. Do not mass-DM or join-post into others' groups (spam/bans). Bot-to-channel posting is only legitimate in channels you control or administer.",
+      "why_it_works": "Telegram has a very large global user base, channels are indexed in Telegram search, and the Bot API is a documented free HTTP interface, so publishing is automatable once you own a channel.",
+      "evidence": [
+        "https://core.telegram.org/bots/api"
+      ],
+      "how_searched": [
+        "websearch on fediverse/messaging syndication channels",
+        "opened official Telegram Bot API docs https://core.telegram.org/bots/api"
+      ],
+      "score": 22.7,
+      "found_at": "2026-10-10T00:17:34.099614+00:00"
+    },
+    {
       "name": "Unlinked brand-mention reclamation + resource-page outreach",
       "url": "https://www.varynforge.com/blog/how-to-get-organic-traffic-free-tactics-small-sites",
       "kind": "tactic",
@@ -761,6 +837,25 @@
       ],
       "score": 22.3,
       "found_at": "2026-10-07T04:19:33.873872+00:00"
+    },
+    {
+      "name": "Spotify for Creators (free podcast hosting + Spotify discovery)",
+      "url": "https://creators.spotify.com/",
+      "kind": "platform",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Sign up free, create a show, upload audio or video episodes (turn your site's articles into a podcast), and submit your RSS to Spotify; Spotify distributes to its millions of listeners and you can also list the same RSS in Apple Podcasts, YouTube Music and other directories. Use show/episode titles and descriptions for keyword discovery.",
+      "rules_and_risks": "Account must be created manually; no public publishing API. Must own rights to audio/music; misleading metadata or re-uploaded copyrighted content gets the show removed. Value depends on producing consistent episodes (effort), not a one-off post.",
+      "why_it_works": "Free hosting and distribution to a massive podcast audience gives audio/video content a second discovery surface and repeat-listener channel independent of your website's domain authority.",
+      "evidence": [
+        "https://creators.spotify.com/"
+      ],
+      "how_searched": [
+        "websearch on free podcast distribution platforms",
+        "opened https://creators.spotify.com/"
+      ],
+      "score": 22.0,
+      "found_at": "2026-10-10T00:17:34.363787+00:00"
     },
     {
       "name": "Web Stories in Google Search and Discover",
@@ -819,6 +914,44 @@
       "found_at": "2026-10-07T18:25:27.071354+00:00"
     },
     {
+      "name": "DevHunt (developer-tool launch board)",
+      "url": "https://devhunt.org/",
+      "kind": "directory",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "If your site/product targets developers, log in (GitHub/X/Google), submit it to the week's launch board with logo, tags, category and description, then answer comments and rally genuine voters during the weekly voting window. Free submission; a permanent tool page and category listing remain after.",
+      "rules_and_risks": "Fits dev/engineering tools best (non-dev products get listed outside the vote). Voting is community-driven; buying/begging votes or sockpuppets breaks rules. Account cannot be auto-created. A weak description buries you.",
+      "why_it_works": "The site reports 507,991 unique visitors since launch, 24.3M impressions, 7,075 tools launched and ~41k developers, with winners getting tens of thousands of views; it is a lower-competition alternative to Product Hunt for dev tools.",
+      "evidence": [
+        "https://devhunt.org/"
+      ],
+      "how_searched": [
+        "websearch: 'free startup launch directories 2026'",
+        "opened https://devhunt.org/ and read its live stats/rules"
+      ],
+      "score": 21.3,
+      "found_at": "2026-10-10T00:17:34.701671+00:00"
+    },
+    {
+      "name": "Yandex Webmaster (free indexing for Russian-speaking search)",
+      "url": "https://webmaster.yandex.com/",
+      "kind": "search",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Create a free Yandex account (manual), Add site, verify ownership, then submit an XML sitemap and use 'Add site'/indexing tools; Yandex also participates in IndexNow (already known) for instant URL pushes. Use Yandex Metrica/Business tools it links for extra surfaces.",
+      "rules_and_risks": "Account/verification cannot be automated. Yandex applies strict quality filters and regional/sanctions-related limits; low-quality or duplicated content won't rank. Most useful only if you target Russian/CIS audiences.",
+      "why_it_works": "Yandex states ~6 million sites are added and all Webmaster tools are free; it is the dominant search engine in Russia/CIS, so it opens an entire language market most Western sites ignore.",
+      "evidence": [
+        "https://webmaster.yandex.com/"
+      ],
+      "how_searched": [
+        "websearch: 'new search engines submit website free 2026'",
+        "opened https://webmaster.yandex.com/"
+      ],
+      "score": 21.0,
+      "found_at": "2026-10-10T00:17:35.568790+00:00"
+    },
+    {
       "name": "Slashdot story submission",
       "url": "https://slashdot.org/submit",
       "kind": "community",
@@ -857,6 +990,44 @@
       "found_at": "2026-10-07T18:25:30.704703+00:00"
     },
     {
+      "name": "Brave Search URL submission",
+      "url": "https://search.brave.com/submit-url",
+      "kind": "search",
+      "requires_account": false,
+      "official_free_api": false,
+      "how_to_use": "Open the public Submit URL page and submit your canonical pages (homepage, key category/content pages); no account needed. Ensure robots.txt allows Bravebot and that pages are crawlable by Googlebot (Brave gates crawling on Googlebot-crawlability), then monitor manually.",
+      "rules_and_risks": "Submission is a discovery/re-fetch request, not a guarantee of indexing; there is no Brave webmaster console, sitemap ingestion, or API, and Brave ignores robots.txt for de-indexing (use noindex). Spammy/low-quality pages still won't surface.",
+      "why_it_works": "Brave runs its own independent index and its search results feed Claude's web search, so being indexed in Brave is a cheap route to visibility in an AI answer engine as well as Brave/AI-browser users.",
+      "evidence": [
+        "https://search.brave.com/submit-url"
+      ],
+      "how_searched": [
+        "websearch: 'new search engines submit website free 2026 Brave Mojeek Bing webmaster'",
+        "opened the official https://search.brave.com/submit-url page"
+      ],
+      "score": 20.0,
+      "found_at": "2026-10-10T00:17:35.774007+00:00"
+    },
+    {
+      "name": "Peerlist Launchpad",
+      "url": "https://peerlist.io/launchpad",
+      "kind": "directory",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Create a free Peerlist account, go to Launchpad, and book a launch week; prepare logo, tagline, screenshots and description, then launch and engage during your week (e.g. Week 41 shows slots filling). Builders/early-adopters browse and upvote; top projects gain extra visibility.",
+      "rules_and_risks": "Limited number of launches accepted per period ('we're only accepting a limited number of projects'); a free launch may only earn a backlink if it places near the top. Account cannot be auto-created; astroturfed votes get removed.",
+      "why_it_works": "Peerlist is a builder-focused network with a recurring weekly launch event that puts new products in front of an early-adopter audience actively looking for new tools.",
+      "evidence": [
+        "https://peerlist.io/launchpad"
+      ],
+      "how_searched": [
+        "websearch: 'free startup launch directories 2026'",
+        "opened https://peerlist.io/launchpad"
+      ],
+      "score": 19.3,
+      "found_at": "2026-10-10T00:17:35.906009+00:00"
+    },
+    {
       "name": "Quora: durable answers on questions your audience already asks",
       "url": "https://factors.ai/blog/increase-blog-traffic",
       "kind": "community",
@@ -874,6 +1045,44 @@
       ],
       "score": 18.7,
       "found_at": "2026-10-07T04:19:39.470808+00:00"
+    },
+    {
+      "name": "Hugging Face Spaces (free hosting + AI community discovery)",
+      "url": "https://huggingface.co/docs/huggingface_hub/guides/manage-spaces",
+      "kind": "platform",
+      "requires_account": true,
+      "official_free_api": true,
+      "how_to_use": "Create a free HF account (manual), then use the official huggingface_hub API to programmatically create a repo (api.create_repo(repo_id=..., repo_type='space', space_sdk='static')) and upload your HTML/JS (api.upload_folder). Embed the Space URL on your site or vice-versa. Semantic search and Space pages put your app in front of the ML/AI community; Static Spaces are free for everyone.",
+      "rules_and_risks": "Account and API token cannot be auto-created. Gradio/Docker Spaces on free cpu-basic hardware now REQUIRE a PRO/Team subscription (HTTP 402) — use Static Spaces to stay free. Abusing compute, crypto-mining, or spammy Spaces gets them removed/suspended.",
+      "why_it_works": "Hugging Face is where the ML/AI community looks for demos; a free Space gives your project a discoverable page in the Hub's search plus an embeddable, indexed URL, and the hub API is genuinely free for creating/uploading.",
+      "evidence": [
+        "https://huggingface.co/docs/huggingface_hub/guides/manage-spaces"
+      ],
+      "how_searched": [
+        "websearch: 'Hugging Face Spaces free hosting SEO discoverability 2026'",
+        "opened https://huggingface.co/docs/huggingface_hub/guides/manage-spaces"
+      ],
+      "score": 18.7,
+      "found_at": "2026-10-10T00:17:36.097591+00:00"
+    },
+    {
+      "name": "Crunchbase free company profile",
+      "url": "https://support.crunchbase.com/hc/en-us/articles/115011823988-How-do-I-create-a-Crunchbase-profile",
+      "kind": "directory",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Register a free Crunchbase account, complete social authentication (Google/LinkedIn) — mandatory for profile creation — search to avoid duplicates, then Resources -> Create Profile, fill logo, founded date, website & socials, descriptions (3rd person, no marketing puffery) and Save All Edits; claim/edit an existing stub if one exists.",
+      "rules_and_risks": "No free write API (data API is paid); account can't be auto-created and needs social auth. Writing in 1st person or marketing language ('best', 'most comprehensive') is against their best-practice guidelines and may be rejected/edited. Low direct traffic for non-funded startups.",
+      "why_it_works": "Crunchbase is a canonical, high-authority company database that journalists, investors and analysts search; a free indexed profile adds a credible backlink and helps discovery and brand verification.",
+      "evidence": [
+        "https://support.crunchbase.com/hc/en-us/articles/115011823988-How-do-I-create-a-Crunchbase-profile"
+      ],
+      "how_searched": [
+        "websearch: 'Crunchbase free company profile create register startup listing'",
+        "retrieved Crunchbase help-center create-profile article"
+      ],
+      "score": 18.3,
+      "found_at": "2026-10-10T00:17:36.241334+00:00"
     },
     {
       "name": "Wiby submit — indie search engine for simple web pages",
@@ -895,6 +1104,25 @@
       "found_at": "2026-10-07T18:25:31.665402+00:00"
     },
     {
+      "name": "Baidu Search Resource Platform (free indexing for Chinese search)",
+      "url": "https://ziyuan.baidu.com/",
+      "kind": "search",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Register a Baidu account, add and verify your site, then use 普通收录 (normal indexing submission) and 快速抓取 (fast crawl) plus sitemap and robots tools; monitor index volume and query traffic. All of these tools are presented as free.",
+      "rules_and_risks": "Baidu account creation typically needs a Chinese phone number, and verification can be hard from outside China; content must comply with Chinese regulations or it is removed. Only worth it if you target Chinese-language readers. No public write API confirmed here.",
+      "why_it_works": "Baidu is the dominant search engine in China; these submit/index tools open the largest non-Western search market that most sites never tap.",
+      "evidence": [
+        "https://ziyuan.baidu.com/"
+      ],
+      "how_searched": [
+        "websearch: 'new search engines submit website free 2026'",
+        "opened https://ziyuan.baidu.com/"
+      ],
+      "score": 18.0,
+      "found_at": "2026-10-10T00:17:39.481134+00:00"
+    },
+    {
       "name": "Lobsters: invite-tree link aggregator for computing topics",
       "url": "https://lobste.rs/about",
       "kind": "community",
@@ -911,6 +1139,44 @@
       ],
       "score": 17.3,
       "found_at": "2026-10-07T04:19:39.697402+00:00"
+    },
+    {
+      "name": "LaunchFree.io 'The Runway' free launch listing",
+      "url": "https://launchfree.io/submit",
+      "kind": "directory",
+      "requires_account": false,
+      "official_free_api": false,
+      "how_to_use": "Fill the ~3-minute multi-step submission form (launch name, URL, tagline, category, 100+ char description, origin story, screenshots, your name/email/bio, optional socials) and pass the human-verification challenge. No account or card required; a human reviews within ~24h, you get a permanent listing page, a free dofollow backlink, and a feature in the Runway Radar newsletter.",
+      "rules_and_risks": "Every listing is manually reviewed; the site stresses legitimacy (real founders, real purpose), so fake/duplicate/low-effort launches are rejected. It is a young directory (claims ~2,495 launches), so reach per listing is modest. Terms require accurate info.",
+      "why_it_works": "Free, permanent, dofollow-indexed listing page plus a weekly newsletter feature and an auto-email confirmation — low effort for a durable backlink and discovery, with a stated commitment to keep the core listing free.",
+      "evidence": [
+        "https://launchfree.io/submit"
+      ],
+      "how_searched": [
+        "websearch: 'free startup launch directories 2026 submit your product no cost list'",
+        "opened https://launchfree.io/submit and read the form/rules"
+      ],
+      "score": 16.7,
+      "found_at": "2026-10-10T00:17:39.663371+00:00"
+    },
+    {
+      "name": "Wikipedia / Wikidata presence (tactic)",
+      "url": "https://en.wikipedia.org/wiki/Wikipedia:Notability",
+      "kind": "tactic",
+      "requires_account": true,
+      "official_free_api": true,
+      "how_to_use": "Only pursue this once you have independent coverage. Gather significant coverage in reliable, independent sources about your subject, ensure (or find) a Wikipedia article under the General Notability Guideline, and add accurate, cited facts with a neutral tone. Add/complete the matching Wikidata item; Wikidata/Wikipedia feed knowledge panels and AI answers and pass strong authority signals.",
+      "rules_and_risks": "Self-promotion is against Wikipedia policy; editing about yourself/your company triggers conflict-of-interest rules and articles lacking independent sources are deleted. Notability requires multiple independent reliable sources (not your own site/press releases). Wikipedia accounts/bots cannot be auto-created; undisclosed paid/direct editing gets banned.",
+      "why_it_works": "Wikipedia and Wikidata are among the most-cited surfaces by search engines and AI assistants, so a genuinely sourced entry produces durable, high-authority referral and citation effects — but only for topics that legitimately meet notability.",
+      "evidence": [
+        "https://en.wikipedia.org/wiki/Wikipedia:Notability"
+      ],
+      "how_searched": [
+        "websearch on canonical/authority backlink tactics",
+        "opened the Wikipedia:Notability policy page"
+      ],
+      "score": 14.7,
+      "found_at": "2026-10-10T00:17:39.708466+00:00"
     }
   ]
 }
