@@ -1,6 +1,28 @@
 {
   "items": [
     {
+      "name": "LinkedIn Newsletters (individual, free)",
+      "url": "https://www.linkedin.com/help/linkedin/answer/a522525",
+      "kind": "platform",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "From the LinkedIn homepage: start a post -> 'Write article' -> choose the newsletter option. Individuals no longer need Creator Mode, a follower minimum, or Premium. Set title (<64 chars), description, logo and cadence. On launch LinkedIn sends a one-time invite to all your connections/followers (typically 10-30% subscribe); every later edition triggers email + push + in-app to every subscriber and publishes a public, Google-indexed URL. Put a link to your site in each edition and keep a sustainable biweekly/monthly cadence.",
+      "rules_and_risks": "You do not own the list (LinkedIn holds emails, no export). The companion feed post is still algorithm-gated by 360Brew's 2-5% first-hour test, and clickbait/promotional spam gets throttled (keep promo within the ~20% allowance). Company pages (not individuals) still need 150 followers and an original-content history.",
+      "why_it_works": "Editions bypass feed throttling: every subscriber gets email + push + in-app, editions live on a very high-authority indexed URL, and the launch auto-invite solves the cold-start. Independent 2026 guides report roughly 35-50% open rates.",
+      "evidence": [
+        "https://www.linkedin.com/help/linkedin/answer/a522525",
+        "https://ezekiah.vercel.app/linkedin-newsletter-guide",
+        "https://jwatte.com/blog/blog-linkedin-newsletter-authority/"
+      ],
+      "how_searched": [
+        "web_search: 'LinkedIn newsletter articles free organic reach 2026 publisher'",
+        "opened LinkedIn Help a522525",
+        "cross-checked two independent 2026 guides"
+      ],
+      "score": 88.0,
+      "found_at": "2026-10-10T12:39:48.493220+00:00"
+    },
+    {
       "name": "Product Hunt launch (self-hunt, free)",
       "url": "https://www.producthunt.com/launch",
       "kind": "platform",
@@ -112,6 +134,29 @@
       "found_at": "2026-10-07T18:25:22.377029+00:00"
     },
     {
+      "name": "Google Discover",
+      "url": "https://developers.google.com/search/docs/appearance/google-discover",
+      "kind": "search",
+      "requires_account": false,
+      "official_free_api": false,
+      "how_to_use": "There is no submission: any indexed page meeting Discover's content policies is automatically eligible. To raise the odds, add an original image >=1200px wide and >300,000 total pixels at 16:9, enable robots meta 'max-image-preview:large' (or AMP), set og:image, use accurate non-clickbait titles, show author bylines and publish/update dates, pass Core Web Vitals on mobile, and publish consistently in one topic. Track the 16-month Discover report in Google Search Console.",
+      "rules_and_risks": "Eligibility is not appearance and there is no query to target. The Feb-2026 Discover core update demoted sensational/clickbait and thin content and boosted per-topic expertise and local relevance. Manual actions are possible for policy violations, and forms, job ads and code repos are filtered out.",
+      "why_it_works": "Discover is a queryless, interest-based feed that for many publishers in 2026 is the single largest Google-driven traffic source; eligibility is free and automatic, so the cost is quality/technical work, not fees.",
+      "evidence": [
+        "https://developers.google.com/search/docs/appearance/google-discover",
+        "https://blog.contentforce.ai/google-discover-2/",
+        "https://rightthing.agency/articles/google-discover-seo-ranking-signal",
+        "https://meek.media/blog/how-to-optimize-for-google-discover"
+      ],
+      "how_searched": [
+        "web_search: 'Google Discover requirements how to appear 2026 publisher'",
+        "opened Google Search Central Discover docs",
+        "cross-checked 2026 post-update analyses"
+      ],
+      "score": 80.0,
+      "found_at": "2026-10-10T12:39:52.587278+00:00"
+    },
+    {
       "name": "IndexNow: instant URL notifications to Bing, Naver, Seznam, Yandex & Yep",
       "url": "https://www.indexnow.org/",
       "kind": "search",
@@ -132,6 +177,27 @@
       ],
       "score": 76.0,
       "found_at": "2026-10-07T04:19:31.562405+00:00"
+    },
+    {
+      "name": "beehiiv free Recommendations Network",
+      "url": "https://www.beehiiv.com/support/article/43027088988311-how-free-recommendations-work",
+      "kind": "partnership",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Create a free beehiiv publication. Go to Grow -> Recommendations -> Outgoing and pick up to 4 other publications to recommend for free; they appear right after someone subscribes to you. Manage reciprocal promotion under Incoming. Free recommendations are available on every plan including the free plan.",
+      "rules_and_risks": "It is mutual promotion, not a free list: to be recommendable your publication must be non-private, have sent a post in the last 60 days, and have a name and logo, and you cannot opt out of appearing in the network. Paid per-verified-subscriber offers require a paid plan. Do not recommend junk or trust drops.",
+      "why_it_works": "An in-network cross-promotion flywheel across 60k+ creators; beehiiv states publications that complete their Top 4 grow more than twice as fast, and >15M subscriptions have come through Recommendations/Boosts.",
+      "evidence": [
+        "https://www.beehiiv.com/support/article/43027088988311-how-free-recommendations-work",
+        "https://product.beehiiv.com/p/recommendations-reimagined",
+        "https://www.beehiiv.com/blog/guide-to-free-and-paid-recommendations-in-beehiiv"
+      ],
+      "how_searched": [
+        "web_search: 'beehiiv free newsletter Recommendations network growth 2026'",
+        "opened beehiiv Help article and product changelog"
+      ],
+      "score": 76.0,
+      "found_at": "2026-10-10T12:39:54.044586+00:00"
     },
     {
       "name": "ChatGPT search visibility: Bing Webmaster Tools + allowing OAI-SearchBot",
@@ -223,6 +289,27 @@
       "found_at": "2026-10-09T06:45:12.815145+00:00"
     },
     {
+      "name": "Official MCP Registry",
+      "url": "https://registry.modelcontextprotocol.io/",
+      "kind": "platform",
+      "requires_account": true,
+      "official_free_api": true,
+      "how_to_use": "Give AI clients a discoverable MCP server. Add an mcpName to package.json (npm) or an 'mcp-name:' line to the README (PyPI/NuGet), install the mcp-publisher CLI, run 'mcp-publisher init', then 'mcp-publisher login github' and 'mcp-publisher publish'. Ownership is verified by GitHub OAuth/OIDC or DNS/HTTP. Query the public API: GET https://registry.modelcontextprotocol.io/v0.1/servers?search=<name>.",
+      "rules_and_risks": "Preview/API-freeze: data resets are possible before GA. It hosts metadata only, so the package must already exist on npm/PyPI/NuGet/OCI/GitHub releases. The server name must match the verified namespace (io.github.<user>/...). No fake or manipulated metadata.",
+      "why_it_works": "A vendor-neutral official index that MCP clients and agents query; the MCP ecosystem exploded in 2025-26 (Glama alone indexes ~96k servers), making registry presence a growing prerequisite for tool discovery.",
+      "evidence": [
+        "https://registry.modelcontextprotocol.io/",
+        "https://github.com/modelcontextprotocol/registry",
+        "https://modelcontextprotocol.info/tools/registry/publishing/"
+      ],
+      "how_searched": [
+        "web_search: 'MCP registry submit server official 2026 registry.modelcontextprotocol.io'",
+        "opened registry site, GitHub repo and publishing guide"
+      ],
+      "score": 70.0,
+      "found_at": "2026-10-10T12:39:56.647153+00:00"
+    },
+    {
       "name": "Google News: Publisher Center setup + Google News sitemap",
       "url": "https://support.google.com/news/publisher-center/answer/9606538?hl=en",
       "kind": "feed",
@@ -241,6 +328,27 @@
       ],
       "score": 66.0,
       "found_at": "2026-10-07T04:19:35.595551+00:00"
+    },
+    {
+      "name": "Ghost Explore (+ Ghost social web / fediverse)",
+      "url": "https://ghost.org/changelog/ghost-explore/",
+      "kind": "directory",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Run on Ghost v6.0+. In Ghost Admin there is a growth/Explore setting; enabling it adds your site to the Explore discovery engine at explore.ghost.org. Public metadata is listed by default; optionally sharing growth metrics can rank you higher. Ghost also federates your publication to Threads, Mastodon, Flipboard, Bluesky and more via ActivityPub.",
+      "rules_and_risks": "Only for Ghost sites; private-mode sites are excluded. Do not game the metrics. Listing exposes public data (URL, title, description). It is a niche but high-intent audience, not mass reach.",
+      "why_it_works": "Free distribution into a curated independent-publisher directory plus the Ghost.org audience and the open social web, aimed precisely at newsletter readers.",
+      "evidence": [
+        "https://ghost.org/changelog/ghost-explore/",
+        "https://explore.ghost.org/",
+        "https://ghost.org/resources/newsletter-directories/"
+      ],
+      "how_searched": [
+        "web_search: 'Ghost Explore newsletter directory free discovery submit publication 2026'",
+        "opened Ghost changelog and Explore directory"
+      ],
+      "score": 66.0,
+      "found_at": "2026-10-10T12:40:00.881574+00:00"
     },
     {
       "name": "TikTok (organic video reach, no follower base needed)",
@@ -263,6 +371,27 @@
       ],
       "score": 64.0,
       "found_at": "2026-10-09T06:45:16.124783+00:00"
+    },
+    {
+      "name": "Smithery (MCP server distribution)",
+      "url": "https://smithery.ai/docs/build/publish",
+      "kind": "directory",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Go to smithery.ai/new, sign in (email/Google/GitHub), then either paste a public HTTPS URL that speaks Streamable HTTP, upload an .mcpb bundle for a local stdio server, or run 'smithery mcp publish \"https://your-server.com/mcp\" -n @your-org/your-server'. Smithery scans the server and builds your page; publishing is free. If a security layer blocks SmitheryBot, serve /.well-known/mcp/server-card.json or add an IP allow rule.",
+      "rules_and_risks": "The server must pass a real MCP initialize + tools/list over HTTPS with a public CA cert and respond in <5s; it re-crawls weekly-to-biweekly and can drop your verified badge if the server regresses. No review step, so quality is your responsibility; do not spam duplicate listings.",
+      "why_it_works": "A leading install surface for Claude Desktop/Cursor users (cited third-party checks put it around DR78 and ~341k visits/month), putting your tool in front of developers already searching for MCP servers.",
+      "evidence": [
+        "https://smithery.ai/docs/build/publish",
+        "https://www.agentlaun.ch/blogs/how-to-publish-mcp-server-to-smithery",
+        "https://alivemcp.com/blog/mcp-server-registry-distribution-guide"
+      ],
+      "how_searched": [
+        "web_search: 'Smithery submit MCP server listing free'",
+        "opened Smithery docs and an independent distribution guide"
+      ],
+      "score": 64.0,
+      "found_at": "2026-10-10T12:40:02.251856+00:00"
     },
     {
       "name": "SourceBottle: free journalist call-outs and expert profiles",
@@ -309,6 +438,49 @@
       "found_at": "2026-10-09T06:45:17.423751+00:00"
     },
     {
+      "name": "Glama MCP registry",
+      "url": "https://glama.ai/mcp/faq",
+      "kind": "directory",
+      "requires_account": true,
+      "official_free_api": true,
+      "how_to_use": "Glama auto-indexes public open-source MCP servers from GitHub. To control the listing, add a glama.json at the repo root with maintainers and run the Claim ownership flow (or sign in with the GitHub account that owns the repo). If it is not listed yet, use Add Server on glama.ai/mcp/servers. Listing is free; boosted placement is paid. Programmatic access: glama.ai/mcp/reference.",
+      "rules_and_risks": "Must be a real, buildable server (automated build/test); servers whose inferred Docker build fails are hidden from search, categories and recommendations. Only GitHub-hosted servers today. Ownership is verified via write/admin repo access, so do not submit repos you do not control.",
+      "why_it_works": "Glama is a superset of the official registry (~96k servers, ~214k visits/month, DR~75), and its derived behavioural data feeds AI assistants and best-tool answers.",
+      "evidence": [
+        "https://glama.ai/mcp/faq",
+        "https://glama.ai/mcp/methodology",
+        "https://www.agentlaun.ch/blogs/how-to-list-mcp-server-on-glama"
+      ],
+      "how_searched": [
+        "web_search: 'Glama MCP server directory submit free listing 2026'",
+        "opened Glama FAQ and methodology pages"
+      ],
+      "score": 62.0,
+      "found_at": "2026-10-10T12:40:02.871132+00:00"
+    },
+    {
+      "name": "GitHub as a discovery channel (GitHub SEO)",
+      "url": "https://www.trylyra.ai/blog/github-repo-seo/",
+      "kind": "tactic",
+      "requires_account": true,
+      "official_free_api": true,
+      "how_to_use": "Optimize the three fields GitHub search actually reads: repo name, About description, and up to 20 exact-match lowercase topics. Create audience-targeted public repos plus an awesome-<category> list, a public docs repo and an org profile README. Add AGENTS.md at the repo root (read automatically by 20+ coding agents) and an MIT/Apache license so content can enter LLM corpora. Cross-link README and blog and fill the homepage URL. Use the GitHub REST/GraphQL API to scale metadata.",
+      "rules_and_risks": "README text is only searched with in:readme, so keyword-stuffing the README does nothing for discovery. No spam/junk repos, no fake stars. Public docs repos must be secret-scanned; open-sourcing commits you to public maintenance.",
+      "why_it_works": "GitHub search indexes only name/description/topics, Bing crawls GitHub preferentially (and powers much of ChatGPT search), MIT/Apache repos enter training corpora, and many category topics are unclaimed, so a clean new repo can rank at zero stars.",
+      "evidence": [
+        "https://www.trylyra.ai/blog/github-repo-seo/",
+        "https://nakora.ai/blog/github-seo",
+        "https://ever-just.github.io/discoverability/agents/github-as-discovery/",
+        "https://www.stackmatix.com/blog/github-marketing"
+      ],
+      "how_searched": [
+        "web_search: 'GitHub topics open source repository as marketing discovery channel 2026'",
+        "opened four independent GitHub-SEO guides"
+      ],
+      "score": 60.0,
+      "found_at": "2026-10-10T12:40:07.090572+00:00"
+    },
+    {
       "name": "Threads API — official free cross-posting to Threads",
       "url": "https://developers.facebook.com/docs/threads/overview/",
       "kind": "platform",
@@ -328,6 +500,27 @@
       ],
       "score": 58.0,
       "found_at": "2026-10-07T18:25:31.515149+00:00"
+    },
+    {
+      "name": "WordPress ActivityPub / fediverse publishing",
+      "url": "https://wordpress.org/plugins/activitypub/",
+      "kind": "platform",
+      "requires_account": false,
+      "official_free_api": true,
+      "how_to_use": "Install the free ActivityPub plugin (Automattic) on WordPress. Your blog becomes a fediverse actor (@example.com@example.com plus per-author profiles), followable and boostable from Mastodon, Pixelfed, Misskey, Friendica and more; replies return as WordPress comments. Only posts published after activation federate. The FOSSE plugin bundles ActivityPub + AT Protocol so one install publishes to Mastodon and Bluesky. APIs: REST namespace activitypub/1.0, plus WebFinger, Micropub, Webmention, IndieAuth.",
+      "rules_and_risks": "The blog-wide profile needs rewrite rules; only future posts federate; free relays may prune older content, so consider a paid relay for retention. You must moderate incoming replies. It is not a Mastodon cross-poster and does not replace an existing account.",
+      "why_it_works": "Turns your own domain into a first-class account in the open social web for free, earning durable followers, comments and backlinks without depending on a platform-owned identity.",
+      "evidence": [
+        "https://wordpress.org/plugins/activitypub/",
+        "https://github.com/Automattic/fosse",
+        "https://activitypub.blog/2026/03/05/8-0-0-smash-that-like-button/"
+      ],
+      "how_searched": [
+        "web_search: 'Fediverse ActivityPub publisher self-hosted WordPress plugin free reach 2026'",
+        "opened wordpress.org plugin page, GitHub repo and release notes"
+      ],
+      "score": 58.0,
+      "found_at": "2026-10-10T12:40:08.369957+00:00"
     },
     {
       "name": "SmartNews (free publisher distribution via SmartFormat RSS)",
@@ -390,6 +583,27 @@
       "found_at": "2026-10-07T18:25:23.276534+00:00"
     },
     {
+      "name": "PeerPush (AI-readable product directory)",
+      "url": "https://peerpush.com/submit",
+      "kind": "directory",
+      "requires_account": true,
+      "official_free_api": true,
+      "how_to_use": "Submit your product at peerpush.com/submit; AI-assisted prefill builds structured data (use cases, audiences, pricing, platforms, alternatives). The free plan publishes instantly, then exposes your product through a public REST API (free key at peerpush.com/user/api-keys) and an MCP server (/api/mcp) so AI assistants answer 'best tool for X' with it. Keep the structured metadata accurate.",
+      "rules_and_risks": "Free and paid launch plans exist and the 100-directory bulk submission service is paid; follow the community rules and avoid fake engagement. Ranking depends on community score plus structured-data quality.",
+      "why_it_works": "It is explicitly built for dual discovery (AI assistants via structured data/MCP + a builder community), and structured catalogs are how tools get cited in AI answers.",
+      "evidence": [
+        "https://peerpush.com/llms.txt",
+        "https://peerpush.com/submit",
+        "https://peerpush.com/rules"
+      ],
+      "how_searched": [
+        "web_search: 'platform official free API submit content 2026 audience discovery'",
+        "opened peerpush.com/llms.txt machine index"
+      ],
+      "score": 50.0,
+      "found_at": "2026-10-10T12:40:09.490843+00:00"
+    },
+    {
       "name": "Apple Business Connect — claim your location on Apple Maps",
       "url": "https://businessconnect.apple.com/",
       "kind": "platform",
@@ -428,6 +642,27 @@
       ],
       "score": 46.0,
       "found_at": "2026-10-09T06:45:21.201931+00:00"
+    },
+    {
+      "name": "LibHunt",
+      "url": "https://www.libhunt.com/site/project_submit",
+      "kind": "directory",
+      "requires_account": false,
+      "official_free_api": false,
+      "how_to_use": "For an open-source repo on GitHub/GitLab: find a related project on LibHunt, click 'Suggest alternative', and submit your repo URL (the form needs only the URL, plus optional description, topics, website, docs, language, license). It is approved automatically, giving you a project page among alternatives and similar projects with followed outbound links.",
+      "rules_and_risks": "Only open-source repos (no hosted-only products). Some sources report a 3-7 day manual review despite the auto-approval message; describe the library plainly, no keyword spam. Domain rating around 66, dofollow.",
+      "why_it_works": "It targets developer-intent visitors browsing alternatives, gives a permanent listing, and syndicates into 'alternatives to X' pages that AI systems read.",
+      "evidence": [
+        "https://www.libhunt.com/site/project_submit",
+        "https://submitmap.com/platform/libhunt/",
+        "https://backlinks.fyi/directories/libhunt"
+      ],
+      "how_searched": [
+        "web_search: 'LibHunt submit open source project free listing'",
+        "opened LibHunt submission and third-party submission guides"
+      ],
+      "score": 44.0,
+      "found_at": "2026-10-10T12:40:11.314306+00:00"
     },
     {
       "name": "Mastodon (fediverse, fully documented free API)",
@@ -570,6 +805,27 @@
       "found_at": "2026-10-07T04:19:39.269491+00:00"
     },
     {
+      "name": "Nostr NIP-23 long-form publishing",
+      "url": "https://nostr.blog/study/nostr-long-form-content",
+      "kind": "platform",
+      "requires_account": false,
+      "official_free_api": true,
+      "how_to_use": "Generate a Nostr keypair in a client such as Habla, YakiHonne, Samizdat or write_nostr and publish Markdown articles as kind:30023 events to several relays; each gets a permanent naddr link. Announce each article in a short post and reply to zaps/comments. Optionally set a sats price with a free preview.",
+      "rules_and_risks": "Smaller network than Substack (hundreds of thousands of users) and weak search, so treat it as an addition to a normal blog, not a replacement. Free relays can prune old content, so publish to multiple relays and back up your nsec (no account recovery).",
+      "why_it_works": "No account, no gatekeeper, content lives on relays you choose, and mid-tier writers with an overlapping tech/crypto audience report steady zap income and durable reach.",
+      "evidence": [
+        "https://nostr.blog/study/nostr-long-form-content",
+        "https://github.com/satsdisco/samizdat",
+        "https://nostrcompass.org/en/projects/"
+      ],
+      "how_searched": [
+        "web_search: 'Nostr publishing free reach long-form blog clients 2026'",
+        "opened nostr.blog study and Samizdat client repo"
+      ],
+      "score": 38.0,
+      "found_at": "2026-10-10T12:40:15.840566+00:00"
+    },
+    {
       "name": "There's An AI For That (TAAFT) — AI tool directory",
       "url": "https://theresanaiforthat.com/launch/",
       "kind": "directory",
@@ -610,6 +866,27 @@
       ],
       "score": 36.0,
       "found_at": "2026-10-09T06:45:27.909409+00:00"
+    },
+    {
+      "name": "Micro.blog Discover",
+      "url": "https://micro.blog/discover",
+      "kind": "community",
+      "requires_account": true,
+      "official_free_api": true,
+      "how_to_use": "Register a Micro.blog account: free to participate if your blog is hosted elsewhere, or $5/month hosting. Post short or long posts; the hand-curated Discover timeline and emojitag categories (writing, books, music, gardening, etc.) surface community posts. Cross-post to Mastodon, Bluesky, LinkedIn, Nostr and more from Micro.blog. APIs: JSON, Micropub, Webmention, IndieAuth, Microsub, ActivityPub.",
+      "rules_and_risks": "Discover is hand-curated with no algorithm, no hashtags and no search-by-topic; there are no like/follower counts. Community guidelines are enforced against harassment. It is a high-quality niche, not mass reach.",
+      "why_it_works": "Human curation puts new bloggers in front of an engaged indie-blogging community, and its cross-posting and APIs extend one post to several networks for free.",
+      "evidence": [
+        "https://micro.blog/discover",
+        "https://help.micro.blog/t/using-the-discover-timeline-and-categories/40",
+        "https://welcome.micro.blog/"
+      ],
+      "how_searched": [
+        "web_search: 'Micro.blog discover community timeline join free 2026'",
+        "opened Micro.blog Discover page and help docs"
+      ],
+      "score": 34.0,
+      "found_at": "2026-10-10T12:40:21.222612+00:00"
     },
     {
       "name": "Eventbrite free events (free event pages that rank in search)",
@@ -705,6 +982,27 @@
       ],
       "score": 24.0,
       "found_at": "2026-10-10T00:17:33.207054+00:00"
+    },
+    {
+      "name": "IndieWeb Webring",
+      "url": "https://xn--sr8hvo.ws/",
+      "kind": "community",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Add IndieAuth/RelMeAuth to your personal site (a few link tags; indieauth.com works), sign in at the webring with your domain, then place the unique prev/next/random webring links on your homepage. Your site is added to the members directory and receives traffic from other members' rings.",
+      "rules_and_risks": "For personal sites with IndieWeb building blocks; you must keep the ring links on your homepage or be marked inactive. Small network, not for corporate or SEO spam; the IndieWeb Code of Conduct applies.",
+      "why_it_works": "Free discovery among indie bloggers who actively seek new sites, and the directory exposes you to exactly that niche audience.",
+      "evidence": [
+        "https://xn--sr8hvo.ws/",
+        "https://indieweb.org/IndieWeb_Webring",
+        "https://winther.sysctl.dk/how-to-add-your-blog-to-the-indieweb-webring/"
+      ],
+      "how_searched": [
+        "web_search: 'IndieWeb webring join free personal website discovery 2026'",
+        "opened the webring site, IndieWeb wiki and a how-to"
+      ],
+      "score": 24.0,
+      "found_at": "2026-10-10T12:40:25.487903+00:00"
     },
     {
       "name": "G2 free product listing + profile claim",

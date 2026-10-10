@@ -164,6 +164,28 @@
       "found_at": "2026-10-10T06:18:02.323060+00:00"
     },
     {
+      "name": "OpenClaw / SKILL.md agent-skill security scanner & registry",
+      "field": "AI supply-chain security",
+      "summary": "A web tool that scans third-party AI agent skills (SKILL.md packages and OpenClaw plugins) for malware droppers, reverse shells, prompt injection, credential theft and blocklisted C2 infrastructure before a user installs them, and publishes a searchable safety directory. The official ClawHub marketplace shipped with no pre-scan; skills run with full agent permissions, so a malicious skill is just words in a markdown file.",
+      "why_now": "The OpenClaw ecosystem exploded (350K+ GitHub stars, ~40,000 open gateways) and became a live malware channel: Bitdefender found ~17% of analyzed skills malicious, Koi's ClawHavoc documented 341 malicious skills, and VirusTotal analyzed 3,016+ skills with hundreds malicious. Palo Alto Unit 42 found five evasive unblocked skills (Feb-May 2026) using file-size inflation to dodge scanners and novel agentic 'affiliate injection' attacks. VirusTotal and ClawScan were only integrated after the February 2026 outbreak, and third-party scanners are already needed to catch what they miss.",
+      "monetization": "Free open-source scanner (clawscan.dev, MIT, npx) as adoption funnel; paid team/CI tier; per-scan API for marketplaces; 'verified/clean skill' trust badge subscriptions; sponsored security directory listings. Comparable OpenClaw-ecosystem products already monetize (LarryBrain OpenClaw skills marketplace ~$2.7K MRR, $32.7K all-time, Stripe-verified Sep 2026).",
+      "evidence": [
+        "https://unit42.paloaltonetworks.com/openclaw-ai-supply-chain-risk/",
+        "https://blog.virustotal.com/2026/02/from-automation-to-infection-how.html",
+        "https://clawscan.dev/",
+        "https://github.com/openclaw/clawscan",
+        "https://trustmrr.com/startup/larrybrain-openclaw-marketplace"
+      ],
+      "how_searched": [
+        "OpenClaw ClawHub malicious skills security scanner 2026",
+        "OpenClaw ecosystem growth gateways 2026",
+        "agent skills prompt injection malware",
+        "indie hacker OpenClaw MRR"
+      ],
+      "score": 86.0,
+      "found_at": "2026-10-10T12:35:59.373537+00:00"
+    },
+    {
       "name": "Short-Form Video Intelligence & Analytics",
       "field": "Creator Economy / MarTech",
       "summary": "Real-time analytics platform for TikTok, Reels, Shorts that tracks viral trends, competitor performance, outlier detection, and content gaps — turning signals into scripts, briefs, and ad creative.",
@@ -186,6 +208,27 @@
       ],
       "score": 85.0,
       "found_at": "2026-10-07T03:59:24.157810+00:00"
+    },
+    {
+      "name": "Independent MCP server trust directory & safety rating",
+      "field": "Developer infrastructure / MCP",
+      "summary": "A directory that crawls the official Model Context Protocol registry and scores each server for trust, auth, uptime and risky capabilities, because the official registry verifies namespace ownership but stores no security review, auth method, or working-endpoint check. Pairs discovery with a safety/scan layer and a 'exposed server' report.",
+      "why_now": "The official MCP registry went from 'close to two thousand' entries (Nov 2025) to 40,047 servers on 6 Oct 2026 (~20x in ten months; 42% of current versions published in Sept 2026 alone). Remote is default (62.8% offer a hosted endpoint). Exposure is rising faster than fixes: Trend Micro's count of unauthenticated/no-encryption MCP servers nearly tripled (492 in July 2025 to 1,467 in April 2026); Censys found 12,520 internet-reachable MCP services on 8,758 IPs; two MCP flaws reached CISA's exploited-vulnerabilities list in 2026. Existing directories (Glama 97K listings, PulseMCP 21.7K) have no security scoring.",
+      "monetization": "Sponsored/paid directory listings and category placements; a 'trust-verified' badge and badge-API; paid scanning/monitoring SaaS (uptime, auth checks, CVE matching) for server publishers; lead-gen for security vendors.",
+      "evidence": [
+        "https://host0.ai/blog/state-of-mcp-2026",
+        "https://verifymcp.io/stats",
+        "https://www.fewservers.com/posts/mcp-registry-crawl-38000-servers/",
+        "https://devtoolhub.com/mcp-registry-by-the-numbers/",
+        "https://registry.modelcontextprotocol.io/"
+      ],
+      "how_searched": [
+        "MCP registry servers growth 2026 security directory",
+        "MCP registry crawl server count",
+        "MCP exposed unauthenticated servers 2026"
+      ],
+      "score": 85.0,
+      "found_at": "2026-10-10T12:36:22.692661+00:00"
     },
     {
       "name": "AI Video Generation & Editing for Short-Form",
@@ -254,6 +297,28 @@
       "found_at": "2026-10-10T06:18:04.340505+00:00"
     },
     {
+      "name": "EU AI Act Article 50 labeling & machine-readable marking compliance tool",
+      "field": "Compliance software / AI governance",
+      "summary": "A SaaS tool that helps providers and deployers of generative AI comply with AI Act Article 50: disclosure notices for AI interactions, human-facing labels for deepfakes and AI-generated public-interest text, and machine-readable marking (e.g. C2PA/watermarking) of synthetic audio, image, video and text. Outputs audit-ready evidence.",
+      "why_now": "Article 50 has applied since 2 August 2026, with the provider-side marking/detection obligation for systems already on the EEA market deferred only to a hard 2 December 2026 deadline. Non-compliance carries fines up to EUR 15 million or 3% of worldwide annual turnover. The Commission published guidelines on 20 July/6 August 2026 and a Code of Practice on Transparency of AI-generated Content with ~180-190 signatories, but non-signatories must prove compliance 'by alternative equivalently adequate means' - a tooling gap.",
+      "monetization": "SaaS compliance suite (per-system assessments, labeling APIs, audit reports); C2PA/watermarking integration; annual 'Article 50 readiness' subscription; enterprise consulting. Independent market sizing put EU AI Act compliance software at ~$0.92B (2025) rising to ~$1.14B (2026) and ~$4.05B by 2031.",
+      "evidence": [
+        "https://digital-strategy.ec.europa.eu/en/policies/guidelines-ai-transparency-obligations",
+        "https://digital-strategy.ec.europa.eu/en/news/commission-starts-enforcing-ai-act-rules-and-new-transparency-requirements-2-august",
+        "https://digital-strategy.ec.europa.eu/en/policies/code-practice-ai-generated-content",
+        "https://www.cooley.com/news/insight/2026/2026-08-03-eu-ai-act-transparency-obligations-take-effect-2-august-2026",
+        "https://www.morganlewis.com/blogs/sourcingatmorganlewis/2026/08/eu-ai-acts-transparency-rules-what-went-into-effect-on-2-august",
+        "https://www.mordorintelligence.com/industry-reports/eu-ai-act-compliance-software-market"
+      ],
+      "how_searched": [
+        "EU AI Act Article 50 transparency labeling deadline August 2026 companies",
+        "AI Act transparency obligations deepfake marking",
+        "EU AI Act compliance software market"
+      ],
+      "score": 84.0,
+      "found_at": "2026-10-10T12:36:24.276367+00:00"
+    },
+    {
       "name": "Self-Hosted Workflow Automation for AI Agents (n8n-style)",
       "field": "DevTools / AI Infrastructure",
       "summary": "Fair-code / open-source workflow automation platform that technical teams self-host for free (unlimited executions) to build AI agent pipelines, RAG, and multi-step automations — with paid cloud/enterprise for governance, SSO, and managed infrastructure.",
@@ -280,6 +345,28 @@
       ],
       "score": 83.0,
       "found_at": "2026-10-07T03:59:30.499766+00:00"
+    },
+    {
+      "name": "EU Cyber Resilience Act SBOM & vulnerability-reporting tool",
+      "field": "Compliance / software supply chain",
+      "summary": "A web platform that generates and continuously maintains machine-readable SBOMs (CycloneDX/SPDX) for products with digital elements sold in the EU, matches components against vulnerability databases, and automates CRA Article 14 actively-exploited-vulnerability reporting to ENISA within 24 hours.",
+      "why_now": "Article 14 reporting obligations already apply from 11 September 2026, and full CRA obligations (Annex I SBOM requirements) apply from 11 December 2027, with fines up to EUR 15 million or 2.5% of worldwide turnover. ENISA's 2026 SBOM survey found 72% of organizations increased investment in SBOM tools/automation, yet 62% say high completeness is very/extremely hard, 39% never receive SBOMs from commercial suppliers, only 10% put SBOM clauses in contracts, and 28% lack dedicated staff - i.e., demand for tooling far exceeds internal capability.",
+      "monetization": "SaaS SBOM generation + monitoring platform; vulnerability-matching and 24h-reporting automation; supplier SBOM intake/validation; managed compliance and notified-body readiness packs. Analysts size NIS2+CRA compliance services at ~$4.50B (2026) growing to ~$47B by 2036 (~26.4% CAGR).",
+      "evidence": [
+        "https://www.enisa.europa.eu/sites/default/files/2026-06/SBOM%20Adoption%20State%20of%20Play%202026.pdf",
+        "https://www.goyou.it/en/cybersecurity/2026/06/12/sbom-2026-72-of-eu-companies-increase-investments-for-software-supply-chain.html",
+        "https://www.surecloud.com/blog-hub/eu-cyber-resilience-act-sbom-requirements",
+        "https://digital-strategy.ec.europa.eu/en/policies/cyber-resilience-act",
+        "https://cadeproject.org/updates/enisa-report-finds-cyber-resilience-act-driving-sbom-adoption-across-europe/",
+        "https://www.factmr.com/report/nis2-and-cyber-resilience-act-compliance-services-market"
+      ],
+      "how_searched": [
+        "EU Cyber Resilience Act SBOM compliance market 2026 software revenue",
+        "CRA Article 14 vulnerability reporting deadline",
+        "ENISA SBOM adoption survey 2026"
+      ],
+      "score": 83.0,
+      "found_at": "2026-10-10T12:36:31.585365+00:00"
     },
     {
       "name": "Buyer-intent finder for Reddit / X / HN",
@@ -345,6 +432,27 @@
       ],
       "score": 82.0,
       "found_at": "2026-10-10T00:11:04.459088+00:00"
+    },
+    {
+      "name": "EU Digital Product Passport (DPP) creation & registration toolkit",
+      "field": "Compliance / circular economy",
+      "summary": "A SaaS toolkit that lets brands and manufacturers build item-level Digital Product Passports, map product/BOM/carbon/repair data to ESPR data models, register unique identifiers in the EU DPP Registry via API, and generate QR/NFC data carriers linking physical products to their passports.",
+      "why_now": "The EU DPP Registry went live and operational on 20 July 2026, with six of eight harmonised standards already published. The first binding deadline is 18 February 2027 for certain large batteries and EV/LMT/industrial batteries; iron/steel, textiles, tyres and aluminium follow in 2027 and beyond. The Commission explicitly designed the registry for external DPP service providers and offers free machine-readable data models and registration APIs, making third-party tooling viable now. Market estimates range widely but are steep: ~$253M (2025) to ~$6.7B (2035) at 38.8% CAGR, with DPP compliance services ~$0.6B (2026) to ~$18.5B (2036) at 40.9% CAGR.",
+      "monetization": "SaaS passport platform (per-SKU/per-passport pricing); API registration and data-mapping services; supplier data verification; managed readiness audits. Software is ~69% of offering share and SaaS ~40% of the delivery model.",
+      "evidence": [
+        "https://single-market-economy.ec.europa.eu/single-market/digital-product-passport_en",
+        "https://single-market-economy.ec.europa.eu/news/digital-product-passport-registry-now-live-2026-07-20_en",
+        "https://market.us/report/digital-product-passport-market/",
+        "https://www.factmr.com/report/digital-product-passport-compliance-services-market",
+        "https://www.policy2050.com/reports/dpp-platforms/"
+      ],
+      "how_searched": [
+        "Digital Product Passport software market 2026 companies EU registry",
+        "DPP registry live 2026 batteries deadline",
+        "digital product passport compliance services market"
+      ],
+      "score": 82.0,
+      "found_at": "2026-10-10T12:36:34.429964+00:00"
     },
     {
       "name": "AI SDR & Autonomous Sales Agents",
@@ -530,6 +638,27 @@
       ],
       "score": 77.0,
       "found_at": "2026-10-08T03:07:40.768645+00:00"
+    },
+    {
+      "name": "SKILL.md agent-skills marketplace & hosting platform",
+      "field": "Developer marketplace",
+      "summary": "A two-sided marketplace / hosted platform for reusable SKILL.md workflow files that teach AI coding agents (Claude Code, Cursor, Codex CLI, Gemini CLI, Copilot, OpenClaw) a specific job - with payments, payouts, security scanning and one-line install.",
+      "why_now": "The ecosystem is early but real: claudemarketplaces.com listed 4,200+ verified skills and ~120K monthly visitors by May 2026 with 2,500+ marketplaces; Agensi grew to 7,000+ skills and 7,500+ users; the hosted-access model reportedly earns ~10x file-sales, with top-decile creators at $5-25K/mo and a median hosted creator at $300-1,500/mo. A non-developer built a working version with Claude Code + Lovable, and SKILL.md now works across 20+ agents, expanding the addressable market each time an agent adopts the standard.",
+      "monetization": "Platform take-rate (Agensi 30% fee / 70-80% creator share), credit and subscription plans ($9-19/mo tiers; hosted access $20-499/mo), plus paid security scanning and one-line install infrastructure.",
+      "evidence": [
+        "https://aismasher.com/the-skills-marketplace-six-months-later-predicted-vs-actual/",
+        "https://www.agensi.io/learn/how-to-monetize-skill-md-skills-developer-guide-2026",
+        "https://ryandoser.com/claude-ai-side-hustle/",
+        "https://videcoder101.com/blog/agensi-non-developer-claude-code-lovable",
+        "https://runbyagents.usectl.com/library/brief-4-indie-agent"
+      ],
+      "how_searched": [
+        "Claude agent skills marketplace revenue indie hackers 2026",
+        "SKILL.md monetize marketplace Agensi Agent37",
+        "skill marketplace 4200 skills revenue"
+      ],
+      "score": 77.0,
+      "found_at": "2026-10-10T12:36:41.822902+00:00"
     },
     {
       "name": "AI Content Repurposing (Long-Form → Short-Form)",
@@ -1369,6 +1498,24 @@
       ],
       "score": 55.3,
       "found_at": "2026-10-08T23:25:23.402692+00:00"
+    },
+    {
+      "name": "Vibe-coding / AI-generated-code security scanner",
+      "field": "Application security",
+      "summary": "A web scanner that checks AI-generated codebases and pull requests for OWASP Top 10 vulnerabilities, leaked secrets, insecure API/command execution and excessive permissions before they ship - the security layer for the 'vibe coding' wave.",
+      "why_now": "A new category appeared almost overnight: 0 to 17 'vibe-code' security scanners within weeks in March 2026, after studies showed the problem is systemic. Veracode reported ~45% of AI-generated code samples contained OWASP Top 10 vulnerabilities; Georgia Tech's Vibe Security Radar tracked real-world CVEs from AI code rising from ~6/month to ~35/month. Existing paid tools (Vibe App Scanner at $5-29/mo, one-off audits at $99-$299, team plans ~$32/mo) show immediate willingness to pay.",
+      "monetization": "Freemium web scan; CI/GitHub App integration at $5-29/mo; $99-$299 one-off security audits; team/org plans (~$32/mo). Easy to rebuild as a hosted scanner using open-source SAST/secret-scanning engines plus an AI triage layer.",
+      "evidence": [
+        "https://labs.cloudsecurityalliance.org/research/csa-research-note-ai-generated-code-vulnerability-surge-2026/",
+        "https://bigideasdb.com/fastest-growing-saas-companies-2026"
+      ],
+      "how_searched": [
+        "vibe coding security scanner 2026",
+        "AI generated code vulnerabilities OWASP study 2026",
+        "fastest growing SaaS 2026 security"
+      ],
+      "score": 53.3,
+      "found_at": "2026-10-10T12:36:38.337582+00:00"
     },
     {
       "name": "AI multi-model answer cross-checker",
