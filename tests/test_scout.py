@@ -121,5 +121,64 @@ class TranslateTests(unittest.TestCase):
         self.assertEqual(sorted(out), ["de", "en"])
 
 
+
+class PrivateDeliveryTests(unittest.TestCase):
+    def _run_main_paused(self, private_ok):
+        import main
+        sent = {}
+        main.Ledger = lambda: Ledger(Path(tempfile.mkdtemp()) / "l.json")
+        opp = {"repo": REPO, "analysis": {"score": 99.0}, "mode": "rebuild_original", "builder": {}}
+        main.run = lambda config, ledger: ([opp], {"total": 1, "advice": "x"})
+        main.make_plan = lambda o, llm=None: PLAN
+        main.make_plan.used = "m"
+        main.migrate_legacy = lambda l: None
+        main.telegram.send_private = lambda t: private_ok
+        main.telegram.send = lambda text, channel="": sent.__setitem__("report", text) or True
+        saved = {}
+        orig_save = Ledger.save
+        Ledger.save = lambda self: saved.__setitem__("ledger", self)
+        orig_open = open
+        import yaml
+        cfg = yaml.safe_load(orig_open(AGENT / "config.yaml", encoding="utf-8"))
+        cfg["publish_pages"] = False
+        cwd = os.getcwd()
+        os.chdir(AGENT)
+        try:
+            main.yaml.safe_load = lambda f: cfg
+            main.main()
+        finally:
+            os.chdir(cwd)
+            Ledger.save = orig_save
+        return sent["report"], saved["ledger"]
+
+    def test_unsent_plan_is_explained_and_retried(self):
+        report, ledger = self._run_main_paused(private_ok=False)
+        self.assertIn("لم تصلك", report)
+        self.assertIn("OWNER_CHAT_ID", report)
+        self.assertFalse(ledger.is_examined(REPO["full_name"]))     # retried next run
+
+    def test_sent_plan_is_marked_examined(self):
+        report, ledger = self._run_main_paused(private_ok=True)
+        self.assertIn("النشر على الموقع متوقف", report)
+        self.assertTrue(ledger.is_examined(REPO["full_name"]))
+
+    def test_owner_chat_id_rejects_channel_ids(self):
+        os.environ["BOT_TOKEN"] = "123:abc"
+        os.environ["OWNER_CHAT_ID"] = "-1001234567890"
+        posts = []
+        orig = (telegram._post, telegram._discover_chat, telegram.chat_is_private)
+        telegram._post = lambda t, c, x: posts.append(c) or (True, "")
+        telegram._discover_chat = lambda t: (None, "none")
+        telegram.chat_is_private = lambda t, c: False
+        try:
+            self.assertFalse(telegram.send_private("x"))
+            os.environ["OWNER_CHAT_ID"] = "555"
+            self.assertTrue(telegram.send_private("x"))
+        finally:
+            telegram._post, telegram._discover_chat, telegram.chat_is_private = orig
+            os.environ.pop("OWNER_CHAT_ID"); os.environ.pop("BOT_TOKEN")
+        self.assertEqual(posts, ["555"])
+
+
 if __name__ == "__main__":
     unittest.main()
