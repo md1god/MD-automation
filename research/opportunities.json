@@ -231,6 +231,27 @@
       "found_at": "2026-10-10T12:36:22.692661+00:00"
     },
     {
+      "name": "Universal AI voice-to-text dictation tool",
+      "field": "AI productivity / voice-to-text",
+      "summary": "A free web/desktop app that turns speech into clean, formatted text in any text field, with a bilingual/consumer-friendly free tier and paid Pro/team upgrades.",
+      "why_now": "Wispr Flow raised a $280M Series B at a $2B valuation (Aug 2026) after revenue grew 150%+ for four straight quarters; it reports 60B+ words dictated, 10,000+ enterprises and 100,000 businesses, and its launch of an Android app and India expansion shows the category is still spreading. This is a hot, fundable category with an obvious free-tool wedge for consumers who won't pay enterprise prices.",
+      "monetization": "Freemium: free ~2,000 words/week, then Pro/team/enterprise tiers (Wispr Pro is the market benchmark for pricing).",
+      "evidence": [
+        "https://wisprflow.ai/post/series-b",
+        "https://www.reuters.com/technology/wispr-flow-valued-2-billion-latest-funding-round-2026-08-17/",
+        "https://techcrunch.com/2026/08/17/wispr-raises-280m-at-2b-valuation-as-it-looks-beyond-dictation/",
+        "https://fortune.com/2026/08/17/wispr-2-billion-valuation-dictations-only-the-beginning/",
+        "https://thenextweb.com/news/wispr-series-b-280m-2bn-valuation-menlo-canto",
+        "https://okara.ai/blog/how-wispr-flow-grew"
+      ],
+      "how_searched": [
+        "web search 'Wispr Flow Series B valuation ARR'",
+        "cross-checked company blog, Reuters, TechCrunch, Fortune, TNW"
+      ],
+      "score": 85.0,
+      "found_at": "2026-10-10T17:54:55.707103+00:00"
+    },
+    {
       "name": "AI Video Generation & Editing for Short-Form",
       "field": "Creator Economy / AI Media",
       "summary": "Tools that generate or edit short-form videos (Reels, TikToks, Shorts) from text, audio, or long-form source — auto-clipping, captioning, reframing, hook detection, and multi-platform publishing.",
@@ -512,6 +533,27 @@
       ],
       "score": 81.0,
       "found_at": "2026-10-10T06:18:06.342300+00:00"
+    },
+    {
+      "name": "Free multi-marketplace resale cross-listing tool",
+      "field": "Ecommerce / reseller tooling",
+      "summary": "List one second-hand item once and publish it in one pass to Vinted, eBay, Depop, Poshmark, Mercari, Etsy and more, with auto-delisting when it sells.",
+      "why_now": "Reselling is a large and actively monetized niche: incumbents charge $9–$59/mo (Flyp, Vendoo $14.99, List Perfectly $29, Crosslist $29.99, Zipsale from £15, Relistly from €14, SellerAider $12.99), and Vinted's US push only began in January 2026, so there is fresh, under-served demand. A genuinely free, no-signup lister is a strong wedge into this crowded-but-paid market.",
+      "monetization": "Competitors: Flyp ~$9/mo, Vendoo $14.99/mo, List Perfectly $29/mo, Crosslist $29.99/mo, SellerAider $12.99/mo, Zipsale £15/mo, Relistly €14/mo.",
+      "evidence": [
+        "https://www.resaleos.co/blog/comparing-the-20-best-cross-listing-software-for-resellers-in-2026-the-complete-buyer-s-guide",
+        "https://relistly.io/guides/list-on-vinted-depop-and-ebay-at-the-same-time",
+        "https://resellvault.co.uk/articles/cross-listing-vinted-ebay-depop-uk",
+        "https://www.vendoo.co/uk",
+        "https://www.flipsail.io/blog/cross-list-to-vinted",
+        "https://underpricedai.com/blog/best-cross-listing-apps"
+      ],
+      "how_searched": [
+        "web search 'cross-listing software resellers Vinted eBay Depop 2026'",
+        "compared pricing/feature tables across resale guides and vendor sites"
+      ],
+      "score": 81.0,
+      "found_at": "2026-10-10T17:54:57.465495+00:00"
     },
     {
       "name": "Text or image to 3D model generator",
@@ -966,6 +1008,26 @@
       "found_at": "2026-10-10T00:11:07.006100+00:00"
     },
     {
+      "name": "GLP-1 muscle-preservation companion tracker",
+      "field": "Health / GLP-1 companion apps",
+      "summary": "A web/mobile tracker for people on GLP-1 weight-loss drugs that focuses on protein targets, strength logging and a 'muscle preservation' score, plus dose and side-effect tracking.",
+      "why_now": "A cluster of new apps (MeAgain 780K users, GLPro, GLiPra, Preserve, MyVector) have launched around the same insight: up to a quarter to 40% of GLP-1 weight loss can be lean mass. Clinically driven, emotionally strong niche with clear freemium pricing already proven ($9.99–$14.99/mo; ~$49.99–$99.99/yr).",
+      "monetization": "Freemium: GLPro $14.99/mo or $99.99/yr; GLiPra $9.99/mo or $49.99/yr; MeAgain premium subscription.",
+      "evidence": [
+        "https://meagain.com/",
+        "https://appglpro.com/",
+        "https://glipra.com/",
+        "https://www.preserveglp.app/",
+        "https://myvector.ai/"
+      ],
+      "how_searched": [
+        "web search 'GLP-1 companion app tracking protein muscle 2026 users'",
+        "compared positioning/pricing across five new GLP-1 apps"
+      ],
+      "score": 73.0,
+      "found_at": "2026-10-10T17:54:59.049173+00:00"
+    },
+    {
       "name": "LLM / agent spend & cost observability dashboard",
       "field": "Developer tools (LLMOps / FinOps)",
       "summary": "A free web tool that ingests API logs and shows cost per user, per feature, per model, plus latency, caching and runaway-agent alerts.",
@@ -1061,6 +1123,26 @@
       ],
       "score": 72.0,
       "found_at": "2026-10-10T06:18:13.622296+00:00"
+    },
+    {
+      "name": "AI-agent runtime security / prompt-injection firewall",
+      "field": "AI security / LLM guardrails",
+      "summary": "A service that inspects and blocks malicious instructions, unvetted MCP servers/skills and dangerous agent actions at runtime before they execute.",
+      "why_now": "This category is exploding in 2026: AIR Security emerged from stealth with $50M (Sequoia/Greenoaks), Rein raised a $25M Series A (total $35M) and reports 8x revenue growth since its Jan 2026 launch, Geordie AI raised $30M, and YC's Silmaril is selling self-healing prompt-injection defense. Reportedly 79% of enterprises run agents in production while only ~2% have identity security, a large gap and a clear build target.",
+      "monetization": "Enterprise/developer SaaS (SDK or inline firewall); funding signals strong willingness to pay.",
+      "evidence": [
+        "https://www.securityweek.com/ai-agent-firewall-startup-air-security-emerges-from-stealth-with-50-million/",
+        "https://reinsec.io/blog/series-a/",
+        "https://www.ycombinator.com/launches/Pvl-silmaril-self-healing-prompt-injection-defense",
+        "https://forkast.news/geordie-ais-30m-series-a-signals-the-formalization-of-enterprise-agent-security/",
+        "https://www.calcalistech.com/ctechnews/article/rkf52cnimg"
+      ],
+      "how_searched": [
+        "web search 'AI guardrails prompt injection firewall startup funding 2026'",
+        "cross-checked SecurityWeek, YC launch, vendor blogs, Calcalist/Forkast"
+      ],
+      "score": 72.0,
+      "found_at": "2026-10-10T17:55:01.575908+00:00"
     },
     {
       "name": "Cookie-consent / privacy-compliance generator",
@@ -1168,6 +1250,25 @@
       "found_at": "2026-10-10T06:18:14.302686+00:00"
     },
     {
+      "name": "AI virtual staging tool for real-estate listings",
+      "field": "Real estate / proptech web tool",
+      "summary": "A browser tool that turns empty or cluttered property photos into realistic, furnished listing images (and optionally removes furniture, scores condition and suggests improvements).",
+      "why_now": "The virtual-staging market is estimated at ~$0.4B in 2026 growing to ~$1.1B by 2035 (12.4% CAGR), and vendors are actively launching/expanding now (Edensign founded 2025, expanded into 'listing intelligence' in Oct 2026; REimagineHome, Collov AI). Claims of homes selling ~75% faster and 1–10% higher prices give agents an obvious ROI reason to pay.",
+      "monetization": "Pay-per-image or subscription: REimagineHome from $19/mo, Collov from ~$0.23/photo; higher-end human services cost more.",
+      "evidence": [
+        "https://www.inman.com/2026/10/06/ai-virtual-staging-startup-edensign/",
+        "https://www.housingwire.com/articles/virtual-staging-companies-apps/",
+        "https://blog.decor8.ai/post/a-complete-guide-to-the-ai-virtual-staging-api",
+        "https://www.businessresearchinsights.com/market-reports/real-estate-virtual-stage-service-market-114651"
+      ],
+      "how_searched": [
+        "web search 'virtual staging AI real estate app growth 2026'",
+        "cross-checked Inman, HousingWire, vendor blog and market report"
+      ],
+      "score": 70.0,
+      "found_at": "2026-10-10T17:55:03.724688+00:00"
+    },
+    {
       "name": "Prescription price-comparison & savings tool",
       "field": "Consumer health / pharmacy savings",
       "summary": "Search a drug plus ZIP to compare cash prices across discount programs and nearby pharmacies, with alerts on price changes. A free, no-insurance comparison tool.",
@@ -1225,6 +1326,26 @@
       ],
       "score": 68.0,
       "found_at": "2026-10-10T06:18:15.302483+00:00"
+    },
+    {
+      "name": "Employer-side agentic recruiting platform",
+      "field": "HR tech / recruiting",
+      "summary": "A platform of AI agents that source candidates, review applications against a role brief, run structured screening conversations and turn interviews into usable notes.",
+      "why_now": "Metaview raised a $60M Series C led by Insight Partners (30 Sep 2026; total $110M), now used by 7,000+ companies including Deel, Affirm and Replit, and is scaling from 80 to 250 staff. It cites a 412% rise in applications per recruiter as AI makes applying trivial — a large, painful, newly urgent problem in an ~$800B industry.",
+      "monetization": "Enterprise SaaS per-seat/platform pricing (private; large funded competitors validate willingness to pay).",
+      "evidence": [
+        "https://www.metaview.ai/resources/blog/metaview-raised-an-additional-60m-to-lead-the-shift-to-agentic-recruiting",
+        "https://www.intrepidgp.com/insights/metaview-raises-60m-series-c-to-lead-the-shift-to-agentic-recruiting",
+        "https://www.axios.com/pro/enterprise-software-deals/2026/09/30/agentic-recruiting-metaview-60m",
+        "https://thenextweb.com/news/metaview-60m-series-c-insight-partners-ai-recruiting",
+        "https://vertexholdings.com/news/recruiting-is-next-metaview-raises-us-60-million-series-c-to-put-ai-agents-at-the-centre-of-hiring/"
+      ],
+      "how_searched": [
+        "web search 'Metaview $60M Series C agentic recruiting AI interviews 2026'",
+        "verified across company blog, Axios, TNW, investor posts"
+      ],
+      "score": 68.0,
+      "found_at": "2026-10-10T17:55:04.820421+00:00"
     },
     {
       "name": "AI-ready help center / llms.txt knowledge base",
@@ -1402,6 +1523,24 @@
       "found_at": "2026-10-10T06:18:18.414304+00:00"
     },
     {
+      "name": "Shopify storefront AI SEO & page-speed optimizer app",
+      "field": "Ecommerce / Shopify app",
+      "summary": "An app that auto-generates product SEO metadata and ALT text and compresses images to improve page speed for Shopify merchants.",
+      "why_now": "StoreCensus' 10 Oct 2026 fastest-growing list is led by SEO/speed apps: Smart SEO AI & Image Optimizer +1,519,600% (15,197 installs), Booster Page Speed Optimizer +532,375% (21,299), TinySEO +426,800% (8,538). The top 25 apps added 481,115 net new installs in 90 days, and StoreCensus notes AI-powered apps grow ~3x faster.",
+      "monetization": "App-store freemium/subscription (competitors monetize via monthly plans); install counts imply meaningful MRR.",
+      "evidence": [
+        "https://www.storecensus.com/stats/fastest-growing-shopify-apps",
+        "https://www.storecensus.com/stats/app/smart-seo",
+        "https://www.storecensus.com/stats/app/page-speed-optimizer"
+      ],
+      "how_searched": [
+        "opened StoreCensus fastest-growing Shopify apps tracker (dated 2026-10-10)",
+        "cross-checked individual app stat pages"
+      ],
+      "score": 63.0,
+      "found_at": "2026-10-10T17:55:05.225642+00:00"
+    },
+    {
       "name": "Viral-product dupe finder",
       "field": "Commerce / Shopping",
       "summary": "A free web tool where you paste a viral product or brand and get cheaper equivalent items that people are actively searching for instead.",
@@ -1440,6 +1579,44 @@
       ],
       "score": 61.0,
       "found_at": "2026-10-10T00:11:08.996621+00:00"
+    },
+    {
+      "name": "Pickleball rating, match-logging and club app",
+      "field": "Sports / community apps",
+      "summary": "A free app to log pickleball matches, calculate/verify a player rating, find nearby players and manage clubs and events.",
+      "why_now": "DUPR reports 2M rated players, 17,000+ clubs worldwide and 10M+ matches logged, with fresh feature releases in 2026 (Subscores, Forecast/Impact). Pickleball remains one of the fastest-growing participatory sports, and the rating-verification mechanic creates natural network effects and a subscription upsell.",
+      "monetization": "Free core + in-app subscriptions for premium features/ad-free experience.",
+      "evidence": [
+        "https://www.dupr.com/",
+        "https://www.dupr.com/post/new-dupr-features-to-help-you-understand-your-game",
+        "https://apps.apple.com/us/app/dupr/id1567932355",
+        "https://appstorespy.com/ios-apple-store/1567932355-trends-revenue-statistics-downloads-ratings"
+      ],
+      "how_searched": [
+        "web search 'DUPR pickleball rating app growth 2026 app store'",
+        "cross-checked official site, blog and App Store stat trackers"
+      ],
+      "score": 61.0,
+      "found_at": "2026-10-10T17:55:06.182989+00:00"
+    },
+    {
+      "name": "Bilingual website / PDF / video translation extension",
+      "field": "Productivity / browser translation",
+      "summary": "A browser extension that shows bilingual side-by-side translations of web pages, PDFs, e-books and video subtitles, with a free tier.",
+      "why_now": "Immersive Translate has ~3M Chrome users (plus ~3.9M Edge, ~107K Firefox) and is Chrome's 2024 Best Extension; meanwhile it has started restricting its free tier (removed free Google/Microsoft engines, mandatory sign-in, daily quotas, paywalled own-API-key), which reviewers explicitly criticize. That gap creates room for a more generous free alternative.",
+      "monetization": "Freemium Pro subscription (competitor monetizes with aggressive Pro upsell).",
+      "evidence": [
+        "https://chrome-stats.com/d/bpoadfkcbjbfhfodiogcnhhhpibjhbnh",
+        "https://tooltivity.com/extensions/immersive-translate",
+        "https://storetally.com/ext/chrome/bpoadfkcbjbfhfodiogcnhhhpibjhbnh/immersive-translate-ai-we",
+        "https://chromewebstore.google.com/detail/immersive-translate-ai-we/bpoadfkcbjbfhfodiogcnhhhpibjhbnh"
+      ],
+      "how_searched": [
+        "web search 'Immersive Translate Chrome extension users 2026 translation'",
+        "compared install/review data across chrome-stats, StoreTally, Tooltivity and the store listing"
+      ],
+      "score": 58.0,
+      "found_at": "2026-10-10T17:55:10.727432+00:00"
     },
     {
       "name": "Failed-Payment Recovery / Dunning for Small SaaS (Rebounce-model)",
@@ -1516,6 +1693,23 @@
       ],
       "score": 53.3,
       "found_at": "2026-10-10T12:36:38.337582+00:00"
+    },
+    {
+      "name": "Free candidate-side AI job-discovery agent",
+      "field": "Future of work / job search",
+      "summary": "A free web agent where a candidate uploads a resume and gets continuously refreshed, personalized matches scraped directly from company career pages, filtering ghost jobs.",
+      "why_now": "HiringCafe raised a $6.8M pre-seed led by Spark Capital (announced 28 Sep 2026) and launched a 100% free AI Talent Agent, having grown to 2M monthly active users with zero marketing and 5.7M+ live listings. The category is validating fast and the winning model is explicitly free-to-candidate, which fits a bootstrapped free-tool build.",
+      "monetization": "Free for job seekers; potential employer-posting / sponsored-listing revenue on the employer side.",
+      "evidence": [
+        "https://thenextweb.com/news/hiringcafe-6-8m-pre-seed-ai-talent-agent",
+        "https://hiringcafe.com/ai-search"
+      ],
+      "how_searched": [
+        "opened TNW HiringCafe article",
+        "opened HiringCafe AI Talent Agent product page"
+      ],
+      "score": 52.0,
+      "found_at": "2026-10-10T17:54:57.856599+00:00"
     },
     {
       "name": "AI multi-model answer cross-checker",
