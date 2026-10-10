@@ -121,6 +121,28 @@
       "found_at": "2026-10-08T23:25:22.388490+00:00"
     },
     {
+      "name": "Retro digicam / film-camera filter web app (Y2K & CCD look)",
+      "field": "Consumer photo / creator tools",
+      "summary": "A browser tool that turns any photo or video into the grainy, flash-heavy, early-2000s 'digicam/CCD' look using preset film stocks, light leaks, date stamps and scans — no app install.",
+      "why_now": "Demand is at a decade high and still climbing: Google searches for 'digicam' hit a ten-year high in 2026, camera-shipment data shows built-in-lens compacts at 117-148% of 2025 levels, and used CCD compacts now sell for ~3.5-4x their old prices with ~5x sales volume. The aesthetic is a Gen-Z/Y2K mainstream trend, not a fad.",
+      "monetization": "Mobile incumbents make serious money: BeautyCam ~$3.0M/mo (Peekly est.), ism ~$300K/mo (~$3.6M annualized, AppRank), Dazzil Cam 20.4M installs at $10K+/mo (59% IAP/41% ads), Vintage Film Camera 4.7M installs at $10K+/mo. A free web version could monetize via watermark removal, HD export, batch and video packs.",
+      "evidence": [
+        "https://www.digitalcameraworld.com/cameras/compact-cameras/i-wrote-off-the-digicam-as-a-temporary-trend-but-three-years-later-crappy-cameras-have-only-become-more-popular",
+        "https://photorumors.com/2026/06/03/used-compact-camera-prices-quadruple-in-japan-as-ccd-models-make-a-comeback/",
+        "https://petapixel.com/2026/06/11/compact-camera-sales-are-still-booming-amid-growing-photo-industry/",
+        "https://peekly.app/apps/cf2bbdaf-1ba0-4746-9b66-58e0e6d9bafd",
+        "https://appgoblin.info/apps/com.camerafilm.lofiretro",
+        "https://apprank.io/ism-retro-camera-vintage-8065"
+      ],
+      "how_searched": [
+        "search-trend + camera-industry news and CIPA shipment data",
+        "app-store revenue/install estimators (Peekly, AppGoblin, AppRank)",
+        "web search"
+      ],
+      "score": 87.0,
+      "found_at": "2026-10-10T21:46:40.513358+00:00"
+    },
+    {
       "name": "AI Presentation / Deck Generator (Gamma-model)",
       "field": "Productivity - presentation & visual-storytelling software",
       "summary": "A free web tool that turns a topic, prompt, or pasted document into a fully designed slide deck / web-native presentation in seconds. Users type an idea, pick a style, and get editable slides, matching layouts and images.",
@@ -576,6 +598,26 @@
       "found_at": "2026-10-08T03:07:37.627424+00:00"
     },
     {
+      "name": "AI astrology / tarot / horoscope web app",
+      "field": "Consumer lifestyle / spirituality",
+      "summary": "A free web app that gives AI-generated daily horoscopes, tarot pulls and chat-style astrological guidance in multiple languages, monetized with ads or premium unlocks.",
+      "why_now": "Explosive and very recent: astrology apps logged ~15 crore (150M) India downloads Jan-Sep 2026, up 75% YoY, and religious/spiritual apps 14.6 crore (+47%) — together nearly 30 crore downloads, already beating all of 2025. AI-native players are the growth engine (AstroSage Kundli +172%, AstroLokal +1,062%). New AI entrants are climbing charts within weeks of launch.",
+      "monetization": "Ad-led and IAP: Astro AI hit 1.6M installs in ~1 month at $10K+/mo (100% ads, AppGoblin); Reva ~3.0M downloads/mo (Peekly); category leader Astrotalk leads with 3 crore downloads. Wiggle room for subscription premium readings.",
+      "evidence": [
+        "https://economictimes.indiatimes.com/news/india/indias-app-economy-goes-spiritual-religious-and-astrology-apps-clock-nearly-30-crore-downloads-in-nine-months/articleshow/134852101.cms",
+        "https://timesofindia.indiatimes.com/business/india-business/religious-spiritual-astrology-apps-see-nearly-30cr-downloads-in-jan-sept/articleshow/134842601.cms",
+        "https://appgoblin.info/apps/com.ai.astrology.horoscope",
+        "https://peekly.app/apps/64b3e722-3a4f-4db1-bd52-f52adf9928d4"
+      ],
+      "how_searched": [
+        "news data reports (Sensor Tower via Times of India / Economic Times)",
+        "app-store analytics estimators (AppGoblin, Peekly)",
+        "web search"
+      ],
+      "score": 80.0,
+      "found_at": "2026-10-10T21:46:41.853135+00:00"
+    },
+    {
       "name": "Embeddable AI Agent / Copilot for SaaS",
       "field": "DevTools / SaaS Infrastructure",
       "summary": "Drop-in AI agent (one line of code) that lets end-users control any SaaS via natural language — turning clicks into conversations, with scoped permissions, audit logs, and model-agnostic deployment.",
@@ -638,6 +680,28 @@
       ],
       "score": 78.0,
       "found_at": "2026-10-10T06:18:10.010454+00:00"
+    },
+    {
+      "name": "AI landing-page personalization / CRO autopilot (free tier)",
+      "field": "Marketing / growth tools",
+      "summary": "A tool where you paste a URL and each ad, keyword or visitor segment gets an auto-generated, continuously A/B-tested landing page variant; a free version would cover small sites that can't afford enterprise CRO suites.",
+      "why_now": "Hot and heavily funded in 2026: Accel led a $5.7M seed into Fibr AI (targeting $5M ARR), YC-backed Sherpa (S26) reports 15-20% conversion lift, Keep Converting raised $2M pre-seed citing a 64% average conversion lift, and JustAI raised $17M Series A on 5x ARR. GenPage 3.0 hit 510 Product Hunt upvotes (Oct 7) and claims 3,400+ teams.",
+      "monetization": "Enterprise SaaS today (Fibr targets ~50 customers / $5M ARR; GenPage has paid tiers) and pay-on-results pricing (Keep Converting). A free web tool could upsell experiments, custom domains, and analytics.",
+      "evidence": [
+        "https://techcrunch.com/2026/02/04/accel-doubles-down-on-fibr-ai-as-agents-turn-static-websites-into-one-to-one-experiences/",
+        "https://www.genpage.ai/",
+        "https://www.eznewswire.com/newsroom/keep-converting-exits-stealth-2m-pre-seed",
+        "https://www.ycombinator.com/companies/sherpa",
+        "https://www.prnewswire.com/news-releases/justai-raises-17m-series-a-to-build-an-agentic-marketing-platform-302807090.html"
+      ],
+      "how_searched": [
+        "tech-news funding coverage (TechCrunch, PR Newswire)",
+        "YC company directory",
+        "Product Hunt leaderboard",
+        "vendor site"
+      ],
+      "score": 78.0,
+      "found_at": "2026-10-10T21:46:44.002902+00:00"
     },
     {
       "name": "Browser Extension AI Productivity Tools",
@@ -1145,6 +1209,25 @@
       "found_at": "2026-10-10T17:55:01.575908+00:00"
     },
     {
+      "name": "AI old-photo restoration & colorization web tool",
+      "field": "Consumer photo / heritage",
+      "summary": "Upload a faded, torn or black-and-white photo and get it colorized, repaired and upscaled in the browser; aimed at family albums, genealogy and memorial use.",
+      "why_now": "A durable money-maker with verified revenue and steady demand: colorize.cc publishes all-time verified revenue of $113,814 via Stripe and ~$4.9K in the last 30 days; Photomyne's Colorize has 2.1M+ installs; multiple independent apps (Smart Receipts-scale competitors, Reviva, Face Restore) keep launching because demand keeps refilling with each generation re-discovering old family photos.",
+      "monetization": "One-off credit packs and subscriptions: colorize.cc sells $12 / $49 / $199 one-time plans; Face Restore sells weekly $9.99 and yearly $119.99; the category is proven to convert on 'first photos free, then pay'.",
+      "evidence": [
+        "https://trustmrr.com/startup/colorize-cc",
+        "https://appgoblin.info/apps/com.photomyne.colorize",
+        "https://bumetric.com/revenue/colorize-color-to-old-photos",
+        "https://apprank.io/face-restore-color-old-photos-4241"
+      ],
+      "how_searched": [
+        "verified-revenue / open-startup directory (TrustMRR)",
+        "app-store analytics estimators (AppGoblin, bumetric, AppRank)"
+      ],
+      "score": 72.0,
+      "found_at": "2026-10-10T21:46:50.415093+00:00"
+    },
+    {
       "name": "Cookie-consent / privacy-compliance generator",
       "field": "Privacy compliance / web tooling",
       "summary": "Scan a site, detect trackers, generate a compliant cookie banner plus cookie/privacy policy, and block non-essential scripts before consent. A free generator for the long tail of small sites that big CMPs ignore.",
@@ -1269,6 +1352,25 @@
       "found_at": "2026-10-10T17:55:03.724688+00:00"
     },
     {
+      "name": "AI voiceover pronunciation / text-to-speech pre-flight checker",
+      "field": "Audio / media production",
+      "summary": "A web tool that runs on top of any TTS voice (ElevenLabs, OpenAI, Google, etc.), auto-detects mispronounced names, brands, prices and dates, scores each line, and re-fixes the single wrong word without re-rendering the take.",
+      "why_now": "Freshly launched Oct 10, 2026 on Product Hunt (Onepin) with a clear, validated pain: the founder cites 100+ user interviews where >92% had pronunciation issues and re-generated 2-9 times. The wider TTS market confirms the gap — Zapier's Sept 2026 roundup lists pronunciation control as a key differentiator across nearly every tool, yet almost none offer an automated QC pass.",
+      "monetization": "SaaS + API/SDK/MCP; Onepin is free to start with paid production plans beside a TTS market where tools charge from ~$3-100/mo (Hume, ElevenLabs, Speechify, WellSaid).",
+      "evidence": [
+        "https://www.producthunt.com/products/onepin",
+        "https://zapier.com/blog/best-ai-voice-generator/",
+        "https://www.producthunt.com/leaderboard/daily/2026/10/10"
+      ],
+      "how_searched": [
+        "Product Hunt daily leaderboard",
+        "expert roundup / review site (Zapier)",
+        "vendor pages"
+      ],
+      "score": 70.0,
+      "found_at": "2026-10-10T21:46:50.900474+00:00"
+    },
+    {
       "name": "Prescription price-comparison & savings tool",
       "field": "Consumer health / pharmacy savings",
       "summary": "Search a drug plus ZIP to compare cash prices across discount programs and nearby pharmacies, with alerts on price changes. A free, no-insurance comparison tool.",
@@ -1287,6 +1389,26 @@
       ],
       "score": 69.0,
       "found_at": "2026-10-08T23:25:33.798044+00:00"
+    },
+    {
+      "name": "Free AI receipt-to-expense tool for freelancers",
+      "field": "Personal finance / admin",
+      "summary": "Snap or upload a receipt and get structured vendor/date/total/tax data and an exportable expense report for tax time — the consumer/freelancer counterpart to heavy B2B AP suites.",
+      "why_now": "Multiple independent apps show real, repeat revenue: SimplyWise ~$50K/mo, Receipt Scanner ~$40K/mo, Receipt Lens ~$9K/mo, Smart Receipts ~$13.6K/mo, Dext ~$19.3K/mo. A founder teardown shows the unit economics work ($0.0012/scan, ~$23/mo all-in), so a leaner free web tool can undercut incumbents like Dext ($302/yr).",
+      "monetization": "Subscriptions ($2.99-$16.99/mo typical) and one-time packs; a free web tier can monetize on multi-seat and accounting integrations.",
+      "evidence": [
+        "https://peekly.app/apps/9c7d1ea8-7477-483b-a9fc-7a285f0c728b",
+        "https://peekly.app/apps/394560b4-db07-4942-9b92-82b4f1af3e16",
+        "https://taxr.io/blog/unit-economics-ai-receipt-scanner/",
+        "https://bumetric.com/revenue/dext-expense-tracker-app",
+        "https://apprank.io/receipt-lens-expense-tracker-0764"
+      ],
+      "how_searched": [
+        "app-store revenue estimators (Peekly, bumetric, AppRank)",
+        "founder unit-economics blog"
+      ],
+      "score": 69.0,
+      "found_at": "2026-10-10T21:46:53.082154+00:00"
     },
     {
       "name": "AI agent memory manager",
@@ -1346,6 +1468,44 @@
       ],
       "score": 68.0,
       "found_at": "2026-10-10T17:55:04.820421+00:00"
+    },
+    {
+      "name": "AI Upwork / freelance-job proposal agent",
+      "field": "Freelancer productivity / lead-gen",
+      "summary": "Reads new freelance job posts, filters the ones that fit you, and drafts a tailored proposal in minutes; a free web tool would do this without the $99-$333/mo incumbents.",
+      "why_now": "Founder Ivan Nedelkovski took Lancer from $0 to $10K MRR in its 3rd-4th month and now reports $20K MRR with a two-person team, built on a worsening, evergreen problem (freelancers racing to respond first). Upwork's data confirms strong demand around AI-assisted and freelance work, with targeted niches (ecommerce management +130%, medical VA +44%) growing fast.",
+      "monetization": "Subscription/pay-per-lead ($99/mo for 15 leads then $19/lead; $333/mo unlimited), plus 20-30% affiliate payouts to coaches — a clear, proven model for a cheaper free tool to disrupt.",
+      "evidence": [
+        "https://www.indiehackers.com/post/tech/exiting-his-agency-and-hitting-10k-mrr-within-60-days-of-launching-his-saas-sTo5m9qfhxXbruvhBIyH",
+        "https://videcoder101.com/blog/lancer-upwork-ai-agent-cursor-case-study",
+        "https://www.upwork.com/research/in-demand-skills-2026"
+      ],
+      "how_searched": [
+        "Indie Hackers founder interview",
+        "case-study blog",
+        "freelance marketplace demand report (Upwork)"
+      ],
+      "score": 68.0,
+      "found_at": "2026-10-10T21:46:53.799133+00:00"
+    },
+    {
+      "name": "AI paid-media management agent (multi-channel ads)",
+      "field": "Marketing / advertising",
+      "summary": "A conversational agent that plans, launches and optimizes Google/Meta/LinkedIn/TikTok ad campaigns for small businesses that can't afford an agency — free for one channel, paid for more.",
+      "why_now": "One-person-usable ad agents already earn: Adspirer reports $54,684 MRR on TrustMRR. The AI-marketing-agent space is being funded heavily (JustAI $17M Series A, 5x ARR; Zernio raised as 'marketing infrastructure for products and agents'), and 'display advertising' is among Upwork's fastest-growing sales skills (+26%).",
+      "monetization": "Managed-spend subscriptions and performance fees; incumbents charge retainers or % of ad spend, leaving room for a low-cost/free self-serve tier.",
+      "evidence": [
+        "https://trustmrr.com/",
+        "https://www.prnewswire.com/news-releases/justai-raises-17m-series-a-to-build-an-agentic-marketing-platform-302807090.html",
+        "https://www.upwork.com/research/in-demand-skills-2026"
+      ],
+      "how_searched": [
+        "verified-revenue marketplace directory (TrustMRR)",
+        "tech-news funding coverage (PR Newswire)",
+        "freelance demand report"
+      ],
+      "score": 67.0,
+      "found_at": "2026-10-10T21:46:54.147902+00:00"
     },
     {
       "name": "AI-ready help center / llms.txt knowledge base",
@@ -1558,6 +1718,24 @@
       ],
       "score": 62.0,
       "found_at": "2026-10-08T03:07:51.940232+00:00"
+    },
+    {
+      "name": "Affordable / open-source AI-era SEO keyword + backlink suite",
+      "field": "SEO / marketing tools",
+      "summary": "An open-source keyword-research, competitor and backlink/site-audit suite priced far below incumbents and MCP-connectable so AI agents can run SEO directly.",
+      "why_now": "Launched Oct 8, 2026 on Product Hunt as 'the open source Semrush alternative' with 388 upvotes and $10/mo pricing versus $100+ incumbents, riding both the SEO tooling market and the new 'GEO/AI-search' demand. Independent SEO data shows the top fastest-growing SaaS startups in 2026 are SEO/analytics-adjacent (Sherloq +810%, Ahrefs-tracked organic-growth leaders), confirming spend keeps flowing into this category.",
+      "monetization": "Freemium SaaS with a cheap paid tier ($10/mo) versus legacy $100+ subscriptions; growth via open-source self-hosting and MCP integrations.",
+      "evidence": [
+        "https://www.producthunt.com/leaderboard/daily/2026/10/8",
+        "https://www.producthunt.com/leaderboard/monthly/2026/10",
+        "https://ahrefs.com/blog/top-saas-startups/"
+      ],
+      "how_searched": [
+        "Product Hunt daily/monthly leaderboards",
+        "SEO-industry ranking post (Ahrefs)"
+      ],
+      "score": 62.0,
+      "found_at": "2026-10-10T21:46:54.417851+00:00"
     },
     {
       "name": "Fractional-executive rate benchmark & matching tool",
