@@ -121,6 +121,25 @@
       "found_at": "2026-10-08T23:25:22.388490+00:00"
     },
     {
+      "name": "AI photo calorie / food-tracking app",
+      "field": "Consumer health & fitness (AI nutrition tracking)",
+      "summary": "Snap a photo of a meal and AI estimates calories and macros, replacing tedious manual food logging; a free web version can do the same from an uploaded image.",
+      "why_now": "The category just consolidated at a premium: MyFitnessPal acquired teen-built Cal AI after it hit 15M+ downloads and over $40M in trailing-12-month sales, and photo-based calorie apps sit at the top of App Store nutrition charts.",
+      "monetization": "Freemium photo logging with weekly/monthly subscriptions (mobile tiers run $4.99-$9.99/week); Cal AI alone reached >$30M ARR before the deal.",
+      "evidence": [
+        "https://techcrunch.com/2026/03/02/myfitnesspal-has-acquired-cal-ai-the-viral-calorie-app-built-by-teens/",
+        "https://www.globenewswire.com/news-release/2026/03/02/3247439/0/en/MyFitnessPal-Acquires-Cal-AI-Expanding-on-its-Position-as-the-Leading-Player-in-Digital-Nutrition-Tracking.html",
+        "https://dealroom.co/news/126418-myfitnesspal-acquires-teen-built-cal-ai-after-40m-in-annual-sales/"
+      ],
+      "how_searched": [
+        "news and press releases (TechCrunch, GlobeNewswire)",
+        "acquisition databases (Dealroom)",
+        "app-store ranking coverage"
+      ],
+      "score": 88.0,
+      "found_at": "2026-10-11T07:16:54.177551+00:00"
+    },
+    {
       "name": "Retro digicam / film-camera filter web app (Y2K & CCD look)",
       "field": "Consumer photo / creator tools",
       "summary": "A browser tool that turns any photo or video into the grainy, flash-heavy, early-2000s 'digicam/CCD' look using preset film stocks, light leaks, date stamps and scans — no app install.",
@@ -293,6 +312,25 @@
       "found_at": "2026-10-10T17:54:55.707103+00:00"
     },
     {
+      "name": "AI content detector & humanizer",
+      "field": "AI authenticity / content detection",
+      "summary": "Detects AI-written text (and increasingly AI-generated images in feeds) and helps writers prove authorship or revise text; rebuildable as a free detector/humanizer web tool.",
+      "why_now": "Superhuman (formerly Grammarly) acquired GPTZero in June 2026 after it reached 19M+ registered users and $30M ARR, showing 'is this AI?' has become a mainstream market, not a niche.",
+      "monetization": "Freemium detection with paid education/pro tiers and an API; GPTZero reached $30M ARR on only ~$13.5M total funding, and was valued above $88M.",
+      "evidence": [
+        "https://techcrunch.com/2026/06/23/superhuman-acquires-ai-detection-startup-gptzero/",
+        "https://www.businessinsider.com/superhuman-acquires-gptzero-ai-authenticity-tools-2026-6",
+        "https://thenextweb.com/news/superhuman-gptzero-acquisition-ai-detection"
+      ],
+      "how_searched": [
+        "tech news (TechCrunch, The Next Web)",
+        "business press (Business Insider)",
+        "company acquisition blog"
+      ],
+      "score": 85.0,
+      "found_at": "2026-10-11T07:16:54.471828+00:00"
+    },
+    {
       "name": "AI Video Generation & Editing for Short-Form",
       "field": "Creator Economy / AI Media",
       "summary": "Tools that generate or edit short-form videos (Reels, TikToks, Shorts) from text, audio, or long-form source — auto-clipping, captioning, reframing, hook detection, and multi-platform publishing.",
@@ -429,6 +467,25 @@
       ],
       "score": 83.0,
       "found_at": "2026-10-10T12:36:31.585365+00:00"
+    },
+    {
+      "name": "Agentic social-media scheduler",
+      "field": "Social media management (AI-agent scheduling)",
+      "summary": "An open-source, agent-native scheduler where AI agents plan, generate and publish posts to 30+ networks from one visual calendar.",
+      "why_now": "MRR grew roughly 10x in 2026, from about $21K in January to $258K by October, after it repositioned around AI agents (CLI + MCP server) with 36K GitHub stars and ~$2.7M ARR.",
+      "monetization": "Open-core: free self-hosted (AGPL) acts as the funnel; paid hosted cloud subscriptions reached $258,281 verified via Stripe on TrustMRR (Oct 11, 2026).",
+      "evidence": [
+        "https://trustmrr.com/startup/postiz",
+        "https://webtribunal.net/postiz-growth/",
+        "https://www.systemaic.com/teardowns/postiz"
+      ],
+      "how_searched": [
+        "verified-revenue databases (TrustMRR)",
+        "growth case studies / teardowns",
+        "open-startup traffic analysis (Systemaic)"
+      ],
+      "score": 83.0,
+      "found_at": "2026-10-11T07:16:54.878647+00:00"
     },
     {
       "name": "Buyer-intent finder for Reddit / X / HN",
@@ -741,6 +798,25 @@
       "found_at": "2026-10-10T21:46:44.002902+00:00"
     },
     {
+      "name": "AI conversational travel planner (itinerary + booking)",
+      "field": "Travel tech / consumer AI",
+      "summary": "A chat-first travel agent that turns a conversation into a personalized multi-city itinerary with flights, hotels and activities, adapting instantly.",
+      "why_now": "Layla processed over $1B in planned trip value across 30M messages and 5M+ users by March 2026, then was acquired by Expedia in July 2026, signalling big platforms buying into AI trip planning.",
+      "monetization": "Booking and affiliate commissions via travel partners (e.g. Booking.com, Skyscanner) rather than subscriptions; it monetizes planned trip value.",
+      "evidence": [
+        "https://www.globenewswire.com/news-release/2026/03/13/3255756/0/en/layla-surpasses-1-billion-in-trips-planned-as-global-investors-back-identity-first-travel-planning.html",
+        "https://ir.expediagroup.com/news-and-events/news/news-details/2026/Expedia-Group-acquires-Layla-accelerating-its-AI-powered-trip-planning-and-booking-strategy/default.aspx",
+        "https://layla.ai/press"
+      ],
+      "how_searched": [
+        "press releases (GlobeNewswire)",
+        "investor-relations / acquisition news (Expedia)",
+        "company press page"
+      ],
+      "score": 78.0,
+      "found_at": "2026-10-11T07:16:55.250914+00:00"
+    },
+    {
       "name": "Browser Extension AI Productivity Tools",
       "field": "Consumer / Productivity",
       "summary": "Chrome/Firefox/Edge extensions that bring AI into the browser — sidebar chat, page summarization, writing assistance, workflow automation, content extraction — with freemium subscriptions.",
@@ -908,6 +984,44 @@
       ],
       "score": 76.0,
       "found_at": "2026-10-10T00:11:05.760360+00:00"
+    },
+    {
+      "name": "Creator storefront / link-in-bio monetization tool",
+      "field": "Creator economy (storefronts & payments)",
+      "summary": "An all-in-one storefront behind a creator's bio link for selling downloads, courses, bookings and memberships with no transaction fees.",
+      "why_now": "It ranks #3 by verified MRR on TrustMRR at ~$3.57M MRR from ~101.6K subscriptions and $76.6M all-time, with Sacra estimating ~$40M ARR in 2026 across 80K+ creators.",
+      "monetization": "$29/month creator subscription with zero transaction fees on creator sales (vs Substack's 10% and OnlyFans' 20%), running at ~40% EBITDA margins.",
+      "evidence": [
+        "https://trustmrr.com/startup/stan",
+        "https://sacra.com/c/stan/",
+        "https://www.wlad.me/blog/companies/stan"
+      ],
+      "how_searched": [
+        "verified-revenue database (TrustMRR)",
+        "startup financial estimates (Sacra)",
+        "open-startup analysis blog"
+      ],
+      "score": 76.0,
+      "found_at": "2026-10-11T07:16:55.643682+00:00"
+    },
+    {
+      "name": "AI interior design / room makeover from a photo",
+      "field": "Design AI (interior & real-estate visualization)",
+      "summary": "Upload a room photo, choose a style, and AI regenerates the room reimagined while preserving its structure, giving instant design ideas.",
+      "why_now": "Demand is proven and repeatable: ~1.6M users and a peak of 4M monthly visitors with ~$23K/month revenue from a one-person build, and a 2026 AppRank estimate puts the iOS app near $100K/month.",
+      "monetization": "Credit packs ($9/$19/$29) plus weekly mobile subscriptions (PRO tiers up to $39.99/week); sells to consumers, realtors and designers.",
+      "evidence": [
+        "https://www.indiehackers.com/post/case-study-interior-design-ai-saas-company-that-made-168k-in-total-profit-in-6-months-efff542b1e",
+        "https://www.starterstory.com/roomgpt-breakdown",
+        "https://apprank.io/roomgpt-ai-interior-design-4875"
+      ],
+      "how_searched": [
+        "founder case studies (Indie Hackers, Starter Story)",
+        "app-store revenue estimators (AppRank)",
+        "community write-ups (Reddit)"
+      ],
+      "score": 76.0,
+      "found_at": "2026-10-11T07:16:57.015607+00:00"
     },
     {
       "name": "Invoice & AP Automation (AI-First)",
@@ -1165,6 +1279,25 @@
       "found_at": "2026-10-10T17:54:59.049173+00:00"
     },
     {
+      "name": "Micro-drama / short-drama creation studio",
+      "field": "Creator economy (vertical episodic video)",
+      "summary": "Tooling to write, assemble and publish vertical cliffhanger-driven micro-dramas (60-90 second episodes) in the ReelShort-style format.",
+      "why_now": "Outside-China micro-drama revenue is set to grow from $2.7B in 2025 to $3.6B in 2026 and $9.5B by 2031, while ReelShort is tracking ~$1.05B in 2026 with its first profit at scale.",
+      "monetization": "Episodic coin/unlock payments and subscriptions inside the apps, plus platform revenue-share and ads for creators.",
+      "evidence": [
+        "https://variety.com/2026/tv/news/reelshort-1-billion-revenue-profit-2026-mpa-1236828885/",
+        "https://deadline.com/2026/08/microdrama-reelshort-revenue-profit-1237027492/",
+        "https://www.screendaily.com/news/microdrama-revenue-outside-china-to-hit-36bn-in-2026-says-report/5219165.article"
+      ],
+      "how_searched": [
+        "entertainment trade press (Variety, Deadline, Screen Daily)",
+        "analyst reports (Media Partners Asia)",
+        "app-market report pages (Sensor Tower)"
+      ],
+      "score": 73.0,
+      "found_at": "2026-10-11T07:16:57.980564+00:00"
+    },
+    {
       "name": "LLM / agent spend & cost observability dashboard",
       "field": "Developer tools (LLMOps / FinOps)",
       "summary": "A free web tool that ingests API logs and shows cost per user, per feature, per model, plus latency, caching and runaway-agent alerts.",
@@ -1341,6 +1474,24 @@
       ],
       "score": 71.0,
       "found_at": "2026-10-10T00:11:07.544770+00:00"
+    },
+    {
+      "name": "AI virtual try-on / fit assistant for fashion e-commerce",
+      "field": "Retail tech (AR/AI fitting & sizing)",
+      "summary": "Let shoppers upload a photo or use an avatar to see how apparel or footwear looks and fits before buying, cutting returns.",
+      "why_now": "Fit uncertainty is the leading cause of online apparel returns and the market is scaling fast: roughly $5.1B in 2026 heading to $14.2B by 2033, with other analysts sizing it near $15B and 25-26% CAGR.",
+      "monetization": "SaaS and API fees charged to e-commerce brands (per render/session or value-based on conversion and reduced returns).",
+      "evidence": [
+        "https://www.grandviewresearch.com/industry-analysis/virtual-try-on-market-report",
+        "https://www.mordorintelligence.com/industry-reports/virtual-try-on-market",
+        "https://www.persistencemarketresearch.com/market-research/virtual-try-on-ai-market.asp"
+      ],
+      "how_searched": [
+        "market-research reports (Grand View, Mordor, Persistence)",
+        "industry trend and sizing articles"
+      ],
+      "score": 71.0,
+      "found_at": "2026-10-11T07:16:58.306690+00:00"
     },
     {
       "name": "AI resume + job-application toolkit (ATS-tailored)",
