@@ -8,7 +8,7 @@ idea_only: true         # take the IDEA only (open or closed, any license); ever
 publish_pages: true
 publish_tools: true    # build one free working tool per run into mdm1.org/tools (traffic + ads)
 tool_budget_seconds: 600
-tools_per_run: 4
+tools_per_run: 1
 publish_apps: true     # every tested app is published immediately (no daily cap) into mdm1.org/apps
 apps_per_run: 3
 app_budget_seconds: 1200       # per app
