@@ -8,6 +8,8 @@ idea_only: true         # take the IDEA only (open or closed, any license); ever
 publish_pages: true
 publish_tools: true    # build one free working tool per run into mdm1.org/tools (traffic + ads)
 tool_budget_seconds: 600
+publish_apps: true     # one complete working web app per run into mdm1.org/apps
+app_budget_seconds: 1200
 max_pages: 4            # GitHub search pages scanned per category to find NEW (never examined) projects
 # Page languages (Arabic is always included). The site opens each page in the visitor's device
 # language and shows a language selector button.
