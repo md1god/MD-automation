@@ -563,6 +563,28 @@
       "found_at": "2026-10-09T06:45:20.031632+00:00"
     },
     {
+      "name": "Newsletter directories (InboxReads, Letterlist, BlogHub, Rad Letters) + cross-promotion",
+      "url": "https://inboxreads.co/submit",
+      "kind": "directory",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Publish an RSS/email newsletter, then list it free in each directory: InboxReads (account, tracks approval, offers a cross-promotions matching tool to swap shout-outs with peer newsletters), Letterlist (crowdsourced, subjective), BlogHub (no subscriber minimum, goes live immediately, one permanent crawlable page + link), Rad Letters (free standard review, paid featured optional). Reuse the same listing copy everywhere.",
+      "rules_and_risks": "These are curated/directory listings, not aggregators; listings that look like spam are removed. Don't submit the same newsletter repeatedly. Cross-promo swaps must be genuine (don't spam strangers' lists).",
+      "why_it_works": "Directory visitors arrive with subscribe intent; each listing is a permanent indexable page and an extra crawl path, and the cross-promotion tool matches you with same-size newsletters for reciprocal reach.",
+      "evidence": [
+        "https://inboxreads.co/submit",
+        "https://letterlist.com/submit/",
+        "https://bloghub.app/submit-your-newsletter",
+        "https://radletters.com/add-newsletter"
+      ],
+      "how_searched": [
+        "websearch: newsletter directories free submit (AWeber list surfaced candidates)",
+        "webfetch: each directory's submit page"
+      ],
+      "score": 54.0,
+      "found_at": "2026-10-11T19:02:18.338578+00:00"
+    },
+    {
       "name": "HackerNoon free story submission (human editor review)",
       "url": "https://publish.hackernoon.com/",
       "kind": "platform",
@@ -622,6 +644,28 @@
       ],
       "score": 48.7,
       "found_at": "2026-10-07T18:25:24.295185+00:00"
+    },
+    {
+      "name": "Lemmy communities via official federated REST API",
+      "url": "https://join-lemmy.org/docs/",
+      "kind": "community",
+      "requires_account": true,
+      "official_free_api": true,
+      "how_to_use": "Register on a Lemmy instance, find topic communities with lemmyverse.net or the instance list, then POST /api/v3/post with {name, community_id, url, body} (auth token required) to share a link or article. Federation means one post reaches all instances following that community.",
+      "rules_and_risks": "Posts belong to exactly one community and are subject to each community's rules and mods; a posting_restricted_to_mods flag and honeypot check block low-quality/automated posting. Ban-evasion or cross-posting the same link everywhere gets you banned; read each community's sidebar first.",
+      "why_it_works": "Lemmy is an open ActivityPub discussion platform with no ads/algorithms, so a genuinely useful link in the right technical community surfaces to every federated follower.",
+      "evidence": [
+        "https://join-lemmy.org/docs/",
+        "https://lemmy.readme.io/reference/post_post",
+        "https://raw.githubusercontent.com/api-evangelist/lemmy/refs/heads/main/openapi/lemmy-post-api-openapi.yml"
+      ],
+      "how_searched": [
+        "websearch: Lemmy API create post federation",
+        "webfetch: join-lemmy.org docs",
+        "search-scraped: lemmy.readme.io + OpenAPI spec"
+      ],
+      "score": 48.0,
+      "found_at": "2026-10-11T19:02:36.595547+00:00"
     },
     {
       "name": "Connectively (HARO's successor — new facts on the free plan)",
@@ -868,6 +912,26 @@
       "found_at": "2026-10-09T06:45:27.909409+00:00"
     },
     {
+      "name": "Zenodo research/dataset/software deposits (DOI + OpenAIRE/DataCite/OAI-PMH reach)",
+      "url": "https://developers.zenodo.org/",
+      "kind": "platform",
+      "requires_account": true,
+      "official_free_api": true,
+      "how_to_use": "Create a free Zenodo account and a personal access token with scopes deposit:write + deposit:actions, then POST /api/deposit/depositions, PUT the file to the returned bucket URL, PUT metadata (upload_type, title, creators, description, license), and POST .../actions/publish to mint a DOI. Request inclusion in relevant communities via the metadata communities field. Test against sandbox.zenodo.org first.",
+      "rules_and_risks": "All API calls need a token over HTTPS; open/embargoed records require a valid license; metadata is CC0; publishing is irreversible (only drafts are deletable). Deposit real research output, not marketing pages, and don't spam community join requests (owners approve/reject).",
+      "why_it_works": "Every published record gets a citable DOI registered in DataCite; metadata is harvested by OAI-PMH and indexable, putting content in front of Google Dataset Search/OpenAIRE academic discovery where a normal blog can't rank.",
+      "evidence": [
+        "https://developers.zenodo.org/",
+        "https://about.zenodo.org/principles/"
+      ],
+      "how_searched": [
+        "websearch: Zenodo REST API deposit DOI",
+        "webfetch: developers.zenodo.org full API docs"
+      ],
+      "score": 35.3,
+      "found_at": "2026-10-11T19:02:18.777563+00:00"
+    },
+    {
       "name": "Micro.blog Discover",
       "url": "https://micro.blog/discover",
       "kind": "community",
@@ -889,6 +953,26 @@
       "found_at": "2026-10-10T12:40:21.222612+00:00"
     },
     {
+      "name": "Blog directories (Blog Directory 43k readers / Bloglovin' / Feedspot)",
+      "url": "https://www.blog-directory.org/",
+      "kind": "directory",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Submit your blog URL/category to Blog Directory (free forever, indexed within 24h, dofollow link from a DR39 domain, optional paid feature) and to Bloglovin' by entering your blog address so it pulls your RSS into its daily-follower email; Feedspot also lists blogs/podcasts for free. Keep titles/descriptions consistent.",
+      "rules_and_risks": "Bloglovin' skews fashion/lifestyle and pulls full content from your RSS; paid features only change placement, not acceptance. Low-quality or duplicate sites get filtered; a directory link is one path, not a ranking fix (their own FAQ says so).",
+      "why_it_works": "Blog Directory alone claims 139k+ listed blogs and 43k monthly readers, and its submissions get crawled daily; Bloglovin' pushes every new post to followers' daily digest.",
+      "evidence": [
+        "https://www.blog-directory.org/",
+        "https://www.bloglovin.com/bloglovin-for-bloggers"
+      ],
+      "how_searched": [
+        "websearch: free blog directory submit 2026",
+        "webfetch: blog-directory.org and Bloglovin' for-bloggers page"
+      ],
+      "score": 34.0,
+      "found_at": "2026-10-11T19:02:19.248978+00:00"
+    },
+    {
       "name": "Eventbrite free events (free event pages that rank in search)",
       "url": "https://www.eventbrite.com/organizer/pricing/",
       "kind": "partnership",
@@ -907,6 +991,26 @@
       ],
       "score": 30.0,
       "found_at": "2026-10-09T06:45:29.473821+00:00"
+    },
+    {
+      "name": "OpenAlternative (open-source alternatives directory)",
+      "url": "https://openalternative.co/submit",
+      "kind": "directory",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Submit your open-source tool/site via /submit (magic-link or GitHub sign-in); it is listed as an alternative to the proprietary product it replaces, and can also join a relevant 'collection' (self-hosted, AI-native, latest/trending).",
+      "rules_and_risks": "Only real open-source alternatives are accepted; account needed. Paid ads/affiliate links exist but don't gate the free listing.",
+      "why_it_works": "It targets high-intent 'X alternative' searches, is indexed for those queries, and its weekly newsletter reaches ~12K developers, giving a fresh project a targeted audience.",
+      "evidence": [
+        "https://openalternative.co/submit",
+        "https://openalternative.co/"
+      ],
+      "how_searched": [
+        "websearch: open source alternatives directories",
+        "webfetch: openalternative.co/submit"
+      ],
+      "score": 28.0,
+      "found_at": "2026-10-11T19:02:38.298118+00:00"
     },
     {
       "name": "AlternativeTo 'Suggest new application' listing",
@@ -945,6 +1049,26 @@
       ],
       "score": 24.7,
       "found_at": "2026-10-10T00:17:33.052950+00:00"
+    },
+    {
+      "name": "PeerTube (federated video publishing via official API)",
+      "url": "https://docs.joinpeertube.org/use/create-upload-video",
+      "kind": "platform",
+      "requires_account": true,
+      "official_free_api": true,
+      "how_to_use": "Create an account on a public PeerTube instance, then upload via the web UI (Publish) or programmatically: get an OAuth token from /api/v1/users/token and POST /api/v1/videos/upload (or resumable) with videofile + channelId. Videos are announced over ActivityPub to follower instances.",
+      "rules_and_risks": "Account + instance quota/size limits apply; video only becomes public after transcoding; each instance has its own rules and may reject content. API token is short-lived (1 day). Don't mass-upload the same file to many instances.",
+      "why_it_works": "PeerTube is ActivityPub-federated, so one upload is announced to and searchable from many instances and is embeddable/downloadable — extra surface beyond YouTube/TikTok with no ad auction.",
+      "evidence": [
+        "https://docs.joinpeertube.org/use/create-upload-video",
+        "https://docs.joinpeertube.org/api-rest-reference.html"
+      ],
+      "how_searched": [
+        "websearch: PeerTube API upload federated",
+        "webfetch: PeerTube upload + API reference docs"
+      ],
+      "score": 24.7,
+      "found_at": "2026-10-11T19:02:40.831786+00:00"
     },
     {
       "name": "Hacker News: Show HN and story submissions",
@@ -1118,6 +1242,26 @@
       "found_at": "2026-10-10T00:17:34.099614+00:00"
     },
     {
+      "name": "Mojeek (independent search index + RSS FeedFetcher auto-crawl)",
+      "url": "https://www.mojeek.com/support/search/crawling/feedfetcher.html",
+      "kind": "search",
+      "requires_account": false,
+      "official_free_api": false,
+      "how_to_use": "Ensure your site has a valid RSS/Atom feed; Mojeek's FeedFetcher-Mojeek crawler automatically reads feeds for Mojeek News. For inclusion of a site you can contact Mojeek (there is no public '/add' form anymore — it 404s). Keep a clean sitemap and standard robots.txt so MojeekBot can crawl.",
+      "rules_and_risks": "No public submission URL currently exists (verify at mojeek.com/support); crawler is rate-limited to one feed request per 2 seconds. Mojeek is a small independent index, so expect low volume.",
+      "why_it_works": "Mojeek runs its own crawler and index (not Bing/Google data), so listing there reaches privacy-focused searchers no one else serves; the auto-feed crawl means zero-effort discovery once your feed exists.",
+      "evidence": [
+        "https://www.mojeek.com/support/search/crawling/feedfetcher.html",
+        "https://www.mojeek.com/support/"
+      ],
+      "how_searched": [
+        "websearch: search engines accepting submissions 2025",
+        "webfetch: Mojeek support + FeedFetcher pages (confirmed /add/ is 404)"
+      ],
+      "score": 22.7,
+      "found_at": "2026-10-11T19:02:42.093611+00:00"
+    },
+    {
       "name": "Unlinked brand-mention reclamation + resource-page outreach",
       "url": "https://www.varynforge.com/blog/how-to-get-organic-traffic-free-tactics-small-sites",
       "kind": "tactic",
@@ -1154,6 +1298,26 @@
       ],
       "score": 22.0,
       "found_at": "2026-10-10T00:17:34.363787+00:00"
+    },
+    {
+      "name": "SearchMySite.net (indie/personal-site blog search index)",
+      "url": "https://searchmysite.net/admin/add/",
+      "kind": "search",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Go to Add Site, enter your homepage, choose Personal or Independent site, pick a listing tier, and prove domain ownership (DNS/meta). A free 30-day Trial/Free tier is available; a Basic free listing can also be requested on your behalf by an existing Full-listing owner.",
+      "rules_and_risks": "Now requires proof of domain ownership (anonymous submissions disabled). Basic free listings must be personal/independent sites and appear in public search; the free tier expires (30 days), full tier is £12/year. It is a small index — low volume.",
+      "why_it_works": "Dedicated to the 'small web' and ad-free content, boosting your pages for readers deliberately seeking human, non-corporate sites that big engines bury.",
+      "evidence": [
+        "https://searchmysite.net/admin/add/",
+        "https://searchmysite.net/"
+      ],
+      "how_searched": [
+        "websearch: indie search engines submit URL",
+        "webfetch: searchmysite.net homepage + add-site form"
+      ],
+      "score": 22.0,
+      "found_at": "2026-10-11T19:02:42.163132+00:00"
     },
     {
       "name": "Web Stories in Google Search and Discover",
@@ -1458,6 +1622,44 @@
       "found_at": "2026-10-10T00:17:39.663371+00:00"
     },
     {
+      "name": "RSS/Atom feed directories (FeedBagel + rss.mobi) — incl. AI-agent discovery",
+      "url": "https://feedbagel.com/submit",
+      "kind": "feed",
+      "requires_account": true,
+      "official_free_api": true,
+      "how_to_use": "Publish an RSS/Atom feed, then: FeedBagel (free account) — paste your homepage and it auto-discovers feeds, then indexes and exposes search/feeds/entries API endpoints; rss.mobi — no account, submit the feed URL, and it exposes the whole directory as a public JSON API (api/v1/feeds) and OPML.",
+      "rules_and_risks": "FeedBagel requires sign-in to prevent spam; rss.mobi auto-retires feeds that stop responding and removes spam. Feed must be valid and kept fresh — stale feeds get dropped.",
+      "why_it_works": "Both explicitly frame feeds as discoverable by readers AND AI agents; rss.mobi checks popular feeds every 15 minutes and pages get one-tap Feedly/Inoreader links, so one submission compounds across readers.",
+      "evidence": [
+        "https://rss.mobi/"
+      ],
+      "how_searched": [
+        "websearch: submit RSS feed directories",
+        "webfetch: FeedBagel /submit and rss.mobi homepage"
+      ],
+      "score": 16.3,
+      "found_at": "2026-10-11T19:02:34.358866+00:00"
+    },
+    {
+      "name": "Apple Podcasts (submit/claim show in Podcasts Connect)",
+      "url": "https://podcasters.apple.com/",
+      "kind": "platform",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Host an audio/video show with any RSS hosting provider, then sign in to Apple Podcasts Connect, 'Submit a new show' with the feed URL (or 'Claim an existing show'). Add video to the feed for extra discovery.",
+      "rules_and_risks": "Requires a real show + RSS feed and a human Apple account; can't be automated. Artwork/metadata must meet Apple's guidelines or the submission is rejected.",
+      "why_it_works": "Apple Podcasts is a default preinstalled app with huge built-in search/browse discovery; creator case studies on the page report video episodes driving ~62% audience growth, and episodes are also embeddable.",
+      "evidence": [
+        "https://podcasters.apple.com/"
+      ],
+      "how_searched": [
+        "websearch: free podcast distribution directories 2025",
+        "webfetch: podcasters.apple.com"
+      ],
+      "score": 15.7,
+      "found_at": "2026-10-11T19:02:36.753348+00:00"
+    },
+    {
       "name": "Wikipedia / Wikidata presence (tactic)",
       "url": "https://en.wikipedia.org/wiki/Wikipedia:Notability",
       "kind": "tactic",
@@ -1475,6 +1677,100 @@
       ],
       "score": 14.7,
       "found_at": "2026-10-10T00:17:39.708466+00:00"
+    },
+    {
+      "name": "Hugging Face Datasets (not just Spaces) as a discovery surface",
+      "url": "https://huggingface.co/datasets",
+      "kind": "platform",
+      "requires_account": true,
+      "official_free_api": true,
+      "how_to_use": "If you publish original research, benchmarks, or scraped/open datasets, push them to a free HF dataset repo (json/csv/parquet), tag language/modality/task, and link back to your site. Datasets get their own trending/search pages and a public API/streaming URL.",
+      "rules_and_risks": "Must be a genuine dataset with a license; don't re-upload others' data without rights. HF Spaces is already known, but Datasets is a separate, searchable index — don't confuse the two or cross-spam.",
+      "why_it_works": "HF Datasets hosts 1M+ datasets with its own trending feed and full-text search, and is heavily crawled by AI/ML practitioners and model tooling; a well-tagged dataset earns inbound links and citations.",
+      "evidence": [
+        "https://huggingface.co/datasets"
+      ],
+      "how_searched": [
+        "domain recon of HF (Spaces already known)",
+        "webfetch: huggingface.co/datasets"
+      ],
+      "score": 14.7,
+      "found_at": "2026-10-11T19:02:37.050960+00:00"
+    },
+    {
+      "name": "TabNews (Portuguese-language developer community)",
+      "url": "https://www.tabnews.com.br/",
+      "kind": "community",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Create an account, post a short technical write-up (in Portuguese) or a 'Pitch: I built X' post, and engage via comments; the community votes posts up/down with tabcoins and there is a public RSS feed. Ideal for the site's pt-BR pages.",
+      "rules_and_risks": "Portuguese only; self-promo must be transparent and value-first or it gets downvoted/flagged. Community is dev-focused, so non-technical marketing content will be ignored.",
+      "why_it_works": "TabNews is an active, open-source Brazilian dev community (posts and comments are public and RSS-syndicated) where build-in-public posts regularly reach the top of the 'Relevantes' feed.",
+      "evidence": [
+        "https://www.tabnews.com.br/"
+      ],
+      "how_searched": [
+        "language-targeted search for non-English dev communities",
+        "webfetch: tabnews.com.br"
+      ],
+      "score": 13.7,
+      "found_at": "2026-10-11T19:02:38.591600+00:00"
+    },
+    {
+      "name": "Curlie (human-edited web directory, DMOZ successor)",
+      "url": "https://curlie.org/docs/en/add.html",
+      "kind": "directory",
+      "requires_account": false,
+      "official_free_api": false,
+      "how_to_use": "Search the directory first, pick the single most relevant category (World/* for non-English sites), click the 'suggest URL' icon and fill the form — no account required. Once accepted, the listing propagates to partner sites that consume the weekly RDF data dump.",
+      "rules_and_risks": "Highly selective: no mirrors, redirects, affiliate-only, incomplete, or illegal sites; submission to a category without the suggestion icon is refused; submitting repeatedly or multiple related sites can get them all excluded/deleted.",
+      "why_it_works": "Long-lived curated directory whose data is redistributed weekly to DMOZ-data partners, giving a stable, editor-vetted listing and backlink that survives algorithm changes.",
+      "evidence": [
+        "https://curlie.org/docs/en/add.html"
+      ],
+      "how_searched": [
+        "websearch: alternative web directories indie search",
+        "webfetch: curlie.org add instructions"
+      ],
+      "score": 12.7,
+      "found_at": "2026-10-11T19:02:38.919789+00:00"
+    },
+    {
+      "name": "Luma (lu.ma) free event pages with Discover feed",
+      "url": "https://luma.com/",
+      "kind": "platform",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Create a free event (e.g. a live webinar, demo, or AMA around your tool), publish it, and it appears in Luma's public Discover feed and gets a shareable page/calendar; attendees invite others.",
+      "rules_and_risks": "Account required; event must be real (a fake recurring event to farm traffic gets reported). Discover visibility depends on category/location relevance.",
+      "why_it_works": "Luma events are openly browsable in Discover and spread through RSVP invitations, so a genuinely useful free event brings a warm audience to your site at zero cost.",
+      "evidence": [
+        "https://luma.com/"
+      ],
+      "how_searched": [
+        "websearch: free event platforms 2026",
+        "webfetch: luma.com"
+      ],
+      "score": 12.7,
+      "found_at": "2026-10-11T19:02:39.136755+00:00"
+    },
+    {
+      "name": "Echo JS (JavaScript link aggregator)",
+      "url": "https://www.echojs.com/",
+      "kind": "community",
+      "requires_account": true,
+      "how_to_use": "Register, then use /submit to post a JavaScript-related article/tool; the community votes items up/down and comments. Post the link once, with a clear title.",
+      "rules_and_risks": "JavaScript-only focus; low-quality or repeat submissions get downvoted; account required and self-promo must be occasional, not the entire submission history.",
+      "why_it_works": "A long-running focused aggregator whose front page is followed by JS developers, so a genuinely useful JS tool/library post gets direct clicks and an RSS presence.",
+      "evidence": [
+        "https://www.echojs.com/"
+      ],
+      "how_searched": [
+        "websearch: dev link aggregators beyond Hacker News",
+        "webfetch: echojs.com"
+      ],
+      "score": 12.0,
+      "found_at": "2026-10-11T19:02:41.119387+00:00"
     }
   ]
 }

@@ -246,6 +246,26 @@
       "found_at": "2026-10-10T12:35:59.373537+00:00"
     },
     {
+      "name": "Candidate-Fraud & Deepfake-Interview Screening Console",
+      "field": "HR / recruitment security",
+      "summary": "A free web console where a recruiter pastes a resume, application answers, or interview notes and gets an instant 'authenticity risk' report: signs of AI-generated/templated resumes, recycled or duplicate applicant identities, contradictory employment timelines, and hints of synthetic (deepfake/voice-cloned) interviews. Rebuildable as an original web tool that layers open LLM classification + deterministic rules over user-supplied text; no personal data stored.",
+      "why_now": "Candidate fraud went mainstream in 2026: Checkr launched a Fraud Detection Suite on 2026-10-08; Zoom and BrightHire shipped deepfake-interview detection on 2026-06-24 citing a Gartner forecast that ~1 in 4 candidate profiles will be fake by 2028; Upwork's 2026 in-demand skills report lists specialized talent (recruitment/sourcing, IT & security) as the fastest-growing consulting skillsets. Detection tooling is still enterprise-priced, leaving a gap for a free self-serve checker.",
+      "monetization": "Freemium: free single-scan checker, paid seat/API tiers for agencies. Incumbent pricing is enterprise/undisclosed; no public per-scan price found (null).",
+      "evidence": [
+        "https://checkr.com/blog/checkr-launches-fraud-detection-suite",
+        "https://www.zoom.com/en/blog/zoom-and-brighthire-take-on-rising-candidate-fraud/",
+        "https://www.hiretofu.com/deepfake-detection",
+        "https://www.upwork.com/research/in-demand-skills-2026"
+      ],
+      "how_searched": [
+        "deepfake interview detection 2026",
+        "AI recruitment market 2026",
+        "Upwork in-demand skills 2026"
+      ],
+      "score": 86.0,
+      "found_at": "2026-10-11T18:58:21.774110+00:00"
+    },
+    {
       "name": "Short-Form Video Intelligence & Analytics",
       "field": "Creator Economy / MarTech",
       "summary": "Real-time analytics platform for TikTok, Reels, Shorts that tracks viral trends, competitor performance, outlier detection, and content gaps — turning signals into scripts, briefs, and ad creative.",
@@ -692,6 +712,26 @@
       ],
       "score": 80.0,
       "found_at": "2026-10-10T21:46:41.853135+00:00"
+    },
+    {
+      "name": "Browser City-Sim Game with In-World Brand Billboards",
+      "field": "Casual games / adtech",
+      "summary": "A free, instantly-playable browser game (a stylized real-city sim) monetized by renting in-game virtual billboards, plots, and sponsored stats-page slots to real brands. Original build: own art, city, and code; advertisers buy digital placements rather than display ads. No install, works on low-end phones.",
+      "why_now": "Nigeria's 'Lagos Life' browser game hit 1M+ players in days and validated the in-world-ad model: reported ~$46,900 revenue in the first 4 days, 38 billboards at around ₦5,000/week, a premium 'sea plot' at ~₦18,000/week, stats-page slots rising from ₦50,000 to ₦100,000, a reported $10M valuation, and named advertisers (Salary Index, Leadway, MyDecorTrade, ONErpm). The 'free browser game + in-world ads' playbook is early and repeatable in other cities/niches.",
+      "monetization": "Virtual billboard/plot rentals (₦5,000–₦250,000/week observed), sponsored stats-page slots, in-game boosts.",
+      "evidence": [
+        "https://techpoint.africa/news/lagos-life-1m-players/",
+        "https://www.techcityng.com/lagos-life-game-explained/",
+        "https://techviewafrica.com/articles/lagos-life-virtual-billboards-business-model",
+        "https://techbrief.africa/nigerian-browser-games-lagos-run-lagos-life/"
+      ],
+      "how_searched": [
+        "Lagos Life browser game revenue",
+        "browser game in-game advertising 2026",
+        "Nigerian browser games business model"
+      ],
+      "score": 80.0,
+      "found_at": "2026-10-11T18:58:27.238291+00:00"
     },
     {
       "name": "Embeddable AI Agent / Copilot for SaaS",
@@ -1732,6 +1772,26 @@
       "found_at": "2026-10-10T21:46:53.799133+00:00"
     },
     {
+      "name": "Pre-Launch Community Reaction Simulator (HN / Reddit / PH)",
+      "field": "Developer & founder tooling",
+      "summary": "A free web tool where you paste a draft launch post/title and it predicts how Hacker News, Reddit, or Product Hunt will react — estimated score, likely top comments (including the hostile ones), a survival score, and a rewritten draft. Rebuildable as an original app using a scraped historical-post corpus + LLM comment simulation; ship as a web UI or CLI.",
+      "why_now": "A cluster of independent tools shipped around March 2026 (Post Pilot, Reddit Roast, HN virality predictor, Noosphere, hackernews-simulator), showing a fresh, exploding niche; the practice of pre-simulating launch reactions is brand new. Ideal for the huge population of indie founders launching on these platforms.",
+      "monetization": "Freemium (free simulations, paid credits/API or team plans); one adjacent analysis modeled a variant at ~$21k MRR (self-reported/estimated, not verified).",
+      "evidence": [
+        "https://github.com/indie-rok/postpilot",
+        "https://mentionleads.com/tools/reddit-roast",
+        "https://hackernews.foresyn.ai/",
+        "https://github.com/malakhov-dmitrii/hackernews-simulator"
+      ],
+      "how_searched": [
+        "Show HN launch simulator",
+        "reddit launch post AI critique tool",
+        "predict Hacker News virality"
+      ],
+      "score": 68.0,
+      "found_at": "2026-10-11T18:58:30.600947+00:00"
+    },
+    {
       "name": "AI paid-media management agent (multi-channel ads)",
       "field": "Marketing / advertising",
       "summary": "A conversational agent that plans, launches and optimizes Google/Meta/LinkedIn/TikTok ad campaigns for small businesses that can't afford an agency — free for one channel, paid for more.",
@@ -1789,6 +1849,25 @@
       ],
       "score": 66.0,
       "found_at": "2026-10-10T06:18:16.644576+00:00"
+    },
+    {
+      "name": "AI Prompt Optimizer & Team Prompt Library",
+      "field": "AI productivity",
+      "summary": "A free web tool that turns a rough, messy prompt into an expert-grade prompt for any model, plus a searchable library of reusable prompts. Rebuildable as an original single-page web app (client-side prompt rewriting + saved library), with optional team sharing.",
+      "why_now": "Prompt tooling is converting now and ranks among the top verified-revenue micro-SaaS: a prompt fixer grew 3,120% to $1,285 MRR in TrustMRR's newsletter; SurePrompts reports ~$201k total revenue and is ranked #6 with revenue refreshed 2026-10-11; Prompt Engine shows ~$705 MRR. 'Prompt engineering' remains a top-trending search topic. Demand is proven and the build cost is near zero.",
+      "monetization": "Freemium: free basic optimization, paid Pro (~$2.50/mo or $29.99/yr seen) and team seats.",
+      "evidence": [
+        "https://trustmrr.com/newsletter/your-prompting-sucks-we-fix-it-3119-growth",
+        "https://trustmrr.com/startup/sureprompts",
+        "https://explodingtopics.com/blog/trending-topics"
+      ],
+      "how_searched": [
+        "TrustMRR newsletter fast-growing SaaS",
+        "AI prompt optimizer tool revenue",
+        "exploding topics 2026"
+      ],
+      "score": 66.0,
+      "found_at": "2026-10-11T18:58:46.866573+00:00"
     },
     {
       "name": "AI study & exam-practice platform",
@@ -2360,6 +2439,24 @@
       "found_at": "2026-10-10T00:11:12.828775+00:00"
     },
     {
+      "name": "Marketplace Competitor & Price Tracker for Small Sellers",
+      "field": "E-commerce tooling",
+      "summary": "A free web dashboard that lets small Amazon/Etsy/Shopify sellers paste a product/listing and track competitor prices, stock, and ranking changes over time, with alerts. Rebuildable as an original crawler/UI using public listing pages; the differentiator is a genuinely free tier for solo sellers instead of enterprise-priced suites.",
+      "why_now": "Keepa (the reference price-history tool) has 5M+ users and added ~1M in a single week, and adjacent marketplace-scraper extensions are also adding ~100k users/week — while sellers complain that existing tools are either enterprise-priced ($500+/month) or too complex. Demand for an affordable/free tier is demonstrably high and growing fast.",
+      "monetization": "Freemium: free tracking for a few products, paid tiers for more SKUs/alerts. Keepa is subscription-based; competitor suites cited at ~$500+/month by users.",
+      "evidence": [
+        "https://extensiontracker.com/top/growing",
+        "https://www.reddit.com/r/AppIdeas/comments/1q5mecg/"
+      ],
+      "how_searched": [
+        "Chrome Web Store trending extensions 2026",
+        "Reddit wish there was an app ecommerce",
+        "price tracking tool sellers complaint"
+      ],
+      "score": 48.7,
+      "found_at": "2026-10-11T18:58:27.321390+00:00"
+    },
+    {
       "name": "AI Personalized Children's Storybook Generator (DreamStories/Magic Story-model)",
       "field": "Consumer / education / gifting",
       "summary": "A free web tool that creates an illustrated, personalized children's storybook from a child's name, appearance and a chosen theme/adventure, delivered as a viewable digital book.",
@@ -2421,6 +2518,40 @@
       ],
       "score": 41.3,
       "found_at": "2026-10-09T19:36:10.599355+00:00"
+    },
+    {
+      "name": "AI Character Companion (PG / Interactive Fiction)",
+      "field": "Consumer AI / entertainment",
+      "summary": "A free web app for PG-rated AI character chat and branching interactive fiction — custom personas, memory, and story arcs, explicitly non-adult. Rebuildable as an original web app on top of a hosted LLM API with your own character/scene system and safety filters.",
+      "why_now": "Consumer spending on general (PG) AI companion apps reached roughly $164.8M in H1 2026, with a further ~$162.8M in the romantic/NSFW segment (which this build deliberately excludes); companion apps are repeatedly listed among the top-grossing/fastest-growing consumer AI categories in 2026. The audience and willingness to pay are proven, while the PG niche remains less saturated.",
+      "monetization": "Freemium/subscription for persona packs, memory, and unlimited messages; category revenue is large ($164.8M H1 2026, PG segment).",
+      "evidence": [
+        "https://companionrater.com/blog/biggest-ai-companion-apps-2026",
+        "https://point2web.com/blog/top-5-mobile-app-categories-winning-in-the-us-in-2026/"
+      ],
+      "how_searched": [
+        "biggest AI companion apps 2026 revenue",
+        "top mobile app categories US 2026"
+      ],
+      "score": 40.0,
+      "found_at": "2026-10-11T18:58:47.216274+00:00"
+    },
+    {
+      "name": "YouTube Research & Channel-Analytics Copilot",
+      "field": "Creator economy tooling",
+      "summary": "A free web/extension tool that helps long-form YouTube creators find outliers, analyze keywords/thumbnails/titles, and track competitor channel performance. Rebuildable as an original app using public YouTube metadata.",
+      "why_now": "YouTube research/analytics extensions are among the fastest-growing in the Chrome Web Store (e.g., Nexlev adding ~100k users/week on the growing list), signaling strong, sustained creator demand for cheaper in-house alternatives to paid research suites.",
+      "monetization": "Freemium extension/web app (free research, paid exports/alerts); specific competitor pricing not verified (null).",
+      "evidence": [
+        "https://extensiontracker.com/top/growing",
+        "https://extops.dev/extensions/trending"
+      ],
+      "how_searched": [
+        "Chrome extension trending 2026",
+        "fast-growing Chrome extensions list"
+      ],
+      "score": 38.7,
+      "found_at": "2026-10-11T18:58:47.553123+00:00"
     },
     {
       "name": "Promo-code finder & price-drop tracker",
@@ -2486,6 +2617,23 @@
       ],
       "score": 36.7,
       "found_at": "2026-10-11T01:04:59.708114+00:00"
+    },
+    {
+      "name": "Compliance Automation (SOC 2 / Security Questionnaire)",
+      "field": "B2B SaaS / security compliance",
+      "summary": "A free starter web tool that helps startups generate SOC 2/ISO-ready policies, answer security questionnaires, and track control evidence. Rebuildable as an original web app with policy templates and a questionnaire-autofill engine.",
+      "why_now": "Compliance-automation startups are posting visible revenue and growth on open revenue leaderboards (e.g., Comp AI tracked at ~$482k revenue, +25%) as every B2B SaaS buyer now demands SOC 2. The category is expanding while incumbents remain expensive.",
+      "monetization": "Freemium: free policy generation, paid tiers for audit support/continuous monitoring; a tracked incumbent shows ~$482k revenue (+25%).",
+      "evidence": [
+        "https://www.arr.club/rankings/2026/10",
+        "https://hunted.space/top-products/2026/October/saas"
+      ],
+      "how_searched": [
+        "top SaaS by ARR October 2026",
+        "fastest growing SaaS products 2026"
+      ],
+      "score": 36.7,
+      "found_at": "2026-10-11T18:58:48.337580+00:00"
     }
   ]
 }
