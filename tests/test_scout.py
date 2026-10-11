@@ -172,6 +172,15 @@ class AppBuilderTests(unittest.TestCase):
         self.assertIn("syntax", app_page.check(dict(ok, html=self._html("var = ;"))))
         self.assertIn("size", app_page.check(dict(ok, html="<html><body>ص</body></html>")))
 
+    def test_extract_raw_html_with_fences_and_chatter(self):
+        from publish import app_page
+        html = self._html().replace("<title>تطبيق</title>", '<title>محرر</title><meta name="description" content="وصف عربي">')
+        spec = app_page._extract("هذا هو التطبيق:\n```html\n" + html + "\n```\nتم.", "my-app")
+        self.assertEqual((spec["slug"], spec["title"], spec["description"]), ("my-app", "محرر", "وصف عربي"))
+        self.assertEqual(app_page.check(spec), "")
+        with self.assertRaises(ValueError):
+            app_page._extract("no html here", "x")
+
     def test_social_skips_without_secrets(self):
         import os
         from notify import social
