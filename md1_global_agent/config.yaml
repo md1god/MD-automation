@@ -13,7 +13,7 @@ publish_apps: true     # every tested app is published immediately (no daily cap
 apps_per_run: 3
 app_budget_seconds: 1200       # per app
 apps_budget_seconds: 2700
-plans_per_run: 4          # every scanned opportunity becomes a published plan page (no filter on taste)
+plans_per_run: 40          # every scanned opportunity becomes a published plan page (no filter on taste)
 plans_budget_seconds: 3000      # whole app phase
 app_idea_attempts: 8           # opportunities turned into app ideas per run
 max_pages: 4            # GitHub search pages scanned per category to find NEW (never examined) projects
@@ -83,3 +83,5 @@ llm:
 telegram_report_channel: "@md1god"
 
 memory_file: memory/memory.json
+
+sweep_per_run: 14          # extra topic queries per run, rotating through ~170 topics of every field
