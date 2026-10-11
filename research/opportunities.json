@@ -143,6 +143,25 @@
       "found_at": "2026-10-10T21:46:40.513358+00:00"
     },
     {
+      "name": "Document analytics platform (DocSend alternative)",
+      "field": "SaaS / Sales & fundraising / Productivity",
+      "summary": "Web tool to share PDFs/decks/data rooms via tracked links: page-by-page dwell analytics, real-time open notifications, per-recipient dynamic watermarking, expiring links, NDA gates, audit logs. Free tier with full analytics; flat pricing instead of DocSend's per-seat model. Highly rebuildable (Next.js + PDF viewer + Stripe).",
+      "why_now": "Dropbox killed DocSend's free tier (2025) and its Send & Track analytics; standalone DocSend now costs $10-65/user/mo. Vacuum is being filled fast with proven revenue: Papermark bootstrapped to ~$45K/mo (founder-claimed >$500K ARR, 2 people); PaperTrack announced 1,000+ active users and 50+ paying accounts in one month (Oct 2, 2026); Papersend reports 20K+ processed pages / 90K+ served views. The 'who opened my deck/proposal' pain is universal among founders, agencies, and sales teams.",
+      "monetization": "Freemium: free tier keeps full page analytics; paid flat-rate tiers ~$15-49/mo for watermarking, data rooms, seats; annual discounts; team/enterprise for audit log and SSO.",
+      "evidence": [
+        "https://www.indiehackers.com/product/papertrack",
+        "https://aidocx.ai/en/blog/dropbox-killed-docsend-tracking-best-alternatives-2026",
+        "https://thegtmdirectory.com/tools/papersend",
+        "https://note.com/ai_biz_hunt/n/n786013b07c4a?hl=en"
+      ],
+      "how_searched": [
+        "IndieHackers product and posts pages (webfetch)",
+        "Web search: AI document analytics / who viewed your document DocSend alternative revenue 2026"
+      ],
+      "score": 87.0,
+      "found_at": "2026-10-11T01:04:47.960548+00:00"
+    },
+    {
       "name": "AI Presentation / Deck Generator (Gamma-model)",
       "field": "Productivity - presentation & visual-storytelling software",
       "summary": "A free web tool that turns a topic, prompt, or pasted document into a fully designed slide deck / web-native presentation in seconds. Users type an idea, pick a style, and get editable slides, matching layouts and images.",
@@ -660,6 +679,24 @@
       "found_at": "2026-10-08T03:07:39.374213+00:00"
     },
     {
+      "name": "AI gift recommendation web tool (seasonal/affiliate)",
+      "field": "Consumer / Retail / GenAI",
+      "summary": "Free web tool: user answers 3-4 questions (recipient age/personality/interests, occasion, budget) and gets ~16 personalized gift ideas with direct buy links (Amazon/Etsy). Optionally adds gifting-reminder calendar. Trivial to rebuild (LLM + product/shopping search API + affiliate links).",
+      "why_now": "Right at the Q4 holiday window. Gartner (Oct 7, 2026): 34% of US consumers are willing to use GenAI for holiday gift recommendations; consumers using AI shopping consult 4.48 inspiration sources vs 3.24 for non-users - AI is adding a discovery layer, not replacing. Goody (20K+ companies) shipped AI Gifting (Dec 2025); multiple fresh entrants (Giftella iOS, Evergift $9.99 lifetime, OffList, GIFTS AI). Big pain point: avg. US shopper spends 3+ hrs per gift search; gifting is a ~$500B US market. Low competitive intensity, huge seasonal spike opportunity before Black Friday.",
+      "monetization": "Affiliate commissions on buy links (Amazon/Etsy/Uncommon Goods); free to use; optional Pro ($ flat / lifetime) for reminders, wishlists, corporate gifting.",
+      "evidence": [
+        "https://www.gartner.com/en/newsroom/press-releases/2026-10-07-gartner-marketing-survey-finds-thirty-four-percent-of-us-consumers-are-willing-to-use-genai-for-holiday-gift-recommendations",
+        "https://www.prweb.com/releases/goody-introduces-ai-gifting-an-ai-powered-assistant-for-personalized-gifts-at-scale-302634904.html",
+        "https://www.marketscreener.com/news/giftella-llc-launches-free-ai-powered-gift-recommendation-app-on-ios-app-store-ce7e51d8d181f72d",
+        "https://www.evergift.us/"
+      ],
+      "how_searched": [
+        "Web search: AI gift recommendation startup launch 2026 trending holiday"
+      ],
+      "score": 79.0,
+      "found_at": "2026-10-11T01:04:49.408551+00:00"
+    },
+    {
       "name": "Voice-agent QA & live-call benchmark platform",
       "field": "Conversational AI / voice-agent QA",
       "summary": "Testing, simulation and benchmarking for voice AI agents before and during production — speech-to-speech eval on live phone calls, regression suites and CI/CD integration. Cekura Bench launched on Product Hunt Oct 8.",
@@ -765,6 +802,25 @@
       ],
       "score": 77.0,
       "found_at": "2026-10-10T12:36:41.822902+00:00"
+    },
+    {
+      "name": "Free/open-source AI code review for PRs",
+      "field": "Dev tools / AI / Code quality",
+      "summary": "Web tool/GitHub app that reviews pull-request diffs with LLMs - catches bugs, security issues, style drift; posts inline comments with explanations and suggested fixes. Rebuildable as a free-tier original: free for open-source/repo-limited reviews, paid beyond. Harder than other ideas (needs GitHub/GitLab webhooks) but the market validation is enormous.",
+      "why_now": "AI coding tools tripled PR volume, so human review is the bottleneck. CodeRabbit reached ~$50M ARR (Sacra, July 2026), raised $143M at a $1.5B valuation (Reuters/Nasdaq, Aug 2026), 17,000+ customers, 2M+ code reviews/week, revenue growing >5x YoY; Greptile grew customers 4x / spend 8x in 9 months (ACV ~$2K, YipitData). Sub-category 'review AI-generated code' is explicitly in focus for VCs and vendors.",
+      "monetization": "Freemium: forever-free tier for open-source / limited reviews (model adopted by CodeRabbit); per-active-developer or per-repo subscription beyond; enterprise add-ons (security, audit).",
+      "evidence": [
+        "https://sacra.com/c/coderabbit/",
+        "https://www.reuters.com/technology/ai-code-review-platform-coderabbit-valued-15-billion-latest-funding-round-2026-08-12/",
+        "https://www.nasdaq.com/press-release/coderabbit-raises-143-million-15-billion-valuation-and-introduces-agentic-change",
+        "https://www.yipitdata.com/resources/greptile-vs-coderabbit-ai-code-review-market"
+      ],
+      "how_searched": [
+        "Web search: CodeRabbit AI code review ARR valuation growth 2026",
+        "YipitData market report (webfetch)"
+      ],
+      "score": 77.0,
+      "found_at": "2026-10-11T01:04:53.199130+00:00"
     },
     {
       "name": "AI Content Repurposing (Long-Form → Short-Form)",
@@ -1016,6 +1072,23 @@
       ],
       "score": 74.0,
       "found_at": "2026-10-10T06:18:12.098914+00:00"
+    },
+    {
+      "name": "Open-source, agent-native SEO suite (Semrush/Ahrefs alternative)",
+      "field": "Marketing / SEO / AI agent tools",
+      "summary": "Pay-as-you-go SEO platform: keyword research, rank tracking, backlink analysis, site audits, plus AI-visibility/GEO citation tracking, exposed via an MCP server so coding agents can run SEO workflows. Note: overlaps partially with the already-known 'AI-search visibility/GEO checker' - the differentiator here is the full open-source suite + MCP for AI-native teams.",
+      "why_now": "Ahrefs raised to $129/mo (Mar 2026) with mandatory per-seat billing; Semrush Pro $139.95/mo. 'OpenSEO' (MIT, hosted $10/mo) earned #2 Product of the Day on PH (Oct 8, 2026, 384 upvotes), ~22.7K GitHub stars, weekly releases, MCP/AI-visibility features; earlier July launch claimed 900+ upvotes/#1 POTD with 22K stars. Strong visible demand for affordable + agent-callable SEO data.",
+      "monetization": "Open source; hosted subscription (~$10/mo) + usage-based data fees (or BYO DataForSEO key when self-hosting); AI-visibility checks metered.",
+      "evidence": [
+        "https://www.producthunt.com/products/openseo",
+        "https://reveneau.com/ainews/openseo-open-source-semrush-ahrefs-alternative-22707-stars-mcp",
+        "https://neuralpaws.com/openseo-review/"
+      ],
+      "how_searched": [
+        "Web search: open source SEO audit tool alternative Semrush Ahrefs 2026 product hunt"
+      ],
+      "score": 74.0,
+      "found_at": "2026-10-11T01:04:53.933023+00:00"
     },
     {
       "name": "Personal data-broker opt-out & removal-request generator",
@@ -1371,6 +1444,25 @@
       "found_at": "2026-10-10T21:46:50.900474+00:00"
     },
     {
+      "name": "No-code AI voice agent builder (inbound/outbound calls)",
+      "field": "Voice AI / Vertical SaaS / Call centers",
+      "summary": "Web platform where a business pastes a site/description and instantly gets an AI phone agent (24/7 receptionist, appointment booking, lead qual, outbound) - test calls in browser, connect Twilio number, per-minute pricing with no-code flow canvas. Rebuildable but heavier: needs STT/TTS/LLM orchestration + telephony; consider offering browser + telephony-lite MVP.",
+      "why_now": "Retell AI reached ~$60M ARR by April 2026, up ~650% YoY, on ~$5M funding (Sacra via YesPress) - one of the most capital-efficient stories in voice AI. Flood of entrants (Retell, Vapi, Bland, Sierra, Voicecon $59+/mo, Flozic, Relay PH launch, Telli ~1M calls months after launch). Missed calls = biggest revenue leak for local businesses; the wedge is strong and monetization is proven (per-minute).",
+      "monetization": "Usage-based: platform fee per call minute (~$0.05-0.35/min) + pass-through model costs; freemium trial minutes; tiered plans; bring-your-own telephony (Twilio).",
+      "evidence": [
+        "https://yespress.io/retell-ai-60m-business-5-cents-a-minute",
+        "https://www.producthunt.com/products/thinnest-ai",
+        "https://voicecon.ai/",
+        "https://www.flozic.ai/agents/voice",
+        "https://neuronfeed.com/startups/telli"
+      ],
+      "how_searched": [
+        "Web search: voice AI agent no-code inbound calls startup revenue 2026 product hunt featured"
+      ],
+      "score": 70.0,
+      "found_at": "2026-10-11T01:04:54.926584+00:00"
+    },
+    {
       "name": "Prescription price-comparison & savings tool",
       "field": "Consumer health / pharmacy savings",
       "summary": "Search a drug plus ZIP to compare cash prices across discount programs and nearby pharmacies, with alerts on price changes. A free, no-insurance comparison tool.",
@@ -1701,6 +1793,23 @@
       "found_at": "2026-10-10T17:55:05.225642+00:00"
     },
     {
+      "name": "AI trip planner with budget-first itinerary + booking links",
+      "field": "Travel / Consumer / GenAI",
+      "summary": "Free web tool: enter budget + dates (not destination), get a multimodal itinerary (flights/trains/buses/stays) with bookable links and 'for you' recommendations that improve after a few interactions. Rebuildable as itinerary generation + affiliate booking; true booking/licensing is the hard part, so scope to planning + affiliate links.",
+      "why_now": "Tryp.com: €1.9M round (Sept 30, 2026) led by Point Capital, €5.9M total raised, passed 10M users, ~1M users/mo, ~14K tickets/mo, sales up 4x and revenue more than tripling in 2026, powers Wizz Air's WIZZ Holidays platform (launched July 2026); half of its bookings come from users who never typed a search. AI-native travel planning is validated as a breakout category (Mindtrip ~$22.5M raised; MakeMyTrip went AI-first) and the 'free planning, book elsewhere' wedge remains open.",
+      "monetization": "Free planner; affiliate/commission on bookings, experiences and stays; creator/social referral; optional pro for offline/saved trips.",
+      "evidence": [
+        "https://traveltradedesk.com/articles/tryp-com-raises-1-6m-to-scale-airline-holiday-packaging-beyond-wizz-air-460cad90",
+        "https://tech.eu/2026/09/30/from-six-engineering-students-to-10m-users-trypcom-raises-eur19m/",
+        "https://www.tryp.com/cs/blog/we-just-raised-19m-to-help-you-travel-more-for-less"
+      ],
+      "how_searched": [
+        "Web search: AI travel planner startup growth 2026 revenue users funding (Tryp.com)"
+      ],
+      "score": 63.0,
+      "found_at": "2026-10-11T01:04:56.660944+00:00"
+    },
+    {
       "name": "Viral-product dupe finder",
       "field": "Commerce / Shopping",
       "summary": "A free web tool where you paste a viral product or brand and get cheaper equivalent items that people are actively searching for instead.",
@@ -1778,6 +1887,23 @@
       "found_at": "2026-10-10T17:55:06.182989+00:00"
     },
     {
+      "name": "Security scanner for AI-built ('vibe-coded') apps",
+      "field": "Dev tools / Cybersecurity / AI",
+      "summary": "Automated scanner that checks a web app's public attack surface (exposed frontend secrets, permissive DB rules, missing HTTP security headers, misconfigs) and returns ranked findings with copy-paste fix instructions written for the user's coding agent. Rebuildable as a free website/web tool: paste a URL or GitHub repo, scan, show risk count free, charge for full findings.",
+      "why_now": "The vibe-coding boom means non-specialists ship production apps in days, and AI-generated code has the same misconfig risks. Verified demand: 'Vibe App Scanner' (TrustMRR, Stripe-verified) - $5,608 all-time, $903 last 30d, ~$924 MRR, 36 subscriptions, founded Dec 2025, pricing $19-39/mo, also on AppSumo; CheckVibe reported ~$11K gross, 350+ paying customers, ~8K signups (~4.4% signup-to-paid) in months. Multiple entrants (CheckVibe, CyberChecker, Vibe App Scanner) all growing - the niche is crowded-proof and hot right now.",
+      "monetization": "Free scan shows 'N critical findings' and severity; paid unlock shows details + AI-ready fix prompts ($19-39/mo); upsell to recurring monitoring, alerts, and team re-scans.",
+      "evidence": [
+        "https://trustmrr.com/startup/vibe-app-scanner",
+        "https://www.volanea.com/blog/vibe-coding-saas-growth-lessons"
+      ],
+      "how_searched": [
+        "TrustMRR verified-revenue startup page (webfetch)",
+        "Web search: vibe coding SaaS security scanner $11K launch case study / Reddit r/SaaS"
+      ],
+      "score": 60.7,
+      "found_at": "2026-10-11T01:04:46.361550+00:00"
+    },
+    {
       "name": "Bilingual website / PDF / video translation extension",
       "field": "Productivity / browser translation",
       "summary": "A browser extension that shows bilingual side-by-side translations of web pages, PDFs, e-books and video subtitles, with a free tier.",
@@ -1795,6 +1921,23 @@
       ],
       "score": 58.0,
       "found_at": "2026-10-10T17:55:10.727432+00:00"
+    },
+    {
+      "name": "Local-first PII redaction tool for AI conversations",
+      "field": "Privacy / Consumer security / AI",
+      "summary": "Browser extension (and/or web redactor) that auto-scrubs names, SSNs, emails, phone numbers, card numbers, medical ID, API keys from prompts and uploaded docs before they reach ChatGPT/Claude/Gemini - 100% local, network-level interception as safety net, placeholder tokens keep responses coherent. Fully rebuildable as a free extension + paste-to-redact web tool.",
+      "why_now": "Growing 'never upload sensitive data to AI' anxiety among professionals and compliance-driven orgs. Strong open-source signal: Blankit (network-level interceptor, works on ChatGPT/Claude/Gemini) plus clones Sanitizit and SafePrompt appearing in months; Reddit posts asking for exactly this. Multiple independent implementations in 2026 indicate real, unmet demand. Caveat: monetization is weak for consumer free extensions.",
+      "monetization": "Free/open-source; potential paid: team import/export of redaction sets, downloadable compliance audit logs, managed self-hosted workspace.",
+      "evidence": [
+        "https://github.com/SVirat/blankit",
+        "https://extpose.com/ext/oihdkggpbopimdndhephiechoegagoeb",
+        "https://www.launchrecord.com/products/blankit-1105904"
+      ],
+      "how_searched": [
+        "Web search: Blankit browser extension PII redaction before sharing with AI GitHub"
+      ],
+      "score": 58.0,
+      "found_at": "2026-10-11T01:04:58.249059+00:00"
     },
     {
       "name": "Failed-Payment Recovery / Dunning for Small SaaS (Rebounce-model)",
@@ -2033,6 +2176,22 @@
       ],
       "score": 36.7,
       "found_at": "2026-10-07T23:12:54.127848+00:00"
+    },
+    {
+      "name": "Local/open-source Lightroom-style AI photo editor",
+      "field": "Creative tools / Photography / Local AI",
+      "summary": "Free, on-device RAW photo editor: Lightroom-style controls, AI masks/denoise/upscale, edits saved as portable XMP sidecars, imports Lightroom catalogs - no subscription, no account, no cloud. Rebuildable as web tool (WebGPU-based editor exists as a model), though the current hits are desktop apps.",
+      "why_now": "Strong recent HN traction: 'Rembrandt' Show HN (Oct 8, 2026) - GPL-3.0, cross-platform, on-device AI, self-hostable server mode; sibling project RAWmakase hit 923 stars in ~15 days; 'software is over'/subscription-fatigue discourse (Ars Technica, Oct 7, 2026). Photographers are actively looking to escape Lightroom's subscription + catalog lock-in, and local-AI editing is a fresh technical angle.",
+      "monetization": "Free/GPL; optional paid cloud sync (the model Rembrandt uses); donations; enterprise/studio hosting add-ons.",
+      "evidence": [
+        "https://deniz.in/rembrandt-free-open-source-lightroom-alternative-with-on-device-ai-hits-macos-wi",
+        "https://www.briefflash.com/rembrandt-open-source-lightroom-alternative/"
+      ],
+      "how_searched": [
+        "Web search: 'Show HN' free open source Lightroom alternative photo editor 2026"
+      ],
+      "score": 36.7,
+      "found_at": "2026-10-11T01:04:59.708114+00:00"
     }
   ]
 }
