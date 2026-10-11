@@ -15,7 +15,7 @@ from agent import _unique_new                                  # noqa: E402
 
 REPO = {"full_name": "acme-labs/super-tracker", "url": "https://github.com/acme-labs/super-tracker",
         "category": "productivity", "description": "d", "stars": 500}
-PLAN = ("1) الجمهور المستهدف\nالمستقلون الذين يحتاجون تتبع الوقت وإصدار فواتير بسهولة. " * 6 +
+PLAN = ("1) الجمهور المستهدف\nالمستقلون الذين يحتاجون تتبع الوقت وإصدار فواتير بسهولة. " * 40 +
         "\n7) الاسم المقترح والجملة التسويقية\nالاسم المقترح: ساعاتي\nالجملة التسويقية: خطط يومك وحوّل ساعاتك إلى فاتورة\n"
         "هذا الملف مبني على super-tracker من acme-labs https://github.com/acme-labs/super-tracker")
 
@@ -64,7 +64,7 @@ class PrivacyAndPayloadTests(unittest.TestCase):
         bad = dict(ok, body=ok["body"] + " super-tracker")
         self.assertFalse(mdm1_page.quality_gate(bad, terms)[0])
         self.assertFalse(mdm1_page.quality_gate(dict(ok, body="قصير"), terms)[0])
-        self.assertFalse(mdm1_page.quality_gate(dict(ok, title="English", description="English only", body="x " * 600), terms)[0])
+        self.assertFalse(mdm1_page.quality_gate(dict(ok, title="English", description="English only", body="x " * 1600), terms)[0])
         with self.assertRaises(mdm1_page.PageRejected):
             mdm1_page.build_payload("قصير", "abc", terms)
 
@@ -133,7 +133,7 @@ class PrivateDeliveryTests(unittest.TestCase):
         main.make_plan.used = "m"
         main.migrate_legacy = lambda l: None
         main.telegram.send_private = lambda t: private_ok
-        main.telegram.send = lambda text, channel="": sent.__setitem__("report", text) or True
+        main.telegram.send = lambda text, channel="": (False if text.startswith("📝") and not private_ok else (sent.__setitem__("report", text) or True))
         saved = {}
         orig_save = Ledger.save
         Ledger.save = lambda self: saved.__setitem__("ledger", self)

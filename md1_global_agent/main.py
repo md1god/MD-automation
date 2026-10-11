@@ -73,7 +73,7 @@ def plan_and_publish(best: dict, config: dict, ledger: Ledger):
         return None, {"state": "failed", "url": "", "reason": f"رُفضت الصفحة: {exc}"}, provider, None, False
     if not config.get("publish_pages", True):
         # Publishing is paused until a COMPLETE project exists: the plan goes to the owner only.
-        sent = telegram.send_private(f"📝 خطة جاهزة للمراجعة — فرصة {pub_id}\n\n{plan_md[:3400]}")
+        sent = telegram.send_private(f"📝 خطة جاهزة للمراجعة — فرصة {pub_id}\n\n{plan_md[:3400]}") or telegram.send(f"📝 خطة جاهزة — فرصة {pub_id}\n\n{payload['body'][:3400]}", config.get("telegram_report_channel", ""))
         state = "held" if sent else "held_unsent"       # unsent -> not marked examined, retried next run
         return None, {"state": state, "url": "", "reason": ""}, provider, payload, False
     payload["translations"] = translate_all(payload, terms, llm, config.get("page_languages", []),

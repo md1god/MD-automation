@@ -24,10 +24,10 @@ SITE_URL = "https://mdm1.org"
 API = "https://api.github.com"
 PENDING_DIR = Path(__file__).resolve().parents[1] / "memory" / "pending"
 
-NOTICE = ("هذه خطة مشروع قيد الدراسة والتطوير ولم يُطلق بعد. "
-          "نشارك تفاصيلها هنا لمتابعة التقدم خطوة بخطوة.")
+NOTICE = ("خطة تنفيذ كاملة لمشروع رقمي جديد: الفكرة والجمهور والمنتج والنموذج الربحي وخطة الانتشار والمخاطر. "
+          "المشروع قيد البناء ولم يُطلق بعد.")
 MAX_BODY = 7000
-MIN_BODY = 600
+MIN_BODY = 2500
 MIN_ARABIC_RATIO = 0.35
 
 
@@ -79,7 +79,7 @@ def build_payload(plan_md: str, pub_id: str, terms: list, ledger_key: str = "") 
     name, pitch = extract_name_and_pitch(text)
     name = "" if privacy.HIDDEN in name else name
     pitch = "" if privacy.HIDDEN in pitch else pitch
-    title = f"{name} — خطة مشروع قيد الدراسة" if name else f"خطة مشروع جديد · {pub_id}"
+    title = f"{name} — خطة مشروع كاملة" if name else f"خطة مشروع جديد · {pub_id}"
     description = (pitch or "خطة أصلية لمشروع رقمي جديد: الجمهور، الفكرة، النموذج الربحي وخطة الانتشار.")[:160]
     body = f"{NOTICE}\n\n{text}"[:MAX_BODY]
     payload = {"id": pub_id, "ledger_key": ledger_key, "title": title, "description": description,
@@ -95,6 +95,8 @@ def quality_gate(payload: dict, terms: list):
     found = privacy.leaks(whole, terms)
     if found:
         return False, f"تسريب هوية المصدر ({len(found)} عنصر) — تم إيقاف النشر"
+    if "·" in payload["title"] and payload["title"].startswith("خطة مشروع جديد"):
+        return False, "الخطة بلا اسم مقترح — غير مكتملة"
     if len(payload["body"]) < MIN_BODY:
         return False, "نص الخطة قصير جدًا لنشره"
     if not 3 <= len(payload["title"]) <= 120:
