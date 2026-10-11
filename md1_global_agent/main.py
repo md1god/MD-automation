@@ -15,9 +15,9 @@ import yaml
 from agent import run
 from builder.planner import make_plan
 from memory.ledger import Ledger, key_for, public_id
-from notify import telegram
+from notify import social, telegram
 from privacy import identity_terms
-from publish import mdm1_page, tool_page
+from publish import app_page, mdm1_page, tool_page
 from publish.translate import translate_all
 
 LEGACY_PLANNED = Path("memory/planned.json")
@@ -109,7 +109,34 @@ def build_tool(config: dict, ledger: Ledger):
     ledger.mark_examined("tool:" + slug, "tool-published")
     promo = (f"🛠️ أداة مجانية جديدة: {spec['h1']}\n{spec['description']}\n\n🔗 {outcome['url']}\n\n#MDM1 #أدوات_مجانية")
     sent = telegram.send_channel(promo, config.get("telegram_report_channel", ""))
-    return f"🛠️ أداة اليوم نُشرت: {spec['h1']}\n{outcome['url']}\nالترويج في القناة: {'تم ✅' if sent else 'لم يتم ⚠️'}"
+    nets = social.announce(f"🛠️ أداة مجانية جديدة: {spec['h1']} — {spec['description']}", outcome["url"])
+    return (f"🛠️ أداة اليوم نُشرت: {spec['h1']}\n{outcome['url']}\nالترويج: قناة تليجرام "
+            f"{'✅' if sent else '⚠️'}" + (f" + {', '.join(nets)} ✅" if nets else " (لا حسابات اجتماعية مربوطة بعد)"))
+
+
+def build_app(config: dict, ledger: Ledger):
+    """One complete working web app per run -> mdm1.org/apps. Returns a report block or ''."""
+    if not config.get("publish_apps", True):
+        return ""
+    idea = app_page.pick_idea(ledger)
+    if not idea:
+        return "📱 التطبيقات: انتهت قائمة الأفكار الجاهزة — أضف أفكارًا جديدة."
+    slug, text = idea
+    deadline = time.time() + config.get("app_budget_seconds", 1200)
+    spec, provider, why = app_page.build(config.get("llm", {}), slug, text, deadline=deadline)
+    if not spec:
+        print(f"App {slug}: build failed ({why[:120]})")
+        return f"📱 تطبيق اليوم لم يُبنَ: {why[:140]}\nستُعاد المحاولة في التشغيل القادم."
+    outcome = app_page.publish(spec, mdm1_page.env_token())
+    print(f"App {slug}: {outcome['state']} {outcome['reason']}")
+    if outcome["state"] != "published":
+        return f"📱 تطبيق اليوم ({spec['title'][:40]}) لم يُنشر: {outcome['reason']}"
+    ledger.mark_examined("app:" + slug, "app-published")
+    promo = f"📱 تطبيق مجاني جديد: {spec['title']}\n{spec['description']}\n\n🔗 {outcome['url']}\n\n#MDM1 #تطبيقات_مجانية"
+    sent = telegram.send_channel(promo, config.get("telegram_report_channel", ""))
+    nets = social.announce(f"📱 تطبيق مجاني جديد: {spec['title']} — {spec['description']}", outcome["url"])
+    return (f"📱 تطبيق اليوم نُشر: {spec['title']}\n{outcome['url']}\nالترويج: قناة تليجرام "
+            f"{'✅' if sent else '⚠️'}" + (f" + {', '.join(nets)} ✅" if nets else " (لا حسابات اجتماعية مربوطة بعد)"))
 
 
 def private_details(top: list, best) -> str:
@@ -136,7 +163,7 @@ def main():
         print(f"{a['score']:5} | {o['mode']:16} | {public_id(r['full_name'])} | {r['category']}")
     print("Advice:", report["advice"])
 
-    tool_block = build_tool(config, ledger)
+    tool_block = "\n\n".join(b for b in (build_app(config, ledger), build_tool(config, ledger)) if b)
     best = next((o for o in opportunities if "builder" in o), None)
     plan_error = outcome = provider = payload = None
     promo_sent = False

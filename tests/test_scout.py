@@ -158,6 +158,28 @@ class ToolBuilderTests(unittest.TestCase):
         self.assertNotEqual(tool_page.pick_idea(lg)[0], first)
 
 
+class AppBuilderTests(unittest.TestCase):
+    def _html(self, js="var a=1;"):
+        return ('<!DOCTYPE html><html lang="ar" dir="rtl"><head><meta charset="utf-8"><title>تطبيق</title><style>body{color:#fff}</style></head><body>'
+                + "<p>نص عربي للتطبيق</p>" * 200 + f"<script>{js}</script></body></html>")
+
+    def test_check_gates(self):
+        from publish import app_page
+        ok = {"slug": "x", "title": "ت", "description": "و", "html": self._html()}
+        self.assertEqual(app_page.check(ok), "")
+        self.assertIn("unsafe", app_page.check(dict(ok, html=self._html("fetch('/a')"))))
+        self.assertIn("external", app_page.check(dict(ok, html=self._html().replace("<style>", '<link href="https://a.b/x.css"><style>'))))
+        self.assertIn("syntax", app_page.check(dict(ok, html=self._html("var = ;"))))
+        self.assertIn("size", app_page.check(dict(ok, html="<html><body>ص</body></html>")))
+
+    def test_social_skips_without_secrets(self):
+        import os
+        from notify import social
+        for k in ("BSKY_HANDLE", "BSKY_APP_PASSWORD", "MASTODON_BASE_URL", "MASTODON_ACCESS_TOKEN"):
+            os.environ.pop(k, None)
+        self.assertEqual(social.announce("x", "https://mdm1.org/a"), [])
+
+
 class PrivateDeliveryTests(unittest.TestCase):
     def _run_main_paused(self, private_ok):
         import main
@@ -178,6 +200,7 @@ class PrivateDeliveryTests(unittest.TestCase):
         cfg = yaml.safe_load(orig_open(AGENT / "config.yaml", encoding="utf-8"))
         cfg["publish_pages"] = False
         cfg["publish_tools"] = False
+        cfg["publish_apps"] = False
         cwd = os.getcwd()
         os.chdir(AGENT)
         try:
