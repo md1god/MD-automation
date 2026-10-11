@@ -26,5 +26,12 @@
     "success": true,
     "error": null,
     "timestamp": "2026-10-10T15:04:42.927458+00:00"
+  },
+  {
+    "platform": "telegram",
+    "post_id": "post_005",
+    "success": true,
+    "error": null,
+    "timestamp": "2026-10-11T15:21:47.215706+00:00"
   }
 ]

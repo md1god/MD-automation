@@ -61,6 +61,6 @@ POSTS_SEQUENCE = [
             "💬 @md1god"
         ),
         "image_path": None,
-        "sent": False,
+        "sent": True,
     },
 ]
