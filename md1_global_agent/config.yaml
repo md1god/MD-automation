@@ -1,7 +1,7 @@
 # MD1 Global Agent configuration
 dry_run: false           # discovery + Telegram report are live; source-code rebuilding remains plan-only
 max_results_per_query: 10
-min_score_to_build: 60   # opportunities below this score are not built
+min_score_to_build: 0    # opportunities below this score are not built
 idea_only: true         # take the IDEA only (open or closed, any license); everything is rebuilt original
 # Publishing pages on mdm1.org is PAUSED: a plan is not a finished project. While false, the plan is sent
 # only to the owner's private Telegram chat. Set to true once a complete, working product exists.
@@ -12,7 +12,9 @@ tools_per_run: 1
 publish_apps: true     # every tested app is published immediately (no daily cap) into mdm1.org/apps
 apps_per_run: 3
 app_budget_seconds: 1200       # per app
-apps_budget_seconds: 4800      # whole app phase
+apps_budget_seconds: 2700
+plans_per_run: 4          # every scanned opportunity becomes a published plan page (no filter on taste)
+plans_budget_seconds: 3000      # whole app phase
 app_idea_attempts: 8           # opportunities turned into app ideas per run
 max_pages: 4            # GitHub search pages scanned per category to find NEW (never examined) projects
 # Page languages (Arabic is always included). The site opens each page in the visitor's device
@@ -44,6 +46,20 @@ categories:
     query: "productivity app in:name,description stars:>300"
   apis:
     query: "api boilerplate in:name,description stars:>200"
+  games:
+    query: "game engine OR browser game in:name,description stars:>300"
+  education:
+    query: "learning platform OR flashcards in:name,description stars:>200"
+  health_finance:
+    query: "personal finance OR habit tracker in:name,description stars:>200"
+  media_design:
+    query: "photo editor OR video editor OR design tool in:name,description stars:>300"
+  communication:
+    query: "chat OR messaging OR social network in:name,description stars:>300"
+  automation:
+    query: "workflow automation OR no-code in:name,description stars:>300"
+  ai_apps:
+    query: "ai assistant OR text to speech OR speech to text in:name,description stars:>300"
 
 # Trending closed products (idea sources only - never copied)
 product_sources:

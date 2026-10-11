@@ -16,7 +16,7 @@ concurrency:
 jobs:
   scout:
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 170
     defaults:
       run:
         working-directory: md1_global_agent
