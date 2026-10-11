@@ -1998,6 +1998,24 @@
       "found_at": "2026-10-10T21:46:54.417851+00:00"
     },
     {
+      "name": "Generative Engine Optimization (GEO) tool",
+      "field": "SEO/Marketing",
+      "summary": "A free web tool to track brand citations and visibility in AI search results (ChatGPT, Perplexity, Google AI Overviews) for websites.",
+      "why_now": "Rising due to shift from traditional search to AI answers. Product Hunt launch ReSO AI (https://www.producthunt.com/products/reso) showed traction (454 score, 34 comments) in Oct 2026; Exploding Topics lists 'Answer Engine Optimization' as a fast-growing topic (#17, 99x+).",
+      "monetization": "SaaS freemium with credits for tracking/crawl reports. Indie SEO tools typically do $30-60/month ARPU (indie SaaS benchmarks show $32-$58 median).",
+      "evidence": [
+        "https://www.producthunt.com/products/reso",
+        "https://explodingtopics.com/blog/trending-topics"
+      ],
+      "how_searched": [
+        "Product Hunt launches",
+        "Trend research (Exploding Topics)",
+        "Cross-referenced with AI search trend coverage"
+      ],
+      "score": 61.3,
+      "found_at": "2026-10-11T14:06:20.239391+00:00"
+    },
+    {
       "name": "Fractional-executive rate benchmark & matching tool",
       "field": "Talent / Executive hiring",
       "summary": "A rebuilt free web tool where executives and startups get live compensation benchmarks (hourly/retainer by role and company stage), plus a directory and simple match flow for fractional CFO/COO/CTO/CMO engagements.",
@@ -2055,6 +2073,77 @@
       "found_at": "2026-10-11T01:04:46.361550+00:00"
     },
     {
+      "name": "AI voiceover pronunciation checker",
+      "field": "Voice/Audio",
+      "summary": "A free web app that fixes pronunciation of names, prices, dates, and technical terms before rendering TTS/AI voiceovers.",
+      "why_now": "AI voiceover usage is growing. Onepin (https://www.producthunt.com/products/onepin) launched with 440 score, 75 comments in Oct 2026 and claims spelling/pronunciation fixes using a 4M-word dictionary, multi-provider TTS support.",
+      "monetization": "Credit-based SaaS (minutes rendered). Voice tooling ARPU can be $20-50/month for creators/agencies. Indie benchmarks show viable LTV/CAC for narrow tools.",
+      "evidence": [
+        "https://www.producthunt.com/products/onepin",
+        "https://www.producthunt.com/leaderboard/daily/2026/10/10"
+      ],
+      "how_searched": [
+        "Product Hunt daily leaderboards",
+        "App/voice tool discovery"
+      ],
+      "score": 60.0,
+      "found_at": "2026-10-11T14:06:20.349110+00:00"
+    },
+    {
+      "name": "Short-form vertical drama analytics",
+      "field": "Content/Creator tools",
+      "summary": "A free web dashboard to find trending vertical short dramas, virality signals, and monetization potential across platforms.",
+      "why_now": "Short-drama apps exploded in Oct 2026 rankings: PineDrama (#10 US free Oct 11), BlinkDrama (#14), ShortsWave entering multiple markets (KR/GB/HR/DE/US), NetShort reached JP #8 (+89). App Store charts show rapid turnover in this genre.",
+      "monetization": "Affiliate links to tools, API access, or creator SaaS with trend alerts. Niche analytics can monetize via $29-99/month for creators/agencies.",
+      "evidence": [
+        "https://appstorestatistics.com/charts/us/top-free",
+        "https://en.yasue.org/report/daily-app-store-report-2026-10-10"
+      ],
+      "how_searched": [
+        "App Store free charts",
+        "App trend reports",
+        "Cross-market movement analysis"
+      ],
+      "score": 59.3,
+      "found_at": "2026-10-11T14:06:21.665883+00:00"
+    },
+    {
+      "name": "AI agent cost observability dashboard",
+      "field": "DevOps/AI infra",
+      "summary": "A free web tool to track LLM/token spend, per-agent costs, and budgets across providers (OpenAI, Anthropic, Google) in one place.",
+      "why_now": "Exploding Topics lists 'AI Observability' (#22, 9.3K% growth) and 'AI Guardrails' (#88, 8.4K% growth). Postiz pivoted to agents and cut churn (13.7%) by becoming agent-first; agent workloads driving cost visibility needs.",
+      "monetization": "Freemium with team seats and spend thresholds. Developer tools ARPU often $30-150/month; indie devtool benchmarks show higher ARPU than consumer.",
+      "evidence": [
+        "https://explodingtopics.com/blog/trending-topics",
+        "https://artofcode.in/blog/postiz-17k-to-191k-mrr"
+      ],
+      "how_searched": [
+        "Trend research",
+        "Indie growth case studies",
+        "Devtool demand signals"
+      ],
+      "score": 58.7,
+      "found_at": "2026-10-11T14:06:22.298908+00:00"
+    },
+    {
+      "name": "Agent-first social scheduling API wrapper UI",
+      "field": "Social/Automation",
+      "summary": "A free web app focusing on agent-first social scheduling with simple UI and MCP/API access for agents to publish content.",
+      "why_now": "Postiz grew from $21K to $191K MRR in 7 months after pivoting to agent-first (API/MCP), driven by X virality. The agentic social automation space is still open to simpler/cheaper alternatives.",
+      "monetization": "Self-serve SaaS; Postiz reached 5,645 active subscriptions at ~$34 ARPU. Freemium with per-connection or team pricing.",
+      "evidence": [
+        "https://artofcode.in/blog/postiz-17k-to-191k-mrr",
+        "https://www.trustmrr.com"
+      ],
+      "how_searched": [
+        "Indie SaaS growth case studies",
+        "Public revenue data",
+        "Product trend analysis"
+      ],
+      "score": 58.7,
+      "found_at": "2026-10-11T14:06:23.096892+00:00"
+    },
+    {
       "name": "Bilingual website / PDF / video translation extension",
       "field": "Productivity / browser translation",
       "summary": "A browser extension that shows bilingual side-by-side translations of web pages, PDFs, e-books and video subtitles, with a free tier.",
@@ -2089,6 +2178,42 @@
       ],
       "score": 58.0,
       "found_at": "2026-10-11T01:04:58.249059+00:00"
+    },
+    {
+      "name": "AI recruitment/tools outreach analytics",
+      "field": "HR/Outreach",
+      "summary": "A free web dashboard to analyze AI-powered outreach effectiveness and compliance signals for lean teams.",
+      "why_now": "Exploding Topics shows 'AI Recruitment Tools' at #82 (5.8K% growth). Cold outreach tools like Instantly.ai grew to ~$40M ARR in 4 years via strong affiliate programs, indicating sustained demand.",
+      "monetization": "Freemium with credits per analyzed campaign/contact. B2B micro-SaaS ARPU can be $30-99/month.",
+      "evidence": [
+        "https://explodingtopics.com/blog/trending-topics",
+        "https://www.postbeam.ai/blog/how-instantly-grows"
+      ],
+      "how_searched": [
+        "Trend research",
+        "B2B SaaS growth studies",
+        "Affiliate-driven category analysis"
+      ],
+      "score": 58.0,
+      "found_at": "2026-10-11T14:06:23.583928+00:00"
+    },
+    {
+      "name": "Accessibility AI assistant web app",
+      "field": "Accessibility/HealthTech",
+      "summary": "A free web app providing AI-powered visual/description assistance for blind/low-vision users (object description, text reading, scene understanding).",
+      "why_now": "Be My Eyes entered App Store Top Free (#5 US on Oct 10) and appeared in multiple markets simultaneously - a strong breakout signal in accessibility. Demand for AI-first accessibility tools is rising.",
+      "monetization": "Freemium or donation-supported plus enterprise/API. Accessibility tools often command higher trust; can monetize via API licensing or premium features.",
+      "evidence": [
+        "https://appstorestatistics.com/charts/us/top-free",
+        "https://www.trendsmcp.ai/trending/app-store-free-trending-october-10-2026"
+      ],
+      "how_searched": [
+        "App Store breakout tracking",
+        "Accessibility trend signals",
+        "Cross-market chart analysis"
+      ],
+      "score": 57.3,
+      "found_at": "2026-10-11T14:06:24.521153+00:00"
     },
     {
       "name": "Failed-Payment Recovery / Dunning for Small SaaS (Rebounce-model)",
@@ -2129,6 +2254,24 @@
       ],
       "score": 57.0,
       "found_at": "2026-10-10T00:11:11.425926+00:00"
+    },
+    {
+      "name": "AI image/design assistant UI templates/tools",
+      "field": "Design/AI",
+      "summary": "A free web toolset for turning prompts into clean UI designs with export options (HTML/CSS/React) and Figma-friendly output.",
+      "why_now": "MagicPath's growth highlights demand for design-to-code execution layers. Also Launch Fast (vibe-coded in 48hrs) reached $30K MRR showing non-devs can win with narrow tools; design automation remains hot.",
+      "monetization": "Credit-based SaaS or freemium with export limits. Design tools ARPU $15-60/month; B2B design teams can pay more.",
+      "evidence": [
+        "https://aiidelist.com/blog/magicpath-chatgpt-plugin-500k-arr-growth",
+        "https://videcoder101.com/blog/launch-fast-30k-mrr-cursor-case-study"
+      ],
+      "how_searched": [
+        "Vibe-coded success stories",
+        "Design-to-code trend",
+        "AI tooling demand"
+      ],
+      "score": 56.7,
+      "found_at": "2026-10-11T14:06:29.606200+00:00"
     },
     {
       "name": "AI interior-design / room-redesign web tool",
