@@ -7,6 +7,7 @@ promote it on the Telegram channel -> Arabic Telegram report to the owner.
 Everything printed here goes to PUBLIC workflow logs, so only opaque ids are ever printed.
 """
 import json
+import os
 import time
 from pathlib import Path
 
@@ -109,6 +110,7 @@ def build_tool(config: dict, ledger: Ledger):
     ledger.mark_examined("tool:" + slug, "tool-published")
     promo = (f"🛠️ أداة مجانية جديدة: {spec['h1']}\n{spec['description']}\n\n🔗 {outcome['url']}\n\n#MDM1 #أدوات_مجانية")
     sent = telegram.send_channel(promo, config.get("telegram_report_channel", ""))
+    telegram.send(f"✅ نُشرت الآن: {spec['h1']}\n{outcome['url']}", config.get("telegram_report_channel", ""))
     nets = social.announce(f"🛠️ أداة مجانية جديدة: {spec['h1']} — {spec['description']}", outcome["url"])
     return (f"🛠️ أداة اليوم نُشرت: {spec['h1']}\n{outcome['url']}\nالترويج: قناة تليجرام "
             f"{'✅' if sent else '⚠️'}" + (f" + {', '.join(nets)} ✅" if nets else " (لا حسابات اجتماعية مربوطة بعد)"))
@@ -117,7 +119,11 @@ def build_tool(config: dict, ledger: Ledger):
 def _one_app(config, ledger, slug, text, source):
     """Build -> test -> publish -> promote ONE app. Returns (report line, published?)."""
     deadline = time.time() + config.get("app_budget_seconds", 1200)
-    spec, provider, why = app_page.build(config.get("llm", {}), slug, text, deadline=deadline)
+    reviewer = None
+    if config.get("visual_review", True) and os.getenv("SITE_DIR"):
+        from review import visual
+        reviewer = lambda spec, idea: visual.review(spec, idea, os.environ["SITE_DIR"])
+    spec, provider, why = app_page.build(config.get("llm", {}), slug, text, deadline=deadline, reviewer=reviewer)
     if not spec:
         print(f"App {slug}: build failed ({why[:120]})")
         return f"📱 {slug} لم يُبنَ: {why[:120]}", False
@@ -128,6 +134,7 @@ def _one_app(config, ledger, slug, text, source):
     ledger.mark_examined("app:" + slug, "app-published")
     promo = f"📱 تطبيق مجاني جديد: {spec['h1']}\n{spec['description']}\n\n🔗 {outcome['url']}\n\n#MDM1 #تطبيقات_مجانية"
     sent = telegram.send_channel(promo, config.get("telegram_report_channel", ""))
+    telegram.send(f"✅ نُشر الآن: {spec['h1']}\n{outcome['url']}", config.get("telegram_report_channel", ""))
     nets = social.announce(f"📱 تطبيق مجاني جديد: {spec['h1']} — {spec['description']}", outcome["url"])
     return (f"📱 نُشر: {spec['h1']} ({source})\n{outcome['url']}\nالترويج: تليجرام {'✅' if sent else '⚠️'}"
             + (f" + {', '.join(nets)} ✅" if nets else "")), True

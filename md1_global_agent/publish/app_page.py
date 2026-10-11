@@ -135,21 +135,40 @@ def check(spec: dict) -> str:
     return ""
 
 
-def build(llm: dict, slug: str, idea: str, attempts: int = 3, deadline: float = None):
-    feedback, provider = "", None
-    for _ in range(attempts):
-        prompt = PROMPT.format(idea=idea, slug=slug) + (f"\nYour previous answer was rejected: {feedback}. Fix exactly that and return the full JSON again." if feedback else "")
+def build(llm: dict, slug: str, idea: str, attempts: int = 4, deadline: float = None, reviewer=None):
+    """Builder model -> local gates -> independent QA (browser + vision model) -> fix cycles.
+    `reviewer(spec, idea)` returns visual.review()'s dict; None disables QA (offline tests)."""
+    feedback, provider, last_ok = "", None, None
+    for n in range(attempts):
+        prompt = PROMPT.format(idea=idea, slug=slug) + (f"\nYour previous version was rejected. Fix ALL of these problems and return the complete result again in the same format:\n{feedback}" if feedback else "")
         try:
             spec = _extract(complete(prompt, llm, deadline), slug)
             provider = complete.used
         except Exception as exc:
             feedback = f"invalid answer ({str(exc)[:120]})"
             continue
-        spec["slug"] = slug
         feedback = check(spec)
-        if not feedback:
+        if feedback:
+            continue
+        if not reviewer:
             return spec, provider, ""
+        rev = reviewer(spec, idea)
+        print(f"QA {slug} try {n + 1}: ok={rev['ok']} score={rev.get('score')} vision={rev.get('vision')} hard={len(rev.get('hard', []))}")
+        if rev["ok"]:
+            return spec, provider, ""
+        if rev.get("env_error"):
+            return None, provider, rev["problems"][0]          # broken QA environment: do not publish untested
+        if not rev["hard"] and (rev.get("score") or 0) >= visual_accept():
+            last_ok = spec
+        feedback = "; ".join(rev["problems"])[:900]
+    if last_ok is not None:
+        return last_ok, provider, ""
     return None, provider, feedback
+
+
+def visual_accept() -> float:
+    from review import visual
+    return visual.ACCEPT_AFTER_RETRIES
 
 
 def publish(spec: dict, token: str, run_timeout: int = 900, live_timeout: int = 600, poll: int = 20) -> dict:

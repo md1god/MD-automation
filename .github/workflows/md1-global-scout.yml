@@ -32,6 +32,17 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Browser for the independent QA reviewer (screenshots)
+        run: python -m playwright install --with-deps chromium
+
+      - name: Checkout the site (templates/CSS used to render apps for QA)
+        uses: actions/checkout@v4
+        with:
+          repository: md1god/mdm1.org
+          token: ${{ secrets.SITES_PAT }}
+          path: site
+          fetch-depth: 1
+
       - name: Install OpenCode CLI (free models only work from inside OpenCode)
         run: npm install -g opencode-ai
 
@@ -63,6 +74,7 @@ jobs:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           PRODUCTHUNT_TOKEN: ${{ secrets.PRODUCTHUNT_TOKEN }}
           SITES_PAT: ${{ secrets.SITES_PAT }}
+          SITE_DIR: ${{ github.workspace }}/site
           LEDGER_SALT: ${{ secrets.LEDGER_SALT }}
           BSKY_HANDLE: ${{ secrets.BSKY_HANDLE }}
           BSKY_APP_PASSWORD: ${{ secrets.BSKY_APP_PASSWORD }}
