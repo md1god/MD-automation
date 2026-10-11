@@ -16,7 +16,7 @@ import yaml
 from agent import run
 from builder.planner import make_plan
 from memory.ledger import Ledger, key_for, public_id
-from notify import social, telegram
+from notify import indexnow, social, telegram
 from privacy import identity_terms
 from publish import app_page, mdm1_page, tool_page
 from publish.translate import translate_all
@@ -36,6 +36,7 @@ def migrate_legacy(ledger: Ledger) -> None:
 def announce(payload: dict, outcome: dict, config: dict) -> bool:
     """Promote a published page on the channel (sanitized text only)."""
     codes = ["ar"] + list((payload.get("translations") or {}).keys())
+    indexnow.submit([outcome["url"]])
     return telegram.send_channel(telegram.promo_text(payload, outcome["url"], codes),
                                  config.get("telegram_report_channel", ""))
 
@@ -108,7 +109,8 @@ def build_tool(config: dict, ledger: Ledger):
     if outcome["state"] != "published":
         return f"🛠️ أداة اليوم ({spec['h1']}) لم تُنشر: {outcome['reason']}"
     ledger.mark_examined("tool:" + slug, "tool-published")
-    promo = (f"🛠️ أداة مجانية جديدة: {spec['h1']}\n{spec['description']}\n\n🔗 {outcome['url']}\n\n#MDM1 #أدوات_مجانية")
+    promo = (f"🛠️ أداة مجانية جديدة: {spec['h1']}\n{spec['description']}\n\n🔗 {outcome['url']}\n\n" + indexnow.hashtags(spec["h1"], extra=("أدوات_مجانية",)))
+    indexnow.submit([outcome["url"]])
     sent = telegram.send_channel(promo, config.get("telegram_report_channel", ""))
     telegram.send(f"✅ نُشرت الآن: {spec['h1']}\n{outcome['url']}", config.get("telegram_report_channel", ""))
     nets = social.announce(f"🛠️ أداة مجانية جديدة: {spec['h1']} — {spec['description']}", outcome["url"])
@@ -132,7 +134,8 @@ def _one_app(config, ledger, slug, text, source):
     if outcome["state"] != "published":
         return f"📱 {spec['h1'][:40]} لم يُنشر: {outcome['reason']}", False
     ledger.mark_examined("app:" + slug, "app-published")
-    promo = f"📱 تطبيق مجاني جديد: {spec['h1']}\n{spec['description']}\n\n🔗 {outcome['url']}\n\n#MDM1 #تطبيقات_مجانية"
+    promo = f"📱 تطبيق مجاني جديد: {spec['h1']}\n{spec['description']}\n\n🔗 {outcome['url']}\n\n" + indexnow.hashtags(spec["h1"], extra=("تطبيقات_مجانية",))
+    indexnow.submit([outcome["url"]])
     sent = telegram.send_channel(promo, config.get("telegram_report_channel", ""))
     telegram.send(f"✅ نُشر الآن: {spec['h1']}\n{outcome['url']}", config.get("telegram_report_channel", ""))
     nets = social.announce(f"📱 تطبيق مجاني جديد: {spec['h1']} — {spec['description']}", outcome["url"])
