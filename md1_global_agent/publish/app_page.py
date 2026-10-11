@@ -41,7 +41,8 @@ Hard rules:
 - Responsive and touch friendly, dark elegant design, clear Arabic UI, empty/error states, keyboard shortcuts where natural.
 - Every feature listed above must really work. Write it from scratch; do not imitate any product's branding or name.
 - Maximum 45000 characters in total.
-Return ONLY JSON, no markdown fences: {{"slug":"{slug}","title":"Arabic SEO title <=70 chars","description":"Arabic meta description 110-160 chars","html":"<the full HTML file as a JSON string>"}}"""
+- Include <title> (Arabic SEO title, at most 70 characters) and <meta name="description" content="..."> (Arabic, 110-160 characters).
+Return ONLY the raw HTML file, starting with <!DOCTYPE html> and ending with </html>. No JSON, no markdown fences, no explanation."""
 
 
 def pick_idea(ledger):
@@ -51,12 +52,20 @@ def pick_idea(ledger):
     return None
 
 
-def _json(text: str):
-    text = re.sub(r"^```(?:json)?|```$", "", (text or "").strip(), flags=re.M).strip()
-    start, end = text.find("{"), text.rfind("}")
+def _extract(text: str, slug: str) -> dict:
+    """Raw HTML answer -> spec. Raw HTML is far more reliable than a 40k-char JSON string."""
+    text = re.sub(r"^```(?:html)?\s*|\s*```$", "", (text or "").strip(), flags=re.M).strip()
+    start = text.lower().find("<!doctype")
+    if start < 0:
+        start = text.lower().find("<html")
+    end = text.lower().rfind("</html>")
     if start < 0 or end < start:
-        raise ValueError("no JSON object in answer")
-    return json.loads(text[start:end + 1])
+        raise ValueError("no complete HTML document in answer")
+    html = text[start:end + len("</html>")]
+    title = re.search(r"<title[^>]*>(.*?)</title>", html, re.S | re.I)
+    desc = re.search(r"<meta[^>]+name=[\"']description[\"'][^>]+content=[\"']([^\"']*)", html, re.I)
+    return {"slug": slug, "title": (title.group(1).strip() if title else "")[:90],
+            "description": (desc.group(1).strip() if desc else "")[:200], "html": html}
 
 
 def check(spec: dict) -> str:
@@ -88,7 +97,7 @@ def build(llm: dict, slug: str, idea: str, attempts: int = 3, deadline: float = 
     for _ in range(attempts):
         prompt = PROMPT.format(idea=idea, slug=slug) + (f"\nYour previous answer was rejected: {feedback}. Fix exactly that and return the full JSON again." if feedback else "")
         try:
-            spec = _json(complete(prompt, llm, deadline))
+            spec = _extract(complete(prompt, llm, deadline), slug)
             provider = complete.used
         except Exception as exc:
             feedback = f"invalid answer ({str(exc)[:120]})"
