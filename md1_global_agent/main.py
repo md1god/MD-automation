@@ -16,7 +16,7 @@ import yaml
 from agent import run
 from builder.planner import make_plan
 from memory.ledger import Ledger, key_for, public_id
-from notify import indexnow, social, telegram
+from notify import indexnow, social, stats, telegram
 from privacy import identity_terms
 from publish import app_page, mdm1_page, tool_page
 from publish.translate import translate_all
@@ -200,9 +200,31 @@ def private_details(top: list, best) -> str:
     return "\n\n".join(lines)
 
 
+SWEEP_TOPICS = """education games music video photo design finance health fitness food travel maps weather news chat social
+email calendar notes todo kanban crm erp invoice accounting ecommerce marketplace booking hotel restaurant delivery logistics
+real-estate cars jobs recruiting hr legal insurance banking crypto payments blockchain nft iot robotics drones 3d cad printing
+audio podcast streaming ebook reader translation speech ocr vision chatbot llm agents search analytics dashboard monitoring
+devops cicd security password vpn privacy browser extension editor ide terminal cli database api sdk cms blog wiki forum community
+survey forms quiz flashcards language-learning kids parenting pets gardening agriculture energy climate science math physics
+astronomy chemistry biology medicine pharmacy telemedicine mental-health meditation sleep sports football basketball esports
+fashion beauty art drawing animation comics film photography camera screen-recorder remote-desktop file-manager backup cloud
+storage sync clipboard launcher automation workflow no-code low-code scraping crawler rss newsletter seo ads affiliate""".split()
+
+
+def add_sweep(config: dict) -> None:
+    """No fixed category list: every run also sweeps a rotating slice of ~170 topics from every field."""
+    n = int(config.get("sweep_per_run", 14))
+    start = (int(time.time() // (6 * 3600)) * n) % len(SWEEP_TOPICS)
+    cats = config.setdefault("categories", {})
+    for i in range(n):
+        t = SWEEP_TOPICS[(start + i) % len(SWEEP_TOPICS)]
+        cats["topic_" + t] = {"query": f"topic:{t} stars:>150"}
+
+
 def main():
     with open("config.yaml", encoding="utf-8") as f:
         config = yaml.safe_load(f)
+    add_sweep(config)
     ledger = Ledger()
     migrate_legacy(ledger)
     retried = retry_pending(ledger, config) if config.get("publish_pages", True) else []
@@ -258,6 +280,13 @@ def main():
     if planned:
         ledger.mark_examined(planned["repo"]["full_name"], "planned")
     ledger.save()
+    if stats.due():
+        round_info = {"plans": (1 if planned and outcome and outcome["state"] == "published" else 0)
+                        + sum(1 for l in extra_lines if l.startswith("📝 خطة إضافية نُشرت")),
+               "apps": tool_block.count("📱 نُشر:"), "tools": tool_block.count("🛠️ أداة اليوم نُشرت"),
+               "waiting": max(0, len([o for o in opportunities if "builder" in o]) - 1 - len(others)),
+               "social": bool(os.getenv("BSKY_HANDLE") or os.getenv("MASTODON_ACCESS_TOKEN"))}
+        telegram.send(channel=config.get("telegram_report_channel", ""), text=stats.message(ledger, report, round_info))
 
 
 if __name__ == "__main__":
