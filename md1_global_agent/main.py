@@ -223,6 +223,22 @@ def main():
     else:
         print("Plan: no NEW opportunity passed the build threshold")
 
+    extra_lines = []
+    plans_end = time.time() + config.get("plans_budget_seconds", 3000)
+    others = [o for o in opportunities if "builder" in o and o is not best][: max(0, int(config.get("plans_per_run", 4)) - 1)]
+    for o in others:                                  # every opportunity that passed is published - no hidden cap
+        if time.time() > plans_end:
+            break
+        err, oc, _prov, pl, _sent = plan_and_publish(o, config, ledger)
+        if oc and oc["state"] == "published":
+            ledger.mark_examined(o["repo"]["full_name"], "planned")
+            extra_lines.append(f"📝 خطة إضافية نُشرت: {pl['title']}\n{oc['url']}")
+            telegram.send(f"✅ نُشرت الآن: {pl['title']}\n{oc['url']}", config.get("telegram_report_channel", ""))
+        elif err or (oc and oc["state"] == "failed"):
+            extra_lines.append(f"📝 خطة لم تكتمل ({public_id(o['repo']['full_name'])}): {(err or oc['reason'])[:100]}")
+    if extra_lines:
+        tool_block = (tool_block + "\n\n" if tool_block else "") + "\n".join(extra_lines)
+
     planned = best if best and not plan_error and not (outcome and outcome["state"] == "held_unsent") else None
     page = ({"title": payload["title"], "languages": ["ar"] + list(payload["translations"])}
             if payload and outcome and not outcome["state"].startswith("held") else None)
