@@ -159,27 +159,33 @@ class ToolBuilderTests(unittest.TestCase):
 
 
 class AppBuilderTests(unittest.TestCase):
-    def _html(self, js="var a=1;"):
-        return ('<!DOCTYPE html><html lang="ar" dir="rtl"><head><meta charset="utf-8"><title>تطبيق</title><style>body{color:#fff}</style></head><body>'
-                + "<p>نص عربي للتطبيق</p>" * 200 + f"<script>{js}</script></body></html>")
+    ANSWER = ("TITLE: محول صور\nH1: محول الصور\nDESCRIPTION: وصف عربي\n===BODY===\n<p>" + "نص عربي عن التطبيق وكيفية استخدامه. " * 30 +
+              '</p><input id="f" type="file"><button id="go">حوّل</button>\n===CSS===\n.app #go{margin:0}\n===JS===\n'
+              "document.getElementById('go').onclick=function(){};\n===FAQ===\nQ: س1\nA: ج1\nQ: س2\nA: ج2\nQ: س3\nA: ج3\n")
 
-    def test_check_gates(self):
+    def test_extract_and_check(self):
         from publish import app_page
-        ok = {"slug": "x", "title": "ت", "description": "و", "html": self._html()}
-        self.assertEqual(app_page.check(ok), "")
-        self.assertIn("unsafe", app_page.check(dict(ok, html=self._html("fetch('/a')"))))
-        self.assertIn("external", app_page.check(dict(ok, html=self._html().replace("<style>", '<link href="https://a.b/x.css"><style>'))))
-        self.assertIn("syntax", app_page.check(dict(ok, html=self._html("var = ;"))))
-        self.assertIn("size", app_page.check(dict(ok, html="<html><body>ص</body></html>")))
-
-    def test_extract_raw_html_with_fences_and_chatter(self):
-        from publish import app_page
-        html = self._html().replace("<title>تطبيق</title>", '<title>محرر</title><meta name="description" content="وصف عربي">')
-        spec = app_page._extract("هذا هو التطبيق:\n```html\n" + html + "\n```\nتم.", "my-app")
-        self.assertEqual((spec["slug"], spec["title"], spec["description"]), ("my-app", "محرر", "وصف عربي"))
+        spec = app_page._extract("هذا التطبيق:\n```\n" + self.ANSWER + "\n```", "image-tool")
+        self.assertEqual((spec["slug"], spec["h1"], len(spec["faq"])), ("image-tool", "محول الصور", 3))
         self.assertEqual(app_page.check(spec), "")
-        with self.assertRaises(ValueError):
-            app_page._extract("no html here", "x")
+        self.assertIn("unsafe js", app_page.check(dict(spec, script_js="fetch('/a')")))
+        self.assertIn("unsafe html", app_page.check(dict(spec, body_html=spec["body_html"] + "<script>1</script>")))
+        self.assertIn("unsafe css", app_page.check(dict(spec, css="@import 'x';")))
+        self.assertIn("syntax", app_page.check(dict(spec, script_js="var = ;")))
+        self.assertIn("faq", app_page.check(dict(spec, faq=[])))
+
+    def test_idea_from_opportunity_never_leaks_and_can_skip(self):
+        from publish import app_page
+        opp = {"repo": {"full_name": "acme-labs/super-tracker", "category": "x", "description": "d"}}
+        terms = privacy.identity_terms(REPO)
+        orig = app_page.complete
+        try:
+            for answer, expect in (("SKIP", None), ("SLUG: time-tracker\nIDEA: تطبيق لتتبع الوقت", ("time-tracker", "تطبيق لتتبع الوقت")),
+                                   ("SLUG: time-tracker\nIDEA: نسخة من super-tracker", None)):
+                app_page.complete = lambda *a, **k: answer
+                self.assertEqual(app_page.idea_from_opportunity({}, opp, terms), expect)
+        finally:
+            app_page.complete = orig
 
     def test_social_skips_without_secrets(self):
         import os

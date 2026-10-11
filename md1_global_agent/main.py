@@ -114,29 +114,59 @@ def build_tool(config: dict, ledger: Ledger):
             f"{'✅' if sent else '⚠️'}" + (f" + {', '.join(nets)} ✅" if nets else " (لا حسابات اجتماعية مربوطة بعد)"))
 
 
-def build_app(config: dict, ledger: Ledger):
-    """One complete working web app per run -> mdm1.org/apps. Returns a report block or ''."""
-    if not config.get("publish_apps", True):
-        return ""
-    idea = app_page.pick_idea(ledger)
-    if not idea:
-        return "📱 التطبيقات: انتهت قائمة الأفكار الجاهزة — أضف أفكارًا جديدة."
-    slug, text = idea
+def _one_app(config, ledger, slug, text, source):
+    """Build -> test -> publish -> promote ONE app. Returns (report line, published?)."""
     deadline = time.time() + config.get("app_budget_seconds", 1200)
     spec, provider, why = app_page.build(config.get("llm", {}), slug, text, deadline=deadline)
     if not spec:
         print(f"App {slug}: build failed ({why[:120]})")
-        return f"📱 تطبيق اليوم لم يُبنَ: {why[:140]}\nستُعاد المحاولة في التشغيل القادم."
+        return f"📱 {slug} لم يُبنَ: {why[:120]}", False
     outcome = app_page.publish(spec, mdm1_page.env_token())
     print(f"App {slug}: {outcome['state']} {outcome['reason']}")
     if outcome["state"] != "published":
-        return f"📱 تطبيق اليوم ({spec['title'][:40]}) لم يُنشر: {outcome['reason']}"
+        return f"📱 {spec['h1'][:40]} لم يُنشر: {outcome['reason']}", False
     ledger.mark_examined("app:" + slug, "app-published")
-    promo = f"📱 تطبيق مجاني جديد: {spec['title']}\n{spec['description']}\n\n🔗 {outcome['url']}\n\n#MDM1 #تطبيقات_مجانية"
+    promo = f"📱 تطبيق مجاني جديد: {spec['h1']}\n{spec['description']}\n\n🔗 {outcome['url']}\n\n#MDM1 #تطبيقات_مجانية"
     sent = telegram.send_channel(promo, config.get("telegram_report_channel", ""))
-    nets = social.announce(f"📱 تطبيق مجاني جديد: {spec['title']} — {spec['description']}", outcome["url"])
-    return (f"📱 تطبيق اليوم نُشر: {spec['title']}\n{outcome['url']}\nالترويج: قناة تليجرام "
-            f"{'✅' if sent else '⚠️'}" + (f" + {', '.join(nets)} ✅" if nets else " (لا حسابات اجتماعية مربوطة بعد)"))
+    nets = social.announce(f"📱 تطبيق مجاني جديد: {spec['h1']} — {spec['description']}", outcome["url"])
+    return (f"📱 نُشر: {spec['h1']} ({source})\n{outcome['url']}\nالترويج: تليجرام {'✅' if sent else '⚠️'}"
+            + (f" + {', '.join(nets)} ✅" if nets else "")), True
+
+
+def build_apps(config: dict, ledger: Ledger, opportunities: list):
+    """Every app that is built AND passes the site's browser test is published immediately - no daily cap.
+    Ideas come first from the scanned opportunities (the user need they serve), then from the curated list."""
+    if not config.get("publish_apps", True):
+        return ""
+    llm = config.get("llm", {})
+    want = int(config.get("apps_per_run", 3))
+    end = time.time() + config.get("apps_budget_seconds", 4800)
+    lines, done, tried_opps = [], 0, 0
+    pool = [o for o in opportunities if "builder" in o]
+    while done < want and time.time() < end:
+        slug = text = None
+        source = "فكرة جاهزة"
+        while pool and tried_opps < config.get("app_idea_attempts", 8) and not slug:
+            opp = pool.pop(0)
+            tried_opps += 1
+            found = app_page.idea_from_opportunity(llm, opp, identity_terms(opp["repo"]), end)
+            ledger.mark_examined(opp["repo"]["full_name"], "app-idea")
+            if found and not ledger.is_known("app:" + found[0]):
+                slug, text = found
+                source = f"فرصة {public_id(opp['repo']['full_name'])}"
+        if not slug:
+            curated = app_page.pick_idea(ledger)
+            if not curated:
+                lines.append("📱 انتهت قائمة الأفكار الجاهزة ولا فرص جديدة مناسبة.")
+                break
+            slug, text = curated
+        line, ok = _one_app(config, ledger, slug, text, source)
+        lines.append(line)
+        if not ok:
+            ledger.mark_examined("app:" + slug, "app-failed")      # do not loop on one failing idea
+        else:
+            done += 1
+    return "\n".join(lines)
 
 
 def private_details(top: list, best) -> str:
@@ -163,7 +193,7 @@ def main():
         print(f"{a['score']:5} | {o['mode']:16} | {public_id(r['full_name'])} | {r['category']}")
     print("Advice:", report["advice"])
 
-    tool_block = "\n\n".join(b for b in (build_app(config, ledger), build_tool(config, ledger)) if b)
+    tool_block = "\n\n".join(b for b in (build_apps(config, ledger, opportunities), build_tool(config, ledger)) if b)
     best = next((o for o in opportunities if "builder" in o), None)
     plan_error = outcome = provider = payload = None
     promo_sent = False
