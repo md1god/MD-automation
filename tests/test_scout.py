@@ -1,3 +1,4 @@
+import json
 import os
 import sys
 import tempfile
@@ -122,6 +123,41 @@ class TranslateTests(unittest.TestCase):
 
 
 
+class ToolBuilderTests(unittest.TestCase):
+    GOOD = {"slug": "x", "title": "حاسبة", "h1": "حاسبة", "description": "وصف",
+            "body_html": "<p>" + "نص عربي مفيد " * 60 + '</p><input id="a"><button id="go">احسب</button><div class="out" id="out"></div>',
+            "script_js": "document.getElementById('go').onclick=function(){};",
+            "faq": [{"q": "س", "a": "ج"}] * 3}
+
+    def test_check_accepts_good_and_rejects_unsafe(self):
+        from publish import tool_page
+        self.assertEqual(tool_page.check(dict(self.GOOD)), "")
+        self.assertIn("unsafe js", tool_page.check(dict(self.GOOD, script_js="fetch('/x')")))
+        self.assertIn("unsafe html", tool_page.check(dict(self.GOOD, body_html=self.GOOD["body_html"] + "<script>1</script>")))
+        self.assertIn("faq", tool_page.check(dict(self.GOOD, faq=[])))
+
+    def test_build_retries_with_feedback_and_pick_skips_done(self):
+        from publish import tool_page
+        answers = iter(["not json", json.dumps(dict(self.GOOD, script_js="eval('1')")), json.dumps(self.GOOD)])
+        prompts = []
+        orig = tool_page.complete
+        def fake(prompt, llm=None, deadline=None):
+            prompts.append(prompt)
+            return next(answers)
+        fake.used = "m"
+        tool_page.complete = fake
+        try:
+            spec, provider, why = tool_page.build({}, "age-calculator", "idea")
+        finally:
+            tool_page.complete = orig
+        self.assertEqual((spec["slug"], why), ("age-calculator", ""))
+        self.assertIn("rejected", prompts[-1])
+        lg = Ledger(Path(tempfile.mkdtemp()) / "l.json")
+        first = tool_page.pick_idea(lg)[0]
+        lg.mark_examined("tool:" + first)
+        self.assertNotEqual(tool_page.pick_idea(lg)[0], first)
+
+
 class PrivateDeliveryTests(unittest.TestCase):
     def _run_main_paused(self, private_ok):
         import main
@@ -141,6 +177,7 @@ class PrivateDeliveryTests(unittest.TestCase):
         import yaml
         cfg = yaml.safe_load(orig_open(AGENT / "config.yaml", encoding="utf-8"))
         cfg["publish_pages"] = False
+        cfg["publish_tools"] = False
         cwd = os.getcwd()
         os.chdir(AGENT)
         try:

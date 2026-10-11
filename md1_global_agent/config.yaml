@@ -6,6 +6,8 @@ idea_only: true         # take the IDEA only (open or closed, any license); ever
 # Publishing pages on mdm1.org is PAUSED: a plan is not a finished project. While false, the plan is sent
 # only to the owner's private Telegram chat. Set to true once a complete, working product exists.
 publish_pages: true
+publish_tools: true    # build one free working tool per run into mdm1.org/tools (traffic + ads)
+tool_budget_seconds: 600
 max_pages: 4            # GitHub search pages scanned per category to find NEW (never examined) projects
 # Page languages (Arabic is always included). The site opens each page in the visitor's device
 # language and shows a language selector button.

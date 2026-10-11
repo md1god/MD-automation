@@ -17,7 +17,7 @@ from builder.planner import make_plan
 from memory.ledger import Ledger, key_for, public_id
 from notify import telegram
 from privacy import identity_terms
-from publish import mdm1_page
+from publish import mdm1_page, tool_page
 from publish.translate import translate_all
 
 LEGACY_PLANNED = Path("memory/planned.json")
@@ -89,6 +89,29 @@ def plan_and_publish(best: dict, config: dict, ledger: Ledger):
     return None, outcome, provider, payload, promo_sent
 
 
+def build_tool(config: dict, ledger: Ledger):
+    """One real free tool per run -> mdm1.org/tools (search traffic + ads). Returns a report block or ''."""
+    if not config.get("publish_tools", True):
+        return ""
+    idea = tool_page.pick_idea(ledger)
+    if not idea:
+        return "🛠️ الأدوات: انتهت قائمة الأفكار الجاهزة — أضف أفكارًا جديدة."
+    slug, text = idea
+    deadline = time.time() + config.get("tool_budget_seconds", 600)
+    spec, provider, why = tool_page.build(config.get("llm", {}), slug, text, deadline=deadline)
+    if not spec:
+        print(f"Tool {slug}: build failed ({why[:120]})")
+        return f"🛠️ أداة اليوم لم تُبنَ: {why[:120]}\nستُعاد المحاولة في التشغيل القادم."
+    outcome = tool_page.publish(spec, mdm1_page.env_token())
+    print(f"Tool {slug}: {outcome['state']} {outcome['reason']}")
+    if outcome["state"] != "published":
+        return f"🛠️ أداة اليوم ({spec['h1']}) لم تُنشر: {outcome['reason']}"
+    ledger.mark_examined("tool:" + slug, "tool-published")
+    promo = (f"🛠️ أداة مجانية جديدة: {spec['h1']}\n{spec['description']}\n\n🔗 {outcome['url']}\n\n#MDM1 #أدوات_مجانية")
+    sent = telegram.send_channel(promo, config.get("telegram_report_channel", ""))
+    return f"🛠️ أداة اليوم نُشرت: {spec['h1']}\n{outcome['url']}\nالترويج في القناة: {'تم ✅' if sent else 'لم يتم ⚠️'}"
+
+
 def private_details(top: list, best) -> str:
     """id -> source mapping. Sent ONLY to a private chat; never printed or committed."""
     lines = ["MD1 Scout - تفاصيل المصدر (سري، لك فقط)"]
@@ -113,6 +136,7 @@ def main():
         print(f"{a['score']:5} | {o['mode']:16} | {public_id(r['full_name'])} | {r['category']}")
     print("Advice:", report["advice"])
 
+    tool_block = build_tool(config, ledger)
     best = next((o for o in opportunities if "builder" in o), None)
     plan_error = outcome = provider = payload = None
     promo_sent = False
@@ -127,6 +151,8 @@ def main():
     text = telegram.daily_report(config, opportunities, report,
                                  public_id(best["repo"]["full_name"]) if best and not plan_error else None,
                                  provider, plan_error, outcome, page, promo_sent, retried)
+    if tool_block:
+        text += "\n\n" + tool_block
     delivered = telegram.send(channel=config.get("telegram_report_channel", ""), text=text)
     top = opportunities[:3]
     if delivered:
