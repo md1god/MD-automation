@@ -91,8 +91,19 @@ def plan_and_publish(best: dict, config: dict, ledger: Ledger):
     return None, outcome, provider, payload, promo_sent
 
 
+def build_tools(config: dict, ledger: Ledger):
+    """Several tools per run (search-demand driven); stops at the first failure."""
+    blocks = []
+    for _ in range(config.get("tools_per_run", 4)):
+        b = build_tool(config, ledger)
+        blocks.append(b)
+        if not b.startswith("🛠️ أداة اليوم نُشرت"):
+            break
+    return "\n\n".join(blocks)
+
+
 def build_tool(config: dict, ledger: Ledger):
-    """One real free tool per run -> mdm1.org/tools (search traffic + ads). Returns a report block or ''."""
+    """One real free tool per call -> mdm1.org/tools (search traffic + ads). Returns a report block or ''."""
     if not config.get("publish_tools", True):
         return ""
     idea = tool_page.pick_idea(ledger)
@@ -203,7 +214,7 @@ def main():
         print(f"{a['score']:5} | {o['mode']:16} | {public_id(r['full_name'])} | {r['category']}")
     print("Advice:", report["advice"])
 
-    tool_block = "\n\n".join(b for b in (build_apps(config, ledger, opportunities), build_tool(config, ledger)) if b)
+    tool_block = "\n\n".join(b for b in (build_apps(config, ledger, opportunities), build_tools(config, ledger)) if b)
     best = next((o for o in opportunities if "builder" in o), None)
     plan_error = outcome = provider = payload = None
     promo_sent = False
