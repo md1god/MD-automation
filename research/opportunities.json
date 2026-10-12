@@ -391,6 +391,25 @@
       "found_at": "2026-10-12T10:53:42.173299+00:00"
     },
     {
+      "name": "ngram 2.0 - AI video for explainers/screencasts",
+      "field": "AI video generation",
+      "summary": "AI video agent turning release notes, docs, recordings into polished videos for demos/onboarding.",
+      "why_now": "Recent launch on Product Hunt (Oct 2026) with strong traction (#2-3 daily/weekly). Rising demand for product update videos as teams ship faster.",
+      "monetization": "SaaS with paid plans (pricing page shows plans); public MRR/ARR not disclosed, revenue null.",
+      "evidence": [
+        "https://www.producthunt.com/leaderboard/weekly/2026/42",
+        "https://www.hunted.space/dashboard/ngram",
+        "https://www.ngram.com/pricing"
+      ],
+      "how_searched": [
+        "Product Hunt weekly leaderboard",
+        "hunted.space launch dashboards",
+        "company pricing"
+      ],
+      "score": 85.0,
+      "found_at": "2026-10-12T20:20:18.074049+00:00"
+    },
+    {
       "name": "AI Video Generation & Editing for Short-Form",
       "field": "Creator Economy / AI Media",
       "summary": "Tools that generate or edit short-form videos (Reels, TikToks, Shorts) from text, audio, or long-form source — auto-clipping, captioning, reframing, hook detection, and multi-platform publishing.",
@@ -634,6 +653,26 @@
       "found_at": "2026-10-10T12:36:34.429964+00:00"
     },
     {
+      "name": "Manifold MCP - marketing data for AI agents",
+      "field": "AI agents / marketing tools",
+      "summary": "Hosted MCP server giving AI agents live SEO, AI answers, social, ads, Reddit, leads data in one connection.",
+      "why_now": "Launched Oct 2026, gaining traction on Product Hunt (#5 daily). Demand rising as AI agents need real-time marketing data.",
+      "monetization": "Credit-based SaaS (free 250 credits, Pro from $20/month). Public revenue/users null.",
+      "evidence": [
+        "https://www.producthunt.com/leaderboard/weekly/2026/42",
+        "https://www.manifoldmcp.com/",
+        "https://www.manifoldmcp.com/about",
+        "https://www.anchorterminal.com/tools/manifold-mcp"
+      ],
+      "how_searched": [
+        "Product Hunt",
+        "company site",
+        "third-party review"
+      ],
+      "score": 82.0,
+      "found_at": "2026-10-12T20:20:19.284305+00:00"
+    },
+    {
       "name": "AI SDR & Autonomous Sales Agents",
       "field": "Sales Tech / AI Automation",
       "summary": "AI agents that engage website visitors in real time, qualify leads, give personalized demos, handle objections, and book meetings — integrating with CRM and sales stacks for 24/7 pipeline generation.",
@@ -793,6 +832,26 @@
       ],
       "score": 80.0,
       "found_at": "2026-10-12T10:53:43.508572+00:00"
+    },
+    {
+      "name": "Knocket - chat with website visitors",
+      "field": "Customer communication / chat",
+      "summary": "Free chat widget/contact page that routes to Telegram and email; AI answers from docs and hands off to human.",
+      "why_now": "Strong Product Hunt launch (Oct 2026) with many comments; makers frustrated with existing chat limits (Tidio/Crisp).",
+      "monetization": "Free plan now; unclear long-term monetization (no public revenue). Revenue null.",
+      "evidence": [
+        "https://www.producthunt.com/leaderboard/weekly/2026/42",
+        "https://www.producthunt.com/products/knocket-2/awards",
+        "https://lounge.ai/news/knocket-chat-with-visitors-from-your-website-or-link",
+        "https://www.linkedin.com/posts/tencentrtc_knocket-customer-stories-activity-7492761565750874114-FLQg"
+      ],
+      "how_searched": [
+        "Product Hunt",
+        "tech news",
+        "social posts"
+      ],
+      "score": 80.0,
+      "found_at": "2026-10-12T20:20:20.154666+00:00"
     },
     {
       "name": "Embeddable AI Agent / Copilot for SaaS",
@@ -2521,6 +2580,40 @@
       "found_at": "2026-10-12T10:53:44.001902+00:00"
     },
     {
+      "name": "guilds.run - multi-agent workflows",
+      "field": "AI infra / agent orchestration",
+      "summary": "Open-source platform for building/debugging teams of AI agents with inspectable traces and permissions.",
+      "why_now": "Product Hunt traction (#5 weekly). Growing need for observability/control as teams deploy multiple agents.",
+      "monetization": "Open-source core; hosted/SaaS model unclear. Public revenue null.",
+      "evidence": [
+        "https://www.producthunt.com/leaderboard/weekly/2026/42",
+        "https://www.hunted.space/product/guilds-run"
+      ],
+      "how_searched": [
+        "Product Hunt",
+        "hunted.space"
+      ],
+      "score": 52.0,
+      "found_at": "2026-10-12T20:20:21.942167+00:00"
+    },
+    {
+      "name": "Base44 - build apps with natural language",
+      "field": "AI coding / vibe coding",
+      "summary": "Builds functional apps from text prompts; no code required. Targets teams wanting to ship fast.",
+      "why_now": "High weekly score on Product Hunt. Continued hype around vibe coding tools.",
+      "monetization": "SaaS. No public ARR numbers; revenue null.",
+      "evidence": [
+        "https://www.producthunt.com/leaderboard/weekly/2026/42",
+        "https://www.hunted.space/dashboard/base44"
+      ],
+      "how_searched": [
+        "Product Hunt",
+        "hunted.space"
+      ],
+      "score": 52.0,
+      "found_at": "2026-10-12T20:20:22.907422+00:00"
+    },
+    {
       "name": "AI multi-model answer cross-checker",
       "field": "AI developer/productivity / hallucination verification",
       "summary": "A free web tool that sends one question to several LLMs and highlights agreements/disagreements, giving users a fast 'second opinion' on AI answers. Original build: a normalizer that calls multiple model APIs (or free endpoints), a diff/consensus scorer, and a shareable verdict view.",
@@ -2571,6 +2664,40 @@
       "found_at": "2026-10-10T00:11:12.828775+00:00"
     },
     {
+      "name": "Kudos 3.0 - AI savings (cards/bills/subs)",
+      "field": "Fintech / personal finance",
+      "summary": "AI picks best card, negotiates bills, cancels subs. Users keep 100% of savings.",
+      "why_now": "Featured on Product Hunt weekly; consumer demand for savings tools persists.",
+      "monetization": "SaaS/affiliate model unclear. Public revenue null.",
+      "evidence": [
+        "https://www.producthunt.com/leaderboard/weekly/2026/42",
+        "https://www.joinkudos.com/"
+      ],
+      "how_searched": [
+        "Product Hunt",
+        "company site"
+      ],
+      "score": 50.0,
+      "found_at": "2026-10-12T20:20:23.240593+00:00"
+    },
+    {
+      "name": "Ancher 2.0 - reading/research agent",
+      "field": "Productivity / AI assistant",
+      "summary": "Filters feeds, surfaces insights, turns reading into actionable work. Focuses on depth over algorithmic noise.",
+      "why_now": "Recent Product Hunt traction; growing interest in AI research/co-pilot tools.",
+      "monetization": "SaaS. Revenue/users null.",
+      "evidence": [
+        "https://www.producthunt.com/leaderboard/weekly/2026/42",
+        "https://ancher.ai/"
+      ],
+      "how_searched": [
+        "Product Hunt",
+        "company site"
+      ],
+      "score": 49.3,
+      "found_at": "2026-10-12T20:20:23.499016+00:00"
+    },
+    {
       "name": "Marketplace Competitor & Price Tracker for Small Sellers",
       "field": "E-commerce tooling",
       "summary": "A free web dashboard that lets small Amazon/Etsy/Shopify sellers paste a product/listing and track competitor prices, stock, and ranking changes over time, with alerts. Rebuildable as an original crawler/UI using public listing pages; the differentiator is a genuinely free tier for solo sellers instead of enterprise-priced suites.",
@@ -2587,6 +2714,23 @@
       ],
       "score": 48.7,
       "found_at": "2026-10-11T18:58:27.321390+00:00"
+    },
+    {
+      "name": "Hexis Cloud - company brain for AI agents",
+      "field": "AI infra / knowledge base",
+      "summary": "Infrastructure for deploying AI agents in enterprises; built around UTCP protocol (alternative to MCP).",
+      "why_now": "Product Hunt launch traction; enterprises exploring agent infra and protocols.",
+      "monetization": "B2B infra/SaaS. Public revenue null.",
+      "evidence": [
+        "https://www.producthunt.com/leaderboard/weekly/2026/42",
+        "https://www.bevel.software/hexis"
+      ],
+      "how_searched": [
+        "Product Hunt",
+        "company site"
+      ],
+      "score": 48.7,
+      "found_at": "2026-10-12T20:20:24.246716+00:00"
     },
     {
       "name": "AI Personalized Children's Storybook Generator (DreamStories/Magic Story-model)",
@@ -2622,6 +2766,40 @@
       ],
       "score": 48.0,
       "found_at": "2026-10-12T10:53:47.274479+00:00"
+    },
+    {
+      "name": "Context.dev - web data API for agents",
+      "field": "Developer tools / data",
+      "summary": "Turns any URL into clean data via API; extracts brand data, crawls sitemaps. Claims 5k+ businesses.",
+      "why_now": "Weekly Product Hunt traction. Demand for reliable scraping/data access for AI agents.",
+      "monetization": "API pricing (usage-based). Claimed 5000+ businesses but no public ARR/revenue disclosed; revenue null.",
+      "evidence": [
+        "https://www.producthunt.com/leaderboard/weekly/2026/42",
+        "https://context.dev/"
+      ],
+      "how_searched": [
+        "Product Hunt",
+        "company site"
+      ],
+      "score": 48.0,
+      "found_at": "2026-10-12T20:20:24.765781+00:00"
+    },
+    {
+      "name": "Spira Maxima - AI video for viral social",
+      "field": "AI video generation",
+      "summary": "Turns script into finished social videos (presenter, B-roll, captions). Claimed 10M+ impressions pre-launch.",
+      "why_now": "Strong launch (Oct 2026) with high upvotes; social video demand remains high.",
+      "monetization": "SaaS. Claimed impressions but no public revenue; revenue null.",
+      "evidence": [
+        "https://www.hunted.space/dashboard/spira-ai",
+        "https://www.producthunt.com/products/spira-ai"
+      ],
+      "how_searched": [
+        "hunted.space",
+        "Product Hunt"
+      ],
+      "score": 46.7,
+      "found_at": "2026-10-12T20:20:25.115301+00:00"
     },
     {
       "name": "Free AI-text detector & authorship-proof checker",
