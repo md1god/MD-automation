@@ -19,11 +19,12 @@ def _is_hardware(repo: dict) -> bool:
 
 
 def mode(repo: dict, analysis: dict, config: dict = None) -> str:
+    if (config or {}).get("idea_only"):
+        # Open or closed, archived or not, hardware or software: only the IDEA is used and rebuilt as an original
+        # digital product. No taste filter - every scanned opportunity goes through.
+        return "rebuild_original"
     if repo.get("archived"):
         return "skip"
-    if (config or {}).get("idea_only"):
-        # Open or closed does not matter: only the idea is used, everything is rebuilt original.
-        return "skip" if _is_hardware(repo) else "rebuild_original"
     if repo.get("kind") == "product":
         return "skip" if _is_hardware(repo) else "rebuild_original"
     if repo.get("stars", 0) > MAX_STARS:
