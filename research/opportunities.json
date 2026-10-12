@@ -140,6 +140,27 @@
       "found_at": "2026-10-11T07:16:54.177551+00:00"
     },
     {
+      "name": "AI lecture/PDF-to-flashcards study app (web)",
+      "field": "EdTech / student productivity",
+      "summary": "A free web tool that turns lecture recordings, PDFs, slides or videos into structured notes, flashcards, quizzes and practice questions. Turbo AI (formerly Turbolearn) reached ~$13M lifetime revenue, ~$500k/mo by March 2025 and 5M users; the similarly-positioned 'Jungle' reports $80k-$100k/mo.",
+      "why_now": "Reading & information subscriptions (including AI study tools) posted the fastest cross-generational subscription growth in July 2026, up 61% YoY for Gen Z and 51% for younger millennials (Bank of America Institute). Student demand is huge, evergreen and spread by short-form video.",
+      "monetization": "Freemium: a few free uploads/questions per month, paid unlimited (~$8-15/mo), credit packs for heavy users, and pro tiers for consultants/analysts.",
+      "evidence": [
+        "https://letsdatascience.com/news/founders-scale-ai-study-app-to-13m-revenue-41e281e9",
+        "https://www.youtube.com/watch?v=zdbimhZjm7k",
+        "https://www.revenuecat.com/state-of-subscription-apps-2026-education/",
+        "https://institute.bankofamerica.com/economic-insights/consumer-subscription-spending.html"
+      ],
+      "how_searched": [
+        "news aggregator/roundup",
+        "founder/podcast case study",
+        "subscription-app benchmark report",
+        "consumer spending research"
+      ],
+      "score": 88.0,
+      "found_at": "2026-10-12T10:53:40.881665+00:00"
+    },
+    {
       "name": "Retro digicam / film-camera filter web app (Y2K & CCD look)",
       "field": "Consumer photo / creator tools",
       "summary": "A browser tool that turns any photo or video into the grainy, flash-heavy, early-2000s 'digicam/CCD' look using preset film stocks, light leaks, date stamps and scans — no app install.",
@@ -349,6 +370,25 @@
       ],
       "score": 85.0,
       "found_at": "2026-10-11T07:16:54.471828+00:00"
+    },
+    {
+      "name": "GitHub-style grid habit tracker (web)",
+      "field": "Consumer productivity / habit tracking",
+      "summary": "A minimal habit tracker whose centerpiece is a contribution-graph-style grid. Solo-built HabitKit did $602K revenue in 2025 with 25,100 paying subscribers ($112K in Jan 2025 and >$100K again in Jan 2026), grown almost entirely through app-store search.",
+      "why_now": "Habit tracking has a massive, repeatable January 'New Year's resolution' spike. The winning mechanic (a visual grid) is simple to rebuild, and the category's small price points drive high-volume conversion.",
+      "monetization": "Low-price subscription (~$2-5/mo) plus a lifetime unlock (~$32), with annual plans.",
+      "evidence": [
+        "https://onbo-hub.com/newsletter/how-sebastian-rhl-grew-a-late-entry-habit-tracker-to-100k-a-month-with-aso",
+        "https://sebastianroehl.substack.com/p/2025-the-year-that-changed-everything",
+        "https://www.systemaic.com/teardowns/habitkit"
+      ],
+      "how_searched": [
+        "growth-case-study newsletter",
+        "founder Substack",
+        "SaaS teardown database"
+      ],
+      "score": 85.0,
+      "found_at": "2026-10-12T10:53:42.173299+00:00"
     },
     {
       "name": "AI Video Generation & Editing for Short-Form",
@@ -732,6 +772,27 @@
       ],
       "score": 80.0,
       "found_at": "2026-10-11T18:58:27.238291+00:00"
+    },
+    {
+      "name": "Action-verified alarm clock (complete a task to dismiss)",
+      "field": "Mobile utility / health & fitness",
+      "summary": "An alarm that only turns off after a camera-verified physical task (push-ups, math, photo, etc.). Erly reached ~$50K in sales in its last 28 days and 200K+ downloads in about four months on a $9.99/mo or $29.99/yr subscription, built by a solo founder in 19 days using the iOS 26 AlarmKit API.",
+      "why_now": "iOS 26's AlarmKit (Sept 2025) made reliable third-party alarms possible for the first time, opening a short window; the format demos perfectly in short-form video. Caveat: the headline figure is 28-day gross sales, not MRR, and influencer spend is undisclosed.",
+      "monetization": "$9.99/mo or $29.99/yr subscription after a free trial.",
+      "evidence": [
+        "https://superframeworks.com/case-study/erly",
+        "https://app.dealroom.co/news/feed/24-year-old-solo-founder-hits-50k-month-in-4-months-with-alarm-app",
+        "https://provenstartups.com/projects/early-push-up-alarm-clock-app",
+        "https://incomeidealab.com/research/pushup-alarm-app-50k-is-28-day-sales-not-mrr-and-ad-spend-goes-unstated"
+      ],
+      "how_searched": [
+        "startup case-study site",
+        "deal database",
+        "revenue-estimate site",
+        "claim fact-check site"
+      ],
+      "score": 80.0,
+      "found_at": "2026-10-12T10:53:43.508572+00:00"
     },
     {
       "name": "Embeddable AI Agent / Copilot for SaaS",
@@ -1243,6 +1304,26 @@
       ],
       "score": 74.0,
       "found_at": "2026-10-11T01:04:53.933023+00:00"
+    },
+    {
+      "name": "AI receipt / expense scanner for freelancers (web + mobile)",
+      "field": "Fintech / small-business tools",
+      "summary": "Snap or forward receipts and e-mails; AI extracts merchant, amount, date, tax and line items and exports clean bookkeeping records. Estimators put SparkReceipt at ~$5.4K/mo and 'Receipt Scanner: Easy Expense' at ~$40K/mo, with the solo-freelancer lane at $7-15/mo described as under-served by team-priced incumbents (Expensify, Shoeboxed).",
+      "why_now": "GPT-4o-class vision cut extraction cost to roughly $0.002-$0.01 per scan in 2026, making a freemium web tool viable. Demand is steady with a large Jan-Apr tax-season spike and meaningful freelancer/SMB search volume.",
+      "monetization": "Freemium: free tier capped at ~10-20 scans/mo; Pro ~$7-15/mo with accounting sync, mileage and multi-currency.",
+      "evidence": [
+        "https://bumetric.com/revenue/sparkreceipt-expense-scanner",
+        "https://peekly.app/apps/9c7d1ea8-7477-483b-a9fc-7a285f0c728b",
+        "https://trustmrr.com/startup/receeto"
+      ],
+      "how_searched": [
+        "app-revenue estimator",
+        "app-revenue tracker",
+        "app-idea/market analysis",
+        "verified-revenue database"
+      ],
+      "score": 74.0,
+      "found_at": "2026-10-12T10:53:46.852814+00:00"
     },
     {
       "name": "Personal data-broker opt-out & removal-request generator",
@@ -2371,6 +2452,23 @@
       "found_at": "2026-10-08T23:25:23.402692+00:00"
     },
     {
+      "name": "Amazon fake-brand / knockoff filter (browser add-on or web tool)",
+      "field": "E-commerce / consumer shopping utility",
+      "summary": "A free tool that flags and hides trademark-squat, algorithmically-named 'fake brands' and sponsored junk in Amazon search results. 'Knockoff' hit 100,000 Chrome users and a 4.7/5 rating (146 ratings) within about three months of its July 2026 launch and went viral on CNET and 404 Media.",
+      "why_now": "Prime Day/holiday shopping drives enormous Amazon search volume, and the fake-brand problem is worsening with AI-generated listings. A free, privacy-friendly tool grows by word of mouth and the idea extends to other marketplaces (Etsy, Temu).",
+      "monetization": "Free/open-source extension as the top of funnel; optional paid tier for extra marketplaces, price history or affiliate. (The original is free.)",
+      "evidence": [
+        "https://www.cnet.com/tech/services-and-software/free-browser-extension-filters-out-amazons-fake-brands/",
+        "https://chromewebstore.google.com/detail/knockoff-amazon-shopping/pjgickchbiikhdfpmecaabkphmofpdce"
+      ],
+      "how_searched": [
+        "tech news site",
+        "Chrome Web Store listing"
+      ],
+      "score": 54.7,
+      "found_at": "2026-10-12T10:53:42.355383+00:00"
+    },
+    {
       "name": "Vibe-coding / AI-generated-code security scanner",
       "field": "Application security",
       "summary": "A web scanner that checks AI-generated codebases and pull requests for OWASP Top 10 vulnerabilities, leaked secrets, insecure API/command execution and excessive permissions before they ship - the security layer for the 'vibe coding' wave.",
@@ -2406,6 +2504,23 @@
       "found_at": "2026-10-10T17:54:57.856599+00:00"
     },
     {
+      "name": "Virtual body-doubling / focus rooms",
+      "field": "Productivity / accountability",
+      "summary": "A web app that pairs strangers for scheduled, on-camera co-working sessions to improve focus. Focusmate reports >$83K/mo (founder, April 2026), 12M+ completed sessions and 500M+ focus minutes across 150+ countries, monetized at $8-12/mo after a free 3-sessions/week tier.",
+      "why_now": "Body-doubling is a validated technique popular with students, remote workers and ADHD users. The product is relatively lightweight to build (calendar + video + matching) and benefits from network effects, which protects incumbents less in underserved niches/languages.",
+      "monetization": "Freemium: free limited sessions per week; paid unlimited (~$8/mo billed yearly, ~$12/mo monthly).",
+      "evidence": [
+        "https://www.focusmate.com/",
+        "https://kaeda.co/cases/focusmate"
+      ],
+      "how_searched": [
+        "company homepage",
+        "business-teardown database"
+      ],
+      "score": 52.0,
+      "found_at": "2026-10-12T10:53:44.001902+00:00"
+    },
+    {
       "name": "AI multi-model answer cross-checker",
       "field": "AI developer/productivity / hallucination verification",
       "summary": "A free web tool that sends one question to several LLMs and highlights agreements/disagreements, giving users a fast 'second opinion' on AI answers. Original build: a normalizer that calls multiple model APIs (or free endpoints), a diff/consensus scorer, and a shareable verdict view.",
@@ -2418,6 +2533,23 @@
       "how_searched": "Scanned Product Hunt monthly/daily leaderboards for new AI tooling; reviewed Chrome Web Store listing stats via browser-extension trackers; read independent review sites for pricing and user counts.",
       "score": 50.7,
       "found_at": "2026-10-09T06:13:25.523098+00:00"
+    },
+    {
+      "name": "ADHD / executive-function micro-tools suite",
+      "field": "Neurodivergent productivity / accessibility",
+      "summary": "A set of tiny single-purpose tools (break a task into steps, rewrite tone, estimate time, explain a concept, brain-dump to a to-do list). Goblin Tools is used by nearly 2 million people every month, free on the web with a ~$3 one-time mobile app; the related 'Cat on Chair' ADHD focus timer reportedly reaches ~$18K/mo.",
+      "why_now": "Friction-reduction tools spread through ADHD/neurodivergent communities and short-form video. Tiny, zero-onboarding tools are cheap to build, easy to share, and target a sizable, growing audience underserved by big software.",
+      "monetization": "Free web tools with a one-time mobile unlock (~$3), optional donations, or a cheap subscription for advanced features.",
+      "evidence": [
+        "https://www.adhdtime.com/post/when-ai-reduces-adhd-friction",
+        "https://aidevcases.com/en/cases/cat-on-chair"
+      ],
+      "how_searched": [
+        "niche podcast/blog analysis",
+        "app case-study site"
+      ],
+      "score": 50.7,
+      "found_at": "2026-10-12T10:53:45.470679+00:00"
     },
     {
       "name": "Vibe-coding spec & prompt generator (idea → build-ready plan for Claude Code / Cursor)",
@@ -2473,6 +2605,23 @@
       ],
       "score": 48.0,
       "found_at": "2026-10-09T19:36:09.819633+00:00"
+    },
+    {
+      "name": "eBay sold-price (comps) lookup tool for resellers",
+      "field": "E-commerce analytics / reseller tools",
+      "summary": "A tool/API that returns recent real eBay sold prices (price, date, condition, shipping, seller) for a keyword, used by resellers, flippers and estate-sale pros to price items. SoldComps shows verified MRR of ~$21,539 across 547 active subscriptions (all-time ~$48.5K) about 19 months after launch.",
+      "why_now": "eBay's own Finding API restricts sold-listing access, leaving a real data gap. Resellers and flippers are a high-willingness-to-pay niche tied to income. A rebuild must solve the data-access problem lawfully.",
+      "monetization": "Freemium API/web tool: free (~100 requests/mo) then paid tiers from ~$9 to ~$79/mo by request volume.",
+      "evidence": [
+        "https://trustmrr.com/startup/soldcomps",
+        "https://sold-comps.com"
+      ],
+      "how_searched": [
+        "verified-revenue database",
+        "company homepage/pricing"
+      ],
+      "score": 48.0,
+      "found_at": "2026-10-12T10:53:47.274479+00:00"
     },
     {
       "name": "Free AI-text detector & authorship-proof checker",
