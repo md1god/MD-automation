@@ -167,7 +167,11 @@ def build_apps(config: dict, ledger: Ledger, opportunities: list):
     while done < want and time.time() < end:
         slug = text = None
         source = "فكرة جاهزة"
-        while pool and tried_opps < config.get("app_idea_attempts", 8) and not slug:
+        for pslug, ptext in app_page.IDEAS[:2]:       # the two plan-derived projects go first, once each
+            if not ledger.is_known("app:" + pslug):
+                slug, text, source = pslug, ptext, "مشروع من خططك"
+                break
+        while not slug and pool and tried_opps < config.get("app_idea_attempts", 8) and not slug:
             opp = pool.pop(0)
             tried_opps += 1
             found = app_page.idea_from_opportunity(llm, opp, identity_terms(opp["repo"]), end)
