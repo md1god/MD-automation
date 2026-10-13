@@ -287,6 +287,25 @@
       "found_at": "2026-10-11T18:58:21.774110+00:00"
     },
     {
+      "name": "Hidden-Subscription Finder & Bill-Negotiation Web Tool",
+      "field": "Consumer fintech / subscription management",
+      "summary": "A free web app where users list (or paste) recurring charges, spot forgotten subscriptions, and get generated cancellation and bill-negotiation scripts plus cheaper-alternative suggestions.",
+      "why_now": "Kudos 3.0 launched on Product Hunt Oct 12, 2026 to 109 upvotes and 51 comments promising to find money you are missing by picking the best card, negotiating bills and cancelling forgotten subscriptions. Rocket Money already serves 10M+ members, showing the demand is mainstream, not niche.",
+      "monetization": "Rocket Money runs a free tier plus a pay-what-is-fair Premium ($7-$14/mo) and charges a 35%-60% success fee on first-year savings for bill negotiation; third parties estimate it at ~$250M-$500M annual revenue and ~$500K/mo in App Store spend. A free, no-login rebuilder monetizes via affiliate/referral and optional paid concierge.",
+      "evidence": [
+        "https://www.producthunt.com/leaderboard/daily/2026/10/12",
+        "https://www.rocketmoney.com/learn/personal-finance/how-much-does-rocket-money-cost",
+        "https://peekly.app/apps/c45a8cb6-7bd0-46d6-9fd2-cde9cd6490b0"
+      ],
+      "how_searched": [
+        "Launch site (Product Hunt daily leaderboard)",
+        "Consumer fintech pricing/review pages",
+        "App store revenue estimator"
+      ],
+      "score": 86.0,
+      "found_at": "2026-10-13T02:37:49.146410+00:00"
+    },
+    {
       "name": "Short-Form Video Intelligence & Analytics",
       "field": "Creator Economy / MarTech",
       "summary": "Real-time analytics platform for TikTok, Reels, Shorts that tracks viral trends, competitor performance, outlier detection, and content gaps — turning signals into scripts, briefs, and ad creative.",
@@ -565,6 +584,25 @@
       ],
       "score": 83.0,
       "found_at": "2026-10-11T07:16:54.878647+00:00"
+    },
+    {
+      "name": "AI Voiceover Pronunciation & Localization QA Checker",
+      "field": "AI audio / localization QA",
+      "summary": "A free browser tool that takes a voiceover script or SRT, flags names, prices, dates, units and numbers that AI voices commonly mispronounce, scores each line and suggests phonetic fixes before you render.",
+      "why_now": "Onepin launched on Product Hunt on Oct 10, 2026 as the No.1 product (435 upvotes, 107 comments) explicitly selling this exact 'every name, price and date said right' QA layer for AI voiceover. Upwork reports AI video generation and editing freelancer demand up 329% year over year, and the AI dubbing tools market is projected to roughly double.",
+      "monetization": "Onepin uses a free tier plus paid plans; the wider AI dubbing tools market was ~$1.35B in 2026 heading to ~$2.56B by 2030. A free QA tool can monetize via paid batch/localization tiers and API access.",
+      "evidence": [
+        "https://www.producthunt.com/leaderboard/daily/2026/10/10",
+        "https://www.researchandmarkets.com/reports/6226959/ai-dubbing-tools-market-report",
+        "https://www.upwork.com/research/in-demand-skills-2026"
+      ],
+      "how_searched": [
+        "Launch site (Product Hunt daily leaderboard)",
+        "Market research report",
+        "Freelance marketplace demand report"
+      ],
+      "score": 83.0,
+      "found_at": "2026-10-13T02:37:49.357306+00:00"
     },
     {
       "name": "Buyer-intent finder for Reddit / X / HN",
@@ -914,6 +952,27 @@
       "found_at": "2026-10-11T01:04:49.408551+00:00"
     },
     {
+      "name": "Creator Comment & DM Inbox with Voice-Matched AI Replies",
+      "field": "Creator economy / social inbox",
+      "summary": "A free, unified inbox that pulls comments and DMs from YouTube, Instagram, TikTok and X, learns how the creator writes, and drafts replies in their voice (with human approval) while flagging brand and collaboration messages.",
+      "why_now": "MePersona launched on Product Hunt Oct 11, 2026 (152 upvotes, 68 comments) built exactly around replying to fan comments/DMs in the creator's own voice. The creator economy is ~$252B-$323B in 2026 with 207M-303M creators, where brand deals drive ~70% of income, and reported creator engagement overhead runs 15-20 hours per week.",
+      "monetization": "Freemium social-inbox SaaS; the creator-economy tooling market is growing ~26% CAGR and influencer marketing spend is $32.6B-$40.5B in 2026. Rebuilder monetizes with a free tier plus paid seats/multi-platform sync.",
+      "evidence": [
+        "https://www.producthunt.com/leaderboard/daily/2026/10/11",
+        "https://www.researchandmarkets.com/reports/6226071/creator-economy-market-report",
+        "https://www.upgrow.com/blog/creator-economy-statistics-2026-market-size-earnings-growth",
+        "https://noah-news.com/missed-dms-in-the-creator-economy-could-cost-thousands-or-more-says-manychat/"
+      ],
+      "how_searched": [
+        "Launch site (Product Hunt daily leaderboard)",
+        "Market research report",
+        "Creator-economy statistics roundup",
+        "Industry PR/news"
+      ],
+      "score": 79.0,
+      "found_at": "2026-10-13T02:37:50.487797+00:00"
+    },
+    {
       "name": "Voice-agent QA & live-call benchmark platform",
       "field": "Conversational AI / voice-agent QA",
       "summary": "Testing, simulation and benchmarking for voice AI agents before and during production — speech-to-speech eval on live phone calls, regression suites and CI/CD integration. Cekura Bench launched on Product Hunt Oct 8.",
@@ -1182,6 +1241,26 @@
       ],
       "score": 76.0,
       "found_at": "2026-10-11T07:16:57.015607+00:00"
+    },
+    {
+      "name": "AI Back-Office for Trade Contractors (Quote-to-Cash)",
+      "field": "Field service / trades vertical SaaS",
+      "summary": "A web tool for plumbers, electricians and HVAC pros that turns voice or text job notes into priced, branded estimates, generates contracts and invoices, and chases unpaid quotes automatically.",
+      "why_now": "Build Concierge hit £2.1m ($2.75m) ARR in nine months (Oct 2, 2026) selling AI back-office automation to trades, and a cluster of AI-native trade tools (Staxen, Crewtron, BizPro, Roooster, JobOS Pro) launched or expanded in 2026. JobOS Pro models $2.3B of recoverable revenue leak for home-service networks and cites 27% missed calls.",
+      "monetization": "Flat monthly SaaS: Staxen charges $59/mo per AI employee or $149/mo for all three; Crewtron $29.99/mo; BizPro $49.99/mo; JobOS Pro $199-$549/mo. Build Concierge reported $6.47M in signed contract value alongside its ARR.",
+      "evidence": [
+        "https://www.buildconcierge.com/blog/weve-hit-21m-275m-arr-in-just-nine-months",
+        "https://www.getstaxen.com/",
+        "https://jobospro.com/",
+        "https://crewtron.ai/"
+      ],
+      "how_searched": [
+        "Company ARR blog / open revenue page",
+        "Vertical SaaS landing pages",
+        "Pricing pages"
+      ],
+      "score": 76.0,
+      "found_at": "2026-10-13T02:37:52.009537+00:00"
     },
     {
       "name": "Invoice & AP Automation (AI-First)",
@@ -1612,6 +1691,26 @@
       ],
       "score": 72.0,
       "found_at": "2026-10-10T21:46:50.415093+00:00"
+    },
+    {
+      "name": "Local-First, No-Account Private Productivity & Cost Vault",
+      "field": "Privacy-first / local-first software",
+      "summary": "A browser-based, offline-first workspace that keeps notes, tasks and a private recurring-subscription/cost vault entirely on-device (IndexedDB/WASM), with export and optional encrypted sync instead of accounts.",
+      "why_now": "A 9,300-post Reddit 'I wish there was an app for this' analysis found ~7% (640+ posts) explicitly asking for offline-first or privacy-focused alternatives, driven by subscription fatigue (people average 11-14 paid SaaS subscriptions in 2026) and backlash against SaaS feeding user data into AI training. Multiple 2026 analyses call local-first mainstream.",
+      "monetization": "Pay-once / one-time license or donation model rather than subscription; no reliable public revenue figure was found (null). Rebuild is genuinely free and stand-out by requiring no login.",
+      "evidence": [
+        "https://www.reddit.com/r/SaaS/comments/1q5lfur/i_analyzed_9300_i_wish_there_was_an_app_for_this/",
+        "https://vucense.com/ai-intelligence/industry-business/subscription-fatigue-why-pay-once-software-is-making-a-huge-comeback/",
+        "https://www.gosoftwarecity.com/local-first-software-2026-privacy-first-apps-winning/",
+        "https://www.indiehackers.com/post/i-built-an-offline-privacy-first-productivity-app-because-i-was-tired-of-cloud-apps-eAPVIaZGYbB66XiwvhMq"
+      ],
+      "how_searched": [
+        "Community forum data analysis",
+        "Tech trend articles",
+        "Indie maker community post"
+      ],
+      "score": 72.0,
+      "found_at": "2026-10-13T02:37:53.178726+00:00"
     },
     {
       "name": "Cookie-consent / privacy-compliance generator",
@@ -2180,6 +2279,27 @@
       "found_at": "2026-10-11T01:04:56.660944+00:00"
     },
     {
+      "name": "Indie-SaaS Verified Revenue Benchmark & MRR Badge",
+      "field": "SaaS analytics / founder tooling",
+      "summary": "A free tool where indie founders connect a read-only payment API to display a verified MRR/revenue badge, benchmark against similar products and get a shareable traction profile.",
+      "why_now": "TrustMRR-style verification is growing fast (6,000+ profiles, public API; listings refreshed Oct 12, 2026) and build-in-public transparency is mainstream: Postiz was tracked from ~$21K to ~$223K MRR in 2026, Tally just crossed $6M ARR, and Ghost publishes $10.8M ARR live.",
+      "monetization": "Freemium directories plus acquisition-marketplace fees and API access; TrustMRR is a live example of the model. Rebuilder differentiates with a free, privacy-safe badge and benchmark.",
+      "evidence": [
+        "https://trustmrr.com/startup/indiemeet",
+        "https://webtribunal.net/postiz-growth/",
+        "https://blog.tally.so/6-years-in-6-million-far/",
+        "https://www.founder.best/blog/what-is-trustmrr"
+      ],
+      "how_searched": [
+        "Verified-revenue database",
+        "Bootstrapped-SaaS revenue case study",
+        "Founder revenue blog",
+        "Tool explainer article"
+      ],
+      "score": 63.0,
+      "found_at": "2026-10-13T02:37:55.931376+00:00"
+    },
+    {
       "name": "Viral-product dupe finder",
       "field": "Commerce / Shopping",
       "summary": "A free web tool where you paste a viral product or brand and get cheaper equivalent items that people are actively searching for instead.",
@@ -2307,6 +2427,25 @@
       ],
       "score": 60.0,
       "found_at": "2026-10-11T14:06:20.349110+00:00"
+    },
+    {
+      "name": "Privacy-First, Cookie-Free Web Analytics (GA Alternative)",
+      "field": "Web analytics / privacy",
+      "summary": "A lightweight, cookieless website analytics tool that runs a tiny script, needs no consent banner, and shows traffic sources, top pages and conversions without tracking individuals.",
+      "why_now": "The 2026 local-first/privacy wave is moving from niche to default, with users actively replacing cloud tools over data-training and subscription concerns. Privacy-focused analytics already clears real money: Plausible is reported at roughly $3.5M/year bootstrapped.",
+      "monetization": "Usage-based SaaS (Plausible ~$3.5M/yr; the broader analytics niche is crowded but high-margin). A free self-hostable tier is a strong wedge; note most revenue figures here are founder-reported/directional.",
+      "evidence": [
+        "https://bigideasdb.com/micro-saas-examples-2026",
+        "https://www.gosoftwarecity.com/local-first-software-2026-privacy-first-apps-winning/",
+        "https://www.reddit.com/r/SaaS/comments/1q5lfur/i_analyzed_9300_i_wish_there_was_an_app_for_this/"
+      ],
+      "how_searched": [
+        "Micro-SaaS revenue dataset",
+        "Tech trend article",
+        "Community demand analysis"
+      ],
+      "score": 60.0,
+      "found_at": "2026-10-13T02:37:56.322445+00:00"
     },
     {
       "name": "Short-form vertical drama analytics",
@@ -2814,6 +2953,24 @@
       "how_searched": "Searched AI-detector acquisition and revenue coverage, then opened both a news report and an independent revenue-research profile to confirm the numbers from two sources.",
       "score": 46.0,
       "found_at": "2026-10-08T10:47:45.022353+00:00"
+    },
+    {
+      "name": "Etsy Digital-Product Trend & Listing Optimizer",
+      "field": "E-commerce / digital products",
+      "summary": "A free web tool that turns current Etsy search trends into tag, title and keyword suggestions for digital sellers (printables, SVG, Canva templates, planners) and scores a listing against rising demand.",
+      "why_now": "eRank's Q3 2026 report shows 'digital products' climbing to the No.5 Etsy search (from No.84 a year earlier) and 'png' to No.16 (from No.133), with digital terms carrying 135-150% purchase-intent CTR. Google Trends data showed Etsy digital-download interest up roughly 200%-500%.",
+      "monetization": "Freemium keyword/listing SaaS (Etsy sellers already pay for eRank, EverBee and similar). No specific revenue number was confirmed for a fresh entrant (null); monetize via paid tiers and affiliate supply links.",
+      "evidence": [
+        "https://help.erank.com/blog/top-etsy-searches-q3-2026/",
+        "https://listsy.app/research/etsy-digital-product-search-trends"
+      ],
+      "how_searched": [
+        "Marketplace keyword/trend report",
+        "Trend study",
+        "Niche-analysis site"
+      ],
+      "score": 46.0,
+      "found_at": "2026-10-13T02:37:54.521155+00:00"
     },
     {
       "name": "Cross-network competitor ad-library search (free tier)",
