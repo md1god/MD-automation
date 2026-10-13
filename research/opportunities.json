@@ -711,6 +711,26 @@
       "found_at": "2026-10-12T20:20:19.284305+00:00"
     },
     {
+      "name": "Maker/craft vector converter (PNG/JPG → production-ready SVG/DXF)",
+      "field": "Design utility / maker & sign-shop web tools",
+      "summary": "Online AI tool that turns raster logos and photos into clean cut-ready vector files (SVG, DXF, EPS, HPGL, G-code) for laser cutters, CNC routers, vinyl plotters, Cricut and embroidery machines.",
+      "why_now": "A cluster of new entrants plus a listed exit show real money at low build complexity: an Acquire.com SVG-conversion business reports $85.2K TTM revenue, ~$12K last month, ~$143K ARR and ~67% operating margin (founded Nov 2025), while another solo founder reported ~$3K/month with 219 subscribers and >80% margin after shrinking a too-generous free tier. Dedicated competitors (VectoSolve, Zumip, Vectorisize) all launched machine-specific presets in this niche.",
+      "monetization": "Subscriptions $7.99–$14.99/mo or ~$49/yr plus non-expiring credit packs; the listed business runs ~$12K/month at ~85% gross margin and $143K ARR.",
+      "evidence": [
+        "https://app.acquire.com/public/k2flx91x0u-ai-svg-conversion-tool-for-creators-and-makers-to-turn-images-into-clean-production-ready-vectors",
+        "https://aipost.kr/posts/2026-10-13-non-technical-founder-image-vector-saas/",
+        "https://vectosolve.com/c/laser-cut-file-converter",
+        "https://zumip.com/"
+      ],
+      "how_searched": [
+        "recent indie-founder revenue posts (AGI Hunt / AIPOST)",
+        "startup acquisition marketplace listing with TTM revenue (Acquire.com)",
+        "direct competitor product/pricing pages"
+      ],
+      "score": 82.0,
+      "found_at": "2026-10-13T10:42:24.748724+00:00"
+    },
+    {
       "name": "AI SDR & Autonomous Sales Agents",
       "field": "Sales Tech / AI Automation",
       "summary": "AI agents that engage website visitors in real time, qualify leads, give personalized demos, handle objections, and book meetings — integrating with CRM and sales stacks for 24/7 pipeline generation.",
@@ -892,6 +912,26 @@
       "found_at": "2026-10-12T20:20:20.154666+00:00"
     },
     {
+      "name": "Travel-advisor all-in-one CRM (JourneyFuse)",
+      "field": "Travel / vertical SaaS",
+      "summary": "Vertical CRM for independent travel advisors and small agencies — inquiry, itinerary, bookings, client portal, payments and commissions in one place, priced at ~$25/seat/month.",
+      "why_now": "Stripe-verified revenue and fast growth in a spreadsheet-bound profession: ~$8.2K MRR from ~405 subscriptions with +28.3% 30-day MRR growth (Oct 6, 2026), US launch March 2026, claiming 4,000+ advisors and 550+ agencies; other trackers show $8.6–8.7K MRR and up to +32% month-over-month.",
+      "monetization": "€ $25/seat/month with volume discounts and 20% off annual billing; ~$8.2K MRR (Stripe-verified), ~$16.7K last-30-day gross, ~$52K all-time.",
+      "evidence": [
+        "https://trustmrr.com/startup/journeyfuse",
+        "https://ideawave.io/startup/journeyfuse",
+        "https://www.wlad.me/blog/companies/journeyfuse",
+        "https://buildradar.leapd.ai/journeyfuse"
+      ],
+      "how_searched": [
+        "verified-revenue trackers (TrustMRR / IdeaWave / PulseMRR / VibeCrowd)",
+        "verified-revenue analysis blog (Boring SaaS / wlad.me)",
+        "build-feasibility analysis site"
+      ],
+      "score": 80.0,
+      "found_at": "2026-10-13T10:42:26.267869+00:00"
+    },
+    {
       "name": "Embeddable AI Agent / Copilot for SaaS",
       "field": "DevTools / SaaS Infrastructure",
       "summary": "Drop-in AI agent (one line of code) that lets end-users control any SaaS via natural language — turning clicks into conversations, with scoped permissions, audit logs, and model-agnostic deployment.",
@@ -1034,6 +1074,25 @@
       ],
       "score": 78.0,
       "found_at": "2026-10-11T07:16:55.250914+00:00"
+    },
+    {
+      "name": "Fire loss replacement",
+      "field": "Deathcare / vertical SaaS",
+      "summary": "White-label portal funeral homes and small probate practices hand families after a death: guided state/county-aware task workflows, document templates, institution notification letters, subscription tracking and audit trail, plus automated grief/review follow-ups.",
+      "why_now": "The category is crystallizing in public: TechCrunch (Oct 9, 2026) covered LumenUs automating the roughly 570 hours / 16 months of post-death paperwork and cited a ~$20B US administrative burden across ~2.8M deaths/year and 40+ forms. UK analogues (Tell Us Once, Settld, Life Ledger) are already productized, and providers AfterCareHQ and Tukios already sell aftercare at $79–$299/mo and $99/mo, while StartupHeist estimates $10–20K MRR from 20 funeral homes at $149/mo.",
+      "monetization": "SaaS $79–$299/month per funeral home plus per-case/concierge fees; Tukios charges $99/mo or $25/family for card programs.",
+      "evidence": [
+        "https://techcrunch.com/2026/10/09/lumenus-helps-automate-tedious-paperwork-in-times-of-grief/",
+        "https://www.startupheist.com/the-570-hour-estate-job-nobodys-productized-yet/",
+        "https://www.tukios.com/aftercare"
+      ],
+      "how_searched": [
+        "startup news (TechCrunch)",
+        "idea/gap analysis site (StartupHeist)",
+        "direct competitor product/pricing pages"
+      ],
+      "score": 78.0,
+      "found_at": "2026-10-13T10:42:27.762830+00:00"
     },
     {
       "name": "Browser Extension AI Productivity Tools",
@@ -1349,6 +1408,25 @@
       ],
       "score": 75.0,
       "found_at": "2026-10-10T06:18:10.865890+00:00"
+    },
+    {
+      "name": "AI practice OS for solo therapists and clinics (Klarify)",
+      "field": "Health-tech / vertical AI (behavioral health)",
+      "summary": "Provider-facing AI assistant that drafts clinical notes, treatment plans, clinical letters and insurance claims for therapists and runs client-acquisition content — explicitly not a patient chatbot.",
+      "why_now": "Y Combinator Spring 2026 company Klarify grew from ~6,000 to ~11,000–12,300 therapists in a few months; roughly 11 hours/week of unpaid documentation costs about $71,500 per clinician per year, and the platform estimates a $22B operational economy (>$50B at maturity). The winning lane is a single professional workflow end-to-end rather than a consumer chatbot.",
+      "monetization": "Freemium with paid plans from ~$49 per therapist per month (free 'Seed' tier); raised $500K from YC plus an undisclosed follow-on.",
+      "evidence": [
+        "https://www.ycombinator.com/companies/klarify",
+        "https://torontoguardian.com/2026/09/toronto-business-klarify/",
+        "https://zerogtalent.com/blog/the-ai-therapy-notes-gold-rush-how-documentation-automation-is-rewiring-mental-health-and-the-compliance-gauntlet-that-follows"
+      ],
+      "how_searched": [
+        "Y Combinator company directory",
+        "local business press interview",
+        "industry-analysis blog"
+      ],
+      "score": 75.0,
+      "found_at": "2026-10-13T10:42:28.347873+00:00"
     },
     {
       "name": "Chat-first personal AI assistant (web app)",
@@ -1713,6 +1791,26 @@
       "found_at": "2026-10-13T02:37:53.178726+00:00"
     },
     {
+      "name": "Vertical compliance + EHR web platform for disability-service providers (Kibu)",
+      "field": "Healthcare admin / vertical SaaS (I/DD providers)",
+      "summary": "Content, compliance and EHR software for provider organizations serving people with intellectual and developmental disabilities: care logs, training content and regulatory documentation across many states.",
+      "why_now": "Payment-verified ~$234.3K MRR from ~375–581 subscribers and ~$3.1M all-time on TrustMRR (rank #41), and the Stamford-CT company raised $5.1M and works with ~300 disability providers across 39 states. It shows exceptional retention and revenue in a narrow regulated niche with almost no purpose-built software — though the latest figures show a ~25.6% 30-day decline and an expired Stripe key, so the snapshot is dated.",
+      "monetization": "B2B per-organization/seat subscriptions, contact-sales pricing (HIPAA-compliant); ~$234K MRR verified.",
+      "evidence": [
+        "https://trustmrr.com/startup/kibu",
+        "https://mrrwars.com/startup/kibu",
+        "https://www.wlad.me/blog/companies/kibu",
+        "https://hartfordbusiness.com/article/ct-startup-backed-by-5-1m-uses-ai-to-ease-medicaid-paperwork-for-disability-providers/"
+      ],
+      "how_searched": [
+        "verified-revenue trackers (TrustMRR / MRR Wars / IdeaWave)",
+        "verified-revenue analysis blog",
+        "regional business news"
+      ],
+      "score": 72.0,
+      "found_at": "2026-10-13T10:42:31.395995+00:00"
+    },
+    {
       "name": "Cookie-consent / privacy-compliance generator",
       "field": "Privacy compliance / web tooling",
       "summary": "Scan a site, detect trackers, generate a compliant cookie banner plus cookie/privacy policy, and block non-essential scripts before consent. A free generator for the long tail of small sites that big CMPs ignore.",
@@ -1893,6 +1991,25 @@
       "found_at": "2026-10-11T01:04:54.926584+00:00"
     },
     {
+      "name": "Google Business Profile AI autopilot for SMBs and agencies",
+      "field": "Local SEO / SMB vertical SaaS",
+      "summary": "Connects to the Google Business Profile API to audit profiles, schedule posts, respond to reviews, track local ranks and push a prioritized action list for single locations and multi-location agencies.",
+      "why_now": "Agencies pay $200–$1,200 per location per month for GBP management while the profile itself is free, and vendors now offer AI tools at $49–$99/location/month (volume-tiered), $297/month done-for-you, or $395/month per location (SMB Autopilot). GBP API read/write access is the scarce integration, and multiple vendor pricing/cost pages were published or updated through 2026.",
+      "monetization": "€ $49–$99 per location/month (tiered down with volume) up to $297–$395/month done-for-you; multi-location agency accounts are the profitable segment.",
+      "evidence": [
+        "https://www.leadoracle.ai/blog/ai-google-my-business-tools",
+        "https://subscribepr.com/blog/how-much-does-gbp-management-cost/",
+        "https://smbautopilot.ai/pricing/"
+      ],
+      "how_searched": [
+        "competitor pricing/comparison pages",
+        "industry cost guides",
+        "AI GBP vendor sites"
+      ],
+      "score": 70.0,
+      "found_at": "2026-10-13T10:42:33.855338+00:00"
+    },
+    {
       "name": "Prescription price-comparison & savings tool",
       "field": "Consumer health / pharmacy savings",
       "summary": "Search a drug plus ZIP to compare cash prices across discount programs and nearby pharmacies, with alerts on price changes. A free, no-insurance comparison tool.",
@@ -2029,6 +2146,25 @@
       ],
       "score": 68.0,
       "found_at": "2026-10-11T18:58:30.600947+00:00"
+    },
+    {
+      "name": "Chat-based AI mobile-app UI designer (Sleek.design)",
+      "field": "AI design tools / vibe-design",
+      "summary": "Describe a mobile app in chat and get editable iOS/Android screens exported to Figma, HTML or React, aimed at founders and developers without design skills.",
+      "why_now": "Repurposing code from earlier design tools, it reached ~$10K MRR within six weeks of launch with zero paid marketing and is now referenced at ~$24–25K/month; the AI web-design space is saturated while mobile-app design tooling remains relatively open.",
+      "monetization": "Subscriptions ~$29–$99/month, value-priced against $500–$15,000 freelance app-design work; ~95% of revenue is subscription.",
+      "evidence": [
+        "https://www.indiehackers.com/post/tech/hitting-10k-mrr-in-six-weeks-with-an-ai-design-tool-pEvmU5qkWS6ny0AR9SUv",
+        "https://startupfounderstories.com/stories/mattia-pomelli-sleek-design-10k-mrr",
+        "https://waytoclawearn.com/en/cases/solo-developer-ai-mobile-app-designer-10k-mrr-sleek"
+      ],
+      "how_searched": [
+        "Indie Hackers founder posts",
+        "startup case-study sites",
+        "AI-tool earnings case study"
+      ],
+      "score": 68.0,
+      "found_at": "2026-10-13T10:42:36.854358+00:00"
     },
     {
       "name": "AI paid-media management agent (multi-channel ads)",
@@ -2298,6 +2434,26 @@
       ],
       "score": 63.0,
       "found_at": "2026-10-13T02:37:55.931376+00:00"
+    },
+    {
+      "name": "LinkedIn growth and outreach OS exposed via MCP (The Engine)",
+      "field": "Social growth / sales-prospecting SaaS",
+      "summary": "SaaS that drafts and publishes LinkedIn posts, automates targeted likes/comments and manages lead conversations, all controllable from Claude or ChatGPT through an MCP connector; flat €149/month.",
+      "why_now": "Payment-verified MRR jumped to ~$8.1K (MRR Wars) with ~$5.6K last-30-day revenue and a reported ~+490% 30-day growth, and it topped TrustMRR's fastest-growing list at +2,095% in early October 2026 — clear appetite for AI-agent-driven LinkedIn prospecting. Main risk: LinkedIn automation can breach platform rules, mitigated here via third-party Unipile connection and throttled, human-reviewable volumes.",
+      "monetization": "Flat €149/month all-inclusive; ~$7.7–8.1K MRR verified and ~$52K all-time revenue.",
+      "evidence": [
+        "https://trustmrr.com/startup/the-engine",
+        "https://mrrwars.com/startup/the-engine",
+        "https://ideawave.io/startup/the-engine",
+        "https://www.the-engine.so/"
+      ],
+      "how_searched": [
+        "verified-revenue trackers (TrustMRR / MRR Wars / IdeaWave)",
+        "product site",
+        "fastest-growing-startup newsletter"
+      ],
+      "score": 63.0,
+      "found_at": "2026-10-13T10:42:38.186094+00:00"
     },
     {
       "name": "Viral-product dupe finder",
@@ -2870,6 +3026,24 @@
       ],
       "score": 48.7,
       "found_at": "2026-10-12T20:20:24.246716+00:00"
+    },
+    {
+      "name": "Sketch/3D → photoreal architectural render (Visualizee)",
+      "field": "AI design / architecture visualization (B2B)",
+      "summary": "Browser tool where architects and interior designers upload a sketch, floor plan or 3D/model screenshot and get photoreal renders via a chat assistant that writes the prompt for them.",
+      "why_now": "Stripe-verified ~$8.1K MRR from ~288 subscriptions (Oct 8, 2026) after replacing a hard node editor with a chat UI and switching one-time sales to subscriptions, taking revenue from ~$150/mo to ~$10K/mo in six months; the architectural-rendering software market is cited at ~$2.77B with ~22.3% CAGR. Distinct from the already-known consumer interior-design and virtual-staging tools by targeting professional architects with sketch/model input.",
+      "monetization": "Free tier (5 watermarked renders) then $15/mo Hobby, $35/mo Pro, $80/mo Max, custom Agency; 7-day trial with ~25% trial-to-paid; ~$8.1K MRR plus one-time render revenue.",
+      "evidence": [
+        "https://trustmrr.com/startup/visualizee-ai",
+        "https://gtmsauce.com/companies/visualizee"
+      ],
+      "how_searched": [
+        "verified-revenue tracker (TrustMRR)",
+        "GTM/growth case-study site",
+        "founder-story writeups"
+      ],
+      "score": 48.7,
+      "found_at": "2026-10-13T10:42:29.614565+00:00"
     },
     {
       "name": "AI Personalized Children's Storybook Generator (DreamStories/Magic Story-model)",
