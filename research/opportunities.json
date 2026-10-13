@@ -202,6 +202,26 @@
       "found_at": "2026-10-11T01:04:47.960548+00:00"
     },
     {
+      "name": "Insurance Denial-Appeal & Prior-Authorization Assistant",
+      "field": "healthcare admin / patient advocacy",
+      "summary": "A tool that turns a denied insurance claim or prior-authorization request into a structured, policy-cited appeal letter for patients, clinicians and clinic staff. The consumer-facing free version would explain the denial code, pull the relevant plan/policy language, and draft the appeal.",
+      "why_now": "Payer-side AI for prior authorization is being funded hard right now: Anterior raised a $40M round in Feb 2026 (total $64M) to automate prior-auth for health plans, reporting cancer-care approvals in ~155 seconds vs weeks at Geisinger, and says LLMs can automate ~90% of this administrative work. The pain is enormous but the existing tools sit on the payer side, leaving the patient/appellant side unserved.",
+      "monetization": "Payers pay value-based and per-auto-approved-prior-auth fees (Anterior). A free web tool would monetize via freemium appeal-packet exports, affiliate/legal-referral links, and premium document packs.",
+      "evidence": [
+        "https://anterior.com/insights/announcements/anterior-raises-40m-series/",
+        "https://www.axios.com/pro/health-tech-deals/2026/02/12/exclusive-anterior-raises-40m-for-health-plan-ai",
+        "https://medcitynews.com/2026/02/anterior-ai-health-plan/",
+        "https://www.fiercehealthcare.com/ai-and-machine-learning/payer-ai-company-anterior-banks-40m-funding-round"
+      ],
+      "how_searched": [
+        "funding-news search",
+        "healthcare trade press (MedCity, Fierce, MobiHealthNews)",
+        "company announcement"
+      ],
+      "score": 87.0,
+      "found_at": "2026-10-13T23:20:44.284408+00:00"
+    },
+    {
       "name": "AI Presentation / Deck Generator (Gamma-model)",
       "field": "Productivity - presentation & visual-storytelling software",
       "summary": "A free web tool that turns a topic, prompt, or pasted document into a fully designed slide deck / web-native presentation in seconds. Users type an idea, pick a style, and get editable slides, matching layouts and images.",
@@ -515,6 +535,28 @@
       ],
       "score": 84.0,
       "found_at": "2026-10-10T12:36:24.276367+00:00"
+    },
+    {
+      "name": "Candidate-Side AI Job-Search & Application Tailoring",
+      "field": "career / HR tech",
+      "summary": "A free web tool where a job seeker pastes a job description and their CV, and gets an ATS-proof tailored resume, cover letter, keyword gap analysis and application tracking. Essentially the candidate-side mirror of the agentic recruiting platforms employers now buy.",
+      "why_now": "Employers are racing to agentic recruiting: Metaview raised a $60M Series C (total $110M) in Sep 2026, is used by 7,000+ companies, and cites applications-per-recruiter up 412%. On the candidate side, ResumeUp.AI passed 500,000 users, Jooble's Fitly reached 1M+ users with 10x MRR growth, and Rezi reports 4.5M users. Open-source job-search agents are also trending on GitHub.",
+      "monetization": "Freemium credits and paid subscriptions (ResumeUp, Rezi; Rezi founder-reported ~$2.5M/yr in 2024); free tier with paid tailoring/export and interview prep upsell.",
+      "evidence": [
+        "https://www.metaview.ai/resources/blog/metaview-raised-an-additional-60m-to-lead-the-shift-to-agentic-recruiting",
+        "https://www.techrepublic.com/article/news-metaview-60m-ai-recruiting-agents/",
+        "https://www.globenewswire.com/news-release/2026/08/04/3338492/0/en/ResumeUp-AI-Crosses-500-000-Users-and-Launches-a-Conversational-AI-Resume-Builder.html",
+        "https://dev.ua/en/news/ai-shukaie-robotu-razom-iz-vamy-iak-fitly-avtomatyzuie-cv-cover-letter-ta-vidhuky-1791175642",
+        "https://1m.chat/cases/rezi/"
+      ],
+      "how_searched": [
+        "funding-news search",
+        "HR/career trade press",
+        "open-startup case studies",
+        "GitHub trending"
+      ],
+      "score": 84.0,
+      "found_at": "2026-10-13T23:20:46.124179+00:00"
     },
     {
       "name": "Self-Hosted Workflow Automation for AI Agents (n8n-style)",
@@ -932,6 +974,25 @@
       "found_at": "2026-10-13T10:42:26.267869+00:00"
     },
     {
+      "name": "Text-Message Evidence Organizer for Disputes",
+      "field": "legal tech / consumer",
+      "summary": "A tool that ingests years of a user's text/WhatsApp messages with one contact and outputs a chronological, timestamped, court-ready PDF with patterns (harassment, coercion) flagged, without making the user re-read painful messages.",
+      "why_now": "Dispute Buddy reached $2M ARR just nine months after launch with no VC, riding a legal tailwind as coercive-control laws spread, and its distribution came from a single divorce-tech partnership. The category is proven but still thinly served.",
+      "monetization": "One-off lifetime fee for report exports (app model); free single export with paid multi-contact/pack tiers in a web version.",
+      "evidence": [
+        "https://www.startupdaily.net/advice/business-strategy/how-this-founder-took-legal-tech-startup-dispute-buddy-from-zero-to-2-million-arr-in-just-9-months/",
+        "https://www.arr.club/signal/dispute-buddy-hit-2m-arr-in-9-months",
+        "https://www.disputebuddy.co/"
+      ],
+      "how_searched": [
+        "founder interview / startup news",
+        "ARR/revenue tracker",
+        "product site"
+      ],
+      "score": 80.0,
+      "found_at": "2026-10-13T23:20:46.716954+00:00"
+    },
+    {
       "name": "Embeddable AI Agent / Copilot for SaaS",
       "field": "DevTools / SaaS Infrastructure",
       "summary": "Drop-in AI agent (one line of code) that lets end-users control any SaaS via natural language — turning clicks into conversations, with scoped permissions, audit logs, and model-agnostic deployment.",
@@ -1011,6 +1072,26 @@
       ],
       "score": 79.0,
       "found_at": "2026-10-13T02:37:50.487797+00:00"
+    },
+    {
+      "name": "AI Scripture-Study & Devotional Companion",
+      "field": "faith / consumer AI",
+      "summary": "A free web app where users chat about scripture, get a personalised daily devotional, and study passages with AI explanations and cross-references.",
+      "why_now": "Bible Chat is now the highest-earning Bible app: Appfigures estimates $6.3M net retained since 2023 with a $750K net month, AppCurrents estimates roughly $420K-$2.7M/month, and the publisher reports 15M users within a year and a 4.92-star rating from 365k ratings. A solo founder's Bible-study app reportedly made R$200K in month one.",
+      "monetization": "Free + subscription IAP for premium AI/devotional features; web version via freemium credits or a low-cost subscription.",
+      "evidence": [
+        "https://appcurrents.com/apps/bible-chat-daily-devotional-ios-6448849666",
+        "https://appfigures.com/resources/insights/20250418?f=5",
+        "https://adapty.io/case-studies/biblechat/",
+        "https://howtomakemoney.io/cases/enxovaly-gabriel-baby-checklist-app/"
+      ],
+      "how_searched": [
+        "app-revenue estimators",
+        "app-analytics case studies",
+        "solopreneur case study"
+      ],
+      "score": 79.0,
+      "found_at": "2026-10-13T23:20:47.922296+00:00"
     },
     {
       "name": "Voice-agent QA & live-call benchmark platform",
@@ -1635,6 +1716,24 @@
       "found_at": "2026-10-11T07:16:57.980564+00:00"
     },
     {
+      "name": "Climate-Aware Baby Checklist & Gift Registry",
+      "field": "parenting / consumer utility",
+      "summary": "A web tool that generates exact quantities of baby clothes/essentials sized RN-12M, tuned to the baby's birth month and local climate, plus a shared gift registry that prevents duplicate gifts.",
+      "why_now": "Enxovaly launched Aug 2026 and hit 10,000+ organic downloads and R$40K in month one, is now tracking ~$11K/30 days on TrustMRR with 1,711 active subscriptions, and a third-party estimator shows ~$9.5K lifetime via RevenueCat. Proven demand with no incumbent web tool.",
+      "monetization": "Freemium: free basic checklist, subscription unlocks climate algorithm, unlimited closet storage and AI assistant.",
+      "evidence": [
+        "https://howtomakemoney.io/cases/enxovaly-gabriel-baby-checklist-app/",
+        "https://trustmrr.com/startup/enxovaly",
+        "https://www.whatsthe.app/enxovaly"
+      ],
+      "how_searched": [
+        "open-startup MRR trackers",
+        "indie/RevenueCat case study"
+      ],
+      "score": 73.0,
+      "found_at": "2026-10-13T23:20:49.311831+00:00"
+    },
+    {
       "name": "LLM / agent spend & cost observability dashboard",
       "field": "Developer tools (LLMOps / FinOps)",
       "summary": "A free web tool that ingests API logs and shows cost per user, per feature, per model, plus latency, caching and runaway-agent alerts.",
@@ -2010,6 +2109,24 @@
       "found_at": "2026-10-13T10:42:33.855338+00:00"
     },
     {
+      "name": "Government-Contract (SLED) Opportunity Search",
+      "field": "govtech / B2G",
+      "summary": "A free search tool that aggregates public state/local/education bid portals into one queryable feed with plain-English summaries, so small vendors can find contracts without reading hundreds of portals.",
+      "why_now": "SamSearch crawls ~13,000 SLED portals covering ~50,000 buying agencies and advertises $3B+ won and a 4.9/5 G2 rating; it keeps shipping capture/AI features, showing sustained demand in a market it notes is bigger than federal and has no central portal.",
+      "monetization": "Per-seat/module annual SaaS on the incumbent; a free tier could monetize via premium alerts, filters and proposal tools.",
+      "evidence": [
+        "https://samsearch.co/",
+        "https://docs.samsearch.co/introduction",
+        "https://samsearch.co/blog/introducing-the-new-samsearch"
+      ],
+      "how_searched": [
+        "vendor site + product docs",
+        "govtech product blog"
+      ],
+      "score": 70.0,
+      "found_at": "2026-10-13T23:20:49.877397+00:00"
+    },
+    {
       "name": "Prescription price-comparison & savings tool",
       "field": "Consumer health / pharmacy savings",
       "summary": "Search a drug plus ZIP to compare cash prices across discount programs and nearby pharmacies, with alerts on price changes. A free, no-insurance comparison tool.",
@@ -2186,6 +2303,25 @@
       "found_at": "2026-10-10T21:46:54.147902+00:00"
     },
     {
+      "name": "Multi-Project Ops Center for Solo Builders",
+      "field": "developer tools / analytics",
+      "summary": "A dashboard that puts traffic, errors, user feedback and cookie consent for every small project a builder ships onto one screen, with an inbox prioritising what needs attention.",
+      "why_now": "Vibesmonitor launched on Product Hunt on Oct 13, 2026 and hit #12 with 90 upvotes, built explicitly for the wave of solo AI-assisted builders running several projects at once; it reports 100k+ requests/month since its 2025 launch.",
+      "monetization": "Free tier plus paid Pro plans for growing projects; MCP/agent integration as an upsell.",
+      "evidence": [
+        "https://www.producthunt.com/leaderboard/daily/2026/10/13",
+        "https://hunted.space/product/vibesmonitor",
+        "https://www.indiehackers.com/post/launch-vibesmonitor-analytics-error-tracking-and-feedback-0ef5f7acc4"
+      ],
+      "how_searched": [
+        "launch site leaderboard",
+        "Product Hunt tracker",
+        "indie-hacker community"
+      ],
+      "score": 67.0,
+      "found_at": "2026-10-13T23:20:50.532589+00:00"
+    },
+    {
       "name": "AI-ready help center / llms.txt knowledge base",
       "field": "Customer support & developer docs",
       "summary": "A free static-site tool that generates an AI-readable knowledge base (llms.txt, markdown pages, MCP-ready) so a company's docs surface correctly in ChatGPT/Claude/Perplexity answers and agent crawlers can't be blocked by a bad robots.txt.",
@@ -2243,6 +2379,25 @@
       ],
       "score": 66.0,
       "found_at": "2026-10-11T18:58:46.866573+00:00"
+    },
+    {
+      "name": "AI Mock-Interview Coach",
+      "field": "career / interview prep",
+      "summary": "A free web tool that reads a job description, maps the likely interview rounds, runs a realistic spoken mock interview, and scores each answer with a stronger rewrite built from what the candidate said.",
+      "why_now": "Toby launched Oct 13, 2026 and landed top-10 on Product Hunt (97-103 upvotes) with a simple pay-per-minute model, and the broader candidate-AI job-search wave (ResumeUp, Fitly, Rezi) shows interview prep is the natural next sale after resume tailoring.",
+      "monetization": "Pay-per-minute on calls (50p/min, first 5 minutes free) plus prep-brief/debrief features included; free web version could upsell premium minutes.",
+      "evidence": [
+        "https://usetoby.ai/",
+        "https://hunted.space/product/toby-5",
+        "https://headstart.news/articles/67e27b55e5633db66a1ce93847bf794d"
+      ],
+      "how_searched": [
+        "Product Hunt launch tracker",
+        "product site/FAQ",
+        "launch news roundup"
+      ],
+      "score": 65.0,
+      "found_at": "2026-10-13T23:20:51.238649+00:00"
     },
     {
       "name": "AI study & exam-practice platform",
@@ -2710,6 +2865,24 @@
       ],
       "score": 58.0,
       "found_at": "2026-10-11T14:06:23.583928+00:00"
+    },
+    {
+      "name": "Automated Office-Management Coordinator",
+      "field": "workplace ops / SaaS",
+      "summary": "An AI coordinator that manages recurring office logistics (pantry restocking, cleaning, vendor scheduling) and the vendor relationships around them, replacing manual office-admin coordination.",
+      "why_now": "a16z-backed Codi launched its AI office manager in Oct 2025 and reportedly reached $100K ARR within five weeks of beta, signing 40 companies including TaskRabbit and Northbeam, with a claimed $80,000/yr admin-cost saving per office.",
+      "monetization": "Monthly management subscription priced at a fraction of an office manager/part-time EA; free checklist/vendor-coordination tool could funnel to a paid tier.",
+      "evidence": [
+        "https://techcrunch.com/2025/10/21/a16z-backed-codi-launches-ai-agent-office-manager/",
+        "https://techbuzz.ai/articles/a16z-backed-codi-launches-ai-office-manager-that-hit-100k-arr",
+        "https://yespress.io/codi"
+      ],
+      "how_searched": [
+        "startup news",
+        "funding/company profile"
+      ],
+      "score": 58.0,
+      "found_at": "2026-10-13T23:20:52.204197+00:00"
     },
     {
       "name": "Accessibility AI assistant web app",
