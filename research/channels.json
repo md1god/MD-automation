@@ -245,6 +245,27 @@
       "found_at": "2026-10-09T06:45:12.190050+00:00"
     },
     {
+      "name": "Microsoft Store (free developer accounts)",
+      "url": "https://learn.microsoft.com/en-us/windows/apps/publish/",
+      "kind": "platform",
+      "requires_account": true,
+      "official_free_api": true,
+      "how_to_use": "Open a Partner Center developer account (individual accounts are free; company accounts became free around May 2026), package your app or PWA, and submit through Partner Center to list in the Microsoft Store. Store submission and management expose official Partner Center APIs.",
+      "rules_and_risks": "Account must be created manually and verified by Microsoft; automated account creation is not allowed. Apps go through certification and must meet Store policies. This works best if you actually ship a Windows app or PWA, not a plain blog.",
+      "why_it_works": "The Microsoft Store reaches a very large Windows install base (reportedly 250M+ monthly users) and gives a discoverable, searchable install surface.",
+      "evidence": [
+        "https://learn.microsoft.com/en-us/windows/apps/publish/",
+        "https://learn.microsoft.com/en-us/windows/apps/publish/partner-center/open-a-developer-account",
+        "https://www.neowin.net/news/microsoft-makes-company-developer-accounts-free-for-the-microsoft-store/"
+      ],
+      "how_searched": [
+        "Microsoft Store free developer account 2026",
+        "Microsoft makes company developer accounts free Microsoft Store"
+      ],
+      "score": 74.0,
+      "found_at": "2026-10-13T18:47:30.867688+00:00"
+    },
+    {
       "name": "Reddit: niche subreddits where your users already gather",
       "url": "https://www.reddit.com/",
       "kind": "community",
@@ -523,6 +544,46 @@
       "found_at": "2026-10-10T12:40:08.369957+00:00"
     },
     {
+      "name": "Microsoft Edge Add-ons",
+      "url": "https://learn.microsoft.com/en-us/microsoft-edge/extensions/publish/create-dev-account",
+      "kind": "platform",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Register a free Microsoft Edge program developer account at Partner Center (Microsoft says there is no registration fee), then upload a Chromium extension package via the Partner Center dashboard and submit for certification.",
+      "rules_and_risks": "You must register with a Microsoft account (MSA) or personal GitHub sign-in; account creation is manual. Extensions go through a certification process (up to about seven business days) and must meet policy requirements.",
+      "why_it_works": "Edge Add-ons is the official searchable store for Edge extensions, distributing Chromium extensions at no cost to a broad Windows user base.",
+      "evidence": [
+        "https://learn.microsoft.com/en-us/microsoft-edge/extensions/publish/create-dev-account",
+        "https://learn.microsoft.com/en-us/microsoft-edge/extensions/publish/publish-extension",
+        "https://learn.microsoft.com/en-us/microsoft-edge/extensions/publish/github"
+      ],
+      "how_searched": [
+        "Microsoft Edge Add-ons store free publish extension developer account 2026"
+      ],
+      "score": 57.0,
+      "found_at": "2026-10-13T18:47:37.560005+00:00"
+    },
+    {
+      "name": "Opera add-ons",
+      "url": "https://help.opera.com/en/extensions/publishing-guidelines/",
+      "kind": "platform",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Sign in to the Opera extensions repository, upload an extension (CRX/ZIP) via the Upload Extensions form, and the moderators review and publish it to the Opera add-ons catalog.",
+      "rules_and_risks": "Account creation is manual. Submissions must satisfy the acceptance criteria (e.g., reviewable/non-obfuscated code, third-party libs from official sources) or they are rejected. Only useful if you ship an extension.",
+      "why_it_works": "Opera add-ons is a curated, free extension catalog that gives another distribution and discovery surface for Chromium extensions.",
+      "evidence": [
+        "https://help.opera.com/en/extensions/publishing-guidelines/",
+        "https://help.opera.com/en/extensions/acceptance-criteria/",
+        "https://addons.opera.com/en/extensions/"
+      ],
+      "how_searched": [
+        "Opera add-ons free publish extension 2026 developer"
+      ],
+      "score": 55.0,
+      "found_at": "2026-10-13T18:47:40.065069+00:00"
+    },
+    {
       "name": "SmartNews (free publisher distribution via SmartFormat RSS)",
       "url": "https://about.smartnews.com/en/press/publishers.html",
       "kind": "feed",
@@ -709,6 +770,26 @@
       "found_at": "2026-10-10T12:40:11.314306+00:00"
     },
     {
+      "name": "NewsBreak Publisher",
+      "url": "https://help.newsbreak.com/hc/en-us/articles/36837190635405-How-do-I-deliver-my-content-to-NewsBreak",
+      "kind": "feed",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Apply as a publisher and submit a full-article RSS feed (NewsBreak publishes an RSS/MRSS specification). After approval, NewsBreak ingests and distributes your stories to its local-news app audience.",
+      "rules_and_risks": "Approval is editorial and manual; accounts require an application and cannot be auto-created. Content must comply with the RSS/MRSS spec and NewsBreak editorial standards. Requires a genuine feed of full articles.",
+      "why_it_works": "NewsBreak aggregates local news for tens of millions of monthly users, giving approved publishers distribution to readers who do not already follow them.",
+      "evidence": [
+        "https://help.newsbreak.com/hc/en-us/articles/36837190635405-How-do-I-deliver-my-content-to-NewsBreak",
+        "https://support.newsbreak.com/hubfs/NewsBreak%20RSS%20and%20MRSS%20Specifications.pdf"
+      ],
+      "how_searched": [
+        "NewsBreak publisher RSS feed submit content",
+        "NewsBreak RSS MRSS specifications publishers"
+      ],
+      "score": 44.0,
+      "found_at": "2026-10-13T18:47:31.163620+00:00"
+    },
+    {
       "name": "Mastodon (fediverse, fully documented free API)",
       "url": "https://docs.joinmastodon.org/methods/statuses/",
       "kind": "community",
@@ -766,6 +847,26 @@
       ],
       "score": 41.3,
       "found_at": "2026-10-07T04:19:37.719239+00:00"
+    },
+    {
+      "name": "Naver Search Advisor / Naver Blog",
+      "url": "https://searchadvisor.naver.com/",
+      "kind": "search",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Register your site with Naver Search Advisor, verify ownership, and submit a sitemap (including for foreign-language sites). Naver Blog offers an additional in-house publishing surface. Both are free.",
+      "rules_and_risks": "Requires a Naver account, created manually with identity verification (not automatable). Naver is Korea-focused, so it mainly helps if you target Korean-language or Korea-relevant audiences.",
+      "why_it_works": "Naver holds the dominant search share in South Korea, so registering gives visibility that Google-only optimization misses.",
+      "evidence": [
+        "https://searchadvisor.naver.com/",
+        "https://c9group.dev/en/articles/naver-search-advisor-site-registration-guide"
+      ],
+      "how_searched": [
+        "Naver Search Advisor site registration foreign website",
+        "Naver search engine share Korea submit sitemap"
+      ],
+      "score": 41.3,
+      "found_at": "2026-10-13T18:47:34.226885+00:00"
     },
     {
       "name": "Free instant web directories with no account: DevElif and Directory Index",
@@ -849,6 +950,26 @@
       "found_at": "2026-10-07T04:19:39.269491+00:00"
     },
     {
+      "name": "Firefox Add-ons (AMO)",
+      "url": "https://addons.mozilla.org/en-US/developers/",
+      "kind": "platform",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Register a free Mozilla account, build a WebExtension, and submit it through the addons.mozilla.org developer hub for review. Publishing extensions is free (no fee, unlike some stores).",
+      "rules_and_risks": "Account creation is manual. Extensions are reviewed for policy/security compliance; not everything is accepted. This only helps if you ship a browser extension.",
+      "why_it_works": "AMO is the official extension store for Firefox, giving free, indexable distribution to a large browser user base.",
+      "evidence": [
+        "https://addons.mozilla.org/en-US/developers/",
+        "https://extensionlaunch.com/blog/publish-firefox-extension"
+      ],
+      "how_searched": [
+        "publish Firefox extension free AMO",
+        "firefox addons developer submission"
+      ],
+      "score": 38.7,
+      "found_at": "2026-10-13T18:47:35.974265+00:00"
+    },
+    {
       "name": "Nostr NIP-23 long-form publishing",
       "url": "https://nostr.blog/study/nostr-long-form-content",
       "kind": "platform",
@@ -868,6 +989,25 @@
       ],
       "score": 38.0,
       "found_at": "2026-10-10T12:40:15.840566+00:00"
+    },
+    {
+      "name": "Kagi Small Web",
+      "url": "https://github.com/kagisearch/smallweb",
+      "kind": "directory",
+      "requires_account": true,
+      "official_free_api": true,
+      "how_to_use": "Submit your personal blog's RSS/Atom feed to the Kagi Small Web list via a GitHub pull request editing smallweb.txt (or the list files for YouTube/comics). Kagi also exposes an RSS feed of the list and a News Enrichment API.",
+      "rules_and_risks": "If submitting your own site you must also add at least two other qualifying sites in the same commit. English content only; personal (not multi-author) blogs; recent post within 12 months; no ads/undisclosed affiliate links, no popups, no spam/AI-generated content. GitHub account creation is manual.",
+      "why_it_works": "Kagi Small Web is an open, curated list of nearly 6,000 genuine personal sites surfaced in Kagi search and via RSS, giving indie blogs real discovery.",
+      "evidence": [
+        "https://github.com/kagisearch/smallweb",
+        "https://blog.kagi.com/small-web"
+      ],
+      "how_searched": [
+        "Kagi Small Web GitHub list personal site inclusion pull request"
+      ],
+      "score": 36.7,
+      "found_at": "2026-10-13T18:47:41.062917+00:00"
     },
     {
       "name": "There's An AI For That (TAAFT) — AI tool directory",
@@ -1011,6 +1151,25 @@
       ],
       "score": 28.0,
       "found_at": "2026-10-11T19:02:38.298118+00:00"
+    },
+    {
+      "name": "Substack Recommendations Network",
+      "url": "https://on.substack.com/p/substacks-recommendations-network",
+      "kind": "partnership",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Create or own a Substack publication, then turn on Recommendations so other writers can recommend you and vice versa. Substack surfaces the recommendation network to readers of related publications, driving cross-publication and free newsletter discovery. No payment is required to participate.",
+      "rules_and_risks": "Account creation is manual/interactive and cannot be safely automated. Recommendations help only if your publication is not spammy and produces real content; buying or faking recommendations would violate the rules. Reach depends on other writers choosing to recommend you.",
+      "why_it_works": "Substack publicly reports that its recommendation network drives a large share of new subscriptions by putting independent writers in front of genuinely interested readers.",
+      "evidence": [
+        "https://on.substack.com/p/substacks-recommendations-network"
+      ],
+      "how_searched": [
+        "Substack recommendations network how to join",
+        "Substack recommendation network free subscriptions share"
+      ],
+      "score": 27.3,
+      "found_at": "2026-10-13T18:47:30.361424+00:00"
     },
     {
       "name": "AlternativeTo 'Suggest new application' listing",
@@ -1320,6 +1479,25 @@
       "found_at": "2026-10-11T19:02:42.163132+00:00"
     },
     {
+      "name": "itch.io",
+      "url": "https://itch.io/docs/creators/getting-indexed",
+      "kind": "platform",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Create an itch.io account, upload games, tools, or assets, and follow the documented indexing guidance (clear titles, descriptions, tags, and links) so your project appears in itch.io browse and search.",
+      "rules_and_risks": "Account creation is manual. Publishing is free for most content, but you must own the rights to what you upload and follow the platform's content rules. Indexing depends on filling page metadata correctly.",
+      "why_it_works": "itch.io is a well-known indie distribution marketplace with its own browse/search discovery, giving creators a free, indexable storefront.",
+      "evidence": [
+        "https://itch.io/docs/creators/getting-indexed"
+      ],
+      "how_searched": [
+        "itch.io getting indexed creators docs",
+        "itch.io publish free indie marketplace"
+      ],
+      "score": 22.0,
+      "found_at": "2026-10-13T18:47:32.200882+00:00"
+    },
+    {
       "name": "Web Stories in Google Search and Discover",
       "url": "https://developers.google.com/search/docs/appearance/enable-web-stories",
       "kind": "tactic",
@@ -1471,6 +1649,25 @@
       "found_at": "2026-10-10T00:17:35.774007+00:00"
     },
     {
+      "name": "Farcaster publishing via Neynar API",
+      "url": "https://docs.neynar.com/reference/publish-cast",
+      "kind": "community",
+      "requires_account": true,
+      "official_free_api": true,
+      "how_to_use": "Create a Farcaster (Warpcast) account and a signer, then use the Neynar API's publish-cast endpoint to post casts (including embeds/links) programmatically into the Farcaster social graph.",
+      "rules_and_risks": "You must sign up manually and register a signer/key; the official API exists for real posting. Do not mass-post or run bots that spam — Farcaster clients and communities police abuse. Free API tiers have rate limits.",
+      "why_it_works": "Farcaster is an open social protocol where content from independent developers and writers can spread across clients and channels, giving discoverable distribution beyond a personal site.",
+      "evidence": [
+        "https://docs.neynar.com/reference/publish-cast"
+      ],
+      "how_searched": [
+        "Farcaster publish cast API free",
+        "Neynar publish cast docs"
+      ],
+      "score": 20.0,
+      "found_at": "2026-10-13T18:47:34.628243+00:00"
+    },
+    {
       "name": "Peerlist Launchpad",
       "url": "https://peerlist.io/launchpad",
       "kind": "directory",
@@ -1488,6 +1685,25 @@
       ],
       "score": 19.3,
       "found_at": "2026-10-10T00:17:35.906009+00:00"
+    },
+    {
+      "name": "Figma Community",
+      "url": "https://help.figma.com/hc/en-us/articles/360040035974-Publish-files-to-the-Figma-Community",
+      "kind": "platform",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Create a free Figma account, build a file/plugin/widget/resource, and use the Publish dialog to share it publicly to the Figma Community, where it becomes searchable and duplicable by others.",
+      "rules_and_risks": "Account creation is manual. Publishing requires content that meets Figma's community guidelines; free tier allows community publishing. Only useful if you produce design assets, plugins, or widgets.",
+      "why_it_works": "The Figma Community is a high-traffic, searchable marketplace where free resources get discovered and reused, often with attribution links back to the creator.",
+      "evidence": [
+        "https://help.figma.com/hc/en-us/articles/360040035974-Publish-files-to-the-Figma-Community"
+      ],
+      "how_searched": [
+        "Figma community publish files free",
+        "publish plugin Figma community guidelines"
+      ],
+      "score": 19.3,
+      "found_at": "2026-10-13T18:47:34.788200+00:00"
     },
     {
       "name": "Quora: durable answers on questions your audience already asks",
@@ -1622,6 +1838,44 @@
       "found_at": "2026-10-10T00:17:39.663371+00:00"
     },
     {
+      "name": "MSN Partner Hub (Microsoft Start) RSS/Atom ingest",
+      "url": "https://support.microsoft.com/en-us/msn/partner-hub/how-to-set-up-rss-and-atom-feeds-in-msn-partner-hub",
+      "kind": "feed",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Join the MSN Partner Hub program and set up an RSS or Atom feed that MSN ingests to surface your content to Microsoft Start readers.",
+      "rules_and_risks": "Access is invite/approval-gated, so you must be accepted as a partner; accounts cannot be auto-created. Feed format and editorial standards apply. Better suited to established publishers than tiny personal sites.",
+      "why_it_works": "Microsoft Start / MSN is a massive consumer news surface; approved feeds gain distribution to a very large mainstream audience.",
+      "evidence": [
+        "https://support.microsoft.com/en-us/msn/partner-hub/how-to-set-up-rss-and-atom-feeds-in-msn-partner-hub"
+      ],
+      "how_searched": [
+        "MSN Partner Hub RSS Atom feeds Microsoft Start",
+        "Microsoft Start publisher feed onboarding"
+      ],
+      "score": 16.7,
+      "found_at": "2026-10-13T18:47:41.202649+00:00"
+    },
+    {
+      "name": "F-Droid",
+      "url": "https://f-droid.org/docs/Submitting_to_F-Droid_Quick_Start_Guide/",
+      "kind": "platform",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Publish the source of a free/open-source Android app and submit it to F-Droid following the quick-start guide (typically via the fdroiddata GitLab repository using a merge request). F-Droid builds and distributes the app.",
+      "rules_and_risks": "Only FOSS software is accepted; proprietary or non-free apps are rejected. You need a GitLab account (manual) and your app must build reproducibly from source. Only relevant if you have an open-source Android app.",
+      "why_it_works": "F-Droid is the leading free/open-source Android app repository, distributing to users who specifically look for FOSS apps, with no listing fee.",
+      "evidence": [
+        "https://f-droid.org/docs/Submitting_to_F-Droid_Quick_Start_Guide/"
+      ],
+      "how_searched": [
+        "F-Droid submit app quick start guide",
+        "publish app F-Droid free open source"
+      ],
+      "score": 16.7,
+      "found_at": "2026-10-13T18:47:41.779360+00:00"
+    },
+    {
       "name": "RSS/Atom feed directories (FeedBagel + rss.mobi) — incl. AI-agent discovery",
       "url": "https://feedbagel.com/submit",
       "kind": "feed",
@@ -1696,6 +1950,24 @@
       ],
       "score": 14.7,
       "found_at": "2026-10-11T19:02:37.050960+00:00"
+    },
+    {
+      "name": "Discourse Discover",
+      "url": "https://discover.discourse.com/",
+      "kind": "community",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Run a Discourse community and have it appear in the Discover directory, where people browse public Discourse forums by topic. Participation in relevant Discourse communities also links back to your project in profiles and posts.",
+      "rules_and_risks": "Listing/participation requires a manual account, and forum operators control whether their community is public/discoverable. Promotion must follow each community's rules; spamming gets you banned.",
+      "why_it_works": "Discourse Discover is a cross-community directory that surfaces active public forums, giving niche projects a way to be found by topic-interested visitors.",
+      "evidence": [
+        "https://discover.discourse.com/"
+      ],
+      "how_searched": [
+        "Discourse Discover community directory public forums"
+      ],
+      "score": 14.0,
+      "found_at": "2026-10-13T18:47:42.087271+00:00"
     },
     {
       "name": "TabNews (Portuguese-language developer community)",
