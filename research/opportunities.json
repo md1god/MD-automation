@@ -222,6 +222,27 @@
       "found_at": "2026-10-13T23:20:44.284408+00:00"
     },
     {
+      "name": "Vertical micro-drama (serialized short-drama) creation studio",
+      "field": "AI video / entertainment",
+      "summary": "A browser studio that turns a one-line premise into a serialized vertical micro-drama: story bible, episode map with cliffhangers, shot-level scripts and AI-rendered 9:16 episodes with a consistent cast.",
+      "why_now": "Micro-drama is one of the fastest-growing media formats: non-China revenue is projected at $3.6B in 2026 and ReelShort alone is forecast at $1.05B revenue; ReelShort users average 35.7 min/day, more than Prime Video, Netflix or Disney+. A cluster of new 'script-to-episode' tools (Redrama, Microdrama, Soapflix, OpenArt, Topview, DirectStudio) launched over the last months, signalling a creator-tool land grab.",
+      "monetization": "End apps monetize heavily (ReelShort ~$1.05B 2026, ~$40M net income projected; DramaBox 70% subscription at $19.99/week). Creation tools monetize via credits and subscriptions (Soapflix pay-as-you-go credits; Microdrama subscriptions/credit packs; Redrama free editing + paid rendering).",
+      "evidence": [
+        "https://variety.com/2026/tv/news/reelshort-1-billion-revenue-profit-2026-mpa-1236828885/",
+        "https://www.emarketer.com/content/faq-on-microdramas--mobile-video-format-outpacing-netflix-daily-engagement",
+        "https://lens.streaming-radar.com/micro-drama-apps",
+        "https://redrama.ai/ai-drama-script-generator",
+        "https://microdrama.com/"
+      ],
+      "how_searched": [
+        "news/media research reports (Variety, eMarketer)",
+        "app-market analytics (Sensor Tower/MPA press)",
+        "startup product landing pages"
+      ],
+      "score": 87.0,
+      "found_at": "2026-10-14T13:47:25.103806+00:00"
+    },
+    {
       "name": "AI Presentation / Deck Generator (Gamma-model)",
       "field": "Productivity - presentation & visual-storytelling software",
       "summary": "A free web tool that turns a topic, prompt, or pasted document into a fully designed slide deck / web-native presentation in seconds. Users type an idea, pick a style, and get editable slides, matching layouts and images.",
@@ -324,6 +345,27 @@
       ],
       "score": 86.0,
       "found_at": "2026-10-13T02:37:49.146410+00:00"
+    },
+    {
+      "name": "Persistent memory and context layer for AI agents",
+      "field": "AI infrastructure / dev tools",
+      "summary": "A free web/self-hostable memory service that captures what an agent did across sessions, compresses it and re-injects the relevant context so chat and coding agents stop forgetting.",
+      "why_now": "claude-mem crossed 100k GitHub stars (about +7k in 30 days; ~18k weekly npm downloads) and Hindsight hit 49k stars with 30k cloud users. Investors just funded the exact layer: Zeroset $5.2M for enterprise agent memory (Oct 6) and Uvi $7.5M (Oct 14); Cognee and Membase are building similar evidence-centered memory.",
+      "monetization": "Hindsight sells Hindsight Enterprise/Cloud (object-storage memory engine, 30,000+ cloud users); Zeroset plans license + usage pricing tied to data volume and agent activity; Uvi raised $7.5M on business-context memory.",
+      "evidence": [
+        "https://github.com/thedotmack/claude-mem",
+        "https://gittrend.io/repo/thedotmack/claude-mem",
+        "https://hindsight.vectorize.io/blog/2026/10/13/memlake",
+        "https://devcuration.com/articles/zeroset-raises-5-2m-enterprise-agent-memory",
+        "https://thenextweb.com/news/uvi-7-5m-seed-ai-agents-company-context"
+      ],
+      "how_searched": [
+        "GitHub trending/star trackers",
+        "open-source release blogs",
+        "startup funding roundups"
+      ],
+      "score": 86.0,
+      "found_at": "2026-10-14T13:47:28.639357+00:00"
     },
     {
       "name": "Short-Form Video Intelligence & Analytics",
@@ -645,6 +687,26 @@
       ],
       "score": 83.0,
       "found_at": "2026-10-13T02:37:49.357306+00:00"
+    },
+    {
+      "name": "Leak & misconfiguration scanner for vibe-coded apps",
+      "field": "security / dev tools",
+      "summary": "A zero-config web tool where a non-technical builder pastes their deployed URL or connects a repo to find exposed API keys, service-role keys, missing Row-Level Security and unauthenticated endpoints, with plain-English fixes.",
+      "why_now": "Vibe coding is a ~$4.7B market growing ~38% while roughly 58-80% of scanned AI-built apps carry critical issues; Veracode found 45% of AI-generated code fails OWASP tests and GitHub priced secret scanning at $19/committer/month. A cottage industry of URL-first scanners (Ubserve, SafeToShip, VibeAppScanner, ZeriFlow, SecureVibing) appeared in 2026, showing proven willingness to pay from solo builders.",
+      "monetization": "Freemium: Ubserve free scan then $9 one-time or $25/mo ($19 annual); VibeAppScanner ~$19/mo; ZeriFlow $8.25-$32.50/mo; one indie product (SecureVibing) reported ~$6,772 combined MRR with a $499 one-time audit upsell.",
+      "evidence": [
+        "https://www.microgaps.com/gaps/zero-config-secrets-scanner-vibe-coders",
+        "https://labs.cloudsecurityalliance.org/research/csa-research-note-ai-generated-code-vulnerability-surge-2026/",
+        "https://dev.to/solobillions/i-tested-every-vibe-coding-security-scanner-2026-heres-what-actually-works-p9k",
+        "https://ubserve.com/blog/best-vibe-coding-security-tools"
+      ],
+      "how_searched": [
+        "security research notes",
+        "independent tool-comparison blogs",
+        "gap-analysis/long-tail opportunity sites"
+      ],
+      "score": 83.0,
+      "found_at": "2026-10-14T13:47:29.937656+00:00"
     },
     {
       "name": "Buyer-intent finder for Reddit / X / HN",
@@ -1094,6 +1156,25 @@
       "found_at": "2026-10-13T23:20:47.922296+00:00"
     },
     {
+      "name": "Text-to-CAD parametric model generator",
+      "field": "engineering / mechanical CAD",
+      "summary": "A web tool that turns a plain-language brief or sketch into an editable, parametric CAD part or assembly (STEP/STL export) without CAD training.",
+      "why_now": "earthtojake/text-to-cad exploded to ~20k GitHub stars in a week, and a wave of dedicated startups (Zoo.dev, zCAD, OrbitCAD, Ganda, AIDA) shipped text-to-parametric-CAD in 2026 with real pricing, confirming the category is moving from demo to product.",
+      "monetization": "Ganda charges £39/mo (Maker) and £79/mo (Pro) with per-part generation; zCAD sells AI Plus/Pro subscriptions; OrbitCAD is in public beta; these replace or augment expensive CAD seats.",
+      "evidence": [
+        "https://www.getleo.ai/blog/best-text-to-cad-tools-2026",
+        "https://zcad.ai/products/ai",
+        "https://github.com/trending"
+      ],
+      "how_searched": [
+        "GitHub trending",
+        "vendor product/pricing pages",
+        "tool comparison guides"
+      ],
+      "score": 79.0,
+      "found_at": "2026-10-14T13:47:31.961835+00:00"
+    },
+    {
       "name": "Voice-agent QA & live-call benchmark platform",
       "field": "Conversational AI / voice-agent QA",
       "summary": "Testing, simulation and benchmarking for voice AI agents before and during production — speech-to-speech eval on live phone calls, regression suites and CI/CD integration. Cekura Bench launched on Product Hunt Oct 8.",
@@ -1256,6 +1337,25 @@
       ],
       "score": 77.0,
       "found_at": "2026-10-11T01:04:53.199130+00:00"
+    },
+    {
+      "name": "Clean editorial diagram generator (anti-Mermaid)",
+      "field": "design / productivity",
+      "summary": "A free web tool that turns text or a repo into presentation-quality, self-contained SVG/HTML diagrams across dozens of diagram types, instead of generic Mermaid output.",
+      "why_now": "cathrynlavery/diagram-design went from near-zero to ~55k GitHub stars (+9.8k in a week) as 'editorial diagram design for coding agents', while the automated diagram-generation market is growing ~14.3% CAGR toward $5.36B by 2033 and AI text-to-diagram is the hottest feature request across Figma/Miro.",
+      "monetization": "The category is proven paid: Miro has 130,000+ paying customers and Lucidchart holds ~18.7% of the architecture-diagram market; new AI diagram tools monetize by subscription/credits.",
+      "evidence": [
+        "https://github.com/trending",
+        "https://growthmarketreports.com/report/automated-diagram-generation-market",
+        "https://blog.9cv9.com/top-105-diagram-software-statistics-data-trends-in-2026/"
+      ],
+      "how_searched": [
+        "GitHub trending",
+        "market-research reports",
+        "industry statistics roundups"
+      ],
+      "score": 77.0,
+      "found_at": "2026-10-14T13:47:33.613637+00:00"
     },
     {
       "name": "AI Content Repurposing (Long-Form → Short-Form)",
@@ -1529,6 +1629,26 @@
       "found_at": "2026-10-14T02:06:35.946522+00:00"
     },
     {
+      "name": "Self-updating docs / documentation-drift agent",
+      "field": "developer tools / documentation",
+      "summary": "A free web app that detects when code and docs disagree on every commit/PR and drafts the exact fix, so help centers, API refs and runbooks never silently go stale.",
+      "why_now": "A dense new cluster launched in 2026 (DeepDocs, DocuGardener, Docdrift, FluentDocs, Moxie Docs, Documentation.AI) all targeting AI-driven docs drift, as AI coding agents accelerate codebases and make stale docs mislead both humans and agents.",
+      "monetization": "Freemium SaaS with paid team tiers (DeepDocs 7-day trial + scan credits; DocuGardener free public repo tier plus paid repo/LLM bundles; Docdrift free/Solo/Team), an established pattern in dev tooling.",
+      "evidence": [
+        "https://deepdocs.dev/",
+        "https://docdrift.io/",
+        "https://www.fluentdocs.dev/",
+        "https://moxiedocs.com/learn/what-is-documentation-drift"
+      ],
+      "how_searched": [
+        "startup product landing pages",
+        "dev-tool launch cluster",
+        "open-source self-host pages"
+      ],
+      "score": 75.0,
+      "found_at": "2026-10-14T13:47:36.992554+00:00"
+    },
+    {
       "name": "Chat-first personal AI assistant (web app)",
       "field": "Consumer AI / personal agents",
       "summary": "A free web tool where users text or type tasks (research, organise, shop/reserve, schedule) to a personal agent that does them end-to-end in the browser.",
@@ -1640,6 +1760,26 @@
       ],
       "score": 74.0,
       "found_at": "2026-10-12T10:53:46.852814+00:00"
+    },
+    {
+      "name": "Local-first voice cloning and dubbing studio",
+      "field": "audio / creator tools",
+      "summary": "An on-device web/desktop studio for zero-shot voice cloning, voice design, video dubbing and audiobooks with no API keys or per-character billing, competing directly with ElevenLabs.",
+      "why_now": "Open-source local clones are surging: VoiceStudio (646 languages, 14 TTS / 9 ASR engines) and sibling projects (Langswap, Speech Studio, Voice-Pro) all shipped in 2026 and trended, riding subscription fatigue and privacy concerns against cloud TTS.",
+      "monetization": "Replaces ElevenLabs' $5-$330/mo cloud tiers (free + donations, AGPL with paid commercial licenses for proprietary embedding), a proven high-margin audio-software market.",
+      "evidence": [
+        "https://github.com/debpalash/VoiceStudio/",
+        "https://github.com/corazonthedev/langswap",
+        "https://github.com/soniqo/speech-studio",
+        "https://themenonlab.blog/blog/voice-pro-open-source-voice-cloning-dubbing/"
+      ],
+      "how_searched": [
+        "GitHub repositories/trending",
+        "open-source project reviews",
+        "creator-tool blogs"
+      ],
+      "score": 74.0,
+      "found_at": "2026-10-14T13:47:39.446484+00:00"
     },
     {
       "name": "Personal data-broker opt-out & removal-request generator",
@@ -1989,6 +2129,25 @@
       "found_at": "2026-10-11T07:16:58.306690+00:00"
     },
     {
+      "name": "AI tattoo design and preview generator",
+      "field": "consumer AI / design",
+      "summary": "A web tool that generates custom tattoo designs by style, turns photos into tattoo art, and previews them on different body parts, with downloadable stencils.",
+      "why_now": "Tattoo generators are quietly printing money: Tattoo AI / Tattooist show roughly 72k-300k downloads/month and revenue estimates from ~$10k-$100k+/month, with high install velocity on Android and sustained App Store presence into late 2026.",
+      "monetization": "In-app subscriptions/packs: Tattoo AI estimates ~$15k-$81k/month (medium confidence) and one tracker shows up to ~$400k/month; Tattooist is estimated at ~$100k/month from ~200k downloads/month.",
+      "evidence": [
+        "https://peekly.app/apps/ed05ffd0-76d5-490b-b40e-374fae11512f",
+        "https://appcurrents.com/apps/tattoo-ai-tattoo-design-android-com.hubx.tattoo",
+        "https://appgoblin.info/apps/ai.tattoo.ink.generator"
+      ],
+      "how_searched": [
+        "app revenue/download estimators",
+        "app-store analytics",
+        "keyword store listings"
+      ],
+      "score": 71.0,
+      "found_at": "2026-10-14T13:47:42.315328+00:00"
+    },
+    {
       "name": "AI resume + job-application toolkit (ATS-tailored)",
       "field": "Careers / job search",
       "summary": "A free web app that writes and tailors a resume to a pasted job description (keyword targeting/ATS pass-through) plus interview practice.",
@@ -2301,6 +2460,24 @@
       ],
       "score": 68.0,
       "found_at": "2026-10-13T10:42:36.854358+00:00"
+    },
+    {
+      "name": "Local, subscription-free photo editor (open-source wave)",
+      "field": "design / creative tools",
+      "summary": "A browser-runnable, non-destructive photo editor positioned as a free, offline alternative to subscription creative suites.",
+      "why_now": "storytold/photocraft, a clean-room open-source photo editor written in pure Rust, rocketed to ~55k GitHub stars (+53k in a single week) alongside companion 'craft' projects (lightcraft, artcraft, wordcraft, pdfcraft), reflecting intense demand for capable, subscription-free creative software.",
+      "monetization": "No direct revenue for the OSS app (donations/commercial licenses), but the incumbents it displaces are large: Canva drew ~948M monthly visits (+9.5% MoM in Sept 2026) and Adobe/Canva subscriptions define the paid market.",
+      "evidence": [
+        "https://github.com/trending",
+        "https://findarepo.com/digest/2026-10-13/",
+        "https://www.alphamoat.ai/en/ranking/ai-websites-global"
+      ],
+      "how_searched": [
+        "GitHub trending trackers",
+        "AI-website traffic rankings"
+      ],
+      "score": 68.0,
+      "found_at": "2026-10-14T13:47:43.024644+00:00"
     },
     {
       "name": "AI paid-media management agent (multi-channel ads)",
@@ -3562,6 +3739,23 @@
       ],
       "score": 46.0,
       "found_at": "2026-10-13T02:37:54.521155+00:00"
+    },
+    {
+      "name": "Infinite-whiteboard AI tutor for students",
+      "field": "edtech / AI",
+      "summary": "An AI tutor that solves and explains problems on an infinite canvas rather than a chat thread, combining step-by-step solving, interactive tutoring and personalized study.",
+      "why_now": "Student AI study sites are spiking: Turnitin AI Detector (+351.8%), Solvely (+246%), AstraAI (+204.8%), Peardeck (+204.2%) and Top Hat (+198.3%) on the September 2026 fastest-growing AI-websites list, while Product Hunt's top study launch (Gauth, 200M+ downloads) pushed the whiteboard-tutor format.",
+      "monetization": "Freemium/subscription study platforms (Gauth, Solvely, Astra AI) monetize via paid tiers on large student bases; education AI is a high-volume consumer category.",
+      "evidence": [
+        "https://www.alphamoat.ai/en/ranking/ai-websites-rising",
+        "https://www.producthunt.com/leaderboard/monthly/2026/10"
+      ],
+      "how_searched": [
+        "AI-website traffic/growth rankings",
+        "launch-site leaderboards"
+      ],
+      "score": 46.0,
+      "found_at": "2026-10-14T13:47:42.576055+00:00"
     },
     {
       "name": "Back-in-stock & preorder automation for Shopify stores",
