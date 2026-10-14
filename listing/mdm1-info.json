@@ -1,0 +1,11 @@
+{
+  "name": "MDM1",
+  "type": "POLYGON",
+  "symbol": "MDM1",
+  "decimals": 18,
+  "website": "https://mdm1.org",
+  "description": "NEED: one sentence, <= 100 chars",
+  "explorer": "https://polygonscan.com/token/0x0a4E17e4F9c179a310069711069c346CFCf13c3f",
+  "status": "active",
+  "id": "0x0a4E17e4F9c179a310069711069c346CFCf13c3f"
+}
