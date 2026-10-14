@@ -26,6 +26,28 @@
       "found_at": "2026-10-07T03:59:18.422367+00:00"
     },
     {
+      "name": "Long-Form Faceless YouTube Automation (8-15 min)",
+      "field": "AI Video / Creator Economy",
+      "summary": "A web tool that fully automates long-form faceless YouTube videos (8-15 minutes): script research, SEO-optimized writing, AI voiceover, visual assembly, music, captions, and auto-publishing — the high-RPM segment AutoShorts.ai ($117K MRR) deliberately avoids.",
+      "why_now": "AutoShorts.ai proved the model at $103K-117K MRR in 6-8 months (solo, 75% margins) but only for Shorts (<60 sec). Long-form earns $3-8 RPM vs Shorts' $0.02-0.05 — a 100-400x revenue difference per view. Zero competitors automate the long-form pipeline end-to-end. Creators running 20+ channels build custom stacks because no tool exists.",
+      "monetization": "SaaS subscriptions $39-99/mo per channel (AutoShorts charges $19-69 for Shorts). Long-form creators have 100-400x higher willingness to pay. Market projected $8.76B by 2026 at 21% CAGR.",
+      "evidence": [
+        "https://www.microgaps.com/gaps/2026-02-06-faceless-youtube-automation",
+        "https://startupfounderstories.com/stories/eric-smith-autoshorts-40k-mrr-faceless-video-automation",
+        "https://mrrtrack.com/saas/autoshorts.ai",
+        "https://provenstartups.com/projects/autoshorts-ai-faceless-video-generator",
+        "http://arrfounder.com/product/autoshorts"
+      ],
+      "how_searched": [
+        "MicroGaps competitive analysis",
+        "Founder revenue interviews (StartupFounderStories, ProvenStartups)",
+        "MRR tracking (MRRTrack, Arrfounder)",
+        "YouTube RPM economics data"
+      ],
+      "score": 92.0,
+      "found_at": "2026-10-14T22:45:21.191118+00:00"
+    },
+    {
       "name": "AI search visibility / GEO brand-citation checker",
       "field": "Marketing & SEO (GEO/AEO)",
       "summary": "A free web tool that checks how often a brand or competitor is named (and where) inside answers from ChatGPT, Perplexity, Gemini and Claude, then generates an llms.txt/citation audit with fixes.",
@@ -47,6 +69,29 @@
       ],
       "score": 90.0,
       "found_at": "2026-10-07T23:12:47.481533+00:00"
+    },
+    {
+      "name": "AI Search Visibility / GEO Tracking Dashboard",
+      "field": "Marketing / SEO / AI Visibility",
+      "summary": "A free web dashboard that tracks brand citations, visibility %, position, and sentiment across ChatGPT, Perplexity, Gemini, Google AI Overviews, and Claude — with side-by-side organic vs AI traffic comparison to detect cannibalization (per Omio A/B test).",
+      "why_now": "AI referral traffic grew 527% YoY (19 GA4 properties, Previsible). 94% of 250+ CMOs plan to increase AEO investment in 2026 (Conductor). AI traffic converts at 4-5x organic rate. Google Search Console launched native AI Overview reporting June 2026. Omio proved GEO tactics can cannibalize organic (-6.5%) — teams need unified measurement.",
+      "monetization": "Freemium: free tier tracks 1 brand/10 prompts; Pro $49-199/mo for multi-brand, competitor tracking, API, white-label reports. Agencies pay $500-2000/mo for client dashboards.",
+      "evidence": [
+        "https://www.conductor.com/academy/state-of-aeo-geo-report/",
+        "https://www.99signals.com/geo-vs-seo/",
+        "https://peec.ai/blog/how-to-measure-ai-search-visibility-and-revenue-the-kpis-that-actually-matter",
+        "https://searchengineland.com/audit-off-page-ai-search-visibility-90-day-plan-494866",
+        "https://blog.starmorph.com/blog/aeo-geo-optimization-guide"
+      ],
+      "how_searched": [
+        "Conductor CMO survey (250+ leaders)",
+        "Omio A/B test via SearchPilot (99signals)",
+        "Peec AI measurement framework",
+        "Search Engine Land / Previsible data",
+        "Georgia Tech/Princeton GEO-bench research"
+      ],
+      "score": 89.0,
+      "found_at": "2026-10-14T22:45:23.083569+00:00"
     },
     {
       "name": "PDF/Document Parsing & Data Extraction API",
@@ -491,6 +536,30 @@
       "found_at": "2026-10-12T20:20:18.074049+00:00"
     },
     {
+      "name": "Browser Automation Infrastructure for AI Agents (Self-Hosted / Cloud)",
+      "field": "Developer Tools / AI Infrastructure",
+      "summary": "A free web-based control plane for running, debugging, and observing AI browser agents — combining self-hosted browser pools (Steel.dev style), session replay, token-cost optimization (AgentR Webcmd cuts 90%), and deterministic workflow recording (Anchor Browser style).",
+      "why_now": "Browserbase: $40M Series B, $300M valuation, 50M sessions/yr, 1000+ customers. Browser Use (open source): 97% on Mind2Web benchmark (hosted tier). AgentR Webcmd (Oct 2026, open source): 90% token reduction, 67/100 tasks on BU Bench. Asteroid (YC): $770K ARR, 7 employees. Microlink: 778M requests/mo (~$500K ARR). Market projected $76.8B by 2034.",
+      "monetization": "Open-source core (MIT/Apache 2.0). Cloud hosted: $20-200/mo per concurrent browser. Enterprise: self-hosted license + support. Token-cost analytics as paid add-on.",
+      "evidence": [
+        "https://www.browserless.io/blog/state-of-ai-browser-automation-2026",
+        "https://github.com/browser-use/browser-use",
+        "https://markets.businessinsider.com/news/stocks/agentr-launches-webcmd-open-source-browser-infrastructure-that-lets-ai-agents-learn-a-website-once-1036612154",
+        "https://getlatka.com/companies/asteroid.ai",
+        "https://getlatka.com/companies/anchorbrowser.io",
+        "https://o-mega.ai/articles/top-10-anchor-browser-alternatives-2026"
+      ],
+      "how_searched": [
+        "Browserbase funding/usage (TechCrunch, AIMultiple)",
+        "Browser Use benchmarks (GitHub, Steel.dev leaderboard)",
+        "AgentR Webcmd launch (Business Insider, Oct 2026)",
+        "GetLatka revenue estimates (Asteroid, Anchor, Browser Buddy)",
+        "O-mega.ai market analysis"
+      ],
+      "score": 85.0,
+      "found_at": "2026-10-14T22:45:25.093202+00:00"
+    },
+    {
       "name": "AI Video Generation & Editing for Short-Form",
       "field": "Creator Economy / AI Media",
       "summary": "Tools that generate or edit short-form videos (Reels, TikToks, Shorts) from text, audio, or long-form source — auto-clipping, captioning, reframing, hook detection, and multi-platform publishing.",
@@ -709,6 +778,29 @@
       "found_at": "2026-10-14T13:47:29.937656+00:00"
     },
     {
+      "name": "AI Compliance Automation Platform (SOC2 / ISO27001 / EU AI Act / ISO42001)",
+      "field": "Security / Compliance / GRC",
+      "summary": "A free web tool that generates audit-ready policies, Trust Center, control mapping, and bridge letters for SOC2 Type I/II, ISO27001, ISO42001, and EU AI Act — with automated evidence collection from GitHub, AWS, Stripe, OpenAI/Anthropic APIs.",
+      "why_now": "Enterprise deals blocked without SOC2 Type II (98% Fortune 500, 85% mid-market require it). EU AI Act high-risk enforcement began Aug 2026 (fines up to 3% revenue). DORA/NIS2 active. ISO42001 rapidly becoming expectation alongside SOC2 (SOC2Scout). Vanta/Drata at $10-20K/yr; 100xAI sells $4,999 sprints; SimpleAudit at $199/mo. 30-day playbooks exist (LowerPlane).",
+      "monetization": "Free: policy templates, control mapping, Trust Center page. Pro: $199-499/mo for automated evidence collection, auditor bridge letters, continuous monitoring. Enterprise: custom for multi-framework, dedicated support.",
+      "evidence": [
+        "https://www.vanta.com/collection/soc-2/soc-2-for-startups",
+        "https://100xai.engineering/blog/soc2-vs-iso27001-startups",
+        "https://simpleaudit.io/compare/soc2-vs-iso27001",
+        "https://lowerplane.com/blog/soc2-iso27001-30-day-playbook-ai-startups/",
+        "https://udit.co/blog/raw/saas-compliance-soc2-gdpr"
+      ],
+      "how_searched": [
+        "Vanta/SimpleAudit pricing & timelines",
+        "100xEngineering decision frameworks",
+        "SOC2Scout AI-specific auditor requirements",
+        "LowerPlane 30-day playbook",
+        "Udit.co regulatory analysis (DORA, NIS2, EU AI Act)"
+      ],
+      "score": 83.0,
+      "found_at": "2026-10-14T22:45:41.900444+00:00"
+    },
+    {
       "name": "Buyer-intent finder for Reddit / X / HN",
       "field": "Lead generation & market research",
       "summary": "A free tool that scans Reddit, X and Hacker News for posts where people are actively asking for a solution ('am I looking for a tool that...', 'mailchimp alternative'), scores buying intent and shows the best threads in a ranked digest.",
@@ -915,6 +1007,29 @@
       "found_at": "2026-10-10T17:54:57.465495+00:00"
     },
     {
+      "name": "Vertical AI Voice Agent Builder for SMBs (Dental / HVAC / Legal / Trades)",
+      "field": "Voice AI / Vertical SaaS",
+      "summary": "A no-code web builder for creating vertical-specific AI phone agents (dental scheduling, HVAC dispatch, legal intake, contractor qualification) with pre-built workflows, CRM integrations, and HIPAA/PCI-ready compliance — deployable in minutes without developers.",
+      "why_now": "Retell AI: $60M ARR, 650% YoY (Sacra). Vapi: $50M Series B, 1B calls, 1M developers. fonio.ai: $10M ARR in <12 months, 30% MoM growth, 10,000+ customers (TheNextWeb). RingCentral AIR: 11,800 paying customers, 40% QoQ growth. SoundHound: $169M ARR, ~100% YoY. Horizontal platforms exist; vertical no-code builders with compliance presets do not.",
+      "monetization": "Free tier: 1 agent, 100 min/mo. Pro: $99-299/mo per location with vertical templates, CRM sync, compliance modes. Enterprise: white-label for BPOs/agencies. Platform takes 10-20% of per-minute usage fees.",
+      "evidence": [
+        "https://sacra.com/research/retell-ai-60m-yr-up-650-yoy/",
+        "https://ppc.land/vapi-closes-50m-series-b-as-voice-ai-agents-hit-1-billion-calls/",
+        "https://thenextweb.com/news/fonio-ai-10-million-arr-vienna-voice-ai",
+        "https://completeaitraining.com/news/ringcentrals-ai-products-surpass-10-of-total-arr-as-air/",
+        "https://www.soundhound.com/newsroom/press-releases/soundhound-ai-reports-record-annual-revenue-of-169-million-up-nearly-100-forecasts-strong-growth/"
+      ],
+      "how_searched": [
+        "Sacra revenue research (Retell, Vapi)",
+        "TheNextWeb exclusive (fonio.ai)",
+        "RingCentral earnings reports",
+        "SoundHound public filings",
+        "PPC.land funding coverage"
+      ],
+      "score": 81.0,
+      "found_at": "2026-10-14T22:45:43.561560+00:00"
+    },
+    {
       "name": "Text or image to 3D model generator",
       "field": "3D / Design tools",
       "summary": "A free web tool that turns a text prompt or a photo into a downloadable 3D model (glTF/STL) for games, printing and product mockups.",
@@ -1053,6 +1168,30 @@
       ],
       "score": 80.0,
       "found_at": "2026-10-13T23:20:46.716954+00:00"
+    },
+    {
+      "name": "Enterprise Knowledge Graph / Permission-Aware RAG Builder",
+      "field": "Enterprise AI / Knowledge Management",
+      "summary": "A free web tool that connects to Slack, Notion, Confluence, GitHub, Jira, Google Drive and builds a permission-aware knowledge graph (not just vector RAG) — enabling grounded answers with citations, access control at query time, and token-efficient retrieval (Glean/Atlassian Rovo architecture).",
+      "why_now": "Glean: $300M ARR, 3x in 15 months (AxBrief, SingularityMoments). Cohere: $240M ARR, 287% YoY (ChatForest). Onyx (open source): Netflix 14K users, Ramp 30x ROI, air-gapped deployments. Atlassian Rovo: customers grow ARR 2x faster using knowledge graph vs RAG (MindStudio). Turbopuffer: $100M ARR, 2400% YoY (Sacra). Permission-aware retrieval is the deployment blocker.",
+      "monetization": "Free: self-hosted Community Edition (MIT), 40+ connectors. Cloud: $20/user/mo (GoSearch/Onyx pricing) vs Glean $50-65/user/mo with 100-seat minimum. Enterprise: air-gapped, custom connectors, SSO.",
+      "evidence": [
+        "https://axbrief.com/en/news/the-context-layer-how-glean-scaled-enterprise-ai-search-to-300m-arr-lnuo0d",
+        "https://www.clientcues.com/competitors/compare/glean-vs-gosearch-vs-onyx-2026-05/",
+        "https://chatforest.com/reviews/cohere-enterprise-llm-rag-platform/",
+        "https://www.mindstudio.ai/blog/atlassian-rovo-knowledge-graph-vs-rag-arr-growth",
+        "https://sacra.com/research/100m-yr-posthog-of-vector-databases/",
+        "https://www.singularitymoments.com/content/glean-hits-300m-arr-as-enterprise-ai-search-moves-from-toy-to-necessity/"
+      ],
+      "how_searched": [
+        "Glean revenue milestones (AxBrief, SingularityMoments, Business Wire)",
+        "Cohere ARR trajectory (ChatForest investor memo)",
+        "Onyx deployments (Netflix, Ramp, ClientCues)",
+        "Atlassian Rovo earnings call analysis (MindStudio)",
+        "Turbopuffer revenue (Sacra)"
+      ],
+      "score": 80.0,
+      "found_at": "2026-10-14T22:45:45.812515+00:00"
     },
     {
       "name": "Embeddable AI Agent / Copilot for SaaS",
@@ -1255,6 +1394,29 @@
       ],
       "score": 78.0,
       "found_at": "2026-10-13T10:42:27.762830+00:00"
+    },
+    {
+      "name": "AI Code Review for Security & Compliance (HIPAA / SOC2 / PCI-DSS)",
+      "field": "Developer Tools / AppSec",
+      "summary": "A free web/GitHub App that reviews PRs for security vulnerabilities, compliance violations (HIPAA, SOC2, PCI-DSS, GDPR), and regulated-industry requirements — not general code quality. Targets fintech, healthtech, govtech where generic tools (CodeRabbit $50M ARR) miss domain-specific risks.",
+      "why_now": "CodeRabbit: $50M ARR, 1288% YoY, 140K paid users, #1 GitHub Marketplace (Sacra, DevToolLab). 44% of teams use AI code review (IdeaPlan). LinearB: $16M ARR (45% YoY) for engineering analytics. Codoki: $330K ARR year 1 (EveryDev). But zero tools specialize in compliance frameworks for regulated verticals.",
+      "monetization": "Free for open source. Pro: $25-50/dev/mo for compliance rule packs, audit trails, SARIF export. Enterprise: custom frameworks, on-prem, dedicated compliance mappings.",
+      "evidence": [
+        "https://sacra.com/c/coderabbit/",
+        "https://devtoollab.com/ai-tools/coderabbit",
+        "https://www.ideaplan.io/blog/ai-code-review-tools-market-share-2026",
+        "https://sacra.com/research/linearb-16m-arr-amplitude-for-ai-code-quality/",
+        "https://www.everydev.ai/developers/codoki"
+      ],
+      "how_searched": [
+        "Sacra revenue research (CodeRabbit, LinearB)",
+        "DevToolLab feature analysis",
+        "IdeaPlan market share study (44% adoption)",
+        "Codoki founder revenue report (EveryDev)",
+        "GitHub Marketplace install rankings"
+      ],
+      "score": 78.0,
+      "found_at": "2026-10-14T22:45:49.743889+00:00"
     },
     {
       "name": "Browser Extension AI Productivity Tools",
@@ -1649,6 +1811,29 @@
       "found_at": "2026-10-14T13:47:36.992554+00:00"
     },
     {
+      "name": "Vertical AI Agent Marketplace (Recruiters / Sales / Legal / Research)",
+      "field": "AI Agents / Marketplace",
+      "summary": "A free web marketplace for vertical-specific AI agents (sourcing, outreach, contract review, legal research, competitive intel) with skill monetization, usage analytics, and one-click deployment to browser sidebar or API — vertical version of AITOPIA (1M users).",
+      "why_now": "AITOPIA: 1M users, agent marketplace in browser (AlphaMoat). Sider: 5M users, $7.2M revenue bootstrapped (Fahimai). Monica: 3M users. HARPA AI: 400K users (automation). Manus AI Browser Operator emerging. Chrome AI extensions: 442 with 1K+ users (85% YoY growth, Incogni). Market $2.3B (2025), 22.5% CAGR. Vertical specialization = higher willingness to pay.",
+      "monetization": "Free agent discovery. Creators set prices; platform takes 15-20%. Subscription bundles for teams ($29-99/user/mo). Enterprise: private marketplace, SSO, audit logs.",
+      "evidence": [
+        "https://www.alphamoat.ai/en/ext/t/ai-agent",
+        "https://www.fahimai.com/sider-ai/",
+        "https://www.alphamoat.ai/en/ext/t/ai-aggregator",
+        "https://plugthis.ai/blog/chrome-extension-builder-trends-2026-what-to-expect-next",
+        "https://market.us/report/ai-powered-chrome-extension-market/"
+      ],
+      "how_searched": [
+        "AlphaMoat Chrome extension analytics (179 aggregators, 155 agents)",
+        "Sider revenue/interview (Fahimai)",
+        "PlugThis builder trends (Q2 2026: 49,518 new extensions)",
+        "Market.us market sizing ($2.3B, 22.5% CAGR)",
+        "Chrome Web Store / Incogni AI extension counts"
+      ],
+      "score": 75.0,
+      "found_at": "2026-10-14T22:45:51.058261+00:00"
+    },
+    {
       "name": "Chat-first personal AI assistant (web app)",
       "field": "Consumer AI / personal agents",
       "summary": "A free web tool where users text or type tasks (research, organise, shop/reserve, schedule) to a personal agent that does them end-to-end in the browser.",
@@ -1891,6 +2076,29 @@
       ],
       "score": 73.0,
       "found_at": "2026-10-13T23:20:49.311831+00:00"
+    },
+    {
+      "name": "No-Code AI Chrome Extension Builder",
+      "field": "Developer Tools / Browser Extensions",
+      "summary": "A free web tool that generates, tests, and publishes Manifest V3 Chrome extensions from natural language — handling permissions, background scripts, content scripts, side panels, OAuth, and Chrome Web Store packaging. Targets the 34% of micro-SaaS founders with no coding experience.",
+      "why_now": "Chrome Web Store: 221,717 extensions (June 2026), 49,518 added in Q2 alone (Exstats/PlugThis). 17% of new extensions use AI core. AI extension market: $2.3B (2025), 22.5% CAGR to $17.5B (2035). 34% of new micro-SaaS by non-coders. PlugThis, other builders emerging. Zero free web-based builder with full publish pipeline.",
+      "monetization": "Free: build and export source. Pro: $29-99/mo for one-click publish, auto-updates, analytics, team collab. Enterprise: white-label for agencies. Chrome Web Store takes 5% of paid extension revenue.",
+      "evidence": [
+        "https://plugthis.ai/blog/chrome-extension-builder-trends-2026-what-to-expect-next",
+        "https://konabayev.com/blog/chrome-extension-statistics-2026/",
+        "https://seoscaleup.com/blog/google-chrome-statistics-2026/",
+        "https://market.us/report/ai-powered-chrome-extension-market/",
+        "https://oktopeak.com/blog/chrome-extension-development-saas/"
+      ],
+      "how_searched": [
+        "PlugThis Q2 2026 builder trends",
+        "Exstats/Konabayev Chrome Web Store statistics (221K extensions)",
+        "SEOScaleUp Chrome stats (251K extensions, 90% <1K users)",
+        "Market.us AI extension market sizing",
+        "Oktopeak development cost benchmarks"
+      ],
+      "score": 73.0,
+      "found_at": "2026-10-14T22:45:52.706193+00:00"
     },
     {
       "name": "LLM / agent spend & cost observability dashboard",
@@ -2303,6 +2511,27 @@
       ],
       "score": 70.0,
       "found_at": "2026-10-13T23:20:49.877397+00:00"
+    },
+    {
+      "name": "Local-First AI Agent Runtime (Browser-Based, No Server)",
+      "field": "AI Infrastructure / Developer Tools",
+      "summary": "A free web app (PWA) that runs AI agents entirely in-browser using WebLLM / WebGPU / local models — with memory (AgentR Webcmd style), tool calling, browser automation (Browser Use CLI), and file access via File System Access API. No server, no API keys, private by default.",
+      "why_now": "Browser Use: CLI/Python library runs local browser + local models (Ollama) free. AgentR Webcmd: open source, local memory cuts token costs 90% (Business Insider Oct 2026). Onyx: self-hosted, air-gapped, 29.9K GitHub stars. Steel.dev: self-hosted browser automation. \"Self-Hosted Workflow Automation for AI Agents\" known but requires server; browser-only runtime does not exist.",
+      "monetization": "Free core (MIT). Pro: $10-20/mo for cloud sync, team workspaces, premium models, advanced debugging. Enterprise: offline license, compliance, support.",
+      "evidence": [
+        "https://github.com/browser-use/browser-use",
+        "https://markets.businessinsider.com/news/stocks/agentr-launches-webcmd-open-source-browser-infrastructure-that-lets-ai-agents-learn-a-website-once-1036612154",
+        "https://www.clientcues.com/competitors/compare/glean-vs-gosearch-vs-onyx-2026-05/",
+        "https://o-mega.ai/articles/top-10-anchor-browser-alternatives-2026"
+      ],
+      "how_searched": [
+        "Browser Use GitHub (local browser + local models)",
+        "AgentR Webcmd launch (local memory, 90% token reduction)",
+        "Onyx self-hosted deployments (Netflix, Ramp, air-gapped)",
+        "O-mega.ai alternatives analysis (Steel.dev, Browserbase, Anchor)"
+      ],
+      "score": 70.0,
+      "found_at": "2026-10-14T22:45:54.079613+00:00"
     },
     {
       "name": "Prescription price-comparison & savings tool",
