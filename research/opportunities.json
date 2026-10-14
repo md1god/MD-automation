@@ -1510,6 +1510,25 @@
       "found_at": "2026-10-13T10:42:28.347873+00:00"
     },
     {
+      "name": "Server-side tracking & Conversion API auditor for online stores",
+      "field": "E-commerce marketing analytics / ad-tech",
+      "summary": "A free audit tool that detects which browser-side e-commerce events (purchase, add-to-cart) a store is losing to privacy restrictions, then upgrades users to server-side tracking that feeds ad platforms directly.",
+      "why_now": "AxiTrace reports 115.5M+ events tracked with 99.9% delivery to 9 ad platforms including OpenAI Ads, and illustrates a store showing 20 real orders while the browser pixel saw only 14; Superspeed markets the same 'lost revenue' angle from $29/mo. StoreCensus shows analytics/attribution apps surging (Triple Whale Analytics +636.2% over 90 days).",
+      "monetization": "Tiered SaaS: AxiTrace Free (10k visits) -> Pro $119/mo -> Business $349/mo; Superspeed from $29/mo; agency/affiliate recurring.",
+      "evidence": [
+        "https://axitrace.com/",
+        "https://superspeedapp.com/",
+        "https://storecensus.com/stats/fastest-growing-shopify-apps"
+      ],
+      "how_searched": [
+        "vendor/pricing pages",
+        "app-store install analytics (StoreCensus)",
+        "free-tool landing pages"
+      ],
+      "score": 75.0,
+      "found_at": "2026-10-14T02:06:35.946522+00:00"
+    },
+    {
       "name": "Chat-first personal AI assistant (web app)",
       "field": "Consumer AI / personal agents",
       "summary": "A free web tool where users text or type tasks (research, organise, shop/reserve, schedule) to a personal agent that does them end-to-end in the browser.",
@@ -3113,6 +3132,24 @@
       "found_at": "2026-10-12T10:53:45.470679+00:00"
     },
     {
+      "name": "EU Accessibility Act (EAA) compliance scanner & accessibility-statement generator",
+      "field": "Web accessibility / legal-compliance SaaS",
+      "summary": "A free web tool that scans a site for WCAG 2.2 / EN 301 549 violations, prioritizes the fixes, and auto-generates the legally required accessibility statement — the free front door to paid monitoring and remediation.",
+      "why_now": "EAA enforcement is live and buying intent is legal-deadline driven. Accessiway was named a Leader in the 2026 Gartner Magic Quadrant for Digital Accessibility (Oct 5, 2026) and TestParty automates scan-and-fix in code. Accessiway cites 68% of consumers abandoning a purchase over accessibility barriers and a 23% traffic increase after improvements (SemRush 2025).",
+      "monetization": "Subscriptions plus one-off audits; the free scanner is the funnel into monitoring and remediation retainers.",
+      "evidence": [
+        "https://www.accessiway.com/",
+        "https://testparty.ai/"
+      ],
+      "how_searched": [
+        "vendor/pricing pages",
+        "analyst recognition (Gartner MQ, via vendor)",
+        "automated accessibility SaaS landing pages"
+      ],
+      "score": 50.7,
+      "found_at": "2026-10-14T02:06:36.571803+00:00"
+    },
+    {
       "name": "Vibe-coding spec & prompt generator (idea → build-ready plan for Claude Code / Cursor)",
       "field": "Developer tools / AI-assisted building",
       "summary": "A rebuilt free web tool for solo builders: paste an idea, answer 4-5 clarifying questions, and get a structured build spec plus a copy-paste prompt pack and architecture checklist tailored to Claude Code / Cursor / Codex.",
@@ -3219,6 +3256,24 @@
       "found_at": "2026-10-13T10:42:29.614565+00:00"
     },
     {
+      "name": "Long-form-to-short social content workspace for SMBs and authors",
+      "field": "Content creation / social media management",
+      "summary": "A free tool that turns a URL, video or book into a full set of branded social posts across channels, aimed at small businesses and authors who cannot afford a social team.",
+      "why_now": "Marky is Stripe-verified at $1,003,768 all-time and $21,929 MRR with 482 active subscribers (ranked #116 on TrustMRR); its site reports 200K+ businesses with G2 4.8 / Capterra 4.5 ratings, and the founder reported $516K trailing revenue and $336K net income.",
+      "monetization": "Subscription SaaS with a 14-day trial; revenue and MRR independently verified on TrustMRR.",
+      "evidence": [
+        "https://trustmrr.com/startup/marky",
+        "https://mymarky.ai/"
+      ],
+      "how_searched": [
+        "open-revenue dashboard (TrustMRR)",
+        "vendor landing page",
+        "review-site ratings (G2/Capterra, via vendor)"
+      ],
+      "score": 48.7,
+      "found_at": "2026-10-14T02:06:37.579619+00:00"
+    },
+    {
       "name": "AI Personalized Children's Storybook Generator (DreamStories/Magic Story-model)",
       "field": "Consumer / education / gifting",
       "summary": "A free web tool that creates an illustrated, personalized children's storybook from a child's name, appearance and a chosen theme/adventure, delivered as a viewable digital book.",
@@ -3271,6 +3326,41 @@
       "found_at": "2026-10-12T20:20:24.765781+00:00"
     },
     {
+      "name": "Chat-with-your-ads attribution dashboard for marketing agencies",
+      "field": "Marketing analytics / attribution",
+      "summary": "A free dashboard that ties ad spend to real Stripe revenue and lets marketers ask plain-English questions about which campaigns actually make money.",
+      "why_now": "Cometly is Stripe-verified at $10,006,860 all-time and $200,113 MRR with 284 subscribers (ranked #15 on TrustMRR); it ships an MCP server and Conversion API and publishes ROI case studies.",
+      "monetization": "Free -> Pro $119/mo -> Business $349/mo; $10M all-time revenue.",
+      "evidence": [
+        "https://www.cometly.com/",
+        "https://trustmrr.com/startup/cometly"
+      ],
+      "how_searched": [
+        "vendor/pricing page",
+        "open-revenue dashboard (TrustMRR)"
+      ],
+      "score": 48.0,
+      "found_at": "2026-10-14T02:06:37.917709+00:00"
+    },
+    {
+      "name": "Instant contact & company data validation / enrichment tool",
+      "field": "Data quality / B2B data APIs",
+      "summary": "A free lookup tool that validates and enriches emails, phones and company records in under a second, funneling users into a per-lookup API.",
+      "why_now": "1Lookup is Stripe-verified at $5,364,610 all-time and $262,188 MRR with 711 subscribers (ranked #23 on TrustMRR); it offers 44 data products behind one API with sub-300ms responses and a 5.0 Trustpilot score.",
+      "monetization": "Per-lookup credits with a 7-day free trial; MRR $262K.",
+      "evidence": [
+        "https://trustmrr.com/startup/1lookup",
+        "https://www.1lookup.io/"
+      ],
+      "how_searched": [
+        "open-revenue dashboard (TrustMRR)",
+        "vendor pricing page",
+        "review-site rating (Trustpilot, via vendor)"
+      ],
+      "score": 47.3,
+      "found_at": "2026-10-14T02:06:38.610049+00:00"
+    },
+    {
       "name": "Spira Maxima - AI video for viral social",
       "field": "AI video generation",
       "summary": "Turns script into finished social videos (presenter, B-roll, captions). Claimed 10M+ impressions pre-launch.",
@@ -3286,6 +3376,24 @@
       ],
       "score": 46.7,
       "found_at": "2026-10-12T20:20:25.115301+00:00"
+    },
+    {
+      "name": "Synthetic-user testing studio for landing pages and messaging",
+      "field": "User research / product validation",
+      "summary": "A free tool that spins up AI respondents with stable personas so founders can test a landing page, headline or concept in minutes before spending on real research.",
+      "why_now": "Synthetic Users reports 85-92% synthetic-organic parity, 21 peer-reviewed supporting papers, $2-60 per interview versus $100+ agencies, and SOC 2 compliance, with logos including TikTok, J.P. Morgan and Samsung; Maze markets an AI Moderator, AI Study Builder and a 6M+ participant panel on the same 'research at the pace of change' thesis.",
+      "monetization": "Subscription/usage SaaS with per-interview pricing plus panel access (Maze sells team plans and a research panel).",
+      "evidence": [
+        "https://www.syntheticusers.com/",
+        "https://maze.co/"
+      ],
+      "how_searched": [
+        "vendor landing pages",
+        "science/parity claims on vendor site",
+        "competitor product pages"
+      ],
+      "score": 46.7,
+      "found_at": "2026-10-14T02:06:39.568746+00:00"
     },
     {
       "name": "Free AI-text detector & authorship-proof checker",
@@ -3320,6 +3428,23 @@
       "found_at": "2026-10-13T02:37:54.521155+00:00"
     },
     {
+      "name": "Back-in-stock & preorder automation for Shopify stores",
+      "field": "E-commerce retention / conversion",
+      "summary": "A free app/tool that captures out-of-stock demand via notify-me and preorder buttons and auto-notifies shoppers, recovering revenue that would otherwise bounce.",
+      "why_now": "Amp Back in Stock has delivered hundreds of millions of alerts across 25,000+ brands with a 4.9 rating (962 reviews); StoreCensus shows the rival Preorder, Back In Stock - STOQ app at 18,852 active installs, up 3,161.6% in 90 days and 181.4% year-over-year.",
+      "monetization": "Tiered app subscriptions (Amp: Free/$19/$49/$99 per month, higher for Shopify Plus) plus SMS usage fees.",
+      "evidence": [
+        "https://apps.shopify.com/back-in-stock",
+        "https://storecensus.com/stats/app/back-in-stock-restock-alerts"
+      ],
+      "how_searched": [
+        "app store listing/pricing",
+        "app-store install analytics (StoreCensus)"
+      ],
+      "score": 45.3,
+      "found_at": "2026-10-14T02:06:40.378368+00:00"
+    },
+    {
       "name": "Cross-network competitor ad-library search (free tier)",
       "field": "Marketing intelligence",
       "summary": "One search box across Meta, Google, TikTok, YouTube and LinkedIn ad-transparency libraries with saved swipe files and brand tracking; free tier runs on public transparency data, paid tier adds persistent archive, spend/run-length signals and a single API.",
@@ -3332,6 +3457,23 @@
       "how_searched": "Searched ad-library/AdSpy alternatives and pricing, opened the leading alternative's own pricing-and-coverage page, plus a current market-research report page for category sizing.",
       "score": 44.7,
       "found_at": "2026-10-08T10:47:46.101693+00:00"
+    },
+    {
+      "name": "AI audiobook / document-to-audio converter",
+      "field": "Audio content / publishing tools",
+      "summary": "A free web tool that turns PDFs, EPUBs and manuscripts into narrated audio or audiobooks with natural AI voices.",
+      "why_now": "Grand View Research sizes the audiobooks market at $11.0B (2025) growing to $13.9B (2026) and $58.5B by 2033 (22.7% CAGR 2026-2033); Narakeet already ships the exact workflow (PDF/EPUB/Word to audio, a 'Text to Voice Audiobooks' use case, 900 voices, 100 languages).",
+      "monetization": "Freemium credits plus paid voice/volume plans and an API; the TTS engine is commodity, so margin comes from workflow and distribution.",
+      "evidence": [
+        "https://www.grandviewresearch.com/industry-analysis/audiobooks-market",
+        "https://www.narakeet.com/"
+      ],
+      "how_searched": [
+        "market-research report (Grand View Research)",
+        "vendor product/pricing page"
+      ],
+      "score": 44.7,
+      "found_at": "2026-10-14T02:06:40.671807+00:00"
     },
     {
       "name": "AI Landing-Page Personalization & Autonomous A/B Testing (GenPage-model)",
