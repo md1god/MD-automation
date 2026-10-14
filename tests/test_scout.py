@@ -21,6 +21,9 @@ PLAN = ("1) الجمهور المستهدف\nالمستقلون الذين يح�
         "هذا الملف مبني على super-tracker من acme-labs https://github.com/acme-labs/super-tracker")
 
 
+os.environ["STATS_FORCE"] = "0"   # tests must not depend on the wall-clock hour
+
+
 class LedgerTests(unittest.TestCase):
     def test_two_levels_and_no_names_on_disk(self):
         with tempfile.TemporaryDirectory() as tmp:

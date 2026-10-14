@@ -6,6 +6,8 @@ from datetime import datetime, timezone
 
 def due() -> bool:
     """Once a day: the 06:00 UTC scheduled run (09:00 Cairo), or any run with STATS_FORCE=1."""
+    if os.getenv("STATS_FORCE") == "0":
+        return False
     return os.getenv("STATS_FORCE") == "1" or datetime.now(timezone.utc).hour == 6
 
 
