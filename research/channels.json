@@ -157,6 +157,50 @@
       "found_at": "2026-10-10T12:39:52.587278+00:00"
     },
     {
+      "name": "Brave Search discovery (the index behind Claude web search)",
+      "url": "https://search.brave.com/help/brave-search-crawler",
+      "kind": "search",
+      "requires_account": false,
+      "official_free_api": false,
+      "how_to_use": "Brave has no Search Console, no sitemap intake and is not an IndexNow participant. The mechanism is indirect: Brave's own crawler page states its bot will not crawl any page Googlebot cannot crawl, so make every URL Googlebot-crawlable and keep robots.txt clean. The submit-url form is re-fetch only, for pages Brave already knows. Third-party teardowns (MERJ, brandonlazovic.dev) report Claude's web search runs on Brave's index, so Googlebot-crawlability plus Brave visibility is how you get cited by Claude.",
+      "rules_and_risks": "robots.txt does NOT deindex on Brave - only an on-page noindex does, and Brave must re-fetch to apply it. The submit form does not discover new pages, so spamming it does nothing. No dofollow/SEO equity; robots.txt blocking disallows also remove you from AI datasets.",
+      "why_it_works": "Brave's official crawler page documents the Googlebot prerequisite and confirms WDP is opt-in browser telemetry, not a submission channel; independent teardowns tie Claude search to Brave's index.",
+      "evidence": [
+        "https://search.brave.com/help/brave-search-crawler",
+        "https://merj.com/blog/how-brave-search-discovers-new-pages",
+        "https://brandonlazovic.dev/articles/brave-search-discovery/"
+      ],
+      "how_searched": [
+        "websearch: Brave Search webmaster submit URL index 2026",
+        "opened Brave's official crawler help page",
+        "cross-checked teardown articles returned by search"
+      ],
+      "score": 80.0,
+      "found_at": "2026-10-14T18:47:40.110454+00:00"
+    },
+    {
+      "name": "Apple Podcasts catalog + podcast databases (Podchaser, Listen Notes)",
+      "url": "https://podcasters.apple.com/support/897-submit-a-show",
+      "kind": "platform",
+      "requires_account": true,
+      "official_free_api": true,
+      "how_to_use": "Host a free podcast RSS feed (many free tiers exist), then in Apple Podcasts Connect click Add > New Show > 'Add a show with an RSS feed' and paste the feed URL. Turn on public Distribution so the feed enters the Apple Podcasts Catalog API. Apple documents that the catalog is referenced by apps in 170+ countries and by third-party services (Podchaser, Overcast, Pocket Casts, Rephonic, Podnews). Then submit the same RSS URL to listennotes.com/submit and Podchaser's 'Add Feed' form to be searchable in their APIs.",
+      "rules_and_risks": "All shows pass technical validation and a review; RSS metadata overrides Connect; you must confirm rights to third-party content. Producing episodes is real ongoing work. Account creation is manual (no auto-signup).",
+      "why_it_works": "Apple's own docs state shows are distributed in 170+ countries and that opting into catalog distribution exposes the RSS feed to third-party podcast apps and services and their APIs.",
+      "evidence": [
+        "https://podcasters.apple.com/support/897-submit-a-show",
+        "https://podcasters.apple.com/support/5108-how-apple-podcasts-distributes-your-shows-to-listeners",
+        "https://www.listennotes.com/submit/",
+        "https://support.podchaser.com/en/articles/4913151-adding-a-podcast-to-podchaser"
+      ],
+      "how_searched": [
+        "websearch: Apple Podcasts submit podcast free directory Podchaser Listen Notes",
+        "opened Apple for Creators submit-a-show page"
+      ],
+      "score": 78.0,
+      "found_at": "2026-10-14T18:47:40.823531+00:00"
+    },
+    {
       "name": "IndexNow: instant URL notifications to Bing, Naver, Seznam, Yandex & Yep",
       "url": "https://www.indexnow.org/",
       "kind": "search",
@@ -288,6 +332,49 @@
       "found_at": "2026-10-07T04:19:33.151356+00:00"
     },
     {
+      "name": "Common Crawl (CCBot) AI-training inclusion",
+      "url": "https://commoncrawl.org/ccbot",
+      "kind": "feed",
+      "requires_account": false,
+      "official_free_api": false,
+      "how_to_use": "Common Crawl is the open crawl corpus used to train GPT/BERT and many research models. CCBot treats absence of a blocking rule as permission, so the mechanism is to NOT disallow CCBot in robots.txt (optionally add 'User-agent: CCBot / Allow: /') and to announce a sitemap in robots.txt, which its FAQ says it parses. There is no submission form or account.",
+      "rules_and_risks": "Blocking CCBot removes you from a key dataset that trains AI models, per Common Crawl's own blog. This is indirect and slow - no immediate traffic, only model knowledge over time. Verify requests come from real CCBot IP ranges to avoid fakes.",
+      "why_it_works": "Common Crawl's FAQ and blog state its data is foundational training material for GPT/BERT and research, and warn that blocking CCBot makes brands absent from AI training datasets.",
+      "evidence": [
+        "https://commoncrawl.org/ccbot",
+        "https://commoncrawl.org/faq",
+        "https://commoncrawl.org/blog/ai-optimization-is-here-are-you-ready-for-search-2-0"
+      ],
+      "how_searched": [
+        "websearch: Common Crawl AI training data how to get crawled CCBot robots",
+        "opened commoncrawl.org/ccbot and /faq"
+      ],
+      "score": 72.0,
+      "found_at": "2026-10-14T18:47:41.032593+00:00"
+    },
+    {
+      "name": "WordPress.org Plugin Directory",
+      "url": "https://wordpress.org/plugins/developers/add/",
+      "kind": "platform",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Build a production-ready plugin (zip < 10 MB), sign up for a WordPress.org account, upload it on the Add page, pass manual review (initial review ~14 days), then push code to the granted SVN repo; uploading makes it live. The plugin gets an indexed wordpress.org/plugins/<slug> page with up to 5 searchable readme tags, and updates are delivered inside the dashboards of millions of WordPress sites.",
+      "rules_and_risks": "One submission in review at a time; multiple accounts get suspended; no 'powered by' links, phoning home, custom bundled JS libs or spammy readmes; slugs cannot contain 'WordPress'/'Plugin' or trademarks; closing a plugin is permanent and violations can close all your plugins.",
+      "why_it_works": "The directory is the default in-dashboard install surface for WordPress, giving recurring, no-marginal-cost reach; WordPress.org's own docs describe it as the easiest way for users to find and install plugins.",
+      "evidence": [
+        "https://wordpress.org/plugins/developers/add/",
+        "https://developer.wordpress.org/plugins/wordpress-org/plugin-developer-faq/",
+        "https://wordpress.org/plugins/developers/",
+        "https://developer.wordpress.org/plugins/wordpress-org/detailed-plugin-guidelines/"
+      ],
+      "how_searched": [
+        "websearch: WordPress.org plugin directory submit free reach millions installs 2026",
+        "opened the plugin developer FAQ"
+      ],
+      "score": 72.0,
+      "found_at": "2026-10-14T18:47:42.901920+00:00"
+    },
+    {
       "name": "Medium (free publishing + import tool with canonical links)",
       "url": "https://help.medium.com/hc/en-us/articles/214550207-Importing-a-post-to-Medium",
       "kind": "platform",
@@ -331,6 +418,27 @@
       "found_at": "2026-10-10T12:39:56.647153+00:00"
     },
     {
+      "name": "Visual Studio Code Marketplace",
+      "url": "https://code.visualstudio.com/api/working-with-extensions/publishing-extension",
+      "kind": "platform",
+      "requires_account": true,
+      "official_free_api": true,
+      "how_to_use": "Create a Microsoft account and Azure DevOps org, create a publisher on the Marketplace manage page, then `vsce publish` (publish API) or upload a VSIX. The extension listing renders your README and metadata inside the editor and on marketplace.visualstudio.com; set repository/homepage in package.json to funnel developers to your site, and add a 'pricing: Free' label.",
+      "rules_and_risks": "Extension names are unique forever; global PATs retire 1 Dec 2026 (migrate to Microsoft Entra ID). Max 30 keywords, no user-provided SVG icons, submissions are reviewed. Junk/low-effort extensions get flagged.",
+      "why_it_works": "VS Code is the dominant editor and the in-editor marketplace is the only built-in way developers discover and install extensions, so one listing gets continuous, cost-free exposure.",
+      "evidence": [
+        "https://code.visualstudio.com/api/working-with-extensions/publishing-extension",
+        "https://code.visualstudio.com/api/references/extension-manifest",
+        "https://learn.microsoft.com/en-us/azure/devops/extend/publish/overview"
+      ],
+      "how_searched": [
+        "websearch: VS Code Marketplace publish extension free publisher distribution",
+        "opened the official Publishing Extensions doc"
+      ],
+      "score": 68.0,
+      "found_at": "2026-10-14T18:47:44.032280+00:00"
+    },
+    {
       "name": "Google News: Publisher Center setup + Google News sitemap",
       "url": "https://support.google.com/news/publisher-center/answer/9606538?hl=en",
       "kind": "feed",
@@ -370,6 +478,49 @@
       ],
       "score": 66.0,
       "found_at": "2026-10-10T12:40:00.881574+00:00"
+    },
+    {
+      "name": "Bing Places for Business (feeds Copilot/ChatGPT)",
+      "url": "https://www.bing.com/forbusiness/",
+      "kind": "directory",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Sign in with a Microsoft account at bing.com/forbusiness, import your verified Google Business Profile (fast path, often instant verification) or add details manually, then verify by phone, email or postcard. The listing appears in Bing Search and Maps, and Bing's local data feeds Microsoft Copilot and a large share of ChatGPT search answers.",
+      "rules_and_risks": "Only for genuine local businesses; unverified listings are not published; keep name/address/phone identical to Google and avoid edit flurries that reset the publish cycle. Treat as a low-effort AI-visibility play, not a big traffic source.",
+      "why_it_works": "Bing's local index powers Copilot and (via Bing) much of ChatGPT's search, so a free verified listing is a durable entity signal in AI answers.",
+      "evidence": [
+        "https://www.bing.com/forbusiness/",
+        "https://support.microsoft.com/en-us/bing/add-and-manage-your-business-listing",
+        "https://360roi.co/blog/bing-places-for-business/",
+        "https://searchscope.com.au/local-seo/claim-business-bing-places/"
+      ],
+      "how_searched": [
+        "websearch: Bing Places for Business free listing submit 2026",
+        "opened bing.com/forbusiness and Microsoft support page"
+      ],
+      "score": 66.0,
+      "found_at": "2026-10-14T18:47:45.399259+00:00"
+    },
+    {
+      "name": "Hugging Face Hub public repos (models, datasets, Spaces, buckets)",
+      "url": "https://huggingface.co/docs/hub/models-the-hub",
+      "kind": "platform",
+      "requires_account": true,
+      "official_free_api": true,
+      "how_to_use": "Create a free account or org and publish public models, datasets, Spaces (demo apps) or storage buckets via the web UI, the huggingface_hub Python/JS clients, or the Hub REST API (documented OpenAPI). Public repos are searchable/browsable and surfaced through 15+ integrated libraries and inference providers; put your site link in the model/dataset card and README.",
+      "rules_and_risks": "Free public storage is 'best-effort'; large volumes require PRO. Only upload data you have rights to; low-value uploads get ignored. Manual account creation.",
+      "why_it_works": "The Hub is the default discovery and distribution surface for open ML assets, with documented open endpoints for programmatic publishing and discovery.",
+      "evidence": [
+        "https://huggingface.co/docs/hub/models-the-hub",
+        "https://huggingface.co/docs/hub/storage-limits",
+        "https://huggingface.co/.well-known/openapi.md"
+      ],
+      "how_searched": [
+        "websearch: Hugging Face free hosting storage API distribution 2026",
+        "opened the Model Hub and storage-limits docs"
+      ],
+      "score": 65.0,
+      "found_at": "2026-10-14T18:47:45.718145+00:00"
     },
     {
       "name": "TikTok (organic video reach, no follower base needed)",
@@ -413,6 +564,28 @@
       ],
       "score": 64.0,
       "found_at": "2026-10-10T12:40:02.251856+00:00"
+    },
+    {
+      "name": "Quora answers inside already-ranking threads",
+      "url": "https://www.quora.com/",
+      "kind": "community",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Find questions Google already ranks (search: site:quora.com \"your keyword\"), write a substantive 300+ word answer that fully answers the question, then add at most one contextual link to a deeper resource on your site. Build a credible individual-expert profile and a topic-focused Quora Space; keep to roughly one link per five answers.",
+      "rules_and_risks": "All outbound links are nofollow; answers that exist mainly to drive traffic, contain multiple links, copy-paste, hide affiliation, or come from brand accounts get collapsed or banned. Health/cannabis/restricted topics are heavily moderated. Multiple accounts is a permanent-ban offense.",
+      "why_it_works": "Quora threads rank for long-tail queries and are retrieved by AI engines, so a strong answer earns high-intent referral traffic and AI citations even without link equity.",
+      "evidence": [
+        "https://altplacements.com/quora-backlinks/",
+        "https://www.capconvert.com/learn/blog/quora-seo-in-2026-how-answers-spaces-and-topic-authority-drive-long-term-traffic",
+        "https://mentiohunt.com/backlinks-from/quora",
+        "https://linkbuildingjournal.co.uk/quora-link-building/"
+      ],
+      "how_searched": [
+        "websearch: Quora answer backlink traffic policy 2026 space rules",
+        "reviewed multiple 2026 Quora strategy teardowns"
+      ],
+      "score": 64.0,
+      "found_at": "2026-10-14T18:47:47.278573+00:00"
     },
     {
       "name": "SourceBottle: free journalist call-outs and expert profiles",
@@ -480,6 +653,27 @@
       "found_at": "2026-10-10T12:40:02.871132+00:00"
     },
     {
+      "name": "npm and PyPI package pages as SEO/AI discovery",
+      "url": "https://docs.npmjs.com/about-package-readme-files/",
+      "kind": "platform",
+      "requires_account": true,
+      "official_free_api": true,
+      "how_to_use": "Publish a free package with a keyword-rich unique name and a fully filled package.json/pyproject (description, keywords/classifiers, repository, homepage, license). The registry renders your README as the package page, which is indexed by Google and read by AI coding tools. Lead the README with a value proposition, copy-paste install line and a 5-minute example, and point homepage/docs links (with UTM) back to your site.",
+      "rules_and_risks": "Names are unique/global; stale or duplicate packages lose rank; publishing empty releases purely to rank is penalized. Scoped packages need --access public and don't appear in bare keyword searches.",
+      "why_it_works": "npm and PyPI are massive searchable registries whose package pages rank in search and are consumed by developers and AI agents; listing is free and API-driven.",
+      "evidence": [
+        "https://docs.npmjs.com/about-package-readme-files/",
+        "https://www.stackmatix.com/blog/npm-pypi-package-discoverability",
+        "https://business.daily.dev/resources/npm-package-marketing-standing-out-worlds-largest-software-registry/"
+      ],
+      "how_searched": [
+        "websearch: npm package README website traffic discoverability developers 2026",
+        "opened npm's official README docs"
+      ],
+      "score": 62.0,
+      "found_at": "2026-10-14T18:47:48.721514+00:00"
+    },
+    {
       "name": "GitHub as a discovery channel (GitHub SEO)",
       "url": "https://www.trylyra.ai/blog/github-repo-seo/",
       "kind": "tactic",
@@ -500,6 +694,50 @@
       ],
       "score": 60.0,
       "found_at": "2026-10-10T12:40:07.090572+00:00"
+    },
+    {
+      "name": "Free dofollow launch directories (Startup Fame, Fazier, StartupRanking, StackShare)",
+      "url": "https://startupfa.me/",
+      "kind": "directory",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Submit your live product to free-tier launch directories: Startup Fame's free Verified tier gives a DR~83 dofollow link (badge required), Fazier's free daily launch lists within 30 days (badge required), and StartupRanking and StackShare pass free dofollow. Batch 5-10 submissions a week and tag each URL with utm_source to see which send real visitors.",
+      "rules_and_risks": "Most free tiers require embedding the directory's badge on your site; some gates (PitchWall $49, TinyLaunch top-3 finish) put dofollow behind payment/placement and G2/Capterra/Crunchbase/AlternativeTo free tiers are nofollow - verify the rel attribute on a live listing. Mass-submission link farms can lower your DR and duplicate/placeholder pages get rejected.",
+      "why_it_works": "Hand-checked directories and first-hand tests (one site reported Ahrefs DR 0.8 to 7.0 in five weeks across ~30 free submissions) show free listings compound referral traffic and link equity.",
+      "evidence": [
+        "https://startupfa.me/",
+        "https://www.scrolllaunch.com/directories/startup-fame",
+        "https://oneup.today/startup-directories",
+        "https://saascity.io/blog/product-hunt-alternatives-saas-2026",
+        "https://launchranked.com/compare/tinylaunch-vs-fazier"
+      ],
+      "how_searched": [
+        "websearch: Fazier Startup Fame TinyLaunch free product launch directory dofollow 2026",
+        "opened the scrolllaunch directory archive and cross-checked oneup/saascity/launchranked"
+      ],
+      "score": 60.0,
+      "found_at": "2026-10-14T18:47:52.353327+00:00"
+    },
+    {
+      "name": "Figma Community files/templates/plugins/widgets",
+      "url": "https://help.figma.com/hc/en-us/articles/360040035974-Publish-files-to-the-Figma-Community",
+      "kind": "platform",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Create a free Figma account and publish a UI kit, wireframe set, design system, FigJam template, plugin or widget via Share > Publish to Community. Each resource gets its own searchable Community page with category, up to 5 tags, images and a support-contact link you can point at your site.",
+      "rules_and_risks": "Must follow Figma Community Guidelines; plugins/widgets go through a review; paid files require approved-creator status (Figma says it is not approving new paid creators). Free publishing only, and no guarantee of dofollow equity.",
+      "why_it_works": "Figma Community is a large, searchable design-resource surface where free files get duplicated and shared, driving awareness and branded search.",
+      "evidence": [
+        "https://help.figma.com/hc/en-us/articles/360040035974-Publish-files-to-the-Figma-Community",
+        "https://help.figma.com/hc/en-us/articles/360038510693-Guide-to-the-Figma-Community",
+        "https://help.figma.com/hc/en-us/articles/4407531267607-BYFP-Publishing-to-the-Community"
+      ],
+      "how_searched": [
+        "websearch: Figma Community publish free template plugin discovery",
+        "opened Figma's official publish-files help article"
+      ],
+      "score": 60.0,
+      "found_at": "2026-10-14T18:47:53.354712+00:00"
     },
     {
       "name": "Threads API — official free cross-posting to Threads",
@@ -564,6 +802,28 @@
       "found_at": "2026-10-13T18:47:37.560005+00:00"
     },
     {
+      "name": "Preprint and open-access research networks (SSRN, arXiv, ResearchGate)",
+      "url": "https://www.ssrn.com/",
+      "kind": "platform",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "If you produce original research, data or technical writing, post it as a preprint (arXiv, SSRN, OSF/bioRxiv/medRxiv) and keep a profile on ResearchGate/Academia.edu. These pages are indexed by Google and Google Scholar, cited by AI engines, and rank for niche terms; include a link back to your site and a stable DOI/initial version.",
+      "rules_and_risks": "SSRN is sunsetting its commercial products by end-2026 but its free preprint platform remains; ResearchGate and Academia.edu are freemium and face copyright/enforcement criticism, so self-archive elsewhere too. Not appropriate for personal blogs or non-research content.",
+      "why_it_works": "University library guides document that open-access posting produces thousands of downloads and public discoverability; SSRN confirms its free preprint platform continues.",
+      "evidence": [
+        "https://blog.ssrn.com/2026/04/13/ssrn-strategic-update-renewed-focus-on-core-research-sharing-mission/",
+        "https://guides.libraries.emory.edu/c.php?g=1270117&p=9316113",
+        "https://blogs.libraries.indiana.edu/scholcomm/2025/10/23/a-comparison-of-author-cv-and-archiving-tools/",
+        "https://guides.library.upenn.edu/Authors/share_your_work"
+      ],
+      "how_searched": [
+        "websearch: ResearchGate Academia.edu SSRN arXiv free research distribution reach 2026",
+        "reviewed library guides and SSRN's own 2026 announcement"
+      ],
+      "score": 56.0,
+      "found_at": "2026-10-14T18:47:55.761628+00:00"
+    },
+    {
       "name": "Opera add-ons",
       "url": "https://help.opera.com/en/extensions/publishing-guidelines/",
       "kind": "platform",
@@ -582,6 +842,27 @@
       ],
       "score": 55.0,
       "found_at": "2026-10-13T18:47:40.065069+00:00"
+    },
+    {
+      "name": "Raycast Store extensions",
+      "url": "https://developers.raycast.com/basics/publish-an-extension",
+      "kind": "platform",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Build a free Raycast extension and run `npm run publish`, which authenticates to GitHub and opens a PR in the raycast/extensions repo; once accepted it auto-publishes to the Store. Extensions can link back to your service. Community Managers feature 3 extensions per month on the Store and in-app, giving outsize visibility.",
+      "rules_and_risks": "Requires a GitHub account and Node tooling; must pass human review and follow the extension guidelines; the user base is smaller than larger app stores.",
+      "why_it_works": "The Store is the single extension surface for Raycast (a fast-growing macOS launcher), and documented monthly features concentrate attention on a few entries.",
+      "evidence": [
+        "https://developers.raycast.com/basics/publish-an-extension",
+        "https://manual.raycast.com/extensions-guidelines",
+        "https://github.com/raycast/extensions"
+      ],
+      "how_searched": [
+        "websearch: Raycast Store submit extension free distribution 2026",
+        "opened the official Publish an Extension doc"
+      ],
+      "score": 55.0,
+      "found_at": "2026-10-14T18:47:56.445837+00:00"
     },
     {
       "name": "SmartNews (free publisher distribution via SmartFormat RSS)",
@@ -646,6 +927,27 @@
       "found_at": "2026-10-11T19:02:18.338578+00:00"
     },
     {
+      "name": "Wikidata entity item",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Main_Page",
+      "kind": "feed",
+      "requires_account": true,
+      "official_free_api": true,
+      "how_to_use": "If your site, product or creator has 'serious and publicly available' references, create a Wikidata item with at least one statement (e.g. instance of/subclass of) and a reference, then sitelink it to any Wikimedia pages. Wikidata is open, machine-readable data reusable by Wikipedia infoboxes, sister projects and external linked-data consumers; it gives you a stable Q-id to cite. Its API/SPARQL endpoint is free.",
+      "rules_and_risks": "Notability is lower than Wikipedia's but still required; items lacking statements/references get deleted; promotional items without independent sources are removed. Almost no direct traffic.",
+      "why_it_works": "Wikidata explicitly acts as central structured storage reused across Wikimedia and beyond, so a valid item improves machine entity recognition.",
+      "evidence": [
+        "https://www.wikidata.org/wiki/Wikidata:Main_Page",
+        "https://www.wikidata.org/wiki/Wikidata:Wikimedia_Commons",
+        "https://commons.wikimedia.org/wiki/Commons:Depicts"
+      ],
+      "how_searched": [
+        "websearch: Wikimedia Commons Wikidata free distribution backlinks notable",
+        "opened the Wikidata main page and structured-data guidance"
+      ],
+      "score": 52.0,
+      "found_at": "2026-10-14T18:47:57.141728+00:00"
+    },
+    {
       "name": "HackerNoon free story submission (human editor review)",
       "url": "https://publish.hackernoon.com/",
       "kind": "platform",
@@ -685,6 +987,27 @@
       ],
       "score": 50.0,
       "found_at": "2026-10-10T12:40:09.490843+00:00"
+    },
+    {
+      "name": "Discord server directories (Disboard, Top.gg, Rally)",
+      "url": "https://disboard.org/servers",
+      "kind": "community",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "If you run a community server, list it free on Disboard (bump every 2 hours to stay visible), Top.gg (best with a bot integration) and Rally (install the bot and enable discovery). These third-party lists are the main discovery layer because Discord's built-in Server Discovery is gated; they differ mainly in ordering (bump recency vs members-online).",
+      "rules_and_risks": "Most require a minimum member count (~10-50) and a permanent invite; inactive servers fall off; each list's content/server policies apply and bump-spamming is discouraged. Account creation is manual.",
+      "why_it_works": "A 2026 comparison notes that third-party directories carry most of Discord's server catalog since the official Discovery admits only eligible communities, so a free listing is a real join channel.",
+      "evidence": [
+        "https://disboard.org/servers",
+        "https://top.gg/discord/servers",
+        "https://rally.casa/blog/best-discord-server-list-sites"
+      ],
+      "how_searched": [
+        "websearch: Disboard top.gg Discord server directory list free discovery 2026",
+        "opened disboard.org/servers and top.gg/discord/servers"
+      ],
+      "score": 50.0,
+      "found_at": "2026-10-14T18:47:58.133333+00:00"
     },
     {
       "name": "Apple Business Connect — claim your location on Apple Maps",
