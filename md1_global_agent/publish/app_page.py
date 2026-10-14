@@ -13,6 +13,7 @@ from datetime import datetime, timedelta, timezone
 import requests
 
 import privacy
+from discovery import study as study_mod
 from builder.planner import complete
 from publish.mdm1_page import API, SITE_URL, SITE_REPO, _headers, preflight
 
@@ -76,9 +77,9 @@ def _extract(text: str, slug: str) -> dict:
 
 IDEA_PROMPT = """A market scan found this product/project (category: {category}):
 {desc}
-Propose ONE original web app that serves the same everyday USER NEED, buildable as a fully client-side tool in a browser (HTML/JS/canvas/localStorage; no server, no accounts, no network, no AI model calls).
-It must be useful to ordinary Arabic-speaking users searching for it. Never use the product's name.
-If the need cannot be met client-side, answer exactly: SKIP
+{study}
+Propose ONE original web app that serves the same USER NEED for people anywhere in the world, buildable as a fully client-side tool in a browser (HTML/JS/canvas/localStorage; no server, no accounts, no network, no AI model calls). Reproduce the product's most useful FUNCTIONS as far as a browser can (use the observed features above), with original design, code and naming. The page text is written in Arabic (the site translates it for other languages). Never use the product's name.
+Always find the closest useful browser-only version of the idea; answer exactly SKIP only if no part of it can work without a server.
 Otherwise answer in exactly two lines:
 SLUG: english-kebab-case-name (2 to 4 words)
 IDEA: Arabic description of the app and its concrete features (2 to 3 sentences)"""
@@ -88,7 +89,7 @@ def idea_from_opportunity(llm: dict, opp: dict, terms: list, deadline: float = N
     """(slug, idea) for a client-side app serving the opportunity's need, or None. Never leaks the source name."""
     repo = opp["repo"]
     try:
-        out = complete(IDEA_PROMPT.format(category=repo.get("category", ""), desc=(repo.get("description") or repo.get("full_name", ""))[:300]), llm, deadline)
+        out = complete(IDEA_PROMPT.format(category=repo.get("category", ""), desc=(repo.get("description") or repo.get("full_name", ""))[:300], study=study_mod.study(repo)), llm, deadline)
     except Exception:
         return None
     if re.search(r"^\s*SKIP\b", out or "", re.I | re.M):

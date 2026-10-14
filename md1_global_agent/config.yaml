@@ -16,7 +16,7 @@ apps_budget_seconds: 2700
 plans_per_run: 40          # every scanned opportunity becomes a published plan page (no filter on taste)
 plans_budget_seconds: 3000      # whole app phase
 app_idea_attempts: 8           # opportunities turned into app ideas per run
-max_pages: 4            # GitHub search pages scanned per category to find NEW (never examined) projects
+max_pages: 8            # GitHub search pages scanned per category to find NEW (never examined) projects
 # Page languages (Arabic is always included). The site opens each page in the visitor's device
 # language and shows a language selector button.
 page_languages: [en, es, pt, id, tr, fr, de, hi, ru]
