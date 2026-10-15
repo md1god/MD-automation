@@ -4575,6 +4575,24 @@
       "found_at": "2026-10-11T18:58:47.553123+00:00"
     },
     {
+      "name": "Free Tabletop/TTRPG Campaign & Pledge Tracker (web)",
+      "field": "Gaming / tabletop & crowdfunding",
+      "summary": "A free web tool for tabletop and TTRPG players: track your crowdfunding pledges and total spend across campaigns, manage a board-game/TTRPG collection, and get a calendar of campaign closing dates so you don't miss late pledges. Crowdfunding for tabletop is enormous but there's no dominant free cross-platform tracker.",
+      "why_now": "Tabletop games are a perennial crowdfunding juggernaut (hundreds of millions pledged across ~90k+ Kickstarter games projects; single tabletop campaigns routinely raise $15-27M), and organized-play/TTRPG audiences keep growing. Pledges are spread across Kickstarter, Gamefound, and late-pledge pages with no unified free tracker, so a lightweight browser tool that consolidates budget, collection, and closing-date alerts maps directly to a known pain.",
+      "monetization": "Free tracker; pro for collection valued exports, price alerts, and campaign-closing notifications; affiliate links to campaigns/retail.",
+      "evidence": [
+        "https://www.kickstarter.com/ — platform stats: games category ~93,756 projects and ~$2.63B pledged (category scale)",
+        "https://www.statista.com/statistics/1330795/kickstarter-most-funded-tabletop-games/ — most-funded tabletop games incl. campaigns in the $15M-$27M range, showing recurring multi-million-dollar tabletop demand"
+      ],
+      "how_searched": [
+        "Web search for 'tabletop games crowdfunding stats 2026 Kickstarter'",
+        "Checked Kickstarter category stats and Statista most-funded tabletop games",
+        "Cross-checked category totals via trade coverage (ICv2)"
+      ],
+      "score": 38.0,
+      "found_at": "2026-10-15T22:22:25.002540+00:00"
+    },
+    {
       "name": "Promo-code finder & price-drop tracker",
       "field": "E-commerce savings",
       "summary": "Free web tool where you paste a product URL and get working promo codes (community-submitted plus store feeds), price history and drop alerts — a no-signup coupon/price tracker in the Honey mold, rebuilt as an independent site.",
