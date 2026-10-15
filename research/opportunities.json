@@ -229,6 +229,28 @@
       "found_at": "2026-10-15T13:36:13.676454+00:00"
     },
     {
+      "name": "Simulated-Buyer Pre-Launch Validation Panel",
+      "field": "Synthetic market research / messaging validation",
+      "summary": "Run ads, landing pages, pricing and packaging against thousands of simulated buyers before spending media budget; get ranked preferences plus the objections behind each score.",
+      "why_now": "Articos MCP was the top Product Hunt launch of Oct 15, 2026 (328 votes) selling simulated buyers; ProductList's same-day digest named validation the board's defining theme as founders pay to cut build risk. At least eight live competitors (Simulatte, SimuCrowd, EchoTest, Unpitch, Heatseeker, TestSynthia, Ontevo, Brandmaven) launched or expanded in the same window, which only happens when buyers already show up.",
+      "monetization": "Credit packs and B2B subscriptions; paid peers sell concept tests, message resonance, price sensitivity and pre-flight creative audits with free trial credits. Specific revenue for any single validator was null in this run.",
+      "evidence": [
+        "https://www.producthunt.com/leaderboard/daily/2026/10/14",
+        "https://productlist.info/daily/2026-10-15",
+        "https://www.simulatte.io/",
+        "https://simucrowd.com/",
+        "https://unpitch.ai/",
+        "https://www.heatseeker.ai/platform"
+      ],
+      "how_searched": [
+        "Product Hunt daily leaderboard + launch digest",
+        "synthetic audience / simulated buyer web search",
+        "competitor landing pages with pricing"
+      ],
+      "score": 88.0,
+      "found_at": "2026-10-15T18:32:16.674838+00:00"
+    },
+    {
       "name": "Retro digicam / film-camera filter web app (Y2K & CCD look)",
       "field": "Consumer photo / creator tools",
       "summary": "A browser tool that turns any photo or video into the grainy, flash-heavy, early-2000s 'digicam/CCD' look using preset film stocks, light leaks, date stamps and scans — no app install.",
@@ -756,6 +778,26 @@
       "found_at": "2026-10-15T13:36:18.084826+00:00"
     },
     {
+      "name": "AI Sketch-to-Architectural Concept Renderer",
+      "field": "Vertical AI design visualization (architecture / interiors)",
+      "summary": "Upload a sketch, floor plan, clay/SketchUp screenshot or rough model view and get photoreal client-ready concept renders in seconds, without a full 3D pipeline.",
+      "why_now": "Stripe-verified competitor Visualizee sits at ~$8,189 MRR and ~290 subscriptions on TrustMRR as of Oct 15, 2026 after a chat+subscription pivot from ~$150/mo; QuickArchViz is a second paid entrant on the same TrustMRR category the same week. Upwork shows AI image/video skills still surging (+329% AI video, +95% AI image), so professional visual workflows are buying AI, not just consumer toys.",
+      "monetization": "Subscription tiers ($15/$35/$80/mo on the leading peer) plus credit packs; peer reports ~25% trial-to-paid and ~$10k/mo total including one-time credits. Our free-to-pro rebuild would freemium watermarked concepts then charge for commercial license and batch.",
+      "evidence": [
+        "https://trustmrr.com/startup/visualizee-ai",
+        "https://trustmrr.com/startup/quickarchviz",
+        "https://www.sofarbot.com/stories/visualizee-piotr-150-to-8600-mrr-pivot",
+        "https://www.upwork.com/research/in-demand-skills-2026"
+      ],
+      "how_searched": [
+        "TrustMRR live Stripe dashboard",
+        "vertical AI rendering case-study search",
+        "Upwork in-demand skills report"
+      ],
+      "score": 84.0,
+      "found_at": "2026-10-15T18:32:17.449641+00:00"
+    },
+    {
       "name": "Self-Hosted Workflow Automation for AI Agents (n8n-style)",
       "field": "DevTools / AI Infrastructure",
       "summary": "Fair-code / open-source workflow automation platform that technical teams self-host for free (unlimited executions) to build AI agent pipelines, RAG, and multi-step automations — with paid cloud/enterprise for governance, SSO, and managed infrastructure.",
@@ -1155,6 +1197,26 @@
       ],
       "score": 81.0,
       "found_at": "2026-10-14T22:45:43.561560+00:00"
+    },
+    {
+      "name": "Cookieless Product Analytics with Session Replay (Open Core)",
+      "field": "Privacy-first web / product analytics",
+      "summary": "Open-source, cookieless analytics that also ships funnels, journeys, error tracking and session replay without consent banners or GA4.",
+      "why_now": "Wlad's Oct 8 boring-SaaS Stripe sync shows Rybbit at ~$9,175 MRR / ~315 subs and ~$101k all-time; Plausible historically proved the category ($1M ARR). Multiple 2026 self-hosting comparisons still call Rybbit the fastest-growing OSS analytics of the prior year because replay+funnels sit in every plan while GA4 remains a GDPR liability.",
+      "monetization": "Cloud subscriptions from roughly $13–$26/mo (peer pricing) with free self-host; event-based billing. Plausible's public history shows 7,000+ paying subscribers at $1M ARR for the simpler product alone.",
+      "evidence": [
+        "https://www.wlad.me/blog/2026-10-08",
+        "https://rybbit.com/compare/plausible",
+        "https://plausible.io/blog/open-source-saas",
+        "https://ossalt.com/guides/rybbit-vs-plausible-vs-umami-2026"
+      ],
+      "how_searched": [
+        "TrustMRR Stripe-sync blog",
+        "OSS analytics comparison guides",
+        "Plausible open-startup revenue page"
+      ],
+      "score": 81.0,
+      "found_at": "2026-10-15T18:32:18.484839+00:00"
     },
     {
       "name": "Text or image to 3D model generator",
@@ -1832,6 +1894,25 @@
       "found_at": "2026-10-15T13:36:22.504461+00:00"
     },
     {
+      "name": "ADHD Rotating-Variance Accountability Coach",
+      "field": "Consumer productivity / ADHD health-adjacent coaching",
+      "summary": "Accountability app whose coach voice, avatar and tone rotate unpredictably (variable-ratio reinforcement), escalates with humor instead of nagging, and optionally body-doubles with another user on the same task.",
+      "why_now": "A single r/adhdwomen thread describing the exact mechanism hit 3,225 upvotes and 340 comments in the Oct 9–12 window Engaggit scraped; the same scan found education/self-improvement the top willingness-to-pay cluster among 9,300+ Reddit 'I wish there was an app' posts (698 requests). Habit/grid trackers are saturated; novelty-as-feature is the gap.",
+      "monetization": "Freemium rotating coach free; paid multi-coach rosters, body-doubling sessions and family plans. Direct MRR for this exact mechanic was null; adjacent ADHD productivity apps monetize via subscription and the category ranks #1 on the Reddit wish-post census.",
+      "evidence": [
+        "https://engaggit.com/blog/app-ideas-2026-10-12",
+        "https://www.reddit.com/r/adhdwomen/comments/1x1k214/i_think_ive_finally_figured_out_how_to_cure_my/",
+        "https://www.reddit.com/r/AppIdeas/comments/1q5mecg/i_analyzed_9300_i_wish_there_was_an_app_for_this/"
+      ],
+      "how_searched": [
+        "Daily Reddit demand scan (Engaggit)",
+        "r/adhdwomen high-upvote thread",
+        "r/AppIdeas opportunity-gap dataset"
+      ],
+      "score": 76.0,
+      "found_at": "2026-10-15T18:32:19.226620+00:00"
+    },
+    {
       "name": "Invoice & AP Automation (AI-First)",
       "field": "Fintech / B2B SaaS",
       "summary": "End-to-end invoice processing: email/file intake → AI extraction (line items, PO matching) → validation → ERP/accounting sync → approval workflow → payment — with KPI dashboards (cost/invoice, cycle time, touchless rate).",
@@ -2132,6 +2213,25 @@
       ],
       "score": 74.0,
       "found_at": "2026-10-14T13:47:39.446484+00:00"
+    },
+    {
+      "name": "Coding-Agent Cache & Token-Spend Forensics",
+      "field": "LLM cost observability for agent sessions",
+      "summary": "Local/CLI dashboard that reads live session token counts, provider cache pricing and idle time, then tells you the cheapest next move (ping, warm-compact, cold-compact, tail-trim) and flags unattended agents burning money.",
+      "why_now": "Inferock scored 393 votes on Product Hunt Oct 14, 2026 for an independent 'receipt' of what you were billed vs overpaying on failed LLM calls. The same week a r/ClaudeCode thread (209 upvotes, 76 comments) walked through 5x cold-cache overpay, one-hour TTL folklore and subagent cache leaks—knowledge still trapped in forum comments, not products. Distinct from a static cost calculator: this is live session-level audit.",
+      "monetization": "Free local receipt + paid cloud multi-seat dashboard and provider-price API. Peer Inferock is open-source bench + credits-back positioning; dedicated revenue numbers were null this run. Category peers (router/cost calculators) already sell usage-based plans.",
+      "evidence": [
+        "https://www.producthunt.com/leaderboard/daily/2026/10/14",
+        "https://engaggit.com/blog/app-ideas-2026-10-12",
+        "https://www.reddit.com/r/ClaudeCode/comments/1x1ybwb/best_way_to_handle_cold_cache_hits_you_overpay_5x/"
+      ],
+      "how_searched": [
+        "Product Hunt daily board",
+        "Reddit coding-agent cost threads",
+        "Engaggit demand digest"
+      ],
+      "score": 74.0,
+      "found_at": "2026-10-15T18:32:19.789068+00:00"
     },
     {
       "name": "Personal data-broker opt-out & removal-request generator",
@@ -2523,6 +2623,25 @@
       "found_at": "2026-10-14T13:47:42.315328+00:00"
     },
     {
+      "name": "Open Cheap SEO Data + MCP for Agents",
+      "field": "SEO / keyword research infrastructure",
+      "summary": "Open-source Semrush/Ahrefs-class keyword, backlink and audit data sold at ~$10/mo (vs $100+) with a hosted MCP so Claude/Codex can pull live SERP data while writing content.",
+      "why_now": "OpenSEO launched #10 Product of the Month on Product Hunt October 2026 (410 votes) on exactly this price wedge plus MCP. Fiverr still shows SEO as a top sales/marketing skill, and indie MRR data ranks sales/marketing tools highest among revenue-sharing makers—budget for cheap SEO data is moving now, not theoretical.",
+      "monetization": "$10/mo entry cloud plan (peer-stated) vs incumbents 10x higher; API/metered agent queries and team seats. Peer public revenue was null; category proof is sales/marketing tools' $5k median MRR in the Oct 2026 indie dataset.",
+      "evidence": [
+        "https://www.producthunt.com/leaderboard/monthly/2026/10",
+        "https://www.producthunt.com/products/openseo",
+        "https://www.fiverr.com/news/business-trends-index-ai-2026"
+      ],
+      "how_searched": [
+        "Product Hunt monthly leaderboard",
+        "indie MRR category medians",
+        "Fiverr Business Trends Index"
+      ],
+      "score": 71.0,
+      "found_at": "2026-10-15T18:32:20.642041+00:00"
+    },
+    {
       "name": "AI resume + job-application toolkit (ATS-tailored)",
       "field": "Careers / job search",
       "summary": "A free web app that writes and tailors a resume to a pasted job description (keyword targeting/ATS pass-through) plus interview practice.",
@@ -2776,6 +2895,24 @@
       ],
       "score": 69.0,
       "found_at": "2026-10-10T21:46:53.082154+00:00"
+    },
+    {
+      "name": "Employee Knowledge-Handoff Re-Performance & Bus-Factor Console",
+      "field": "Enterprise ops / workforce risk",
+      "summary": "When an expert leaves, capture workflows as executable re-performance checks ('can the successor reproduce last quarter's tie-out?') plus a bus-factor dashboard of single-owner processes—beyond static runbooks.",
+      "why_now": "A six-month r/BestofRedditorUpdates saga (1,715 upvotes, 320 comments, Oct 9–12 window) documented 95% department turnover, a failed 30-page runbook, and leadership demanding re-performance six days after the only two experts quit—classic tribal-knowledge liability. UpHunt's Upwork scrape shows operations/advisory categories still hiring while pure text/code freelancing collapses, so buyers pay for judgment-transfer work.",
+      "monetization": "B2B SaaS per-seat or per-workspace; deadline-driven purchase when a named person is leaving. Direct competitor MRR was null in this run.",
+      "evidence": [
+        "https://engaggit.com/blog/app-ideas-2026-10-12",
+        "https://www.reddit.com/r/BestofRedditorUpdates/comments/1x2yei9/new_updates_new_data_analyst_job_is_turning_into/",
+        "https://uphunt.io/blog/state-of-ai-on-upwork-2026"
+      ],
+      "how_searched": [
+        "Reddit high-upvote BRU thread via Engaggit",
+        "Upwork job-post corpus analysis"
+      ],
+      "score": 69.0,
+      "found_at": "2026-10-15T18:32:21.994668+00:00"
     },
     {
       "name": "AI agent memory manager",
@@ -3167,6 +3304,24 @@
       ],
       "score": 64.0,
       "found_at": "2026-10-10T00:11:08.325209+00:00"
+    },
+    {
+      "name": "24-Hour Job-Window Freshness Hunter",
+      "field": "Consumer job search",
+      "summary": "Job tool that only surfaces postings from the last ~24 hours, ranks by how fast the application window is closing, and pairs that with per-role CV reshaping and referral sequencing—not mass Easy Apply blasts.",
+      "why_now": "A r/jobsearch playbook (372 upvotes, Oct 9–12) argues job search is a timing problem: rewrite the CV every time, never Easy Apply, filter to last-24h posts or the 'unemployed flash flood' has already won. Existing AI job tools optimize writing volume; freshness ranking is still open. Education/self-improvement and career tools remain top Reddit willingness-to-pay clusters.",
+      "monetization": "Free freshness feed; paid CV-tailoring packs, referral CRM and alerts. Direct MRR was null; category peers in the Oct 2026 indie set hit four-figure MRR within ~2 months when niche (e.g. exam-prep practice).",
+      "evidence": [
+        "https://engaggit.com/blog/app-ideas-2026-10-12",
+        "https://www.reddit.com/r/jobsearch/comments/1x34btr/lie_just_lie/",
+        "https://productlist.info/daily/2026-10-15"
+      ],
+      "how_searched": [
+        "Reddit job-search demand thread",
+        "ProductList wish-post census commentary"
+      ],
+      "score": 64.0,
+      "found_at": "2026-10-15T18:32:24.005947+00:00"
     },
     {
       "name": "AI Voice Receptionist for Small Businesses",
@@ -4333,6 +4488,23 @@
       ],
       "score": 44.7,
       "found_at": "2026-10-14T02:06:40.671807+00:00"
+    },
+    {
+      "name": "E-commerce Feed / Merchant Center Compliance Scanner",
+      "field": "E-commerce operations (Shopify / Google Shopping)",
+      "summary": "One-click scan of a Shopify (or multi-channel) store for Google Merchant Center disapprovals and suspension risks before ads die.",
+      "why_now": "Wlad's Oct 8, 2026 TrustMRR sync shows a US Merchant-Center compliance scanner founded Mar 2025 at ~$14,661 MRR, ~239 subs, ~$103k last-12-months, ~90% margin, listed at $175k with 7 offers—boring B2B still printing. Fiverr's 2026 index shows Shopify demand concentrating in build/optimization (+348% graphics/design, +330% site dev), so merchants are already buying store-execution help.",
+      "monetization": "Subscription SaaS (~$14.7k MRR on the verified peer) plus affiliate/influencer channels the peer uses. Free tier for first N products; paid continuous monitoring and fix playbooks.",
+      "evidence": [
+        "https://www.wlad.me/blog/2026-10-08",
+        "https://www.fiverr.com/resources/guides/reports/business-trends-index-june-2026"
+      ],
+      "how_searched": [
+        "TrustMRR Stripe-sync daily digest",
+        "Fiverr marketplace demand index"
+      ],
+      "score": 44.0,
+      "found_at": "2026-10-15T18:32:22.603042+00:00"
     },
     {
       "name": "AI Landing-Page Personalization & Autonomous A/B Testing (GenPage-model)",

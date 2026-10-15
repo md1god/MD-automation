@@ -310,6 +310,28 @@
       "found_at": "2026-10-13T18:47:30.867688+00:00"
     },
     {
+      "name": "Bluesky Social publishing via official AT Protocol XRPC API",
+      "url": "https://bsky.app",
+      "kind": "platform",
+      "requires_account": true,
+      "official_free_api": true,
+      "how_to_use": "Create a Bluesky account manually, then publish posts/images/video to your own PDS through authenticated AT Protocol XRPC endpoints (app.bsky.feed.post and related lexicons) using an app password/session token; add profile links, consistent posting, replies, and thread formats so content enters Bluesky feeds/search. No automated account creation is supported.",
+      "rules_and_risks": "Follow Bluesky community guidelines: no spam, misleading or impersonating content, mass-posting disruption, ban evasion, privacy violations, or API/rate-limit abuse. Account creation and moderation are human-facing and action is tied to the account reputation.",
+      "why_it_works": "Bluesky exposes an official HTTP API and open protocol (endpoints.bsky.app/api-directory), so posts are portable, searchable, and consumable by official and third-party clients, with lower-friction reach to Bluesky's audience than central-only platforms.",
+      "evidence": [
+        "https://docs.bsky.app/docs/advanced-guides/api-directory",
+        "https://endpoints.bsky.app/",
+        "https://bsky.social/about/support/community-guidelines"
+      ],
+      "how_searched": [
+        "websearch Bluesky official API",
+        "webfetch API hosts",
+        "webfetch community guidelines"
+      ],
+      "score": 74.0,
+      "found_at": "2026-10-15T19:03:13.308105+00:00"
+    },
+    {
       "name": "Reddit: niche subreddits where your users already gather",
       "url": "https://www.reddit.com/",
       "kind": "community",
@@ -674,6 +696,28 @@
       "found_at": "2026-10-14T18:47:48.721514+00:00"
     },
     {
+      "name": "Flipboard self-service publisher RSS magazines",
+      "url": "https://flipboard.com/publishers",
+      "kind": "feed",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Create a Flipboard profile, then use the self-service publisher flow to submit a full RSS feed for review; meet feed requirements (full article body, image at least 400px on shortest side, at least 30 items), then let Flipboard index/tag posts into topics and publish category-specific automated magazines, supplemented by light manual curation and engagement.",
+      "rules_and_risks": "Feeds are human-reviewed for guideline fit and quality, and weak/malformed feeds are rejected; abuse, spammy or low-value content risks no indexing. Reach depends on topic fit and engagement, not guaranteed placement.",
+      "why_it_works": "Flipboard distributes submitted publisher RSS content into topics with hundreds of thousands to millions of readers, sending readers directly back to the source site when they engage.",
+      "evidence": [
+        "https://about.flipboard.com/inside-flipboard/flipboards-self-service-platform-opens-for-publishers-around-the-world/",
+        "https://about.flipboard.com/inside-flipboard/rss-feed-on-flipboard/",
+        "https://apis.io/apis/flipboard/rss-feeds/"
+      ],
+      "how_searched": [
+        "websearch Flipboard publisher RSS",
+        "webfetch publisher guidance",
+        "webfetch RSS API index"
+      ],
+      "score": 62.0,
+      "found_at": "2026-10-15T19:03:14.359534+00:00"
+    },
+    {
       "name": "GitHub as a discovery channel (GitHub SEO)",
       "url": "https://www.trylyra.ai/blog/github-repo-seo/",
       "kind": "tactic",
@@ -738,6 +782,28 @@
       ],
       "score": 60.0,
       "found_at": "2026-10-14T18:47:53.354712+00:00"
+    },
+    {
+      "name": "Stacker free journalist-vetted syndication network",
+      "url": "https://stacker.com/publishers",
+      "kind": "partnership",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Create a Story Hub account and submit a human-written, non-promotional, evidence-backed editorial story; accepted stories are vetted by Stacker editors and syndicated across 3,000+ publishers, often averaging 50+ placements on trusted domains, with links and bylines back to your site.",
+      "rules_and_risks": "Editorial review rejects promotional, advocacy, or low-quality copy; brands fund eligible content and human authorship is required. Publishers choose whether to run any story, so placement is earned but not guaranteed.",
+      "why_it_works": "Stacker distributes accepted stories across thousands of vetted publishers, multiplying trusted-domain reach and citations beyond publishing on one site, at no cost to publishers; the same public syndication page states Stacker-distributed content was cited 2.4x more often than brand-only publication in an independent study.",
+      "evidence": [
+        "https://stacker.com/publishers",
+        "https://stacker.com/",
+        "https://publisherinabox.com/content-syndication-networks-for-publishers"
+      ],
+      "how_searched": [
+        "websearch Stacker free newswire",
+        "websearch content syndication 2026",
+        "webfetch publisher pages"
+      ],
+      "score": 60.0,
+      "found_at": "2026-10-15T19:03:15.018486+00:00"
     },
     {
       "name": "Threads API — official free cross-posting to Threads",
@@ -863,6 +929,28 @@
       ],
       "score": 55.0,
       "found_at": "2026-10-14T18:47:56.445837+00:00"
+    },
+    {
+      "name": "Apple News Publisher RSS or Apple News API channel",
+      "url": "https://www.icloud.com/newspublisher/",
+      "kind": "platform",
+      "requires_account": true,
+      "official_free_api": true,
+      "how_to_use": "Use an Apple Account with two-factor authentication, create or apply for an Apple News channel through News Publisher, submit the channel for review, then publish via RSS feed or via the Apple News API using channel ID, API key ID, and secret; publishing in Apple News Format unlocks richer layouts and News Partner Program eligibility for subscription news publishers.",
+      "rules_and_risks": "Apple favors professional news publishers, reviews channels and submissions, and eligibility/application acceptance can be limited; teams must meet technical feed/format requirements and avoid treating it as generic blog syndication.",
+      "why_it_works": "Apple News reaches a large mobile news audience; official documentation describes channel setup, review, and API-based publishing, with RSS as the route for publishers outside primary News Partner Program regions.",
+      "evidence": [
+        "https://developer.apple.com/documentation/applenews/getting-started-as-an-apple-news-publisher",
+        "https://support.apple.com/guide/news-publisher/use-your-cms-with-news-publisher-apd88c8447e6/icloud",
+        "https://www.apple.com/newsroom/2021/08/apple-introduces-the-news-partner-program/"
+      ],
+      "how_searched": [
+        "websearch Apple News publisher",
+        "webfetch Apple docs",
+        "websearch syndication Apple News"
+      ],
+      "score": 55.0,
+      "found_at": "2026-10-15T19:03:15.754423+00:00"
     },
     {
       "name": "SmartNews (free publisher distribution via SmartFormat RSS)",
@@ -1684,6 +1772,26 @@
       ],
       "score": 23.3,
       "found_at": "2026-10-10T00:17:33.687126+00:00"
+    },
+    {
+      "name": "WebSub push delivery for RSS readers and aggregators",
+      "url": "https://signalgenesys.com/rss-feed-syndication/",
+      "kind": "feed",
+      "requires_account": false,
+      "official_free_api": true,
+      "how_to_use": "Implement WebSub on your RSS feed by advertising a hub (rel=hub) such as Google's free public hub, verify feed validity (full content, correct timestamps, categories, media enclosures), then publish update notifications so subscribed readers and indexing systems receive new content instantly instead of waiting for polling; combine with accurate RSS discovery links on site pages.",
+      "rules_and_risks": "Malformed or thin feeds and invalid enclosures prevent successful delivery and can make a feed look broken; do not use abusive or excessive pinging; external subscribers still decide whether to subscribe and display the feed.",
+      "why_it_works": "WebSub reduces delivery latency from feed polling to near-real-time for subscribers, which can trigger earlier crawls and keep your content current in RSS-based discovery and news-aggregation workflows.",
+      "evidence": [
+        "https://signalgenesys.com/rss-feed-syndication/",
+        "https://about.flipboard.com/inside-flipboard/new-feed-your-rss-feed-into-a-flipboard-magazine/"
+      ],
+      "how_searched": [
+        "websearch RSS syndication WebSub",
+        "webfetch publisher RSS practices"
+      ],
+      "score": 23.3,
+      "found_at": "2026-10-15T19:03:16.383937+00:00"
     },
     {
       "name": "Bluesky starter packs + custom feeds for your niche",
