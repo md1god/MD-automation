@@ -206,6 +206,29 @@
       "found_at": "2026-10-12T10:53:40.881665+00:00"
     },
     {
+      "name": "Independent AI-Agent Audit & Trust Console",
+      "field": "AI quality assurance / compliance",
+      "summary": "A free web console where teams connect an AI agent (endpoint or MCP) and instantly get an independent A–F trust grade: simulated business scenarios, red-team probes, and evidence-backed findings that the agent's own evals miss, plus a shareable 'audited' badge for buyers.",
+      "why_now": "This category exploded in weeks: iFixAi went from 0 to 27.5k GitHub stars (13.1k in the last 30 days, trending 114 days), 'AI Observability' search is up 9,300% (Exploding Topics), and Product Hunt's Oct-14 board had Tiden (#4, 201 pts) verifying coding agents built what was asked. Four independent products launched around the same question in one month.",
+      "monetization": "Freemium: free open-source audit runs, paid Pro audits (up to 400 inspections) + badge program; iFixAi's exact Pro price is null. Adjacent signal: AI SaaS category is the largest and fastest-growing cluster (272% avg growth across 1,900+ startups, bigideasdb).",
+      "evidence": [
+        "https://www.ifixai.ai/",
+        "https://github.com/ifixai-ai/ifixai",
+        "https://www.producthunt.com/products/ifixai",
+        "https://gittrend.io/repo/ifixai-ai/iFixAi",
+        "https://explodingtopics.com/blog/trending-topics",
+        "https://www.producthunt.com/leaderboard/daily/2026/10/14"
+      ],
+      "how_searched": [
+        "GitHub star-growth trackers",
+        "Product Hunt daily leaderboards",
+        "Exploding Topics search-growth database",
+        "vendor product site"
+      ],
+      "score": 88.0,
+      "found_at": "2026-10-15T13:36:13.676454+00:00"
+    },
+    {
       "name": "Retro digicam / film-camera filter web app (Y2K & CCD look)",
       "field": "Consumer photo / creator tools",
       "summary": "A browser tool that turns any photo or video into the grainy, flash-heavy, early-2000s 'digicam/CCD' look using preset film stocks, light leaks, date stamps and scans — no app install.",
@@ -411,6 +434,28 @@
       ],
       "score": 86.0,
       "found_at": "2026-10-14T13:47:28.639357+00:00"
+    },
+    {
+      "name": "Multi Coding-Agent Supervisor Cockpit",
+      "field": "Developer tools / AI agent ops",
+      "summary": "One web dashboard that connects to Claude Code, Codex, Gemini CLI, OpenCode and other coding-agent sessions running in parallel (local or remote), showing who is working, who needs approval, unified diffs, session/account limits, and a human-in-the-loop approval queue.",
+      "why_now": "October 2026's loudest HN cluster: Offrun Show HN drew 'every single one of us who use more than one agent locally has built something like this'; a comparison site already counts 68 competing tools; Orca gained +10,706 stars this month; Gtree and Pinrail are climbing the Oct-15 Show HN board; Rill Browser ('Claude Code and Codex work beside you') made Product Hunt's October monthly top 10.",
+      "monetization": "Most entrants are free/open-source today (Offrun free, revenue null); commercial path is pro seats and hosted remote runtime (Orca positions as an 'ADE'). Market is pre-consolidation: 68 tools, no clear paid leader yet.",
+      "evidence": [
+        "https://startupcorners.com/digest/wedge-ideas-digest-2026-W41",
+        "https://gitnova.dev/en/month/2026-10",
+        "https://buzz0.com/daily/2026-10-15",
+        "https://www.producthunt.com/leaderboard/monthly/2026/10",
+        "https://mindpattern.ai/e/show-hn-october"
+      ],
+      "how_searched": [
+        "Hacker News Show HN threads and comments",
+        "GitHub monthly star-growth rankings",
+        "Product Hunt monthly leaderboard",
+        "HN daily aggregator"
+      ],
+      "score": 86.0,
+      "found_at": "2026-10-15T13:36:16.095927+00:00"
     },
     {
       "name": "Short-Form Video Intelligence & Analytics",
@@ -690,6 +735,27 @@
       "found_at": "2026-10-13T23:20:46.124179+00:00"
     },
     {
+      "name": "Agent-Powered App Behavior → API Spec & Rebuild Kit",
+      "field": "Developer tools / competitive intelligence",
+      "summary": "Paste any web app's URL (or upload a HAR/screen recording) and an agent reverse-engineers its behavior — endpoints, data models, auth flows — outputting an OpenAPI spec, architecture map, and rebuild plan you can hand to your own coding agent.",
+      "why_now": "morluto/rea ('reverse engineer anything with agents, from app behavior down to native binaries') is the fastest-rising repo on GitHub: ~250k stars, +226k in a single week, +32,282 stars in one day on the Oct-15 trending board — the largest single-day jump in these trackers. Demand for agent-driven RE is spiking far beyond what the desktop tool alone can serve.",
+      "monetization": "Open-source core is free; hosted web/API tier for non-reverse-engineers has no published pricing (revenue null). Precedent spend: dev-tools brand search surging (Vercel +170% YoY, Ahrefs).",
+      "evidence": [
+        "https://whatstrending.ai/repos",
+        "https://github.com/trending",
+        "https://gitnova.dev/en/month/2026-10",
+        "https://gitstock.org/trending/2026-10-15",
+        "https://ahrefs.com/blog/fastest-growing-companies-and-startups/"
+      ],
+      "how_searched": [
+        "GitHub trending (live)",
+        "multi-vendor star-growth trackers",
+        "Ahrefs brand-search growth report"
+      ],
+      "score": 84.0,
+      "found_at": "2026-10-15T13:36:18.084826+00:00"
+    },
+    {
       "name": "Self-Hosted Workflow Automation for AI Agents (n8n-style)",
       "field": "DevTools / AI Infrastructure",
       "summary": "Fair-code / open-source workflow automation platform that technical teams self-host for free (unlimited executions) to build AI agent pipelines, RAG, and multi-step automations — with paid cloud/enterprise for governance, SSO, and managed infrastructure.",
@@ -964,6 +1030,28 @@
       ],
       "score": 82.0,
       "found_at": "2026-10-15T01:32:56.862451+00:00"
+    },
+    {
+      "name": "Local-First Voice Studio: EPUB/PDF → Cloned-Voice Audiobook, Dubbing & TTS",
+      "field": "Creator tools / voice AI",
+      "summary": "A web (or self-hosted) studio that turns books and documents into narrated audiobooks with a cloned or designed voice, plus video dubbing and transcription across hundreds of languages — the open, privacy-first alternative to metered cloud voice APIs.",
+      "why_now": "VoiceStudio hit ~67k GitHub stars (+3,538 in 24h on Oct 15), positioning as the fully-local ElevenLabs alternative with 646 languages and a full audiobook editor; separately, 'Use your OpenAI subscription to create audiobooks' was a 311-point Show HN this month. ElevenLabs' own ARR grew ~260% ($25M→~$90M), proving the paid demand underneath.",
+      "monetization": "VoiceStudio already monetizes: Pro $99/yr or $299 lifetime on closed builds; hosted cloud tier 'coming soon'. ElevenLabs reference ARR ~$90M (260%+ growth). A free web rebuild can freemium on hosted GPU minutes; exact new-product revenue null.",
+      "evidence": [
+        "https://github.com/debpalash/VoiceStudio/",
+        "https://voicestudio.sh/",
+        "https://gitdiscover.org/repositories/debpalash/VoiceStudio",
+        "https://hnarchives.com/showHN?year=2026",
+        "https://www.landbase.com/blog/fastest-growing-enterprise-saas-companies"
+      ],
+      "how_searched": [
+        "GitHub trending repos",
+        "vendor site pricing table",
+        "Hacker News Show HN archives",
+        "enterprise SaaS growth report"
+      ],
+      "score": 82.0,
+      "found_at": "2026-10-15T13:36:20.818364+00:00"
     },
     {
       "name": "AI SDR & Autonomous Sales Agents",
@@ -1458,6 +1546,26 @@
       "found_at": "2026-10-14T22:45:49.743889+00:00"
     },
     {
+      "name": "AI Shopping-Surface Optimizer (ChatGPT / Perplexity / AI Mode product presence)",
+      "field": "Ecommerce marketing / AI commerce",
+      "summary": "A merchant tool that makes a store's products discoverable and buyable inside AI assistants: structured product feeds for ChatGPT shopping and AI ads, answer-surface monitoring, and checkout-ready listings for Shopify/Woo sellers.",
+      "why_now": "Shopify's Q3-2026 app report calls AI the quarter's rank-momentum breakout: 'Axegem – Sell on ChatGPT & AI' was the biggest new-app rank gainer and 'ChatGPT Ads' hit #1 in its category; 'Answer Engine Optimization' is a 99x+ Exploding Topics breakout; ReSO AI ('get discovered & recommended when customers ask AI') finished October's Product Hunt monthly top 10.",
+      "monetization": "Per-store SaaS; Shopify paid-app pricing sweet spot is $10–30/mo (LetsMetrix Q3 data, $10–30 apps average 4.74★). Direct competitor revenue null; ChatGPT Ads app is early (2.4★, 19 reviews) — category is open.",
+      "evidence": [
+        "https://letsmetrix.com/reports/shopify-app-market",
+        "https://explodingtopics.com/blog/trending-topics",
+        "https://www.producthunt.com/leaderboard/monthly/2026/10",
+        "https://www.producthunt.com/products"
+      ],
+      "how_searched": [
+        "Shopify app-store market crawl report",
+        "Exploding Topics",
+        "Product Hunt monthly leaderboard"
+      ],
+      "score": 78.0,
+      "found_at": "2026-10-15T13:36:22.154196+00:00"
+    },
+    {
       "name": "Browser Extension AI Productivity Tools",
       "field": "Consumer / Productivity",
       "summary": "Chrome/Firefox/Edge extensions that bring AI into the browser — sidebar chat, page summarization, writing assistance, workflow automation, content extraction — with freemium subscriptions.",
@@ -1702,6 +1810,26 @@
       ],
       "score": 76.0,
       "found_at": "2026-10-13T02:37:52.009537+00:00"
+    },
+    {
+      "name": "LLM Billing Auditor & Overpay Refund Hunter",
+      "field": "FinOps for AI / developer tools",
+      "summary": "An independent receipt layer between your app and LLM APIs: per-call token/failure auditing across OpenAI, Anthropic, Gemini and OpenRouter, flagging overcharges, dead retries, and failed calls you can reclaim credits for — Truebill-style, for AI spend.",
+      "why_now": "Inferock ('serverless inference, with credits back for failed calls') was Product Hunt's #2 launch on Oct 14 (393 pts, 46 comments) with an open-source local bench that 'shows what you were billed and how much you're actually overpaying'; FastRouter.ai also made the October monthly top 17. Dev-tool brand search is at record highs (Vercel +170% YoY).",
+      "monetization": "Open-source bench free; hosted audit + credit-recovery take-rate is the obvious paid layer (pricing null). Context: only 2.6% of tracked SaaS startups clear $10K MRR, and the AI category's median is $0 — real monetization must attach to proven dev spend.",
+      "evidence": [
+        "https://www.producthunt.com/leaderboard/daily/2026/10/14",
+        "https://www.producthunt.com/leaderboard/monthly/2026/10",
+        "https://bigideasdb.com/fastest-growing-saas-companies-2026",
+        "https://ahrefs.com/blog/fastest-growing-companies-and-startups/"
+      ],
+      "how_searched": [
+        "Product Hunt daily leaderboard",
+        "SaaS revenue-band database",
+        "Ahrefs brand-search growth"
+      ],
+      "score": 76.0,
+      "found_at": "2026-10-15T13:36:22.504461+00:00"
     },
     {
       "name": "Invoice & AP Automation (AI-First)",
@@ -2591,6 +2719,25 @@
       "found_at": "2026-10-15T01:33:05.207518+00:00"
     },
     {
+      "name": "Simulated-User Focus Panel & Messaging Stress-Test",
+      "field": "Product research / CRO",
+      "summary": "Paste landing copy, an ad, or a pricing page, pick your ICP, and a panel of simulated personas 'uses' the page — complaining, hesitating, and scoring clarity, trust, and objections — delivering a research-grade report with fixes in under 30 minutes.",
+      "why_now": "Articos MCP took Product Hunt's #1 slot on Oct 13 (338 pts, 102 comments) claiming 86% agreement with human Baymard/NN/g benchmarks; traditional paid user-testing panels are slow and expensive, and 2026 buyer-intent research tools are multiplying (Trendstr, NicheSpy, ValidSaaS all launched this year hunting the same budget).",
+      "monetization": "Per-report or subscription SaaS; traditional panel research prices null in my sources, but the category replaces paid sessions — comparable AI research tooling commonly $29–99/mo (not verified for Articos; treat as null).",
+      "evidence": [
+        "https://www.producthunt.com/leaderboard/daily/2026/10/13",
+        "https://nichespy.app/",
+        "https://www.reddit.com/r/SideProject/comments/1tkt1vj/how_i_actually_find_saas_ideas_that_people_will/"
+      ],
+      "how_searched": [
+        "Product Hunt daily leaderboard",
+        "Reddit problem-mining threads",
+        "problem-discovery SaaS marketing pages"
+      ],
+      "score": 70.0,
+      "found_at": "2026-10-15T13:36:25.852984+00:00"
+    },
+    {
       "name": "Prescription price-comparison & savings tool",
       "field": "Consumer health / pharmacy savings",
       "summary": "Search a drug plus ZIP to compare cash prices across discount programs and nearby pharmacies, with alerts on price changes. A free, no-insurance comparison tool.",
@@ -2785,6 +2932,26 @@
       "found_at": "2026-10-15T01:33:06.043478+00:00"
     },
     {
+      "name": "Plain-English E2E Browser Test Runner",
+      "field": "QA / developer tools",
+      "summary": "Describe a flow in one sentence ('upgrade to Pro, pay, confirm the receipt email') and an AI agent runs it against your staging site in a real browser, returning pass/fail with screenshots and DOM traces — no test code.",
+      "why_now": "tester-army/e2e gained +6,564 GitHub stars in a single week (W41), landing #3 among all AI-agent repos; the same week 'e2e' and natural-language testing tools swept agent-harness trending lists. Manual QA hiring remains a top-10 Upwork dev skill, so the budget exists.",
+      "monetization": "Freemium hosted runs + per-minute browser time; pricing null. Adjacent proof of dev-tool demand: developer-tools SaaS category grew 95% avg (bigideasdb) and QA/testing skills stay in Upwork's top-10 demanded list.",
+      "evidence": [
+        "https://vluxtech.com/en/blog/top-ai-repos-2026-w41",
+        "https://whatstrending.ai/repos",
+        "https://www.upwork.com/research/in-demand-skills-2026",
+        "https://bigideasdb.com/fastest-growing-saas-companies-2026"
+      ],
+      "how_searched": [
+        "weekly GitHub star-growth league table",
+        "star-growth aggregator",
+        "Upwork in-demand skills report"
+      ],
+      "score": 68.0,
+      "found_at": "2026-10-15T13:36:27.609801+00:00"
+    },
+    {
       "name": "AI paid-media management agent (multi-channel ads)",
       "field": "Marketing / advertising",
       "summary": "A conversational agent that plans, launches and optimizes Google/Meta/LinkedIn/TikTok ad campaigns for small businesses that can't afford an agency — free for one channel, paid for more.",
@@ -2880,6 +3047,27 @@
       ],
       "score": 66.0,
       "found_at": "2026-10-11T18:58:46.866573+00:00"
+    },
+    {
+      "name": "Ecommerce App-Stack Auditor & Savings Finder",
+      "field": "Ecommerce ops / cost optimization",
+      "summary": "Paste a Shopify (or DTC) store URL; it detects every installed app, flags duplicative and unused ones, and quantifies monthly waste plus a safe removal/migration plan — the 'Trim for your Shopify bill.'",
+      "why_now": "Industry data says a real $10M+ DTC brand runs 25–50 apps of which 60–70% are duplicative or unused; Shopify's store now lists 39,500+ apps with quarterly removals roughly doubling (LetsMetrix Q3), and install-tracking across 2.1M+ stores is already public (StoreCensus) — the waste is measured, the auditor isn't mainstream yet.",
+      "monetization": "Freemium audit; paid savings-report + migration concierge; affiliate/marketplace rev-share null. Category context: Shopify's top revenue apps (subscriptions, replay/heatmap, returns) hold 1,100+ reviews each — merchants pay for revenue and cost tools in the $10–30/mo band.",
+      "evidence": [
+        "https://taylorsicard.com/blog/shopify-app-ecosystem-map-2026",
+        "https://letsmetrix.com/reports/shopify-app-market",
+        "https://www.storecensus.com/stats/most-popular-shopify-apps",
+        "https://rankbase.io/best-shopify-apps/revenue"
+      ],
+      "how_searched": [
+        "Shopify ecosystem analysis (merchant interviews + Store Leads data)",
+        "Shopify app-store market crawl",
+        "store-install census tracker",
+        "Shopify app-store search ranking feed"
+      ],
+      "score": 66.0,
+      "found_at": "2026-10-15T13:36:29.667822+00:00"
     },
     {
       "name": "AI Mock-Interview Coach",
