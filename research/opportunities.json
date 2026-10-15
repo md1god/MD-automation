@@ -560,6 +560,26 @@
       "found_at": "2026-10-14T22:45:25.093202+00:00"
     },
     {
+      "name": "Free-to-Professional Vertical AI Answer Engine (OpenEvidence Model)",
+      "field": "Vertical AI / knowledge assistants",
+      "summary": "A free, source-citing AI answer engine for a single licensed profession, funded by advertising/enterprise rather than end users. OpenEvidence proved the model in medicine: it is free to doctors, used by roughly 40% of US physicians (~300k doctors), and reached about $300M ARR at a ~$12B valuation.",
+      "why_now": "OpenEvidence doubled its valuation to $12B and grew ARR from $100M to $300M in 2026, and the free-to-user, ad-supported model is now validated; the same playbook is untapped for other professions.",
+      "monetization": "Advertising/sponsorship plus enterprise/API deals, with the core answer engine free to the professional end user (comparable product free to users).",
+      "evidence": [
+        "https://www.nbcnews.com/tech/tech-news/openevidence-free-now-ceo-plan-will-pay-rcna343672",
+        "https://www.cnbc.com/2026/01/21/openevidence-chatgpt-for-doctors-doubles-valuation-to-12-billion.html",
+        "https://verticalvelocity.co/fastest-growing-vertical-ai-companies",
+        "https://revenueflow.com/blog/ai-agent-arr-what-actually-scales"
+      ],
+      "how_searched": [
+        "news",
+        "market reports",
+        "vertical-AI ARR lists"
+      ],
+      "score": 85.0,
+      "found_at": "2026-10-15T01:32:55.950200+00:00"
+    },
+    {
       "name": "AI Video Generation & Editing for Short-Form",
       "field": "Creator Economy / AI Media",
       "summary": "Tools that generate or edit short-form videos (Reels, TikToks, Shorts) from text, audio, or long-form source — auto-clipping, captioning, reframing, hook detection, and multi-platform publishing.",
@@ -925,6 +945,25 @@
       ],
       "score": 82.0,
       "found_at": "2026-10-13T10:42:24.748724+00:00"
+    },
+    {
+      "name": "Free Data-Broker Exposure Scan & Guided Opt-Out Assistant",
+      "field": "Consumer privacy / data removal",
+      "summary": "A free web tool that shows which data brokers expose a person's personal information and walks them through deletion/opt-out requests. Market cited at roughly $450M (2023) growing to ~$1.4B (2028); California's Delete Act (SB 362) takes effect in 2026 with a CPPA registry of 700+ brokers. Free scans already exist from DuckDuckGo and Experian, confirming consumer demand.",
+      "why_now": "California Delete Act provisions take effect in 2026 and 700+ brokers are registered, while free privacy scans from DuckDuckGo and Experian show mainstream demand for exposure checks.",
+      "monetization": "Affiliate/referral fees to paid removal services plus a Pro monitoring subscription and ads (specific figures null).",
+      "evidence": [
+        "https://ghostvault.live/blog/data-broker-industry-report-2026",
+        "https://duckduckgo.com/duckduckgo-help-pages/privacy-pro/personal-information-removal/list-of-supported-data-brokers",
+        "https://www.experian.com/protection/personal-privacy-scan/"
+      ],
+      "how_searched": [
+        "search engines",
+        "market reports",
+        "privacy vendor pages"
+      ],
+      "score": 82.0,
+      "found_at": "2026-10-15T01:32:56.862451+00:00"
     },
     {
       "name": "AI SDR & Autonomous Sales Agents",
@@ -2534,6 +2573,24 @@
       "found_at": "2026-10-14T22:45:54.079613+00:00"
     },
     {
+      "name": "AI Wardrobe & Outfit Styling Web App",
+      "field": "AI fashion / consumer",
+      "summary": "A web app that digitizes a user's wardrobe and generates outfits. Aesty reports $10,064 MRR / roughly $121K ARR (RevenueCat-verified).",
+      "why_now": "Verified consumer revenue in 2026 demonstrates real willingness to pay for AI styling.",
+      "monetization": "Consumer subscription; reference product shows ~$10,064 MRR (RevenueCat-verified).",
+      "evidence": [
+        "https://whatsthe.app/aesty",
+        "https://whatitmakes.com/startup/aesty",
+        "https://vibecrowd.ai/projects/aesty"
+      ],
+      "how_searched": [
+        "indie revenue trackers",
+        "founder sites"
+      ],
+      "score": 70.0,
+      "found_at": "2026-10-15T01:33:05.207518+00:00"
+    },
+    {
       "name": "Prescription price-comparison & savings tool",
       "field": "Consumer health / pharmacy savings",
       "summary": "Search a drug plus ZIP to compare cash prices across discount programs and nearby pharmacies, with alerts on price changes. A free, no-insurance comparison tool.",
@@ -2707,6 +2764,25 @@
       ],
       "score": 68.0,
       "found_at": "2026-10-14T13:47:43.024644+00:00"
+    },
+    {
+      "name": "AI Image / Auto-Annotation Tool",
+      "field": "Data labeling / ML tooling",
+      "summary": "A browser tool that auto-annotates images to speed up dataset labeling. Market cited at $1.89B (2025) to $2.32B (2026) at 22.95% CAGR; Upwork lists data annotation/labeling demand up 154%; Exploding Topics shows 'Automatic Image Annotation' up 5,300%.",
+      "why_now": "Surging demand for labeled data to train 2026 AI models is lifting annotation tooling and labor demand.",
+      "monetization": "Freemium/usage-based SaaS (specific figures null).",
+      "evidence": [
+        "https://www.mordorintelligence.com/industry-reports/ai-data-labeling-market",
+        "https://explodingtopics.com/business-topics",
+        "https://www.upwork.com/research/in-demand-skills-2026"
+      ],
+      "how_searched": [
+        "market reports",
+        "trend tools",
+        "job boards"
+      ],
+      "score": 68.0,
+      "found_at": "2026-10-15T01:33:06.043478+00:00"
     },
     {
       "name": "AI paid-media management agent (multi-channel ads)",
@@ -3361,6 +3437,24 @@
       "found_at": "2026-10-13T23:20:52.204197+00:00"
     },
     {
+      "name": "Client-Side, Zero-Upload File/PDF/Image Toolkit",
+      "field": "Privacy-first productivity tools",
+      "summary": "Browser-based tools that process PDFs/images/files locally with no upload (VersaPDF, BroAllDone, GroPDF, PDFCraftify, AllConverter, Filezaar all launched around October 2026). Adobe Acrobat has ~337M Chrome users, the top extension, showing the scale of the underlying need.",
+      "why_now": "A cluster of zero-upload file tools launched in October 2026, reflecting privacy-first, no-upload demand; the category is crowded, which caps upside.",
+      "monetization": "Freemium/ads (specific figures null).",
+      "evidence": [
+        "https://hunted.space/product/versapdf",
+        "https://extwatch.com/blog/top-chrome-extensions-2026",
+        "https://www.producthunt.com/leaderboard/monthly/2026/10"
+      ],
+      "how_searched": [
+        "Product Hunt",
+        "Chrome extension stats"
+      ],
+      "score": 58.0,
+      "found_at": "2026-10-15T01:33:08.790738+00:00"
+    },
+    {
       "name": "Accessibility AI assistant web app",
       "field": "Accessibility/HealthTech",
       "summary": "A free web app providing AI-powered visual/description assistance for blind/low-vision users (object description, text reading, scene understanding).",
@@ -3885,6 +3979,24 @@
       "found_at": "2026-10-14T02:06:37.917709+00:00"
     },
     {
+      "name": "Cookieless Open-Source Web Analytics (GA Alternative)",
+      "field": "Web analytics / privacy",
+      "summary": "A privacy-first, cookieless web analytics product positioned against Google Analytics. Rybbit reports 12K+ GitHub stars and about $9,175 MRR (Stripe-verified), driven by GDPR/CCPA compliance pressure.",
+      "why_now": "GDPR/CCPA enforcement and cookie-consent fatigue continue to push teams away from Google Analytics.",
+      "monetization": "Hosted cloud subscription alongside a free self-hosted option; reference product shows ~$9,175 MRR (Stripe-verified).",
+      "evidence": [
+        "https://www.rybbit.com/",
+        "https://github.com/rybbit-io/rybbit"
+      ],
+      "how_searched": [
+        "search engines",
+        "GitHub",
+        "SaaS revenue writing"
+      ],
+      "score": 48.0,
+      "found_at": "2026-10-15T01:32:59.427289+00:00"
+    },
+    {
       "name": "Instant contact & company data validation / enrichment tool",
       "field": "Data quality / B2B data APIs",
       "summary": "A free lookup tool that validates and enriches emails, phones and company records in under a second, funneling users into a per-lookup API.",
@@ -4067,6 +4179,23 @@
       ],
       "score": 40.0,
       "found_at": "2026-10-11T18:58:47.216274+00:00"
+    },
+    {
+      "name": "Verified MRR / Revenue-Proof Badges for Founders",
+      "field": "SaaS trust infrastructure",
+      "summary": "A service that verifies a founder's MRR via payment APIs (Stripe/RevenueCat) and issues a shareable proof badge. The space is filling up with VerifyArr, VerifiedMRR, ShowMRR, TrustMRR, and founder.page.",
+      "why_now": "The build-in-public movement needs credible revenue proof, and multiple new entrants appeared in 2026.",
+      "monetization": "SaaS subscription and lead-generation/marketplace features (specific figures null).",
+      "evidence": [
+        "https://founder.page/race/money",
+        "https://trustmrr.com/startup/aesty"
+      ],
+      "how_searched": [
+        "indie revenue trackers",
+        "founder sites"
+      ],
+      "score": 40.0,
+      "found_at": "2026-10-15T01:33:08.250275+00:00"
     },
     {
       "name": "YouTube Research & Channel-Analytics Copilot",
