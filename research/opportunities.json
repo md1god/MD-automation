@@ -71,6 +71,24 @@
       "found_at": "2026-10-07T23:12:47.481533+00:00"
     },
     {
+      "name": "AI agent swarm/orchestration platform",
+      "field": "Developer infrastructure",
+      "summary": "Platform to run, coordinate, and audit multiple AI agents working together with shared context, recovery from failures, and cost tracking. Bridges Claude Code, Codex, Cursor etc.",
+      "why_now": "Major trend on Product Hunt and GitHub - Opengeni, OpenSwarm, Velozity all launched recently. Developers moving from single agents to fleets; need infrastructure for orchestration and observability.",
+      "monetization": "Usage-based or seats + compute pricing. Enterprise SaaS with observability features.",
+      "evidence": [
+        "https://www.producthunt.com/products/opengeni",
+        "https://github.com/ruvnet/ruflo",
+        "https://www.producthunt.com/products/openswarm"
+      ],
+      "how_searched": [
+        "Product Hunt analysis",
+        "GitHub trending agents"
+      ],
+      "score": 90.0,
+      "found_at": "2026-10-16T21:15:08.740127+00:00"
+    },
+    {
       "name": "AI Search Visibility / GEO Tracking Dashboard",
       "field": "Marketing / SEO / AI Visibility",
       "summary": "A free web dashboard that tracks brand citations, visibility %, position, and sentiment across ChatGPT, Perplexity, Gemini, Google AI Overviews, and Claude — with side-by-side organic vs AI traffic comparison to detect cannibalization (per Omio A/B test).",
@@ -3683,6 +3701,24 @@
       "found_at": "2026-10-14T07:41:43.214332+00:00"
     },
     {
+      "name": "AI invoice-chasing & payment recovery for freelancers",
+      "field": "Freelance tools / Fintech",
+      "summary": "Freelancers routinely lose money to late-paying or ghosted clients. Automates payment reminders, escalating tone, demand letters, and tracks unpaid invoices to get paid faster without awkward conversations.",
+      "why_now": "Freelance work is booming with strong Upwork demand; AI makes personalized, escalating follow-ups cheap to automate. Multiple new tools (PaymentPing, Collect, PayShield, DUPAY) show this is a growing category with real pain.",
+      "monetization": "Flat-rate SaaS subscriptions ($19-49/month) for solo freelancers, or $99/month for agencies. This wins over percentage-based collection or expensive legal fees.",
+      "evidence": [
+        "https://payment-ping.com/automatic-payment-reminders",
+        "https://payshield.app/"
+      ],
+      "how_searched": [
+        "forum complaints (Reddit r/SaaS)",
+        "product hunt analysis",
+        "market research on freelance pain points"
+      ],
+      "score": 63.3,
+      "found_at": "2026-10-16T21:14:50.747797+00:00"
+    },
+    {
       "name": "AI language conversation tutor",
       "field": "EdTech / Consumer AI",
       "summary": "A free web tool for spoken conversation practice with an AI partner: real-time dialogue, correction and pronunciation feedback in the learner's target language.",
@@ -3814,6 +3850,23 @@
       "found_at": "2026-10-13T10:42:38.186094+00:00"
     },
     {
+      "name": "AI-first invoice & contract automation for freelancers",
+      "field": "Freelance tools",
+      "summary": "All-in-one workspace that automates proposals → contracts → invoices with built-in late payment escalation, interest calculation, and demand letters. Addresses the full payment lifecycle.",
+      "why_now": "Freelancers want prevention + recovery. Tools like PayShield combine legal-aware features (statutory interest, recovery fees by jurisdiction) with automation. Strong pain point with clear monetization.",
+      "monetization": "Freemium SaaS ($19-29/month) removing limits and unlocking AI features. High conversion potential due to acute pain.",
+      "evidence": [
+        "https://payshield.app/",
+        "https://flanceflow.com/product/payment-tracking"
+      ],
+      "how_searched": [
+        "freelance tool research",
+        "payment recovery analysis"
+      ],
+      "score": 62.7,
+      "found_at": "2026-10-16T21:15:09.410121+00:00"
+    },
+    {
       "name": "Viral-product dupe finder",
       "field": "Commerce / Shopping",
       "summary": "A free web tool where you paste a viral product or brand and get cheaper equivalent items that people are actively searching for instead.",
@@ -3851,6 +3904,24 @@
       "found_at": "2026-10-10T21:46:54.417851+00:00"
     },
     {
+      "name": "AI complaint-mining for product ideas",
+      "field": "AI research tools / SaaS",
+      "summary": "Scans competitor reviews, Reddit, forums and app stores to find unaddressed complaints with high willingness-to-pay signals. Turns negative reviews into actionable product opportunities.",
+      "why_now": "Data shows paid demand appears as complaints about paid tools (250x more than 'I would pay' phrases). Growing interest in validation-first building with AI to filter massive complaint data.",
+      "monetization": "SaaS subscription ($29-99/month) for indie hackers and agencies doing market research, selling the curated opportunity feed.",
+      "evidence": [
+        "https://www.complaintminer.com/",
+        "https://sonar.0arch.io/"
+      ],
+      "how_searched": [
+        "product hunt trends",
+        "indie hacker posts",
+        "trend analysis"
+      ],
+      "score": 62.0,
+      "found_at": "2026-10-16T21:15:06.678578+00:00"
+    },
+    {
       "name": "Generative Engine Optimization (GEO) tool",
       "field": "SEO/Marketing",
       "summary": "A free web tool to track brand citations and visibility in AI search results (ChatGPT, Perplexity, Google AI Overviews) for websites.",
@@ -3867,6 +3938,23 @@
       ],
       "score": 61.3,
       "found_at": "2026-10-11T14:06:20.239391+00:00"
+    },
+    {
+      "name": "AI voice cloning & audiobooks for creators",
+      "field": "AI media tools",
+      "summary": "Local-first voice AI that lets creators clone voices and generate audiobooks in 600+ languages. Enables solo creators to produce audio content without hiring voice actors.",
+      "why_now": "GitHub trending shows massive adoption (69K+ stars for VoiceStudio). Demand for AI video/voice tools growing fast (+329% AI video generation/editing on Upwork). Creators want local-first alternatives to ElevenLabs.",
+      "monetization": "SaaS with tiered plans or one-time licenses, plus usage-based pricing for voice generation minutes. Could also offer marketplace for voices.",
+      "evidence": [
+        "https://github.com/debpalash/VoiceStudio",
+        "https://www.coddykit.com/pages/blog-detail?id=5129986"
+      ],
+      "how_searched": [
+        "GitHub trending analysis",
+        "Upwork skill growth data"
+      ],
+      "score": 61.3,
+      "found_at": "2026-10-16T21:15:07.429515+00:00"
     },
     {
       "name": "Fractional-executive rate benchmark & matching tool",
@@ -3924,6 +4012,23 @@
       ],
       "score": 60.7,
       "found_at": "2026-10-11T01:04:46.361550+00:00"
+    },
+    {
+      "name": "AI context & token optimization for coding agents",
+      "field": "Developer tools",
+      "summary": "Reduces AI agent context/token usage (claims 60-98% reduction), solves the biggest cost bottleneck for agentic coding. Sandboxes tool output and manages session memory.",
+      "why_now": "Agent usage exploding - GitHub trending dominated by agent tools, context-mode has 30K+ stars. Rising LLM bills are a real pain point for developers running many agent sessions.",
+      "monetization": "Developer SaaS (free tier + paid), team seats, or self-hosted licenses. Can also monetize via enterprise plans for companies with high AI spend.",
+      "evidence": [
+        "https://github.com/mksglu/context-mode",
+        "https://github.com/lightseekorg/tokenspeed"
+      ],
+      "how_searched": [
+        "GitHub trending",
+        "developer tool launches on Product Hunt"
+      ],
+      "score": 60.7,
+      "found_at": "2026-10-16T21:15:08.327546+00:00"
     },
     {
       "name": "AI voiceover pronunciation checker",
