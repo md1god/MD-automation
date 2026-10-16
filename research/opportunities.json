@@ -822,6 +822,25 @@
       "found_at": "2026-10-15T18:32:17.449641+00:00"
     },
     {
+      "name": "Family caregiver coordination hub for aging parents",
+      "field": "Elder care / family care coordination",
+      "summary": "A free shared workspace for the adult children managing an aging parent: one place for the medication list, appointment schedule, insurance/claims log, documents, care-task assignments across siblings, and a plain-language handoff note for clinicians. It targets the coordination burden (not physical caregiving) that families currently juggle across many disconnected systems.",
+      "why_now": "AARP puts the annual economic value of US family caregiving at $1.01 trillion (59M caregivers of adults, 49.5B hours at $20.41/hour), and the aging-in-place orchestration market is forecast to grow from $4.63B in 2025 to $80B by 2036 at a 29.6% CAGR, with care coordination the largest service slice. Hera's $27M Series A (Bain Capital Ventures) shows investors backing tech that attacks exactly this coordination layer, aided by new Medicare care-coordination reimbursement.",
+      "monetization": "Freemium for families; paid multi-caregiver plans; referral/affiliate revenue from home-care and medical-alert services; white-label/API to home-care agencies and payers.",
+      "evidence": [
+        "https://fortune.com/2026/06/25/hera-caregiving-startup-elder-care-medicare-series-a/",
+        "https://www.aarp.org/press/releases/2026-03-26-AARP-Economic-Value-Of-Family-Caregiving-Report.html",
+        "https://www.factmr.com/report/aging-in-place-orchestration-services-market"
+      ],
+      "how_searched": [
+        "business press",
+        "nonprofit research/press release",
+        "market-research report"
+      ],
+      "score": 84.0,
+      "found_at": "2026-10-16T07:15:22.395661+00:00"
+    },
+    {
       "name": "Self-Hosted Workflow Automation for AI Agents (n8n-style)",
       "field": "DevTools / AI Infrastructure",
       "summary": "Fair-code / open-source workflow automation platform that technical teams self-host for free (unlimited executions) to build AI agent pipelines, RAG, and multi-step automations — with paid cloud/enterprise for governance, SSO, and managed infrastructure.",
@@ -1407,6 +1426,25 @@
       "found_at": "2026-10-14T22:45:45.812515+00:00"
     },
     {
+      "name": "Perimenopause / menopause symptom tracker and HRT decision aid",
+      "field": "Femtech / midlife hormonal health",
+      "summary": "A free web app to log perimenopause/menopause symptoms, cycle changes, mood and sleep, then generate a structured health report to take to a clinician and compare treatment options. Incumbent apps are mobile-first, weakly monetized, and often lock the useful summary behind a paywall, so a fast, private, browser-based version with an exportable doctor's summary fills a clear gap.",
+      "why_now": "Menopause-specialist care attracted at least $343.5M across 14 disclosed rounds (Midi Health alone $252M, including a $100M Series D at a $1B+ valuation in Feb 2026), signaling strong consumer and payer demand. The leading free tracker Balance has 1.6M installs and ~101k monthly active users but under $10k/month revenue, and top cycle app Flo is modeled at $2M-$12M in monthly in-app spend — demand is large while free-tier depth remains thin.",
+      "monetization": "Free tracking + report; paid personalization/insights tier; partnerships with telehealth clinics; affiliate revenue for vetted products; employer/health-plan licensing.",
+      "evidence": [
+        "https://thehrtindex.com/research/menopause-startup-funding/",
+        "https://appgoblin.info/apps/1503345959",
+        "https://appgazers.com/reports/top-grossing-apps/health-and-fitness"
+      ],
+      "how_searched": [
+        "funding-data research ledger",
+        "app-store analytics tracker",
+        "app revenue ranking"
+      ],
+      "score": 80.0,
+      "found_at": "2026-10-16T07:15:23.471744+00:00"
+    },
+    {
       "name": "Embeddable AI Agent / Copilot for SaaS",
       "field": "DevTools / SaaS Infrastructure",
       "summary": "Drop-in AI agent (one line of code) that lets end-users control any SaaS via natural language — turning clicks into conversations, with scoped permissions, audit logs, and model-agnostic deployment.",
@@ -1652,6 +1690,25 @@
       "found_at": "2026-10-15T13:36:22.154196+00:00"
     },
     {
+      "name": "Social-video recipe-to-card saver (paste a TikTok/Reels link, get a cookable recipe)",
+      "field": "Food / consumer utility",
+      "summary": "A free web tool where a user pastes a TikTok, Instagram Reel, YouTube or short-video link and gets a clean, structured recipe card (ingredients, steps, quantities) plus a grocery list and meal plan. The niche's defining failure is that imports come back blank on videos whose amounts are only spoken or shown on screen, so a reliable importer is the whole product.",
+      "why_now": "The recipe-saver niche holds a $310k+/month floor with demand 94/100 and one dominant incumbent (ReciMe, 271,381 ratings, $50-250k/month), while new entrants still get traction fast — Osta reached ~100k downloads and $20k MRR in about nine months. The wider recipe-app market is projected to grow from $6B (2025) to over $15B by 2035, and 97% of surveyed TikTok users say they have cooked a recipe discovered on the platform.",
+      "monetization": "Freemium with a monthly save cap; paid unlimited imports/meal-planning; grocery-delivery affiliate commissions; sponsored recipe/CPG placements.",
+      "evidence": [
+        "https://www.appaloma.com/research/recipe-saver-from-social",
+        "https://www.socialgrowthengineers.com/recipe-app-scales-from-founder-videos-to-full-ugc-wave",
+        "https://medium.com/@razvanst/i-found-22-apps-trying-to-solve-the-same-problem-heres-why-most-will-fail-b7789df36141"
+      ],
+      "how_searched": [
+        "app-niche analytics database",
+        "app-growth/marketing blog",
+        "practitioner market analysis"
+      ],
+      "score": 78.0,
+      "found_at": "2026-10-16T07:15:24.036981+00:00"
+    },
+    {
       "name": "Browser Extension AI Productivity Tools",
       "field": "Consumer / Productivity",
       "summary": "Chrome/Firefox/Edge extensions that bring AI into the browser — sidebar chat, page summarization, writing assistance, workflow automation, content extraction — with freemium subscriptions.",
@@ -1751,6 +1808,25 @@
       ],
       "score": 77.0,
       "found_at": "2026-10-14T13:47:33.613637+00:00"
+    },
+    {
+      "name": "Trading-card scanner and price checker (web)",
+      "field": "Collectibles / hobby commerce",
+      "summary": "A free browser tool to scan or photo a Pokémon, sports or other TCG card and get its name, set, condition and a live resale price from sold listings, plus a simple collection value tracker. The retention loop is the collection (scan everything, watch the total move), and a pre-grade estimate before paying for professional grading is a natural upsell.",
+      "why_now": "Card scanning is wide open and monetizing hard: 100 apps, 65 launched in the last 18 months, demand 86/100, a $1.9M+/month floor, and two apps that launched in late 2025 already at $50-250k/month. Independently, Cardstock reports ~$75k MRR (15,000 subscribers) and the card-grading market is estimated around $312M across 12.5M+ cards graded — a high-intent audience about to spend real money.",
+      "monetization": "Free scanning with a cap; paid portfolio tracking, bulk/binder scanning and price alerts; pre-grade report credits; marketplace and grading-service affiliate revenue.",
+      "evidence": [
+        "https://www.appaloma.com/research/tcg-card-scanners",
+        "https://www.stork.ai/blog/this-hobby-is-now-a-15m-app-empire",
+        "https://pregradecards.com/blog/card-grading-industry-2026-state-of-market"
+      ],
+      "how_searched": [
+        "app-niche analytics database",
+        "app success-case study blog",
+        "industry blog"
+      ],
+      "score": 77.0,
+      "found_at": "2026-10-16T07:15:25.073714+00:00"
     },
     {
       "name": "AI Content Repurposing (Long-Form → Short-Form)",
@@ -2300,6 +2376,25 @@
       "found_at": "2026-10-16T01:27:17.002975+00:00"
     },
     {
+      "name": "Photo-based hair-density and hair-loss progress tracker (web)",
+      "field": "Consumer health / personal care",
+      "summary": "A free web tool where a user uploads a scalp photo in consistent lighting to estimate hair-density changes over time, approximate a Norwood-style stage, and plot a progress trend — a non-invasive way to check whether a treatment is working before/without a clinic visit.",
+      "why_now": "The AI hair-density tracking app market is estimated at $366M in 2025 and projected to reach $1,573M by 2034 (17.4% CAGR). Proof of demand is concrete: Traya's hair-loss app has 16.5M+ Android installs and ~1.1M monthly active users, and the startup MyHair AI reached 1,000+ paying subscribers and 200,000 accounts with a model trained on 300,000+ scalp photos, all inside a roughly $50B hair-loss market.",
+      "monetization": "Freemium tracking; paid detailed reports/trend exports; affiliate to hair-loss treatment subscriptions and clinics; anonymized/aggregated data insights (consented).",
+      "evidence": [
+        "https://growthmarketreports.com/report/ai-hair-density-tracking-mobile-app-market",
+        "https://www.appgoblin.info/apps/com.traya.prod",
+        "https://digitrendz.blog/newswire/artificial-intelligence/89018/ai-can-now-detect-early-signs-of-balding/"
+      ],
+      "how_searched": [
+        "market-research report",
+        "app-store analytics tracker",
+        "tech/startup news"
+      ],
+      "score": 74.0,
+      "found_at": "2026-10-16T07:15:25.950244+00:00"
+    },
+    {
       "name": "Personal data-broker opt-out & removal-request generator",
       "field": "Privacy / consumer safety",
       "summary": "Free tool that shows where your name, address and phone appear across people-search/data-broker sites, generates the opt-out requests for you, and lets you track status; ongoing automated re-removal and breach monitoring sits behind a paid plan.",
@@ -2654,6 +2749,25 @@
       "found_at": "2026-10-16T01:27:19.708641+00:00"
     },
     {
+      "name": "AI sports form coaching from a phone video (web)",
+      "field": "Fitness / sports tech",
+      "summary": "A free browser tool that takes an uploaded clip of a chosen movement (a sprint, a jump, a golf or tennis swing, a lift) and uses pose estimation to return feedback on form plus simple metrics (rep count, jump height, swing mechanics). Do one sport well and make the analysis actually run — the niche's top complaint is that paid apps promise video analysis that never executes.",
+      "why_now": "Camera-based coaching is open and turning over: 33 apps, 19 launched in the last 18 months holding 83% of the niche's review pace, demand 62/100, a $360k+/month floor, and a solo developer's sprint app reaching the $10-20k/month band in eight months. Broader AI-sports-coaching spend is forecast at $1.8B in 2026 growing to $11.2B by 2036 (20.1% CAGR), with gym form-checking the fastest-growing use case.",
+      "monetization": "Freemium with a few free analyses; paid plans for unlimited clips, longer history and coach/parent dashboards; team/club licensing; human-coach marketplace referrals.",
+      "evidence": [
+        "https://www.appaloma.com/research/ai-sports-coaching",
+        "https://www.factmr.com/report/ai-sports-coaching-apps-market",
+        "https://sportsreflector.com/state-of-ai-sports-coaching-2026"
+      ],
+      "how_searched": [
+        "app-niche analytics database",
+        "market-research report",
+        "industry state-of-market report"
+      ],
+      "score": 72.0,
+      "found_at": "2026-10-16T07:15:26.973544+00:00"
+    },
+    {
       "name": "Cookie-consent / privacy-compliance generator",
       "field": "Privacy compliance / web tooling",
       "summary": "Scan a site, detect trackers, generate a compliant cookie banner plus cookie/privacy policy, and block non-essential scripts before consent. A free generator for the long tail of small sites that big CMPs ignore.",
@@ -2965,6 +3079,25 @@
       ],
       "score": 70.0,
       "found_at": "2026-10-15T13:36:25.852984+00:00"
+    },
+    {
+      "name": "Etsy/Pinterest digital-product and craft-pattern niche finder (free)",
+      "field": "Creator / e-commerce seller tooling",
+      "summary": "A free web tool that combines marketplace search trends with Pinterest/Google interest to surface rising digital-product and craft-pattern niches (e.g., which crochet/pattern or printable categories are climbing), with demand, competition and rough revenue signals. Sellers currently pay for fragmented keyword tools that lack a cross-platform trend view.",
+      "why_now": "On Etsy Q3 2026, 'digital products' climbed to #5 from #84 and 'crochet pattern' to #7 from #123 year-over-year — shoppers increasingly want to make rather than buy. The seller tooling market is proven and paid (EverBee's browser extension has ~200,000 users at 4.7 stars; eRank charges from $5.50/month with ~40,000 extension users), and digital products are a big verified slice of creator revenue — 146,271 Gumroad products tracked at $206M in Jan-Apr 2026.",
+      "monetization": "Freemium trend lookups; paid saved searches/alerts and deeper revenue views; affiliate revenue from seller tools/print-on-demand platforms; premium B2B data.",
+      "evidence": [
+        "https://help.erank.com/blog/top-etsy-searches-q3-2026/",
+        "https://revenuegeeks.com/compare/erank-vs-everbee",
+        "https://insightraider.com/en/blog/digital-product-market-size"
+      ],
+      "how_searched": [
+        "marketplace SEO/trend tracker",
+        "tool comparison review site",
+        "market-intelligence blog/dataset"
+      ],
+      "score": 70.0,
+      "found_at": "2026-10-16T07:15:27.828375+00:00"
     },
     {
       "name": "Prescription price-comparison & savings tool",
@@ -3353,6 +3486,25 @@
       ],
       "score": 66.0,
       "found_at": "2026-10-16T01:27:25.464189+00:00"
+    },
+    {
+      "name": "Pet sound analyzer and translator soundboard (web)",
+      "field": "Pets / entertainment utility",
+      "summary": "A free browser tool to record or upload a dog bark or cat meow, classify it into likely intents (hunger, attention, distress, play), and play interactive soundboards. Reviews across the niche repeatedly find the core 'doesn't work' yet the category reliably monetizes as an entertainment product, so a free, polished, no-install web version can capture volume.",
+      "why_now": "The niche is open and older than most: 86 apps, a $630k+/month floor, four leaders at $20-50k/month, demand 74/100 and crowding of only 30/100, with incumbents from 2017 and 2021 still growing. Independent data shows durable money — Cat Translator has booked about $1.44M in iOS revenue since Nov 2022, and Pet Chat's translator is modeled at ~$90k/month with ~70k downloads.",
+      "monetization": "Freemium soundboard/analysis; paid 'pro' intents and custom trained models; watch-to-unlock ads; playful in-app purchases; affiliate to pet products.",
+      "evidence": [
+        "https://www.appaloma.com/research/pet-translators-soundboards",
+        "https://www.huxiu.com/article/4837235.html",
+        "https://apprank.io/pet-chat-cat-dog-translator-9390"
+      ],
+      "how_searched": [
+        "app-niche analytics database",
+        "tech/business news (CN)",
+        "app revenue estimate tracker"
+      ],
+      "score": 66.0,
+      "found_at": "2026-10-16T07:15:30.059158+00:00"
     },
     {
       "name": "AI Mock-Interview Coach",
@@ -3963,6 +4115,23 @@
       ],
       "score": 58.0,
       "found_at": "2026-10-16T01:27:26.543680+00:00"
+    },
+    {
+      "name": "GLP-1 shot, dose and side-effect companion (free web tracker)",
+      "field": "Consumer health / metabolic care",
+      "summary": "A browser-based companion for people on GLP-1 weight-loss drugs: log the weekly injection site (with rotation guidance), estimate remaining medication level between shots, track weight and side effects, set protein/water targets, and export a clinician-ready summary. The mobile niche proves willingness to pay but is riddled with paywalled basics and data-loss complaints, leaving a free, no-install, keep-your-own-data web version as the differentiator.",
+      "why_now": "The niche is open and accelerating: 45 apps, 33 launched in the last 18 months, demand 73/100, crowding just 20/100, and a floor of $640k+/month across researched apps; MeAgain went from launch to the $20-50k/month band in 16 months. Capital is flooding the broader category — Nourish raised a $100M Series C (total $215M, $1.75B valuation) with 10,000 dietitians — confirming mass-market appetite for GLP-1 support tools.",
+      "monetization": "Freemium: free logging + export, paid tier for multi-drug protocols, advanced medication-level modeling, partner/clinic sharing and ad-free use; affiliate links to protein supplements/needles; optional secure data export.",
+      "evidence": [
+        "https://www.appaloma.com/research/glp1-companions",
+        "https://techfundingnews.com/menlo-ventures-leads-100m-round-in-nourish-to-give-every-glp-1-patient-a-dietitian-as-weight-loss-drugs-take-off/"
+      ],
+      "how_searched": [
+        "app-niche analytics database",
+        "funding/VC news"
+      ],
+      "score": 58.0,
+      "found_at": "2026-10-16T07:15:21.587625+00:00"
     },
     {
       "name": "Accessibility AI assistant web app",
@@ -4709,6 +4878,23 @@
       ],
       "score": 44.0,
       "found_at": "2026-10-15T18:32:22.603042+00:00"
+    },
+    {
+      "name": "Chair-yoga and balance exercise guide for seniors (web)",
+      "field": "Senior fitness / accessible wellness",
+      "summary": "A free, large-text web app that serves short chair-yoga, tai-chi and balance routines for people over 60, with follow-along timers, gentle progress tracking and printable routines. It removes the app-install and login friction and is easy for an older adult to open from a link a family member sends.",
+      "why_now": "79 apps fill the senior-fitness niche and 44 launched in the last 18 months, already holding 72% of the niche's review pace, with demand 71/100 and a $700k+/month floor. Independent momentum confirms it: 'Chair Yoga Tai Chi for Seniors' was among the fastest-growing health-and-fitness listings with roughly +582% review-velocity acceleration.",
+      "monetization": "Free routines; paid themed programs (balance, fall-prevention, post-surgery); senior-center/care-home licensing; affiliate to mobility aids; ad-free tier.",
+      "evidence": [
+        "https://www.appaloma.com/research/rising-app-niches-2026",
+        "https://peekly.app/reports/fastest-growing-apps/health-fitness"
+      ],
+      "how_searched": [
+        "app-niche analytics database",
+        "app-store growth ranking"
+      ],
+      "score": 42.0,
+      "found_at": "2026-10-16T07:15:30.375126+00:00"
     },
     {
       "name": "AI Landing-Page Personalization & Autonomous A/B Testing (GenPage-model)",
