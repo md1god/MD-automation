@@ -647,6 +647,30 @@
       "found_at": "2026-10-15T01:32:55.950200+00:00"
     },
     {
+      "name": "AI Voice Conversation Language Tutor (web)",
+      "field": "education / language learning",
+      "summary": "A free web app where learners practice real spoken conversation with an AI tutor via browser mic, getting pronunciation and grammar feedback in 100+ languages — no app install, no human partner.",
+      "why_now": "TalkPal alone is estimated at ~$300K/month revenue and 6–10M+ users; Exploding Topics shows 'TalkPal' at +6,600% 5-year search growth; a new competitor (ChickyTutor) hit Product Hunt #5 on Oct 8, 2026 with 126 votes pitching the same 'bridge from Duolingo to real conversation' gap; the global 'AI spoken language teacher' market now has 15+ funded players and dedicated market reports, confirming category-wide demand spike.",
+      "monetization": "Freemium subscription: TalkPal Premium €14.99/mo (AppRank estimates ~$300K/mo, ~80K downloads/mo); in-app tiers $19.99/mo / $119.99/yr. A free web rebuild can monetize via premium unlimited sessions, accents/roleplays, or affiliate to course marketplaces.",
+      "evidence": [
+        "https://apprank.io/talkpal-ai-language-learning-9825",
+        "https://en.wikipedia.org/wiki/Talkpal_AI",
+        "https://explodingtopics.com/blog/trending-topics",
+        "https://www.producthunt.com/leaderboard/daily/2026/10/8",
+        "https://www.reportsandmarkets.com/reports/global-ai-spoken-language-teacher-market-4676506"
+      ],
+      "how_searched": [
+        "Exploding Topics trend list",
+        "app-revenue estimate tracker (AppRank)",
+        "Wikipedia",
+        "Product Hunt daily leaderboard",
+        "industry market-report listing",
+        "app-store install tracker (StoreTally)"
+      ],
+      "score": 85.0,
+      "found_at": "2026-10-16T01:27:13.684075+00:00"
+    },
+    {
       "name": "AI Video Generation & Editing for Short-Form",
       "field": "Creator Economy / AI Media",
       "summary": "Tools that generate or edit short-form videos (Reels, TikToks, Shorts) from text, audio, or long-form source — auto-clipping, captioning, reframing, hook detection, and multi-platform publishing.",
@@ -1913,6 +1937,25 @@
       "found_at": "2026-10-15T18:32:19.226620+00:00"
     },
     {
+      "name": "Shopify Merchant Feedback & Survey AI (Zigpoll-model)",
+      "field": "e-commerce SaaS",
+      "summary": "An embeddable survey and customer-feedback tool for online stores that auto-analyzes responses with AI, segments buyers, and surfaces what to fix — built as a free web tool with a store-app-store growth loop.",
+      "why_now": "Zigpoll, run by a single founder, went from ~$1.03M ARR to ~$125K MRR (~44% growth) in H1 2026 with ~1/3 of signups from the Shopify App Store and ~14% from AI assistants (ChatGPT/Claude/Gemini) recommending it; independent trackers list it among the fastest-growing one-person SaaS of the year, proving merchants still pay real money for feedback tooling.",
+      "monetization": "SaaS subscriptions; Zigpoll's growth came from packaging features for best customers (+24% revenue/account). Comparable form builders (Tally) hit $422K MRR / $5M ARR with 11 people.",
+      "evidence": [
+        "https://stealwhatworks.com/blogs/news/one-person-saas-over-10k-month-now",
+        "https://stealwhatworks.com/blogs/news/indie-hacker-projects-making-money",
+        "https://stealwhatworks.com/blogs/news/tiny-saas-over-10k-month-now"
+      ],
+      "how_searched": [
+        "indie-SaaS revenue aggregation site (Stripe-linked MRR)",
+        "solo-founder revenue rankings",
+        "one-person-SaaS market survey"
+      ],
+      "score": 76.0,
+      "found_at": "2026-10-16T01:27:15.257617+00:00"
+    },
+    {
       "name": "Invoice & AP Automation (AI-First)",
       "field": "Fintech / B2B SaaS",
       "summary": "End-to-end invoice processing: email/file intake → AI extraction (line items, PO matching) → validation → ERP/accounting sync → approval workflow → payment — with KPI dashboards (cost/invoice, cycle time, touchless rate).",
@@ -2234,6 +2277,29 @@
       "found_at": "2026-10-15T18:32:19.789068+00:00"
     },
     {
+      "name": "Interactive Audience-Response Presentation & Party-Game Builder",
+      "field": "events / team engagement",
+      "summary": "A free-to-play web builder where a host presents slides and the audience joins from their phones via QR to answer polls, word clouds, trivia, emoji reactions and icebreakers — every live event doubles as a product demo.",
+      "why_now": "Slides With Friends crossed $40K MRR (two founders, ~$480K ARR) with the milestone publicly re-disclosed by Indie Hackers in Aug 2026; Exploding Topics shows 'Partiful' (event platform) at 99x+ growth, signaling surging demand for social-event tooling; founder explicitly describes freemium viral loop where every hosted event markets the product to the whole audience.",
+      "monetization": "Freemium: free up to 10 players; Starter $8/mo (annual) / $35 monthly; Pro $24/mo annual / $99 monthly; enterprise contracts for districts and orgs. Slides With Friends runs annual-only paid plans and reports actual revenue ~2x MRR.",
+      "evidence": [
+        "https://www.indiehackers.com/post/tech/hitting-40k-mrr-with-bottom-of-funnel-content-until-ai-search-forced-her-to-change-tactics-4OPu0F9zFGfb3tEJFvrx",
+        "https://www.starterstory.com/stories/slides-with-friends-breakdown",
+        "https://whatitmakes.com/startup/slides-with-friends",
+        "https://explodingtopics.com/blog/trending-topics",
+        "https://slideswith.com/interactive-presentations"
+      ],
+      "how_searched": [
+        "Indie Hackers revenue interviews",
+        "Starter Story case study",
+        "2026 revenue tracker (whatitmakes)",
+        "Exploding Topics",
+        "live product site"
+      ],
+      "score": 74.0,
+      "found_at": "2026-10-16T01:27:17.002975+00:00"
+    },
+    {
       "name": "Personal data-broker opt-out & removal-request generator",
       "field": "Privacy / consumer safety",
       "summary": "Free tool that shows where your name, address and phone appear across people-search/data-broker sites, generates the opt-out requests for you, and lets you track status; ongoing automated re-removal and breach monitoring sits behind a paid plan.",
@@ -2542,6 +2608,50 @@
       ],
       "score": 72.0,
       "found_at": "2026-10-13T10:42:31.395995+00:00"
+    },
+    {
+      "name": "Pinterest AI Pin Factory (website → month of pins)",
+      "field": "marketing automation",
+      "summary": "Paste a URL and the tool scans the site, generates a full month of on-brand, SEO-optimized Pinterest pins (images, titles, descriptions) and schedules them — turning a 5–10-min-per-pin chore into minutes.",
+      "why_now": "BlogToPin (solo founder) grew $10K→$15–16K MRR in one year to 400+ active subscribers with 3.7M+ pins uploaded; founder publicly documents 10–15% monthly churn and that AI-assistant recommendations (LLMs) are now a named acquisition channel; no major AI-native competitor has taken the niche yet — a proven 'boring task + AI wedge' pattern.",
+      "monetization": "Subscriptions $39/$79/$179 per month (Starter/Agency/Enterprise); ~400 subscribers → ~$15–16K MRR; word-of-mouth + affiliates + SEO as channels.",
+      "evidence": [
+        "https://www.indiehackers.com/post/tech/hitting-16k-mrr-after-years-of-failed-products-h5lM0xJmVrRZM0B23MT6",
+        "https://startupfounderstories.com/stories/nic-polotnianko-blogtopin-15k-mrr",
+        "https://kaeda.co/cases/blogtopin",
+        "https://gtmsauce.com/episodes/2026-02-05-how-i-built-it-16k-month-micro-saas"
+      ],
+      "how_searched": [
+        "Indie Hackers founder interview",
+        "Starter Story interview",
+        "multiple independent MRR case trackers",
+        "founder podcast breakdown"
+      ],
+      "score": 72.0,
+      "found_at": "2026-10-16T01:27:18.668288+00:00"
+    },
+    {
+      "name": "Upwork Freelance Acquisition Agent (Lancer-model)",
+      "field": "freelance / marketplace automation",
+      "summary": "An AI agent that finds Upwork jobs matching a freelancer's or agency's profile, qualifies fit, drafts personalized proposals, and tracks replies — turning the marketplace into a hands-off client pipeline.",
+      "why_now": "Lancer hit $10K MRR in ~60 days from ~30 users at ~$300 ARPU and now shows Stripe-verified $19,673 MRR / 95 subscriptions on TrustMRR (Sep–Oct 2026); founder reports '27K months'; Upwork has ~200K jobs posted monthly and AI-freelance demand overall grew 109% YoY — the supply side (freelancers chasing scarce leads) is massive and pays premium prices.",
+      "monetization": "High-ARPU subscriptions: pay-as-you-go $79 (30 proposals), Light $300 (250 proposals), Unlimited $500/mo; ~$20K MRR from <100 users; coach-affiliate channel supplies first cohort at 20–30% lifetime commission.",
+      "evidence": [
+        "https://trustmrr.com/startup/lancer-app",
+        "https://www.sofarbot.com/stories/lancer-ivan-nedelkovski-19985-mrr",
+        "https://www.indiehackers.com/post/tech/exiting-his-agency-and-hitting-10k-mrr-within-60-days-of-launching-his-saas-sTo5m9qfhxXbruvhBIyH",
+        "https://www.starterstory.com/stories/lancer",
+        "https://www.upwatcher.io/market/ai/"
+      ],
+      "how_searched": [
+        "Stripe-connected revenue tracker (TrustMRR)",
+        "independent Stripe snapshot site (sofarbot)",
+        "Indie Hackers interview",
+        "Starter Story interview",
+        "Upwork job-posting market data"
+      ],
+      "score": 72.0,
+      "found_at": "2026-10-16T01:27:19.708641+00:00"
     },
     {
       "name": "Cookie-consent / privacy-compliance generator",
@@ -3089,6 +3199,25 @@
       "found_at": "2026-10-15T13:36:27.609801+00:00"
     },
     {
+      "name": "LLM API Bill Audit & Overpayment Receipt Tool",
+      "field": "AI developer tools",
+      "summary": "A local proxy/dashboard that sits between your app and LLM APIs, captures per-call token usage, failures and retries, and generates an independent receipt showing what you were billed vs. what you actually used — surfacing overcharges you can dispute.",
+      "why_now": "Inferock (open-source inferock-bench) drew a Product Hunt score of 397 with 62 comments in the week of Oct 12, 2026; enterprise AI spend is projected at ~$115B in 2026 and agent cost overruns are cited as a top observability driver — yet billing remains opaque per provider; distinct from routers (which pick models) this is forensic post-hoc audit, a gap the PH discussion itself frames as 'credits back for failed calls.'",
+      "monetization": "Freemium hosted receipts / dispute-prep exports / team spend alerts; possible rev-share on recovered overbilling. Exact revenue of Inferock is unknown (open-source project) — null.",
+      "evidence": [
+        "https://www.producthunt.com/leaderboard/weekly/2026/42",
+        "https://www.citi.com/ventures/perspectives/opinion/llm-observability-next-major-play.html",
+        "https://octopusbuilds.com/blog/ai-agent-observability-market-size-tools"
+      ],
+      "how_searched": [
+        "Product Hunt weekly leaderboard",
+        "Citi Ventures AI-observability market analysis",
+        "agent-observability market report"
+      ],
+      "score": 68.0,
+      "found_at": "2026-10-16T01:27:24.178441+00:00"
+    },
+    {
       "name": "AI paid-media management agent (multi-channel ads)",
       "field": "Marketing / advertising",
       "summary": "A conversational agent that plans, launches and optimizes Google/Meta/LinkedIn/TikTok ad campaigns for small businesses that can't afford an agency — free for one channel, paid for more.",
@@ -3205,6 +3334,25 @@
       ],
       "score": 66.0,
       "found_at": "2026-10-15T13:36:29.667822+00:00"
+    },
+    {
+      "name": "Open-Source Low-Cost SEO Data Suite with MCP",
+      "field": "SEO tools",
+      "summary": "A cheap ($10/mo-class) alternative to Ahrefs/Semrush offering keyword research, competitor analysis, backlinks and site audits, designed to plug into AI agents via MCP so agents can build real SEO strategies instead of guessing.",
+      "why_now": "OpenSEO launched Oct 8, 2026 with Product Hunt score 410 explicitly positioning '$10/month instead of a $100-plus monthly subscription'; Exploding Topics shows 'Ahrefs' at +1,360% and 'AI SEO' +5,900% while 'Answer Engine Optimization' is 99x+ — buyers want agent-ready SEO data at a fraction of legacy prices.",
+      "monetization": "$10+/mo subscriptions vs legacy $100+ tools; MCP/API add-ons for agencies. OpenSEO's own numbers not independently verified — revenue null.",
+      "evidence": [
+        "https://www.producthunt.com/leaderboard/daily/2026/10/8",
+        "https://explodingtopics.com/blog/trending-topics",
+        "https://stealwhatworks.com/blogs/news/indie-saas-gained-most-revenue"
+      ],
+      "how_searched": [
+        "Product Hunt daily leaderboard",
+        "Exploding Topics trend data",
+        "indie-SaaS revenue tracker (Outrank $200K→$300K+ MRR as category proof)"
+      ],
+      "score": 66.0,
+      "found_at": "2026-10-16T01:27:25.464189+00:00"
     },
     {
       "name": "AI Mock-Interview Coach",
@@ -3798,6 +3946,25 @@
       "found_at": "2026-10-15T01:33:08.790738+00:00"
     },
     {
+      "name": "Overnight Business Analytics Auditor → Prioritized Revenue Fixes",
+      "field": "analytics / growth ops",
+      "summary": "Connect analytics, ads, SEO and store data; every night an AI reviews them and delivers a ranked list of concrete fixes ordered by likely revenue impact — replacing dashboards nobody reads with an action queue.",
+      "why_now": "DailyHelm scored 215 on Product Hunt (Oct 5, 2026) with 65 comments in exactly this positioning; related 'AI business reviewer' launches (DailyHelm, Gojiberry insights) cluster in October, and Exploding Topics shows 'AI Observability' at +9,300% — the pattern of 'AI reads your numbers overnight and tells you what to fix' is clearly resonating right now.",
+      "monetization": "Freemium SaaS for founders/growth teams; comparable CRO/analytics-AI tools convert on per-seat or per-source pricing. DailyHelm-specific revenue — null.",
+      "evidence": [
+        "https://www.producthunt.com/leaderboard/daily/2026/10/5",
+        "https://explodingtopics.com/blog/trending-topics",
+        "https://wetheflywheel.com/en/ai-observability/"
+      ],
+      "how_searched": [
+        "Product Hunt daily leaderboard",
+        "Exploding Topics",
+        "AI-observability market analysis"
+      ],
+      "score": 58.0,
+      "found_at": "2026-10-16T01:27:26.543680+00:00"
+    },
+    {
       "name": "Accessibility AI assistant web app",
       "field": "Accessibility/HealthTech",
       "summary": "A free web app providing AI-powered visual/description assistance for blind/low-vision users (object description, text reading, scene understanding).",
@@ -3924,6 +4091,25 @@
       ],
       "score": 55.3,
       "found_at": "2026-10-08T23:25:23.402692+00:00"
+    },
+    {
+      "name": "Newsletter + YouTube Archive → Weekly Project Action Digest",
+      "field": "productivity / knowledge work",
+      "summary": "Connect Gmail once; the tool finds newsletters already in your inbox, adds YouTube channels (auto-transcribed), organizes everything into topic panels, then each week drafts a short list of concrete actions for your current projects with citations back to the source.",
+      "why_now": "Adviserry launched in early Oct 2026 on Product Hunt and There's An AI For That, and was singled out in an independent 'trending PH tools' roundup for solving a widely-complained-about gap (subscribing to dozens of sources, converting none to work); it also ships an MCP server so Claude/Cursor can search the personal archive — riding the agent-native productivity wave of Oct 2026.",
+      "monetization": "Freemium subscription for archive size / weekly digests / MCP access. Revenue still pre-scale — null.",
+      "evidence": [
+        "https://mtdtechnologies.com/7-trending-ai-tools-on-product-hunt-worth-trying-october-2026/",
+        "https://www.producthunt.com/leaderboard/weekly/2026/42",
+        "https://www.reddit.com/r/apps/comments/1uehchx/what_small_software_would_you_pay_1020_onetime/"
+      ],
+      "how_searched": [
+        "independent PH trending roundup",
+        "Product Hunt weekly leaderboard",
+        "Reddit 'what would you pay for' gap threads"
+      ],
+      "score": 55.0,
+      "found_at": "2026-10-16T01:27:27.936295+00:00"
     },
     {
       "name": "Amazon fake-brand / knockoff filter (browser add-on or web tool)",
@@ -4251,6 +4437,24 @@
       ],
       "score": 48.7,
       "found_at": "2026-10-14T02:06:37.579619+00:00"
+    },
+    {
+      "name": "Amazon Seller Product & Niche Research Tool",
+      "field": "e-commerce / marketplace tools",
+      "summary": "A web tool that helps Amazon FBA sellers find winning products, validate demand and size competition — launched into an existing seller community and monetized immediately at premium price points.",
+      "why_now": "Launch Fast hit $10K MRR in 30 days, $21.8K at 90 days, ~$30K MRR with 330 paying users at $49/$89/$199 tiers and zero free plan — one of the fastest verified indie ramps of 2026; founders with existing seller-community distribution are stacking similar tools because 'customers who already make money' pay 3–5x typical SaaS ARPU.",
+      "monetization": "No free plan; $49–$199/mo subscriptions; ~330 paying users at ~$30K MRR. Launch strategy: partner with a coaching program (1,000+ active sellers) for distribution before build.",
+      "evidence": [
+        "https://small-start.com/en/cases/global-building-a-product-in-48-hours-and-hitting-30k/",
+        "https://stealwhatworks.com/blogs/news/indie-hacker-projects-making-money"
+      ],
+      "how_searched": [
+        "indie-SaaS growth case database",
+        "paid-SaaS revenue rankings",
+        "small-start founder case study"
+      ],
+      "score": 48.7,
+      "found_at": "2026-10-16T01:27:17.633141+00:00"
     },
     {
       "name": "AI Personalized Children's Storybook Generator (DreamStories/Magic Story-model)",
