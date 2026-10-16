@@ -1565,6 +1565,27 @@
       "found_at": "2026-10-14T13:47:31.961835+00:00"
     },
     {
+      "name": "AI homework / whiteboard tutor",
+      "field": "Education / AI study tool",
+      "summary": "A free web tool that solves a homework photo step-by-step and explains concepts on an interactive whiteboard, with a paid unlimited tier. Rebuild around your own solving/explanation engine.",
+      "why_now": "A study-companion app is doing ~$200K–$500K+/month across iOS+Android with 100M+ lifetime installs and ~5M downloads/month as of Oct 2026, and it flanked into an AI live-tutor whiteboard — a hot, rebuildable wedge for a free web tool.",
+      "monetization": "Free with limits; subscription for unlimited explanations. Benchmarks: $11.99/mo, $31.99/quarter, $99.99/year; est. $200K+/mo iOS and $500K+/mo Android.",
+      "evidence": [
+        "https://appgoblin.info/apps/1542571008",
+        "https://appgoblin.info/apps/com.education.android.h.intelligence",
+        "https://appinsider.io/apps/gauth-ai-study-companion-1542571008",
+        "https://apps.apple.com/us/app/gauth-ai-study-companion/id1542571008",
+        "https://peekly.app/apps/7cfa4d47-b7b9-4c3e-aa9b-fda5db020911"
+      ],
+      "how_searched": [
+        "Checked app-analytics trackers for downloads/revenue",
+        "Read the App Store listing for pricing and features",
+        "Cross-checked multiple estimators for consistency"
+      ],
+      "score": 79.0,
+      "found_at": "2026-10-16T17:31:10.032172+00:00"
+    },
+    {
       "name": "Voice-agent QA & live-call benchmark platform",
       "field": "Conversational AI / voice-agent QA",
       "summary": "Testing, simulation and benchmarking for voice AI agents before and during production — speech-to-speech eval on live phone calls, regression suites and CI/CD integration. Cekura Bench launched on Product Hunt Oct 8.",
@@ -3624,6 +3645,27 @@
       "found_at": "2026-10-15T18:32:24.005947+00:00"
     },
     {
+      "name": "Founder–investor matching directory",
+      "field": "B2B / fundraising tooling",
+      "summary": "A free founder-facing directory that matches early startups to relevant angels/VCs by stage, sector and geography, with paid outreach/CRM. The moat is curated data — rebuild your own dataset, not their content.",
+      "why_now": "A bootstrapped investor-database product is at ~$26.7K–37K MRR with 317–360 paying subs and ~$972K all-time revenue, and demand for founder fundraising tooling is persistent — a proven, if data-heavy, niche.",
+      "monetization": "Subscription from ~$59/mo up to thousands for higher contact limits. Benchmarks: ~$26.7K–37K MRR, 317–360 active subscriptions, ~33% trial→paid.",
+      "evidence": [
+        "https://trustmrr.com/startup/angel-match",
+        "https://founderbase.ai/interviews/angel-match",
+        "https://whatitmakes.com/startup/angel-match",
+        "https://www.indiehackers.com/post/tech/after-burning-through-his-savings-and-going-into-debt-this-founder-built-a-42k-mrr-portfolio-FGEm1BtZPZV9lqW4QptN",
+        "https://gtmsauce.com/companies/angel-match"
+      ],
+      "how_searched": [
+        "Used revenue databases (TrustMRR) and founder interviews",
+        "Cross-checked MRR across independent trackers",
+        "Read growth breakdowns for pricing/conversion benchmarks"
+      ],
+      "score": 64.0,
+      "found_at": "2026-10-16T17:31:14.709440+00:00"
+    },
+    {
       "name": "AI Voice Receptionist for Small Businesses",
       "field": "Vertical SaaS / Customer Support",
       "summary": "A narrow web tool that answers calls, books appointments, and logs leads for one type of small business (e.g. local clinics, salons, repair shops) instead of a generic call center platform.",
@@ -4315,6 +4357,24 @@
       "found_at": "2026-10-14T07:41:48.176670+00:00"
     },
     {
+      "name": "Meeting-recording consent & blocking tool",
+      "field": "Privacy / compliance SaaS + browser extension",
+      "summary": "A free web/browser tool that detects when an AI notetaker bot joins a call and either blocks it or surfaces an all-party-consent notice. A rebuildable original take: 'consent guard' that watches meeting participants, flags recording bots, and logs consent state per jurisdiction.",
+      "why_now": "AI notetaker backlash peaked in 2026: consolidated Otter class action over recording without consent, universities and enterprises banning bots, and new all-party-consent enforcement. A mainstream consent/blocker product launched on Product Hunt on Oct 8 2026, proving fresh demand.",
+      "monetization": "Freemium extension; pro tier for teams (per-seat). Comparable compliance/consent tooling prices in the $10–50/seat/month range; no verified revenue figure found for this niche, so amount is null.",
+      "evidence": [
+        "https://www.producthunt.com/leaderboard/monthly/2026/10",
+        "https://storage.courtlistener.com/recap/gov.uscourts.cand.454675/gov.uscourts.cand.454675.35.0.pdf"
+      ],
+      "how_searched": [
+        "Explored Product Hunt daily/monthly leaderboards for Oct 2026",
+        "Searched legal/compliance news for AI notetaker litigation and consent rules",
+        "Cross-checked HN and privacy-tool discussion for demand signals"
+      ],
+      "score": 54.7,
+      "found_at": "2026-10-16T17:31:06.853094+00:00"
+    },
+    {
       "name": "Approval-Gated Agent Workflow Builder for One Job",
       "field": "Agent Infrastructure / Vertical Agents",
       "summary": "A web tool that lets non-engineers define a single agent job (e.g. contract intake, invoice triage) with explicit approval gates, retry rules, audit log, and stop conditions. Not a general agent platform.",
@@ -4435,6 +4495,24 @@
       "found_at": "2026-10-12T20:20:22.907422+00:00"
     },
     {
+      "name": "Free background-removal web tool",
+      "field": "Creator / image utility",
+      "summary": "A fast in-browser background remover (upload → transparent PNG) rebuildable as an original free tool with premium batch/HD tiers. take-the-idea from the category, not any existing code or brand.",
+      "why_now": "remove.bg's standalone site is shutting down Dec 1 2026 (folding into Leonardo.Ai/Canva), stranding users looking for a drop-in free alternative. Category demand is huge: 'background removal' ~1M searches/mo (+641% YoY), 'background remover' ~3.8M/mo, and Photoroom is at $94.49M ARR (+89% YoY).",
+      "monetization": "Free single-image tool; paid credits/batch and API. Photoroom reported $94.49M ARR (subscriptions), showing willingness to pay in this exact category.",
+      "evidence": [
+        "https://sacra.com/c/photoroom/",
+        "https://www.photoroom.com/blog/remove-bg-alternatives"
+      ],
+      "how_searched": [
+        "Reviewed revenue databases (TrustMRR via bestproductivityresources) for image tools",
+        "Checked Exploding Topics for search-volume trends",
+        "Followed news of remove.bg shutting its standalone service"
+      ],
+      "score": 52.0,
+      "found_at": "2026-10-16T17:31:07.267354+00:00"
+    },
+    {
       "name": "AI multi-model answer cross-checker",
       "field": "AI developer/productivity / hallucination verification",
       "summary": "A free web tool that sends one question to several LLMs and highlights agreements/disagreements, giving users a fast 'second opinion' on AI answers. Original build: a normalizer that calls multiple model APIs (or free endpoints), a diff/consensus scorer, and a shareable verdict view.",
@@ -4535,6 +4613,24 @@
       ],
       "score": 49.3,
       "found_at": "2026-10-12T20:20:23.499016+00:00"
+    },
+    {
+      "name": "Gamified learn-to-code web app",
+      "field": "Education / developer tools",
+      "summary": "A free gamified coding-lesson site (bite-size lessons, streaks, browser code runner) with a paid plan for certificates/advanced tracks. Rebuild as an original curriculum and interface.",
+      "why_now": "A gamified coding site grew to ~1.5M registered users (+503% YoY) and ~$71K MRR, and a competitor reports ~5M learners — showing continued appetite for beginner coding education.",
+      "monetization": "Free lessons; paid subscription (~$9.99/mo benchmarks) for advanced tracks/certificates. Benchmark: ~$70,605 MRR recorded 1/1/2026; ~$71,717–88K on TrustMRR.",
+      "evidence": [
+        "https://trustmrr.com/startup/codedex",
+        "https://codedex.beehiiv.com/p/codedex-update-q4-2025"
+      ],
+      "how_searched": [
+        "Used revenue databases (TrustMRR) to rank education MRR",
+        "Read founder growth updates with user numbers",
+        "Cross-referenced with trending education topics"
+      ],
+      "score": 49.3,
+      "found_at": "2026-10-16T17:31:08.617322+00:00"
     },
     {
       "name": "Marketplace Competitor & Price Tracker for Small Sellers",
@@ -4713,6 +4809,24 @@
       "found_at": "2026-10-15T01:32:59.427289+00:00"
     },
     {
+      "name": "ADHD-friendly daily planner",
+      "field": "Productivity / health-adjacent",
+      "summary": "A free ADHD-oriented planner web app (visual time-blocking, body-doubling timers, low-friction task capture) with a paid pro tier. Rebuild as an original accessible planner.",
+      "why_now": "r/ADHD is the highest-signal cluster of 'I wish there was an app' requests, the ADHD app category is growing fast, and leading ADHD planners show large revenue with 400K-ish monthly downloads — sustained, not faddish, demand.",
+      "monetization": "Freemium; subscription for advanced features. Benchmark: a leading ADHD planner is estimated at ~$300K/mo from ~400K downloads/mo.",
+      "evidence": [
+        "https://peekly.app/apps/7a5da852-5344-4220-8d82-887fa78928de",
+        "https://productlist.info/requests"
+      ],
+      "how_searched": [
+        "Analyzed aggregated app-request threads for demand clusters",
+        "Checked app-revenue trackers for ADHD planners",
+        "Filtered out ideas overlapping the known list"
+      ],
+      "score": 48.0,
+      "found_at": "2026-10-16T17:31:10.487215+00:00"
+    },
+    {
       "name": "Instant contact & company data validation / enrichment tool",
       "field": "Data quality / B2B data APIs",
       "summary": "A free lookup tool that validates and enriches emails, phones and company records in under a second, funneling users into a per-lookup API.",
@@ -4729,6 +4843,24 @@
       ],
       "score": 47.3,
       "found_at": "2026-10-14T02:06:38.610049+00:00"
+    },
+    {
+      "name": "Marketplace product-research tool",
+      "field": "E-commerce / seller tooling",
+      "summary": "A free web app that scores product niches for marketplace sellers (demand, competition, fee/margin math) with a paid tier for deeper data/automation. Rebuild as an original research OS.",
+      "why_now": "A non-technical founder built a seller research tool to ~$30K MRR with 330 paying users at $49–199/mo, and standalone entries are being built/repositioned around 2026 tariff and fee changes — steady, monetizable demand.",
+      "monetization": "Paid subscription ($49–199/mo), no free tier in the benchmark. Benchmark: ~$30K MRR / 330 paying users.",
+      "evidence": [
+        "https://www.indiehackers.com/post/tech/building-a-product-in-48-hours-and-hitting-30k-mrr-as-a-non-technical-founder-wWtWIH5tmwASUbxKaLT9",
+        "https://milestonewins.com/launches/launchfast/"
+      ],
+      "how_searched": [
+        "Browsed Indie Hackers monthly/top stories",
+        "Checked launch trackers for MRR milestones",
+        "Filtered against known ideas"
+      ],
+      "score": 47.3,
+      "found_at": "2026-10-16T17:31:13.187600+00:00"
     },
     {
       "name": "Spira Maxima - AI video for viral social",
@@ -4764,6 +4896,42 @@
       ],
       "score": 46.7,
       "found_at": "2026-10-14T02:06:39.568746+00:00"
+    },
+    {
+      "name": "Framework-upgrade scanner",
+      "field": "Developer tools",
+      "summary": "A free web tool that scans a repo/config and produces an upgrade plan for major framework version jumps (breaking changes, deprecation map, step order). Rebuild with your own rules engine.",
+      "why_now": "A Laravel upgrade-automation tool is running ~$50K MRR, and a Rails upgrade-preflight tool trended on Hacker News — developers clearly pay to de-risk painful major-version migrations.",
+      "monetization": "Free scan; paid one-off or subscription for guided automation/CI integration. Benchmark: ~$50K MRR for a comparable upgrade tool (tracker estimate).",
+      "evidence": [
+        "https://bestproductivityresources.com/guides/trending-web-apps-that-are-making-money-now",
+        "https://hnarchives.com/showHN?year=2026"
+      ],
+      "how_searched": [
+        "Reviewed revenue-tracker roundups for dev tools",
+        "Browsed Hacker News Show HN archives for upgrade/dev tooling",
+        "Prioritized timed launches and paid demand signals"
+      ],
+      "score": 46.7,
+      "found_at": "2026-10-16T17:31:12.155338+00:00"
+    },
+    {
+      "name": "Tariff / landed-cost calculator",
+      "field": "E-commerce / finance utility",
+      "summary": "A free landed-cost and tariff calculator for importers/marketplace sellers (duty + fees by HS code and country) with a paid multi-SKU/API tier. Rebuild with your own tariff dataset and UI.",
+      "why_now": "2026 tariff churn is severe (de minimis ended Aug 2025; forced-labor tariff replaced Section 122 on July 24 2026; shifting reciprocal frameworks), triggering a wave of new calculators in 2026 and constant importer confusion — a classic timely free-tool play.",
+      "monetization": "Free basic calculator; paid plans for bulk SKUs/API. Benchmarks: ~$49/mo starter tiers and ~$49–199/mo e-commerce plans; an Amazon-seller research tool charges $49–199/mo with 330 paying users (~$30K MRR).",
+      "evidence": [
+        "https://zentriaflow.com/",
+        "https://milestonewins.com/launches/launchfast/"
+      ],
+      "how_searched": [
+        "Searched for new landed-cost/tariff tools launched in 2026",
+        "Checked HN Show HN for related launches",
+        "Cross-referenced with e-commerce seller tooling pricing"
+      ],
+      "score": 46.7,
+      "found_at": "2026-10-16T17:31:12.524496+00:00"
     },
     {
       "name": "Free AI-text detector & authorship-proof checker",
@@ -4878,6 +5046,24 @@
       ],
       "score": 44.0,
       "found_at": "2026-10-15T18:32:22.603042+00:00"
+    },
+    {
+      "name": "Freelancer job-fit & proposal assistant",
+      "field": "B2B SaaS / freelance tooling",
+      "summary": "A free web tool that scores incoming freelance jobs against your skills and drafts tailored proposals, with a paid tier for outreach automation. Rebuild as an original scorer/writer.",
+      "why_now": "A freelancer-assist tool is Stripe-verified at ~$19.7K–27K MRR with ~95 subscribers at $149–499/mo, showing freelancers will pay a premium to win more work via better job-fit and proposals.",
+      "monetization": "Subscription $149–499/mo. Benchmark: ~$19,673–27K MRR, ~95 subscribers; ~400+ users.",
+      "evidence": [
+        "https://trustmrr.com/startup/lancer-app",
+        "https://lancer.app/pricing"
+      ],
+      "how_searched": [
+        "Used revenue databases (TrustMRR) for freelancer tools",
+        "Read vendor pricing pages for tier/price benchmarks",
+        "Checked marketplace skill-demand reports for context"
+      ],
+      "score": 44.0,
+      "found_at": "2026-10-16T17:31:13.581731+00:00"
     },
     {
       "name": "Chair-yoga and balance exercise guide for seniors (web)",
