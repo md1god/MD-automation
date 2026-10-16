@@ -1544,6 +1544,42 @@
       "found_at": "2026-10-09T06:45:29.473821+00:00"
     },
     {
+      "name": "DEV Community (dev.to) cross-posting via Forem API",
+      "url": "https://dev.to",
+      "kind": "community",
+      "requires_account": true,
+      "official_free_api": true,
+      "how_to_use": "Create a free DEV account, generate an API key at Settings > Extensions, then POST to https://dev.to/api/articles with the api-key and Accept: application/vnd.forem.api-v1+json headers, including title, body_markdown, tags (max 4, letters/digits), published, main_image and canonical_url pointing to your original page; update with PUT /api/articles/{id}. Other Forem-based communities expose the same API at their own domains.",
+      "rules_and_risks": "No cold-start spam: low-effort or overly promotional posts are flagged; tags are dropped silently if sent as a string instead of an array; canonical_url duplicates return 422; official docs lag behind live limits; needs a User-Agent or the CDN can 403.",
+      "why_it_works": "dev.to runs on open-source Forem with a documented free, self-serve publishing API and a large active developer readership; canonical_url keeps SEO value on your origin. Evidence opened: Forem API docs.",
+      "evidence": [
+        "https://developers.forem.com/api"
+      ],
+      "how_searched": [
+        "forem/dev.to API documentation; 2026 cross-publishing case study verified endpoint, headers and canonical_url behaviour"
+      ],
+      "score": 30.0,
+      "found_at": "2026-10-16T13:02:16.638357+00:00"
+    },
+    {
+      "name": "Telegram public channels via official Bot API",
+      "url": "https://core.telegram.org/bots/api/",
+      "kind": "platform",
+      "requires_account": true,
+      "official_free_api": true,
+      "how_to_use": "Create a bot in @BotFather to get a token, create a public channel with a permanent @username, add the bot as an admin with Post messages, then POST sendMessage (or sendPhoto/sendVideo/sendMediaGroup) to https://api.telegram.org/bot<TOKEN>/METHOD with chat_id=@channel (or numeric -100 ID); pace at ~1 message/sec per chat and use rich messages (Bot API 10.1+) for structured posts.",
+      "rules_and_risks": "Account creation is manual (phone/2FA), not automated; a bot cannot DM users who never started a conversation and posts under a bot identity; spam/flood gets 429s; MTProto scripting of personal accounts risks bans; paid broadcasts are the only paid tier.",
+      "why_it_works": "Unlimited-subscriber broadcast channels with view counters and global search discovery; the Bot API is free, fully documented and needs no app review, faster onboarding than X/Threads. Evidence opened: Telegram API channel docs.",
+      "evidence": [
+        "https://core.telegram.org/api/channel"
+      ],
+      "how_searched": [
+        "Telegram Bot API docs and 2026 channel automation guides; verified free limits, admin requirement and identity boundary"
+      ],
+      "score": 28.7,
+      "found_at": "2026-10-16T13:02:17.091203+00:00"
+    },
+    {
       "name": "OpenAlternative (open-source alternatives directory)",
       "url": "https://openalternative.co/submit",
       "kind": "directory",
@@ -1602,6 +1638,42 @@
       "found_at": "2026-10-07T18:25:22.592988+00:00"
     },
     {
+      "name": "G2 free B2B software profile + reviews",
+      "url": "https://www.g2.com/products/new",
+      "kind": "directory",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Submit your product through G2’s request form; once conditionally approved (3-5 business days) it is live and free to claim; claim the profile in my.g2, complete descriptions/screenshots/pricing and category features, then drive authentic reviews; free profiles appear in category pages, comparisons and AI/search discovery.",
+      "rules_and_risks": "B2B products/services only; new profiles need at least one review to stay; beta/alpha and waitlist-only products excluded; cannot edit or remove reviews; spam or fake profiles trigger banners/bans.",
+      "why_it_works": "G2 is a large B2B marketplace reached by ~90-100M buyers/year and explicitly offers a permanent free profile; verified reviews surface in AI answers and category Grids. Evidence opened: G2 sell/profiles page.",
+      "evidence": [
+        "https://sell.g2.com/profiles"
+      ],
+      "how_searched": [
+        "G2 vendor docs and free-profile pricing page; verified submission, claim flow and free-tier scope"
+      ],
+      "score": 26.0,
+      "found_at": "2026-10-16T13:02:17.369622+00:00"
+    },
+    {
+      "name": "WordPress.org Theme Directory",
+      "url": "https://wordpress.org/themes/getting-started/",
+      "kind": "directory",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Build a GPL v2+ theme, pass Theme Unit Test sample data and Theme Check, then upload the theme ZIP at Themes > Upload for Themes Team review; publish subsequent versions by uploading a new ZIP or committing a new version directory via SVN to themes.svn.wordpress.org/{slug}/.",
+      "rules_and_risks": "Must be free GPL v2+, reviewed for security/accessibility/coding standards; updates are immutable once committed via SVN; typos require a new version directory; queue wait times vary.",
+      "why_it_works": "The Theme Directory is a primary distribution channel for a CMS powering ~40% of sites; approved themes get organic search plus in-dashboard install/reviews. Evidence opened: WordPress developer handbook submission guide.",
+      "evidence": [
+        "https://developer.wordpress.org/themes/releasing-your-theme/submitting-your-theme-to-wordpress-org/"
+      ],
+      "how_searched": [
+        "WordPress.org theme publishing handbook; verified ZIP upload, review and SVN update mechanism"
+      ],
+      "score": 25.3,
+      "found_at": "2026-10-16T13:02:17.848672+00:00"
+    },
+    {
       "name": "daily.dev (Squads + Direct Posting + source feeds)",
       "url": "https://docs.daily.dev/how-to-get-featured/",
       "kind": "feed",
@@ -1639,6 +1711,24 @@
       ],
       "score": 24.7,
       "found_at": "2026-10-11T19:02:40.831786+00:00"
+    },
+    {
+      "name": "Notion (Template) Marketplace",
+      "url": "https://www.notion.com/templates",
+      "kind": "directory",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Publish your Notion page to the web (Share > Publish > Duplicate as template ON), then submit at notion.com/templates or app.notion.com/profile/templates with name, link, category, language and screenshots/video; approval adds it (free or paid) to Marketplace with creator profile and optional email capture.",
+      "rules_and_risks": "No ads or spam links in templates; must be original, high quality and use latest Notion features; spammy duplicate submissions rejected; Notion can remove listings at any time; paid templates require Stripe onboarding, support obligations and fees.",
+      "why_it_works": "Marketplace is Notion’s curated distribution surface with 30,000+ templates and localized featured collections, driving both template downloads and creator-brand discovery. Evidence opened: Notion Marketplace guidelines.",
+      "evidence": [
+        "https://www.notion.com/help/template-gallery-guidelines-and-terms"
+      ],
+      "how_searched": [
+        "Notion template submission and selling help docs; verified free vs paid submission, review and no-ad link rule"
+      ],
+      "score": 24.7,
+      "found_at": "2026-10-16T13:02:17.973225+00:00"
     },
     {
       "name": "Hacker News: Show HN and story submissions",
@@ -1697,6 +1787,24 @@
       ],
       "score": 24.0,
       "found_at": "2026-10-10T12:40:25.487903+00:00"
+    },
+    {
+      "name": "Canva Creator templates",
+      "url": "https://www.canva.com/creators/templates/",
+      "kind": "platform",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Apply to the Template Creator program with a public 5-10 piece design portfolio; once accepted create templates in Canva and submit through the creator dashboard for review, choose free or paid, and earn royalties from template usages across 100M+ users; elements must come from Canva’s library.",
+      "rules_and_risks": "Program is application-gated and in beta; review/approval can take months; exclusivity: submitted templates cannot go on competing design platforms for 3 years; underperforming contributors may be limited/removed; payout threshold $10/$20.",
+      "why_it_works": "Canva templates reach a global design audience with passive royalty income and discovery; templates are exhibited in a marketplace searched by culture/language. Evidence: Canva Help Center creator pages (search-opened).",
+      "evidence": [
+        "https://www.canva.com/help/canva-creators-program/"
+      ],
+      "how_searched": [
+        "official Canva creator docs via web search; verified application, review, royalty and exclusivity terms"
+      ],
+      "score": 24.0,
+      "found_at": "2026-10-16T13:02:18.214692+00:00"
     },
     {
       "name": "G2 free product listing + profile claim",
@@ -1794,6 +1902,24 @@
       "found_at": "2026-10-15T19:03:16.383937+00:00"
     },
     {
+      "name": "Unsplash contributor (free photo distribution)",
+      "url": "https://unsplash.com/submit",
+      "kind": "platform",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Create an account, upload original photos at unsplash.com/submit (initial limit 10/week, more with engagement), add description/keywords/stories, and optimize titles and tags; photos surface in Unsplash search and in 1000+ apps (Google, Adobe, Medium) with an optional attribution link to your site/portfolio.",
+      "rules_and_risks": "No mandatory credit (attribution optional under the Unsplash License); no screenshots/AI/composite/celebrity images; reaching out directly to demand credit violates guidelines; over-limit submissions can re-cap to 10/week; high-quality originality required.",
+      "why_it_works": "Unsplash grants free commercial-use redistribution at massive scale, giving photos exposure to tens of millions and backlink/referral opportunities where attribution is given. Evidence opened: Unsplash help article.",
+      "evidence": [
+        "https://help.unsplash.com/en/articles/2610257-why-submit-content-to-unsplash"
+      ],
+      "how_searched": [
+        "Unsplash submission and attribution guidelines; verified account, upload limits, license and attribution behaviour"
+      ],
+      "score": 23.3,
+      "found_at": "2026-10-16T13:02:18.880191+00:00"
+    },
+    {
       "name": "Bluesky starter packs + custom feeds for your niche",
       "url": "https://bsky.social/about/blog/06-26-2024-starter-packs",
       "kind": "feed",
@@ -1850,6 +1976,24 @@
       ],
       "score": 22.7,
       "found_at": "2026-10-11T19:02:42.093611+00:00"
+    },
+    {
+      "name": "RapidAPI Hub provider listing",
+      "url": "https://rapidapi.com/developer",
+      "kind": "directory",
+      "requires_account": true,
+      "official_free_api": true,
+      "how_to_use": "Register a free provider account, create an API in Studio with an OpenAPI/Postman definition, base URL, logo, description and tags, set visibility public in Hub Listing > General, configure a free BASIC plan (default, up to 1M requests/month) and request review/approval to publish; the Platform API can also create/update APIs programmatically.",
+      "rules_and_risks": "API must be functional and accurately documented; not allowed for browser-only or fake APIs; trademark/de sanctions restrictions (no Russia/Belarus etc.); paid tiers require non-zero pricing and minimums; free plan capped at 1K req/hour and 500K/month.",
+      "why_it_works": "RapidAPI puts listed APIs in front of its millions of developers and supports free plans, so open APIs get organic discovery without cost. Evidence opened: RapidAPI monetization docs.",
+      "evidence": [
+        "https://docs.rapidapi.com/docs/monetizing-your-api-on-rapidapicom"
+      ],
+      "how_searched": [
+        "RapidAPI provider docs and Learn module; verified free listing, plan caps and approval flow"
+      ],
+      "score": 22.7,
+      "found_at": "2026-10-16T13:02:18.990077+00:00"
     },
     {
       "name": "Unlinked brand-mention reclamation + resource-page outreach",
@@ -1927,6 +2071,24 @@
       ],
       "score": 22.0,
       "found_at": "2026-10-13T18:47:32.200882+00:00"
+    },
+    {
+      "name": "Read the Docs Community (open-source docs hosting)",
+      "url": "https://app.readthedocs.org/accounts/signup/",
+      "kind": "platform",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Sign up with GitHub/GitLab/Bitbucket, import a public repo with a .readthedocs.yaml, and Read the Docs builds and hosts the docs for free (with EthicalAds); set a custom canonical domain for SEO, add sitemap/robots for indexing and use the traffic/search analytics.",
+      "rules_and_risks": "Community tier is for open-source/public repos only; private/commercial hosting is paid; ad-supported; lower build resources; docs are publicly accessible; abuse/spam can be removed.",
+      "why_it_works": "Read the Docs hosts 100k+ open-source projects (Flask, Jupyter, Godot, etc.) and its generated sites are crawlable with sitemaps, giving docs strong search reach. Evidence opened: Read the Docs platform-choice page.",
+      "evidence": [
+        "https://about.readthedocs.com/choosing-a-platform/"
+      ],
+      "how_searched": [
+        "Read the Docs community vs business docs and SEO guide; verified free OSS hosting, ads and crawl/sitemap behaviour"
+      ],
+      "score": 22.0,
+      "found_at": "2026-10-16T13:02:19.074982+00:00"
     },
     {
       "name": "Web Stories in Google Search and Discover",
@@ -2023,6 +2185,24 @@
       "found_at": "2026-10-10T00:17:35.568790+00:00"
     },
     {
+      "name": "F-Droid main repository (FOSS Android apps)",
+      "url": "https://f-droid.org/contribute/",
+      "kind": "directory",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Make the app fully FOSS with tagged releases, add fastlane/Triple-T metadata in the source repo, fork fdroiddata on GitLab, create metadata/{appid}.yml with repo and build blocks, run fdroid lint/rewritemeta, then open a merge request; review and signing take 24-48 hours after merge.",
+      "rules_and_risks": "FOSS license and FOSS-only dependencies required; proprietary SDKs (Play Services/Firebase/Crashlytics) forbidden; manual review by maintainers; apps must provide unique value and be maintained; non-compliant apps rejected until fixed.",
+      "why_it_works": "F-Droid is a trusted, searchable open-source app store with an open inclusion process; distribution reaches users who specifically seek free-licensed apps. Evidence opened: F-Droid submission quick-start guide.",
+      "evidence": [
+        "https://f-droid.org/docs/Submitting_to_F-Droid_Quick_Start_Guide/"
+      ],
+      "how_searched": [
+        "F-Droid inclusion policy and submission guide; verified FOSS-only, tagged releases and merge-request workflow"
+      ],
+      "score": 21.0,
+      "found_at": "2026-10-16T13:02:19.866519+00:00"
+    },
+    {
       "name": "Slashdot story submission",
       "url": "https://slashdot.org/submit",
       "kind": "community",
@@ -2040,6 +2220,24 @@
       ],
       "score": 20.7,
       "found_at": "2026-10-07T18:25:30.248218+00:00"
+    },
+    {
+      "name": "Wikimedia Commons (free media + Wikipedia reach)",
+      "url": "https://commons.wikimedia.org/wiki/Special:UploadWizard",
+      "kind": "platform",
+      "requires_account": false,
+      "official_free_api": true,
+      "how_to_use": "Create an account (encouraged but optional), upload original photos/video/audio under a free license (CC0 or CC BY-SA) with accurate description/tags via UploadWizard or the MediaWiki API; illustrate Wikipedia articles and other reusers, keeping required attribution and license terms in the description.",
+      "rules_and_risks": "Content must be free-licensed and original; deletion if copyright unclear; uploading promotional or non-free material is reverted; account not mandatory but anonymous contributions lack attribution management.",
+      "why_it_works": "Commons hosts 170M+ files reused across Wikipedia and by educators, media and blogs, each reuse typically credits the author and profile. Evidence opened: Commons first-steps guide.",
+      "evidence": [
+        "https://commons.wikimedia.org/wiki/Commons:First_steps"
+      ],
+      "how_searched": [
+        "Wikimedia Commons contribution guide; verified upload wizard, licensing and reach claims"
+      ],
+      "score": 20.3,
+      "found_at": "2026-10-16T13:02:19.941344+00:00"
     },
     {
       "name": "Marginalia Search — independent-web index submission",
@@ -2097,6 +2295,24 @@
       ],
       "score": 20.0,
       "found_at": "2026-10-13T18:47:34.628243+00:00"
+    },
+    {
+      "name": "Yandex Webmaster (search reach in RU/CIS)",
+      "url": "https://webmaster.yandex.com/welcome/",
+      "kind": "search",
+      "requires_account": true,
+      "official_free_api": true,
+      "how_to_use": "Add and verify each host (HTML file/meta tag/DNS, including www/non-www), submit the Sitemap (up to 10 manual refreshes per host), configure main mirror and GET parameters, optionally use Webmaster API v4 (OAuth) for summaries/recrawls, and monitor SQI, diagnostics and recommendations.",
+      "rules_and_risks": "Manual Yandex account + site verification required; interface/API labels change over time; sitemap processing can take up to two weeks; paid broadcast equivalents are not applicable; Yandex-specific rules differ from Google.",
+      "why_it_works": "Yandex dominates search in Russia and CIS and offers a fully free webmaster console plus an official API v4 for indexing visibility and SQI tracking. Evidence opened: Yandex sitemap support docs.",
+      "evidence": [
+        "https://yandex.com/support/webmaster/en/indexing-options/sitemap"
+      ],
+      "how_searched": [
+        "Yandex Webmaster help pages fetched in this run; verified free console, sitemap submission, verification methods and API v4"
+      ],
+      "score": 19.7,
+      "found_at": "2026-10-16T13:02:21.433022+00:00"
     },
     {
       "name": "Peerlist Launchpad",
