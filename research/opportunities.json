@@ -859,6 +859,27 @@
       "found_at": "2026-10-16T07:15:22.395661+00:00"
     },
     {
+      "name": "GLP-1 Companion Tracker (dose, med-level, side-effect, oral-pill aware)",
+      "field": "Digital health / medication tracking",
+      "summary": "A free web app for the new oral-GLP-1 wave: shot AND pill scheduling, injection-site rotation, estimated medication-level curves, side-effect and protein/water logging with clinical-trial benchmarking — the job shots-and-pills users actually pay for, not another calorie scanner.",
+      "why_now": "Oral GLP-1s went mainstream in the last 8 months (Wegovy pill broadly available Jan 2026; Lilly's orforglipron/Foundayo approved Apr 2026). AppMagic counted 568+ new GLP-1 apps since Jan 2026; Appaloma's Aug 2026 niche audit rates demand 'Rising 2.1x' with crowding only 20/100 — the niche is still being decided (33 of 45 apps launched in 18 months).",
+      "monetization": "Subscription/IAP freemium. Two leaders (Shotsy, MeAgain) each sit in the $20–50k/month revenue band with ~195k–216k MAU; Appaloma computes a $80k+/month floor across 9 researched apps; app price points run $9.99–$349.99.",
+      "evidence": [
+        "https://www.appaloma.com/research/glp1-companions",
+        "https://www.benzinga.com/news/health-care/26/09/62011321/glp-1-pill-boom-apps-research-risks-lagging",
+        "https://appgoblin.info/apps/6499510249",
+        "https://appgoblin.info/apps/6744178534"
+      ],
+      "how_searched": [
+        "App-store analytics (AppGoblin MAU/revenue estimates)",
+        "Niche revenue audit (Appaloma)",
+        "Health-tech news (Benzinga on oral GLP-1 app boom)",
+        "Exploding Topics health trends"
+      ],
+      "score": 84.0,
+      "found_at": "2026-10-17T09:29:30.366135+00:00"
+    },
+    {
       "name": "Self-Hosted Workflow Automation for AI Agents (n8n-style)",
       "field": "DevTools / AI Infrastructure",
       "summary": "Fair-code / open-source workflow automation platform that technical teams self-host for free (unlimited executions) to build AI agent pipelines, RAG, and multi-step automations — with paid cloud/enterprise for governance, SSO, and managed infrastructure.",
@@ -1748,6 +1769,31 @@
       "found_at": "2026-10-16T07:15:24.036981+00:00"
     },
     {
+      "name": "Pay-Per-Crawl Tollbooth for Publishers (humans free, AI bots pay per page)",
+      "field": "Publisher infrastructure / agent payments",
+      "summary": "A drop-in web service that lets any site charge AI crawlers a micropayment per page via HTTP 402/x402 (USDC) while humans browse free, with a live dashboard of bot hits, settled revenue and crawl analytics — turning the AI-scraping problem into a revenue line.",
+      "why_now": "x402 hit ~165M transactions across ~69k agents and ~$50M cumulative volume by Apr 2026; Circle launched a curated catalog of 600+ x402 services and PayAPI Market lists 361 live pay-per-call APIs. Simultaneously publishers are in open legal war (NYT v OpenAI summary-judgment hearing set Nov 20, 2026; Seattle Times + Newsday sued Sep 4, 2026; ~400 local papers sued Jun 2026) after a 47% collapse in midsize-publisher search referrals — and courts just told publishers free crawling is on them, so monetized crawling is the fallback.",
+      "monetization": "Take rate on settled per-crawl micropayments plus a hosted/self-host tier (same shape as Cloudflare pay-per-crawl and agent402-tollbooth, which already ship the pattern open-source). Real x402 seller leaderboards show live 7d settled volume from ~$30–$3,000 per seller; a publisher tollbooth monetizes existing traffic instead of hunting new users.",
+      "evidence": [
+        "https://eco.com/support/en/articles/14846274-pay-per-call-apis-for-ai-agents",
+        "https://developers.circle.com/agent-stack/agent-marketplace",
+        "https://payapi.market/llms.txt",
+        "https://fetchgate.dev/blog/x402-bazaar-audit-2026",
+        "https://www.brookings.edu/articles/same-gatekeepers-new-tollbooths-in-the-ai-content-licensing-market/",
+        "https://www.medianama.com/2026/09/223-seattle-times-sue-openai-copyrighted-journalism/",
+        "https://www.niemanlab.org/reading/judge-publishers-voluntarily-acceded-to-cost-free-crawling-and-cant-sue-google-over-ai-related-revenue-losses/"
+      ],
+      "how_searched": [
+        "Protocol/marketplace docs (Circle, PayAPI, agent402, fetchgate audit)",
+        "Industry analysis (eco.com x402 economics)",
+        "Policy/research (Brookings)",
+        "Litigation news (Reuters-syndicated filings, Nieman Lab)",
+        "Reddit r/SideProject revenue post on selling boring APIs to agents via x402"
+      ],
+      "score": 78.0,
+      "found_at": "2026-10-17T09:29:32.188858+00:00"
+    },
+    {
       "name": "Browser Extension AI Productivity Tools",
       "field": "Consumer / Productivity",
       "summary": "Chrome/Firefox/Edge extensions that bring AI into the browser — sidebar chat, page summarization, writing assistance, workflow automation, content extraction — with freemium subscriptions.",
@@ -2088,6 +2134,27 @@
       ],
       "score": 76.0,
       "found_at": "2026-10-17T00:07:09.988907+00:00"
+    },
+    {
+      "name": "LLM Invoice Audit & Overcharge Dispute Tool",
+      "field": "AI FinOps / bill audit",
+      "summary": "Upload OpenAI/Anthropic/Bedrock/Vertex usage exports and get a browser-local, line-by-line audit: retry storms, failed-run billing, cache charged at uncached rates, premium-model substitution, unexplained invoice variance — plus a ready-to-send dispute package, medical-bill-audit style, for AI API spend.",
+      "why_now": "A whole category shipped in the last 6–10 weeks around one pain: Inferock got 401 Product Hunt votes on Oct 14, 2026 offering 'credits back for failed inference calls'; free auditors (TokenGauge, CloudJaeger) and contingency-fee disputers (Trilatic, 15% of recovered credits, page dated Sep 2026) went live alongside TokenOps and vaudit claiming 3–7% recoverable AI spend. Reasoning-token billing (60–90% of bills, unverifiable) is the new frontier.",
+      "monetization": "Contingency fee on recovered credits (Trilatic model: 15% of credits actually posted, nothing otherwise), or SaaS audit subscriptions once spend >$500/mo (TokenOps positioning). Sample audited accounts show ~$940/mo verified waste and ~20–32% waste-share on agent-heavy workloads.",
+      "evidence": [
+        "https://www.producthunt.com/leaderboard/daily/2026/10/14",
+        "https://trilatic.com/invoice-audit",
+        "https://cloudjaeger.com/ai-cost-audit",
+        "https://www.vaudit.com/token-audit"
+      ],
+      "how_searched": [
+        "Product Hunt daily leaderboard (Oct 14, 2026)",
+        "Fresh vendor pages dated Sep–Oct 2026 (invoice-audit tools)",
+        "GitHub/OSS audit projects (retoken, overage)",
+        "Search for 'LLM API bill audit'"
+      ],
+      "score": 76.0,
+      "found_at": "2026-10-17T09:29:48.262249+00:00"
     },
     {
       "name": "Invoice & AP Automation (AI-First)",
@@ -2866,6 +2933,27 @@
       "found_at": "2026-10-17T00:07:12.578708+00:00"
     },
     {
+      "name": "Real-Time AI Interview Copilot & Mock-Interview Studio",
+      "field": "Consumer career tools",
+      "summary": "Free web app that runs live voice mock interviews from a pasted job link (question set, company context, hostile-to-friendly interviewer modes) and scores communication/filler words/structure — plus an optional real-time answer coach for the actual interview.",
+      "why_now": "ParakeetAI (interview assistant → real-time call assistant) crossed $1M MRR and 1.5M users in under two years, per Indie Hackers Sep 23, 2026; entrevistIA (AI interviews, Spanish) is Product Hunt's #2 product for October 2026; Interview Pilot claims 100k+ users with 'exceptional' recent install growth (5.9k installs/4 weeks); live-coach startups (InterviewOra) are already collecting Stripe-verified revenue.",
+      "monetization": "Freemium subscription: observed market pricing $19/mo, $144/yr, $399 lifetime (InterviewOra); bigger comp (ParakeetAI) reached $1M MRR on the same job-to-be-done at scale.",
+      "evidence": [
+        "https://www.indiehackers.com/post/tech/from-weekend-project-to-1m-mrr-in-two-years-YRaa1QlGTjaqh0XgzWkc",
+        "https://www.producthunt.com/products",
+        "https://www.appgoblin.info/apps/com.liberace.interviewpilot",
+        "https://trustmrr.com/startup/interviewora"
+      ],
+      "how_searched": [
+        "Indie Hackers founder interview with revenue",
+        "Product Hunt monthly leaderboard (Oct 2026)",
+        "App analytics (AppGoblin installs/revenue)",
+        "Stripe-verified revenue page (TrustMRR)"
+      ],
+      "score": 72.0,
+      "found_at": "2026-10-17T09:29:49.241624+00:00"
+    },
+    {
       "name": "Cookie-consent / privacy-compliance generator",
       "field": "Privacy compliance / web tooling",
       "summary": "Scan a site, detect trackers, generate a compliant cookie banner plus cookie/privacy policy, and block non-essential scripts before consent. A free generator for the long tail of small sites that big CMPs ignore.",
@@ -3215,6 +3303,30 @@
       ],
       "score": 70.0,
       "found_at": "2026-10-17T00:07:12.902262+00:00"
+    },
+    {
+      "name": "Amazon Seller Profit & Reimbursement Audit Toolkit (free web)",
+      "field": "E-commerce seller tools",
+      "summary": "Free web tool that ingests an Amazon seller payment/report export and computes true per-SKU profit after FBA fees, ad spend and returns, flags lost/damaged FBA inventory owed reimbursements, and drafts the claims — the 'what did I actually earn' layer Amazon's own dashboard still doesn't do.",
+      "why_now": "Amazon's own Seller Assistant now has 230k+ monthly users with 90% recommendation-acceptance (2025 Small Business report, recapped Apr 2026) and got agentic workflows + a Claude plugin in Sep 2026 — proving seller appetite — while third-party AI seller tools keep minting MRR (non-technical founder hit $10k MRR in 30 days and $30k MRR with Launch Fast; Agent Central $39–159/mo; AI 'employees' $249–399/mo). US independent sellers averaged $375k/yr and 75k+ cleared $1M, so the audit pain scales with a huge base.",
+      "monetization": "Freemium SaaS or contingency on recovered FBA reimbursements (GETIDA charges 25% of recovered funds; profit dashboards $19–79/mo; ops agents $249–399/mo). A free audit funnel upsells into these proven price points.",
+      "evidence": [
+        "https://sellingpartners.aboutamazon.com/seller-assistant",
+        "https://www.indiehackers.com/post/tech/building-a-product-in-48-hours-and-hitting-30k-mrr-as-a-non-technical-founder-wWtWIH5tmwASUbxKaLT9",
+        "https://profasee.com/state-of-amazon-seller-operations-2026/",
+        "https://sellrbox.com/blog/top-7-ai-amazon-seller-tools-that-actually-make-you-more-profit",
+        "https://agentcentral.to/blog/ai-tools-for-amazon-sellers",
+        "https://www.pymnts.com/amazon/2026/amazon-sellers-gain-sales-and-cut-costs-with-ai-tools/"
+      ],
+      "how_searched": [
+        "Amazon official seller newsroom",
+        "Indie Hackers MRR interview",
+        "Benchmark report (Profasee State of Seller Ops 2026)",
+        "Tool marketplaces/pricing roundups",
+        "News (PYMNTS, GeekWire)"
+      ],
+      "score": 70.0,
+      "found_at": "2026-10-17T09:29:51.490502+00:00"
     },
     {
       "name": "Prescription price-comparison & savings tool",
@@ -5474,6 +5586,24 @@
       "found_at": "2026-10-17T04:51:51.371105+00:00"
     },
     {
+      "name": "Chat-Style, Local-AI Email Client",
+      "field": "Productivity / email",
+      "summary": "Rebuild email as a messenger: one clean chat thread per conversation (quotes/signatures stripped), todos and calendar pulled out of mail, unified Gmail/Outlook/IMAP inbox, and private on-device AI search/summarize/draft with no cloud sync.",
+      "why_now": "Talanoa ('email that feels like chat,' local AI, no cloud) pulled 328 Product Hunt votes on Oct 15, 2026; a minimalist one-sender-per-inbox email app launched on Show HN the same week; Exploding Topics shows Tuta Email search +7,400% over two years — a rare consumer email-client revival after a decade of stagnation.",
+      "monetization": "Freemium: free local inbox, paid pro tiers for multi-account, AI features and team features (standard email-client model; no public revenue figure found for the new wave — null).",
+      "evidence": [
+        "https://www.producthunt.com/leaderboard/daily/2026/10/15",
+        "https://explodingtopics.com/blog/trending-topics"
+      ],
+      "how_searched": [
+        "Product Hunt daily leaderboard (Oct 15, 2026)",
+        "Hacker News Show HN feed",
+        "Exploding Topics trending-topics list (Oct 2026)"
+      ],
+      "score": 41.3,
+      "found_at": "2026-10-17T09:29:52.128849+00:00"
+    },
+    {
       "name": "Video Library Semantic Search & Auto-Organizer",
       "field": "Video / media tooling",
       "summary": "A free web tool that indexes a creator's or team's video library so you can search it in natural language, get auto summaries, chapters, tags and clips across long footage.",
@@ -5540,6 +5670,23 @@
       ],
       "score": 40.0,
       "found_at": "2026-10-17T00:07:13.370005+00:00"
+    },
+    {
+      "name": "Luxury Dupe Finder (search a product → verified affordable alternatives)",
+      "field": "Consumer shopping / affiliate",
+      "summary": "Free web tool: paste or search any luxury/fashion/beauty item (The Row bag, Byredo fragrance, Aritzia coat) and get verified dupe alternatives with price gaps, side-by-side specs and buy links — filling a search demand that currently has almost no content supply.",
+      "why_now": "TikTok Creator Search Insights for the week to Sep 30, 2026 show 11 dupe-related typed searches holding ~1.49M searches/week while 10 of 11 had zero matching videos; 'the row dupe' grew +16,642% in one week and 'aritzia fall must haves 2026' +5,144% with no videos. Perfume, makeup and fashion dupes are the biggest identified open lane in TikTok product search.",
+      "monetization": "Affiliate commissions (retail/fragrance affiliate programs) plus optional 'dupe alert' premium; demand is proven by search counts, monetization is the standard shopping-affiliate model (revenue null until built).",
+      "evidence": [
+        "https://tokconnect.com/trends/products/october-2026/",
+        "https://explodingtopics.com/blog/trending-topics"
+      ],
+      "how_searched": [
+        "TikTok Creator Search Insights pull (via TokConnect monthly report)",
+        "Exploding Topics product-trend database"
+      ],
+      "score": 40.0,
+      "found_at": "2026-10-17T09:29:52.502753+00:00"
     },
     {
       "name": "YouTube Research & Channel-Analytics Copilot",
@@ -5657,57 +5804,6 @@
       ],
       "score": 36.7,
       "found_at": "2026-10-11T01:04:59.708114+00:00"
-    },
-    {
-      "name": "Compliance Automation (SOC 2 / Security Questionnaire)",
-      "field": "B2B SaaS / security compliance",
-      "summary": "A free starter web tool that helps startups generate SOC 2/ISO-ready policies, answer security questionnaires, and track control evidence. Rebuildable as an original web app with policy templates and a questionnaire-autofill engine.",
-      "why_now": "Compliance-automation startups are posting visible revenue and growth on open revenue leaderboards (e.g., Comp AI tracked at ~$482k revenue, +25%) as every B2B SaaS buyer now demands SOC 2. The category is expanding while incumbents remain expensive.",
-      "monetization": "Freemium: free policy generation, paid tiers for audit support/continuous monitoring; a tracked incumbent shows ~$482k revenue (+25%).",
-      "evidence": [
-        "https://www.arr.club/rankings/2026/10",
-        "https://hunted.space/top-products/2026/October/saas"
-      ],
-      "how_searched": [
-        "top SaaS by ARR October 2026",
-        "fastest growing SaaS products 2026"
-      ],
-      "score": 36.7,
-      "found_at": "2026-10-11T18:58:48.337580+00:00"
-    },
-    {
-      "name": "URL-to-Design-Tokens & AI Prompt Extractor",
-      "field": "Design / developer tooling",
-      "summary": "Paste any URL and get a free readout of its design system — colors with roles, type scale, spacing, corner radii — exported as design tokens and as one copy-paste prompt for coding agents.",
-      "why_now": "Siteprint launched Oct 5, 2026 charging $9.99 once for exactly this ('measure any website's design, hand it to your AI') and ranked #9 in Design Tools for October, reflecting the surge of vibe-coding agents that need precise design context from an existing site.",
-      "monetization": "Siteprint charges $9.99 one-time; free tool can monetize via pro exports or team licenses.",
-      "evidence": [
-        "https://www.producthunt.com/leaderboard/daily/2026/10/5",
-        "https://hunted.space/top-products/2026/October"
-      ],
-      "how_searched": [
-        "product launch sites",
-        "PH analytics trackers"
-      ],
-      "score": 36.7,
-      "found_at": "2026-10-17T00:07:16.610493+00:00"
-    },
-    {
-      "name": "Real-Time Meeting Term-Catch Companion",
-      "field": "Communication / meeting assistant",
-      "summary": "A lightweight companion that watches live captions in Google Meet/Zoom/Teams and instantly surfaces definitions, acronyms and context for terms a participant missed, without storing transcript notes.",
-      "why_now": "Hintly for Google Meet ('real-time hints for every term you miss') landed #6 on the Product Hunt daily leaderboard Oct 16, 2026, and a live translation/caption extension for Meet/Zoom/Teams/YouTube grew ~+11k users in 7 days (from ~9k to 20k) on Chrome.",
-      "monetization": null,
-      "evidence": [
-        "https://www.producthunt.com/leaderboard/daily/2026/10/16",
-        "https://extops.dev/extensions/trending"
-      ],
-      "how_searched": [
-        "product launch sites",
-        "Chrome extension growth trackers"
-      ],
-      "score": 34.0,
-      "found_at": "2026-10-17T00:07:16.903980+00:00"
     }
   ]
 }
