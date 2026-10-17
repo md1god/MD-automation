@@ -2071,6 +2071,25 @@
       "found_at": "2026-10-16T01:27:15.257617+00:00"
     },
     {
+      "name": "AI-Moderated Customer Research Studio",
+      "field": "Market research / voice AI",
+      "summary": "A free web tool that designs a discussion guide, runs AI-moderated voice/text interviews from your own audience or panel, and turns transcripts into themed reports and charts. Concept only: real adaptive interviews at scale, not simulated buyers.",
+      "why_now": "The category leader, Listen Labs, hit ~$30M annualized revenue and agreed to be acquired by Salesforce for a reported ~$2B (Oct 1, 2026), so the affordable standalone option is disappearing. Listen grew annualized revenue 15x in nine months and interviewed 1M+ people; competitors Simile and Ivo/Legora show investor appetite for automating research and review.",
+      "monetization": "Listener/competitors charge enterprise subscriptions; Listen Labs ~$30M annualized revenue and 15x 9-month growth; free tool monetizes via per-interview credits or team plan.",
+      "evidence": [
+        "https://techcrunch.com/2026/09/09/ai-research-startup-listen-labs-scrubbed-a-1-5b-funding-round-for-salesforce-talks/",
+        "https://siliconangle.com/2026/10/01/salesforce-to-acquire-ai-customer-research-startup-listen-labs-in-reported-2b-deal/",
+        "https://www.prnewswire.com/news-releases/listen-labs-raises-69-million-series-b-to-bring-customer-voices-into-every-decision-302661000.html"
+      ],
+      "how_searched": [
+        "news/funding trackers",
+        "product launch sites",
+        "market-research vendor pages"
+      ],
+      "score": 76.0,
+      "found_at": "2026-10-17T00:07:09.988907+00:00"
+    },
+    {
       "name": "Invoice & AP Automation (AI-First)",
       "field": "Fintech / B2B SaaS",
       "summary": "End-to-end invoice processing: email/file intake → AI extraction (line items, PO matching) → validation → ERP/accounting sync → approval workflow → payment — with KPI dashboards (cost/invoice, cycle time, touchless rate).",
@@ -2568,6 +2587,26 @@
       "found_at": "2026-10-14T22:45:52.706193+00:00"
     },
     {
+      "name": "Free AI Contract Risk Reviewer for SMBs & Freelancers",
+      "field": "Legal tech / contract review",
+      "summary": "Upload a contract (PDF/DOCX) and get plain-language risk flags, missing or unfair clauses, and suggested redlines with citations back to the exact clause. Aimed at freelancers and small firms priced out of per-seat legal AI.",
+      "why_now": "Legal AI is exploding: Spellbook is on track to $100M ARR with 4,000+ customers after tripling revenue; Ivo grew ARR 600% in a year with Fortune 500 adoption; Legora reached $200M ARR, more than doubling in under six months. A new low-cost contract agent (Dottr) also landed on Product Hunt Oct 16, showing the SMB lane is still open.",
+      "monetization": "Incumbents are quote-only, roughly $180-$300/seat/month (industry estimates, unconfirmed); Spellbook and Ivo sell enterprise seats. Free tier with paid per-contract or team plan.",
+      "evidence": [
+        "https://www.forbes.com.au/news/entrepreneurs/ai-contract-review-firm-ivo-raises-82m-series-b/",
+        "https://www.bvp.com/atlas/launching-ai-products-that-win-legora",
+        "https://universal.net/on-track-to-hit-100-million-usd-arr-spellbook-partners-with-canadian-bar-association/",
+        "https://www.producthunt.com/leaderboard/daily/2026/10/16"
+      ],
+      "how_searched": [
+        "VC/company blogs",
+        "news funding coverage",
+        "product launch sites"
+      ],
+      "score": 73.0,
+      "found_at": "2026-10-17T00:07:11.780527+00:00"
+    },
+    {
       "name": "LLM / agent spend & cost observability dashboard",
       "field": "Developer tools (LLMOps / FinOps)",
       "summary": "A free web tool that ingests API logs and shows cost per user, per feature, per model, plus latency, caching and runaway-agent alerts.",
@@ -2805,6 +2844,26 @@
       ],
       "score": 72.0,
       "found_at": "2026-10-16T07:15:26.973544+00:00"
+    },
+    {
+      "name": "Free AI Inbox Triage & Draft Assistant",
+      "field": "AI productivity / email",
+      "summary": "Connect Gmail/Outlook and a free web app summarizes, prioritizes and drafts replies in your own tone, plus auto meeting notes. The 'predict your next email' pattern, free and web-based.",
+      "why_now": "Fyxer AI grew from $1M to $32M+ ARR in 2025 on this exact use case, with 53% of AI drafts accepted unchanged and 90%+ 90-day retention; its press page shows $1M→$30M ARR in 2025 and $43M raised, and Ahrefs lists it among the fastest-growing SaaS by organic traffic (+330%).",
+      "monetization": "Fyxer ~ $35M ARR (Sacra, Feb 2026); consumers pay per-seat monthly subscriptions. Free tier + paid pro.",
+      "evidence": [
+        "https://www.fyxer.com/press",
+        "https://sacra.com/c/fyxer-ai/",
+        "https://openai.com/index/fyxer/",
+        "https://ahrefs.com/blog/top-saas-startups/"
+      ],
+      "how_searched": [
+        "open-startup/press pages",
+        "funding databases",
+        "SEO/traffic research"
+      ],
+      "score": 72.0,
+      "found_at": "2026-10-17T00:07:12.578708+00:00"
     },
     {
       "name": "Cookie-consent / privacy-compliance generator",
@@ -3137,6 +3196,25 @@
       ],
       "score": 70.0,
       "found_at": "2026-10-16T07:15:27.828375+00:00"
+    },
+    {
+      "name": "LLM API Bill & Overcharge Auditor",
+      "field": "AI dev infrastructure / FinOps",
+      "summary": "Paste your OpenAI/Anthropic/Gemini usage or connect a key and get a free audit showing failed/retried calls you paid for, cache misses, and cheaper model swaps, with an independent receipt of what you overpaid.",
+      "why_now": "Inferock launched Oct 14, 2026 on Product Hunt (401 upvotes) promising credits back for failed inference calls, and made Shareuhack's weekly Top 10; a rival proxy (Inferock-bench) generates 'what you were billed vs what you overpay' receipts. AI spend is ballooning as big teams run 'hundreds of thousands or millions of dollars' of LLM usage (Legora).",
+      "monetization": "Inferock sells serverless inference with credits; spend-management peers (e.g., Tropic) grew organic traffic +520% YoY. Free audit tool monetizes via usage fee or affiliate/credits.",
+      "evidence": [
+        "https://www.producthunt.com/leaderboard/daily/2026/10/14",
+        "https://www.shareuhack.com/en/posts/product-hunt-weekly-2026-10-15",
+        "https://hunted.space/top-products/2026/October"
+      ],
+      "how_searched": [
+        "product launch sites",
+        "weekly trend digests",
+        "PH analytics trackers"
+      ],
+      "score": 70.0,
+      "found_at": "2026-10-17T00:07:12.902262+00:00"
     },
     {
       "name": "Prescription price-comparison & savings tool",
@@ -4102,6 +4180,25 @@
       "found_at": "2026-10-11T14:06:21.665883+00:00"
     },
     {
+      "name": "Digital-Product Niche & Pricing Intelligence (Etsy/Pinterest)",
+      "field": "E-commerce seller tooling",
+      "summary": "A free web tool that cross-checks Pinterest trend spikes against Etsy demand and competition to surface 'openings' (demand minus competition), with average price and bestseller velocity for any keyword.",
+      "why_now": "Listadum's Oct 2026 report measured 249 Etsy keywords behind Pinterest trends and showed the gap is huge (only 2 were sweet spots); eRank's Q3 2026 data shows 'digital products' climbed to the #5 most-searched term on all of Etsy US (up from #84), and EtsyHunt publishes per-listing sales/revenue.",
+      "monetization": "Listadum, eRank and EtsyHunt sell subscriptions to sellers; a free tool can monetize via premium alerts or affiliate/upgrade tiers.",
+      "evidence": [
+        "https://www.listadum.com/blog/pinterest-trends-etsy-october-2026",
+        "https://help.erank.com/blog/top-etsy-searches-q3-2026/",
+        "https://ehunt.ai/best-selling-digital-downloads-on-etsy"
+      ],
+      "how_searched": [
+        "marketplace trend reports",
+        "keyword/ranking data sites",
+        "Etsy bestseller trackers"
+      ],
+      "score": 59.0,
+      "found_at": "2026-10-17T00:07:15.026145+00:00"
+    },
+    {
       "name": "AI agent cost observability dashboard",
       "field": "DevOps/AI infra",
       "summary": "A free web tool to track LLM/token spend, per-agent costs, and budgets across providers (OpenAI, Anthropic, Google) in one place.",
@@ -4389,6 +4486,25 @@
       ],
       "score": 56.7,
       "found_at": "2026-10-14T07:41:47.972909+00:00"
+    },
+    {
+      "name": "AI Frame-TV & Printable Wall-Art Studio",
+      "field": "Creator tools / digital art",
+      "summary": "A free web studio that generates curated, 4K Frame-TV-ready art and printable wall-art bundles (boho, vintage, seasonal) with matching mockups and marketplace-ready copy.",
+      "why_now": "One creator documented $35,734 across two Etsy shops selling AI-generated printable/Frame-TV art in a niche where 'digital products' is the #3 most-searched term on Etsy US; EtsyHunt shows active Frame-TV-art bestsellers and 'frame tv art' draws ~6,600 monthly searches, but the shelf is crowded with low-quality mass output — room for a taste/curation tool.",
+      "monetization": "Etsy digital downloads typically sell $2-$19 (prints $13-$18 documented); a free generator monetizes via premium packs or commercial-license credits.",
+      "evidence": [
+        "https://caitlingoesdigital.com/best-digital-product-to-sell-on-etsy/",
+        "https://ehunt.ai/research/best-etsy-frame-tv-art",
+        "https://www.rankhero.com/keywords/frame-tv-art"
+      ],
+      "how_searched": [
+        "creator case studies",
+        "Etsy bestseller trackers",
+        "keyword data sites"
+      ],
+      "score": 56.0,
+      "found_at": "2026-10-17T00:07:15.619225+00:00"
     },
     {
       "name": "AI interior-design / room-redesign web tool",
@@ -5205,6 +5321,23 @@
       "found_at": "2026-10-09T19:36:10.599355+00:00"
     },
     {
+      "name": "Video Library Semantic Search & Auto-Organizer",
+      "field": "Video / media tooling",
+      "summary": "A free web tool that indexes a creator's or team's video library so you can search it in natural language, get auto summaries, chapters, tags and clips across long footage.",
+      "why_now": "Jockey by TwelveLabs topped the Product Hunt daily leaderboard on Oct 16, 2026 as 'your entire video library, organized, searchable, understood,' and ranked #1 in the Productivity category for October — signaling rising demand for understanding large video libraries, not just generating new clips.",
+      "monetization": null,
+      "evidence": [
+        "https://www.producthunt.com/leaderboard/daily/2026/10/16",
+        "https://hunted.space/top-products/2026/October"
+      ],
+      "how_searched": [
+        "product launch sites",
+        "PH analytics trackers"
+      ],
+      "score": 40.7,
+      "found_at": "2026-10-17T00:07:13.107250+00:00"
+    },
+    {
       "name": "AI Character Companion (PG / Interactive Fiction)",
       "field": "Consumer AI / entertainment",
       "summary": "A free web app for PG-rated AI character chat and branching interactive fiction — custom personas, memory, and story arcs, explicitly non-adult. Rebuildable as an original web app on top of a hosted LLM API with your own character/scene system and safety filters.",
@@ -5237,6 +5370,23 @@
       ],
       "score": 40.0,
       "found_at": "2026-10-15T01:33:08.250275+00:00"
+    },
+    {
+      "name": "On-Device Private AI Money Manager",
+      "field": "Personal finance / on-device AI",
+      "summary": "A free, browser-based budgeting app where a small local model answers questions about your transactions with nothing leaving the device; import bank files, get plans, forecasts and explanations.",
+      "why_now": "Pulse Local launched on Show HN Oct 14, 2026, running its AI on-device for budgeting, explicitly because 'there is no endpoint to send to.' A Reddit analysis of 9,363 'I wish there was an app' posts found ~7% (640+ requests) explicitly asking for offline-first/privacy-focused tools amid subscription fatigue.",
+      "monetization": "Pulse Local uses a one-time payment with all features free; free tool can monetize via optional bank-sync or premium support.",
+      "evidence": [
+        "https://www.deephorus.com/blog/2026-10-14-show-hn-pulse-local-a-mac-budgeting-app-whose-ai-models-run-on-your-machine/",
+        "https://www.reddit.com/r/AppIdeas/comments/1q5mecg/i_analyzed_9300_i_wish_there_was_an_app_for_this/"
+      ],
+      "how_searched": [
+        "Hacker News Show HN coverage",
+        "Reddit demand analysis"
+      ],
+      "score": 40.0,
+      "found_at": "2026-10-17T00:07:13.370005+00:00"
     },
     {
       "name": "YouTube Research & Channel-Analytics Copilot",
@@ -5354,6 +5504,40 @@
       ],
       "score": 36.7,
       "found_at": "2026-10-11T18:58:48.337580+00:00"
+    },
+    {
+      "name": "URL-to-Design-Tokens & AI Prompt Extractor",
+      "field": "Design / developer tooling",
+      "summary": "Paste any URL and get a free readout of its design system — colors with roles, type scale, spacing, corner radii — exported as design tokens and as one copy-paste prompt for coding agents.",
+      "why_now": "Siteprint launched Oct 5, 2026 charging $9.99 once for exactly this ('measure any website's design, hand it to your AI') and ranked #9 in Design Tools for October, reflecting the surge of vibe-coding agents that need precise design context from an existing site.",
+      "monetization": "Siteprint charges $9.99 one-time; free tool can monetize via pro exports or team licenses.",
+      "evidence": [
+        "https://www.producthunt.com/leaderboard/daily/2026/10/5",
+        "https://hunted.space/top-products/2026/October"
+      ],
+      "how_searched": [
+        "product launch sites",
+        "PH analytics trackers"
+      ],
+      "score": 36.7,
+      "found_at": "2026-10-17T00:07:16.610493+00:00"
+    },
+    {
+      "name": "Real-Time Meeting Term-Catch Companion",
+      "field": "Communication / meeting assistant",
+      "summary": "A lightweight companion that watches live captions in Google Meet/Zoom/Teams and instantly surfaces definitions, acronyms and context for terms a participant missed, without storing transcript notes.",
+      "why_now": "Hintly for Google Meet ('real-time hints for every term you miss') landed #6 on the Product Hunt daily leaderboard Oct 16, 2026, and a live translation/caption extension for Meet/Zoom/Teams/YouTube grew ~+11k users in 7 days (from ~9k to 20k) on Chrome.",
+      "monetization": null,
+      "evidence": [
+        "https://www.producthunt.com/leaderboard/daily/2026/10/16",
+        "https://extops.dev/extensions/trending"
+      ],
+      "how_searched": [
+        "product launch sites",
+        "Chrome extension growth trackers"
+      ],
+      "score": 34.0,
+      "found_at": "2026-10-17T00:07:16.903980+00:00"
     }
   ]
 }
