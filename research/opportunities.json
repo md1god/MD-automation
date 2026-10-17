@@ -1178,6 +1178,27 @@
       "found_at": "2026-10-15T13:36:20.818364+00:00"
     },
     {
+      "name": "Google Merchant Center suspension & compliance scanner",
+      "field": "e-commerce / advertising compliance",
+      "summary": "A web tool that scans a Shopify (and WooCommerce/PrestaShop) store to find the policy, data and trust issues that get products disapproved or the whole account suspended in Google Merchant Center, then gives a prioritized fix list and an appeal draft.",
+      "why_now": "A GMC 'misrepresentation' suspension switches off all Google Shopping traffic overnight, so merchants pay to fix it fast and keep paying to stay clean. A cluster of paid products launched in 2026 (ClearCheck Jan 22, ShieldKit Mar 26, ShopFlix AI May 7, Merchant Guard Jun 8) plus several independent scanners, showing buyers, not just curiosity.",
+      "monetization": "A stealth operator is at ~$14,661 MRR from 239 subscriptions (~$61/mo average), +29.2% MRR in L30, ~90% margin, listed for sale at $175,000. ClearCheck charges $34.99–$99.99/mo (free tier, 5.0/5 from 7 reviews); Merchant Guard/ShieldKit $29/mo; GMCCheck sold at $29/fix.",
+      "evidence": [
+        "https://www.wlad.me/blog/companies/shopify-google-merchant-center-compliance-scanner",
+        "https://apps.shopify.com/gmc-compliance-tool",
+        "https://www.gmcsuspension.com/best-gmc-suspension-tools-2026.html",
+        "https://www.comingup.io/p/gmccheck-ai-agent-that-fixes-gmc-suspensions"
+      ],
+      "how_searched": [
+        "verified-revenue tracker (TrustMRR/Boring SaaS)",
+        "Shopify App Store listings",
+        "launch/review site",
+        "competitor comparison page"
+      ],
+      "score": 82.0,
+      "found_at": "2026-10-17T14:05:38.350811+00:00"
+    },
+    {
       "name": "AI SDR & Autonomous Sales Agents",
       "field": "Sales Tech / AI Automation",
       "summary": "AI agents that engage website visitors in real time, qualify leads, give personalized demos, handle objections, and book meetings — integrating with CRM and sales stacks for 24/7 pipeline generation.",
@@ -1482,6 +1503,27 @@
       ],
       "score": 80.0,
       "found_at": "2026-10-16T07:15:23.471744+00:00"
+    },
+    {
+      "name": "Cross-border duty / landed-cost & HS-code calculator",
+      "field": "e-commerce / trade compliance",
+      "summary": "A free browser tool that classifies a product to an HS code and estimates duty, VAT and total landed cost across US/UK/EU and other markets, showing the formula and rate source.",
+      "why_now": "The US $800 de minimis exemption was suspended Aug 2025 and made indefinite in June 2026 (statutory repeal July 2027); the EU's €150 exemption ended 1 July 2026; the UK ends its £135 relief in Oct 2028. Every cross-border parcel is now dutiable from the first dollar, so sellers urgently need HS codes and landed costs. Multiple new free tools (ClearTariff, TariffSnap, DutyGlobal, DutyCalc Online, Tandom) appeared to capture this.",
+      "monetization": "Free calculator as the acquisition hook, then paid upsells: TariffSnap sells a $59 full-catalog KEEP/KILL/REPRICE audit; ClearTariff is building a paid bulk-classification CSV/API tier; Zonos charges a $2,500/yr minimum + $2/order + 10% of duties.",
+      "evidence": [
+        "https://cleartariff.app/",
+        "https://www.tariffsnap.com/",
+        "https://www.federalregister.gov/documents/2026/06/24/2026-12670/indefinite-suspension-of-the-de-minimis-exemption-for-merchandise-arriving-through-all-modes-other",
+        "https://dutyglobal.com/",
+        "https://tandom.ai/resources/landed-cost-dtc-checkout-post-de-minimis"
+      ],
+      "how_searched": [
+        "regulation/news (Federal Register)",
+        "SEO-driven tool discovery",
+        "search engine"
+      ],
+      "score": 80.0,
+      "found_at": "2026-10-17T14:05:39.211825+00:00"
     },
     {
       "name": "Embeddable AI Agent / Copilot for SaaS",
@@ -2326,6 +2368,25 @@
       "found_at": "2026-10-14T22:45:51.058261+00:00"
     },
     {
+      "name": "Multi-AI chat history organizer, search & export",
+      "field": "productivity / AI utility",
+      "summary": "A web app or browser extension that adds folders, full-text search, a prompt library, bulk export and cross-device sync to chat history across ChatGPT, Gemini, Claude and Grok.",
+      "why_now": "Power users now run 3–4 assistants at once and lose work inside each silo. AI Toolbox grew from ~$2.9k/mo in May 2026 to ~$21.9k in Sept 2026, reached 47k monthly actives and 1,700 paying users, and won Product Hunt Sep 2026 — all with zero ad spend and ~93% margins.",
+      "monetization": "AI Toolbox charges $9.99/mo per platform, $59/platform/yr, $99/platform lifetime, $199 all-access lifetime, and teams from $12/seat/mo; ~$21.9k/mo with 1,700+ paying of ~47k MAU. A near-identical 'workspace for ChatGPT' built a ~350k-subscriber newsletter earning ~$100–150k/yr in sponsorships.",
+      "evidence": [
+        "https://trustmrr.com/startup/ai-toolbox",
+        "https://extwatch.com/blog/fastest-growing-chrome-extensions",
+        "https://aidevcases.com/en/cases/superpower-chatgpt"
+      ],
+      "how_searched": [
+        "verified-revenue tracker (TrustMRR)",
+        "Chrome Web Store data analysis",
+        "founder case study"
+      ],
+      "score": 75.0,
+      "found_at": "2026-10-17T14:05:40.412106+00:00"
+    },
+    {
       "name": "Chat-first personal AI assistant (web app)",
       "field": "Consumer AI / personal agents",
       "summary": "A free web tool where users text or type tasks (research, organise, shop/reserve, schedule) to a personal agent that does them end-to-end in the browser.",
@@ -2954,6 +3015,25 @@
       "found_at": "2026-10-17T09:29:49.241624+00:00"
     },
     {
+      "name": "Interactive video (in-video quiz) builder for training",
+      "field": "edtech / L&D software",
+      "summary": "A web tool that turns any video into an interactive lesson with questions, branching, hotspots and per-viewer completion/score reports, embeddable in an LMS.",
+      "why_now": "The interactive-video software market was valued at ~$7.4B in 2025 and is projected to reach ~$22.6B by 2034 at 13.2% CAGR, with corporate training alone over $1.8B in 2025. Incumbents (Mindstamp, H5P, Panopto, Kaltura) all ship quizzes in-video, and a bootstrapped single-person product is doing ~$47k MRR.",
+      "monetization": "A stealth interactive-video operator runs ~$47,004 MRR from 219 subs (~$215/mo average), +26% L30 revenue, ~90% margin, listed at $2.1M. Mindstamp publishes Basic $99 / Core $299 / Pro $499 / Scale $999 / Ultra $2,499 per month; H5P.com is $1,560/yr for 3 authors.",
+      "evidence": [
+        "https://www.wlad.me/blog/companies/interactive-video-software",
+        "https://dataintelo.com/report/global-interactive-video-software-market",
+        "https://mindstamp.com/vs/h5p"
+      ],
+      "how_searched": [
+        "verified-revenue tracker",
+        "market-research report",
+        "vendor comparison page"
+      ],
+      "score": 72.0,
+      "found_at": "2026-10-17T14:05:41.203061+00:00"
+    },
+    {
       "name": "Cookie-consent / privacy-compliance generator",
       "field": "Privacy compliance / web tooling",
       "summary": "Scan a site, detect trackers, generate a compliant cookie banner plus cookie/privacy policy, and block non-essential scripts before consent. A free generator for the long tail of small sites that big CMPs ignore.",
@@ -3578,6 +3658,27 @@
       ],
       "score": 68.0,
       "found_at": "2026-10-16T01:27:24.178441+00:00"
+    },
+    {
+      "name": "Client-side e-invoice & qualified-signature envelope viewer/validator",
+      "field": "fintech / invoice compliance",
+      "summary": "A browser tool that opens and verifies legally-signed e-invoice and document envelopes (Italy/Romania .p7m CAdES, PEC attachments) and validates EU structured formats (Factur-X / UBL / XRechnung), converting to PDF entirely on-device with no upload.",
+      "why_now": "A huge e-invoicing mandate wave is landing now: France went live 1 Sept 2026, Germany starts Jan 2027, Poland/Belgium are live in 2026, Spain 2027–28 and EU ViDA in 2030. Ordinary businesses suddenly receive signed, structured invoices they cannot open, exactly the wedge the Italian .p7m opener proved.",
+      "monetization": "P7M.io (DocKit) charges €3.99 per document, €12.99–€15.99/yr and €24.99 lifetime, has 3,297 paid orders, ~40,000 organic clicks/month, ~$4,604 in L30 revenue and zero staff; listed for sale at $120,000.",
+      "evidence": [
+        "https://p7m.io/",
+        "https://www.wlad.me/blog/companies/p7m-io-italian-digital-signature-reader",
+        "https://www.ey.com/content/dam/ey-unified-site/ey-com/en-gl/technical/tax-guides/documents/ey-gl-e-invoicing-development-tracker.pdf",
+        "https://www.avalara.com/us/en/simplify/e-invoicing-hub.html"
+      ],
+      "how_searched": [
+        "product site",
+        "verified-revenue tracker",
+        "regulation trackers (EY, Avalara)",
+        "government source"
+      ],
+      "score": 68.0,
+      "found_at": "2026-10-17T14:05:41.633670+00:00"
     },
     {
       "name": "AI paid-media management agent (multi-channel ads)",
@@ -4490,6 +4591,27 @@
       "found_at": "2026-10-16T07:15:21.587625+00:00"
     },
     {
+      "name": "Vending-machine location marketplace",
+      "field": "marketplace / small business",
+      "summary": "A two-sided marketplace listing available commercial spaces (retail, office, gym, warehouse) so independent vending-machine operators can find locations and property owners can earn passive rent.",
+      "why_now": "Founded April 2026, it passed 640 registered operators at 15–20 signups/day, grew inventory to 35,000+ locations across 289 US cities, and reported +30–46% month-over-month revenue — evidence that a fragmented, cold-outreach-driven market is shifting to a marketplace.",
+      "monetization": "Operators pay a $69/mo subscription ($19 at launch). Verified $3,292 MRR from 128 active subscriptions, ~$12,487 in L30 and ~$40,689 all-time; a tracker logged ~$12,389 L30 with +30.6% 30-day growth.",
+      "evidence": [
+        "https://trustmrr.com/startup/vendplacer",
+        "https://liststartup.in/business/vendplacer",
+        "https://vibecrowd.ai/projects/vendplacer",
+        "https://www.accessnewswire.com/newsroom/en/business-and-professional-services/vendplacer-surpasses-640-vending-operators-as-its-marketplace-fo-1204987"
+      ],
+      "how_searched": [
+        "verified-revenue tracker",
+        "startup trackers",
+        "press release",
+        "trade news (Vending Times)"
+      ],
+      "score": 58.0,
+      "found_at": "2026-10-17T14:05:45.583134+00:00"
+    },
+    {
       "name": "Accessibility AI assistant web app",
       "field": "Accessibility/HealthTech",
       "summary": "A free web app providing AI-powered visual/description assistance for blind/low-vision users (object description, text reading, scene understanding).",
@@ -4635,6 +4757,26 @@
       ],
       "score": 56.0,
       "found_at": "2026-10-17T04:51:48.628474+00:00"
+    },
+    {
+      "name": "Paid research-study & focus-group aggregator",
+      "field": "consumer / directory subscription",
+      "summary": "A subscription feed that pulls high-paying online studies, focus groups and research interviews from many firms into one filterable list with alerts.",
+      "why_now": "Launched Jan 2026, it reached 694 subscriptions and ~$5.2k MRR in months with 100% organic growth from viral short video, and an independent competitor (EarnStudies, $6.99/mo) shows the aggregator model is repeatable. Legitimate studies pay $50–$150 for 30–90 minutes, giving the list real value.",
+      "monetization": "Subscription access to the curated feed (one comparable directory lists at ~$125/mo; EarnStudies is $6.99/mo). StudyScout: ~$5,174 MRR from 694 subs, ~69% margin, ~$80k+ lifetime with a best month around $15k, listed for sale at $70,000.",
+      "evidence": [
+        "https://trustmrr.com/startup/studyscout",
+        "https://www.wlad.me/blog/companies/studyscout",
+        "https://buildradar.leapd.ai/studyscout",
+        "https://earnstudies.com/blog/best-paid-focus-group-sites"
+      ],
+      "how_searched": [
+        "verified-revenue tracker",
+        "tracker/blog",
+        "competitor directory"
+      ],
+      "score": 56.0,
+      "found_at": "2026-10-17T14:05:46.558585+00:00"
     },
     {
       "name": "AI interior-design / room-redesign web tool",
@@ -5687,123 +5829,6 @@
       ],
       "score": 40.0,
       "found_at": "2026-10-17T09:29:52.502753+00:00"
-    },
-    {
-      "name": "YouTube Research & Channel-Analytics Copilot",
-      "field": "Creator economy tooling",
-      "summary": "A free web/extension tool that helps long-form YouTube creators find outliers, analyze keywords/thumbnails/titles, and track competitor channel performance. Rebuildable as an original app using public YouTube metadata.",
-      "why_now": "YouTube research/analytics extensions are among the fastest-growing in the Chrome Web Store (e.g., Nexlev adding ~100k users/week on the growing list), signaling strong, sustained creator demand for cheaper in-house alternatives to paid research suites.",
-      "monetization": "Freemium extension/web app (free research, paid exports/alerts); specific competitor pricing not verified (null).",
-      "evidence": [
-        "https://extensiontracker.com/top/growing",
-        "https://extops.dev/extensions/trending"
-      ],
-      "how_searched": [
-        "Chrome extension trending 2026",
-        "fast-growing Chrome extensions list"
-      ],
-      "score": 38.7,
-      "found_at": "2026-10-11T18:58:47.553123+00:00"
-    },
-    {
-      "name": "Go-live-on-Instagram-from-desktop RTMP relay",
-      "field": "Creator tools / live streaming",
-      "summary": "A web service that issues an RTMP URL and stream key so creators can broadcast an Instagram Live from desktop software (OBS, vMix, Restream) instead of only the phone app.",
-      "why_now": "RTMP.IN is Stripe-verified at ~$6,051 MRR, ~$764,883 all-time revenue and ~90% L30 margin, and Instagram still only allows native live streaming from the phone app, so the workaround has durable demand.",
-      "monetization": "Subscription (verified recurring revenue in the comparable).",
-      "evidence": [
-        "https://rtmp.in/",
-        "https://www.wlad.me/blog/2026-10-08"
-      ],
-      "how_searched": [
-        "product site",
-        "open-revenue blog"
-      ],
-      "score": 38.7,
-      "found_at": "2026-10-17T04:51:51.577224+00:00"
-    },
-    {
-      "name": "Free Tabletop/TTRPG Campaign & Pledge Tracker (web)",
-      "field": "Gaming / tabletop & crowdfunding",
-      "summary": "A free web tool for tabletop and TTRPG players: track your crowdfunding pledges and total spend across campaigns, manage a board-game/TTRPG collection, and get a calendar of campaign closing dates so you don't miss late pledges. Crowdfunding for tabletop is enormous but there's no dominant free cross-platform tracker.",
-      "why_now": "Tabletop games are a perennial crowdfunding juggernaut (hundreds of millions pledged across ~90k+ Kickstarter games projects; single tabletop campaigns routinely raise $15-27M), and organized-play/TTRPG audiences keep growing. Pledges are spread across Kickstarter, Gamefound, and late-pledge pages with no unified free tracker, so a lightweight browser tool that consolidates budget, collection, and closing-date alerts maps directly to a known pain.",
-      "monetization": "Free tracker; pro for collection valued exports, price alerts, and campaign-closing notifications; affiliate links to campaigns/retail.",
-      "evidence": [
-        "https://www.kickstarter.com/ — platform stats: games category ~93,756 projects and ~$2.63B pledged (category scale)",
-        "https://www.statista.com/statistics/1330795/kickstarter-most-funded-tabletop-games/ — most-funded tabletop games incl. campaigns in the $15M-$27M range, showing recurring multi-million-dollar tabletop demand"
-      ],
-      "how_searched": [
-        "Web search for 'tabletop games crowdfunding stats 2026 Kickstarter'",
-        "Checked Kickstarter category stats and Statista most-funded tabletop games",
-        "Cross-checked category totals via trade coverage (ICv2)"
-      ],
-      "score": 38.0,
-      "found_at": "2026-10-15T22:22:25.002540+00:00"
-    },
-    {
-      "name": "Promo-code finder & price-drop tracker",
-      "field": "E-commerce savings",
-      "summary": "Free web tool where you paste a product URL and get working promo codes (community-submitted plus store feeds), price history and drop alerts — a no-signup coupon/price tracker in the Honey mold, rebuilt as an independent site.",
-      "why_now": "US free-app charts on Oct 7-8, 2026 show deal tools surging ahead of the holiday season: DealSeek at #7 on Android (up 28), Koupon and Capital One Shopping in the top 30 (Capital One Shopping brand-new to the chart), and Freecash at #5 on iPhone — seasonal demand is spiking right now.",
-      "monetization": "Affiliate commissions on purchases (established cashback/affiliate rev-share model), merchant-funded placement of verified codes, premium price-drop alerts.",
-      "evidence": [
-        "https://appinsider.io/top-charts/us/all/free",
-        "https://appstorestatistics.com/charts/us/top-free"
-      ],
-      "how_searched": "Pulled current US top-free app charts from two independent chart trackers and looked specifically for coupon/deal/price-tracking apps and their rank movement.",
-      "score": 37.3,
-      "found_at": "2026-10-08T10:47:47.837504+00:00"
-    },
-    {
-      "name": "Open-Source SEO / Keyword & Backlink Research Tool (OpenSEO-model)",
-      "field": "Marketing - SEO research software",
-      "summary": "A free, open-source web alternative to paid SEO suites: keyword research, difficulty scoring, SERP inspection and backlink/gap analysis, with data export for content planning.",
-      "why_now": "An open-source 'Semrush alternative' surfaced near the top of Product Hunt's October 2026 daily charts, showing demand for a free substitute to expensive subscriptions. Independent of the AI-visibility/GEO category, this covers classic keyword and backlink workflows.",
-      "monetization": "Free open-source core; paid hosted data-refresh, larger keyword quotas, API access and team seats; affiliate/lead-gen for SEO services.",
-      "evidence": [
-        "https://www.openseo.so/",
-        "https://www.producthunt.com/leaderboard/monthly/2026/10"
-      ],
-      "how_searched": [
-        "Source kind: vendor product site (OpenSEO)",
-        "Source kind: launch leaderboard (Product Hunt monthly 2026/10)"
-      ],
-      "score": 37.3,
-      "found_at": "2026-10-09T19:36:12.309501+00:00"
-    },
-    {
-      "name": "Browser voice-dictation / hands-free writing tool",
-      "field": "Consumer productivity / voice AI",
-      "summary": "A free on-device web tool that turns speech into formatted, cleaned-up text (removing filler words, auto-punctuating) for emails, prompts and chat apps.",
-      "why_now": "AI voice/dictation keeps launching with real traction: Willow Voice (Product Hunt top-10 Oct 6, 'thousands of users daily, replacing up to 90% of typing'), Increible voice computer-control (top-5 Oct 6), and Plaud was #16 on consumer AI spending while voice players like ElevenLabs sit #10 in spend.",
-      "monetization": "Subscription (Willow/Incredible subscription pricing); async voice revenue is red-hot across the a16z consumer-AI spend list.",
-      "evidence": [
-        "https://www.producthunt.com/leaderboard/daily/2026/10/6",
-        "https://www.a16z.news/p/top-100-consumer-ai-apps-seventh"
-      ],
-      "how_searched": [
-        "launch site (Product Hunt)",
-        "VC/market report (a16z Top 100)",
-        "web search engine"
-      ],
-      "score": 36.7,
-      "found_at": "2026-10-07T23:12:54.127848+00:00"
-    },
-    {
-      "name": "Local/open-source Lightroom-style AI photo editor",
-      "field": "Creative tools / Photography / Local AI",
-      "summary": "Free, on-device RAW photo editor: Lightroom-style controls, AI masks/denoise/upscale, edits saved as portable XMP sidecars, imports Lightroom catalogs - no subscription, no account, no cloud. Rebuildable as web tool (WebGPU-based editor exists as a model), though the current hits are desktop apps.",
-      "why_now": "Strong recent HN traction: 'Rembrandt' Show HN (Oct 8, 2026) - GPL-3.0, cross-platform, on-device AI, self-hostable server mode; sibling project RAWmakase hit 923 stars in ~15 days; 'software is over'/subscription-fatigue discourse (Ars Technica, Oct 7, 2026). Photographers are actively looking to escape Lightroom's subscription + catalog lock-in, and local-AI editing is a fresh technical angle.",
-      "monetization": "Free/GPL; optional paid cloud sync (the model Rembrandt uses); donations; enterprise/studio hosting add-ons.",
-      "evidence": [
-        "https://deniz.in/rembrandt-free-open-source-lightroom-alternative-with-on-device-ai-hits-macos-wi",
-        "https://www.briefflash.com/rembrandt-open-source-lightroom-alternative/"
-      ],
-      "how_searched": [
-        "Web search: 'Show HN' free open source Lightroom alternative photo editor 2026"
-      ],
-      "score": 36.7,
-      "found_at": "2026-10-11T01:04:59.708114+00:00"
     }
   ]
 }
