@@ -269,6 +269,33 @@
       "found_at": "2026-10-15T18:32:16.674838+00:00"
     },
     {
+      "name": "Free AI stem-splitter & vocal-remover web studio",
+      "field": "Music creator tools",
+      "summary": "Original free web tool that separates songs into vocals/drums/bass/stems (karaoke, practice, remix) using open-source separation models, with optional credits for heavy export — the unmix counterpart to known AI music generators.",
+      "why_now": "Category demand is enormous and rising: 'vocal remover' holds ~90,500 monthly searches and 'stem splitter' ~12,100 (+49% YoY) on Rising Trends; vocalremover.org alone gets ~10.7M monthly visits and Moises ~4.2M (SeekTool, Aug 2026). Moises is on a16z's Oct 2026 Top 100 Gen AI consumer list with ~$16M ARR, 70–80M registered users, and ~$1.4M/month app-store IAP (Sep 2026).",
+      "monetization": "Freemium subscriptions and pay-as-you-go credits: Moises Premium $5.99/mo / Pro $29.99; Lalal.ai ~$2.6M ARR; StemSplit $0.10/min PAYG; category market est. ~$542–593M in 2025–26 growing ~9% CAGR. A free original web front-end with export credits can take the same path.",
+      "evidence": [
+        "https://www.risingtrends.co/trends/ai-trends-2026",
+        "https://seektool.ai/ranking/categories/ai_stems_splitter",
+        "https://www.arr.club/moises",
+        "https://www.alphamoat.ai/en/app/moises-8802531",
+        "https://a16z.com/100-gen-ai-apps-7/",
+        "https://www.unmixlabs.com/breakdown",
+        "https://www.360iresearch.com/library/intelligence/vocal-remover"
+      ],
+      "how_searched": [
+        "search-trend database (Rising Trends)",
+        "tool-traffic leaderboard (SeekTool)",
+        "open-ARR tracker (ARR Club)",
+        "app-store revenue tracker (AlphaMoat)",
+        "a16z consumer-AI report",
+        "competitive market breakdown",
+        "market-research report"
+      ],
+      "score": 88.0,
+      "found_at": "2026-10-17T22:26:27.272374+00:00"
+    },
+    {
       "name": "Retro digicam / film-camera filter web app (Y2K & CCD look)",
       "field": "Consumer photo / creator tools",
       "summary": "A browser tool that turns any photo or video into the grainy, flash-heavy, early-2000s 'digicam/CCD' look using preset film stocks, light leaks, date stamps and scans — no app install.",
@@ -904,6 +931,29 @@
       "found_at": "2026-10-17T09:29:30.366135+00:00"
     },
     {
+      "name": "Free open-source SEO research suite (keyword, audit, backlinks)",
+      "field": "Marketing / SEO tools",
+      "summary": "Original free-or-cheap web suite for keyword research, rank tracking, site audits and backlinks — a grassroots alternative to $100+/mo Semrush/Ahrefs, optionally MCP-connected for AI agents (new code and brand, not a fork of any hosted product).",
+      "why_now": "OpenSEO (YC) proved the wedge in 2026: 'open source Semrush alternative' hit Product Hunt #1 of the Day (Oct 8) with 411 votes and ~23.7K GitHub stars; its pitch is $10/mo vs $100+ tools. Macro demand is climbing too: Exploding Topics shows 'programmatic SEO' +2,050% and 'AI SEO' +5,900% 5-year growth, while Semrush public revenue still grows only ~17.7% YoY — price resentment + agent-era SEO is an open flank.",
+      "monetization": "Hosted freemium (OpenSEO lists $10/mo hosted vs bring-your-own data API keys), self-host free tier, agency seats; Semrush/Ahrefs show the ceiling ($100+/mo per seat, SEMR ~$3.6B-scale business). Free core + paid API credits is the proven indie shape.",
+      "evidence": [
+        "https://www.producthunt.com/leaderboard/monthly/2026/10",
+        "https://github.com/every-app/open-seo",
+        "https://openseo.so/",
+        "https://explodingtopics.com/blog/trending-topics",
+        "https://saasdb.app/benchmarks/revenue-growth/"
+      ],
+      "how_searched": [
+        "Product Hunt monthly leaderboard",
+        "GitHub star/fork counts",
+        "product docs & pricing page",
+        "search-trend database (Exploding Topics)",
+        "public SaaS revenue benchmarks"
+      ],
+      "score": 84.0,
+      "found_at": "2026-10-17T22:26:29.060572+00:00"
+    },
+    {
       "name": "Self-Hosted Workflow Automation for AI Agents (n8n-style)",
       "field": "DevTools / AI Infrastructure",
       "summary": "Fair-code / open-source workflow automation platform that technical teams self-host for free (unlimited executions) to build AI agent pipelines, RAG, and multi-step automations — with paid cloud/enterprise for governance, SSO, and managed infrastructure.",
@@ -1221,6 +1271,27 @@
       ],
       "score": 82.0,
       "found_at": "2026-10-17T14:05:38.350811+00:00"
+    },
+    {
+      "name": "Free vibe-forward event invite, RSVP & party ticketing site",
+      "field": "Social events / consumer",
+      "summary": "Original free web platform for creating party invites, RSVPs, guest chat and optional paid tickets — the Partiful-shaped need (shareable links, explore feed, small paid events) rebuilt with new design and brand.",
+      "why_now": "Partiful is a category-defining hit still accelerating: ~30.2M estimated monthly web visits (+13.9% in 3 months, Jul 2026), 4.3M downloads in the trailing year, millions of MAUs, and Exploding Topics '99x+' growth; it only launched its first monetization (in-app ticketing) in June 2026 (WIRED/Verge/Business Insider). Hosts still lack a neutral, free, web-first alternative once Apple Invites and Partiful define the UX.",
+      "monetization": "Ticket take-rate (~10–15%, Partiful example: $7 fee on a $50 ticket), freemium themes/graphics, group-order commerce cuts, promoted explore listings; adjacent Slides With Friends shows event-loop products can clear $40K+ MRR.",
+      "evidence": [
+        "https://www.theverge.com/report/960635/partiful-app-event-planning-data-palantir",
+        "https://www.systemaic.com/teardowns/partiful",
+        "https://www.wired.com/story/partiful-is-putting-ticket-payments-on-its-platform/",
+        "https://www.cnbc.com/2025/04/19/meet-partiful-the-gen-z-party-planning-staple-thats-taking-on-apple.html",
+        "https://explodingtopics.com/blog/trending-topics"
+      ],
+      "how_searched": [
+        "web-traffic teardown (Systemaic)",
+        "news investigation (The Verge, WIRED, CNBC)",
+        "launch-trend database (Exploding Topics)"
+      ],
+      "score": 82.0,
+      "found_at": "2026-10-17T22:26:31.552885+00:00"
     },
     {
       "name": "AI SDR & Autonomous Sales Agents",
@@ -1571,6 +1642,27 @@
       "found_at": "2026-10-17T14:05:39.211825+00:00"
     },
     {
+      "name": "Free photo-based coin identifier & value checker (web)",
+      "field": "Collectibles / hobbies",
+      "summary": "Original free web tool: upload a coin photo, get type/year/mint, rarity and market value ranges, plus a simple collection lister — the known-proven 'point camera at object → AI ID + value' pattern applied to coins.",
+      "why_now": "The category is quietly printing money right now: CoinSnap and CoinIn are each estimated at ~$300k/month from ~200k downloads/mo (Peekly, Oct 2026), HeriBase ~$60k/mo, AI CoinScan ~$80k/mo; Sensortower-based analysis put CoinSnap near ~$1M/mo iOS alone (Apr 2026). Indie Buck also reported $6K MRR in the Shipaton write-ups. Willingness to pay is high because the alternative is endless forum scrolling.",
+      "monetization": "Freemium scans + subscription unlocks (~$5–10/mo typical in category IAP), value-report upsells, affiliate links to marketplaces; multiple apps each clearing $60k–$300k/mo proves the funnel.",
+      "evidence": [
+        "https://peekly.app/apps/b2a8f3b0-6a15-44e8-8ff9-612244b2c619",
+        "https://peekly.app/apps/05dbef53-8125-41c8-ac0a-5b9756c3a35b",
+        "https://peekly.app/apps/c8463e76-d8be-4cde-982b-ebd10fca699f",
+        "https://www.mejba.me/blog/niche-mobile-apps-claude-code-react-native",
+        "https://www.indiehackers.com/post/i-went-through-all-3-336-shipaton-2026-projects-about-1-in-100-said-what-they-earned-275a9527ad"
+      ],
+      "how_searched": [
+        "app-store revenue intelligence (Peekly)",
+        "marketplace teardown essay with Sensortower figures",
+        "Shipaton revenue census (Indie Hackers)"
+      ],
+      "score": 80.0,
+      "found_at": "2026-10-17T22:26:33.018235+00:00"
+    },
+    {
       "name": "Embeddable AI Agent / Copilot for SaaS",
       "field": "DevTools / SaaS Infrastructure",
       "summary": "Drop-in AI agent (one line of code) that lets end-users control any SaaS via natural language — turning clicks into conversations, with scoped permissions, audit logs, and model-agnostic deployment.",
@@ -1879,6 +1971,29 @@
       ],
       "score": 78.0,
       "found_at": "2026-10-17T09:29:32.188858+00:00"
+    },
+    {
+      "name": "Camera-roll digital closet & AI outfit planner (web)",
+      "field": "Fashion / e-commerce",
+      "summary": "Original free web app that builds a digital wardrobe from uploaded photos/screenshots, plans weekly outfits, and try-ons you already own — the Aesty 'no manual upload' wedge, rebuilt for the browser.",
+      "why_now": "Aesty hit payment-verified $10,064 MRR (RevenueCat/TrustMRR, late Sep 2026) with 688 paying subs and ~60K users after making closet auto-import the viral feature (1.7M organic views). Macro: 'AI try-on' searches +376% on Rising Trends (Oct 2026 radar) and the virtual try-on market is ~$12–15B in 2025–26 growing ~26% CAGR; Zalando reported Size&Fit AI cut size-related returns >8%.",
+      "monetization": "Weekly/annual freemium subscriptions (Aesty ~$10/wk to ~$50–80/yr tiers; ARPAS ~$9.85), styling credits, retailer affiliate links on 'what to buy to complete the look'; category ARPU already ~$10/mo at small scale.",
+      "evidence": [
+        "https://ideawave.io/startup/aesty",
+        "https://trustmrr.com/startup/aesty",
+        "https://hackermrr.com/stories/aesty-from-manual-wardrobe-entry-to-10k-mrr",
+        "https://www.risingtrends.co/trends/ai-trends-2026",
+        "https://www.mordorintelligence.com/industry-reports/virtual-try-on-market",
+        "https://www.researchandmarkets.com/reports/6033255/virtual-try-on-technology-market-report"
+      ],
+      "how_searched": [
+        "open-startup / RevenueCat revenue trackers",
+        "maker growth story interview",
+        "search-trend radar (Rising Trends)",
+        "industry market-size reports (Mordor, Research and Markets)"
+      ],
+      "score": 78.0,
+      "found_at": "2026-10-17T22:26:34.828800+00:00"
     },
     {
       "name": "Browser Extension AI Productivity Tools",
@@ -2263,6 +2378,31 @@
       ],
       "score": 76.0,
       "found_at": "2026-10-17T09:29:48.262249+00:00"
+    },
+    {
+      "name": "Mahjong beginner coach, hand analyzer & local club finder",
+      "field": "Hobby / social games",
+      "summary": "Original free web tool for the mahjong boom: interactive lessons, NMJL-style hand matching and Charleston help, plus a directory of local clubs/tables — software plus community, not a clone of existing play apps.",
+      "why_now": "Mahjong is a 2026 breakout offline hobby going digital: Google (Jul 2026) reports 'mahjong for beginners' +230% YoY and 'mahjong lessons near me' doubling since January; Yelp logged +4,467% mahjong-club searches; Oh My Mahjong passed $30M annual revenue (+360% YoY, company-reported). Vita Mahjong is #6 top-free US iPhone game in Oct 2026 with ~2.8M downloads/30 days (AppTrendKit), and ~1.8M Americans played on Mahjong 4 Friends in a year (Deseret News).",
+      "monetization": "Freemium lesson packs, club organizer SaaS fees (Bam Good Time-style), premium tile/design marketplace affiliate, class/event booking fees; Oh My Mahjong's $30M/yr shows ecosystem spend, and MAHJ-style $4.99 unlocks prove paid learning.",
+      "evidence": [
+        "https://blog.google/products-and-platforms/products/search/touch-grass-trends/",
+        "https://www.cnn.com/2026/09/19/business/mahjong-is-exploding-in-popularity-but-does-it-defeat-the-purpose-of-the-game",
+        "https://www.deseret.com/lifestyle/2026/08/15/women-are-obsessed-with-mahjong-america/",
+        "https://www.apptrendkit.com/most-downloaded-apps/us/2026-10",
+        "https://www.startupheist.com/mahjong-for-beginners-5k-15k-a-month-in-dead-venue-hours/",
+        "https://mahjong4friends.com/guides/best-mahjong-app"
+      ],
+      "how_searched": [
+        "Google Trends deep-dive blog",
+        "news feature (CNN)",
+        "lifestyle investigation (Deseret News)",
+        "US App Store download chart (AppTrendKit)",
+        "local-business opportunity analysis",
+        "app comparison guide"
+      ],
+      "score": 76.0,
+      "found_at": "2026-10-17T22:26:38.259657+00:00"
     },
     {
       "name": "Invoice & AP Automation (AI-First)",
@@ -2687,6 +2827,25 @@
       ],
       "score": 74.0,
       "found_at": "2026-10-17T17:18:19.921027+00:00"
+    },
+    {
+      "name": "Artistic scannable AI QR code generator with dynamic analytics",
+      "field": "Marketing utilities",
+      "summary": "Original free web generator that blends prompts/brand art into still-scannable QR codes, plus editable destinations and scan analytics — a new brand in the proven 'ugly QR → beautiful trackable QR' niche.",
+      "why_now": "QR Code AI (Stripe-verified via TrustMRR) sustains ~$14.9–16K MRR, ~1,485 active subs, ~$323K all-time revenue, and ~3.44M Google impressions/30 days as of Oct 2026 — years after the viral moment, demand is structural (menus, packaging, events). Two-person studio economics show the niche is still winnable with better UX and free tier.",
+      "monetization": "Freemium generation credits, dynamic-code subscriptions, bulk/API for agencies, 30% lifetime affiliate program; ~$11 MRR/sub observed on the comparable product.",
+      "evidence": [
+        "https://trustmrr.com/startup/qr-code-ai",
+        "https://milestonewins.com/stories/qrcode-ai-story/",
+        "https://www.sofarbot.com/stories/qr-code-ai-nicolas-cella-15636-mrr"
+      ],
+      "how_searched": [
+        "Stripe-verified MRR tracker (TrustMRR)",
+        "indie success-story coverage",
+        "long-form revenue chronology with GSC data"
+      ],
+      "score": 74.0,
+      "found_at": "2026-10-17T22:26:39.095343+00:00"
     },
     {
       "name": "Personal data-broker opt-out & removal-request generator",
@@ -3164,6 +3323,27 @@
       "found_at": "2026-10-17T14:05:41.203061+00:00"
     },
     {
+      "name": "Live interactive trivia & party-game slide builder (web)",
+      "field": "Events / edutainment",
+      "summary": "Original free web builder for live group games — trivia, icebreakers, polls, word clouds — where audiences join from their phones during an in-person or remote gathering; freemium by audience size.",
+      "why_now": "Slides With Friends proved a two-founder freemium 'audience plays along' product crossed $40K+ MRR (disclosed Aug 2026 via Indie Hackers), and its growth loop is exactly the events resurgence: every hosted night demos the product to new users. Fits the same 2026 offline-social boom as Partiful/run clubs (Google 'touch grass' report) without needing VC.",
+      "monetization": "Free up to ~10 players; Starter ~$8/mo yearly, Pro ~$24/mo yearly for larger audiences, branding, analytics; org/enterprise decks. Comparable product ~$40K MRR on annual-only billing.",
+      "evidence": [
+        "https://www.indiehackers.com/post/tech/hitting-40k-mrr-with-bottom-of-funnel-content-until-ai-search-forced-her-to-change-tactics-4OPu0F9zFGfb3tEJFvrx",
+        "https://www.starterstory.com/stories/slides-with-friends-breakdown",
+        "https://neodrop.ai/post/lXc1aSDXRUO",
+        "https://blog.google/products-and-platforms/products/search/touch-grass-trends/"
+      ],
+      "how_searched": [
+        "Indie Hackers founder revenue interview",
+        "Starter Story breakdown with traffic/pricing",
+        "NeoDrop $10K-MRR dissection",
+        "Google offline-social trends blog"
+      ],
+      "score": 72.0,
+      "found_at": "2026-10-17T22:26:40.797726+00:00"
+    },
+    {
       "name": "Cookie-consent / privacy-compliance generator",
       "field": "Privacy compliance / web tooling",
       "summary": "Scan a site, detect trackers, generate a compliant cookie banner plus cookie/privacy policy, and block non-essential scripts before consent. A free generator for the long tail of small sites that big CMPs ignore.",
@@ -3557,6 +3737,27 @@
       ],
       "score": 70.0,
       "found_at": "2026-10-17T09:29:51.490502+00:00"
+    },
+    {
+      "name": "Local run-club & walking-club discovery and host toolkit",
+      "field": "Fitness community",
+      "summary": "Original free web directory + lightweight club-host tools (routes, schedules, join links, pace filters) so nearby runners can find groups without already knowing someone — search-first, map-first community software.",
+      "why_now": "Google's Jul 2026 Trends report: 'run club' and 'how to start running' at all-time highs; 'how to find local run clubs' and 'how to make friends at run club' are breakout questions; 'walking club' at a 10-year high. Strava hosts 1M+ clubs with memberships +59% in 2025 and just added an Events tab — incumbents validate demand while still leaving non-Strava users and casual hosts underserved.",
+      "monetization": "Freemium host dashboards, promoted club listings, race/event affiliate links, local-business sponsors; weak direct ARPU but high SEO/affiliate potential in a category where Strava shows 60% monthly event return rates.",
+      "evidence": [
+        "https://blog.google/products-and-platforms/products/search/touch-grass-trends/",
+        "https://www.plare.fr/strava-ajoute-un-onglet-events-pour-les-courses-a-venir-les-runs-en-groupe-et-plus-encore/",
+        "https://runfrens.com/",
+        "https://www.theverge.com/report/960635/partiful-app-event-planning-data-palantir"
+      ],
+      "how_searched": [
+        "Google Trends official deep-dive",
+        "Strava product/earnings coverage",
+        "run-club directory traffic claims",
+        "Partify/Verge note that run clubs are a top paid-ticket use case on event apps"
+      ],
+      "score": 70.0,
+      "found_at": "2026-10-17T22:26:42.564169+00:00"
     },
     {
       "name": "Prescription price-comparison & savings tool",
@@ -5718,155 +5919,6 @@
       ],
       "score": 46.7,
       "found_at": "2026-10-17T04:51:51.125110+00:00"
-    },
-    {
-      "name": "Free AI-text detector & authorship-proof checker",
-      "field": "Writing authenticity",
-      "summary": "No-signup paste-in tool that returns AI probability with sentence-level highlights, plus an optional 'writing replay' that logs keystrokes so users can prove human authorship; freemium with word-count limits and an API.",
-      "why_now": "Superhuman (formerly Grammarly) acquired GPTZero on 23-24 Jun 2026 — 19M registered users and ~$30M ARR (TNW); Sacra independently estimates $24M ARR in 2025, +253% YoY. The category's biggest winner literally started as a free single-page web tool, and consolidation by incumbents leaves room for a fast free alternative.",
-      "monetization": "Free tier with monthly word allowance, $15-24/mo paid tiers, API credits for publishers/recruiters, and education plans — pricing model documented in Sacra's breakdown.",
-      "evidence": [
-        "https://thenextweb.com/news/superhuman-gptzero-acquisition-ai-detection",
-        "https://sacra.com/c/gptzero/"
-      ],
-      "how_searched": "Searched AI-detector acquisition and revenue coverage, then opened both a news report and an independent revenue-research profile to confirm the numbers from two sources.",
-      "score": 46.0,
-      "found_at": "2026-10-08T10:47:45.022353+00:00"
-    },
-    {
-      "name": "Etsy Digital-Product Trend & Listing Optimizer",
-      "field": "E-commerce / digital products",
-      "summary": "A free web tool that turns current Etsy search trends into tag, title and keyword suggestions for digital sellers (printables, SVG, Canva templates, planners) and scores a listing against rising demand.",
-      "why_now": "eRank's Q3 2026 report shows 'digital products' climbing to the No.5 Etsy search (from No.84 a year earlier) and 'png' to No.16 (from No.133), with digital terms carrying 135-150% purchase-intent CTR. Google Trends data showed Etsy digital-download interest up roughly 200%-500%.",
-      "monetization": "Freemium keyword/listing SaaS (Etsy sellers already pay for eRank, EverBee and similar). No specific revenue number was confirmed for a fresh entrant (null); monetize via paid tiers and affiliate supply links.",
-      "evidence": [
-        "https://help.erank.com/blog/top-etsy-searches-q3-2026/",
-        "https://listsy.app/research/etsy-digital-product-search-trends"
-      ],
-      "how_searched": [
-        "Marketplace keyword/trend report",
-        "Trend study",
-        "Niche-analysis site"
-      ],
-      "score": 46.0,
-      "found_at": "2026-10-13T02:37:54.521155+00:00"
-    },
-    {
-      "name": "Infinite-whiteboard AI tutor for students",
-      "field": "edtech / AI",
-      "summary": "An AI tutor that solves and explains problems on an infinite canvas rather than a chat thread, combining step-by-step solving, interactive tutoring and personalized study.",
-      "why_now": "Student AI study sites are spiking: Turnitin AI Detector (+351.8%), Solvely (+246%), AstraAI (+204.8%), Peardeck (+204.2%) and Top Hat (+198.3%) on the September 2026 fastest-growing AI-websites list, while Product Hunt's top study launch (Gauth, 200M+ downloads) pushed the whiteboard-tutor format.",
-      "monetization": "Freemium/subscription study platforms (Gauth, Solvely, Astra AI) monetize via paid tiers on large student bases; education AI is a high-volume consumer category.",
-      "evidence": [
-        "https://www.alphamoat.ai/en/ranking/ai-websites-rising",
-        "https://www.producthunt.com/leaderboard/monthly/2026/10"
-      ],
-      "how_searched": [
-        "AI-website traffic/growth rankings",
-        "launch-site leaderboards"
-      ],
-      "score": 46.0,
-      "found_at": "2026-10-14T13:47:42.576055+00:00"
-    },
-    {
-      "name": "Back-in-stock & preorder automation for Shopify stores",
-      "field": "E-commerce retention / conversion",
-      "summary": "A free app/tool that captures out-of-stock demand via notify-me and preorder buttons and auto-notifies shoppers, recovering revenue that would otherwise bounce.",
-      "why_now": "Amp Back in Stock has delivered hundreds of millions of alerts across 25,000+ brands with a 4.9 rating (962 reviews); StoreCensus shows the rival Preorder, Back In Stock - STOQ app at 18,852 active installs, up 3,161.6% in 90 days and 181.4% year-over-year.",
-      "monetization": "Tiered app subscriptions (Amp: Free/$19/$49/$99 per month, higher for Shopify Plus) plus SMS usage fees.",
-      "evidence": [
-        "https://apps.shopify.com/back-in-stock",
-        "https://storecensus.com/stats/app/back-in-stock-restock-alerts"
-      ],
-      "how_searched": [
-        "app store listing/pricing",
-        "app-store install analytics (StoreCensus)"
-      ],
-      "score": 45.3,
-      "found_at": "2026-10-14T02:06:40.378368+00:00"
-    },
-    {
-      "name": "Cross-network competitor ad-library search (free tier)",
-      "field": "Marketing intelligence",
-      "summary": "One search box across Meta, Google, TikTok, YouTube and LinkedIn ad-transparency libraries with saved swipe files and brand tracking; free tier runs on public transparency data, paid tier adds persistent archive, spend/run-length signals and a single API.",
-      "why_now": "adlibrary.com reports 4,200+ paying users at €179/mo Pro (€29 entry) precisely because Meta's free library hides spend, drops paused ads and covers only 2 of 7 networks; a Sep 2026 MarketResearch.com report on the Digital Ad Intelligence Software market confirms the category is being re-priced right now.",
-      "monetization": "Freemium subscriptions (€29-179/mo benchmark), API keys for data teams, multi-seat agency workspaces.",
-      "evidence": [
-        "https://adlibrary.com/ad-library-alternative",
-        "https://www.marketresearch.com/Bosson-Research-v4252/Global-Digital-Ad-Intelligence-Software-46469268/"
-      ],
-      "how_searched": "Searched ad-library/AdSpy alternatives and pricing, opened the leading alternative's own pricing-and-coverage page, plus a current market-research report page for category sizing.",
-      "score": 44.7,
-      "found_at": "2026-10-08T10:47:46.101693+00:00"
-    },
-    {
-      "name": "AI audiobook / document-to-audio converter",
-      "field": "Audio content / publishing tools",
-      "summary": "A free web tool that turns PDFs, EPUBs and manuscripts into narrated audio or audiobooks with natural AI voices.",
-      "why_now": "Grand View Research sizes the audiobooks market at $11.0B (2025) growing to $13.9B (2026) and $58.5B by 2033 (22.7% CAGR 2026-2033); Narakeet already ships the exact workflow (PDF/EPUB/Word to audio, a 'Text to Voice Audiobooks' use case, 900 voices, 100 languages).",
-      "monetization": "Freemium credits plus paid voice/volume plans and an API; the TTS engine is commodity, so margin comes from workflow and distribution.",
-      "evidence": [
-        "https://www.grandviewresearch.com/industry-analysis/audiobooks-market",
-        "https://www.narakeet.com/"
-      ],
-      "how_searched": [
-        "market-research report (Grand View Research)",
-        "vendor product/pricing page"
-      ],
-      "score": 44.7,
-      "found_at": "2026-10-14T02:06:40.671807+00:00"
-    },
-    {
-      "name": "Local-first chat-style email reader with on-device AI",
-      "field": "Productivity / email",
-      "summary": "A privacy-first email client that turns messy threads into clean chat-like conversations, strips quotes/signatures, and runs search, summaries and drafting locally in the browser or a thin wrapper — no cloud reading of your mail.",
-      "why_now": "Talanoa took the #1 Product Hunt spot on Oct 15, 2026 (329 points) leading explicitly with 'everything stays on your computer: no cloud sync, no tracking'; the same week's launch analysis (Oct 17) identified local-first as a default competitive claim across four of the day's top launches (email, home, agents, OS) — the privacy pitch is now a mainstream purchase reason, not a niche one.",
-      "monetization": "Email-client norms: free tier + $5-10/mo pro for multi-account, AI credits, mobile sync; incumbents (Superhuman $30/mo class) prove willingness to pay. Talanoa revenue: null.",
-      "evidence": [
-        "https://www.producthunt.com/leaderboard/daily/2026/10/15",
-        "https://productlist.info/daily/2026-10-17"
-      ],
-      "how_searched": [
-        "Product Hunt daily leaderboard",
-        "daily aggregator trend analysis"
-      ],
-      "score": 44.7,
-      "found_at": "2026-10-17T17:18:25.483051+00:00"
-    },
-    {
-      "name": "E-commerce Feed / Merchant Center Compliance Scanner",
-      "field": "E-commerce operations (Shopify / Google Shopping)",
-      "summary": "One-click scan of a Shopify (or multi-channel) store for Google Merchant Center disapprovals and suspension risks before ads die.",
-      "why_now": "Wlad's Oct 8, 2026 TrustMRR sync shows a US Merchant-Center compliance scanner founded Mar 2025 at ~$14,661 MRR, ~239 subs, ~$103k last-12-months, ~90% margin, listed at $175k with 7 offers—boring B2B still printing. Fiverr's 2026 index shows Shopify demand concentrating in build/optimization (+348% graphics/design, +330% site dev), so merchants are already buying store-execution help.",
-      "monetization": "Subscription SaaS (~$14.7k MRR on the verified peer) plus affiliate/influencer channels the peer uses. Free tier for first N products; paid continuous monitoring and fix playbooks.",
-      "evidence": [
-        "https://www.wlad.me/blog/2026-10-08",
-        "https://www.fiverr.com/resources/guides/reports/business-trends-index-june-2026"
-      ],
-      "how_searched": [
-        "TrustMRR Stripe-sync daily digest",
-        "Fiverr marketplace demand index"
-      ],
-      "score": 44.0,
-      "found_at": "2026-10-15T18:32:22.603042+00:00"
-    },
-    {
-      "name": "Freelancer job-fit & proposal assistant",
-      "field": "B2B SaaS / freelance tooling",
-      "summary": "A free web tool that scores incoming freelance jobs against your skills and drafts tailored proposals, with a paid tier for outreach automation. Rebuild as an original scorer/writer.",
-      "why_now": "A freelancer-assist tool is Stripe-verified at ~$19.7K–27K MRR with ~95 subscribers at $149–499/mo, showing freelancers will pay a premium to win more work via better job-fit and proposals.",
-      "monetization": "Subscription $149–499/mo. Benchmark: ~$19,673–27K MRR, ~95 subscribers; ~400+ users.",
-      "evidence": [
-        "https://trustmrr.com/startup/lancer-app",
-        "https://lancer.app/pricing"
-      ],
-      "how_searched": [
-        "Used revenue databases (TrustMRR) for freelancer tools",
-        "Read vendor pricing pages for tier/price benchmarks",
-        "Checked marketplace skill-demand reports for context"
-      ],
-      "score": 44.0,
-      "found_at": "2026-10-16T17:31:13.581731+00:00"
     }
   ]
 }
