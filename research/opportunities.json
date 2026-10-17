@@ -689,6 +689,30 @@
       "found_at": "2026-10-16T01:27:13.684075+00:00"
     },
     {
+      "name": "Pay-per-document e-signature without subscriptions",
+      "field": "Legal / SMB productivity",
+      "summary": "A free or credit-pack e-signature web tool where users pay only per document signed (or nothing for light use), with signer links that need no account, audit trails, and templates — instead of DocuSign-style monthly seats and envelope caps.",
+      "why_now": "SignWith launched on Product Hunt Oct 16, 2026 with the pitch 'E-signatures without the subscription. Pay per doc' and scored 213 points; Reddit threads in r/smallbusiness (Sep 7, 2026) and r/SaaS (Mar 3, 2026) are full of users hunting exactly this; DocuSign's Trustpilot sits at 1.4/5 across ~1,193 reviews with billing/renewal complaints dominating, and the digital-signature market is projected at $13.7B in 2026 growing ~35% CAGR — a huge incumbent-revenue pool with visible SMB backlash.",
+      "monetization": "Incumbent pricing shows willingness to pay: SignWith sells one-time credit packs from $9 (PH listing); DocuSign Personal $11/mo for only 5 envelopes/month, Standard $30/user/mo. Free tier + per-doc credits or flat $10-12/mo unlimited (Zignt model) are proven price points. Revenue for any new entrant: null (pre-rebuild).",
+      "evidence": [
+        "https://www.producthunt.com/leaderboard/daily/2026/10/16",
+        "https://www.reddit.com/r/smallbusiness/comments/1wa2gen/anyone_found_a_cheap_esignature_tool_that_isnt_a/",
+        "https://www.reddit.com/r/SaaS/comments/1rk46w4/best_esignature_tool_that_isnt_a_total_headache/",
+        "https://checkthat.ai/brands/docusign/reviews",
+        "https://www.fortunebusinessinsights.com/industry-reports/digital-signature-market-100356",
+        "https://zignt.com/blog/e-signature-pricing-comparison-guide-2026"
+      ],
+      "how_searched": [
+        "launch leaderboard (Product Hunt daily Oct 16)",
+        "Reddit community complaint threads",
+        "vendor review aggregator",
+        "market-size research report",
+        "pricing comparison guide"
+      ],
+      "score": 85.0,
+      "found_at": "2026-10-17T17:18:14.526864+00:00"
+    },
+    {
       "name": "AI Video Generation & Editing for Short-Form",
       "field": "Creator Economy / AI Media",
       "summary": "Tools that generate or edit short-form videos (Reels, TikToks, Shorts) from text, audio, or long-form source — auto-clipping, captioning, reframing, hook detection, and multi-platform publishing.",
@@ -1320,6 +1344,27 @@
       ],
       "score": 81.0,
       "found_at": "2026-10-15T18:32:18.484839+00:00"
+    },
+    {
+      "name": "Free freelancer clientflow: proposal + contract + invoice in one",
+      "field": "Freelance / SMB fintech",
+      "summary": "A free web suite that replaces HoneyBook/Dubsado/Bonsai for solo freelancers: proposal templates, e-sign contracts, Stripe-connected invoices and deposits, client portal — no subscription and no platform processing markup.",
+      "why_now": "HoneyBook's Feb 2025 Starter hike (+89%, $19→$36/mo) is still driving churn search 18+ months later — multiple 2026 comparison guides (Apr, May, Jul 2026) call it out as the category's live grievance, and Reddit threads in r/smallbusiness (Feb 6 and Sep 5, 2026), r/Invoice (Sep 5, 2026), r/Freelancers and r/micro_saas (May 11, 2026: 'Why Does Every Invoicing Tool Cost a Kidney Now?') show sustained demand for a cheaper all-in-one; open-source entrant Oreko is already getting 'what's the catch' attention on r/micro_saas.",
+      "monetization": "Category pricing shows the prize: HoneyBook $29-109/mo annual (2.9%+$0.25 card fees), Dubsado $35/mo Starter, 17hats $60/mo, Plutio $19/mo. A free tool monetizes via Stripe affiliate/revenue share, paid white-label or team tier; exact revenue for Oreko/competitors: null.",
+      "evidence": [
+        "https://agiled.app/blog/contract-and-invoice-software",
+        "https://www.raoura.com/blog/honeybook-alternatives-solo-freelancers",
+        "https://www.reddit.com/r/smallbusiness/comments/1qxtuin/contract_invoicing_software/",
+        "https://www.reddit.com/r/Invoice/comments/1w7ovje/invoice_and_contract_app_for_small_business_that/",
+        "https://www.reddit.com/r/micro_saas/comments/1tac5ht/why_does_every_invoicing_tool_cost_a_kidney_now_i/"
+      ],
+      "how_searched": [
+        "pricing-comparison press (3 independent 2026 guides)",
+        "Reddit SMB/freelancer threads",
+        "open-source launch thread"
+      ],
+      "score": 81.0,
+      "found_at": "2026-10-17T17:18:17.871303+00:00"
     },
     {
       "name": "Text or image to 3D model generator",
@@ -1956,6 +2001,27 @@
       "found_at": "2026-10-16T07:15:25.073714+00:00"
     },
     {
+      "name": "Privacy-first voice journal (web): talk, get AI patterns and reflections",
+      "field": "Consumer health / mental wellness",
+      "summary": "A browser-based voice-first journal: record a daily voice note, get transcription, mood/pattern insights and gentle AI reflections — with on-device or local-first storage, no account required, explicitly non-clinical.",
+      "why_now": "Emochi (voice journal that turns notes into a generative 'character') hit 127 points on Product Hunt the morning of Oct 17, 2026; market analyses from Aug 2026 size digital journaling at ~$6.34B growing ~11%/yr and identify voice journaling as the fastest-growing segment with an explicit gap for 'privacy-first voice journaling with on-device storage'; an ACM study of 244 AI mental-health apps plus a Grand View AI mental-health market report confirm voice interfaces and tracker/summarizer AI roles are the dominant new patterns.",
+      "monetization": "Category norms: $6-15/mo or $30-60/yr subscriptions (Trovera market analysis); Day One and Daylio (20M+ downloads) prove paid journaling at scale. Free web tool with local storage can upsell cloud sync/export/personas. Competitor revenue: null.",
+      "evidence": [
+        "https://www.producthunt.com/leaderboard/daily/2026/10/17",
+        "https://gettrovera.com/blog/digital-journal-apps-market-2026",
+        "https://www.grandviewresearch.com/industry-analysis/ai-mental-health-market-report",
+        "https://dl.acm.org/doi/10.1145/3772318.3791326"
+      ],
+      "how_searched": [
+        "Product Hunt same-day leaderboard",
+        "market-size blog citing FMI data",
+        "industry research report",
+        "academic study of app store listings"
+      ],
+      "score": 77.0,
+      "found_at": "2026-10-17T17:18:18.632011+00:00"
+    },
+    {
       "name": "AI Content Repurposing (Long-Form → Short-Form)",
       "field": "Creator Economy / MarTech",
       "summary": "Platform that ingests one long-form video/podcast/webinar and automatically outputs dozens of platform-optimized clips, captions, blog posts, newsletters, and social threads — with scheduling and publishing.",
@@ -2387,6 +2453,27 @@
       "found_at": "2026-10-17T14:05:40.412106+00:00"
     },
     {
+      "name": "Budget SEO data platform ($10/mo class) with agent/MCP access",
+      "field": "Marketing tools",
+      "summary": "An affordable, agent-friendly alternative to Ahrefs/Semrush: keyword research, competitor and backlink data, site audits at roughly $10/mo instead of $100+, with MCP so coding/GTM agents can query it directly.",
+      "why_now": "OpenSEO ('open source Ahrefs alternative… $10/month instead of $100-plus') took 411 points as a top-10 October 2026 Product Hunt monthly launch; Reddit r/SEO threads from Jan, Apr and Jul 2026 plus r/seotoolsforsmbs (Aug 18, 2026) are saturated with '$120/mo is way out of my price range' and Ahrefs-credit complaints; Exploding Topics (Oct 6, 2026) shows Ahrefs searches +1,360%, AI SEO +5,900% and programmatic SEO +2,050% over five years — demand is rising while incumbents stay expensive.",
+      "monetization": "Proven price wedge: OpenSEO at $10/mo vs Ahrefs Starter $35/mo (unpromoted) and Semrush/Ahrefs ~$120/mo standard; Ubersuggest $17-29/mo, Mangools ~$29/mo. Free tier + $10-30/mo paid tiers; revenue for OpenSEO/others: null (private).",
+      "evidence": [
+        "https://www.producthunt.com/leaderboard/monthly/2026/10",
+        "https://www.reddit.com/r/SEO/comments/1ssupbm/im_quuite_new_to_seo_how_do_i_analyze_cheap/",
+        "https://www.reddit.com/r/SEO/comments/1q3lmye/any_affordable_alternatives_to_ahrefs_for/",
+        "https://www.reddit.com/r/seotoolsforsmbs/comments/1vrtniz/best_seo_tools_for_small_businesses_in_2026/",
+        "https://explodingtopics.com/blog/trending-topics"
+      ],
+      "how_searched": [
+        "Product Hunt monthly leaderboard",
+        "multiple SEO-subreddit budget threads",
+        "5-year search-growth database"
+      ],
+      "score": 75.0,
+      "found_at": "2026-10-17T17:18:19.175271+00:00"
+    },
+    {
       "name": "Chat-first personal AI assistant (web app)",
       "field": "Consumer AI / personal agents",
       "summary": "A free web tool where users text or type tasks (research, organise, shop/reserve, schedule) to a personal agent that does them end-to-end in the browser.",
@@ -2581,6 +2668,27 @@
       "found_at": "2026-10-16T07:15:25.950244+00:00"
     },
     {
+      "name": "Free multi-indicator web charting platform (TradingView replacement)",
+      "field": "Fintech / trading tools",
+      "summary": "A free web charting platform: multiple indicators per chart, alerts, drawing tools and a scripting layer, funded by optional premium data or AI add-ons — not by paywalling basics or charging per-exchange fees.",
+      "why_now": "TradingView backlash is still hot through 2026: r/selfhosted thread (Oct 2025) calling it 'the biggest rip-off on the Internet' with users demanding an open-source alternative; r/IndianStreetBets (Sep 17, 2026) and r/TradingView (Mar 17, 2026) threads document script caps, delayed free data and freezes; a Jul 2026 analysis of Reddit complaints identifies three recurring grievances (recurring price hikes, paywalled basics, per-exchange data fees); Show HN launched OpenChart as an 'OSS TradingView alternative with your own AI agent' on Oct 6, 2026.",
+      "monetization": "TradingView's model proves monetization: paid tiers $12-60+/mo plus per-exchange data add-ons (users report $650/yr auto-renewals). A free tool can monetize via premium market-data upsells, AI analysis credits, or broker affiliate. New-entrant revenue: null.",
+      "evidence": [
+        "https://www.reddit.com/r/selfhosted/comments/1kyao7w/would_anyone_be_interested_in_an_open_source/",
+        "https://www.reddit.com/r/IndianStreetBets/comments/1whn31a/tradingview_alternatives/",
+        "https://www.reddit.com/r/TradingView/comments/1riuvq4/any_better_alternatives_to_tradingview/",
+        "https://willkopec.com/blog/best-tradingview-alternatives-reddit",
+        "https://hn.today/s/show-hn-openchart-oss-tradingview-alternative-with-your-own-ai-agent"
+      ],
+      "how_searched": [
+        "selfhosted/trading subreddits",
+        "Show HN launch digest",
+        "complaint-analysis article aggregating Reddit themes"
+      ],
+      "score": 74.0,
+      "found_at": "2026-10-17T17:18:19.921027+00:00"
+    },
+    {
       "name": "Personal data-broker opt-out & removal-request generator",
       "field": "Privacy / consumer safety",
       "summary": "Free tool that shows where your name, address and phone appear across people-search/data-broker sites, generates the opt-out requests for you, and lets you track status; ongoing automated re-removal and breach monitoring sits behind a paid plan.",
@@ -2733,6 +2841,28 @@
       ],
       "score": 73.0,
       "found_at": "2026-10-17T00:07:11.780527+00:00"
+    },
+    {
+      "name": "Spec/intent verification for AI coding agents",
+      "field": "Developer tools",
+      "summary": "A free web dashboard that captures what you asked an agent to build as versioned specs, links each promise to a test, and refuses to mark work 'done' until evidence exists — sitting outside the agent's own generated code/tests loop.",
+      "why_now": "Tiden ('intent verification for coding agents,' built by the Qase testing team) launched Oct 6 and reached 213-tier visibility on Product Hunt Oct 14, 2026 with 210 points/37 comments; same-week PH launches Polylane (PR risk analysis, 116 points) and the Oct 17 aggregator trend 'Constraint beats capability… risk controls and cost visibility as the scarce features' confirm the market has moved from agent capability to agent verification after real production deployments.",
+      "monetization": "Dev-tools norms: freemium for solo/open-source, $20-50/dev/mo team plans (Qase itself serves 2,000+ teams per Tiden's site). Free tier + paid gates/audit trails. Revenue for Tiden: null.",
+      "evidence": [
+        "https://www.producthunt.com/leaderboard/daily/2026/10/14",
+        "https://www.qase.io/blog/tiden-launch/",
+        "https://tiden.ai/",
+        "https://productlist.info/daily/2026-10-17",
+        "https://www.producthunt.com/leaderboard/daily/2026/10/15"
+      ],
+      "how_searched": [
+        "Product Hunt daily leaderboard",
+        "vendor launch blog",
+        "product site",
+        "daily launch-aggregator trend analysis"
+      ],
+      "score": 73.0,
+      "found_at": "2026-10-17T17:18:21.290609+00:00"
     },
     {
       "name": "LLM / agent spend & cost observability dashboard",
@@ -3132,6 +3262,26 @@
       "found_at": "2026-10-15T18:32:20.642041+00:00"
     },
     {
+      "name": "Public-land bordering property finder",
+      "field": "Real estate / proptech data",
+      "summary": "A free searchable map of US land/homes for sale that verifiably touches national forest, BLM or state land — parcels checked against official USGS PAD-US boundaries, with measured shared-edge feet, elevation, flood and wildfire data on each listing.",
+      "why_now": "Unfenced launched on Product Hunt Oct 17, 2026 (82 points, 13 comments) and Show HN Oct 15, 2026; a Sep 26, 2026 r/homestead post documents the manual pain (digging through county GIS to verify 'borders state land' claims); the builder reports checking ~700k weekly listings to surface ~13,600 verified parcels across 49 regions — a concrete, reusable public-data wedge nobody else is built around.",
+      "monetization": "Free search monetizes via email alerts, realtor/land-listing referral and premium filters; comparable land-listing portals run affiliate/lead models. SignWith-style competitor revenue: null. Market size for the niche: null.",
+      "evidence": [
+        "https://www.producthunt.com/leaderboard/daily/2026/10/17",
+        "https://www.reddit.com/r/homestead/comments/1wq496n/i_built_a_tool_that_finds_land_actually_bordering/",
+        "https://news.linxi.com.au/news/unfenced-says-it-identified-13626-properties-bordering-public-land"
+      ],
+      "how_searched": [
+        "Product Hunt same-day board",
+        "Show HN thread with data-source disclosure",
+        "homesteading subreddit launch post",
+        "news wire coverage with usage figures"
+      ],
+      "score": 71.0,
+      "found_at": "2026-10-17T17:18:23.727851+00:00"
+    },
+    {
       "name": "AI resume + job-application toolkit (ATS-tailored)",
       "field": "Careers / job search",
       "summary": "A free web app that writes and tailors a resume to a pasted job description (keyword targeting/ATS pass-through) plus interview practice.",
@@ -3465,6 +3615,27 @@
       ],
       "score": 69.0,
       "found_at": "2026-10-15T18:32:21.994668+00:00"
+    },
+    {
+      "name": "AI weekly household briefing (family mental-load layer)",
+      "field": "Consumer productivity / family",
+      "summary": "A free web tool that connects calendar, kids' activities and tasks, then delivers one AI-generated weekly briefing of what's coming up, what's missing and what to handle now — turning awareness into calendar actions.",
+      "why_now": "Daddy Issues launched on Product Hunt Oct 15, 2026 with 129 points/34 comments and ranked #1 of 46 in its family-organizer competitive set (Nicheloom); the Oct 17 launch-aggregator wrap named 'life-admin' as one of the cycle's three headline shifts, with consumer AI products taking three of the top six slots over dev tooling — the mental-load market is being validated in public this month.",
+      "monetization": "Free during launch per the founder; adjacent apps (Cozi, family organizers) and AI-assistant apps monetize via $5-15/mo subscriptions; Daddy Issues revenue: null. Affiliate (gifts/kids products) and couple-tier upgrades are natural later levers.",
+      "evidence": [
+        "https://www.producthunt.com/leaderboard/daily/2026/10/15",
+        "https://www.producthunt.com/products/daddy-issues",
+        "https://www.nicheloom.com/launches/55175/",
+        "https://productlist.info/daily/2026-10-17"
+      ],
+      "how_searched": [
+        "Product Hunt daily leaderboard",
+        "product launch page with founder Q&A",
+        "competitive-set ranking site",
+        "daily aggregator trend write-up"
+      ],
+      "score": 69.0,
+      "found_at": "2026-10-17T17:18:25.112568+00:00"
     },
     {
       "name": "AI agent memory manager",
@@ -3854,6 +4025,27 @@
       ],
       "score": 65.0,
       "found_at": "2026-10-13T23:20:51.238649+00:00"
+    },
+    {
+      "name": "Human approval gate / open protocol for AI-agent tool calls",
+      "field": "AI infrastructure",
+      "summary": "An open, self-hostable approval layer that intercepts AI agents' tool calls before execution: rules auto-approve routine calls, risky ones route to a human via chat, one policy set across Claude Code, Codex and custom agents.",
+      "why_now": "withHuman launched on Product Hunt Oct 15, 2026 (108 points) introducing an open Agent Approval Protocol with a hosted tier; Exploding Topics (Oct 6, 2026) shows 'AI Guardrails' at +8,400% five-year search growth; the Oct 17 aggregator read the same week as 'constraint beats capability,' with governance launches out-voting capability plays — agents have left demos and entered operations where approval is the bottleneck.",
+      "monetization": "Open-core: free self-host + hosted per-seat plans (withHuman offers 3 free months of Scale via PH code); enterprise SSO/policy tiers are the upsell. Revenue for withHuman: null.",
+      "evidence": [
+        "https://www.producthunt.com/leaderboard/daily/2026/10/15",
+        "https://www.producthunt.com/products/withHuman",
+        "https://explodingtopics.com/blog/trending-topics",
+        "https://productlist.info/daily/2026-10-17"
+      ],
+      "how_searched": [
+        "Product Hunt daily leaderboard",
+        "product launch page",
+        "5-year search-growth database",
+        "daily aggregator trend analysis"
+      ],
+      "score": 65.0,
+      "found_at": "2026-10-17T17:18:26.245977+00:00"
     },
     {
       "name": "AI study & exam-practice platform",
@@ -5625,6 +5817,23 @@
       "found_at": "2026-10-14T02:06:40.671807+00:00"
     },
     {
+      "name": "Local-first chat-style email reader with on-device AI",
+      "field": "Productivity / email",
+      "summary": "A privacy-first email client that turns messy threads into clean chat-like conversations, strips quotes/signatures, and runs search, summaries and drafting locally in the browser or a thin wrapper — no cloud reading of your mail.",
+      "why_now": "Talanoa took the #1 Product Hunt spot on Oct 15, 2026 (329 points) leading explicitly with 'everything stays on your computer: no cloud sync, no tracking'; the same week's launch analysis (Oct 17) identified local-first as a default competitive claim across four of the day's top launches (email, home, agents, OS) — the privacy pitch is now a mainstream purchase reason, not a niche one.",
+      "monetization": "Email-client norms: free tier + $5-10/mo pro for multi-account, AI credits, mobile sync; incumbents (Superhuman $30/mo class) prove willingness to pay. Talanoa revenue: null.",
+      "evidence": [
+        "https://www.producthunt.com/leaderboard/daily/2026/10/15",
+        "https://productlist.info/daily/2026-10-17"
+      ],
+      "how_searched": [
+        "Product Hunt daily leaderboard",
+        "daily aggregator trend analysis"
+      ],
+      "score": 44.7,
+      "found_at": "2026-10-17T17:18:25.483051+00:00"
+    },
+    {
       "name": "E-commerce Feed / Merchant Center Compliance Scanner",
       "field": "E-commerce operations (Shopify / Google Shopping)",
       "summary": "One-click scan of a Shopify (or multi-channel) store for Google Merchant Center disapprovals and suspension risks before ads die.",
@@ -5658,177 +5867,6 @@
       ],
       "score": 44.0,
       "found_at": "2026-10-16T17:31:13.581731+00:00"
-    },
-    {
-      "name": "Local-business missed-call → SMS/WhatsApp lead recovery",
-      "field": "SMB / marketing automation",
-      "summary": "A tool that catches missed calls for local service businesses and instantly texts or calls back to recover the booking, over SMS, WhatsApp and email.",
-      "why_now": "Magnetic Funnels, an SMB missed-call lead-recovery product, is Stripe-verified at $9,643 MRR with 202 active subscriptions and $169,869 all-time revenue (last updated Oct 17, 2026); the operator separately reported ~$9,623 MRR, 204 subscriptions, +13.1% L30 and a 70% margin on Oct 16, 2026.",
-      "monetization": "Monthly subscription for small local businesses (verified recurring revenue in the comparable).",
-      "evidence": [
-        "https://trustmrr.com/startup/magnetic-funnels",
-        "https://www.wlad.me/blog/2026-10-16"
-      ],
-      "how_searched": [
-        "Stripe-verified revenue database",
-        "open-revenue daily blog"
-      ],
-      "score": 44.0,
-      "found_at": "2026-10-17T04:51:51.248610+00:00"
-    },
-    {
-      "name": "Chair-yoga and balance exercise guide for seniors (web)",
-      "field": "Senior fitness / accessible wellness",
-      "summary": "A free, large-text web app that serves short chair-yoga, tai-chi and balance routines for people over 60, with follow-along timers, gentle progress tracking and printable routines. It removes the app-install and login friction and is easy for an older adult to open from a link a family member sends.",
-      "why_now": "79 apps fill the senior-fitness niche and 44 launched in the last 18 months, already holding 72% of the niche's review pace, with demand 71/100 and a $700k+/month floor. Independent momentum confirms it: 'Chair Yoga Tai Chi for Seniors' was among the fastest-growing health-and-fitness listings with roughly +582% review-velocity acceleration.",
-      "monetization": "Free routines; paid themed programs (balance, fall-prevention, post-surgery); senior-center/care-home licensing; affiliate to mobility aids; ad-free tier.",
-      "evidence": [
-        "https://www.appaloma.com/research/rising-app-niches-2026",
-        "https://peekly.app/reports/fastest-growing-apps/health-fitness"
-      ],
-      "how_searched": [
-        "app-niche analytics database",
-        "app-store growth ranking"
-      ],
-      "score": 42.0,
-      "found_at": "2026-10-16T07:15:30.375126+00:00"
-    },
-    {
-      "name": "AI Landing-Page Personalization & Autonomous A/B Testing (GenPage-model)",
-      "field": "Marketing - conversion-rate optimization",
-      "summary": "A free web tool that rewrites a landing page's copy/headline per visitor segment (ad-source, referrer, keyword or UTM) and auto-runs A/B tests, showing the highest-converting variant.",
-      "why_now": "GenPage 3.0 ranked near the top of Product Hunt's October 2026 monthly leaderboard, and AI-generated, personalized landing pages tie directly to paid-ad ROI. CRO remains one of the highest-willingness-to-pay growth functions.",
-      "monetization": "Free tier for one page/limited visitors; paid usage-based plans for unlimited pages/visitors, auto A/B testing and integration with ad platforms.",
-      "evidence": [
-        "https://www.producthunt.com/leaderboard/monthly/2026/10",
-        "https://www.genpage.ai/"
-      ],
-      "how_searched": [
-        "Source kind: launch leaderboard (Product Hunt monthly 2026/10)",
-        "Source kind: vendor product site (GenPage)"
-      ],
-      "score": 41.3,
-      "found_at": "2026-10-09T19:36:10.599355+00:00"
-    },
-    {
-      "name": "Signed-file / e-invoice browser viewer (.p7m, CAdES)",
-      "field": "Documents / fintech / privacy",
-      "summary": "A privacy-first browser tool that opens and verifies CAdES-signed files (Italian .p7m e-invoices, PEC attachments, notarial deeds) and extracts the underlying PDF, all client-side with no upload.",
-      "why_now": "p7m.io (DocKit) is a one-person, zero-staff, zero-paid-acquisition product that ranks #3 on Google for its core queries with ~40,000 organic clicks/month and 3,297 paid orders to date, and was newly listed for sale at $120,000; demand is compliance-driven by mandatory e-invoicing. The same 'local signed-file reader' pattern repeats in other e-invoicing markets.",
-      "monetization": "Per-document and subscription pricing shown on the site: €3.99 per single export or €15.99/year of unlimited exports (in-app Pro lifetime €19.99).",
-      "evidence": [
-        "https://p7m.io/",
-        "https://www.wlad.me/blog/2026-10-08"
-      ],
-      "how_searched": [
-        "product site and live pricing",
-        "open-revenue blog"
-      ],
-      "score": 41.3,
-      "found_at": "2026-10-17T04:51:51.371105+00:00"
-    },
-    {
-      "name": "Chat-Style, Local-AI Email Client",
-      "field": "Productivity / email",
-      "summary": "Rebuild email as a messenger: one clean chat thread per conversation (quotes/signatures stripped), todos and calendar pulled out of mail, unified Gmail/Outlook/IMAP inbox, and private on-device AI search/summarize/draft with no cloud sync.",
-      "why_now": "Talanoa ('email that feels like chat,' local AI, no cloud) pulled 328 Product Hunt votes on Oct 15, 2026; a minimalist one-sender-per-inbox email app launched on Show HN the same week; Exploding Topics shows Tuta Email search +7,400% over two years — a rare consumer email-client revival after a decade of stagnation.",
-      "monetization": "Freemium: free local inbox, paid pro tiers for multi-account, AI features and team features (standard email-client model; no public revenue figure found for the new wave — null).",
-      "evidence": [
-        "https://www.producthunt.com/leaderboard/daily/2026/10/15",
-        "https://explodingtopics.com/blog/trending-topics"
-      ],
-      "how_searched": [
-        "Product Hunt daily leaderboard (Oct 15, 2026)",
-        "Hacker News Show HN feed",
-        "Exploding Topics trending-topics list (Oct 2026)"
-      ],
-      "score": 41.3,
-      "found_at": "2026-10-17T09:29:52.128849+00:00"
-    },
-    {
-      "name": "Video Library Semantic Search & Auto-Organizer",
-      "field": "Video / media tooling",
-      "summary": "A free web tool that indexes a creator's or team's video library so you can search it in natural language, get auto summaries, chapters, tags and clips across long footage.",
-      "why_now": "Jockey by TwelveLabs topped the Product Hunt daily leaderboard on Oct 16, 2026 as 'your entire video library, organized, searchable, understood,' and ranked #1 in the Productivity category for October — signaling rising demand for understanding large video libraries, not just generating new clips.",
-      "monetization": null,
-      "evidence": [
-        "https://www.producthunt.com/leaderboard/daily/2026/10/16",
-        "https://hunted.space/top-products/2026/October"
-      ],
-      "how_searched": [
-        "product launch sites",
-        "PH analytics trackers"
-      ],
-      "score": 40.7,
-      "found_at": "2026-10-17T00:07:13.107250+00:00"
-    },
-    {
-      "name": "AI Character Companion (PG / Interactive Fiction)",
-      "field": "Consumer AI / entertainment",
-      "summary": "A free web app for PG-rated AI character chat and branching interactive fiction — custom personas, memory, and story arcs, explicitly non-adult. Rebuildable as an original web app on top of a hosted LLM API with your own character/scene system and safety filters.",
-      "why_now": "Consumer spending on general (PG) AI companion apps reached roughly $164.8M in H1 2026, with a further ~$162.8M in the romantic/NSFW segment (which this build deliberately excludes); companion apps are repeatedly listed among the top-grossing/fastest-growing consumer AI categories in 2026. The audience and willingness to pay are proven, while the PG niche remains less saturated.",
-      "monetization": "Freemium/subscription for persona packs, memory, and unlimited messages; category revenue is large ($164.8M H1 2026, PG segment).",
-      "evidence": [
-        "https://companionrater.com/blog/biggest-ai-companion-apps-2026",
-        "https://point2web.com/blog/top-5-mobile-app-categories-winning-in-the-us-in-2026/"
-      ],
-      "how_searched": [
-        "biggest AI companion apps 2026 revenue",
-        "top mobile app categories US 2026"
-      ],
-      "score": 40.0,
-      "found_at": "2026-10-11T18:58:47.216274+00:00"
-    },
-    {
-      "name": "Verified MRR / Revenue-Proof Badges for Founders",
-      "field": "SaaS trust infrastructure",
-      "summary": "A service that verifies a founder's MRR via payment APIs (Stripe/RevenueCat) and issues a shareable proof badge. The space is filling up with VerifyArr, VerifiedMRR, ShowMRR, TrustMRR, and founder.page.",
-      "why_now": "The build-in-public movement needs credible revenue proof, and multiple new entrants appeared in 2026.",
-      "monetization": "SaaS subscription and lead-generation/marketplace features (specific figures null).",
-      "evidence": [
-        "https://founder.page/race/money",
-        "https://trustmrr.com/startup/aesty"
-      ],
-      "how_searched": [
-        "indie revenue trackers",
-        "founder sites"
-      ],
-      "score": 40.0,
-      "found_at": "2026-10-15T01:33:08.250275+00:00"
-    },
-    {
-      "name": "On-Device Private AI Money Manager",
-      "field": "Personal finance / on-device AI",
-      "summary": "A free, browser-based budgeting app where a small local model answers questions about your transactions with nothing leaving the device; import bank files, get plans, forecasts and explanations.",
-      "why_now": "Pulse Local launched on Show HN Oct 14, 2026, running its AI on-device for budgeting, explicitly because 'there is no endpoint to send to.' A Reddit analysis of 9,363 'I wish there was an app' posts found ~7% (640+ requests) explicitly asking for offline-first/privacy-focused tools amid subscription fatigue.",
-      "monetization": "Pulse Local uses a one-time payment with all features free; free tool can monetize via optional bank-sync or premium support.",
-      "evidence": [
-        "https://www.deephorus.com/blog/2026-10-14-show-hn-pulse-local-a-mac-budgeting-app-whose-ai-models-run-on-your-machine/",
-        "https://www.reddit.com/r/AppIdeas/comments/1q5mecg/i_analyzed_9300_i_wish_there_was_an_app_for_this/"
-      ],
-      "how_searched": [
-        "Hacker News Show HN coverage",
-        "Reddit demand analysis"
-      ],
-      "score": 40.0,
-      "found_at": "2026-10-17T00:07:13.370005+00:00"
-    },
-    {
-      "name": "Luxury Dupe Finder (search a product → verified affordable alternatives)",
-      "field": "Consumer shopping / affiliate",
-      "summary": "Free web tool: paste or search any luxury/fashion/beauty item (The Row bag, Byredo fragrance, Aritzia coat) and get verified dupe alternatives with price gaps, side-by-side specs and buy links — filling a search demand that currently has almost no content supply.",
-      "why_now": "TikTok Creator Search Insights for the week to Sep 30, 2026 show 11 dupe-related typed searches holding ~1.49M searches/week while 10 of 11 had zero matching videos; 'the row dupe' grew +16,642% in one week and 'aritzia fall must haves 2026' +5,144% with no videos. Perfume, makeup and fashion dupes are the biggest identified open lane in TikTok product search.",
-      "monetization": "Affiliate commissions (retail/fragrance affiliate programs) plus optional 'dupe alert' premium; demand is proven by search counts, monetization is the standard shopping-affiliate model (revenue null until built).",
-      "evidence": [
-        "https://tokconnect.com/trends/products/october-2026/",
-        "https://explodingtopics.com/blog/trending-topics"
-      ],
-      "how_searched": [
-        "TikTok Creator Search Insights pull (via TokConnect monthly report)",
-        "Exploding Topics product-trend database"
-      ],
-      "score": 40.0,
-      "found_at": "2026-10-17T09:29:52.502753+00:00"
     }
   ]
 }
