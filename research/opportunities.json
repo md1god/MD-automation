@@ -4507,6 +4507,24 @@
       "found_at": "2026-10-17T00:07:15.619225+00:00"
     },
     {
+      "name": "Free-tier / pay-per-document e-signature (DocuSign alternative)",
+      "field": "Legal / documents",
+      "summary": "A web e-signature service with a genuinely free tier plus pay-per-signed-document API pricing, aimed at people and small teams who only send a handful of agreements each month.",
+      "why_now": "DocuSign still has no free plan and its cheapest tier is $11/month (Personal) capped at 5 envelopes/month; its site carries a 1.5 TrustScore on Trustpilot with complaints about auto-renewal. Open-source rivals already prove the freemium + usage model: DocuSeal's free cloud/self-host tier coexists with Pro at $20/user/month and $0.20 per API-signed document, and Documenso starts at $25/month.",
+      "monetization": "Comparables verified on official pricing pages (checked Oct 12, 2026 and re-opened Oct 17, 2026): DocuSeal Pro $20/user/month and $0.20 per completed API/embedded document; Documenso Individual $25/month ($300/year); DocuSign Personal $11/month with no free plan.",
+      "evidence": [
+        "https://www.firecrawl.dev/alexandria/alternatives/docusign",
+        "https://www.docuseal.com/pricing"
+      ],
+      "how_searched": [
+        "vendor official pricing pages",
+        "pricing-comparison / alternatives page",
+        "review-site rating (Trustpilot)"
+      ],
+      "score": 56.0,
+      "found_at": "2026-10-17T04:51:48.628474+00:00"
+    },
+    {
       "name": "AI interior-design / room-redesign web tool",
       "field": "Consumer AI design / home improvement",
       "summary": "Upload a photo of a room and get a redesigned rendering in a chosen style, with shoppable furniture suggestions. Mobile apps in this niche are already pulling six-figure monthly revenue.",
@@ -4648,6 +4666,23 @@
       "found_at": "2026-10-14T07:41:51.301621+00:00"
     },
     {
+      "name": "Free event invite + RSVP + ticketing web app (Partiful model)",
+      "field": "Events / social / creator",
+      "summary": "A free browser app to build a shareable event page, collect RSVPs and sell tickets, distributed by links people paste into texts and DMs.",
+      "why_now": "Partiful shows ~30.2M estimated monthly visits, up +13.9% over 3 months, ~500K MAU in Q1 2025 (+400% YoY), ~$27M raised, and launched ticketing in June 2026; the brand term 'partiful' alone draws ~275,000 monthly searches. Its traffic is 73.4% direct, so an original link-first clone can capture demand without a brand.",
+      "monetization": "Free product monetized via group ordering (Instacart partnership) and, since June 2026, ticketing; the teardown explicitly labels current revenue 'low-single-digit millions at most' as an estimate, not a reported number.",
+      "evidence": [
+        "https://www.systemaic.com/teardowns/partiful",
+        "https://www.theverge.com/report/960635/partiful-app-event-planning-data-palantir"
+      ],
+      "how_searched": [
+        "growth/revenue teardown site",
+        "tech news/press report"
+      ],
+      "score": 53.3,
+      "found_at": "2026-10-17T04:51:49.118097+00:00"
+    },
+    {
       "name": "Free candidate-side AI job-discovery agent",
       "field": "Future of work / job search",
       "summary": "A free web agent where a candidate uploads a resume and gets continuously refreshed, personalized matches scraped directly from company career pages, filtering ghost jobs.",
@@ -4783,6 +4818,23 @@
       "found_at": "2026-10-14T02:06:36.571803+00:00"
     },
     {
+      "name": "Google Merchant Center feed & suspension compliance scanner",
+      "field": "E-commerce / advertising",
+      "summary": "A web tool that scans a store's product feed and landing pages for Google Merchant Center issues that cause disapprovals or account suspension, and explains each fix.",
+      "why_now": "A single-operator Shopify GMC-compliance scanner is verified (Lemon Squeezy) at ~$14,661 MRR, 239 active subscriptions, +29.2% L30 growth, ~$103k last 12 months and listed for sale at $175,000. Google's own docs confirm the pain: a price mismatch between landing page and feed 'may lead to an account suspension,' and Google explicitly recommends the Merchant API and structured-data checks.",
+      "monetization": "Monthly subscription (the verified comparable runs ~$14,661 MRR with 239 subscriptions); freemium scan with paid fixes/monitoring.",
+      "evidence": [
+        "https://www.wlad.me/blog/2026-10-08",
+        "https://support.google.com/merchants/answer/12159029"
+      ],
+      "how_searched": [
+        "open-revenue blog (Stripe/Lemon-Squeezy-verified)",
+        "official platform policy documentation"
+      ],
+      "score": 50.7,
+      "found_at": "2026-10-17T04:51:49.486835+00:00"
+    },
+    {
       "name": "Vibe-coding spec & prompt generator (idea → build-ready plan for Claude Code / Cursor)",
       "field": "Developer tools / AI-assisted building",
       "summary": "A rebuilt free web tool for solo builders: paste an idea, answer 4-5 clarifying questions, and get a structured build spec plus a copy-paste prompt pack and architecture checklist tailored to Claude Code / Cursor / Codex.",
@@ -4817,6 +4869,23 @@
       ],
       "score": 50.0,
       "found_at": "2026-10-12T20:20:23.240593+00:00"
+    },
+    {
+      "name": "AI UGC / short-video ad variant generator",
+      "field": "Marketing / advertising / AI",
+      "summary": "A web tool that turns a product photo or URL into batches of UGC-style video ad variants for paid social, priced for small advertisers.",
+      "why_now": "AI video ad spend is projected at $9.1B globally in 2026, ~12% of all digital video advertising (near zero three years ago), and a 10-video social campaign that cost $100K+ through an agency now runs under $100 with AI tools. Wistia's 2026 survey finds 52% of AI-using video teams make ads, and more than half are putting more money into AI this year.",
+      "monetization": "Subscriptions and per-render credits; a comparable generator (Morphed) lists plans from $9/month.",
+      "evidence": [
+        "https://morphed.app/stats/ai-video-ads-statistics",
+        "https://wistia.com/learn/marketing/state-of-video-report"
+      ],
+      "how_searched": [
+        "statistics aggregator citing ad-industry trackers",
+        "industry survey report (900+ marketers, 13M+ videos)"
+      ],
+      "score": 50.0,
+      "found_at": "2026-10-17T04:51:49.827392+00:00"
     },
     {
       "name": "Ancher 2.0 - reading/research agent",
@@ -4941,6 +5010,22 @@
       ],
       "score": 48.7,
       "found_at": "2026-10-16T01:27:17.633141+00:00"
+    },
+    {
+      "name": "Open-core LLM / AI observability & token-cost monitor",
+      "field": "Developer tools / AI infrastructure",
+      "summary": "An open-core dashboard that traces LLM and agent calls, tracks token cost and latency, and scores hallucination/quality, self-hostable with a paid cloud.",
+      "why_now": "The LLM observability market grew from $1.97B in 2025 to $2.69B in 2026 (36.3% CAGR) and is forecast to reach $9.26B by 2030; a broader AI observability market is $2.94B in 2025, $3.86B in 2026, heading to $44.20B by 2035 at 31.1% CAGR. Both reports name open-core/usage-based vendors (Langfuse, Braintrust, Comet Opik) as the model.",
+      "monetization": "Open-core SaaS: free self-host/community edition plus paid cloud and usage-based pricing (the reports list subscription and usage-based as the leading pricing models).",
+      "evidence": [
+        "https://www.researchandmarkets.com/reports/6215671/large-language-model-llm-observability",
+        "https://www.nextmsc.com/report/ai-observability-market-ic5403"
+      ],
+      "how_searched": [
+        "market-research report pages (two independent publishers)"
+      ],
+      "score": 48.7,
+      "found_at": "2026-10-17T04:51:50.333419+00:00"
     },
     {
       "name": "AI Personalized Children's Storybook Generator (DreamStories/Magic Story-model)",
@@ -5084,6 +5169,23 @@
       "found_at": "2026-10-16T17:31:13.187600+00:00"
     },
     {
+      "name": "Interactive-video (quiz-in-video) training platform",
+      "field": "EdTech / corporate training",
+      "summary": "A web editor that turns ordinary videos into interactive experiences with in-video quizzes and branching, for trainers, educators and marketers.",
+      "why_now": "A bootstrapped, one-person interactive-video SaaS is Stripe-verified at $48,062 MRR with 224 active subscriptions and $2,330,482 all-time revenue, priced $99/$299/$499/month plus Enterprise, last synced Oct 17, 2026; a separate daily open-revenue note describes the same company at ~$47k MRR.",
+      "monetization": "Tiered subscription $99 / $299 / $499 per month plus Enterprise (verified listings).",
+      "evidence": [
+        "https://trustmrr.com/startup/interactive-video-saas",
+        "https://www.wlad.me/blog/2026-10-08"
+      ],
+      "how_searched": [
+        "Stripe-verified revenue database",
+        "open-revenue daily blog"
+      ],
+      "score": 47.3,
+      "found_at": "2026-10-17T04:51:50.476966+00:00"
+    },
+    {
       "name": "Spira Maxima - AI video for viral social",
       "field": "AI video generation",
       "summary": "Turns script into finished social videos (presenter, B-roll, captions). Claimed 10M+ impressions pre-launch.",
@@ -5153,6 +5255,23 @@
       ],
       "score": 46.7,
       "found_at": "2026-10-16T17:31:12.524496+00:00"
+    },
+    {
+      "name": "AI mock-interview coach (free-tier web)",
+      "field": "Careers / education",
+      "summary": "A free-to-start web app that runs AI mock interviews and gives role-specific, adaptive feedback, monetized on usage or B2B licensing.",
+      "why_now": "The interview-preparation tool market is $668.73M in 2026 heading to $2.29B by 2032 (23.01% CAGR), and AI-powered mock-interview platforms were the largest segment at 44.89% ($241.66M) in 2025; individual job seekers are 59.7% of buyers. Google already offers a free Interview Warmup, confirming free demand, while paid rivals remain fragmented.",
+      "monetization": "Freemium subscriptions plus institutional licensing (higher-education institutions were 27.0% of the 2025 market).",
+      "evidence": [
+        "https://pmarketresearch.com/worldwide-interview-preparation-tool-market-research/",
+        "https://grow.google/certificates/interview-warmup/"
+      ],
+      "how_searched": [
+        "market-research report page",
+        "first-party free-tool landing page"
+      ],
+      "score": 46.7,
+      "found_at": "2026-10-17T04:51:51.125110+00:00"
     },
     {
       "name": "Free AI-text detector & authorship-proof checker",
@@ -5287,6 +5406,23 @@
       "found_at": "2026-10-16T17:31:13.581731+00:00"
     },
     {
+      "name": "Local-business missed-call → SMS/WhatsApp lead recovery",
+      "field": "SMB / marketing automation",
+      "summary": "A tool that catches missed calls for local service businesses and instantly texts or calls back to recover the booking, over SMS, WhatsApp and email.",
+      "why_now": "Magnetic Funnels, an SMB missed-call lead-recovery product, is Stripe-verified at $9,643 MRR with 202 active subscriptions and $169,869 all-time revenue (last updated Oct 17, 2026); the operator separately reported ~$9,623 MRR, 204 subscriptions, +13.1% L30 and a 70% margin on Oct 16, 2026.",
+      "monetization": "Monthly subscription for small local businesses (verified recurring revenue in the comparable).",
+      "evidence": [
+        "https://trustmrr.com/startup/magnetic-funnels",
+        "https://www.wlad.me/blog/2026-10-16"
+      ],
+      "how_searched": [
+        "Stripe-verified revenue database",
+        "open-revenue daily blog"
+      ],
+      "score": 44.0,
+      "found_at": "2026-10-17T04:51:51.248610+00:00"
+    },
+    {
       "name": "Chair-yoga and balance exercise guide for seniors (web)",
       "field": "Senior fitness / accessible wellness",
       "summary": "A free, large-text web app that serves short chair-yoga, tai-chi and balance routines for people over 60, with follow-along timers, gentle progress tracking and printable routines. It removes the app-install and login friction and is easy for an older adult to open from a link a family member sends.",
@@ -5319,6 +5455,23 @@
       ],
       "score": 41.3,
       "found_at": "2026-10-09T19:36:10.599355+00:00"
+    },
+    {
+      "name": "Signed-file / e-invoice browser viewer (.p7m, CAdES)",
+      "field": "Documents / fintech / privacy",
+      "summary": "A privacy-first browser tool that opens and verifies CAdES-signed files (Italian .p7m e-invoices, PEC attachments, notarial deeds) and extracts the underlying PDF, all client-side with no upload.",
+      "why_now": "p7m.io (DocKit) is a one-person, zero-staff, zero-paid-acquisition product that ranks #3 on Google for its core queries with ~40,000 organic clicks/month and 3,297 paid orders to date, and was newly listed for sale at $120,000; demand is compliance-driven by mandatory e-invoicing. The same 'local signed-file reader' pattern repeats in other e-invoicing markets.",
+      "monetization": "Per-document and subscription pricing shown on the site: €3.99 per single export or €15.99/year of unlimited exports (in-app Pro lifetime €19.99).",
+      "evidence": [
+        "https://p7m.io/",
+        "https://www.wlad.me/blog/2026-10-08"
+      ],
+      "how_searched": [
+        "product site and live pricing",
+        "open-revenue blog"
+      ],
+      "score": 41.3,
+      "found_at": "2026-10-17T04:51:51.371105+00:00"
     },
     {
       "name": "Video Library Semantic Search & Auto-Organizer",
@@ -5404,6 +5557,23 @@
       ],
       "score": 38.7,
       "found_at": "2026-10-11T18:58:47.553123+00:00"
+    },
+    {
+      "name": "Go-live-on-Instagram-from-desktop RTMP relay",
+      "field": "Creator tools / live streaming",
+      "summary": "A web service that issues an RTMP URL and stream key so creators can broadcast an Instagram Live from desktop software (OBS, vMix, Restream) instead of only the phone app.",
+      "why_now": "RTMP.IN is Stripe-verified at ~$6,051 MRR, ~$764,883 all-time revenue and ~90% L30 margin, and Instagram still only allows native live streaming from the phone app, so the workaround has durable demand.",
+      "monetization": "Subscription (verified recurring revenue in the comparable).",
+      "evidence": [
+        "https://rtmp.in/",
+        "https://www.wlad.me/blog/2026-10-08"
+      ],
+      "how_searched": [
+        "product site",
+        "open-revenue blog"
+      ],
+      "score": 38.7,
+      "found_at": "2026-10-17T04:51:51.577224+00:00"
     },
     {
       "name": "Free Tabletop/TTRPG Campaign & Pledge Tracker (web)",
