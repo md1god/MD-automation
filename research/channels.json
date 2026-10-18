@@ -1,6 +1,31 @@
 {
   "items": [
     {
+      "name": "Hacker News Show HN launch",
+      "url": "https://news.ycombinator.com/showhn.html",
+      "kind": "community",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Create an aged personal account (not on launch morning), comment helpfully for ~2 weeks. Submit a story with title 'Show HN: <name> - <plain what it does>' linking to a working demo with no signup gate, Tue-Thu 7-9am ET. Post a maker comment within 5 minutes covering what/why/stack/limitations and one specific feedback ask. Reply to every comment for 2-4 hours; fix reported bugs in-thread. Re-post only after 3-6 months with something substantially new.",
+      "rules_and_risks": "No vote solicitation, upvote rings, or asking friends to upvote (detected and penalizes). No marketing language, superlatives, landing pages, waitlists, fundraisers, or generated text. Off-topic: blog posts, sign-up pages, newsletters, lists. One launch per project; reposts need major new substance. HN links are nofollow UGC, so value is users/quotes, not SEO links.",
+      "why_it_works": "A front-page Show HN drives 5K-50K+ visitors in 24-48h and high-intent technical feedback; HN audience makes purchasing decisions for teams and amplifies respected tools. Official guidelines at news.ycombinator.com/showhn.html and newsguidelines.html define allowed content.",
+      "evidence": [
+        "https://news.ycombinator.com/showhn.html",
+        "https://news.ycombinator.com/newsguidelines.html",
+        "https://www.scrolllaunch.com/blog/how-to-launch-on-hacker-news-2026",
+        "https://www.welaunch.sh/blog/hacker-news-launch-guide-2026-how-to-post-to-show-hn-without-getting-flagged-or",
+        "https://circuit.ooo/developer-marketing/reddit-and-hacker-news-marketing-for-developer-tools",
+        "https://datadriven.partners/reach/channels/show-hn-for-data-infrastructure-tools/"
+      ],
+      "how_searched": [
+        "web search for Show HN 2026 playbook",
+        "fetched official HN Show HN + guidelines pages",
+        "cross-checked timing/engagement advice across 4 guides"
+      ],
+      "score": 90.0,
+      "found_at": "2026-10-18T06:24:19.390076+00:00"
+    },
+    {
       "name": "LinkedIn Newsletters (individual, free)",
       "url": "https://www.linkedin.com/help/linkedin/answer/a522525",
       "kind": "platform",
@@ -179,6 +204,51 @@
       "found_at": "2026-10-14T18:47:40.110454+00:00"
     },
     {
+      "name": "Capterra / GetApp / Software Advice free B2B listing (G2 family)",
+      "url": "https://www.capterra.com/vendors/sign-up/",
+      "kind": "directory",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Since G2 acquired Capterra, GetApp and Software Advice in 2026, one submission covers all four. Create a vendor account with a company-domain email (personal Gmail rejected), claim or create your product profile, fill categories, features, pricing, screenshots, integrations. Submit for 1-3 business day editorial review. Then collect 10-20 real reviews (free Reviews-as-a-Service recruitment available) since zero-review profiles rarely get clicked; reviews sync across all three sister sites.",
+      "rules_and_risks": "Product must be publicly available (no waitlist-only CTAs). Company-domain email required. Do not fake features or reviews (strict fraud QA). Paid PPC/lead-gen is optional upsell, not required for the free listing. Allow up to 6 weeks for vetting in some cases.",
+      "why_it_works": "G2 family reaches 200M+ annual software buyers across 2,000+ categories; a single free profile with synced reviews appears on Capterra, GetApp and Software Advice simultaneously, giving passive high-intent traffic and backlinks from DA~85-91 sites.",
+      "evidence": [
+        "https://www.capterra.com/vendors/sign-up/",
+        "https://www.softwareadvice.com/vendor-listing-faq/",
+        "https://alldirectories.org/directory/getapp/",
+        "https://wheretosubmit.org/guides/capterra-submission-guide",
+        "https://venturelist.app/guides/b2b-software-review-sites"
+      ],
+      "how_searched": [
+        "web search for Capterra free listing 2026",
+        "fetched vendor signup + FAQ + GetApp + submission guide"
+      ],
+      "score": 80.0,
+      "found_at": "2026-10-18T06:24:22.526654+00:00"
+    },
+    {
+      "name": "SourceForge (open-source hosting + business software listing)",
+      "url": "https://sourceforge.net/create/",
+      "kind": "directory",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Two free routes. Open-source: create a project at sourceforge.net/create (or import from GitHub), categorize by topic/platform/license, upload a release for free global malware-scanned mirrors + download stats, add screenshots/summary (staff picks go to complete pages). Commercial/SaaS: use sourceforge.net/software/vendors/new for a free Business Software directory profile (category, pricing, features, reviews). Both are free; paid promotion optional.",
+      "rules_and_risks": "Open-source route requires an OSI-approved license. Business listings reviewed before going live. Cloudflare bot protection may block scripted submissions (use a real browser). Links are nofollow/no direct link on business listings, so value is audience (~22.5M visits/mo) and comparison/review pages, not SEO link equity. Do not expect dofollow backlinks.",
+      "why_it_works": "SourceForge has DA 93 and ~22-22.5M monthly visits, the largest software comparison site by traffic; free mirrors and directory placement put open-source projects and SaaS in front of in-market buyers. Official create page and docs confirm unlimited bandwidth for OSS and free vendor profiles.",
+      "evidence": [
+        "https://sourceforge.net/create/",
+        "https://docs.sourceforge.net/getting-started-with-sourceforge",
+        "https://www.agentlaun.ch/blogs/how-to-submit-software-to-sourceforge",
+        "https://wheretosubmit.org/guides/sourceforge-submission-guide"
+      ],
+      "how_searched": [
+        "web search for SourceForge create project",
+        "fetched official create page + getting-started docs + submission guides"
+      ],
+      "score": 80.0,
+      "found_at": "2026-10-18T06:24:24.234020+00:00"
+    },
+    {
       "name": "Apple Podcasts catalog + podcast databases (Podchaser, Listen Notes)",
       "url": "https://podcasters.apple.com/support/897-submit-a-show",
       "kind": "platform",
@@ -264,6 +334,27 @@
       ],
       "score": 75.0,
       "found_at": "2026-10-07T04:19:32.347667+00:00"
+    },
+    {
+      "name": "freeCodeCamp publication (technical tutorials)",
+      "url": "https://www.freecodecamp.org/news/how-to-write-for-freecodecamp/",
+      "kind": "community",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Build 3 writing samples on Hashnode or dev.to following the freeCodeCamp style guide, then apply via the contributor application form (link in style guide) with samples. Once accepted, write in Hashnode, select the freeCodeCamp publication, submit for review, and email the draft URL to editorial@freecodecamp.org (both steps required). Expect editorial feedback and edits before publishing. Articles are shared by freeCodeCamp on social and in Quincy Larson's newsletter.",
+      "rules_and_risks": "Contributor approval rate is low; reapply with better samples if rejected. No guest posts or paid link placements. Minimum ~500 words, in-depth and educational; AI-generated full articles not accepted. Approval/editing can take weeks. Content must fit developers/designers/data scientists audience.",
+      "why_it_works": "freeCodeCamp is one of the most-visited tech sites on the web with strong SEO and a large social presence; a published author reported 1.9M+ readers in 12 months and articles averaged 23K views (median 6.5K) on the Medium publication era. Free, dofollow-leaning exposure plus newsletter/social amplification.",
+      "evidence": [
+        "https://www.freecodecamp.org/news/how-to-write-for-freecodecamp/",
+        "https://www.freecodecamp.org/news/developer-news-style-guide/",
+        "https://www.freecodecamp.org/news/freecodecamp-hashnode-publication-guide/"
+      ],
+      "how_searched": [
+        "web search for freeCodeCamp contributor application",
+        "fetched how-to-write + style guide + Hashnode publication guide"
+      ],
+      "score": 75.0,
+      "found_at": "2026-10-18T06:24:25.857262+00:00"
     },
     {
       "name": "YouTube (channel + free Data API)",
@@ -440,6 +531,27 @@
       "found_at": "2026-10-10T12:39:56.647153+00:00"
     },
     {
+      "name": "daily.dev Squads + source submission (developer feed)",
+      "url": "https://docs.daily.dev/suggest-new-source/",
+      "kind": "feed",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Personal and corporate blogs are no longer eligible as direct sources (Jan 2024 policy); instead create a Squad (community) on daily.dev and share your launch post/tutorial there, and/or publish on already-indexed platforms (Hashnode, DEV.to, HackerNoon) so daily.dev picks the article up. If you run an established publication with a public RSS feed, suggest it as a source via 'Suggest new source' (up to 30-day manual review); only posts published after approval are considered. Claim ownership of your posts via twitter:creator meta tag + support request to get author badge and analytics.",
+      "rules_and_risks": "Personal/corporate blogs rejected as sources; use Squads. Sources must publish regularly (inactive 3+ months removed), English, non-AI-generated, non-clickbait, with public RSS/Atom. Squads must follow community guidelines. Approval not permanent; misuse disqualifies.",
+      "why_it_works": "daily.dev is a daily feed used by developers organized by stack; a single daily.dev post drove 67.3K impressions and 11.1K unique developers in 2 days (TourKit case). Squads give ongoing community distribution beyond one-off posts; Sponsored Content is the paid layer, organic squad posts are free.",
+      "evidence": [
+        "https://docs.daily.dev/suggest-new-source/",
+        "https://docs.daily.dev/content-guidelines/",
+        "https://business.daily.dev/resources/promote-open-source-project-proven-channels/"
+      ],
+      "how_searched": [
+        "web search for daily.dev source submission 2026",
+        "fetched suggest-new-source docs + content guidelines + open-source promotion guide"
+      ],
+      "score": 70.0,
+      "found_at": "2026-10-18T06:24:26.205335+00:00"
+    },
+    {
       "name": "Visual Studio Code Marketplace",
       "url": "https://code.visualstudio.com/api/working-with-extensions/publishing-extension",
       "kind": "platform",
@@ -543,6 +655,27 @@
       ],
       "score": 65.0,
       "found_at": "2026-10-14T18:47:45.718145+00:00"
+    },
+    {
+      "name": "Hashnode free developer blogging (API now paid)",
+      "url": "https://hashnode.com/",
+      "kind": "platform",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Create a free publication on a hashnode.dev subdomain (free tier) via the web editor; write Markdown/MDX with code highlighting, tags, cover images. Use canonical URLs to point back to your site for SEO. Engage in the Hashnode community and tags. Note: since May 13, 2026 the GraphQL API and publishing require Hashnode Pro ($5/mo per seat); free web publishing still works. Grandfathered publications keep prior API/webhook/custom-domain access.",
+      "rules_and_risks": "Free tier limited to one publication and includes Hashnode branding; custom domains, API, webhooks, scheduled publishing and multi-blog need Pro. Off-topic posts may be shadow-banned from feeds. Terms prohibit API abuse, scraping and circumventing rate limits. Community is developer-focused; non-dev content underperforms.",
+      "why_it_works": "Hashnode is indexed and trusted by search engines and AI assistants; a free subdomain starts with domain authority. Official terms and the breakreach Oct 2026 API guide confirm the free web tier and the May 2026 API paywall, so plan manual publishing or budget Pro for automation.",
+      "evidence": [
+        "https://hashnode.com/",
+        "https://hashnode.com/terms",
+        "https://www.breakreach.com/developers/hashnode-api"
+      ],
+      "how_searched": [
+        "web search for Hashnode free API 2026",
+        "fetched official docs + terms + third-party API status page"
+      ],
+      "score": 65.0,
+      "found_at": "2026-10-18T06:24:28.477242+00:00"
     },
     {
       "name": "TikTok (organic video reach, no follower base needed)",
@@ -868,6 +1001,26 @@
       "found_at": "2026-10-13T18:47:37.560005+00:00"
     },
     {
+      "name": "Free micro-tools/calculators as a distribution engine",
+      "url": "https://dev.to/alberto_miller_f44a8880a3/i-built-300-free-web-tools-at-18-heres-what-actually-drove-traffic-hint-not-google-5gei",
+      "kind": "tactic",
+      "requires_account": false,
+      "official_free_api": false,
+      "how_to_use": "Build many small, single-question tools (calculators, converters, estimators) targeting long-tail queries your audience already asks. Host them free with no signup. Pair each tool with a short blog post answering surrounding questions. Seed each tool in the relevant niche subreddit/community (e.g. r/beekeeping for a beekeeping calculator) before relying on SEO; community engagement signals boost rankings. Use free hosting (Blogger/WordPress/GitHub Pages) to keep cost zero.",
+      "rules_and_risks": "Tools must be genuinely useful and accurate; spammy/low-quality micro-tools risk deindexing and community bans. Respect each community's self-promotion rules (9:1 helpful ratio). Do not gate the tool behind signup. Avoid keyword-stuffed pages.",
+      "why_it_works": "A solo 18-year-old reached 300+ calculators and real traffic primarily via Reddit seeding, which also pushed a tool to #1 on Google for its niche keyword; free micro-tools earn trust and backlinks that compound. Indie Hackers case (Utilvance) confirms Product Hunt + directory listings + SEO blog posts as the working mix for free tool sites.",
+      "evidence": [
+        "https://dev.to/alberto_miller_f44a8880a3/i-built-300-free-web-tools-at-18-heres-what-actually-drove-traffic-hint-not-google-5gei",
+        "https://www.indiehackers.com/post/how-i-got-my-first-1-000-visitors-to-a-free-tool-site-without-paid-ads-1a688a4a43"
+      ],
+      "how_searched": [
+        "web search for free tool site traffic case studies",
+        "opened dev.to + Indie Hackers firsthand accounts"
+      ],
+      "score": 56.7,
+      "found_at": "2026-10-18T06:24:19.539138+00:00"
+    },
+    {
       "name": "Preprint and open-access research networks (SSRN, arXiv, ResearchGate)",
       "url": "https://www.ssrn.com/",
       "kind": "platform",
@@ -1096,6 +1249,26 @@
       ],
       "score": 50.0,
       "found_at": "2026-10-14T18:47:58.133333+00:00"
+    },
+    {
+      "name": "Trustpilot free business profile",
+      "url": "https://help.trustpilot.com/s/article/Use-Trustpilot-for-free",
+      "kind": "platform",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Create a free account at business.trustpilot.com, claim or create your profile, verify your domain, complete branding (logo, description, category). Collect reviews via the 50 free invitations/month, shareable review link, ecommerce integrations or Automatic Feedback Service. Respond to every review publicly. Embed the free Review Collector widget. Use Trustpilot's AI Search Market Insights (new Sep 2026) to track citation share vs competitors across ChatGPT/Claude/Perplexity.",
+      "rules_and_risks": "No incentivized reviews (strict policy). Free plan cannot send automated invitation campaigns or access advanced widgets/analytics (paid ~$259/mo). Genuine negative reviews cannot be removed; respond instead. Review moderation takes 24-72h.",
+      "why_it_works": "Trustpilot profiles rank for '[brand] reviews' and can earn Google rich-snippet stars and seller ratings (needs ~100 eligible reviews in 12 months, avg >=3.5 stars). Trustpilot reports up to 500% more free referral traffic from profile pages and a 1,548% citation-rate increase in its Sep 2026 product-review-page beta (418 businesses, May-Jun 2026).",
+      "evidence": [
+        "https://help.trustpilot.com/s/article/Use-Trustpilot-for-free",
+        "https://business.trustpilot.com/features/review-seo"
+      ],
+      "how_searched": [
+        "web search for Trustpilot free plan 2026",
+        "fetched official free-plan help + review-SEO feature page"
+      ],
+      "score": 50.0,
+      "found_at": "2026-10-18T06:24:25.363427+00:00"
     },
     {
       "name": "Apple Business Connect — claim your location on Apple Maps",
@@ -1656,6 +1829,25 @@
       "found_at": "2026-10-16T13:02:17.369622+00:00"
     },
     {
+      "name": "Yelp free business listing (local + AI citation)",
+      "url": "https://business.yelp.com/claim/",
+      "kind": "directory",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Claim or create your free Yelp page at business.yelp.com/claim with a business email; complete profile (hours, photos, categories, services). Encourage genuine customer reviews (no incentives). Keep info current. Yelp data feeds Apple Maps/Siri and is heavily cited by ChatGPT, Gemini, Perplexity and Google AI Mode, especially for 'best' and 'near me' local queries.",
+      "rules_and_risks": "Reviews must be genuine experiences; incentivized reviews violate policy. Yelp filters suspicious reviews. Free page only; paid ads/upgrades optional. Best for businesses with a physical location or defined service area; not a fit for pure digital/SaaS.",
+      "why_it_works": "2.4M daily visitors; 82% of users hire/buy within a week of finding a business on Yelp. Foundation Marketing analysis (Sep-Nov 2025, 28.5M prompts) found Yelp citations in AI answers rose 19x and Yelp is the most-cited home-services discovery platform on top AI engines, with 91-97% of citations for non-brand discovery prompts.",
+      "evidence": [
+        "https://business.yelp.com/claim/"
+      ],
+      "how_searched": [
+        "web search for Yelp free business listing AI citations",
+        "fetched official Yelp for Business claim page"
+      ],
+      "score": 26.0,
+      "found_at": "2026-10-18T06:24:24.627195+00:00"
+    },
+    {
       "name": "WordPress.org Theme Directory",
       "url": "https://wordpress.org/themes/getting-started/",
       "kind": "directory",
@@ -2128,6 +2320,44 @@
       "found_at": "2026-10-07T18:25:25.642130+00:00"
     },
     {
+      "name": "Free B2B software directories bundle (SaaSworthy, Software Suggest, Crozdesk, Spotsaas, FeaturedCustomers, FinancesOnline, SoftwareReviews, OMR Reviews, Techjockey)",
+      "url": "https://venturelist.app/guides/b2b-software-review-sites",
+      "kind": "directory",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "After listing on G2/Capterra, claim free profiles on the smaller B2B directories that still offer free basic listings: SaaSworthy, Software Suggest, Crozdesk, Spotsaas, FeaturedCustomers, FinancesOnline, SoftwareReviews, OMR Reviews, Techjockey (and Tekpon is paid). Submit via each vendor page with company email, product name, URL, category, screenshots. Collect reviews; some offer free review-collection (RaaS-style) help. Treat as a one-time 1-2 day batch task for passive long-tail traffic.",
+      "rules_and_risks": "Each site has its own category fit and approval; some reject waitlist-only products. Quality of traffic varies; many links are nofollow/sponsored. Do not pay for placements until organic profile proves traction. Verify current terms on each site before relying on a detail.",
+      "why_it_works": "These directories have real buyer traffic and DA 74-85; free profiles compound SEO and AI-citation surface across many domains. Venturelist's Sep 2026 comparison confirms free basic listings on most, with paid tiers optional. Combined with G2 family they maximize 'alternatives' and category page exposure.",
+      "evidence": [
+        "https://venturelist.app/guides/b2b-software-review-sites"
+      ],
+      "how_searched": [
+        "web search for free B2B software directories 2026",
+        "fetched venturelist comparison of 20+ review sites"
+      ],
+      "score": 21.7,
+      "found_at": "2026-10-18T06:24:27.352990+00:00"
+    },
+    {
+      "name": "Notion Template Gallery (creator submission)",
+      "url": "https://www.notion.com/templates",
+      "kind": "directory",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Build a genuinely useful Notion template (planner, tracker, dashboard, CRM). Go to notion.com/profile/templates (linked as 'Become a creator' on the templates page), submit the template with description, category, screenshots, and a demo. Templates are free to list; paid templates also allowed. Get featured in editorial collections and category pages. Include a link back to your site/newsletter in the template's 'About' or README page.",
+      "rules_and_risks": "Templates must be original and high-quality; duplicates/spam removed. Notion controls featuring and ranking. Paid templates require Stripe setup. Account required; no API for submission (web form). Avoid over-promotional links inside templates.",
+      "why_it_works": "Notion Marketplace shows 30,000+ templates and 22,681+ creators with top creators reaching hundreds of thousands of users; templates rank in Google and are shared by users, giving compounding discovery and backlinks to your site. Official templates page documents the creator submission flow.",
+      "evidence": [
+        "https://www.notion.com/templates"
+      ],
+      "how_searched": [
+        "fetched official Notion templates marketplace page",
+        "confirmed 'Become a creator' submission link"
+      ],
+      "score": 21.7,
+      "found_at": "2026-10-18T06:24:27.429586+00:00"
+    },
+    {
       "name": "Qiita API v2 — publish developer articles programmatically",
       "url": "https://qiita.com/api/v2/docs",
       "kind": "platform",
@@ -2297,6 +2527,44 @@
       "found_at": "2026-10-13T18:47:34.628243+00:00"
     },
     {
+      "name": "ORCID researcher profile (free persistent ID + public API)",
+      "url": "https://orcid.org/about",
+      "kind": "directory",
+      "requires_account": true,
+      "official_free_api": true,
+      "how_to_use": "Create a free ORCID iD and record at orcid.org; add your name, affiliations, works (publications, datasets, software, preprints), and links to your website/GitHub. Set visibility to 'Everyone' for public discoverability. Use the free public API (api.orcid.org) to read public records and embed your iD/badge on your site. Connect ORCID to publishers, repositories (Zenodo, Figshare) and funders so contributions auto-populate.",
+      "rules_and_risks": "Free for researchers; member API (write) requires institutional membership. Records must represent real people; duplicate/fake records violate terms. Privacy settings control what is public. ORCID is research-focused; not a fit for non-academic sites.",
+      "why_it_works": "ORCID is the standard researcher identifier used across publishers, funders and repositories; a public record with linked works and your website URL is indexed and cited. Official about page states iD and record are free, APIs available, and data downloadable under CC0. ORCID data also feeds Google Scholar and discovery layers.",
+      "evidence": [
+        "https://orcid.org/about"
+      ],
+      "how_searched": [
+        "web search for ORCID free profile API",
+        "fetched official ORCID about page"
+      ],
+      "score": 20.0,
+      "found_at": "2026-10-18T06:24:28.625283+00:00"
+    },
+    {
+      "name": "Figshare free research repository (up to 20GB, DataCite DOI)",
+      "url": "https://info.figshare.com/about/",
+      "kind": "directory",
+      "requires_account": true,
+      "official_free_api": true,
+      "how_to_use": "Register free at figshare.com. Upload research outputs (papers, datasets, code, media, posters) up to 20GB per item for free with a CC license. Figshare mints a DataCite DOI, makes metadata machine-readable, and exposes an open documented API plus OAI-PMH for aggregators. Add your website URL and ORCID. Embargo options available. Use for original research, benchmarks, tools and datasets that attract citations and backlinks.",
+      "rules_and_risks": "Free tier caps at 20GB per item; larger deposits need Figshare Plus (one-time Data Publishing Charge). Content must be scholarly research outputs; spam/low-quality uploads removed. Commercial code (figshare is commercial) but free for individuals. License choice is permanent-ish; pick an open license for reach.",
+      "why_it_works": "Figshare.com is free for individual researchers and has 8M+ openly available outputs with DOIs; it is indexed by Google Dataset Search and aggregators, giving durable, citable landing pages that drive referral traffic and AI citations. Official about page documents free 20GB, open API, DataCite DOI minting and no vendor lock-in.",
+      "evidence": [
+        "https://info.figshare.com/about/"
+      ],
+      "how_searched": [
+        "web search for Figshare free upload DOI",
+        "fetched official about page"
+      ],
+      "score": 20.0,
+      "found_at": "2026-10-18T06:24:28.679220+00:00"
+    },
+    {
       "name": "Yandex Webmaster (search reach in RU/CIS)",
       "url": "https://webmaster.yandex.com/welcome/",
       "kind": "search",
@@ -2408,6 +2676,44 @@
       ],
       "score": 18.3,
       "found_at": "2026-10-10T00:17:36.241334+00:00"
+    },
+    {
+      "name": "OpenStreetMap free business/location data (feeds maps and apps)",
+      "url": "https://www.openstreetmap.org/about",
+      "kind": "directory",
+      "requires_account": true,
+      "official_free_api": true,
+      "how_to_use": "Create a free OSM account, then add or edit your business/venue (name, address, hours, website, phone, category) via the in-browser iD editor or JOSM. Changes go live on OSM and propagate to thousands of apps, maps and services that consume OSM data (including many 'near me' and navigation apps). Add your website URL as a tag. Contribute accurate, verifiable data; include opening hours and contact details.",
+      "rules_and_risks": "Edits must be verifiable on the ground and not promotional; spammy or incorrect edits are reverted by the community and can lead to blocks. ODbL license: downstream users must attribute OSM. Account required to edit; anonymous viewing only. Best for physical locations.",
+      "why_it_works": "OSM is open data consumed by thousands of websites, mobile apps and hardware devices; a correct listing with your website URL propagates across the OSM ecosystem and local discovery. Official about page confirms community-driven, open-licensed data and free account creation.",
+      "evidence": [
+        "https://www.openstreetmap.org/about"
+      ],
+      "how_searched": [
+        "web search for OpenStreetMap add business free",
+        "fetched official about page"
+      ],
+      "score": 18.3,
+      "found_at": "2026-10-18T06:24:29.023311+00:00"
+    },
+    {
+      "name": "Wikimedia Commons free media upload (image-search SEO)",
+      "url": "https://commons.wikimedia.org/wiki/Commons:Upload",
+      "kind": "platform",
+      "requires_account": false,
+      "official_free_api": true,
+      "how_to_use": "Upload original, freely licensed or public-domain media (photos, diagrams, screenshots of free software) via the Upload Wizard at commons.wikimedia.org (account encouraged but not mandatory). Add detailed descriptions, categories, author, source and license. Include your website in the description/source field. Media is reused across Wikipedia and indexed by Google Image search, driving referral traffic and backlinks.",
+      "rules_and_risks": "Only freely licensed/public-domain content; fair use not allowed. Files not meeting criteria are deleted. No copyrighted screenshots/logos unless license permits. Account not required but recommended for tracking and credibility. Spam/self-promotional uploads removed.",
+      "why_it_works": "Wikimedia Commons is the media repository behind Wikipedia and is heavily indexed by Google Image search; well-categorized original media gets reused in articles and surfaces in image results, sending targeted traffic. Official upload page documents the free Upload Wizard and licensing rules.",
+      "evidence": [
+        "https://commons.wikimedia.org/wiki/Commons:Upload"
+      ],
+      "how_searched": [
+        "web search for Wikimedia Commons upload free",
+        "fetched official upload page"
+      ],
+      "score": 18.3,
+      "found_at": "2026-10-18T06:24:29.053109+00:00"
     },
     {
       "name": "Wiby submit — indie search engine for simple web pages",

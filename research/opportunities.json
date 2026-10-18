@@ -4641,6 +4641,23 @@
       "found_at": "2026-10-16T21:15:07.429515+00:00"
     },
     {
+      "name": "Rotating Accountability Tool for ADHD",
+      "field": "Productivity & Mental Health",
+      "summary": "A web app that provides rotating external accountability voices/timers for ADHD executive dysfunction, using deliberate novelty to prevent habituation instead of fixed daily reminders.",
+      "why_now": "A viral r/adhdwomen thread (3,225 upvotes, 340 comments, Oct 9-12 2026) described the mechanism in detail; novelty/variable reinforcement addresses why existing habit apps fail for ADHD brains right now.",
+      "monetization": "Freemium: free rotating voice accountability, paid for multi-user body-doubling sessions and premium voice packs; ADHD productivity tools have strong willingness-to-pay.",
+      "evidence": [
+        "https://engaggit.com/blog/app-ideas-2026-10-12",
+        "https://www.reddit.com/r/adhdwomen/comments/1n83rc5/i_think_ive_finally_figured_out_how_to_cure_my/"
+      ],
+      "how_searched": [
+        "Reddit community gap analysis (r/adhdwomen)",
+        "Engaggit weekly Reddit gap scan (Oct 9-12 2026)"
+      ],
+      "score": 61.3,
+      "found_at": "2026-10-18T06:01:51.186925+00:00"
+    },
+    {
       "name": "Fractional-executive rate benchmark & matching tool",
       "field": "Talent / Executive hiring",
       "summary": "A rebuilt free web tool where executives and startups get live compensation benchmarks (hourly/retainer by role and company stage), plus a directory and simple match flow for fractional CFO/COO/CTO/CMO engagements.",
@@ -4713,6 +4730,23 @@
       ],
       "score": 60.7,
       "found_at": "2026-10-16T21:15:08.327546+00:00"
+    },
+    {
+      "name": "Agent Cache-Cost Decision Layer",
+      "field": "AI Infrastructure",
+      "summary": "A web dashboard/CLI companion that decides when to ping, warm-compact, cold-compact, or tail-trim coding-agent sessions to minimize token/cache costs based on live pricing and idle time.",
+      "why_now": "r/ClaudeCode thread (209 upvotes, 76 comments, 2026) revealed developers independently re-deriving cache economics; with heavy agent usage, users overpay silently and lack decision tooling.",
+      "monetization": "SaaS dashboard (per-seat) + API; AI infrastructure tooling commands $30-35/hr on Upwork and established buyers spend $4k-8k.",
+      "evidence": [
+        "https://engaggit.com/blog/app-ideas-2026-10-12",
+        "https://www.reddit.com/r/ClaudeCode/comments/1n8abcd/best_way_to_handle_cold_cache_hits/"
+      ],
+      "how_searched": [
+        "Reddit technical gap analysis",
+        "Upwork AI infrastructure demand signals (AI agent development $30/hr, median client spend $5.5k)"
+      ],
+      "score": 60.7,
+      "found_at": "2026-10-18T06:01:52.192676+00:00"
     },
     {
       "name": "AI voiceover pronunciation checker",
@@ -4803,6 +4837,23 @@
       "found_at": "2026-10-11T14:06:21.665883+00:00"
     },
     {
+      "name": "Bus-Factor Knowledge Handoff Guard",
+      "field": "DevOps & Knowledge Management",
+      "summary": "Web tool that enforces re-performance gates for critical workflows (prove a successor can reproduce key outputs), not just static runbooks, with bus-factor alerts and signoff tracking.",
+      "why_now": "Detailed r/BestofRedditorUpdates saga (1,715 upvotes, 320 comments, 2026) documents a financial reporting collapse from undocumented tribal knowledge with countdown deadlines; enterprises actively face this risk.",
+      "monetization": "B2B SaaS per-seat/team with onboarding packages; targets managers with 90-day departure deadlines and compliance needs.",
+      "evidence": [
+        "https://engaggit.com/blog/app-ideas-2026-10-12",
+        "https://www.reddit.com/r/BestofRedditorUpdates/comments/1n9xyza/new_data_analyst_job_is_turning_into_replacing/"
+      ],
+      "how_searched": [
+        "Reddit workplace pain point scan",
+        "Engaggit gap analysis (Oct 9-12 2026)"
+      ],
+      "score": 59.3,
+      "found_at": "2026-10-18T06:01:53.057068+00:00"
+    },
+    {
       "name": "Digital-Product Niche & Pricing Intelligence (Etsy/Pinterest)",
       "field": "E-commerce seller tooling",
       "summary": "A free web tool that cross-checks Pinterest trend spikes against Etsy demand and competition to surface 'openings' (demand minus competition), with average price and bestseller velocity for any keyword.",
@@ -4890,6 +4941,23 @@
       ],
       "score": 58.7,
       "found_at": "2026-10-18T01:05:26.785303+00:00"
+    },
+    {
+      "name": "Freshness-First Job Search Assistant",
+      "field": "JobTech & AI",
+      "summary": "Web app that surfaces jobs posted in last 24 hours from company career pages, with per-role CV tailoring and referral sequencing to beat application flooding.",
+      "why_now": "r/jobsearch thread (372 upvotes, 2026) states 'filter to jobs posted in last 24 hours' as the decisive tactic; job search is increasingly timing-driven in competitive markets.",
+      "monetization": "Freemium: free freshness feed; paid for AI per-role tailoring, tracking, and referral outreach automation.",
+      "evidence": [
+        "https://engaggit.com/blog/app-ideas-2026-10-12",
+        "https://www.reddit.com/r/jobsearch/comments/1na4567/lie_just_lie/"
+      ],
+      "how_searched": [
+        "Reddit job search pain analysis",
+        "Cross-checked against Upwork job market activity (98k+ new jobs tracked, Oct 2026)"
+      ],
+      "score": 58.7,
+      "found_at": "2026-10-18T06:01:54.099807+00:00"
     },
     {
       "name": "Bilingual website / PDF / video translation extension",
@@ -5039,6 +5107,24 @@
       "found_at": "2026-10-17T14:05:45.583134+00:00"
     },
     {
+      "name": "AI Video Explainers as-a-Service Template",
+      "field": "AI Content Creation",
+      "summary": "Web tool that turns release notes/docs/URLs into short branded videos using AI agents, optimized for product launches and demos without agency costs.",
+      "why_now": "Product Hunt shows ngram 2.0 (score 282, Oct 2026) and AI video generation/editing trending strongly (+329% YoY on Upwork); Exploding Topics lists AI Video Generator with strong growth.",
+      "monetization": "Tiered SaaS (credits per video/minute) plus API; Quartz reports AI video specialists command $100+/hr.",
+      "evidence": [
+        "https://www.producthunt.com/products/ngram",
+        "https://flconsole.com/blog/upwork-in-demand-skills"
+      ],
+      "how_searched": [
+        "Product Hunt launch scanning (weekly leaderboard)",
+        "Upwork in-demand skills analysis (Oct 2026)",
+        "Exploding Topics trending search data"
+      ],
+      "score": 58.0,
+      "found_at": "2026-10-18T06:01:56.078039+00:00"
+    },
+    {
       "name": "Accessibility AI assistant web app",
       "field": "Accessibility/HealthTech",
       "summary": "A free web app providing AI-powered visual/description assistance for blind/low-vision users (object description, text reading, scene understanding).",
@@ -5106,6 +5192,23 @@
       ],
       "score": 57.3,
       "found_at": "2026-10-18T01:05:27.105121+00:00"
+    },
+    {
+      "name": "Privacy-First Collaboration Bridge",
+      "field": "Privacy & Collaboration",
+      "summary": "Web service enabling cross-provider calendar/contact sharing and simple encrypted file transfer to make migrating away from Google services practical for privacy-focused users.",
+      "why_now": "r/degoogle thread (221 upvotes, 2026) identifies concrete blockers: cannot share calendars with non-users, missing Drive equivalent, slow local search; sovereignty concerns drive demand for EU-first tools.",
+      "monetization": "Subscription (storage + premium features); targets privacy-conscious individuals and teams seeking practical de-Googling without losing collaboration.",
+      "evidence": [
+        "https://engaggit.com/blog/app-ideas-2026-10-12",
+        "https://www.reddit.com/r/degoogle/comments/1nbcdef/european_alternatives_to_gmail/"
+      ],
+      "how_searched": [
+        "Reddit de-Googling community gap scan",
+        "Engaggit weekly analysis"
+      ],
+      "score": 57.3,
+      "found_at": "2026-10-18T06:01:55.107394+00:00"
     },
     {
       "name": "Failed-Payment Recovery / Dunning for Small SaaS (Rebounce-model)",
@@ -5808,110 +5911,6 @@
       ],
       "score": 48.7,
       "found_at": "2026-10-13T10:42:29.614565+00:00"
-    },
-    {
-      "name": "Long-form-to-short social content workspace for SMBs and authors",
-      "field": "Content creation / social media management",
-      "summary": "A free tool that turns a URL, video or book into a full set of branded social posts across channels, aimed at small businesses and authors who cannot afford a social team.",
-      "why_now": "Marky is Stripe-verified at $1,003,768 all-time and $21,929 MRR with 482 active subscribers (ranked #116 on TrustMRR); its site reports 200K+ businesses with G2 4.8 / Capterra 4.5 ratings, and the founder reported $516K trailing revenue and $336K net income.",
-      "monetization": "Subscription SaaS with a 14-day trial; revenue and MRR independently verified on TrustMRR.",
-      "evidence": [
-        "https://trustmrr.com/startup/marky",
-        "https://mymarky.ai/"
-      ],
-      "how_searched": [
-        "open-revenue dashboard (TrustMRR)",
-        "vendor landing page",
-        "review-site ratings (G2/Capterra, via vendor)"
-      ],
-      "score": 48.7,
-      "found_at": "2026-10-14T02:06:37.579619+00:00"
-    },
-    {
-      "name": "Amazon Seller Product & Niche Research Tool",
-      "field": "e-commerce / marketplace tools",
-      "summary": "A web tool that helps Amazon FBA sellers find winning products, validate demand and size competition — launched into an existing seller community and monetized immediately at premium price points.",
-      "why_now": "Launch Fast hit $10K MRR in 30 days, $21.8K at 90 days, ~$30K MRR with 330 paying users at $49/$89/$199 tiers and zero free plan — one of the fastest verified indie ramps of 2026; founders with existing seller-community distribution are stacking similar tools because 'customers who already make money' pay 3–5x typical SaaS ARPU.",
-      "monetization": "No free plan; $49–$199/mo subscriptions; ~330 paying users at ~$30K MRR. Launch strategy: partner with a coaching program (1,000+ active sellers) for distribution before build.",
-      "evidence": [
-        "https://small-start.com/en/cases/global-building-a-product-in-48-hours-and-hitting-30k/",
-        "https://stealwhatworks.com/blogs/news/indie-hacker-projects-making-money"
-      ],
-      "how_searched": [
-        "indie-SaaS growth case database",
-        "paid-SaaS revenue rankings",
-        "small-start founder case study"
-      ],
-      "score": 48.7,
-      "found_at": "2026-10-16T01:27:17.633141+00:00"
-    },
-    {
-      "name": "Open-core LLM / AI observability & token-cost monitor",
-      "field": "Developer tools / AI infrastructure",
-      "summary": "An open-core dashboard that traces LLM and agent calls, tracks token cost and latency, and scores hallucination/quality, self-hostable with a paid cloud.",
-      "why_now": "The LLM observability market grew from $1.97B in 2025 to $2.69B in 2026 (36.3% CAGR) and is forecast to reach $9.26B by 2030; a broader AI observability market is $2.94B in 2025, $3.86B in 2026, heading to $44.20B by 2035 at 31.1% CAGR. Both reports name open-core/usage-based vendors (Langfuse, Braintrust, Comet Opik) as the model.",
-      "monetization": "Open-core SaaS: free self-host/community edition plus paid cloud and usage-based pricing (the reports list subscription and usage-based as the leading pricing models).",
-      "evidence": [
-        "https://www.researchandmarkets.com/reports/6215671/large-language-model-llm-observability",
-        "https://www.nextmsc.com/report/ai-observability-market-ic5403"
-      ],
-      "how_searched": [
-        "market-research report pages (two independent publishers)"
-      ],
-      "score": 48.7,
-      "found_at": "2026-10-17T04:51:50.333419+00:00"
-    },
-    {
-      "name": "AI Personalized Children's Storybook Generator (DreamStories/Magic Story-model)",
-      "field": "Consumer / education / gifting",
-      "summary": "A free web tool that creates an illustrated, personalized children's storybook from a child's name, appearance and a chosen theme/adventure, delivered as a viewable digital book.",
-      "why_now": "DreamStories.ai reports a $3M run rate with 100K customers at ~$48/book and ~$60 CAC (7 employees); Magic Story saw 200x revenue growth in year one with 10,000+ subscriptions. Personalized gifting content monetizes directly and is shareable/viral.",
-      "monetization": "Freemium digital book preview + paid HD PDF / printed hardcover upsell, themed packs and subscriptions; print-on-demand margin.",
-      "evidence": [
-        "https://getlatka.com/companies/dreamstories.ai",
-        "https://medium.com/@pressonvc/why-were-backing-magic-story-76eea1dc37e4"
-      ],
-      "how_searched": [
-        "Source kind: SaaS revenue database with on-camera founder interview (GetLatka)",
-        "Source kind: venture-investor thesis post (Medium/Press On VC)",
-        "Source kind: market-size report (Tamfinder) for the custom-AI-books category"
-      ],
-      "score": 48.0,
-      "found_at": "2026-10-09T19:36:09.819633+00:00"
-    },
-    {
-      "name": "eBay sold-price (comps) lookup tool for resellers",
-      "field": "E-commerce analytics / reseller tools",
-      "summary": "A tool/API that returns recent real eBay sold prices (price, date, condition, shipping, seller) for a keyword, used by resellers, flippers and estate-sale pros to price items. SoldComps shows verified MRR of ~$21,539 across 547 active subscriptions (all-time ~$48.5K) about 19 months after launch.",
-      "why_now": "eBay's own Finding API restricts sold-listing access, leaving a real data gap. Resellers and flippers are a high-willingness-to-pay niche tied to income. A rebuild must solve the data-access problem lawfully.",
-      "monetization": "Freemium API/web tool: free (~100 requests/mo) then paid tiers from ~$9 to ~$79/mo by request volume.",
-      "evidence": [
-        "https://trustmrr.com/startup/soldcomps",
-        "https://sold-comps.com"
-      ],
-      "how_searched": [
-        "verified-revenue database",
-        "company homepage/pricing"
-      ],
-      "score": 48.0,
-      "found_at": "2026-10-12T10:53:47.274479+00:00"
-    },
-    {
-      "name": "Context.dev - web data API for agents",
-      "field": "Developer tools / data",
-      "summary": "Turns any URL into clean data via API; extracts brand data, crawls sitemaps. Claims 5k+ businesses.",
-      "why_now": "Weekly Product Hunt traction. Demand for reliable scraping/data access for AI agents.",
-      "monetization": "API pricing (usage-based). Claimed 5000+ businesses but no public ARR/revenue disclosed; revenue null.",
-      "evidence": [
-        "https://www.producthunt.com/leaderboard/weekly/2026/42",
-        "https://context.dev/"
-      ],
-      "how_searched": [
-        "Product Hunt",
-        "company site"
-      ],
-      "score": 48.0,
-      "found_at": "2026-10-12T20:20:24.765781+00:00"
     }
   ]
 }
