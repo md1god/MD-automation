@@ -48,6 +48,27 @@
       "found_at": "2026-10-14T22:45:21.191118+00:00"
     },
     {
+      "name": "Vertical AI Form/Workflow Builder for Regulated Industries",
+      "field": "Vertical SaaS / Compliance Software",
+      "summary": "A form builder tailored to one regulated vertical (healthcare/HIPAA, legal, finance, education/FERPA) with built-in compliance workflows, e-signatures, audit trails, and integrations (EMR, DocuSign, CRM). Replaces generic tools that require costly customization.",
+      "why_now": "Cognito Forms at ~$10M ARR proves HIPAA/FERPA niche; Tally hit $4.3M ARR with free-unlimited model; Fillout $5M+ ARR via deep integrations; Youform cloned Tally to $30K MRR in 18 months; Zigpoll $142K MRR solo via Shopify post-purchase niche. Solo Founder's Atlas: \"vertical, opinionated forms for one tight buyer\" is the opening; horizontal giants can't profitably chase 5,000-customer niches.",
+      "monetization": "Freemium: free unlimited forms/submissions; paid tiers ($20-65/mo) remove branding, add custom domains, team seats, HIPAA BAAs, advanced analytics, file-upload limits. Tally converts ~2% of 800K+ users at €20/mo.",
+      "evidence": [
+        "https://trends.vc/opportunities/online-form-builders",
+        "https://onepc.org/en/track/form-builders",
+        "https://blog.tally.so/the-road-from-4m-to-5m-arr/",
+        "https://getlatka.com/companies/zigpoll/competitors"
+      ],
+      "how_searched": [
+        "Market revenue databases (Trends.vc)",
+        "Founder revenue breakdowns (Tally, Zigpoll)",
+        "Industry analysis (Solo Founder's Atlas)",
+        "Competitor tracking (GetLatka)"
+      ],
+      "score": 92.0,
+      "found_at": "2026-10-18T14:57:43.224158+00:00"
+    },
+    {
       "name": "AI search visibility / GEO brand-citation checker",
       "field": "Marketing & SEO (GEO/AEO)",
       "summary": "A free web tool that checks how often a brand or competitor is named (and where) inside answers from ChatGPT, Perplexity, Gemini and Claude, then generates an llms.txt/citation audit with fixes.",
@@ -294,6 +315,29 @@
       ],
       "score": 88.0,
       "found_at": "2026-10-17T22:26:27.272374+00:00"
+    },
+    {
+      "name": "Shopify App Store Intelligence Platform",
+      "field": "E-commerce Analytics / Market Intelligence",
+      "summary": "A web dashboard that tracks 4,000+ Shopify apps across 2.1M stores — showing install trends, category growth, pricing shifts, review velocity, and competitor detection. Merchants and agencies use it to pick winning apps; developers use it to size niches and time launches.",
+      "why_now": "StoreCensus tracks 2.1M stores/4,191 apps weekly; Shoplist detected 564K installs in 28 days (Oct 2026); RevenueHunt analyzed 22,546 live apps (Jun 2026); LetsMetrix: 30,485 live apps, 5,681 launches in Q3 2026; Appicly: 33,388 total apps, 1,906 new last month. No public tool aggregates this for buyers/builders.",
+      "monetization": "Freemium SaaS: free tier with top-10 category views; Pro $49-99/mo for full install trends, keyword rankings, competitor alerts, API access. Agency/enterprise $299/mo for white-label reports. Affiliate commissions from app referrals.",
+      "evidence": [
+        "https://www.storecensus.com/stats",
+        "https://shoplist.co/reports/state-of-shopify-apps",
+        "https://revenuehunt.com/state-of-the-shopify-app-economy/",
+        "https://letsmetrix.com/reports/shopify-app-market",
+        "https://appicly.com/stats",
+        "https://corex.xco.agency/free-tools/benchmarks"
+      ],
+      "how_searched": [
+        "Real-time store tracking platforms (StoreCensus, Shoplist)",
+        "Market research reports (RevenueHunt, LetsMetrix)",
+        "App store statistics sites (Appicly, CoreX)",
+        "Academic longitudinal study (arXiv)"
+      ],
+      "score": 88.0,
+      "found_at": "2026-10-18T14:57:50.115614+00:00"
     },
     {
       "name": "Retro digicam / film-camera filter web app (Y2K & CCD look)",
@@ -738,6 +782,29 @@
       ],
       "score": 85.0,
       "found_at": "2026-10-17T17:18:14.526864+00:00"
+    },
+    {
+      "name": "Chrome Extension Market Intelligence Tool",
+      "field": "Developer Tools / Browser Extension Analytics",
+      "summary": "A web app that analyzes 178K+ Chrome extensions — user counts, growth rates, ratings, update cadence, monetization models, category benchmarks. Helps builders decide what to build, price, and how to distribute.",
+      "why_now": "Exstats: 178,299 active Chrome extensions (Mar 2026), 22.7% YoY growth; only 2.63% exceed 10K users; median 18 users. ExtWatch analyzed 270K listings for earnings models; Profitable.app ranks by installs/revenue; ExtOps tracks 369K extensions daily. AI extensions slice valued at $2.3B (2025) growing to $17B (2035).",
+      "monetization": "Freemium: free category overviews; Pro $29-79/mo for growth alerts, competitor tracking, keyword opportunities, revenue estimation models. Data API $199/mo for platforms. One-time reports $99.",
+      "evidence": [
+        "https://exstats.com/blog/state-of-browser-extensions-q1-2026",
+        "https://konabayev.com/blog/chrome-extension-statistics-2026/",
+        "https://extwatch.com/blog/make-money-chrome-extension",
+        "https://profitable.app/chrome",
+        "https://extops.dev/extensions",
+        "https://www.marketresearchintellect.com/product/ai-chrome-extension-market/"
+      ],
+      "how_searched": [
+        "Extension store analytics platforms (Exstats, ExtOps, ExtWatch)",
+        "Market research reports (MarketResearchIntellect)",
+        "Revenue ranking sites (Profitable.app)",
+        "Developer statistics blogs (Konabayev)"
+      ],
+      "score": 85.0,
+      "found_at": "2026-10-18T14:57:51.646449+00:00"
     },
     {
       "name": "AI Video Generation & Editing for Short-Form",
@@ -1315,6 +1382,29 @@
       "found_at": "2026-10-17T22:26:31.552885+00:00"
     },
     {
+      "name": "AI Agent Runtime Cost Ledger / Observability",
+      "field": "AI Infrastructure / Developer Tools",
+      "summary": "An open-source dashboard + hosted service that gives every AI agent run a financial ledger: tokens in/out, tool calls, API costs, latency, success/failure, and revenue earned. Works across agent frameworks (LangChain, CrewAI, OpenClaw, n8n, MCP).",
+      "why_now": "Kopai: \"every agent run should have a ledger: what did it do, consume, cost, earn\"; indie.money: \"per-run track record that compounds\"; 5+ agent marketplaces launched in 2026 (Kopai, OmniVibe, SkillFlow, AgentArk, SellerShorts) — all need cost attribution. No standard exists.",
+      "monetization": "Open-core: self-hosted free; Cloud $49-199/mo for multi-agent teams, retention >90 days, cost optimization alerts, revenue attribution per agent. Enterprise $999/mo for SSO, audit logs, custom integrations.",
+      "evidence": [
+        "https://www.producthunt.com/products/kopai-the-marketplace-for-ai-agents",
+        "https://www.indiehackers.com/product/indie-money",
+        "https://www.indiehackers.com/post/inviting-early-ai-agent-providers-aking-money-on-agentark-ae32e069ae",
+        "https://www.indiehackers.com/post/i-built-an-open-marketplace-for-ai-agent-skills-heres-what-i-learned-2ca96753c7",
+        "https://www.producthunt.com/products/omnivibe",
+        "https://www.indiehackers.com/product/sellershorts"
+      ],
+      "how_searched": [
+        "Product Hunt launches (Kopai, OmniVibe)",
+        "Indie Hackers product pages (indie.money, SkillFlow, SellerShorts)",
+        "Indie Hackers forum posts (AgentArk)",
+        "Marketplace announcements"
+      ],
+      "score": 82.0,
+      "found_at": "2026-10-18T14:57:52.582151+00:00"
+    },
+    {
       "name": "AI SDR & Autonomous Sales Agents",
       "field": "Sales Tech / AI Automation",
       "summary": "AI agents that engage website visitors in real time, qualify leads, give personalized demos, handle objections, and book meetings — integrating with CRM and sales stacks for 24/7 pipeline generation.",
@@ -1684,6 +1774,28 @@
       "found_at": "2026-10-17T22:26:33.018235+00:00"
     },
     {
+      "name": "Vertical Compliance/Paperwork Tracker for Skilled Trades",
+      "field": "Vertical SaaS / Field Service Software",
+      "summary": "A mobile-first web app for HVAC, electrical, plumbing, and general contractors: license/insurance expiry alerts, permit tracking, inspection checklists, equipment certification schedules, and audit-ready exports. Replaces paper/Excel with mandatory compliance workflows.",
+      "why_now": "BoilerplateHub: 6/25 ideas are compliance/paperwork for trades (contractor license tracker, food safety logs, equipment cert scheduler); MicroGaps: business license compliance $15-25/mo, high retention; OnePerson: dental scheduling $18K MRR solo; BuildMVPFast: \"mandatory compliance = zero churn\"; Flowjam: vertical compliance checker $30K-$500K ARR.",
+      "monetization": "Per-seat SaaS $49-149/mo per technician/office; annual contracts. High switching costs once crew trained. Upsell: insurance COI tracking, multi-state license mgmt, customer portal.",
+      "evidence": [
+        "https://boilerplatehub.com/blog/vertical-micro-saas-ideas-2026",
+        "https://www.microgaps.com/blog/boring-micro-saas-ideas-that-make-money",
+        "https://www.oneperson.work/insights/boring-micro-saas?lang=en",
+        "https://www.buildmvpfast.com/blog/micro-saas-niche-down-horizontal-tool-one-industry-2026",
+        "https://www.flowjam.com/blog/indie-hackers-saas-ideas-2025-10-you-can-launch-fast"
+      ],
+      "how_searched": [
+        "Curated idea lists with revenue anchors (BoilerplateHub, Flowjam)",
+        "Micro-SaaS analysis blogs (MicroGaps, OnePerson, BuildMVPFast)",
+        "Founder case studies (dental scheduling $18K MRR)",
+        "Community validation patterns"
+      ],
+      "score": 80.0,
+      "found_at": "2026-10-18T14:57:55.188037+00:00"
+    },
+    {
       "name": "Embeddable AI Agent / Copilot for SaaS",
       "field": "DevTools / SaaS Infrastructure",
       "summary": "Drop-in AI agent (one line of code) that lets end-users control any SaaS via natural language — turning clicks into conversations, with scoped permissions, audit logs, and model-agnostic deployment.",
@@ -2034,6 +2146,26 @@
       ],
       "score": 78.0,
       "found_at": "2026-10-18T11:14:12.881742+00:00"
+    },
+    {
+      "name": "Niche B2B Integration/Glue Tool Builder",
+      "field": "Integration Platform / Developer Tools",
+      "summary": "A low-code platform to build and monetize connectors between two popular tools that don't talk to each other (e.g., Intune ↔ packaging, CRM ↔ proposal software, accounting ↔ field service). Inherits both user bases; zero direct competition.",
+      "why_now": "Pckgr: $1M+ ARR connecting Intune admins to app packaging; Content Snare: $1M+ ARR connecting accountants to client intake; ZenMaid: $250K MRR for cleaning companies; StealWhatWorks: \"lowest build cost, inherit both audiences\"; Flowjam: niche B2B integration $20K-$300K ARR, Low-Med build.",
+      "monetization": "Freemium: free tier 1-2 connectors; Pro $39-99/mo for unlimited connectors, webhooks, custom fields, white-label embed. Marketplace: builders publish connectors, keep 80% of $10-49/mo subscriber revenue.",
+      "evidence": [
+        "https://stealwhatworks.com/blogs/news/boring-saas-making-money",
+        "https://www.flowjam.com/blog/indie-hackers-saas-ideas-2025-10-you-can-launch-fast",
+        "https://www.indiehackers.com/post/tech/hitting-30m-arr-with-the-first-product-he-built-oJ1E1ukp60M7OZZXl2AJ"
+      ],
+      "how_searched": [
+        "Founder case studies (Pckgr, Content Snare, ZenMaid)",
+        "Curated idea lists with revenue ranges (Flowjam)",
+        "Indie Hackers revenue interviews (Spectora $30M ARR)",
+        "Market analysis blogs (StealWhatWorks)"
+      ],
+      "score": 78.0,
+      "found_at": "2026-10-18T14:57:55.808581+00:00"
     },
     {
       "name": "Browser Extension AI Productivity Tools",
@@ -3122,6 +3254,27 @@
       "found_at": "2026-10-18T11:14:42.889270+00:00"
     },
     {
+      "name": "Free/Open-Source Form Builder with Viral \"Made with\" Loop",
+      "field": "Developer Tools / Form Builders",
+      "summary": "An open-source (MIT/AGPL) form builder with unlimited free forms/submissions, self-hostable. Cloud version free for individuals; teams pay $20/mo to remove \"Made with [Name]\" badge, add custom domains, SSO, analytics. Badge drives organic acquisition.",
+      "why_now": "Tally: $4.3M ARR, 800K users, 2% paid conversion, free-unlimited model; Youform: cloned Tally at half price to $30K MRR in 18 months; Formbricks: $550K ARR open-source; OperatorBook: \"free plan is the acquisition channel — every form carries a badge.\"",
+      "monetization": "Cloud: Free (badge), Team $20/mo (no badge, custom domain, team seats), Business $65/mo (data retention, email verification). Self-hosted free; support contracts $5K/yr. Plugin/integration marketplace 20% rev share.",
+      "evidence": [
+        "https://www.operatorbook.dev/stories/how-tally-forms-makes-money-free-first",
+        "https://blog.tally.so/the-road-from-4m-to-5m-arr/",
+        "https://onepc.org/en/track/form-builders",
+        "https://trends.vc/opportunities/online-form-builders"
+      ],
+      "how_searched": [
+        "Founder revenue breakdowns (Tally, Youform)",
+        "Market analysis (Solo Founder's Atlas, Trends.vc)",
+        "Open-source business model case studies (Formbricks)",
+        "Operator/founder diaries (OperatorBook)"
+      ],
+      "score": 73.0,
+      "found_at": "2026-10-18T14:57:57.845674+00:00"
+    },
+    {
       "name": "LLM / agent spend & cost observability dashboard",
       "field": "Developer tools (LLMOps / FinOps)",
       "summary": "A free web tool that ingests API logs and shows cost per user, per feature, per model, plus latency, caching and runaway-agent alerts.",
@@ -3900,6 +4053,27 @@
       "found_at": "2026-10-18T11:14:59.641262+00:00"
     },
     {
+      "name": "Post-Purchase Survey & Attribution for E-commerce",
+      "field": "E-commerce Analytics / Zero-Party Data",
+      "summary": "A Shopify-native web app that triggers micro-surveys on thank-you pages, ties responses to order value/LTV/segments, and feeds attribution data to ad platforms (Meta, Google, TikTok). Replaces generic survey tools with e-commerce context.",
+      "why_now": "Zigpoll: $142K MRR solo, 90% via Shopify App Store, doubles YoY since 2022; Shopify Forms: 130K installs, +16.5% 90-day trend; StoreCensus: post-purchase surveys category growing. 75% of pros use AI note-takers but e-commerce lacks equivalent for attribution.",
+      "monetization": "Freemium: free 25 responses/mo; Standard $49/mo (2,500 responses, AI insights); Pro $149/mo (unlimited, API, webhooks, Klaviyo/Attentive sync). Agency $299/mo multi-store. Shopify App Store takes 20% but provides distribution.",
+      "evidence": [
+        "https://milestonewins.com/stories/zigpoll-story/",
+        "https://www.systemaic.com/teardowns/zigpoll",
+        "https://www.storecensus.com/stats",
+        "https://www.linkedin.com/posts/jason-zigelbaum_august-pushed-zigpoll-past-141000-in-monthly-activity-7500545550866440193-hdBi"
+      ],
+      "how_searched": [
+        "Founder revenue story (MilestoneWins)",
+        "Growth teardown (Systemaic)",
+        "Real-time store tracking (StoreCensus)",
+        "Founder LinkedIn updates (Jason Zigelbaum)"
+      ],
+      "score": 70.0,
+      "found_at": "2026-10-18T14:57:58.759382+00:00"
+    },
+    {
       "name": "Prescription price-comparison & savings tool",
       "field": "Consumer health / pharmacy savings",
       "summary": "Search a drug plus ZIP to compare cash prices across discount programs and nearby pharmacies, with alerts on price changes. A free, no-insurance comparison tool.",
@@ -4191,6 +4365,25 @@
       ],
       "score": 68.0,
       "found_at": "2026-10-17T14:05:41.633670+00:00"
+    },
+    {
+      "name": "Local Business Review Monitoring & Response Dashboard",
+      "field": "Local Marketing / Reputation Management",
+      "summary": "A unified dashboard that aggregates Google, Yelp, Facebook, and Apple Maps reviews for multi-location businesses. AI drafts responses, flags sentiment drops, tracks competitor ratings, and pushes review requests via SMS/email.",
+      "why_now": "MicroGaps: $20-35/mo, high willingness to pay — reviews directly affect revenue; Gorgias: 2.5M monthly visits doing review management for ecommerce; SeekTool: Zigpoll alternatives include review tools with 1.1M+ visits. 67% of Fortune 500 deploy AI tools but local businesses underserved.",
+      "monetization": "Per-location SaaS: $29/mo (1 location), $79/mo (5), $199/mo (20+). White-label for agencies $299/mo. Upsell: review generation campaigns, local SEO audit, competitor benchmarking.",
+      "evidence": [
+        "https://www.microgaps.com/blog/boring-micro-saas-ideas-that-make-money",
+        "https://seektool.ai/ai/zigpoll-com/alternatives",
+        "https://www.laxis.com/blog/state-of-meeting-note-taking-2026/"
+      ],
+      "how_searched": [
+        "Micro-SaaS idea validation blogs (MicroGaps)",
+        "Competitor traffic analysis (SeekTool)",
+        "Enterprise adoption statistics (Laxis) as proxy for SMB gap"
+      ],
+      "score": 68.0,
+      "found_at": "2026-10-18T14:57:59.966396+00:00"
     },
     {
       "name": "AI paid-media management agent (multi-channel ads)",
@@ -5779,158 +5972,6 @@
       ],
       "score": 52.0,
       "found_at": "2026-10-12T10:53:44.001902+00:00"
-    },
-    {
-      "name": "guilds.run - multi-agent workflows",
-      "field": "AI infra / agent orchestration",
-      "summary": "Open-source platform for building/debugging teams of AI agents with inspectable traces and permissions.",
-      "why_now": "Product Hunt traction (#5 weekly). Growing need for observability/control as teams deploy multiple agents.",
-      "monetization": "Open-source core; hosted/SaaS model unclear. Public revenue null.",
-      "evidence": [
-        "https://www.producthunt.com/leaderboard/weekly/2026/42",
-        "https://www.hunted.space/product/guilds-run"
-      ],
-      "how_searched": [
-        "Product Hunt",
-        "hunted.space"
-      ],
-      "score": 52.0,
-      "found_at": "2026-10-12T20:20:21.942167+00:00"
-    },
-    {
-      "name": "Base44 - build apps with natural language",
-      "field": "AI coding / vibe coding",
-      "summary": "Builds functional apps from text prompts; no code required. Targets teams wanting to ship fast.",
-      "why_now": "High weekly score on Product Hunt. Continued hype around vibe coding tools.",
-      "monetization": "SaaS. No public ARR numbers; revenue null.",
-      "evidence": [
-        "https://www.producthunt.com/leaderboard/weekly/2026/42",
-        "https://www.hunted.space/dashboard/base44"
-      ],
-      "how_searched": [
-        "Product Hunt",
-        "hunted.space"
-      ],
-      "score": 52.0,
-      "found_at": "2026-10-12T20:20:22.907422+00:00"
-    },
-    {
-      "name": "Free background-removal web tool",
-      "field": "Creator / image utility",
-      "summary": "A fast in-browser background remover (upload → transparent PNG) rebuildable as an original free tool with premium batch/HD tiers. take-the-idea from the category, not any existing code or brand.",
-      "why_now": "remove.bg's standalone site is shutting down Dec 1 2026 (folding into Leonardo.Ai/Canva), stranding users looking for a drop-in free alternative. Category demand is huge: 'background removal' ~1M searches/mo (+641% YoY), 'background remover' ~3.8M/mo, and Photoroom is at $94.49M ARR (+89% YoY).",
-      "monetization": "Free single-image tool; paid credits/batch and API. Photoroom reported $94.49M ARR (subscriptions), showing willingness to pay in this exact category.",
-      "evidence": [
-        "https://sacra.com/c/photoroom/",
-        "https://www.photoroom.com/blog/remove-bg-alternatives"
-      ],
-      "how_searched": [
-        "Reviewed revenue databases (TrustMRR via bestproductivityresources) for image tools",
-        "Checked Exploding Topics for search-volume trends",
-        "Followed news of remove.bg shutting its standalone service"
-      ],
-      "score": 52.0,
-      "found_at": "2026-10-16T17:31:07.267354+00:00"
-    },
-    {
-      "name": "Solo SaaS finance tracker (Stripe + expenses = real profit)",
-      "field": "Fintech/ops tooling",
-      "summary": "A simple tool for solo founders that connects Stripe, adds expenses, and shows 'real profit' (not just MRR) without full accounting complexity - a persistent pain point.",
-      "why_now": "IndieHackers post (SoloPro) explicitly articulates the gap: founders see MRR/revenue but not real profit; founder launched to $0 MRR but problem is very common and monetizable. The demand is structural and ongoing.",
-      "monetization": "Subscription SaaS for profit tracking; initial launch at $0 MRR, no public scaled revenue yet (null).",
-      "evidence": [
-        "https://www.indiehackers.com/post/i-thought-i-made-4-2k-last-month-my-real-profit-was-2-2k-TlQ7YOqs0NddlagwHrFQ",
-        "https://www.indiehackers.com/post/most-dashboards-show-mrr-none-show-how-much-left-through-failed-payments-MvPoC5oSTZg1oC5F6z77"
-      ],
-      "how_searched": [
-        "IndieHackers posts about finance/ops pain points (kind: community forum)",
-        "Cross-checked related payment failure posts showing same need"
-      ],
-      "score": 52.0,
-      "found_at": "2026-10-18T01:05:28.648988+00:00"
-    },
-    {
-      "name": "Open-source SEO/GEO research suite (data accessible)",
-      "field": "SEO/GEO tooling",
-      "summary": "Open-source alternative for keyword/competitor/backlink/site audit with affordable pricing and MCP connectivity for agent workflows, addressing high Ahrefs/Semrush costs.",
-      "why_now": "OpenSEO launched with 912 score, 77 comments (yearly/monthly top lists) in recent Product Hunt activity; demand for agent-connected GEO/SEO data and cost-effective alternatives is strong as AI search grows.",
-      "monetization": "Freemium/open-core with $10/month entry; public revenue figures not published (null).",
-      "evidence": [
-        "https://www.producthunt.com/products/openseo",
-        "https://www.producthunt.com/leaderboard/monthly/2026/10"
-      ],
-      "how_searched": [
-        "Product Hunt monthly leaderboard (kind: launch platform)",
-        "Cross-checked product category GEO Tools"
-      ],
-      "score": 52.0,
-      "found_at": "2026-10-18T01:05:28.800879+00:00"
-    },
-    {
-      "name": "AI multi-model answer cross-checker",
-      "field": "AI developer/productivity / hallucination verification",
-      "summary": "A free web tool that sends one question to several LLMs and highlights agreements/disagreements, giving users a fast 'second opinion' on AI answers. Original build: a normalizer that calls multiple model APIs (or free endpoints), a diff/consensus scorer, and a shareable verdict view.",
-      "why_now": "Launched 27 Sep 2026 and hit ~2,000 Chrome Web Store users with a 5.0 rating (11 reviews) almost immediately; priced $18.99/mo. It rode the Sept 2026 'verify your AI' wave on Product Hunt, where trust/verification tools ranked well. Model proliferation (multiple frontier models with different failure modes) makes cross-checking newly valuable in 2026.",
-      "monetization": "Freemium: free N checks/day, Pro ~$18.99/mo for unlimited models and history. B2B/team tiers plausible for fact-checking workflows at media/research firms.",
-      "evidence": [
-        "https://makerstack.co/reviews/cuey-review/ — Cuey review: 6.5/10, $18.99/mo, Chrome Web Store ~2,000 users, 5.0/11 ratings, launched 27 Sep 2026",
-        "https://www.producthunt.com/leaderboard/monthly/2026/9 — Sept 2026 leaderboard shows AI verification/trust tools gaining traction"
-      ],
-      "how_searched": "Scanned Product Hunt monthly/daily leaderboards for new AI tooling; reviewed Chrome Web Store listing stats via browser-extension trackers; read independent review sites for pricing and user counts.",
-      "score": 50.7,
-      "found_at": "2026-10-09T06:13:25.523098+00:00"
-    },
-    {
-      "name": "ADHD / executive-function micro-tools suite",
-      "field": "Neurodivergent productivity / accessibility",
-      "summary": "A set of tiny single-purpose tools (break a task into steps, rewrite tone, estimate time, explain a concept, brain-dump to a to-do list). Goblin Tools is used by nearly 2 million people every month, free on the web with a ~$3 one-time mobile app; the related 'Cat on Chair' ADHD focus timer reportedly reaches ~$18K/mo.",
-      "why_now": "Friction-reduction tools spread through ADHD/neurodivergent communities and short-form video. Tiny, zero-onboarding tools are cheap to build, easy to share, and target a sizable, growing audience underserved by big software.",
-      "monetization": "Free web tools with a one-time mobile unlock (~$3), optional donations, or a cheap subscription for advanced features.",
-      "evidence": [
-        "https://www.adhdtime.com/post/when-ai-reduces-adhd-friction",
-        "https://aidevcases.com/en/cases/cat-on-chair"
-      ],
-      "how_searched": [
-        "niche podcast/blog analysis",
-        "app case-study site"
-      ],
-      "score": 50.7,
-      "found_at": "2026-10-12T10:53:45.470679+00:00"
-    },
-    {
-      "name": "EU Accessibility Act (EAA) compliance scanner & accessibility-statement generator",
-      "field": "Web accessibility / legal-compliance SaaS",
-      "summary": "A free web tool that scans a site for WCAG 2.2 / EN 301 549 violations, prioritizes the fixes, and auto-generates the legally required accessibility statement — the free front door to paid monitoring and remediation.",
-      "why_now": "EAA enforcement is live and buying intent is legal-deadline driven. Accessiway was named a Leader in the 2026 Gartner Magic Quadrant for Digital Accessibility (Oct 5, 2026) and TestParty automates scan-and-fix in code. Accessiway cites 68% of consumers abandoning a purchase over accessibility barriers and a 23% traffic increase after improvements (SemRush 2025).",
-      "monetization": "Subscriptions plus one-off audits; the free scanner is the funnel into monitoring and remediation retainers.",
-      "evidence": [
-        "https://www.accessiway.com/",
-        "https://testparty.ai/"
-      ],
-      "how_searched": [
-        "vendor/pricing pages",
-        "analyst recognition (Gartner MQ, via vendor)",
-        "automated accessibility SaaS landing pages"
-      ],
-      "score": 50.7,
-      "found_at": "2026-10-14T02:06:36.571803+00:00"
-    },
-    {
-      "name": "Google Merchant Center feed & suspension compliance scanner",
-      "field": "E-commerce / advertising",
-      "summary": "A web tool that scans a store's product feed and landing pages for Google Merchant Center issues that cause disapprovals or account suspension, and explains each fix.",
-      "why_now": "A single-operator Shopify GMC-compliance scanner is verified (Lemon Squeezy) at ~$14,661 MRR, 239 active subscriptions, +29.2% L30 growth, ~$103k last 12 months and listed for sale at $175,000. Google's own docs confirm the pain: a price mismatch between landing page and feed 'may lead to an account suspension,' and Google explicitly recommends the Merchant API and structured-data checks.",
-      "monetization": "Monthly subscription (the verified comparable runs ~$14,661 MRR with 239 subscriptions); freemium scan with paid fixes/monitoring.",
-      "evidence": [
-        "https://www.wlad.me/blog/2026-10-08",
-        "https://support.google.com/merchants/answer/12159029"
-      ],
-      "how_searched": [
-        "open-revenue blog (Stripe/Lemon-Squeezy-verified)",
-        "official platform policy documentation"
-      ],
-      "score": 50.7,
-      "found_at": "2026-10-17T04:51:49.486835+00:00"
     }
   ]
 }
