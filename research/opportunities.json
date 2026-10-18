@@ -1428,6 +1428,28 @@
       "found_at": "2026-10-18T14:57:52.582151+00:00"
     },
     {
+      "name": "Free Google Business Profile autopilot (local SEO audit + weekly post drafts + Maps rank heatmaps)",
+      "field": "Local SEO / small-business marketing",
+      "summary": "A free web tool that audits a Google Business Profile, drafts weekly GBP posts and review replies, tracks Maps ranking by zip, and flags AI-search (ChatGPT/Google AI) visibility gaps for plumbers, dentists, HVAC and other local SMBs.",
+      "why_now": "Stripe-verified Local SEO Bot grew to ~$12K MRR and LocalRank ~$20K MRR by late Sep 2026; Merchynt Paige sells at $99/profile and Localo at ~$39/mo; Google-cited data says weekly posters get ~5x more calls; Fiverr GEO services also grew 29% Nov 2025–Apr 2026 as local buyers add AI-search demands.",
+      "monetization": "Free core audit; paid tiers $19–$99/mo for multi-location automation, white-label reports and citation distribution (Localo $19–$99, Paige $99, LocalSEO Bot $99+). null for our own revenue (not built).",
+      "evidence": [
+        "https://trustmrr.com/startup/local-seo-bot",
+        "https://1m.chat/cases/localrank-so/",
+        "https://saastracker.org/compare/localo-vs-merchynt-paige",
+        "https://www.searchenginejournal.com/fiverr-survey-search-freelancers-geo-demand/590403/",
+        "https://ustechautomations.com/resources/blog/small-business-google-business-profile-automation-roi-2026"
+      ],
+      "how_searched": [
+        "Stripe-verified TrustMRR MRR pages",
+        "vendor pricing comparison sites",
+        "Fiverr/Upwork freelance demand surveys",
+        "local-SEO ROI blog data"
+      ],
+      "score": 82.0,
+      "found_at": "2026-10-18T20:57:34.418709+00:00"
+    },
+    {
       "name": "AI SDR & Autonomous Sales Agents",
       "field": "Sales Tech / AI Automation",
       "summary": "AI agents that engage website visitors in real time, qualify leads, give personalized demos, handle objections, and book meetings — integrating with CRM and sales stacks for 24/7 pipeline generation.",
@@ -2255,6 +2277,25 @@
       "found_at": "2026-10-18T18:11:51.896351+00:00"
     },
     {
+      "name": "Open-source Superhuman-class AI email client",
+      "field": "Productivity / email",
+      "summary": "Free, keyboard-first open-source email client for Gmail/Outlook with optional AI that sorts mail and pre-drafts replies in the user's voice; self-hostable alternative to Superhuman/Shortwave.",
+      "why_now": "Inbox Zero hit #1 Product of the Day on Oct 18 2026 with ~12k GitHub stars and 25k+ signups while Superhuman ranks #4 on a16z's top consumer AI revenue list—proving paid demand for premium email AI while open-source free tiers pull developers.",
+      "monetization": "Core client free; AI tier ~$20/mo vs Superhuman $30–40/user/mo. null for our own revenue.",
+      "evidence": [
+        "https://www.producthunt.com/leaderboard/daily/2026/10/18",
+        "https://www.producthunt.com/products/inbox-zero-2",
+        "https://officechai.com/ai/top-consumer-apps-by-revenue/"
+      ],
+      "how_searched": [
+        "Product Hunt daily leaderboard",
+        "Product Hunt product page & founder post",
+        "a16z/YipitData consumer AI revenue ranking"
+      ],
+      "score": 78.0,
+      "found_at": "2026-10-18T20:57:35.371300+00:00"
+    },
+    {
       "name": "Browser Extension AI Productivity Tools",
       "field": "Consumer / Productivity",
       "summary": "Chrome/Firefox/Edge extensions that bring AI into the browser — sidebar chat, page summarization, writing assistance, workflow automation, content extraction — with freemium subscriptions.",
@@ -2681,6 +2722,25 @@
       ],
       "score": 76.0,
       "found_at": "2026-10-18T11:14:23.834410+00:00"
+    },
+    {
+      "name": "Human approval layer / open protocol for AI-agent tool calls",
+      "field": "AI agent safety & ops",
+      "summary": "Intercept agent tool calls (Claude Code, Codex, LangGraph, etc.) before execution; auto-approve safe rules, route risky ones to Slack/mobile for human sign-off, with append-only audit log.",
+      "why_now": "withHuman launched Oct 15 2026 (YC, PH #8, open AAP spec) as teams stop disabling permissions on coding agents; same week news covered opencode console compromise and leaked agent session logs—demand for approval gates and agent trust controls is spiking.",
+      "monetization": "Open source + hosted free plan; paid Scale tiers for teams (withHuman Scale promo). Comparable agent-ops tools charge per seat/usage. null for our own revenue.",
+      "evidence": [
+        "https://www.producthunt.com/products/withhuman",
+        "https://withhuman.ai/blog/introducing-withhuman",
+        "https://wire.rundatarun.io/briefs/2026-10-18"
+      ],
+      "how_searched": [
+        "Product Hunt launch",
+        "vendor blog/launch post",
+        "daily AI industry brief"
+      ],
+      "score": 76.0,
+      "found_at": "2026-10-18T20:57:36.320228+00:00"
     },
     {
       "name": "Invoice & AP Automation (AI-First)",
@@ -3165,6 +3225,27 @@
       ],
       "score": 74.0,
       "found_at": "2026-10-18T18:11:52.483360+00:00"
+    },
+    {
+      "name": "Consumer deepfake/scam-call AI protection companion",
+      "field": "Consumer security / telecom",
+      "summary": "Free web-first tool that helps users and families triage suspicious calls/texts, educate on AI voice deepfake patterns, and generate family-protection playbooks (optional community number reports).",
+      "why_now": "Truecaller surpassed 4M premium subscribers and ~$2M+/mo in-app revenue while surveying show ~74.5% of Americans hit by scam calls, ~30% got deepfake voice calls, ~25% lost money, and ~64% would try AI scam detection—yet 63% only use carrier defaults.",
+      "monetization": "Free consumer core; freemium premium (ad-free, AI screening, family seats) mirroring Truecaller premium growth (+52% YoY CC). null for our own revenue.",
+      "evidence": [
+        "https://www.truecaller.com/blog/insights/ai-scams-are-breaking-the-way-america-talks-truecaller",
+        "https://www.prnewswire.com/news-releases/truecaller-surpasses-4-million-premium-subscribers-302709354.html",
+        "https://techcrunch.com/2026/04/26/truecaller-faces-mounting-pressures-as-its-growth-matures/",
+        "https://www.hiya.com/newsroom/press-releases/state-of-the-call-2026-ai-deepfake-voice-calls-hit-1-in-4-americans-as-consumers-say-scammers-are-beating-mobile-network-operators-2-to-1"
+      ],
+      "how_searched": [
+        "consumer fraud survey blogs",
+        "investor/earnings press releases",
+        "tech news earnings coverage",
+        "telecom fraud report"
+      ],
+      "score": 74.0,
+      "found_at": "2026-10-18T20:57:38.690853+00:00"
     },
     {
       "name": "Personal data-broker opt-out & removal-request generator",
@@ -4555,6 +4636,25 @@
       "found_at": "2026-10-18T18:11:57.669052+00:00"
     },
     {
+      "name": "Local secret/PPI scanner for coding-agent session logs",
+      "field": "Developer privacy / AI ops",
+      "summary": "Free local tool that inspects Claude Code/Codex/copilot CLI session transcripts and MCP traffic for leaked API keys, tokens, and personal data before they hit model providers.",
+      "why_now": "shim-cli took PH #3 on Oct 18 2026 and Context Trace trended the same week after an opencode console compromise ran up charges via linked keys—agent data leakage is a live, news-backed pain.",
+      "monetization": "Free OSS core; paid enterprise DLP policies / team dashboards. null for our own revenue.",
+      "evidence": [
+        "https://www.producthunt.com/leaderboard/daily/2026/10/18",
+        "https://wire.rundatarun.io/briefs/2026-10-18",
+        "https://getshim.tech/products/shim-cli"
+      ],
+      "how_searched": [
+        "Product Hunt daily board",
+        "daily AI brief",
+        "product site"
+      ],
+      "score": 68.0,
+      "found_at": "2026-10-18T20:57:40.972673+00:00"
+    },
+    {
       "name": "AI paid-media management agent (multi-channel ads)",
       "field": "Marketing / advertising",
       "summary": "A conversational agent that plans, launches and optimizes Google/Meta/LinkedIn/TikTok ad campaigns for small businesses that can't afford an agency — free for one channel, paid for more.",
@@ -5072,6 +5172,24 @@
       ],
       "score": 63.0,
       "found_at": "2026-10-13T10:42:38.186094+00:00"
+    },
+    {
+      "name": "Interactive quiz-in-video authoring for training/compliance",
+      "field": "EdTech / corporate training",
+      "summary": "Free browser studio that embeds quizzes, branches and completion gates into ordinary training videos for HR/compliance/onboarding without a full LMS.",
+      "why_now": "A stealth interactive-video SaaS with quizzes inside training videos shows Stripe-verified ~$47K MRR / 219 subs and is listed for sale at $2.1M; the broader interactive video market is multi-billion and growing double digits.",
+      "monetization": "Free for short videos; paid $49–$299/mo for teams, SCORM export, analytics—matching the listed vendor's $99/$299/$499 ladder. null for our own revenue.",
+      "evidence": [
+        "https://www.wlad.me/blog/2026-10-08",
+        "https://www.datainsightsreports.com/reports/interactive-video-assessments-market-95440",
+        "https://dataintelo.com/report/global-interactive-video-software-market"
+      ],
+      "how_searched": [
+        "Stripe-verified MRR marketplace listing",
+        "market research reports"
+      ],
+      "score": 63.0,
+      "found_at": "2026-10-18T20:57:43.574362+00:00"
     },
     {
       "name": "AI-first invoice & contract automation for freelancers",
@@ -5897,115 +6015,6 @@
       ],
       "score": 56.0,
       "found_at": "2026-10-17T04:51:48.628474+00:00"
-    },
-    {
-      "name": "Paid research-study & focus-group aggregator",
-      "field": "consumer / directory subscription",
-      "summary": "A subscription feed that pulls high-paying online studies, focus groups and research interviews from many firms into one filterable list with alerts.",
-      "why_now": "Launched Jan 2026, it reached 694 subscriptions and ~$5.2k MRR in months with 100% organic growth from viral short video, and an independent competitor (EarnStudies, $6.99/mo) shows the aggregator model is repeatable. Legitimate studies pay $50–$150 for 30–90 minutes, giving the list real value.",
-      "monetization": "Subscription access to the curated feed (one comparable directory lists at ~$125/mo; EarnStudies is $6.99/mo). StudyScout: ~$5,174 MRR from 694 subs, ~69% margin, ~$80k+ lifetime with a best month around $15k, listed for sale at $70,000.",
-      "evidence": [
-        "https://trustmrr.com/startup/studyscout",
-        "https://www.wlad.me/blog/companies/studyscout",
-        "https://buildradar.leapd.ai/studyscout",
-        "https://earnstudies.com/blog/best-paid-focus-group-sites"
-      ],
-      "how_searched": [
-        "verified-revenue tracker",
-        "tracker/blog",
-        "competitor directory"
-      ],
-      "score": 56.0,
-      "found_at": "2026-10-17T14:05:46.558585+00:00"
-    },
-    {
-      "name": "AI interior-design / room-redesign web tool",
-      "field": "Consumer AI design / home improvement",
-      "summary": "Upload a photo of a room and get a redesigned rendering in a chosen style, with shoppable furniture suggestions. Mobile apps in this niche are already pulling six-figure monthly revenue.",
-      "why_now": "Third-party trackers show large, monetizing audiences updating in the last weeks: Home AI (interior.home.design.ai) ~908K MAU / $10K+ per month est.; AI Home Design: Interior DecAI ~951K MAU / $50K+ per month est. and an independent estimate of ~$400K per month; AI Decor est. $120K-$660K per month with data updated 2026-10-07. The category keeps ship updates through September 2026.",
-      "monetization": "In-app purchases/subscriptions (weekly/monthly plans) plus ads. Reported models mix IAP and ads (e.g., 63% IAP / 37% ads for one top app). Revenue figures are third-party estimates, not audited.",
-      "evidence": [
-        "https://peekly.app/apps/294b470b-d4e9-4445-b799-1c9759525ff3",
-        "https://appcurrents.com/apps/ai-decor-ai-home-design-ios-6752771686"
-      ],
-      "how_searched": [
-        "app-store analytics",
-        "revenue/traffic estimators",
-        "web search"
-      ],
-      "score": 55.3,
-      "found_at": "2026-10-08T23:25:23.402692+00:00"
-    },
-    {
-      "name": "Newsletter + YouTube Archive → Weekly Project Action Digest",
-      "field": "productivity / knowledge work",
-      "summary": "Connect Gmail once; the tool finds newsletters already in your inbox, adds YouTube channels (auto-transcribed), organizes everything into topic panels, then each week drafts a short list of concrete actions for your current projects with citations back to the source.",
-      "why_now": "Adviserry launched in early Oct 2026 on Product Hunt and There's An AI For That, and was singled out in an independent 'trending PH tools' roundup for solving a widely-complained-about gap (subscribing to dozens of sources, converting none to work); it also ships an MCP server so Claude/Cursor can search the personal archive — riding the agent-native productivity wave of Oct 2026.",
-      "monetization": "Freemium subscription for archive size / weekly digests / MCP access. Revenue still pre-scale — null.",
-      "evidence": [
-        "https://mtdtechnologies.com/7-trending-ai-tools-on-product-hunt-worth-trying-october-2026/",
-        "https://www.producthunt.com/leaderboard/weekly/2026/42",
-        "https://www.reddit.com/r/apps/comments/1uehchx/what_small_software_would_you_pay_1020_onetime/"
-      ],
-      "how_searched": [
-        "independent PH trending roundup",
-        "Product Hunt weekly leaderboard",
-        "Reddit 'what would you pay for' gap threads"
-      ],
-      "score": 55.0,
-      "found_at": "2026-10-16T01:27:27.936295+00:00"
-    },
-    {
-      "name": "Amazon fake-brand / knockoff filter (browser add-on or web tool)",
-      "field": "E-commerce / consumer shopping utility",
-      "summary": "A free tool that flags and hides trademark-squat, algorithmically-named 'fake brands' and sponsored junk in Amazon search results. 'Knockoff' hit 100,000 Chrome users and a 4.7/5 rating (146 ratings) within about three months of its July 2026 launch and went viral on CNET and 404 Media.",
-      "why_now": "Prime Day/holiday shopping drives enormous Amazon search volume, and the fake-brand problem is worsening with AI-generated listings. A free, privacy-friendly tool grows by word of mouth and the idea extends to other marketplaces (Etsy, Temu).",
-      "monetization": "Free/open-source extension as the top of funnel; optional paid tier for extra marketplaces, price history or affiliate. (The original is free.)",
-      "evidence": [
-        "https://www.cnet.com/tech/services-and-software/free-browser-extension-filters-out-amazons-fake-brands/",
-        "https://chromewebstore.google.com/detail/knockoff-amazon-shopping/pjgickchbiikhdfpmecaabkphmofpdce"
-      ],
-      "how_searched": [
-        "tech news site",
-        "Chrome Web Store listing"
-      ],
-      "score": 54.7,
-      "found_at": "2026-10-12T10:53:42.355383+00:00"
-    },
-    {
-      "name": "Background Removal & Product Photo Prep (Web Tool)",
-      "field": "Creative Tools / Ecommerce",
-      "summary": "A lightweight, privacy-respecting web tool for sellers to remove backgrounds and prep product photos in bulk. Focus on speed, no account required for basic use, and export in web-ready formats.",
-      "why_now": "Background removal is a high-search consumer tool (1M monthly searches, +641% YoY) and product photography is a persistent need for marketplaces and small sellers. Editing beats generating in growth for this niche.",
-      "monetization": "Freemium: free with watermark/limits, pay per batch or subscription for higher resolution/bulk. Public per-tool revenue unknown.",
-      "evidence": [
-        "https://www.risingtrends.co/trends/ai-trends-2026",
-        "https://fouzanadil.com/blog/emerging-trends-saas-technologies-2026"
-      ],
-      "how_searched": [
-        "Search trend data (background removal volume/growth)",
-        "SaaS trends (vertical tools for ecommerce/sellers)"
-      ],
-      "score": 54.7,
-      "found_at": "2026-10-14T07:41:48.176670+00:00"
-    },
-    {
-      "name": "Meeting-recording consent & blocking tool",
-      "field": "Privacy / compliance SaaS + browser extension",
-      "summary": "A free web/browser tool that detects when an AI notetaker bot joins a call and either blocks it or surfaces an all-party-consent notice. A rebuildable original take: 'consent guard' that watches meeting participants, flags recording bots, and logs consent state per jurisdiction.",
-      "why_now": "AI notetaker backlash peaked in 2026: consolidated Otter class action over recording without consent, universities and enterprises banning bots, and new all-party-consent enforcement. A mainstream consent/blocker product launched on Product Hunt on Oct 8 2026, proving fresh demand.",
-      "monetization": "Freemium extension; pro tier for teams (per-seat). Comparable compliance/consent tooling prices in the $10–50/seat/month range; no verified revenue figure found for this niche, so amount is null.",
-      "evidence": [
-        "https://www.producthunt.com/leaderboard/monthly/2026/10",
-        "https://storage.courtlistener.com/recap/gov.uscourts.cand.454675/gov.uscourts.cand.454675.35.0.pdf"
-      ],
-      "how_searched": [
-        "Explored Product Hunt daily/monthly leaderboards for Oct 2026",
-        "Searched legal/compliance news for AI notetaker litigation and consent rules",
-        "Cross-checked HN and privacy-tool discussion for demand signals"
-      ],
-      "score": 54.7,
-      "found_at": "2026-10-16T17:31:06.853094+00:00"
     }
   ]
 }
