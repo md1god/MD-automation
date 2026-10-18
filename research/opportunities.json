@@ -954,6 +954,27 @@
       "found_at": "2026-10-17T22:26:29.060572+00:00"
     },
     {
+      "name": "Freelancer invoice chaser with escalating collections",
+      "field": "Fintech / freelance ops",
+      "summary": "Free web tool where a freelancer drops in an overdue invoice and it runs a timed escalation ladder (nudge → firm → demand letter referencing small claims) until paid, stopping automatically on payment.",
+      "why_now": "Chasing unpaid invoices is the #1 'I'd pay to never do this again' complaint: a 3-month scan of 700+ Reddit complaint threads ranked invoice-dispute auto-resolution first (166 pts, 59 comments), a r/Freelancers thread about spending 2 hours on follow-up emails drew 43 comments, and at least four indie builders shipped near-identical tools in 2026 (PayHound, Collect, BumpPay, a French tool that recovered €250 of €390). Money is following the pain: Stuut raised a $52.5M Series B (Oct 6-12 week) for AI order-to-cash (collections, payments, disputes), and Coface data cited in builder posts says 86% of French companies face late payments.",
+      "monetization": "Free tier with paid escalation tiers (demand-letter PDFs, SMS, collections handoff); comparable indie pricing $10-29/mo; B2B order-to-cash vendors raise at $50M+ rounds, proving willingness to pay. Revenue of specific clones: null.",
+      "evidence": [
+        "https://www.reddit.com/r/AppIdeas/comments/1r73tui/i_tracked_700_reddit_complaints_for_3_months_here/",
+        "https://www.reddit.com/r/Freelancers/comments/1rdll3b/i_spent_2_hours_writing_followup_emails_this_week/",
+        "https://aifundingtracker.com/weekly-ai-funding-typesafe-ai-hits-7-5b-manus-ai-raises-500m-oct-7-oct-12-26/",
+        "https://dev.to/the_nortern_dev/the-i-would-pay-50month-to-never-do-this-again-list-3kfb",
+        "https://www.reddit.com/r/microsaas/comments/1ruk67y/built_a_simple_aipowered_invoice_reminder_tool/"
+      ],
+      "how_searched": [
+        "community complaint-mining (Reddit r/AppIdeas, r/Freelancers, r/SideProject, r/microsaas)",
+        "dev 'willingness-to-pay' list article",
+        "weekly AI funding tracker (order-to-cash round)"
+      ],
+      "score": 84.0,
+      "found_at": "2026-10-18T11:14:11.213125+00:00"
+    },
+    {
       "name": "Self-Hosted Workflow Automation for AI Agents (n8n-style)",
       "field": "DevTools / AI Infrastructure",
       "summary": "Fair-code / open-source workflow automation platform that technical teams self-host for free (unlimited executions) to build AI agent pipelines, RAG, and multi-step automations — with paid cloud/enterprise for governance, SSO, and managed infrastructure.",
@@ -1996,6 +2017,25 @@
       "found_at": "2026-10-17T22:26:34.828800+00:00"
     },
     {
+      "name": "Human-first clean search (anti-AI-overview engine)",
+      "field": "Search / consumer utility",
+      "summary": "A free web search frontend (plus open-source extension) that returns classic link results with AI Overview panels, AI Mode tabs, AI 'People Also Ask' blocks and ad clutter stripped out.",
+      "why_now": "The 'Hide Google AI Overviews' extension alone has ~600K Chrome users and 1.2K ratings, and its install base jumped from 100K to 400K in 58 days (+300%, fastest in a 132-extension AI directory); sibling 'Bye Bye, Google AI' has 100K users. Review mining shows why: 70% of reviewers say AI answers are unreliable, 65% want an off switch. The dominant complaint is fragility (frequent breakage after Google DOM changes, over-blocking) — an opening for a reliably maintained, free, web-based clean search.",
+      "monetization": "Free with donations/privacy-respecting ads or a Pro API; extension ecosystem already proves demand at ~700K+ combined installs without charging.",
+      "evidence": [
+        "https://zplatform.ai/best-ai-tools/ai-chrome-extensions/",
+        "https://extwise.com/extension/hide-google-ai-overviews-2",
+        "https://simplex.live/en/hide-google-ai-overviews.sdex",
+        "https://chrome-stats.com/d/imllolhfajlbkpheaapjocclpppchggc"
+      ],
+      "how_searched": [
+        "Chrome Web Store install/rating analytics aggregators (zplatform, ExtWise, ExtScope, chrome-stats)",
+        "extension-vendor user-reason analysis (Simplex review mining)"
+      ],
+      "score": 78.0,
+      "found_at": "2026-10-18T11:14:12.881742+00:00"
+    },
+    {
       "name": "Browser Extension AI Productivity Tools",
       "field": "Consumer / Productivity",
       "summary": "Chrome/Firefox/Edge extensions that bring AI into the browser — sidebar chat, page summarization, writing assistance, workflow automation, content extraction — with freemium subscriptions.",
@@ -2405,6 +2445,25 @@
       "found_at": "2026-10-17T22:26:38.259657+00:00"
     },
     {
+      "name": "AI-code comprehension gate ('do you understand what shipped?')",
+      "field": "Developer tools",
+      "summary": "Free web tool where you paste a diff/PR from your coding agent and get a plain-English explanation plus a short comprehension quiz you must pass before shipping — a human-understanding check, not a security scan.",
+      "why_now": "A same-day Show HN ('Sphinx — a hook that quizzes you on your AI's code before shipping') hit 99 points and 29 comments within hours on Oct 18 2026; a whole tool family shipped in parallel (VS Code 'Vibe Check' Duolingo-style modules, GitHub vibe-check, Unvibe private beta, Codswallop, Tiden on PH with 211 pts, AppSumo 'VerifyYourCode'). Underlying demand data: a Sonar survey of 1,149 pro developers found 95% spend effort reviewing/correcting AI output and 38% say it takes more effort than colleagues' code; industry tallies say 51%+ of GitHub commits in early 2026 are AI-assisted.",
+      "monetization": "Free for individuals; paid team dashboards (comprehension analytics, merge gates) — adjacent AI code-review tools charge $24-48/user/mo (CodeRabbit).",
+      "evidence": [
+        "https://www.producthunt.com/leaderboard/daily/2026/10/14",
+        "https://github.com/akshan-main/vibe-check",
+        "https://dev.to/moksh/best-ai-code-review-tools-in-2026-tested-ranked-20ie"
+      ],
+      "how_searched": [
+        "Hacker News Show HN (same-day front page)",
+        "VS Code Marketplace / GitHub ecosystem scan",
+        "AI code-review market roundup with survey stats"
+      ],
+      "score": 76.0,
+      "found_at": "2026-10-18T11:14:23.834410+00:00"
+    },
+    {
       "name": "Invoice & AP Automation (AI-First)",
       "field": "Fintech / B2B SaaS",
       "summary": "End-to-end invoice processing: email/file intake → AI extraction (line items, PO matching) → validation → ERP/accounting sync → approval workflow → payment — with KPI dashboards (cost/invoice, cycle time, touchless rate).",
@@ -2612,6 +2671,25 @@
       ],
       "score": 75.0,
       "found_at": "2026-10-17T17:18:19.175271+00:00"
+    },
+    {
+      "name": "Landlord rental finance toolkit (Baselane-model, free tier)",
+      "field": "Proptech / SMB fintech",
+      "summary": "Free web app for small landlords: per-property income/expense ledger with auto-categorization, rent-due tracking, late-rent reminders, cash-flow per property and Schedule-E-ready tax export.",
+      "why_now": "'Baselane' itself is a top-10 exploding search topic (+7,300% two-year growth on Exploding Topics); the company reports 50,000+ investors, $3.1B processed annually, $44.3M raised and >900% growth since its Series A; BiggerPockets' partnership release says 73% of investors spend 5+ hours a month on property bookkeeping and 41% of property managers cite late rent as a top pain — a free spreadsheet-killer web tool sits in a market projected at $6.5-26B depending on scope.",
+      "monetization": "Freemium: free ledger + paid rent-reminders, tenant portal, tax packages; incumbents monetize via rent-processing fees ($2 ACH / 3.49% card) and $100+/yr subscriptions.",
+      "evidence": [
+        "https://explodingtopics.com/blog/trending-topics",
+        "https://www.ai-market-watch.com/company/baselane",
+        "https://connect.scale-rentals.com/automation/baselane"
+      ],
+      "how_searched": [
+        "search-trend tool (Exploding Topics trending-topics page)",
+        "partnership press release with market stats",
+        "company profile / funding aggregators"
+      ],
+      "score": 75.0,
+      "found_at": "2026-10-18T11:14:41.750508+00:00"
     },
     {
       "name": "Chat-first personal AI assistant (web app)",
@@ -3022,6 +3100,26 @@
       ],
       "score": 73.0,
       "found_at": "2026-10-17T17:18:21.290609+00:00"
+    },
+    {
+      "name": "No-budget cash-flow forecast (CSV → day-by-day balance projection)",
+      "field": "Personal finance",
+      "summary": "Free web calculator: upload or paste bank/CC transaction history and get a day-by-day projected balance per account, flagging the exact date money runs low — forecasting instead of budgeting.",
+      "why_now": "Show HN 'Stoke Money — personal finance app built around a cash flow forecast' drew 32 points and 20 comments in under a day (Oct 16 2026) with users begging for exactly this; an independent round-up calls dedicated short-term checking forecasting 'thin' at the market end; meanwhile Monarch (Mint's main heir) raised $75M at a $600M valuation and added 500K+ users, and Reddit-based validation ranks Finance as the #1 willingness-to-pay category (193 explicit pay signals).",
+      "monetization": "Free manual-entry tier; paid bank-sync tier ($8-14/mo matches Centinel and Stoke pricing); incumbents charge $84-199/yr.",
+      "evidence": [
+        "https://www.centinelmoney.com/resources/best-personal-cash-flow-forecast-apps",
+        "https://www.ainvest.com/news/monarch-75m-funding-beacon-growth-fintech-nuclear-winter-2505/",
+        "https://www.contextstudios.ai/blog/how-to-find-app-ideas-on-reddit-the-ultimate-guide-for-founders-2026"
+      ],
+      "how_searched": [
+        "Hacker News Show HN (8-hour-old thread with engagement)",
+        "independent market round-up of cash-flow apps",
+        "funding/news tracker for the category leader",
+        "Reddit payment-signal analysis blog"
+      ],
+      "score": 73.0,
+      "found_at": "2026-10-18T11:14:42.889270+00:00"
     },
     {
       "name": "LLM / agent spend & cost observability dashboard",
@@ -3760,6 +3858,48 @@
       "found_at": "2026-10-17T22:26:42.564169+00:00"
     },
     {
+      "name": "Independent LLM API bill auditor (overcharge receipt checker)",
+      "field": "AI devtool economics",
+      "summary": "Free web tool where you drop an AI provider usage export (or connect read-only) and it reconstructs what you should have been billed — flagging failed calls, retries, token mismatches and model-routing overcharges, and generating a credit/refund claim.",
+      "why_now": "Inferock launched on Product Hunt Oct 14 2026 as #2 of the day (395 points, 63 comments) with an open-source 'independent receipt' bench that shows how much you're overpaying on OpenAI/Anthropic/Gemini/OpenRouter calls; the money at stake is huge — LLM Gateway now processes >$250K per 30 days in usage credits, and Mexican fintech Kapital bought the Claude Code cost-cutting plugin Woz Code for $30M the same week.",
+      "monetization": "Free audit + paid automated claims/proxies; comparable AI cost-optimization businesses scale to $57-79K MRR within months (LLM Gateway on Bootstrapped Risers).",
+      "evidence": [
+        "https://www.producthunt.com/leaderboard/daily/2026/10/14",
+        "https://aifundingtracker.com/weekly-ai-funding-typesafe-ai-hits-7-5b-manus-ai-raises-500m-oct-7-oct-12-26/",
+        "https://stealwhatworks.com/blogs/news/indie-saas-gained-most-revenue",
+        "https://www.systemaic.com/tools/bootstrapped-risers"
+      ],
+      "how_searched": [
+        "Product Hunt daily leaderboard + open-source repo",
+        "MRR growth leaderboard (Bootstrapped Risers)",
+        "weekly MRR-verified revenue journalism (Steal What Works)",
+        "AI funding/acquisition tracker (Woz Code $30M)"
+      ],
+      "score": 70.0,
+      "found_at": "2026-10-18T11:14:43.517129+00:00"
+    },
+    {
+      "name": "Video-testimonial & UGC collection widget",
+      "field": "Marketing / social proof",
+      "summary": "Free web tool that gives businesses a link customers open to record a video or text testimonial in one click, then generates an embeddable 'wall of love' widget and a consent-recorded archive.",
+      "why_now": "'UGC Creator' is a top-20 exploding US search topic (+8,600% two-year growth); the UGC platform market is estimated at $8.48B in 2026 growing ~28.8% CAGR (Fortune Business Insights), and a second firm (Mordor) puts growth at 28.32% — near-identical consensus; solo-founder Testimonial.to quietly reached $1M+ ARR and its 'boring' widget out-earned its own AI product ~4:1; AppSumo's Feedspace testimonial deal already carries 149 reviews.",
+      "monetization": "Freemium SaaS: free collect + paid customization/analytics/white-label ($19-199/mo tiers as in the market); incumbents prove ~$1M ARR solo.",
+      "evidence": [
+        "https://explodingtopics.com/blog/trending-topics",
+        "https://www.fortunebusinessinsights.com/user-generated-content-platform-114207",
+        "https://theltdhub.com/blog/appsumo-taco-day-flash-sale-2026/",
+        "https://www.mordorintelligence.com/industry-reports/user-generated-content-platform-market"
+      ],
+      "how_searched": [
+        "search-trend tool (Exploding Topics)",
+        "market-size research portals (two independent firms)",
+        "solo-founder revenue teardown (OperatorBook/Startupik)",
+        "AppSumo deal review counts (marketplace)"
+      ],
+      "score": 70.0,
+      "found_at": "2026-10-18T11:14:59.641262+00:00"
+    },
+    {
       "name": "Prescription price-comparison & savings tool",
       "field": "Consumer health / pharmacy savings",
       "summary": "Search a drug plus ZIP to compare cash prices across discount programs and nearby pharmacies, with alerts on price changes. A free, no-insurance comparison tool.",
@@ -4207,6 +4347,25 @@
       ],
       "score": 66.0,
       "found_at": "2026-10-16T07:15:30.059158+00:00"
+    },
+    {
+      "name": "Email-forwarded PDF invoice → bookkeeping auto-import",
+      "field": "SMB accounting workflow",
+      "summary": "Free web tool: forward supplier PDF invoices to a private address, line items (not just totals) are extracted and coded, then pushed into Xero/QuickBooks or a CSV ledger with tax codes filled.",
+      "why_now": "The '#1 I'd-pay-$50/mo' item on a widely shared 2026 'shut up and take my money' list is exactly this PDF-to-ledger workflow, with stated willingness to pay $29/mo; a French indie invoice tool using the same extraction idea publicly reported recovering €250 of €390 in late payments; and Upwork's 2026 report still ranks Data Entry and Data Extraction in the top-10 demanded skills while AI skills overall grew 109% YoY — the demand being automated is real and paid.",
+      "monetization": "Freemium: free for ~20 invoices/mo, paid for auto-push to accounting software ($19-29/mo); freelancers/SMBs already pay for adjacent bookkeeping SaaS.",
+      "evidence": [
+        "https://dev.to/the_nortern_dev/the-i-would-pay-50month-to-never-do-this-again-list-3kfb",
+        "https://www.reddit.com/r/microsaas/comments/1ruk67y/built_a_simple_aipowered_invoice_reminder_tool/",
+        "https://www.upwork.com/research/in-demand-skills-2026"
+      ],
+      "how_searched": [
+        "developer 'pain I'd pay for' list article",
+        "Reddit builder traction post (real recovery numbers)",
+        "freelance labor-market skills report (Upwork)"
+      ],
+      "score": 66.0,
+      "found_at": "2026-10-18T11:14:59.786868+00:00"
     },
     {
       "name": "AI Mock-Interview Coach",
@@ -4817,6 +4976,25 @@
       ],
       "score": 60.0,
       "found_at": "2026-10-18T01:05:26.618716+00:00"
+    },
+    {
+      "name": "Documents/videos → listen-to-it podcast generator",
+      "field": "Content format conversion",
+      "summary": "Free web tool that turns a PDF, deck, article or long video into a natural two-host podcast episode you can listen to or embed, with chapters and one-click export.",
+      "why_now": "SoniCast (document/video→podcast) shows +1,060% 30-day growth on the ShipByData leaderboard and is being shopped at ~18x ARR ($14,999 ask on ~$70 MRR); podcast consumption search volume is up 21% to 1.22M monthly searches (Exploding Topics), and expressive AI voice models keep shipping (Fish Audio Drama 3 launched on PH Oct 16, built by the So-VITS-SVC team).",
+      "monetization": "Free tier with watermarked audio; per-minute or subscription export pricing (existing sellers monetize at ~$70 MRR early, with voice/TTS costs as main COGS).",
+      "evidence": [
+        "https://shipbydata.com/en/rankings/growth",
+        "https://explodingtopics.com/entertainment-regular-topics",
+        "https://www.producthunt.com/leaderboard/daily/2026/10/16"
+      ],
+      "how_searched": [
+        "startup revenue/growth leaderboard (ShipByData)",
+        "search-trend entertainment category (Exploding Topics)",
+        "Product Hunt daily leaderboard (voice-model launch)"
+      ],
+      "score": 60.0,
+      "found_at": "2026-10-18T11:15:00.401893+00:00"
     },
     {
       "name": "Short-form vertical drama analytics",
@@ -5552,6 +5730,23 @@
       "found_at": "2026-10-18T01:05:28.197770+00:00"
     },
     {
+      "name": "Real-time high-stakes call copilot (interview/sales)",
+      "field": "AI careers & sales tooling",
+      "summary": "Browser-based assistant that listens to a live interview, sales call or demo and feeds the user short, contextual answers and prompts in real time.",
+      "why_now": "ParakeetAI, which started as a real-time AI interview assistant and expanded to sales calls, publicly documented passing $1M monthly revenue and 1.5M users in under two years with a tiny team (Indie Hackers case study, Sep 23 2026), with commenters noting heavy YouTube ad saturation; at the same time Product Hunt launched Hintly for Google Meet (real-time term explainer, 134 pts, Oct 16 2026), showing the 'live call assist' pattern spreading beyond interviews.",
+      "monetization": "Subscription ($20-50/mo) for job seekers and sales reps; the market leader alone reports >$1M MRR (founder-documented via Indie Hackers).",
+      "evidence": [
+        "https://www.indiehackers.com/post/tech/from-weekend-project-to-1m-mrr-in-two-years-YRaa1QlGTjaqh0XgzWkc",
+        "https://www.producthunt.com/leaderboard/daily/2026/10/16"
+      ],
+      "how_searched": [
+        "open-startup / revenue case-study database (Indie Hackers)",
+        "Product Hunt daily leaderboard (Oct 16 2026)"
+      ],
+      "score": 53.3,
+      "found_at": "2026-10-18T11:14:11.499221+00:00"
+    },
+    {
       "name": "Free candidate-side AI job-discovery agent",
       "field": "Future of work / job search",
       "summary": "A free web agent where a candidate uploads a resume and gets continuously refreshed, personalized matches scraped directly from company career pages, filtering ghost jobs.",
@@ -5736,181 +5931,6 @@
       ],
       "score": 50.7,
       "found_at": "2026-10-17T04:51:49.486835+00:00"
-    },
-    {
-      "name": "Pay-per-document e-signature (no subscription)",
-      "field": "Legal/automation",
-      "summary": "Usage-based e-signatures with free monthly quota and one-time credit packs, API/MCP access; appeals to infrequent users and AI agents needing signing capability without committing to subscriptions.",
-      "why_now": "SignWith launched with 216 score, 36 comments (daily Oct 16) showing recent interest in alternative pricing model to subscription-heavy incumbents; matches demand for transparent pay-per-use in legal tooling.",
-      "monetization": "Pay-per-use (credits); public revenue not disclosed (null).",
-      "evidence": [
-        "https://www.producthunt.com/products/signwith",
-        "https://www.producthunt.com/leaderboard/daily/2026/10/16"
-      ],
-      "how_searched": [
-        "Product Hunt daily leaderboard (kind: launch platform)",
-        "Scan of E-signature apps category"
-      ],
-      "score": 50.7,
-      "found_at": "2026-10-18T01:05:28.954137+00:00"
-    },
-    {
-      "name": "Review-to-website generator (from real Google Maps reviews)",
-      "field": "Website builders/AI content",
-      "summary": "Generates one-page sites from actual customer reviews and Jobs-to-Be-Done patterns, avoiding generic templates and made-up copy - solving differentiation problem for local businesses.",
-      "why_now": "Brila launched with 1342 score, 246 comments (yearly top list) showing strong engagement; demand from SMBs for easy, authentic web presence remains high and AI is making it practical now.",
-      "monetization": "Freemium with paid plans; public revenue not published (null).",
-      "evidence": [
-        "https://www.producthunt.com/products/brila-2",
-        "https://www.producthunt.com/leaderboard/yearly/2026"
-      ],
-      "how_searched": [
-        "Product Hunt yearly leaderboard (kind: launch platform)",
-        "Cross-checked landing page builders category"
-      ],
-      "score": 50.7,
-      "found_at": "2026-10-18T01:05:29.100361+00:00"
-    },
-    {
-      "name": "Vibe-coding spec & prompt generator (idea → build-ready plan for Claude Code / Cursor)",
-      "field": "Developer tools / AI-assisted building",
-      "summary": "A rebuilt free web tool for solo builders: paste an idea, answer 4-5 clarifying questions, and get a structured build spec plus a copy-paste prompt pack and architecture checklist tailored to Claude Code / Cursor / Codex.",
-      "why_now": "'Vibe coding' is the fastest-moving freelancing skill of 2026: Fiverr searches for Claude Code specialists surged +938% in six months and n8n AI automation +125%; Malt reports briefs asking for AI agents multiplied by 60, and AI-agent services became Fiverr's fastest-growing category (+18,347% search growth). Beginners need structured specs/prompts to get usable prototypes.",
-      "monetization": "Free generator monetized via premium prompt packs, templates and affiliate tool subscriptions. No verified revenue figure for this exact concept (null).",
-      "evidence": [
-        "https://www.fiverr.com/news/business-trends-index-ai-2026",
-        "https://www.9am.works/freelancer-academy/blog/what-clients-ordered-2026-fiverr-malt-data",
-        "https://www.accio.com/wow/business-fiverr-most-popular-categories-2026-trend.html"
-      ],
-      "how_searched": [
-        "Freelance marketplace trend reports (Fiverr, Malt)",
-        "Trend analysis blogs",
-        "News coverage of platform demand data"
-      ],
-      "score": 50.0,
-      "found_at": "2026-10-10T00:11:12.828775+00:00"
-    },
-    {
-      "name": "Kudos 3.0 - AI savings (cards/bills/subs)",
-      "field": "Fintech / personal finance",
-      "summary": "AI picks best card, negotiates bills, cancels subs. Users keep 100% of savings.",
-      "why_now": "Featured on Product Hunt weekly; consumer demand for savings tools persists.",
-      "monetization": "SaaS/affiliate model unclear. Public revenue null.",
-      "evidence": [
-        "https://www.producthunt.com/leaderboard/weekly/2026/42",
-        "https://www.joinkudos.com/"
-      ],
-      "how_searched": [
-        "Product Hunt",
-        "company site"
-      ],
-      "score": 50.0,
-      "found_at": "2026-10-12T20:20:23.240593+00:00"
-    },
-    {
-      "name": "AI UGC / short-video ad variant generator",
-      "field": "Marketing / advertising / AI",
-      "summary": "A web tool that turns a product photo or URL into batches of UGC-style video ad variants for paid social, priced for small advertisers.",
-      "why_now": "AI video ad spend is projected at $9.1B globally in 2026, ~12% of all digital video advertising (near zero three years ago), and a 10-video social campaign that cost $100K+ through an agency now runs under $100 with AI tools. Wistia's 2026 survey finds 52% of AI-using video teams make ads, and more than half are putting more money into AI this year.",
-      "monetization": "Subscriptions and per-render credits; a comparable generator (Morphed) lists plans from $9/month.",
-      "evidence": [
-        "https://morphed.app/stats/ai-video-ads-statistics",
-        "https://wistia.com/learn/marketing/state-of-video-report"
-      ],
-      "how_searched": [
-        "statistics aggregator citing ad-industry trackers",
-        "industry survey report (900+ marketers, 13M+ videos)"
-      ],
-      "score": 50.0,
-      "found_at": "2026-10-17T04:51:49.827392+00:00"
-    },
-    {
-      "name": "Ancher 2.0 - reading/research agent",
-      "field": "Productivity / AI assistant",
-      "summary": "Filters feeds, surfaces insights, turns reading into actionable work. Focuses on depth over algorithmic noise.",
-      "why_now": "Recent Product Hunt traction; growing interest in AI research/co-pilot tools.",
-      "monetization": "SaaS. Revenue/users null.",
-      "evidence": [
-        "https://www.producthunt.com/leaderboard/weekly/2026/42",
-        "https://ancher.ai/"
-      ],
-      "how_searched": [
-        "Product Hunt",
-        "company site"
-      ],
-      "score": 49.3,
-      "found_at": "2026-10-12T20:20:23.499016+00:00"
-    },
-    {
-      "name": "Gamified learn-to-code web app",
-      "field": "Education / developer tools",
-      "summary": "A free gamified coding-lesson site (bite-size lessons, streaks, browser code runner) with a paid plan for certificates/advanced tracks. Rebuild as an original curriculum and interface.",
-      "why_now": "A gamified coding site grew to ~1.5M registered users (+503% YoY) and ~$71K MRR, and a competitor reports ~5M learners — showing continued appetite for beginner coding education.",
-      "monetization": "Free lessons; paid subscription (~$9.99/mo benchmarks) for advanced tracks/certificates. Benchmark: ~$70,605 MRR recorded 1/1/2026; ~$71,717–88K on TrustMRR.",
-      "evidence": [
-        "https://trustmrr.com/startup/codedex",
-        "https://codedex.beehiiv.com/p/codedex-update-q4-2025"
-      ],
-      "how_searched": [
-        "Used revenue databases (TrustMRR) to rank education MRR",
-        "Read founder growth updates with user numbers",
-        "Cross-referenced with trending education topics"
-      ],
-      "score": 49.3,
-      "found_at": "2026-10-16T17:31:08.617322+00:00"
-    },
-    {
-      "name": "Marketplace Competitor & Price Tracker for Small Sellers",
-      "field": "E-commerce tooling",
-      "summary": "A free web dashboard that lets small Amazon/Etsy/Shopify sellers paste a product/listing and track competitor prices, stock, and ranking changes over time, with alerts. Rebuildable as an original crawler/UI using public listing pages; the differentiator is a genuinely free tier for solo sellers instead of enterprise-priced suites.",
-      "why_now": "Keepa (the reference price-history tool) has 5M+ users and added ~1M in a single week, and adjacent marketplace-scraper extensions are also adding ~100k users/week — while sellers complain that existing tools are either enterprise-priced ($500+/month) or too complex. Demand for an affordable/free tier is demonstrably high and growing fast.",
-      "monetization": "Freemium: free tracking for a few products, paid tiers for more SKUs/alerts. Keepa is subscription-based; competitor suites cited at ~$500+/month by users.",
-      "evidence": [
-        "https://extensiontracker.com/top/growing",
-        "https://www.reddit.com/r/AppIdeas/comments/1q5mecg/"
-      ],
-      "how_searched": [
-        "Chrome Web Store trending extensions 2026",
-        "Reddit wish there was an app ecommerce",
-        "price tracking tool sellers complaint"
-      ],
-      "score": 48.7,
-      "found_at": "2026-10-11T18:58:27.321390+00:00"
-    },
-    {
-      "name": "Hexis Cloud - company brain for AI agents",
-      "field": "AI infra / knowledge base",
-      "summary": "Infrastructure for deploying AI agents in enterprises; built around UTCP protocol (alternative to MCP).",
-      "why_now": "Product Hunt launch traction; enterprises exploring agent infra and protocols.",
-      "monetization": "B2B infra/SaaS. Public revenue null.",
-      "evidence": [
-        "https://www.producthunt.com/leaderboard/weekly/2026/42",
-        "https://www.bevel.software/hexis"
-      ],
-      "how_searched": [
-        "Product Hunt",
-        "company site"
-      ],
-      "score": 48.7,
-      "found_at": "2026-10-12T20:20:24.246716+00:00"
-    },
-    {
-      "name": "Sketch/3D → photoreal architectural render (Visualizee)",
-      "field": "AI design / architecture visualization (B2B)",
-      "summary": "Browser tool where architects and interior designers upload a sketch, floor plan or 3D/model screenshot and get photoreal renders via a chat assistant that writes the prompt for them.",
-      "why_now": "Stripe-verified ~$8.1K MRR from ~288 subscriptions (Oct 8, 2026) after replacing a hard node editor with a chat UI and switching one-time sales to subscriptions, taking revenue from ~$150/mo to ~$10K/mo in six months; the architectural-rendering software market is cited at ~$2.77B with ~22.3% CAGR. Distinct from the already-known consumer interior-design and virtual-staging tools by targeting professional architects with sketch/model input.",
-      "monetization": "Free tier (5 watermarked renders) then $15/mo Hobby, $35/mo Pro, $80/mo Max, custom Agency; 7-day trial with ~25% trial-to-paid; ~$8.1K MRR plus one-time render revenue.",
-      "evidence": [
-        "https://trustmrr.com/startup/visualizee-ai",
-        "https://gtmsauce.com/companies/visualizee"
-      ],
-      "how_searched": [
-        "verified-revenue tracker (TrustMRR)",
-        "GTM/growth case-study site",
-        "founder-story writeups"
-      ],
-      "score": 48.7,
-      "found_at": "2026-10-13T10:42:29.614565+00:00"
     }
   ]
 }
