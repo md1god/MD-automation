@@ -26,6 +26,28 @@
       "found_at": "2026-10-18T06:24:19.390076+00:00"
     },
     {
+      "name": "RSS Amplifier",
+      "url": "https://rssamplifier.com",
+      "kind": "directory",
+      "requires_account": false,
+      "official_free_api": true,
+      "how_to_use": "Submit your site URL or RSS/Atom/JSON feed via the web form at /submit or POST to /api/submit with JSON {\"urls\":[\"example.com\"]}. Also supports OPML batch upload and MCP server (claude mcp add --transport http rssamplifier https://rssamplifier.com/mcp). CLI: npm i -g @profullstack/rssamplifier then rssamp submit example.com.",
+      "rules_and_risks": "No account, no review queue. Rate limit: 20 submissions/hour per IP (shared between web form and API). Submitter IPs HMAC'd, never stored raw. Crawler identifies as RSSAmplifierBot; block via robots.txt if undesired. Adult content, malware, pharma spam rejected. Feed fails 10× → marked dead (archive stays).",
+      "why_it_works": "Agent-first open directory of 10k+ independent blogs/podcasts/video/comics. Full-text search, topic feeds (RSS/Atom/JSON/OPML), llms.txt for LLM discovery, MCP tools for search/read/submit. Zero-friction submission → permanent page with latest summaries. Posts link back to source (not a mirror).",
+      "evidence": [
+        "https://rssamplifier.com/submit",
+        "https://rssamplifier.com/mcp",
+        "https://rssamplifier.com/cli",
+        "https://github.com/profullstack/rssamplifier.com/blob/main/README.md"
+      ],
+      "how_searched": [
+        "websearch for 'free content syndication API 2024 2025 open submission no account'",
+        "websearch for 'RSS Amplifier submit feed API free no account'"
+      ],
+      "score": 90.0,
+      "found_at": "2026-10-18T18:34:06.255231+00:00"
+    },
+    {
       "name": "LinkedIn Newsletters (individual, free)",
       "url": "https://www.linkedin.com/help/linkedin/answer/a522525",
       "kind": "platform",
@@ -46,6 +68,27 @@
       ],
       "score": 88.0,
       "found_at": "2026-10-10T12:39:48.493220+00:00"
+    },
+    {
+      "name": "SubmitMyStartup",
+      "url": "https://submitmystartup.com",
+      "kind": "directory",
+      "requires_account": false,
+      "official_free_api": true,
+      "how_to_use": "Query the free JSON API (no key, CORS open): GET /api/v1/directories.json for all 743 places with structured facts (free/paid, requirements, wait times, backlink type, real submission results). Or add MCP server (https://submitmystartup.com/mcp) to Claude/ChatGPT/Cursor and ask: \"Find free directories for a B2C web app with no badge and no domain email.\" Skill install: npx skills add mmmmingos/where-to-submit-your-startup.",
+      "rules_and_risks": "Read-only API and MCP. Data rebuilt when list changes (last 2026-10-15). Directories change rules — verify before submitting. Facts are null when not on record, never guessed. 634 of 743 places tested by maintainer via real submissions.",
+      "why_it_works": "Not a directory itself — a meta-directory with verified submission intelligence. Each entry has real attempt data (status, date, publishedOn) and structured requirements (account, badge, domainEmail, engagement, wait days). Filters by product type, B2B/B2C, region, budget=0, wait tolerance. Saves hours of manual research.",
+      "evidence": [
+        "https://submitmystartup.com/api/",
+        "https://submitmystartup.com/mcp-server/",
+        "https://submitmystartup.com/llms.txt",
+        "https://glama.ai/mcp/connectors/com.submitmystartup/mcp"
+      ],
+      "how_searched": [
+        "websearch for 'SubmitMyStartup API free JSON directories MCP server'"
+      ],
+      "score": 88.0,
+      "found_at": "2026-10-18T18:34:06.693481+00:00"
     },
     {
       "name": "Product Hunt launch (self-hunt, free)",
@@ -1168,6 +1211,25 @@
       "found_at": "2026-10-11T19:02:18.338578+00:00"
     },
     {
+      "name": "WebList (appli.st)",
+      "url": "https://www.appli.st",
+      "kind": "directory",
+      "requires_account": false,
+      "official_free_api": true,
+      "how_to_use": "Submit site via web form or POST /api/submit with JSON {url, name, description, tags, contact}. Data license CC0-1.0. Full directory JSON: GET /api/directory (or ?category=, ?format=csv). Guestbook: GET/POST /api/guestbook for async agent-human comms. Robots.txt welcomes all agents.",
+      "rules_and_risks": "No account. Random sort every 24h — no SEO ranking, no paid placement. Chinese/English UI. 159k+ sites, 42 categories. Source code: pure Node.js, zero deps.",
+      "why_it_works": "Built for AI agents, not humans. Equal visibility: OpenAI and personal blog have same probability of appearing first. CC0 data = anyone can replicate the directory. Guestbook = async communication interface for agents.",
+      "evidence": [
+        "https://www.appli.st/",
+        "https://weblist.dev/submit/"
+      ],
+      "how_searched": [
+        "websearch for 'WebList appli.st open directory AI agent API free submission'"
+      ],
+      "score": 53.3,
+      "found_at": "2026-10-18T18:34:10.264019+00:00"
+    },
+    {
       "name": "Wikidata entity item",
       "url": "https://www.wikidata.org/wiki/Wikidata:Main_Page",
       "kind": "feed",
@@ -1792,6 +1854,24 @@
       "found_at": "2026-10-13T18:47:30.361424+00:00"
     },
     {
+      "name": "PUBlish",
+      "url": "https://www.pub-lish.com",
+      "kind": "platform",
+      "requires_account": false,
+      "official_free_api": true,
+      "how_to_use": "Read public content via auth-free REST API (GET /api/public/authors/search?q=topic, /api/public/pieces/search?q=term, /api/public/pieces/{id}). Add MCP server (Streamable HTTP, no auth). Configure publish webhook: your CMS receives JSON Feed items with HMAC signature on each new piece. Embed widgets for cross-site display. Every author has /feed.json (JSON Feed 1.1) and /feed.xml (RSS).",
+      "rules_and_risks": "Read endpoints are free, keyless, CORS-open. Write/syndication requires author account on PUBlish. Webhook URL configured by writer. Embed widgets load from PUBlish domain.",
+      "why_it_works": "Full developer platform for content syndication: auth-free reads, MCP, webhooks (push), embed widgets, JSON Feed/RSS. Writers publish once; content flows to any frontend via API, webhook, or feed. CORS-open, edge-cached, OpenAPI 3.1 spec.",
+      "evidence": [
+        "https://www.pub-lish.com/en/developers"
+      ],
+      "how_searched": [
+        "websearch for 'content syndication free API developer blog 2024 2025 official'"
+      ],
+      "score": 27.3,
+      "found_at": "2026-10-18T18:34:07.003441+00:00"
+    },
+    {
       "name": "AlternativeTo 'Suggest new application' listing",
       "url": "https://alternativeto.net/faq/",
       "kind": "directory",
@@ -1864,6 +1944,24 @@
       ],
       "score": 25.3,
       "found_at": "2026-10-16T13:02:17.848672+00:00"
+    },
+    {
+      "name": "Fanvaiy",
+      "url": "https://fanvaiy.com",
+      "kind": "feed",
+      "requires_account": false,
+      "official_free_api": true,
+      "how_to_use": "Use public read-only API (base: https://fanvaiy.com/api/public/v1). GET /sites/{siteId} for profile, /sites/{siteId}/posts for paginated stories (filter: category, featured, search, limit 1-50), /sites/{siteId}/posts/{id} for full HTML body + narration audio. No API key, no SDK, CORS open to all origins.",
+      "rules_and_risks": "Only free, published stories returned. Paid/draft/private posts never exposed. Rate limits generous but unmetered reads preferred with identifying User-Agent.",
+      "why_it_works": "Turnkey headless CMS frontend: every publication gets a free, keyless, CORS-open API for syndication. Powers custom frontends, mobile apps, newsletters. Cache-Control + ETag for 304 responses.",
+      "evidence": [
+        "https://fanvaiy.com/developers"
+      ],
+      "how_searched": [
+        "websearch for 'Developer API for Custom Newsroom Frontends Fanvaiy'"
+      ],
+      "score": 25.0,
+      "found_at": "2026-10-18T18:34:10.437859+00:00"
     },
     {
       "name": "daily.dev (Squads + Direct Posting + source feeds)",
@@ -1999,6 +2097,24 @@
       "found_at": "2026-10-16T13:02:18.214692+00:00"
     },
     {
+      "name": "Sanaa Blog Syndication API",
+      "url": "https://sanaa.ug/developer-platforms",
+      "kind": "feed",
+      "requires_account": false,
+      "official_free_api": true,
+      "how_to_use": "Base URL: https://sanaa.ug/api/v1. GET /insights (paginated, filters: q, category, tag, author, featured, updated_since, include=body, format=html|text). GET /insights/latest (small sets for widgets, limit 1-30). GET /insights/{slug} for single article. GET /insights/manifest for integration discovery. Cross-origin enabled, cache headers max-age=300, s-maxage=600.",
+      "rules_and_risks": "Public read-only. Include body only when rendering full article (payload size). Canonical URL in response — keep for attribution.",
+      "why_it_works": "Production-ready blog syndication API: paginated archives, latest widgets, full-text search, category/tag/author filters, SEO metadata (meta_title, meta_description, keywords), engagement stats (views/likes/shares/bookmarks). Ready for shared rails, cards, article pages.",
+      "evidence": [
+        "https://sanaa.ug/developer-platforms"
+      ],
+      "how_searched": [
+        "websearch for 'content syndication free API developer blog 2024 2025 official'"
+      ],
+      "score": 24.0,
+      "found_at": "2026-10-18T18:34:11.288513+00:00"
+    },
+    {
       "name": "G2 free product listing + profile claim",
       "url": "https://documentation.g2.com/help/docs/finding-or-listing-a-product-on-g2",
       "kind": "directory",
@@ -2112,6 +2228,24 @@
       "found_at": "2026-10-16T13:02:18.880191+00:00"
     },
     {
+      "name": "FounderReply Blog API",
+      "url": "https://founderreply.com/developers/blog",
+      "kind": "feed",
+      "requires_account": false,
+      "official_free_api": true,
+      "how_to_use": "GET /api/public/blog?workspace_id=YOUR_ID (list, 12 fields each). GET /api/public/blog/{slug}?workspace_id=ID&base_url=YOURS (markdown body + schema.org JSON-LD + sibling links). GET /api/public/blog/sitemap.xml?workspace_id=ID&base_url=YOURS (urlset with honest lastmod). GET /api/public/blog/rss.xml?workspace_id=ID&base_url=YOURS (RSS 2.0 with full body in content:encoded, up to 50 items). All unauthenticated, CORS-open, edge-cached 5min (s-maxage=300, SWR=600).",
+      "rules_and_risks": "Only published posts exposed (not drafts/archived). Workspace ID required (not secret). Pull model: your site fetches at build time — works even if FounderReply is down between builds.",
+      "why_it_works": "Zero-maintenance blog syndication: your static site pulls SEO-ready content with structured data attached. No webhooks, no scheduler, no push failures. Schema.org JSON-LD included per article. RSS + sitemap for crawlers.",
+      "evidence": [
+        "https://founderreply.com/developers/blog"
+      ],
+      "how_searched": [
+        "websearch for 'content syndication free API developer blog 2024 2025 official'"
+      ],
+      "score": 23.3,
+      "found_at": "2026-10-18T18:34:13.112911+00:00"
+    },
+    {
       "name": "Bluesky starter packs + custom feeds for your niche",
       "url": "https://bsky.social/about/blog/06-26-2024-starter-packs",
       "kind": "feed",
@@ -2186,6 +2320,24 @@
       ],
       "score": 22.7,
       "found_at": "2026-10-16T13:02:18.990077+00:00"
+    },
+    {
+      "name": "Curlie",
+      "url": "https://curlie.org",
+      "kind": "directory",
+      "requires_account": false,
+      "official_free_api": false,
+      "how_to_use": "Browse to relevant category, click 'Suggest a site' icon (when category open for suggestions), fill form. Or report issues on existing listings. Volunteer editors review. No account needed to suggest.",
+      "rules_and_risks": "Human-edited, volunteer-run. Review timeline varies. Successor to DMOZ/ODP (100% free since 2017). Dofollow links from trusted, aged directory. No guarantee of acceptance.",
+      "why_it_works": "Largest human-edited web directory. Dofollow backlink from high-trust source. Categories for every niche. Listing signals quality to search engines. Still active with volunteer editors.",
+      "evidence": [
+        "https://www.curlie.org/about.html"
+      ],
+      "how_searched": [
+        "websearch for 'open web directory independent sites submission free 2024 2025'"
+      ],
+      "score": 22.7,
+      "found_at": "2026-10-18T18:34:13.285599+00:00"
     },
     {
       "name": "Unlinked brand-mention reclamation + resource-page outreach",
@@ -2452,6 +2604,24 @@
       "found_at": "2026-10-07T18:25:30.248218+00:00"
     },
     {
+      "name": "Indieblog.page",
+      "url": "https://indieblog.page",
+      "kind": "directory",
+      "requires_account": false,
+      "official_free_api": false,
+      "how_to_use": "Visit indieblog.page, click 'Suggest your blog'. Free listing with dofollow link to homepage. Random-blog button sends curious readers to independent blogs. Human-curated.",
+      "rules_and_risks": "Personal blogs only. No commercial sites. Must be genuine independent writing. Dofollow link on acceptance.",
+      "why_it_works": "IndieWeb-focused discovery. Random-blog feature = serendipitous traffic from readers seeking authentic writing. Part of IndieWeb ecosystem (Webmentions, microformats). Dofollow from relevant, trusted directory.",
+      "evidence": [
+        "https://www.submission.directory/category/indieweb"
+      ],
+      "how_searched": [
+        "websearch for 'open web directory independent sites submission free 2024 2025'"
+      ],
+      "score": 20.7,
+      "found_at": "2026-10-18T18:34:29.662489+00:00"
+    },
+    {
       "name": "Wikimedia Commons (free media + Wikipedia reach)",
       "url": "https://commons.wikimedia.org/wiki/Special:UploadWizard",
       "kind": "platform",
@@ -2565,6 +2735,42 @@
       "found_at": "2026-10-18T06:24:28.679220+00:00"
     },
     {
+      "name": "FreePublicAPIs",
+      "url": "https://www.freepublicapis.com/new",
+      "kind": "directory",
+      "requires_account": false,
+      "official_free_api": false,
+      "how_to_use": "Paste API documentation URL at /new. Bot reads docs, verifies free tier, finds open endpoints, tests each one. Working endpoints listed automatically. Re-tested daily. Listed APIs get dedicated pages with live endpoint inspector.",
+      "rules_and_risks": "Must have genuine free tier (dev/learning), at least one keyless endpoint, working docs, HTTPS+CORS. No paid-only APIs, no duplicates. Automated — no human review queue.",
+      "why_it_works": "Developer-focused discovery: 1000+ free APIs indexed. Automated validation means listed APIs actually work. Daily re-tests catch breakage. Live inspector lets devs try before integrating. High-intent developer audience.",
+      "evidence": [
+        "https://www.freepublicapis.com/new"
+      ],
+      "how_searched": [
+        "websearch for 'free directory submission website 2024 2025 no account required open API'"
+      ],
+      "score": 20.0,
+      "found_at": "2026-10-18T18:34:13.852502+00:00"
+    },
+    {
+      "name": "Blogroll.org",
+      "url": "https://blogroll.org",
+      "kind": "directory",
+      "requires_account": false,
+      "official_free_api": false,
+      "how_to_use": "Submit blog via form on blogroll.org. Hand-curated blogroll across every topic. Free listing with dofollow link in directory built for readers rediscovering independent writing.",
+      "rules_and_risks": "Human-curated. Personal blogs only. No commercial/spam. Dofollow on acceptance. Review timeline not published.",
+      "why_it_works": "Reader-focused blog directory. Dofollow link from curated, topic-organized blogroll. Traffic from readers actively seeking independent blogs. Part of blog revival movement.",
+      "evidence": [
+        "https://www.submission.directory/category/indieweb"
+      ],
+      "how_searched": [
+        "websearch for 'open web directory independent sites submission free 2024 2025'"
+      ],
+      "score": 20.0,
+      "found_at": "2026-10-18T18:34:29.786812+00:00"
+    },
+    {
       "name": "Yandex Webmaster (search reach in RU/CIS)",
       "url": "https://webmaster.yandex.com/welcome/",
       "kind": "search",
@@ -2619,6 +2825,24 @@
       ],
       "score": 19.3,
       "found_at": "2026-10-13T18:47:34.788200+00:00"
+    },
+    {
+      "name": "Wiby",
+      "url": "https://wiby.me",
+      "kind": "search",
+      "requires_account": false,
+      "official_free_api": false,
+      "how_to_use": "Submit a page at wiby.me to be indexed. Search engine for classic, hand-made web (personal pages, hobby sites). No account. Indexed sites found by people seeking the old internet.",
+      "rules_and_risks": "Favors vintage-style, non-commercial, personal/hobby sites. Modern commercial sites unlikely to be accepted or ranked well. No API.",
+      "why_it_works": "Niche search engine with dedicated user base seeking authentic, non-commercial web. Free indexing. Surfaces sites Google buries.",
+      "evidence": [
+        "https://www.submission.directory/category/indieweb"
+      ],
+      "how_searched": [
+        "websearch for 'open web directory independent sites submission free 2024 2025'"
+      ],
+      "score": 19.3,
+      "found_at": "2026-10-18T18:34:29.961672+00:00"
     },
     {
       "name": "Quora: durable answers on questions your audience already asks",
@@ -2714,6 +2938,42 @@
       ],
       "score": 18.3,
       "found_at": "2026-10-18T06:24:29.053109+00:00"
+    },
+    {
+      "name": "POSSE Party",
+      "url": "https://posseparty.com",
+      "kind": "tactic",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Have an RSS/Atom feed (WordPress, Squarespace, Medium, Ghost, etc.). Sign up at posseparty.com (email waitlist). Connect social accounts (X, Threads, Mastodon, Bluesky; Facebook/LinkedIn/Instagram coming). Set and forget — new feed items auto-crosspost to connected platforms. Customize per-platform formatting via posse:post feed elements.",
+      "rules_and_risks": "Requires accounts on target platforms (X, Threads, Mastodon, Bluesky). POSSE Party is the syndication layer only. Free tier planned; may have limits. Not a discovery channel itself — amplifies your content to where audiences already are.",
+      "why_it_works": "POSSE (Publish Own Site, Syndicate Elsewhere) without manual effort. Write once on your site → reach followers on 4+ platforms automatically. RSS-based = platform-agnostic. Planned: AI translation, feed directory, web hosting for feed-less users.",
+      "evidence": [
+        "https://posseparty.com/index.html"
+      ],
+      "how_searched": [
+        "websearch for 'POSSE Party cross-posting RSS syndication free'"
+      ],
+      "score": 18.3,
+      "found_at": "2026-10-18T18:34:29.106361+00:00"
+    },
+    {
+      "name": "Quire50",
+      "url": "https://alias-ij.xyz",
+      "kind": "directory",
+      "requires_account": false,
+      "official_free_api": false,
+      "how_to_use": "Open submit page, enter URL, choose 1 of 22 sections (drawers). Description auto-filled from site if blank. Free, human-reviewed. Corrections via re-submission with note. No fee ever.",
+      "rules_and_risks": "Every submission read by a person before filing. Periodic re-checks remove dead sites. 120k+ cards across 22 sections. Commercial and independent sites both accepted if clear purpose.",
+      "why_it_works": "Hand-filed catalogue (not algorithmic). Organized by semantic sections — related sites sit together. Human curation = trust signal. No fees, no premium tiers. Living reference, not a link farm.",
+      "evidence": [
+        "https://alias-ij.xyz/"
+      ],
+      "how_searched": [
+        "websearch for 'open web directory independent sites submission free 2024 2025'"
+      ],
+      "score": 18.3,
+      "found_at": "2026-10-18T18:34:31.387338+00:00"
     },
     {
       "name": "Wiby submit — indie search engine for simple web pages",

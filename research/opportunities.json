@@ -110,6 +110,29 @@
       "found_at": "2026-10-16T21:15:08.740127+00:00"
     },
     {
+      "name": "Free browser AI music studio (Suno-class, open-weights)",
+      "field": "Creative AI / audio",
+      "summary": "A free web studio that turns lyrics + style tags into full songs (or instrumentals) using open-weights music models, with a track library, stems/export and optional credits for cloud GPU — the free original alternative to metered Suno/Udio.",
+      "why_now": "Demand and money are both exploding right now: Exploding Topics ranks 'AI Music Generator' at +5,200% 5-year search growth; Suno disclosed 2M paid subscribers and $300M ARR in Feb 2026 (100M lifetime users) and its CEO said on Oct 1, 2026 it is 'far beyond' those numbers after a $5.4B Series D; a16z's Oct 5, 2026 consumer-AI report puts Suno #7 by observed US card spend and one of only 7 products ranking on web + mobile + revenue. Meanwhile Stable Audio 3.0 shipped open weights in May 2026 (Small runs on a MacBook CPU; 35K+ HF downloads/month) and ACE-Step/YuE2 UIs with 5K GitHub stars are explicitly marketed as free Suno killers — the model layer is ready for a polished free web product.",
+      "monetization": "Incumbent proof: Suno freemium $10–$30/mo tiers at $300M+ ARR. Rebuild path: free daily generations (open models or cheap GPU), paid cloud credits / HD export / commercial license subscription; a16z notes 64% of top consumer-AI web products already charge usage credits on top of subs.",
+      "evidence": [
+        "https://explodingtopics.com/blog/trending-topics",
+        "https://techcrunch.com/2026/02/27/ai-music-generator-suno-hits-2-million-paid-subscribers-and-300m-in-annual-recurring-revenue/",
+        "https://www.musicbusinessworldwide.com/suno-is-far-beyond-2m-subscribers-and-300m-in-revenue-says-mikey-shulman-who-argues-its-good-that-ai-music-has-no-firm-rules-of-the-road-yet/",
+        "https://a16z.com/100-gen-ai-apps-7/",
+        "https://stability.ai/news-updates/meet-stable-audio-3-the-model-family-built-for-artistic-experimentation-with-open-weight-models",
+        "https://github.com/fspecii/ace-step-ui"
+      ],
+      "how_searched": [
+        "trend-growth database",
+        "tech press / CEO revenue disclosure",
+        "a16z+YipitData consumer spend panel",
+        "open-weights model release + GitHub star signal"
+      ],
+      "score": 90.0,
+      "found_at": "2026-10-18T18:11:48.153250+00:00"
+    },
+    {
       "name": "AI Search Visibility / GEO Tracking Dashboard",
       "field": "Marketing / SEO / AI Visibility",
       "summary": "A free web dashboard that tracks brand citations, visibility %, position, and sentiment across ChatGPT, Perplexity, Gemini, Google AI Overviews, and Claude — with side-by-side organic vs AI traffic comparison to detect cannibalization (per Omio A/B test).",
@@ -1796,6 +1819,50 @@
       "found_at": "2026-10-18T14:57:55.188037+00:00"
     },
     {
+      "name": "Open-source AI email client & triage assistant (Superhuman alternative)",
+      "field": "Productivity / email",
+      "summary": "Free, keyboard-first web email client that unifies Gmail/Outlook, drafts replies in your voice, bulk-unsubscribes, blocks cold email and surfaces follow-ups — open core with cheap AI add-on instead of $30–40/seat premium mail.",
+      "why_now": "Product Hunt's #1 product of the day on Oct 18, 2026 is Inbox Zero, an open-source Superhuman alternative (13K GitHub stars, 25K+ sign-ups, releases every ~2 days); Talanoa (chat-style email, on-device AI) was #1 on Oct 15. Superhuman (fka Grammarly) debuted at #4 on a16z's first observed US consumer-AI spend ranking (Oct 5, 2026) with ~5.4M monthly visits, while competitors charge $18–40/user — the willingness to pay for fast AI mail is proven and open-source supply is surging into it.",
+      "monetization": "Superhuman $30–40/user/mo at multi-million visit scale; Inbox Zero hosts AI at $18–28/user/mo. Rebuild path: free self-host/web client, paid hosted AI rules, drafts, analytics and team seats.",
+      "evidence": [
+        "https://www.producthunt.com/leaderboard/daily/2026/10/18",
+        "https://www.producthunt.com/products/inbox-zero-2",
+        "https://a16z.com/100-gen-ai-apps-7/",
+        "https://www.getinboxzero.com/best-superhuman-alternative",
+        "https://www.producthunt.com/leaderboard/daily/2026/10/15"
+      ],
+      "how_searched": [
+        "launch leaderboard (daily PH)",
+        "open-source repo star/velocity check",
+        "a16z spend panel + traffic estimator",
+        "competitor pricing pages"
+      ],
+      "score": 80.0,
+      "found_at": "2026-10-18T18:11:48.592575+00:00"
+    },
+    {
+      "name": "AI companion / character roleplay web app (SFW, memory-rich)",
+      "field": "Consumer AI / social",
+      "summary": "A free web app for persistent AI character companions with long-term memory, voice and story arcs, monetized by subscription for deeper models/unlimited chat — original characters and design, not a clone of any existing app.",
+      "why_now": "Appfigures Intelligence (via Decrypt, Jul 2026): 214 romantic/companion apps took $427.3M lifetime and $162.8M in H1 2026 alone (165M downloads) — 38% of all-time revenue in six months; Sensor Tower reported +30% QoQ IAP revenue in Q1 2026, the fastest-growing generative-AI subcategory; Exploding Topics shows 'AI Boyfriend' at 49.5K monthly searches (+325%). a16z (Oct 2026) excluded NSFW companion products from its list but noted they would have been >20% of the web traffic leaderboard — mainstream supply is deliberately leaving demand unserved.",
+      "monetization": "H1 2026 mobile alone: Zeta $33M, Tipsy $15.2M, ChatBox $13M gross consumer spend; category ARPU rising ($0.52→$1.18 rev/download 2024→2025). Web rebuild: free chat + subscription for premium models, voice, memory depth (subscriptions ~61% of industry revenue in Q1 2026 estimates).",
+      "evidence": [
+        "https://decrypt.co/373395/how-much-your-boyfriend-spending-ai-girlfriends",
+        "https://www.digitaltoday.co.kr/en/view/46285/ai-companion-app-revenue-up-30-percent-zeta-tops-growth-ranking",
+        "https://explodingtopics.com/entertainment-topics",
+        "https://a16z.com/100-gen-ai-apps-7/",
+        "https://companionrater.com/blog/biggest-ai-companion-apps-2026"
+      ],
+      "how_searched": [
+        "app-intelligence press (Appfigures)",
+        "store revenue rankings via news",
+        "trend search-volume database",
+        "a16z category exclusion note (demand signal)"
+      ],
+      "score": 80.0,
+      "found_at": "2026-10-18T18:11:51.154803+00:00"
+    },
+    {
       "name": "Embeddable AI Agent / Copilot for SaaS",
       "field": "DevTools / SaaS Infrastructure",
       "summary": "Drop-in AI agent (one line of code) that lets end-users control any SaaS via natural language — turning clicks into conversations, with scoped permissions, audit logs, and model-agnostic deployment.",
@@ -2166,6 +2233,26 @@
       ],
       "score": 78.0,
       "found_at": "2026-10-18T14:57:55.808581+00:00"
+    },
+    {
+      "name": "Free browser creative suite (original photo editor + light document tools)",
+      "field": "Creative software / web apps",
+      "summary": "An original, free web-based photo editor and lightweight document/spreadsheet suite aimed at people who only need Adobe/Office a few times a year — no subscription, no install, browser-native.",
+      "why_now": "Oct 2026 is the month free Adobe rebuilds went mainstream: ArtCraft's open Photoshop/Lightroom/Premiere clones went viral on Reddit (Oct 6–7) and were covered by Ars Technica, PetaPixel, Gizmodo, Futurism and Al Jazeera (Oct 14) within a week; Adobe CC still costs $779.99/yr upfront ($69.99/mo annual). A Show HN open-source local Lightroom alternative also hit the front page Oct 8. Demand is anger at subscriptions + cancellation fees; a clean original web app (not a UI clone) can capture users who won't download alpha desktop software.",
+      "monetization": "Free core with paid cloud storage, batch export, HD generative fill credits, or one-time pro unlock; incumbents prove willingness to pay ($780/yr Adobe, Canva Pro, Affinity). ArtCraft itself funds via AI credits.",
+      "evidence": [
+        "https://arstechnica.com/ai/2026/10/software-is-over-bold-ai-developer-takes-aim-at-adobe-with-open-source-clones/",
+        "https://petapixel.com/2026/10/07/someone-rebuilt-free-open-source-versions-of-photoshop-premiere-and-lightroom-using-ai/",
+        "https://www.aljazeera.com/news/2026/10/14/how-ai-apps-are-offering-free-substitutes-for-big-tech-software",
+        "https://gizmodo.com/someone-vibe-coded-a-free-knockoff-of-adobe-creative-suite-2000823322"
+      ],
+      "how_searched": [
+        "news cycle scan (multi-outlet, same week)",
+        "Show HN front page",
+        "Reddit launch thread reporting"
+      ],
+      "score": 78.0,
+      "found_at": "2026-10-18T18:11:51.896351+00:00"
     },
     {
       "name": "Browser Extension AI Productivity Tools",
@@ -3058,6 +3145,28 @@
       "found_at": "2026-10-17T22:26:39.095343+00:00"
     },
     {
+      "name": "Amazon FBA reimbursement & fee-audit web tool (low-fee DIY)",
+      "field": "E-commerce ops / seller tools",
+      "summary": "Free/cheap web tool that ingests Amazon settlement and FBA reports, flags lost/damaged inventory, fee mis-measurements and refund-without-return cases, and generates claim templates — DIY alternative to 15–25%-of-recovery services.",
+      "why_now": "Active, angry demand in the last 5 months: r/FulfillmentByAmazon thread (Sep 5, 2026, 18 comments) titled 'Getida and seller investigators charge an outrageous 25%'; multiple r/AmazonFBA/r/AmazonSelling threads (Apr–May 2026) on reimbursement workflows, return-fraud SAFE-T claims and post-2025 manufacturing-cost policy changes; IdeaFast's 10K-post scan scores 'FBA reimbursement recovery' pain at 92/100 on r/AmazonSeller. Adjacent proof sellers pay fast for Amazon research tools: Launch Fast hit $30K MRR in months (Indie Hackers, Jun 2026).",
+      "monetization": "Incumbents take 15–30% of recovered funds (GETIDA ~25%, Refund Retriever 15–30%). Rebuild: free audit scan, flat-fee or ~5–10% only on successfully filed claims; Amazon-seller SaaS price points $49–199/mo proven by Launch Fast.",
+      "evidence": [
+        "https://www.reddit.com/r/FulfillmentByAmazon/comments/1w86z79/amazon_fba_reimbursement_services_are_charging/",
+        "https://www.reddit.com/r/AmazonSellingSoftware/comments/1quh3so/what_are_the_best_amazon_reimbursement_tools/",
+        "https://www.reddit.com/r/AmazonFBA/comments/1t31eki/getida_takes_25_of_your_reimbursements_with_the/",
+        "https://www.ideafast.pro/blog/saas-ideas-from-reddit-pain-points",
+        "https://www.indiehackers.com/post/tech/building-a-product-in-48-hours-and-hitting-30k-mrr-as-a-non-technical-founder-wWtWIH5tmwASUbxKaLT9"
+      ],
+      "how_searched": [
+        "community complaint threads (Reddit)",
+        "pain-signal dataset (IdeaFast 10K-post scan)",
+        "indie revenue interview (Indie Hackers)",
+        "competitor fee schedule in-thread"
+      ],
+      "score": 74.0,
+      "found_at": "2026-10-18T18:11:52.483360+00:00"
+    },
+    {
       "name": "Personal data-broker opt-out & removal-request generator",
       "field": "Privacy / consumer safety",
       "summary": "Free tool that shows where your name, address and phone appear across people-search/data-broker sites, generates the opt-out requests for you, and lets you track status; ongoing automated re-removal and breach monitoring sits behind a paid plan.",
@@ -3595,6 +3704,26 @@
       "found_at": "2026-10-17T22:26:40.797726+00:00"
     },
     {
+      "name": "Landlord rental bookkeeping, rent & Schedule-E suite (free tier)",
+      "field": "Proptech / SMB finance",
+      "summary": "Free-first web suite for small landlords: per-property P&L, automated expense tagging, rent reminders/late-fee calc, receipt matching and one-click Schedule-E export — the financial layer most property apps still overcharge for.",
+      "why_now": "Exploding Topics shows Baselane brand searches up +7,300%; property-management software is a $6.5B market in 2026 growing 8.74% CAGR (Mordor), with small landlords (1–500 units) digitizing fastest at 11.13% CAGR; 70.2% of US rental properties are owned by individuals and 35% name cost as the top adoption barrier — a free/cheap web tool attacks the exact friction incumbents (Baselane $0→$20+, AppFolio/Yardi upmarket) leave open.",
+      "monetization": "Freemium: free bookkeeping + paid rent collection (payment-rail features growing 10.77% CAGR), tax package export, insurance/financing referrals; Baselane already prices Core $0 / Smart $20/mo, proving the tiering.",
+      "evidence": [
+        "https://explodingtopics.com/",
+        "https://www.mordorintelligence.com/industry-reports/property-management-software-market",
+        "https://www.baselane.com/resources/property-management-software-trends",
+        "https://www.grandviewresearch.com/industry-analysis/property-management-software-market"
+      ],
+      "how_searched": [
+        "trend brand-search growth",
+        "market-size reports (two firms)",
+        "vendor trend article with adoption stats"
+      ],
+      "score": 72.0,
+      "found_at": "2026-10-18T18:11:53.060189+00:00"
+    },
+    {
       "name": "Cookie-consent / privacy-compliance generator",
       "field": "Privacy compliance / web tooling",
       "summary": "Scan a site, detect trackers, generate a compliant cookie banner plus cookie/privacy policy, and block non-essential scripts before consent. A free generator for the long tail of small sites that big CMPs ignore.",
@@ -4074,6 +4203,25 @@
       "found_at": "2026-10-18T14:57:58.759382+00:00"
     },
     {
+      "name": "TikTok Shop product & creator intelligence (free/cheap tier)",
+      "field": "E-commerce analytics",
+      "summary": "Web intelligence for TikTok Shop sellers: trending-product rankings, creator GMV estimates and shop watchlists at a free or sub-$15 entry price, undercutting the $49–139/mo tool cartel.",
+      "why_now": "TikTok Shop US GMV grew ~120% YoY in 2025 (FastMoss mid-year report); FastMoss claims 4.7M+ seller/creator users and charges $49–139/mo; Kalodata ~$38–46/mo, TokConnect $49/mo — a dense paid field with only thin free tiers (EchoTik free = 30-day history only). TokConnect's Oct 2026 comparison shows every major job (product research, competitor GMV, creator discovery, TikTok search demand) is paywalled; Shopify-intel analog already produced a known success category, but TikTok-native free intel is still a gap.",
+      "monetization": "Subscription tiers $13.90–$139/mo proven across 5+ vendors; free tier with ads/credits + paid exports and API/MCP access (FastMoss sells MCP/CLI).",
+      "evidence": [
+        "https://tokconnect.com/guides/best-tiktok-shop-analytics-tools/",
+        "https://www.fastmoss.com/",
+        "https://www.trenz.ai/resource/best-tiktok-shop-analytics-tools"
+      ],
+      "how_searched": [
+        "vendor pricing pages (multi-tool comparison)",
+        "marketplace GMV growth report",
+        "tool roundup with verified prices (Oct 2026)"
+      ],
+      "score": 70.0,
+      "found_at": "2026-10-18T18:11:55.044604+00:00"
+    },
+    {
       "name": "Prescription price-comparison & savings tool",
       "field": "Consumer health / pharmacy savings",
       "summary": "Search a drug plus ZIP to compare cash prices across discount programs and nearby pharmacies, with alerts on price changes. A free, no-insurance comparison tool.",
@@ -4386,6 +4534,27 @@
       "found_at": "2026-10-18T14:57:59.966396+00:00"
     },
     {
+      "name": "Counterfeit & unauthorized-listing scanner for small brands",
+      "field": "Brand protection / e-commerce",
+      "summary": "Affordable web scanner that watches marketplaces for copied images, fake listings and rogue sellers of a brand's SKUs, scores risk and prepares takedown packets — built for small brands priced out of enterprise brand-protection suites.",
+      "why_now": "IdeaFast's Sept 2026 scan of 10,406 Reddit posts scores 'counterfeit-listing monitor' (r/ecommerce) at 92/100 pain. Paid supply exists but is expensive and enterprise-shaped: Red Points claims 1,300+ brands; IP Moat starts $105/mo for one marketplace ($529 for 30+); Truviss scans 5,000+ marketplaces; ImgGuard 70+. Small Shopify/Etsy sellers still have no cheap automated option — the same 'enterprise tool unaffordable for SMBs' wedge that produced known horizontal successes.",
+      "monetization": "SaaS $29–109/mo SMB tiers (vs $105–1,350 current), per-marketplace add-ons, takedown filing fees; enterprise players prove budget exists.",
+      "evidence": [
+        "https://www.ideafast.pro/blog/saas-ideas-from-reddit-pain-points",
+        "https://ipmoat.ai/",
+        "https://www.redpoints.com/usecase/counterfeit-protection/",
+        "https://truviss.com/marketplace-scanner/",
+        "https://imgguard.com/EcommerceBrandProtection"
+      ],
+      "how_searched": [
+        "Reddit pain-signal dataset",
+        "vendor pricing pages (4 vendors)",
+        "enterprise vendor customer counts"
+      ],
+      "score": 68.0,
+      "found_at": "2026-10-18T18:11:57.669052+00:00"
+    },
+    {
       "name": "AI paid-media management agent (multi-channel ads)",
       "field": "Marketing / advertising",
       "summary": "A conversational agent that plans, launches and optimizes Google/Meta/LinkedIn/TikTok ad campaigns for small businesses that can't afford an agency — free for one channel, paid for more.",
@@ -4559,6 +4728,25 @@
       ],
       "score": 66.0,
       "found_at": "2026-10-18T11:14:59.786868+00:00"
+    },
+    {
+      "name": "Gamified web focus timer with collectible rewards",
+      "field": "Productivity / consumer web",
+      "summary": "Free Pomodoro-style focus timer with an illustrated companion, collectable rewards for finished sessions and streak mechanics — a web rebuild of the viral 'cat timer' formula that monetizes via one-time lifetime unlock.",
+      "why_now": "Starter Story interview (Jul 2026, fact-checked Oct 2026 by IncomeIdeaLab): a solo-built cat-themed Pomodoro app hit ~127K downloads and close to $80K in 8–9 months, with a $18K+ best-30-days after organic Instagram/Threads virality — pure demand proof that collectible-wrapped commodity focus tools still convert on the open market. a16z's Oct 2026 report stresses consumer AI needs non-subscription models; a free web timer with lifetime unlocks fits.",
+      "monetization": "$29.99 lifetime / $19.99 yr (proven mix, 'most sales from lifetime'); web rebuild: free core, paid cosmetics/themes/extra cats, family share.",
+      "evidence": [
+        "https://frontiermodels.cc/video/i-built-this-app-for-my-dad-now-it-makes-18k-month/",
+        "https://incomeidealab.com/research/cat-timer-app-18k-is-a-peak-month-of-mostly-lifetime-sales",
+        "https://a16z.com/100-gen-ai-apps-7/"
+      ],
+      "how_searched": [
+        "founder revenue interview (Starter Story)",
+        "independent fact-check of revenue claims",
+        "consumer-AI monetization report"
+      ],
+      "score": 66.0,
+      "found_at": "2026-10-18T18:11:58.586480+00:00"
     },
     {
       "name": "AI Mock-Interview Coach",
@@ -5818,160 +6006,6 @@
       ],
       "score": 54.7,
       "found_at": "2026-10-16T17:31:06.853094+00:00"
-    },
-    {
-      "name": "On-device meeting memory + MCP memory layer",
-      "field": "AI infrastructure / memory",
-      "summary": "Local-first system that captures conversations/screen context so agents can recall decisions later via MCP, addressing the widespread 'context loss' pain point across agent tools.",
-      "why_now": "Hemory launched with 345 score, 80 comments (Sept 2026) and is positioned as 'searchable memory for agents'; memory/context layers are in high demand as agent usage scales. Recent Product Hunt activity reflects this trend.",
-      "monetization": "Freemium/SaaS for sync/features; public revenue unknown (null).",
-      "evidence": [
-        "https://www.producthunt.com/products/hemory",
-        "https://www.producthunt.com/leaderboard/daily/2026/9/26"
-      ],
-      "how_searched": [
-        "Product Hunt daily leaderboard (kind: launch platform)",
-        "Cross-checked recent launches"
-      ],
-      "score": 54.7,
-      "found_at": "2026-10-18T01:05:28.030542+00:00"
-    },
-    {
-      "name": "Approval-Gated Agent Workflow Builder for One Job",
-      "field": "Agent Infrastructure / Vertical Agents",
-      "summary": "A web tool that lets non-engineers define a single agent job (e.g. contract intake, invoice triage) with explicit approval gates, retry rules, audit log, and stop conditions. Not a general agent platform.",
-      "why_now": "Agent infrastructure is trending but general platforms are crowded. Production agents need permissions, observability, stopping rules, and approval gates for consequential actions. Demand is shifting to job-specific agent tooling.",
-      "monetization": "SaaS per workflow/seat. Enterprise compliance requirements justify premium; $50–$500/month per team plausible but revenue figures unknown.",
-      "evidence": [
-        "https://blog.mean.ceo/micro-saas-trends-october-2026/",
-        "https://www.coddykit.com/pages/blog-detail?id=5129971"
-      ],
-      "how_searched": [
-        "Micro-SaaS trends (agent approval flows)",
-        "GitHub trending synthesis (multi-agent orchestration needs)"
-      ],
-      "score": 54.0,
-      "found_at": "2026-10-14T07:41:49.944554+00:00"
-    },
-    {
-      "name": "Vibe-coding / AI-generated-code security scanner",
-      "field": "Application security",
-      "summary": "A web scanner that checks AI-generated codebases and pull requests for OWASP Top 10 vulnerabilities, leaked secrets, insecure API/command execution and excessive permissions before they ship - the security layer for the 'vibe coding' wave.",
-      "why_now": "A new category appeared almost overnight: 0 to 17 'vibe-code' security scanners within weeks in March 2026, after studies showed the problem is systemic. Veracode reported ~45% of AI-generated code samples contained OWASP Top 10 vulnerabilities; Georgia Tech's Vibe Security Radar tracked real-world CVEs from AI code rising from ~6/month to ~35/month. Existing paid tools (Vibe App Scanner at $5-29/mo, one-off audits at $99-$299, team plans ~$32/mo) show immediate willingness to pay.",
-      "monetization": "Freemium web scan; CI/GitHub App integration at $5-29/mo; $99-$299 one-off security audits; team/org plans (~$32/mo). Easy to rebuild as a hosted scanner using open-source SAST/secret-scanning engines plus an AI triage layer.",
-      "evidence": [
-        "https://labs.cloudsecurityalliance.org/research/csa-research-note-ai-generated-code-vulnerability-surge-2026/",
-        "https://bigideasdb.com/fastest-growing-saas-companies-2026"
-      ],
-      "how_searched": [
-        "vibe coding security scanner 2026",
-        "AI generated code vulnerabilities OWASP study 2026",
-        "fastest growing SaaS 2026 security"
-      ],
-      "score": 53.3,
-      "found_at": "2026-10-10T12:36:38.337582+00:00"
-    },
-    {
-      "name": "Technical Diagram Generator (Editorial-Quality)",
-      "field": "Developer Tools / Documentation",
-      "summary": "A web tool that generates clean, self-contained diagrams (architecture, sequence, flows) from text descriptions. Focus on export-ready output for docs/README without external dependencies.",
-      "why_now": "Diagram design skills for agents are trending (42 diagram types, self-contained HTML/SVG). As AI handles implementation, clear technical communication remains valuable and diagramming is a frequent pain point for engineers.",
-      "monetization": "Freemium: free tier with limits, paid for private diagrams/team sharing. Revenue figures unknown.",
-      "evidence": [
-        "https://www.coddykit.com/pages/blog-detail?id=5129965",
-        "https://octopi-digital.com/blog/ai-assisted-software-development-the-2026-landscape"
-      ],
-      "how_searched": [
-        "GitHub trending (diagram design skills)",
-        "AI-assisted dev (documentation highly effective)"
-      ],
-      "score": 53.3,
-      "found_at": "2026-10-14T07:41:51.301621+00:00"
-    },
-    {
-      "name": "Free event invite + RSVP + ticketing web app (Partiful model)",
-      "field": "Events / social / creator",
-      "summary": "A free browser app to build a shareable event page, collect RSVPs and sell tickets, distributed by links people paste into texts and DMs.",
-      "why_now": "Partiful shows ~30.2M estimated monthly visits, up +13.9% over 3 months, ~500K MAU in Q1 2025 (+400% YoY), ~$27M raised, and launched ticketing in June 2026; the brand term 'partiful' alone draws ~275,000 monthly searches. Its traffic is 73.4% direct, so an original link-first clone can capture demand without a brand.",
-      "monetization": "Free product monetized via group ordering (Instacart partnership) and, since June 2026, ticketing; the teardown explicitly labels current revenue 'low-single-digit millions at most' as an estimate, not a reported number.",
-      "evidence": [
-        "https://www.systemaic.com/teardowns/partiful",
-        "https://www.theverge.com/report/960635/partiful-app-event-planning-data-palantir"
-      ],
-      "how_searched": [
-        "growth/revenue teardown site",
-        "tech news/press report"
-      ],
-      "score": 53.3,
-      "found_at": "2026-10-17T04:51:49.118097+00:00"
-    },
-    {
-      "name": "Real-time video conversation agents (multimodal voice-to-voice)",
-      "field": "AI voice/video + APIs",
-      "summary": "Developer platform to plug real-time conversational video AI into apps with live vision and execution across APIs/MCP, enabling interactive agent experiences.",
-      "why_now": "Eclatira launched with 289 score, 62 comments (Sept 2026); real-time multimodal agents are gaining traction as next frontier after text agents. Strong recent engagement on Product Hunt indicates rising interest.",
-      "monetization": "API/usage-based pricing; revenue not disclosed publicly (null).",
-      "evidence": [
-        "https://www.producthunt.com/products/eclatira",
-        "https://www.producthunt.com/leaderboard/daily/2026/9/26"
-      ],
-      "how_searched": [
-        "Product Hunt daily leaderboard (kind: launch platform)",
-        "Scan of AI realtime voice/video categories"
-      ],
-      "score": 53.3,
-      "found_at": "2026-10-18T01:05:28.197770+00:00"
-    },
-    {
-      "name": "Real-time high-stakes call copilot (interview/sales)",
-      "field": "AI careers & sales tooling",
-      "summary": "Browser-based assistant that listens to a live interview, sales call or demo and feeds the user short, contextual answers and prompts in real time.",
-      "why_now": "ParakeetAI, which started as a real-time AI interview assistant and expanded to sales calls, publicly documented passing $1M monthly revenue and 1.5M users in under two years with a tiny team (Indie Hackers case study, Sep 23 2026), with commenters noting heavy YouTube ad saturation; at the same time Product Hunt launched Hintly for Google Meet (real-time term explainer, 134 pts, Oct 16 2026), showing the 'live call assist' pattern spreading beyond interviews.",
-      "monetization": "Subscription ($20-50/mo) for job seekers and sales reps; the market leader alone reports >$1M MRR (founder-documented via Indie Hackers).",
-      "evidence": [
-        "https://www.indiehackers.com/post/tech/from-weekend-project-to-1m-mrr-in-two-years-YRaa1QlGTjaqh0XgzWkc",
-        "https://www.producthunt.com/leaderboard/daily/2026/10/16"
-      ],
-      "how_searched": [
-        "open-startup / revenue case-study database (Indie Hackers)",
-        "Product Hunt daily leaderboard (Oct 16 2026)"
-      ],
-      "score": 53.3,
-      "found_at": "2026-10-18T11:14:11.499221+00:00"
-    },
-    {
-      "name": "Free candidate-side AI job-discovery agent",
-      "field": "Future of work / job search",
-      "summary": "A free web agent where a candidate uploads a resume and gets continuously refreshed, personalized matches scraped directly from company career pages, filtering ghost jobs.",
-      "why_now": "HiringCafe raised a $6.8M pre-seed led by Spark Capital (announced 28 Sep 2026) and launched a 100% free AI Talent Agent, having grown to 2M monthly active users with zero marketing and 5.7M+ live listings. The category is validating fast and the winning model is explicitly free-to-candidate, which fits a bootstrapped free-tool build.",
-      "monetization": "Free for job seekers; potential employer-posting / sponsored-listing revenue on the employer side.",
-      "evidence": [
-        "https://thenextweb.com/news/hiringcafe-6-8m-pre-seed-ai-talent-agent",
-        "https://hiringcafe.com/ai-search"
-      ],
-      "how_searched": [
-        "opened TNW HiringCafe article",
-        "opened HiringCafe AI Talent Agent product page"
-      ],
-      "score": 52.0,
-      "found_at": "2026-10-10T17:54:57.856599+00:00"
-    },
-    {
-      "name": "Virtual body-doubling / focus rooms",
-      "field": "Productivity / accountability",
-      "summary": "A web app that pairs strangers for scheduled, on-camera co-working sessions to improve focus. Focusmate reports >$83K/mo (founder, April 2026), 12M+ completed sessions and 500M+ focus minutes across 150+ countries, monetized at $8-12/mo after a free 3-sessions/week tier.",
-      "why_now": "Body-doubling is a validated technique popular with students, remote workers and ADHD users. The product is relatively lightweight to build (calendar + video + matching) and benefits from network effects, which protects incumbents less in underserved niches/languages.",
-      "monetization": "Freemium: free limited sessions per week; paid unlimited (~$8/mo billed yearly, ~$12/mo monthly).",
-      "evidence": [
-        "https://www.focusmate.com/",
-        "https://kaeda.co/cases/focusmate"
-      ],
-      "how_searched": [
-        "company homepage",
-        "business-teardown database"
-      ],
-      "score": 52.0,
-      "found_at": "2026-10-12T10:53:44.001902+00:00"
     }
   ]
 }
