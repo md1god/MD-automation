@@ -4768,6 +4768,23 @@
       "found_at": "2026-10-14T07:41:43.969556+00:00"
     },
     {
+      "name": "AI GTM agent deployment platform (agent-ready GTM building blocks)",
+      "field": "Go-to-market automation",
+      "summary": "A platform that gives agents MCP-accessible GTM building blocks (brain, sending, enrichment, data providers) so AI agents can deploy go-to-market workflows end-to-end.",
+      "why_now": "Rising in recent launches: Pancake is trending on Product Hunt with strong engagement (585 score, 77 comments) in Oct 2026 week. This reflects recent interest in agent-native GTM tooling rather than legacy marketing stacks.",
+      "monetization": "SaaS/usage via subscriptions/credits for data/enrichment and infrastructure; specific revenue numbers not disclosed (null).",
+      "evidence": [
+        "https://www.producthunt.com/products/pancake-6",
+        "https://www.producthunt.com/leaderboard/weekly/2026/42"
+      ],
+      "how_searched": [
+        "Product Hunt search/trending weekly leaderboard (kind: launch platform)",
+        "Cross-checked recent weekly rankings"
+      ],
+      "score": 60.0,
+      "found_at": "2026-10-18T01:05:26.618716+00:00"
+    },
+    {
       "name": "Short-form vertical drama analytics",
       "field": "Content/Creator tools",
       "summary": "A free web dashboard to find trending vertical short dramas, virality signals, and monetization potential across platforms.",
@@ -4856,6 +4873,23 @@
       ],
       "score": 58.7,
       "found_at": "2026-10-14T07:41:45.937010+00:00"
+    },
+    {
+      "name": "Autonomous AI influencer/social video agent",
+      "field": "AI video + social automation",
+      "summary": "An autonomous agent that catches trends, creates content in brand voice, and publishes across TikTok/IG/X - effectively running social end-to-end with minimal human input.",
+      "why_now": "Spira Maxima launched with 639 score and 77 comments in Oct 2026, showing strong recent momentum for autonomous content agents. Product Hunt best-of lists also highlight Spira among top Oct products.",
+      "monetization": "Subscription/SaaS and/or usage-based for video generation and automation; exact revenue not published (null).",
+      "evidence": [
+        "https://www.producthunt.com/products/spira-ai",
+        "https://www.producthunt.com/leaderboard/monthly/2026/10"
+      ],
+      "how_searched": [
+        "Product Hunt monthly leaderboard (kind: launch platform)",
+        "Recent product category scan for AI generative media"
+      ],
+      "score": 58.7,
+      "found_at": "2026-10-18T01:05:26.785303+00:00"
     },
     {
       "name": "Bilingual website / PDF / video translation extension",
@@ -5040,6 +5074,40 @@
       "found_at": "2026-10-14T07:41:46.847666+00:00"
     },
     {
+      "name": "AI-native browser for agent workflows",
+      "field": "Developer tooling + browser automation",
+      "summary": "A browser designed so coding agents (e.g. Claude Code, Codex) work alongside browsing context, turning pages into tasks and centralizing project context across agents.",
+      "why_now": "Rill Browser launched with 519 score and 67 comments in Oct 2026; it's positioned around the recent surge in coding agents needing real browsing context, a relatively recent pattern in developer workflows.",
+      "monetization": "Free to start with existing agent plans; likely premium features/team plans or usage tiers; public revenue numbers unknown (null).",
+      "evidence": [
+        "https://www.producthunt.com/products/rill-3",
+        "https://www.producthunt.com/leaderboard/monthly/2026/10"
+      ],
+      "how_searched": [
+        "Product Hunt monthly leaderboard (kind: launch platform)",
+        "Cross-checked Oct daily/weekly lists"
+      ],
+      "score": 57.3,
+      "found_at": "2026-10-18T01:05:26.950714+00:00"
+    },
+    {
+      "name": "AI workflow recorder / demo-to-automation (watch and learn)",
+      "field": "Workflow automation",
+      "summary": "A desktop app where users demonstrate a task once and it becomes a reusable workflow that runs across applications, lowering the barrier to automation for non-technical users.",
+      "why_now": "IrisGo launched with 516 score, 132 comments (strong engagement) in Oct 2026; 'show it once, let it run' is a recent trend matching demand for practical no-code automation that actually works across apps.",
+      "monetization": "Freemium/SaaS (solopreneur offering); revenue figures not disclosed publicly (null).",
+      "evidence": [
+        "https://www.producthunt.com/products/irisgo-public-beta",
+        "https://www.producthunt.com/leaderboard/monthly/2026/10"
+      ],
+      "how_searched": [
+        "Product Hunt monthly leaderboard (kind: launch platform)",
+        "Scan of top Oct launches"
+      ],
+      "score": 57.3,
+      "found_at": "2026-10-18T01:05:27.105121+00:00"
+    },
+    {
       "name": "Failed-Payment Recovery / Dunning for Small SaaS (Rebounce-model)",
       "field": "SaaS / fintech - revenue recovery",
       "summary": "A free web tool that connects to Stripe, detects failed/expiring-card payments, and runs smart retry + email/WhatsApp dunning sequences to recover involuntary churn, with a recovery dashboard.",
@@ -5113,6 +5181,23 @@
       ],
       "score": 56.7,
       "found_at": "2026-10-14T07:41:47.972909+00:00"
+    },
+    {
+      "name": "Lead discovery from social intent posts (automated outreach triggers)",
+      "field": "Lead generation",
+      "summary": "A tool that continuously finds social posts where people ask for a specific product/service and turns them into actionable leads (intent-based rather than cold list blasting).",
+      "why_now": "IndieHackers founder story shows Leadverse hitting $3.3k MRR after identifying viral Reddit post about 'people asking for solutions' - recent real traction from founder sharing concrete numbers. Product Hunt-style launches also trend toward intent-based lead gen.",
+      "monetization": "Subscription MRR; founder-reported $3.3k MRR (real revenue figure).",
+      "evidence": [
+        "https://www.indiehackers.com/post/tech/launching-countless-apps-until-one-gained-momentum-and-hit-3-3-k-mrr-U9btJ44RYRcAaukCqHoj",
+        "https://www.indiehackers.com/product/malyatko-baby-log-tracker"
+      ],
+      "how_searched": [
+        "IndieHackers search for recent revenue/MRR posts (kind: community/startup forum)",
+        "Cross-checked founder revenue story"
+      ],
+      "score": 56.7,
+      "found_at": "2026-10-18T01:05:27.862373+00:00"
     },
     {
       "name": "AI Frame-TV & Printable Wall-Art Studio",
@@ -5261,6 +5346,23 @@
       "found_at": "2026-10-16T17:31:06.853094+00:00"
     },
     {
+      "name": "On-device meeting memory + MCP memory layer",
+      "field": "AI infrastructure / memory",
+      "summary": "Local-first system that captures conversations/screen context so agents can recall decisions later via MCP, addressing the widespread 'context loss' pain point across agent tools.",
+      "why_now": "Hemory launched with 345 score, 80 comments (Sept 2026) and is positioned as 'searchable memory for agents'; memory/context layers are in high demand as agent usage scales. Recent Product Hunt activity reflects this trend.",
+      "monetization": "Freemium/SaaS for sync/features; public revenue unknown (null).",
+      "evidence": [
+        "https://www.producthunt.com/products/hemory",
+        "https://www.producthunt.com/leaderboard/daily/2026/9/26"
+      ],
+      "how_searched": [
+        "Product Hunt daily leaderboard (kind: launch platform)",
+        "Cross-checked recent launches"
+      ],
+      "score": 54.7,
+      "found_at": "2026-10-18T01:05:28.030542+00:00"
+    },
+    {
       "name": "Approval-Gated Agent Workflow Builder for One Job",
       "field": "Agent Infrastructure / Vertical Agents",
       "summary": "A web tool that lets non-engineers define a single agent job (e.g. contract intake, invoice triage) with explicit approval gates, retry rules, audit log, and stop conditions. Not a general agent platform.",
@@ -5328,6 +5430,23 @@
       ],
       "score": 53.3,
       "found_at": "2026-10-17T04:51:49.118097+00:00"
+    },
+    {
+      "name": "Real-time video conversation agents (multimodal voice-to-voice)",
+      "field": "AI voice/video + APIs",
+      "summary": "Developer platform to plug real-time conversational video AI into apps with live vision and execution across APIs/MCP, enabling interactive agent experiences.",
+      "why_now": "Eclatira launched with 289 score, 62 comments (Sept 2026); real-time multimodal agents are gaining traction as next frontier after text agents. Strong recent engagement on Product Hunt indicates rising interest.",
+      "monetization": "API/usage-based pricing; revenue not disclosed publicly (null).",
+      "evidence": [
+        "https://www.producthunt.com/products/eclatira",
+        "https://www.producthunt.com/leaderboard/daily/2026/9/26"
+      ],
+      "how_searched": [
+        "Product Hunt daily leaderboard (kind: launch platform)",
+        "Scan of AI realtime voice/video categories"
+      ],
+      "score": 53.3,
+      "found_at": "2026-10-18T01:05:28.197770+00:00"
     },
     {
       "name": "Free candidate-side AI job-discovery agent",
@@ -5416,6 +5535,40 @@
       "found_at": "2026-10-16T17:31:07.267354+00:00"
     },
     {
+      "name": "Solo SaaS finance tracker (Stripe + expenses = real profit)",
+      "field": "Fintech/ops tooling",
+      "summary": "A simple tool for solo founders that connects Stripe, adds expenses, and shows 'real profit' (not just MRR) without full accounting complexity - a persistent pain point.",
+      "why_now": "IndieHackers post (SoloPro) explicitly articulates the gap: founders see MRR/revenue but not real profit; founder launched to $0 MRR but problem is very common and monetizable. The demand is structural and ongoing.",
+      "monetization": "Subscription SaaS for profit tracking; initial launch at $0 MRR, no public scaled revenue yet (null).",
+      "evidence": [
+        "https://www.indiehackers.com/post/i-thought-i-made-4-2k-last-month-my-real-profit-was-2-2k-TlQ7YOqs0NddlagwHrFQ",
+        "https://www.indiehackers.com/post/most-dashboards-show-mrr-none-show-how-much-left-through-failed-payments-MvPoC5oSTZg1oC5F6z77"
+      ],
+      "how_searched": [
+        "IndieHackers posts about finance/ops pain points (kind: community forum)",
+        "Cross-checked related payment failure posts showing same need"
+      ],
+      "score": 52.0,
+      "found_at": "2026-10-18T01:05:28.648988+00:00"
+    },
+    {
+      "name": "Open-source SEO/GEO research suite (data accessible)",
+      "field": "SEO/GEO tooling",
+      "summary": "Open-source alternative for keyword/competitor/backlink/site audit with affordable pricing and MCP connectivity for agent workflows, addressing high Ahrefs/Semrush costs.",
+      "why_now": "OpenSEO launched with 912 score, 77 comments (yearly/monthly top lists) in recent Product Hunt activity; demand for agent-connected GEO/SEO data and cost-effective alternatives is strong as AI search grows.",
+      "monetization": "Freemium/open-core with $10/month entry; public revenue figures not published (null).",
+      "evidence": [
+        "https://www.producthunt.com/products/openseo",
+        "https://www.producthunt.com/leaderboard/monthly/2026/10"
+      ],
+      "how_searched": [
+        "Product Hunt monthly leaderboard (kind: launch platform)",
+        "Cross-checked product category GEO Tools"
+      ],
+      "score": 52.0,
+      "found_at": "2026-10-18T01:05:28.800879+00:00"
+    },
+    {
       "name": "AI multi-model answer cross-checker",
       "field": "AI developer/productivity / hallucination verification",
       "summary": "A free web tool that sends one question to several LLMs and highlights agreements/disagreements, giving users a fast 'second opinion' on AI answers. Original build: a normalizer that calls multiple model APIs (or free endpoints), a diff/consensus scorer, and a shareable verdict view.",
@@ -5480,6 +5633,40 @@
       ],
       "score": 50.7,
       "found_at": "2026-10-17T04:51:49.486835+00:00"
+    },
+    {
+      "name": "Pay-per-document e-signature (no subscription)",
+      "field": "Legal/automation",
+      "summary": "Usage-based e-signatures with free monthly quota and one-time credit packs, API/MCP access; appeals to infrequent users and AI agents needing signing capability without committing to subscriptions.",
+      "why_now": "SignWith launched with 216 score, 36 comments (daily Oct 16) showing recent interest in alternative pricing model to subscription-heavy incumbents; matches demand for transparent pay-per-use in legal tooling.",
+      "monetization": "Pay-per-use (credits); public revenue not disclosed (null).",
+      "evidence": [
+        "https://www.producthunt.com/products/signwith",
+        "https://www.producthunt.com/leaderboard/daily/2026/10/16"
+      ],
+      "how_searched": [
+        "Product Hunt daily leaderboard (kind: launch platform)",
+        "Scan of E-signature apps category"
+      ],
+      "score": 50.7,
+      "found_at": "2026-10-18T01:05:28.954137+00:00"
+    },
+    {
+      "name": "Review-to-website generator (from real Google Maps reviews)",
+      "field": "Website builders/AI content",
+      "summary": "Generates one-page sites from actual customer reviews and Jobs-to-Be-Done patterns, avoiding generic templates and made-up copy - solving differentiation problem for local businesses.",
+      "why_now": "Brila launched with 1342 score, 246 comments (yearly top list) showing strong engagement; demand from SMBs for easy, authentic web presence remains high and AI is making it practical now.",
+      "monetization": "Freemium with paid plans; public revenue not published (null).",
+      "evidence": [
+        "https://www.producthunt.com/products/brila-2",
+        "https://www.producthunt.com/leaderboard/yearly/2026"
+      ],
+      "how_searched": [
+        "Product Hunt yearly leaderboard (kind: launch platform)",
+        "Cross-checked landing page builders category"
+      ],
+      "score": 50.7,
+      "found_at": "2026-10-18T01:05:29.100361+00:00"
     },
     {
       "name": "Vibe-coding spec & prompt generator (idea → build-ready plan for Claude Code / Cursor)",
@@ -5725,200 +5912,6 @@
       ],
       "score": 48.0,
       "found_at": "2026-10-12T20:20:24.765781+00:00"
-    },
-    {
-      "name": "Chat-with-your-ads attribution dashboard for marketing agencies",
-      "field": "Marketing analytics / attribution",
-      "summary": "A free dashboard that ties ad spend to real Stripe revenue and lets marketers ask plain-English questions about which campaigns actually make money.",
-      "why_now": "Cometly is Stripe-verified at $10,006,860 all-time and $200,113 MRR with 284 subscribers (ranked #15 on TrustMRR); it ships an MCP server and Conversion API and publishes ROI case studies.",
-      "monetization": "Free -> Pro $119/mo -> Business $349/mo; $10M all-time revenue.",
-      "evidence": [
-        "https://www.cometly.com/",
-        "https://trustmrr.com/startup/cometly"
-      ],
-      "how_searched": [
-        "vendor/pricing page",
-        "open-revenue dashboard (TrustMRR)"
-      ],
-      "score": 48.0,
-      "found_at": "2026-10-14T02:06:37.917709+00:00"
-    },
-    {
-      "name": "Cookieless Open-Source Web Analytics (GA Alternative)",
-      "field": "Web analytics / privacy",
-      "summary": "A privacy-first, cookieless web analytics product positioned against Google Analytics. Rybbit reports 12K+ GitHub stars and about $9,175 MRR (Stripe-verified), driven by GDPR/CCPA compliance pressure.",
-      "why_now": "GDPR/CCPA enforcement and cookie-consent fatigue continue to push teams away from Google Analytics.",
-      "monetization": "Hosted cloud subscription alongside a free self-hosted option; reference product shows ~$9,175 MRR (Stripe-verified).",
-      "evidence": [
-        "https://www.rybbit.com/",
-        "https://github.com/rybbit-io/rybbit"
-      ],
-      "how_searched": [
-        "search engines",
-        "GitHub",
-        "SaaS revenue writing"
-      ],
-      "score": 48.0,
-      "found_at": "2026-10-15T01:32:59.427289+00:00"
-    },
-    {
-      "name": "ADHD-friendly daily planner",
-      "field": "Productivity / health-adjacent",
-      "summary": "A free ADHD-oriented planner web app (visual time-blocking, body-doubling timers, low-friction task capture) with a paid pro tier. Rebuild as an original accessible planner.",
-      "why_now": "r/ADHD is the highest-signal cluster of 'I wish there was an app' requests, the ADHD app category is growing fast, and leading ADHD planners show large revenue with 400K-ish monthly downloads — sustained, not faddish, demand.",
-      "monetization": "Freemium; subscription for advanced features. Benchmark: a leading ADHD planner is estimated at ~$300K/mo from ~400K downloads/mo.",
-      "evidence": [
-        "https://peekly.app/apps/7a5da852-5344-4220-8d82-887fa78928de",
-        "https://productlist.info/requests"
-      ],
-      "how_searched": [
-        "Analyzed aggregated app-request threads for demand clusters",
-        "Checked app-revenue trackers for ADHD planners",
-        "Filtered out ideas overlapping the known list"
-      ],
-      "score": 48.0,
-      "found_at": "2026-10-16T17:31:10.487215+00:00"
-    },
-    {
-      "name": "Instant contact & company data validation / enrichment tool",
-      "field": "Data quality / B2B data APIs",
-      "summary": "A free lookup tool that validates and enriches emails, phones and company records in under a second, funneling users into a per-lookup API.",
-      "why_now": "1Lookup is Stripe-verified at $5,364,610 all-time and $262,188 MRR with 711 subscribers (ranked #23 on TrustMRR); it offers 44 data products behind one API with sub-300ms responses and a 5.0 Trustpilot score.",
-      "monetization": "Per-lookup credits with a 7-day free trial; MRR $262K.",
-      "evidence": [
-        "https://trustmrr.com/startup/1lookup",
-        "https://www.1lookup.io/"
-      ],
-      "how_searched": [
-        "open-revenue dashboard (TrustMRR)",
-        "vendor pricing page",
-        "review-site rating (Trustpilot, via vendor)"
-      ],
-      "score": 47.3,
-      "found_at": "2026-10-14T02:06:38.610049+00:00"
-    },
-    {
-      "name": "Marketplace product-research tool",
-      "field": "E-commerce / seller tooling",
-      "summary": "A free web app that scores product niches for marketplace sellers (demand, competition, fee/margin math) with a paid tier for deeper data/automation. Rebuild as an original research OS.",
-      "why_now": "A non-technical founder built a seller research tool to ~$30K MRR with 330 paying users at $49–199/mo, and standalone entries are being built/repositioned around 2026 tariff and fee changes — steady, monetizable demand.",
-      "monetization": "Paid subscription ($49–199/mo), no free tier in the benchmark. Benchmark: ~$30K MRR / 330 paying users.",
-      "evidence": [
-        "https://www.indiehackers.com/post/tech/building-a-product-in-48-hours-and-hitting-30k-mrr-as-a-non-technical-founder-wWtWIH5tmwASUbxKaLT9",
-        "https://milestonewins.com/launches/launchfast/"
-      ],
-      "how_searched": [
-        "Browsed Indie Hackers monthly/top stories",
-        "Checked launch trackers for MRR milestones",
-        "Filtered against known ideas"
-      ],
-      "score": 47.3,
-      "found_at": "2026-10-16T17:31:13.187600+00:00"
-    },
-    {
-      "name": "Interactive-video (quiz-in-video) training platform",
-      "field": "EdTech / corporate training",
-      "summary": "A web editor that turns ordinary videos into interactive experiences with in-video quizzes and branching, for trainers, educators and marketers.",
-      "why_now": "A bootstrapped, one-person interactive-video SaaS is Stripe-verified at $48,062 MRR with 224 active subscriptions and $2,330,482 all-time revenue, priced $99/$299/$499/month plus Enterprise, last synced Oct 17, 2026; a separate daily open-revenue note describes the same company at ~$47k MRR.",
-      "monetization": "Tiered subscription $99 / $299 / $499 per month plus Enterprise (verified listings).",
-      "evidence": [
-        "https://trustmrr.com/startup/interactive-video-saas",
-        "https://www.wlad.me/blog/2026-10-08"
-      ],
-      "how_searched": [
-        "Stripe-verified revenue database",
-        "open-revenue daily blog"
-      ],
-      "score": 47.3,
-      "found_at": "2026-10-17T04:51:50.476966+00:00"
-    },
-    {
-      "name": "Spira Maxima - AI video for viral social",
-      "field": "AI video generation",
-      "summary": "Turns script into finished social videos (presenter, B-roll, captions). Claimed 10M+ impressions pre-launch.",
-      "why_now": "Strong launch (Oct 2026) with high upvotes; social video demand remains high.",
-      "monetization": "SaaS. Claimed impressions but no public revenue; revenue null.",
-      "evidence": [
-        "https://www.hunted.space/dashboard/spira-ai",
-        "https://www.producthunt.com/products/spira-ai"
-      ],
-      "how_searched": [
-        "hunted.space",
-        "Product Hunt"
-      ],
-      "score": 46.7,
-      "found_at": "2026-10-12T20:20:25.115301+00:00"
-    },
-    {
-      "name": "Synthetic-user testing studio for landing pages and messaging",
-      "field": "User research / product validation",
-      "summary": "A free tool that spins up AI respondents with stable personas so founders can test a landing page, headline or concept in minutes before spending on real research.",
-      "why_now": "Synthetic Users reports 85-92% synthetic-organic parity, 21 peer-reviewed supporting papers, $2-60 per interview versus $100+ agencies, and SOC 2 compliance, with logos including TikTok, J.P. Morgan and Samsung; Maze markets an AI Moderator, AI Study Builder and a 6M+ participant panel on the same 'research at the pace of change' thesis.",
-      "monetization": "Subscription/usage SaaS with per-interview pricing plus panel access (Maze sells team plans and a research panel).",
-      "evidence": [
-        "https://www.syntheticusers.com/",
-        "https://maze.co/"
-      ],
-      "how_searched": [
-        "vendor landing pages",
-        "science/parity claims on vendor site",
-        "competitor product pages"
-      ],
-      "score": 46.7,
-      "found_at": "2026-10-14T02:06:39.568746+00:00"
-    },
-    {
-      "name": "Framework-upgrade scanner",
-      "field": "Developer tools",
-      "summary": "A free web tool that scans a repo/config and produces an upgrade plan for major framework version jumps (breaking changes, deprecation map, step order). Rebuild with your own rules engine.",
-      "why_now": "A Laravel upgrade-automation tool is running ~$50K MRR, and a Rails upgrade-preflight tool trended on Hacker News — developers clearly pay to de-risk painful major-version migrations.",
-      "monetization": "Free scan; paid one-off or subscription for guided automation/CI integration. Benchmark: ~$50K MRR for a comparable upgrade tool (tracker estimate).",
-      "evidence": [
-        "https://bestproductivityresources.com/guides/trending-web-apps-that-are-making-money-now",
-        "https://hnarchives.com/showHN?year=2026"
-      ],
-      "how_searched": [
-        "Reviewed revenue-tracker roundups for dev tools",
-        "Browsed Hacker News Show HN archives for upgrade/dev tooling",
-        "Prioritized timed launches and paid demand signals"
-      ],
-      "score": 46.7,
-      "found_at": "2026-10-16T17:31:12.155338+00:00"
-    },
-    {
-      "name": "Tariff / landed-cost calculator",
-      "field": "E-commerce / finance utility",
-      "summary": "A free landed-cost and tariff calculator for importers/marketplace sellers (duty + fees by HS code and country) with a paid multi-SKU/API tier. Rebuild with your own tariff dataset and UI.",
-      "why_now": "2026 tariff churn is severe (de minimis ended Aug 2025; forced-labor tariff replaced Section 122 on July 24 2026; shifting reciprocal frameworks), triggering a wave of new calculators in 2026 and constant importer confusion — a classic timely free-tool play.",
-      "monetization": "Free basic calculator; paid plans for bulk SKUs/API. Benchmarks: ~$49/mo starter tiers and ~$49–199/mo e-commerce plans; an Amazon-seller research tool charges $49–199/mo with 330 paying users (~$30K MRR).",
-      "evidence": [
-        "https://zentriaflow.com/",
-        "https://milestonewins.com/launches/launchfast/"
-      ],
-      "how_searched": [
-        "Searched for new landed-cost/tariff tools launched in 2026",
-        "Checked HN Show HN for related launches",
-        "Cross-referenced with e-commerce seller tooling pricing"
-      ],
-      "score": 46.7,
-      "found_at": "2026-10-16T17:31:12.524496+00:00"
-    },
-    {
-      "name": "AI mock-interview coach (free-tier web)",
-      "field": "Careers / education",
-      "summary": "A free-to-start web app that runs AI mock interviews and gives role-specific, adaptive feedback, monetized on usage or B2B licensing.",
-      "why_now": "The interview-preparation tool market is $668.73M in 2026 heading to $2.29B by 2032 (23.01% CAGR), and AI-powered mock-interview platforms were the largest segment at 44.89% ($241.66M) in 2025; individual job seekers are 59.7% of buyers. Google already offers a free Interview Warmup, confirming free demand, while paid rivals remain fragmented.",
-      "monetization": "Freemium subscriptions plus institutional licensing (higher-education institutions were 27.0% of the 2025 market).",
-      "evidence": [
-        "https://pmarketresearch.com/worldwide-interview-preparation-tool-market-research/",
-        "https://grow.google/certificates/interview-warmup/"
-      ],
-      "how_searched": [
-        "market-research report page",
-        "first-party free-tool landing page"
-      ],
-      "score": 46.7,
-      "found_at": "2026-10-17T04:51:51.125110+00:00"
     }
   ]
 }
