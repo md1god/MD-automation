@@ -1,6 +1,63 @@
 {
   "items": [
     {
+      "name": "AI Agent Cost Observability & Spend Guardrails",
+      "field": "AI Infrastructure / DevTools",
+      "summary": "A web tool that monitors AI agent API usage, routes requests to cheaper models, caches results, and enforces spend budgets to prevent runaway costs.",
+      "why_now": "AI agents are driving up inference costs at scale and teams are actively looking for spend control. Product Hunt shows strong recent interest in cost-focused tools like Navige (254 upvotes, Oct 15 2026) as usage grows.",
+      "monetization": "SaaS with tiered plans or usage-based pricing; similar tools target B2B teams paying monthly to save multiples of subscription cost. Revenue evidence for this class includes AI infra tools reaching five-figure MRR.",
+      "evidence": [
+        "https://www.producthunt.com/products/navige",
+        "https://www.shareuhack.com/en/posts/product-hunt-weekly-2026-10-15",
+        "https://stealwhatworks.com/blogs/news/micro-saas-over-10k-month-now"
+      ],
+      "how_searched": [
+        "Product Hunt daily/week leaderboards (Oct 15-18 2026)",
+        "Shareuhack PH weekly roundup",
+        "MicroSaaS revenue lists"
+      ],
+      "score": 95.0,
+      "found_at": "2026-10-19T07:48:56.173487+00:00"
+    },
+    {
+      "name": "MCP Server Build, Test & Deploy Platform",
+      "field": "Developer Tools / AI Infrastructure",
+      "summary": "A free web-based studio to scaffold, test, debug, and deploy Model Context Protocol (MCP) servers with auth, workflows, and one-click sharing.",
+      "why_now": "MCP is rapidly becoming the standard for connecting agents to tools. NitroStack launched recently and climbed to #1 on Product Hunt daily (309 upvotes, Oct 17 2026) with heavy discussion from AI engineers.",
+      "monetization": "Freemium SaaS: free tier for builders, paid plans for private deployments, team seats, or hosted runtime. Demand is driven by every AI coding/agent tool needing MCP integrations.",
+      "evidence": [
+        "https://www.producthunt.com/products/nitrostack",
+        "https://www.shareuhack.com/en/posts/product-hunt-weekly-2026-10-15",
+        "https://hunted.space/overview/2026/October/18"
+      ],
+      "how_searched": [
+        "Product Hunt leaderboards (Oct 17-18 2026)",
+        "PH weekly roundups",
+        "Crosswalk PH feed"
+      ],
+      "score": 94.0,
+      "found_at": "2026-10-19T07:48:58.130704+00:00"
+    },
+    {
+      "name": "AI Email Messenger / Inbox Assistant",
+      "field": "Productivity / Email",
+      "summary": "A free web app that turns email threads into chat-like conversations, summarizes, drafts replies, extracts todos, and unifies multiple inboxes with privacy-first on-device AI.",
+      "why_now": "Inbox overload is a persistent pain and AI-native UX is gaining traction. Talanoa (334 upvotes, Oct 15 2026) and Inbox Zero (329 upvotes, Oct 18 2026) both topped Product Hunt daily leaderboards.",
+      "monetization": "Freemium with premium features (unlimited AI actions, advanced automation, team features). Email productivity tools have long converted well to subscriptions.",
+      "evidence": [
+        "https://www.producthunt.com/products/talanoa-2",
+        "https://www.producthunt.com/products/inbox-zero-2",
+        "https://www.producthunt.com/leaderboard/daily/2026/10/15",
+        "https://www.producthunt.com/leaderboard/daily/2026/10/18"
+      ],
+      "how_searched": [
+        "Product Hunt daily leaderboards (Oct 15-18 2026)",
+        "PH product pages"
+      ],
+      "score": 93.0,
+      "found_at": "2026-10-19T07:48:58.270998+00:00"
+    },
+    {
       "name": "AI Agent Marketplace & Builder Platform",
       "field": "AI/Developer Tools",
       "summary": "A platform where creators build, publish, and monetize specialized AI agents (coding, research, sales, ops) that users can discover, test in a sandbox, and deploy with one click — priced per run or subscription.",
@@ -69,6 +126,24 @@
       "found_at": "2026-10-18T14:57:43.224158+00:00"
     },
     {
+      "name": "Local-First AI Dictation Web App",
+      "field": "Productivity / Accessibility",
+      "summary": "A free browser-based dictation tool that transcribes speech to clean text, removes fillers, learns corrections, and supports translation with local-first processing to preserve privacy.",
+      "why_now": "Voice input is surging as agents and workflows go hands-free. Openbroca (92 upvotes, Oct 18 2026) shows recent Product Hunt interest in lightweight, private dictation tools.",
+      "monetization": "Freemium: free core dictation, paid for higher usage, advanced models, or team features. Similar dictation tools convert well among professionals and knowledge workers.",
+      "evidence": [
+        "https://www.producthunt.com/products/openbroca",
+        "https://www.producthunt.com/leaderboard/daily/2026/10/18",
+        "https://hunted.space/overview/2026/October/18"
+      ],
+      "how_searched": [
+        "Product Hunt daily leaderboard (Oct 18 2026)",
+        "PH product pages"
+      ],
+      "score": 91.0,
+      "found_at": "2026-10-19T07:48:58.496263+00:00"
+    },
+    {
       "name": "AI search visibility / GEO brand-citation checker",
       "field": "Marketing & SEO (GEO/AEO)",
       "summary": "A free web tool that checks how often a brand or competitor is named (and where) inside answers from ChatGPT, Perplexity, Gemini and Claude, then generates an llms.txt/citation audit with fixes.",
@@ -131,6 +206,24 @@
       ],
       "score": 90.0,
       "found_at": "2026-10-18T18:11:48.153250+00:00"
+    },
+    {
+      "name": "AI Course Generator (Turn Any Topic Into a Lesson)",
+      "field": "Education / AI",
+      "summary": "A free web app that takes any topic or conversation and generates a Duolingo-style interactive course with lessons, quizzes, and adaptive feedback.",
+      "why_now": "Personalized learning is in demand and AI makes course creation instant. Tomo (94 upvotes, Oct 18 2026) recently launched on Product Hunt with strong community interest in interactive learning formats.",
+      "monetization": "Freemium with premium course generation, advanced content, or pro features. EdTech microSaaS can reach meaningful MRR with engaged learners.",
+      "evidence": [
+        "https://www.producthunt.com/products/tomo-for-chatgpt",
+        "https://www.producthunt.com/leaderboard/daily/2026/10/18",
+        "https://coffounder.com/blog/micro-saas-examples-with-revenue"
+      ],
+      "how_searched": [
+        "Product Hunt daily leaderboard (Oct 18 2026)",
+        "MicroSaaS revenue database (33 AI products listed)"
+      ],
+      "score": 90.0,
+      "found_at": "2026-10-19T07:48:58.851337+00:00"
     },
     {
       "name": "AI Search Visibility / GEO Tracking Dashboard",
@@ -361,6 +454,23 @@
       ],
       "score": 88.0,
       "found_at": "2026-10-18T14:57:50.115614+00:00"
+    },
+    {
+      "name": "AI Workout & Fitness Planner",
+      "field": "Health & Fitness / AI",
+      "summary": "A free web app that generates personalized workouts, adapts to available equipment/time, and provides voice-guided sessions using AI.",
+      "why_now": "AI-powered fitness is gaining traction with recent Product Hunt launches like Train with Pasta (130 upvotes, Oct 17 2026) showing community interest in AI personal trainers.",
+      "monetization": "Freemium with premium workout plans, nutrition features, or coaching. Fitness apps with strong engagement convert to subscriptions.",
+      "evidence": [
+        "https://www.producthunt.com/products/train-with-pasta",
+        "https://www.producthunt.com/leaderboard/daily/2026/10/17",
+        "https://hunted.space/overview/2026/October/18"
+      ],
+      "how_searched": [
+        "Product Hunt leaderboards (Oct 17-18 2026)"
+      ],
+      "score": 88.0,
+      "found_at": "2026-10-19T07:49:02.625213+00:00"
     },
     {
       "name": "Retro digicam / film-camera filter web app (Y2K & CCD look)",
@@ -5638,6 +5748,23 @@
       "found_at": "2026-10-18T06:01:51.186925+00:00"
     },
     {
+      "name": "Privacy-First Web Analytics",
+      "field": "Marketing / Analytics",
+      "summary": "A free, cookie-less web analytics dashboard with simple metrics, event tracking, and clear reports as an alternative to Google Analytics.",
+      "why_now": "Privacy regulations and ad-blocking continue to drive demand for cookieless analytics. Plausible reports ~$170k MRR and Simple Analytics ~$40k MRR with consistent growth, showing real revenue in this space.",
+      "monetization": "Open-core SaaS: free self-hosted or limited hosted tier, paid hosted plans based on pageviews/sites. Proven monetization with transparent numbers.",
+      "evidence": [
+        "https://stealwhatworks.com/blogs/news/micro-saas-over-10k-month-now",
+        "https://www.prepnew.com/post/chapter-22-the-200-vault-part-2-boring-micro-saas-utilities"
+      ],
+      "how_searched": [
+        "MicroSaaS revenue verifications",
+        "Vault of profitable microSaaS"
+      ],
+      "score": 61.3,
+      "found_at": "2026-10-19T07:49:01.572911+00:00"
+    },
+    {
       "name": "Fractional-executive rate benchmark & matching tool",
       "field": "Talent / Executive hiring",
       "summary": "A rebuilt free web tool where executives and startups get live compensation benchmarks (hourly/retainer by role and company stage), plus a directory and simple match flow for fractional CFO/COO/CTO/CMO engagements.",
@@ -5853,6 +5980,23 @@
       "found_at": "2026-10-18T06:01:53.057068+00:00"
     },
     {
+      "name": "Voice-to-Data Workflows",
+      "field": "AI / Automation",
+      "summary": "A free web tool that turns voice notes or transcripts into structured data (forms, tables, CRM entries, reports) using AI extraction and templates.",
+      "why_now": "Professionals want to capture ideas on-the-go and convert them to actionable data without manual entry. Aila shows ~$19k MRR with just 109 active subscriptions, indicating strong per-customer value.",
+      "monetization": "Freemium SaaS with usage-based credits or subscription tiers. High conversion potential in sales, support, and operations workflows.",
+      "evidence": [
+        "https://stealwhatworks.com/blogs/news/micro-saas-over-10k-month-now",
+        "https://coffounder.com/blog/micro-saas-examples-with-revenue"
+      ],
+      "how_searched": [
+        "MicroSaaS revenue lists (AI products)",
+        "Verified revenue data"
+      ],
+      "score": 59.3,
+      "found_at": "2026-10-19T07:49:01.875037+00:00"
+    },
+    {
       "name": "Digital-Product Niche & Pricing Intelligence (Etsy/Pinterest)",
       "field": "E-commerce seller tooling",
       "summary": "A free web tool that cross-checks Pinterest trend spikes against Etsy demand and competition to surface 'openings' (demand minus competition), with average price and bestseller velocity for any keyword.",
@@ -5906,147 +6050,6 @@
       ],
       "score": 58.7,
       "found_at": "2026-10-11T14:06:23.096892+00:00"
-    },
-    {
-      "name": "Rental Compliance & Document Workflow Tool",
-      "field": "Vertical SaaS / Real Estate",
-      "summary": "A free web tool for small landlords and single agents to track compliance deadlines, generate notices from templates, manage documents, and log actions. Focus on one jurisdiction to start (narrow, not a full PMS).",
-      "why_now": "Real estate has fragmented local workflows and heavy admin burden. Micro-SaaS real-estate tagged startups show directional strong growth from small base. The opportunity is in overlooked operators (single agents, small landlords) rather than large enterprises.",
-      "monetization": "Subscription per property portfolio or per jurisdiction. Transactional add-ons (e.g. payment collection) can be layered. No public revenue found; model is workflow-value based.",
-      "evidence": [
-        "https://blog.mean.ceo/micro-saas-trends-october-2026/",
-        "https://trend-seeker.app/blog/software-demand-report-october-2026"
-      ],
-      "how_searched": [
-        "Micro-SaaS trend roundup (real estate fragmented workflows)",
-        "Software demand report (hiring/reviews indicating admin friction)"
-      ],
-      "score": 58.7,
-      "found_at": "2026-10-14T07:41:45.937010+00:00"
-    },
-    {
-      "name": "Autonomous AI influencer/social video agent",
-      "field": "AI video + social automation",
-      "summary": "An autonomous agent that catches trends, creates content in brand voice, and publishes across TikTok/IG/X - effectively running social end-to-end with minimal human input.",
-      "why_now": "Spira Maxima launched with 639 score and 77 comments in Oct 2026, showing strong recent momentum for autonomous content agents. Product Hunt best-of lists also highlight Spira among top Oct products.",
-      "monetization": "Subscription/SaaS and/or usage-based for video generation and automation; exact revenue not published (null).",
-      "evidence": [
-        "https://www.producthunt.com/products/spira-ai",
-        "https://www.producthunt.com/leaderboard/monthly/2026/10"
-      ],
-      "how_searched": [
-        "Product Hunt monthly leaderboard (kind: launch platform)",
-        "Recent product category scan for AI generative media"
-      ],
-      "score": 58.7,
-      "found_at": "2026-10-18T01:05:26.785303+00:00"
-    },
-    {
-      "name": "Freshness-First Job Search Assistant",
-      "field": "JobTech & AI",
-      "summary": "Web app that surfaces jobs posted in last 24 hours from company career pages, with per-role CV tailoring and referral sequencing to beat application flooding.",
-      "why_now": "r/jobsearch thread (372 upvotes, 2026) states 'filter to jobs posted in last 24 hours' as the decisive tactic; job search is increasingly timing-driven in competitive markets.",
-      "monetization": "Freemium: free freshness feed; paid for AI per-role tailoring, tracking, and referral outreach automation.",
-      "evidence": [
-        "https://engaggit.com/blog/app-ideas-2026-10-12",
-        "https://www.reddit.com/r/jobsearch/comments/1na4567/lie_just_lie/"
-      ],
-      "how_searched": [
-        "Reddit job search pain analysis",
-        "Cross-checked against Upwork job market activity (98k+ new jobs tracked, Oct 2026)"
-      ],
-      "score": 58.7,
-      "found_at": "2026-10-18T06:01:54.099807+00:00"
-    },
-    {
-      "name": "Bilingual website / PDF / video translation extension",
-      "field": "Productivity / browser translation",
-      "summary": "A browser extension that shows bilingual side-by-side translations of web pages, PDFs, e-books and video subtitles, with a free tier.",
-      "why_now": "Immersive Translate has ~3M Chrome users (plus ~3.9M Edge, ~107K Firefox) and is Chrome's 2024 Best Extension; meanwhile it has started restricting its free tier (removed free Google/Microsoft engines, mandatory sign-in, daily quotas, paywalled own-API-key), which reviewers explicitly criticize. That gap creates room for a more generous free alternative.",
-      "monetization": "Freemium Pro subscription (competitor monetizes with aggressive Pro upsell).",
-      "evidence": [
-        "https://chrome-stats.com/d/bpoadfkcbjbfhfodiogcnhhhpibjhbnh",
-        "https://tooltivity.com/extensions/immersive-translate",
-        "https://storetally.com/ext/chrome/bpoadfkcbjbfhfodiogcnhhhpibjhbnh/immersive-translate-ai-we",
-        "https://chromewebstore.google.com/detail/immersive-translate-ai-we/bpoadfkcbjbfhfodiogcnhhhpibjhbnh"
-      ],
-      "how_searched": [
-        "web search 'Immersive Translate Chrome extension users 2026 translation'",
-        "compared install/review data across chrome-stats, StoreTally, Tooltivity and the store listing"
-      ],
-      "score": 58.0,
-      "found_at": "2026-10-10T17:55:10.727432+00:00"
-    },
-    {
-      "name": "Local-first PII redaction tool for AI conversations",
-      "field": "Privacy / Consumer security / AI",
-      "summary": "Browser extension (and/or web redactor) that auto-scrubs names, SSNs, emails, phone numbers, card numbers, medical ID, API keys from prompts and uploaded docs before they reach ChatGPT/Claude/Gemini - 100% local, network-level interception as safety net, placeholder tokens keep responses coherent. Fully rebuildable as a free extension + paste-to-redact web tool.",
-      "why_now": "Growing 'never upload sensitive data to AI' anxiety among professionals and compliance-driven orgs. Strong open-source signal: Blankit (network-level interceptor, works on ChatGPT/Claude/Gemini) plus clones Sanitizit and SafePrompt appearing in months; Reddit posts asking for exactly this. Multiple independent implementations in 2026 indicate real, unmet demand. Caveat: monetization is weak for consumer free extensions.",
-      "monetization": "Free/open-source; potential paid: team import/export of redaction sets, downloadable compliance audit logs, managed self-hosted workspace.",
-      "evidence": [
-        "https://github.com/SVirat/blankit",
-        "https://extpose.com/ext/oihdkggpbopimdndhephiechoegagoeb",
-        "https://www.launchrecord.com/products/blankit-1105904"
-      ],
-      "how_searched": [
-        "Web search: Blankit browser extension PII redaction before sharing with AI GitHub"
-      ],
-      "score": 58.0,
-      "found_at": "2026-10-11T01:04:58.249059+00:00"
-    },
-    {
-      "name": "AI recruitment/tools outreach analytics",
-      "field": "HR/Outreach",
-      "summary": "A free web dashboard to analyze AI-powered outreach effectiveness and compliance signals for lean teams.",
-      "why_now": "Exploding Topics shows 'AI Recruitment Tools' at #82 (5.8K% growth). Cold outreach tools like Instantly.ai grew to ~$40M ARR in 4 years via strong affiliate programs, indicating sustained demand.",
-      "monetization": "Freemium with credits per analyzed campaign/contact. B2B micro-SaaS ARPU can be $30-99/month.",
-      "evidence": [
-        "https://explodingtopics.com/blog/trending-topics",
-        "https://www.postbeam.ai/blog/how-instantly-grows"
-      ],
-      "how_searched": [
-        "Trend research",
-        "B2B SaaS growth studies",
-        "Affiliate-driven category analysis"
-      ],
-      "score": 58.0,
-      "found_at": "2026-10-11T14:06:23.583928+00:00"
-    },
-    {
-      "name": "Automated Office-Management Coordinator",
-      "field": "workplace ops / SaaS",
-      "summary": "An AI coordinator that manages recurring office logistics (pantry restocking, cleaning, vendor scheduling) and the vendor relationships around them, replacing manual office-admin coordination.",
-      "why_now": "a16z-backed Codi launched its AI office manager in Oct 2025 and reportedly reached $100K ARR within five weeks of beta, signing 40 companies including TaskRabbit and Northbeam, with a claimed $80,000/yr admin-cost saving per office.",
-      "monetization": "Monthly management subscription priced at a fraction of an office manager/part-time EA; free checklist/vendor-coordination tool could funnel to a paid tier.",
-      "evidence": [
-        "https://techcrunch.com/2025/10/21/a16z-backed-codi-launches-ai-agent-office-manager/",
-        "https://techbuzz.ai/articles/a16z-backed-codi-launches-ai-office-manager-that-hit-100k-arr",
-        "https://yespress.io/codi"
-      ],
-      "how_searched": [
-        "startup news",
-        "funding/company profile"
-      ],
-      "score": 58.0,
-      "found_at": "2026-10-13T23:20:52.204197+00:00"
-    },
-    {
-      "name": "Client-Side, Zero-Upload File/PDF/Image Toolkit",
-      "field": "Privacy-first productivity tools",
-      "summary": "Browser-based tools that process PDFs/images/files locally with no upload (VersaPDF, BroAllDone, GroPDF, PDFCraftify, AllConverter, Filezaar all launched around October 2026). Adobe Acrobat has ~337M Chrome users, the top extension, showing the scale of the underlying need.",
-      "why_now": "A cluster of zero-upload file tools launched in October 2026, reflecting privacy-first, no-upload demand; the category is crowded, which caps upside.",
-      "monetization": "Freemium/ads (specific figures null).",
-      "evidence": [
-        "https://hunted.space/product/versapdf",
-        "https://extwatch.com/blog/top-chrome-extensions-2026",
-        "https://www.producthunt.com/leaderboard/monthly/2026/10"
-      ],
-      "how_searched": [
-        "Product Hunt",
-        "Chrome extension stats"
-      ],
-      "score": 58.0,
-      "found_at": "2026-10-15T01:33:08.790738+00:00"
     }
   ]
 }
