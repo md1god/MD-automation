@@ -445,6 +445,27 @@
       "found_at": "2026-10-14T13:47:25.103806+00:00"
     },
     {
+      "name": "Award-seat / points availability search engine (Seats.aero model)",
+      "field": "Travel & loyalty rewards",
+      "summary": "A search box that queries award (points) seat availability across many airline loyalty programs at once and sends alerts, replacing the routine of checking each airline site one route/date/program at a time.",
+      "why_now": "Seats.aero is a solo-founded tool now doing roughly $583K/month self-reported (~$7M annualized, ~$8M ARR claimed earlier), 500K-800K monthly active users and 14-16% free-to-paid conversion; at the same time three flight-utility browser extensions cracked Chrome's trending top charts this week (Legrooms+, Points Path, Seats.aero itself), showing a live, rising demand for Google Flights/points tooling.",
+      "monetization": "Freemium with the paywall on search horizon: free = 60-day window + 5 email alerts; Pro = $9.99/mo or $99.99/yr for a 365-day window, unlimited alerts, SMS and filters. Roughly 70-80K paying of 500K MAU from the public founder write-up. Also airline/loyalty API partnerships.",
+      "evidence": [
+        "https://platform.seats.aero/",
+        "https://joshmasters.substack.com/p/how-a-security-researcher-built-an",
+        "https://www.arr.club/seats-aero",
+        "https://whatitmakes.com/leaderboard",
+        "https://chromewebstore.google.com/top-charts/trending"
+      ],
+      "how_searched": [
+        "search engine (news + founder interview)",
+        "revenue-tracking directory (ARR Club / whatitmakes)",
+        "Chrome Web Store top-charts"
+      ],
+      "score": 87.0,
+      "found_at": "2026-10-19T01:36:26.304526+00:00"
+    },
+    {
       "name": "AI Presentation / Deck Generator (Gamma-model)",
       "field": "Productivity - presentation & visual-storytelling software",
       "summary": "A free web tool that turns a topic, prompt, or pasted document into a fully designed slide deck / web-native presentation in seconds. Users type an idea, pick a style, and get editable slides, matching layouts and images.",
@@ -1508,6 +1529,27 @@
       ],
       "score": 82.0,
       "found_at": "2026-10-18T23:24:24.828001+00:00"
+    },
+    {
+      "name": "Long-memory AI companion chat (single-companion web app)",
+      "field": "Consumer AI / social",
+      "summary": "A web app where a user chats with one persistent AI character that remembers history and grows a relationship over time; a rebuildable, non-explicit take on the fast-growing companion/roleplay category.",
+      "why_now": "Category is monetizing far faster than most consumer AI: Appfigures-sourced reporting puts H1 2026 top-5 companion apps at ~$77.5M with Zeta at ~$33M and Emochi claiming ~$45M ARR / 2M DAU; a niche tracker counts 177 chat-companion apps with 79 launched in 18 months and a ~$5M+/month floor, and single-companion 'memory-first' apps (Kindroid, Nomi) are described as accelerating.",
+      "monetization": "Stacked monetization: weekly memberships ~$3.99-7.99 and monthly tiers ~$9.90-29.90 plus coin/gem packs ($2.49-29.90) spent per message or image; category consumer spend on the order of $120M+/yr run-rate.",
+      "evidence": [
+        "https://www.appaloma.com/research/ai-companion-chat",
+        "https://aiweekly.co/alerts/kaon-ai-raises-60m-as-emochi-hits-2m-daily-users-45m-arr",
+        "https://www.globemarketresearch.com/statistic/ai-companion-app-statistics",
+        "https://www.linkedin.com/posts/minyajing_h1-2026-ai-companion-top-5-apps-made-775m-activity-7513420907898642432-h85S"
+      ],
+      "how_searched": [
+        "niche app-research site",
+        "AI/startup news",
+        "market-statistics aggregator",
+        "analyst app-data post"
+      ],
+      "score": 82.0,
+      "found_at": "2026-10-19T01:36:28.385369+00:00"
     },
     {
       "name": "AI SDR & Autonomous Sales Agents",
@@ -2903,6 +2945,27 @@
       "found_at": "2026-10-18T23:24:29.754753+00:00"
     },
     {
+      "name": "Free pet-translator / pet-sound web tool",
+      "field": "Consumer web / pets",
+      "summary": "A fun web tool that records a pet's barks or meows (or plays attention-getting sounds) and returns a playful 'translation' plus reaction tests and soundboards for cats and dogs.",
+      "why_now": "A niche survey of 86 pet-translator apps estimates a $120K/month revenue floor with four leaders at $20-50K/month each, and 26 new entrants in 18 months; independent trackers show Cat Translator – Human to Pet at ~$100K/month from ~200K downloads/month, Cat Translator Meow Talk AI at ~310K installs/129K MAU and growing +289K installs in 30 days, and Dog Translator reportedly at $60K MRR driven by faceless dog-reaction clips.",
+      "monetization": "Weekly/monthly subscriptions ($4.99-9.99/week, ~$39.99-49.99/year) plus one-time sound-pack unlocks ($0.99-6.99) and ad-supported free tiers.",
+      "evidence": [
+        "https://www.appaloma.com/research/pet-translators-soundboards",
+        "https://www.appgoblin.info/apps/com.cat.catvoice.translator.catcall",
+        "https://apprank.io/pet-chat-cat-dog-translator-9390",
+        "https://peekly.app/apps/a61af0a1-d18d-479f-ab10-d8bd828c25fd",
+        "https://www.socialgrowthengineers.com/60000-mrr-from-dog-reactions"
+      ],
+      "how_searched": [
+        "niche app-research site",
+        "app-store analytics estimators",
+        "growth/UGC teardown blog"
+      ],
+      "score": 76.0,
+      "found_at": "2026-10-19T01:36:36.337644+00:00"
+    },
+    {
       "name": "Invoice & AP Automation (AI-First)",
       "field": "Fintech / B2B SaaS",
       "summary": "End-to-end invoice processing: email/file intake → AI extraction (line items, PO matching) → validation → ERP/accounting sync → approval workflow → payment — with KPI dashboards (cost/invoice, cycle time, touchless rate).",
@@ -4004,6 +4067,26 @@
       "found_at": "2026-10-18T18:11:53.060189+00:00"
     },
     {
+      "name": "'Get paid while AI thinks' rewarded ad layer for AI chat",
+      "field": "Adtech / consumer browser tool",
+      "summary": "A browser extension/dashboard that shows one sponsored line in the dead space while ChatGPT/Claude/Gemini generate and shares the ad revenue with the user — a new ad format native to AI wait time.",
+      "why_now": "Chatwait went from ~2K to ~30K Chrome users in about 30 days (+28K, one of the fastest weekly risers on the store) on an entirely new inventory concept; the product is open source and already lists advertiser bidding at ~$1.00/qualified impression. It is early and ratings are mixed (~3.3), but the format is genuinely new and growing.",
+      "monetization": "Ad marketplace: advertisers bid per qualified impression, Chatwait keeps 50% and pays users the other 50% as cash (payout via Whop, $10 minimum); users reportedly see ~$3-8/month.",
+      "evidence": [
+        "https://chatwait.com/",
+        "https://extops.dev/extensions/fjbgbmkdallahjigblomfalbpblojfng",
+        "https://github.com/chatwait/chatwait-extension/",
+        "https://chrome-stats.com/d/fjbgbmkdallahjigblomfalbpblojfng"
+      ],
+      "how_searched": [
+        "search engine",
+        "Chrome-extension tracking suites",
+        "GitHub"
+      ],
+      "score": 72.0,
+      "found_at": "2026-10-19T01:36:37.284650+00:00"
+    },
+    {
       "name": "Cookie-consent / privacy-compliance generator",
       "field": "Privacy compliance / web tooling",
       "summary": "Scan a site, detect trackers, generate a compliant cookie banner plus cookie/privacy policy, and block non-essential scripts before consent. A free generator for the long tail of small sites that big CMPs ignore.",
@@ -4520,6 +4603,26 @@
       ],
       "score": 70.0,
       "found_at": "2026-10-18T23:24:34.629211+00:00"
+    },
+    {
+      "name": "Fractional-executive / fractional-operator marketplace",
+      "field": "Work & hiring marketplace",
+      "summary": "A two-sided web marketplace that matches companies needing part-time senior leaders (fractional CFO/CMO/CTO/COO) with vetted operators, handling matching, contracts and payments.",
+      "why_now": "Demand signals are climbing fast in search and platform data: 'Fractional COO' shows ~7,400% search growth on a trending-topics tracker; Go Fractional reports 18,000+ operators, +53-61% demand change and $10M+ in fractional income generated; the market is sized at $17.6B (2025) growing to $36.7B by 2034.",
+      "monetization": "Platform/placement/subscription fees and take-rate on engagements (e.g. competitor models charge a share of earnings or referral fees of $3K-5K); market worth ~$17.6B in billed leadership fees in 2025.",
+      "evidence": [
+        "https://www.gofractional.com/",
+        "https://www.gofractional.com/insights",
+        "https://dataintelo.com/report/fractional-executive-marketplace-market",
+        "https://explodingtopics.com/blog/trending-topics"
+      ],
+      "how_searched": [
+        "platform's own data pages",
+        "market-research report",
+        "search-trend tool (Exploding Topics)"
+      ],
+      "score": 70.0,
+      "found_at": "2026-10-19T01:36:38.360602+00:00"
     },
     {
       "name": "Prescription price-comparison & savings tool",
@@ -5944,99 +6047,6 @@
       ],
       "score": 58.0,
       "found_at": "2026-10-15T01:33:08.790738+00:00"
-    },
-    {
-      "name": "Overnight Business Analytics Auditor → Prioritized Revenue Fixes",
-      "field": "analytics / growth ops",
-      "summary": "Connect analytics, ads, SEO and store data; every night an AI reviews them and delivers a ranked list of concrete fixes ordered by likely revenue impact — replacing dashboards nobody reads with an action queue.",
-      "why_now": "DailyHelm scored 215 on Product Hunt (Oct 5, 2026) with 65 comments in exactly this positioning; related 'AI business reviewer' launches (DailyHelm, Gojiberry insights) cluster in October, and Exploding Topics shows 'AI Observability' at +9,300% — the pattern of 'AI reads your numbers overnight and tells you what to fix' is clearly resonating right now.",
-      "monetization": "Freemium SaaS for founders/growth teams; comparable CRO/analytics-AI tools convert on per-seat or per-source pricing. DailyHelm-specific revenue — null.",
-      "evidence": [
-        "https://www.producthunt.com/leaderboard/daily/2026/10/5",
-        "https://explodingtopics.com/blog/trending-topics",
-        "https://wetheflywheel.com/en/ai-observability/"
-      ],
-      "how_searched": [
-        "Product Hunt daily leaderboard",
-        "Exploding Topics",
-        "AI-observability market analysis"
-      ],
-      "score": 58.0,
-      "found_at": "2026-10-16T01:27:26.543680+00:00"
-    },
-    {
-      "name": "GLP-1 shot, dose and side-effect companion (free web tracker)",
-      "field": "Consumer health / metabolic care",
-      "summary": "A browser-based companion for people on GLP-1 weight-loss drugs: log the weekly injection site (with rotation guidance), estimate remaining medication level between shots, track weight and side effects, set protein/water targets, and export a clinician-ready summary. The mobile niche proves willingness to pay but is riddled with paywalled basics and data-loss complaints, leaving a free, no-install, keep-your-own-data web version as the differentiator.",
-      "why_now": "The niche is open and accelerating: 45 apps, 33 launched in the last 18 months, demand 73/100, crowding just 20/100, and a floor of $640k+/month across researched apps; MeAgain went from launch to the $20-50k/month band in 16 months. Capital is flooding the broader category — Nourish raised a $100M Series C (total $215M, $1.75B valuation) with 10,000 dietitians — confirming mass-market appetite for GLP-1 support tools.",
-      "monetization": "Freemium: free logging + export, paid tier for multi-drug protocols, advanced medication-level modeling, partner/clinic sharing and ad-free use; affiliate links to protein supplements/needles; optional secure data export.",
-      "evidence": [
-        "https://www.appaloma.com/research/glp1-companions",
-        "https://techfundingnews.com/menlo-ventures-leads-100m-round-in-nourish-to-give-every-glp-1-patient-a-dietitian-as-weight-loss-drugs-take-off/"
-      ],
-      "how_searched": [
-        "app-niche analytics database",
-        "funding/VC news"
-      ],
-      "score": 58.0,
-      "found_at": "2026-10-16T07:15:21.587625+00:00"
-    },
-    {
-      "name": "Vending-machine location marketplace",
-      "field": "marketplace / small business",
-      "summary": "A two-sided marketplace listing available commercial spaces (retail, office, gym, warehouse) so independent vending-machine operators can find locations and property owners can earn passive rent.",
-      "why_now": "Founded April 2026, it passed 640 registered operators at 15–20 signups/day, grew inventory to 35,000+ locations across 289 US cities, and reported +30–46% month-over-month revenue — evidence that a fragmented, cold-outreach-driven market is shifting to a marketplace.",
-      "monetization": "Operators pay a $69/mo subscription ($19 at launch). Verified $3,292 MRR from 128 active subscriptions, ~$12,487 in L30 and ~$40,689 all-time; a tracker logged ~$12,389 L30 with +30.6% 30-day growth.",
-      "evidence": [
-        "https://trustmrr.com/startup/vendplacer",
-        "https://liststartup.in/business/vendplacer",
-        "https://vibecrowd.ai/projects/vendplacer",
-        "https://www.accessnewswire.com/newsroom/en/business-and-professional-services/vendplacer-surpasses-640-vending-operators-as-its-marketplace-fo-1204987"
-      ],
-      "how_searched": [
-        "verified-revenue tracker",
-        "startup trackers",
-        "press release",
-        "trade news (Vending Times)"
-      ],
-      "score": 58.0,
-      "found_at": "2026-10-17T14:05:45.583134+00:00"
-    },
-    {
-      "name": "AI Video Explainers as-a-Service Template",
-      "field": "AI Content Creation",
-      "summary": "Web tool that turns release notes/docs/URLs into short branded videos using AI agents, optimized for product launches and demos without agency costs.",
-      "why_now": "Product Hunt shows ngram 2.0 (score 282, Oct 2026) and AI video generation/editing trending strongly (+329% YoY on Upwork); Exploding Topics lists AI Video Generator with strong growth.",
-      "monetization": "Tiered SaaS (credits per video/minute) plus API; Quartz reports AI video specialists command $100+/hr.",
-      "evidence": [
-        "https://www.producthunt.com/products/ngram",
-        "https://flconsole.com/blog/upwork-in-demand-skills"
-      ],
-      "how_searched": [
-        "Product Hunt launch scanning (weekly leaderboard)",
-        "Upwork in-demand skills analysis (Oct 2026)",
-        "Exploding Topics trending search data"
-      ],
-      "score": 58.0,
-      "found_at": "2026-10-18T06:01:56.078039+00:00"
-    },
-    {
-      "name": "Accessibility AI assistant web app",
-      "field": "Accessibility/HealthTech",
-      "summary": "A free web app providing AI-powered visual/description assistance for blind/low-vision users (object description, text reading, scene understanding).",
-      "why_now": "Be My Eyes entered App Store Top Free (#5 US on Oct 10) and appeared in multiple markets simultaneously - a strong breakout signal in accessibility. Demand for AI-first accessibility tools is rising.",
-      "monetization": "Freemium or donation-supported plus enterprise/API. Accessibility tools often command higher trust; can monetize via API licensing or premium features.",
-      "evidence": [
-        "https://appstorestatistics.com/charts/us/top-free",
-        "https://www.trendsmcp.ai/trending/app-store-free-trending-october-10-2026"
-      ],
-      "how_searched": [
-        "App Store breakout tracking",
-        "Accessibility trend signals",
-        "Cross-market chart analysis"
-      ],
-      "score": 57.3,
-      "found_at": "2026-10-11T14:06:24.521153+00:00"
     }
   ]
 }
