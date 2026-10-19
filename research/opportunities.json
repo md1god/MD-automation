@@ -2137,6 +2137,25 @@
       "found_at": "2026-10-18T23:24:26.137444+00:00"
     },
     {
+      "name": "AI Room Remodel & Virtual Staging Planner",
+      "field": "Home design / interior visualization",
+      "summary": "Upload a room photo, pick a style, and generate remodel concepts, shoppable furniture lists, and before/after staging views in the browser.",
+      "why_now": "Archo reached 2.7M installs, 387K MAU, and $50K+/month estimated revenue after a March 2026 launch, adding ~100K installs/week. A 2026-10-18 niche scan found 8 of 31 top-10 AI interior-design apps on the top-grossing chart, with 5/5 selling IAP and incumbents Houzz (324,547 ratings) and Dreamy Room (302,467) proving willingness to pay.",
+      "monetization": "Credit packs for renders; subscription for unlimited rooms and shopping lists; furniture affiliate commission; white-label for realtors and stagers.",
+      "evidence": [
+        "https://appgoblin.info/apps/com.airemodel.interiordesign.homestyler",
+        "https://nichestillopen.com/market/app-store-us/ai-interior-design/",
+        "https://coffounder.com/blog/micro-saas-examples-with-revenue"
+      ],
+      "how_searched": [
+        "app-store intelligence",
+        "niche saturation scan",
+        "micro-SaaS revenue examples"
+      ],
+      "score": 80.0,
+      "found_at": "2026-10-19T15:43:20.733531+00:00"
+    },
+    {
       "name": "Embeddable AI Agent / Copilot for SaaS",
       "field": "DevTools / SaaS Infrastructure",
       "summary": "Drop-in AI agent (one line of code) that lets end-users control any SaaS via natural language — turning clicks into conversations, with scoped permissions, audit logs, and model-agnostic deployment.",
@@ -5087,6 +5106,25 @@
       "found_at": "2026-10-18T20:57:40.972673+00:00"
     },
     {
+      "name": "AI Ad Creative Testing Workspace",
+      "field": "Performance marketing",
+      "summary": "Generate ad variants from a product URL, launch small-budget tests, and promote winners with automatic creative iteration.",
+      "why_now": "Fastlane reports 70,000+ brands and $83K MRR, showing strong willingness to pay for AI ad creation and scaling. Freelance demand for graphic design (323 new Upwork jobs/day at ~$24/hr) and video editing (314/day at ~$18/hr) shows the manual work being displaced.",
+      "monetization": "Subscription tiers by ad volume; usage-based generation credits; managed optimization upsell.",
+      "evidence": [
+        "https://www.usefastlane.ai",
+        "https://coffounder.com/blog/micro-saas-examples-with-revenue",
+        "https://flconsole.com/blog/upwork-in-demand-skills"
+      ],
+      "how_searched": [
+        "vendor landing-page review",
+        "micro-SaaS revenue database",
+        "freelance job-demand data"
+      ],
+      "score": 68.0,
+      "found_at": "2026-10-19T15:43:22.961322+00:00"
+    },
+    {
       "name": "AI paid-media management agent (multi-channel ads)",
       "field": "Marketing / advertising",
       "summary": "A conversational agent that plans, launches and optimizes Google/Meta/LinkedIn/TikTok ad campaigns for small businesses that can't afford an agency — free for one channel, paid for more.",
@@ -5624,6 +5662,25 @@
       "found_at": "2026-10-18T20:57:43.574362+00:00"
     },
     {
+      "name": "Verified Revenue Leaderboard & Trust Badge",
+      "field": "SaaS analytics / marketplace",
+      "summary": "Connect read-only payment and app-store keys to publish a verified MRR/ARR profile, leaderboard rank, and embeddable trust badge, with an acquisition marketplace.",
+      "why_now": "TrustMRR tracks $1.95B in verified revenue across 68M transactions, with 67.5% of businesses under $1K and only 1.0% above $1M, showing a long tail hungry for credible proof. Stripe accounts for 55.9% of connections (median $261), and support covers 11+ billing platforms.",
+      "monetization": "Free verified profile; paid premium analytics and badge customization; success fee on marketplace acquisitions; API access for investors.",
+      "evidence": [
+        "https://trustmrr.com/faq",
+        "https://trustmrr.com/stats",
+        "https://coffounder.com/blog/micro-saas-examples-with-revenue"
+      ],
+      "how_searched": [
+        "revenue-verification platform documentation",
+        "aggregate revenue statistics",
+        "micro-SaaS revenue database"
+      ],
+      "score": 63.0,
+      "found_at": "2026-10-19T15:43:23.741367+00:00"
+    },
+    {
       "name": "AI-first invoice & contract automation for freelancers",
       "field": "Freelance tools",
       "summary": "All-in-one workspace that automates proposals → contracts → invoices with built-in late payment escalation, interest calculation, and demand letters. Addresses the full payment lifecycle.",
@@ -5995,61 +6052,6 @@
       ],
       "score": 59.3,
       "found_at": "2026-10-19T07:49:01.875037+00:00"
-    },
-    {
-      "name": "Digital-Product Niche & Pricing Intelligence (Etsy/Pinterest)",
-      "field": "E-commerce seller tooling",
-      "summary": "A free web tool that cross-checks Pinterest trend spikes against Etsy demand and competition to surface 'openings' (demand minus competition), with average price and bestseller velocity for any keyword.",
-      "why_now": "Listadum's Oct 2026 report measured 249 Etsy keywords behind Pinterest trends and showed the gap is huge (only 2 were sweet spots); eRank's Q3 2026 data shows 'digital products' climbed to the #5 most-searched term on all of Etsy US (up from #84), and EtsyHunt publishes per-listing sales/revenue.",
-      "monetization": "Listadum, eRank and EtsyHunt sell subscriptions to sellers; a free tool can monetize via premium alerts or affiliate/upgrade tiers.",
-      "evidence": [
-        "https://www.listadum.com/blog/pinterest-trends-etsy-october-2026",
-        "https://help.erank.com/blog/top-etsy-searches-q3-2026/",
-        "https://ehunt.ai/best-selling-digital-downloads-on-etsy"
-      ],
-      "how_searched": [
-        "marketplace trend reports",
-        "keyword/ranking data sites",
-        "Etsy bestseller trackers"
-      ],
-      "score": 59.0,
-      "found_at": "2026-10-17T00:07:15.026145+00:00"
-    },
-    {
-      "name": "AI agent cost observability dashboard",
-      "field": "DevOps/AI infra",
-      "summary": "A free web tool to track LLM/token spend, per-agent costs, and budgets across providers (OpenAI, Anthropic, Google) in one place.",
-      "why_now": "Exploding Topics lists 'AI Observability' (#22, 9.3K% growth) and 'AI Guardrails' (#88, 8.4K% growth). Postiz pivoted to agents and cut churn (13.7%) by becoming agent-first; agent workloads driving cost visibility needs.",
-      "monetization": "Freemium with team seats and spend thresholds. Developer tools ARPU often $30-150/month; indie devtool benchmarks show higher ARPU than consumer.",
-      "evidence": [
-        "https://explodingtopics.com/blog/trending-topics",
-        "https://artofcode.in/blog/postiz-17k-to-191k-mrr"
-      ],
-      "how_searched": [
-        "Trend research",
-        "Indie growth case studies",
-        "Devtool demand signals"
-      ],
-      "score": 58.7,
-      "found_at": "2026-10-11T14:06:22.298908+00:00"
-    },
-    {
-      "name": "Agent-first social scheduling API wrapper UI",
-      "field": "Social/Automation",
-      "summary": "A free web app focusing on agent-first social scheduling with simple UI and MCP/API access for agents to publish content.",
-      "why_now": "Postiz grew from $21K to $191K MRR in 7 months after pivoting to agent-first (API/MCP), driven by X virality. The agentic social automation space is still open to simpler/cheaper alternatives.",
-      "monetization": "Self-serve SaaS; Postiz reached 5,645 active subscriptions at ~$34 ARPU. Freemium with per-connection or team pricing.",
-      "evidence": [
-        "https://artofcode.in/blog/postiz-17k-to-191k-mrr",
-        "https://www.trustmrr.com"
-      ],
-      "how_searched": [
-        "Indie SaaS growth case studies",
-        "Public revenue data",
-        "Product trend analysis"
-      ],
-      "score": 58.7,
-      "found_at": "2026-10-11T14:06:23.096892+00:00"
     }
   ]
 }
