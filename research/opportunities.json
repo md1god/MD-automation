@@ -1662,6 +1662,27 @@
       "found_at": "2026-10-19T01:36:28.385369+00:00"
     },
     {
+      "name": "Free-stuff finder (Snag-style local free-item aggregator)",
+      "field": "Consumer local marketplace / deals aggregator",
+      "summary": "A web app that aggregates free listings (furniture, electronics, home goods) from local boards, groups and marketplaces into one searchable, location-sorted feed and charges a few dollars a month for access.",
+      "why_now": "Snag hit ~$30,000 MRR, 100,000+ users and $80,000+ proceeds in under four months after an early-2026 launch, showing consumers pay to skip hunting free items across a dozen sources; the same aggregation is cheap to rebuild as a responsive web app.",
+      "monetization": "Subscription: $5.99-9.99/week, $4.99-6.99/month, $18.99-49.99/year; ~9,000 paying conversions out of 100K users.",
+      "evidence": [
+        "https://shippedandpaid.com/cases/snag-free-stuff-finder-app-30k-mrr-claude-code-cursor/",
+        "https://aidevcases.com/en/cases/snag",
+        "https://gtmsauce.com/companies/snag",
+        "https://appgoblin.info/apps/6755341741"
+      ],
+      "how_searched": [
+        "founder-revenue case databases",
+        "app-store analytics",
+        "growth teardown libraries",
+        "web search"
+      ],
+      "score": 82.0,
+      "found_at": "2026-10-19T21:06:56.273492+00:00"
+    },
+    {
       "name": "AI SDR & Autonomous Sales Agents",
       "field": "Sales Tech / AI Automation",
       "summary": "AI agents that engage website visitors in real time, qualify leads, give personalized demos, handle objections, and book meetings — integrating with CRM and sales stacks for 24/7 pipeline generation.",
@@ -2156,6 +2177,27 @@
       "found_at": "2026-10-19T15:43:20.733531+00:00"
     },
     {
+      "name": "GLP-1 / peptide dose tracker",
+      "field": "Health tracking (medication, education-only)",
+      "summary": "A web app that logs peptide/GLP-1 vials, dose timing, injection sites, remaining supply and reminders, positioned as education and record-keeping rather than medical advice.",
+      "why_now": "45 tracker apps exist, 33 launched in the last 18 months, with a combined researched revenue floor above $640k/month and a niche judged 'Open' (crowding 20/100, review pace 2.1x its earlier rate); Shotsy and MeAgain sit in the $20-50k/month band.",
+      "monetization": "$8.99-9.99/month, $29.99-79.99/year (some lifetimes to ~$119.99); Pep AI showed ~$11K MRR and ~$33K trailing-28-day revenue within 7 weeks.",
+      "evidence": [
+        "https://www.appaloma.com/research/glp1-companions",
+        "https://www.sofarbot.com/stories/pep-ai-cedric-roberge-30000-monthly-revenue",
+        "https://nichestillopen.com/market/app-store-us/peptide-tracker/",
+        "https://www.stork.ai/blog/he-built-a-50k-app-with-ai"
+      ],
+      "how_searched": [
+        "niche market-research sites",
+        "founder case studies",
+        "app-store store-page reads",
+        "web search"
+      ],
+      "score": 80.0,
+      "found_at": "2026-10-19T21:06:57.982740+00:00"
+    },
+    {
       "name": "Embeddable AI Agent / Copilot for SaaS",
       "field": "DevTools / SaaS Infrastructure",
       "summary": "Drop-in AI agent (one line of code) that lets end-users control any SaaS via natural language — turning clicks into conversations, with scoped permissions, audit logs, and model-agnostic deployment.",
@@ -2585,6 +2627,25 @@
       ],
       "score": 78.0,
       "found_at": "2026-10-18T23:24:30.645599+00:00"
+    },
+    {
+      "name": "Anti-AI-Overview clean-search reader",
+      "field": "Browser utility / AI search",
+      "summary": "A one-job extension or web reader that strips Google AI Overviews (and optionally other AI clutter) from search results and restores plain links.",
+      "why_now": "The 'Hide Google AI Overviews' extension reached ~600K users at 4.07 with ~1,200 ratings as a recent launch, and extension analysts flag the single-purpose pattern as the clearest path to fast installs.",
+      "monetization": "Typically free; monetize with an optional Pro tier (custom blocklists), search partnership or donations — no public revenue figure (null).",
+      "evidence": [
+        "https://extwatch.com/blog/browser-extension-examples",
+        "https://chromewebstore.google.com/detail/hide-google-ai-overviews/neibhohkbmfjninidnaoacabkjonbahn",
+        "https://simplex.live/en/hide-google-ai-overviews.sdex"
+      ],
+      "how_searched": [
+        "extension-analytics blogs",
+        "Chrome Web Store listings",
+        "web search"
+      ],
+      "score": 78.0,
+      "found_at": "2026-10-19T21:06:59.502207+00:00"
     },
     {
       "name": "Browser Extension AI Productivity Tools",
@@ -4334,6 +4395,25 @@
       "found_at": "2026-10-17T17:18:23.727851+00:00"
     },
     {
+      "name": "Earn-back screen-time blocker",
+      "field": "Digital wellbeing / focus",
+      "summary": "A web/extension tool that blocks distracting sites and apps and unlocks minutes only after you complete a habit photo or a short challenge.",
+      "why_now": "Rewired shows ~$1,864 MRR with 697 verified subscriptions on a Superwall/TrustMRR model, while blocker/focus extensions (FocusGate, Zero Contact) are climbing the trending charts; the earn-back twist differentiates it from plain blockers.",
+      "monetization": "Subscription (Rewired verified via Superwall/TrustMRR).",
+      "evidence": [
+        "https://shippedandpaid.com/new/",
+        "https://chrome-stats.com/chrome/trending/trending-week",
+        "https://extwatch.com/blog/fastest-growing-chrome-extensions"
+      ],
+      "how_searched": [
+        "verified-revenue case sites",
+        "extension analytics",
+        "web search"
+      ],
+      "score": 71.0,
+      "found_at": "2026-10-19T21:07:01.248894+00:00"
+    },
+    {
       "name": "AI resume + job-application toolkit (ATS-tailored)",
       "field": "Careers / job search",
       "summary": "A free web app that writes and tailors a resume to a pasted job description (keyword targeting/ATS pass-through) plus interview practice.",
@@ -5681,6 +5761,25 @@
       "found_at": "2026-10-19T15:43:23.741367+00:00"
     },
     {
+      "name": "Reddit / RSS data bridge replacement",
+      "field": "Data infrastructure / social",
+      "summary": "A hosted, compliant Reddit-content API and RSS-bridge service for feed readers, social-listening tools and agents.",
+      "why_now": "Reddit stops accepting new public API requests October 31 2026, kills RSS feeds November 13 2026, and ends remaining public API access in March 2027, forcing feed readers and tools onto replacements.",
+      "monetization": "Usage-based API credits (a competitor lists plans from $19/month for 25,000 credits); no verified revenue (null).",
+      "evidence": [
+        "https://techcrunch.com/2026/09/30/reddit-is-killing-rss-feeds-ending-public-api-access-because-of-ai-bots/",
+        "https://www.techrepublic.com/article/news-reddit-rss-public-api-shutdown/",
+        "https://chatterapi.com/blog/reddit-api-shutdown-timeline"
+      ],
+      "how_searched": [
+        "news outlets",
+        "community/dev posts",
+        "web search"
+      ],
+      "score": 63.0,
+      "found_at": "2026-10-19T21:07:02.219757+00:00"
+    },
+    {
       "name": "AI-first invoice & contract automation for freelancers",
       "field": "Freelance tools",
       "summary": "All-in-one workspace that automates proposals → contracts → invoices with built-in late payment escalation, interest calculation, and demand letters. Addresses the full payment lifecycle.",
@@ -5964,94 +6063,6 @@
       ],
       "score": 60.0,
       "found_at": "2026-10-14T07:41:43.969556+00:00"
-    },
-    {
-      "name": "AI GTM agent deployment platform (agent-ready GTM building blocks)",
-      "field": "Go-to-market automation",
-      "summary": "A platform that gives agents MCP-accessible GTM building blocks (brain, sending, enrichment, data providers) so AI agents can deploy go-to-market workflows end-to-end.",
-      "why_now": "Rising in recent launches: Pancake is trending on Product Hunt with strong engagement (585 score, 77 comments) in Oct 2026 week. This reflects recent interest in agent-native GTM tooling rather than legacy marketing stacks.",
-      "monetization": "SaaS/usage via subscriptions/credits for data/enrichment and infrastructure; specific revenue numbers not disclosed (null).",
-      "evidence": [
-        "https://www.producthunt.com/products/pancake-6",
-        "https://www.producthunt.com/leaderboard/weekly/2026/42"
-      ],
-      "how_searched": [
-        "Product Hunt search/trending weekly leaderboard (kind: launch platform)",
-        "Cross-checked recent weekly rankings"
-      ],
-      "score": 60.0,
-      "found_at": "2026-10-18T01:05:26.618716+00:00"
-    },
-    {
-      "name": "Documents/videos → listen-to-it podcast generator",
-      "field": "Content format conversion",
-      "summary": "Free web tool that turns a PDF, deck, article or long video into a natural two-host podcast episode you can listen to or embed, with chapters and one-click export.",
-      "why_now": "SoniCast (document/video→podcast) shows +1,060% 30-day growth on the ShipByData leaderboard and is being shopped at ~18x ARR ($14,999 ask on ~$70 MRR); podcast consumption search volume is up 21% to 1.22M monthly searches (Exploding Topics), and expressive AI voice models keep shipping (Fish Audio Drama 3 launched on PH Oct 16, built by the So-VITS-SVC team).",
-      "monetization": "Free tier with watermarked audio; per-minute or subscription export pricing (existing sellers monetize at ~$70 MRR early, with voice/TTS costs as main COGS).",
-      "evidence": [
-        "https://shipbydata.com/en/rankings/growth",
-        "https://explodingtopics.com/entertainment-regular-topics",
-        "https://www.producthunt.com/leaderboard/daily/2026/10/16"
-      ],
-      "how_searched": [
-        "startup revenue/growth leaderboard (ShipByData)",
-        "search-trend entertainment category (Exploding Topics)",
-        "Product Hunt daily leaderboard (voice-model launch)"
-      ],
-      "score": 60.0,
-      "found_at": "2026-10-18T11:15:00.401893+00:00"
-    },
-    {
-      "name": "Short-form vertical drama analytics",
-      "field": "Content/Creator tools",
-      "summary": "A free web dashboard to find trending vertical short dramas, virality signals, and monetization potential across platforms.",
-      "why_now": "Short-drama apps exploded in Oct 2026 rankings: PineDrama (#10 US free Oct 11), BlinkDrama (#14), ShortsWave entering multiple markets (KR/GB/HR/DE/US), NetShort reached JP #8 (+89). App Store charts show rapid turnover in this genre.",
-      "monetization": "Affiliate links to tools, API access, or creator SaaS with trend alerts. Niche analytics can monetize via $29-99/month for creators/agencies.",
-      "evidence": [
-        "https://appstorestatistics.com/charts/us/top-free",
-        "https://en.yasue.org/report/daily-app-store-report-2026-10-10"
-      ],
-      "how_searched": [
-        "App Store free charts",
-        "App trend reports",
-        "Cross-market movement analysis"
-      ],
-      "score": 59.3,
-      "found_at": "2026-10-11T14:06:21.665883+00:00"
-    },
-    {
-      "name": "Bus-Factor Knowledge Handoff Guard",
-      "field": "DevOps & Knowledge Management",
-      "summary": "Web tool that enforces re-performance gates for critical workflows (prove a successor can reproduce key outputs), not just static runbooks, with bus-factor alerts and signoff tracking.",
-      "why_now": "Detailed r/BestofRedditorUpdates saga (1,715 upvotes, 320 comments, 2026) documents a financial reporting collapse from undocumented tribal knowledge with countdown deadlines; enterprises actively face this risk.",
-      "monetization": "B2B SaaS per-seat/team with onboarding packages; targets managers with 90-day departure deadlines and compliance needs.",
-      "evidence": [
-        "https://engaggit.com/blog/app-ideas-2026-10-12",
-        "https://www.reddit.com/r/BestofRedditorUpdates/comments/1n9xyza/new_data_analyst_job_is_turning_into_replacing/"
-      ],
-      "how_searched": [
-        "Reddit workplace pain point scan",
-        "Engaggit gap analysis (Oct 9-12 2026)"
-      ],
-      "score": 59.3,
-      "found_at": "2026-10-18T06:01:53.057068+00:00"
-    },
-    {
-      "name": "Voice-to-Data Workflows",
-      "field": "AI / Automation",
-      "summary": "A free web tool that turns voice notes or transcripts into structured data (forms, tables, CRM entries, reports) using AI extraction and templates.",
-      "why_now": "Professionals want to capture ideas on-the-go and convert them to actionable data without manual entry. Aila shows ~$19k MRR with just 109 active subscriptions, indicating strong per-customer value.",
-      "monetization": "Freemium SaaS with usage-based credits or subscription tiers. High conversion potential in sales, support, and operations workflows.",
-      "evidence": [
-        "https://stealwhatworks.com/blogs/news/micro-saas-over-10k-month-now",
-        "https://coffounder.com/blog/micro-saas-examples-with-revenue"
-      ],
-      "how_searched": [
-        "MicroSaaS revenue lists (AI products)",
-        "Verified revenue data"
-      ],
-      "score": 59.3,
-      "found_at": "2026-10-19T07:49:01.875037+00:00"
     }
   ]
 }
