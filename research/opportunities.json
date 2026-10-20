@@ -126,6 +126,28 @@
       "found_at": "2026-10-18T14:57:43.224158+00:00"
     },
     {
+      "name": "AI Voice Agent Builder for SMBs",
+      "field": "AI Voice / Conversational AI",
+      "summary": "A no-code web tool letting any small business create an AI phone/voice agent that answers calls, books appointments, qualifies leads, and transfers to humans — all without coding. Think 'Mailchimp for AI voice' (Rosie founder's positioning).",
+      "why_now": "Google Trends shows 900% YoY growth for 'AI agents' search (Finbold, Mar 2025). Voice AI market projected $12B→$50B by 2029. Multiple indie founders hit $1M+ ARR in months: Rosie ($1M ARR in 8 months), Setter AI ($10K MRR in 1 year), TheSolarAI (high 4-figure MRR), Jarni AI (launched Aug 2025). Haiku 4.5 cut voice inference costs 5x (Palpable AI, Oct 2025), making unit economics work for SMBs.",
+      "monetization": "Subscription SaaS: $49–$299/mo per agent + per-minute usage. Rosie targets SMB self-serve; Jarni AI uses per-minute/per-call + subscriptions. Proven: Rosie $1M ARR, Setter AI $10K MRR, TheSolarAI enterprise deals.",
+      "evidence": [
+        "https://www.indiehackers.com/post/tech/from-failure-to-1m-arr-in-8-months-oA0AqL4jY25lxrQ4uGBl",
+        "https://www.indiehackers.com/post/tech/from-desperation-and-dwindling-runway-to-10k-mrr-VRQprGga5zF3UFDqiCqw",
+        "https://www.indiehackers.com/post/tech/building-a-successful-niche-product-as-a-wedge-into-a-bigger-market-fmKST537U6T0DMlsgn9r",
+        "https://www.indiehackers.com/post/real-time-voice-ai-platform-for-answering-calls-assisting-agents-and-automating-qa-in-high-volume-businesses-MVkxBHYyYSZOyTTZqY9V",
+        "https://finbold.com/demand-for-ai-agents-on-google-skyrockets-900-in-a-year/",
+        "https://www.indiehackers.com/post/our-voice-ai-assistant-hit-unit-profit-thanks-to-haiku-4-5-8CKeYmDGZWvkA3KkdJe8"
+      ],
+      "how_searched": [
+        "Indie Hackers founder interviews (revenue-verified)",
+        "Google Trends analysis (Finbold)",
+        "Product Hunt launch discussions"
+      ],
+      "score": 92.0,
+      "found_at": "2026-10-20T00:38:16.951958+00:00"
+    },
+    {
       "name": "Local-First AI Dictation Web App",
       "field": "Productivity / Accessibility",
       "summary": "A free browser-based dictation tool that transcribes speech to clean text, removes fillers, learns corrections, and supports translation with local-first processing to preserve privacy.",
@@ -224,6 +246,28 @@
       ],
       "score": 90.0,
       "found_at": "2026-10-19T07:48:58.851337+00:00"
+    },
+    {
+      "name": "AI SDR / Autonomous Sales Agent Platform",
+      "field": "Sales Tech / AI Agents",
+      "summary": "A web platform where businesses deploy AI agents that autonomously prospect, personalize outreach, book meetings, and even close low-ticket deals — replacing or augmenting human SDR teams.",
+      "why_now": "Extruct AI tracked 110 AI SDR companies (Sep 2025), median revenue $2.2M, 74% claim full autonomy. SaaStr deployed 5 agents: $1M+ closed in 90 days from inbound agent alone, 70% of Oct closed-won from AI, 6.7% outbound response rate (2x industry). Artisan, Qualified, Reply.io (Jason AI), Wishpond SalesCloser ($1M ARR), Loubby AI, IntentSignal ($3.5M MRR pipeline) all showing revenue. Category barely existed 2023.",
+      "monetization": "Platform subscription $60–100K/yr + usage. Wishpond SalesCloser $1M ARR, 150 customers, 2,600 agents. SaaStr spends ~$100K/agent/yr for 10X ROI. Jason AI (Reply.io) doubled MRR in Jan 2025, 66 companies using it.",
+      "evidence": [
+        "https://www.extruct.ai/research/aisdr/",
+        "https://www.saastr.com/6-months-of-ai-sdrs-whats-worked-how-they-brought-in-1m-in-90-days-and-the-real-data-everyones-asking-for/",
+        "https://www.qualified.com/customers/saastr",
+        "https://intentsignal.ai/case-studies/route",
+        "https://www.linkedin.com/posts/voleksiienko_ai-sdrs-keep-getting-traction-january-activity-7293240477850501120-yzTp"
+      ],
+      "how_searched": [
+        "Extruct AI market database (110 companies)",
+        "SaaStr public case study (verified revenue)",
+        "Vendor case studies (Qualified, Wishpond, Loubby, IntentSignal)",
+        "LinkedIn founder posts (Jason AI/Reply.io)"
+      ],
+      "score": 90.0,
+      "found_at": "2026-10-20T00:38:21.063999+00:00"
     },
     {
       "name": "AI Search Visibility / GEO Tracking Dashboard",
@@ -473,6 +517,30 @@
       "found_at": "2026-10-19T07:49:02.625213+00:00"
     },
     {
+      "name": "EU AI Act Compliance Checker & Automation Tool",
+      "field": "RegTech / AI Governance",
+      "summary": "A web tool that automatically classifies AI systems by risk tier, generates required technical documentation, runs conformity assessments, and maintains audit-ready evidence — targeting the August 2026 enforcement deadline for 50,000+ EU companies.",
+      "why_now": "Mordor Intelligence: market $0.92B (2025) → $4.05B (2031), 28.86% CAGR. Article 50 transparency obligations apply Aug 2, 2026. Multiple funded players: Kertos €14M Series A (Sep 2025), Modulos CHF 8.7M pre-Series A (Jul 2025), Formalize €30M Series B (Oct 2025, 180% YoY ARR growth), Dastra €4.3M (May 2025), EyREACT/Verity AI raising. 89% of 127 interviewed companies say AI Act is 'top 3 priority', 76% have no plan.",
+      "monetization": "B2B SaaS: €500–2,000/mo (Formalize pricing) vs €2,000+ for enterprise. Formalize 8,000+ customers, 3,200 added in 6 months. SME segment forecast 31.18% CAGR. High margins (70%+ gross per Verity AI).",
+      "evidence": [
+        "https://www.mordorintelligence.com/industry-reports/eu-ai-act-compliance-software-market",
+        "https://tech.eu/2025/09/17/kertos-lands-eur14m-to-lead-europes-ai-first-compliance-shift/",
+        "https://www.modulos.ai/press-releases/modulos-raises-8-7m-ai-governance-platform/",
+        "https://regtechpost.com/regtech/formalize-danish-regtech-startup-raises-30m-to-automate-eu-compliance/",
+        "https://www.dastra.eu/en/blog/dastra-raises-43-million-to-accelerate-its-european-expansion-and-integrate-ai/59322",
+        "https://quick-pitch.beehiiv.com/p/eyreact",
+        "https://quick-pitch.beehiiv.com/p/verity-ai"
+      ],
+      "how_searched": [
+        "Mordor Intelligence market report",
+        "Tech.eu / RegTech funding announcements",
+        "Founder pitch decks (EyREACT, Verity AI)",
+        "EU regulatory timeline analysis"
+      ],
+      "score": 88.0,
+      "found_at": "2026-10-20T00:38:36.313072+00:00"
+    },
+    {
       "name": "Retro digicam / film-camera filter web app (Y2K & CCD look)",
       "field": "Consumer photo / creator tools",
       "summary": "A browser tool that turns any photo or video into the grainy, flash-heavy, early-2000s 'digicam/CCD' look using preset film stocks, light leaks, date stamps and scans — no app install.",
@@ -574,6 +642,30 @@
       ],
       "score": 87.0,
       "found_at": "2026-10-19T01:36:26.304526+00:00"
+    },
+    {
+      "name": "AI UGC Ad Generator (AI Avatar Video Ads)",
+      "field": "Marketing Tech / Generative Video",
+      "summary": "A web app that generates realistic UGC-style video ads using AI avatars — brands input product URL/script, get dozens of hook variants in minutes for Meta/TikTok/Reels testing. Solves the 'creative testing at volume' bottleneck.",
+      "why_now": "HeyGen $200M ARR (mid-2026), Arcads $10M ARR in 20 months, Creatify $9M ARR in 18 months (Sacra/BusinessWire). Speel $65K MRR (Stripe-verified, TrustMRR), PromptWise $55K MRR, Fastlane $69K MRR, novoads $3.7K MRR. Cost per AI clip ~$1–11 vs $185–2,000 human. Ipsos test shows AI ads underperform on sales but excel for high-volume hook testing — the proven use case.",
+      "monetization": "SaaS tiers: $39–139/mo for credits (Creatify, Arcads, Speel). Agency hybrid: €363–500/ad (Admiral Media). HeyGen enterprise deals. Volume-driven: brands test 50+ variants, keep winners.",
+      "evidence": [
+        "https://okaneland.com/study/ai-ugc-ad-economics/",
+        "https://catalora.ai/articles/ai-ugc-ads-business",
+        "https://trustmrr.com/startup/speel-co",
+        "https://onepc.org/en/track/marketing-and-ai-avatars",
+        "https://1m.chat/cases/the-influencer-ai/",
+        "https://trustmrr.com/startup/novoads"
+      ],
+      "how_searched": [
+        "Independent cost analysis (OkaneLand)",
+        "Catalora market breakdown with founder numbers",
+        "TrustMRR Stripe-verified revenue (Speel, novoads)",
+        "BusinessWire funding announcements (Creatify)",
+        "OnePC market landscape (HeyGen, Synthesia, Submagic)"
+      ],
+      "score": 87.0,
+      "found_at": "2026-10-20T00:38:54.062402+00:00"
     },
     {
       "name": "AI Presentation / Deck Generator (Gamma-model)",
@@ -721,6 +813,29 @@
       ],
       "score": 86.0,
       "found_at": "2026-10-15T13:36:16.095927+00:00"
+    },
+    {
+      "name": "Brand Protection / Counterfeit Takedown Platform",
+      "field": "E-commerce Security / IP Enforcement",
+      "summary": "An AI-powered web platform that scans marketplaces (Amazon, Temu, TikTok Shop, Meta, Google), social media, and rogue sites for counterfeits, unauthorized sellers, stolen content, and fake ads — then automates DMCA takedowns and enforcement.",
+      "why_now": "Generative AI explosion enabling mass counterfeit/deepfake creation. Bustem $419K MRR (Stripe-verified, TrustMRR), hit $1M ARR in 60 days (Jan 2025 launch). MarqVision $20M ARR, $48M Series B (Sep 2025), 350+ customers. Bustem 150+ brands, 38+ platforms, pay-per-takedown model aligning incentives. MarqVision clients report ~5% sales lift.",
+      "monetization": "Hybrid: pay-per-successful-takedown ($50–200) + platform fee $300/mo + retainers $2.5–5K/mo (Bustem). MarqVision enterprise SaaS. Bustem profitable, self-funded, $40–50K/mo team spend. PulseMRR projects $1.8M MRR at current 23% MoM growth.",
+      "evidence": [
+        "https://pulsemrr.app/startup/bustem-inc",
+        "https://techcrunch.com/2025/09/15/harvard-law-to-ai-marqvision-lands-48m-to-combat-brand-abuse/",
+        "https://joinhampton.com/blog/oliver-brocato-bustem",
+        "https://www.mt.co.kr/future/2025/06/30/2025063010253999198",
+        "https://www.linkedin.com/posts/insup_ip-counterfeit-piracy-activity-7346586908006760449-azIL"
+      ],
+      "how_searched": [
+        "TrustMRR & PulseMRR (Stripe-verified revenue)",
+        "TechCrunch funding announcement (MarqVision)",
+        "Hampton founder interview (Bustem)",
+        "Korean business press (MarqVision ARR)",
+        "LinkedIn founder posts"
+      ],
+      "score": 86.0,
+      "found_at": "2026-10-20T00:38:56.055444+00:00"
     },
     {
       "name": "Short-Form Video Intelligence & Analytics",
@@ -1683,6 +1798,27 @@
       "found_at": "2026-10-19T21:06:56.273492+00:00"
     },
     {
+      "name": "LLM Gateway / Unified Model Router",
+      "field": "Developer Infrastructure / AI Ops",
+      "summary": "A single OpenAI-compatible API endpoint that routes requests to 200+ models across 20+ providers — handles fallback, caching, budget enforcement, cost tracking, and BYOK (bring your own keys). Self-hostable open core (AGPL).",
+      "why_now": "LLM provider sprawl: every new model brings new SDK, key, rate limit, invoice. LLM Gateway $79K MRR (Stripe-verified, TrustMRR, Aug 2026), $244K 30-day collections, 1,291 subscriptions. Growth from $516 (Sep 2025) → $249K (Aug 2026). DevPass/Lounge subscriptions convert volatile tokens to recurring. Open core reduces lock-in fear, drives enterprise adoption.",
+      "monetization": "5% fee on hosted credits (provider list price + 5%), BYOK free, DevPass $29–179/mo, Lounge $9–49/mo, enterprise custom. $79K MRR + large gross flows. 200+ models, 20+ providers.",
+      "evidence": [
+        "https://runbyagents.usectl.com/api/library/brief-3-bootstrapped-agent.md",
+        "https://www.sofarbot.com/stories/llm-gateway-luca-steeb-73812-mrr-verified",
+        "https://milestonewins.com/stories/llm-gateway-story/",
+        "https://trustmrr.com/startup/llm-gateway"
+      ],
+      "how_searched": [
+        "Brief 3 bootstrapped SaaS leaderboard (Stripe-verified)",
+        "SofarBot founder story with Stripe data",
+        "MilestoneWins case study",
+        "TrustMRR verified profile"
+      ],
+      "score": 82.0,
+      "found_at": "2026-10-20T00:38:57.527018+00:00"
+    },
+    {
       "name": "AI SDR & Autonomous Sales Agents",
       "field": "Sales Tech / AI Automation",
       "summary": "AI agents that engage website visitors in real time, qualify leads, give personalized demos, handle objections, and book meetings — integrating with CRM and sales stacks for 24/7 pipeline generation.",
@@ -1845,6 +1981,27 @@
       ],
       "score": 81.0,
       "found_at": "2026-10-18T23:24:31.952784+00:00"
+    },
+    {
+      "name": "Open-Source Social Media Scheduler with AI-Agent API",
+      "field": "Marketing Tech / Open-Core SaaS",
+      "summary": "A self-hostable (free) or cloud-hosted social media scheduler supporting 25+ platforms, with AI-assisted content generation and — crucially — an API that AI agents (n8n, LangChain, custom) can call to post autonomously.",
+      "why_now": "Postiz $158K MRR (verified, Systemaic Jul 2026), 27.3K GitHub stars, 4.7M Docker downloads. Solo founder. AI-agent API repositioning drove MRR from $20K → $118K in 3 months (2026). 80% margins. Product Hunt #1 day/week/month. Coordinated launch across HN, Reddit/r/selfhosted, Dev.to drove GitHub trending.",
+      "monetization": "Open-core: self-hosted free, cloud $23/mo, enterprise licenses. 4,717 paying subscriptions. Affiliate program (30%). Agent-economy API became primary growth lever — AI agents calling Postiz API for autonomous posting.",
+      "evidence": [
+        "https://0-to-traction.com/products/postiz",
+        "https://www.systemaic.com/teardowns/postiz",
+        "https://www.skillpack.co/solutions/postiz",
+        "https://0-to-traction.com/articles/youtube.com/yt-RPM4Im-e655cde7"
+      ],
+      "how_searched": [
+        "0-to-Traction case study (verified metrics)",
+        "Systemaic teardown (traffic, revenue, growth channels)",
+        "SkillPack editorial review",
+        "Founder YouTube/interview breakdown"
+      ],
+      "score": 81.0,
+      "found_at": "2026-10-20T00:38:59.921901+00:00"
     },
     {
       "name": "Text or image to 3D model generator",
@@ -2198,6 +2355,34 @@
       "found_at": "2026-10-19T21:06:57.982740+00:00"
     },
     {
+      "name": "Browser Automation Recorder → AI Workflow Builder",
+      "field": "Developer Tools / AI Agent Infrastructure",
+      "summary": "A web-based recorder (Chrome extension + web dashboard) where users demonstrate a browser task once, and the tool generates a reliable, self-healing AI workflow (Playwright/Stagehand code or n8n/Dify node) that runs autonomously — no code required.",
+      "why_now": "Browserbase $3M revenue, 1,000+ customers, $40M Series B (Jun 2025). Browser Use 50K GitHub stars, $1.4M ARR, $17M seed (Mar 2025). Airtop $1.7M ARR (GetLatka). CopyCat $100K+ ARR in 5 weeks (YC W25). Asteroid $4.5K MRR first week (YC W25, regulated industries). n8n viral score 2.7, 58-day doubling (Torii). Stagehand (Browserbase OSS) 1.3M monthly downloads.",
+      "monetization": "Open-core: free self-hosted library, cloud usage-based (Browserbase), enterprise cloud (Browser Use). Browserbase charges per session; 50M sessions in 2025. CopyCat per-task pricing. High developer adoption → enterprise conversion.",
+      "evidence": [
+        "https://www.upstartsmedia.com/p/browserbase-raises-40m-and-launches-director",
+        "https://browser-use.com/posts/seed-round",
+        "https://www.felicis.com/blog/investing-in-browser-use",
+        "https://www.intelpilot.ai/company/browser-use/69e58a70a6715bdc30962414",
+        "https://www.angelsround.com/p/copycat",
+        "https://getlatka.com/companies/airtop.ai",
+        "https://www.angelsround.com/p/asteroid",
+        "https://www.toriihq.com/research/reports/viral-app-radar-2025"
+      ],
+      "how_searched": [
+        "Series B funding announcement (Browserbase)",
+        "Founder seed announcement (Browser Use)",
+        "VC investment thesis (Felicis)",
+        "IntelPilot revenue data (Browser Use)",
+        "AngelsRound YC company profiles (CopyCat, Asteroid)",
+        "GetLatka estimate (Airtop)",
+        "Torii Viral App Radar (n8n, enterprise adoption)"
+      ],
+      "score": 80.0,
+      "found_at": "2026-10-20T00:39:04.118871+00:00"
+    },
+    {
       "name": "Embeddable AI Agent / Copilot for SaaS",
       "field": "DevTools / SaaS Infrastructure",
       "summary": "Drop-in AI agent (one line of code) that lets end-users control any SaaS via natural language — turning clicks into conversations, with scoped permissions, audit logs, and model-agnostic deployment.",
@@ -2337,6 +2522,30 @@
       ],
       "score": 79.0,
       "found_at": "2026-10-16T17:31:10.032172+00:00"
+    },
+    {
+      "name": "AI Document Chat / RAG Builder (Chat-with-Your-Data)",
+      "field": "AI Applications / Document Intelligence",
+      "summary": "A web tool where users upload PDFs, CSVs, Notion pages, or connect data sources, then chat with an AI that answers with citations, generates charts, and extracts structured data — essentially a no-code RAG builder for non-technical users.",
+      "why_now": "Chatbase pivoted from viral 'Chat with PDF' to $10M ARR (Stripe-verified Jul 2026, was $5M ARR Feb 2025). PDF.ai $591K ARR (2024), solo founder. ChatPDF $440K ARR (2025), bootstrapped. My AskAI $40K MRR, 75K chats/mo. Papermark $75K MRR (DocSend alt, open-core). Category proven but vertical-specific winners emerging (legal, finance, research).",
+      "monetization": "Freemium: free tier with limits, Pro $15–50/mo, Team $150–500/mo, Enterprise custom. Chatbase: Hobby $40, Standard $150, Pro $500. PDF.ai: $19–150/mo. High retention for knowledge workers.",
+      "evidence": [
+        "https://www.proofofincomeai.com/case-chatbase",
+        "https://www.indiehackers.com/post/tech/from-viral-side-project-to-a-5m-yr-b2b-ai-platform-TpbhTVyp1sjBk0uzo4tR",
+        "https://note.com/hiroshikinoshita/n/n9f83aec645ae?hl=en",
+        "https://www.everydev.ai/developers/chatpdf",
+        "https://www.indiehackers.com/post/tech/bootstrapping-to-40k-mrr-after-his-vc-backed-startup-failed-LF1CwRs1vL3oVLcuoIoE",
+        "https://www.starterstory.com/stories/how-we-built-it-900k-open-source-saas"
+      ],
+      "how_searched": [
+        "ProofOfIncome Stripe-verified (Chatbase)",
+        "Indie Hackers founder interviews (Chatbase, My AskAI)",
+        "Note.com solo founder breakdown (PDF.ai)",
+        "EveryDev product profile (ChatPDF)",
+        "StarterStory open-source case study (Papermark)"
+      ],
+      "score": 79.0,
+      "found_at": "2026-10-20T00:39:06.573368+00:00"
     },
     {
       "name": "Voice-agent QA & live-call benchmark platform",
@@ -5902,167 +6111,6 @@
       ],
       "score": 61.3,
       "found_at": "2026-10-18T06:01:51.186925+00:00"
-    },
-    {
-      "name": "Privacy-First Web Analytics",
-      "field": "Marketing / Analytics",
-      "summary": "A free, cookie-less web analytics dashboard with simple metrics, event tracking, and clear reports as an alternative to Google Analytics.",
-      "why_now": "Privacy regulations and ad-blocking continue to drive demand for cookieless analytics. Plausible reports ~$170k MRR and Simple Analytics ~$40k MRR with consistent growth, showing real revenue in this space.",
-      "monetization": "Open-core SaaS: free self-hosted or limited hosted tier, paid hosted plans based on pageviews/sites. Proven monetization with transparent numbers.",
-      "evidence": [
-        "https://stealwhatworks.com/blogs/news/micro-saas-over-10k-month-now",
-        "https://www.prepnew.com/post/chapter-22-the-200-vault-part-2-boring-micro-saas-utilities"
-      ],
-      "how_searched": [
-        "MicroSaaS revenue verifications",
-        "Vault of profitable microSaaS"
-      ],
-      "score": 61.3,
-      "found_at": "2026-10-19T07:49:01.572911+00:00"
-    },
-    {
-      "name": "Fractional-executive rate benchmark & matching tool",
-      "field": "Talent / Executive hiring",
-      "summary": "A rebuilt free web tool where executives and startups get live compensation benchmarks (hourly/retainer by role and company stage), plus a directory and simple match flow for fractional CFO/COO/CTO/CMO engagements.",
-      "why_now": "Fractional COO is a +7,400% search-growth topic on Exploding Topics (Oct 2026); Malt reports interim & fractional tech leadership (+23%) as its fastest-growing job category with AI-agent briefs up 60x; the Fractional Work Report 2026 shows hiring demand up 149% YoY (Q1'25→Q1'26), a ~150,000-strong US fractional workforce, exec rates averaging ~$153–223/hr, and competing platforms charging $3K–8K per placement.",
-      "monetization": "Free benchmarks/directory monetized via placement fees, premium listings and subscription benchmarking reports. Positioned in a market estimated at $5.7B (2026) compounding ~14%/yr; per-placement prices at existing platforms: $3,000–$8,000 one-time.",
-      "evidence": [
-        "https://www.fractionaljobs.io/the-fractional-work-report",
-        "https://www.fractionaljobs.io/blog/the-5-best-fractional-coo-platforms-and-services-2026",
-        "https://explodingtopics.com/blog/trending-topics",
-        "https://over50pros.com/wp-content/uploads/2026/04/Over-50-Pros-Fractional-Work-State-of-the-Market-April-2026.pdf"
-      ],
-      "how_searched": [
-        "Trend aggregator (Exploding Topics)",
-        "Marketplace / job-board reports (Fractional Jobs)",
-        "Freelance-platform data (Malt via analysis blogs)",
-        "Industry state-of-market PDFs"
-      ],
-      "score": 61.0,
-      "found_at": "2026-10-10T00:11:08.996621+00:00"
-    },
-    {
-      "name": "Pickleball rating, match-logging and club app",
-      "field": "Sports / community apps",
-      "summary": "A free app to log pickleball matches, calculate/verify a player rating, find nearby players and manage clubs and events.",
-      "why_now": "DUPR reports 2M rated players, 17,000+ clubs worldwide and 10M+ matches logged, with fresh feature releases in 2026 (Subscores, Forecast/Impact). Pickleball remains one of the fastest-growing participatory sports, and the rating-verification mechanic creates natural network effects and a subscription upsell.",
-      "monetization": "Free core + in-app subscriptions for premium features/ad-free experience.",
-      "evidence": [
-        "https://www.dupr.com/",
-        "https://www.dupr.com/post/new-dupr-features-to-help-you-understand-your-game",
-        "https://apps.apple.com/us/app/dupr/id1567932355",
-        "https://appstorespy.com/ios-apple-store/1567932355-trends-revenue-statistics-downloads-ratings"
-      ],
-      "how_searched": [
-        "web search 'DUPR pickleball rating app growth 2026 app store'",
-        "cross-checked official site, blog and App Store stat trackers"
-      ],
-      "score": 61.0,
-      "found_at": "2026-10-10T17:55:06.182989+00:00"
-    },
-    {
-      "name": "Security scanner for AI-built ('vibe-coded') apps",
-      "field": "Dev tools / Cybersecurity / AI",
-      "summary": "Automated scanner that checks a web app's public attack surface (exposed frontend secrets, permissive DB rules, missing HTTP security headers, misconfigs) and returns ranked findings with copy-paste fix instructions written for the user's coding agent. Rebuildable as a free website/web tool: paste a URL or GitHub repo, scan, show risk count free, charge for full findings.",
-      "why_now": "The vibe-coding boom means non-specialists ship production apps in days, and AI-generated code has the same misconfig risks. Verified demand: 'Vibe App Scanner' (TrustMRR, Stripe-verified) - $5,608 all-time, $903 last 30d, ~$924 MRR, 36 subscriptions, founded Dec 2025, pricing $19-39/mo, also on AppSumo; CheckVibe reported ~$11K gross, 350+ paying customers, ~8K signups (~4.4% signup-to-paid) in months. Multiple entrants (CheckVibe, CyberChecker, Vibe App Scanner) all growing - the niche is crowded-proof and hot right now.",
-      "monetization": "Free scan shows 'N critical findings' and severity; paid unlock shows details + AI-ready fix prompts ($19-39/mo); upsell to recurring monitoring, alerts, and team re-scans.",
-      "evidence": [
-        "https://trustmrr.com/startup/vibe-app-scanner",
-        "https://www.volanea.com/blog/vibe-coding-saas-growth-lessons"
-      ],
-      "how_searched": [
-        "TrustMRR verified-revenue startup page (webfetch)",
-        "Web search: vibe coding SaaS security scanner $11K launch case study / Reddit r/SaaS"
-      ],
-      "score": 60.7,
-      "found_at": "2026-10-11T01:04:46.361550+00:00"
-    },
-    {
-      "name": "AI context & token optimization for coding agents",
-      "field": "Developer tools",
-      "summary": "Reduces AI agent context/token usage (claims 60-98% reduction), solves the biggest cost bottleneck for agentic coding. Sandboxes tool output and manages session memory.",
-      "why_now": "Agent usage exploding - GitHub trending dominated by agent tools, context-mode has 30K+ stars. Rising LLM bills are a real pain point for developers running many agent sessions.",
-      "monetization": "Developer SaaS (free tier + paid), team seats, or self-hosted licenses. Can also monetize via enterprise plans for companies with high AI spend.",
-      "evidence": [
-        "https://github.com/mksglu/context-mode",
-        "https://github.com/lightseekorg/tokenspeed"
-      ],
-      "how_searched": [
-        "GitHub trending",
-        "developer tool launches on Product Hunt"
-      ],
-      "score": 60.7,
-      "found_at": "2026-10-16T21:15:08.327546+00:00"
-    },
-    {
-      "name": "Agent Cache-Cost Decision Layer",
-      "field": "AI Infrastructure",
-      "summary": "A web dashboard/CLI companion that decides when to ping, warm-compact, cold-compact, or tail-trim coding-agent sessions to minimize token/cache costs based on live pricing and idle time.",
-      "why_now": "r/ClaudeCode thread (209 upvotes, 76 comments, 2026) revealed developers independently re-deriving cache economics; with heavy agent usage, users overpay silently and lack decision tooling.",
-      "monetization": "SaaS dashboard (per-seat) + API; AI infrastructure tooling commands $30-35/hr on Upwork and established buyers spend $4k-8k.",
-      "evidence": [
-        "https://engaggit.com/blog/app-ideas-2026-10-12",
-        "https://www.reddit.com/r/ClaudeCode/comments/1n8abcd/best_way_to_handle_cold_cache_hits/"
-      ],
-      "how_searched": [
-        "Reddit technical gap analysis",
-        "Upwork AI infrastructure demand signals (AI agent development $30/hr, median client spend $5.5k)"
-      ],
-      "score": 60.7,
-      "found_at": "2026-10-18T06:01:52.192676+00:00"
-    },
-    {
-      "name": "AI voiceover pronunciation checker",
-      "field": "Voice/Audio",
-      "summary": "A free web app that fixes pronunciation of names, prices, dates, and technical terms before rendering TTS/AI voiceovers.",
-      "why_now": "AI voiceover usage is growing. Onepin (https://www.producthunt.com/products/onepin) launched with 440 score, 75 comments in Oct 2026 and claims spelling/pronunciation fixes using a 4M-word dictionary, multi-provider TTS support.",
-      "monetization": "Credit-based SaaS (minutes rendered). Voice tooling ARPU can be $20-50/month for creators/agencies. Indie benchmarks show viable LTV/CAC for narrow tools.",
-      "evidence": [
-        "https://www.producthunt.com/products/onepin",
-        "https://www.producthunt.com/leaderboard/daily/2026/10/10"
-      ],
-      "how_searched": [
-        "Product Hunt daily leaderboards",
-        "App/voice tool discovery"
-      ],
-      "score": 60.0,
-      "found_at": "2026-10-11T14:06:20.349110+00:00"
-    },
-    {
-      "name": "Privacy-First, Cookie-Free Web Analytics (GA Alternative)",
-      "field": "Web analytics / privacy",
-      "summary": "A lightweight, cookieless website analytics tool that runs a tiny script, needs no consent banner, and shows traffic sources, top pages and conversions without tracking individuals.",
-      "why_now": "The 2026 local-first/privacy wave is moving from niche to default, with users actively replacing cloud tools over data-training and subscription concerns. Privacy-focused analytics already clears real money: Plausible is reported at roughly $3.5M/year bootstrapped.",
-      "monetization": "Usage-based SaaS (Plausible ~$3.5M/yr; the broader analytics niche is crowded but high-margin). A free self-hostable tier is a strong wedge; note most revenue figures here are founder-reported/directional.",
-      "evidence": [
-        "https://bigideasdb.com/micro-saas-examples-2026",
-        "https://www.gosoftwarecity.com/local-first-software-2026-privacy-first-apps-winning/",
-        "https://www.reddit.com/r/SaaS/comments/1q5lfur/i_analyzed_9300_i_wish_there_was_an_app_for_this/"
-      ],
-      "how_searched": [
-        "Micro-SaaS revenue dataset",
-        "Tech trend article",
-        "Community demand analysis"
-      ],
-      "score": 60.0,
-      "found_at": "2026-10-13T02:37:56.322445+00:00"
-    },
-    {
-      "name": "Private AI Document Assistant for Regulated Verticals",
-      "field": "Vertical AI / Compliance",
-      "summary": "A web-based private assistant that processes sensitive documents (legal, healthcare admin, finance) inside approved hosting regions with role-based access, audit logs, and explicit approval gates before actions.",
-      "why_now": "Regulated buyers cannot send client data to public endpoints. Demand is rising for private/local deployments with compliance controls. Founders charge $200–$2000/month for private alternatives because risk profile changes the buyer's willingness to pay.",
-      "monetization": "Vertical SaaS with compliance packaging. Pricing $200–$2000/month per tenant/org (range cited by industry analysis). Exact revenue figures unknown.",
-      "evidence": [
-        "https://blog.mean.ceo/micro-saas-trends-october-2026/",
-        "https://fouzanadil.com/blog/emerging-trends-saas-technologies-2026"
-      ],
-      "how_searched": [
-        "Micro-SaaS trend roundup (private AI premium)",
-        "SaaS trends analysis (security/compliance as buying factor)"
-      ],
-      "score": 60.0,
-      "found_at": "2026-10-14T07:41:43.969556+00:00"
     }
   ]
 }

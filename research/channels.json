@@ -179,6 +179,26 @@
       "found_at": "2026-10-09T06:45:10.332556+00:00"
     },
     {
+      "name": "AlternativeTo",
+      "url": "https://alternativeto.net/",
+      "kind": "directory",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Sign up, verify email, open 'Suggest new application' at the user menu (form at /manage-item/). Fill name, official URL, platforms, license, tags. Critically: name the real competitors your product replaces so you appear on their alternatives pages — that is where most traffic lands. Free; $5 one-time priority review moves you to the front of the months-long free queue.",
+      "rules_and_risks": "No unreleased/private-beta products; no links inside descriptions (use the URL fields); no using your profile to advertise. Submissions sit invisible until approved. English required. Declines are common if the product isn't something people would search 'alternative to X' for.",
+      "why_it_works": "~2.1M monthly visits, DR 80, dofollow official-website link, and it is one of the most-cited sources by ChatGPT/Perplexity/AI Overviews for 'alternative to' queries — an evergreen traffic engine that outlives any launch day.",
+      "evidence": [
+        "https://alternativeto.net/about/",
+        "https://alternativeto.net/faq/",
+        "https://submitmap.com/platform/alternativeto/"
+      ],
+      "how_searched": [
+        "opened About and FAQ pages; cross-checked submission mechanics via third-party audit"
+      ],
+      "score": 82.0,
+      "found_at": "2026-10-20T00:48:01.034613+00:00"
+    },
+    {
       "name": "HARO (Help a Reporter Out) — free journalist query email digests",
       "url": "https://www.helpareporter.com/",
       "kind": "community",
@@ -292,6 +312,26 @@
       "found_at": "2026-10-18T06:24:24.234020+00:00"
     },
     {
+      "name": "GitHub awesome-lists (pull request)",
+      "url": "https://github.com/sindresorhus/awesome",
+      "kind": "directory",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Find the niche list that genuinely covers your tool (search the `awesome-list` topic or the sindresorhus/awesome index). Read its CONTRIBUTING.md, match the exact entry format (`- Name - Description.`), add one entry in the right category, open a clean PR explaining fit. Many lists (awesome-selfhosted, awesome-osint, awesome-ios, awesome-stacks, OSSDrop) accept one-PR entries.",
+      "rules_and_risks": "Maintainers reject self-promotion, forced fits, and AI-generated PRs; some lists require 100+ stars, multiple contributors, OSI license, and SPM support. One project per PR. Sloppy or tenuous entries get closed on sight and burn goodwill.",
+      "why_it_works": "A single accepted PR is a permanent dofollow backlink from github.com — one of the highest-authority domains on the web — plus ongoing developer discovery and inclusion in what AI coding assistants actually read. Documented as higher ROI than 50 directory submissions.",
+      "evidence": [
+        "https://github.com/sindresorhus/awesome/blob/main/pull%5Frequest%5Ftemplate.md",
+        "https://nilkick.com/resources/github-awesome-lists-as-launch",
+        "https://github.com/stackshareio/awesome-stacks/blob/master/CONTRIBUTING.md"
+      ],
+      "how_searched": [
+        "searched awesome-list PR launch tactics; opened sindresorhus PR template and awesome-stacks contributing guide"
+      ],
+      "score": 80.0,
+      "found_at": "2026-10-20T00:48:03.134040+00:00"
+    },
+    {
       "name": "Apple Podcasts catalog + podcast databases (Podchaser, Listen Notes)",
       "url": "https://podcasters.apple.com/support/897-submit-a-show",
       "kind": "platform",
@@ -312,6 +352,28 @@
       ],
       "score": 78.0,
       "found_at": "2026-10-14T18:47:40.823531+00:00"
+    },
+    {
+      "name": "llms.txt standard + free llms.txt directories",
+      "url": "https://llmstxt.org/",
+      "kind": "tactic",
+      "requires_account": false,
+      "official_free_api": false,
+      "how_to_use": "Publish an `/llms.txt` file at your domain root following the llmstxt.org standard (concise Markdown index of your key pages for LLM crawlers); optionally `/llms-full.txt`. Then submit the live URL to free directories: llmslist.com/submit, directory.llmstxt.cloud/submit, llmstxt.cc/add, llmstxt.site/submit, llmscentral.com (anonymous, no account). CrawlCheck's registry picks sites up automatically by scan — no submission needed.",
+      "rules_and_risks": "The file must resolve and its links must point at real pages on the same host — broken links fail validation. Some directories have paid fast-tracks; ignore them. This complements, not replaces, robots.txt AI-crawler allowlists and GSC/BWT work.",
+      "why_it_works": "As AI answer engines and agents become discovery surfaces, sites that publish machine-readable indexes are being crawled and cited more. Directories and registries (including CrawlCheck's 765-site registry) now track which sites serve llms.txt, agents.md, and named AI crawlers — free compounding visibility in a channel most competitors haven't adopted.",
+      "evidence": [
+        "https://llmslist.com/submit",
+        "https://directory.llmstxt.cloud/submit",
+        "https://llmstxt.site/",
+        "https://llmscentral.com/",
+        "https://crawlcheck.io/registry"
+      ],
+      "how_searched": [
+        "searched llms.txt directories 2026; opened each submit page and the CrawlCheck registry"
+      ],
+      "score": 78.0,
+      "found_at": "2026-10-20T00:48:21.593717+00:00"
     },
     {
       "name": "IndexNow: instant URL notifications to Bing, Naver, Seznam, Yandex & Yep",
@@ -466,6 +528,27 @@
       "found_at": "2026-10-15T19:03:13.308105+00:00"
     },
     {
+      "name": "Peerlist Launchpad",
+      "url": "https://peerlist.io/launchpad",
+      "kind": "platform",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Create a Peerlist profile, complete it, then verify with a government ID or workplace check (required). Add your project with name, tagline, cover image, demo link. Launch during the Monday open window; voting runs all week. Every submitted project is featured; top 3 get a badge plus newsletter and social features. Free; no paid queue-jumping.",
+      "rules_and_risks": "Only individual (not company) profiles can launch; no asking strangers for upvotes via DM, no resharing spam, no plagiarized or NSFW products — violations suspend the profile. SEO agencies launching for clients get immediately suspended. Verification is human — cannot be automated.",
+      "why_it_works": "Week-long cycle with rankings randomised for the first two days (blunts big-audience advantage), free dofollow backlinks (DR 77), 621 projects launched in a single recent month per Peerlist's own figure, and winners get real newsletter/social exposure to a verified professional builder audience.",
+      "evidence": [
+        "https://help.peerlist.io/individual/launchpad/introduction",
+        "https://help.peerlist.io/individual/launchpad/guidelines-faqs",
+        "https://peerlist.io/launchpad",
+        "https://submitmap.com/platform/peerlist/"
+      ],
+      "how_searched": [
+        "opened Peerlist help centre pages and launchpad; cross-checked with third-party audit"
+      ],
+      "score": 74.0,
+      "found_at": "2026-10-20T00:48:22.922918+00:00"
+    },
+    {
       "name": "Reddit: niche subreddits where your users already gather",
       "url": "https://www.reddit.com/",
       "kind": "community",
@@ -486,6 +569,26 @@
       ],
       "score": 73.0,
       "found_at": "2026-10-07T04:19:33.151356+00:00"
+    },
+    {
+      "name": "Notion Template Gallery",
+      "url": "https://www.notion.com/templates",
+      "kind": "platform",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Build a useful Notion page, Share → Publish → 'Publish to web' with 'Allow duplicate as template' on. Submit via notion.com/templates → 'Submit a template' (or app.notion.com/profile/templates): public link, name, description, category. Free or paid templates both accepted; no limit on how many you submit (one at a time). Notion's editorial team features top templates on the Marketplace home and in curated collections.",
+      "rules_and_risks": "Templates must deliver on their title, use Notion features well (databases, buttons, AI, embeds — not just text), have good example data, and be visually polished. Generic or thin templates won't be featured. Follow the Template Gallery Guidelines.",
+      "why_it_works": "30,000+ templates in the official gallery with 250+ categories; free organic duplication is the distribution — every user who duplicates gets your template in their workspace, and featured slots drive large recurring install waves. Creators can claim handles and build audiences.",
+      "evidence": [
+        "https://www.notion.com/templates",
+        "https://www.notion.com/help/guides/the-ultimate-guide-to-notion-templates",
+        "https://www.notion.com/help/getting-featured-in-the-template-gallery"
+      ],
+      "how_searched": [
+        "opened Notion templates marketplace, official guide, and featuring criteria page"
+      ],
+      "score": 73.0,
+      "found_at": "2026-10-20T00:48:27.169317+00:00"
     },
     {
       "name": "Common Crawl (CCBot) AI-training inclusion",
@@ -529,6 +632,26 @@
       ],
       "score": 72.0,
       "found_at": "2026-10-14T18:47:42.901920+00:00"
+    },
+    {
+      "name": "Obsidian Community Plugins directory",
+      "url": "https://community.obsidian.md/",
+      "kind": "platform",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Build an Obsidian plugin with README.md, LICENSE, manifest.json in a public GitHub repo root. Create a GitHub release with main.js + manifest.json (version must match). Sign into community.obsidian.md with an Obsidian account, link GitHub, add the plugin via the developer dashboard. Automated review runs in minutes; if it passes, the plugin is installable in-app within 24h. Later releases auto-review. Announce in the forum Share & showcase and Discord #updates.",
+      "rules_and_risks": "Plugin id cannot contain 'obsidian'; must follow developer policies (no obfuscated code, no tracking without consent). Failed automated review removes the plugin from search within 24h. Requires an Obsidian account and GitHub — both human-created.",
+      "why_it_works": "9,179 community plugins and 903 themes already listed; users discover and install directly inside Obsidian. Each plugin gets a permanent directory page with download counts — a durable, high-intent discovery surface for note-taking/knowledge-tool audiences.",
+      "evidence": [
+        "https://docs.obsidian.md/plugins/releasing/submit-plugin",
+        "https://community.obsidian.md/",
+        "https://obsidian.md/blog/future-of-plugins/"
+      ],
+      "how_searched": [
+        "searched Obsidian plugin submission; opened official docs, community site, and 2026 blog post on automated reviews"
+      ],
+      "score": 72.0,
+      "found_at": "2026-10-20T00:48:25.223361+00:00"
     },
     {
       "name": "Medium (free publishing + import tool with canonical links)",
@@ -614,6 +737,26 @@
       ],
       "score": 68.0,
       "found_at": "2026-10-14T18:47:44.032280+00:00"
+    },
+    {
+      "name": "OpenStreetMap",
+      "url": "https://www.openstreetmap.org/",
+      "kind": "platform",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "For a physical location: create a free OSM account, find your building in the editor (or use OSMyBiz / onOSM note), add the correct POI tag (shop=*, amenity=*, office=*, tourism=*) plus website=, phone=, addr:*=, opening_hours=. Alternatively leave an anonymous note for volunteer mappers. Free, open license, permanent.",
+      "rules_and_risks": "Online-only businesses must NOT be added. No marketing fluff descriptions, no duplicate POIs, no wrong locations (parking lots/roads). Respond to changeset comments. Bulk imports need community coordination — one account per person/employer.",
+      "why_it_works": "OSM data feeds hundreds of apps and offline navigators (OsmAnd, Maps.me, Organic Maps, Garmin) and is on par with Google Maps for detail in many regions. A free, permanent, open-data listing that any map app can surface — complements Google Business Profile / Apple Business Connect / Bing Places.",
+      "evidence": [
+        "https://wiki.openstreetmap.org/wiki/About_OpenStreetMap_for_SEO_mappers",
+        "https://wiki.openstreetmap.org/wiki/Contact:website_/_website_/_url",
+        "https://ojw.dev.osm.org/SmallAds/"
+      ],
+      "how_searched": [
+        "searched OSM business listing 2026; opened SEO-mapper wiki page, tag reference, and official small-ads guide"
+      ],
+      "score": 68.0,
+      "found_at": "2026-10-20T00:48:30.307337+00:00"
     },
     {
       "name": "Google News: Publisher Center setup + Google News sitemap",
@@ -721,6 +864,26 @@
       "found_at": "2026-10-18T06:24:28.477242+00:00"
     },
     {
+      "name": "Marginalia Search",
+      "url": "https://marginalia-search.com/",
+      "kind": "search",
+      "requires_account": false,
+      "official_free_api": false,
+      "how_to_use": "Three free routes, all no-account: (1) search `site:yoursite.com` on Marginalia — if the domain is known, a button appears to queue it for crawl; (2) open a GitHub issue or PR on MarginaliaSearch/submit-site-to-marginalia-search adding your URL; (3) email contact@marginalia-search.com. Crawl cycles run every 8–10 weeks — patience required.",
+      "rules_and_risks": "No spam, no link-farm patterns; .xyz/.icu TLDs and some hosting providers get extra scrutiny. Heavy JS/ad/affiliate pages are downranked by design — only text-heavy, low-commercial pages benefit. Submissions may take a full crawl cycle to appear.",
+      "why_it_works": "One of the very few fully independent indexes (own crawler search.marginalia.nu, no Google/Bing feed, ~300M documents, verified by Cloudflare bot directory). It surfaces text-oriented, non-commercial sites that Google buries — a real discovery surface for the 'small web' audience and cited by press (New Yorker, The Verge) as the canonical small-web engine.",
+      "evidence": [
+        "https://marginalia-search.com/",
+        "https://github.com/MarginaliaSearch/submit-site-to-marginalia-search/",
+        "https://www.searchengines.net/marginalia/"
+      ],
+      "how_searched": [
+        "searched independent search engines 2026; opened Marginalia homepage, GitHub submission repo, and independent review"
+      ],
+      "score": 65.0,
+      "found_at": "2026-10-20T00:48:28.565789+00:00"
+    },
+    {
       "name": "TikTok (organic video reach, no follower base needed)",
       "url": "https://sydium.com/blog/tiktok-algorithm-explained",
       "kind": "platform",
@@ -784,6 +947,26 @@
       ],
       "score": 64.0,
       "found_at": "2026-10-14T18:47:47.278573+00:00"
+    },
+    {
+      "name": "DevHunt",
+      "url": "https://devhunt.org/",
+      "kind": "platform",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Sign in with GitHub or Google. Submit your dev tool (name, website, description, logo, screenshots). Free listings get a permanent tool page and a launch week from the queue (average wait ~6 months per its About page); paid $19 launch picks a week, gets newsletter + dofollow. Voting needs GitHub/Google login. Launches go live every Tuesday.",
+      "rules_and_risks": "Developer tools only (APIs, SDKs, CLIs, AI agents, MCP servers, etc.). No NSFW or fake-engagement services. Free listings carry rel=nofollow; only paid launches get dofollow. 6-month free queue means it is not a launch-day channel.",
+      "why_it_works": "41,263 signed-up developers, 40,000 newsletter subscribers, 150K page views/month (its own counts), open-source codebase, and GitHub-gated voting that resists manipulation — one of the few remaining genuinely free weekly launch boards for developer tools.",
+      "evidence": [
+        "https://devhunt.org/llms.txt",
+        "https://saascity.io/directories/devhunt",
+        "https://github.com/MarsX-dev/devhunt"
+      ],
+      "how_searched": [
+        "opened DevHunt's own llms.txt agent brief; cross-checked pricing/queue with independent review and source repo"
+      ],
+      "score": 64.0,
+      "found_at": "2026-10-20T00:48:37.470400+00:00"
     },
     {
       "name": "SourceBottle: free journalist call-outs and expert profiles",
@@ -894,6 +1077,26 @@
       "found_at": "2026-10-15T19:03:14.359534+00:00"
     },
     {
+      "name": "Zenodo",
+      "url": "https://zenodo.org/",
+      "kind": "platform",
+      "requires_account": true,
+      "official_free_api": true,
+      "how_to_use": "Sign in with ORCID iD or GitHub. Upload datasets, software, PDFs, slides, multimedia up to 50GB per record — free. Every record gets a DOI plus a 'concept DOI' tracking versions. Enable the GitHub integration to auto-archive releases: each software version tag gets its own citable DOI. Full REST API available.",
+      "rules_and_risks": "Content must be research/educational/informational; Zenodo is not a general file host. Licenses matter — CC BY / MIT etc. for maximum reuse. CERN/EU context means research-adjacent material performs best.",
+      "why_it_works": "CERN-hosted, commissioned by the European Commission, indexed by OpenAIRE and Google Scholar. Free persistent DOIs make your data/software citable in papers and retrieved by research AI tools — durable authority and backlinks no startup directory provides.",
+      "evidence": [
+        "https://openscience.cern/doi/",
+        "https://zenodo.org/",
+        "https://sis.web.cern.ch/submit-and-publish/how-and-where-submit/data-code-software"
+      ],
+      "how_searched": [
+        "searched free DOI repositories; opened CERN Open Science DOI page, Zenodo homepage, and CERN SIS submission guide"
+      ],
+      "score": 62.0,
+      "found_at": "2026-10-20T00:48:36.118438+00:00"
+    },
+    {
       "name": "GitHub as a discovery channel (GitHub SEO)",
       "url": "https://www.trylyra.ai/blog/github-repo-seo/",
       "kind": "tactic",
@@ -982,6 +1185,26 @@
       "found_at": "2026-10-15T19:03:15.018486+00:00"
     },
     {
+      "name": "Odysee / LBRY",
+      "url": "https://odysee.com/",
+      "kind": "platform",
+      "requires_account": true,
+      "official_free_api": true,
+      "how_to_use": "Publish via odysee.com (up to 4GB from web) or LBRY Desktop. Content is written to the LBRY blockchain; a small LBC stake (network fee) is required — obtainable free via LBRY Rewards or faucets. Set price free. Optional: enable YouTube Sync to mirror your channel. Full public JSON-RPC API at api.na-backend.odysee.com (no auth for public reads) for programmatic discovery.",
+      "rules_and_risks": "Tag abuse and follow-for-follow/view-for-view are prohibited. Odysee enforces community guidelines (removes content from its frontend, though not from the chain). LBC wallet setup has a learning curve; blockchain transactions are irreversible.",
+      "why_it_works": "Censorship-resistant, permanent video hosting with its own recommendation engine and audience, plus an open API and cross-frontend ecosystem — a separate discovery surface from YouTube where many creators only mirror. Public metadata is permanently queryable, aiding AI/agent discovery.",
+      "evidence": [
+        "https://lbry.com/faq/how-to-publish",
+        "https://help.odysee.tv/category-blockchain/overview/",
+        "https://github.com/OdyseeTeam/odysee-frontend/blob/master/llms.txt"
+      ],
+      "how_searched": [
+        "searched Odysee/LBRY free publishing and API; opened official LBRY FAQ, Odysee help hub, and published llms.txt API map"
+      ],
+      "score": 60.0,
+      "found_at": "2026-10-20T00:48:31.666434+00:00"
+    },
+    {
       "name": "Threads API — official free cross-posting to Threads",
       "url": "https://developers.facebook.com/docs/threads/overview/",
       "kind": "platform",
@@ -1062,6 +1285,25 @@
       ],
       "score": 56.7,
       "found_at": "2026-10-18T06:24:19.539138+00:00"
+    },
+    {
+      "name": "DEV Community (dev.to)",
+      "url": "https://dev.to/",
+      "kind": "platform",
+      "requires_account": true,
+      "official_free_api": true,
+      "how_to_use": "Create a free DEV account (GitHub/email). Publish technical tutorials, launch write-ups, or deep-dives with tags; canonical-link your own site in the frontmatter. DEV has a free public Forem API for programmatic publishing. Posts go live instantly with dofollow links.",
+      "rules_and_risks": "Spam/marketing-only posts get flagged and downvoted; keep posts genuinely educational with a soft product mention. Duplicate-syndicated content should carry your site as canonical to avoid SEO duplicate penalty.",
+      "why_it_works": "4-million-developer community, Domain Rating 91, dofollow links, instant approval, and posts rank in Google and get read by AI coding tools. Multiple independent audits rank it as the highest-authority free publishing surface for developer content.",
+      "evidence": [
+        "https://dev.to/",
+        "https://submitmap.com/lists/free-dofollow-directories/"
+      ],
+      "how_searched": [
+        "queried free dofollow directories 2026 and verified dev.to directly"
+      ],
+      "score": 56.7,
+      "found_at": "2026-10-20T00:48:00.222275+00:00"
     },
     {
       "name": "Preprint and open-access research networks (SSRN, arXiv, ResearchGate)",
@@ -1375,6 +1617,25 @@
       "found_at": "2026-10-11T19:02:36.595547+00:00"
     },
     {
+      "name": "LaunchFree.io",
+      "url": "https://launchfree.io/",
+      "kind": "directory",
+      "requires_account": false,
+      "official_free_api": false,
+      "how_to_use": "Open launchfree.io/submit.html — no account, just a multi-step form (name, URL, ≤80-char tagline, category, ≥100-char description, origin story, optional MRR badge and screenshots). Free forever: permanent listing page, dofollow backlink, inclusion in the weekly Runway Radar newsletter, community upvotes. ~24h human review.",
+      "rules_and_risks": "Real products only; illegal/harmful/adult/gambling/scam/duplicate listings are rejected. Sponsored placements exist but never affect rankings. No credit card ever required for the core listing.",
+      "why_it_works": "Explicitly free-forever launch directory with 3,000+ listed launches, permanent dofollow backlinks, search-engine-indexed listing pages, and a weekly newsletter to builders actively looking for new tools — verified working submit flow and published standards page.",
+      "evidence": [
+        "https://launchfree.io/",
+        "https://launchfree.io/submit.html"
+      ],
+      "how_searched": [
+        "opened homepage and full submit form; verified pricing claims and review process on-page"
+      ],
+      "score": 46.7,
+      "found_at": "2026-10-20T00:48:23.158778+00:00"
+    },
+    {
       "name": "Connectively (HARO's successor — new facts on the free plan)",
       "url": "https://docs.connectively.us/en/articles/15233722-what-s-included-with-connectively-s-free-plan",
       "kind": "partnership",
@@ -1393,6 +1654,25 @@
       ],
       "score": 46.0,
       "found_at": "2026-10-09T06:45:21.201931+00:00"
+    },
+    {
+      "name": "Homebrew Cask",
+      "url": "https://github.com/Homebrew/homebrew-cask",
+      "kind": "platform",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Fork Homebrew/homebrew-cask, run `brew create <download-url>` to scaffold a cask, fill fields, test locally (`brew install --cask`), then open a PR following the template. For open-source CLI tools, submit a formula to homebrew/core first. Free; `brew install yourapp` becomes a one-command install path for every Mac (and Linux) user with Homebrew.",
+      "rules_and_risks": "Strict notability bars: self-submitted casks from repo owners need ≥225 stars, ≥90 forks, ≥90 watchers. Unsigned apps that fail Gatekeeper on Apple Silicon are rejected; Mac-App-Store-only trials are rejected; unmaintained or SIP-requiring apps are rejected. Prior rejections must be fixed before resubmitting.",
+      "why_it_works": "Homebrew is the default package manager on macOS/Linux; a merged cask puts your app in `brew search`/`brew install` for millions of developer machines, with a permanent github.com dofollow reference and zero ongoing cost. Verified acceptance policy and PR workflow in official docs.",
+      "evidence": [
+        "https://docs.brew.sh/Adding-Software-to-Homebrew",
+        "https://github.com/Homebrew/homebrew-cask/blob/main/CONTRIBUTING.md"
+      ],
+      "how_searched": [
+        "searched Homebrew cask submission; opened official adding-software docs, acceptable-casks policy, and contributing guide"
+      ],
+      "score": 44.7,
+      "found_at": "2026-10-20T00:48:32.756147+00:00"
     },
     {
       "name": "LibHunt",
@@ -1654,6 +1934,25 @@
       ],
       "score": 36.7,
       "found_at": "2026-10-13T18:47:41.062917+00:00"
+    },
+    {
+      "name": "Wiby",
+      "url": "https://wiby.me/",
+      "kind": "search",
+      "requires_account": false,
+      "official_free_api": false,
+      "how_to_use": "Go to wiby.me/submit/ and submit a single page URL. No account required. Pages must be simple HTML, non-commercial, light on scripts/CSS for cosmetic effect; no intrusive ads; no portal-only pages. Only the submitted page is usually crawled.",
+      "rules_and_risks": "Commercial sites, heavy-JS/SPA pages, intrusive ads, and multi-page bulk submissions from one person are rejected or ignored. Angelfire/Tripod pages no longer grandfathered due to ad intrusiveness.",
+      "why_it_works": "Dedicated index of the classic, hobbyist, text-first web — the exact kind of personal site Google stopped surfacing. Small but real audience of indie-web enthusiasts; free permanent inclusion with zero friction.",
+      "evidence": [
+        "https://www.wiby.me/submit/",
+        "https://wiby.me/"
+      ],
+      "how_searched": [
+        "searched Wiby and Marginalia as independent search engines; opened Wiby submit page directly"
+      ],
+      "score": 36.7,
+      "found_at": "2026-10-20T00:48:33.372356+00:00"
     },
     {
       "name": "There's An AI For That (TAAFT) — AI tool directory",
@@ -2789,25 +3088,6 @@
       "found_at": "2026-10-16T13:02:21.433022+00:00"
     },
     {
-      "name": "Peerlist Launchpad",
-      "url": "https://peerlist.io/launchpad",
-      "kind": "directory",
-      "requires_account": true,
-      "official_free_api": false,
-      "how_to_use": "Create a free Peerlist account, go to Launchpad, and book a launch week; prepare logo, tagline, screenshots and description, then launch and engage during your week (e.g. Week 41 shows slots filling). Builders/early-adopters browse and upvote; top projects gain extra visibility.",
-      "rules_and_risks": "Limited number of launches accepted per period ('we're only accepting a limited number of projects'); a free launch may only earn a backlink if it places near the top. Account cannot be auto-created; astroturfed votes get removed.",
-      "why_it_works": "Peerlist is a builder-focused network with a recurring weekly launch event that puts new products in front of an early-adopter audience actively looking for new tools.",
-      "evidence": [
-        "https://peerlist.io/launchpad"
-      ],
-      "how_searched": [
-        "websearch: 'free startup launch directories 2026'",
-        "opened https://peerlist.io/launchpad"
-      ],
-      "score": 19.3,
-      "found_at": "2026-10-10T00:17:35.906009+00:00"
-    },
-    {
       "name": "Figma Community",
       "url": "https://help.figma.com/hc/en-us/articles/360040035974-Publish-files-to-the-Figma-Community",
       "kind": "platform",
@@ -2825,24 +3105,6 @@
       ],
       "score": 19.3,
       "found_at": "2026-10-13T18:47:34.788200+00:00"
-    },
-    {
-      "name": "Wiby",
-      "url": "https://wiby.me",
-      "kind": "search",
-      "requires_account": false,
-      "official_free_api": false,
-      "how_to_use": "Submit a page at wiby.me to be indexed. Search engine for classic, hand-made web (personal pages, hobby sites). No account. Indexed sites found by people seeking the old internet.",
-      "rules_and_risks": "Favors vintage-style, non-commercial, personal/hobby sites. Modern commercial sites unlikely to be accepted or ranked well. No API.",
-      "why_it_works": "Niche search engine with dedicated user base seeking authentic, non-commercial web. Free indexing. Surfaces sites Google buries.",
-      "evidence": [
-        "https://www.submission.directory/category/indieweb"
-      ],
-      "how_searched": [
-        "websearch for 'open web directory independent sites submission free 2024 2025'"
-      ],
-      "score": 19.3,
-      "found_at": "2026-10-18T18:34:29.961672+00:00"
     },
     {
       "name": "Quora: durable answers on questions your audience already asks",
