@@ -293,6 +293,27 @@
       "found_at": "2026-10-14T22:45:23.083569+00:00"
     },
     {
+      "name": "Vertical AI Agent Infrastructure for Regulated Industries",
+      "field": "AI Infrastructure / Compliance Tech",
+      "summary": "On-device/private LLM inference layer and agent runtime for healthcare, legal, finance, and government where customer data cannot leave the organization. Provides air-gapped deployments, private endpoints, and local inference with identical feature parity to cloud.",
+      "why_now": "BigIdeasDB analysis of 3,478 micro SaaS shows this niche charges $200-$2,000/mo because compliance is the moat. Partnership on AI (Oct 2026) documents observability gaps in agent frameworks for high-stakes finance/healthcare. AgentIQA reports vertical agents in procurement/legal/finance need domain-specific evals, not generic LLM evals. Harvey's Legal Agent Benchmark (1,200+ tasks) proves enterprise demand.",
+      "monetization": "Per-seat or per-agent pricing $200-$2,000/mo. High margins (60%+) because feature set mirrors cloud but compliance justification unlocks budget. Take-rate economics scale with agent count.",
+      "evidence": [
+        "https://bigideasdb.com/micro-saas-trends-2026",
+        "https://partnershiponai.org/wp-content/uploads/2026/10/PAI_obervability-gap-in-ai-agents.pdf",
+        "https://agentiqa.com/en/blog/testing-vertical-ai-agents",
+        "https://www.harvey.ai/blog/introducing-harveys-legal-agent-benchmark"
+      ],
+      "how_searched": [
+        "BigIdeasDB micro SaaS trend analysis (3,478 startups)",
+        "Partnership on AI research paper",
+        "AgentIQA vertical agent testing framework",
+        "Harvey Legal Agent Benchmark launch"
+      ],
+      "score": 89.0,
+      "found_at": "2026-10-20T20:53:36.765344+00:00"
+    },
+    {
       "name": "PDF/Document Parsing & Data Extraction API",
       "field": "B2B SaaS / Fintech",
       "summary": "AI-powered API that extracts structured data (tables, line items, fields) from PDFs, scans, and photos — invoices, bank statements, receipts, contracts — without templates, returning clean JSON/CSV/Excel.",
@@ -668,6 +689,27 @@
       "found_at": "2026-10-20T00:38:54.062402+00:00"
     },
     {
+      "name": "Real Estate Adjacent Micro SaaS",
+      "field": "PropTech / Vertical SaaS",
+      "summary": "Narrow tools for solo agents and small landlords: MLS-adjacent CMA generators, rental compliance automation by state, single-agent CRMs with AI follow-up, property management for 1-5 units. Not another enterprise PMS.",
+      "why_now": "BigIdeasDB reports 988% average growth rate (from small base) for Real Estate-tagged micro SaaS. AppFolio Q1 2026: $262M revenue (+20% YoY), 9.5M units managed, Realm-X AI agents adopted by 99%+ customers. CoStar $3.2B ARR (+19%). MLS data access negotiations (90-180 days) create moat. Multiples.vc shows property-based subs at $1-$5/door with 75-85% margins.",
+      "monetization": "Per-unit pricing ($19/property/mo for compliance, $49-99/agent/mo for CRM/CMA), transaction fees ($20-500/lease), payment processing take-rates (1.5-3%), lead gen referral fees. Book The Move at $8,755 MRR (80% margin), ControlResell at $9,076 MRR (70% margin).",
+      "evidence": [
+        "https://bigideasdb.com/micro-saas-trends-2026",
+        "https://bigideasdb.com/saas-ideas/real-estate-saas",
+        "https://www.tickertrends.io/transcripts/APPF/Q1-earnings-transcript-2026",
+        "https://multiples.vc/coverage/real-estate-software"
+      ],
+      "how_searched": [
+        "BigIdeasDB micro SaaS trend report",
+        "BigIdeasDB real estate SaaS ideas breakdown",
+        "AppFolio Q1 2026 earnings transcript",
+        "Multiples.vc real estate software sector analysis"
+      ],
+      "score": 87.0,
+      "found_at": "2026-10-20T20:53:38.068953+00:00"
+    },
+    {
       "name": "AI Presentation / Deck Generator (Gamma-model)",
       "field": "Productivity - presentation & visual-storytelling software",
       "summary": "A free web tool that turns a topic, prompt, or pasted document into a fully designed slide deck / web-native presentation in seconds. Users type an idea, pick a style, and get editable slides, matching layouts and images.",
@@ -836,6 +878,27 @@
       ],
       "score": 86.0,
       "found_at": "2026-10-20T00:38:56.055444+00:00"
+    },
+    {
+      "name": "Embedded Fintech Layer for Vertical SaaS",
+      "field": "Fintech Infrastructure / Vertical SaaS Enabler",
+      "summary": "White-label embedded payments, lending, payroll, and banking APIs that vertical SaaS platforms (construction, fitness, property mgmt, etc.) integrate to monetize their transaction flow. Starts with payments, expands to capital advances, payroll, insurance.",
+      "why_now": "Apideck/BCG: $185B addressable embedded finance revenue for B2B SaaS, <20% captured. Stripe: platforms with embedded finance see 11% lower churn, 49% faster revenue growth. Toast earns 85% of revenue from fintech ($4.25B), Shopify Merchant Solutions 79%. Charge Forward: US ISV payments revenue $16B (2025), 20% CAGR. Bain: US platform revenue from embedded finance $51B in 2026 (2.5x from 2021).",
+      "monetization": "Take-rate on payment volume (50-75 bps net), lending spreads (5-10% net interest margin), payroll per-employee fees, insurance referral commissions. Revenue per customer 2x-5x uplift. EV/Revenue multiples 7-9.5x for embedded vs 4.8-6.2x for software-only.",
+      "evidence": [
+        "https://www.apideck.com/embedded-finance-report",
+        "https://stripe.com/blog/vertical-saas-insights-sessions-2026",
+        "https://chargeforward.io/learn/research/embedded-payments-benchmarks/",
+        "https://www.saasmag.com/embedded-finance-rewriting-saas-unit-economics/"
+      ],
+      "how_searched": [
+        "Apideck State of Embedded Finance 2026 report",
+        "Stripe Sessions 2026 vertical SaaS insights",
+        "Charge Forward embedded payments benchmarks",
+        "SaaS Mag embedded finance unit economics analysis"
+      ],
+      "score": 86.0,
+      "found_at": "2026-10-20T20:53:39.083703+00:00"
     },
     {
       "name": "Short-Form Video Intelligence & Analytics",
@@ -1074,6 +1137,27 @@
       ],
       "score": 85.0,
       "found_at": "2026-10-18T14:57:51.646449+00:00"
+    },
+    {
+      "name": "Single-Platform Analytics Layer (Notionlytics Model)",
+      "field": "Analytics / B2B SaaS",
+      "summary": "Analytics dashboard and widgets built exclusively for one platform's weak native reporting (Notion, Airtable, Webflow, Shopify, Figma, Linear). Turns raw usage data into the reports the platform never built. Embeddable widgets for audience feedback.",
+      "why_now": "BigIdeasDB: Analytics-tagged micro SaaS grows 78% avg. Notionlytics: $43,160 MRR peak, +121.7% growth, 75% margin (TrustMRR verified). RankYourApp confirms $43.1K MRR, 78 customers. Simple Analytics (privacy-first GA alternative) at $39K MRR. Solo dev timeline: $1K MRR by month 6, $15K by month 18, $30K+ by month 24. Platform APIs enriching while native reporting stays thin.",
+      "monetization": "Tiered subscriptions: Pro $10-30/mo, Team $30-90/mo, Business $90+/mo. Per-seat or per-workspace. 75%+ margins typical. Lifetime deal + paid add-ons model also works for prosumer tools.",
+      "evidence": [
+        "https://bigideasdb.com/micro-saas-trends-2026",
+        "https://trustmrr.com/startup/notionlytics",
+        "https://www.rankyourapp.com/app/notionlytics",
+        "https://bigideasdb.com/solo-developer-saas-monthly-revenue-examples"
+      ],
+      "how_searched": [
+        "BigIdeasDB micro SaaS trends (3,478 startups)",
+        "TrustMRR verified revenue for Notionlytics",
+        "RankYourApp verified metrics",
+        "BigIdeasDB solo developer SaaS revenue examples"
+      ],
+      "score": 85.0,
+      "found_at": "2026-10-20T20:53:39.930369+00:00"
     },
     {
       "name": "AI Video Generation & Editing for Short-Form",
@@ -1329,6 +1413,29 @@
       ],
       "score": 84.0,
       "found_at": "2026-10-18T23:24:28.359857+00:00"
+    },
+    {
+      "name": "Vertical-Specific AI Agent Evaluation & Observability",
+      "field": "AI Infrastructure / Developer Tools",
+      "summary": "Eval framework and production monitoring for vertical AI agents (legal, finance, procurement, supply chain) that execute write-actions in ERPs/CRMs/legal systems. Tests real workflows in test environments, reads back system state, validates domain rules (currencies, units, deadlines), catches silent failures generic LLM evals miss.",
+      "why_now": "BigIdeasDB: Agent infra (evals, observability, durable execution) is fastest-growing micro SaaS niche. Opening at vertical-specific layer, not horizontal. Partnership on AI (Oct 2026): agent frameworks (OpenAI, Anthropic, LangGraph, CrewAI) inconsistently emit telemetry for unauthorized actions, policy violations, audit trails. AgentIQA: vertical agents judged on outcomes in business processes with money/contracts/compliance attached. Harvey LAB: 1,200+ legal agent tasks, 75K expert rubrics. AWS Bedrock AgentCore: evaluation as deployment gate in CI.",
+      "monetization": "Per-agent or per-eval-run pricing. $200-2,000/mo for regulated verticals. Usage-based for eval runs. Enterprise contracts for compliance reporting. High retention as eval becomes deployment gate.",
+      "evidence": [
+        "https://bigideasdb.com/micro-saas-trends-2026",
+        "https://partnershiponai.org/wp-content/uploads/2026/10/PAI_obervability-gap-in-ai-agents.pdf",
+        "https://agentiqa.com/en/blog/testing-vertical-ai-agents",
+        "https://aws.amazon.com/blogs/machine-learning/building-trust-in-ai-agents-a-production-ready-evaluation-framework-with-amazon-bedrock-agentcore/",
+        "https://www.harvey.ai/blog/introducing-harveys-legal-agent-benchmark"
+      ],
+      "how_searched": [
+        "BigIdeasDB micro SaaS trend #7",
+        "Partnership on AI observability gap paper",
+        "AgentIQA vertical agent testing methodology",
+        "AWS Bedrock AgentCore evaluation framework",
+        "Harvey Legal Agent Benchmark launch"
+      ],
+      "score": 84.0,
+      "found_at": "2026-10-20T20:53:40.925126+00:00"
     },
     {
       "name": "Self-Hosted Workflow Automation for AI Agents (n8n-style)",
@@ -1819,6 +1926,25 @@
       "found_at": "2026-10-20T00:38:57.527018+00:00"
     },
     {
+      "name": "Per-Unit/Value-Based Pricing Infrastructure",
+      "field": "Billing / SaaS Infrastructure",
+      "summary": "Billing system that enables per-unit-of-value pricing ($9/generated report, $29/onboarded client, $0.05/inference, $/API call) instead of seat-based. Handles metering, entitlements, usage aggregation, and invoice generation for AI-native and vertical SaaS products.",
+      "why_now": "BigIdeasDB: SaaS-on-SaaS micro category grows 76.7% with per-unit pricing dominant. Buyers under 100 employees rejecting seat-based pricing. Micro SaaS business models 2026: per-unit-of-value replacing seats, lifetime deal + paid add-ons, embedded fintech revenue share. Stripe data: platforms with multiproduct strategy grow 49% faster. Charge Forward: embedded finance six-stage matrix shows usage metering as Stage 1 foundation.",
+      "monetization": "Percentage of transaction volume (1-3%) or per-event fee. Scales with customer success. High margins as infrastructure. Target: AI agent platforms, vertical SaaS, usage-based products.",
+      "evidence": [
+        "https://bigideasdb.com/micro-saas-trends-2026",
+        "https://chargeforward.io/learn/research/embedded-payments-benchmarks/",
+        "https://stripe.com/blog/vertical-saas-insights-sessions-2026"
+      ],
+      "how_searched": [
+        "BigIdeasDB micro SaaS trend #4 & business models",
+        "Charge Forward embedded finance product matrix",
+        "Stripe vertical SaaS insights 2026"
+      ],
+      "score": 82.0,
+      "found_at": "2026-10-20T20:53:41.318814+00:00"
+    },
+    {
       "name": "AI SDR & Autonomous Sales Agents",
       "field": "Sales Tech / AI Automation",
       "summary": "AI agents that engage website visitors in real time, qualify leads, give personalized demos, handle objections, and book meetings — integrating with CRM and sales stacks for 24/7 pipeline generation.",
@@ -2002,6 +2128,27 @@
       ],
       "score": 81.0,
       "found_at": "2026-10-20T00:38:59.921901+00:00"
+    },
+    {
+      "name": "AI Marketing Agency-in-a-Box for Vertical Niches",
+      "field": "Marketing Tech / Vertical SaaS",
+      "summary": "All-in-one AI marketing stack for a single vertical (dental, HVAC, law firms, real estate agents): content generation, ad creative, lead capture, review management, appointment booking. Replaces agency retainer with $200-500/mo software.",
+      "why_now": "BigIdeasDB: AI marketing tools avg +67.6% growth, 68.1% margins. Winning sub-niches: vertical agencies-in-a-box (Prymatica $9,790 MRR), single-channel lead gen (Juiced Leads $9,250 MRR), single-funnel optimizers (Defined Chase $9,507 MRR). TrustMRR shows multiple $9-10K MRR examples. AgentPickList: SEOBOT at $36K MRR (autonomous SEO agent), Postiz at $273K MRR (open-source social scheduler).",
+      "monetization": "Vertical-specific monthly subscriptions $199-499/mo. Setup/onboarding fees. Upsell: ad spend management take-rate, lead referral fees. High margins (68% avg) as AI replaces human agency labor.",
+      "evidence": [
+        "https://bigideasdb.com/micro-saas-trends-2026",
+        "https://trustmrr.com/startup/seobot",
+        "https://trustmrr.com/startup/postiz",
+        "https://agentpicklist.com/use-cases/sell-an-autonomous-seo-agent-for-49-a-month/"
+      ],
+      "how_searched": [
+        "BigIdeasDB micro SaaS trend #9",
+        "TrustMRR verified revenue for SEOBOT",
+        "TrustMRR verified revenue for Postiz",
+        "AgentPickList verified use cases with revenue"
+      ],
+      "score": 81.0,
+      "found_at": "2026-10-20T20:53:42.060930+00:00"
     },
     {
       "name": "Text or image to 3D model generator",
@@ -3363,6 +3510,25 @@
       ],
       "score": 76.0,
       "found_at": "2026-10-19T01:36:36.337644+00:00"
+    },
+    {
+      "name": "Velozity (Multiplayer AI Office)",
+      "field": "Team Collaboration / AI Workspace",
+      "summary": "Unified workspace where team chat, video calls, tasks, calendar, files, and AI agents (Claude, Codex, etc.) share context. Agents work on same subscriptions users already pay for. No second AI bill. Free to start.",
+      "why_now": "Product Hunt monthly #6 (Oct 2026): 430 score, 112 comments, 1.2K followers. Weekly leaderboard confirmation. Solves 'team chats in one app, meets in another, every AI works alone' fragmentation. Rill Browser (476 score) and IrisGo (464 score) show parallel demand for AI-native work environments. Velozity combines both.",
+      "monetization": "Freemium: Free tier with limits, Pro $15-30/user/mo for unlimited agents, advanced permissions, SSO, audit logs. Enterprise: custom. Revenue from seat expansion + agent usage overages.",
+      "evidence": [
+        "https://www.producthunt.com/leaderboard/monthly/2026/10",
+        "https://www.producthunt.com/leaderboard/weekly/2026/43",
+        "https://www.producthunt.com/products/velozity-2"
+      ],
+      "how_searched": [
+        "Product Hunt monthly leaderboard October 2026",
+        "Product Hunt weekly leaderboard Oct 19, 2026",
+        "Product Hunt product page"
+      ],
+      "score": 76.0,
+      "found_at": "2026-10-20T20:53:46.824714+00:00"
     },
     {
       "name": "Invoice & AP Automation (AI-First)",
@@ -5968,149 +6134,6 @@
       ],
       "score": 63.0,
       "found_at": "2026-10-19T15:43:23.741367+00:00"
-    },
-    {
-      "name": "Reddit / RSS data bridge replacement",
-      "field": "Data infrastructure / social",
-      "summary": "A hosted, compliant Reddit-content API and RSS-bridge service for feed readers, social-listening tools and agents.",
-      "why_now": "Reddit stops accepting new public API requests October 31 2026, kills RSS feeds November 13 2026, and ends remaining public API access in March 2027, forcing feed readers and tools onto replacements.",
-      "monetization": "Usage-based API credits (a competitor lists plans from $19/month for 25,000 credits); no verified revenue (null).",
-      "evidence": [
-        "https://techcrunch.com/2026/09/30/reddit-is-killing-rss-feeds-ending-public-api-access-because-of-ai-bots/",
-        "https://www.techrepublic.com/article/news-reddit-rss-public-api-shutdown/",
-        "https://chatterapi.com/blog/reddit-api-shutdown-timeline"
-      ],
-      "how_searched": [
-        "news outlets",
-        "community/dev posts",
-        "web search"
-      ],
-      "score": 63.0,
-      "found_at": "2026-10-19T21:07:02.219757+00:00"
-    },
-    {
-      "name": "AI-first invoice & contract automation for freelancers",
-      "field": "Freelance tools",
-      "summary": "All-in-one workspace that automates proposals → contracts → invoices with built-in late payment escalation, interest calculation, and demand letters. Addresses the full payment lifecycle.",
-      "why_now": "Freelancers want prevention + recovery. Tools like PayShield combine legal-aware features (statutory interest, recovery fees by jurisdiction) with automation. Strong pain point with clear monetization.",
-      "monetization": "Freemium SaaS ($19-29/month) removing limits and unlocking AI features. High conversion potential due to acute pain.",
-      "evidence": [
-        "https://payshield.app/",
-        "https://flanceflow.com/product/payment-tracking"
-      ],
-      "how_searched": [
-        "freelance tool research",
-        "payment recovery analysis"
-      ],
-      "score": 62.7,
-      "found_at": "2026-10-16T21:15:09.410121+00:00"
-    },
-    {
-      "name": "Viral-product dupe finder",
-      "field": "Commerce / Shopping",
-      "summary": "A free web tool where you paste a viral product or brand and get cheaper equivalent items that people are actively searching for instead.",
-      "why_now": "TokConnect (Oct 2026): 10 of 11 dupe searches had no matching videos, together 1,490,773 searches/week unanswered; 'Dupe Of' has 22,200 monthly searches, up +236% in three months (Rising Trends); Circana (Aug 21, 2026) found 58% of shoppers have bought a dupe.",
-      "monetization": "Affiliate/commerce revenue on referred cheaper alternatives; direct sales figures for such a tool were not found (null) — judged as demand-strong but monetization-unproven.",
-      "evidence": [
-        "https://tokconnect.com/trends/products/october-2026/",
-        "https://www.risingtrends.co/trends/retail-trends-2026",
-        "https://www.circana.com/post/life-imitates-brands-how-dupe-demand-is-evolving"
-      ],
-      "how_searched": [
-        "search-demand tool (TokConnect October 2026 product report)",
-        "search-trend database (Rising Trends retail list)",
-        "industry research (Circana consumer study)"
-      ],
-      "score": 62.0,
-      "found_at": "2026-10-08T03:07:51.940232+00:00"
-    },
-    {
-      "name": "Affordable / open-source AI-era SEO keyword + backlink suite",
-      "field": "SEO / marketing tools",
-      "summary": "An open-source keyword-research, competitor and backlink/site-audit suite priced far below incumbents and MCP-connectable so AI agents can run SEO directly.",
-      "why_now": "Launched Oct 8, 2026 on Product Hunt as 'the open source Semrush alternative' with 388 upvotes and $10/mo pricing versus $100+ incumbents, riding both the SEO tooling market and the new 'GEO/AI-search' demand. Independent SEO data shows the top fastest-growing SaaS startups in 2026 are SEO/analytics-adjacent (Sherloq +810%, Ahrefs-tracked organic-growth leaders), confirming spend keeps flowing into this category.",
-      "monetization": "Freemium SaaS with a cheap paid tier ($10/mo) versus legacy $100+ subscriptions; growth via open-source self-hosting and MCP integrations.",
-      "evidence": [
-        "https://www.producthunt.com/leaderboard/daily/2026/10/8",
-        "https://www.producthunt.com/leaderboard/monthly/2026/10",
-        "https://ahrefs.com/blog/top-saas-startups/"
-      ],
-      "how_searched": [
-        "Product Hunt daily/monthly leaderboards",
-        "SEO-industry ranking post (Ahrefs)"
-      ],
-      "score": 62.0,
-      "found_at": "2026-10-10T21:46:54.417851+00:00"
-    },
-    {
-      "name": "AI complaint-mining for product ideas",
-      "field": "AI research tools / SaaS",
-      "summary": "Scans competitor reviews, Reddit, forums and app stores to find unaddressed complaints with high willingness-to-pay signals. Turns negative reviews into actionable product opportunities.",
-      "why_now": "Data shows paid demand appears as complaints about paid tools (250x more than 'I would pay' phrases). Growing interest in validation-first building with AI to filter massive complaint data.",
-      "monetization": "SaaS subscription ($29-99/month) for indie hackers and agencies doing market research, selling the curated opportunity feed.",
-      "evidence": [
-        "https://www.complaintminer.com/",
-        "https://sonar.0arch.io/"
-      ],
-      "how_searched": [
-        "product hunt trends",
-        "indie hacker posts",
-        "trend analysis"
-      ],
-      "score": 62.0,
-      "found_at": "2026-10-16T21:15:06.678578+00:00"
-    },
-    {
-      "name": "Generative Engine Optimization (GEO) tool",
-      "field": "SEO/Marketing",
-      "summary": "A free web tool to track brand citations and visibility in AI search results (ChatGPT, Perplexity, Google AI Overviews) for websites.",
-      "why_now": "Rising due to shift from traditional search to AI answers. Product Hunt launch ReSO AI (https://www.producthunt.com/products/reso) showed traction (454 score, 34 comments) in Oct 2026; Exploding Topics lists 'Answer Engine Optimization' as a fast-growing topic (#17, 99x+).",
-      "monetization": "SaaS freemium with credits for tracking/crawl reports. Indie SEO tools typically do $30-60/month ARPU (indie SaaS benchmarks show $32-$58 median).",
-      "evidence": [
-        "https://www.producthunt.com/products/reso",
-        "https://explodingtopics.com/blog/trending-topics"
-      ],
-      "how_searched": [
-        "Product Hunt launches",
-        "Trend research (Exploding Topics)",
-        "Cross-referenced with AI search trend coverage"
-      ],
-      "score": 61.3,
-      "found_at": "2026-10-11T14:06:20.239391+00:00"
-    },
-    {
-      "name": "AI voice cloning & audiobooks for creators",
-      "field": "AI media tools",
-      "summary": "Local-first voice AI that lets creators clone voices and generate audiobooks in 600+ languages. Enables solo creators to produce audio content without hiring voice actors.",
-      "why_now": "GitHub trending shows massive adoption (69K+ stars for VoiceStudio). Demand for AI video/voice tools growing fast (+329% AI video generation/editing on Upwork). Creators want local-first alternatives to ElevenLabs.",
-      "monetization": "SaaS with tiered plans or one-time licenses, plus usage-based pricing for voice generation minutes. Could also offer marketplace for voices.",
-      "evidence": [
-        "https://github.com/debpalash/VoiceStudio",
-        "https://www.coddykit.com/pages/blog-detail?id=5129986"
-      ],
-      "how_searched": [
-        "GitHub trending analysis",
-        "Upwork skill growth data"
-      ],
-      "score": 61.3,
-      "found_at": "2026-10-16T21:15:07.429515+00:00"
-    },
-    {
-      "name": "Rotating Accountability Tool for ADHD",
-      "field": "Productivity & Mental Health",
-      "summary": "A web app that provides rotating external accountability voices/timers for ADHD executive dysfunction, using deliberate novelty to prevent habituation instead of fixed daily reminders.",
-      "why_now": "A viral r/adhdwomen thread (3,225 upvotes, 340 comments, Oct 9-12 2026) described the mechanism in detail; novelty/variable reinforcement addresses why existing habit apps fail for ADHD brains right now.",
-      "monetization": "Freemium: free rotating voice accountability, paid for multi-user body-doubling sessions and premium voice packs; ADHD productivity tools have strong willingness-to-pay.",
-      "evidence": [
-        "https://engaggit.com/blog/app-ideas-2026-10-12",
-        "https://www.reddit.com/r/adhdwomen/comments/1n83rc5/i_think_ive_finally_figured_out_how_to_cure_my/"
-      ],
-      "how_searched": [
-        "Reddit community gap analysis (r/adhdwomen)",
-        "Engaggit weekly Reddit gap scan (Oct 9-12 2026)"
-      ],
-      "score": 61.3,
-      "found_at": "2026-10-18T06:01:51.186925+00:00"
     }
   ]
 }
