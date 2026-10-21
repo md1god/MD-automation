@@ -723,6 +723,26 @@
       "found_at": "2026-10-21T10:33:16.743266+00:00"
     },
     {
+      "name": "Startup Compliance Evidence Automation (SOC 2 / ISO 27001)",
+      "field": "B2B SaaS / security compliance",
+      "summary": "Web platform that auto-drafts policies, pulls evidence from cloud tools, monitors controls, and generates auditor-ready packages for SOC 2, ISO 27001, HIPAA and GDPR so startups close enterprise deals faster.",
+      "why_now": "Comp AI hit Stripe-verified ~$700K in last-30-days revenue and ~$6.1M all-time with only ~49 active subscriptions (high-ACV annual deals), grew ARR 15x YoY past 1,000 customers, and raised a $34M Series A (total $37.5M) in Sept 2026; demand is revenue-blocking security questionnaires, not optional paperwork.",
+      "monetization": "Annual seats + audit-week setup packs; Comp AI MRR snapshot ~$11.7K on 52 subs with L30 ~$700-750K (Stripe-verified); category peers sell $12K+/mo ACV.",
+      "evidence": [
+        "https://trustmrr.com/startup/comp-ai",
+        "https://www.wlad.me/blog/companies/comp-ai",
+        "https://grandvcp.com/we-backed-comp-ai-at-pre-seed-15-months-later-we-doubled-down/",
+        "https://indiepa.ge/leaderboard"
+      ],
+      "how_searched": [
+        "open-startup revenue leaderboard (IndiePage)",
+        "Stripe-verified TrustMRR / Boring SaaS",
+        "VC portfolio case study"
+      ],
+      "score": 88.0,
+      "found_at": "2026-10-21T19:34:15.056731+00:00"
+    },
+    {
       "name": "Retro digicam / film-camera filter web app (Y2K & CCD look)",
       "field": "Consumer photo / creator tools",
       "summary": "A browser tool that turns any photo or video into the grainy, flash-heavy, early-2000s 'digicam/CCD' look using preset film stocks, light leaks, date stamps and scans — no app install.",
@@ -1738,6 +1758,26 @@
       "found_at": "2026-10-21T05:12:09.143720+00:00"
     },
     {
+      "name": "Personal AI Assistant You Text (SMS/WhatsApp Agent)",
+      "field": "Consumer AI agents / messaging",
+      "summary": "An always-on personal agent reachable by text or WhatsApp that books travel, cancels subscriptions, manages email/calendar and completes multi-step tasks using its own phone number and computer—no new app UI.",
+      "why_now": "Instinct went from invite-only launch (Aug 2026) to $10B valuation with $1B Series C in one month, claims 100K+ users and $1B+ annual transaction volume (50% travel); readywhen hit Product Hunt #3 on Oct 19, 2026; TechCrunch catalogued 20+ messaging agents in one week; Meta is shipping free WhatsApp business agents.",
+      "monetization": "Merchant commissions (Instinct cites up to 30% from boutique hotels), subscriptions ($20-35/mo peers: Martin $21/mo, Tomo $19.99/mo, Ohai $9.99+/mo), or free+ads; Instinct itself may stay free for users and charge merchants.",
+      "evidence": [
+        "https://techcrunch.com/2026/09/28/viral-ai-agent-instinct-raises-1b-series-c-at-a-10b-valuation/",
+        "https://techcrunch.com/2026/10/10/all-the-ai-agents-that-can-live-in-your-text-messages/",
+        "https://www.producthunt.com/products/readywhen",
+        "https://skift.com/2026/09/28/instincts-app-is-fueled-by-travel-founder-says-its-half-of-volume/"
+      ],
+      "how_searched": [
+        "funding/valuation news",
+        "Product Hunt daily leaderboard",
+        "tech press category roundup"
+      ],
+      "score": 84.0,
+      "found_at": "2026-10-21T19:34:15.552927+00:00"
+    },
+    {
       "name": "Self-Hosted Workflow Automation for AI Agents (n8n-style)",
       "field": "DevTools / AI Infrastructure",
       "summary": "Fair-code / open-source workflow automation platform that technical teams self-host for free (unlimited executions) to build AI agent pipelines, RAG, and multi-step automations — with paid cloud/enterprise for governance, SSO, and managed infrastructure.",
@@ -2310,6 +2350,26 @@
       ],
       "score": 82.0,
       "found_at": "2026-10-21T15:40:41.198490+00:00"
+    },
+    {
+      "name": "Sports Event Photo Marketplace with Face/Bib Search",
+      "field": "Marketplace / sports photography",
+      "summary": "Two-sided marketplace where race photographers upload event galleries and athletes find themselves in seconds via selfie facial recognition or bib-number OCR, then buy full-res photos; commission take-rate plus photographer subscriptions.",
+      "why_now": "ZebraSnap (Stripe-verified) did ~$31.3K last-30-days (+34.9% MoM) and ~$144.8K all-time at ~75% L30 margin; FindMyShots claims 100K+ photos sold; FlashFrame, RaceShots and picsel show an active multi-player category expanding beyond one incumbent.",
+      "monetization": "Marketplace commission (ZebraSnap free plan ~13-16% down to 4-5% on paid tiers) + photographer seats $16.99-99.99/mo; most cash is take-rate not seats.",
+      "evidence": [
+        "https://www.wlad.me/blog/2026-10-15",
+        "https://zebrasnap.com/for-photographers",
+        "https://app.findmyshots.com/",
+        "https://www.flashframe.io/"
+      ],
+      "how_searched": [
+        "Stripe-verified boring-SaaS board",
+        "product marketplace sites",
+        "competitor landscape pages"
+      ],
+      "score": 82.0,
+      "found_at": "2026-10-21T19:34:16.678928+00:00"
     },
     {
       "name": "AI SDR & Autonomous Sales Agents",
@@ -3107,6 +3167,26 @@
       ],
       "score": 79.0,
       "found_at": "2026-10-20T00:39:06.573368+00:00"
+    },
+    {
+      "name": "Paid Studies & Focus Groups Aggregator",
+      "field": "B2C side-income / research panels",
+      "summary": "Subscription web directory that aggregates high-paying online studies, focus groups and clinical trials from dozens of research firms into one filterable feed (pay, topic, online vs in-person) with email alerts for new listings.",
+      "why_now": "StudyScout (Stripe-verified) reached ~$5,174 MRR from 694 subscriptions and ~$88K all-time within ~9 months of founding (Jan 2026), 69% L30 margin; StudySnag shows 14K+ members and 890+ studies/week; median study payout $110 with clinical trials at $1,300 proves real money sits behind the filter.",
+      "monetization": "Monthly subscription to unlock full curated feed; founder claims 100% organic UGC growth and 69% profit margin; listed for sale at ~$70K (≈1.1x annual cash).",
+      "evidence": [
+        "https://trustmrr.com/startup/studyscout",
+        "https://www.wlad.me/blog/companies/studyscout",
+        "https://www.studysnag.com/",
+        "https://focusgrouppanel.com/"
+      ],
+      "how_searched": [
+        "Stripe-verified startup database",
+        "competitor product sites",
+        "payout research report"
+      ],
+      "score": 79.0,
+      "found_at": "2026-10-21T19:34:17.531099+00:00"
     },
     {
       "name": "Voice-agent QA & live-call benchmark platform",
@@ -4068,6 +4148,25 @@
       "found_at": "2026-10-21T10:33:19.917972+00:00"
     },
     {
+      "name": "Local SEO / Google Business Profile Automation for Single-Location SMBs",
+      "field": "Local SaaS / SMB marketing",
+      "summary": "Affordable AI layer that keeps a single-location business's Google Business Profile active: auto-posts, answers reviews, tracks geo-grid rankings, flags unauthorized listing edits, and reports calls/directions—aimed at owner-operators, not agencies.",
+      "why_now": "Local SEO Bot (Stripe-verified) runs ~$11.7K MRR from just 82 subscriptions at $99-199/mo with ~535 users; local listing management software market ~$3.66B (2025) growing ~10.6% CAGR; incumbents price agencies/enterprises ($41-399/mo), leaving a clear SMB gap proven by a solo-built product already billing.",
+      "monetization": "Per-location monthly SaaS ($99-199/mo benchmark from Local SEO Bot); high margins on automated posting + review reply + rank tracking.",
+      "evidence": [
+        "https://www.wlad.me/blog/2026-10-15",
+        "https://www.guideflow.com/blog/business-listing-management-software",
+        "https://embedsocial.com/blog/best-google-business-profile-management-tools/"
+      ],
+      "how_searched": [
+        "Stripe-verified boring-SaaS board",
+        "market-size research",
+        "tool comparison roundups"
+      ],
+      "score": 76.0,
+      "found_at": "2026-10-21T19:34:18.029877+00:00"
+    },
+    {
       "name": "Invoice & AP Automation (AI-First)",
       "field": "Fintech / B2B SaaS",
       "summary": "End-to-end invoice processing: email/file intake → AI extraction (line items, PO matching) → validation → ERP/accounting sync → approval workflow → payment — with KPI dashboards (cost/invoice, cycle time, touchless rate).",
@@ -4670,6 +4769,25 @@
       "found_at": "2026-10-21T10:33:20.211585+00:00"
     },
     {
+      "name": "AI Virtual Staging for Real Estate Listings",
+      "field": "PropTech / image AI",
+      "summary": "Credit-pack or subscription web tool that turns empty/builder-grade room photos into photorealistically staged listing images (plus object removal and photo-to-video), sold to agents and photographers who need faster, cheaper listing marketing.",
+      "why_now": "Refined Listings (Stripe-verified) booked ~$29.4K last-30-days and ~$232.7K last-12-months at ~68% L30 margin on credit packs; global virtual staging software market ~$0.3-0.57B in 2026 growing 15-26% CAGR; virtually staged listings reportedly get ~73% more views, so agents already have a budget line.",
+      "monetization": "Pay-as-you-go credit packs ($80-750) with ~18% repeat purchase rate (Refined Listings) or $10-99/mo subscriptions (BoxBrownie model).",
+      "evidence": [
+        "https://www.wlad.me/blog/2026-10-15",
+        "https://marketintelo.com/report/real-estate-virtual-staging-software-market",
+        "https://dataintelo.com/report/global-virtual-staging-for-real-estate-market"
+      ],
+      "how_searched": [
+        "Stripe-verified boring-SaaS board",
+        "market research reports",
+        "vendor pricing pages"
+      ],
+      "score": 74.0,
+      "found_at": "2026-10-21T19:34:18.579773+00:00"
+    },
+    {
       "name": "Personal data-broker opt-out & removal-request generator",
       "field": "Privacy / consumer safety",
       "summary": "Free tool that shows where your name, address and phone appear across people-search/data-broker sites, generates the opt-out requests for you, and lets you track status; ongoing automated re-removal and breach monitoring sits behind a paid plan.",
@@ -4885,6 +5003,25 @@
       ],
       "score": 73.0,
       "found_at": "2026-10-18T14:57:57.845674+00:00"
+    },
+    {
+      "name": "Reddit / Community Intent Monitoring for Lead Gen",
+      "field": "B2B marketing SaaS",
+      "summary": "Always-on tool that scans niche subreddits and communities for high-intent posts, scores fit/authenticity, and drafts helpful non-spammy comment hooks so founders get customers without ads or cold email.",
+      "why_now": "Subreddit Signals (founder-reported via coffounder.com micro-SaaS dataset, Aug 2026) hit ~$66.8K MRR; founder's own journey went $450→$2.5K MRR publicly on Reddit; the broader pattern of mining public complaints for product ideas is itself becoming a product category (DDMarketer mined 3,500+ complaints in 2026).",
+      "monetization": "Paid-only SaaS from ~$19.99/mo with trial (no freemium); high-margin pure software.",
+      "evidence": [
+        "https://coffounder.com/blog/micro-saas-examples-with-revenue",
+        "https://www.reddit.com/r/SideProject/comments/1kwput4/hit_25k_mrr_on_my_reddit_marketing_saas_built_it/",
+        "https://dev.to/ddmarketer/-the-15-highest-intent-micro-saas-ideas-we-scored-1500-complaints-4hn3"
+      ],
+      "how_searched": [
+        "founder MRR dataset (X-verified)",
+        "Reddit founder milestones",
+        "complaint-mining research post"
+      ],
+      "score": 73.0,
+      "found_at": "2026-10-21T19:34:19.206306+00:00"
     },
     {
       "name": "LLM / agent spend & cost observability dashboard",
@@ -5382,6 +5519,27 @@
       ],
       "score": 71.0,
       "found_at": "2026-10-19T21:07:01.248894+00:00"
+    },
+    {
+      "name": "Free Ads-Supported AI Browser Agent for Leads & Job Applications",
+      "field": "Consumer/prosumer AI agents",
+      "summary": "Free browser agent (Chrome + cloud) that completes multi-step web tasks from plain-language prompts—find and enrich leads, send outreach, shortlist creators, fill job applications—monetized via ads/sponsored cards and a free-to-paid credit ladder rather than a hard API-key requirement.",
+      "why_now": "Retriever AI launched free on Product Hunt Oct 14, 2026 finishing #3 same day (#11 for the week, 233 score) with vendor-claimed 35K+ users; browser-agent category is exploding (Claude browser extension 16M users; Browser Use 119K GitHub stars; Browser Harness 2.4M weekly downloads); free+ads is an underserved wedge against subscription-tied agents.",
+      "monetization": "Ad/supported free tier + Starter $9.99/mo / Pro $29.99/mo / Team $99.99/mo / Scale $499.99/mo credit plans (Retriever pricing as reported at launch).",
+      "evidence": [
+        "https://www.producthunt.com/leaderboard/daily/2026/10/14",
+        "https://openaimaster.ai/retriever-ai-browser-agent-review/",
+        "https://www.alphamoat.ai/en/ext/t/ai-browser-automation",
+        "https://agentgid.com/categories/browser/"
+      ],
+      "how_searched": [
+        "Product Hunt daily leaderboard",
+        "third-party launch review",
+        "extension install rankings",
+        "agent download rankings"
+      ],
+      "score": 71.0,
+      "found_at": "2026-10-21T19:34:21.134805+00:00"
     },
     {
       "name": "AI resume + job-application toolkit (ATS-tailored)",
@@ -6055,162 +6213,6 @@
       ],
       "score": 68.0,
       "found_at": "2026-10-15T13:36:27.609801+00:00"
-    },
-    {
-      "name": "LLM API Bill Audit & Overpayment Receipt Tool",
-      "field": "AI developer tools",
-      "summary": "A local proxy/dashboard that sits between your app and LLM APIs, captures per-call token usage, failures and retries, and generates an independent receipt showing what you were billed vs. what you actually used — surfacing overcharges you can dispute.",
-      "why_now": "Inferock (open-source inferock-bench) drew a Product Hunt score of 397 with 62 comments in the week of Oct 12, 2026; enterprise AI spend is projected at ~$115B in 2026 and agent cost overruns are cited as a top observability driver — yet billing remains opaque per provider; distinct from routers (which pick models) this is forensic post-hoc audit, a gap the PH discussion itself frames as 'credits back for failed calls.'",
-      "monetization": "Freemium hosted receipts / dispute-prep exports / team spend alerts; possible rev-share on recovered overbilling. Exact revenue of Inferock is unknown (open-source project) — null.",
-      "evidence": [
-        "https://www.producthunt.com/leaderboard/weekly/2026/42",
-        "https://www.citi.com/ventures/perspectives/opinion/llm-observability-next-major-play.html",
-        "https://octopusbuilds.com/blog/ai-agent-observability-market-size-tools"
-      ],
-      "how_searched": [
-        "Product Hunt weekly leaderboard",
-        "Citi Ventures AI-observability market analysis",
-        "agent-observability market report"
-      ],
-      "score": 68.0,
-      "found_at": "2026-10-16T01:27:24.178441+00:00"
-    },
-    {
-      "name": "Client-side e-invoice & qualified-signature envelope viewer/validator",
-      "field": "fintech / invoice compliance",
-      "summary": "A browser tool that opens and verifies legally-signed e-invoice and document envelopes (Italy/Romania .p7m CAdES, PEC attachments) and validates EU structured formats (Factur-X / UBL / XRechnung), converting to PDF entirely on-device with no upload.",
-      "why_now": "A huge e-invoicing mandate wave is landing now: France went live 1 Sept 2026, Germany starts Jan 2027, Poland/Belgium are live in 2026, Spain 2027–28 and EU ViDA in 2030. Ordinary businesses suddenly receive signed, structured invoices they cannot open, exactly the wedge the Italian .p7m opener proved.",
-      "monetization": "P7M.io (DocKit) charges €3.99 per document, €12.99–€15.99/yr and €24.99 lifetime, has 3,297 paid orders, ~40,000 organic clicks/month, ~$4,604 in L30 revenue and zero staff; listed for sale at $120,000.",
-      "evidence": [
-        "https://p7m.io/",
-        "https://www.wlad.me/blog/companies/p7m-io-italian-digital-signature-reader",
-        "https://www.ey.com/content/dam/ey-unified-site/ey-com/en-gl/technical/tax-guides/documents/ey-gl-e-invoicing-development-tracker.pdf",
-        "https://www.avalara.com/us/en/simplify/e-invoicing-hub.html"
-      ],
-      "how_searched": [
-        "product site",
-        "verified-revenue tracker",
-        "regulation trackers (EY, Avalara)",
-        "government source"
-      ],
-      "score": 68.0,
-      "found_at": "2026-10-17T14:05:41.633670+00:00"
-    },
-    {
-      "name": "Local Business Review Monitoring & Response Dashboard",
-      "field": "Local Marketing / Reputation Management",
-      "summary": "A unified dashboard that aggregates Google, Yelp, Facebook, and Apple Maps reviews for multi-location businesses. AI drafts responses, flags sentiment drops, tracks competitor ratings, and pushes review requests via SMS/email.",
-      "why_now": "MicroGaps: $20-35/mo, high willingness to pay — reviews directly affect revenue; Gorgias: 2.5M monthly visits doing review management for ecommerce; SeekTool: Zigpoll alternatives include review tools with 1.1M+ visits. 67% of Fortune 500 deploy AI tools but local businesses underserved.",
-      "monetization": "Per-location SaaS: $29/mo (1 location), $79/mo (5), $199/mo (20+). White-label for agencies $299/mo. Upsell: review generation campaigns, local SEO audit, competitor benchmarking.",
-      "evidence": [
-        "https://www.microgaps.com/blog/boring-micro-saas-ideas-that-make-money",
-        "https://seektool.ai/ai/zigpoll-com/alternatives",
-        "https://www.laxis.com/blog/state-of-meeting-note-taking-2026/"
-      ],
-      "how_searched": [
-        "Micro-SaaS idea validation blogs (MicroGaps)",
-        "Competitor traffic analysis (SeekTool)",
-        "Enterprise adoption statistics (Laxis) as proxy for SMB gap"
-      ],
-      "score": 68.0,
-      "found_at": "2026-10-18T14:57:59.966396+00:00"
-    },
-    {
-      "name": "Counterfeit & unauthorized-listing scanner for small brands",
-      "field": "Brand protection / e-commerce",
-      "summary": "Affordable web scanner that watches marketplaces for copied images, fake listings and rogue sellers of a brand's SKUs, scores risk and prepares takedown packets — built for small brands priced out of enterprise brand-protection suites.",
-      "why_now": "IdeaFast's Sept 2026 scan of 10,406 Reddit posts scores 'counterfeit-listing monitor' (r/ecommerce) at 92/100 pain. Paid supply exists but is expensive and enterprise-shaped: Red Points claims 1,300+ brands; IP Moat starts $105/mo for one marketplace ($529 for 30+); Truviss scans 5,000+ marketplaces; ImgGuard 70+. Small Shopify/Etsy sellers still have no cheap automated option — the same 'enterprise tool unaffordable for SMBs' wedge that produced known horizontal successes.",
-      "monetization": "SaaS $29–109/mo SMB tiers (vs $105–1,350 current), per-marketplace add-ons, takedown filing fees; enterprise players prove budget exists.",
-      "evidence": [
-        "https://www.ideafast.pro/blog/saas-ideas-from-reddit-pain-points",
-        "https://ipmoat.ai/",
-        "https://www.redpoints.com/usecase/counterfeit-protection/",
-        "https://truviss.com/marketplace-scanner/",
-        "https://imgguard.com/EcommerceBrandProtection"
-      ],
-      "how_searched": [
-        "Reddit pain-signal dataset",
-        "vendor pricing pages (4 vendors)",
-        "enterprise vendor customer counts"
-      ],
-      "score": 68.0,
-      "found_at": "2026-10-18T18:11:57.669052+00:00"
-    },
-    {
-      "name": "Local secret/PPI scanner for coding-agent session logs",
-      "field": "Developer privacy / AI ops",
-      "summary": "Free local tool that inspects Claude Code/Codex/copilot CLI session transcripts and MCP traffic for leaked API keys, tokens, and personal data before they hit model providers.",
-      "why_now": "shim-cli took PH #3 on Oct 18 2026 and Context Trace trended the same week after an opencode console compromise ran up charges via linked keys—agent data leakage is a live, news-backed pain.",
-      "monetization": "Free OSS core; paid enterprise DLP policies / team dashboards. null for our own revenue.",
-      "evidence": [
-        "https://www.producthunt.com/leaderboard/daily/2026/10/18",
-        "https://wire.rundatarun.io/briefs/2026-10-18",
-        "https://getshim.tech/products/shim-cli"
-      ],
-      "how_searched": [
-        "Product Hunt daily board",
-        "daily AI brief",
-        "product site"
-      ],
-      "score": 68.0,
-      "found_at": "2026-10-18T20:57:40.972673+00:00"
-    },
-    {
-      "name": "AI Ad Creative Testing Workspace",
-      "field": "Performance marketing",
-      "summary": "Generate ad variants from a product URL, launch small-budget tests, and promote winners with automatic creative iteration.",
-      "why_now": "Fastlane reports 70,000+ brands and $83K MRR, showing strong willingness to pay for AI ad creation and scaling. Freelance demand for graphic design (323 new Upwork jobs/day at ~$24/hr) and video editing (314/day at ~$18/hr) shows the manual work being displaced.",
-      "monetization": "Subscription tiers by ad volume; usage-based generation credits; managed optimization upsell.",
-      "evidence": [
-        "https://www.usefastlane.ai",
-        "https://coffounder.com/blog/micro-saas-examples-with-revenue",
-        "https://flconsole.com/blog/upwork-in-demand-skills"
-      ],
-      "how_searched": [
-        "vendor landing-page review",
-        "micro-SaaS revenue database",
-        "freelance job-demand data"
-      ],
-      "score": 68.0,
-      "found_at": "2026-10-19T15:43:22.961322+00:00"
-    },
-    {
-      "name": "AI paid-media management agent (multi-channel ads)",
-      "field": "Marketing / advertising",
-      "summary": "A conversational agent that plans, launches and optimizes Google/Meta/LinkedIn/TikTok ad campaigns for small businesses that can't afford an agency — free for one channel, paid for more.",
-      "why_now": "One-person-usable ad agents already earn: Adspirer reports $54,684 MRR on TrustMRR. The AI-marketing-agent space is being funded heavily (JustAI $17M Series A, 5x ARR; Zernio raised as 'marketing infrastructure for products and agents'), and 'display advertising' is among Upwork's fastest-growing sales skills (+26%).",
-      "monetization": "Managed-spend subscriptions and performance fees; incumbents charge retainers or % of ad spend, leaving room for a low-cost/free self-serve tier.",
-      "evidence": [
-        "https://trustmrr.com/",
-        "https://www.prnewswire.com/news-releases/justai-raises-17m-series-a-to-build-an-agentic-marketing-platform-302807090.html",
-        "https://www.upwork.com/research/in-demand-skills-2026"
-      ],
-      "how_searched": [
-        "verified-revenue marketplace directory (TrustMRR)",
-        "tech-news funding coverage (PR Newswire)",
-        "freelance demand report"
-      ],
-      "score": 67.0,
-      "found_at": "2026-10-10T21:46:54.147902+00:00"
-    },
-    {
-      "name": "Multi-Project Ops Center for Solo Builders",
-      "field": "developer tools / analytics",
-      "summary": "A dashboard that puts traffic, errors, user feedback and cookie consent for every small project a builder ships onto one screen, with an inbox prioritising what needs attention.",
-      "why_now": "Vibesmonitor launched on Product Hunt on Oct 13, 2026 and hit #12 with 90 upvotes, built explicitly for the wave of solo AI-assisted builders running several projects at once; it reports 100k+ requests/month since its 2025 launch.",
-      "monetization": "Free tier plus paid Pro plans for growing projects; MCP/agent integration as an upsell.",
-      "evidence": [
-        "https://www.producthunt.com/leaderboard/daily/2026/10/13",
-        "https://hunted.space/product/vibesmonitor",
-        "https://www.indiehackers.com/post/launch-vibesmonitor-analytics-error-tracking-and-feedback-0ef5f7acc4"
-      ],
-      "how_searched": [
-        "launch site leaderboard",
-        "Product Hunt tracker",
-        "indie-hacker community"
-      ],
-      "score": 67.0,
-      "found_at": "2026-10-13T23:20:50.532589+00:00"
     }
   ]
 }
