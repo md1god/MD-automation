@@ -318,6 +318,25 @@
       "found_at": "2026-10-20T00:38:21.063999+00:00"
     },
     {
+      "name": "Vertical B2B SaaS for Blue-Collar Trades (Fire Protection, Construction Specialty, AV Rental)",
+      "field": "Vertical SaaS",
+      "summary": "Deeply embedded software for specific, regulated, or operationally complex trades: fire protection compliance, construction job costing/lien waivers/AIA billing, AV/equipment rental operations. Not generic tools — workflow-specific, regulation-aware, data-heavy.",
+      "why_now": "Horizontal SaaS fails in these niches (high CAC, high churn). Vertical pivots show dramatic metrics: construction pivot dropped CAC from $1,420 to $285, churn from 5.4% to 1.8%, grew to $32K MRR in 6 months. Fire protection SaaS at $2.6K MRR with zero paid acquisition. AV rental platform (Rentman) at $15M–$20M ARR. Founders with domain experience win.",
+      "monetization": "B2B subscriptions ($100–$500/mo per company). Construction vertical: $32K MRR. Fire protection: $2.6K MRR, 25 customers, zero paid ads. Rentman: $15M+ ARR.",
+      "evidence": [
+        "https://www.reddit.com/r/SaaS/comments/1qt5s62/construction_vertical_saved_us_from_horizontal/",
+        "https://www.reddit.com/r/micro_saas/comments/1viw05l/b2b_saas_26k_mrr_with_zero_paid_acquisition/",
+        "https://www.indiehackers.com/post/tech/building-a-15m-arr-saas-from-a-gap-he-found-at-his-brick-and-mortar-HFriCBQLHukAmdXVEj1q"
+      ],
+      "how_searched": [
+        "Reddit (r/SaaS, r/micro_saas)",
+        "Indie Hackers case studies",
+        "Vertical SaaS revenue reports"
+      ],
+      "score": 90.0,
+      "found_at": "2026-10-21T10:33:17.646474+00:00"
+    },
+    {
       "name": "AI Search Visibility / GEO Tracking Dashboard",
       "field": "Marketing / SEO / AI Visibility",
       "summary": "A free web dashboard that tracks brand citations, visibility %, position, and sentiment across ChatGPT, Perplexity, Gemini, Google AI Overviews, and Claude — with side-by-side organic vs AI traffic comparison to detect cannibalization (per Omio A/B test).",
@@ -632,6 +651,25 @@
       ],
       "score": 88.0,
       "found_at": "2026-10-20T00:38:36.313072+00:00"
+    },
+    {
+      "name": "WhatsApp Business CRM with AI Lead Qualification (LATAM/SMB Focus)",
+      "field": "Vertical SaaS / Chrome Extension",
+      "summary": "A Chrome extension that adds bulk messaging, AI-powered lead qualification, and CRM features directly into WhatsApp Web. Targets small businesses in Latin America and other WhatsApp-heavy markets where WhatsApp is the primary business communication channel.",
+      "why_now": "WhatsApp is the default business communication tool across LATAM, India, Southeast Asia, and parts of Europe. SMBs manage leads manually in chat with no CRM. Two independent builders recently hit revenue: Wapes AI reached $500 in 2 months (10 paying users across 5 LATAM countries) and a WhatsApp CRM SaaS hit $7K MRR with 160+ paying customers at $49/mo. Chrome Web Store provides free organic distribution.",
+      "monetization": "Freemium Chrome extension ($4.99–$14.99/mo) or standalone SaaS ($49/mo per account). Wapes AI: $500 revenue in 60 days. WhatsApp CRM SaaS: $7K MRR, 160+ customers, $49/mo.",
+      "evidence": [
+        "https://www.reddit.com/r/chrome_extensions/comments/1wnhd53/update_crossed_500_in_revenue_with_my_chrome/",
+        "https://www.reddit.com/r/microsaas/comments/1rk28jj/crossed_7kmo_with_my_second_saas_heres_what_i_did/",
+        "https://www.reddit.com/r/chrome_extensions/comments/1vpavwf/my_chrome_extension_made_217_in_its_first_week/"
+      ],
+      "how_searched": [
+        "Reddit (r/chrome_extensions, r/microsaas)",
+        "Indie Hackers revenue reports",
+        "Chrome Web Store organic search"
+      ],
+      "score": 88.0,
+      "found_at": "2026-10-21T10:33:16.743266+00:00"
     },
     {
       "name": "Retro digicam / film-camera filter web app (Y2K & CCD look)",
@@ -1278,6 +1316,25 @@
       ],
       "score": 85.0,
       "found_at": "2026-10-20T20:53:39.930369+00:00"
+    },
+    {
+      "name": "Bulk Google Workspace Operations Chrome Extensions (Photos, Gmail, Drive)",
+      "field": "Productivity Tools / Chrome Extensions",
+      "summary": "Niche Chrome extensions that add bulk operations missing from Google Workspace: bulk edit/delete/download Google Photos, bulk save Gmail attachments to Drive, bulk operations on Drive files. Each solves one specific, painful gap in Google's native UI.",
+      "why_now": "Google Workspace has billions of users but lacks basic bulk operations. Multiple indie builders are quietly monetizing these gaps: Google Photos bulk editor at $600 MRR (650 WAU, 37% store-page-to-install), Gmail attachment bulk-saver at $215 MRR after 8 months, Google Apps Script AI assistant (OKEGAS) did $1,200 revenue in 4 days with 50% paid conversion. Chrome Web Store SEO drives organic installs.",
+      "monetization": "Freemium Chrome extensions ($5–$15/mo or lifetime). Google Photos bulk: $600 MRR. Gmail attachments: $215 MRR. OKEGAS: $1,200 in 4 days, 1,000 users, 4.89 rating.",
+      "evidence": [
+        "https://www.reddit.com/r/SaaS/comments/1w03znn/what_i_learned_getting_a_tiny_google_photos/",
+        "https://www.reddit.com/r/chrome_extensions/comments/1rru4ab/people_making_serious_mrr_from_chrome_extensions/",
+        "https://www.reddit.com/r/chrome_extensions/comments/1slp0z7/hit_240_installs_with_almost_50_percent_paid/"
+      ],
+      "how_searched": [
+        "Reddit (r/SaaS, r/chrome_extensions)",
+        "Chrome Web Store rankings",
+        "Indie Hackers milestone posts"
+      ],
+      "score": 85.0,
+      "found_at": "2026-10-21T10:33:16.875559+00:00"
     },
     {
       "name": "AI Video Generation & Editing for Short-Form",
@@ -2108,6 +2165,25 @@
       ],
       "score": 82.0,
       "found_at": "2026-10-21T05:12:10.289895+00:00"
+    },
+    {
+      "name": "Shopify Micro-App Portfolio (Multiple Small Apps vs Single Platform)",
+      "field": "E-commerce / Shopify Ecosystem",
+      "summary": "Instead of building one large Shopify app, build a portfolio of 5–10 micro-apps each solving a specific merchant frustration (bundles, upsells, quantity breaks, virtual try-on, music players). Cross-sell via shared branding and App Store SEO.",
+      "why_now": "Shopify App Store acts like SEO — merchants search for specific problems. Multiple builders prove the portfolio model: $4K MRR with 6 apps (3,500+ installs, 350+ paying), $100K+ MRR portfolio (Kaching Appz), virtual try-on app hit $700 MRR in 3 months. Low CAC via App Store search (~70% of installs).",
+      "monetization": "Monthly subscriptions per app ($5–$30/mo). Portfolio of 6 apps: $4,204 MRR, 350+ paying. Kaching portfolio: 6-figure MRR. Virtual try-on: $700 MRR.",
+      "evidence": [
+        "https://www.reddit.com/r/SaaS/comments/1roedkc/4k_mrr_with_6_shopify_apps_goal_10kmrr/",
+        "https://www.indiehackers.com/post/tech/getting-out-of-the-freelancing-game-by-building-a-100k-mrr-shopify-app-portfolio-qdReVAgLjz6EpW4OrJSI",
+        "https://www.reddit.com/r/SideProject/comments/1qbq04l/building_a_virtual_tryon_shopify_app_to_700_mrr/"
+      ],
+      "how_searched": [
+        "Reddit (r/SaaS, r/SideProject)",
+        "Indie Hackers case studies",
+        "Shopify App Store search analysis"
+      ],
+      "score": 82.0,
+      "found_at": "2026-10-21T10:33:17.246765+00:00"
     },
     {
       "name": "AI SDR & Autonomous Sales Agents",
@@ -3211,6 +3287,25 @@
       "found_at": "2026-10-21T05:12:12.151469+00:00"
     },
     {
+      "name": "Google Apps Script AI Copilot Chrome Extension",
+      "field": "Developer Tools / Google Workspace",
+      "summary": "AI coding assistant embedded directly in the Google Apps Script editor (script.google.com). Generates, reviews, and applies code; fixes errors from execution logs; supports BYOK (Bring Your Own Key) for multiple LLM providers.",
+      "why_now": "25,000+ signups for Google Apps Script Copilot (10K active users, 4.0 rating). OKEGAS competitor hit 1,000 users in 6 months, 4.89 rating, $1,200 revenue in first 4 days with 50% paid conversion. Apps Script developers (millions) have no native AI assistance. Chrome extension distribution is free and organic.",
+      "monetization": "Freemium Chrome extension with BYOK (free tier) + paid tiers for advanced modes (autonomous agent, more providers). OKEGAS: Free/Plus/Pro tiers. GS Copilot: paid features detected, Stripe checkout.",
+      "evidence": [
+        "https://www.linkedin.com/posts/hassan-raza-531152109_googleappsscript-developertools-ai-activity-7502799984707297280-w628",
+        "https://www.reddit.com/r/chrome_extensions/comments/1slp0z7/hit_240_installs_with_almost_50_percent_paid/",
+        "https://chromewebstore.google.com/detail/google-apps-script-copilo/aakmllddlcknkbcgjabmcgggfciofbgo"
+      ],
+      "how_searched": [
+        "LinkedIn (product announcements)",
+        "Reddit (r/chrome_extensions)",
+        "Chrome Web Store listings"
+      ],
+      "score": 78.0,
+      "found_at": "2026-10-21T10:33:18.360286+00:00"
+    },
+    {
       "name": "Browser Extension AI Productivity Tools",
       "field": "Consumer / Productivity",
       "summary": "Chrome/Firefox/Edge extensions that bring AI into the browser — sidebar chat, page summarization, writing assistance, workflow automation, content extraction — with freemium subscriptions.",
@@ -3782,6 +3877,25 @@
       "found_at": "2026-10-21T05:12:13.494353+00:00"
     },
     {
+      "name": "SEO Automation SaaS for Founders (with GEO/AI Search Visibility)",
+      "field": "Marketing Tech / SEO",
+      "summary": "Automates entire SEO workflow: keyword research, content generation/optimization, ranking tracking, technical audits, AND AI search visibility (GEO) tracking across ChatGPT, Perplexity, Gemini. Targets founders/agencies, not enterprises.",
+      "why_now": "Founder hit $50K ARR ($4,457 MRR) in 3 months solo, no funding. Content/SEO assets compound. GEO is rising — Gartner: 25% search shifted to AI by 2026. Existing tools either do SEO OR GEO, not both. Founders want one tool.",
+      "monetization": "SaaS subscription ($79–$200/mo). $4,457 MRR in 3 months. Competitors: Semrush $99/mo (adds AI visibility), Otterly $90/mo, Peec €89/mo.",
+      "evidence": [
+        "https://www.reddit.com/r/micro_saas/comments/1rcobbr/i_just_hit_50k_arr_in_3_months_i_honestly_cant/",
+        "https://www.reddit.com/r/SaaS/comments/1rddphi/built_an_seo_automation_saas_google_ai_search/",
+        "https://www.reddit.com/r/Agent_SEO/comments/1svs74t/honest_review_of_the_aeo_tool_market_in_2026_i/"
+      ],
+      "how_searched": [
+        "Reddit (r/micro_saas, r/SaaS, r/Agent_SEO)",
+        "Indie Hackers revenue milestones",
+        "GEO tool market reviews"
+      ],
+      "score": 76.0,
+      "found_at": "2026-10-21T10:33:19.917972+00:00"
+    },
+    {
       "name": "Invoice & AP Automation (AI-First)",
       "field": "Fintech / B2B SaaS",
       "summary": "End-to-end invoice processing: email/file intake → AI extraction (line items, PO matching) → validation → ERP/accounting sync → approval workflow → payment — with KPI dashboards (cost/invoice, cycle time, touchless rate).",
@@ -4048,6 +4162,25 @@
       ],
       "score": 75.0,
       "found_at": "2026-10-21T05:12:14.956276+00:00"
+    },
+    {
+      "name": "Bot-Free AI Meeting Note Taker Chrome Extension",
+      "field": "Productivity / Meeting Tools",
+      "summary": "Chrome extension that records Google Meet/Zoom/Teams meetings without a bot joining the call. Generates AI notes, action items, searchable transcripts, and video. Free tier includes 10 meetings/month across all platforms.",
+      "why_now": "Meeting load has 3x'd since 2020. Bot-based notetakers (Otter, Fireflies) are intrusive and capped on free tiers. Scribbl: 60K users, 5.0 rating (3,000 reviews), $13/mo. Bluedot: 80K users, 4.97 rating. Tactiq: 1M users, 4.8 rating. Chrome Web Store is primary distribution — zero paid ads needed.",
+      "monetization": "Freemium: free tier (10 meetings/mo) → $13–$20/mo unlimited. Scribbl: 60K users, $13/mo. Bluedot: 80K users. Tactiq: 1M users.",
+      "evidence": [
+        "https://scribbl.co/post/best-ai-chrome-extensions",
+        "https://chrome-stats.com/d/aeeninnnlhgaojlolnbpljadhbionlal",
+        "https://zplatform.ai/best-ai-tools/ai-chrome-extensions/"
+      ],
+      "how_searched": [
+        "Chrome Web Store rankings",
+        "Product review sites (zPlatform, Scribbl blog)",
+        "Chrome-Stats analytics"
+      ],
+      "score": 75.0,
+      "found_at": "2026-10-21T10:33:19.486187+00:00"
     },
     {
       "name": "Chat-first personal AI assistant (web app)",
@@ -4344,6 +4477,25 @@
       ],
       "score": 74.0,
       "found_at": "2026-10-18T23:24:36.885144+00:00"
+    },
+    {
+      "name": "Fractional AI Operations / Automation Agency (Productized Service)",
+      "field": "AI Services / Agency Model",
+      "summary": "Productized service: find 5–10 hours/week of repetitive work at a client (reporting, data entry, onboarding, lead routing) and build n8n/Claude/OpenAI automations for a monthly retainer. Not a tool — a service with tooling.",
+      "why_now": "Multiple agencies hitting $2K–$120K MRR: Emerge Automations £2K MRR in 7 months, SpaceAI360 $1K MRR in months, $120K/mo agency at age 22. Stack: n8n + Callin.io + Cal.com. Unit economics: $300–$800 MRR/client, 80% margins. Demand from non-tech SMBs who can't hire engineers.",
+      "monetization": "Monthly retainers (£200–£2,000/mo per client). Emerge: £2K MRR month 7. SpaceAI360: $1K MRR. $120K/mo agency. Unit: $300–$800 MRR/client, 80% margin.",
+      "evidence": [
+        "https://www.reddit.com/r/SideHustleGold/comments/1sr8v2f/turned_an_ai_agency_side_hustle_into_my_main/",
+        "https://www.indiehackers.com/post/building-spaceai360-how-we-hit-1k-mo-automating-complex-workflows-with-n8n-custom-ai-agents-mL8ZFkHSREH55sHnf5FS",
+        "https://www.reddit.com/r/youngentrepreneur/comments/1ssmyv5/megathread_how_i_built_a_120kmo_ai_agency_at_22/"
+      ],
+      "how_searched": [
+        "Reddit (r/SideHustleGold, r/youngentrepreneur)",
+        "Indie Hackers case studies",
+        "AI automation community discussions"
+      ],
+      "score": 74.0,
+      "found_at": "2026-10-21T10:33:20.211585+00:00"
     },
     {
       "name": "Personal data-broker opt-out & removal-request generator",
@@ -6024,163 +6176,6 @@
       ],
       "score": 66.0,
       "found_at": "2026-10-18T11:14:59.786868+00:00"
-    },
-    {
-      "name": "Gamified web focus timer with collectible rewards",
-      "field": "Productivity / consumer web",
-      "summary": "Free Pomodoro-style focus timer with an illustrated companion, collectable rewards for finished sessions and streak mechanics — a web rebuild of the viral 'cat timer' formula that monetizes via one-time lifetime unlock.",
-      "why_now": "Starter Story interview (Jul 2026, fact-checked Oct 2026 by IncomeIdeaLab): a solo-built cat-themed Pomodoro app hit ~127K downloads and close to $80K in 8–9 months, with a $18K+ best-30-days after organic Instagram/Threads virality — pure demand proof that collectible-wrapped commodity focus tools still convert on the open market. a16z's Oct 2026 report stresses consumer AI needs non-subscription models; a free web timer with lifetime unlocks fits.",
-      "monetization": "$29.99 lifetime / $19.99 yr (proven mix, 'most sales from lifetime'); web rebuild: free core, paid cosmetics/themes/extra cats, family share.",
-      "evidence": [
-        "https://frontiermodels.cc/video/i-built-this-app-for-my-dad-now-it-makes-18k-month/",
-        "https://incomeidealab.com/research/cat-timer-app-18k-is-a-peak-month-of-mostly-lifetime-sales",
-        "https://a16z.com/100-gen-ai-apps-7/"
-      ],
-      "how_searched": [
-        "founder revenue interview (Starter Story)",
-        "independent fact-check of revenue claims",
-        "consumer-AI monetization report"
-      ],
-      "score": 66.0,
-      "found_at": "2026-10-18T18:11:58.586480+00:00"
-    },
-    {
-      "name": "AI Mock-Interview Coach",
-      "field": "career / interview prep",
-      "summary": "A free web tool that reads a job description, maps the likely interview rounds, runs a realistic spoken mock interview, and scores each answer with a stronger rewrite built from what the candidate said.",
-      "why_now": "Toby launched Oct 13, 2026 and landed top-10 on Product Hunt (97-103 upvotes) with a simple pay-per-minute model, and the broader candidate-AI job-search wave (ResumeUp, Fitly, Rezi) shows interview prep is the natural next sale after resume tailoring.",
-      "monetization": "Pay-per-minute on calls (50p/min, first 5 minutes free) plus prep-brief/debrief features included; free web version could upsell premium minutes.",
-      "evidence": [
-        "https://usetoby.ai/",
-        "https://hunted.space/product/toby-5",
-        "https://headstart.news/articles/67e27b55e5633db66a1ce93847bf794d"
-      ],
-      "how_searched": [
-        "Product Hunt launch tracker",
-        "product site/FAQ",
-        "launch news roundup"
-      ],
-      "score": 65.0,
-      "found_at": "2026-10-13T23:20:51.238649+00:00"
-    },
-    {
-      "name": "Human approval gate / open protocol for AI-agent tool calls",
-      "field": "AI infrastructure",
-      "summary": "An open, self-hostable approval layer that intercepts AI agents' tool calls before execution: rules auto-approve routine calls, risky ones route to a human via chat, one policy set across Claude Code, Codex and custom agents.",
-      "why_now": "withHuman launched on Product Hunt Oct 15, 2026 (108 points) introducing an open Agent Approval Protocol with a hosted tier; Exploding Topics (Oct 6, 2026) shows 'AI Guardrails' at +8,400% five-year search growth; the Oct 17 aggregator read the same week as 'constraint beats capability,' with governance launches out-voting capability plays — agents have left demos and entered operations where approval is the bottleneck.",
-      "monetization": "Open-core: free self-host + hosted per-seat plans (withHuman offers 3 free months of Scale via PH code); enterprise SSO/policy tiers are the upsell. Revenue for withHuman: null.",
-      "evidence": [
-        "https://www.producthunt.com/leaderboard/daily/2026/10/15",
-        "https://www.producthunt.com/products/withHuman",
-        "https://explodingtopics.com/blog/trending-topics",
-        "https://productlist.info/daily/2026-10-17"
-      ],
-      "how_searched": [
-        "Product Hunt daily leaderboard",
-        "product launch page",
-        "5-year search-growth database",
-        "daily aggregator trend analysis"
-      ],
-      "score": 65.0,
-      "found_at": "2026-10-17T17:18:26.245977+00:00"
-    },
-    {
-      "name": "AI study & exam-practice platform",
-      "field": "Education / online learning",
-      "summary": "A free web app that generates exam-style practice questions from any syllabus (or past papers) with instant feedback and adaptive review, plus an AI tutor.",
-      "why_now": "Gauth topped Product Hunt's October list (468 points, 200M+ downloads since 2020), Coddy reports 5M+ learners, a niche CELPIP practice-site hit $1,101 MRR in 59 days, and 'a&p 1 study tips' surged +330% on TikTok in the first week of October 2026.",
-      "monetization": "Freemium subscriptions/ads; Coddy is free-forever with premium, Gauth and niche exam-prep sites convert urgency (exam dates) into paid users.",
-      "evidence": [
-        "https://www.producthunt.com/leaderboard/monthly/2026/10",
-        "https://www.producthunt.com/leaderboard/daily/2026/10/6",
-        "https://tokconnect.com/guides/tiktok-trends-2026/"
-      ],
-      "how_searched": [
-        "launch site (Product Hunt)",
-        "indie-revenue dataset",
-        "TikTok search-volume analysis",
-        "web search engine"
-      ],
-      "score": 64.0,
-      "found_at": "2026-10-07T23:12:54.033092+00:00"
-    },
-    {
-      "name": "Free no-signup, no-subscription web tools",
-      "field": "Consumer web / Privacy",
-      "summary": "Single-purpose web tools that work instantly with no account, no subscription and (where possible) no server round-trip — the opposite of gated AI SaaS.",
-      "why_now": "NoteWorthy ('on-device AI, no account, no subscription') hit #10 on Product Hunt's daily leaderboard for Oct 6, 2026 with a score of 109; independently, magicremover.org — 'free, no-signup image tool' — grew +4,374% MoM to 62.2K visits in the tracked AI-site sample.",
-      "monetization": "Ad-supported or optional one-time pro unlocks; monetization per user is small — judged honestly as a traffic play first (upstream to paid products).",
-      "evidence": [
-        "https://www.producthunt.com/leaderboard/daily/2026/10/6",
-        "https://noteworthy.wtf/",
-        "https://dev.to/i007/reverse-engineering-ai-tool-sites-how-to-read-traffic-data-like-a-growth-analyst-390",
-        "https://roipad.com/saas-metrics/product/ph_4065/noteworthy"
-      ],
-      "how_searched": [
-        "launch site (Product Hunt daily leaderboard)",
-        "product site (no-account/no-server claims)",
-        "traffic-growth analysis via dev.to (fastest-growing AI sites)",
-        "third-party launch data mirror (roipad)"
-      ],
-      "score": 64.0,
-      "found_at": "2026-10-08T03:07:50.510814+00:00"
-    },
-    {
-      "name": "Online will / estate-document builder",
-      "field": "Legal tech / estate planning",
-      "summary": "A guided web questionnaire that produces a jurisdiction-aware will and related documents (power of attorney, healthcare directive), optionally bundled with digital-asset inventory.",
-      "why_now": "Structural demand keeps rising: online will/estate services grow from ~$0.97B in 2025 to $2.78B by 2034 (12.5% CAGR) with self-service at 54.3% share and LegalZoom alone estimated at $0.35-0.40B annual revenue; a separate estimate has it growing from $587.6M in 2026 to $1,364.77M by 2035 (9.3% CAGR). Drivers are remote online notarization laws, digital-asset succession, and a large intergenerational wealth transfer. (Market-size estimates vary widely by firm.)",
-      "monetization": "Flat per-document ($100-$300 self-service), tiered managed review ($500-$1,200), or annual subscription for updates and bundled documents; fintech/advisor referral fees.",
-      "evidence": [
-        "https://dataintelo.com/report/online-will-service-market",
-        "https://www.marketgrowthreports.com/market-reports/online-will-writing-service-market-108052",
-        "https://www.verifiedmarketreports.com/product/online-will-writing-service-market/"
-      ],
-      "how_searched": [
-        "market-research reports (multiple firms)",
-        "web search"
-      ],
-      "score": 64.0,
-      "found_at": "2026-10-08T23:25:34.384248+00:00"
-    },
-    {
-      "name": "Faceless / automated YouTube channel operating system",
-      "field": "Creator Economy / AI content tools",
-      "summary": "A rebuilt free web tool that runs the whole pipeline for monetized 'faceless' YouTube channels: niche & trend research, script generation, text-to-voiceover and stock-video assembly, auto-descriptions/tags/thumbnail guidance, and a publish+monetization plan.",
-      "why_now": "The strongest cluster in Fiverr's 2026 Business Trends Index: searches for 'YouTube automation faceless channels' are up +239% (Digital Marketing) and +230% (Video & Animation), with AI video demand overall up +278%; Gumroad is full of best-selling faceless-channel playbooks (priced ~$15–47) and Reddit (r/FacelessVideos) shows working channels earning $5K–50K/mo.",
-      "monetization": "Freemium + usage credits; affiliate revenue from video/voice/stock tools. Gumroad equivalent is one-off playbooks at $15–47; a SaaS version can charge monthly. No verified revenue figure for this exact idea (null).",
-      "evidence": [
-        "https://www.fiverr.com/news/business-trends-index-ai-2026",
-        "https://stealwhatworks.com/blogs/news/fiverr-services-growing-fastest-now",
-        "https://techninjaa.gumroad.com/l/YouTube",
-        "https://www.reddit.com/r/FacelessVideos/comments/1s5f01h/i_researched_50_faceless_ai_youtube_channels/"
-      ],
-      "how_searched": [
-        "Freelance marketplace trend reports (Fiverr Business Trends Index)",
-        "Digital-goods marketplace (Gumroad listings)",
-        "Community/forum threads (Reddit)",
-        "Independent analysis blogs cross-checking Fiverr data"
-      ],
-      "score": 64.0,
-      "found_at": "2026-10-10T00:11:08.325209+00:00"
-    },
-    {
-      "name": "24-Hour Job-Window Freshness Hunter",
-      "field": "Consumer job search",
-      "summary": "Job tool that only surfaces postings from the last ~24 hours, ranks by how fast the application window is closing, and pairs that with per-role CV reshaping and referral sequencing—not mass Easy Apply blasts.",
-      "why_now": "A r/jobsearch playbook (372 upvotes, Oct 9–12) argues job search is a timing problem: rewrite the CV every time, never Easy Apply, filter to last-24h posts or the 'unemployed flash flood' has already won. Existing AI job tools optimize writing volume; freshness ranking is still open. Education/self-improvement and career tools remain top Reddit willingness-to-pay clusters.",
-      "monetization": "Free freshness feed; paid CV-tailoring packs, referral CRM and alerts. Direct MRR was null; category peers in the Oct 2026 indie set hit four-figure MRR within ~2 months when niche (e.g. exam-prep practice).",
-      "evidence": [
-        "https://engaggit.com/blog/app-ideas-2026-10-12",
-        "https://www.reddit.com/r/jobsearch/comments/1x34btr/lie_just_lie/",
-        "https://productlist.info/daily/2026-10-15"
-      ],
-      "how_searched": [
-        "Reddit job-search demand thread",
-        "ProductList wish-post census commentary"
-      ],
-      "score": 64.0,
-      "found_at": "2026-10-15T18:32:24.005947+00:00"
     }
   ]
 }
