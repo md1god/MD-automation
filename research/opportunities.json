@@ -196,6 +196,31 @@
       "found_at": "2026-10-21T05:11:40.587693+00:00"
     },
     {
+      "name": "AI Content Repurposing Platform (Multi-Format)",
+      "field": "Creator Economy / Marketing SaaS",
+      "summary": "A web tool that takes one long-form input (podcast, video, webinar, blog post) and automatically generates publish-ready assets for every platform: LinkedIn posts, X threads, Instagram captions, TikTok scripts, email newsletters, blog drafts, quote cards, and audiograms — all in the creator's voice via saved prompt chains.",
+      "why_now": "Explosive creator demand for 'write once, publish everywhere' workflows. CastMagic hit ~$130K MRR in 10 months (Starter Story, ProvenStartups). Repurpose.io reached $5M ARR bootstrapped (Latka, Vantaige). Swell AI hit $1.1M ARR in 2 years (Startup Founder Stories). Autoclip shows $13K MRR verified (TrustMRR). Proclips verified on TrustMRR. ClipNow at $220K ARR (Latka). Deep Dive research shows single-platform tools (Taplio $3.5M ARR LinkedIn-only, EasyGen $41.5K MRR in 92 days) prove 5-7x addressable market for multi-platform tools.",
+      "monetization": "Subscription SaaS: tiered by transcription hours/output volume. CastMagic: $21-59/mo. Repurpose.io: ~$25-79/mo. Autoclip: $20-80/mo. Proclips: $15-29/mo. High margins (70-80%) — AI costs are fractional per output. Bootstrapped founders keep marketing <20% of revenue.",
+      "evidence": [
+        "https://stationlm.com/analysis/e16b1558-dc64-43e9-8b02-f6f002906455",
+        "https://provenstartups.com/projects/cast-magic-content-repurposing",
+        "https://vantaige.io/ai-tool/repurpose-io",
+        "https://startupfounderstories.com/stories/cody-schneider-swell-ai-1m-arr-cold-outreach",
+        "https://trustmrr.com/startup/autoclip",
+        "https://trustmrr.com/startup/proclips",
+        "https://getlatka.com/companies/clipnow.ai",
+        "https://gist.github.com/kainulla/5304650c3631bb95384f77a37cf3ff72"
+      ],
+      "how_searched": [
+        "Founder revenue interviews (Starter Story, ProvenStartups)",
+        "Verified revenue directories (TrustMRR, Latka)",
+        "Competitor analysis (Deep Dive market research gist)",
+        "Bootstrapped SaaS case studies (Vantaige, Startup Founder Stories)"
+      ],
+      "score": 92.0,
+      "found_at": "2026-10-21T15:40:18.235968+00:00"
+    },
+    {
       "name": "Local-First AI Dictation Web App",
       "field": "Productivity / Accessibility",
       "summary": "A free browser-based dictation tool that transcribes speech to clean text, removes fillers, learns corrections, and supports translation with local-first processing to preserve privacy.",
@@ -403,6 +428,32 @@
       ],
       "score": 89.0,
       "found_at": "2026-10-21T05:11:45.070422+00:00"
+    },
+    {
+      "name": "Agent-to-Agent Commerce Marketplace",
+      "field": "AI Infrastructure / Agent Economy",
+      "summary": "A discovery and transaction layer where autonomous AI agents find, evaluate, and pay other agents for microservices (data retrieval, inference, computation, verification) via micropayments — no human in the loop, no API keys, per-request pricing in stablecoins.",
+      "why_now": "Live infrastructure already processing massive volume: x402 protocol shows 165M+ transactions, $50M+ volume, 480K+ transacting agents (Coinbase Agentic.Market launch, AgentLux). Virtuals Protocol: $479M autonomous GDP, $2.63M monthly revenue, 1.77M completed jobs (Dev.to guide). Fetch.ai Agentverse: 2.7-3M agents deployed (LeoDex). Olas Mech Marketplace: 14.8M agent-to-agent transactions, $110K turnover (Olas.network). NEAR AI Agent Market live (Near.ai). OKX: 10K+ agents, 20K+ tasks since July (Gate.com). toku.agency bridges fiat + agent-to-agent (300+ agents). Anthropic's Project Deal proved agents out-negotiate humans (TechSifted). Daily volume ~$28K and growing.",
+      "monetization": "Protocol fees on each transaction (x402 takes ~0.1-0.5%), marketplace listing fees, featured placement, premium discovery/analytics for agent builders. Virtuals: 1% tax on agent token trades + protocol revenue. toku.agency: platform fee on USD payments. High-volume, low-margin per txn but massive scale potential.",
+      "evidence": [
+        "https://www.coinbase.com/developer-platform/discover/launches/agentic-market",
+        "https://agentlux.ai/blog/the-first-wave-of-agent-to-agent-commerce-what-480-000-agents-and-50m-in-volume-tell-us",
+        "https://dev.to/neilvolner/the-complete-guide-to-ai-agent-marketplaces-in-2026-where-agents-get-hired-and-paid-8ja",
+        "https://olas.network/mech-marketplace",
+        "https://near.ai/blog/what-is-agent-market",
+        "https://www.gate.com/news/detail/okx-launches-ai-agent-marketplace-with-10000-agents-24147172",
+        "https://markhendy.com/the-agentic-economy-has-already-started-167-million-transactions-in",
+        "https://techsifted.com/posts/anthropic-agent-commerce-april-2026/"
+      ],
+      "how_searched": [
+        "Protocol-level transaction data (x402, Coinbase, Base)",
+        "Decentralized marketplace metrics (Virtuals, Fetch.ai, Olas, NEAR)",
+        "Centralized exchange launches (OKX)",
+        "Industry analysis (AgentLux, Dev.to, Mark Hendy)",
+        "Research experiment (Anthropic Project Deal)"
+      ],
+      "score": 89.0,
+      "found_at": "2026-10-21T15:40:22.456939+00:00"
     },
     {
       "name": "PDF/Document Parsing & Data Extraction API",
@@ -841,6 +892,30 @@
       ],
       "score": 87.0,
       "found_at": "2026-10-21T05:11:47.193435+00:00"
+    },
+    {
+      "name": "AI-Powered Accounts Receivable / Invoice Automation",
+      "field": "B2B Fintech / SMB SaaS",
+      "summary": "End-to-end AR automation: AI drafts invoices from contracts/time-tracking, sends at optimal times, runs personalized dunning sequences, reconciles payments to invoices, forecasts cash flow, and surfaces only exceptions for human review. Replaces 4-10 hrs/mo manual billing work.",
+      "why_now": "Clear, measurable ROI driving adoption: Billtrust survey shows 99% of AI adopters reduced DSO, 75% by 6+ days (Billed.app). HighRadius reports 95%+ cash application straight-through. NextClerk at $3.2M ARR, 80 contracts (NextClerk.com). Klooks at $50K MRR bootstrapped (FirstMRR). Parseur at 7-figure ARR, 1,000 customers across 70 countries (FirstMRR). Stripe Billing AI recovers 10-30% more failed payments via Smart Retries (Stripe). Stripe disabled native revenue recognition Aug 2026, charging $25-1,650/mo — forcing migration (Puzzle.io). Average SMB payback: 60-120 days, 14% annual ROI (Sinqra).",
+      "monetization": "SaaS subscription: $50-500/mo for SMBs (Bill.com, Fazeshift, Gaviti, Paraglide, Tesorio tiers). Usage-based on invoice volume (Stripe Billing: 0.5-0.7% of revenue). Custom automation builds: $2,500-8,000 setup + $300-1,200/mo (Codexo). High retention — billing is sticky, mission-critical infrastructure.",
+      "evidence": [
+        "https://nextclerk.com/",
+        "https://billed.app/hub/invoicing/ai-agents-for-accounts-receivable/",
+        "https://americanbusinesscenter.org/guides/ai-agent-invoicing-small-business-2026",
+        "https://sinqra.io/blog/automate-recurring-invoices",
+        "https://puzzle.io/blog/puzzle-automates-revenue-recognition-for-stripe-users",
+        "https://topnotchaitools.com/ai-invoicing-tools-for-small-business-7-compared-2026/"
+      ],
+      "how_searched": [
+        "Verified revenue case studies (FirstMRR)",
+        "Vendor product pages with metrics (NextClerk, Puzzle, Ordway)",
+        "Industry surveys (Billtrust, HighRadius via Billed.app)",
+        "ROI calculators and implementation guides (Sinqra, Zarif Automates, Codexo)",
+        "Tool comparison reviews (TopNotchAITools)"
+      ],
+      "score": 87.0,
+      "found_at": "2026-10-21T15:40:30.918468+00:00"
     },
     {
       "name": "AI Presentation / Deck Generator (Gamma-model)",
@@ -1335,6 +1410,30 @@
       ],
       "score": 85.0,
       "found_at": "2026-10-21T10:33:16.875559+00:00"
+    },
+    {
+      "name": "AI Video Clipping & Repurposing (Long-Form → Shorts)",
+      "field": "Creator Tools / Video AI",
+      "summary": "Web tool that ingests long-form video (YouTube, Twitch, podcast recordings) and automatically extracts viral short clips: speaker-aware framing, word-level captions, filler/silence removal, hook scoring, and auto-scheduling to TikTok/Reels/Shorts. One link → a week of ready-to-post verticals.",
+      "why_now": "Podcasters/streamers sit on hours of unclipped content; editing one Short takes 1+ hour manually. Autoclip: $13K MRR verified, 416 subscriptions (TrustMRR). Proclips: TrustMRR verified, launched June 2026, YouTube/Twitch/Vimeo ingestion, scheduler live (TrustMRR). OpusClip: $215M valuation, 10M users, $68M raised (Deep Dive gist). ClipNow: $220K ARR estimated (Latka). Market validation: AutoShorts.ai hit $103K MRR in 6 months for Shorts-only (MicroGaps), proving demand; long-form clipping is the unserved premium segment.",
+      "monetization": "Freemium: free tier with watermark/clip limits. Paid: $15-80/mo by volume (Autoclip: $20-80, Proclips: $15-29, OpusClip: ~$19-95). High margins — GPU inference cost per clip is cents. Agency/team tiers at $200-500/mo.",
+      "evidence": [
+        "https://trustmrr.com/startup/autoclip",
+        "https://trustmrr.com/startup/proclips",
+        "https://gist.github.com/kainulla/5304650c3631bb95384f77a37cf3ff72",
+        "https://getlatka.com/companies/clipnow.ai",
+        "https://www.microgaps.com/gaps/2026-02-06-faceless-youtube-automation",
+        "https://www.madewithmodels.com/money/lists/faceless-ai-youtube-channel-income/"
+      ],
+      "how_searched": [
+        "Verified revenue directories (TrustMRR)",
+        "Latka revenue estimates",
+        "Market gap analysis (MicroGaps)",
+        "Creator income receipts (MadeWithModels)",
+        "Competitor funding/valuation data (OpusClip via Deep Dive)"
+      ],
+      "score": 85.0,
+      "found_at": "2026-10-21T15:40:33.488591+00:00"
     },
     {
       "name": "AI Video Generation & Editing for Short-Form",
@@ -2186,6 +2285,33 @@
       "found_at": "2026-10-21T10:33:17.246765+00:00"
     },
     {
+      "name": "Local-First AI Switchboard / Model Router (Privacy-First)",
+      "field": "Developer Tools / Privacy Tech",
+      "summary": "A polished desktop/web utility that routes AI requests to local open-source models (via Ollama/LM Studio) by default, falling back to cloud APIs only when the task exceeds local capability. Exposes one OpenAI-compatible endpoint, per-request routing rules, cost savings dashboard, and encrypted local memory. Zero data leaves device unless user approves.",
+      "why_now": "Privacy fatigue + cost pressure driving local-first adoption. Google Trends: 'local llm' 246K monthly searches, ~68x YoY; 'local llms' same (RisingTrends). SurfiAI launched May 2026: 3,800+ active users, 284K API calls, 99.9% uptime (Einpresswire). MumbleFlow: ~$10K revenue in ~1 year, thousands of users (Volanea, Reddit). SurfSense: 16.5K GitHub stars, active Oct 2026 (OpenTechHub). HammerLock AI, Aegis, EdgeProc all shipping local-first. 'LLM model router / cost-optimization calculator' in ALREADY KNOWN is cost-focused; this is privacy/offline-first — different user, different value prop.",
+      "monetization": "Free local-first tier. Pro: $19-49/mo for expanded API usage, all models, team features (SurfiAI). One-time license: $49-99 (Aegis model). Enterprise: self-hosted installer + support. Margins high — user supplies compute. 20K users at $49/yr = ~$1M ARR bootstrapped.",
+      "evidence": [
+        "https://www.einpresswire.com/article/910588313/surfiai-launches-privacy-first-ai-assistant-that-runs-offline-on-your-own-device",
+        "https://www.volanea.com/blog/local-speech-to-text-saas-10k-growth-lesson",
+        "https://www.opentechhub.io/surfsense/",
+        "https://github.com/hseshadr/edge-proc",
+        "https://www.hammerlockai.com/",
+        "https://aegis.bytrish.me/",
+        "https://www.risingtrends.co/trends/ai-trends-2026",
+        "https://www.startupheist.com/the-local-ai-switchboard-stop-renting-cloud-intelligence-for-49-year/"
+      ],
+      "how_searched": [
+        "Product launches with metrics (SurfiAI press release)",
+        "Founder case studies (MumbleFlow on Volanea/Reddit)",
+        "Open source traction (SurfSense GitHub stars)",
+        "Developer tooling (EdgeProc, HammerLock, Aegis)",
+        "Search trend data (RisingTrends, Google Trends via Cleanor)",
+        "Market analysis (StartupHeist)"
+      ],
+      "score": 82.0,
+      "found_at": "2026-10-21T15:40:41.198490+00:00"
+    },
+    {
       "name": "AI SDR & Autonomous Sales Agents",
       "field": "Sales Tech / AI Automation",
       "summary": "AI agents that engage website visitors in real time, qualify leads, give personalized demos, handle objections, and book meetings — integrating with CRM and sales stacks for 24/7 pipeline generation.",
@@ -2794,6 +2920,30 @@
       "found_at": "2026-10-21T05:12:11.604181+00:00"
     },
     {
+      "name": "SaaS Revenue Recognition & Metrics Automation",
+      "field": "FinTech / Accounting AI",
+      "summary": "AI-native layer that pulls Stripe/subscription data directly into the general ledger, auto-categorizes 100% of transactions, generates GAAP-compliant revenue recognition schedules (ASC 606/IFRS 15), and computes MRR, ARR, churn, NDR in real time — replacing spreadsheets and Stripe's now-paid RevRec add-on.",
+      "why_now": "Stripe disabled native Revenue Recognition for unpaid accounts Aug 20, 2026, now charges $25-1,650/mo (Puzzle.io). Creates immediate migration urgency for thousands of Stripe Billing users. NextClerk at $3.2M ARR, 80 contracts, $267K MRR (NextClerk.com). Puzzle: AI-native accounting with automated Stripe rev rec (Puzzle.io). Ordway: AI contract abstraction, cash application, $50M+ ARR customers (Ordway). SEO Stack: $23K MRR verified, includes AI visibility + data warehousing + rev rec (TrustMRR, 1M.chat). Market: every SaaS >$50K MRR needs this.",
+      "monetization": "SaaS subscription: $50-500/mo by volume (Puzzle, Ordway tiers). Per-seat or per-entity pricing. High stickiness — financial system of record. Expansion into AP/AR, forecasting, board reporting.",
+      "evidence": [
+        "https://nextclerk.com/",
+        "https://puzzle.io/blog/puzzle-automates-revenue-recognition-for-stripe-users",
+        "https://ordwaylabs.com/ai-llm/",
+        "https://trustmrr.com/startup/seo-stack",
+        "https://1m.chat/cases/seo-stack/",
+        "https://www.guptadeepak.com/geo-compass/guides/geo-tooling-market-2026/"
+      ],
+      "how_searched": [
+        "Vendor product pages with live metrics (NextClerk, Puzzle, Ordway)",
+        "Verified revenue (TrustMRR for SEO Stack)",
+        "Platform policy changes (Stripe RevRec pricing via Puzzle blog)",
+        "Case studies (1M.chat)",
+        "Market landscape analysis (GuptaDeepak GEO guide)"
+      ],
+      "score": 80.0,
+      "found_at": "2026-10-21T15:40:44.384027+00:00"
+    },
+    {
       "name": "Embeddable AI Agent / Copilot for SaaS",
       "field": "DevTools / SaaS Infrastructure",
       "summary": "Drop-in AI agent (one line of code) that lets end-users control any SaaS via natural language — turning clicks into conversations, with scoped permissions, audit logs, and model-agnostic deployment.",
@@ -3304,6 +3454,28 @@
       ],
       "score": 78.0,
       "found_at": "2026-10-21T10:33:18.360286+00:00"
+    },
+    {
+      "name": "AI Agent Observability & Evaluation for Production Workflows",
+      "field": "AI Infrastructure / DevOps",
+      "summary": "Runtime observability for deployed AI agents: traces, replay, cost tracking, policy enforcement (block unsafe actions), and automated evaluation against golden datasets. Not just logging — executable guardrails that prevent bad deployments. Think 'Datadog for agent actions' with a hard 'no' at runtime.",
+      "why_now": "Agents moving from prototype to production; enterprises need safety. 88% of orgs report AI agent security incidents; 90% of deployed agents over-permissioned (Zylos Research). Salesforce AgentExchange: $800M ARR, 18.5K customers, 50% QoQ growth — enterprise adoption real (Zylos). Anthropic, OpenAI, Microsoft all launching enterprise agent stores with qualification gates. 'Independent AI-Agent Audit & Trust Console' in ALREADY KNOWN but focused on audit; this is runtime observability + enforcement for builders running their own agents. cmux (27K searches) manages multiple coding agents in parallel (RisingTrends). Rill Browser embeds agents in browser (Product Hunt #6 Oct 2026).",
+      "monetization": "SaaS: per-agent/month or per-trace volume. Free tier for devs. Team: $50-200/mo. Enterprise: $1,000-5,000/mo with SSO, audit logs, custom policies. High retention — observability is infrastructure.",
+      "evidence": [
+        "https://zylos.ai/research/2026-03-09-ai-agent-marketplaces-distribution-channels/",
+        "https://www.risingtrends.co/blog/open-source-ai-agents-trend",
+        "https://www.producthunt.com/products/rill-3",
+        "https://www.producthunt.com/products/irisgo-public-beta"
+      ],
+      "how_searched": [
+        "Market research reports (Zylos)",
+        "Search trend analysis (RisingTrends OpenClaw cluster)",
+        "Product Hunt launches (Rill, IrisGo)",
+        "Developer demand signals (Hacker News Ask HN)",
+        "Enterprise adoption data (Salesforce AgentExchange via Zylos)"
+      ],
+      "score": 78.0,
+      "found_at": "2026-10-21T15:40:45.626747+00:00"
     },
     {
       "name": "Browser Extension AI Productivity Tools",
@@ -6039,143 +6211,6 @@
       ],
       "score": 67.0,
       "found_at": "2026-10-13T23:20:50.532589+00:00"
-    },
-    {
-      "name": "AI-ready help center / llms.txt knowledge base",
-      "field": "Customer support & developer docs",
-      "summary": "A free static-site tool that generates an AI-readable knowledge base (llms.txt, markdown pages, MCP-ready) so a company's docs surface correctly in ChatGPT/Claude/Perplexity answers and agent crawlers can't be blocked by a bad robots.txt.",
-      "why_now": "AI crawler compatibility is the most common GEO failure (blocked robots.txt), and 'docs for agents' products are launching weekly: Chat.sh (#8, Oct 1), DocsAlot MCP (#5) and Blume (#4) on Oct 4 2026, plus WikiFix for stale knowledge bases.",
-      "monetization": "Chat.sh sells one-time $199/$599 lifetime, DocsAlot/Bracket pursue SaaS subscriptions; free generator monetizes via AI-citation/visibility audit upsell.",
-      "evidence": [
-        "https://www.producthunt.com/leaderboard/daily/2026/10/1",
-        "https://www.producthunt.com/leaderboard/daily/2026/10/4",
-        "https://www.omnibound.ai/blog/answer-engine-optimization-aeo-statistics"
-      ],
-      "how_searched": [
-        "launch site (Product Hunt leaderboards)",
-        "GEO/AEO statistics round-ups",
-        "web search engine",
-        "SEO/GEO newsletter data"
-      ],
-      "score": 66.0,
-      "found_at": "2026-10-07T23:12:53.720573+00:00"
-    },
-    {
-      "name": "GPU rental price & availability tracker",
-      "field": "AI compute marketplace / GPU tracking",
-      "summary": "A free web tool that compares live cloud-GPU prices and confirmed stock across 20+ providers (H100, B200, H200, RTX 5090...), ranks only capacity confirmed in stock, and alerts when a target price appears.",
-      "why_now": "'iwant — find available GPUs and host open models in one command' was the #9 Product Hunt launch on Oct 9; live trackers show real, volatile demand: only 43 of 57 GPU models are rentable right now across 22 providers and 816 configurations; H100 on-demand from $1.30–$1.99/hr, spot from $0.94/hr, B200 up +7.9% in 7 days, H200 up +5.1% in 7 days; GPUHunt tracks 1,431 GPU servers across 20+ providers.",
-      "monetization": "Free to use, monetized via provider referral/affiliate links (revenue null); several trackers expose free public APIs, a proven pattern for traffic-to-API monetization.",
-      "evidence": [
-        "https://crosswalk.to/crosswalk/ph-launches/g8flh4",
-        "https://grabgpu.com/",
-        "https://www.aquanode.io/gpu-index",
-        "https://gpurentalprices.com/"
-      ],
-      "how_searched": [
-        "launch aggregator (crosswalk)",
-        "live product sites (grabgpu.com, gpu-hunt.com, aquanode.io)",
-        "price-index aggregators (gpurentalprices.com)"
-      ],
-      "score": 66.0,
-      "found_at": "2026-10-10T06:18:16.644576+00:00"
-    },
-    {
-      "name": "AI Prompt Optimizer & Team Prompt Library",
-      "field": "AI productivity",
-      "summary": "A free web tool that turns a rough, messy prompt into an expert-grade prompt for any model, plus a searchable library of reusable prompts. Rebuildable as an original single-page web app (client-side prompt rewriting + saved library), with optional team sharing.",
-      "why_now": "Prompt tooling is converting now and ranks among the top verified-revenue micro-SaaS: a prompt fixer grew 3,120% to $1,285 MRR in TrustMRR's newsletter; SurePrompts reports ~$201k total revenue and is ranked #6 with revenue refreshed 2026-10-11; Prompt Engine shows ~$705 MRR. 'Prompt engineering' remains a top-trending search topic. Demand is proven and the build cost is near zero.",
-      "monetization": "Freemium: free basic optimization, paid Pro (~$2.50/mo or $29.99/yr seen) and team seats.",
-      "evidence": [
-        "https://trustmrr.com/newsletter/your-prompting-sucks-we-fix-it-3119-growth",
-        "https://trustmrr.com/startup/sureprompts",
-        "https://explodingtopics.com/blog/trending-topics"
-      ],
-      "how_searched": [
-        "TrustMRR newsletter fast-growing SaaS",
-        "AI prompt optimizer tool revenue",
-        "exploding topics 2026"
-      ],
-      "score": 66.0,
-      "found_at": "2026-10-11T18:58:46.866573+00:00"
-    },
-    {
-      "name": "Ecommerce App-Stack Auditor & Savings Finder",
-      "field": "Ecommerce ops / cost optimization",
-      "summary": "Paste a Shopify (or DTC) store URL; it detects every installed app, flags duplicative and unused ones, and quantifies monthly waste plus a safe removal/migration plan — the 'Trim for your Shopify bill.'",
-      "why_now": "Industry data says a real $10M+ DTC brand runs 25–50 apps of which 60–70% are duplicative or unused; Shopify's store now lists 39,500+ apps with quarterly removals roughly doubling (LetsMetrix Q3), and install-tracking across 2.1M+ stores is already public (StoreCensus) — the waste is measured, the auditor isn't mainstream yet.",
-      "monetization": "Freemium audit; paid savings-report + migration concierge; affiliate/marketplace rev-share null. Category context: Shopify's top revenue apps (subscriptions, replay/heatmap, returns) hold 1,100+ reviews each — merchants pay for revenue and cost tools in the $10–30/mo band.",
-      "evidence": [
-        "https://taylorsicard.com/blog/shopify-app-ecosystem-map-2026",
-        "https://letsmetrix.com/reports/shopify-app-market",
-        "https://www.storecensus.com/stats/most-popular-shopify-apps",
-        "https://rankbase.io/best-shopify-apps/revenue"
-      ],
-      "how_searched": [
-        "Shopify ecosystem analysis (merchant interviews + Store Leads data)",
-        "Shopify app-store market crawl",
-        "store-install census tracker",
-        "Shopify app-store search ranking feed"
-      ],
-      "score": 66.0,
-      "found_at": "2026-10-15T13:36:29.667822+00:00"
-    },
-    {
-      "name": "Open-Source Low-Cost SEO Data Suite with MCP",
-      "field": "SEO tools",
-      "summary": "A cheap ($10/mo-class) alternative to Ahrefs/Semrush offering keyword research, competitor analysis, backlinks and site audits, designed to plug into AI agents via MCP so agents can build real SEO strategies instead of guessing.",
-      "why_now": "OpenSEO launched Oct 8, 2026 with Product Hunt score 410 explicitly positioning '$10/month instead of a $100-plus monthly subscription'; Exploding Topics shows 'Ahrefs' at +1,360% and 'AI SEO' +5,900% while 'Answer Engine Optimization' is 99x+ — buyers want agent-ready SEO data at a fraction of legacy prices.",
-      "monetization": "$10+/mo subscriptions vs legacy $100+ tools; MCP/API add-ons for agencies. OpenSEO's own numbers not independently verified — revenue null.",
-      "evidence": [
-        "https://www.producthunt.com/leaderboard/daily/2026/10/8",
-        "https://explodingtopics.com/blog/trending-topics",
-        "https://stealwhatworks.com/blogs/news/indie-saas-gained-most-revenue"
-      ],
-      "how_searched": [
-        "Product Hunt daily leaderboard",
-        "Exploding Topics trend data",
-        "indie-SaaS revenue tracker (Outrank $200K→$300K+ MRR as category proof)"
-      ],
-      "score": 66.0,
-      "found_at": "2026-10-16T01:27:25.464189+00:00"
-    },
-    {
-      "name": "Pet sound analyzer and translator soundboard (web)",
-      "field": "Pets / entertainment utility",
-      "summary": "A free browser tool to record or upload a dog bark or cat meow, classify it into likely intents (hunger, attention, distress, play), and play interactive soundboards. Reviews across the niche repeatedly find the core 'doesn't work' yet the category reliably monetizes as an entertainment product, so a free, polished, no-install web version can capture volume.",
-      "why_now": "The niche is open and older than most: 86 apps, a $630k+/month floor, four leaders at $20-50k/month, demand 74/100 and crowding of only 30/100, with incumbents from 2017 and 2021 still growing. Independent data shows durable money — Cat Translator has booked about $1.44M in iOS revenue since Nov 2022, and Pet Chat's translator is modeled at ~$90k/month with ~70k downloads.",
-      "monetization": "Freemium soundboard/analysis; paid 'pro' intents and custom trained models; watch-to-unlock ads; playful in-app purchases; affiliate to pet products.",
-      "evidence": [
-        "https://www.appaloma.com/research/pet-translators-soundboards",
-        "https://www.huxiu.com/article/4837235.html",
-        "https://apprank.io/pet-chat-cat-dog-translator-9390"
-      ],
-      "how_searched": [
-        "app-niche analytics database",
-        "tech/business news (CN)",
-        "app revenue estimate tracker"
-      ],
-      "score": 66.0,
-      "found_at": "2026-10-16T07:15:30.059158+00:00"
-    },
-    {
-      "name": "Email-forwarded PDF invoice → bookkeeping auto-import",
-      "field": "SMB accounting workflow",
-      "summary": "Free web tool: forward supplier PDF invoices to a private address, line items (not just totals) are extracted and coded, then pushed into Xero/QuickBooks or a CSV ledger with tax codes filled.",
-      "why_now": "The '#1 I'd-pay-$50/mo' item on a widely shared 2026 'shut up and take my money' list is exactly this PDF-to-ledger workflow, with stated willingness to pay $29/mo; a French indie invoice tool using the same extraction idea publicly reported recovering €250 of €390 in late payments; and Upwork's 2026 report still ranks Data Entry and Data Extraction in the top-10 demanded skills while AI skills overall grew 109% YoY — the demand being automated is real and paid.",
-      "monetization": "Freemium: free for ~20 invoices/mo, paid for auto-push to accounting software ($19-29/mo); freelancers/SMBs already pay for adjacent bookkeeping SaaS.",
-      "evidence": [
-        "https://dev.to/the_nortern_dev/the-i-would-pay-50month-to-never-do-this-again-list-3kfb",
-        "https://www.reddit.com/r/microsaas/comments/1ruk67y/built_a_simple_aipowered_invoice_reminder_tool/",
-        "https://www.upwork.com/research/in-demand-skills-2026"
-      ],
-      "how_searched": [
-        "developer 'pain I'd pay for' list article",
-        "Reddit builder traction post (real recovery numbers)",
-        "freelance labor-market skills report (Upwork)"
-      ],
-      "score": 66.0,
-      "found_at": "2026-10-18T11:14:59.786868+00:00"
     }
   ]
 }
