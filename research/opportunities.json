@@ -382,6 +382,27 @@
       "found_at": "2026-10-21T10:33:17.646474+00:00"
     },
     {
+      "name": "EU Withdrawal-Button Compliance Toolkit",
+      "field": "E-commerce compliance / EU legal tech",
+      "summary": "A free web app that generates an EU-compliant withdrawal button, withdrawal form, confirmation emails and audit trail for online stores, with paid monitoring, multi-language templates and compliance checks.",
+      "why_now": "The electronic withdrawal function requirement took effect on 19 June 2026, and a second EU consumer-law update applies on 27 September 2026. Shopify's own help page confirms the requirement, the EW app has 2,315 reviews at 4.9/5, and Shoplist counted 77 legal-category launches among 1,850 new Shopify apps in October 2026, showing both demand and active competition.",
+      "monetization": "Free basic form/button, then paid plans for custom branding, automated confirmations, multi-store management and compliance monitoring; the incumbent EW app already uses a free legally compliant plan with paid customization tiers.",
+      "evidence": [
+        "https://commission.europa.eu/law/law-topic/consumer-protection-law/consumer-contract-law/consumer-rights-directive_en",
+        "https://help.shopify.com/en/manual/compliance/legal/eu-right-of-withdrawal",
+        "https://apps.shopify.com/eu-widerrufsbutton/reviews",
+        "https://shoplist.co/shopify-apps/new-apps-2026/october"
+      ],
+      "how_searched": [
+        "EU regulator and legal guidance",
+        "Shopify merchant documentation",
+        "Shopify App Store reviews",
+        "Shopify new-app launch tracker"
+      ],
+      "score": 90.0,
+      "found_at": "2026-10-22T22:31:52.985408+00:00"
+    },
+    {
       "name": "AI Search Visibility / GEO Tracking Dashboard",
       "field": "Marketing / SEO / AI Visibility",
       "summary": "A free web dashboard that tracks brand citations, visibility %, position, and sentiment across ChatGPT, Perplexity, Gemini, Google AI Overviews, and Claude — with side-by-side organic vs AI traffic comparison to detect cannibalization (per Omio A/B test).",
@@ -779,6 +800,27 @@
       ],
       "score": 88.0,
       "found_at": "2026-10-22T05:00:33.981508+00:00"
+    },
+    {
+      "name": "Review-to-Website Builder for Local Businesses",
+      "field": "Local-business websites / AI content",
+      "summary": "A free tool that turns a Google Maps or Yelp business listing and its customer reviews into a one-page website with specific, review-backed copy, plus a simple editor and hosting.",
+      "why_now": "Brila generated 7,050 websites, and its case study reports 59 paid conversions in the first three weeks with zero ad spend. Its April 2026 launch drew 1,367 upvotes and 246 comments, and pricing is still $9–$29/mo after a free tier, leaving room for a free-by-default localized alternative.",
+      "monetization": "Freemium with a free single-site tier, $9/mo Pro and $29/mo Agency plans; paid custom domains, HTML export, more reviews and sites, and white-label hosting.",
+      "evidence": [
+        "https://brila.ai/",
+        "https://brila.ai/pricing",
+        "https://launchintel.pro/products/producthunt/1094681",
+        "https://klmln.com/work/brila"
+      ],
+      "how_searched": [
+        "Official product site and pricing",
+        "Product launch directory",
+        "Product Hunt launch tracker",
+        "Designer case study with conversion data"
+      ],
+      "score": 88.0,
+      "found_at": "2026-10-22T22:31:54.379951+00:00"
     },
     {
       "name": "Retro digicam / film-camera filter web app (Y2K & CCD look)",
@@ -1895,6 +1937,25 @@
       "found_at": "2026-10-22T15:22:59.000866+00:00"
     },
     {
+      "name": "AI Fundraising Agent & Warm-Intro Planner",
+      "field": "Startup fundraising / B2B services",
+      "summary": "A free investor-fit and warm-introduction planner that maps a startup's network to relevant funds and produces a prioritized outreach plan, with paid outreach execution.",
+      "why_now": "Fundraisly launched on 2 June 2026, became #1 Product of the Day with 1,027 upvotes and 261 comments, and reports $1.1B raised across 200+ startups. Its published pricing—$1,000 setup plus $100 per investor call, or $5,000/mo—shows founders pay for this outcome.",
+      "monetization": "High-ticket service: $1,000 setup plus $100 per investor call, or a $5,000/mo agency plan; a free planner can upsell warm-intro research and managed outreach.",
+      "evidence": [
+        "https://fundraisly.com/",
+        "https://www.hunted.space/dashboard/fundraisly",
+        "https://theaiagentindex.com/agents/fundraisly"
+      ],
+      "how_searched": [
+        "Official product site and pricing",
+        "Product Hunt launch tracker",
+        "Independent AI-agent review index"
+      ],
+      "score": 84.0,
+      "found_at": "2026-10-22T22:31:55.909346+00:00"
+    },
+    {
       "name": "Self-Hosted Workflow Automation for AI Agents (n8n-style)",
       "field": "DevTools / AI Infrastructure",
       "summary": "Fair-code / open-source workflow automation platform that technical teams self-host for free (unlimited executions) to build AI agent pipelines, RAG, and multi-step automations — with paid cloud/enterprise for governance, SSO, and managed infrastructure.",
@@ -2044,6 +2105,25 @@
       ],
       "score": 83.0,
       "found_at": "2026-10-18T23:24:35.509472+00:00"
+    },
+    {
+      "name": "Shopify Chargeback Evidence & Dispute Automation",
+      "field": "E-commerce payments / chargeback recovery",
+      "summary": "A web tool that assembles chargeback evidence packets, recommends response templates and tracks win rates for Shopify and Stripe merchants, with optional automated submission.",
+      "why_now": "Disputifier serves 11,000+ Shopify stores and generated about $2.1M in 2025 revenue on success-based pricing. Its Shopify app has 137 reviews at 4.6/5, with 89% five-star reviews, while the category remains integration-heavy and leaves room for a focused evidence-pack tool.",
+      "monetization": "20% of won chargeback recovery capped at $250 per dispute; a rebuilt tool could charge per dispute or a flat monthly SaaS fee, with a free evidence-pack builder as acquisition.",
+      "evidence": [
+        "https://chargeforward.io/vendors/disputifier/",
+        "https://apps.shopify.com/disputifier",
+        "https://apps.shopify.com/disputifier/reviews"
+      ],
+      "how_searched": [
+        "Payments vendor database",
+        "Shopify App Store listing",
+        "Shopify App Store reviews"
+      ],
+      "score": 83.0,
+      "found_at": "2026-10-22T22:31:56.743117+00:00"
     },
     {
       "name": "Buyer-intent finder for Reddit / X / HN",
@@ -2508,6 +2588,25 @@
       "found_at": "2026-10-22T05:00:37.902990+00:00"
     },
     {
+      "name": "RFP Requirement Extraction & Compliance Scoring",
+      "field": "B2B sales / proposal automation",
+      "summary": "A free RFP analyzer that extracts requirements, builds a compliance matrix, flags missing answers and drafts source-cited responses; paid tiers add team review and knowledge-base reuse.",
+      "why_now": "The RFP-response AI market is projected to grow from $1.35B in 2026 to $2.95B by 2030 at roughly 22% CAGR. Responsive starts at $10,000 and typically sells for $6k–$40k/year, while RFP.ai charges €49–€449/mo, leaving a large self-serve gap.",
+      "monetization": "Freemium self-serve at roughly €49–€449/mo like RFP.ai, plus usage overages and annual team plans; enterprise competitors sell for $10,000+ and often hide pricing.",
+      "evidence": [
+        "https://www.researchandmarkets.com/reports/6215338/request-proposal-rfp-response-automation",
+        "https://www.responsive.io/pricing",
+        "https://rfp.ai/resources/rfp-software-pricing/"
+      ],
+      "how_searched": [
+        "Market research report",
+        "Enterprise vendor pricing page",
+        "Competitor pricing guide"
+      ],
+      "score": 82.0,
+      "found_at": "2026-10-22T22:31:57.535099+00:00"
+    },
+    {
       "name": "AI SDR & Autonomous Sales Agents",
       "field": "Sales Tech / AI Automation",
       "summary": "AI agents that engage website visitors in real time, qualify leads, give personalized demos, handle objections, and book meetings — integrating with CRM and sales stacks for 24/7 pipeline generation.",
@@ -2712,6 +2811,27 @@
       ],
       "score": 81.0,
       "found_at": "2026-10-20T20:53:42.060930+00:00"
+    },
+    {
+      "name": "AI Skin-Analysis Quiz for Beauty Ecommerce",
+      "field": "Beauty e-commerce / computer vision",
+      "summary": "A free cosmetic selfie-based skin quiz that scores concerns, builds a routine and recommends products from a brand's catalog, with paid white-label versions for beauty stores.",
+      "why_now": "The AI skin-analysis market is estimated at $2.13B in 2026 and $6.30B by 2033, growing 16.8% annually. Face Age already charges $59–$499/mo for a similar Shopify app, while Rupam's new listing has zero reviews and ranks #32,492, showing an early, monetizable niche.",
+      "monetization": "Freemium consumer quiz with affiliate or product commissions; paid brand plans for white-label quizzes, analytics and higher scan volumes, benchmarked to Face Age's $59–$499/mo pricing.",
+      "evidence": [
+        "https://rupam.ai/en",
+        "https://www.coherentmarketinsights.com/industry-reports/ai-skin-analysis-market",
+        "https://apps.shopify.com/face-age",
+        "https://appnavigator.io/app/rupam/"
+      ],
+      "how_searched": [
+        "Official AI product site",
+        "Market research report",
+        "Shopify App Store competitor listing and pricing",
+        "Shopify app analytics directory"
+      ],
+      "score": 81.0,
+      "found_at": "2026-10-22T22:31:58.700640+00:00"
     },
     {
       "name": "Text or image to 3D model generator",
@@ -6092,131 +6212,6 @@
       ],
       "score": 70.0,
       "found_at": "2026-10-15T13:36:25.852984+00:00"
-    },
-    {
-      "name": "Etsy/Pinterest digital-product and craft-pattern niche finder (free)",
-      "field": "Creator / e-commerce seller tooling",
-      "summary": "A free web tool that combines marketplace search trends with Pinterest/Google interest to surface rising digital-product and craft-pattern niches (e.g., which crochet/pattern or printable categories are climbing), with demand, competition and rough revenue signals. Sellers currently pay for fragmented keyword tools that lack a cross-platform trend view.",
-      "why_now": "On Etsy Q3 2026, 'digital products' climbed to #5 from #84 and 'crochet pattern' to #7 from #123 year-over-year — shoppers increasingly want to make rather than buy. The seller tooling market is proven and paid (EverBee's browser extension has ~200,000 users at 4.7 stars; eRank charges from $5.50/month with ~40,000 extension users), and digital products are a big verified slice of creator revenue — 146,271 Gumroad products tracked at $206M in Jan-Apr 2026.",
-      "monetization": "Freemium trend lookups; paid saved searches/alerts and deeper revenue views; affiliate revenue from seller tools/print-on-demand platforms; premium B2B data.",
-      "evidence": [
-        "https://help.erank.com/blog/top-etsy-searches-q3-2026/",
-        "https://revenuegeeks.com/compare/erank-vs-everbee",
-        "https://insightraider.com/en/blog/digital-product-market-size"
-      ],
-      "how_searched": [
-        "marketplace SEO/trend tracker",
-        "tool comparison review site",
-        "market-intelligence blog/dataset"
-      ],
-      "score": 70.0,
-      "found_at": "2026-10-16T07:15:27.828375+00:00"
-    },
-    {
-      "name": "LLM API Bill & Overcharge Auditor",
-      "field": "AI dev infrastructure / FinOps",
-      "summary": "Paste your OpenAI/Anthropic/Gemini usage or connect a key and get a free audit showing failed/retried calls you paid for, cache misses, and cheaper model swaps, with an independent receipt of what you overpaid.",
-      "why_now": "Inferock launched Oct 14, 2026 on Product Hunt (401 upvotes) promising credits back for failed inference calls, and made Shareuhack's weekly Top 10; a rival proxy (Inferock-bench) generates 'what you were billed vs what you overpay' receipts. AI spend is ballooning as big teams run 'hundreds of thousands or millions of dollars' of LLM usage (Legora).",
-      "monetization": "Inferock sells serverless inference with credits; spend-management peers (e.g., Tropic) grew organic traffic +520% YoY. Free audit tool monetizes via usage fee or affiliate/credits.",
-      "evidence": [
-        "https://www.producthunt.com/leaderboard/daily/2026/10/14",
-        "https://www.shareuhack.com/en/posts/product-hunt-weekly-2026-10-15",
-        "https://hunted.space/top-products/2026/October"
-      ],
-      "how_searched": [
-        "product launch sites",
-        "weekly trend digests",
-        "PH analytics trackers"
-      ],
-      "score": 70.0,
-      "found_at": "2026-10-17T00:07:12.902262+00:00"
-    },
-    {
-      "name": "Amazon Seller Profit & Reimbursement Audit Toolkit (free web)",
-      "field": "E-commerce seller tools",
-      "summary": "Free web tool that ingests an Amazon seller payment/report export and computes true per-SKU profit after FBA fees, ad spend and returns, flags lost/damaged FBA inventory owed reimbursements, and drafts the claims — the 'what did I actually earn' layer Amazon's own dashboard still doesn't do.",
-      "why_now": "Amazon's own Seller Assistant now has 230k+ monthly users with 90% recommendation-acceptance (2025 Small Business report, recapped Apr 2026) and got agentic workflows + a Claude plugin in Sep 2026 — proving seller appetite — while third-party AI seller tools keep minting MRR (non-technical founder hit $10k MRR in 30 days and $30k MRR with Launch Fast; Agent Central $39–159/mo; AI 'employees' $249–399/mo). US independent sellers averaged $375k/yr and 75k+ cleared $1M, so the audit pain scales with a huge base.",
-      "monetization": "Freemium SaaS or contingency on recovered FBA reimbursements (GETIDA charges 25% of recovered funds; profit dashboards $19–79/mo; ops agents $249–399/mo). A free audit funnel upsells into these proven price points.",
-      "evidence": [
-        "https://sellingpartners.aboutamazon.com/seller-assistant",
-        "https://www.indiehackers.com/post/tech/building-a-product-in-48-hours-and-hitting-30k-mrr-as-a-non-technical-founder-wWtWIH5tmwASUbxKaLT9",
-        "https://profasee.com/state-of-amazon-seller-operations-2026/",
-        "https://sellrbox.com/blog/top-7-ai-amazon-seller-tools-that-actually-make-you-more-profit",
-        "https://agentcentral.to/blog/ai-tools-for-amazon-sellers",
-        "https://www.pymnts.com/amazon/2026/amazon-sellers-gain-sales-and-cut-costs-with-ai-tools/"
-      ],
-      "how_searched": [
-        "Amazon official seller newsroom",
-        "Indie Hackers MRR interview",
-        "Benchmark report (Profasee State of Seller Ops 2026)",
-        "Tool marketplaces/pricing roundups",
-        "News (PYMNTS, GeekWire)"
-      ],
-      "score": 70.0,
-      "found_at": "2026-10-17T09:29:51.490502+00:00"
-    },
-    {
-      "name": "Local run-club & walking-club discovery and host toolkit",
-      "field": "Fitness community",
-      "summary": "Original free web directory + lightweight club-host tools (routes, schedules, join links, pace filters) so nearby runners can find groups without already knowing someone — search-first, map-first community software.",
-      "why_now": "Google's Jul 2026 Trends report: 'run club' and 'how to start running' at all-time highs; 'how to find local run clubs' and 'how to make friends at run club' are breakout questions; 'walking club' at a 10-year high. Strava hosts 1M+ clubs with memberships +59% in 2025 and just added an Events tab — incumbents validate demand while still leaving non-Strava users and casual hosts underserved.",
-      "monetization": "Freemium host dashboards, promoted club listings, race/event affiliate links, local-business sponsors; weak direct ARPU but high SEO/affiliate potential in a category where Strava shows 60% monthly event return rates.",
-      "evidence": [
-        "https://blog.google/products-and-platforms/products/search/touch-grass-trends/",
-        "https://www.plare.fr/strava-ajoute-un-onglet-events-pour-les-courses-a-venir-les-runs-en-groupe-et-plus-encore/",
-        "https://runfrens.com/",
-        "https://www.theverge.com/report/960635/partiful-app-event-planning-data-palantir"
-      ],
-      "how_searched": [
-        "Google Trends official deep-dive",
-        "Strava product/earnings coverage",
-        "run-club directory traffic claims",
-        "Partify/Verge note that run clubs are a top paid-ticket use case on event apps"
-      ],
-      "score": 70.0,
-      "found_at": "2026-10-17T22:26:42.564169+00:00"
-    },
-    {
-      "name": "Independent LLM API bill auditor (overcharge receipt checker)",
-      "field": "AI devtool economics",
-      "summary": "Free web tool where you drop an AI provider usage export (or connect read-only) and it reconstructs what you should have been billed — flagging failed calls, retries, token mismatches and model-routing overcharges, and generating a credit/refund claim.",
-      "why_now": "Inferock launched on Product Hunt Oct 14 2026 as #2 of the day (395 points, 63 comments) with an open-source 'independent receipt' bench that shows how much you're overpaying on OpenAI/Anthropic/Gemini/OpenRouter calls; the money at stake is huge — LLM Gateway now processes >$250K per 30 days in usage credits, and Mexican fintech Kapital bought the Claude Code cost-cutting plugin Woz Code for $30M the same week.",
-      "monetization": "Free audit + paid automated claims/proxies; comparable AI cost-optimization businesses scale to $57-79K MRR within months (LLM Gateway on Bootstrapped Risers).",
-      "evidence": [
-        "https://www.producthunt.com/leaderboard/daily/2026/10/14",
-        "https://aifundingtracker.com/weekly-ai-funding-typesafe-ai-hits-7-5b-manus-ai-raises-500m-oct-7-oct-12-26/",
-        "https://stealwhatworks.com/blogs/news/indie-saas-gained-most-revenue",
-        "https://www.systemaic.com/tools/bootstrapped-risers"
-      ],
-      "how_searched": [
-        "Product Hunt daily leaderboard + open-source repo",
-        "MRR growth leaderboard (Bootstrapped Risers)",
-        "weekly MRR-verified revenue journalism (Steal What Works)",
-        "AI funding/acquisition tracker (Woz Code $30M)"
-      ],
-      "score": 70.0,
-      "found_at": "2026-10-18T11:14:43.517129+00:00"
-    },
-    {
-      "name": "Video-testimonial & UGC collection widget",
-      "field": "Marketing / social proof",
-      "summary": "Free web tool that gives businesses a link customers open to record a video or text testimonial in one click, then generates an embeddable 'wall of love' widget and a consent-recorded archive.",
-      "why_now": "'UGC Creator' is a top-20 exploding US search topic (+8,600% two-year growth); the UGC platform market is estimated at $8.48B in 2026 growing ~28.8% CAGR (Fortune Business Insights), and a second firm (Mordor) puts growth at 28.32% — near-identical consensus; solo-founder Testimonial.to quietly reached $1M+ ARR and its 'boring' widget out-earned its own AI product ~4:1; AppSumo's Feedspace testimonial deal already carries 149 reviews.",
-      "monetization": "Freemium SaaS: free collect + paid customization/analytics/white-label ($19-199/mo tiers as in the market); incumbents prove ~$1M ARR solo.",
-      "evidence": [
-        "https://explodingtopics.com/blog/trending-topics",
-        "https://www.fortunebusinessinsights.com/user-generated-content-platform-114207",
-        "https://theltdhub.com/blog/appsumo-taco-day-flash-sale-2026/",
-        "https://www.mordorintelligence.com/industry-reports/user-generated-content-platform-market"
-      ],
-      "how_searched": [
-        "search-trend tool (Exploding Topics)",
-        "market-size research portals (two independent firms)",
-        "solo-founder revenue teardown (OperatorBook/Startupik)",
-        "AppSumo deal review counts (marketplace)"
-      ],
-      "score": 70.0,
-      "found_at": "2026-10-18T11:14:59.641262+00:00"
     }
   ]
 }
