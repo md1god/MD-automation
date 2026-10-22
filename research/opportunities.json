@@ -3653,6 +3653,24 @@
       "found_at": "2026-10-21T15:40:45.626747+00:00"
     },
     {
+      "name": "Free AI Haircut & Hair-Color Try-On Web Tool",
+      "field": "Consumer beauty / AI photo try-on",
+      "summary": "Upload a selfie, map face/hair, and preview dozens of haircuts, colors and beards on your own face. The mobile apps are booming; a free browser version is the gap.",
+      "why_now": "New May-2026 apps exploded inside 6 months: Beautix - AI Hair Changer shows +2,176% rating acceleration with ~1M monthly downloads; multiple dedicated try-on apps launched May-2026 already at 1.4-2.5M installs and 145K-580K installs/week.",
+      "monetization": "Peer apps already monetize hard: AI Hairstyle Try On & Color runs ~$50K+/month (66% IAP / 34% ads); web version can use ads + paid credits for HD/photoreal renders without the app-store fee.",
+      "evidence": [
+        "https://peekly.app/reports/fastest-growing-apps",
+        "https://www.appgoblin.info/apps/com.tryon.haircolor.aihairstyle",
+        "https://www.appbrain.com/app/ai-hairstyle-try-on-color/com.tryon.haircolor.aihairstyle"
+      ],
+      "how_searched": [
+        "app-store growth-rate tracker (Peekly)",
+        "app analytics + revenue estimators (AppGoblin/AppBrain)"
+      ],
+      "score": 78.0,
+      "found_at": "2026-10-22T10:44:51.911046+00:00"
+    },
+    {
       "name": "Browser Extension AI Productivity Tools",
       "field": "Consumer / Productivity",
       "summary": "Chrome/Firefox/Edge extensions that bring AI into the browser — sidebar chat, page summarization, writing assistance, workflow automation, content extraction — with freemium subscriptions.",
@@ -6133,6 +6151,25 @@
       "found_at": "2026-10-22T05:00:48.655944+00:00"
     },
     {
+      "name": "Evidence-Based Red-Light Therapy Device Selector & Dosage Calculator",
+      "field": "Wellness / health-tools content",
+      "summary": "A tool site that computes dosing (wavelength, joules/cm2, session time/distance) for any at-home device and ranks panels/masks/belts with plain evidence - the trust gap research papers showed in this exploding market.",
+      "why_now": "Next Big scored it 91/100 (its top market): searches +321% YoY, 281K monthly searches, 16 of 16 search trends rising, big-brands (Shark CryoGlow 48K searches) just went mainstream; a Feb-2026 PMC study documents claims-vs-evidence mismatch - the exact gap a neutral tool fills.",
+      "monetization": "Affiliate/ads: median $3.72 cost-per-click proves ad money; keyword difficulty only 15/100, so an honest comparison + dosing calculator can rank fast.",
+      "evidence": [
+        "https://nextbig.io/markets/at-home-red-light-therapy",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12977816/",
+        "https://www.grandviewresearch.com/industry-analysis/red-light-therapy-market-report"
+      ],
+      "how_searched": [
+        "search-trend market scanner (Next Big)",
+        "peer-reviewed evidence check (PMC)",
+        "market-research report (Grand View)"
+      ],
+      "score": 70.0,
+      "found_at": "2026-10-22T10:44:54.326141+00:00"
+    },
+    {
       "name": "Prescription price-comparison & savings tool",
       "field": "Consumer health / pharmacy savings",
       "summary": "Search a drug plus ZIP to compare cash prices across discount programs and nearby pharmacies, with alerts on price changes. A free, no-insurance comparison tool.",
@@ -6171,45 +6208,6 @@
       ],
       "score": 69.0,
       "found_at": "2026-10-10T21:46:53.082154+00:00"
-    },
-    {
-      "name": "Employee Knowledge-Handoff Re-Performance & Bus-Factor Console",
-      "field": "Enterprise ops / workforce risk",
-      "summary": "When an expert leaves, capture workflows as executable re-performance checks ('can the successor reproduce last quarter's tie-out?') plus a bus-factor dashboard of single-owner processes—beyond static runbooks.",
-      "why_now": "A six-month r/BestofRedditorUpdates saga (1,715 upvotes, 320 comments, Oct 9–12 window) documented 95% department turnover, a failed 30-page runbook, and leadership demanding re-performance six days after the only two experts quit—classic tribal-knowledge liability. UpHunt's Upwork scrape shows operations/advisory categories still hiring while pure text/code freelancing collapses, so buyers pay for judgment-transfer work.",
-      "monetization": "B2B SaaS per-seat or per-workspace; deadline-driven purchase when a named person is leaving. Direct competitor MRR was null in this run.",
-      "evidence": [
-        "https://engaggit.com/blog/app-ideas-2026-10-12",
-        "https://www.reddit.com/r/BestofRedditorUpdates/comments/1x2yei9/new_updates_new_data_analyst_job_is_turning_into/",
-        "https://uphunt.io/blog/state-of-ai-on-upwork-2026"
-      ],
-      "how_searched": [
-        "Reddit high-upvote BRU thread via Engaggit",
-        "Upwork job-post corpus analysis"
-      ],
-      "score": 69.0,
-      "found_at": "2026-10-15T18:32:21.994668+00:00"
-    },
-    {
-      "name": "AI weekly household briefing (family mental-load layer)",
-      "field": "Consumer productivity / family",
-      "summary": "A free web tool that connects calendar, kids' activities and tasks, then delivers one AI-generated weekly briefing of what's coming up, what's missing and what to handle now — turning awareness into calendar actions.",
-      "why_now": "Daddy Issues launched on Product Hunt Oct 15, 2026 with 129 points/34 comments and ranked #1 of 46 in its family-organizer competitive set (Nicheloom); the Oct 17 launch-aggregator wrap named 'life-admin' as one of the cycle's three headline shifts, with consumer AI products taking three of the top six slots over dev tooling — the mental-load market is being validated in public this month.",
-      "monetization": "Free during launch per the founder; adjacent apps (Cozi, family organizers) and AI-assistant apps monetize via $5-15/mo subscriptions; Daddy Issues revenue: null. Affiliate (gifts/kids products) and couple-tier upgrades are natural later levers.",
-      "evidence": [
-        "https://www.producthunt.com/leaderboard/daily/2026/10/15",
-        "https://www.producthunt.com/products/daddy-issues",
-        "https://www.nicheloom.com/launches/55175/",
-        "https://productlist.info/daily/2026-10-17"
-      ],
-      "how_searched": [
-        "Product Hunt daily leaderboard",
-        "product launch page with founder Q&A",
-        "competitive-set ranking site",
-        "daily aggregator trend write-up"
-      ],
-      "score": 69.0,
-      "found_at": "2026-10-17T17:18:25.112568+00:00"
     }
   ]
 }
