@@ -1854,6 +1854,27 @@
       "found_at": "2026-10-22T05:00:36.903661+00:00"
     },
     {
+      "name": "LotLens",
+      "field": "Resale / collectibles",
+      "summary": "Free browser tool that photographs a shelf, box, or estate-sale lot, identifies cards, coins, antiques, books, and electronics, then ranks each item by expected resale profit after fees and exports marketplace-ready listings.",
+      "why_now": "CollX has 4.5M users, 500K monthly actives, 1-2M card scans per day and about $10M annual revenue; Cardstock runs at about $75K MRR and Scanon at about $17K MRR. The card-scanner niche has 100 apps, four clearing $50K+ per month, and 65 launched in the last 18 months, but 9 of 12 leaders lead with single-card scanning and only three mention binder or bulk scanning. The 2026 secondary-sale index counts 85,602 sale listings, including 32,278 estate sales.",
+      "monetization": "$9.99/month or $39/year for bulk scans; $49/month dealer or estate-sale-company tier; affiliate fees from grading submissions and eBay listings.",
+      "evidence": [
+        "https://technical.ly/entrepreneurship/collx-trading-card-marketplace-profitable/",
+        "https://www.appaloma.com/research/tcg-card-scanners",
+        "https://www.stork.ai/blog/this-hobby-is-now-a-15m-app-empire",
+        "https://finda.sale/blog/state-of-secondary-sales-in-america-2026"
+      ],
+      "how_searched": [
+        "Web search for resale and trading-card market data",
+        "App revenue and niche teardown reports",
+        "Estate-sale listing index review",
+        "Competitor tech press and founder interviews"
+      ],
+      "score": 84.0,
+      "found_at": "2026-10-22T15:22:59.000866+00:00"
+    },
+    {
       "name": "Self-Hosted Workflow Automation for AI Agents (n8n-style)",
       "field": "DevTools / AI Infrastructure",
       "summary": "Fair-code / open-source workflow automation platform that technical teams self-host for free (unlimited executions) to build AI agent pipelines, RAG, and multi-step automations — with paid cloud/enterprise for governance, SSO, and managed infrastructure.",
@@ -3671,6 +3692,28 @@
       "found_at": "2026-10-22T10:44:51.911046+00:00"
     },
     {
+      "name": "ShipSafe",
+      "field": "Developer security",
+      "summary": "Free one-scan web tool for AI-built apps: paste a deployed URL or repository, detect exposed Supabase keys, missing row-level security, auth bypasses, leaked secrets, and unsafe API routes, then produce agent-ready fix prompts.",
+      "why_now": "A large audit of 9,041 open-source vibe-coded apps examined 200 deployed apps, found 1,186 vulnerabilities, and reported that 91.0% had at least one vulnerability and 65.77% had Critical or High findings. heal.dev launched on Product Hunt, and YC listed vibe-code security as a Spring 2026 request for startups. Competitors are still early: CheckVibe reports about $919 MRR and 35 active subscriptions, while Security Scanner publishes $9 per scan and $29/month for weekly scans.",
+      "monetization": "Free first scan; $19/month indie, $49/month team and $99/month agency plans; $9-$29 per one-off scan.",
+      "evidence": [
+        "https://arxiv.org/abs/2606.23130",
+        "https://www.producthunt.com/leaderboard/daily/2026/10/22",
+        "https://www.microgaps.com/gaps/2026-02-19-vibe-code-security-scanner",
+        "https://trustmrr.com/startup/checkvibe",
+        "https://securityscanner.dev/blog/we-are-live"
+      ],
+      "how_searched": [
+        "arXiv paper search",
+        "Product Hunt daily leaderboard",
+        "Competitor pricing-page review",
+        "Indie MRR tracker and market-gap analysis"
+      ],
+      "score": 78.0,
+      "found_at": "2026-10-22T15:23:00.718167+00:00"
+    },
+    {
       "name": "Browser Extension AI Productivity Tools",
       "field": "Consumer / Productivity",
       "summary": "Chrome/Firefox/Edge extensions that bring AI into the browser — sidebar chat, page summarization, writing assistance, workflow automation, content extraction — with freemium subscriptions.",
@@ -4278,6 +4321,27 @@
       ],
       "score": 76.0,
       "found_at": "2026-10-21T19:34:18.029877+00:00"
+    },
+    {
+      "name": "ExecutorDesk",
+      "field": "LegalTech / estate administration",
+      "summary": "Free guided executor checklist customized by state, with deadline calendar, asset and debt inventory, document vault, family collaboration, and paid document-prep or attorney handoff.",
+      "why_now": "EverSettled raised a $5M seed after four months and says it supports thousands of families; EstateExec charges $199 per estate. The estate-settlement platform market is $4.8B in 2025 and projected at $12.3B by 2034, an 11.2% CAGR. Settlement commonly takes about 900 hours, and about 70% of Americans die without a will.",
+      "monetization": "Free checklist; $99-$199 per estate for document packs and closing support; attorney referral fees; $29/month for probate professionals managing multiple estates.",
+      "evidence": [
+        "https://www.eversettled.com/news/seed-funding-announcement",
+        "https://www.estateexec.com/pricing.html",
+        "https://dataintelo.com/report/estate-settlement-platform-market",
+        "https://techfundingnews.com/eversettled-5m-funding-emergence-capital-probate-ai/"
+      ],
+      "how_searched": [
+        "Funding-news search",
+        "Competitor pricing-page review",
+        "Market-research report search",
+        "Estate-settlement industry press"
+      ],
+      "score": 76.0,
+      "found_at": "2026-10-22T15:23:01.895095+00:00"
     },
     {
       "name": "Invoice & AP Automation (AI-First)",
@@ -5175,6 +5239,27 @@
       "found_at": "2026-10-21T19:34:19.206306+00:00"
     },
     {
+      "name": "ClaimScout",
+      "field": "E-commerce operations",
+      "summary": "Free CSV-based Amazon FBA reimbursement and fee-overcharge audit that ranks claims by expected recovery, highlights under-reimbursed inventory, and generates Seller Support-ready evidence packs.",
+      "why_now": "Recovery firms charge 10-25% contingency: GETIDA starts at 20%, Seller Investigators and Refunds Manager charge 25%, TrueOps 10%, Shopkeeper 12-20%, and Helium 10 15% or 10% by plan. Sellerboard bundles reimbursement audits from $19/month, and ReimburseOps already offers a free tier with a $19/month Pro plan, proving willingness to pay while leaving room for a no-commission audit workflow.",
+      "monetization": "Free audit; $19/month Pro for exports and monitoring; optional 10% success fee; $99/month white-label agency plan.",
+      "evidence": [
+        "https://www.sellerforge.ai/blog/best-amazon-reimbursement-service",
+        "https://hackceleration.com/labs/review/carbon6",
+        "https://revenuegeeks.com/amazon/fba-reimbursement-tools",
+        "https://amztoolset.com/best-amazon-reimbursement-software/"
+      ],
+      "how_searched": [
+        "Amazon seller tool comparison search",
+        "Competitor pricing-page review",
+        "M&A and funding news search",
+        "Seller review and tool roundup search"
+      ],
+      "score": 73.0,
+      "found_at": "2026-10-22T15:23:18.778604+00:00"
+    },
+    {
       "name": "LLM / agent spend & cost observability dashboard",
       "field": "Developer tools (LLMOps / FinOps)",
       "summary": "A free web tool that ingests API logs and shows cost per user, per feature, per model, plus latency, caching and runaway-agent alerts.",
@@ -5535,6 +5620,27 @@
       "found_at": "2026-10-19T01:36:37.284650+00:00"
     },
     {
+      "name": "A11yFix",
+      "field": "Web accessibility",
+      "summary": "Free WCAG scanner for small-business sites that explains each issue in plain English and gives CMS-specific fix snippets for WordPress, Shopify, Webflow, and Squarespace, with paid daily monitoring and compliance reports.",
+      "why_now": "More than 5,100 digital accessibility lawsuits were filed in 2025, 96% of sites remain non-compliant, and 77% of suits target companies earning under $25M. Enterprise monitoring runs about $15K-$120K per year, while overlays cost $29-$49/month but are legally discredited, leaving a gap for real automated scanning at $19-$39/month.",
+      "monetization": "Free scan; $29/month monitoring; $99/month agency plan for multiple client sites; remediation referral fees.",
+      "evidence": [
+        "https://www.ideaplan.io/ideas/trends/web-accessibility-tech",
+        "https://testparty.ai/blog/digital-accessibility-software-market",
+        "https://www.microgaps.com/gaps/wcag-accessibility-scanner-small-business",
+        "https://www.disabilityworld.org/articles/accessibility-monitoring-buyers-guide-2026/"
+      ],
+      "how_searched": [
+        "Accessibility litigation and market search",
+        "Competitor pricing-page review",
+        "SMB gap-analysis search",
+        "WCAG tool comparison search"
+      ],
+      "score": 72.0,
+      "found_at": "2026-10-22T15:23:22.124958+00:00"
+    },
+    {
       "name": "Cookie-consent / privacy-compliance generator",
       "field": "Privacy compliance / web tooling",
       "summary": "Scan a site, detect trackers, generate a compliant cookie banner plus cookie/privacy policy, and block non-essential scripts before consent. A free generator for the long tail of small sites that big CMPs ignore.",
@@ -5710,6 +5816,27 @@
       ],
       "score": 71.0,
       "found_at": "2026-10-22T05:00:43.115678+00:00"
+    },
+    {
+      "name": "VetNote Free",
+      "field": "Veterinary software",
+      "summary": "Free AI SOAP-note scribe for independent, mobile, and equine veterinarians, with offline recording, species-specific templates, and copy-paste or file export to any PIMS.",
+      "why_now": "The US has 57,920 veterinary-services businesses, pet spending is $158B in 2025 and $165B in 2026, and Scribenote reached about $4.4M revenue selling at $79-$99 per DVM per month with a free tier. The market is proven but crowded: 12 tools now price from $29 to $450 per month, so the open wedge is mobile and offline workflows rather than another generic small-animal scribe.",
+      "monetization": "Free for 20 notes per month; $49 per vet per month unlimited; $149 per clinic flat; paid PIMS integration and custom templates.",
+      "evidence": [
+        "https://scribenote.com/pricing",
+        "https://www.vetsoftwarehub.com/article/veterinary-ai-scribe-pricing-comparison-2026",
+        "https://www.startupheist.com/ai-scribe-for-independent-vets-90k-mrr-hiding-inside-legacy-software/",
+        "https://techlist.ai/scribenote.com"
+      ],
+      "how_searched": [
+        "Veterinary software pricing search",
+        "Vet AI scribe market comparison",
+        "Startup revenue case-study search",
+        "Company pricing-page review"
+      ],
+      "score": 71.0,
+      "found_at": "2026-10-22T15:23:23.584052+00:00"
     },
     {
       "name": "AI resume + job-application toolkit (ATS-tailored)",
@@ -6090,124 +6217,6 @@
       ],
       "score": 70.0,
       "found_at": "2026-10-18T18:11:55.044604+00:00"
-    },
-    {
-      "name": "AI Wait-Time Sponsored Inventory (Get Paid While Models Think)",
-      "field": "Attention monetization / browser extension",
-      "summary": "Injects one dismissible sponsored line into the dead seconds while ChatGPT/Claude/Gemini generate, sharing ad revenue with the user and optionally cited sources.",
-      "why_now": "Chatwait jumped +28k Chrome users in ~7 days to ~30k total (ExtOps/chrome-stats, Oct 2026); rival uwait launched the same model with a 50/30/20 user/source/platform split. Category is weeks old and already multi-product — pure greenfield for a free open rebuild.",
-      "monetization": "Native auction ads on the wait surface; 50% user cash-out is the acquisition hook; publishers/source royalty angle differentiates.",
-      "evidence": [
-        "https://extops.dev/extensions/fjbgbmkdallahjigblomfalbpblojfng",
-        "https://chromewebstore.google.com/detail/chatwait-get-paid-while-a/fjbgbmkdallahjigblomfalbpblojfng",
-        "https://chatwait.com/",
-        "https://www.uwait.co/en/extension/chrome"
-      ],
-      "how_searched": [
-        "Chrome Web Store growth trackers",
-        "product sites",
-        "extension market intel"
-      ],
-      "score": 70.0,
-      "found_at": "2026-10-18T23:24:34.629211+00:00"
-    },
-    {
-      "name": "Fractional-executive / fractional-operator marketplace",
-      "field": "Work & hiring marketplace",
-      "summary": "A two-sided web marketplace that matches companies needing part-time senior leaders (fractional CFO/CMO/CTO/COO) with vetted operators, handling matching, contracts and payments.",
-      "why_now": "Demand signals are climbing fast in search and platform data: 'Fractional COO' shows ~7,400% search growth on a trending-topics tracker; Go Fractional reports 18,000+ operators, +53-61% demand change and $10M+ in fractional income generated; the market is sized at $17.6B (2025) growing to $36.7B by 2034.",
-      "monetization": "Platform/placement/subscription fees and take-rate on engagements (e.g. competitor models charge a share of earnings or referral fees of $3K-5K); market worth ~$17.6B in billed leadership fees in 2025.",
-      "evidence": [
-        "https://www.gofractional.com/",
-        "https://www.gofractional.com/insights",
-        "https://dataintelo.com/report/fractional-executive-marketplace-market",
-        "https://explodingtopics.com/blog/trending-topics"
-      ],
-      "how_searched": [
-        "platform's own data pages",
-        "market-research report",
-        "search-trend tool (Exploding Topics)"
-      ],
-      "score": 70.0,
-      "found_at": "2026-10-19T01:36:38.360602+00:00"
-    },
-    {
-      "name": "Open-Source Charting & Technical Analysis with AI Agent",
-      "field": "Fintech / Retail Investing Tools",
-      "summary": "A free, open-source TradingView-class charting and technical-analysis web app where users can also query their own AI agent about the chart, replacing expensive proprietary charting subscriptions for retail traders.",
-      "why_now": "OpenChart ('OSS TradingView alternative with your own AI agent') reached 45 points on Show HN in October 2026; prediction-market and retail-trading activity is at record levels (Kalshi+Polymarket combined monthly volume hit $53B in July 2026 per Pew, and $179.6B in Q3 2026 contracts per Prediction Frontier), expanding the retail-trader audience that needs charting tools; Kalshi alone is estimated at ~$1.3B 2026 revenue, showing the underlying retail trading economy is massive even if charting tools sit adjacent to it.",
-      "monetization": "Open-source free core with optional hosted pro tier or API; OpenChart pre-revenue (null). Adjacent commercial charting subscriptions demonstrate willingness to pay at scale.",
-      "evidence": [
-        "https://bestofshowhn.com/2026/10",
-        "https://www.pewresearch.org/short-reads/2026/09/23/prediction-markets-trading-volume-doubled-between-may-and-july-largely-driven-by-sports/",
-        "https://predictionfrontier.com/research/prediction-frontier-q3-2026-sector-report"
-      ],
-      "how_searched": [
-        "Best of Show HN October 2026",
-        "Pew Research prediction-market volume analysis",
-        "Q3 2026 sector report"
-      ],
-      "score": 70.0,
-      "found_at": "2026-10-22T05:00:48.655944+00:00"
-    },
-    {
-      "name": "Evidence-Based Red-Light Therapy Device Selector & Dosage Calculator",
-      "field": "Wellness / health-tools content",
-      "summary": "A tool site that computes dosing (wavelength, joules/cm2, session time/distance) for any at-home device and ranks panels/masks/belts with plain evidence - the trust gap research papers showed in this exploding market.",
-      "why_now": "Next Big scored it 91/100 (its top market): searches +321% YoY, 281K monthly searches, 16 of 16 search trends rising, big-brands (Shark CryoGlow 48K searches) just went mainstream; a Feb-2026 PMC study documents claims-vs-evidence mismatch - the exact gap a neutral tool fills.",
-      "monetization": "Affiliate/ads: median $3.72 cost-per-click proves ad money; keyword difficulty only 15/100, so an honest comparison + dosing calculator can rank fast.",
-      "evidence": [
-        "https://nextbig.io/markets/at-home-red-light-therapy",
-        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12977816/",
-        "https://www.grandviewresearch.com/industry-analysis/red-light-therapy-market-report"
-      ],
-      "how_searched": [
-        "search-trend market scanner (Next Big)",
-        "peer-reviewed evidence check (PMC)",
-        "market-research report (Grand View)"
-      ],
-      "score": 70.0,
-      "found_at": "2026-10-22T10:44:54.326141+00:00"
-    },
-    {
-      "name": "Prescription price-comparison & savings tool",
-      "field": "Consumer health / pharmacy savings",
-      "summary": "Search a drug plus ZIP to compare cash prices across discount programs and nearby pharmacies, with alerts on price changes. A free, no-insurance comparison tool.",
-      "why_now": "Consumer interest is spiking: CompareMedsRx grew from ~10,000 to over 280,000 users in twelve months (April 2026) aggregating 20+ discount programs. GoodRx shows where the money is moving: Q2 2026 revenue was $200.4M from ~25M annual consumers, with subscriptions up 39% to $28.5M and Pharma Direct up 76% to $61.6M, even as legacy prescription-transaction revenue fell 26%.",
-      "monetization": "Pharmacy/discount-program referral fees, manufacturer \"consumer direct pricing\" partnerships, and paid subscriptions (GoodRx Companion at $14.99/mo, or $9.99/mo annual).",
-      "evidence": [
-        "https://www.einpresswire.com/article/904315973/comparemedsrx-growth-highlights-rising-consumer-interest-in-prescription-price-comparison-tools",
-        "https://www.sec.gov/Archives/edgar/data/1809519/000180951926000151/gdrxq226-exx991pressrelease.htm",
-        "https://www.fool.com/earnings/call-transcripts/2026/08/12/goodrx-gdrx-q2-2026-earnings-call-transcript/"
-      ],
-      "how_searched": [
-        "PR/wire news",
-        "SEC filings",
-        "earnings-call transcript",
-        "web search"
-      ],
-      "score": 69.0,
-      "found_at": "2026-10-08T23:25:33.798044+00:00"
-    },
-    {
-      "name": "Free AI receipt-to-expense tool for freelancers",
-      "field": "Personal finance / admin",
-      "summary": "Snap or upload a receipt and get structured vendor/date/total/tax data and an exportable expense report for tax time — the consumer/freelancer counterpart to heavy B2B AP suites.",
-      "why_now": "Multiple independent apps show real, repeat revenue: SimplyWise ~$50K/mo, Receipt Scanner ~$40K/mo, Receipt Lens ~$9K/mo, Smart Receipts ~$13.6K/mo, Dext ~$19.3K/mo. A founder teardown shows the unit economics work ($0.0012/scan, ~$23/mo all-in), so a leaner free web tool can undercut incumbents like Dext ($302/yr).",
-      "monetization": "Subscriptions ($2.99-$16.99/mo typical) and one-time packs; a free web tier can monetize on multi-seat and accounting integrations.",
-      "evidence": [
-        "https://peekly.app/apps/9c7d1ea8-7477-483b-a9fc-7a285f0c728b",
-        "https://peekly.app/apps/394560b4-db07-4942-9b92-82b4f1af3e16",
-        "https://taxr.io/blog/unit-economics-ai-receipt-scanner/",
-        "https://bumetric.com/revenue/dext-expense-tracker-app",
-        "https://apprank.io/receipt-lens-expense-tracker-0764"
-      ],
-      "how_searched": [
-        "app-store revenue estimators (Peekly, bumetric, AppRank)",
-        "founder unit-economics blog"
-      ],
-      "score": 69.0,
-      "found_at": "2026-10-10T21:46:53.082154+00:00"
     }
   ]
 }
