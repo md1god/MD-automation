@@ -20,6 +20,26 @@
       "found_at": "2026-10-19T07:48:56.173487+00:00"
     },
     {
+      "name": "AI Interior Design & Renovation",
+      "field": "Consumer AI / Interior Design",
+      "summary": "A free web tool that uploads a room photo, lets the user pick a style and lock the walls, floor, and furniture that must stay, then returns photorealistic redesigns for living rooms, kitchens, exteriors, and gardens.",
+      "why_now": "AI room redesign is open and fully priced: 81 apps, 40 launched in the last 18 months, demand rated 100 and crowding 30, with a $1.2M+ monthly floor. Home AI adds 5,572 ratings a month, DecAI has 1M MAU and $100K+ monthly revenue, and Interior AI is estimated at $45K MRR.",
+      "monetization": "Freemium with paid render credits, $9.99 weekly and $29.99-$64.99 yearly plans, one-off design packs, and white-label plans for real-estate agents and home stagers. Avoid the trial-to-weekly trap and per-render limits that dominate one-star reviews.",
+      "evidence": [
+        "https://www.appgoblin.info/apps/ai.interior.design.home.renovation.app",
+        "https://www.appaloma.com/research/ai-interior-design",
+        "https://catalora.ai/articles/ai-photo-apps-indie-revenue"
+      ],
+      "how_searched": [
+        "App-store revenue analytics (AppGoblin)",
+        "App niche and review research (Appaloma)",
+        "AI photo-app revenue analysis (Catalora)",
+        "Web search for AI interior design revenue"
+      ],
+      "score": 95.0,
+      "found_at": "2026-10-22T19:23:42.267384+00:00"
+    },
+    {
       "name": "MCP Server Build, Test & Deploy Platform",
       "field": "Developer Tools / AI Infrastructure",
       "summary": "A free web-based studio to scaffold, test, debug, and deploy Model Context Protocol (MCP) servers with auth, workflows, and one-click sharing.",
@@ -4344,6 +4364,26 @@
       "found_at": "2026-10-22T15:23:01.895095+00:00"
     },
     {
+      "name": "AI Garden & Landscape Design",
+      "field": "Consumer AI / Home & Garden",
+      "summary": "A free web tool that uploads a yard or garden photo, applies a chosen landscape style, and returns redesigned outdoor scenes with plant, patio, and material suggestions plus a shopping list.",
+      "why_now": "One AI garden app generated $60K in its first month with 2,200+ reviews and no free plan, while AppCurrents estimates $3K-$17K per month and 7K-29K downloads. The caution is demand quality: TGGET shows 1,600 monthly searches, down 46% year over year, a $20.38 CPC, and a needs-validation rating, indicating a paid-acquisition-led niche.",
+      "monetization": "Weekly and yearly subscriptions, render credits, affiliate links to plants and outdoor furniture, and lead generation for landscapers and nurseries.",
+      "evidence": [
+        "https://appcurrents.com/apps/ai-garden-design-landscape-ai-ios-6744179402",
+        "https://thegrowthhackinglab.com/case-studies/ai-garden-design-60k-revenue-2200-review/",
+        "https://tgget.io/niches/landscaping-software"
+      ],
+      "how_searched": [
+        "App-store revenue estimates (AppCurrents)",
+        "Growth case study (Growth Hacking Lab)",
+        "Search-demand and keyword data (TGGET)",
+        "Web search for AI garden design revenue"
+      ],
+      "score": 76.0,
+      "found_at": "2026-10-22T19:23:52.430069+00:00"
+    },
+    {
       "name": "Invoice & AP Automation (AI-First)",
       "field": "Fintech / B2B SaaS",
       "summary": "End-to-end invoice processing: email/file intake → AI extraction (line items, PO matching) → validation → ERP/accounting sync → approval workflow → payment — with KPI dashboards (cost/invoice, cycle time, touchless rate).",
@@ -6177,46 +6217,6 @@
       ],
       "score": 70.0,
       "found_at": "2026-10-18T11:14:59.641262+00:00"
-    },
-    {
-      "name": "Post-Purchase Survey & Attribution for E-commerce",
-      "field": "E-commerce Analytics / Zero-Party Data",
-      "summary": "A Shopify-native web app that triggers micro-surveys on thank-you pages, ties responses to order value/LTV/segments, and feeds attribution data to ad platforms (Meta, Google, TikTok). Replaces generic survey tools with e-commerce context.",
-      "why_now": "Zigpoll: $142K MRR solo, 90% via Shopify App Store, doubles YoY since 2022; Shopify Forms: 130K installs, +16.5% 90-day trend; StoreCensus: post-purchase surveys category growing. 75% of pros use AI note-takers but e-commerce lacks equivalent for attribution.",
-      "monetization": "Freemium: free 25 responses/mo; Standard $49/mo (2,500 responses, AI insights); Pro $149/mo (unlimited, API, webhooks, Klaviyo/Attentive sync). Agency $299/mo multi-store. Shopify App Store takes 20% but provides distribution.",
-      "evidence": [
-        "https://milestonewins.com/stories/zigpoll-story/",
-        "https://www.systemaic.com/teardowns/zigpoll",
-        "https://www.storecensus.com/stats",
-        "https://www.linkedin.com/posts/jason-zigelbaum_august-pushed-zigpoll-past-141000-in-monthly-activity-7500545550866440193-hdBi"
-      ],
-      "how_searched": [
-        "Founder revenue story (MilestoneWins)",
-        "Growth teardown (Systemaic)",
-        "Real-time store tracking (StoreCensus)",
-        "Founder LinkedIn updates (Jason Zigelbaum)"
-      ],
-      "score": 70.0,
-      "found_at": "2026-10-18T14:57:58.759382+00:00"
-    },
-    {
-      "name": "TikTok Shop product & creator intelligence (free/cheap tier)",
-      "field": "E-commerce analytics",
-      "summary": "Web intelligence for TikTok Shop sellers: trending-product rankings, creator GMV estimates and shop watchlists at a free or sub-$15 entry price, undercutting the $49–139/mo tool cartel.",
-      "why_now": "TikTok Shop US GMV grew ~120% YoY in 2025 (FastMoss mid-year report); FastMoss claims 4.7M+ seller/creator users and charges $49–139/mo; Kalodata ~$38–46/mo, TokConnect $49/mo — a dense paid field with only thin free tiers (EchoTik free = 30-day history only). TokConnect's Oct 2026 comparison shows every major job (product research, competitor GMV, creator discovery, TikTok search demand) is paywalled; Shopify-intel analog already produced a known success category, but TikTok-native free intel is still a gap.",
-      "monetization": "Subscription tiers $13.90–$139/mo proven across 5+ vendors; free tier with ads/credits + paid exports and API/MCP access (FastMoss sells MCP/CLI).",
-      "evidence": [
-        "https://tokconnect.com/guides/best-tiktok-shop-analytics-tools/",
-        "https://www.fastmoss.com/",
-        "https://www.trenz.ai/resource/best-tiktok-shop-analytics-tools"
-      ],
-      "how_searched": [
-        "vendor pricing pages (multi-tool comparison)",
-        "marketplace GMV growth report",
-        "tool roundup with verified prices (Oct 2026)"
-      ],
-      "score": 70.0,
-      "found_at": "2026-10-18T18:11:55.044604+00:00"
     }
   ]
 }
