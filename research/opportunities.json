@@ -743,6 +743,24 @@
       "found_at": "2026-10-21T19:34:15.056731+00:00"
     },
     {
+      "name": "Multi-Platform Social Cross-Poster (Post Bridge model)",
+      "field": "Creator / Solo-Marketer Infrastructure",
+      "summary": "A lightweight dashboard that publishes and schedules the same post to X, Instagram, LinkedIn, TikTok, YouTube, Threads and Bluesky at once, priced for solo marketers rather than enterprise teams.",
+      "why_now": "Post Bridge, the category exemplar, holds ~$49k MRR from 1,663 Stripe-verified subscriptions as of Oct 21, 2026 (92% profit margin, $550k all-time), up from ~$11k MRR six months earlier; the founder's public build-in-public distribution on X (181k followers) shows the channel is still compounding.",
+      "monetization": "Subscription at $39/mo (Marketer) and $99/mo (Operator); verified Stripe MRR ~$49.4k, ~$593k annualized, ~$26 blended ARPU, 92% margin per TrustMRR and Boring SaaS snapshots.",
+      "evidence": [
+        "https://trustmrr.com/startup/post-bridge",
+        "https://www.wlad.me/blog/companies/post-bridge",
+        "https://startupfounderstories.com/stories/jack-friks-post-bridge-11k-mrr"
+      ],
+      "how_searched": [
+        "Stripe-verified revenue dashboards (TrustMRR, Boring SaaS, MRR Wars)",
+        "Founder interview / case study"
+      ],
+      "score": 88.0,
+      "found_at": "2026-10-22T05:00:33.981508+00:00"
+    },
+    {
       "name": "Retro digicam / film-camera filter web app (Y2K & CCD look)",
       "field": "Consumer photo / creator tools",
       "summary": "A browser tool that turns any photo or video into the grainy, flash-heavy, early-2000s 'digicam/CCD' look using preset film stocks, light leaks, date stamps and scans — no app install.",
@@ -1154,6 +1172,26 @@
       "found_at": "2026-10-21T05:12:05.484546+00:00"
     },
     {
+      "name": "Reddit & X Buyer-Intent Lead Radar",
+      "field": "B2B Lead Generation / Social Listening",
+      "summary": "Tools that scan Reddit, X and LinkedIn for high-intent buyer questions about a product category, score the threads, and deliver a reviewable lead queue with draft replies (human-approved) for founders and sales teams.",
+      "why_now": "Multiple independent solo founders hit real recurring revenue on this exact workflow in 2026: ReddGrow at $10,150 Stripe-verified MRR with 72 subscriptions, Replymer at ~$10k MRR, Leadverse at $3.3k MRR with 130+ paying customers, and Sensorhub landing 6 paying customers and $313 MRR within weeks of launch; buyers are spending because AI-search visibility and Reddit-sourced demand are new budget lines.",
+      "monetization": "SaaS subscriptions: ReddGrow $99/$199/$399 per month tiers; Replymer $99/$199/$399 per month; Leadverse $19-$29 per month entry. ReddGrow's Stripe-verified figure was $10,150 MRR / 72 active subscriptions as of Aug 30, 2026 (with a documented late-summer slowdown).",
+      "evidence": [
+        "https://www.sofarbot.com/stories/reddgrow-ai-yahav-fuchs-10598-mrr",
+        "https://www.mrrstory.com/stories/how-i-survived-26-projects-to-build-an-end-to-end-reddit-x-marketing-saas",
+        "https://www.sofarbot.com/stories/leadverse-jakub-muzik-3300-mrr",
+        "https://blog.kalo.me/p/weeks-17-24-launching-sensorhub-and"
+      ],
+      "how_searched": [
+        "Stripe-verified revenue case studies (sofarbot/TrustMRR)",
+        "Indie Hackers / founder interviews",
+        "r/buildinpublic posts"
+      ],
+      "score": 86.0,
+      "found_at": "2026-10-22T05:00:35.704668+00:00"
+    },
+    {
       "name": "Short-Form Video Intelligence & Analytics",
       "field": "Creator Economy / MarTech",
       "summary": "Real-time analytics platform for TikTok, Reels, Shorts that tracks viral trends, competitor performance, outlier detection, and content gaps — turning signals into scripts, briefs, and ad creative.",
@@ -1454,6 +1492,25 @@
       ],
       "score": 85.0,
       "found_at": "2026-10-21T15:40:33.488591+00:00"
+    },
+    {
+      "name": "Financial PDF (Bank Statement) → Spreadsheet Converter",
+      "field": "Bookkeeping / Document Utility",
+      "summary": "A single-purpose web tool that turns PDF bank and credit-card statements into clean Excel/CSV files for accountants, bookkeepers and freelancers who would otherwise retype rows by hand.",
+      "why_now": "Bank Statement Compounder (Angus Cheng, Hong Kong) proves the category with a four-year public revenue curve: $3,182 (2021) → $49,428 (2022) → $147,337 (2023) → $318,113 (2024), reaching ~$40k MRR / ~$39k monthly profit with ~1,000 paying customers and ~40k monthly visits, run solo with zero ad spend after Google Ads proved unprofitable (0.3x return).",
+      "monetization": "Subscription per statement-scans / monthly plans; current MRR ~$40k, ~$40 ARPU, ~1.3% free-to-paid conversion, ~95% realistic margin after Stripe and infra per third-party fact-check.",
+      "evidence": [
+        "https://www.starterstory.com/angus",
+        "https://aidevcases.com/en/cases/bank-statement-converter",
+        "https://incomeidealab.com/research/bank-statement-converter-40k-mrr"
+      ],
+      "how_searched": [
+        "Starter Story founder revenue interview",
+        "Third-party fact-check / income verification writeup",
+        "GTM case study"
+      ],
+      "score": 85.0,
+      "found_at": "2026-10-22T05:00:36.300774+00:00"
     },
     {
       "name": "AI Video Generation & Editing for Short-Form",
@@ -1776,6 +1833,25 @@
       ],
       "score": 84.0,
       "found_at": "2026-10-21T19:34:15.552927+00:00"
+    },
+    {
+      "name": "Autonomous AI Social Media Influencer Agent",
+      "field": "AI Social Media Automation",
+      "summary": "Configure an AI agent with a persona, memory and brand context; it watches trends across TikTok/Instagram/X, generates content, and publishes to the brand's accounts end-to-end (with human approval gates), not just a scheduler or one-off video generator.",
+      "why_now": "Spira AI took Product Hunt's #1 daily slot on Oct 5, 2026 with Spira Maxima (602 monthly score, #1 for October 2026 overall) and claims 10M+ impressions before public launch; built by alumni of Creatify, TikTok, CapCut, Meta, Snap and Midjourney; the launch post alone drew ~1.3M X views in two days, and the product page shows a customer testimonial of demo requests tripling in five weeks.",
+      "monetization": "Credit-based subscription: Free trial, Creator $15/mo, Growth $59/mo (10 influencer agents, unlimited account automation), Enterprise custom; Spira Maxima priced at $0.15 per second of finished video. Exact revenue not disclosed (null).",
+      "evidence": [
+        "https://www.producthunt.com/leaderboard/monthly/2026/10",
+        "https://spira.ai/pricing",
+        "https://sloptvnews.com/spira-maxima-text-to-finished-social-video/"
+      ],
+      "how_searched": [
+        "Product Hunt monthly leaderboard",
+        "Vendor pricing page",
+        "Tech press coverage of launch"
+      ],
+      "score": 84.0,
+      "found_at": "2026-10-22T05:00:36.903661+00:00"
     },
     {
       "name": "Self-Hosted Workflow Automation for AI Agents (n8n-style)",
@@ -2370,6 +2446,25 @@
       ],
       "score": 82.0,
       "found_at": "2026-10-21T19:34:16.678928+00:00"
+    },
+    {
+      "name": "Restaurant Waitlist & Reservation SaaS",
+      "field": "Restaurant Front-of-House Tech",
+      "summary": "A flat-rate waitlist plus reservation system for independent restaurants: guest self-check-in, SMS/WhatsApp wait notifications, Reserve-with-Google integration and table management, undercutting OpenTable/Yelp on price and complexity.",
+      "why_now": "Waitly (solo founder) reportedly crossed ~$40k/month on track for ~$500k/year serving small restaurants that billion-dollar competitors ignore; the global restaurant waitlist management software market was $806M in 2025 and is projected to hit $2.12B by 2034 (11.2% CAGR); Toast data shows 45% of diners are more likely to choose a restaurant that offers an online waitlist and 65% book directly on the restaurant's website.",
+      "monetization": "Flat monthly SaaS: Waitly Free (1 location, 100 parties/mo), Premium $49/mo, Professional $99/mo, Enterprise from $249/mo; competitors range $27-$149/mo entry. Waitly founder-reported ~$40k/mo revenue.",
+      "evidence": [
+        "https://frontdeskreview.com/software/waitlist-queue-management/waitly/",
+        "https://growthmarketreports.com/report/restaurant-waitlist-management-software-market",
+        "https://pos.toasttab.com/blog/data/restaurant-wait-times-and-reservations-data"
+      ],
+      "how_searched": [
+        "Competitor pricing review site (frontdeskreview)",
+        "Market research report",
+        "Toast public restaurant data blog"
+      ],
+      "score": 82.0,
+      "found_at": "2026-10-22T05:00:37.902990+00:00"
     },
     {
       "name": "AI SDR & Autonomous Sales Agents",
@@ -4454,6 +4549,25 @@
       "found_at": "2026-10-21T10:33:19.486187+00:00"
     },
     {
+      "name": "Founder-Friendly Bookkeeping Lite (QuickBooks Alternative)",
+      "field": "Small-Business Accounting",
+      "summary": "A simple, low-priced accounting and bookkeeping tool aimed at startup founders and solo operators who find QuickBooks too heavy, with clean invoicing, expense categorization and tax-ready exports.",
+      "why_now": "Fina Business ('the flexible $20/mo QuickBooks alternative for founders') pulled 266 votes on Product Hunt in October 2026; vertical landlord-finance platform Baselane (adjacent proof of the 'boring finance for X' wedge) reached $25.8M estimated annual revenue and 50,000+ real estate investors with a $34.4M raise and 900% growth since Series A; the bank-statement-converter case shows bookkeepers will pay $40/mo for narrow financial document tools.",
+      "monetization": "Low monthly subscription (~$20/mo per Fina's positioning); Baselane monetizes via banking fees, $2 ACH rent processing, 3.49% card fees and Baselane Smart subscription. Fina's exact revenue not disclosed (null).",
+      "evidence": [
+        "https://launchindex.ai/month/2026-10",
+        "https://www.baselane.com/resources/baselane-announces-34m-in-new-funding-to-invest-in-customers",
+        "https://finance.yahoo.com/news/baselane-announces-34m-funding-debuts-130000446.html"
+      ],
+      "how_searched": [
+        "Product Hunt / Launch Index monthly rankings",
+        "Company funding press release",
+        "Yahoo Finance / PR Newswire"
+      ],
+      "score": 75.0,
+      "found_at": "2026-10-22T05:00:39.435501+00:00"
+    },
+    {
       "name": "Chat-first personal AI assistant (web app)",
       "field": "Consumer AI / personal agents",
       "summary": "A free web tool where users text or type tasks (research, organise, shop/reserve, schedule) to a personal agent that does them end-to-end in the browser.",
@@ -4786,6 +4900,25 @@
       ],
       "score": 74.0,
       "found_at": "2026-10-21T19:34:18.579773+00:00"
+    },
+    {
+      "name": "Open-Source A/B Testing & Feature-Flag Experiments",
+      "field": "Product Analytics / DevTools",
+      "summary": "Open-source feature-flag and experimentation platform that lets teams run A/B tests on top of flags without paying enterprise analytics prices, self-hostable and agent-friendly.",
+      "why_now": "Growthbook shows 3,400% five-year search growth on Exploding Topics (Oct 20, 2026); Flagsmith Experiments launched on Product Hunt on Oct 22, 2026 as 'open-source A/B testing built on your feature flags' with 102 votes on day one; the open-source SEO suite wave (OpenSEO at 409 votes, $10/mo vs $100+ Semrush) shows buyers will switch for 10x cheaper open alternatives in adjacent marketing/dev categories.",
+      "monetization": "Open-core: free self-host, paid cloud/hosted tiers (Flagsmith and Growthbook both operate this model); exact category revenue not disclosed (null).",
+      "evidence": [
+        "https://explodingtopics.com/blog/trending-topics",
+        "https://www.producthunt.com/leaderboard/daily/2026/10/22",
+        "https://launchindex.ai/month/2026-10"
+      ],
+      "how_searched": [
+        "Exploding Topics trending search growth list",
+        "Product Hunt daily leaderboard",
+        "Launch Index monthly PH rankings"
+      ],
+      "score": 74.0,
+      "found_at": "2026-10-22T05:00:40.179860+00:00"
     },
     {
       "name": "Personal data-broker opt-out & removal-request generator",
@@ -5542,6 +5675,25 @@
       "found_at": "2026-10-21T19:34:21.134805+00:00"
     },
     {
+      "name": "Accuracy-Guaranteed AI Product / Retail Voiceover",
+      "field": "AI Audio for E-Commerce Ads",
+      "summary": "AI voiceover generation specialized for product and retail ads where names, prices, SKUs and dates must be spoken correctly every time, targeting ad creators and e-commerce brands that burn budget on mispronounced product reads.",
+      "why_now": "Onepin ('AI voiceover with every name, price and date said right') hit 442 votes on Product Hunt in October 2026, the #4 launch of the month, outpolling many general AI video tools; the same month Spira Maxima (#1, 602) and general AI video generation (Exploding Topics: AI Video Generator at 8,100% five-year growth) show the underlying short-form video ad market is still expanding fast enough to support specialized accuracy plays.",
+      "monetization": "Per-generation credits or subscription; Onepin's exact pricing and revenue not disclosed (null). Comparable AI video tools range from ~$0.06-$0.16 per second of output.",
+      "evidence": [
+        "https://launchindex.ai/month/2026-10",
+        "https://www.producthunt.com/leaderboard/monthly/2026/10",
+        "https://explodingtopics.com/blog/trending-topics"
+      ],
+      "how_searched": [
+        "Launch Index monthly PH + Show HN rankings",
+        "Product Hunt monthly leaderboard",
+        "Exploding Topics search-growth list"
+      ],
+      "score": 71.0,
+      "found_at": "2026-10-22T05:00:43.115678+00:00"
+    },
+    {
       "name": "AI resume + job-application toolkit (ATS-tailored)",
       "field": "Careers / job search",
       "summary": "A free web app that writes and tailors a resume to a pasted job description (keyword targeting/ATS pass-through) plus interview practice.",
@@ -5962,6 +6114,25 @@
       "found_at": "2026-10-19T01:36:38.360602+00:00"
     },
     {
+      "name": "Open-Source Charting & Technical Analysis with AI Agent",
+      "field": "Fintech / Retail Investing Tools",
+      "summary": "A free, open-source TradingView-class charting and technical-analysis web app where users can also query their own AI agent about the chart, replacing expensive proprietary charting subscriptions for retail traders.",
+      "why_now": "OpenChart ('OSS TradingView alternative with your own AI agent') reached 45 points on Show HN in October 2026; prediction-market and retail-trading activity is at record levels (Kalshi+Polymarket combined monthly volume hit $53B in July 2026 per Pew, and $179.6B in Q3 2026 contracts per Prediction Frontier), expanding the retail-trader audience that needs charting tools; Kalshi alone is estimated at ~$1.3B 2026 revenue, showing the underlying retail trading economy is massive even if charting tools sit adjacent to it.",
+      "monetization": "Open-source free core with optional hosted pro tier or API; OpenChart pre-revenue (null). Adjacent commercial charting subscriptions demonstrate willingness to pay at scale.",
+      "evidence": [
+        "https://bestofshowhn.com/2026/10",
+        "https://www.pewresearch.org/short-reads/2026/09/23/prediction-markets-trading-volume-doubled-between-may-and-july-largely-driven-by-sports/",
+        "https://predictionfrontier.com/research/prediction-frontier-q3-2026-sector-report"
+      ],
+      "how_searched": [
+        "Best of Show HN October 2026",
+        "Pew Research prediction-market volume analysis",
+        "Q3 2026 sector report"
+      ],
+      "score": 70.0,
+      "found_at": "2026-10-22T05:00:48.655944+00:00"
+    },
+    {
       "name": "Prescription price-comparison & savings tool",
       "field": "Consumer health / pharmacy savings",
       "summary": "Search a drug plus ZIP to compare cash prices across discount programs and nearby pharmacies, with alerts on price changes. A free, no-insurance comparison tool.",
@@ -6039,180 +6210,6 @@
       ],
       "score": 69.0,
       "found_at": "2026-10-17T17:18:25.112568+00:00"
-    },
-    {
-      "name": "AI agent memory manager",
-      "field": "Developer tools",
-      "summary": "A free, open web tool that captures what an AI coding agent did, compresses it, and replays the context into future sessions so agents remember across runs.",
-      "why_now": "thedotmack/claude-mem has 97,798 stars (GitHub API, Oct 8, 2026), was pushed Oct 7, 2026, and appears on GitHub's trending list today; its site claude-mem.ai is live and describes cross-agent support (Claude Code, Codex, Gemini, OpenCode and more).",
-      "monetization": "Revenue not verified (null); open-source core with hosted/team add-ons is the plausible path — the star base (97.8K) is the distribution asset, and teams pay for managed memory.",
-      "evidence": [
-        "https://github.com/thedotmack/claude-mem",
-        "https://github.com/trending",
-        "https://claude-mem.ai/"
-      ],
-      "how_searched": [
-        "GitHub trending page (daily + weekly)",
-        "GitHub REST API (exact star/push counts)",
-        "project website"
-      ],
-      "score": 68.0,
-      "found_at": "2026-10-08T03:07:48.806006+00:00"
-    },
-    {
-      "name": "Real-time physics world-model simulator",
-      "field": "World models / physical AI simulation",
-      "summary": "A foundation world model that generates an interactive environment from a text prompt and predicts how it evolves in real time as you act — for robotics, driving, drones, game environments and agent training, with a free browser research preview.",
-      "why_now": "Odyssey launched Odyssey-3 on Oct 8, 2026: Pro scored 66.1 on Physics-IQ Verified video-to-video (highest reported, ahead of Nvidia Cosmos, Veo 3.1 and Sora 2) and 54.7 image-to-video; it was #5 on Product Hunt Oct 9; the lab is backed by Amazon and AMD, and AMD agreed to buy rival World Labs for $8.2B — pricing the category. Free browser preview with first/third-person navigation is live now.",
-      "monetization": "Free browser research preview; API access by request with no open weights or public pricing (null). Category money: AMD–World Labs deal at $8.2B.",
-      "evidence": [
-        "https://odyssey.systems/meet-odyssey-3",
-        "https://aicoder.com/news/news-20261009-odyssey-3-world-model-physics-iq-sota",
-        "https://updater.news/odyssey-unveils-odyssey-3-world-model-for-robots-cars/",
-        "https://www.producthunt.com/leaderboard/daily/2026/10/9"
-      ],
-      "how_searched": [
-        "product site (odyssey.systems)",
-        "tech news (AICoder, AI.info, Updater News/Businesswire)",
-        "launch leaderboard (Product Hunt daily)"
-      ],
-      "score": 68.0,
-      "found_at": "2026-10-10T06:18:15.302483+00:00"
-    },
-    {
-      "name": "Employer-side agentic recruiting platform",
-      "field": "HR tech / recruiting",
-      "summary": "A platform of AI agents that source candidates, review applications against a role brief, run structured screening conversations and turn interviews into usable notes.",
-      "why_now": "Metaview raised a $60M Series C led by Insight Partners (30 Sep 2026; total $110M), now used by 7,000+ companies including Deel, Affirm and Replit, and is scaling from 80 to 250 staff. It cites a 412% rise in applications per recruiter as AI makes applying trivial — a large, painful, newly urgent problem in an ~$800B industry.",
-      "monetization": "Enterprise SaaS per-seat/platform pricing (private; large funded competitors validate willingness to pay).",
-      "evidence": [
-        "https://www.metaview.ai/resources/blog/metaview-raised-an-additional-60m-to-lead-the-shift-to-agentic-recruiting",
-        "https://www.intrepidgp.com/insights/metaview-raises-60m-series-c-to-lead-the-shift-to-agentic-recruiting",
-        "https://www.axios.com/pro/enterprise-software-deals/2026/09/30/agentic-recruiting-metaview-60m",
-        "https://thenextweb.com/news/metaview-60m-series-c-insight-partners-ai-recruiting",
-        "https://vertexholdings.com/news/recruiting-is-next-metaview-raises-us-60-million-series-c-to-put-ai-agents-at-the-centre-of-hiring/"
-      ],
-      "how_searched": [
-        "web search 'Metaview $60M Series C agentic recruiting AI interviews 2026'",
-        "verified across company blog, Axios, TNW, investor posts"
-      ],
-      "score": 68.0,
-      "found_at": "2026-10-10T17:55:04.820421+00:00"
-    },
-    {
-      "name": "AI Upwork / freelance-job proposal agent",
-      "field": "Freelancer productivity / lead-gen",
-      "summary": "Reads new freelance job posts, filters the ones that fit you, and drafts a tailored proposal in minutes; a free web tool would do this without the $99-$333/mo incumbents.",
-      "why_now": "Founder Ivan Nedelkovski took Lancer from $0 to $10K MRR in its 3rd-4th month and now reports $20K MRR with a two-person team, built on a worsening, evergreen problem (freelancers racing to respond first). Upwork's data confirms strong demand around AI-assisted and freelance work, with targeted niches (ecommerce management +130%, medical VA +44%) growing fast.",
-      "monetization": "Subscription/pay-per-lead ($99/mo for 15 leads then $19/lead; $333/mo unlimited), plus 20-30% affiliate payouts to coaches — a clear, proven model for a cheaper free tool to disrupt.",
-      "evidence": [
-        "https://www.indiehackers.com/post/tech/exiting-his-agency-and-hitting-10k-mrr-within-60-days-of-launching-his-saas-sTo5m9qfhxXbruvhBIyH",
-        "https://videcoder101.com/blog/lancer-upwork-ai-agent-cursor-case-study",
-        "https://www.upwork.com/research/in-demand-skills-2026"
-      ],
-      "how_searched": [
-        "Indie Hackers founder interview",
-        "case-study blog",
-        "freelance marketplace demand report (Upwork)"
-      ],
-      "score": 68.0,
-      "found_at": "2026-10-10T21:46:53.799133+00:00"
-    },
-    {
-      "name": "Pre-Launch Community Reaction Simulator (HN / Reddit / PH)",
-      "field": "Developer & founder tooling",
-      "summary": "A free web tool where you paste a draft launch post/title and it predicts how Hacker News, Reddit, or Product Hunt will react — estimated score, likely top comments (including the hostile ones), a survival score, and a rewritten draft. Rebuildable as an original app using a scraped historical-post corpus + LLM comment simulation; ship as a web UI or CLI.",
-      "why_now": "A cluster of independent tools shipped around March 2026 (Post Pilot, Reddit Roast, HN virality predictor, Noosphere, hackernews-simulator), showing a fresh, exploding niche; the practice of pre-simulating launch reactions is brand new. Ideal for the huge population of indie founders launching on these platforms.",
-      "monetization": "Freemium (free simulations, paid credits/API or team plans); one adjacent analysis modeled a variant at ~$21k MRR (self-reported/estimated, not verified).",
-      "evidence": [
-        "https://github.com/indie-rok/postpilot",
-        "https://mentionleads.com/tools/reddit-roast",
-        "https://hackernews.foresyn.ai/",
-        "https://github.com/malakhov-dmitrii/hackernews-simulator"
-      ],
-      "how_searched": [
-        "Show HN launch simulator",
-        "reddit launch post AI critique tool",
-        "predict Hacker News virality"
-      ],
-      "score": 68.0,
-      "found_at": "2026-10-11T18:58:30.600947+00:00"
-    },
-    {
-      "name": "Chat-based AI mobile-app UI designer (Sleek.design)",
-      "field": "AI design tools / vibe-design",
-      "summary": "Describe a mobile app in chat and get editable iOS/Android screens exported to Figma, HTML or React, aimed at founders and developers without design skills.",
-      "why_now": "Repurposing code from earlier design tools, it reached ~$10K MRR within six weeks of launch with zero paid marketing and is now referenced at ~$24–25K/month; the AI web-design space is saturated while mobile-app design tooling remains relatively open.",
-      "monetization": "Subscriptions ~$29–$99/month, value-priced against $500–$15,000 freelance app-design work; ~95% of revenue is subscription.",
-      "evidence": [
-        "https://www.indiehackers.com/post/tech/hitting-10k-mrr-in-six-weeks-with-an-ai-design-tool-pEvmU5qkWS6ny0AR9SUv",
-        "https://startupfounderstories.com/stories/mattia-pomelli-sleek-design-10k-mrr",
-        "https://waytoclawearn.com/en/cases/solo-developer-ai-mobile-app-designer-10k-mrr-sleek"
-      ],
-      "how_searched": [
-        "Indie Hackers founder posts",
-        "startup case-study sites",
-        "AI-tool earnings case study"
-      ],
-      "score": 68.0,
-      "found_at": "2026-10-13T10:42:36.854358+00:00"
-    },
-    {
-      "name": "Local, subscription-free photo editor (open-source wave)",
-      "field": "design / creative tools",
-      "summary": "A browser-runnable, non-destructive photo editor positioned as a free, offline alternative to subscription creative suites.",
-      "why_now": "storytold/photocraft, a clean-room open-source photo editor written in pure Rust, rocketed to ~55k GitHub stars (+53k in a single week) alongside companion 'craft' projects (lightcraft, artcraft, wordcraft, pdfcraft), reflecting intense demand for capable, subscription-free creative software.",
-      "monetization": "No direct revenue for the OSS app (donations/commercial licenses), but the incumbents it displaces are large: Canva drew ~948M monthly visits (+9.5% MoM in Sept 2026) and Adobe/Canva subscriptions define the paid market.",
-      "evidence": [
-        "https://github.com/trending",
-        "https://findarepo.com/digest/2026-10-13/",
-        "https://www.alphamoat.ai/en/ranking/ai-websites-global"
-      ],
-      "how_searched": [
-        "GitHub trending trackers",
-        "AI-website traffic rankings"
-      ],
-      "score": 68.0,
-      "found_at": "2026-10-14T13:47:43.024644+00:00"
-    },
-    {
-      "name": "AI Image / Auto-Annotation Tool",
-      "field": "Data labeling / ML tooling",
-      "summary": "A browser tool that auto-annotates images to speed up dataset labeling. Market cited at $1.89B (2025) to $2.32B (2026) at 22.95% CAGR; Upwork lists data annotation/labeling demand up 154%; Exploding Topics shows 'Automatic Image Annotation' up 5,300%.",
-      "why_now": "Surging demand for labeled data to train 2026 AI models is lifting annotation tooling and labor demand.",
-      "monetization": "Freemium/usage-based SaaS (specific figures null).",
-      "evidence": [
-        "https://www.mordorintelligence.com/industry-reports/ai-data-labeling-market",
-        "https://explodingtopics.com/business-topics",
-        "https://www.upwork.com/research/in-demand-skills-2026"
-      ],
-      "how_searched": [
-        "market reports",
-        "trend tools",
-        "job boards"
-      ],
-      "score": 68.0,
-      "found_at": "2026-10-15T01:33:06.043478+00:00"
-    },
-    {
-      "name": "Plain-English E2E Browser Test Runner",
-      "field": "QA / developer tools",
-      "summary": "Describe a flow in one sentence ('upgrade to Pro, pay, confirm the receipt email') and an AI agent runs it against your staging site in a real browser, returning pass/fail with screenshots and DOM traces — no test code.",
-      "why_now": "tester-army/e2e gained +6,564 GitHub stars in a single week (W41), landing #3 among all AI-agent repos; the same week 'e2e' and natural-language testing tools swept agent-harness trending lists. Manual QA hiring remains a top-10 Upwork dev skill, so the budget exists.",
-      "monetization": "Freemium hosted runs + per-minute browser time; pricing null. Adjacent proof of dev-tool demand: developer-tools SaaS category grew 95% avg (bigideasdb) and QA/testing skills stay in Upwork's top-10 demanded list.",
-      "evidence": [
-        "https://vluxtech.com/en/blog/top-ai-repos-2026-w41",
-        "https://whatstrending.ai/repos",
-        "https://www.upwork.com/research/in-demand-skills-2026",
-        "https://bigideasdb.com/fastest-growing-saas-companies-2026"
-      ],
-      "how_searched": [
-        "weekly GitHub star-growth league table",
-        "star-growth aggregator",
-        "Upwork in-demand skills report"
-      ],
-      "score": 68.0,
-      "found_at": "2026-10-15T13:36:27.609801+00:00"
     }
   ]
 }
