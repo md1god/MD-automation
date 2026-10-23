@@ -1996,6 +1996,21 @@
       "found_at": "2026-10-22T22:31:55.909346+00:00"
     },
     {
+      "name": "AI-agent traffic analytics",
+      "field": "B2B web analytics",
+      "summary": "Server-side analytics that separates humans, bots, AI crawlers, and AI agents, then shows which pages AI assistants cite and which agents verify cryptographically. Known Agents reports 5,000+ tracked sites; Agent Monitor reports 200+ companies and 110M+ visits analyzed.",
+      "why_now": "AI crawlers and agents now make up a large and invisible share of traffic. Agent Monitor says over 60% of traffic across 110M+ visits was non-human, while standard analytics hides much of it. Lume already charges $29-$599/month for this visibility.",
+      "monetization": "Event-based SaaS with free tiers; paid plans range from $9-$29/month for small sites to $99-$599/month for agencies and high-traffic sites.",
+      "evidence": [
+        "https://knownagents.com/",
+        "https://agentmonitor.io/",
+        "https://lumetraffic.com/"
+      ],
+      "how_searched": "Searched AI traffic analytics, agent analytics, AI referral attribution, and Chrome-extension-adjacent B2B tools.",
+      "score": 84.0,
+      "found_at": "2026-10-23T18:26:40.051368+00:00"
+    },
+    {
       "name": "Self-Hosted Workflow Automation for AI Agents (n8n-style)",
       "field": "DevTools / AI Infrastructure",
       "summary": "Fair-code / open-source workflow automation platform that technical teams self-host for free (unlimited executions) to build AI agent pipelines, RAG, and multi-step automations — with paid cloud/enterprise for governance, SSO, and managed infrastructure.",
@@ -5282,6 +5297,21 @@
       "found_at": "2026-10-22T05:00:40.179860+00:00"
     },
     {
+      "name": "X growth intelligence suite",
+      "field": "Creator SaaS",
+      "summary": "A web app and browser extension that mines viral posts on X, explains why they worked, generates on-brand drafts, schedules posts, and tracks follower and engagement growth. SuperX has about 11,294 users and roughly $22k MRR.",
+      "why_now": "Creators still pay for distribution on X. SuperX reached 514 active subscriptions and about $21.9k MRR by October 2026, and its Chrome extension alone has 10,000 users despite a crowded category.",
+      "monetization": "Monthly SaaS at $49, $99, and $199 tiers; the incumbent reports 514 active subscriptions.",
+      "evidence": [
+        "https://shippedandpaid.com/cases/superx-x-growth-tool-22k-mrr-claude-code/",
+        "https://trustmrr.com/startup/superx",
+        "https://chromewebstore.google.com/detail/superx-twitter-analytics/bjobgelaoehgbnklgcaaehdpckmhkplk?hl=en"
+      ],
+      "how_searched": "Searched verified-revenue startup databases, X-growth tools, Chrome extension stores, and creator SaaS case studies.",
+      "score": 74.0,
+      "found_at": "2026-10-23T18:26:41.512462+00:00"
+    },
+    {
       "name": "Personal data-broker opt-out & removal-request generator",
       "field": "Privacy / consumer safety",
       "summary": "Free tool that shows where your name, address and phone appear across people-search/data-broker sites, generates the opt-out requests for you, and lets you track status; ongoing automated re-removal and breach monitoring sits behind a paid plan.",
@@ -6177,46 +6207,6 @@
       ],
       "score": 70.0,
       "found_at": "2026-10-09T19:36:10.263361+00:00"
-    },
-    {
-      "name": "Multiplayer AI office (team + agents shared workspace)",
-      "field": "Team collaboration / AI office",
-      "summary": "One window where a team and its AI agents share presence, chat, calls with transcripts, tasks, calendar and files — agents run on the user's existing AI subscription or a built-in agent, with nothing sent or paid without approval.",
-      "why_now": "Velozity is #6 on Product Hunt's October monthly board (465 upvotes, 121 comments) and #4 on the week of Oct 5 (459 upvotes, 120 comments) on a 'no second AI bill' pitch; its App Store listing shows live iteration (Spaces, Routines, agent cloud-computer hours that pause when exhausted); LinkedIn shows 7 employees, +133% YoY growth, founded 2025.",
-      "monetization": "Free to start; agents run on the user's existing Claude/Codex subscription or Velozity's built-in agent, with metered cloud-computer hours (agents pause when plan hours run out); revenue null.",
-      "evidence": [
-        "https://www.producthunt.com/leaderboard/monthly/2026/10",
-        "https://getvelozity.com/",
-        "https://apps.apple.com/us/app/velozity-your-ai-workspace/id6743657104",
-        "https://linkedin.com/company/tryvelozity"
-      ],
-      "how_searched": [
-        "launch leaderboard (Product Hunt monthly)",
-        "product site (getvelozity.com)",
-        "app store listing (Apple App Store)",
-        "company directory (LinkedIn)"
-      ],
-      "score": 70.0,
-      "found_at": "2026-10-10T06:18:14.302686+00:00"
-    },
-    {
-      "name": "AI virtual staging tool for real-estate listings",
-      "field": "Real estate / proptech web tool",
-      "summary": "A browser tool that turns empty or cluttered property photos into realistic, furnished listing images (and optionally removes furniture, scores condition and suggests improvements).",
-      "why_now": "The virtual-staging market is estimated at ~$0.4B in 2026 growing to ~$1.1B by 2035 (12.4% CAGR), and vendors are actively launching/expanding now (Edensign founded 2025, expanded into 'listing intelligence' in Oct 2026; REimagineHome, Collov AI). Claims of homes selling ~75% faster and 1–10% higher prices give agents an obvious ROI reason to pay.",
-      "monetization": "Pay-per-image or subscription: REimagineHome from $19/mo, Collov from ~$0.23/photo; higher-end human services cost more.",
-      "evidence": [
-        "https://www.inman.com/2026/10/06/ai-virtual-staging-startup-edensign/",
-        "https://www.housingwire.com/articles/virtual-staging-companies-apps/",
-        "https://blog.decor8.ai/post/a-complete-guide-to-the-ai-virtual-staging-api",
-        "https://www.businessresearchinsights.com/market-reports/real-estate-virtual-stage-service-market-114651"
-      ],
-      "how_searched": [
-        "web search 'virtual staging AI real estate app growth 2026'",
-        "cross-checked Inman, HousingWire, vendor blog and market report"
-      ],
-      "score": 70.0,
-      "found_at": "2026-10-10T17:55:03.724688+00:00"
     }
   ]
 }

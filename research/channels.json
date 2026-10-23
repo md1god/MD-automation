@@ -1,6 +1,28 @@
 {
   "items": [
     {
+      "name": "Substack",
+      "url": "https://substack.com/",
+      "kind": "platform",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Create a free publication, publish 1-2 focused posts per week, use Recommendations for 3-6 adjacent newsletters, and post 3+ thoughtful Notes during launch week and regularly afterward. Restack relevant posts and put a subscribe CTA on every page.",
+      "rules_and_risks": "No fake engagement, follow-for-follow, or spammy mass recommendations; the network rewards genuine niche participation. No official public write API, so publishing and Notes are manual. Paid subscriptions are optional.",
+      "why_it_works": "Substack says its app and network drive 50% of new free and 30% of new paid subscriptions; writers who post 3+ thoughtful Notes in launch week gain 50% more total subscribers, and one launch note generated 1,900 subscribers in a month.",
+      "evidence": [
+        "https://on.substack.com/p/how-publishers-are-using-notes-to-grow",
+        "https://on.substack.com/p/introducing-notes",
+        "https://support.substack.com/hc/en-us/articles/5036794583828-How-can-I-recommend-other-publications-on-Substack",
+        "https://techcrunch.com/2024/04/16/substacks-notes-feature-is-getting-more-twitter-like-capabilities/"
+      ],
+      "how_searched": [
+        "Searched Substack's official growth data and Notes guidance, then opened the Substack blog and help pages.",
+        "Checked whether Recommendations and Notes are free and whether an official posting API exists."
+      ],
+      "score": 92.0,
+      "found_at": "2026-10-23T18:31:16.152835+00:00"
+    },
+    {
       "name": "Hacker News Show HN launch",
       "url": "https://news.ycombinator.com/showhn.html",
       "kind": "community",
@@ -332,6 +354,27 @@
       "found_at": "2026-10-20T00:48:03.134040+00:00"
     },
     {
+      "name": "Spotify for Creators",
+      "url": "https://creators.spotify.com/",
+      "kind": "platform",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Launch a short weekly audio or video show, host it free on Spotify for Creators, publish episodes with search-friendly titles/descriptions, and let Spotify distribute the show to other podcast apps.",
+      "rules_and_risks": "You must own the rights to uploaded audio/video and verify your account; re-uploading others' content violates the terms. No public write API, and growth depends on consistent episodes rather than one upload.",
+      "why_it_works": "Spotify's official creator page says creators can host for free, distribute everywhere, and tap into more than half a billion fans; new episodes publish automatically to Spotify and can be distributed further.",
+      "evidence": [
+        "https://creators.spotify.com/features/podcast",
+        "https://creators.spotify.com/",
+        "https://support.spotify.com/us/creators/article/adding-a-new-show-to-your-spotify-for-creators-account/"
+      ],
+      "how_searched": [
+        "Searched official Spotify for Creators pages for free hosting and distribution terms.",
+        "Opened the show-creation and episode-publishing help pages to confirm the workflow."
+      ],
+      "score": 80.0,
+      "found_at": "2026-10-23T18:31:17.269234+00:00"
+    },
+    {
       "name": "Apple Podcasts catalog + podcast databases (Podchaser, Listen Notes)",
       "url": "https://podcasters.apple.com/support/897-submit-a-show",
       "kind": "platform",
@@ -654,6 +697,27 @@
       "found_at": "2026-10-20T00:48:25.223361+00:00"
     },
     {
+      "name": "Crunchbase",
+      "url": "https://www.crunchbase.com/",
+      "kind": "directory",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Register a free account, complete social authentication, then create a company profile with logo, website, description, headquarters, industries, founders, and funding details. Keep it factual and update it as milestones happen.",
+      "rules_and_risks": "Profiles are for the technology/startup ecosystem; thin, promotional, or non-English profiles may be removed. Funding data must be accurate. Creating/editing a profile is free, but Crunchbase's API is paid.",
+      "why_it_works": "Crunchbase lets any registered and socially authenticated user add a company profile, creating a free B2B entity page that can surface in company research and search results.",
+      "evidence": [
+        "https://support.crunchbase.com/hc/en-us/articles/115011823988-How-do-I-create-a-Crunchbase-profile",
+        "https://support.crunchbase.com/hc/en-us/articles/115010642588-Requirements-to-Create-a-Crunchbase-Profile-Page",
+        "https://www.crunchbase.com/"
+      ],
+      "how_searched": [
+        "Searched Crunchbase's official help center for the free profile-creation process.",
+        "Opened the registration/authentication requirements and the main Crunchbase site."
+      ],
+      "score": 72.0,
+      "found_at": "2026-10-23T18:31:20.063779+00:00"
+    },
+    {
       "name": "Medium (free publishing + import tool with canonical links)",
       "url": "https://help.medium.com/hc/en-us/articles/214550207-Importing-a-post-to-Medium",
       "kind": "platform",
@@ -716,6 +780,27 @@
       ],
       "score": 70.0,
       "found_at": "2026-10-18T06:24:26.205335+00:00"
+    },
+    {
+      "name": "Podcast Index",
+      "url": "https://podcastindex.org/add",
+      "kind": "directory",
+      "requires_account": true,
+      "official_free_api": true,
+      "how_to_use": "Publish a public podcast RSS feed with title, description, artwork, and categories, add it at podcastindex.org/add, then request a free API key/secret to check indexing and query podcast data.",
+      "rules_and_risks": "Only public feeds can be added; private feeds are not eligible. API authentication uses a SHA-1 hash of key+secret+timestamp. The index itself does not guarantee placement in every podcast app, and spam feeds are removed.",
+      "why_it_works": "Podcast Index is an open podcast index used across the podcast ecosystem, and its free API makes it easy to submit and verify a feed without paying a directory fee.",
+      "evidence": [
+        "https://podcastindex.org/add",
+        "https://api.podcastindex.org/developer_docs",
+        "https://podcastindex-org.github.io/docs-api/"
+      ],
+      "how_searched": [
+        "Opened the Podcast Index add-feed page and developer documentation.",
+        "Verified the free API authentication scheme and endpoint structure."
+      ],
+      "score": 70.0,
+      "found_at": "2026-10-23T18:31:20.416217+00:00"
     },
     {
       "name": "Visual Studio Code Marketplace",
@@ -820,6 +905,27 @@
       ],
       "score": 66.0,
       "found_at": "2026-10-14T18:47:45.399259+00:00"
+    },
+    {
+      "name": "Tumblr",
+      "url": "https://www.tumblr.com/",
+      "kind": "platform",
+      "requires_account": true,
+      "official_free_api": true,
+      "how_to_use": "Create a niche blog, publish original posts with 5-10 relevant tags, reblog related posts, and join free-to-join communities. Use the primary blog for community participation and cross-link to your site.",
+      "rules_and_risks": "No tag spam, mass following, or automated engagement; community rules and adult-content policies apply. Communities currently use the primary blog and have a default 10,000-member population cap. Reach is strong only in matching niches.",
+      "why_it_works": "Tumblr reports 60M global monthly active users, with 30% Gen Z; reblogs and communities are built for spreading niche creative content beyond a creator's immediate followers.",
+      "evidence": [
+        "https://advertise.tumblr.com/audience/",
+        "https://help.tumblr.com/knowledge-base/communities/",
+        "https://www.tumblr.com/docs/en/api/v2"
+      ],
+      "how_searched": [
+        "Opened Tumblr's official audience page and communities help center.",
+        "Checked the official API documentation and community limitations."
+      ],
+      "score": 66.0,
+      "found_at": "2026-10-23T18:31:21.894019+00:00"
     },
     {
       "name": "Hugging Face Hub public repos (models, datasets, Spaces, buckets)",
@@ -1205,6 +1311,27 @@
       "found_at": "2026-10-20T00:48:31.666434+00:00"
     },
     {
+      "name": "Mastodon",
+      "url": "https://mastodon.social/",
+      "kind": "community",
+      "requires_account": true,
+      "official_free_api": true,
+      "how_to_use": "Join a topic-relevant instance, complete your profile, opt into profile discovery, and post with 2-3 specific hashtags. Use the free API for cross-posting and engage in replies rather than broadcasting only links.",
+      "rules_and_risks": "Each instance enforces its own rules; no mass posting, automated following, or spam. Discovery is hashtag- and boost-driven, and the total audience is small compared with mainstream networks.",
+      "why_it_works": "Mastodon has roughly 750,000-800,000 monthly active users in 2026, and its hashtag discovery, profile directory, and federated boosts can reach highly engaged niche communities.",
+      "evidence": [
+        "https://techcrunch.com/2026/02/18/mastodon-a-decentralized-alternative-to-x-plans-to-target-creators-with-new-features/",
+        "https://docs.joinmastodon.org/user/discoverability/",
+        "https://docs.joinmastodon.org/api/"
+      ],
+      "how_searched": [
+        "Searched 2026 Mastodon user statistics and opened TechCrunch's reporting.",
+        "Opened Mastodon's official discoverability and API documentation."
+      ],
+      "score": 60.0,
+      "found_at": "2026-10-23T18:31:22.984683+00:00"
+    },
+    {
       "name": "Threads API — official free cross-posting to Threads",
       "url": "https://developers.facebook.com/docs/threads/overview/",
       "kind": "platform",
@@ -1245,6 +1372,26 @@
       ],
       "score": 58.0,
       "found_at": "2026-10-10T12:40:08.369957+00:00"
+    },
+    {
+      "name": "Indie Hackers",
+      "url": "https://www.indiehackers.com/products/new",
+      "kind": "community",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Create a founder profile and free product page, publish a transparent launch story, then post weekly milestones and lessons. Answer other founders' threads and keep links in your profile/product page instead of dropping them into every discussion.",
+      "rules_and_risks": "Self-promotion belongs on your product page or in directly relevant threads; link-dropping, fake upvotes, and duplicate accounts get flagged. Account creation is manual and there is no official posting API.",
+      "why_it_works": "Indie Hackers is a founder community with product pages, milestone posts, and a weekly newsletter built from top community posts, giving a new product a direct route to early adopters and other founders.",
+      "evidence": [
+        "https://www.indiehackers.com/about",
+        "https://www.indiehackers.com/products/new"
+      ],
+      "how_searched": [
+        "Opened the Indie Hackers about page to confirm community/newsletter mechanics.",
+        "Opened the add-product flow to verify that product pages require an account."
+      ],
+      "score": 57.3,
+      "found_at": "2026-10-23T18:31:16.627489+00:00"
     },
     {
       "name": "Microsoft Edge Add-ons",
@@ -1656,6 +1803,26 @@
       "found_at": "2026-10-09T06:45:21.201931+00:00"
     },
     {
+      "name": "Kagi Small Web",
+      "url": "https://github.com/kagisearch/smallweb",
+      "kind": "directory",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Fork the Small Web repo and add your personal blog's RSS/Atom feed plus at least two other qualifying sites in the same commit. Ensure the blog is English, has a recent post, and has no ads, affiliate links, or popups, then open a PR.",
+      "rules_and_risks": "Personal blogs only, no multi-author blogs; no ads, undisclosed affiliate links, or popups; no auto-generated or spammy LLM content; recent post required; must add two other sites in the same commit. Human PR review and the list is curated.",
+      "why_it_works": "Kagi surfaces Small Web posts in its search results and exposes the list via RSS/OPML, giving a high-quality personal blog a curated discovery path outside mainstream search.",
+      "evidence": [
+        "https://github.com/kagisearch/smallweb",
+        "https://kagi.com/smallweb"
+      ],
+      "how_searched": [
+        "Opened the Kagi Small Web GitHub repository and read the full inclusion guidelines.",
+        "Checked the Small Web site and feed/OPML distribution details."
+      ],
+      "score": 45.3,
+      "found_at": "2026-10-23T18:31:21.021707+00:00"
+    },
+    {
       "name": "Homebrew Cask",
       "url": "https://github.com/Homebrew/homebrew-cask",
       "kind": "platform",
@@ -1714,6 +1881,26 @@
       ],
       "score": 44.0,
       "found_at": "2026-10-13T18:47:31.163620+00:00"
+    },
+    {
+      "name": "DZone",
+      "url": "https://dzone.com/",
+      "kind": "platform",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Create a real-name profile and submit an original 800+ word technical article through moderation. Focus on firsthand engineering experience, code, tradeoffs, and lessons rather than product promotion.",
+      "rules_and_risks": "Real-name profile required; articles must be original, English, 800+ words, and technically substantive. No AI-generated final text, marketing language, excessive backlinks, or product pitches. Current review time is about 30 business days.",
+      "why_it_works": "DZone is an established developer publication with editorial moderation and a global software-development audience; accepted articles get editorial distribution and long-term search visibility.",
+      "evidence": [
+        "https://dzone.com/articles/dzones-article-submission-guidelines",
+        "https://dzone.com/articles/how-to-submit-a-post-to-dzone"
+      ],
+      "how_searched": [
+        "Searched DZone's official submission guidelines and opened the contribution workflow.",
+        "Checked word count, review time, AI-content, and promotion rules."
+      ],
+      "score": 42.7,
+      "found_at": "2026-10-23T18:31:22.003827+00:00"
     },
     {
       "name": "Mastodon (fediverse, fully documented free API)",
@@ -1915,25 +2102,6 @@
       ],
       "score": 38.0,
       "found_at": "2026-10-10T12:40:15.840566+00:00"
-    },
-    {
-      "name": "Kagi Small Web",
-      "url": "https://github.com/kagisearch/smallweb",
-      "kind": "directory",
-      "requires_account": true,
-      "official_free_api": true,
-      "how_to_use": "Submit your personal blog's RSS/Atom feed to the Kagi Small Web list via a GitHub pull request editing smallweb.txt (or the list files for YouTube/comics). Kagi also exposes an RSS feed of the list and a News Enrichment API.",
-      "rules_and_risks": "If submitting your own site you must also add at least two other qualifying sites in the same commit. English content only; personal (not multi-author) blogs; recent post within 12 months; no ads/undisclosed affiliate links, no popups, no spam/AI-generated content. GitHub account creation is manual.",
-      "why_it_works": "Kagi Small Web is an open, curated list of nearly 6,000 genuine personal sites surfaced in Kagi search and via RSS, giving indie blogs real discovery.",
-      "evidence": [
-        "https://github.com/kagisearch/smallweb",
-        "https://blog.kagi.com/small-web"
-      ],
-      "how_searched": [
-        "Kagi Small Web GitHub list personal site inclusion pull request"
-      ],
-      "score": 36.7,
-      "found_at": "2026-10-13T18:47:41.062917+00:00"
     },
     {
       "name": "Wiby",
@@ -2245,6 +2413,25 @@
       "found_at": "2026-10-16T13:02:17.848672+00:00"
     },
     {
+      "name": "Yandex Webmaster",
+      "url": "https://webmaster.yandex.com/",
+      "kind": "search",
+      "requires_account": true,
+      "official_free_api": true,
+      "how_to_use": "Verify the site in Yandex Webmaster, generate a fresh sitemap, and submit it through the free OAuth API endpoint POST /v4/user/{user-id}/hosts/{host-id}/user-added-sitemaps. Automate resubmission when new pages are published.",
+      "rules_and_risks": "Ownership verification and an OAuth token are required; sitemaps must be valid and accessible. Most valuable for Russian-language or Russia-relevant content, and the site must comply with local law. No cloaking or deceptive pages.",
+      "why_it_works": "Yandex exposes a free, official Webmaster API for sitemap submission, giving a direct crawl/indexing path into Yandex search rather than waiting for discovery.",
+      "evidence": [
+        "https://yandex.com/dev/webmaster/doc/en/reference/host-user-added-sitemaps-post"
+      ],
+      "how_searched": [
+        "Searched Yandex Webmaster API references and opened the sitemap-submission endpoint documentation.",
+        "Checked authentication and submission requirements."
+      ],
+      "score": 25.3,
+      "found_at": "2026-10-23T18:31:18.044960+00:00"
+    },
+    {
       "name": "Fanvaiy",
       "url": "https://fanvaiy.com",
       "kind": "feed",
@@ -2318,6 +2505,25 @@
       ],
       "score": 24.7,
       "found_at": "2026-10-16T13:02:17.973225+00:00"
+    },
+    {
+      "name": "Naver Search Advisor",
+      "url": "https://searchadvisor.naver.com/",
+      "kind": "search",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Verify site ownership, submit a sitemap, and submit a full-text RSS feed for new content. Keep the feed on the same verified domain and monitor indexing in Search Advisor.",
+      "rules_and_risks": "RSS must be full-text, same-domain, contain at least one item, and be under 10MB; Naver recommends sitemaps over RSS. No public submission API was found. Only worthwhile for Korean-language content or a Korea-relevant audience.",
+      "why_it_works": "Naver Search Advisor explicitly accepts RSS and sitemap submissions and revisits accepted feeds, providing a direct path into Naver's Korean search ecosystem.",
+      "evidence": [
+        "https://searchadvisor.naver.com/guide/request-feed"
+      ],
+      "how_searched": [
+        "Opened Naver's official feed-submission guide and read its RSS/sitemap requirements.",
+        "Checked for an official public submission API."
+      ],
+      "score": 24.3,
+      "found_at": "2026-10-23T18:31:19.464127+00:00"
     },
     {
       "name": "Hacker News: Show HN and story submissions",
@@ -3143,6 +3349,25 @@
       ],
       "score": 18.7,
       "found_at": "2026-10-10T00:17:36.097591+00:00"
+    },
+    {
+      "name": "SaaSHub",
+      "url": "https://www.saashub.com/submit",
+      "kind": "directory",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Submit and verify your product on SaaSHub, complete the listing, then use its free 110-site submission list to post the product to relevant directories and communities.",
+      "rules_and_risks": "Product must be real and verifiable; fake reviews, duplicate listings, and spam are removed. SaaSHub's own traffic is modest, so the larger value is the maintained submission list rather than the listing alone.",
+      "why_it_works": "SaaSHub offers a free product-promotion tool and a maintained list of 110 directories/communities, which can bootstrap a consistent directory-submission campaign.",
+      "evidence": [
+        "https://www.saashub.com/submit"
+      ],
+      "how_searched": [
+        "Opened the SaaSHub submit page and confirmed the free tool and 110-site list.",
+        "Checked the submission/verification requirements."
+      ],
+      "score": 18.7,
+      "found_at": "2026-10-23T18:31:23.153992+00:00"
     },
     {
       "name": "Crunchbase free company profile",
