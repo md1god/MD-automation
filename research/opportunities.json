@@ -1615,6 +1615,25 @@
       "found_at": "2026-10-23T13:34:40.515150+00:00"
     },
     {
+      "name": "Dynamic QR Code Platform with AI Art + Analytics",
+      "field": "Marketing / Developer Tools",
+      "summary": "AI-generated artistic QR codes as a free acquisition hook, layered with a recurring-revenue platform: dynamic redirects, scan analytics, branded short links, bulk/API creation, and campaign management. Businesses pay because printed codes must stay editable and trackable.",
+      "why_now": "QR Code AI built in 13 days, launched on Product Hunt (top 2, 490+ upvotes, 5K visits, 4K codes in week 1). Reached $15.8K MRR by Aug 30 2026, $16K MRR by Sep 1 with 1,408 subscriptions (Stripe-verified). 3.44M monthly Google search impressions, 55K visitors/month.",
+      "monetization": "Freemium: free static/artistic QR generation; paid plans for dynamic redirects, analytics, branded links, bulk/API, custom domains. $11.42 MRR per subscription average. Affiliate program (30% lifetime).",
+      "evidence": [
+        "https://www.sofarbot.com/stories/qr-code-ai-nicolas-cella-15636-mrr",
+        "https://www.producthunt.com/products/qr-code-ai",
+        "https://trustmrr.com/startup/qr-code-ai"
+      ],
+      "how_searched": [
+        "Founder revenue retrospective with Stripe data",
+        "Product Hunt launch metrics",
+        "TrustMRR verified revenue profile"
+      ],
+      "score": 85.0,
+      "found_at": "2026-10-23T22:22:16.798610+00:00"
+    },
+    {
       "name": "AI Video Generation & Editing for Short-Form",
       "field": "Creator Economy / AI Media",
       "summary": "Tools that generate or edit short-form videos (Reels, TikToks, Shorts) from text, audio, or long-form source — auto-clipping, captioning, reframing, hook detection, and multi-platform publishing.",
@@ -2009,6 +2028,25 @@
       "how_searched": "Searched AI traffic analytics, agent analytics, AI referral attribution, and Chrome-extension-adjacent B2B tools.",
       "score": 84.0,
       "found_at": "2026-10-23T18:26:40.051368+00:00"
+    },
+    {
+      "name": "Revenue-Attribution Web Analytics",
+      "field": "Analytics / SaaS",
+      "summary": "Connects Stripe revenue to traffic sources (GA4, Search Console, ads, GitHub) so founders see exactly which channels bring paying customers — not just visits. Replaces dashboards with a prioritized 'what to fix today' list ranked by revenue impact.",
+      "why_now": "DataFast launched on Product Hunt Jan 2026 (#1 day, 901 upvotes) at $17K MRR. TrustMRR now shows $29,951 MRR and 1,386 subscriptions (76% growth post-launch). Solo founder, bootstrapped. StealWhatWorks calls it 'best verified bootstrapped business among 2026 Product Hunt standouts.'",
+      "monetization": "SaaS subscription tiers. DataFast charges for connecting Stripe + analytics sources and delivering daily revenue-attributed insights. High retention because it directly shows ROI.",
+      "evidence": [
+        "https://www.hunted.space/dashboard/datafast/launches/datafast-2",
+        "https://trustmrr.com/startup/datafast",
+        "https://stealwhatworks.com/blogs/news/product-hunt-best-launches-2026"
+      ],
+      "how_searched": [
+        "Product Hunt launch data",
+        "TrustMRR Stripe-verified revenue",
+        "Independent Product Hunt business analysis"
+      ],
+      "score": 84.0,
+      "found_at": "2026-10-23T22:22:17.914280+00:00"
     },
     {
       "name": "Self-Hosted Workflow Automation for AI Agents (n8n-style)",
@@ -2679,6 +2717,27 @@
       ],
       "score": 82.0,
       "found_at": "2026-10-22T22:31:57.535099+00:00"
+    },
+    {
+      "name": "Open-Source SEO Toolkit (Semrush/Ahrefs Alternative)",
+      "field": "SEO / Developer Tools",
+      "summary": "Open-source (MIT) SEO platform offering keyword research, competitor analysis, backlinks, rank tracking, site audits, and AI visibility checks — all via MCP so coding agents can use it. $10/mo hosted (includes $10 usage) vs $139/mo Semrush. Self-hostable free.",
+      "why_now": "OpenSEO launched Feb 2026, hit 20,900 GitHub stars in 8 months, YC F26 ($500K). Product Hunt #9 monthly (412 score). 3,000+ hosted users. 'openseo' US searches grew from ~10 (Feb) to ~2,900 (Aug). Agencies forking it to replace $200-500/mo tools.",
+      "monetization": "Hosted version: $10/mo + 28% markup on DataForSEO API calls (pay-per-query). Self-hosted free (bring own DataForSEO key). Enterprise/agency plans. Clear usage-based economics.",
+      "evidence": [
+        "https://github.com/every-app/open-seo",
+        "https://www.producthunt.com/products/openseo",
+        "https://www.ababnews.com/en/news/1a6798e0-ec32-4a84-9de7-dd45bf4f6cc6",
+        "https://andrew.ooo/posts/openseo-review-open-source-ahrefs-alternative-mcp/"
+      ],
+      "how_searched": [
+        "GitHub stars/forks/activity",
+        "Product Hunt leaderboard",
+        "Y Combinator batch announcement",
+        "Independent technical reviews"
+      ],
+      "score": 82.0,
+      "found_at": "2026-10-23T22:22:20.178183+00:00"
     },
     {
       "name": "AI SDR & Autonomous Sales Agents",
@@ -3948,6 +4007,27 @@
       "found_at": "2026-10-22T15:23:00.718167+00:00"
     },
     {
+      "name": "AI Business Reviewer (Actionable Analytics)",
+      "field": "Business Intelligence / AI Agents",
+      "summary": "Overnight AI agents (6 specialists + orchestrator) monitor GA4, Google Ads, Search Console, Shopify, Stripe, GitHub, cloud billing — then deliver a prioritized morning brief of revenue-impact fixes: broken tracking, wasted ad spend, SEO regressions, failed payments, checkout bugs.",
+      "why_now": "DailyHelm launched Oct 5 2026, #5 Product of the Day (221 upvotes, 66 comments). $49 first month, then $99/mo. Connects 8+ data sources via read-only OAuth. Solves 'too many dashboards, not enough clarity' for SaaS, e-commerce, B2B, local.",
+      "monetization": "Per-business subscription ($99/mo monthly, $69/mo annual, $66/mo quarterly). Unlimited seats. 14-day money-back guarantee. High value per customer because it prevents revenue leaks.",
+      "evidence": [
+        "https://www.producthunt.com/products/dailyhelm",
+        "https://dailyhelm.com/",
+        "https://lounge.ai/news/dailyhelm-turn-analytics-into-daily-revenue-boosting-fixes",
+        "https://dailyhelm.com/pricing"
+      ],
+      "how_searched": [
+        "Product Hunt launch metrics",
+        "Live product website and pricing",
+        "Tech press coverage",
+        "Pricing page analysis"
+      ],
+      "score": 78.0,
+      "found_at": "2026-10-23T22:22:21.104792+00:00"
+    },
+    {
       "name": "Browser Extension AI Productivity Tools",
       "field": "Consumer / Productivity",
       "summary": "Chrome/Firefox/Edge extensions that bring AI into the browser — sidebar chat, page summarization, writing assistance, workflow automation, content extraction — with freemium subscriptions.",
@@ -4638,6 +4718,27 @@
       "found_at": "2026-10-23T13:34:55.666835+00:00"
     },
     {
+      "name": "Website Design Measurement & AI Prompt Extraction",
+      "field": "Design Tools / Developer Tools",
+      "summary": "Safari extension that measures any website's design (colors with roles, type scale, spacing, corners, layout) and exports one exact prompt + DESIGN.md + Tailwind theme + Cursor rule + Claude Skill for coding agents to build new pages in that style. $19.99 one-time.",
+      "why_now": "Siteprint launched Oct 4 2026, #9 Product of the Day (107 score). Free tier includes inspection, token export, library. Pro adds unlimited prompts, DESIGN.md, themes, Compose (mix two sites), MCP server for direct agent access. Works on logged-in/JS-rendered pages.",
+      "monetization": "One-time $19.99 Pro (no subscription). Free tier drives adoption; Pro unlocks agent integration (MCP), Compose, unlimited exports. Low support burden, high margin. Expandable to Chrome/Figma/web version.",
+      "evidence": [
+        "https://siteprint.app/",
+        "https://www.producthunt.com/products/siteprint",
+        "https://siteprint.app/mcp/",
+        "https://siteprint.app/design-prompt-generator/"
+      ],
+      "how_searched": [
+        "Product Hunt launch data",
+        "Live product website and free tool",
+        "MCP integration documentation",
+        "Free design prompt generator demo"
+      ],
+      "score": 76.0,
+      "found_at": "2026-10-23T22:22:22.233802+00:00"
+    },
+    {
       "name": "Invoice & AP Automation (AI-First)",
       "field": "Fintech / B2B SaaS",
       "summary": "End-to-end invoice processing: email/file intake → AI extraction (line items, PO matching) → validation → ERP/accounting sync → approval workflow → payment — with KPI dashboards (cost/invoice, cycle time, touchless rate).",
@@ -4942,6 +5043,29 @@
       ],
       "score": 75.0,
       "found_at": "2026-10-22T05:00:39.435501+00:00"
+    },
+    {
+      "name": "AI Certification/Exam Platform (Self-Serve)",
+      "field": "EdTech / Workforce",
+      "summary": "Self-serve platform for organizations to create, deliver, and proctor legally defensible certification exams using AI-assisted authoring, blueprinting, item generation, and review. $249/mo platform fee + per-exam delivery ($16-28/hr). Cuts legacy vendor costs 80%+.",
+      "why_now": "Certiverse raised $16M total ($11M Series A Mar 2025). Exploding Topics: +9,000% search growth (1,600/mo). Self-Starter tier launched Oct 15 2026. Estimated $4-10M ARR. IDC projects 90% of enterprises face AI skills gaps by end of 2026. Customers run 10-12 exams/year without added headcount.",
+      "monetization": "Platform subscription ($249/mo Self-Starter, custom Enterprise) + per-exam delivery fees (AI-assisted $16/hr, live proctored $28/hr). Volume discounts at scale. Aligned incentives: revenue grows when clients' exams succeed.",
+      "evidence": [
+        "https://explodingtopics.com/exploding-topics",
+        "https://techcrunch.com/2025/03/27/certification-platform-certiverse-nabs-11m-series-a-led-by-cherryrock/",
+        "https://blog.certiverse.com/certiverse-launches-self-starter",
+        "https://explore.certiverse.com/pricing",
+        "https://leadiq.com/c/certiverse/5ee37ac82fd07506cb2bb45c"
+      ],
+      "how_searched": [
+        "Exploding Topics search trend data",
+        "TechCrunch funding announcement",
+        "Company blog launch announcement",
+        "Public pricing page",
+        "Revenue estimation services"
+      ],
+      "score": 75.0,
+      "found_at": "2026-10-23T22:22:24.436318+00:00"
     },
     {
       "name": "Chat-first personal AI assistant (web app)",
@@ -5969,6 +6093,25 @@
       "found_at": "2026-10-22T15:23:22.124958+00:00"
     },
     {
+      "name": "Website AI Chatbot Builder (RAG-Based)",
+      "field": "Customer Support / AI Applications",
+      "summary": "No-code builder for businesses to train a chatbot on their docs, FAQs, knowledge base, and website content. RAG-based, deploys as widget. Chatbase (solo founder) reached ~$50K MRR. Every business wants 24/7 support without hiring.",
+      "why_now": "Chatbase hit ~$50K MRR within months of launch (solo founder Danny Postma). Competitors: CustomGPT, Botpress. Pricing $19-399/mo based on messages/bots. Proven demand: support automation is universal pain point.",
+      "monetization": "Tiered SaaS: free tier, then $19-399/mo based on chatbots, messages, data sources, integrations. High expansion revenue as businesses add bots for different departments.",
+      "evidence": [
+        "https://www.creem.io/blog/ai-saas-ideas-making-money-2026",
+        "https://www.chatbase.co/",
+        "https://www.producthunt.com/products/chatbase"
+      ],
+      "how_searched": [
+        "Industry analysis with revenue signals",
+        "Competitor public traction",
+        "Product Hunt history"
+      ],
+      "score": 72.0,
+      "found_at": "2026-10-23T22:22:26.989428+00:00"
+    },
+    {
       "name": "Cookie-consent / privacy-compliance generator",
       "field": "Privacy compliance / web tooling",
       "summary": "Scan a site, detect trackers, generate a compliant cookie banner plus cookie/privacy policy, and block non-essential scripts before consent. A free generator for the long tail of small sites that big CMPs ignore.",
@@ -6065,148 +6208,6 @@
       ],
       "score": 71.0,
       "found_at": "2026-10-15T18:32:20.642041+00:00"
-    },
-    {
-      "name": "Public-land bordering property finder",
-      "field": "Real estate / proptech data",
-      "summary": "A free searchable map of US land/homes for sale that verifiably touches national forest, BLM or state land — parcels checked against official USGS PAD-US boundaries, with measured shared-edge feet, elevation, flood and wildfire data on each listing.",
-      "why_now": "Unfenced launched on Product Hunt Oct 17, 2026 (82 points, 13 comments) and Show HN Oct 15, 2026; a Sep 26, 2026 r/homestead post documents the manual pain (digging through county GIS to verify 'borders state land' claims); the builder reports checking ~700k weekly listings to surface ~13,600 verified parcels across 49 regions — a concrete, reusable public-data wedge nobody else is built around.",
-      "monetization": "Free search monetizes via email alerts, realtor/land-listing referral and premium filters; comparable land-listing portals run affiliate/lead models. SignWith-style competitor revenue: null. Market size for the niche: null.",
-      "evidence": [
-        "https://www.producthunt.com/leaderboard/daily/2026/10/17",
-        "https://www.reddit.com/r/homestead/comments/1wq496n/i_built_a_tool_that_finds_land_actually_bordering/",
-        "https://news.linxi.com.au/news/unfenced-says-it-identified-13626-properties-bordering-public-land"
-      ],
-      "how_searched": [
-        "Product Hunt same-day board",
-        "Show HN thread with data-source disclosure",
-        "homesteading subreddit launch post",
-        "news wire coverage with usage figures"
-      ],
-      "score": 71.0,
-      "found_at": "2026-10-17T17:18:23.727851+00:00"
-    },
-    {
-      "name": "Earn-back screen-time blocker",
-      "field": "Digital wellbeing / focus",
-      "summary": "A web/extension tool that blocks distracting sites and apps and unlocks minutes only after you complete a habit photo or a short challenge.",
-      "why_now": "Rewired shows ~$1,864 MRR with 697 verified subscriptions on a Superwall/TrustMRR model, while blocker/focus extensions (FocusGate, Zero Contact) are climbing the trending charts; the earn-back twist differentiates it from plain blockers.",
-      "monetization": "Subscription (Rewired verified via Superwall/TrustMRR).",
-      "evidence": [
-        "https://shippedandpaid.com/new/",
-        "https://chrome-stats.com/chrome/trending/trending-week",
-        "https://extwatch.com/blog/fastest-growing-chrome-extensions"
-      ],
-      "how_searched": [
-        "verified-revenue case sites",
-        "extension analytics",
-        "web search"
-      ],
-      "score": 71.0,
-      "found_at": "2026-10-19T21:07:01.248894+00:00"
-    },
-    {
-      "name": "Free Ads-Supported AI Browser Agent for Leads & Job Applications",
-      "field": "Consumer/prosumer AI agents",
-      "summary": "Free browser agent (Chrome + cloud) that completes multi-step web tasks from plain-language prompts—find and enrich leads, send outreach, shortlist creators, fill job applications—monetized via ads/sponsored cards and a free-to-paid credit ladder rather than a hard API-key requirement.",
-      "why_now": "Retriever AI launched free on Product Hunt Oct 14, 2026 finishing #3 same day (#11 for the week, 233 score) with vendor-claimed 35K+ users; browser-agent category is exploding (Claude browser extension 16M users; Browser Use 119K GitHub stars; Browser Harness 2.4M weekly downloads); free+ads is an underserved wedge against subscription-tied agents.",
-      "monetization": "Ad/supported free tier + Starter $9.99/mo / Pro $29.99/mo / Team $99.99/mo / Scale $499.99/mo credit plans (Retriever pricing as reported at launch).",
-      "evidence": [
-        "https://www.producthunt.com/leaderboard/daily/2026/10/14",
-        "https://openaimaster.ai/retriever-ai-browser-agent-review/",
-        "https://www.alphamoat.ai/en/ext/t/ai-browser-automation",
-        "https://agentgid.com/categories/browser/"
-      ],
-      "how_searched": [
-        "Product Hunt daily leaderboard",
-        "third-party launch review",
-        "extension install rankings",
-        "agent download rankings"
-      ],
-      "score": 71.0,
-      "found_at": "2026-10-21T19:34:21.134805+00:00"
-    },
-    {
-      "name": "Accuracy-Guaranteed AI Product / Retail Voiceover",
-      "field": "AI Audio for E-Commerce Ads",
-      "summary": "AI voiceover generation specialized for product and retail ads where names, prices, SKUs and dates must be spoken correctly every time, targeting ad creators and e-commerce brands that burn budget on mispronounced product reads.",
-      "why_now": "Onepin ('AI voiceover with every name, price and date said right') hit 442 votes on Product Hunt in October 2026, the #4 launch of the month, outpolling many general AI video tools; the same month Spira Maxima (#1, 602) and general AI video generation (Exploding Topics: AI Video Generator at 8,100% five-year growth) show the underlying short-form video ad market is still expanding fast enough to support specialized accuracy plays.",
-      "monetization": "Per-generation credits or subscription; Onepin's exact pricing and revenue not disclosed (null). Comparable AI video tools range from ~$0.06-$0.16 per second of output.",
-      "evidence": [
-        "https://launchindex.ai/month/2026-10",
-        "https://www.producthunt.com/leaderboard/monthly/2026/10",
-        "https://explodingtopics.com/blog/trending-topics"
-      ],
-      "how_searched": [
-        "Launch Index monthly PH + Show HN rankings",
-        "Product Hunt monthly leaderboard",
-        "Exploding Topics search-growth list"
-      ],
-      "score": 71.0,
-      "found_at": "2026-10-22T05:00:43.115678+00:00"
-    },
-    {
-      "name": "VetNote Free",
-      "field": "Veterinary software",
-      "summary": "Free AI SOAP-note scribe for independent, mobile, and equine veterinarians, with offline recording, species-specific templates, and copy-paste or file export to any PIMS.",
-      "why_now": "The US has 57,920 veterinary-services businesses, pet spending is $158B in 2025 and $165B in 2026, and Scribenote reached about $4.4M revenue selling at $79-$99 per DVM per month with a free tier. The market is proven but crowded: 12 tools now price from $29 to $450 per month, so the open wedge is mobile and offline workflows rather than another generic small-animal scribe.",
-      "monetization": "Free for 20 notes per month; $49 per vet per month unlimited; $149 per clinic flat; paid PIMS integration and custom templates.",
-      "evidence": [
-        "https://scribenote.com/pricing",
-        "https://www.vetsoftwarehub.com/article/veterinary-ai-scribe-pricing-comparison-2026",
-        "https://www.startupheist.com/ai-scribe-for-independent-vets-90k-mrr-hiding-inside-legacy-software/",
-        "https://techlist.ai/scribenote.com"
-      ],
-      "how_searched": [
-        "Veterinary software pricing search",
-        "Vet AI scribe market comparison",
-        "Startup revenue case-study search",
-        "Company pricing-page review"
-      ],
-      "score": 71.0,
-      "found_at": "2026-10-22T15:23:23.584052+00:00"
-    },
-    {
-      "name": "AI resume + job-application toolkit (ATS-tailored)",
-      "field": "Careers / job search",
-      "summary": "A free web app that writes and tailors a resume to a pasted job description (keyword targeting/ATS pass-through) plus interview practice.",
-      "why_now": "'AI recruitment tools' search interest grew ~5,800% (explodingtitles), Rezi is pulling ~$257k-294k verified MRR with ~10,000 paying subs and ~1M new users/year, and Reactive Resume v6 launched on Product Hunt in the last week of October 2026.",
-      "monetization": "Freemium to $29/mo plus $149 lifetime (Rezi); job seekers pay while hunting because the problem is urgent and time-boxed.",
-      "evidence": [
-        "https://trustmrr.com/startup/rezi",
-        "https://small-start.com/en/cases/global-rezi-257k-mrr/",
-        "https://www.systemaic.com/teardowns/rezi",
-        "https://www.producthunt.com/leaderboard/daily/2026/10/5",
-        "https://explodingtopics.com/blog/trending-topics"
-      ],
-      "how_searched": [
-        "revenue-verified startup trackers (TrustMRR)",
-        "teardown/revenue analysis sites",
-        "launch site (Product Hunt)",
-        "trend-discovery tool",
-        "founder interviews/case studies"
-      ],
-      "score": 70.0,
-      "found_at": "2026-10-07T23:12:53.592987+00:00"
-    },
-    {
-      "name": "AI-Shopping / Agentic-Commerce Feed & Readiness Optimizer (ACP/UCP-model)",
-      "field": "E-commerce - AI product-discovery / feed optimization",
-      "summary": "A free web tool that audits a store's product feed, schema markup and robots.txt for AI shopping agents (ChatGPT, Copilot, Google AI Mode), then generates a ready-to-paste enriched feed/schema and a machine-readable llms.txt-style catalog.",
-      "why_now": "AI-driven traffic to Shopify stores grew 197% YoY in Q2 2026 and AI-attributed orders tripled; McKinsey projects $3-5T of commerce mediated by AI agents by 2030. New open standards (UCP, ACP) create a fresh, technical compliance job with no dominant free tool.",
-      "monetization": "Free one-page audit; paid unlimited audit, bulk feed rewriting, competitor AI-visibility tracking and monitoring subscription; API for agencies.",
-      "evidence": [
-        "https://www.shopify.com/blog/agentic-commerce",
-        "https://blog.google/products/ads-commerce/agentic-commerce-ai-tools-protocol-retailers-platforms/",
-        "https://www.emarketer.com/content/faq-on-agentic-commerce-how-brands-should-act-now-compete-ai-driven-landscape"
-      ],
-      "how_searched": [
-        "Source kind: platform editorial/playbook (Shopify blog)",
-        "Source kind: big-tech official product blog (Google)",
-        "Source kind: market-research publication (eMarketer); query: 'agentic commerce product feed optimization ACP UCP 2026'"
-      ],
-      "score": 70.0,
-      "found_at": "2026-10-09T19:36:10.263361+00:00"
     }
   ]
 }
