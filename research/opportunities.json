@@ -40,6 +40,26 @@
       "found_at": "2026-10-22T19:23:42.267384+00:00"
     },
     {
+      "name": "PDF Bank Statement to Spreadsheet Converter",
+      "field": "Fintech/Accounting Automation",
+      "summary": "Web tool that converts PDF bank/credit card statements to clean Excel/CSV files for accountants, bookkeepers and SMBs who need machine-readable transaction data.",
+      "why_now": "Still ubiquitous (banks only issue PDFs), massive SEO demand with minimal competition from purpose-built free tools. Multiple independent sources show this has been compounding for years with strong conversion rates from search traffic.",
+      "monetization": "Subscriptions/pricing by pages; reported MRR $38K-$40K (Angus Cheng/Bank Statement Converter). Some clones show smaller verified MRRs, but the original signals strong recurring revenue from accountants/bookkeepers.",
+      "evidence": [
+        "https://aidevcases.com/en/cases/bank-statement-converter",
+        "https://www.wlad.me/blog/companies/bank-statement-converter",
+        "https://superframeworks.beehiiv.com/p/new-post-ea75",
+        "https://medium.com/@rohidasgowda/the-simple-tool-one-developer-built-to-stop-copy-pasting-bank-statements-now-making-3k-month-34c09fdc20a0"
+      ],
+      "how_searched": [
+        "SEO/organic search (high-intent 'bank statement converter')",
+        "founder interviews",
+        "revenue tracking sites"
+      ],
+      "score": 95.0,
+      "found_at": "2026-10-23T01:33:37.388762+00:00"
+    },
+    {
       "name": "MCP Server Build, Test & Deploy Platform",
       "field": "Developer Tools / AI Infrastructure",
       "summary": "A free web-based studio to scaffold, test, debug, and deploy Model Context Protocol (MCP) servers with auth, workflows, and one-click sharing.",
@@ -6193,25 +6213,6 @@
       ],
       "score": 70.0,
       "found_at": "2026-10-15T01:33:05.207518+00:00"
-    },
-    {
-      "name": "Simulated-User Focus Panel & Messaging Stress-Test",
-      "field": "Product research / CRO",
-      "summary": "Paste landing copy, an ad, or a pricing page, pick your ICP, and a panel of simulated personas 'uses' the page — complaining, hesitating, and scoring clarity, trust, and objections — delivering a research-grade report with fixes in under 30 minutes.",
-      "why_now": "Articos MCP took Product Hunt's #1 slot on Oct 13 (338 pts, 102 comments) claiming 86% agreement with human Baymard/NN/g benchmarks; traditional paid user-testing panels are slow and expensive, and 2026 buyer-intent research tools are multiplying (Trendstr, NicheSpy, ValidSaaS all launched this year hunting the same budget).",
-      "monetization": "Per-report or subscription SaaS; traditional panel research prices null in my sources, but the category replaces paid sessions — comparable AI research tooling commonly $29–99/mo (not verified for Articos; treat as null).",
-      "evidence": [
-        "https://www.producthunt.com/leaderboard/daily/2026/10/13",
-        "https://nichespy.app/",
-        "https://www.reddit.com/r/SideProject/comments/1tkt1vj/how_i_actually_find_saas_ideas_that_people_will/"
-      ],
-      "how_searched": [
-        "Product Hunt daily leaderboard",
-        "Reddit problem-mining threads",
-        "problem-discovery SaaS marketing pages"
-      ],
-      "score": 70.0,
-      "found_at": "2026-10-15T13:36:25.852984+00:00"
     }
   ]
 }
