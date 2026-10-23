@@ -1595,6 +1595,26 @@
       "found_at": "2026-10-22T05:00:36.300774+00:00"
     },
     {
+      "name": "Factur-X / Peppol e-invoice validator and converter",
+      "field": "B2B e-invoicing compliance",
+      "summary": "Free web tool that validates UBL, CII and Factur-X invoices against French and Peppol rules, flags missing SIREN, VAT or routing data, and converts PDFs or CSV files into compliant e-invoices.",
+      "why_now": "France's receive mandate went live on 1 September 2026 and covers more than 10 million operators, but only 4.1 million had designated a receiving platform by that date. Early rejection rates reached 43.5%, with missing mandatory data driving about 32% of failures, and the SME/micro issuing mandate arrives on 1 September 2027.",
+      "monetization": "Free single validation; paid bulk validation, API access, accountant dashboards, and white-label checks for accredited platforms.",
+      "evidence": [
+        "https://entreprendre.service-public.gouv.fr/actualites/A15683?lang=en",
+        "https://www.vatcalc.com/france/france-e-invoicing-first-weeks-expose-data-interoperability-challenges/",
+        "https://welcome.businessfrance.fr/en/news/e-invoicing/",
+        "https://questions.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE17870.pdf"
+      ],
+      "how_searched": [
+        "France e-invoicing mandate 2026",
+        "Peppol invoice rejection rates 2026",
+        "French e-invoicing platform statistics"
+      ],
+      "score": 85.0,
+      "found_at": "2026-10-23T13:34:40.515150+00:00"
+    },
+    {
       "name": "AI Video Generation & Editing for Short-Form",
       "field": "Creator Economy / AI Media",
       "summary": "Tools that generate or edit short-form videos (Reels, TikToks, Shorts) from text, audio, or long-form source — auto-clipping, captioning, reframing, hook detection, and multi-platform publishing.",
@@ -2144,6 +2164,25 @@
       ],
       "score": 83.0,
       "found_at": "2026-10-22T22:31:56.743117+00:00"
+    },
+    {
+      "name": "HS code and landed-cost calculator for small importers",
+      "field": "Cross-border trade compliance",
+      "summary": "Free SKU-level HS classification, duty and tariff calculator with de minimis checks, country-of-origin rules, and alerts when rates or classification rules change.",
+      "why_now": "Trade-compliance infrastructure is consolidating: Global-e paid $350 million upfront for Passport, which provides customs brokerage and is expected to generate about $100 million in 2026 revenue. SMB-focused tools still charge $39 to $150 per month, and small importers under $500,000 in annual duty remain underserved.",
+      "monetization": "Free classification and landed-cost estimate; paid SKU monitoring, bulk API, broker and forwarder referrals, and white-label calculators for 3PLs.",
+      "evidence": [
+        "https://gingercontrol.com/blog/trade-compliance-software-smb-importers",
+        "https://www.stocktitan.net/sec-filings/GLBE/6-k-global-e-online-ltd-current-report-foreign-issuer-a8ff2aaf94ca.html",
+        "https://getlatka.com/companies/zonos"
+      ],
+      "how_searched": [
+        "tariff HS classification SMB 2026",
+        "Passport Global-e acquisition customs",
+        "Zonos revenue landed cost software"
+      ],
+      "score": 83.0,
+      "found_at": "2026-10-23T13:34:41.998389+00:00"
     },
     {
       "name": "Buyer-intent finder for Reddit / X / HN",
@@ -2852,6 +2891,26 @@
       ],
       "score": 81.0,
       "found_at": "2026-10-22T22:31:58.700640+00:00"
+    },
+    {
+      "name": "Supermarket-first AI meal planner with priced shopping list",
+      "field": "Consumer food planning",
+      "summary": "Free web app that builds a week of meals around a chosen supermarket, budget, diet, calorie goal, and ingredients already at home, then outputs a priced shopping list.",
+      "why_now": "mise launched on 10 June 2026 and reached about $400,000 per month by September 2026 with roughly 400,000 downloads per month. Among 20 meal-planner apps launched since 2024, six clear $50,000 per month, but half still make under $5,000, showing a large gap between generic recipe apps and budget-aware planners.",
+      "monetization": "Freemium at $7.99 to $9.99 per month or $39.99 to $59.99 per year; grocery affiliate revenue; paid family and creator plans.",
+      "evidence": [
+        "https://victoire.dev/en/blog/build-meal-planner-app",
+        "https://peekly.app/apps/dda3e34b-d254-409a-8b42-924a5d1dd7ca",
+        "https://trendapps.dev/app/ios/6777471316/",
+        "https://darkugc.com/newsletter/how-mise-hit-300k-mrr-with-ugc-creators-brand-new-app"
+      ],
+      "how_searched": [
+        "meal planner app revenue 2026",
+        "mise meal planner revenue downloads",
+        "AI meal planner market traction"
+      ],
+      "score": 81.0,
+      "found_at": "2026-10-23T13:34:48.199850+00:00"
     },
     {
       "name": "Text or image to 3D model generator",
@@ -4058,6 +4117,26 @@
       "found_at": "2026-10-21T05:12:12.746786+00:00"
     },
     {
+      "name": "EAA accessibility scanner with remediation evidence pack",
+      "field": "Digital accessibility compliance",
+      "summary": "Free scanner that checks EU e-commerce sites and apps against WCAG 2.1 AA and EN 301 549, prioritizes fixes, and generates dated evidence for regulators, courts, and enterprise buyers.",
+      "why_now": "The European Accessibility Act has applied since 28 June 2025. On 4 June 2026, a French court ordered Carrefour to make its site and app fully accessible within six months under a €500-per-day penalty, while WebAIM found 95.9% of the top one million homepages still had detectable WCAG failures in 2026.",
+      "monetization": "Free scan; paid continuous monitoring, audit-ready reports, developer handoff, legal evidence packs, and a vetted remediation consultant marketplace.",
+      "evidence": [
+        "https://europa.eu/youreurope/business/selling-in-eu/selling-goods-services/accessibility/index_en.htm",
+        "https://statutus.ch/en/guides/european-accessibility-act-enforcement-so-far/",
+        "https://auditsu.com/resources/eaa-carrefour-ruling",
+        "https://seemeplease.com/knowledge/blog/eu-uk-digital-accessibility-laws"
+      ],
+      "how_searched": [
+        "European Accessibility Act enforcement 2026",
+        "Carrefour accessibility ruling",
+        "WebAIM Million 2026 results"
+      ],
+      "score": 77.0,
+      "found_at": "2026-10-23T13:34:51.862964+00:00"
+    },
+    {
       "name": "AI Content Repurposing (Long-Form → Short-Form)",
       "field": "Creator Economy / MarTech",
       "summary": "Platform that ingests one long-form video/podcast/webinar and automatically outputs dozens of platform-optimized clips, captions, blog posts, newsletters, and social threads — with scheduling and publishing.",
@@ -4522,6 +4601,26 @@
       ],
       "score": 76.0,
       "found_at": "2026-10-22T19:23:52.430069+00:00"
+    },
+    {
+      "name": "Private AI journal with portable long-term memory",
+      "field": "Consumer AI wellness and journaling",
+      "summary": "Free privacy-first journaling web app with daily prompts, voice entries, pattern insights, and exportable memory, positioned as the free alternative after Rosebud removed its free tier.",
+      "why_now": "Rosebud retired its free plan on 30 September 2026 and now charges $12.99 per month or $107.99 per year. Peekly estimates Rosebud still makes about $100,000 per month from under 5,000 downloads per month, showing strong willingness to pay in a category whose free option just disappeared.",
+      "monetization": "Freemium with a $6 to $8 monthly premium tier; discounted annual plan; optional coach or therapist referrals; no advertising by default.",
+      "evidence": [
+        "https://help.rosebud.app/account/changes-to-the-free-plan",
+        "https://peekly.app/apps/d09d09b9-e715-45ae-b67a-412e902dfe55",
+        "https://techcrunch.com/2025/06/04/rosebud-lands-6m-to-scale-its-interactive-ai-journaling-app/",
+        "https://www.reflection.app/blog/ai-journaling-apps-compared"
+      ],
+      "how_searched": [
+        "Rosebud free plan retired 2026",
+        "AI journal app revenue",
+        "AI journaling competitors 2026"
+      ],
+      "score": 76.0,
+      "found_at": "2026-10-23T13:34:55.666835+00:00"
     },
     {
       "name": "Invoice & AP Automation (AI-First)",
@@ -5440,6 +5539,25 @@
       "found_at": "2026-10-22T15:23:18.778604+00:00"
     },
     {
+      "name": "SMB RFP answer generator with compliance gap check",
+      "field": "B2B sales and proposal automation",
+      "summary": "Free web tool that ingests an RFP, extracts requirements, drafts answers from a company's approved content, flags missing evidence, and exports a compliance matrix.",
+      "why_now": "AI RFP response automation is a $1.35 billion market in 2026 and is forecast to reach $2.95 billion by 2030. Responsive targets 100-plus-employee teams at an estimated $20,000 to $60,000 per year, leaving 8-to-50-person teams underserved.",
+      "monetization": "Free three RFPs per month; $49 to $199 monthly seats; paid security questionnaire and DDQ modules; white-label versions for bid consultants.",
+      "evidence": [
+        "https://getlatka.com/companies/industries/i-rfp-software",
+        "https://www.thebusinessresearchcompany.com/report/request-for-proposal-rfp-response-automation-artificial-intelligence-global-market-report",
+        "https://vercor.ai/resources/rfp-response/responsive-rfpio-alternative"
+      ],
+      "how_searched": [
+        "RFP software market 2026",
+        "Responsive RFP pricing",
+        "SMB RFP automation"
+      ],
+      "score": 73.0,
+      "found_at": "2026-10-23T13:34:58.873804+00:00"
+    },
+    {
       "name": "LLM / agent spend & cost observability dashboard",
       "field": "Developer tools (LLMOps / FinOps)",
       "summary": "A free web tool that ingests API logs and shows cost per user, per feature, per model, plus latency, caching and runaway-agent alerts.",
@@ -6099,120 +6217,6 @@
       ],
       "score": 70.0,
       "found_at": "2026-10-10T17:55:03.724688+00:00"
-    },
-    {
-      "name": "AI voiceover pronunciation / text-to-speech pre-flight checker",
-      "field": "Audio / media production",
-      "summary": "A web tool that runs on top of any TTS voice (ElevenLabs, OpenAI, Google, etc.), auto-detects mispronounced names, brands, prices and dates, scores each line, and re-fixes the single wrong word without re-rendering the take.",
-      "why_now": "Freshly launched Oct 10, 2026 on Product Hunt (Onepin) with a clear, validated pain: the founder cites 100+ user interviews where >92% had pronunciation issues and re-generated 2-9 times. The wider TTS market confirms the gap — Zapier's Sept 2026 roundup lists pronunciation control as a key differentiator across nearly every tool, yet almost none offer an automated QC pass.",
-      "monetization": "SaaS + API/SDK/MCP; Onepin is free to start with paid production plans beside a TTS market where tools charge from ~$3-100/mo (Hume, ElevenLabs, Speechify, WellSaid).",
-      "evidence": [
-        "https://www.producthunt.com/products/onepin",
-        "https://zapier.com/blog/best-ai-voice-generator/",
-        "https://www.producthunt.com/leaderboard/daily/2026/10/10"
-      ],
-      "how_searched": [
-        "Product Hunt daily leaderboard",
-        "expert roundup / review site (Zapier)",
-        "vendor pages"
-      ],
-      "score": 70.0,
-      "found_at": "2026-10-10T21:46:50.900474+00:00"
-    },
-    {
-      "name": "No-code AI voice agent builder (inbound/outbound calls)",
-      "field": "Voice AI / Vertical SaaS / Call centers",
-      "summary": "Web platform where a business pastes a site/description and instantly gets an AI phone agent (24/7 receptionist, appointment booking, lead qual, outbound) - test calls in browser, connect Twilio number, per-minute pricing with no-code flow canvas. Rebuildable but heavier: needs STT/TTS/LLM orchestration + telephony; consider offering browser + telephony-lite MVP.",
-      "why_now": "Retell AI reached ~$60M ARR by April 2026, up ~650% YoY, on ~$5M funding (Sacra via YesPress) - one of the most capital-efficient stories in voice AI. Flood of entrants (Retell, Vapi, Bland, Sierra, Voicecon $59+/mo, Flozic, Relay PH launch, Telli ~1M calls months after launch). Missed calls = biggest revenue leak for local businesses; the wedge is strong and monetization is proven (per-minute).",
-      "monetization": "Usage-based: platform fee per call minute (~$0.05-0.35/min) + pass-through model costs; freemium trial minutes; tiered plans; bring-your-own telephony (Twilio).",
-      "evidence": [
-        "https://yespress.io/retell-ai-60m-business-5-cents-a-minute",
-        "https://www.producthunt.com/products/thinnest-ai",
-        "https://voicecon.ai/",
-        "https://www.flozic.ai/agents/voice",
-        "https://neuronfeed.com/startups/telli"
-      ],
-      "how_searched": [
-        "Web search: voice AI agent no-code inbound calls startup revenue 2026 product hunt featured"
-      ],
-      "score": 70.0,
-      "found_at": "2026-10-11T01:04:54.926584+00:00"
-    },
-    {
-      "name": "Google Business Profile AI autopilot for SMBs and agencies",
-      "field": "Local SEO / SMB vertical SaaS",
-      "summary": "Connects to the Google Business Profile API to audit profiles, schedule posts, respond to reviews, track local ranks and push a prioritized action list for single locations and multi-location agencies.",
-      "why_now": "Agencies pay $200–$1,200 per location per month for GBP management while the profile itself is free, and vendors now offer AI tools at $49–$99/location/month (volume-tiered), $297/month done-for-you, or $395/month per location (SMB Autopilot). GBP API read/write access is the scarce integration, and multiple vendor pricing/cost pages were published or updated through 2026.",
-      "monetization": "€ $49–$99 per location/month (tiered down with volume) up to $297–$395/month done-for-you; multi-location agency accounts are the profitable segment.",
-      "evidence": [
-        "https://www.leadoracle.ai/blog/ai-google-my-business-tools",
-        "https://subscribepr.com/blog/how-much-does-gbp-management-cost/",
-        "https://smbautopilot.ai/pricing/"
-      ],
-      "how_searched": [
-        "competitor pricing/comparison pages",
-        "industry cost guides",
-        "AI GBP vendor sites"
-      ],
-      "score": 70.0,
-      "found_at": "2026-10-13T10:42:33.855338+00:00"
-    },
-    {
-      "name": "Government-Contract (SLED) Opportunity Search",
-      "field": "govtech / B2G",
-      "summary": "A free search tool that aggregates public state/local/education bid portals into one queryable feed with plain-English summaries, so small vendors can find contracts without reading hundreds of portals.",
-      "why_now": "SamSearch crawls ~13,000 SLED portals covering ~50,000 buying agencies and advertises $3B+ won and a 4.9/5 G2 rating; it keeps shipping capture/AI features, showing sustained demand in a market it notes is bigger than federal and has no central portal.",
-      "monetization": "Per-seat/module annual SaaS on the incumbent; a free tier could monetize via premium alerts, filters and proposal tools.",
-      "evidence": [
-        "https://samsearch.co/",
-        "https://docs.samsearch.co/introduction",
-        "https://samsearch.co/blog/introducing-the-new-samsearch"
-      ],
-      "how_searched": [
-        "vendor site + product docs",
-        "govtech product blog"
-      ],
-      "score": 70.0,
-      "found_at": "2026-10-13T23:20:49.877397+00:00"
-    },
-    {
-      "name": "Local-First AI Agent Runtime (Browser-Based, No Server)",
-      "field": "AI Infrastructure / Developer Tools",
-      "summary": "A free web app (PWA) that runs AI agents entirely in-browser using WebLLM / WebGPU / local models — with memory (AgentR Webcmd style), tool calling, browser automation (Browser Use CLI), and file access via File System Access API. No server, no API keys, private by default.",
-      "why_now": "Browser Use: CLI/Python library runs local browser + local models (Ollama) free. AgentR Webcmd: open source, local memory cuts token costs 90% (Business Insider Oct 2026). Onyx: self-hosted, air-gapped, 29.9K GitHub stars. Steel.dev: self-hosted browser automation. \"Self-Hosted Workflow Automation for AI Agents\" known but requires server; browser-only runtime does not exist.",
-      "monetization": "Free core (MIT). Pro: $10-20/mo for cloud sync, team workspaces, premium models, advanced debugging. Enterprise: offline license, compliance, support.",
-      "evidence": [
-        "https://github.com/browser-use/browser-use",
-        "https://markets.businessinsider.com/news/stocks/agentr-launches-webcmd-open-source-browser-infrastructure-that-lets-ai-agents-learn-a-website-once-1036612154",
-        "https://www.clientcues.com/competitors/compare/glean-vs-gosearch-vs-onyx-2026-05/",
-        "https://o-mega.ai/articles/top-10-anchor-browser-alternatives-2026"
-      ],
-      "how_searched": [
-        "Browser Use GitHub (local browser + local models)",
-        "AgentR Webcmd launch (local memory, 90% token reduction)",
-        "Onyx self-hosted deployments (Netflix, Ramp, air-gapped)",
-        "O-mega.ai alternatives analysis (Steel.dev, Browserbase, Anchor)"
-      ],
-      "score": 70.0,
-      "found_at": "2026-10-14T22:45:54.079613+00:00"
-    },
-    {
-      "name": "AI Wardrobe & Outfit Styling Web App",
-      "field": "AI fashion / consumer",
-      "summary": "A web app that digitizes a user's wardrobe and generates outfits. Aesty reports $10,064 MRR / roughly $121K ARR (RevenueCat-verified).",
-      "why_now": "Verified consumer revenue in 2026 demonstrates real willingness to pay for AI styling.",
-      "monetization": "Consumer subscription; reference product shows ~$10,064 MRR (RevenueCat-verified).",
-      "evidence": [
-        "https://whatsthe.app/aesty",
-        "https://whatitmakes.com/startup/aesty",
-        "https://vibecrowd.ai/projects/aesty"
-      ],
-      "how_searched": [
-        "indie revenue trackers",
-        "founder sites"
-      ],
-      "score": 70.0,
-      "found_at": "2026-10-15T01:33:05.207518+00:00"
     }
   ]
 }
