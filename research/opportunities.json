@@ -1,6 +1,26 @@
 {
   "items": [
     {
+      "name": "Tsenta",
+      "field": "recruiting/hr-tech",
+      "summary": "AI career agent that finds jobs matching a profile and automatically applies across ATS platforms (Workday, Greenhouse, Lever, Ashby), handling account creation, forms, and OTPs.",
+      "why_now": "Job search volume remains high and applying at scale is painful for candidates; YC S26 momentum, traction grew to ~$3M annualized within ~3 months with ~90,000+ job seekers using the platform.",
+      "monetization": "SaaS subscriptions for automated applications (~$19–$99/mo); reported ~$3M annualized revenue with ~90k users (YC/company materials).",
+      "evidence": [
+        "https://tsenta.com/",
+        "https://docs.tsenta.com/product/introduction",
+        "https://www.ycombinator.com/companies/tsenta",
+        "https://www.systemaic.com/tools/bootstrapped-risers"
+      ],
+      "how_searched": [
+        "search engine",
+        "Y Combinator company directory",
+        "Product Hunt/revenue directories (Systemaic)"
+      ],
+      "score": 95.5,
+      "found_at": "2026-10-24T14:38:52.207128+00:00"
+    },
+    {
       "name": "AI Agent Cost Observability & Spend Guardrails",
       "field": "AI Infrastructure / DevTools",
       "summary": "A web tool that monitors AI agent API usage, routes requests to cheaper models, caches results, and enforces spend budgets to prevent runaway costs.",
@@ -121,6 +141,43 @@
       "found_at": "2026-10-21T05:11:33.733892+00:00"
     },
     {
+      "name": "VirtualJK",
+      "field": "consulting/sales-ai",
+      "summary": "AI 'replicant' of James Kemp trained on $25M of consulting sales that builds offers, creates campaigns/strategies, and sells consulting guidance as a product.",
+      "why_now": "AI agents replicating high-value consultants are gaining traction; verified revenue shows strong growth and product-market fit in the coaching/consulting space.",
+      "monetization": "Weekly/annual subscriptions ($97/week, $5,000/year); TrustMRR shows $48,492 MRR, 93 active subscriptions, $3,390,187 all-time revenue.",
+      "evidence": [
+        "https://trustmrr.com/startup/virtualjk",
+        "https://virtualjk.com/",
+        "https://www.youtube.com/watch?v=lrN3HWRFugM"
+      ],
+      "how_searched": [
+        "search engine",
+        "public revenue directories (TrustMRR)",
+        "video/platform research"
+      ],
+      "score": 94.0,
+      "found_at": "2026-10-24T14:38:54.125810+00:00"
+    },
+    {
+      "name": "Dropkiller",
+      "field": "ecommerce/research",
+      "summary": "LATAM-focused dropshipping product and ad spy platform providing access to winning products, ad creatives, and market analysis.",
+      "why_now": "Ecommerce research tools remain in demand; strong verified revenue and high growth in LATAM markets with large user base.",
+      "monetization": "Subscription plans; TrustMRR shows $60,179 MRR, 2,702 active subscriptions, $452,343 all-time, ranked #222; Systemaic reports ~$56k MRR with +41.5% growth.",
+      "evidence": [
+        "https://trustmrr.com/startup/dropkiller",
+        "https://www.dropkiller.com/",
+        "https://www.systemaic.com/tools/bootstrapped-risers"
+      ],
+      "how_searched": [
+        "search engine",
+        "public revenue directories (TrustMRR, Systemaic)"
+      ],
+      "score": 93.5,
+      "found_at": "2026-10-24T14:38:54.751268+00:00"
+    },
+    {
       "name": "AI Email Messenger / Inbox Assistant",
       "field": "Productivity / Email",
       "summary": "A free web app that turns email threads into chat-like conversations, summarizes, drafts replies, extracts todos, and unifies multiple inboxes with privacy-first on-device AI.",
@@ -157,6 +214,42 @@
       ],
       "score": 93.0,
       "found_at": "2026-10-24T06:11:18.199555+00:00"
+    },
+    {
+      "name": "zCAD AI",
+      "field": "cad/ai-design",
+      "summary": "AI-native platform generating parametric, editable 3D CAD models (assemblies, mates) from natural language with export to STEP and browser-based CAD editing.",
+      "why_now": "AI for real CAD (not just meshes) is hot; launched on Product Hunt Oct 24 2026 as #1 on the daily leaderboard with strong community engagement.",
+      "monetization": "Freemium/SaaS; pricing shows Free/Standard/Pro/Enterprise tiers with AI credits and commercial usage rights on paid plans.",
+      "evidence": [
+        "https://www.zcad.ai/pricing",
+        "https://www.producthunt.com/products/zcad-ai",
+        "https://www.producthunt.com/leaderboard/daily/2026/10/24"
+      ],
+      "how_searched": [
+        "search engine",
+        "Product Hunt leaderboard/release data"
+      ],
+      "score": 93.0,
+      "found_at": "2026-10-24T14:38:59.112895+00:00"
+    },
+    {
+      "name": "UseIt Studio",
+      "field": "design/print-on-demand",
+      "summary": "AI design studio for physical goods (pins, stickers, packaging, acrylic standees, gift boxes) producing real, editable project files with layers, 3D preview, cut/white-ink layers, and Illustrator export.",
+      "why_now": "Combines AI design with manufacturing readiness; Product Hunt #1 on Oct 21 2026 with 328 upvotes and strong discussion.",
+      "monetization": "Freemium/web app + Windows app; monetization details emerging, demand evidenced by top PH launch and strong use case.",
+      "evidence": [
+        "https://useit.im/",
+        "https://www.producthunt.com/products/useit-studio-from-idea-to-delivery",
+        "https://www.producthunt.com/leaderboard/daily/2026/10/21"
+      ],
+      "how_searched": [
+        "search engine",
+        "Product Hunt leaderboard"
+      ],
+      "score": 92.5,
+      "found_at": "2026-10-24T14:38:59.249760+00:00"
     },
     {
       "name": "AI Agent Marketplace & Builder Platform",
@@ -339,6 +432,25 @@
       "found_at": "2026-10-24T11:02:41.212314+00:00"
     },
     {
+      "name": "Specreel",
+      "field": "developer-tools/demos",
+      "summary": "Turns browser flows (Playwright traces or live URL crawls) into narrated, shareable product demos that auto-update on green builds; open source CLI plus hosted cloud.",
+      "why_now": "AI-built products ship fast and demos go stale quickly; addresses demo maintenance pain with test-as-demo approach and strong PH traction (104 upvotes).",
+      "monetization": "Open source CLI free; Cloud free for 1 project, Team $39/mo, Scale $149/mo.",
+      "evidence": [
+        "https://specreel.dev/",
+        "https://www.producthunt.com/products/specreel",
+        "https://github.com/specreel/specreel"
+      ],
+      "how_searched": [
+        "search engine",
+        "Product Hunt",
+        "GitHub/launch data"
+      ],
+      "score": 91.5,
+      "found_at": "2026-10-24T14:38:59.948048+00:00"
+    },
+    {
       "name": "Local-First AI Dictation Web App",
       "field": "Productivity / Accessibility",
       "summary": "A free browser-based dictation tool that transcribes speech to clean text, removes fillers, learns corrections, and supports translation with local-first processing to preserve privacy.",
@@ -374,6 +486,25 @@
       ],
       "score": 91.0,
       "found_at": "2026-10-24T06:11:19.003980+00:00"
+    },
+    {
+      "name": "Apogee",
+      "field": "marketing/ads-automation",
+      "summary": "Bulk ad uploader/manager for Meta/TikTok/Snapchat with AI naming, copywriting agent, testing structures, and agency features.",
+      "why_now": "Media buyers need scale; verified traction with 300+ buyers and growing adoption; strong revenue indicators on bootstrapped SaaS trackers.",
+      "monetization": "Per-seat SaaS (€69/€99/€199/mo) with volume discounts; Systemaic/Boring SaaS indicate ~$4.1k MRR growing.",
+      "evidence": [
+        "https://www.apogee.ad/en/pricing/",
+        "https://www.systemaic.com/tools/bootstrapped-risers",
+        "https://trustpilot.com/review/apogee.ad"
+      ],
+      "how_searched": [
+        "search engine",
+        "public revenue directories (Systemaic)",
+        "review sites"
+      ],
+      "score": 90.5,
+      "found_at": "2026-10-24T14:39:00.519914+00:00"
     },
     {
       "name": "AI search visibility / GEO brand-citation checker",
@@ -6061,148 +6192,6 @@
       ],
       "score": 73.0,
       "found_at": "2026-10-17T17:18:21.290609+00:00"
-    },
-    {
-      "name": "No-budget cash-flow forecast (CSV → day-by-day balance projection)",
-      "field": "Personal finance",
-      "summary": "Free web calculator: upload or paste bank/CC transaction history and get a day-by-day projected balance per account, flagging the exact date money runs low — forecasting instead of budgeting.",
-      "why_now": "Show HN 'Stoke Money — personal finance app built around a cash flow forecast' drew 32 points and 20 comments in under a day (Oct 16 2026) with users begging for exactly this; an independent round-up calls dedicated short-term checking forecasting 'thin' at the market end; meanwhile Monarch (Mint's main heir) raised $75M at a $600M valuation and added 500K+ users, and Reddit-based validation ranks Finance as the #1 willingness-to-pay category (193 explicit pay signals).",
-      "monetization": "Free manual-entry tier; paid bank-sync tier ($8-14/mo matches Centinel and Stoke pricing); incumbents charge $84-199/yr.",
-      "evidence": [
-        "https://www.centinelmoney.com/resources/best-personal-cash-flow-forecast-apps",
-        "https://www.ainvest.com/news/monarch-75m-funding-beacon-growth-fintech-nuclear-winter-2505/",
-        "https://www.contextstudios.ai/blog/how-to-find-app-ideas-on-reddit-the-ultimate-guide-for-founders-2026"
-      ],
-      "how_searched": [
-        "Hacker News Show HN (8-hour-old thread with engagement)",
-        "independent market round-up of cash-flow apps",
-        "funding/news tracker for the category leader",
-        "Reddit payment-signal analysis blog"
-      ],
-      "score": 73.0,
-      "found_at": "2026-10-18T11:14:42.889270+00:00"
-    },
-    {
-      "name": "Free/Open-Source Form Builder with Viral \"Made with\" Loop",
-      "field": "Developer Tools / Form Builders",
-      "summary": "An open-source (MIT/AGPL) form builder with unlimited free forms/submissions, self-hostable. Cloud version free for individuals; teams pay $20/mo to remove \"Made with [Name]\" badge, add custom domains, SSO, analytics. Badge drives organic acquisition.",
-      "why_now": "Tally: $4.3M ARR, 800K users, 2% paid conversion, free-unlimited model; Youform: cloned Tally at half price to $30K MRR in 18 months; Formbricks: $550K ARR open-source; OperatorBook: \"free plan is the acquisition channel — every form carries a badge.\"",
-      "monetization": "Cloud: Free (badge), Team $20/mo (no badge, custom domain, team seats), Business $65/mo (data retention, email verification). Self-hosted free; support contracts $5K/yr. Plugin/integration marketplace 20% rev share.",
-      "evidence": [
-        "https://www.operatorbook.dev/stories/how-tally-forms-makes-money-free-first",
-        "https://blog.tally.so/the-road-from-4m-to-5m-arr/",
-        "https://onepc.org/en/track/form-builders",
-        "https://trends.vc/opportunities/online-form-builders"
-      ],
-      "how_searched": [
-        "Founder revenue breakdowns (Tally, Youform)",
-        "Market analysis (Solo Founder's Atlas, Trends.vc)",
-        "Open-source business model case studies (Formbricks)",
-        "Operator/founder diaries (OperatorBook)"
-      ],
-      "score": 73.0,
-      "found_at": "2026-10-18T14:57:57.845674+00:00"
-    },
-    {
-      "name": "Reddit / Community Intent Monitoring for Lead Gen",
-      "field": "B2B marketing SaaS",
-      "summary": "Always-on tool that scans niche subreddits and communities for high-intent posts, scores fit/authenticity, and drafts helpful non-spammy comment hooks so founders get customers without ads or cold email.",
-      "why_now": "Subreddit Signals (founder-reported via coffounder.com micro-SaaS dataset, Aug 2026) hit ~$66.8K MRR; founder's own journey went $450→$2.5K MRR publicly on Reddit; the broader pattern of mining public complaints for product ideas is itself becoming a product category (DDMarketer mined 3,500+ complaints in 2026).",
-      "monetization": "Paid-only SaaS from ~$19.99/mo with trial (no freemium); high-margin pure software.",
-      "evidence": [
-        "https://coffounder.com/blog/micro-saas-examples-with-revenue",
-        "https://www.reddit.com/r/SideProject/comments/1kwput4/hit_25k_mrr_on_my_reddit_marketing_saas_built_it/",
-        "https://dev.to/ddmarketer/-the-15-highest-intent-micro-saas-ideas-we-scored-1500-complaints-4hn3"
-      ],
-      "how_searched": [
-        "founder MRR dataset (X-verified)",
-        "Reddit founder milestones",
-        "complaint-mining research post"
-      ],
-      "score": 73.0,
-      "found_at": "2026-10-21T19:34:19.206306+00:00"
-    },
-    {
-      "name": "ClaimScout",
-      "field": "E-commerce operations",
-      "summary": "Free CSV-based Amazon FBA reimbursement and fee-overcharge audit that ranks claims by expected recovery, highlights under-reimbursed inventory, and generates Seller Support-ready evidence packs.",
-      "why_now": "Recovery firms charge 10-25% contingency: GETIDA starts at 20%, Seller Investigators and Refunds Manager charge 25%, TrueOps 10%, Shopkeeper 12-20%, and Helium 10 15% or 10% by plan. Sellerboard bundles reimbursement audits from $19/month, and ReimburseOps already offers a free tier with a $19/month Pro plan, proving willingness to pay while leaving room for a no-commission audit workflow.",
-      "monetization": "Free audit; $19/month Pro for exports and monitoring; optional 10% success fee; $99/month white-label agency plan.",
-      "evidence": [
-        "https://www.sellerforge.ai/blog/best-amazon-reimbursement-service",
-        "https://hackceleration.com/labs/review/carbon6",
-        "https://revenuegeeks.com/amazon/fba-reimbursement-tools",
-        "https://amztoolset.com/best-amazon-reimbursement-software/"
-      ],
-      "how_searched": [
-        "Amazon seller tool comparison search",
-        "Competitor pricing-page review",
-        "M&A and funding news search",
-        "Seller review and tool roundup search"
-      ],
-      "score": 73.0,
-      "found_at": "2026-10-22T15:23:18.778604+00:00"
-    },
-    {
-      "name": "SMB RFP answer generator with compliance gap check",
-      "field": "B2B sales and proposal automation",
-      "summary": "Free web tool that ingests an RFP, extracts requirements, drafts answers from a company's approved content, flags missing evidence, and exports a compliance matrix.",
-      "why_now": "AI RFP response automation is a $1.35 billion market in 2026 and is forecast to reach $2.95 billion by 2030. Responsive targets 100-plus-employee teams at an estimated $20,000 to $60,000 per year, leaving 8-to-50-person teams underserved.",
-      "monetization": "Free three RFPs per month; $49 to $199 monthly seats; paid security questionnaire and DDQ modules; white-label versions for bid consultants.",
-      "evidence": [
-        "https://getlatka.com/companies/industries/i-rfp-software",
-        "https://www.thebusinessresearchcompany.com/report/request-for-proposal-rfp-response-automation-artificial-intelligence-global-market-report",
-        "https://vercor.ai/resources/rfp-response/responsive-rfpio-alternative"
-      ],
-      "how_searched": [
-        "RFP software market 2026",
-        "Responsive RFP pricing",
-        "SMB RFP automation"
-      ],
-      "score": 73.0,
-      "found_at": "2026-10-23T13:34:58.873804+00:00"
-    },
-    {
-      "name": "LLM / agent spend & cost observability dashboard",
-      "field": "Developer tools (LLMOps / FinOps)",
-      "summary": "A free web tool that ingests API logs and shows cost per user, per feature, per model, plus latency, caching and runaway-agent alerts.",
-      "why_now": "'AI Observability' search growth is ~9,300% (Exploding Topics), Braintrust raised at an $800M valuation, Langfuse was acquired by ClickHouse and Helicone by Mintlify in 2026, and Chargebee just open-sourced the AUDR standard for tracking agent run costs (top-3 Product Hunt launch).",
-      "monetization": "Paid tiers run $29-$249/mo (Langfuse Core $29, LangSmith $39/seat, Braintrust Pro $249); caching/optimization claims save 20-30% on LLM bills.",
-      "evidence": [
-        "https://presenc.ai/research/ai-agent-observability-startups-2026",
-        "https://coverge.ai/blog/llmops-tools-pricing-comparison",
-        "https://explodingtopics.com/blog/trending-topics",
-        "https://www.producthunt.com/leaderboard/daily/2026/10/6"
-      ],
-      "how_searched": [
-        "web search engine",
-        "vendor matrix/comparison pages with pricing",
-        "trend-discovery tool",
-        "launch site (Product Hunt)"
-      ],
-      "score": 72.0,
-      "found_at": "2026-10-07T23:12:52.752043+00:00"
-    },
-    {
-      "name": "TikTok Shop & winning-product trend finder",
-      "field": "Ecommerce research",
-      "summary": "A free dashboard that ranks products by live TikTok Shop GMV and search demand, flagging items with high searches but few videos (open lanes).",
-      "why_now": "RapidTok's Sept 2026 report: the TikTok Shop USA top 10 made $23.2M in 30 days; TokConnect's Oct 2026 pull found 10 of 11 dupe searches had zero matching videos (1,490,773 searches/week unanswered); 'Fastmoss' search growth +6,600% in Exploding Topics' Oct 6, 2026 list.",
-      "monetization": "Paid research subscriptions — competitors charge Kalodata from $45.99/mo, FastMoss from $49/mo, EchoTik up to $57/mo (prices checked Oct 5, 2026); TokConnect itself starts free then 50 free credits.",
-      "evidence": [
-        "https://rapidtok.com/blog/10-best-selling-tiktok-shop-products-usa-september-2026",
-        "https://tokconnect.com/trends/products/october-2026/",
-        "https://tokconnect.com/for/ecommerce/",
-        "https://explodingtopics.com/blog/trending-topics"
-      ],
-      "how_searched": [
-        "marketplace/GMV report (RapidTok monthly top 10)",
-        "search-demand tool (TokConnect monthly product report)",
-        "vendor pricing pages (TokConnect comparison, checked Oct 5 2026)",
-        "search-trend tool (Exploding Topics 'Fastmoss')"
-      ],
-      "score": 72.0,
-      "found_at": "2026-10-08T03:07:46.544427+00:00"
     }
   ]
 }
