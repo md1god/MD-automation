@@ -1075,6 +1075,25 @@
       "found_at": "2026-10-20T00:48:37.470400+00:00"
     },
     {
+      "name": "Answer-First SEO (Content Clusters)",
+      "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide",
+      "kind": "tactic",
+      "requires_account": false,
+      "official_free_api": false,
+      "how_to_use": "Identify long-tail questions with intent, build cluster around core topic (pillar + supporting pages), answer clearly, add internal links, refresh pages on page 2. Use Google Search Console (already known) to track. Cite facts, aim for direct answers.",
+      "rules_and_risks": "Slow (months) to show results. Must follow Search Essentials; avoid thin/AI-spammy content. Needs consistent writing; compounding but delayed payoff.",
+      "why_it_works": "Durable, free traffic that compounds and increasingly surfaces in AI answers; targets buyers with high intent.",
+      "evidence": [
+        "https://learn.simpletraffic.co/how-to-drive-traffic-to-your-website-in-2026-a-practical-plan-that-covers-seo-ai-search-communities-and-fast-testing/",
+        "https://lightspeedbolt.com/learn/get-traffic-to-new-website-no-budget"
+      ],
+      "how_searched": [
+        "websearch: 'free ways to get website traffic 2026 no budget channels beyond Product Hunt Reddit'"
+      ],
+      "score": 63.3,
+      "found_at": "2026-10-24T06:13:22.034481+00:00"
+    },
+    {
       "name": "SourceBottle: free journalist call-outs and expert profiles",
       "url": "https://www.sourcebottle.com/",
       "kind": "partnership",
@@ -1598,6 +1617,25 @@
       ],
       "score": 54.0,
       "found_at": "2026-10-11T19:02:18.338578+00:00"
+    },
+    {
+      "name": "X (Build-in-Public)",
+      "url": "https://x.com/",
+      "kind": "platform",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Document build progress/failures/numbers (not just promos), post valuable insights, reply to relevant accounts daily, funnel to owned asset (email/list) with memorable link. Consistency over virality.",
+      "rules_and_risks": "Algorithm changes frequently. Audience is rented; must avoid aggressive promo spam. Needs ongoing effort; results compound slowly but can be meaningful.",
+      "why_it_works": "Free organic reach possible via storytelling; can build engaged audience that converts on launches without ad spend.",
+      "evidence": [
+        "https://insightraider.com/en/blog/free-traffic-sources-digital-products",
+        "https://favors.dev/blog/how-to-get-your-first-100-users"
+      ],
+      "how_searched": [
+        "websearch: 'free ways to get website traffic 2026 no budget channels beyond Product Hunt Reddit'"
+      ],
+      "score": 54.0,
+      "found_at": "2026-10-24T06:13:21.239338+00:00"
     },
     {
       "name": "WebList (appli.st)",
@@ -2282,6 +2320,24 @@
       "found_at": "2026-10-16T13:02:17.091203+00:00"
     },
     {
+      "name": "Gumroad Discover",
+      "url": "https://discover.gumroad.com/",
+      "kind": "directory",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Publish a digital product on Gumroad (free), optimize title/tags/cover for keyword intent, drive first sales from other channels; Discover algorithm surfaces products that already sell.",
+      "rules_and_risks": "Not a zero-traction launch channel - it amplifies existing sales. Must comply with Gumroad terms. Competition is high; needs conversion-focused listing.",
+      "why_it_works": "Marketplace with buyers in spending mode; when momentum exists, free discovery can drive additional sales/visits.",
+      "evidence": [
+        "https://insightraider.com/en/blog/free-traffic-sources-digital-products"
+      ],
+      "how_searched": [
+        "websearch: 'free ways to get website traffic 2026 no budget channels beyond Product Hunt Reddit'"
+      ],
+      "score": 28.3,
+      "found_at": "2026-10-24T06:13:20.476521+00:00"
+    },
+    {
       "name": "OpenAlternative (open-source alternatives directory)",
       "url": "https://openalternative.co/submit",
       "kind": "directory",
@@ -2337,6 +2393,24 @@
       ],
       "score": 27.3,
       "found_at": "2026-10-18T18:34:07.003441+00:00"
+    },
+    {
+      "name": "PageRankCafe (Traffic Exchange)",
+      "url": "https://www.pagerankcafe.com/",
+      "kind": "platform",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Create free account, earn credits by viewing other sites, spend credits to display your link/banner/press release/video ad. Free tier is functional; can run passively once configured.",
+      "rules_and_risks": "Visitors often browse to earn credits (short sessions) - optimize for top-of-funnel/brand awareness. Follow exchange rules (no deceptive redirects). Upgrades optional. Traffic quality varies.",
+      "why_it_works": "Real human traffic, stackable with other channels, can deliver daily volume on free tier according to tested results.",
+      "evidence": [
+        "https://pagerankcafe.com/pressRelease/blog/free-marketing-channels-2026"
+      ],
+      "how_searched": [
+        "websearch: 'free ways to get website traffic 2026 no budget channels beyond Product Hunt Reddit'"
+      ],
+      "score": 27.3,
+      "found_at": "2026-10-24T06:13:20.807723+00:00"
     },
     {
       "name": "AlternativeTo 'Suggest new application' listing",
