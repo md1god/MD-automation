@@ -1094,6 +1094,25 @@
       "found_at": "2026-10-24T06:13:22.034481+00:00"
     },
     {
+      "name": "Bing Webmaster Tools / URL Submission (Adaptive URL Submission API)",
+      "url": "https://learn.microsoft.com/en-us/bingwebmaster/",
+      "kind": "search",
+      "requires_account": true,
+      "official_free_api": true,
+      "how_to_use": "Register site in Bing Webmaster Tools, get API key, submit URLs via the Adaptive URL Submission API (or use IndexNow). Check quota with GetUrlSubmissionQuota.",
+      "rules_and_risks": "Must verify site ownership; quotas apply per site; URLs must be on verified domains. IndexNow is preferred for real-time submission.",
+      "why_it_works": "Bing's index powers other search surfaces; programmatic submission gives visibility.",
+      "evidence": [
+        "https://learn.microsoft.com/en-us/bingwebmaster/",
+        "https://blogs.bing.com/webmaster/2019/11/Accessing-Bing-webmaster-tools-api-using-cURL/"
+      ],
+      "how_searched": [
+        "websearch for Bing Webmaster API/URL submission 2026"
+      ],
+      "score": 63.3,
+      "found_at": "2026-10-24T18:20:11.350196+00:00"
+    },
+    {
       "name": "SourceBottle: free journalist call-outs and expert profiles",
       "url": "https://www.sourcebottle.com/",
       "kind": "partnership",
@@ -2264,6 +2283,42 @@
       "found_at": "2026-10-11T19:02:19.248978+00:00"
     },
     {
+      "name": "IndexNow",
+      "url": "https://www.indexnow.org/",
+      "kind": "search",
+      "requires_account": false,
+      "official_free_api": true,
+      "how_to_use": "Generate a key, host key file at root, notify participating search engines (Bing, Naver, Seznam, Yandex, Yep) via HTTP GET/POST with your key and URL(s) when content changes.",
+      "rules_and_risks": "Key must be valid and hosted; submissions shared across participating engines; use per-RFC3986 URLs; up to 10k per batch. Not all engines participate (Google doesn't use it).",
+      "why_it_works": "Instant notification of URL changes to multiple engines with minimal overhead.",
+      "evidence": [
+        "https://www.indexnow.org/documentation"
+      ],
+      "how_searched": [
+        "websearch for IndexNow protocol docs"
+      ],
+      "score": 31.7,
+      "found_at": "2026-10-24T18:20:11.500993+00:00"
+    },
+    {
+      "name": "Google Search Console",
+      "url": "https://search.google.com/search-console",
+      "kind": "search",
+      "requires_account": true,
+      "official_free_api": true,
+      "how_to_use": "Verify ownership, submit sitemap, use URL Inspection to request indexing, monitor coverage/Core Web Vitals.",
+      "rules_and_risks": "Free but requires verification; Google has no public bulk URL submit equivalent to IndexNow for arbitrary URLs at scale (use sitemaps/links).",
+      "why_it_works": "Direct control over how Google sees your site; critical for organic search visibility.",
+      "evidence": [
+        "https://searchengineland.com/guide/organic-traffic"
+      ],
+      "how_searched": [
+        "websearch for Google Search Console indexing"
+      ],
+      "score": 31.7,
+      "found_at": "2026-10-24T18:20:11.566773+00:00"
+    },
+    {
       "name": "Eventbrite free events (free event pages that rank in search)",
       "url": "https://www.eventbrite.com/organizer/pricing/",
       "kind": "partnership",
@@ -2336,6 +2391,24 @@
       ],
       "score": 28.3,
       "found_at": "2026-10-24T06:13:20.476521+00:00"
+    },
+    {
+      "name": "SaaSHub Submit",
+      "url": "https://www.saashub.com/submit",
+      "kind": "directory",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Create product on SaaSHub, use Submit tool to post to 100+ directories/communities from one place (tracks submissions).",
+      "rules_and_risks": "Free tool; need to follow each destination's rules; some destinations require account/review.",
+      "why_it_works": "Centralizes discovery across many directories efficiently.",
+      "evidence": [
+        "https://www.saashub.com/submit"
+      ],
+      "how_searched": [
+        "webfetch SaaSHub Submit page"
+      ],
+      "score": 28.3,
+      "found_at": "2026-10-24T18:20:29.376404+00:00"
     },
     {
       "name": "OpenAlternative (open-source alternatives directory)",
@@ -2413,6 +2486,42 @@
       "found_at": "2026-10-24T06:13:20.807723+00:00"
     },
     {
+      "name": "Yandex Webmaster",
+      "url": "https://webmaster.yandex.com/",
+      "kind": "search",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Verify site, submit sitemap/feeds via interface; follow Yandex indexing guidance.",
+      "rules_and_risks": "Regional importance (Russia/CIS); follow guidelines; no obvious bulk programmatic URL submit like IndexNow/Bing documented in general docs.",
+      "why_it_works": "Access to Yandex search in relevant markets.",
+      "evidence": [
+        "https://yandex.com/support/webmaster/en/"
+      ],
+      "how_searched": [
+        "webfetch Yandex Webmaster help"
+      ],
+      "score": 26.7,
+      "found_at": "2026-10-24T18:20:12.549245+00:00"
+    },
+    {
+      "name": "BetaList",
+      "url": "https://betalist.com/submit",
+      "kind": "directory",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Submit startup via web or agent prompt; review/claim link may be required; some exposure may be gated by plans.",
+      "rules_and_risks": "Free submission path exists; review process applies; read current terms.",
+      "why_it_works": "Pre-launch/startup discovery audience.",
+      "evidence": [
+        "https://betalist.com/submit"
+      ],
+      "how_searched": [
+        "webfetch BetaList submit"
+      ],
+      "score": 26.7,
+      "found_at": "2026-10-24T18:20:29.514457+00:00"
+    },
+    {
       "name": "AlternativeTo 'Suggest new application' listing",
       "url": "https://alternativeto.net/faq/",
       "kind": "directory",
@@ -2487,25 +2596,6 @@
       "found_at": "2026-10-16T13:02:17.848672+00:00"
     },
     {
-      "name": "Yandex Webmaster",
-      "url": "https://webmaster.yandex.com/",
-      "kind": "search",
-      "requires_account": true,
-      "official_free_api": true,
-      "how_to_use": "Verify the site in Yandex Webmaster, generate a fresh sitemap, and submit it through the free OAuth API endpoint POST /v4/user/{user-id}/hosts/{host-id}/user-added-sitemaps. Automate resubmission when new pages are published.",
-      "rules_and_risks": "Ownership verification and an OAuth token are required; sitemaps must be valid and accessible. Most valuable for Russian-language or Russia-relevant content, and the site must comply with local law. No cloaking or deceptive pages.",
-      "why_it_works": "Yandex exposes a free, official Webmaster API for sitemap submission, giving a direct crawl/indexing path into Yandex search rather than waiting for discovery.",
-      "evidence": [
-        "https://yandex.com/dev/webmaster/doc/en/reference/host-user-added-sitemaps-post"
-      ],
-      "how_searched": [
-        "Searched Yandex Webmaster API references and opened the sitemap-submission endpoint documentation.",
-        "Checked authentication and submission requirements."
-      ],
-      "score": 25.3,
-      "found_at": "2026-10-23T18:31:18.044960+00:00"
-    },
-    {
       "name": "Fanvaiy",
       "url": "https://fanvaiy.com",
       "kind": "feed",
@@ -2522,6 +2612,42 @@
       ],
       "score": 25.0,
       "found_at": "2026-10-18T18:34:10.437859+00:00"
+    },
+    {
+      "name": "Naver Search Advisor",
+      "url": "https://searchadvisor.naver.com/",
+      "kind": "search",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Verify site, submit RSS/sitemap via Search Advisor interface.",
+      "rules_and_risks": "Korean market focus; feeds must meet validation (same domain, item counts, size limits).",
+      "why_it_works": "Important for Korean audience discoverability.",
+      "evidence": [
+        "https://searchadvisor.naver.com/guide/request-feed"
+      ],
+      "how_searched": [
+        "webfetch Naver Search Advisor guide"
+      ],
+      "score": 25.0,
+      "found_at": "2026-10-24T18:20:13.438576+00:00"
+    },
+    {
+      "name": "Google Scholar (inclusion)",
+      "url": "https://scholar.google.com/intl/en/scholar/inclusion.html",
+      "kind": "search",
+      "requires_account": false,
+      "official_free_api": false,
+      "how_to_use": "Host PDFs/HTML with proper bibliographic metadata (Highwire/BE Press/PRISM or clear formatting), ensure crawlable, include abstracts, provide references in standard format.",
+      "rules_and_risks": "Strict content guidelines (scholarly articles only), meta tags recommended, large files go to Google Books.",
+      "why_it_works": "High-authority academic discovery; can drive long-tail traffic to research content.",
+      "evidence": [
+        "https://scholar.google.com/intl/en/scholar/inclusion.html"
+      ],
+      "how_searched": [
+        "webfetch Google Scholar inclusion guidelines"
+      ],
+      "score": 25.0,
+      "found_at": "2026-10-24T18:20:29.626267+00:00"
     },
     {
       "name": "daily.dev (Squads + Direct Posting + source feeds)",
@@ -2579,25 +2705,6 @@
       ],
       "score": 24.7,
       "found_at": "2026-10-16T13:02:17.973225+00:00"
-    },
-    {
-      "name": "Naver Search Advisor",
-      "url": "https://searchadvisor.naver.com/",
-      "kind": "search",
-      "requires_account": true,
-      "official_free_api": false,
-      "how_to_use": "Verify site ownership, submit a sitemap, and submit a full-text RSS feed for new content. Keep the feed on the same verified domain and monitor indexing in Search Advisor.",
-      "rules_and_risks": "RSS must be full-text, same-domain, contain at least one item, and be under 10MB; Naver recommends sitemaps over RSS. No public submission API was found. Only worthwhile for Korean-language content or a Korea-relevant audience.",
-      "why_it_works": "Naver Search Advisor explicitly accepts RSS and sitemap submissions and revisits accepted feeds, providing a direct path into Naver's Korean search ecosystem.",
-      "evidence": [
-        "https://searchadvisor.naver.com/guide/request-feed"
-      ],
-      "how_searched": [
-        "Opened Naver's official feed-submission guide and read its RSS/sitemap requirements.",
-        "Checked for an official public submission API."
-      ],
-      "score": 24.3,
-      "found_at": "2026-10-23T18:31:19.464127+00:00"
     },
     {
       "name": "Hacker News: Show HN and story submissions",
@@ -2823,6 +2930,78 @@
       ],
       "score": 23.3,
       "found_at": "2026-10-18T18:34:13.112911+00:00"
+    },
+    {
+      "name": "Mojeek",
+      "url": "https://www.mojeek.com/",
+      "kind": "search",
+      "requires_account": false,
+      "official_free_api": false,
+      "how_to_use": "No public URL submission form/API; earn prominent genuine inbound links so MojeekBot discovers/crawls pages.",
+      "rules_and_risks": "No self-serve submit; relies on link discovery/crawl. Be patient.",
+      "why_it_works": "Independent index; privacy-focused search; can provide traffic without relying solely on Google/Bing.",
+      "evidence": [
+        "https://community.mojeek.com/t/how-can-i-add-my-website-to-mojeek-search-results/1192"
+      ],
+      "how_searched": [
+        "websearch for Mojeek submit URL 2026"
+      ],
+      "score": 23.3,
+      "found_at": "2026-10-24T18:20:29.246654+00:00"
+    },
+    {
+      "name": "OSF (Open Science Framework)",
+      "url": "https://osf.io/",
+      "kind": "directory",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Create account, upload preprints/papers/projects; make public with metadata; OSF is indexed/crawled.",
+      "rules_and_risks": "Academic/preprint focus; follow OSF terms.",
+      "why_it_works": "Open access discovery; can provide backlinks and visibility.",
+      "evidence": [
+        "https://osf.io/"
+      ],
+      "how_searched": [
+        "websearch for OSF preprints"
+      ],
+      "score": 23.3,
+      "found_at": "2026-10-24T18:20:29.888349+00:00"
+    },
+    {
+      "name": "PodMatch",
+      "url": "https://www.podmatch.com/",
+      "kind": "partnership",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Create profile as guest/host, use matching system to book interviews; follow platform workflows.",
+      "rules_and_risks": "Free to join with paid tiers; focus on podcast guesting/hosting relationships (legitimate outreach).",
+      "why_it_works": "Earned media/interview opportunities can drive traffic and authority.",
+      "evidence": [
+        "https://www.podmatch.com/"
+      ],
+      "how_searched": [
+        "webfetch PodMatch site"
+      ],
+      "score": 23.3,
+      "found_at": "2026-10-24T18:20:30.192817+00:00"
+    },
+    {
+      "name": "Qwoted",
+      "url": "https://www.qwoted.com/",
+      "kind": "partnership",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Join as expert/source or journalist; respond to relevant media queries with helpful insights.",
+      "rules_and_risks": "Free to join; need to provide value, follow query requirements; not guaranteed placement.",
+      "why_it_works": "Earned media mentions can drive traffic and credibility.",
+      "evidence": [
+        "https://www.qwoted.com/"
+      ],
+      "how_searched": [
+        "webfetch Qwoted site"
+      ],
+      "score": 23.3,
+      "found_at": "2026-10-24T18:20:30.476819+00:00"
     },
     {
       "name": "Bluesky starter packs + custom feeds for your niche",
@@ -3087,6 +3266,24 @@
       ],
       "score": 21.7,
       "found_at": "2026-10-18T06:24:27.429586+00:00"
+    },
+    {
+      "name": "PRLog",
+      "url": "https://www.prlog.org/",
+      "kind": "directory",
+      "requires_account": false,
+      "official_free_api": false,
+      "how_to_use": "Submit free press release (with account); SEO-optimized page, distributed to search engines and feeds.",
+      "rules_and_risks": "Free tier available; follow press release guidelines; avoid spammy content.",
+      "why_it_works": "Free distribution + discoverability.",
+      "evidence": [
+        "https://www.prlog.org/"
+      ],
+      "how_searched": [
+        "webfetch PRLog site"
+      ],
+      "score": 21.7,
+      "found_at": "2026-10-24T18:20:30.818026+00:00"
     },
     {
       "name": "Qiita API v2 — publish developer articles programmatically",
