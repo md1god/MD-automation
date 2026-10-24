@@ -99,6 +99,24 @@
       "found_at": "2026-10-24T06:11:16.841545+00:00"
     },
     {
+      "name": "AI Search Visibility (GEO/AEO) Monitoring",
+      "field": "Marketing/SEO Tools",
+      "summary": "Tools that track brand mentions and citations in AI answers (ChatGPT, Google AI Overviews/AI Mode, Perplexity). Market exploding with enterprise demand.",
+      "why_now": "Adobe acquiring Semrush for ~$1.9B (Apr 2026) validates category; Profound valued at $1.8B with $334.5M raised; AI-referred sessions up 527% YoY; 60% of Google searches now zero-click.",
+      "monetization": "SaaS subscriptions - Profound/enterprise tools charge thousands/month; Peec AI grew to $10M ARR in 16 months. Semrush AI products hit $38M ARR (2025).",
+      "evidence": [
+        "https://henkanpartners.ai/en/insights/ai-search-visibility-market-2023-2026/",
+        "https://guptadeepak.com/geo-compass/guides/geo-tooling-market-2026/",
+        "https://everything-pr.com/ahrefs-semrush-and-conductor-push-back-as-geo-pure-plays-raise-hundreds-of-millions"
+      ],
+      "how_searched": [
+        "web search for GEO/AEO market data and funding",
+        "cross-checked acquisition/valuation numbers across multiple sources"
+      ],
+      "score": 95.0,
+      "found_at": "2026-10-24T20:52:06.456970+00:00"
+    },
+    {
       "name": "MCP Server Build, Test & Deploy Platform",
       "field": "Developer Tools / AI Infrastructure",
       "summary": "A free web-based studio to scaffold, test, debug, and deploy Model Context Protocol (MCP) servers with auth, workflows, and one-click sharing.",
@@ -158,6 +176,24 @@
       ],
       "score": 94.0,
       "found_at": "2026-10-24T14:38:54.125810+00:00"
+    },
+    {
+      "name": "AI Agent Monetization Infrastructure (MCP Payments)",
+      "field": "Developer Tools/Agent Infrastructure",
+      "summary": "Payment layers for MCP tools/agents enabling per-call billing as autonomous agents need to pay for capabilities. Less than 5% of MCP servers monetize today.",
+      "why_now": "MCP exploded to 10k+ servers with 97M+ SDK downloads; x402/Stripe MPP/Alipay MCP payment server emerging; infrastructure buildout happening now with huge whitespace.",
+      "monetization": "Transaction fees/micropayments per tool call. Alipay MCP Payment Server reportedly processed 120M transactions in a week (100M users); x402 doing ~$28K/day.",
+      "evidence": [
+        "https://settlegrid.ai/learn/state-of-mcp-2026",
+        "https://theagenttimes.com/articles/less-than-5-of-mcp-servers-are-monetized-a-payment-stack-is--89b2ee26",
+        "https://dev.to/holistis/a-payment-gateway-for-mcp-servers-and-the-security-bugs-i-found-in-my-own-code-first-337"
+      ],
+      "how_searched": [
+        "web search for MCP monetization/payment infrastructure",
+        "looked for transaction volume data across protocols"
+      ],
+      "score": 94.0,
+      "found_at": "2026-10-24T20:52:07.006612+00:00"
     },
     {
       "name": "Dropkiller",
@@ -232,6 +268,24 @@
       ],
       "score": 93.0,
       "found_at": "2026-10-24T14:38:59.112895+00:00"
+    },
+    {
+      "name": "MCP Security & Trust Scanning",
+      "field": "Security/Developer Tools",
+      "summary": "Tools to audit, scan, and rate MCP servers for security risks as exposure grows faster than fixes. Critical due to supply chain attacks.",
+      "why_now": "147 unauthenticated MCP servers found wide open (Pluto Security); 12,520 internet-reachable MCP services found by Censys; malicious skills found in ClawHavoc (341/2857); CVEs targeting MCP grew rapidly; <5% of servers pass basic safety checks.",
+      "monetization": "B2B SaaS for security teams, API scanning, registry trust scoring, compliance checks. Enterprise demand driven by agentic adoption.",
+      "evidence": [
+        "https://pluto.security/blog/wide-open-hundreds-of-mcps-exposing-root-shells-production-data-and-citizen-records-one-call-away/",
+        "https://archestack.com/reports/state-of-mcp-2026-q4/",
+        "https://www.vulnify.io/blog/we-scanned-1320-public-mcp-servers"
+      ],
+      "how_searched": [
+        "web search for MCP security incidents/exposure data",
+        "reviewed vulnerability reports and scans"
+      ],
+      "score": 93.0,
+      "found_at": "2026-10-24T20:52:07.619923+00:00"
     },
     {
       "name": "UseIt Studio",
@@ -432,6 +486,24 @@
       "found_at": "2026-10-24T11:02:41.212314+00:00"
     },
     {
+      "name": "AI Content Repurposing for Creators",
+      "field": "Creator Economy/SaaS",
+      "summary": "Tools that repurpose one piece of content into multiple formats (shorts/reels/posts). High demand as creators need to distribute everywhere.",
+      "why_now": "Strong revenue signals from verified/founder-reported data: Post Bridge $48.8K MRR verified (Stripe), SuperX $22.3K MRR verified (Stripe), Fastlane ~$69K/month (self-reported). Built quickly with AI coding tools.",
+      "monetization": "Subscription SaaS ($29-$99/month). Many grow via founder-led/content marketing with low CAC.",
+      "evidence": [
+        "https://shippedandpaid.beehiiv.com/p/post-bridge-and-abmaxx-verified-revenue-plus-4-more-ai-built-apps",
+        "https://shippedandpaid.beehiiv.com/p/superx-at-22k-mrr-verified-plus-5-more-ai-built-apps",
+        "https://www.creem.io/blog/ai-saas-ideas-making-money-2026"
+      ],
+      "how_searched": [
+        "reviewed founder revenue reports (Shipped & Paid) with verification",
+        "cross-checked with AI SaaS revenue data"
+      ],
+      "score": 92.0,
+      "found_at": "2026-10-24T20:52:09.648094+00:00"
+    },
+    {
       "name": "Specreel",
       "field": "developer-tools/demos",
       "summary": "Turns browser flows (Playwright traces or live URL crawls) into narrated, shareable product demos that auto-update on green builds; open source CLI plus hosted cloud.",
@@ -486,6 +558,24 @@
       ],
       "score": 91.0,
       "found_at": "2026-10-24T06:11:19.003980+00:00"
+    },
+    {
+      "name": "LinkedIn AI Writing & Growth Tools",
+      "field": "B2B/Social SaaS",
+      "summary": "AI tools for LinkedIn post creation, engagement, and growth - selling to founders/creators/ghostwriters who need B2B visibility.",
+      "why_now": "Kleo hit $61.9K MRR (self-reported), SuperX also serves X/LinkedIn growth; GojiberryAI does AI sales/LinkedIn outreach ($424K MRR but stale in some trackers). B2B buyers have budgets and clear ROI.",
+      "monetization": "SaaS subscriptions targeting solopreneurs/agencies ($29-$149/month). High conversion when tied to measurable outcomes.",
+      "evidence": [
+        "https://shippedandpaid.beehiiv.com/p/kleo-at-62k-mrr-and-erly-at-50k-a-month-plus-4-more-ai-built-apps",
+        "https://shippedandpaid.beehiiv.com/p/superx-at-22k-mrr-verified-plus-5-more-ai-built-apps",
+        "https://imademoneywithai.com/"
+      ],
+      "how_searched": [
+        "analyzed AI business revenue trackers",
+        "reviewed founder-reported MRR with sources"
+      ],
+      "score": 91.0,
+      "found_at": "2026-10-24T20:52:13.040820+00:00"
     },
     {
       "name": "Apogee",
@@ -651,6 +741,24 @@
       "found_at": "2026-10-22T22:31:52.985408+00:00"
     },
     {
+      "name": "Vertical AI Agents for Local Trades",
+      "field": "Vertical AI/B2B SaaS",
+      "summary": "AI agents purpose-built for specific trades (HVAC/plumbing/roofing) handling lead qualification, scheduling, follow-ups, estimates. Huge TAM, underserved.",
+      "why_now": "Clairvo (AI power dialer for call-heavy trades) hit ~$1M ARR (self-reported); businesses in trades often run on pen/paper with high customer LTV. AI adoption accelerating in blue-collar SMBs.",
+      "monetization": "Per-seat or per-location SaaS, often $200-$1000/month per business. High willingness to pay if it books jobs/reduces missed calls.",
+      "evidence": [
+        "https://shippedandpaid.beehiiv.com/p/superx-at-22k-mrr-verified-plus-5-more-ai-built-apps",
+        "https://www.creem.io/blog/ai-saas-ideas-making-money-2026",
+        "https://www.runsby.ai/"
+      ],
+      "how_searched": [
+        "reviewed vertical AI agent revenue examples",
+        "cross-referenced with AI SaaS opportunity reports"
+      ],
+      "score": 90.0,
+      "found_at": "2026-10-24T20:52:14.061950+00:00"
+    },
+    {
       "name": "AI Search Visibility / GEO Tracking Dashboard",
       "field": "Marketing / SEO / AI Visibility",
       "summary": "A free web dashboard that tracks brand citations, visibility %, position, and sentiment across ChatGPT, Perplexity, Gemini, Google AI Overviews, and Claude — with side-by-side organic vs AI traffic comparison to detect cannibalization (per Omio A/B test).",
@@ -743,6 +851,24 @@
       ],
       "score": 89.0,
       "found_at": "2026-10-21T15:40:22.456939+00:00"
+    },
+    {
+      "name": "AI Meeting Notes & Sales Intelligence",
+      "field": "Productivity/Sales Tools",
+      "summary": "AI that summarizes meetings, extracts action items, updates CRM. Consolidation opportunity in verticals or with better integrations.",
+      "why_now": "Fireflies/Otter/tldv are big but still room for niche-specific versions (real estate, legal, healthcare) with better workflow integration. Businesses pay to save time and improve CRM hygiene.",
+      "monetization": "Per-user SaaS ($19-$99/month). Enterprise deals common. Strong retention when integrated into daily workflows.",
+      "evidence": [
+        "https://www.creem.io/blog/ai-saas-ideas-making-money-2026",
+        "https://imademoneywithai.com/",
+        "https://runsby.ai/"
+      ],
+      "how_searched": [
+        "analyzed AI SaaS categories with revenue data",
+        "looked for whitespace in established categories"
+      ],
+      "score": 89.0,
+      "found_at": "2026-10-24T20:52:14.767149+00:00"
     },
     {
       "name": "PDF/Document Parsing & Data Extraction API",
@@ -6050,148 +6176,6 @@
       ],
       "score": 73.0,
       "found_at": "2026-10-08T23:25:31.857440+00:00"
-    },
-    {
-      "name": "Free landlord / rental-property finance toolkit (rent ledger, per-unit P&L, tax-ready reports)",
-      "field": "Fintech / PropTech (vertical SaaS)",
-      "summary": "A rebuilt free web tool for the ~12M US independent landlords: track rent, deposits and expenses per unit, auto-generate monthly P&L and tax-ready annual reports, plus cash-flow / 1%-rule calculators and late-rent reminders.",
-      "why_now": "Baselane — the banking-plus-bookkeeping platform for individual landlords — grew >900% since its Series A, passed 50,000 landlord customers processing over $2B/yr, and raised $34.4M (Series A + Series B) in Oct 2025; 'Baselane' sits at +7,300% search growth on Exploding Topics' Oct 2026 list. Individual investors own ~25M US rental units (half the rental supply), and this category is under-tooled.",
-      "monetization": "Free core tool monetized via premium automation tier and affiliate/partner revenue (landlord insurance, rental loans, tenant screening). Baselane itself earns on banking and a paid AI tier (Baselane Smart); reported scale: 50,000+ users, $2B+ processed annually.",
-      "evidence": [
-        "https://www.baselane.com/resources/baselane-announces-34m-in-new-funding-to-invest-in-customers",
-        "https://explodingtopics.com/blog/trending-topics",
-        "https://fintech.global/2025/10/02/fintech-platform-baselane-secures-34m-for-ai-expansion/"
-      ],
-      "how_searched": [
-        "Company funding pages",
-        "Trend aggregator (Exploding Topics)",
-        "Fintech/PropTech trade press",
-        "Revenue & scale figures from company PR"
-      ],
-      "score": 73.0,
-      "found_at": "2026-10-10T00:11:07.006100+00:00"
-    },
-    {
-      "name": "GLP-1 muscle-preservation companion tracker",
-      "field": "Health / GLP-1 companion apps",
-      "summary": "A web/mobile tracker for people on GLP-1 weight-loss drugs that focuses on protein targets, strength logging and a 'muscle preservation' score, plus dose and side-effect tracking.",
-      "why_now": "A cluster of new apps (MeAgain 780K users, GLPro, GLiPra, Preserve, MyVector) have launched around the same insight: up to a quarter to 40% of GLP-1 weight loss can be lean mass. Clinically driven, emotionally strong niche with clear freemium pricing already proven ($9.99–$14.99/mo; ~$49.99–$99.99/yr).",
-      "monetization": "Freemium: GLPro $14.99/mo or $99.99/yr; GLiPra $9.99/mo or $49.99/yr; MeAgain premium subscription.",
-      "evidence": [
-        "https://meagain.com/",
-        "https://appglpro.com/",
-        "https://glipra.com/",
-        "https://www.preserveglp.app/",
-        "https://myvector.ai/"
-      ],
-      "how_searched": [
-        "web search 'GLP-1 companion app tracking protein muscle 2026 users'",
-        "compared positioning/pricing across five new GLP-1 apps"
-      ],
-      "score": 73.0,
-      "found_at": "2026-10-10T17:54:59.049173+00:00"
-    },
-    {
-      "name": "Micro-drama / short-drama creation studio",
-      "field": "Creator economy (vertical episodic video)",
-      "summary": "Tooling to write, assemble and publish vertical cliffhanger-driven micro-dramas (60-90 second episodes) in the ReelShort-style format.",
-      "why_now": "Outside-China micro-drama revenue is set to grow from $2.7B in 2025 to $3.6B in 2026 and $9.5B by 2031, while ReelShort is tracking ~$1.05B in 2026 with its first profit at scale.",
-      "monetization": "Episodic coin/unlock payments and subscriptions inside the apps, plus platform revenue-share and ads for creators.",
-      "evidence": [
-        "https://variety.com/2026/tv/news/reelshort-1-billion-revenue-profit-2026-mpa-1236828885/",
-        "https://deadline.com/2026/08/microdrama-reelshort-revenue-profit-1237027492/",
-        "https://www.screendaily.com/news/microdrama-revenue-outside-china-to-hit-36bn-in-2026-says-report/5219165.article"
-      ],
-      "how_searched": [
-        "entertainment trade press (Variety, Deadline, Screen Daily)",
-        "analyst reports (Media Partners Asia)",
-        "app-market report pages (Sensor Tower)"
-      ],
-      "score": 73.0,
-      "found_at": "2026-10-11T07:16:57.980564+00:00"
-    },
-    {
-      "name": "Climate-Aware Baby Checklist & Gift Registry",
-      "field": "parenting / consumer utility",
-      "summary": "A web tool that generates exact quantities of baby clothes/essentials sized RN-12M, tuned to the baby's birth month and local climate, plus a shared gift registry that prevents duplicate gifts.",
-      "why_now": "Enxovaly launched Aug 2026 and hit 10,000+ organic downloads and R$40K in month one, is now tracking ~$11K/30 days on TrustMRR with 1,711 active subscriptions, and a third-party estimator shows ~$9.5K lifetime via RevenueCat. Proven demand with no incumbent web tool.",
-      "monetization": "Freemium: free basic checklist, subscription unlocks climate algorithm, unlimited closet storage and AI assistant.",
-      "evidence": [
-        "https://howtomakemoney.io/cases/enxovaly-gabriel-baby-checklist-app/",
-        "https://trustmrr.com/startup/enxovaly",
-        "https://www.whatsthe.app/enxovaly"
-      ],
-      "how_searched": [
-        "open-startup MRR trackers",
-        "indie/RevenueCat case study"
-      ],
-      "score": 73.0,
-      "found_at": "2026-10-13T23:20:49.311831+00:00"
-    },
-    {
-      "name": "No-Code AI Chrome Extension Builder",
-      "field": "Developer Tools / Browser Extensions",
-      "summary": "A free web tool that generates, tests, and publishes Manifest V3 Chrome extensions from natural language — handling permissions, background scripts, content scripts, side panels, OAuth, and Chrome Web Store packaging. Targets the 34% of micro-SaaS founders with no coding experience.",
-      "why_now": "Chrome Web Store: 221,717 extensions (June 2026), 49,518 added in Q2 alone (Exstats/PlugThis). 17% of new extensions use AI core. AI extension market: $2.3B (2025), 22.5% CAGR to $17.5B (2035). 34% of new micro-SaaS by non-coders. PlugThis, other builders emerging. Zero free web-based builder with full publish pipeline.",
-      "monetization": "Free: build and export source. Pro: $29-99/mo for one-click publish, auto-updates, analytics, team collab. Enterprise: white-label for agencies. Chrome Web Store takes 5% of paid extension revenue.",
-      "evidence": [
-        "https://plugthis.ai/blog/chrome-extension-builder-trends-2026-what-to-expect-next",
-        "https://konabayev.com/blog/chrome-extension-statistics-2026/",
-        "https://seoscaleup.com/blog/google-chrome-statistics-2026/",
-        "https://market.us/report/ai-powered-chrome-extension-market/",
-        "https://oktopeak.com/blog/chrome-extension-development-saas/"
-      ],
-      "how_searched": [
-        "PlugThis Q2 2026 builder trends",
-        "Exstats/Konabayev Chrome Web Store statistics (221K extensions)",
-        "SEOScaleUp Chrome stats (251K extensions, 90% <1K users)",
-        "Market.us AI extension market sizing",
-        "Oktopeak development cost benchmarks"
-      ],
-      "score": 73.0,
-      "found_at": "2026-10-14T22:45:52.706193+00:00"
-    },
-    {
-      "name": "Free AI Contract Risk Reviewer for SMBs & Freelancers",
-      "field": "Legal tech / contract review",
-      "summary": "Upload a contract (PDF/DOCX) and get plain-language risk flags, missing or unfair clauses, and suggested redlines with citations back to the exact clause. Aimed at freelancers and small firms priced out of per-seat legal AI.",
-      "why_now": "Legal AI is exploding: Spellbook is on track to $100M ARR with 4,000+ customers after tripling revenue; Ivo grew ARR 600% in a year with Fortune 500 adoption; Legora reached $200M ARR, more than doubling in under six months. A new low-cost contract agent (Dottr) also landed on Product Hunt Oct 16, showing the SMB lane is still open.",
-      "monetization": "Incumbents are quote-only, roughly $180-$300/seat/month (industry estimates, unconfirmed); Spellbook and Ivo sell enterprise seats. Free tier with paid per-contract or team plan.",
-      "evidence": [
-        "https://www.forbes.com.au/news/entrepreneurs/ai-contract-review-firm-ivo-raises-82m-series-b/",
-        "https://www.bvp.com/atlas/launching-ai-products-that-win-legora",
-        "https://universal.net/on-track-to-hit-100-million-usd-arr-spellbook-partners-with-canadian-bar-association/",
-        "https://www.producthunt.com/leaderboard/daily/2026/10/16"
-      ],
-      "how_searched": [
-        "VC/company blogs",
-        "news funding coverage",
-        "product launch sites"
-      ],
-      "score": 73.0,
-      "found_at": "2026-10-17T00:07:11.780527+00:00"
-    },
-    {
-      "name": "Spec/intent verification for AI coding agents",
-      "field": "Developer tools",
-      "summary": "A free web dashboard that captures what you asked an agent to build as versioned specs, links each promise to a test, and refuses to mark work 'done' until evidence exists — sitting outside the agent's own generated code/tests loop.",
-      "why_now": "Tiden ('intent verification for coding agents,' built by the Qase testing team) launched Oct 6 and reached 213-tier visibility on Product Hunt Oct 14, 2026 with 210 points/37 comments; same-week PH launches Polylane (PR risk analysis, 116 points) and the Oct 17 aggregator trend 'Constraint beats capability… risk controls and cost visibility as the scarce features' confirm the market has moved from agent capability to agent verification after real production deployments.",
-      "monetization": "Dev-tools norms: freemium for solo/open-source, $20-50/dev/mo team plans (Qase itself serves 2,000+ teams per Tiden's site). Free tier + paid gates/audit trails. Revenue for Tiden: null.",
-      "evidence": [
-        "https://www.producthunt.com/leaderboard/daily/2026/10/14",
-        "https://www.qase.io/blog/tiden-launch/",
-        "https://tiden.ai/",
-        "https://productlist.info/daily/2026-10-17",
-        "https://www.producthunt.com/leaderboard/daily/2026/10/15"
-      ],
-      "how_searched": [
-        "Product Hunt daily leaderboard",
-        "vendor launch blog",
-        "product site",
-        "daily launch-aggregator trend analysis"
-      ],
-      "score": 73.0,
-      "found_at": "2026-10-17T17:18:21.290609+00:00"
     }
   ]
 }
