@@ -321,6 +321,24 @@
       "found_at": "2026-10-24T01:03:10.127934+00:00"
     },
     {
+      "name": "Photo-based Calorie Estimator (web)",
+      "field": "Health & Wellness",
+      "summary": "Free browser tool that estimates calories/macros from a meal photo with editable results, avoiding mobile app lock-in and ad gates.",
+      "why_now": "Demand for photo logging is high (Reddit threads show users trying CalAI/SnapCal but complaining about accuracy and paywalls). Independent benchmarks show some photo models achieve ~±1% MAPE (PlateLens) while others have no published validation.",
+      "monetization": "Freemium API costs; keep core photo estimation free (ads/affiliate to cookware/scale) or offer higher daily scan limits - numbers not public, null without concrete revenue data.",
+      "evidence": [
+        "https://clinicalnutritionreport.com/articles/best-ai-calorie-tracker-reddit-2026/",
+        "https://www.reddit.com/r/AppIdeas/comments/1sxchhy/photo_calorie_tracker_totally_free_and_web_based/",
+        "https://www.reddit.com/r/apps/comments/1s00965/app_for_photo_calorie_tracking/"
+      ],
+      "how_searched": [
+        "Reddit AppIdeas/apps/wellness",
+        "Review/comparison articles"
+      ],
+      "score": 92.0,
+      "found_at": "2026-10-24T11:02:41.212314+00:00"
+    },
+    {
       "name": "Local-First AI Dictation Web App",
       "field": "Productivity / Accessibility",
       "summary": "A free browser-based dictation tool that transcribes speech to clean text, removes fillers, learns corrections, and supports translation with local-first processing to preserve privacy.",
@@ -1452,6 +1470,24 @@
       "found_at": "2026-10-24T06:11:26.662160+00:00"
     },
     {
+      "name": "Missing Item / Delivery Fraud Checker (web)",
+      "field": "Consumer Protection",
+      "summary": "Simple web form that generates templated complaint emails to retailers/delivery services with order details and required evidence; tracks missing item patterns.",
+      "why_now": "Frequent Reddit complaints about missing items in sealed packages and ghosting from support (multiple threads about Coles, Rhode, Woot, Genkit, DoorDash). People want standardized recourse.",
+      "monetization": "Free tool; could monetize via lead gen to consumer rights/legal aid if scale - revenue unknown, null.",
+      "evidence": [
+        "https://www.reddit.com/r/coles/comments/1wmbhpu/missing_item_on_coles_app/",
+        "https://www.reddit.com/r/woot/comments/1vu3fbc/item_missing_twice/",
+        "https://www.reddit.com/r/doordash/comments/1qu2jpi/this_cant_be_happening_but_it_is/"
+      ],
+      "how_searched": [
+        "Reddit complaints about orders/missing items",
+        "Cross-checking patterns across retailers"
+      ],
+      "score": 86.0,
+      "found_at": "2026-10-24T11:02:41.414791+00:00"
+    },
+    {
       "name": "Short-Form Video Intelligence & Analytics",
       "field": "Creator Economy / MarTech",
       "summary": "Real-time analytics platform for TikTok, Reels, Shorts that tracks viral trends, competitor performance, outlier detection, and content gaps — turning signals into scripts, briefs, and ad creative.",
@@ -2285,6 +2321,24 @@
       ],
       "score": 84.0,
       "found_at": "2026-10-24T06:11:29.332511+00:00"
+    },
+    {
+      "name": "Small Web Tool Idea Generator (curated)",
+      "field": "Developer Tools",
+      "summary": "Free site aggregating unbuilt, small-scope web tool ideas sourced from 'what's missing' Reddit posts with difficulty estimates and existing alternatives.",
+      "why_now": "Builders want to ship something people use (multiple Reddit threads asking for ideas, noting internet is missing small useful websites). SEO-friendly long-tail content with clear demand.",
+      "monetization": "Ad-supported or affiliate to hosting/AI APIs - scale dependent, null exact numbers.",
+      "evidence": [
+        "https://www.reddit.com/r/AppIdeas/comments/1u5aiui/whats_a_simple_website_tool_you_wish_existed/",
+        "https://www.reddit.com/r/SomebodyMakeThis/comments/1tqozej/i_feel_like_the_internet_is_weirdly_missing_a_lot/",
+        "https://www.reddit.com/r/hackathon/comments/1rq6e8k/whats_a_simple_website_tool_you_wish_existed/"
+      ],
+      "how_searched": [
+        "Reddit idea-hunting",
+        "Developer community needs"
+      ],
+      "score": 84.0,
+      "found_at": "2026-10-24T11:02:41.638511+00:00"
     },
     {
       "name": "Self-Hosted Workflow Automation for AI Agents (n8n-style)",
@@ -3284,6 +3338,24 @@
       ],
       "score": 81.0,
       "found_at": "2026-10-23T13:34:48.199850+00:00"
+    },
+    {
+      "name": "Trending Product Research Snapshot (web)",
+      "field": "E-commerce Intelligence",
+      "summary": "Free web tool summarizing rising products with search growth/competition signals (using public data), filtering out branded SKUs and hardware/illegal categories.",
+      "why_now": "Multiple sources show strong interest in finding trending products to sell (Ahrefs/Shopify/SaleHoo/Dropship lists) but many are paywalled or ad-heavy. Opportunity to aggregate public signals.",
+      "monetization": "Ad-supported or affiliate to suppliers - revenue unknown, null.",
+      "evidence": [
+        "https://ahrefs.com/blog/trending-products/",
+        "https://www.shopify.com/blog/trending-products",
+        "https://www.salehoo.com/learn/finding-trending-products-to-dropship"
+      ],
+      "how_searched": [
+        "E-commerce trend reports",
+        "Cross-comparison of public lists"
+      ],
+      "score": 81.0,
+      "found_at": "2026-10-24T11:02:42.589928+00:00"
     },
     {
       "name": "Text or image to 3D model generator",
@@ -6131,81 +6203,6 @@
       ],
       "score": 72.0,
       "found_at": "2026-10-08T03:07:46.544427+00:00"
-    },
-    {
-      "name": "GLP-1 price, coverage & provider comparison tool",
-      "field": "Health-tech / consumer finance",
-      "summary": "Free comparison site for GLP-1 medications: cash-pay prices across LillyDirect, NovoCare, GoodRx and telehealth providers, subscription-vs-direct cost calculator, insurance-coverage checker and dose cost explorer — pure information tooling, no medical services.",
-      "why_now": "'GLP 1 Supplement' searches are up 99x+ on Exploding Topics; Fact.MR sizes GLP-1 telehealth platforms at $763.8M in 2026 growing to $3,280M by 2036; and AInvest (Sep 12, 2026) reports ~19M Americans now on these drugs while prices collapse (GoodRx $39/mo, manufacturer-direct channels, 30+ FDA warning letters) — maximum consumer confusion right now.",
-      "monetization": "Qualified lead-gen/affiliate fees from telehealth providers and pharmacies, display advertising, and premium price-drop/coverage alerts.",
-      "evidence": [
-        "https://explodingtopics.com/blog/trending-topics",
-        "https://www.factmr.com/media-release/2166/glp-1-telehealth-platforms-market",
-        "https://www.ainvest.com/news/glp-1-gold-rush-ran-gold-2609/"
-      ],
-      "how_searched": "Checked GLP-1-related breakout queries on Exploding Topics, opened the market-research size estimate, then read a dated 2026 analysis of provider pricing and channel shifts.",
-      "score": 72.0,
-      "found_at": "2026-10-08T10:47:44.578406+00:00"
-    },
-    {
-      "name": "Cloud computer built for AI agents",
-      "field": "AI infrastructure / agent compute",
-      "summary": "A cloud computer with a real browser, shell, files and a take-over desktop, designed for AI agents to run multi-step tasks with change notifications instead of screenshot polling; humans can watch and take control at any step.",
-      "why_now": "Pine Computer launched Oct 5–9 (Product Hunt #13 on Oct 9) claiming 2–5x faster and ~1/25 the model cost of agents on ordinary computers, 78.3% on SaaS-Bench v1.1; the field is crowded with new entrants — Opengeni (#10 on Product Hunt's week of Oct 5: isolated sandboxes, 100+ integrations, self-host free, $100 cloud credit for first 100 users), AWS Strands Box, InsForge InstaCloud and Meta's Muse VM tab.",
-      "monetization": "Compute credits per computer/session; Pine pricing not public (null); Opengeni gives $100 cloud credit and free self-hosting, monetizing cloud usage; category monetization is per-hour GPU/VM billing.",
-      "evidence": [
-        "https://www.producthunt.com/leaderboard/daily/2026/10/9",
-        "https://pinecomputer.io/",
-        "https://www.progressiverobot.com/2026/10/09/pine-computer-cloud-environment-agentic-tasks/",
-        "https://www.producthunt.com/leaderboard/weekly/2026/41"
-      ],
-      "how_searched": [
-        "launch leaderboard (Product Hunt daily + weekly)",
-        "product site (pinecomputer.io)",
-        "tech news (Progressiverobot / PR Newswire)",
-        "review/aggregator coverage"
-      ],
-      "score": 72.0,
-      "found_at": "2026-10-10T06:18:12.511090+00:00"
-    },
-    {
-      "name": "AI-agent review platform ('G2 for agents')",
-      "field": "Developer tooling / agent experience",
-      "summary": "A public directory where coding agents read reviews before picking a tool and post their own structured reviews (usefulness, ease, reliability, friction tags) after each task — via npm CLI, MCP server or plain Markdown.",
-      "why_now": "Armature (YC P26) launched agent.reviews on Show HN Oct 7 (68 points, 49 comments) after measuring 50k+ agent sessions; by Oct 9 the site reported 189,367 reviews of 4,008 tools filed by coding agents in two days; top friction found: GitHub authentication flagged 485 times, Stripe SDK crash on missing API key, Prisma DATABASE_URL workarounds.",
-      "monetization": "Free for humans and agents; Armature (YC P26) sells commercial Agent Experience products and services to vendors; platform revenue null.",
-      "evidence": [
-        "https://www.withone.ai/blog/agent-reviews-tool-picks-one-cli",
-        "https://agent.reviews/skill.md",
-        "https://aidaily.fyi/en/a/agent-reviews-launches-as-review-site-for-ai-agents-261007"
-      ],
-      "how_searched": [
-        "forum (Hacker News Show HN)",
-        "product site (agent.reviews)",
-        "news/aggregator (withone.ai, The AI Daily)"
-      ],
-      "score": 72.0,
-      "found_at": "2026-10-10T06:18:13.622296+00:00"
-    },
-    {
-      "name": "AI-agent runtime security / prompt-injection firewall",
-      "field": "AI security / LLM guardrails",
-      "summary": "A service that inspects and blocks malicious instructions, unvetted MCP servers/skills and dangerous agent actions at runtime before they execute.",
-      "why_now": "This category is exploding in 2026: AIR Security emerged from stealth with $50M (Sequoia/Greenoaks), Rein raised a $25M Series A (total $35M) and reports 8x revenue growth since its Jan 2026 launch, Geordie AI raised $30M, and YC's Silmaril is selling self-healing prompt-injection defense. Reportedly 79% of enterprises run agents in production while only ~2% have identity security, a large gap and a clear build target.",
-      "monetization": "Enterprise/developer SaaS (SDK or inline firewall); funding signals strong willingness to pay.",
-      "evidence": [
-        "https://www.securityweek.com/ai-agent-firewall-startup-air-security-emerges-from-stealth-with-50-million/",
-        "https://reinsec.io/blog/series-a/",
-        "https://www.ycombinator.com/launches/Pvl-silmaril-self-healing-prompt-injection-defense",
-        "https://forkast.news/geordie-ais-30m-series-a-signals-the-formalization-of-enterprise-agent-security/",
-        "https://www.calcalistech.com/ctechnews/article/rkf52cnimg"
-      ],
-      "how_searched": [
-        "web search 'AI guardrails prompt injection firewall startup funding 2026'",
-        "cross-checked SecurityWeek, YC launch, vendor blogs, Calcalist/Forkast"
-      ],
-      "score": 72.0,
-      "found_at": "2026-10-10T17:55:01.575908+00:00"
     }
   ]
 }
