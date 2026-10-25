@@ -534,6 +534,26 @@
       "found_at": "2026-10-24T23:30:12.156351+00:00"
     },
     {
+      "name": "GEO/AEO Citation Tracking (MentionBird-like visibility tools)",
+      "field": "SEO/AI Search",
+      "summary": "Tools helping brands track when/how they're cited in ChatGPT/Gemini/Perplexity; demand rising as AI search erodes click-throughs.",
+      "why_now": "Gartner projects ~25% of traditional search shifting to AI by 2026 and clickless Google searches hit ~68% in early 2026; multiple launches (ReSO AI, MentionBird) show strong traction.",
+      "monetization": "SaaS subscriptions (tiered by tracked queries/mentions). MentionBird launched on Product Hunt Oct 13 2026 (167 upvotes/23 comments) with pricing not visible from opened pages; ReSO AI (Oct 19 weekly round context) also in space. No public MRR/ARR numbers found in opened sources - numbers unknown.",
+      "evidence": [
+        "https://www.producthunt.com/products/mentionbird",
+        "https://www.producthunt.com/products/reso",
+        "https://sparktoro.com/blog/in-2026-less-than-one-third-of-google-searches-still-send-a-click/",
+        "https://www.reddit.com/r/SaaS/comments/1riiytr/gartner_says_25_of_search_will_shift_to_ai_by/"
+      ],
+      "how_searched": [
+        "Product Hunt leaderboards",
+        "industry reports/clickstream data",
+        "Reddit discussion"
+      ],
+      "score": 92.0,
+      "found_at": "2026-10-25T16:21:21.264283+00:00"
+    },
+    {
       "name": "Specreel",
       "field": "developer-tools/demos",
       "summary": "Turns browser flows (Playwright traces or live URL crawls) into narrated, shareable product demos that auto-update on green builds; open source CLI plus hosted cloud.",
@@ -3078,6 +3098,24 @@
       ],
       "score": 83.0,
       "found_at": "2026-10-25T01:29:33.133076+00:00"
+    },
+    {
+      "name": "'I wish there was...' Opportunity Finder (Reddit/Gaps Scanners)",
+      "field": "Research/Validation Tools",
+      "summary": "Tools scanning Reddit/forums for unmet needs (\"I wish there was...\", workarounds) to find validated ideas before building.",
+      "why_now": "Strong community interest (multiple Reddit posts Jan-Apr 2026 showing people building/analyzing 9300+ posts). Builders want data-backed opportunities vs. vibes; aligns with \"find demand first\" trend.",
+      "monetization": "SaaS/paid access to gap databases/alerts. Some builders discussing monetization; no large public revenue numbers found in opened posts.",
+      "evidence": [
+        "https://www.reddit.com/r/AppIdeas/comments/1q5mecg/i_analyzed_9300_i_wish_there_was_an_app_for_this/",
+        "https://www.reddit.com/r/SaaS/comments/1q3lnyk/im_building_a_tool_to_spot_rising_trends_on_x/",
+        "https://www.reddit.com/r/SideProject/comments/1sdivai/made_a_thing_that_finds_reddit_posts_where_people/"
+      ],
+      "how_searched": [
+        "Reddit (r/SaaS, r/AppIdeas, r/SideProject)",
+        "community validation"
+      ],
+      "score": 83.0,
+      "found_at": "2026-10-25T16:21:23.053123+00:00"
     },
     {
       "name": "Buyer-intent finder for Reddit / X / HN",
@@ -6192,45 +6230,6 @@
       ],
       "score": 75.0,
       "found_at": "2026-10-18T23:24:38.118427+00:00"
-    },
-    {
-      "name": "AI Sales Agent for SMB Outbound (Real-Time Call Assistant)",
-      "field": "Sales Tech / AI Agents",
-      "summary": "A web-based AI agent that joins sales calls in real-time, listens to the conversation, and provides live answer suggestions, objection handling, and follow-up drafting — learning the rep's voice and style. Targets SMBs who can't afford Gong/Chorus but need call intelligence.",
-      "why_now": "ParakeetAI: $1M MRR in <2 years, 1.5M users, started as interview assistant, now real-time call assistant for sales; Zipchat: $2M ARR, 700K conversations/mo, 10% WoW growth; Geodo (G2 #1 AI sales tool): 89% reply rate, $1.2B pipeline managed; MimikFlow: $500 MRR in 2 weeks, 54% reply rate vs 3-10% industry average. G2: AI Sales Assistant +17 products Fall 2026. Seva research: 17 sales-led AI companies, $60B+ valuation, selling 'move work out of people into AI'.",
-      "monetization": "Per-seat $49-199/mo or usage-based per call/minute. Parakeet: organic short-form content distribution (1B views/mo). Zipchat: ~$0.24/conversation. Geodo: enterprise demo-required pricing. MimikFlow: €197/mo.",
-      "evidence": [
-        "https://www.indiehackers.com/post/tech/from-weekend-project-to-1m-mrr-in-two-years-YRaa1QlGTjaqh0XgzWkc",
-        "https://www.indiehackers.com/post/tech/building-a-2m-arr-product-after-his-8m-arr-product-failed-overnight-UZm68xNgjDZBHH7Mvc54",
-        "https://www.indiehackers.com/post/launching-mimikflow-500-mrr-in-2-weeks-with-the-ai-linkedin-tool-i-built-because-i-hated-every-other-one-nxuQTnDEOGZ0qBzYs9eg",
-        "https://www.linkedin.com/posts/kirill-kasimskiy_ai-sales-led-hypergrowth-benchmark-research-activity-7459993046147993601--02O"
-      ],
-      "how_searched": [
-        "Indie Hackers founder revenue posts (ParakeetAI, Zipchat, MimikFlow)",
-        "G2 Best Software Awards 2026 (Geodo #1)",
-        "LinkedIn research on sales-led AI hypergrowth (Seva/Kirill Kasimskiy)"
-      ],
-      "score": 75.0,
-      "found_at": "2026-10-21T05:12:14.956276+00:00"
-    },
-    {
-      "name": "Bot-Free AI Meeting Note Taker Chrome Extension",
-      "field": "Productivity / Meeting Tools",
-      "summary": "Chrome extension that records Google Meet/Zoom/Teams meetings without a bot joining the call. Generates AI notes, action items, searchable transcripts, and video. Free tier includes 10 meetings/month across all platforms.",
-      "why_now": "Meeting load has 3x'd since 2020. Bot-based notetakers (Otter, Fireflies) are intrusive and capped on free tiers. Scribbl: 60K users, 5.0 rating (3,000 reviews), $13/mo. Bluedot: 80K users, 4.97 rating. Tactiq: 1M users, 4.8 rating. Chrome Web Store is primary distribution — zero paid ads needed.",
-      "monetization": "Freemium: free tier (10 meetings/mo) → $13–$20/mo unlimited. Scribbl: 60K users, $13/mo. Bluedot: 80K users. Tactiq: 1M users.",
-      "evidence": [
-        "https://scribbl.co/post/best-ai-chrome-extensions",
-        "https://chrome-stats.com/d/aeeninnnlhgaojlolnbpljadhbionlal",
-        "https://zplatform.ai/best-ai-tools/ai-chrome-extensions/"
-      ],
-      "how_searched": [
-        "Chrome Web Store rankings",
-        "Product review sites (zPlatform, Scribbl blog)",
-        "Chrome-Stats analytics"
-      ],
-      "score": 75.0,
-      "found_at": "2026-10-21T10:33:19.486187+00:00"
     }
   ]
 }
