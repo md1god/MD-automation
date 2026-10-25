@@ -1,6 +1,27 @@
 {
   "items": [
     {
+      "name": "AlternativeTo",
+      "url": "https://alternativeto.net/",
+      "kind": "directory",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Create account, submit app via submit form with 'alternative to' competitors filled; free submission goes to queue (can take months). Optional $5 priority review.",
+      "rules_and_risks": "Free but long review queue; priority review speeds up (not approval). Must verify email to discourage bots. New listings are nofollow. Community votes affect ranking.",
+      "why_it_works": "Catches high-intent buyers searching for alternatives to incumbents (warm switching traffic).",
+      "evidence": [
+        "https://alternativeto.net/faq/",
+        "https://venturelist.app/guides/saas-directories",
+        "https://ideaproof.io/launch-directories/alternatives/alternativeto"
+      ],
+      "how_searched": [
+        "websearch for 'alternativeTo alternatives directories free listing 2026'",
+        "read directory comparisons"
+      ],
+      "score": 95.0,
+      "found_at": "2026-10-25T06:13:55.318332+00:00"
+    },
+    {
       "name": "Substack",
       "url": "https://substack.com/",
       "kind": "platform",
@@ -21,6 +42,27 @@
       ],
       "score": 92.0,
       "found_at": "2026-10-23T18:31:16.152835+00:00"
+    },
+    {
+      "name": "SaaSHub",
+      "url": "https://www.saashub.com/",
+      "kind": "directory",
+      "requires_account": false,
+      "official_free_api": false,
+      "how_to_use": "Submit via product submission; free listing available. Fill competitor field properly as it affects approval priority and placement.",
+      "rules_and_risks": "Free with optional paid featured listing. Products with more identified competitors approved first.",
+      "why_it_works": "Appears next to competitors on alternatives pages; good for SEO/category discovery.",
+      "evidence": [
+        "https://venturelist.app/guides/saas-directories",
+        "https://www.indieneed.com/blog/free-startup-directories-2026",
+        "https://dupple.com/learn/best-saas-directories-2026"
+      ],
+      "how_searched": [
+        "websearch for SaaS directories",
+        "read comparison guides"
+      ],
+      "score": 92.0,
+      "found_at": "2026-10-25T06:13:57.822602+00:00"
     },
     {
       "name": "Hacker News Show HN launch",
@@ -70,6 +112,27 @@
       "found_at": "2026-10-18T18:34:06.255231+00:00"
     },
     {
+      "name": "Product Hunt",
+      "url": "https://www.producthunt.com/",
+      "kind": "platform",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Prepare for launch day (tagline, demo, rally supporters); submit product for free launch. Focus on coordinated launch within 24h window.",
+      "rules_and_risks": "Free to submit but rewards preparation. Spike traffic, not sustained long-term without follow-up.",
+      "why_it_works": "High-authority launch platform with concentrated traffic spike on launch day.",
+      "evidence": [
+        "https://www.indieneed.com/blog/free-startup-directories-2026",
+        "https://www.position.digital/blog/saas-directories/",
+        "https://lightspeedbolt.com/learn/get-traffic-to-new-website-no-budget"
+      ],
+      "how_searched": [
+        "websearch for launch directories 2026",
+        "read launch guides"
+      ],
+      "score": 89.0,
+      "found_at": "2026-10-25T06:13:58.499132+00:00"
+    },
+    {
       "name": "LinkedIn Newsletters (individual, free)",
       "url": "https://www.linkedin.com/help/linkedin/answer/a522525",
       "kind": "platform",
@@ -113,6 +176,27 @@
       "found_at": "2026-10-18T18:34:06.693481+00:00"
     },
     {
+      "name": "IndexNow (instant URL notification)",
+      "url": "https://www.indexnow.org/",
+      "kind": "search",
+      "requires_account": false,
+      "official_free_api": true,
+      "how_to_use": "Generate API key (8-128 chars), host key file at root as {key}.txt, submit URLs via GET/POST to api.indexnow.org or participating engines. Notify on add/update/delete.",
+      "rules_and_risks": "Free, no account required. Only notifies participating engines (Bing, Yandex, Naver, Seznam, Yep). Google does not use IndexNow. Rate limits apply if abused; only submit changed URLs.",
+      "why_it_works": "Faster discovery/crawling by non-Google engines; simple HTTP API with wide support in plugins/tools.",
+      "evidence": [
+        "https://www.indexnow.org/documentation",
+        "https://www.indexnow.org/faq",
+        "https://www.mlforseo.com/machine-learning-implementation-guides/indexnow-api-python/"
+      ],
+      "how_searched": [
+        "websearch for IndexNow submit URL free API 2026",
+        "read official docs"
+      ],
+      "score": 88.0,
+      "found_at": "2026-10-25T06:13:59.177951+00:00"
+    },
+    {
       "name": "Product Hunt launch (self-hunt, free)",
       "url": "https://www.producthunt.com/launch",
       "kind": "platform",
@@ -134,6 +218,27 @@
       ],
       "score": 86.0,
       "found_at": "2026-10-07T18:25:20.364470+00:00"
+    },
+    {
+      "name": "llms.txt directories (submission)",
+      "url": "https://llmtxt.app/submit",
+      "kind": "directory",
+      "requires_account": false,
+      "official_free_api": false,
+      "how_to_use": "Add /llms.txt to site, submit to directories like llmtxt.app/submit, llmslist.com/submit, directory.llmstxt.cloud/submit (some free, some have paid fast-track). Ensure file is valid and accessible.",
+      "rules_and_risks": "Free listings available on multiple directories; some charge for fast-track. Requires valid llms.txt file. Directories vary in approval/verification.",
+      "why_it_works": "Improves discoverability by AI crawlers/LLMs; directories help index your llms.txt for AI systems.",
+      "evidence": [
+        "https://llmslist.com/submit",
+        "https://directory.llmstxt.cloud/submit",
+        "https://llmsledger.com/"
+      ],
+      "how_searched": [
+        "websearch for llms.txt directories free submission 2026",
+        "read directory sites"
+      ],
+      "score": 85.0,
+      "found_at": "2026-10-25T06:14:01.064343+00:00"
     },
     {
       "name": "Google Search Console: sitemap submission, URL inspection & Search generative-AI inclusion control",
@@ -179,6 +284,48 @@
       "found_at": "2026-10-07T18:25:21.713562+00:00"
     },
     {
+      "name": "Reddit (niche subreddits)",
+      "url": "https://www.reddit.com/",
+      "kind": "community",
+      "requires_account": true,
+      "official_free_api": true,
+      "how_to_use": "Find relevant subs where audience asks questions; contribute value first (answer, share experience), link only when genuinely helpful and allowed by rules. Official Reddit API available for apps but manual participation is the channel.",
+      "rules_and_risks": "Account required (cannot automate account creation). Each subreddit has strict rules - self-promotion often restricted; follow rules or get banned/ignored. No mass-posting/spam.",
+      "why_it_works": "Highly targeted traffic from people actively asking for solutions in specific niches.",
+      "evidence": [
+        "https://www.growmywebsite.com/blog/grow-website-traffic-free",
+        "https://lightspeedbolt.com/learn/get-traffic-to-new-website-no-budget",
+        "https://www.position.digital/blog/saas-directories/"
+      ],
+      "how_searched": [
+        "websearch for free traffic communities 2026",
+        "read community-focused guides"
+      ],
+      "score": 84.0,
+      "found_at": "2026-10-25T06:14:02.654343+00:00"
+    },
+    {
+      "name": "Indie Hackers",
+      "url": "https://www.indiehackers.com/",
+      "kind": "community",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Create profile, post product with story/metrics, participate in discussions. Focus on sharing learnings and journey, not just links.",
+      "rules_and_risks": "Account required. Community values transparency/bootstrapping; overt spammy promotion gets ignored. Product page is secondary to conversation.",
+      "why_it_works": "Engaged community of builders looking for tools/products; good for feedback + targeted traffic.",
+      "evidence": [
+        "https://www.indieneed.com/blog/free-startup-directories-2026",
+        "https://lightspeedbolt.com/learn/get-traffic-to-new-website-no-budget",
+        "https://www.position.digital/blog/saas-directories/"
+      ],
+      "how_searched": [
+        "websearch for free startup communities",
+        "read directory/community lists"
+      ],
+      "score": 83.0,
+      "found_at": "2026-10-25T06:14:03.018544+00:00"
+    },
+    {
       "name": "Pinterest (visual search + pinning)",
       "url": "https://developers.pinterest.com/docs/key-concepts/access-tiers/",
       "kind": "platform",
@@ -199,26 +346,6 @@
       ],
       "score": 82.0,
       "found_at": "2026-10-09T06:45:10.332556+00:00"
-    },
-    {
-      "name": "AlternativeTo",
-      "url": "https://alternativeto.net/",
-      "kind": "directory",
-      "requires_account": true,
-      "official_free_api": false,
-      "how_to_use": "Sign up, verify email, open 'Suggest new application' at the user menu (form at /manage-item/). Fill name, official URL, platforms, license, tags. Critically: name the real competitors your product replaces so you appear on their alternatives pages — that is where most traffic lands. Free; $5 one-time priority review moves you to the front of the months-long free queue.",
-      "rules_and_risks": "No unreleased/private-beta products; no links inside descriptions (use the URL fields); no using your profile to advertise. Submissions sit invisible until approved. English required. Declines are common if the product isn't something people would search 'alternative to X' for.",
-      "why_it_works": "~2.1M monthly visits, DR 80, dofollow official-website link, and it is one of the most-cited sources by ChatGPT/Perplexity/AI Overviews for 'alternative to' queries — an evergreen traffic engine that outlives any launch day.",
-      "evidence": [
-        "https://alternativeto.net/about/",
-        "https://alternativeto.net/faq/",
-        "https://submitmap.com/platform/alternativeto/"
-      ],
-      "how_searched": [
-        "opened About and FAQ pages; cross-checked submission mechanics via third-party audit"
-      ],
-      "score": 82.0,
-      "found_at": "2026-10-20T00:48:01.034613+00:00"
     },
     {
       "name": "HARO (Help a Reporter Out) — free journalist query email digests",
@@ -373,6 +500,27 @@
       ],
       "score": 80.0,
       "found_at": "2026-10-23T18:31:17.269234+00:00"
+    },
+    {
+      "name": "Internal linking + hub-and-spoke (tactic)",
+      "url": "https://www.growmywebsite.com/blog/grow-website-traffic-free",
+      "kind": "tactic",
+      "requires_account": false,
+      "official_free_api": false,
+      "how_to_use": "Create hub page per topic, link to specific spokes and back; use descriptive anchor text. Do consistently as you publish.",
+      "rules_and_risks": "Free, fully in your control. No platform bans possible if done naturally. Requires content planning.",
+      "why_it_works": "Helps search engines discover/index and pass authority; keeps visitors on site. Compounds over time.",
+      "evidence": [
+        "https://www.growmywebsite.com/blog/grow-website-traffic-free",
+        "https://searchengineland.com/guide/organic-traffic",
+        "https://satelo.io/blog/promote-website-for-free/"
+      ],
+      "how_searched": [
+        "websearch for free website traffic tactics 2026",
+        "read SEO/traffic guides"
+      ],
+      "score": 80.0,
+      "found_at": "2026-10-25T06:14:05.492630+00:00"
     },
     {
       "name": "Apple Podcasts catalog + podcast databases (Podchaser, Listen Notes)",
@@ -1055,26 +1203,6 @@
       "found_at": "2026-10-14T18:47:47.278573+00:00"
     },
     {
-      "name": "DevHunt",
-      "url": "https://devhunt.org/",
-      "kind": "platform",
-      "requires_account": true,
-      "official_free_api": false,
-      "how_to_use": "Sign in with GitHub or Google. Submit your dev tool (name, website, description, logo, screenshots). Free listings get a permanent tool page and a launch week from the queue (average wait ~6 months per its About page); paid $19 launch picks a week, gets newsletter + dofollow. Voting needs GitHub/Google login. Launches go live every Tuesday.",
-      "rules_and_risks": "Developer tools only (APIs, SDKs, CLIs, AI agents, MCP servers, etc.). No NSFW or fake-engagement services. Free listings carry rel=nofollow; only paid launches get dofollow. 6-month free queue means it is not a launch-day channel.",
-      "why_it_works": "41,263 signed-up developers, 40,000 newsletter subscribers, 150K page views/month (its own counts), open-source codebase, and GitHub-gated voting that resists manipulation — one of the few remaining genuinely free weekly launch boards for developer tools.",
-      "evidence": [
-        "https://devhunt.org/llms.txt",
-        "https://saascity.io/directories/devhunt",
-        "https://github.com/MarsX-dev/devhunt"
-      ],
-      "how_searched": [
-        "opened DevHunt's own llms.txt agent brief; cross-checked pricing/queue with independent review and source repo"
-      ],
-      "score": 64.0,
-      "found_at": "2026-10-20T00:48:37.470400+00:00"
-    },
-    {
       "name": "Answer-First SEO (Content Clusters)",
       "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide",
       "kind": "tactic",
@@ -1370,6 +1498,26 @@
       "found_at": "2026-10-23T18:31:22.984683+00:00"
     },
     {
+      "name": "SourceForge",
+      "url": "https://sourceforge.net/",
+      "kind": "directory",
+      "requires_account": false,
+      "official_free_api": false,
+      "how_to_use": "Submit business/open-source software for free listing. Useful as high-authority backlink and niche discovery.",
+      "rules_and_risks": "Free listing; interface dated. Audience skews technical. Treat as link equity play.",
+      "why_it_works": "High domain authority (DR ~92) with free dofollow backlink potential; good for developer/B2B tools.",
+      "evidence": [
+        "https://dupple.com/learn/best-saas-directories-2026",
+        "https://www.position.digital/blog/saas-directories/"
+      ],
+      "how_searched": [
+        "websearch for SaaS directories",
+        "read DR-based comparisons"
+      ],
+      "score": 60.0,
+      "found_at": "2026-10-25T06:13:58.020765+00:00"
+    },
+    {
       "name": "Threads API — official free cross-posting to Threads",
       "url": "https://developers.facebook.com/docs/threads/overview/",
       "kind": "platform",
@@ -1410,26 +1558,6 @@
       ],
       "score": 58.0,
       "found_at": "2026-10-10T12:40:08.369957+00:00"
-    },
-    {
-      "name": "Indie Hackers",
-      "url": "https://www.indiehackers.com/products/new",
-      "kind": "community",
-      "requires_account": true,
-      "official_free_api": false,
-      "how_to_use": "Create a founder profile and free product page, publish a transparent launch story, then post weekly milestones and lessons. Answer other founders' threads and keep links in your profile/product page instead of dropping them into every discussion.",
-      "rules_and_risks": "Self-promotion belongs on your product page or in directly relevant threads; link-dropping, fake upvotes, and duplicate accounts get flagged. Account creation is manual and there is no official posting API.",
-      "why_it_works": "Indie Hackers is a founder community with product pages, milestone posts, and a weekly newsletter built from top community posts, giving a new product a direct route to early adopters and other founders.",
-      "evidence": [
-        "https://www.indiehackers.com/about",
-        "https://www.indiehackers.com/products/new"
-      ],
-      "how_searched": [
-        "Opened the Indie Hackers about page to confirm community/newsletter mechanics.",
-        "Opened the add-product flow to verify that product pages require an account."
-      ],
-      "score": 57.3,
-      "found_at": "2026-10-23T18:31:16.627489+00:00"
     },
     {
       "name": "Microsoft Edge Add-ons",
@@ -1574,6 +1702,26 @@
       ],
       "score": 55.0,
       "found_at": "2026-10-15T19:03:15.754423+00:00"
+    },
+    {
+      "name": "DevHunt",
+      "url": "https://devhunt.org/",
+      "kind": "directory",
+      "requires_account": false,
+      "official_free_api": false,
+      "how_to_use": "Submit developer tools/open-source projects for free weekly launch. Good if product has API/CLI/GitHub repo.",
+      "rules_and_risks": "Free listing. Best for technical audience; needs to fit dev tools category.",
+      "why_it_works": "Curated for developers who try tools; weekly cadence provides discovery opportunity.",
+      "evidence": [
+        "https://www.indieneed.com/blog/free-startup-directories-2026",
+        "https://venturelist.app/guides/saas-directories"
+      ],
+      "how_searched": [
+        "websearch for dev tool directories",
+        "read startup directory lists"
+      ],
+      "score": 54.0,
+      "found_at": "2026-10-25T06:14:04.279068+00:00"
     },
     {
       "name": "SmartNews (free publisher distribution via SmartFormat RSS)",
@@ -3620,25 +3768,6 @@
       ],
       "score": 18.7,
       "found_at": "2026-10-10T00:17:36.097591+00:00"
-    },
-    {
-      "name": "SaaSHub",
-      "url": "https://www.saashub.com/submit",
-      "kind": "directory",
-      "requires_account": true,
-      "official_free_api": false,
-      "how_to_use": "Submit and verify your product on SaaSHub, complete the listing, then use its free 110-site submission list to post the product to relevant directories and communities.",
-      "rules_and_risks": "Product must be real and verifiable; fake reviews, duplicate listings, and spam are removed. SaaSHub's own traffic is modest, so the larger value is the maintained submission list rather than the listing alone.",
-      "why_it_works": "SaaSHub offers a free product-promotion tool and a maintained list of 110 directories/communities, which can bootstrap a consistent directory-submission campaign.",
-      "evidence": [
-        "https://www.saashub.com/submit"
-      ],
-      "how_searched": [
-        "Opened the SaaSHub submit page and confirmed the free tool and 110-site list.",
-        "Checked the submission/verification requirements."
-      ],
-      "score": 18.7,
-      "found_at": "2026-10-23T18:31:23.153992+00:00"
     },
     {
       "name": "Crunchbase free company profile",
