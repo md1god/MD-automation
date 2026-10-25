@@ -1,6 +1,25 @@
 {
   "items": [
     {
+      "name": "Tally (no-code form builder)",
+      "field": "Forms / no-code",
+      "summary": "Bootstrapped form builder with a generous free tier; 2.5M users and $6M ARR from subscriptions.",
+      "why_now": "Crossed $6M ARR with a 10-person team; 43% of new users now arrive via AI search and Tally AI handled 1M+ calls in a month.",
+      "monetization": "Freemium subscriptions; $501k MRR ($6M ARR) reported Sept 2026.",
+      "evidence": [
+        "https://blog.tally.so/6-years-in-6-million-far/",
+        "https://www.indiehackers.com/post/6-years-in-6-million-far-Zf0kp5NGfnrdWefXXFBv",
+        "https://www.arr.club/signal/tally-surpasses-6m-arr-with-a-team-of-just-10-people-bootstrapped"
+      ],
+      "how_searched": [
+        "Indie Hackers revenue story",
+        "Open startup blog",
+        "ARR Club signal"
+      ],
+      "score": 96.0,
+      "found_at": "2026-10-25T22:58:02.353590+00:00"
+    },
+    {
       "name": "Tsenta",
       "field": "recruiting/hr-tech",
       "summary": "AI career agent that finds jobs matching a profile and automatically applies across ATS platforms (Workday, Greenhouse, Lever, Ashby), handling account creation, forms, and OTPs.",
@@ -592,6 +611,25 @@
       ],
       "score": 92.0,
       "found_at": "2026-10-25T19:45:13.002537+00:00"
+    },
+    {
+      "name": "Zigpoll (ecommerce survey widget)",
+      "field": "Surveys / customer feedback",
+      "summary": "Embeddable micro-survey and feedback widget for Shopify and SaaS merchants.",
+      "why_now": "Reached $141k MRR in Aug 2026 with 2,500+ customers and ~44% H1 growth; solo founder.",
+      "monetization": "Subscriptions; $141k MRR / $1.7M annual run rate; 50%-lifetime affiliate program.",
+      "evidence": [
+        "https://www.linkedin.com/posts/jason-zigelbaum_august-pushed-zigpoll-past-141000-in-monthly-activity-7500545550866440193-hdBi",
+        "https://www.indiehackers.com/post/tech/hitting-125k-mrr-as-a-solo-founder-by-doubling-down-on-the-right-segment-c4o2Tfs6mjdpip5yZhaO",
+        "https://www.systemaic.com/teardowns/zigpoll"
+      ],
+      "how_searched": [
+        "LinkedIn founder revenue post",
+        "Indie Hackers case study",
+        "Systemaic teardown"
+      ],
+      "score": 92.0,
+      "found_at": "2026-10-25T22:58:03.240600+00:00"
     },
     {
       "name": "Specreel",
@@ -1987,6 +2025,25 @@
       ],
       "score": 86.0,
       "found_at": "2026-10-25T19:45:16.503981+00:00"
+    },
+    {
+      "name": "Vid.AI (faceless video generator)",
+      "field": "AI video content",
+      "summary": "Turns a topic or script into faceless YouTube/Shorts/TikTok videos with AI voiceover and visuals.",
+      "why_now": "TrustMRR verifies $46.8k MRR and $1.65M all-time; founder reports ~$65k MRR and $47k domain purchase.",
+      "monetization": "Subscriptions $39-$199/mo plus credits; ~$46.8k MRR, ~100k users.",
+      "evidence": [
+        "https://trustmrr.com/startup/vidai-llc",
+        "https://www.linkedin.com/posts/priyamraj_2-years-ago-i-partnered-with-a-creator-matt-activity-7485424859032989696-1ybl",
+        "https://www.systemaic.com/teardowns/vidai-llc"
+      ],
+      "how_searched": [
+        "TrustMRR verified revenue",
+        "LinkedIn founder post",
+        "Systemaic teardown"
+      ],
+      "score": 86.0,
+      "found_at": "2026-10-25T22:58:04.882269+00:00"
     },
     {
       "name": "Short-Form Video Intelligence & Analytics",
@@ -5295,6 +5352,25 @@
       "found_at": "2026-10-25T01:29:28.880350+00:00"
     },
     {
+      "name": "OpenSEO (open-source Semrush alternative)",
+      "field": "SEO tools",
+      "summary": "Open-source SEO platform for keyword research, backlinks, rank tracking, site audits and AI visibility, with MCP support.",
+      "why_now": "Product Hunt #3 in July 2026 with 935 points; grew to 20k+ GitHub stars; hosted plan $10/mo with 28% data markup.",
+      "monetization": "Hosted subscription $10/mo with 28% markup on DataForSEO usage; self-host option free.",
+      "evidence": [
+        "https://www.producthunt.com/products/openseo",
+        "https://stealwhatworks.com/blogs/news/product-hunt-best-launches-2026",
+        "https://ryandoser.com/openseo-review/"
+      ],
+      "how_searched": [
+        "Product Hunt monthly ranking",
+        "Launch analysis article",
+        "Independent pricing review"
+      ],
+      "score": 78.0,
+      "found_at": "2026-10-25T22:58:06.436613+00:00"
+    },
+    {
       "name": "Browser Extension AI Productivity Tools",
       "field": "Consumer / Productivity",
       "summary": "Chrome/Firefox/Edge extensions that bring AI into the browser — sidebar chat, page summarization, writing assistance, workflow automation, content extraction — with freemium subscriptions.",
@@ -6144,88 +6220,6 @@
       ],
       "score": 75.0,
       "found_at": "2026-10-08T03:07:43.568964+00:00"
-    },
-    {
-      "name": "AI phone-receptionist / missed-call recovery web tool",
-      "field": "SMB voice AI / front desk",
-      "summary": "A web-based assistant that answers or texts back missed business calls, books appointments and captures leads. The rebuildable free angle is an instant missed-call ROI calculator plus a browser-based answering agent.",
-      "why_now": "2026 data is emphatic: 62% of small-business calls go unanswered and 85% of missed callers never call back; the virtual-receptionist market hit $4.64B in 2026 while voice AI agents grow at 34.8% CAGR toward $47.5B by 2034; a separate 1.4M-call analysis found avg missed-call cost ~$450. Healthcare adoption jumped to ~38% of practices (from ~12% in 2023).",
-      "monetization": "Monthly subscriptions ($49-$569/mo typical; one vendor $147/mo + $0.25/min) versus $30K-$60K/yr for a human receptionist. A free calculator/web agent funnels into paid call volumes.",
-      "evidence": [
-        "https://ai-answering-review.com/industry-report/",
-        "https://getsawy.com/statistics/ai-receptionist-statistics",
-        "https://revsquared.ai/blog/ai-receptionist-industry-report-2026",
-        "https://www.sci-tech-today.com/stats/ai-receptionist-statistics/"
-      ],
-      "how_searched": [
-        "industry reports",
-        "statistics aggregators",
-        "vendor research blogs",
-        "web search"
-      ],
-      "score": 75.0,
-      "found_at": "2026-10-08T23:25:30.248948+00:00"
-    },
-    {
-      "name": "AI-native agent browser",
-      "field": "AI-native browsers / agent tooling",
-      "summary": "A browser where AI coding agents work beside you: press a hotkey on any page and it becomes a task for your Claude Code/Codex agent, which works in its own tabs while you keep browsing. Rill Browser launched Oct 6 and hit #7 on Product Hunt's October monthly board.",
-      "why_now": "Rill reached #7 on Product Hunt's October monthly leaderboard (454 upvotes, 65 comments) within days of its Oct 6 launch; AI-native browsers reached ~38M monthly active users in Q1 2026, growing 280% YoY (Presenc AI); Atlassian acquired The Browser Company (Dia) for $610M; ChatGPT Atlas was deprecated Aug 9, 2026, showing how fast this category reshuffles.",
-      "monetization": "Free browser monetized via existing agent plans and upsells: Dia Pro $20/mo and Better Days $100/mo; Perplexity Comet free with Pro $20/mo and Max $200/mo. Rill is free and runs on the user's existing Claude Code/Codex plan.",
-      "evidence": [
-        "https://www.producthunt.com/leaderboard/monthly/2026/10",
-        "https://rill.love/",
-        "https://presenc.ai/research/browser-ai-agents-brand-visibility-2026",
-        "https://tech-insider.org/chatgpt-atlas-vs-comet-vs-dia-ai-browser-2026/",
-        "https://fortune.com/2025/10/22/ai-browser-wars-agents-google-perplexity-opera-comet-neon-gemini/"
-      ],
-      "how_searched": [
-        "launch leaderboard (Product Hunt monthly)",
-        "product site (rill.love)",
-        "market research (Presenc AI)",
-        "review/aggregator (ChatGate, Tabbit, TechRepublic)",
-        "news (Fortune)"
-      ],
-      "score": 75.0,
-      "found_at": "2026-10-10T06:18:10.865890+00:00"
-    },
-    {
-      "name": "AI practice OS for solo therapists and clinics (Klarify)",
-      "field": "Health-tech / vertical AI (behavioral health)",
-      "summary": "Provider-facing AI assistant that drafts clinical notes, treatment plans, clinical letters and insurance claims for therapists and runs client-acquisition content — explicitly not a patient chatbot.",
-      "why_now": "Y Combinator Spring 2026 company Klarify grew from ~6,000 to ~11,000–12,300 therapists in a few months; roughly 11 hours/week of unpaid documentation costs about $71,500 per clinician per year, and the platform estimates a $22B operational economy (>$50B at maturity). The winning lane is a single professional workflow end-to-end rather than a consumer chatbot.",
-      "monetization": "Freemium with paid plans from ~$49 per therapist per month (free 'Seed' tier); raised $500K from YC plus an undisclosed follow-on.",
-      "evidence": [
-        "https://www.ycombinator.com/companies/klarify",
-        "https://torontoguardian.com/2026/09/toronto-business-klarify/",
-        "https://zerogtalent.com/blog/the-ai-therapy-notes-gold-rush-how-documentation-automation-is-rewiring-mental-health-and-the-compliance-gauntlet-that-follows"
-      ],
-      "how_searched": [
-        "Y Combinator company directory",
-        "local business press interview",
-        "industry-analysis blog"
-      ],
-      "score": 75.0,
-      "found_at": "2026-10-13T10:42:28.347873+00:00"
-    },
-    {
-      "name": "Server-side tracking & Conversion API auditor for online stores",
-      "field": "E-commerce marketing analytics / ad-tech",
-      "summary": "A free audit tool that detects which browser-side e-commerce events (purchase, add-to-cart) a store is losing to privacy restrictions, then upgrades users to server-side tracking that feeds ad platforms directly.",
-      "why_now": "AxiTrace reports 115.5M+ events tracked with 99.9% delivery to 9 ad platforms including OpenAI Ads, and illustrates a store showing 20 real orders while the browser pixel saw only 14; Superspeed markets the same 'lost revenue' angle from $29/mo. StoreCensus shows analytics/attribution apps surging (Triple Whale Analytics +636.2% over 90 days).",
-      "monetization": "Tiered SaaS: AxiTrace Free (10k visits) -> Pro $119/mo -> Business $349/mo; Superspeed from $29/mo; agency/affiliate recurring.",
-      "evidence": [
-        "https://axitrace.com/",
-        "https://superspeedapp.com/",
-        "https://storecensus.com/stats/fastest-growing-shopify-apps"
-      ],
-      "how_searched": [
-        "vendor/pricing pages",
-        "app-store install analytics (StoreCensus)",
-        "free-tool landing pages"
-      ],
-      "score": 75.0,
-      "found_at": "2026-10-14T02:06:35.946522+00:00"
     }
   ]
 }
