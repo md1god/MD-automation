@@ -1322,6 +1322,25 @@
       "found_at": "2026-10-24T23:30:18.704033+00:00"
     },
     {
+      "name": "AI Code Documentation Generator",
+      "field": "Developer Tools",
+      "summary": "A free web tool that auto-generates and maintains code documentation (README, API docs, architecture diagrams) from any GitHub repo using LLMs, with live sync on every push.",
+      "why_now": "Documentation is developers' #1 pain point (Stack Overflow 2024 survey). Qodo reports catching 5 bugs/dev/month via docs+tests. GitHub trending shows AutoGen (167K★), GPT-Engineer (52K★), OpenHands (74K★) all building doc-aware agents. Stripe AI economy: dev tools hit $1M ARR in 5 months median.",
+      "monetization": "Freemium: free for public repos; $15-30/mo for private repos, team features, custom templates. CodeRabbit $15M ARR proves devs pay for PR-integrated AI.",
+      "evidence": [
+        "https://github.com/trending",
+        "https://www.sacra.com/research/cursor-at-65m-arr/",
+        "https://trends.vc/opportunities/ai-code-review-tools"
+      ],
+      "how_searched": [
+        "GitHub Trending (star growth)",
+        "Stripe AI Economy Report (revenue benchmarks)",
+        "Trends.vc Market Analysis (revenue data)"
+      ],
+      "score": 88.0,
+      "found_at": "2026-10-25T01:29:16.067658+00:00"
+    },
+    {
       "name": "Retro digicam / film-camera filter web app (Y2K & CCD look)",
       "field": "Consumer photo / creator tools",
       "summary": "A browser tool that turns any photo or video into the grainy, flash-heavy, early-2000s 'digicam/CCD' look using preset film stocks, light leaks, date stamps and scans — no app install.",
@@ -2260,6 +2279,25 @@
       "found_at": "2026-10-24T23:30:21.486308+00:00"
     },
     {
+      "name": "AI Resume Builder & ATS Optimizer",
+      "field": "Career / HR Tech",
+      "summary": "Free web tool that tailors resumes to specific job descriptions, scores ATS compatibility, and generates tailored cover letters — all from a single upload + target role.",
+      "why_now": "Auto_Jobs_Applier_AIHawk hit 17K★ on GitHub (+249★/day) automating job apps. ResumeUp.AI on AppSumo (43 reviews). Reddit r/Entrepreneur threads show 'finding right talent' and 'job search' as top pains. LinkedIn AI Writing tools trending.",
+      "monetization": "Free core builder; $9-19/mo for unlimited tailoring, ATS scoring, cover letters, interview prep. Top education products on Gumroad sell at $79-149 (CreatorOS $216K in 7mo).",
+      "evidence": [
+        "https://github.com/feder-cr/Auto_Jobs_Applier_AIHawk",
+        "https://appsumo.com/",
+        "https://www.reddit.com/r/Entrepreneur/comments/1fnedxh/"
+      ],
+      "how_searched": [
+        "GitHub Trending (star velocity)",
+        "AppSumo Marketplace (reviews/revenue)",
+        "Reddit Pain Point Analysis"
+      ],
+      "score": 85.0,
+      "found_at": "2026-10-25T01:29:17.157967+00:00"
+    },
+    {
       "name": "AI Video Generation & Editing for Short-Form",
       "field": "Creator Economy / AI Media",
       "summary": "Tools that generate or edit short-form videos (Reels, TikToks, Shorts) from text, audio, or long-form source — auto-clipping, captioning, reframing, hook detection, and multi-platform publishing.",
@@ -2943,6 +2981,25 @@
       "found_at": "2026-10-24T06:11:30.203971+00:00"
     },
     {
+      "name": "Vertical Micro-SaaS for Overlooked Niches (Laundromats/Chiropractors/Vets)",
+      "field": "Vertical SaaS",
+      "summary": "Free web tools targeting one specific niche: e.g., 'Laundromat Machine Monitor' (QR code on machines → SMS alerts when cycle done), 'Chiro Patient Flow' (auto-recall, insurance verify), 'Vet Vaccine Tracker' (pet owner reminders + clinic dashboard).",
+      "why_now": "a16z analyzed 620 NAICS codes: laundromats $2.7B labor, chiropractors $4.5B, vets $13.8B. PYMNTS: AI makes these viable (10x LTV). Tidemark: 31% vertical SaaS have AI product, 39% launching.",
+      "monetization": "Free tool as lead gen for paid vertical SaaS ($49-199/mo). Or free tool + marketplace (parts, supplies, services) taking 5-10% transaction fee. ServiceTitan/Jobber prove $100M+ ARR.",
+      "evidence": [
+        "https://a16z.com/vsaas-vertical-saas-ai-opens-new-markets/",
+        "https://www.pymnts.com/news/artificial-intelligence/2024/ai-opens-gold-rush-niche-business-software-markets/",
+        "https://tidemarkcap.com/post/2024-vertical-smb-saas-benchmark-report/"
+      ],
+      "how_searched": [
+        "a16z Market Analysis (NAICS data)",
+        "PYMNTS Industry Report",
+        "Tidemark Benchmark Report (250 operators)"
+      ],
+      "score": 83.0,
+      "found_at": "2026-10-25T01:29:33.133076+00:00"
+    },
+    {
       "name": "Buyer-intent finder for Reddit / X / HN",
       "field": "Lead generation & market research",
       "summary": "A free tool that scans Reddit, X and Hacker News for posts where people are actively asking for a solution ('am I looking for a tool that...', 'mailchimp alternative'), scores buying intent and shows the best threads in a ranked digest.",
@@ -3491,6 +3548,25 @@
       ],
       "score": 82.0,
       "found_at": "2026-10-24T23:30:27.259869+00:00"
+    },
+    {
+      "name": "AI Video Clip Generator from Long-Form",
+      "field": "Creator Tools",
+      "summary": "Free web tool: drop a 10-60 min video, get 5-15 viral-ready vertical clips (TikTok/Reels/Shorts) with auto-captions, reframing, and hook detection.",
+      "why_now": "JoggAI 636 upvotes Product Hunt Oct 2024. MoneyPrinterTurbo 16.4K★ GitHub (+76/day). FujiwaraChoki/MoneyPrinter 10K★. Video SDK 3.0 1,107 upvotes. OpusClip/Descript commercial validation.",
+      "monetization": "Free tier: 10 clips/mo, watermark. Pro $19-29/mo: 100 clips, 4K, no watermark, brand kit, direct publish. Gumroad video presets (Essential Motion 2.0) did $1.8M.",
+      "evidence": [
+        "https://www.producthunt.com/leaderboard/monthly/2024/10",
+        "https://github.com/harry0703/MoneyPrinterTurbo",
+        "https://profitable.app/gumroad"
+      ],
+      "how_searched": [
+        "Product Hunt Leaderboard (upvotes)",
+        "GitHub Trending (star growth)",
+        "Gumroad Sales Tracker (revenue)"
+      ],
+      "score": 82.0,
+      "found_at": "2026-10-25T01:29:18.776750+00:00"
     },
     {
       "name": "AI SDR & Autonomous Sales Agents",
@@ -4224,6 +4300,25 @@
       "found_at": "2026-10-24T06:11:32.295633+00:00"
     },
     {
+      "name": "AI Cold Email Personalization Engine",
+      "field": "Sales / Marketing",
+      "summary": "Free web tool that researches a prospect (LinkedIn, website, news), writes a hyper-personalized cold email, and predicts reply rate — one click from a CSV upload.",
+      "why_now": "pipl.ai 2.0 launched Product Hunt Oct 2024. FullEnrich 2.0 798 upvotes (waterfall enrichment 15 vendors). Generect 466 upvotes (97.5% deliverability). Reoon Email Verifier 485 reviews AppSumo.",
+      "monetization": "Free: 50 emails/mo. Pro $29-49/mo: unlimited, A/B testing, CRM sync, deliverability monitoring. Instantly.ai/Smartlead show $10M+ ARR in this category.",
+      "evidence": [
+        "https://www.producthunt.com/leaderboard/daily/2024/10/10",
+        "https://appsumo.com/",
+        "https://www.indiehackers.com/post/this-week-in-micro-saas-chrome-extension-making-9k-mrr-and-more-ce34f97ab7"
+      ],
+      "how_searched": [
+        "Product Hunt Launches (upvotes/comments)",
+        "AppSumo Reviews (customer validation)",
+        "Indie Hackers Revenue Reports"
+      ],
+      "score": 80.0,
+      "found_at": "2026-10-25T01:29:19.781262+00:00"
+    },
+    {
       "name": "Embeddable AI Agent / Copilot for SaaS",
       "field": "DevTools / SaaS Infrastructure",
       "summary": "Drop-in AI agent (one line of code) that lets end-users control any SaaS via natural language — turning clicks into conversations, with scoped permissions, audit logs, and model-agnostic deployment.",
@@ -4407,6 +4502,25 @@
       ],
       "score": 79.0,
       "found_at": "2026-10-21T19:34:17.531099+00:00"
+    },
+    {
+      "name": "AI Web Scraper / Structured Data Extractor",
+      "field": "Data / Developer Tools",
+      "summary": "Free web tool: enter any URL or list of URLs, get clean JSON/CSV of extracted data (products, prices, reviews, articles) — handles pagination, login, JS rendering, anti-bot.",
+      "why_now": "Crawl4AI 12.9K★ (+83/day). Firecrawl 123K★. ScrapegraphAI 14.8K★. Skyvern 5.9K★. browser-use 95K★. Bright Data/Apify commercial validation ($100M+ ARR).",
+      "monetization": "Free: 100 pages/mo. Pro $29-99/mo: 10K pages, scheduling, webhooks, proxy rotation, dedicated support. ScraperAPI/Apify charge $49-499/mo.",
+      "evidence": [
+        "https://github.com/unclecode/crawl4ai",
+        "https://github.com/Skyvern-AI/skyvern",
+        "https://github.com/browser-use/browser-use"
+      ],
+      "how_searched": [
+        "GitHub Trending (star velocity)",
+        "GitHub Star Rankings (yearly movers)",
+        "Commercial Competitor Validation"
+      ],
+      "score": 79.0,
+      "found_at": "2026-10-25T01:29:26.333013+00:00"
     },
     {
       "name": "Voice-agent QA & live-call benchmark platform",
@@ -4887,6 +5001,44 @@
       "found_at": "2026-10-24T23:30:34.910180+00:00"
     },
     {
+      "name": "AI Affiliate Program Manager",
+      "field": "E-commerce / Marketing",
+      "summary": "Free web tool to launch and run an affiliate program in minutes: auto-generate signup pages, tracking links, payout rules, and fraud detection — no code, integrates with Stripe/Paddle.",
+      "why_now": "Push Lap Growth on AppSumo (38 reviews, 'launch affiliate program in 10 minutes'). Gumroad top sellers (CreatorOS, Easlo) rely on affiliates. Stripe AI economy: usage-based billing growing. Creator economy $250B+ market.",
+      "monetization": "Free up to 50 affiliates. $29-79/mo for unlimited, white-label, custom commissions, fraud protection. FirstPromoter/ReferralCandy charge $49-149/mo.",
+      "evidence": [
+        "https://appsumo.com/collections/sumo-day/",
+        "https://profitable.app/gumroad",
+        "https://go.stripe.global/rs/072-MDK-283/images/Indexing_the_AI_economy_EN-GB.pdf"
+      ],
+      "how_searched": [
+        "AppSumo New Deals (reviews)",
+        "Gumroad Best Sellers (affiliate usage)",
+        "Stripe AI Economy Report (billing trends)"
+      ],
+      "score": 78.0,
+      "found_at": "2026-10-25T01:29:22.983761+00:00"
+    },
+    {
+      "name": "AI OCR & Document Understanding (Receipts/Invoices/Forms)",
+      "field": "Finance / Productivity",
+      "summary": "Free web tool: drag-drop any PDF/image (receipt, invoice, form, ID), get structured JSON + searchable PDF + spreadsheet export — 90+ languages, table detection, key-value extraction.",
+      "why_now": "GOT-OCR2.0 5.1K★ (+130/day). Surya 10.2K★ (+37/day). Marker 16.9K★ (+49/day). PaddleOCR 43K★. Umi-OCR 26K★. Veryfi/Nanonets commercial success. SparkReceipt 4.6M receipts processed.",
+      "monetization": "Free: 50 pages/mo. Pro $15-29/mo: 1000 pages, batch, API, webhooks, custom fields. Mindee/Affordable OCR APIs charge $0.01-0.05/page.",
+      "evidence": [
+        "https://github.com/Ucas-HaoranWei/GOT-OCR2.0",
+        "https://github.com/VikParuchuri/surya",
+        "https://sparkreceipt.com/"
+      ],
+      "how_searched": [
+        "GitHub Trending (daily star growth)",
+        "Commercial SaaS Metrics (SparkReceipt)",
+        "OCR Market Validation"
+      ],
+      "score": 78.0,
+      "found_at": "2026-10-25T01:29:28.880350+00:00"
+    },
+    {
       "name": "Browser Extension AI Productivity Tools",
       "field": "Consumer / Productivity",
       "summary": "Chrome/Firefox/Edge extensions that bring AI into the browser — sidebar chat, page summarization, writing assistance, workflow automation, content extraction — with freemium subscriptions.",
@@ -5089,6 +5241,44 @@
       ],
       "score": 77.0,
       "found_at": "2026-10-23T13:34:51.862964+00:00"
+    },
+    {
+      "name": "AI Brand Positioning & Marketing Audit",
+      "field": "Marketing / Strategy",
+      "summary": "Free web tool: enter a URL, get an instant brand audit — positioning clarity, messaging gaps, competitor differentiation, SEO/content gaps, and a prioritized fix list.",
+      "why_now": "Branding5 on AppSumo (7 reviews, 'define brand positioning and audit marketing'). Averi 494 upvotes Product Hunt ('AI Marketing Manager'). Highperformr 687 upvotes. buzzabout 1,237 upvotes (1B discussions analyzed).",
+      "monetization": "Free audit. $49-99/mo for ongoing monitoring, competitor alerts, content briefs, team workspace. NeuronWriter 722 reviews AppSumo ($89 LTD) proves SEO content tool demand.",
+      "evidence": [
+        "https://appsumo.com/",
+        "https://www.producthunt.com/leaderboard/monthly/2024/10",
+        "https://grow.seedroc.com/hottest-appsumo-customer-favorites-2024/"
+      ],
+      "how_searched": [
+        "AppSumo Marketplace (deal performance)",
+        "Product Hunt Leaderboard (upvotes)",
+        "AppSumo Tools of Year 2024 (curation)"
+      ],
+      "score": 77.0,
+      "found_at": "2026-10-25T01:29:23.739977+00:00"
+    },
+    {
+      "name": "AI Interview Coach & Copilot",
+      "field": "Career / EdTech",
+      "summary": "Free web tool: paste job description + your resume, get predicted questions, STAR-method answer coaching, live mock interview with AI interviewer, and personalized feedback report.",
+      "why_now": "JobJump 225 score Product Hunt Oct 2024 ('AI Copilot for video interviews'). Auto_Jobs_Applier_AIHawk 17K★ GitHub. Reddit: 'dying for way to automate finding contacts and sending emails' + interview prep. Hiring.studio 210 upvotes Product Hunt.",
+      "monetization": "Free: 3 mock interviews/mo. Pro $15-29/mo: unlimited, industry-specific question banks, video recording, shareable reports. Interviewing.io/Pramp show B2B traction.",
+      "evidence": [
+        "https://www.producthunt.com/leaderboard/daily/2024/10/10",
+        "https://github.com/feder-cr/Auto_Jobs_Applier_AIHawk",
+        "https://www.reddit.com/r/Entrepreneur/comments/1fnedxh/"
+      ],
+      "how_searched": [
+        "Product Hunt Daily Leaderboard",
+        "GitHub Trending (star growth)",
+        "Reddit Pain Point Analysis"
+      ],
+      "score": 77.0,
+      "found_at": "2026-10-25T01:29:34.456695+00:00"
     },
     {
       "name": "AI Content Repurposing (Long-Form → Short-Form)",
@@ -5598,6 +5788,44 @@
       "found_at": "2026-10-23T22:22:22.233802+00:00"
     },
     {
+      "name": "AI API Documentation & Testing Playground",
+      "field": "Developer Tools",
+      "summary": "Free web tool: paste an OpenAPI/Swagger spec or GraphQL schema, get interactive docs, auto-generated SDK snippets, mock server, and contract testing — all in one browser tab.",
+      "why_now": "Treblle 3.0 584 upvotes Product Hunt Oct 2024 ('Build, ship, govern APIs'). Nango Auth 599 upvotes ('Free OAuth for 250+ APIs'). APIPark 735 upvotes ('Open source AI gateway'). Postman alternatives trending on GitHub.",
+      "monetization": "Free for public APIs. $19-49/mo for private specs, team workspaces, contract testing CI/CD, analytics. Postman valued $5.6B; Stoplight/Redocly show strong SaaS metrics.",
+      "evidence": [
+        "https://www.producthunt.com/leaderboard/weekly/2024/43",
+        "https://github.com/trending",
+        "https://hunted.space/top-products/2024/October"
+      ],
+      "how_searched": [
+        "Product Hunt Weekly Leaderboard",
+        "GitHub Trending (API tools)",
+        "Hunted.space Rankings"
+      ],
+      "score": 76.0,
+      "found_at": "2026-10-25T01:29:24.812936+00:00"
+    },
+    {
+      "name": "AI Contract Review & Redline Assistant",
+      "field": "Legal Tech",
+      "summary": "Free web tool: upload a contract (PDF/DOCX), get instant risk highlights (liability, IP, termination, auto-renew), plain-English explanations, and suggested redlines — optimized for non-lawyers.",
+      "why_now": "Ironclad/ContractPodAI raised $100M+. GPT-4 passes bar exam (90th percentile). Legal tech AI funding surged 2024. No free web tool exists for SMB contract review. Reddit: 'legal review too expensive for small deals'.",
+      "monetization": "Free: 3 contracts/mo. Pro $29-79/mo: unlimited, playbook customization, clause library, team review, e-sign integration. Lawgeex/Spellbook charge $100-500/mo.",
+      "evidence": [
+        "https://www.cbinsights.com/esp/enterprise-tech/enterprise-applications/customizable-ai-agents",
+        "https://www.reddit.com/r/Entrepreneur/comments/1ap9flc/",
+        "https://a16z.com/vsaas-vertical-saas-ai-opens-new-markets/"
+      ],
+      "how_searched": [
+        "CB Insights Market Map",
+        "Reddit Pain Point Threads",
+        "a16z Vertical SaaS Analysis"
+      ],
+      "score": 76.0,
+      "found_at": "2026-10-25T01:29:34.088801+00:00"
+    },
+    {
       "name": "Invoice & AP Automation (AI-First)",
       "field": "Fintech / B2B SaaS",
       "summary": "End-to-end invoice processing: email/file intake → AI extraction (line items, PO matching) → validation → ERP/accounting sync → approval workflow → payment — with KPI dashboards (cost/invoice, cycle time, touchless rate).",
@@ -5973,6 +6201,25 @@
       "found_at": "2026-10-24T23:30:39.618440+00:00"
     },
     {
+      "name": "AI Knowledge Graph / GraphRAG Builder",
+      "field": "Data / AI Infrastructure",
+      "summary": "Free web tool: upload docs (PDF, MD, TXT), auto-build a knowledge graph (entities, relationships), query it in natural language, visualize the graph, export as GraphRAG-ready format.",
+      "why_now": "Microsoft GraphRAG 18K★ (+90/day). LightRAG 35K★. Graphiti 26K★. Exploding Topics: 'RAG with Graph' top theme 2024. Stripe AI economy: vertical specialization rising.",
+      "monetization": "Free: 10 docs, 100 queries/mo. Pro $49-149/mo: unlimited, graph visualization, API, team, custom schema. Enterprise RAG tools (Glean $165M Series D) validate.",
+      "evidence": [
+        "https://github.com/microsoft/graphrag",
+        "https://github.com/HKUDS/LightRAG",
+        "https://explodingtopics.com/blog/saas-trends"
+      ],
+      "how_searched": [
+        "GitHub Trending (star velocity)",
+        "Exploding Topics (trend classification)",
+        "Stripe AI Economy Report (vertical AI)"
+      ],
+      "score": 75.0,
+      "found_at": "2026-10-25T01:29:30.330197+00:00"
+    },
+    {
       "name": "Chat-first personal AI assistant (web app)",
       "field": "Consumer AI / personal agents",
       "summary": "A free web tool where users text or type tasks (research, organise, shop/reserve, schedule) to a personal agent that does them end-to-end in the browser.",
@@ -5992,262 +6239,6 @@
       ],
       "score": 74.0,
       "found_at": "2026-10-07T23:12:52.157584+00:00"
-    },
-    {
-      "name": "Event invite, RSVP & date-poll page builder",
-      "field": "Consumer social / events",
-      "summary": "Free browser tool that turns a few clicks into a shareable invite page: RSVP, group chat, guest list, date polls and an optional paid-ticket link — the Partiful-style flow without requiring an app install, built as an original product.",
-      "why_now": "Partiful's search volume is up 99x+ on Exploding Topics and it now draws roughly 30.2M monthly visits (+13.9% over 3 months per Systemaic's teardown); on 02 Jun 2026 it launched ticketing as its first-ever monetization, proving hosts will pay inside the invite flow while demand for a free, open alternative keeps rising.",
-      "monetization": "Transaction fee on paid events (Partiful's own first revenue move), premium invite themes/designs, custom domains and promoted event placement.",
-      "evidence": [
-        "https://explodingtopics.com/blog/trending-topics",
-        "https://www.systemaic.com/teardowns/partiful",
-        "https://www.tbpndigest.com/story/2026-06-02/partiful-launches-ticketing-as-its-first-monetization-move-targeting-supper-clubs-concerts-and-community-events"
-      ],
-      "how_searched": "Looked up viral consumer event apps in Exploding Topics, opened an independent traffic teardown of Partiful, then read contemporaneous coverage of its ticketing launch to confirm monetization.",
-      "score": 74.0,
-      "found_at": "2026-10-08T10:47:41.787327+00:00"
-    },
-    {
-      "name": "Website-to-Code / Design-Token Extractor (MiroMiro-model)",
-      "field": "Developer tools / design engineering",
-      "summary": "A free web tool that inspects any live URL and exports its UI as clean Tailwind/HTML/React/Vue, plus images, SVGs, fonts, colors and design tokens, ready to paste into an AI coding tool.",
-      "why_now": "MiroMiro hit Product of the Day #2 on Product Hunt and reports 20,000+ developers with a pay-once (EUR 69) / EUR 9-mo model; the 'AI sites don't give usable code' pain is widely voiced. Design-to-code is a durable developer need feeding the vibe-coding boom.",
-      "monetization": "Free inspection/downloads + paid one-time lifetime license for full code/token export and API/MCP access; affiliate and AppSumo-style lifetime deals.",
-      "evidence": [
-        "https://miromiro.app/compare-plans",
-        "https://www.producthunt.com/products/miromiro",
-        "https://siteprint.app/"
-      ],
-      "how_searched": [
-        "Source kind: vendor pricing/landing page (MiroMiro)",
-        "Source kind: launch/review community (Product Hunt)",
-        "Source kind: competing vendor site (Siteprint)"
-      ],
-      "score": 74.0,
-      "found_at": "2026-10-09T19:36:09.631138+00:00"
-    },
-    {
-      "name": "Codebase knowledge-graph engine for AI coding agents",
-      "field": "Developer tooling / code intelligence",
-      "summary": "Turns any codebase (plus docs, SQL schemas, PDFs) into a queryable knowledge graph that coding agents query instead of grepping files — local AST parsing, every edge explained, no vector store, ~60–71% fewer tokens per query.",
-      "why_now": "Graphify went from 63.2K GitHub stars (June 8) to 89,379 (July 17) to 107,831 stars and 10,473 forks (Oct 9); Y Combinator lists 116K+ stars and 6.5M+ PyPI downloads in about five months, 'one of the top five open-source projects ever from a YC company,' used in production at Shopify, Datadog, JP Morgan, American Express, Harvey, Automation Anywhere and Vanguard; YC S26 with 6,000+ enterprise signups in its first weeks.",
-      "monetization": "Open-source engine free; enterprise layer (app.graphify.com) sells PR verification and an on-prem/air-gapped graph control plane; revenue null. Growth is the evidence of demand.",
-      "evidence": [
-        "https://github.com/Graphify-Labs/graphify",
-        "https://www.ycombinator.com/companies/graphify-labs",
-        "https://www.augmentcode.com/learn/graphify-63k-stars-knowledge-graphs",
-        "https://www.reddit.com/r/ClaudeAI/comments/1ui6unv/graphify_hit_73k_stars_and_22m_downloads_in_25/"
-      ],
-      "how_searched": [
-        "code repository (GitHub)",
-        "accelerator company page (Y Combinator)",
-        "review/aggregator (Augment Code, CoddyKit)",
-        "forum (Reddit r/ClaudeAI)"
-      ],
-      "score": 74.0,
-      "found_at": "2026-10-10T06:18:12.098914+00:00"
-    },
-    {
-      "name": "Open-source, agent-native SEO suite (Semrush/Ahrefs alternative)",
-      "field": "Marketing / SEO / AI agent tools",
-      "summary": "Pay-as-you-go SEO platform: keyword research, rank tracking, backlink analysis, site audits, plus AI-visibility/GEO citation tracking, exposed via an MCP server so coding agents can run SEO workflows. Note: overlaps partially with the already-known 'AI-search visibility/GEO checker' - the differentiator here is the full open-source suite + MCP for AI-native teams.",
-      "why_now": "Ahrefs raised to $129/mo (Mar 2026) with mandatory per-seat billing; Semrush Pro $139.95/mo. 'OpenSEO' (MIT, hosted $10/mo) earned #2 Product of the Day on PH (Oct 8, 2026, 384 upvotes), ~22.7K GitHub stars, weekly releases, MCP/AI-visibility features; earlier July launch claimed 900+ upvotes/#1 POTD with 22K stars. Strong visible demand for affordable + agent-callable SEO data.",
-      "monetization": "Open source; hosted subscription (~$10/mo) + usage-based data fees (or BYO DataForSEO key when self-hosting); AI-visibility checks metered.",
-      "evidence": [
-        "https://www.producthunt.com/products/openseo",
-        "https://reveneau.com/ainews/openseo-open-source-semrush-ahrefs-alternative-22707-stars-mcp",
-        "https://neuralpaws.com/openseo-review/"
-      ],
-      "how_searched": [
-        "Web search: open source SEO audit tool alternative Semrush Ahrefs 2026 product hunt"
-      ],
-      "score": 74.0,
-      "found_at": "2026-10-11T01:04:53.933023+00:00"
-    },
-    {
-      "name": "AI receipt / expense scanner for freelancers (web + mobile)",
-      "field": "Fintech / small-business tools",
-      "summary": "Snap or forward receipts and e-mails; AI extracts merchant, amount, date, tax and line items and exports clean bookkeeping records. Estimators put SparkReceipt at ~$5.4K/mo and 'Receipt Scanner: Easy Expense' at ~$40K/mo, with the solo-freelancer lane at $7-15/mo described as under-served by team-priced incumbents (Expensify, Shoeboxed).",
-      "why_now": "GPT-4o-class vision cut extraction cost to roughly $0.002-$0.01 per scan in 2026, making a freemium web tool viable. Demand is steady with a large Jan-Apr tax-season spike and meaningful freelancer/SMB search volume.",
-      "monetization": "Freemium: free tier capped at ~10-20 scans/mo; Pro ~$7-15/mo with accounting sync, mileage and multi-currency.",
-      "evidence": [
-        "https://bumetric.com/revenue/sparkreceipt-expense-scanner",
-        "https://peekly.app/apps/9c7d1ea8-7477-483b-a9fc-7a285f0c728b",
-        "https://trustmrr.com/startup/receeto"
-      ],
-      "how_searched": [
-        "app-revenue estimator",
-        "app-revenue tracker",
-        "app-idea/market analysis",
-        "verified-revenue database"
-      ],
-      "score": 74.0,
-      "found_at": "2026-10-12T10:53:46.852814+00:00"
-    },
-    {
-      "name": "Local-first voice cloning and dubbing studio",
-      "field": "audio / creator tools",
-      "summary": "An on-device web/desktop studio for zero-shot voice cloning, voice design, video dubbing and audiobooks with no API keys or per-character billing, competing directly with ElevenLabs.",
-      "why_now": "Open-source local clones are surging: VoiceStudio (646 languages, 14 TTS / 9 ASR engines) and sibling projects (Langswap, Speech Studio, Voice-Pro) all shipped in 2026 and trended, riding subscription fatigue and privacy concerns against cloud TTS.",
-      "monetization": "Replaces ElevenLabs' $5-$330/mo cloud tiers (free + donations, AGPL with paid commercial licenses for proprietary embedding), a proven high-margin audio-software market.",
-      "evidence": [
-        "https://github.com/debpalash/VoiceStudio/",
-        "https://github.com/corazonthedev/langswap",
-        "https://github.com/soniqo/speech-studio",
-        "https://themenonlab.blog/blog/voice-pro-open-source-voice-cloning-dubbing/"
-      ],
-      "how_searched": [
-        "GitHub repositories/trending",
-        "open-source project reviews",
-        "creator-tool blogs"
-      ],
-      "score": 74.0,
-      "found_at": "2026-10-14T13:47:39.446484+00:00"
-    },
-    {
-      "name": "Coding-Agent Cache & Token-Spend Forensics",
-      "field": "LLM cost observability for agent sessions",
-      "summary": "Local/CLI dashboard that reads live session token counts, provider cache pricing and idle time, then tells you the cheapest next move (ping, warm-compact, cold-compact, tail-trim) and flags unattended agents burning money.",
-      "why_now": "Inferock scored 393 votes on Product Hunt Oct 14, 2026 for an independent 'receipt' of what you were billed vs overpaying on failed LLM calls. The same week a r/ClaudeCode thread (209 upvotes, 76 comments) walked through 5x cold-cache overpay, one-hour TTL folklore and subagent cache leaks—knowledge still trapped in forum comments, not products. Distinct from a static cost calculator: this is live session-level audit.",
-      "monetization": "Free local receipt + paid cloud multi-seat dashboard and provider-price API. Peer Inferock is open-source bench + credits-back positioning; dedicated revenue numbers were null this run. Category peers (router/cost calculators) already sell usage-based plans.",
-      "evidence": [
-        "https://www.producthunt.com/leaderboard/daily/2026/10/14",
-        "https://engaggit.com/blog/app-ideas-2026-10-12",
-        "https://www.reddit.com/r/ClaudeCode/comments/1x1ybwb/best_way_to_handle_cold_cache_hits_you_overpay_5x/"
-      ],
-      "how_searched": [
-        "Product Hunt daily board",
-        "Reddit coding-agent cost threads",
-        "Engaggit demand digest"
-      ],
-      "score": 74.0,
-      "found_at": "2026-10-15T18:32:19.789068+00:00"
-    },
-    {
-      "name": "Interactive Audience-Response Presentation & Party-Game Builder",
-      "field": "events / team engagement",
-      "summary": "A free-to-play web builder where a host presents slides and the audience joins from their phones via QR to answer polls, word clouds, trivia, emoji reactions and icebreakers — every live event doubles as a product demo.",
-      "why_now": "Slides With Friends crossed $40K MRR (two founders, ~$480K ARR) with the milestone publicly re-disclosed by Indie Hackers in Aug 2026; Exploding Topics shows 'Partiful' (event platform) at 99x+ growth, signaling surging demand for social-event tooling; founder explicitly describes freemium viral loop where every hosted event markets the product to the whole audience.",
-      "monetization": "Freemium: free up to 10 players; Starter $8/mo (annual) / $35 monthly; Pro $24/mo annual / $99 monthly; enterprise contracts for districts and orgs. Slides With Friends runs annual-only paid plans and reports actual revenue ~2x MRR.",
-      "evidence": [
-        "https://www.indiehackers.com/post/tech/hitting-40k-mrr-with-bottom-of-funnel-content-until-ai-search-forced-her-to-change-tactics-4OPu0F9zFGfb3tEJFvrx",
-        "https://www.starterstory.com/stories/slides-with-friends-breakdown",
-        "https://whatitmakes.com/startup/slides-with-friends",
-        "https://explodingtopics.com/blog/trending-topics",
-        "https://slideswith.com/interactive-presentations"
-      ],
-      "how_searched": [
-        "Indie Hackers revenue interviews",
-        "Starter Story case study",
-        "2026 revenue tracker (whatitmakes)",
-        "Exploding Topics",
-        "live product site"
-      ],
-      "score": 74.0,
-      "found_at": "2026-10-16T01:27:17.002975+00:00"
-    },
-    {
-      "name": "Photo-based hair-density and hair-loss progress tracker (web)",
-      "field": "Consumer health / personal care",
-      "summary": "A free web tool where a user uploads a scalp photo in consistent lighting to estimate hair-density changes over time, approximate a Norwood-style stage, and plot a progress trend — a non-invasive way to check whether a treatment is working before/without a clinic visit.",
-      "why_now": "The AI hair-density tracking app market is estimated at $366M in 2025 and projected to reach $1,573M by 2034 (17.4% CAGR). Proof of demand is concrete: Traya's hair-loss app has 16.5M+ Android installs and ~1.1M monthly active users, and the startup MyHair AI reached 1,000+ paying subscribers and 200,000 accounts with a model trained on 300,000+ scalp photos, all inside a roughly $50B hair-loss market.",
-      "monetization": "Freemium tracking; paid detailed reports/trend exports; affiliate to hair-loss treatment subscriptions and clinics; anonymized/aggregated data insights (consented).",
-      "evidence": [
-        "https://growthmarketreports.com/report/ai-hair-density-tracking-mobile-app-market",
-        "https://www.appgoblin.info/apps/com.traya.prod",
-        "https://digitrendz.blog/newswire/artificial-intelligence/89018/ai-can-now-detect-early-signs-of-balding/"
-      ],
-      "how_searched": [
-        "market-research report",
-        "app-store analytics tracker",
-        "tech/startup news"
-      ],
-      "score": 74.0,
-      "found_at": "2026-10-16T07:15:25.950244+00:00"
-    },
-    {
-      "name": "Free multi-indicator web charting platform (TradingView replacement)",
-      "field": "Fintech / trading tools",
-      "summary": "A free web charting platform: multiple indicators per chart, alerts, drawing tools and a scripting layer, funded by optional premium data or AI add-ons — not by paywalling basics or charging per-exchange fees.",
-      "why_now": "TradingView backlash is still hot through 2026: r/selfhosted thread (Oct 2025) calling it 'the biggest rip-off on the Internet' with users demanding an open-source alternative; r/IndianStreetBets (Sep 17, 2026) and r/TradingView (Mar 17, 2026) threads document script caps, delayed free data and freezes; a Jul 2026 analysis of Reddit complaints identifies three recurring grievances (recurring price hikes, paywalled basics, per-exchange data fees); Show HN launched OpenChart as an 'OSS TradingView alternative with your own AI agent' on Oct 6, 2026.",
-      "monetization": "TradingView's model proves monetization: paid tiers $12-60+/mo plus per-exchange data add-ons (users report $650/yr auto-renewals). A free tool can monetize via premium market-data upsells, AI analysis credits, or broker affiliate. New-entrant revenue: null.",
-      "evidence": [
-        "https://www.reddit.com/r/selfhosted/comments/1kyao7w/would_anyone_be_interested_in_an_open_source/",
-        "https://www.reddit.com/r/IndianStreetBets/comments/1whn31a/tradingview_alternatives/",
-        "https://www.reddit.com/r/TradingView/comments/1riuvq4/any_better_alternatives_to_tradingview/",
-        "https://willkopec.com/blog/best-tradingview-alternatives-reddit",
-        "https://hn.today/s/show-hn-openchart-oss-tradingview-alternative-with-your-own-ai-agent"
-      ],
-      "how_searched": [
-        "selfhosted/trading subreddits",
-        "Show HN launch digest",
-        "complaint-analysis article aggregating Reddit themes"
-      ],
-      "score": 74.0,
-      "found_at": "2026-10-17T17:18:19.921027+00:00"
-    },
-    {
-      "name": "Artistic scannable AI QR code generator with dynamic analytics",
-      "field": "Marketing utilities",
-      "summary": "Original free web generator that blends prompts/brand art into still-scannable QR codes, plus editable destinations and scan analytics — a new brand in the proven 'ugly QR → beautiful trackable QR' niche.",
-      "why_now": "QR Code AI (Stripe-verified via TrustMRR) sustains ~$14.9–16K MRR, ~1,485 active subs, ~$323K all-time revenue, and ~3.44M Google impressions/30 days as of Oct 2026 — years after the viral moment, demand is structural (menus, packaging, events). Two-person studio economics show the niche is still winnable with better UX and free tier.",
-      "monetization": "Freemium generation credits, dynamic-code subscriptions, bulk/API for agencies, 30% lifetime affiliate program; ~$11 MRR/sub observed on the comparable product.",
-      "evidence": [
-        "https://trustmrr.com/startup/qr-code-ai",
-        "https://milestonewins.com/stories/qrcode-ai-story/",
-        "https://www.sofarbot.com/stories/qr-code-ai-nicolas-cella-15636-mrr"
-      ],
-      "how_searched": [
-        "Stripe-verified MRR tracker (TrustMRR)",
-        "indie success-story coverage",
-        "long-form revenue chronology with GSC data"
-      ],
-      "score": 74.0,
-      "found_at": "2026-10-17T22:26:39.095343+00:00"
-    },
-    {
-      "name": "Amazon FBA reimbursement & fee-audit web tool (low-fee DIY)",
-      "field": "E-commerce ops / seller tools",
-      "summary": "Free/cheap web tool that ingests Amazon settlement and FBA reports, flags lost/damaged inventory, fee mis-measurements and refund-without-return cases, and generates claim templates — DIY alternative to 15–25%-of-recovery services.",
-      "why_now": "Active, angry demand in the last 5 months: r/FulfillmentByAmazon thread (Sep 5, 2026, 18 comments) titled 'Getida and seller investigators charge an outrageous 25%'; multiple r/AmazonFBA/r/AmazonSelling threads (Apr–May 2026) on reimbursement workflows, return-fraud SAFE-T claims and post-2025 manufacturing-cost policy changes; IdeaFast's 10K-post scan scores 'FBA reimbursement recovery' pain at 92/100 on r/AmazonSeller. Adjacent proof sellers pay fast for Amazon research tools: Launch Fast hit $30K MRR in months (Indie Hackers, Jun 2026).",
-      "monetization": "Incumbents take 15–30% of recovered funds (GETIDA ~25%, Refund Retriever 15–30%). Rebuild: free audit scan, flat-fee or ~5–10% only on successfully filed claims; Amazon-seller SaaS price points $49–199/mo proven by Launch Fast.",
-      "evidence": [
-        "https://www.reddit.com/r/FulfillmentByAmazon/comments/1w86z79/amazon_fba_reimbursement_services_are_charging/",
-        "https://www.reddit.com/r/AmazonSellingSoftware/comments/1quh3so/what_are_the_best_amazon_reimbursement_tools/",
-        "https://www.reddit.com/r/AmazonFBA/comments/1t31eki/getida_takes_25_of_your_reimbursements_with_the/",
-        "https://www.ideafast.pro/blog/saas-ideas-from-reddit-pain-points",
-        "https://www.indiehackers.com/post/tech/building-a-product-in-48-hours-and-hitting-30k-mrr-as-a-non-technical-founder-wWtWIH5tmwASUbxKaLT9"
-      ],
-      "how_searched": [
-        "community complaint threads (Reddit)",
-        "pain-signal dataset (IdeaFast 10K-post scan)",
-        "indie revenue interview (Indie Hackers)",
-        "competitor fee schedule in-thread"
-      ],
-      "score": 74.0,
-      "found_at": "2026-10-18T18:11:52.483360+00:00"
-    },
-    {
-      "name": "Consumer deepfake/scam-call AI protection companion",
-      "field": "Consumer security / telecom",
-      "summary": "Free web-first tool that helps users and families triage suspicious calls/texts, educate on AI voice deepfake patterns, and generate family-protection playbooks (optional community number reports).",
-      "why_now": "Truecaller surpassed 4M premium subscribers and ~$2M+/mo in-app revenue while surveying show ~74.5% of Americans hit by scam calls, ~30% got deepfake voice calls, ~25% lost money, and ~64% would try AI scam detection—yet 63% only use carrier defaults.",
-      "monetization": "Free consumer core; freemium premium (ad-free, AI screening, family seats) mirroring Truecaller premium growth (+52% YoY CC). null for our own revenue.",
-      "evidence": [
-        "https://www.truecaller.com/blog/insights/ai-scams-are-breaking-the-way-america-talks-truecaller",
-        "https://www.prnewswire.com/news-releases/truecaller-surpasses-4-million-premium-subscribers-302709354.html",
-        "https://techcrunch.com/2026/04/26/truecaller-faces-mounting-pressures-as-its-growth-matures/",
-        "https://www.hiya.com/newsroom/press-releases/state-of-the-call-2026-ai-deepfake-voice-calls-hit-1-in-4-americans-as-consumers-say-scammers-are-beating-mobile-network-operators-2-to-1"
-      ],
-      "how_searched": [
-        "consumer fraud survey blogs",
-        "investor/earnings press releases",
-        "tech news earnings coverage",
-        "telecom fraud report"
-      ],
-      "score": 74.0,
-      "found_at": "2026-10-18T20:57:38.690853+00:00"
     }
   ]
 }
