@@ -142,6 +142,26 @@
       "found_at": "2026-10-24T23:30:09.476369+00:00"
     },
     {
+      "name": "AI Phone Answering for Small Businesses (Missed Call Recovery)",
+      "field": "Business Automation / Customer Service",
+      "summary": "AI voice agents that answer missed calls 24/7, capture leads, and book appointments for small businesses that can't afford full-time receptionists.",
+      "why_now": "62% of SMB calls go unanswered (411 Locals), 80% of voicemail callers never leave messages and call competitors instead. Businesses lose $126k/year on average from missed calls. After-hours calls represent 23-30% of volume with high buying intent.",
+      "monetization": "SaaS subscription ($49-$299/month per business) or per-minute billing ($0.06-$0.18/min). ROI is 28-180x; break-even at 1 recovered job/month.",
+      "evidence": [
+        "https://peppersend.com/lead-magnets/state-of-smb-missed-calls-2026.pdf",
+        "https://www.getnextphone.com/blog/ai-receptionist-statistics",
+        "https://upfirst.ai/blog/state-of-voice-ai-2026",
+        "https://prestyj.com/blog/ai-voice-agent-statistics-2026"
+      ],
+      "how_searched": [
+        "web search for missed calls small business stats",
+        "web search for AI receptionist ROI 2026",
+        "industry reports from CallRail/Invoca/PepperSend"
+      ],
+      "score": 95.0,
+      "found_at": "2026-10-25T19:45:08.365699+00:00"
+    },
+    {
       "name": "MCP Server Build, Test & Deploy Platform",
       "field": "Developer Tools / AI Infrastructure",
       "summary": "A free web-based studio to scaffold, test, debug, and deploy Model Context Protocol (MCP) servers with auth, workflows, and one-click sharing.",
@@ -552,6 +572,26 @@
       ],
       "score": 92.0,
       "found_at": "2026-10-25T16:21:21.264283+00:00"
+    },
+    {
+      "name": "Free QR Menu & Table Ordering for Restaurants",
+      "field": "Restaurant Tech / Hospitality",
+      "summary": "Free QR code menu generator with optional table ordering that lets restaurants go digital without expensive commissions or subscriptions.",
+      "why_now": "QR menus are permanent post-pandemic fixture. Many platforms charge 5-15% commission or $30-300/month. Free alternatives exist but fragmented; demand for commission-free solutions is high, especially for small independent restaurants.",
+      "monetization": "Freemium model - free basic QR menu, charge for ordering, payments, multi-location, white-label. Or zero commission with revenue share only on premium features.",
+      "evidence": [
+        "https://waiterpilot.com/blog/best-qr-table-ordering-systems-small-restaurants/",
+        "https://menyo.pro/",
+        "https://tabres.com/en/articles/top-5-free-restaurant-cafe-qr-menu-generators",
+        "https://syncbite.io/blog/a/qr-code-ordering-system-for-restaurants-cost"
+      ],
+      "how_searched": [
+        "web search for QR menu generator free alternatives 2026",
+        "comparison of restaurant QR ordering costs and commissions",
+        "research on restaurant tech adoption"
+      ],
+      "score": 92.0,
+      "found_at": "2026-10-25T19:45:13.002537+00:00"
     },
     {
       "name": "Specreel",
@@ -1401,6 +1441,26 @@
       "found_at": "2026-10-25T11:34:26.316463+00:00"
     },
     {
+      "name": "AI Menu Description Generator (Free Web Tool)",
+      "field": "Restaurant Marketing / Content",
+      "summary": "Free AI tool that writes appetizing, SEO-friendly menu descriptions from dish names and ingredients without signup or branding.",
+      "why_now": "Menu descriptions directly impact sales; good descriptions increase orders. Many restaurants struggle with copywriting. Existing tools are fragmented - some require signup, some have limits. Demand from restaurants updating menus for delivery apps (DoorDash/UberEats) where photos may be missing.",
+      "monetization": "Ad-supported free tool, or lead generation to restaurant services. Can be bundled with QR menu tools for traffic.",
+      "evidence": [
+        "https://www.writecream.com/ai-restaurant-menus-and-descriptions-generator/",
+        "https://foodaidaily.com/blog/best-ai-for-restaurant-menu-descriptions/",
+        "https://marketinc.io/tools/menu-description-writer/",
+        "https://menucrafters.com/tools/ai-menu-generator"
+      ],
+      "how_searched": [
+        "web search for free AI menu description generator no signup",
+        "analysis of restaurant copywriting needs",
+        "comparison of AI food writing tools"
+      ],
+      "score": 88.0,
+      "found_at": "2026-10-25T19:45:15.451274+00:00"
+    },
+    {
       "name": "Retro digicam / film-camera filter web app (Y2K & CCD look)",
       "field": "Consumer photo / creator tools",
       "summary": "A browser tool that turns any photo or video into the grainy, flash-heavy, early-2000s 'digicam/CCD' look using preset film stocks, light leaks, date stamps and scans — no app install.",
@@ -1908,6 +1968,25 @@
       ],
       "score": 86.0,
       "found_at": "2026-10-24T11:02:41.414791+00:00"
+    },
+    {
+      "name": "AI-Powered Restaurant Lead Capture & Review Automation",
+      "field": "Local Business Marketing",
+      "summary": "Free web tool that helps restaurants automatically collect Google reviews from happy customers via QR codes and SMS, with AI follow-up messages.",
+      "why_now": "Local visibility drives restaurant traffic; review quantity/quality impact rankings. 60% of communication failures cause 1-star reviews. Restaurants need simple review generation without expensive marketing platforms. Google Business Profile is critical for local search.",
+      "monetization": "Freemium - free basic review links, charge for automation, analytics, multi-location management, or integration with POS systems.",
+      "evidence": [
+        "https://peppersend.com/lead-magnets/state-of-smb-missed-calls-2026.pdf",
+        "https://www.quo.com/blog/small-business-callback-statistics/",
+        "https://tabres.com/articles/how-much-does-a-qr-code-menu-cost"
+      ],
+      "how_searched": [
+        "web search for restaurant review generation QR tools",
+        "research on local SEO for restaurants",
+        "analysis of review impact on small business"
+      ],
+      "score": 86.0,
+      "found_at": "2026-10-25T19:45:16.503981+00:00"
     },
     {
       "name": "Short-Form Video Intelligence & Analytics",
@@ -2850,6 +2929,26 @@
       "found_at": "2026-10-25T11:34:29.581563+00:00"
     },
     {
+      "name": "AI Menu Translation for Multilingual Restaurants",
+      "field": "Restaurant Tech / Internationalization",
+      "summary": "Free web tool to instantly translate restaurant menus into multiple languages with culturally appropriate food descriptions, not just literal translation.",
+      "why_now": "Tourism recovery driving demand for multilingual menus. Many restaurants in tourist areas need translations but can't afford agencies. AI translation tools exist but not tailored to restaurant menus with proper food terminology and dietary info. 8-11 languages common need.",
+      "monetization": "Freemium - free for small menus, charge for bulk translation, custom glossaries, or integration with QR menu platforms. Or ad-supported.",
+      "evidence": [
+        "https://qorder.me/",
+        "https://wowmenu.me/",
+        "https://www.duck-hub.com/blog/best-digital-menu-software",
+        "https://tabres.com/en/articles/top-5-free-restaurant-cafe-qr-menu-generators"
+      ],
+      "how_searched": [
+        "web search for AI menu translation tools",
+        "research on multilingual restaurant needs",
+        "analysis of tourist-heavy restaurant markets"
+      ],
+      "score": 84.0,
+      "found_at": "2026-10-25T19:45:18.414316+00:00"
+    },
+    {
       "name": "Self-Hosted Workflow Automation for AI Agents (n8n-style)",
       "field": "DevTools / AI Infrastructure",
       "summary": "Fair-code / open-source workflow automation platform that technical teams self-host for free (unlimited executions) to build AI agent pipelines, RAG, and multi-step automations — with paid cloud/enterprise for governance, SSO, and managed infrastructure.",
@@ -3116,6 +3215,25 @@
       ],
       "score": 83.0,
       "found_at": "2026-10-25T16:21:23.053123+00:00"
+    },
+    {
+      "name": "After-Hours Lead Capture for Service Businesses",
+      "field": "Business Automation / Lead Gen",
+      "summary": "Free web tool/widget that captures leads from after-hours website visitors with AI-powered chat that can qualify and schedule callbacks for service businesses.",
+      "why_now": "23-30% of calls arrive after hours with high buying intent (34.8% express buying intent). Service businesses (plumbers, HVAC, electricians) lose thousands in emergency calls. Most don't have 24/7 coverage. AI can capture and qualify these leads.",
+      "monetization": "Freemium lead capture widget - free basic version, charge per qualified lead or monthly subscription for advanced features and integrations.",
+      "evidence": [
+        "https://www.getnextphone.com/blog/ai-receptionist-statistics",
+        "https://callsphere.ai/research/after-hours-call-economics-2026",
+        "https://peppersend.com/lead-magnets/state-of-smb-missed-calls-2026.pdf"
+      ],
+      "how_searched": [
+        "web search for after hours lead capture small business",
+        "analysis of service business missed call economics",
+        "research on emergency service call patterns"
+      ],
+      "score": 83.0,
+      "found_at": "2026-10-25T19:45:20.379366+00:00"
     },
     {
       "name": "Buyer-intent finder for Reddit / X / HN",
@@ -6108,128 +6226,6 @@
       ],
       "score": 75.0,
       "found_at": "2026-10-14T02:06:35.946522+00:00"
-    },
-    {
-      "name": "Self-updating docs / documentation-drift agent",
-      "field": "developer tools / documentation",
-      "summary": "A free web app that detects when code and docs disagree on every commit/PR and drafts the exact fix, so help centers, API refs and runbooks never silently go stale.",
-      "why_now": "A dense new cluster launched in 2026 (DeepDocs, DocuGardener, Docdrift, FluentDocs, Moxie Docs, Documentation.AI) all targeting AI-driven docs drift, as AI coding agents accelerate codebases and make stale docs mislead both humans and agents.",
-      "monetization": "Freemium SaaS with paid team tiers (DeepDocs 7-day trial + scan credits; DocuGardener free public repo tier plus paid repo/LLM bundles; Docdrift free/Solo/Team), an established pattern in dev tooling.",
-      "evidence": [
-        "https://deepdocs.dev/",
-        "https://docdrift.io/",
-        "https://www.fluentdocs.dev/",
-        "https://moxiedocs.com/learn/what-is-documentation-drift"
-      ],
-      "how_searched": [
-        "startup product landing pages",
-        "dev-tool launch cluster",
-        "open-source self-host pages"
-      ],
-      "score": 75.0,
-      "found_at": "2026-10-14T13:47:36.992554+00:00"
-    },
-    {
-      "name": "Vertical AI Agent Marketplace (Recruiters / Sales / Legal / Research)",
-      "field": "AI Agents / Marketplace",
-      "summary": "A free web marketplace for vertical-specific AI agents (sourcing, outreach, contract review, legal research, competitive intel) with skill monetization, usage analytics, and one-click deployment to browser sidebar or API — vertical version of AITOPIA (1M users).",
-      "why_now": "AITOPIA: 1M users, agent marketplace in browser (AlphaMoat). Sider: 5M users, $7.2M revenue bootstrapped (Fahimai). Monica: 3M users. HARPA AI: 400K users (automation). Manus AI Browser Operator emerging. Chrome AI extensions: 442 with 1K+ users (85% YoY growth, Incogni). Market $2.3B (2025), 22.5% CAGR. Vertical specialization = higher willingness to pay.",
-      "monetization": "Free agent discovery. Creators set prices; platform takes 15-20%. Subscription bundles for teams ($29-99/user/mo). Enterprise: private marketplace, SSO, audit logs.",
-      "evidence": [
-        "https://www.alphamoat.ai/en/ext/t/ai-agent",
-        "https://www.fahimai.com/sider-ai/",
-        "https://www.alphamoat.ai/en/ext/t/ai-aggregator",
-        "https://plugthis.ai/blog/chrome-extension-builder-trends-2026-what-to-expect-next",
-        "https://market.us/report/ai-powered-chrome-extension-market/"
-      ],
-      "how_searched": [
-        "AlphaMoat Chrome extension analytics (179 aggregators, 155 agents)",
-        "Sider revenue/interview (Fahimai)",
-        "PlugThis builder trends (Q2 2026: 49,518 new extensions)",
-        "Market.us market sizing ($2.3B, 22.5% CAGR)",
-        "Chrome Web Store / Incogni AI extension counts"
-      ],
-      "score": 75.0,
-      "found_at": "2026-10-14T22:45:51.058261+00:00"
-    },
-    {
-      "name": "Multi-AI chat history organizer, search & export",
-      "field": "productivity / AI utility",
-      "summary": "A web app or browser extension that adds folders, full-text search, a prompt library, bulk export and cross-device sync to chat history across ChatGPT, Gemini, Claude and Grok.",
-      "why_now": "Power users now run 3–4 assistants at once and lose work inside each silo. AI Toolbox grew from ~$2.9k/mo in May 2026 to ~$21.9k in Sept 2026, reached 47k monthly actives and 1,700 paying users, and won Product Hunt Sep 2026 — all with zero ad spend and ~93% margins.",
-      "monetization": "AI Toolbox charges $9.99/mo per platform, $59/platform/yr, $99/platform lifetime, $199 all-access lifetime, and teams from $12/seat/mo; ~$21.9k/mo with 1,700+ paying of ~47k MAU. A near-identical 'workspace for ChatGPT' built a ~350k-subscriber newsletter earning ~$100–150k/yr in sponsorships.",
-      "evidence": [
-        "https://trustmrr.com/startup/ai-toolbox",
-        "https://extwatch.com/blog/fastest-growing-chrome-extensions",
-        "https://aidevcases.com/en/cases/superpower-chatgpt"
-      ],
-      "how_searched": [
-        "verified-revenue tracker (TrustMRR)",
-        "Chrome Web Store data analysis",
-        "founder case study"
-      ],
-      "score": 75.0,
-      "found_at": "2026-10-17T14:05:40.412106+00:00"
-    },
-    {
-      "name": "Budget SEO data platform ($10/mo class) with agent/MCP access",
-      "field": "Marketing tools",
-      "summary": "An affordable, agent-friendly alternative to Ahrefs/Semrush: keyword research, competitor and backlink data, site audits at roughly $10/mo instead of $100+, with MCP so coding/GTM agents can query it directly.",
-      "why_now": "OpenSEO ('open source Ahrefs alternative… $10/month instead of $100-plus') took 411 points as a top-10 October 2026 Product Hunt monthly launch; Reddit r/SEO threads from Jan, Apr and Jul 2026 plus r/seotoolsforsmbs (Aug 18, 2026) are saturated with '$120/mo is way out of my price range' and Ahrefs-credit complaints; Exploding Topics (Oct 6, 2026) shows Ahrefs searches +1,360%, AI SEO +5,900% and programmatic SEO +2,050% over five years — demand is rising while incumbents stay expensive.",
-      "monetization": "Proven price wedge: OpenSEO at $10/mo vs Ahrefs Starter $35/mo (unpromoted) and Semrush/Ahrefs ~$120/mo standard; Ubersuggest $17-29/mo, Mangools ~$29/mo. Free tier + $10-30/mo paid tiers; revenue for OpenSEO/others: null (private).",
-      "evidence": [
-        "https://www.producthunt.com/leaderboard/monthly/2026/10",
-        "https://www.reddit.com/r/SEO/comments/1ssupbm/im_quuite_new_to_seo_how_do_i_analyze_cheap/",
-        "https://www.reddit.com/r/SEO/comments/1q3lmye/any_affordable_alternatives_to_ahrefs_for/",
-        "https://www.reddit.com/r/seotoolsforsmbs/comments/1vrtniz/best_seo_tools_for_small_businesses_in_2026/",
-        "https://explodingtopics.com/blog/trending-topics"
-      ],
-      "how_searched": [
-        "Product Hunt monthly leaderboard",
-        "multiple SEO-subreddit budget threads",
-        "5-year search-growth database"
-      ],
-      "score": 75.0,
-      "found_at": "2026-10-17T17:18:19.175271+00:00"
-    },
-    {
-      "name": "Landlord rental finance toolkit (Baselane-model, free tier)",
-      "field": "Proptech / SMB fintech",
-      "summary": "Free web app for small landlords: per-property income/expense ledger with auto-categorization, rent-due tracking, late-rent reminders, cash-flow per property and Schedule-E-ready tax export.",
-      "why_now": "'Baselane' itself is a top-10 exploding search topic (+7,300% two-year growth on Exploding Topics); the company reports 50,000+ investors, $3.1B processed annually, $44.3M raised and >900% growth since its Series A; BiggerPockets' partnership release says 73% of investors spend 5+ hours a month on property bookkeeping and 41% of property managers cite late rent as a top pain — a free spreadsheet-killer web tool sits in a market projected at $6.5-26B depending on scope.",
-      "monetization": "Freemium: free ledger + paid rent-reminders, tenant portal, tax packages; incumbents monetize via rent-processing fees ($2 ACH / 3.49% card) and $100+/yr subscriptions.",
-      "evidence": [
-        "https://explodingtopics.com/blog/trending-topics",
-        "https://www.ai-market-watch.com/company/baselane",
-        "https://connect.scale-rentals.com/automation/baselane"
-      ],
-      "how_searched": [
-        "search-trend tool (Exploding Topics trending-topics page)",
-        "partnership press release with market stats",
-        "company profile / funding aggregators"
-      ],
-      "score": 75.0,
-      "found_at": "2026-10-18T11:14:41.750508+00:00"
-    },
-    {
-      "name": "AI Phone-Hold / Customer-Service Call Agent (Web Console)",
-      "field": "Consumer AI agents",
-      "summary": "Web-first console where you describe the task (cancel service, chase refund, book appointment); an AI voice agent dials, navigates menus, waits on hold and reports back.",
-      "why_now": "Multiple paid rivals launched or scaled in 2026 (ClawCall $4.99/mo flat, Pine AI savings-share, Arlo, HoldForMe.ai $3–6/connect) while iOS 26 Hold Assist and Pixel Hold for Me only wait — they don't talk. Reddit still posts 'I'd pay $25 for hold waiting' threads; Google notes ~10M hours/week spent on hold in the US alone.",
-      "monetization": "Per-call or flat monthly; savings-share on bill negotiations; free hold-detect tier as funnel. Telephony is the cost center — free web UI + paid voice minutes.",
-      "evidence": [
-        "https://clawcall.dev/blog/best-ai-for-waiting-on-hold",
-        "https://www.arlo.sh/blog/ai-that-waits-on-hold-for-you",
-        "https://www.reddit.com/r/AppIdeas/comments/1m39qz8/i_would_gladly_pay_25_for_an_app_that_waits_on/",
-        "https://blog.google/products-and-platforms/devices/pixel/hold-for-me/"
-      ],
-      "how_searched": [
-        "competitor product blogs",
-        "Reddit demand threads",
-        "platform feature announcements"
-      ],
-      "score": 75.0,
-      "found_at": "2026-10-18T23:24:38.118427+00:00"
     }
   ]
 }
