@@ -608,6 +608,26 @@
       "found_at": "2026-10-24T20:52:13.040820+00:00"
     },
     {
+      "name": "Card Value Scanner & Collection Ledger",
+      "field": "Collectibles / resale",
+      "summary": "A camera-first web/PWA that identifies sports and Pokemon cards, pulls recent sold-price comps, records condition, and builds a value-tracked collection with alerts and CSV export.",
+      "why_now": "Cardstock reports about $75K MRR from 15K subscriptions, while Scanemon reached about $17K MRR and 16K new customers per month within a year. Cardstock also has 500K+ App Store downloads and 12K ratings, so demand is proven beyond one founder interview.",
+      "monetization": "Free 10 scans per month; $6.99-$9.99 per month for unlimited scans, price alerts, portfolio history and export; affiliate fees on marketplace listings and grading submissions.",
+      "evidence": [
+        "https://www.starterstory.com/stories/i-turned-my-hobby-into-120k-month-apps",
+        "https://gtmsauce.com/episodes/2026-06-07-i-built-two-apps-that-make-120k-month",
+        "https://shippedandpaid.com/cases/scanemon-pokemon-card-scanner-17k-mrr-cursor/",
+        "https://apps.apple.com/us/app/cardstock-sports-card-scanner/id1508888618"
+      ],
+      "how_searched": [
+        "Starter Story and GTM Sauce interviews for card-scanner revenue",
+        "Scanemon RevenueCat and MRR reports",
+        "App Store, AppRank and AppGoblin listing checks"
+      ],
+      "score": 91.0,
+      "found_at": "2026-10-25T11:34:24.499745+00:00"
+    },
+    {
       "name": "Apogee",
       "field": "marketing/ads-automation",
       "summary": "Bulk ad uploader/manager for Meta/TikTok/Snapchat with AI naming, copywriting agent, testing structures, and agency features.",
@@ -1339,6 +1359,26 @@
       ],
       "score": 88.0,
       "found_at": "2026-10-25T01:29:16.067658+00:00"
+    },
+    {
+      "name": "Tattoo Preview & Artist Brief Studio",
+      "field": "Beauty / creative consumer tools",
+      "summary": "Upload a body photo, generate or place a tattoo design with drag, resize and rotate controls, compare styles and colours, then export a placement sheet and artist brief.",
+      "why_now": "Peekly headlines Tatship at $414K per month, while RevShot and ScreensDesign independently estimate about $30K per month. Even the conservative number, plus 500K-949K monthly downloads, shows strong top-of-funnel demand.",
+      "monetization": "Free watermarked previews; $4.99-$9.99 per HD placement pack or $7.99 per month for unlimited previews, saved designs and artist-ready PDFs; studio referral listings.",
+      "evidence": [
+        "https://peekly.app/apps/c03a2647-536e-41fe-8111-6f00eeb43982",
+        "https://revshot.app/app/tattoo-design-try-on-tatship",
+        "https://screensdesign.com/showcase/tatship-tattoo-design-try-on",
+        "https://appgoblin.info/apps/com.tatship"
+      ],
+      "how_searched": [
+        "Peekly fastest-growing app and tattoo-app reports",
+        "RevShot, ScreensDesign and AppGoblin revenue estimates",
+        "App Store and Google Play ranking checks"
+      ],
+      "score": 88.0,
+      "found_at": "2026-10-25T11:34:26.316463+00:00"
     },
     {
       "name": "Retro digicam / film-camera filter web app (Y2K & CCD look)",
@@ -2298,6 +2338,26 @@
       "found_at": "2026-10-25T01:29:17.157967+00:00"
     },
     {
+      "name": "Haircut & Colour Simulator with Face-Shape Guide",
+      "field": "Beauty / personal styling",
+      "summary": "A web tool that applies realistic hairstyles and colours to a selfie, compares looks side by side, and produces a face-shape, colour-palette and salon brief.",
+      "why_now": "AI Hairstyle Try On & Color has about 2.5M installs, 419K monthly active users and $50K+ estimated monthly revenue. Hairisi and Beautix each show roughly 500K-1M downloads per month, but Beautix monetises under $5K per month, exposing a large usage-to-payment gap.",
+      "monetization": "Free three previews per day; $6.99 per week or $29.99 per year for unlimited styles, HD exports and side-by-side comparisons; salon booking and product affiliate revenue.",
+      "evidence": [
+        "https://www.appgoblin.info/apps/com.tryon.haircolor.aihairstyle",
+        "https://appgazers.com/reports/apps/android-com.hairstyle.tryon.haircolor.ai",
+        "https://peekly.app/apps/3d6698c9-c76e-48f1-9280-5af5b6481cec",
+        "https://appinsider.io/android/app/com.hairstyle.tryon.haircolor.ai"
+      ],
+      "how_searched": [
+        "Peekly beauty and hairstyle app leaderboards",
+        "AppGoblin, AppGazers and AppInsider hair-try-on analytics",
+        "Google Play and App Store category ranking checks"
+      ],
+      "score": 85.0,
+      "found_at": "2026-10-25T11:34:27.695286+00:00"
+    },
+    {
       "name": "AI Video Generation & Editing for Short-Form",
       "field": "Creator Economy / AI Media",
       "summary": "Tools that generate or edit short-form videos (Reels, TikToks, Shorts) from text, audio, or long-form source — auto-clipping, captioning, reframing, hook detection, and multi-platform publishing.",
@@ -2748,6 +2808,26 @@
       ],
       "score": 84.0,
       "found_at": "2026-10-24T11:02:41.638511+00:00"
+    },
+    {
+      "name": "Cross-AI Chat Search & Export Workspace",
+      "field": "AI productivity / knowledge management",
+      "summary": "A local-first browser extension or web workspace that indexes ChatGPT, Claude, Gemini and Grok conversations, adds folders, full-text search, prompt libraries and bulk export.",
+      "why_now": "AI Toolbox reports about $20K-$22K in the last 30 days, 40K+ installs, roughly 47K monthly active users and 1,700+ paying customers. Growth is organic because no AI vendor will index its competitors' chat histories.",
+      "monetization": "Free for 100 conversations; $9.99 per month or $79 lifetime per platform, $199 all-access; $12 per seat per month for shared prompts, admin and analytics.",
+      "evidence": [
+        "https://trustmrr.com/startup/ai-toolbox",
+        "https://1m.chat/cases/ai-toolbox/",
+        "https://www.indiehackers.com/post/tech/leveraging-a-marketplace-and-existing-user-bases-to-hit-a-5-figure-mrr-in-two-years-ltsw3AYvsvslFIYZtYZG",
+        "https://newsletter.aistartup.co/p/the-32-ai-tool-that-now-makes-10k-a-month"
+      ],
+      "how_searched": [
+        "TrustMRR payment-verified revenue leaderboard",
+        "Indie Hackers and AI Startup founder interviews",
+        "Chrome Web Store demand and Product Hunt checks"
+      ],
+      "score": 84.0,
+      "found_at": "2026-10-25T11:34:29.581563+00:00"
     },
     {
       "name": "Self-Hosted Workflow Automation for AI Agents (n8n-style)",
@@ -3567,6 +3647,26 @@
       ],
       "score": 82.0,
       "found_at": "2026-10-25T01:29:18.776750+00:00"
+    },
+    {
+      "name": "Conversation-First Language Tutor",
+      "field": "Education / language learning",
+      "summary": "A voice-first web tutor for roleplays, pronunciation feedback, grammar correction and spaced review, with scenario packs for travel, work and exams.",
+      "why_now": "Third-party estimates put Talkpal at roughly $306K-$312K per month, and its Android listing shows 6.3M installs and 109K ratings. Revenue is large enough to support a focused speaking-practice alternative instead of another generic chat tutor.",
+      "monetization": "Free 10 minutes per day; $12.99-$19.99 per month for unlimited voice practice, scenario packs and pronunciation reports; school and employer licences.",
+      "evidence": [
+        "https://www.airbridge.io/en/app-revenue/talkpal",
+        "https://www.alphamoat.ai/en/app/talkpal-14877355",
+        "https://www.appbrain.com/app/talkpal-ai-language-learning/ai.talkpal",
+        "https://screensdesign.com/showcase/talkpal-ai-language-learning"
+      ],
+      "how_searched": [
+        "Airbridge and AlphaMoat app-revenue teardowns",
+        "AppBrain install and rating checks",
+        "Education category rankings and Meta ad-library checks"
+      ],
+      "score": 82.0,
+      "found_at": "2026-10-25T11:34:30.936669+00:00"
     },
     {
       "name": "AI SDR & Autonomous Sales Agents",
@@ -5281,6 +5381,26 @@
       "found_at": "2026-10-25T01:29:34.456695+00:00"
     },
     {
+      "name": "Digital Closet & Outfit Planner",
+      "field": "Fashion / lifestyle",
+      "summary": "Build a closet from camera-roll screenshots, auto-segment garments, generate outfits by occasion, weather and colour, and preview looks on a personalised avatar.",
+      "why_now": "Aesty reports $10K MRR from 688 paying subscribers and $121K ARR, payment-verified through RevenueCat. Its founder's own data shows users complete 23-32 try-ons per month, so retention and closet setup, not raw acquisition, are the weak points to exploit.",
+      "monetization": "Free 30-item closet; $9.99 per month or $59 per year for unlimited items, outfit calendar and avatar try-on; affiliate links for missing pieces.",
+      "evidence": [
+        "https://trustmrr.com/startup/aesty",
+        "https://ideawave.io/startup/aesty",
+        "https://www.whatsthe.app/aesty",
+        "https://medium.com/@zueva.nn/virtual-try-on-isnt-a-shopping-tool-9-324-try-ons-say-it-s-a-daily-habit-c41cc37c61df"
+      ],
+      "how_searched": [
+        "TrustMRR and IdeaWave payment-verified revenue checks",
+        "HackerMRR and founder product-analytics posts",
+        "App Store, RevenueCat and outfit-try-on behavior data"
+      ],
+      "score": 77.0,
+      "found_at": "2026-10-25T11:34:32.114855+00:00"
+    },
+    {
       "name": "AI Content Repurposing (Long-Form → Short-Form)",
       "field": "Creator Economy / MarTech",
       "summary": "Platform that ingests one long-form video/podcast/webinar and automatically outputs dozens of platform-optimized clips, captions, blog posts, newsletters, and social threads — with scheduling and publishing.",
@@ -6111,134 +6231,6 @@
       ],
       "score": 75.0,
       "found_at": "2026-10-21T10:33:19.486187+00:00"
-    },
-    {
-      "name": "Founder-Friendly Bookkeeping Lite (QuickBooks Alternative)",
-      "field": "Small-Business Accounting",
-      "summary": "A simple, low-priced accounting and bookkeeping tool aimed at startup founders and solo operators who find QuickBooks too heavy, with clean invoicing, expense categorization and tax-ready exports.",
-      "why_now": "Fina Business ('the flexible $20/mo QuickBooks alternative for founders') pulled 266 votes on Product Hunt in October 2026; vertical landlord-finance platform Baselane (adjacent proof of the 'boring finance for X' wedge) reached $25.8M estimated annual revenue and 50,000+ real estate investors with a $34.4M raise and 900% growth since Series A; the bank-statement-converter case shows bookkeepers will pay $40/mo for narrow financial document tools.",
-      "monetization": "Low monthly subscription (~$20/mo per Fina's positioning); Baselane monetizes via banking fees, $2 ACH rent processing, 3.49% card fees and Baselane Smart subscription. Fina's exact revenue not disclosed (null).",
-      "evidence": [
-        "https://launchindex.ai/month/2026-10",
-        "https://www.baselane.com/resources/baselane-announces-34m-in-new-funding-to-invest-in-customers",
-        "https://finance.yahoo.com/news/baselane-announces-34m-funding-debuts-130000446.html"
-      ],
-      "how_searched": [
-        "Product Hunt / Launch Index monthly rankings",
-        "Company funding press release",
-        "Yahoo Finance / PR Newswire"
-      ],
-      "score": 75.0,
-      "found_at": "2026-10-22T05:00:39.435501+00:00"
-    },
-    {
-      "name": "AI Certification/Exam Platform (Self-Serve)",
-      "field": "EdTech / Workforce",
-      "summary": "Self-serve platform for organizations to create, deliver, and proctor legally defensible certification exams using AI-assisted authoring, blueprinting, item generation, and review. $249/mo platform fee + per-exam delivery ($16-28/hr). Cuts legacy vendor costs 80%+.",
-      "why_now": "Certiverse raised $16M total ($11M Series A Mar 2025). Exploding Topics: +9,000% search growth (1,600/mo). Self-Starter tier launched Oct 15 2026. Estimated $4-10M ARR. IDC projects 90% of enterprises face AI skills gaps by end of 2026. Customers run 10-12 exams/year without added headcount.",
-      "monetization": "Platform subscription ($249/mo Self-Starter, custom Enterprise) + per-exam delivery fees (AI-assisted $16/hr, live proctored $28/hr). Volume discounts at scale. Aligned incentives: revenue grows when clients' exams succeed.",
-      "evidence": [
-        "https://explodingtopics.com/exploding-topics",
-        "https://techcrunch.com/2025/03/27/certification-platform-certiverse-nabs-11m-series-a-led-by-cherryrock/",
-        "https://blog.certiverse.com/certiverse-launches-self-starter",
-        "https://explore.certiverse.com/pricing",
-        "https://leadiq.com/c/certiverse/5ee37ac82fd07506cb2bb45c"
-      ],
-      "how_searched": [
-        "Exploding Topics search trend data",
-        "TechCrunch funding announcement",
-        "Company blog launch announcement",
-        "Public pricing page",
-        "Revenue estimation services"
-      ],
-      "score": 75.0,
-      "found_at": "2026-10-23T22:22:24.436318+00:00"
-    },
-    {
-      "name": "Free AI Invoice / Receipt Parser for Expense Tracking (Web Tool)",
-      "field": "Fintech / Personal Finance / SMB Tools",
-      "summary": "A free, privacy-first web tool: drag & drop PDF/image receipts or invoices → OCR + LLM extracts vendor, date, amount, tax, line items, category → exports CSV/JSON/Excel for Excel, QuickBooks, Xero, Notion. Client-side processing option (WebAssembly OCR) for zero-upload privacy. No signup, unlimited files.",
-      "why_now": "\"PDF Bank Statement to Spreadsheet Converter\" listed in ALREADY KNOWN but receipt/invoice parsing for expense tracking is distinct; Expensify/Concur/Ramp target enterprises; freelancers/SMBs need free lightweight tool; OCR + LLM accuracy now viable (GPT-4o vision, Claude 3.5 Sonnet); Chrome extension \"Receipts\" and mobile apps exist but no dominant free web tool; Tax season drives seasonal spikes (Jan–Apr).",
-      "monetization": "Free core: unlimited parsing, CSV export, client-side mode. Pro $9/mo: bank-statement reconciliation, multi-currency, accounting-software sync (QuickBooks/Xero API), team folders, audit-ready PDF bundles. B2B expense tools (Ramp, Brex) monetize via interchange; consumer side can use SaaS subscription.",
-      "evidence": [
-        "https://trustmrr.com/startup/socrates",
-        "https://zplatform.ai/best-ai-tools/ai-chrome-extensions/",
-        "https://www.starterstory.com/businesses/postiz/revenue"
-      ],
-      "how_searched": [
-        "Verified revenue database (TrustMRR - Socrates document analysis $22 MRR shows low end)",
-        "Chrome extension market data (zPlatform.ai - document/PDF tools category)",
-        "Adjacent proven model (Postiz open-source $307K MRR for social media)"
-      ],
-      "score": 75.0,
-      "found_at": "2026-10-24T01:03:21.504279+00:00"
-    },
-    {
-      "name": "AI Agent Orchestration Dashboard (Free Web Tool)",
-      "summary": "A browser-based control plane for managing multiple AI agents: unified chat interface, cost/token tracking per agent, fallback routing, shared memory/context, and approval gates for sensitive actions. Connects to Claude Code, Codex, OpenCode, and custom MCP servers.",
-      "field": "Developer Tools / AI Infrastructure / AgentOps",
-      "why_now": "Massive enterprise tailwind: AI agent orchestration market $13.7B (23% CAGR), agentic AI platform market $10.3B (46% CAGR). Salesforce Agentforce $800M ARR (+169% YoY). Virtuals Protocol $2.63M/mo protocol revenue (18K agents, 1.77M jobs). Workato $150M ARR (enterprise iPaaS for agents). SMB segment 'largely underpenetrated' — 8% of market in 2025, projected 22% by 2028 (Research Intelo). LLM Gateway proves dev demand ($79K MRR, 714 paying customers). Composio Instant, Pancake, Velozity, BAND all launched on Product Hunt Oct 2026.",
-      "monetization": "Free: 3 agents, basic monitoring, local storage. Pro $49/mo: unlimited agents, cloud sync, cost alerts, fallback chains, team workspaces. Enterprise $299/mo: SSO, audit logs, custom policies, on-prem option, SLA. Usage-based: $0.001/agent-action above threshold. Marketplace for agent templates (30% cut).",
-      "evidence": [
-        "https://dimensionmarketresearch.com/report/ai-agent-orchestration-platform-market/",
-        "https://marqstats.com/reports/agentic-ai-platform-market",
-        "https://businessquarter.co.uk/salesforce-unifies-agentexchange-for-enterprise-ai/",
-        "https://dev.to/neilvolner/the-complete-guide-to-ai-agent-marketplaces-in-2026-where-agents-get-hired-and-paid-8ja",
-        "https://www.linkedin.com/company/workato",
-        "https://researchintelo.com/report/ai-agent-orchestration-infrastructure-market",
-        "https://milestonewins.com/stories/llm-gateway-story/",
-        "https://www.producthunt.com/leaderboard/monthly/2026/10"
-      ],
-      "how_searched": [
-        "Market research reports (Dimension, Marqstats, Research Intelo)",
-        "Business news (Business Quarter) with Salesforce ARR disclosure",
-        "Dev.to guide with Virtuals Protocol on-chain revenue data",
-        "LinkedIn company financials (Workato $150M ARR)",
-        "Founder blog / MilestoneWins with TrustMRR-verified LLM Gateway revenue",
-        "Product Hunt monthly leaderboard (Oct 2026 agent launches)"
-      ],
-      "score": 75.0,
-      "found_at": "2026-10-24T23:30:39.618440+00:00"
-    },
-    {
-      "name": "AI Knowledge Graph / GraphRAG Builder",
-      "field": "Data / AI Infrastructure",
-      "summary": "Free web tool: upload docs (PDF, MD, TXT), auto-build a knowledge graph (entities, relationships), query it in natural language, visualize the graph, export as GraphRAG-ready format.",
-      "why_now": "Microsoft GraphRAG 18K★ (+90/day). LightRAG 35K★. Graphiti 26K★. Exploding Topics: 'RAG with Graph' top theme 2024. Stripe AI economy: vertical specialization rising.",
-      "monetization": "Free: 10 docs, 100 queries/mo. Pro $49-149/mo: unlimited, graph visualization, API, team, custom schema. Enterprise RAG tools (Glean $165M Series D) validate.",
-      "evidence": [
-        "https://github.com/microsoft/graphrag",
-        "https://github.com/HKUDS/LightRAG",
-        "https://explodingtopics.com/blog/saas-trends"
-      ],
-      "how_searched": [
-        "GitHub Trending (star velocity)",
-        "Exploding Topics (trend classification)",
-        "Stripe AI Economy Report (vertical AI)"
-      ],
-      "score": 75.0,
-      "found_at": "2026-10-25T01:29:30.330197+00:00"
-    },
-    {
-      "name": "Chat-first personal AI assistant (web app)",
-      "field": "Consumer AI / personal agents",
-      "summary": "A free web tool where users text or type tasks (research, organise, shop/reserve, schedule) to a personal agent that does them end-to-end in the browser.",
-      "why_now": "This is the single fastest-moving consumer category right now: Meta's Muse hit 5M downloads in 22 days (Fastest since ChatGPT), Instinct passed 100,000 users in 3 weeks and claims ~$1B annualized transaction volume, and OpenAI launched 'Dots' in October.",
-      "monetization": "Subscription ($20/$100 per month at Muse; ChatGPT/Claude ~$20-100 tiers) moving toward transaction/affiliate fees as agents make purchases attributable to them.",
-      "evidence": [
-        "https://www.a16z.news/p/top-100-consumer-ai-apps-seventh",
-        "https://techstartups.com/2026/10/01/metas-muse-ai-hits-5-million-downloads-in-22-days-outpacing-chatgpt-grok-and-claude/",
-        "https://www.producthunt.com/leaderboard/daily/2026/10/1",
-        "https://www.producthunt.com/leaderboard/daily/2026/10/3"
-      ],
-      "how_searched": [
-        "VC/market report (a16z Top 100)",
-        "tech news (TechStartups/Sensor Tower data)",
-        "launch site (Product Hunt)",
-        "app-store chart analysis"
-      ],
-      "score": 74.0,
-      "found_at": "2026-10-07T23:12:52.157584+00:00"
     }
   ]
 }
