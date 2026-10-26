@@ -1,6 +1,26 @@
 {
   "items": [
     {
+      "name": "Pancake (Vercel for GTM / Agentic GTM Infrastructure)",
+      "field": "GTM/Marketing Automation + AI Agents",
+      "summary": "Infrastructure that lets AI agents run go-to-market: GTM brain from website, 40+ data providers/enrichment, sending infrastructure, MCP for Claude/Codex. Deploys Plays that find leads and follow up autonomously.",
+      "why_now": "Product Hunt #1 (Oct 2026), hit ~$200K ARR in under 5 weeks; onboarding ~20 companies/day in beta; founders report $30K MRR with ~2 hours/week human management and $80 CAC using agent-run GTM. Strong shift toward agent-executed GTM.",
+      "monetization": "SaaS from $99/month/workspace with credits; expanding to higher tiers as usage grows. Reported trajectory toward $1M ARR in weeks.",
+      "evidence": [
+        "https://www.producthunt.com/products/pancake-6",
+        "https://www.arr.club/signal/pancake-hit-200k-arr-in-under-5-weeks",
+        "https://getpancake.ai/blog/autonomous-company-benchmark-2026",
+        "https://www.linkedin.com/company/get-pancake"
+      ],
+      "how_searched": [
+        "Product Hunt leaderboards (Oct 2026)",
+        "ARR Club revenue signals",
+        "Company blog/LinkedIn"
+      ],
+      "score": 98.0,
+      "found_at": "2026-10-26T23:55:56.173996+00:00"
+    },
+    {
       "name": "Tally (no-code form builder)",
       "field": "Forms / no-code",
       "summary": "Bootstrapped form builder with a generous free tier; 2.5M users and $6M ARR from subscriptions.",
@@ -258,6 +278,24 @@
       ],
       "score": 94.0,
       "found_at": "2026-10-24T20:52:07.006612+00:00"
+    },
+    {
+      "name": "AI Interior Design / Room Redesign (Web Tool Opportunity)",
+      "field": "Consumer AI / Home Design",
+      "summary": "Photo upload + style selection + AI redesign for rooms/exteriors/gardens with furniture replacement, declutter, material previews. Proven mobile demand with large revenues; opportunity as free web tool with different UX/positioning.",
+      "why_now": "DecAI/Home AI type apps generate significant revenue ($100K-$900K/month reported across platforms) with huge MAU; competition is mostly mobile apps with credits/paywalls. Web-first free tool with better SEO/embeds could capture demand.",
+      "monetization": "Freemium credits, subscriptions, affiliate to furniture/paint, lead gen for contractors/designers. Multiple revenue models proven by incumbents.",
+      "evidence": [
+        "https://appgoblin.info/apps/ai.interior.design.home.renovation.app",
+        "https://peekly.app/apps/dd053e1b-f4e2-4ca4-a250-5fcbe437b22c",
+        "https://fluxbuilder.com/explore/decai-ai-home-design/"
+      ],
+      "how_searched": [
+        "App store revenue analytics (AppGoblin/Peekly/FluxBuilder)",
+        "AI consumer app revenue trends"
+      ],
+      "score": 94.0,
+      "found_at": "2026-10-26T23:55:58.703214+00:00"
     },
     {
       "name": "Dropkiller",
@@ -6175,47 +6213,6 @@
       ],
       "score": 76.0,
       "found_at": "2026-10-22T19:23:52.430069+00:00"
-    },
-    {
-      "name": "Private AI journal with portable long-term memory",
-      "field": "Consumer AI wellness and journaling",
-      "summary": "Free privacy-first journaling web app with daily prompts, voice entries, pattern insights, and exportable memory, positioned as the free alternative after Rosebud removed its free tier.",
-      "why_now": "Rosebud retired its free plan on 30 September 2026 and now charges $12.99 per month or $107.99 per year. Peekly estimates Rosebud still makes about $100,000 per month from under 5,000 downloads per month, showing strong willingness to pay in a category whose free option just disappeared.",
-      "monetization": "Freemium with a $6 to $8 monthly premium tier; discounted annual plan; optional coach or therapist referrals; no advertising by default.",
-      "evidence": [
-        "https://help.rosebud.app/account/changes-to-the-free-plan",
-        "https://peekly.app/apps/d09d09b9-e715-45ae-b67a-412e902dfe55",
-        "https://techcrunch.com/2025/06/04/rosebud-lands-6m-to-scale-its-interactive-ai-journaling-app/",
-        "https://www.reflection.app/blog/ai-journaling-apps-compared"
-      ],
-      "how_searched": [
-        "Rosebud free plan retired 2026",
-        "AI journal app revenue",
-        "AI journaling competitors 2026"
-      ],
-      "score": 76.0,
-      "found_at": "2026-10-23T13:34:55.666835+00:00"
-    },
-    {
-      "name": "Website Design Measurement & AI Prompt Extraction",
-      "field": "Design Tools / Developer Tools",
-      "summary": "Safari extension that measures any website's design (colors with roles, type scale, spacing, corners, layout) and exports one exact prompt + DESIGN.md + Tailwind theme + Cursor rule + Claude Skill for coding agents to build new pages in that style. $19.99 one-time.",
-      "why_now": "Siteprint launched Oct 4 2026, #9 Product of the Day (107 score). Free tier includes inspection, token export, library. Pro adds unlimited prompts, DESIGN.md, themes, Compose (mix two sites), MCP server for direct agent access. Works on logged-in/JS-rendered pages.",
-      "monetization": "One-time $19.99 Pro (no subscription). Free tier drives adoption; Pro unlocks agent integration (MCP), Compose, unlimited exports. Low support burden, high margin. Expandable to Chrome/Figma/web version.",
-      "evidence": [
-        "https://siteprint.app/",
-        "https://www.producthunt.com/products/siteprint",
-        "https://siteprint.app/mcp/",
-        "https://siteprint.app/design-prompt-generator/"
-      ],
-      "how_searched": [
-        "Product Hunt launch data",
-        "Live product website and free tool",
-        "MCP integration documentation",
-        "Free design prompt generator demo"
-      ],
-      "score": 76.0,
-      "found_at": "2026-10-23T22:22:22.233802+00:00"
     }
   ]
 }
