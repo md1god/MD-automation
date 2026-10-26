@@ -1735,6 +1735,27 @@
       "found_at": "2026-10-24T06:11:26.335994+00:00"
     },
     {
+      "name": "RemediatePDF",
+      "field": "Accessibility / RegTech",
+      "summary": "A free browser-based PDF accessibility checker that diagnoses WCAG/EN 301 549 failures and sells an affordable self-serve remediation workflow for SMEs, banks, insurers, and public-sector suppliers.",
+      "why_now": "The European Accessibility Act has applied since 28 June 2025 and covers PDFs that carry information about consumer services. A 2026 CAAT study of about 70,000 public-sector PDFs found fewer than 10% met auto-testable accessibility requirements, while ComplyLoft already charges €500–€1,500/month for remediation software.",
+      "monetization": "Freemium scan with paid remediation credits and team plans; ComplyLoft’s published pricing is €500/mo for Team and €1,500/mo for Business, showing willingness to pay.",
+      "evidence": [
+        "https://www.caat.report/en/blog/post/2026/announcement-caat-study-on-pdf-documents-in-the-public-sector",
+        "https://www.complyloft.com/accessibility/eaa/pdfs-and-documents",
+        "https://www.complyloft.com/pricing",
+        "https://pac.pdf-accessibility.org/en"
+      ],
+      "how_searched": [
+        "Accessibility compliance research",
+        "Government/regulatory guidance",
+        "Competitor pricing pages",
+        "Industry PDF accessibility study"
+      ],
+      "score": 87.0,
+      "found_at": "2026-10-26T19:26:09.300196+00:00"
+    },
+    {
       "name": "AI Presentation / Deck Generator (Gamma-model)",
       "field": "Productivity - presentation & visual-storytelling software",
       "summary": "A free web tool that turns a topic, prompt, or pasted document into a fully designed slide deck / web-native presentation in seconds. Users type an idea, pick a style, and get editable slides, matching layouts and images.",
@@ -2514,6 +2535,25 @@
       "found_at": "2026-10-25T11:34:27.695286+00:00"
     },
     {
+      "name": "PeptideDock",
+      "field": "Digital health / medication tracking",
+      "summary": "A free web tracker for GLP-1 and peptide protocols with dose logging, side-effect tracking, injection-site rotation, and oral-pill support, designed to work without an app-store download.",
+      "why_now": "The category already has 45 apps, two doing over $20K/month, with 33 launched in the last 18 months; Pep AI reached $60K MRR. In the peptide-tracker niche, 7 of 18 newcomers cleared 50 ratings, median top price is $59.99, and 5 of 5 top apps use in-app purchases, showing demand but still-open keyword gaps.",
+      "monetization": "Freemium subscriptions for protocol history, reminders, exports, and caregiver sharing; top peers earn $20K+/month and Pep AI reports $60K MRR.",
+      "evidence": [
+        "https://www.appaloma.com/research/glp1-companions",
+        "https://nichestillopen.com/market/app-store-us/peptide-tracker/",
+        "https://www.mrrstory.com/stories/he-got-his-first-100-users-from-one-reddit-post-now-hit-60k-mrr"
+      ],
+      "how_searched": [
+        "App-store revenue analytics",
+        "App niche and review research",
+        "Founder MRR case study"
+      ],
+      "score": 85.0,
+      "found_at": "2026-10-26T19:26:11.276063+00:00"
+    },
+    {
       "name": "AI Video Generation & Editing for Short-Form",
       "field": "Creator Economy / AI Media",
       "summary": "Tools that generate or edit short-form videos (Reels, TikToks, Shorts) from text, audio, or long-form source — auto-clipping, captioning, reframing, hook detection, and multi-platform publishing.",
@@ -3004,6 +3044,25 @@
       ],
       "score": 84.0,
       "found_at": "2026-10-25T19:45:18.414316+00:00"
+    },
+    {
+      "name": "AllergenLens",
+      "field": "Food safety / consumer health",
+      "summary": "A free tool that scans restaurant menus or uploaded menu photos for the top nine allergens, flags cross-contact risks, and generates a concise order script for diners.",
+      "why_now": "Allergy-safe menu scanning shows 43,570 monthly searches, an 8,200/10k opportunity score, a competition gap of 86, only 10 page-one products, $2.72 CPC, and 18.6% three-month growth. California SB 68 took effect in July 2026, requiring 20+ location brands to disclose major allergens.",
+      "monetization": "Freemium consumer scans plus restaurant compliance subscriptions for menu auditing and allergen-disclosure workflows; the allergy-scanner market is estimated at $468.44M in 2025 growing 13.7% annually to $1.48B by 2034.",
+      "evidence": [
+        "https://unbuilt.software/topics/allergy-safe-menu-scanning",
+        "https://foodondemand.com/08122026/allergy-compliance-tech-emerges-as-guest-acquisition-tool/",
+        "https://www.datainsightsreports.com/reports/allergy-restaurant-scanner-app-market-309098"
+      ],
+      "how_searched": [
+        "Search-demand opportunity database",
+        "Food-industry regulation news",
+        "Market research report"
+      ],
+      "score": 84.0,
+      "found_at": "2026-10-26T19:26:15.088695+00:00"
     },
     {
       "name": "Self-Hosted Workflow Automation for AI Agents (n8n-style)",
@@ -4632,6 +4691,25 @@
       "found_at": "2026-10-25T01:29:19.781262+00:00"
     },
     {
+      "name": "DDSVault",
+      "field": "Supply-chain compliance / RegTech",
+      "summary": "A low-cost EUDR evidence workspace for small importers that collects supplier geolocation and legality documents, runs risk checks, stores audit evidence for five years, and prepares due-diligence statements for TRACES.",
+      "why_now": "EUDR obligations begin 30 December 2026 for large/medium operators and micro/small timber businesses, and 30 June 2027 for remaining micro/small operators. Ten of 14 compared EUDR tools publish no prices, and smaller-company contracts run about €6,000–€40,000/year, leaving a gap for transparent self-serve pricing.",
+      "monetization": "Monthly SaaS tiers with supplier limits and filing credits; EUDRReady already validates €29–€79/month SME pricing, while enterprise tools run €12,000–€150,000+/year.",
+      "evidence": [
+        "https://eudrready.eu/eudr-software-small-business/",
+        "https://environment.ec.europa.eu/topics/forests/deforestation/regulation-deforestation-free-products_en",
+        "https://polygon-one.com/en/article-eudr-software-comparison"
+      ],
+      "how_searched": [
+        "Regulatory official EU pages",
+        "SME compliance software comparison",
+        "Vendor pricing research"
+      ],
+      "score": 80.0,
+      "found_at": "2026-10-26T19:26:16.479499+00:00"
+    },
+    {
       "name": "Embeddable AI Agent / Copilot for SaaS",
       "field": "DevTools / SaaS Infrastructure",
       "summary": "Drop-in AI agent (one line of code) that lets end-users control any SaaS via natural language — turning clicks into conversations, with scoped permissions, audit logs, and model-agnostic deployment.",
@@ -6138,88 +6216,6 @@
       ],
       "score": 76.0,
       "found_at": "2026-10-23T22:22:22.233802+00:00"
-    },
-    {
-      "name": "AI API Documentation & Testing Playground",
-      "field": "Developer Tools",
-      "summary": "Free web tool: paste an OpenAPI/Swagger spec or GraphQL schema, get interactive docs, auto-generated SDK snippets, mock server, and contract testing — all in one browser tab.",
-      "why_now": "Treblle 3.0 584 upvotes Product Hunt Oct 2024 ('Build, ship, govern APIs'). Nango Auth 599 upvotes ('Free OAuth for 250+ APIs'). APIPark 735 upvotes ('Open source AI gateway'). Postman alternatives trending on GitHub.",
-      "monetization": "Free for public APIs. $19-49/mo for private specs, team workspaces, contract testing CI/CD, analytics. Postman valued $5.6B; Stoplight/Redocly show strong SaaS metrics.",
-      "evidence": [
-        "https://www.producthunt.com/leaderboard/weekly/2024/43",
-        "https://github.com/trending",
-        "https://hunted.space/top-products/2024/October"
-      ],
-      "how_searched": [
-        "Product Hunt Weekly Leaderboard",
-        "GitHub Trending (API tools)",
-        "Hunted.space Rankings"
-      ],
-      "score": 76.0,
-      "found_at": "2026-10-25T01:29:24.812936+00:00"
-    },
-    {
-      "name": "AI Contract Review & Redline Assistant",
-      "field": "Legal Tech",
-      "summary": "Free web tool: upload a contract (PDF/DOCX), get instant risk highlights (liability, IP, termination, auto-renew), plain-English explanations, and suggested redlines — optimized for non-lawyers.",
-      "why_now": "Ironclad/ContractPodAI raised $100M+. GPT-4 passes bar exam (90th percentile). Legal tech AI funding surged 2024. No free web tool exists for SMB contract review. Reddit: 'legal review too expensive for small deals'.",
-      "monetization": "Free: 3 contracts/mo. Pro $29-79/mo: unlimited, playbook customization, clause library, team review, e-sign integration. Lawgeex/Spellbook charge $100-500/mo.",
-      "evidence": [
-        "https://www.cbinsights.com/esp/enterprise-tech/enterprise-applications/customizable-ai-agents",
-        "https://www.reddit.com/r/Entrepreneur/comments/1ap9flc/",
-        "https://a16z.com/vsaas-vertical-saas-ai-opens-new-markets/"
-      ],
-      "how_searched": [
-        "CB Insights Market Map",
-        "Reddit Pain Point Threads",
-        "a16z Vertical SaaS Analysis"
-      ],
-      "score": 76.0,
-      "found_at": "2026-10-25T01:29:34.088801+00:00"
-    },
-    {
-      "name": "Invoice & AP Automation (AI-First)",
-      "field": "Fintech / B2B SaaS",
-      "summary": "End-to-end invoice processing: email/file intake → AI extraction (line items, PO matching) → validation → ERP/accounting sync → approval workflow → payment — with KPI dashboards (cost/invoice, cycle time, touchless rate).",
-      "why_now": "Parseur: $1.2M ARR, 60% YoY. Market: $2.78B→$9.18B at 14.2% CAGR (Gennai). 75% AP depts use automation but only 8% fully automated (Medius). 68% still manually key data (DocuClipper). E-invoicing mandates live across EU/ME (Belgium 1M+ Peppol). Best-in-class cost/invoice $2.78 vs avg $12.88 (78% gap = $60K/yr savings at 500/mo).",
-      "monetization": "Per-page/page-volume pricing (Parseur), per-invoice, or seat-based. Plans from $29/mo (250 invoices) to enterprise. High stickiness: embedded in finance workflows. Expansion via multi-entity, approval chains, payment integration.",
-      "evidence": [
-        "https://boringcashcow.com/view/bootstrapped-document-parsing-tool-generates-40000-per-month",
-        "https://www.prnewswire.com/news-releases/ai-powered-data-extraction-platform-parseur-achieves-60-year-over-year-growth-302605477.html",
-        "https://www.gennai.io/blog/state-of-invoice-automation-2026-report",
-        "https://parseur.com/use-case/ai-invoice-processing",
-        "https://parseur.com/blog/grandfathering-b2b-saas"
-      ],
-      "how_searched": [
-        "Open revenue dashboards (BoringCashCow)",
-        "PRNewswire/LinkedIn",
-        "Market research (Gennai/SkyQuest/Grand View)",
-        "Competitor product & pricing pages",
-        "Company blog (pricing strategy)"
-      ],
-      "score": 75.0,
-      "found_at": "2026-10-07T03:59:36.619481+00:00"
-    },
-    {
-      "name": "AI ad-creative & UGC generator for marketers",
-      "field": "Marketing / Adtech",
-      "summary": "A free web tool that turns a product link or brief into ad creatives — static ads, hooks and UGC-style scripts — ready for paid campaigns.",
-      "why_now": "Melius raised $25M ($20M Series A led by CRV, $5M seed led by General Catalyst) announced Oct 6, 2026 to build 'agents for creative work'; 'UGC Creator' search growth is +8,600% in Exploding Topics' Oct 6, 2026 list; Upwork shows AI video generation & editing +329% and display advertising +26% YoY.",
-      "monetization": "Subscription/credit plans for creative teams; the market pays freelancers for exactly this work (Upwork display advertising +26%, AI video gen +329%) and VCs just funded standalone tools (Melius $25M).",
-      "evidence": [
-        "https://techcrunch.com/2026/10/06/ex-ramp-engineers-raise-20m-for-platform-melius-after-scrapping-their-first-product/",
-        "https://www.melius.com/blog/melius-seed-and-series-a",
-        "https://explodingtopics.com/blog/trending-topics",
-        "https://www.nasdaq.com/press-release/upworks-demand-skills-2026-demand-top-ai-skills-more-doubles-ai-embedded-everyday"
-      ],
-      "how_searched": [
-        "funding news (TechCrunch, Oct 6 2026)",
-        "company announcement blog (Melius)",
-        "search-trend tool (Exploding Topics 'UGC Creator')",
-        "freelance marketplace report (Upwork skills data)"
-      ],
-      "score": 75.0,
-      "found_at": "2026-10-08T03:07:43.568964+00:00"
     }
   ]
 }
