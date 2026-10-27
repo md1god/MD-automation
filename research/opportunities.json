@@ -1071,6 +1071,25 @@
       "found_at": "2026-10-24T23:30:14.602677+00:00"
     },
     {
+      "name": "Zernio (marketing infrastructure API for products/agents)",
+      "field": "Developer tools / marketing infra",
+      "summary": "One API covering social posting, ads, messaging, calls and analytics across 16+ platforms, built for developers and AI agents.",
+      "why_now": "Crossed $3M ARR in 13 months (bootstrapped, 8 people) with MRR of $365K in Sep 2026 (+31% MoM); now expanding to RCS, branded calling, pixels and commerce.",
+      "monetization": "SaaS tiers $19/$49/$999/mo plus usage; $3M ARR, $365K MRR, 500+ phone numbers issued in 2 weeks.",
+      "evidence": [
+        "https://www.indiehackers.com/post/tech/leaving-his-vc-backed-company-to-bootstrap-a-product-to-1m-arr-in-10-months-42RGhUiSGBTIdX6zLsaD",
+        "https://www.linkedin.com/posts/miquelpalet_we-just-crossed-3m-arr-in-13-months-zernio-activity-7498302504737214467-T-dh",
+        "https://zernio.com/blog/october-1-2026-product-updates"
+      ],
+      "how_searched": [
+        "Indie Hackers founder interview",
+        "LinkedIn founder post",
+        "Product blog updates"
+      ],
+      "score": 90.0,
+      "found_at": "2026-10-27T16:52:20.923719+00:00"
+    },
+    {
       "name": "AI Search Visibility / GEO Tracking Dashboard",
       "field": "Marketing / SEO / AI Visibility",
       "summary": "A free web dashboard that tracks brand citations, visibility %, position, and sentiment across ChatGPT, Perplexity, Gemini, Google AI Overviews, and Claude — with side-by-side organic vs AI traffic comparison to detect cannibalization (per Omio A/B test).",
@@ -1632,6 +1651,25 @@
       ],
       "score": 88.0,
       "found_at": "2026-10-25T19:45:15.451274+00:00"
+    },
+    {
+      "name": "ScriptMind (video URL to transcript/scripts)",
+      "field": "Content/creator tools",
+      "summary": "Paste a YouTube/TikTok/Instagram URL and get transcripts, subtitles, summaries, rewrites and SEO articles in seconds.",
+      "why_now": "Monthly visits jumped +371% to 340.6K in Sep 2026 (Similarweb via Turbo0), ranking #1 fastest-growing; 76% search-driven, freemium with paid plans.",
+      "monetization": "Freemium with Creator $6.42/mo and Growth $14.92/mo plans; credit packs; 60 free credits/mo.",
+      "evidence": [
+        "https://turbo0.com/collection/fastest-growing",
+        "https://probedex.ai/domain/scriptmind.co",
+        "https://indieai.directory/tools/scriptmind/"
+      ],
+      "how_searched": [
+        "Turbo0 fastest-growing ranking",
+        "Probedex traffic estimator",
+        "IndieAI directory"
+      ],
+      "score": 88.0,
+      "found_at": "2026-10-27T16:52:22.270059+00:00"
     },
     {
       "name": "Retro digicam / film-camera filter web app (Y2K & CCD look)",
@@ -2202,6 +2240,25 @@
       "found_at": "2026-10-25T22:58:04.882269+00:00"
     },
     {
+      "name": "OpenSEO (open-source Semrush/Ahrefs alternative)",
+      "field": "SEO tools",
+      "summary": "MIT-licensed front end + MCP server over DataForSEO: keyword research, backlinks, rank tracking, site audits, AI visibility, pay-as-you-go.",
+      "why_now": "GitHub stars rose from ~4K to ~20K+ in months; YC F26 ($500K); searches for 'openseo' rose from ~10 to ~2,900/mo; 3,000+ hosted users; 414 PH upvotes.",
+      "monetization": "Hosted $10/mo with 28% markup on DataForSEO calls; self-host free; agency usage up to ~$50/mo.",
+      "evidence": [
+        "https://solooperatorstack.com/blog/openseo-solo-founder-open-source-ahrefs-alternative/",
+        "https://unscriptedseo.com/ben-senescu-open-source-seo-99-ceiling/",
+        "https://www.ababnews.com/en/news/1a6798e0-ec32-4a84-9de7-dd45bf4f6cc6"
+      ],
+      "how_searched": [
+        "Solo founder blog",
+        "Founder interview",
+        "YC funding news"
+      ],
+      "score": 86.0,
+      "found_at": "2026-10-27T16:52:25.380328+00:00"
+    },
+    {
       "name": "Short-Form Video Intelligence & Analytics",
       "field": "Creator Economy / MarTech",
       "summary": "Real-time analytics platform for TikTok, Reels, Shorts that tracks viral trends, competitor performance, outlier detection, and content gaps — turning signals into scripts, briefs, and ad creative.",
@@ -2687,6 +2744,25 @@
       ],
       "score": 85.0,
       "found_at": "2026-10-26T19:26:11.276063+00:00"
+    },
+    {
+      "name": "Anakin (web data API + AI visibility/GEO)",
+      "field": "Developer tools / data API",
+      "summary": "One API for scraping, crawling, search and 940+ site actions, plus tracking brand mentions across ChatGPT, Gemini, Perplexity and Google AI Overview.",
+      "why_now": "Traffic up +379% to 112.4K visits in Sep 2026 (Turbo0 #1 growth); YC S21; pricing from free 300 credits to $100+/mo; strong GEO/AEO demand.",
+      "monetization": "Free 300 credits; Pro $19/mo, Scale $100/mo, LLM visibility $100-$4,500/mo; 50+ billion-dollar customers claimed.",
+      "evidence": [
+        "https://turbo0.com/item/anakin",
+        "https://anakin.io/",
+        "https://anakin.io/use-cases/llm-visibility"
+      ],
+      "how_searched": [
+        "Turbo0 fastest-growing ranking",
+        "Product site",
+        "Use-case docs"
+      ],
+      "score": 85.0,
+      "found_at": "2026-10-27T16:52:27.458579+00:00"
     },
     {
       "name": "AI Video Generation & Editing for Short-Form",
@@ -3200,6 +3276,25 @@
       "found_at": "2026-10-26T19:26:15.088695+00:00"
     },
     {
+      "name": "MelodySeek (find music from any video)",
+      "field": "Audio/music tools",
+      "summary": "Paste a TikTok/Reels/Shorts link, upload a file or record audio to identify the song in seconds, with streaming links.",
+      "why_now": "Visits up +1,125% to 49.8K in Sep 2026 (Turbo0 #1 growth in Audio Editing); 35% US traffic; ad-free, no login.",
+      "monetization": "One-time credit packs $2.99 (100) to $19.99 (2000); subscription ~$9.99/mo for 1,000 credits; freemium.",
+      "evidence": [
+        "https://turbo0.com/item/melodyseek",
+        "https://www.toolify.ai/tool/melodyseek",
+        "https://rightaichoice.com/tools/melodyseek"
+      ],
+      "how_searched": [
+        "Turbo0 fastest-growing ranking",
+        "Tool directory traffic data",
+        "Viability monitor"
+      ],
+      "score": 84.0,
+      "found_at": "2026-10-27T16:52:29.324352+00:00"
+    },
+    {
       "name": "Self-Hosted Workflow Automation for AI Agents (n8n-style)",
       "field": "DevTools / AI Infrastructure",
       "summary": "Fair-code / open-source workflow automation platform that technical teams self-host for free (unlimited executions) to build AI agent pipelines, RAG, and multi-step automations — with paid cloud/enterprise for governance, SSO, and managed infrastructure.",
@@ -3485,6 +3580,25 @@
       ],
       "score": 83.0,
       "found_at": "2026-10-25T19:45:20.379366+00:00"
+    },
+    {
+      "name": "Inbox Zero (open-source Superhuman alternative)",
+      "field": "Email productivity",
+      "summary": "Open-source AI email client for Gmail/Outlook with labeling, drafts, cold-email blocking and bulk unsubscribe; AGPL, self-hostable.",
+      "why_now": "12.8K GitHub stars, 25K+ signups, $10K+/mo MRR; Oct 2026 PH launch #1 of the day (379 upvotes) for new mail client; open-source trust demand.",
+      "monetization": "Hosted assistant/client $18-$42/user/mo; ~$10K+ MRR, ~$330K/yr estimate (Latka).",
+      "evidence": [
+        "https://aiolum.com/story/inbox-zero/",
+        "https://www.starterstory.com/stories/inbox-zero",
+        "https://www.getinboxzero.com/best-superhuman-alternative"
+      ],
+      "how_searched": [
+        "Revenue aggregator profile",
+        "Founder interview",
+        "Product comparison page"
+      ],
+      "score": 83.0,
+      "found_at": "2026-10-27T16:52:30.134310+00:00"
     },
     {
       "name": "Buyer-intent finder for Reddit / X / HN",
@@ -4074,6 +4188,25 @@
       ],
       "score": 82.0,
       "found_at": "2026-10-25T11:34:30.936669+00:00"
+    },
+    {
+      "name": "ZocialComment (social comment exporter)",
+      "field": "Data/marketing tools",
+      "summary": "Export comments from TikTok, Instagram, YouTube, Reddit, Facebook, X, Threads and more to CSV/Excel/JSON; no signup, first 100 free.",
+      "why_now": "Listed as new & fast-growing on Turbo0; 10.5K users, 2.5M comments exported in 30 days; pay-as-you-go passes; Chrome extension launched Jul 2026.",
+      "monetization": "Free first 100 comments; $9 3-day unlimited pass; $39 Pro pass; $1 per 100 comments; AI/audience analysis add-ons.",
+      "evidence": [
+        "https://turbo0.com/collection/fastest-growing",
+        "https://zocialcomment.com/",
+        "https://zocialcomment.com/export/tiktok"
+      ],
+      "how_searched": [
+        "Turbo0 fastest-growing ranking",
+        "Product site stats",
+        "Platform export page"
+      ],
+      "score": 82.0,
+      "found_at": "2026-10-27T16:52:32.822053+00:00"
     },
     {
       "name": "AI SDR & Autonomous Sales Agents",
@@ -4845,6 +4978,25 @@
       "found_at": "2026-10-26T19:26:16.479499+00:00"
     },
     {
+      "name": "Spira Maxima (script to viral social video)",
+      "field": "AI video generation",
+      "summary": "Turns a script (or photo/recording) into a finished vertical social video with presenter, B-roll, captions and music in one pass.",
+      "why_now": "PH #1 of the day (Oct 5, 2026) and #1 of the week; 41.5K monthly visits; open-source release gated; 10M+ pilot impressions claimed.",
+      "monetization": "$0.15/sec (launch $0.075); Free 20s cap, Creator 60s, Growth 90s; per-finished-post pricing.",
+      "evidence": [
+        "https://www.producthunt.com/products/spira-ai",
+        "https://spira.ai/spira-maxima",
+        "https://sloptvnews.com/spira-maxima-text-to-finished-social-video/"
+      ],
+      "how_searched": [
+        "Product Hunt leaderboard",
+        "Product pricing page",
+        "Launch coverage"
+      ],
+      "score": 80.0,
+      "found_at": "2026-10-27T16:52:33.854606+00:00"
+    },
+    {
       "name": "Embeddable AI Agent / Copilot for SaaS",
       "field": "DevTools / SaaS Infrastructure",
       "summary": "Drop-in AI agent (one line of code) that lets end-users control any SaaS via natural language — turning clicks into conversations, with scoped permissions, audit logs, and model-agnostic deployment.",
@@ -5584,6 +5736,25 @@
       "found_at": "2026-10-25T22:58:06.436613+00:00"
     },
     {
+      "name": "Onepin (AI voiceover validation/normalization)",
+      "field": "Audio/voice tools",
+      "summary": "Production step after TTS: normalizes prices/dates/abbreviations, checks names against a 4M-word pronunciation dictionary, scores each line, fixes mispronunciations.",
+      "why_now": "PH #1 Product of the Day (Oct 10, 2026) with 443 upvotes; founder from Podonos (150K human listeners); demand from teams shipping AI voiceover at volume.",
+      "monetization": "Free 1,000 credits; Creator $16/mo, Studio $80/mo, Scale $240/mo; 100 credits/$1; BYO keys.",
+      "evidence": [
+        "https://www.producthunt.com/products/onepin",
+        "https://hunted.space/product/onepin",
+        "https://onepin.ai/pricing"
+      ],
+      "how_searched": [
+        "Product Hunt leaderboard",
+        "Hunted.space PH tracker",
+        "Pricing page"
+      ],
+      "score": 78.0,
+      "found_at": "2026-10-27T16:52:34.636050+00:00"
+    },
+    {
       "name": "Browser Extension AI Productivity Tools",
       "field": "Consumer / Productivity",
       "summary": "Chrome/Firefox/Edge extensions that bring AI into the browser — sidebar chat, page summarization, writing assistance, workflow automation, content extraction — with freemium subscriptions.",
@@ -6028,188 +6199,6 @@
       ],
       "score": 76.0,
       "found_at": "2026-10-15T18:32:19.226620+00:00"
-    },
-    {
-      "name": "Shopify Merchant Feedback & Survey AI (Zigpoll-model)",
-      "field": "e-commerce SaaS",
-      "summary": "An embeddable survey and customer-feedback tool for online stores that auto-analyzes responses with AI, segments buyers, and surfaces what to fix — built as a free web tool with a store-app-store growth loop.",
-      "why_now": "Zigpoll, run by a single founder, went from ~$1.03M ARR to ~$125K MRR (~44% growth) in H1 2026 with ~1/3 of signups from the Shopify App Store and ~14% from AI assistants (ChatGPT/Claude/Gemini) recommending it; independent trackers list it among the fastest-growing one-person SaaS of the year, proving merchants still pay real money for feedback tooling.",
-      "monetization": "SaaS subscriptions; Zigpoll's growth came from packaging features for best customers (+24% revenue/account). Comparable form builders (Tally) hit $422K MRR / $5M ARR with 11 people.",
-      "evidence": [
-        "https://stealwhatworks.com/blogs/news/one-person-saas-over-10k-month-now",
-        "https://stealwhatworks.com/blogs/news/indie-hacker-projects-making-money",
-        "https://stealwhatworks.com/blogs/news/tiny-saas-over-10k-month-now"
-      ],
-      "how_searched": [
-        "indie-SaaS revenue aggregation site (Stripe-linked MRR)",
-        "solo-founder revenue rankings",
-        "one-person-SaaS market survey"
-      ],
-      "score": 76.0,
-      "found_at": "2026-10-16T01:27:15.257617+00:00"
-    },
-    {
-      "name": "AI-Moderated Customer Research Studio",
-      "field": "Market research / voice AI",
-      "summary": "A free web tool that designs a discussion guide, runs AI-moderated voice/text interviews from your own audience or panel, and turns transcripts into themed reports and charts. Concept only: real adaptive interviews at scale, not simulated buyers.",
-      "why_now": "The category leader, Listen Labs, hit ~$30M annualized revenue and agreed to be acquired by Salesforce for a reported ~$2B (Oct 1, 2026), so the affordable standalone option is disappearing. Listen grew annualized revenue 15x in nine months and interviewed 1M+ people; competitors Simile and Ivo/Legora show investor appetite for automating research and review.",
-      "monetization": "Listener/competitors charge enterprise subscriptions; Listen Labs ~$30M annualized revenue and 15x 9-month growth; free tool monetizes via per-interview credits or team plan.",
-      "evidence": [
-        "https://techcrunch.com/2026/09/09/ai-research-startup-listen-labs-scrubbed-a-1-5b-funding-round-for-salesforce-talks/",
-        "https://siliconangle.com/2026/10/01/salesforce-to-acquire-ai-customer-research-startup-listen-labs-in-reported-2b-deal/",
-        "https://www.prnewswire.com/news-releases/listen-labs-raises-69-million-series-b-to-bring-customer-voices-into-every-decision-302661000.html"
-      ],
-      "how_searched": [
-        "news/funding trackers",
-        "product launch sites",
-        "market-research vendor pages"
-      ],
-      "score": 76.0,
-      "found_at": "2026-10-17T00:07:09.988907+00:00"
-    },
-    {
-      "name": "LLM Invoice Audit & Overcharge Dispute Tool",
-      "field": "AI FinOps / bill audit",
-      "summary": "Upload OpenAI/Anthropic/Bedrock/Vertex usage exports and get a browser-local, line-by-line audit: retry storms, failed-run billing, cache charged at uncached rates, premium-model substitution, unexplained invoice variance — plus a ready-to-send dispute package, medical-bill-audit style, for AI API spend.",
-      "why_now": "A whole category shipped in the last 6–10 weeks around one pain: Inferock got 401 Product Hunt votes on Oct 14, 2026 offering 'credits back for failed inference calls'; free auditors (TokenGauge, CloudJaeger) and contingency-fee disputers (Trilatic, 15% of recovered credits, page dated Sep 2026) went live alongside TokenOps and vaudit claiming 3–7% recoverable AI spend. Reasoning-token billing (60–90% of bills, unverifiable) is the new frontier.",
-      "monetization": "Contingency fee on recovered credits (Trilatic model: 15% of credits actually posted, nothing otherwise), or SaaS audit subscriptions once spend >$500/mo (TokenOps positioning). Sample audited accounts show ~$940/mo verified waste and ~20–32% waste-share on agent-heavy workloads.",
-      "evidence": [
-        "https://www.producthunt.com/leaderboard/daily/2026/10/14",
-        "https://trilatic.com/invoice-audit",
-        "https://cloudjaeger.com/ai-cost-audit",
-        "https://www.vaudit.com/token-audit"
-      ],
-      "how_searched": [
-        "Product Hunt daily leaderboard (Oct 14, 2026)",
-        "Fresh vendor pages dated Sep–Oct 2026 (invoice-audit tools)",
-        "GitHub/OSS audit projects (retoken, overage)",
-        "Search for 'LLM API bill audit'"
-      ],
-      "score": 76.0,
-      "found_at": "2026-10-17T09:29:48.262249+00:00"
-    },
-    {
-      "name": "Mahjong beginner coach, hand analyzer & local club finder",
-      "field": "Hobby / social games",
-      "summary": "Original free web tool for the mahjong boom: interactive lessons, NMJL-style hand matching and Charleston help, plus a directory of local clubs/tables — software plus community, not a clone of existing play apps.",
-      "why_now": "Mahjong is a 2026 breakout offline hobby going digital: Google (Jul 2026) reports 'mahjong for beginners' +230% YoY and 'mahjong lessons near me' doubling since January; Yelp logged +4,467% mahjong-club searches; Oh My Mahjong passed $30M annual revenue (+360% YoY, company-reported). Vita Mahjong is #6 top-free US iPhone game in Oct 2026 with ~2.8M downloads/30 days (AppTrendKit), and ~1.8M Americans played on Mahjong 4 Friends in a year (Deseret News).",
-      "monetization": "Freemium lesson packs, club organizer SaaS fees (Bam Good Time-style), premium tile/design marketplace affiliate, class/event booking fees; Oh My Mahjong's $30M/yr shows ecosystem spend, and MAHJ-style $4.99 unlocks prove paid learning.",
-      "evidence": [
-        "https://blog.google/products-and-platforms/products/search/touch-grass-trends/",
-        "https://www.cnn.com/2026/09/19/business/mahjong-is-exploding-in-popularity-but-does-it-defeat-the-purpose-of-the-game",
-        "https://www.deseret.com/lifestyle/2026/08/15/women-are-obsessed-with-mahjong-america/",
-        "https://www.apptrendkit.com/most-downloaded-apps/us/2026-10",
-        "https://www.startupheist.com/mahjong-for-beginners-5k-15k-a-month-in-dead-venue-hours/",
-        "https://mahjong4friends.com/guides/best-mahjong-app"
-      ],
-      "how_searched": [
-        "Google Trends deep-dive blog",
-        "news feature (CNN)",
-        "lifestyle investigation (Deseret News)",
-        "US App Store download chart (AppTrendKit)",
-        "local-business opportunity analysis",
-        "app comparison guide"
-      ],
-      "score": 76.0,
-      "found_at": "2026-10-17T22:26:38.259657+00:00"
-    },
-    {
-      "name": "AI-code comprehension gate ('do you understand what shipped?')",
-      "field": "Developer tools",
-      "summary": "Free web tool where you paste a diff/PR from your coding agent and get a plain-English explanation plus a short comprehension quiz you must pass before shipping — a human-understanding check, not a security scan.",
-      "why_now": "A same-day Show HN ('Sphinx — a hook that quizzes you on your AI's code before shipping') hit 99 points and 29 comments within hours on Oct 18 2026; a whole tool family shipped in parallel (VS Code 'Vibe Check' Duolingo-style modules, GitHub vibe-check, Unvibe private beta, Codswallop, Tiden on PH with 211 pts, AppSumo 'VerifyYourCode'). Underlying demand data: a Sonar survey of 1,149 pro developers found 95% spend effort reviewing/correcting AI output and 38% say it takes more effort than colleagues' code; industry tallies say 51%+ of GitHub commits in early 2026 are AI-assisted.",
-      "monetization": "Free for individuals; paid team dashboards (comprehension analytics, merge gates) — adjacent AI code-review tools charge $24-48/user/mo (CodeRabbit).",
-      "evidence": [
-        "https://www.producthunt.com/leaderboard/daily/2026/10/14",
-        "https://github.com/akshan-main/vibe-check",
-        "https://dev.to/moksh/best-ai-code-review-tools-in-2026-tested-ranked-20ie"
-      ],
-      "how_searched": [
-        "Hacker News Show HN (same-day front page)",
-        "VS Code Marketplace / GitHub ecosystem scan",
-        "AI code-review market roundup with survey stats"
-      ],
-      "score": 76.0,
-      "found_at": "2026-10-18T11:14:23.834410+00:00"
-    },
-    {
-      "name": "Human approval layer / open protocol for AI-agent tool calls",
-      "field": "AI agent safety & ops",
-      "summary": "Intercept agent tool calls (Claude Code, Codex, LangGraph, etc.) before execution; auto-approve safe rules, route risky ones to Slack/mobile for human sign-off, with append-only audit log.",
-      "why_now": "withHuman launched Oct 15 2026 (YC, PH #8, open AAP spec) as teams stop disabling permissions on coding agents; same week news covered opencode console compromise and leaked agent session logs—demand for approval gates and agent trust controls is spiking.",
-      "monetization": "Open source + hosted free plan; paid Scale tiers for teams (withHuman Scale promo). Comparable agent-ops tools charge per seat/usage. null for our own revenue.",
-      "evidence": [
-        "https://www.producthunt.com/products/withhuman",
-        "https://withhuman.ai/blog/introducing-withhuman",
-        "https://wire.rundatarun.io/briefs/2026-10-18"
-      ],
-      "how_searched": [
-        "Product Hunt launch",
-        "vendor blog/launch post",
-        "daily AI industry brief"
-      ],
-      "score": 76.0,
-      "found_at": "2026-10-18T20:57:36.320228+00:00"
-    },
-    {
-      "name": "LLM Per-Call Billing Audit & Overcharge Receipt Tool",
-      "field": "AI infrastructure / FinOps",
-      "summary": "Independent proxy/web tool that produces per-call receipts for OpenAI/Anthropic/Gemini traffic and surfaces billed-but-failed calls, retry amplification and token mismatches.",
-      "why_now": "Inferock launched publicly mid-Oct 2026 (Product Hunt daily top-10) on the thesis that providers grade their own bills; AI observability market ~$1.78B in 2026 growing 22.8% CAGR, with cost/token monitoring as a primary purchase driver (Meticulous Research). Agent-heavy apps routinely burn cash on silent retries.",
-      "monetization": "Free local/open bench + hosted Pro for teams and agencies; usage-based audit fees; adjacent to a $1.78B observability budget.",
-      "evidence": [
-        "https://www.producthunt.com/leaderboard/daily/2026/10/14",
-        "https://github.com/inferock/inferock-bench/tree/main",
-        "https://inferock.ai/faq/",
-        "https://www.meticulousresearch.com/product/ai-observability-market-6879"
-      ],
-      "how_searched": [
-        "Product Hunt daily boards",
-        "GitHub open-source ledgers",
-        "market research"
-      ],
-      "score": 76.0,
-      "found_at": "2026-10-18T23:24:29.754753+00:00"
-    },
-    {
-      "name": "Free pet-translator / pet-sound web tool",
-      "field": "Consumer web / pets",
-      "summary": "A fun web tool that records a pet's barks or meows (or plays attention-getting sounds) and returns a playful 'translation' plus reaction tests and soundboards for cats and dogs.",
-      "why_now": "A niche survey of 86 pet-translator apps estimates a $120K/month revenue floor with four leaders at $20-50K/month each, and 26 new entrants in 18 months; independent trackers show Cat Translator – Human to Pet at ~$100K/month from ~200K downloads/month, Cat Translator Meow Talk AI at ~310K installs/129K MAU and growing +289K installs in 30 days, and Dog Translator reportedly at $60K MRR driven by faceless dog-reaction clips.",
-      "monetization": "Weekly/monthly subscriptions ($4.99-9.99/week, ~$39.99-49.99/year) plus one-time sound-pack unlocks ($0.99-6.99) and ad-supported free tiers.",
-      "evidence": [
-        "https://www.appaloma.com/research/pet-translators-soundboards",
-        "https://www.appgoblin.info/apps/com.cat.catvoice.translator.catcall",
-        "https://apprank.io/pet-chat-cat-dog-translator-9390",
-        "https://peekly.app/apps/a61af0a1-d18d-479f-ab10-d8bd828c25fd",
-        "https://www.socialgrowthengineers.com/60000-mrr-from-dog-reactions"
-      ],
-      "how_searched": [
-        "niche app-research site",
-        "app-store analytics estimators",
-        "growth/UGC teardown blog"
-      ],
-      "score": 76.0,
-      "found_at": "2026-10-19T01:36:36.337644+00:00"
-    },
-    {
-      "name": "Velozity (Multiplayer AI Office)",
-      "field": "Team Collaboration / AI Workspace",
-      "summary": "Unified workspace where team chat, video calls, tasks, calendar, files, and AI agents (Claude, Codex, etc.) share context. Agents work on same subscriptions users already pay for. No second AI bill. Free to start.",
-      "why_now": "Product Hunt monthly #6 (Oct 2026): 430 score, 112 comments, 1.2K followers. Weekly leaderboard confirmation. Solves 'team chats in one app, meets in another, every AI works alone' fragmentation. Rill Browser (476 score) and IrisGo (464 score) show parallel demand for AI-native work environments. Velozity combines both.",
-      "monetization": "Freemium: Free tier with limits, Pro $15-30/user/mo for unlimited agents, advanced permissions, SSO, audit logs. Enterprise: custom. Revenue from seat expansion + agent usage overages.",
-      "evidence": [
-        "https://www.producthunt.com/leaderboard/monthly/2026/10",
-        "https://www.producthunt.com/leaderboard/weekly/2026/43",
-        "https://www.producthunt.com/products/velozity-2"
-      ],
-      "how_searched": [
-        "Product Hunt monthly leaderboard October 2026",
-        "Product Hunt weekly leaderboard Oct 19, 2026",
-        "Product Hunt product page"
-      ],
-      "score": 76.0,
-      "found_at": "2026-10-20T20:53:46.824714+00:00"
     }
   ]
 }
