@@ -452,6 +452,24 @@
       "found_at": "2026-10-28T08:34:20.877363+00:00"
     },
     {
+      "name": "AI Visibility/GEO Monitoring (Free Web Tool)",
+      "field": "SEO/Marketing Tech",
+      "summary": "Track how brands appear in AI search (ChatGPT, Perplexity, Google AI Overviews) and citations - 'GEO'/'AEO' monitoring.",
+      "why_now": "Exploding Topics shows 'Answer Engine Optimization' growing 99x+, 'AI SEO' trending. Product Hunt has ReSO AI and OpenSEO gaining traction as Semrush alternatives for AI search visibility.",
+      "monetization": "Freemium SaaS (free checker driving to paid dashboards); OpenSEO positions at $10/month vs $100+ incumbents.",
+      "evidence": [
+        "https://explodingtopics.com/blog/trending-topics",
+        "https://www.producthunt.com/products/reso",
+        "https://www.producthunt.com/products/openseo"
+      ],
+      "how_searched": [
+        "Exploding Topics",
+        "Product Hunt"
+      ],
+      "score": 94.0,
+      "found_at": "2026-10-28T16:04:45.115338+00:00"
+    },
+    {
       "name": "Dropkiller",
       "field": "ecommerce/research",
       "summary": "LATAM-focused dropshipping product and ad spy platform providing access to winning products, ad creatives, and market analysis.",
@@ -542,6 +560,23 @@
       ],
       "score": 93.0,
       "found_at": "2026-10-24T20:52:07.619923+00:00"
+    },
+    {
+      "name": "AI Browser/Agent Operating Layer",
+      "field": "Productivity/Browser",
+      "summary": "Browsers that embed AI agents/companions to automate tasks across apps - e.g. Strawberry, Rill browser positioning agents beside browsing.",
+      "why_now": "Product Hunt shows Strawberry, Rill getting strong traction; demand for 'show once, run workflow' automation (IrisGo). Agents need browser context to take actions.",
+      "monetization": "Freemium + usage/API or subscription; strong user growth signals.",
+      "evidence": [
+        "https://www.producthunt.com/products/strawberry-1",
+        "https://www.producthunt.com/products/rill-3",
+        "https://www.producthunt.com/products/irisgo-public-beta"
+      ],
+      "how_searched": [
+        "Product Hunt (daily/monthly leaders)"
+      ],
+      "score": 93.0,
+      "found_at": "2026-10-28T16:04:45.286198+00:00"
     },
     {
       "name": "UseIt Studio",
@@ -815,6 +850,25 @@
       ],
       "score": 92.0,
       "found_at": "2026-10-27T10:37:25.288662+00:00"
+    },
+    {
+      "name": "UGC/AI Influencer Content Automation",
+      "field": "Creator Economy/Marketing",
+      "summary": "Tools that create AI influencers/UGC-style videos and automate posting across platforms (Spira model).",
+      "why_now": "TikTok trends show shopping content dominates; Exploding Topics shows 'UGC Creator' up 8600%. Spira Maxima was #1 on Product Hunt monthly (670 score). Demand for affordable video/content at scale.",
+      "monetization": "Subscription per AI influencer/credits; B2C creators and SMBs paying for content automation.",
+      "evidence": [
+        "https://www.producthunt.com/products/spira-ai",
+        "https://explodingtopics.com/blog/trending-topics",
+        "https://www.trenz.ai/radar/2026-10-27"
+      ],
+      "how_searched": [
+        "Product Hunt monthly",
+        "Exploding Topics",
+        "TikTok Shop trends (Trenz)"
+      ],
+      "score": 92.0,
+      "found_at": "2026-10-28T16:04:46.848298+00:00"
     },
     {
       "name": "Specreel",
@@ -5995,6 +6049,57 @@
       "found_at": "2026-10-11T07:16:57.015607+00:00"
     },
     {
+      "name": "AI Agent Trust/Risk Scanning",
+      "field": "AI Infrastructure/Security",
+      "summary": "Tools that scan, evaluate, and score AI agents/MCP servers for security, reliability, and compliance before deployment.",
+      "why_now": "With surge of agent launches (Product Hunt shows BotGauge, Zro), teams need risk assessment before allowing agents to take actions. GitHub/PR risk tools like Farol (HN) show demand for automated review/risk scoring.",
+      "monetization": "B2B SaaS for dev/security teams - likely per-seat/API pricing; numbers not publicly disclosed in sources but strong enterprise demand.",
+      "evidence": [
+        "https://www.producthunt.com/products/botgauge-2",
+        "https://www.producthunt.com/products/zro"
+      ],
+      "how_searched": [
+        "Show HN",
+        "Product Hunt (security/AI infra)"
+      ],
+      "score": 63.3,
+      "found_at": "2026-10-28T16:04:44.661429+00:00"
+    },
+    {
+      "name": "Local Service Business AI (Vertical Agents)",
+      "field": "Vertical SaaS/Local Services",
+      "summary": "AI agents for trades/home services (scheduling, quoting, missed calls, follow-up) - focus on blue-collar SMBs underserved by horizontal tools.",
+      "why_now": "Reddit/Indie Hackers show demand for boring workflow automation (spreadsheets/WhatsApp). TikTok/local commerce growing; many SMBs still manual. Strong monetization potential with high willingness to pay to save time/recover revenue.",
+      "monetization": "Per-location/month or take rate; €2K-€5K/month common in agency builds (Reddit).",
+      "evidence": [
+        "https://www.reddit.com/r/Entrepreneur/comments/1seql9c/beyond-the-hype-which-industry-is-actually/",
+        "https://www.reddit.com/r/Entrepreneurs/comments/1s0j21z/is_a_serious_ai_automation_agency_still_worth/"
+      ],
+      "how_searched": [
+        "Reddit (Entrepreneur/Entrepreneurs)",
+        "Indie Hackers discussions"
+      ],
+      "score": 60.0,
+      "found_at": "2026-10-28T16:04:47.073570+00:00"
+    },
+    {
+      "name": "Free Web Tools for 'AI Search Readiness'",
+      "field": "GEO/Free Tools",
+      "summary": "Simple free checkers (like BuiltWith/Wappalyzer but for AI crawlability/citations) that drive SEO/GEO leads.",
+      "why_now": "GEO is white-hot (Exploding Topics), incumbents expensive. Free tools rank well and convert to agency/SaaS. Multiple mentions of GEO checkers as opportunity.",
+      "monetization": "Lead gen to agencies, freemium SaaS, API usage.",
+      "evidence": [
+        "https://explodingtopics.com/blog/trending-topics",
+        "https://www.producthunt.com/products/openseo"
+      ],
+      "how_searched": [
+        "Exploding Topics",
+        "Product Hunt"
+      ],
+      "score": 59.3,
+      "found_at": "2026-10-28T16:04:47.516561+00:00"
+    },
+    {
       "name": "Bedly",
       "field": "Habit building / Morning routine / App blocking",
       "summary": "AI scores a photo of your made bed (0-100), unlocks distracting apps only after verification. Combines habit tracking with app blocking via squads/leagues.",
@@ -6012,37 +6117,21 @@
       "found_at": "2026-10-28T08:34:21.604295+00:00"
     },
     {
-      "name": "Spacesheep",
-      "field": "AI collaboration / Agent work visualization",
-      "summary": "Turns any agent's work into shareable interactive spaces (docs/dashboards/apps). YC F26, positioned as way to make agent output readable/collaborative.",
-      "why_now": "Trending on Product Hunt this week (#6 on weekly leaderboard), riding agent workflow/visibility wave.",
-      "monetization": "Likely SaaS; specific numbers not found.",
+      "name": "AI Video/Content Repurposing for SMBs",
+      "field": "Content/Marketing",
+      "summary": "Turn long-form into shorts/reels with AI, optimize for TikTok/Shorts/YT - fits creator economy and SMB marketing needs.",
+      "why_now": "TikTok Shop trends show video commerce strong; Spira/UGC tools hot. Many SMBs need short-form but lack skills.",
+      "monetization": "Subscription/credits; high volume use case.",
       "evidence": [
-        "https://www.producthunt.com/products/spacesheep",
-        "https://www.producthunt.com/leaderboard/weekly/2026/44"
+        "https://www.trenz.ai/radar/2026-10-27",
+        "https://www.producthunt.com/products/spira-ai"
       ],
       "how_searched": [
-        "Product Hunt weekly leaderboard",
-        "AI agent tooling scan"
+        "Trenz (TikTok Shop)",
+        "Product Hunt"
       ],
-      "score": 57.3,
-      "found_at": "2026-10-28T08:34:21.993066+00:00"
-    },
-    {
-      "name": "TheySaid 4.0",
-      "field": "AI user testing / Synthetic research",
-      "summary": "AI-powered user testing platform that simulates audience feedback on products/prototypes.",
-      "why_now": "#1-#2 on Product Hunt this week (347 upvotes), major update driving renewed interest. Already known per list but showing strong momentum.",
-      "monetization": "SaaS with likely usage/seat-based pricing; numbers not public.",
-      "evidence": [
-        "https://www.producthunt.com/products/theysaid",
-        "https://www.producthunt.com/leaderboard/weekly/2026/44"
-      ],
-      "how_searched": [
-        "Product Hunt weekly leaderboard"
-      ],
-      "score": 56.0,
-      "found_at": "2026-10-28T08:34:22.071469+00:00"
+      "score": 58.0,
+      "found_at": "2026-10-28T16:04:48.255831+00:00"
     }
   ]
 }
