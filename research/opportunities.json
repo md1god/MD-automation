@@ -2838,6 +2838,27 @@
       "found_at": "2026-10-27T16:52:27.458579+00:00"
     },
     {
+      "name": "AI Job Search Copilot & Autofill Agent",
+      "field": "Career / Job Search SaaS",
+      "summary": "An end-to-end AI agent that crawls fresh job listings, scores fit against a user's resume, tailors applications per role, and autofills complex ATS forms (Greenhouse, Lever, Workday) in under two minutes instead of thirty.",
+      "why_now": "Jobright grew from $1M to $10M ARR in 10 months (announced Oct 13, 2026) with 3M US professionals on the platform; the founder reports a 15% reply rate vs 4-5% for cold outreach and 40% of engaged candidates moving to interviews. Demand is reinforced by Reddit threads on job-search automation and the explosion of AI-generated applications forcing recruiters to seek better signal.",
+      "monetization": "Consumer subscription for job seekers plus employer-side recruiting seats; Jobright hit $10M ARR with 3M users and 120+ hiring companies including Perplexity and MediaTek.",
+      "evidence": [
+        "https://www.arr.club/signal/jobright-arr-hit-10m-up-from-1m-in-10-months",
+        "https://www.linkedin.com/posts/ericcheng26_jobright-aijobs-jobsearch-activity-7429940295175323648-Nbf5",
+        "https://henrythe9th.substack.com/p/how-jobright-hit-5m-arr-with-9-people"
+      ],
+      "how_searched": [
+        "ARR Club growth tracker",
+        "LinkedIn founder announcements",
+        "Substack product teardown",
+        "News roundtable coverage",
+        "Reddit r/SaaS job-search pain threads"
+      ],
+      "score": 85.0,
+      "found_at": "2026-10-28T21:14:37.478967+00:00"
+    },
+    {
       "name": "Free meeting transcription & AI meeting notes",
       "field": "Productivity / AI SaaS",
       "summary": "A free web tool that records or ingests meetings, transcribes them, and produces summaries, action items and searchable notes without a meeting bot.",
@@ -3620,6 +3641,27 @@
       "found_at": "2026-10-27T16:52:30.134310+00:00"
     },
     {
+      "name": "AI Shopping / Commerce Agent",
+      "field": "Consumer AI Commerce",
+      "summary": "A personal AI agent that browses, compares, and completes purchases across e-commerce sites on the user's behalf, acting as a shoppable assistant rather than a chatbot.",
+      "why_now": "Meta's Muse hit 10.9M downloads in 40 days (10.2M US), reached 2.5M DAU, and Meta disclosed that over a quarter of engaged users who shop through the agent have an average purchase size above $200. Zuckerberg said Muse will eventually earn more revenue per user than Facebook/Instagram/WhatsApp family apps, with commerce take-rate as the primary monetization.",
+      "monetization": "Commerce take-rate on agent-initiated purchases plus premium model/token tiers; Meta projects ARPU exceeding its social apps (currently several hundred dollars annually per user).",
+      "evidence": [
+        "https://techcrunch.com/2026/10/20/metas-muse-hits-10m-u-s-downloads-in-40-days-a-milestone-reached-by-only-11-other-apps/",
+        "https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity/",
+        "https://www.forbes.com/sites/maryroeloffs/2026/09/30/metas-muse-ai-assistant-hits-5-million-downloads-outpacing-growth-of-chatgpt-grok-and-claude/",
+        "https://s21.q4cdn.com/399680738/files/doc_financials/2026/q2/META-Q2-2026-Earnings-Call-Transcript.pdf"
+      ],
+      "how_searched": [
+        "TechCrunch launch coverage",
+        "Sensor Tower download data via press",
+        "Meta Q2 2026 earnings call transcript",
+        "Forbes early-momentum report"
+      ],
+      "score": 83.0,
+      "found_at": "2026-10-28T21:14:37.919940+00:00"
+    },
+    {
       "name": "Buyer-intent finder for Reddit / X / HN",
       "field": "Lead generation & market research",
       "summary": "A free tool that scans Reddit, X and Hacker News for posts where people are actively asking for a solution ('am I looking for a tool that...', 'mailchimp alternative'), scores buying intent and shows the best threads in a ranked digest.",
@@ -4228,6 +4270,27 @@
       "found_at": "2026-10-27T16:52:32.822053+00:00"
     },
     {
+      "name": "Marketplace Reseller Automation Agent",
+      "field": "E-commerce / Reselling Tools",
+      "summary": "An AI agent for professional Vinted/Shopify resellers that writes listings, auto-relists and price-drops, messages favoriters, negotiates with buyers 24/7 above a seller-set floor, retrieves shipping labels, and syncs multi-platform inventory.",
+      "why_now": "ControlResell grew from ~$3k to $21.6k MRR in 10 months (Stripe-verified via TrustMRR, Oct 28 2026) with 450 active subscriptions and 1,177 connected accounts; the platform claims 3.5M€ in user-generated revenue and 5M automated messages. Secondhand reselling is a durable, labor-heavy niche with clear willingness to pay for time savings.",
+      "monetization": "Tiered subscriptions at €29.99/mo (Growth), €59.99/mo (Business, includes AI negotiation and buyer replies), €119.99/mo (Enterprise, unlimited volume); avg revenue per sub ~$48.",
+      "evidence": [
+        "https://controlresell.com/en",
+        "https://trustmrr.com/startup/controlresell",
+        "https://agentmoneylist.com/e/controlresell/",
+        "https://imademoneywithai.com/fastest-growing-ai-startups/"
+      ],
+      "how_searched": [
+        "Stripe-verified revenue tracker (TrustMRR)",
+        "Product website and pricing pages",
+        "Playbook teardown sites",
+        "Fastest-growing AI startups leaderboard"
+      ],
+      "score": 82.0,
+      "found_at": "2026-10-28T21:14:39.770016+00:00"
+    },
+    {
       "name": "Prompt-injection & AI-guardrail red-team scanner",
       "field": "AI security / LLM testing",
       "summary": "Free web tool where builders paste a system prompt, agent definition or RAG config and instantly get a scored report of prompt-injection, data-exfiltration and jailbreak failures, plus a reusable test suite that can be re-run on every model change. It is the open/free version of what enterprise vendors now sell as continuous agent red-teaming.",
@@ -4468,6 +4531,28 @@
       ],
       "score": 81.0,
       "found_at": "2026-10-24T11:02:42.589928+00:00"
+    },
+    {
+      "name": "Anti-AI-Slop Design Linter & Skill for Coding Agents",
+      "field": "Developer Tools / Agent Skills",
+      "summary": "An installable design skill and browser-based linter that forces Claude Code, Cursor, and Codex to stop shipping generic 'AI-looking' landing pages, scoring output against dozens of deterministic anti-pattern rules.",
+      "why_now": "Hallmark (Nutlope/Together AI) surged past 37k GitHub stars gaining 2,200+ per day in late October 2026; Impeccable reached 89k stars with 62 deterministic rules and 24 design commands. Both launched in 2026 and ride the massive wave of agent-generated code that needs a quality floor.",
+      "monetization": "Open-core: free MIT/Apache skill plus paid hosted redesign/audit service and custom theme generation; Together AI uses Hallmark as a distribution funnel for its inference platform.",
+      "evidence": [
+        "https://github.com/nutlope/hallmark/",
+        "https://impeccable.style/",
+        "https://theterminal.space/software/hallmark-impeccable-anti-ai-design-skills",
+        "https://andrew.ooo/posts/hallmark-nutlope-anti-ai-slop-design-skill-review/",
+        "https://reporadar.spreix.com/reports/daily/2026-10-27"
+      ],
+      "how_searched": [
+        "GitHub repository star counts and trending",
+        "GitHub trending daily report",
+        "Independent review and comparison articles",
+        "Product sites"
+      ],
+      "score": 81.0,
+      "found_at": "2026-10-28T21:14:43.074261+00:00"
     },
     {
       "name": "Text or image to 3D model generator",
@@ -4993,6 +5078,27 @@
       "found_at": "2026-10-27T16:52:33.854606+00:00"
     },
     {
+      "name": "Social-Listening Lead Generator",
+      "field": "B2B Sales / Lead Gen",
+      "summary": "A SaaS that continuously monitors social media engagement signals (who likes, comments, and shares content in a target market) and auto-builds warm B2B lead lists that feed directly into outbound sequences.",
+      "why_now": "traxy.ai hit $51.8k MRR (Stripe-verified, 238 subs) within 9 months of a January 2026 launch, crossed $500K ARR in 5 months per the founder, and charges $149/mo with high self-serve upgrade rates. The founder reports a user with $410k MRR upgrading within 3 hours of signup.",
+      "monetization": "Pro subscription at $149/mo; Enterprise custom; avg revenue per sub ~$217; all-time revenue $151k as of Oct 28 2026.",
+      "evidence": [
+        "https://trustmrr.com/startup/traxy-ai",
+        "https://www.linkedin.com/posts/ben-buaron_5-months-after-launching-traxy-hit-500k-activity-7512881822981079040-qUHu",
+        "https://imademoneywithai.com/case-studies/traxy-ai/",
+        "https://agentmoneyboard.com/e/traxy-ai/"
+      ],
+      "how_searched": [
+        "Stripe-verified revenue tracker",
+        "LinkedIn founder milestone posts",
+        "AI revenue case-study databases",
+        "Agent money board aggregators"
+      ],
+      "score": 80.0,
+      "found_at": "2026-10-28T21:14:44.669456+00:00"
+    },
+    {
       "name": "AI music generator",
       "field": "Creator tools / Audio",
       "summary": "A free web tool where anyone types a style and lyrics and gets an original playable, downloadable song in seconds.",
@@ -5173,6 +5279,29 @@
       ],
       "score": 79.0,
       "found_at": "2026-10-25T01:29:26.333013+00:00"
+    },
+    {
+      "name": "Agent-Callable Social Media Scheduler (MCP/CLI)",
+      "field": "Social Media / Agent Infrastructure",
+      "summary": "An open-source, agentic social media scheduler that AI agents (Claude, Codex, OpenClaw, Cursor) can call via MCP endpoint and CLI to plan, generate, and publish posts across 30+ networks, with a paid managed cloud on top.",
+      "why_now": "Postiz grew from ~$21k to $324k MRR in 2026 (Stripe-verified, +45% MoM to Oct 24) after pivoting to agent-native interfaces in February; the founder reports the OpenClaw integration alone tripled MRR from $21k to $70k in two months. 37k+ GitHub stars and 8,900+ paying subscribers validate the open-core distribution model.",
+      "monetization": "Open-core: free self-hosted (AGPL) plus Cloud subscriptions at $29-$99/mo; 8,900-9,500 active subs at ~$34 avg; cumulative revenue $1.5M+.",
+      "evidence": [
+        "https://www.indiehackers.com/post/tech/growing-an-open-source-product-to-1-3m-arr-in-two-years-hbMiXIoZsueV9D3L58DP",
+        "https://webtribunal.net/postiz-growth/",
+        "https://signals.tw/articles/postiz-agent-cli-as-distribution/",
+        "https://doesithaveamoat.com/postiz",
+        "https://imademoneywithai.com/fastest-growing-ai-startups/"
+      ],
+      "how_searched": [
+        "Indie Hackers founder interview",
+        "Stripe-verified revenue trackers",
+        "Open-source growth analyses",
+        "Moat analysis sites",
+        "Fastest-growing AI startups leaderboard"
+      ],
+      "score": 79.0,
+      "found_at": "2026-10-28T21:14:50.626184+00:00"
     },
     {
       "name": "Voice-agent QA & live-call benchmark platform",
@@ -5710,6 +5839,27 @@
       "found_at": "2026-10-27T16:52:34.636050+00:00"
     },
     {
+      "name": "AI Speaking Tutor (Voice Conversation Practice)",
+      "field": "Language Learning",
+      "summary": "A voice-first language tutor app where learners hold a button, speak in the target language, and an AI tutor responds conversationally, corrects grammar, and scores the session—filling the speaking-practice gap left by flashcard-first apps.",
+      "why_now": "Verbi reached $22k MRR and 4,784 active subscriptions within 6 months of an April 2026 launch (RevenueCat-verified via TrustMRR), with $263k all-time revenue; revenue jumped from $685 in April to $128k in September alone. Duolingo's $1B+ revenue proves the category, but speaking practice remains underserved.",
+      "monetization": "Freemium mobile subscription (weekly ~$7.99, yearly ~$47.99-59.99); avg MRR per sub ~$4.63; 55% reported profit margin; growth via TikTok/Instagram UGC at zero initial ad spend.",
+      "evidence": [
+        "https://trustmrr.com/startup/verbi",
+        "https://imademoneywithai.com/case-studies/verbi/",
+        "https://aiolum.com/story/verbi/",
+        "https://www.whatsthe.app/verbi"
+      ],
+      "how_searched": [
+        "RevenueCat-verified revenue tracker",
+        "AI revenue case studies",
+        "Detailed founder revenue breakdowns",
+        "App analytics aggregators"
+      ],
+      "score": 78.0,
+      "found_at": "2026-10-28T21:14:52.958727+00:00"
+    },
+    {
       "name": "Background removal & AI product photography",
       "field": "Ecommerce / Image tools",
       "summary": "A free browser tool that removes image backgrounds and generates clean product photos (and virtual try-on shots) for listings and ads.",
@@ -5949,6 +6099,29 @@
       "found_at": "2026-10-25T11:34:32.114855+00:00"
     },
     {
+      "name": "Private / Anonymous AI Chat Interface",
+      "field": "Privacy-First AI",
+      "summary": "A free, no-account AI chat web app that anonymizes requests (strips IP/metadata), routes to multiple frontier models under zero-data-retention agreements, and never trains on or stores conversations—a surveillance-free alternative to ChatGPT/claude.ai.",
+      "why_now": "Duck.ai (DuckDuckGo) grew 22.5% MoM to 23.9M monthly visits by late 2026; a Reddit analysis of 9,300+ 'I wish there was an app' posts found 7% specifically requesting offline-first/privacy tools due to subscription fatigue. State-of-Local-AI reports confirm privacy is the strongest consumer promise for local/private AI, and searches for private AI tools keep climbing.",
+      "monetization": "Freemium: free anonymous chat with optional paid Pro tier for higher limits/file uploads; Duck.ai model shows distribution via search-engine brand trust rather than ad tracking.",
+      "evidence": [
+        "https://duck.ai/",
+        "https://slowhifi.com/duck-ai-review-private-ai-search-without-tracking/",
+        "https://www.reddit.com/r/AppIdeas/comments/1q5mecg/i_analyzed_9300_i_wish_there_was_an_app_for_this/",
+        "https://www.promptquorum.com/state-of-local-ai/2026-q4/state-of-local-ai-2026-q4-report.pdf",
+        "https://privacytools.io/ai"
+      ],
+      "how_searched": [
+        "Traffic growth trackers (AITrustList)",
+        "Product review sites",
+        "Reddit app-idea opportunity analysis (9,300+ posts)",
+        "State of Local AI industry report",
+        "Privacy tools directory"
+      ],
+      "score": 77.0,
+      "found_at": "2026-10-28T21:14:53.878907+00:00"
+    },
+    {
       "name": "Interactive demo / product tour builder",
       "field": "Sales & marketing software (demo automation)",
       "summary": "A free web tool that turns screenshots or a recorded click-through into an embeddable, clickable product tour with hotspots and analytics.",
@@ -5989,149 +6162,6 @@
       ],
       "score": 76.0,
       "found_at": "2026-10-08T23:25:29.482066+00:00"
-    },
-    {
-      "name": "AI mock-interview coach for job seekers (audio/chat role-play with scored feedback)",
-      "field": "Career / HR-Tech",
-      "summary": "A free web tool where job seekers paste a job description, get a realistic AI interviewer that asks adaptive follow-ups, then receive a graded feedback report (role fit, clarity, STAR structure, fillers, pacing).",
-      "why_now": "Interview-prep is a fast-rising paid category: The Business Research Company sizes the interview preparation tool market at $2.8B (2025) growing to $3.16B (2026) and $5.03B (2030); other reports show mock-interview platforms compounding at 15-23% CAGR; Big Interview launched its AI 'PracticeAI' in Sept 2025; Google pushes free 'Interview Warmup'; 'AI Recruitment Tools' shows +5,800% 5-year search growth on Exploding Topics.",
-      "monetization": "Freemium subscriptions: comparable AI interview coaches price ~$49/mo (Revarta) to $75–280 per human-coached session. Free tier = practice + basic feedback; paid = role-specific question banks, analytics, export.",
-      "evidence": [
-        "https://www.thebusinessresearchcompany.com/report/interview-preparation-tool-market-report",
-        "https://pmarketresearch.com/worldwide-mock-interview-service-market-research/",
-        "https://explodingtopics.com/blog/trending-topics"
-      ],
-      "how_searched": [
-        "Market-research report pages",
-        "Trend aggregator (Exploding Topics)",
-        "News articles on competitor launches",
-        "Freelance-platform trend indexes"
-      ],
-      "score": 76.0,
-      "found_at": "2026-10-10T00:11:05.760360+00:00"
-    },
-    {
-      "name": "Creator storefront / link-in-bio monetization tool",
-      "field": "Creator economy (storefronts & payments)",
-      "summary": "An all-in-one storefront behind a creator's bio link for selling downloads, courses, bookings and memberships with no transaction fees.",
-      "why_now": "It ranks #3 by verified MRR on TrustMRR at ~$3.57M MRR from ~101.6K subscriptions and $76.6M all-time, with Sacra estimating ~$40M ARR in 2026 across 80K+ creators.",
-      "monetization": "$29/month creator subscription with zero transaction fees on creator sales (vs Substack's 10% and OnlyFans' 20%), running at ~40% EBITDA margins.",
-      "evidence": [
-        "https://trustmrr.com/startup/stan",
-        "https://sacra.com/c/stan/",
-        "https://www.wlad.me/blog/companies/stan"
-      ],
-      "how_searched": [
-        "verified-revenue database (TrustMRR)",
-        "startup financial estimates (Sacra)",
-        "open-startup analysis blog"
-      ],
-      "score": 76.0,
-      "found_at": "2026-10-11T07:16:55.643682+00:00"
-    },
-    {
-      "name": "AI interior design / room makeover from a photo",
-      "field": "Design AI (interior & real-estate visualization)",
-      "summary": "Upload a room photo, choose a style, and AI regenerates the room reimagined while preserving its structure, giving instant design ideas.",
-      "why_now": "Demand is proven and repeatable: ~1.6M users and a peak of 4M monthly visitors with ~$23K/month revenue from a one-person build, and a 2026 AppRank estimate puts the iOS app near $100K/month.",
-      "monetization": "Credit packs ($9/$19/$29) plus weekly mobile subscriptions (PRO tiers up to $39.99/week); sells to consumers, realtors and designers.",
-      "evidence": [
-        "https://www.indiehackers.com/post/case-study-interior-design-ai-saas-company-that-made-168k-in-total-profit-in-6-months-efff542b1e",
-        "https://www.starterstory.com/roomgpt-breakdown",
-        "https://apprank.io/roomgpt-ai-interior-design-4875"
-      ],
-      "how_searched": [
-        "founder case studies (Indie Hackers, Starter Story)",
-        "app-store revenue estimators (AppRank)",
-        "community write-ups (Reddit)"
-      ],
-      "score": 76.0,
-      "found_at": "2026-10-11T07:16:57.015607+00:00"
-    },
-    {
-      "name": "AI Agent Trust/Risk Scanning",
-      "field": "AI Infrastructure/Security",
-      "summary": "Tools that scan, evaluate, and score AI agents/MCP servers for security, reliability, and compliance before deployment.",
-      "why_now": "With surge of agent launches (Product Hunt shows BotGauge, Zro), teams need risk assessment before allowing agents to take actions. GitHub/PR risk tools like Farol (HN) show demand for automated review/risk scoring.",
-      "monetization": "B2B SaaS for dev/security teams - likely per-seat/API pricing; numbers not publicly disclosed in sources but strong enterprise demand.",
-      "evidence": [
-        "https://www.producthunt.com/products/botgauge-2",
-        "https://www.producthunt.com/products/zro"
-      ],
-      "how_searched": [
-        "Show HN",
-        "Product Hunt (security/AI infra)"
-      ],
-      "score": 63.3,
-      "found_at": "2026-10-28T16:04:44.661429+00:00"
-    },
-    {
-      "name": "Local Service Business AI (Vertical Agents)",
-      "field": "Vertical SaaS/Local Services",
-      "summary": "AI agents for trades/home services (scheduling, quoting, missed calls, follow-up) - focus on blue-collar SMBs underserved by horizontal tools.",
-      "why_now": "Reddit/Indie Hackers show demand for boring workflow automation (spreadsheets/WhatsApp). TikTok/local commerce growing; many SMBs still manual. Strong monetization potential with high willingness to pay to save time/recover revenue.",
-      "monetization": "Per-location/month or take rate; €2K-€5K/month common in agency builds (Reddit).",
-      "evidence": [
-        "https://www.reddit.com/r/Entrepreneur/comments/1seql9c/beyond-the-hype-which-industry-is-actually/",
-        "https://www.reddit.com/r/Entrepreneurs/comments/1s0j21z/is_a_serious_ai_automation_agency_still_worth/"
-      ],
-      "how_searched": [
-        "Reddit (Entrepreneur/Entrepreneurs)",
-        "Indie Hackers discussions"
-      ],
-      "score": 60.0,
-      "found_at": "2026-10-28T16:04:47.073570+00:00"
-    },
-    {
-      "name": "Free Web Tools for 'AI Search Readiness'",
-      "field": "GEO/Free Tools",
-      "summary": "Simple free checkers (like BuiltWith/Wappalyzer but for AI crawlability/citations) that drive SEO/GEO leads.",
-      "why_now": "GEO is white-hot (Exploding Topics), incumbents expensive. Free tools rank well and convert to agency/SaaS. Multiple mentions of GEO checkers as opportunity.",
-      "monetization": "Lead gen to agencies, freemium SaaS, API usage.",
-      "evidence": [
-        "https://explodingtopics.com/blog/trending-topics",
-        "https://www.producthunt.com/products/openseo"
-      ],
-      "how_searched": [
-        "Exploding Topics",
-        "Product Hunt"
-      ],
-      "score": 59.3,
-      "found_at": "2026-10-28T16:04:47.516561+00:00"
-    },
-    {
-      "name": "Bedly",
-      "field": "Habit building / Morning routine / App blocking",
-      "summary": "AI scores a photo of your made bed (0-100), unlocks distracting apps only after verification. Combines habit tracking with app blocking via squads/leagues.",
-      "why_now": "Recent iOS launch (July 2026) with gamified 'first win of the day' mechanic. Novel pairing of physical task verification + app blocking gaining traction.",
-      "monetization": "Freemium with Pro IAP for unlimited scans; pricing not fully exposed in public data.",
-      "evidence": [
-        "https://apps.apple.com/mr/app/bedly-make-your-bed-habit/id6757679277",
-        "https://enlisted.directory/tools/bedly"
-      ],
-      "how_searched": [
-        "App Store search for 'bed app blocker'",
-        "Product/Habit app discovery"
-      ],
-      "score": 58.7,
-      "found_at": "2026-10-28T08:34:21.604295+00:00"
-    },
-    {
-      "name": "AI Video/Content Repurposing for SMBs",
-      "field": "Content/Marketing",
-      "summary": "Turn long-form into shorts/reels with AI, optimize for TikTok/Shorts/YT - fits creator economy and SMB marketing needs.",
-      "why_now": "TikTok Shop trends show video commerce strong; Spira/UGC tools hot. Many SMBs need short-form but lack skills.",
-      "monetization": "Subscription/credits; high volume use case.",
-      "evidence": [
-        "https://www.trenz.ai/radar/2026-10-27",
-        "https://www.producthunt.com/products/spira-ai"
-      ],
-      "how_searched": [
-        "Trenz (TikTok Shop)",
-        "Product Hunt"
-      ],
-      "score": 58.0,
-      "found_at": "2026-10-28T16:04:48.255831+00:00"
     }
   ]
 }
