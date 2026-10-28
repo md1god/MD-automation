@@ -21,6 +21,45 @@
       "found_at": "2026-10-26T23:55:56.173996+00:00"
     },
     {
+      "name": "TheySaid (AI User Testing with Synthetic Testers)",
+      "field": "UX Research / Product Validation",
+      "summary": "AI-powered user testing platform where synthetic users (trained on customer data) watch, click, think aloud on screen with video/audio, or run alongside real testers via MCP in Claude/Cursor/v0/Lovable and ticket automation in Jira/Linear.",
+      "why_now": "Launched TheySaid 4.0 recently (Oct 2026) with synthetic audiences that catch ~89% of issues vs humans at ~90%, showing side-by-side accuracy; Product Hunt #1 that day (TheySaid 4.0) and strong demand as teams ship faster with AI coding tools but lack validation.",
+      "monetization": "SaaS pricing (from website: free start, paid plans; per-test pricing mentioned as low as $1/synthetic test). Reported revenue ~$2.5M ARR (GetLatka est Dec 2025) and $750K-2.5M range reported; raised $8.3M total funding. Growing as validation becomes infrastructure.",
+      "evidence": [
+        "https://www.theysaid.io/",
+        "https://www.producthunt.com/products/theysaid",
+        "https://getlatka.com/companies/theysaid.io",
+        "https://linkedin.com/company/theysaid-app"
+      ],
+      "how_searched": [
+        "Product Hunt daily leaderboard (Oct 27 2026)",
+        "Company website feature analysis (synthetic testers + MCP + ticket testing)",
+        "Revenue/funding lookups (GetLatka/LinkedIn)"
+      ],
+      "score": 97.0,
+      "found_at": "2026-10-28T01:25:31.188895+00:00"
+    },
+    {
+      "name": "Spira AI (AI Influencer / Autonomous Social Media Agent)",
+      "field": "Marketing Automation / Social Media AI",
+      "summary": "End-to-end AI agent that creates, posts, and grows social channels autonomously - 'AI Influencers' that make content in brand voice, publish across TikTok/Instagram/YT, with built-in models (Seedance/Kling/Wan/GPT-Image) and analytics.",
+      "why_now": "Spira Maxima #1 Product of Week on Product Hunt (Oct 2026) with 10M+ impressions pre-launch; viral traction, built by ex-CapCut/TikTok/Meta/Midjourney team; demand for 'do-it-for-me' content automation is surging as brands compete in short-form video.",
+      "monetization": "Freemium/credits-based SaaS (Creator/Growth/Enterprise plans per website); high usage of video models creates strong monetization potential. Massive attention (top PH product) indicates commercial viability.",
+      "evidence": [
+        "https://spira.ai/",
+        "https://www.producthunt.com/products/spira-ai",
+        "https://mtdtechnologies.com/7-trending-ai-tools-on-product-hunt-worth-trying-october-2026/"
+      ],
+      "how_searched": [
+        "Product Hunt monthly/daily leaderboards (Oct 2026)",
+        "Third-party PH roundups",
+        "Company website analysis"
+      ],
+      "score": 96.5,
+      "found_at": "2026-10-28T01:25:32.024519+00:00"
+    },
+    {
       "name": "Tally (no-code form builder)",
       "field": "Forms / no-code",
       "summary": "Bootstrapped form builder with a generous free tier; 2.5M users and $6M ARR from subscriptions.",
@@ -261,6 +300,24 @@
       "found_at": "2026-10-27T10:37:24.237080+00:00"
     },
     {
+      "name": "TradingAgents (Multi-Agent LLM Financial Trading Framework)",
+      "field": "AI Agents / Fintech Infrastructure",
+      "summary": "Open-source multi-agent framework using LLMs for algorithmic trading - agents simulate analyst/debate/research/trading roles, with backtesting capabilities. Very popular on GitHub.",
+      "why_now": "Trending #2 on GitHub Oct 27 2026 with 116k+ stars and massive recent growth (+1395 stars/day); demonstrates huge interest in agentic trading systems. While open-source, commercial wrappers (hosted agents, premium data, execution) are monetizable.",
+      "monetization": "Open-source core with potential for hosted SaaS (agent-as-a-service), premium data feeds, prop-firm style or white-label; revenue not public yet but attention is massive - opportunity to rebuild as a simplified web tool.",
+      "evidence": [
+        "https://github.com/TauricResearch/TradingAgents",
+        "https://reporadar.spreix.com/reports/daily/2026-10-27",
+        "https://githubtrending.today/archive/2026-10-27/"
+      ],
+      "how_searched": [
+        "GitHub trending (daily/weekly Oct 2026)",
+        "RepoRadar trending reports"
+      ],
+      "score": 94.5,
+      "found_at": "2026-10-28T01:25:34.726803+00:00"
+    },
+    {
       "name": "MCP Server Build, Test & Deploy Platform",
       "field": "Developer Tools / AI Infrastructure",
       "summary": "A free web-based studio to scaffold, test, debug, and deploy Model Context Protocol (MCP) servers with auth, workflows, and one-click sharing.",
@@ -356,6 +413,24 @@
       ],
       "score": 94.0,
       "found_at": "2026-10-26T23:55:58.703214+00:00"
+    },
+    {
+      "name": "OpenSEO (Open-Source Semrush Alternative)",
+      "field": "SEO/GEO Tools",
+      "summary": "Open-source SEO toolkit (keyword research, competitor analysis, backlinks, site audits) starting at $10/month vs $100+; connects to MCP so agents can build SEO strategies and content.",
+      "why_now": "Top 10 on Product Hunt Oct 2026 (#10 in PH products list), riding demand for cheaper SEO tools and GEO/AI search visibility needs; open-source with commercial hosting creates freemium opportunity.",
+      "monetization": "Hosted SaaS from $10/month, self-hosted free; MCP integration drives adoption by AI agent users. Competitive with established tools but price-disruptive.",
+      "evidence": [
+        "https://www.producthunt.com/products/openseo",
+        "https://openseo.so",
+        "https://www.producthunt.com/leaderboard/monthly/2026/10"
+      ],
+      "how_searched": [
+        "Product Hunt monthly leaderboard (Oct 2026)",
+        "Product page analysis"
+      ],
+      "score": 94.0,
+      "found_at": "2026-10-28T01:25:34.967865+00:00"
     },
     {
       "name": "Dropkiller",
@@ -5717,25 +5792,6 @@
       "found_at": "2026-10-25T01:29:28.880350+00:00"
     },
     {
-      "name": "OpenSEO (open-source Semrush alternative)",
-      "field": "SEO tools",
-      "summary": "Open-source SEO platform for keyword research, backlinks, rank tracking, site audits and AI visibility, with MCP support.",
-      "why_now": "Product Hunt #3 in July 2026 with 935 points; grew to 20k+ GitHub stars; hosted plan $10/mo with 28% data markup.",
-      "monetization": "Hosted subscription $10/mo with 28% markup on DataForSEO usage; self-host option free.",
-      "evidence": [
-        "https://www.producthunt.com/products/openseo",
-        "https://stealwhatworks.com/blogs/news/product-hunt-best-launches-2026",
-        "https://ryandoser.com/openseo-review/"
-      ],
-      "how_searched": [
-        "Product Hunt monthly ranking",
-        "Launch analysis article",
-        "Independent pricing review"
-      ],
-      "score": 78.0,
-      "found_at": "2026-10-25T22:58:06.436613+00:00"
-    },
-    {
       "name": "Onepin (AI voiceover validation/normalization)",
       "field": "Audio/voice tools",
       "summary": "Production step after TTS: normalizes prices/dates/abbreviations, checks names against a 4M-word pronunciation dictionary, scores each line, fixes mispronunciations.",
@@ -6140,65 +6196,6 @@
       ],
       "score": 76.0,
       "found_at": "2026-10-11T07:16:57.015607+00:00"
-    },
-    {
-      "name": "AI Back-Office for Trade Contractors (Quote-to-Cash)",
-      "field": "Field service / trades vertical SaaS",
-      "summary": "A web tool for plumbers, electricians and HVAC pros that turns voice or text job notes into priced, branded estimates, generates contracts and invoices, and chases unpaid quotes automatically.",
-      "why_now": "Build Concierge hit £2.1m ($2.75m) ARR in nine months (Oct 2, 2026) selling AI back-office automation to trades, and a cluster of AI-native trade tools (Staxen, Crewtron, BizPro, Roooster, JobOS Pro) launched or expanded in 2026. JobOS Pro models $2.3B of recoverable revenue leak for home-service networks and cites 27% missed calls.",
-      "monetization": "Flat monthly SaaS: Staxen charges $59/mo per AI employee or $149/mo for all three; Crewtron $29.99/mo; BizPro $49.99/mo; JobOS Pro $199-$549/mo. Build Concierge reported $6.47M in signed contract value alongside its ARR.",
-      "evidence": [
-        "https://www.buildconcierge.com/blog/weve-hit-21m-275m-arr-in-just-nine-months",
-        "https://www.getstaxen.com/",
-        "https://jobospro.com/",
-        "https://crewtron.ai/"
-      ],
-      "how_searched": [
-        "Company ARR blog / open revenue page",
-        "Vertical SaaS landing pages",
-        "Pricing pages"
-      ],
-      "score": 76.0,
-      "found_at": "2026-10-13T02:37:52.009537+00:00"
-    },
-    {
-      "name": "LLM Billing Auditor & Overpay Refund Hunter",
-      "field": "FinOps for AI / developer tools",
-      "summary": "An independent receipt layer between your app and LLM APIs: per-call token/failure auditing across OpenAI, Anthropic, Gemini and OpenRouter, flagging overcharges, dead retries, and failed calls you can reclaim credits for — Truebill-style, for AI spend.",
-      "why_now": "Inferock ('serverless inference, with credits back for failed calls') was Product Hunt's #2 launch on Oct 14 (393 pts, 46 comments) with an open-source local bench that 'shows what you were billed and how much you're actually overpaying'; FastRouter.ai also made the October monthly top 17. Dev-tool brand search is at record highs (Vercel +170% YoY).",
-      "monetization": "Open-source bench free; hosted audit + credit-recovery take-rate is the obvious paid layer (pricing null). Context: only 2.6% of tracked SaaS startups clear $10K MRR, and the AI category's median is $0 — real monetization must attach to proven dev spend.",
-      "evidence": [
-        "https://www.producthunt.com/leaderboard/daily/2026/10/14",
-        "https://www.producthunt.com/leaderboard/monthly/2026/10",
-        "https://bigideasdb.com/fastest-growing-saas-companies-2026",
-        "https://ahrefs.com/blog/fastest-growing-companies-and-startups/"
-      ],
-      "how_searched": [
-        "Product Hunt daily leaderboard",
-        "SaaS revenue-band database",
-        "Ahrefs brand-search growth"
-      ],
-      "score": 76.0,
-      "found_at": "2026-10-15T13:36:22.504461+00:00"
-    },
-    {
-      "name": "ADHD Rotating-Variance Accountability Coach",
-      "field": "Consumer productivity / ADHD health-adjacent coaching",
-      "summary": "Accountability app whose coach voice, avatar and tone rotate unpredictably (variable-ratio reinforcement), escalates with humor instead of nagging, and optionally body-doubles with another user on the same task.",
-      "why_now": "A single r/adhdwomen thread describing the exact mechanism hit 3,225 upvotes and 340 comments in the Oct 9–12 window Engaggit scraped; the same scan found education/self-improvement the top willingness-to-pay cluster among 9,300+ Reddit 'I wish there was an app' posts (698 requests). Habit/grid trackers are saturated; novelty-as-feature is the gap.",
-      "monetization": "Freemium rotating coach free; paid multi-coach rosters, body-doubling sessions and family plans. Direct MRR for this exact mechanic was null; adjacent ADHD productivity apps monetize via subscription and the category ranks #1 on the Reddit wish-post census.",
-      "evidence": [
-        "https://engaggit.com/blog/app-ideas-2026-10-12",
-        "https://www.reddit.com/r/adhdwomen/comments/1x1k214/i_think_ive_finally_figured_out_how_to_cure_my/",
-        "https://www.reddit.com/r/AppIdeas/comments/1q5mecg/i_analyzed_9300_i_wish_there_was_an_app_for_this/"
-      ],
-      "how_searched": [
-        "Daily Reddit demand scan (Engaggit)",
-        "r/adhdwomen high-upvote thread",
-        "r/AppIdeas opportunity-gap dataset"
-      ],
-      "score": 76.0,
-      "found_at": "2026-10-15T18:32:19.226620+00:00"
     }
   ]
 }
