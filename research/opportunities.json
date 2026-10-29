@@ -1003,29 +1003,6 @@
       "found_at": "2026-10-24T14:39:00.519914+00:00"
     },
     {
-      "name": "AI search visibility / GEO brand-citation checker",
-      "field": "Marketing & SEO (GEO/AEO)",
-      "summary": "A free web tool that checks how often a brand or competitor is named (and where) inside answers from ChatGPT, Perplexity, Gemini and Claude, then generates an llms.txt/citation audit with fixes.",
-      "why_now": "AI answer engines handle an estimated 28% of online search and 'Answer Engine Optimization' search interest is ~99x i.e. exploding; 54% of marketing teams plan GEO but only ~23% measure it, so the demand is huge right now.",
-      "monetization": "Enterprise GEO platforms sell ACVs of $48k-$285k; Peec AI claims 3,000+ customers and Otterly AI 10,000+ users; this free audit becomes the funnel for a $29-$212/mo monitoring product.",
-      "evidence": [
-        "https://researchintelo.com/report/ai-generative-search-optimization-geoaeo-platforms-market",
-        "https://seoscaleup.com/blog/geo-aeo-statistics-2026",
-        "https://www.producthunt.com/leaderboard/daily/2026/10/1",
-        "https://www.omnibound.ai/blog/generative-engine-optimization-statistics",
-        "https://explodingtopics.com/blog/trending-topics"
-      ],
-      "how_searched": [
-        "web search engine",
-        "trend-discovery tool (Exploding Topics)",
-        "launch/review site (Product Hunt)",
-        "market research reports",
-        "newsletter/SEO statistics pages"
-      ],
-      "score": 90.0,
-      "found_at": "2026-10-07T23:12:47.481533+00:00"
-    },
-    {
       "name": "AI agent swarm/orchestration platform",
       "field": "Developer infrastructure",
       "summary": "Platform to run, coordinate, and audit multiple AI agents working together with shared context, recovery from failures, and cost tracking. Bridges Claude Code, Codex, Cursor etc.",
@@ -1323,29 +1300,6 @@
       ],
       "score": 89.0,
       "found_at": "2026-10-24T20:52:14.767149+00:00"
-    },
-    {
-      "name": "LLM model router / cost-optimization calculator",
-      "field": "Developer tools & AI infrastructure",
-      "summary": "A free website comparing 400+ LLMs live by price per token, latency and quality, telling users which model to route each task to and what it would cost.",
-      "why_now": "AI model routing became core infrastructure: OpenRouter went from ~$19M to ~$160M annualized revenue in 8 months (reported Stripe acquisition ~$7.5B), and a beginner product 'LLM Gateway' hit +260% MoM to $57k MRR; indies and enterprises all need cost-per-task decisions.",
-      "monetization": "Take-rate/affiliate on inference spend (OpenRouter's model is a ~5% fee; ~$2.5B in routed spend crossed its platform), plus enterprise tiers.",
-      "evidence": [
-        "https://sacra.com/research/openrouter-growing-29-mom-at-140m-year",
-        "https://www.acquiry.com/deal-intelligence/stripe-acquires-openrouter",
-        "https://techcrunch.com/2026/05/26/openrouter-more-than-doubles-valuation-to-1-3b-in-a-year",
-        "https://www.producthunt.com/leaderboard/daily/2026/10/5",
-        "https://www.systemaic.com/tools/bootstrapped-risers"
-      ],
-      "how_searched": [
-        "web search engine",
-        "revenue estimator/research pages (Sacra, Acquiry, jimmyresearch)",
-        "launch site (Product Hunt)",
-        "bootstrapped-revenue leaderboard",
-        "tech news"
-      ],
-      "score": 88.0,
-      "found_at": "2026-10-07T23:12:49.341388+00:00"
     },
     {
       "name": "Medical-bill audit & dispute web tool",
@@ -3660,29 +3614,6 @@
       ],
       "score": 83.0,
       "found_at": "2026-10-28T21:14:37.919940+00:00"
-    },
-    {
-      "name": "Buyer-intent finder for Reddit / X / HN",
-      "field": "Lead generation & market research",
-      "summary": "A free tool that scans Reddit, X and Hacker News for posts where people are actively asking for a solution ('am I looking for a tool that...', 'mailchimp alternative'), scores buying intent and shows the best threads in a ranked digest.",
-      "why_now": "After GummySearch/Howitzer shut down in late 2025, a wave of small replacements (MentionLeads, Buska, ReplyGain, Heardley, IntentAlert, Leadly) launched, and Buska's study of 451,903 posts found Reddit supplies ~77% of high-intent buying signals; founders on r/ycombinator explicitly say they'd pay $100/mo for this.",
-      "monetization": "Established pricing is $9-$249/mo; MentionLeads $19-$59/mo, Buska $49-$249/mo, Heardley $9/mo or $54 lifetime; the free tier does UGC discovery, paid tiers automate scoring/slack/CRM.",
-      "evidence": [
-        "https://mentionleads.com",
-        "https://www.buska.io/platforms/reddit",
-        "https://replygain.com",
-        "https://heardley.com",
-        "https://www.producthunt.com/leaderboard/daily/2026/10/7"
-      ],
-      "how_searched": [
-        "web search engine",
-        "competitor product marketing pages with public pricing",
-        "launch site (Product Hunt)",
-        "forum threads (Reddit r/ycombinator, r/SaaS)",
-        "vendor-published studies"
-      ],
-      "score": 82.0,
-      "found_at": "2026-10-07T23:12:51.030437+00:00"
     },
     {
       "name": "AI Headshot & Portrait Generator (Aragon-model)",
@@ -6122,29 +6053,6 @@
       "found_at": "2026-10-28T21:14:53.878907+00:00"
     },
     {
-      "name": "Interactive demo / product tour builder",
-      "field": "Sales & marketing software (demo automation)",
-      "summary": "A free web tool that turns screenshots or a recorded click-through into an embeddable, clickable product tour with hotspots and analytics.",
-      "why_now": "Navattic built 40,000+ demos in a year (+43% YoY), only 18% of ~5,000 B2B sites have one vs 12% in 2024, and AI demo products keep launching (Supademo AI Demo Agent was #7 on Product Hunt Oct 7 2026); the demo-automation category is projected ~$2.1B for 2026.",
-      "monetization": "Category pricing is $38-$575/mo (Arcade $42.50/seat, Supademo $38/creator, Walnut $575/mo) with weak free tiers - a strong free/open version has clear upgrade headroom.",
-      "evidence": [
-        "https://www.navattic.com/report/state-of-the-interactive-product-demo-2026",
-        "https://ciela.ai/blogs/demo-software-market-statistics-2026",
-        "https://dataintelo.com/report/interactive-demo-platform-market",
-        "https://any2.video/resources/interactive-demo-software-compared/",
-        "https://www.producthunt.com/leaderboard/daily/2026/10/7"
-      ],
-      "how_searched": [
-        "web search engine",
-        "vendor benchmark reports",
-        "market research reports",
-        "pricing/comparison pages",
-        "launch site (Product Hunt)"
-      ],
-      "score": 76.0,
-      "found_at": "2026-10-07T23:12:51.691039+00:00"
-    },
-    {
       "name": "AI contract-review / plain-English clause explainer",
       "field": "Legal tech / contract analysis",
       "summary": "Upload a contract and get a plain-English summary, flagged one-sided clauses, missing standard terms and suggested redlines. A free self-serve layer under tools that enterprises pay heavily for.",
@@ -6162,6 +6070,38 @@
       ],
       "score": 76.0,
       "found_at": "2026-10-08T23:25:29.482066+00:00"
+    },
+    {
+      "name": "ReSO AI",
+      "field": "SEO/GEO / AI Search Visibility",
+      "summary": "Generative engine optimization platform to help brands appear in AI search (ChatGPT, Perplexity, Google AIO).",
+      "why_now": "Ranked #4 on Product Hunt Oct 2026 (493 score) amid strong interest in GEO/AEO; visibility in AI search is rapidly becoming a must-have.",
+      "monetization": "SaaS subscription (Product Hunt launch; public MRR not visible in sources found).",
+      "evidence": [
+        "https://www.producthunt.com/leaderboard/monthly/2026/10",
+        "https://shareuhack.com/en/posts/product-hunt-weekly-2026-10-15"
+      ],
+      "how_searched": [
+        "Product Hunt leaderboard/trends, weekly product hunt roundup"
+      ],
+      "score": 61.3,
+      "found_at": "2026-10-29T00:58:52.137756+00:00"
+    },
+    {
+      "name": "OpenSEO",
+      "field": "SEO/GEO / Open Source Alternative",
+      "summary": "Open source Semrush alternative for keyword research, competitors, backlinks, audits starting at $10/mo with MCP integration.",
+      "why_now": "#10 on Product Hunt Oct 2026 (415 score) and in weekly roundup; appeals to cost-conscious teams and AI-agent workflows via MCP.",
+      "monetization": "SaaS starting at $10/mo (reported), open-core model possible.",
+      "evidence": [
+        "https://www.producthunt.com/products/openseo",
+        "https://shareuhack.com/en/posts/product-hunt-weekly-2026-10-15"
+      ],
+      "how_searched": [
+        "Product Hunt leaderboard, weekly roundup"
+      ],
+      "score": 59.3,
+      "found_at": "2026-10-29T00:58:52.826628+00:00"
     }
   ]
 }
