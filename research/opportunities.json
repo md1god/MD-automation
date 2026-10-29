@@ -4993,6 +4993,27 @@
       "found_at": "2026-10-28T21:14:44.669456+00:00"
     },
     {
+      "name": "Dupe Finder — paste a product link or photo, get the identical cheaper listing",
+      "field": "Consumer shopping / price comparison",
+      "summary": "A free web tool that takes any product URL or screenshot and returns the same item sold cheaper elsewhere, with a 0-100 match score and price history, aimed at shoppers hunting 'dupes'.",
+      "why_now": "TikTok's own search counts for the week to 30 Sep 2026 show 1,490,773 dupe searches with 10 of 11 dupe queries returning zero competing videos ('l19 dupe' 313,543 searches / 0 videos; 'the row dupe' +16,642% to 200,739) — demand with an empty content shelf; the '#dupe' hashtag is cited at 6-7B TikTok views, and a wave of paid dupe apps (Dupely, Stealsy, Glossy, BeautyFlow, Shoppy, StyleLens) has shipped in 2026 while no dominant free web version exists.",
+      "monetization": "Freemium subscriptions: Stealsy locks unlimited scans behind Pro (free tier = 5 catches/2 watched prices), StyleLens runs $4.99-15.99/month, Dupely and Glossy sell iOS/Android subscriptions. Exact market revenue: null.",
+      "evidence": [
+        "https://tokconnect.com/trends/products/october-2026/",
+        "https://www.vust.ai/dupe-finder",
+        "https://www.dupely.io/",
+        "https://www.stealsy.app/about",
+        "https://stylelensai.com/"
+      ],
+      "how_searched": [
+        "search-trend tool (TikTok search-volume tracker)",
+        "product/app pages on launch and app directories",
+        "competitor pricing pages"
+      ],
+      "score": 80.0,
+      "found_at": "2026-10-29T20:34:53.640521+00:00"
+    },
+    {
       "name": "AI gift recommendation web tool (seasonal/affiliate)",
       "field": "Consumer / Retail / GenAI",
       "summary": "Free web tool: user answers 3-4 questions (recipient age/personality/interests, occasion, budget) and gets ~16 personalized gift ideas with direct buy links (Amazon/Etsy). Optionally adds gifting-reminder calendar. Trivial to rebuild (LLM + product/shopping search API + affiliate links).",
@@ -6036,6 +6057,66 @@
       "found_at": "2026-10-29T14:24:58.461378+00:00"
     },
     {
+      "name": "AI-Free Search — a search page with AI Overviews permanently stripped out",
+      "field": "Search / productivity web tool",
+      "summary": "A free browser-based search front-end that serves classic blue-link results (udm=14-style) with no AI summary panel, plus an optional extension for on-Google hiding.",
+      "why_now": "DuckDuckGo's own poll drew 175,354 votes with over 90% choosing 'No AI'; the fastest-growing AI-directory extension to 11 Sep 2026 was Hide Google AI Overviews (100,000 → 400,000 installs, +300%) and 'No AI Search' grew 221 → 7,000 users in 30 days in September; press how-tos on hiding AI Overviews were still running on 23 Oct 2026 (AndroidPolice, PCMag).",
+      "monetization": "Display/affiliate ads on results, privacy-respecting search ads, pro tier for history/sync/params, extension upsell. Revenue for the leading tools: null.",
+      "evidence": [
+        "https://uk.pcmag.com/ai/162861/duckduckgo-asked-its-users-how-they-feel-about-ai-search-90-hate-it",
+        "https://zplatform.ai/best-ai-tools/ai-chrome-extensions/",
+        "https://extensionranker.com/research",
+        "https://www.androidpolice.com/i-disabled-google-ai-overviews-and-it-completely-fixed-my-search-results/"
+      ],
+      "how_searched": [
+        "extension-store analytics trackers (install growth)",
+        "news/tech press (last 7 days)",
+        "search-engine vendor survey coverage"
+      ],
+      "score": 74.0,
+      "found_at": "2026-10-29T20:34:55.170323+00:00"
+    },
+    {
+      "name": "Vibe-Code Leak Scanner — paste a live URL, get the exposed keys and a fix prompt",
+      "field": "Developer security SaaS",
+      "summary": "A free read-only scanner that checks a shipped AI-built web app for leaked API keys, open Supabase/Firebase tables, exposed .env/.git files and missing headers, returning copy-paste repair prompts for Cursor/Claude/Lovable.",
+      "why_now": "Category is exploding right now: CheckVibe reported $11,795.50 gross (Stripe-verified, 350+ paying customers, ~8k signups) by Oct 2026, and at least eight sibling scanners (bleek, Unspill, Vibeproof, VibeProtect, VibeSafely, AppSafe, vibecheck, GetLeaked) all launched around the same weeks on the same 'your vibe-coded app is leaking' pitch.",
+      "monetization": "Freemium: free header/basic scan, paid deep scan + monitoring (CheckVibe is subscription-based; Unspill runs a pre-launch sale through 30 Nov 2026). CheckVibe revenue $11,795.50; per-plan prices for others: null.",
+      "evidence": [
+        "https://1dea.io/traction/monthly/2026-10",
+        "https://www.bleek.dev/",
+        "https://unspill-scan.vercel.app/",
+        "https://vibeproof.sh/"
+      ],
+      "how_searched": [
+        "public revenue/Stripe profile roundup (Reddit traction aggregator)",
+        "direct competitor landing pages found by web search",
+        "launch/review sites"
+      ],
+      "score": 74.0,
+      "found_at": "2026-10-29T20:34:58.346105+00:00"
+    },
+    {
+      "name": "Product-URL → AI Video Ad Variants (multi-format, platform-ready)",
+      "field": "AI ad-creative generation",
+      "summary": "Free web tool where you paste a product page and get a batch of short-form UGC-style video ad variants (scripts, hooks, aspect ratios) ready for Meta/TikTok.",
+      "why_now": "'AI video' was the most-searched AI term on Upwork in September 2026 and AI video generation/editing grew +329% YoY (fastest-growing skill); 8M+ advertisers used Meta's AI creative tools in Q1 2026 (2x YoY); the AI video generation market is forecast at $18.6B by end of 2026.",
+      "monetization": "Credit/subscription tiers: most self-serve AI video-ad tools bill $9-$249/month, with ecommerce brands budgeting $199-$599/month for ready-to-publish creative; human UGC equivalents cost $500-$2,000 per video. Your own revenue: null.",
+      "evidence": [
+        "https://allwork.space/2026/10/businesses-are-hiring-for-ai-jobs-most-workers-werent-doing-a-year-ago/",
+        "https://www.upwork.com/research/in-demand-skills-2026",
+        "https://resources.rework.com/tools/ai-tools/best-ai-tools-for-facebook-instagram-ads-2026",
+        "https://fotyra.com/blogs/how-much-do-ai-video-ads-cost-in-2026"
+      ],
+      "how_searched": [
+        "freelance job-board trend reports (Upwork/Fiverr)",
+        "market-size/pricing benchmark articles",
+        "ad-platform adoption coverage"
+      ],
+      "score": 73.0,
+      "found_at": "2026-10-29T20:35:00.670742+00:00"
+    },
+    {
       "name": "SocialCrawl",
       "field": "Social data and opinion search",
       "summary": "A unified social-web data API covering 69 platforms with one schema, plus a consumer-style search over public opinions, comments, and trends.",
@@ -6055,90 +6136,24 @@
       "found_at": "2026-10-29T14:24:59.243969+00:00"
     },
     {
-      "name": "ReSO AI",
-      "field": "SEO/GEO / AI Search Visibility",
-      "summary": "Generative engine optimization platform to help brands appear in AI search (ChatGPT, Perplexity, Google AIO).",
-      "why_now": "Ranked #4 on Product Hunt Oct 2026 (493 score) amid strong interest in GEO/AEO; visibility in AI search is rapidly becoming a must-have.",
-      "monetization": "SaaS subscription (Product Hunt launch; public MRR not visible in sources found).",
+      "name": "Micro-Drama Season Studio — premise → 60-100 episode vertical series package",
+      "field": "AI video content production",
+      "summary": "A free web studio that turns one premise into a paywall-structured micro-drama season: story bible, episode map, cliffhanger chains, shot lists, 9:16 storyboard and subtitle files.",
+      "why_now": "Short-drama apps hit ~850M downloads and roughly $750M in-app revenue in Q1 2026 (downloads +140% YoY); DramaBox alone took ~$13M of US App Store spend in 30 days to 16 Oct 2026; overseas short-drama ad creatives placed hit 19.61M groups in H1 2026 (+324% YoY), while producer budgets run €150k-250k per title — script/pre-production tooling (Jenova, Redrama, Plot Party, Drama.so) is where solo producers are landing.",
+      "monetization": "Credit-based rendering/export subscriptions on existing tools (Redrama: editing free, credits spent on render; drama.so free-to-start). Category revenue is app-side ($285M overseas IAP in Sept 2026); tool-side revenue: null.",
       "evidence": [
-        "https://www.producthunt.com/leaderboard/monthly/2026/10",
-        "https://shareuhack.com/en/posts/product-hunt-weekly-2026-10-15"
+        "https://verticalcharts.com/micro-drama-apps-ranking-2026-netshort-dramawave-goodshort-freereels/",
+        "https://www.apptrendkit.com/research/short-drama-apps-us-2026-10",
+        "https://eu.36kr.com/en/p/4043468834477955",
+        "https://www.jenova.ai/en/a/microdrama-screenwriter"
       ],
       "how_searched": [
-        "Product Hunt leaderboard/trends, weekly product hunt roundup"
+        "app-store chart/spend estimators",
+        "industry news (market data reports)",
+        "direct competitor product pages"
       ],
-      "score": 61.3,
-      "found_at": "2026-10-29T00:58:52.137756+00:00"
-    },
-    {
-      "name": "OpenSEO",
-      "field": "SEO/GEO / Open Source Alternative",
-      "summary": "Open source Semrush alternative for keyword research, competitors, backlinks, audits starting at $10/mo with MCP integration.",
-      "why_now": "#10 on Product Hunt Oct 2026 (415 score) and in weekly roundup; appeals to cost-conscious teams and AI-agent workflows via MCP.",
-      "monetization": "SaaS starting at $10/mo (reported), open-core model possible.",
-      "evidence": [
-        "https://www.producthunt.com/products/openseo",
-        "https://shareuhack.com/en/posts/product-hunt-weekly-2026-10-15"
-      ],
-      "how_searched": [
-        "Product Hunt leaderboard, weekly roundup"
-      ],
-      "score": 59.3,
-      "found_at": "2026-10-29T00:58:52.826628+00:00"
-    },
-    {
-      "name": "Laper",
-      "field": "AI screenwriting and film pre-production",
-      "summary": "An AI-native screenplay editor that enforces industry formatting, maps story structure, and turns a script into cast, location, scene, and shot lists.",
-      "why_now": "Verified at $46,509 MRR and $48,641 in the last 30 days, with 1,509 active subscriptions and $193,059 all-time on TrustMRR on Oct 29, 2026; a two-person team built it for a structured professional workflow that generic chat tools handle badly.",
-      "monetization": "Subscription tiers from $20 to $400 per month, per the founder case study.",
-      "evidence": [
-        "https://shippedandpaid.com/cases/laper-ai-screenwriting-software-48k-month-claude-code-codex/",
-        "https://trustmrr.com/startup/laper"
-      ],
-      "how_searched": [
-        "Shipped & Paid top verified revenue ranking",
-        "TrustMRR Stripe-verified profile",
-        "AI-built app revenue report 2026"
-      ],
-      "score": 57.3,
-      "found_at": "2026-10-29T14:24:54.235944+00:00"
-    },
-    {
-      "name": "Microdrama Production Studio",
-      "field": "AI microdrama and short-form video",
-      "summary": "A web studio that turns a premise into a localized microdrama production kit: 60-90 second episode beats, cliffhanger hooks, batch script variants, shot lists, and AI-video prompts.",
-      "why_now": "DataEye estimates overseas microdrama in-app purchases above $2.1B and downloads above 2.2B in Jan-Sep 2026; AI-native VibeShort and StoryReel reached $36M and $28M cumulative IAP, while Sensor Tower puts Q1 downloads at 850M, up 140% year on year.",
-      "monetization": "Free first script; paid plans for hook variants, localization, and production exports; pricing is an assumption, not observed revenue.",
-      "evidence": [
-        "https://www.yfchuhai.com/article/10229277.html",
-        "https://sensortower.com/blog/state-of-short-drama-apps-2026-report"
-      ],
-      "how_searched": [
-        "DataEye data via Yangfan Chuhai",
-        "Sensor Tower State of Short Drama Apps 2026",
-        "AI-native short-drama revenue ranking"
-      ],
-      "score": 53.3,
-      "found_at": "2026-10-29T14:24:57.177931+00:00"
-    },
-    {
-      "name": "ToneAdapt",
-      "field": "Guitar tone and music practice",
-      "summary": "Translates a song's recorded guitar tone into amp, pickup, pedal, and EQ settings matched to the player's own gear.",
-      "why_now": "The founder showed dashboards for more than 25,000 in four weeks, about 11,500 on web Stripe plus 14,000 in the mobile app, though the currency was not stated; the site claims 150,000+ guitarists and a 4.9 App Store rating.",
-      "monetization": "Paid web and app plans; exact pricing was not verified.",
-      "evidence": [
-        "https://shippedandpaid.com/cases/toneadapt-guitar-tone-app-25k-four-weeks-cursor-claude-code/",
-        "https://toneadapt.com/"
-      ],
-      "how_searched": [
-        "Shipped & Paid screenshot case",
-        "Company site",
-        "App Store and Google Play presence"
-      ],
-      "score": 47.3,
-      "found_at": "2026-10-29T14:24:59.664841+00:00"
+      "score": 71.0,
+      "found_at": "2026-10-29T20:35:02.641539+00:00"
     }
   ]
 }
