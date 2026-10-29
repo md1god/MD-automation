@@ -2813,27 +2813,6 @@
       "found_at": "2026-10-28T21:14:37.478967+00:00"
     },
     {
-      "name": "Free meeting transcription & AI meeting notes",
-      "field": "Productivity / AI SaaS",
-      "summary": "A free web tool that records or ingests meetings, transcribes them, and produces summaries, action items and searchable notes without a meeting bot.",
-      "why_now": "Transcription/meeting-notes was the fastest-growing AI site category July→August 2026 (+35.3% MoM), with hinoter.com +2,416% to ~2.48M visits and iamtypist.dev +771% to ~6.61M; OpenAI launched a Meetings plugin beta at DevDay (Sept 29, 2026); Circleback opened unlimited transcription for free on Aug 31, 2026, cutting its paid plan from ~$21 to $15/mo.",
-      "monetization": "Circleback claims ~$8M annual revenue with just 8 employees while replacing ads with a free tier; Plaud (device + subscription) debuted at #16 on the a16z consumer-spend list — so freemium tiers plus team seats are proven.",
-      "evidence": [
-        "https://dev.to/anjinradar/what-2916-ai-websites-told-us-about-august-2026-transcription-and-image-to-3d-are-taking-off-1cpl",
-        "https://beckmann.ai/en/ai-in-practice/2026-08/circleback-free-tier",
-        "https://thenextweb.com/news/openai-devday-pro-200-usage-cut-pro-500-plan",
-        "https://www.a16z.news/p/top-100-consumer-ai-apps-seventh"
-      ],
-      "how_searched": [
-        "traffic-estimator study via dev.to (2,916 AI-site crawl)",
-        "vendor blog/news search (Circleback free tier)",
-        "news search (OpenAI DevDay coverage)",
-        "consumer AI app index (a16z Top 100, 7th edition)"
-      ],
-      "score": 84.0,
-      "found_at": "2026-10-08T03:07:36.549545+00:00"
-    },
-    {
       "name": "Prompt-to-game AI builder",
       "field": "AI gaming / prompt-to-game",
       "summary": "Describe a game in plain language and get a playable, shareable browser game with graphics, sound and physics — no coding. Google Playground launched this model on Oct 7, 2026, with a public gallery and Unity building pro-grade 3D tools (Unity Spark) on top.",
@@ -3315,6 +3294,25 @@
       ],
       "score": 84.0,
       "found_at": "2026-10-27T16:52:29.324352+00:00"
+    },
+    {
+      "name": "GETebook.ai",
+      "field": "AI publishing and digital products",
+      "summary": "Turns a topic into a chaptered ebook or coloring book, designs a cover, and exports KDP/Etsy-ready PDF, EPUB, and DOCX files.",
+      "why_now": "Verified at $35,469 in the last 30 days, $10,629 MRR from 223 subscriptions, and $153,572 all-time on TrustMRR on Oct 29, 2026; the site reports 12,000+ creators and sells the publishing outcome rather than the tool.",
+      "monetization": "Pro plans from $29 to $99 per month with credits and full commercial rights.",
+      "evidence": [
+        "https://shippedandpaid.com/cases/getebook-ai-ebook-generator-35k-month-claude-code/",
+        "https://trustmrr.com/startup/getebook-ai",
+        "https://getebook.ai/"
+      ],
+      "how_searched": [
+        "Shipped & Paid verified case",
+        "TrustMRR profile",
+        "Company pricing page"
+      ],
+      "score": 84.0,
+      "found_at": "2026-10-29T14:24:55.108532+00:00"
     },
     {
       "name": "EU Cyber Resilience Act SBOM & vulnerability-reporting tool",
@@ -4222,21 +4220,6 @@
       "found_at": "2026-10-28T21:14:39.770016+00:00"
     },
     {
-      "name": "Prompt-injection & AI-guardrail red-team scanner",
-      "field": "AI security / LLM testing",
-      "summary": "Free web tool where builders paste a system prompt, agent definition or RAG config and instantly get a scored report of prompt-injection, data-exfiltration and jailbreak failures, plus a reusable test suite that can be re-run on every model change. It is the open/free version of what enterprise vendors now sell as continuous agent red-teaming.",
-      "why_now": "Search interest for 'AI Guardrails' is up 8,400% on Exploding Topics; commercial tool BenchBot claims most AI applications fail at least 30% of its injection tests; and the EU AI Act's Article 50 transparency duties have been enforceable since 02 Aug 2026, making basic guardrail testing a compliance-driven habit rather than a nice-to-have.",
-      "monetization": "Free scans in the browser, paid seats for CI/API re-runs, team dashboards and compliance-ready exportable reports — the same packaging BenchBot/Nforcer use with enterprise buyers.",
-      "evidence": [
-        "https://explodingtopics.com/blog/trending-topics",
-        "https://benchbot.ai/landing/prompt-injection-detection",
-        "https://ai-act-service-desk.ec.europa.eu/en/ai-act/timeline/timeline-implementation-eu-ai-act"
-      ],
-      "how_searched": "Searched trending AI-security and compliance terms on Exploding Topics and Google Trends, then opened the EU AI Act implementation timeline and a commercial prompt-injection testing vendor to verify live demand.",
-      "score": 81.0,
-      "found_at": "2026-10-08T10:47:41.190808+00:00"
-    },
-    {
       "name": "Autonomous AI social-media influencer agent",
       "field": "AI creator economy / social media agents",
       "summary": "AI agents that run a social account end-to-end 24/7 — they spot trends, create on-brand content in your voice, publish across TikTok/Instagram/X and optimize for growth, with chat-based or full autonomy.",
@@ -4484,26 +4467,6 @@
       ],
       "score": 81.0,
       "found_at": "2026-10-28T21:14:43.074261+00:00"
-    },
-    {
-      "name": "Text or image to 3D model generator",
-      "field": "3D / Design tools",
-      "summary": "A free web tool that turns a text prompt or a photo into a downloadable 3D model (glTF/STL) for games, printing and product mockups.",
-      "why_now": "3D modeling grew +34.6% MoM across 2,916 tracked AI sites (July→Aug 2026), hi3d.ai hit ~2.72M visits (+55%), open-source text-to-CAD repos are scaling fast (earthtojake/text-to-cad 18,301 stars, pushed Oct 8, 2026; Adam-CAD/CADAM 5,218 stars), and Meshy.ai reached 18.1M monthly visits (+97.8% MoM) per AlphaMoat's April 2026 report.",
-      "monetization": "Revenue not verified (null); the category's standard model is per-generation credits/subscriptions — Meshy's 18.1M-visit scale and paid CAD tools (Backflip, $30M raised) show willingness to pay.",
-      "evidence": [
-        "https://dev.to/anjinradar/what-2916-ai-websites-told-us-about-august-2026-transcription-and-image-to-3d-are-taking-off-1cpl",
-        "https://github.com/earthtojake/text-to-cad",
-        "https://github.com/Adam-CAD/CADAM",
-        "https://www.alphamoat.ai/en/report/global-ai-traffic-202604"
-      ],
-      "how_searched": [
-        "traffic-estimator study via dev.to (category +34.6% MoM)",
-        "GitHub API + repository pages (star counts, last push)",
-        "traffic analytics vendor report (AlphaMoat monthly)"
-      ],
-      "score": 80.0,
-      "found_at": "2026-10-08T03:07:37.627424+00:00"
     },
     {
       "name": "AI astrology / tarot / horoscope web app",
@@ -5028,26 +4991,6 @@
       ],
       "score": 80.0,
       "found_at": "2026-10-28T21:14:44.669456+00:00"
-    },
-    {
-      "name": "AI music generator",
-      "field": "Creator tools / Audio",
-      "summary": "A free web tool where anyone types a style and lyrics and gets an original playable, downloadable song in seconds.",
-      "why_now": "Suno hit 2M paid subscribers and $300M ARR (Feb 2026) and raised $400M at a $5.4B valuation (June 2026); 'AI Music Generator' search growth is +5,200% in Exploding Topics' Oct 6, 2026 list; flowmusic.app grew +105% MoM to ~6.19M visits.",
-      "monetization": "Subscriptions: Suno's 2M payers generate $300M ARR; MBW reports 100M total users — free tier for discovery, paid tiers for downloads/commercial rights.",
-      "evidence": [
-        "https://techcrunch.com/2026/02/27/ai-music-generator-suno-hits-2-million-paid-subscribers-and-300m-in-annual-recurring-revenue/",
-        "https://www.musicbusinessworldwide.com/suno-hits-2m-paid-subscribers-300m-annual-revenue/",
-        "https://explodingtopics.com/blog/trending-topics",
-        "https://techcrunch.com/2026/06/03/still-facing-copyright-lawsuits-ai-music-generator-suno-raises-another-400m/"
-      ],
-      "how_searched": [
-        "news/funding coverage (TechCrunch, Music Business Worldwide)",
-        "search-trend tool (Exploding Topics trending-topics, Oct 2026)",
-        "traffic study via dev.to (audio/music category +19% MoM)"
-      ],
-      "score": 79.0,
-      "found_at": "2026-10-08T03:07:39.374213+00:00"
     },
     {
       "name": "AI gift recommendation web tool (seasonal/affiliate)",
@@ -5791,23 +5734,23 @@
       "found_at": "2026-10-28T21:14:52.958727+00:00"
     },
     {
-      "name": "Background removal & AI product photography",
-      "field": "Ecommerce / Image tools",
-      "summary": "A free browser tool that removes image backgrounds and generates clean product photos (and virtual try-on shots) for listings and ads.",
-      "why_now": "'Background Removal' is #1 on Rising Trends' retail list at 1,000,000 monthly searches, +641% YoY; Upwork's In-Demand Skills 2026 shows AI image generation & editing demand +95% YoY; Photoroom ranks among the top AI-native apps in the a16z consumer index; 'Try On' also entered the Oct 2026 retail trend list.",
-      "monetization": "Freemium export credits plus per-image packs; Upwork's +95% growth in paid AI image work shows businesses already pay for this output.",
+      "name": "Dedica",
+      "field": "AI agent readiness audits",
+      "summary": "Audits whether AI agents can discover, read, navigate, sign up for, and pay on a website, then sells a fix kit written for coding agents.",
+      "why_now": "Cloudflare Radar's April 2026 scan of 200,000 domains found only 4% declaring content signals, 3.9% supporting markdown negotiation, and fewer than 15 sites with MCP Server Cards or API Catalogs; Dedica reports 115,752 sites scanned and shows a Product Hunt daily badge.",
+      "monetization": "Free score; $30 launch price or $50 regular one-time fix kit per domain, with no subscription.",
       "evidence": [
-        "https://www.risingtrends.co/trends/retail-trends-2026",
-        "https://www.nasdaq.com/press-release/upworks-demand-skills-2026-demand-top-ai-skills-more-doubles-ai-embedded-everyday",
-        "https://www.a16z.news/p/top-100-consumer-ai-apps-seventh"
+        "https://getdedica.com/",
+        "https://blog.cloudflare.com/agent-readiness",
+        "https://getdedica.com/pricing"
       ],
       "how_searched": [
-        "search-trend database (Rising Trends retail trends, Sept/Oct 2026)",
-        "freelance marketplace report (Upwork In-Demand Skills 2026 via Nasdaq PR)",
-        "consumer AI app index (a16z Top 100)"
+        "Cloudflare Agent Readiness launch",
+        "Dedica homepage and pricing",
+        "Product Hunt badge on Dedica"
       ],
-      "score": 77.0,
-      "found_at": "2026-10-08T03:07:40.768645+00:00"
+      "score": 78.0,
+      "found_at": "2026-10-29T14:24:57.620704+00:00"
     },
     {
       "name": "SKILL.md agent-skills marketplace & hosting platform",
@@ -6072,6 +6015,46 @@
       "found_at": "2026-10-08T23:25:29.482066+00:00"
     },
     {
+      "name": "Kolbo.AI",
+      "field": "AI creative workspace",
+      "summary": "One project workspace and credit pool for 100+ image, video, music, voice, chat, and 3D models, with character consistency, team sharing, and editor plugins.",
+      "why_now": "Verified at $79,244 in the last 30 days and $34,168 MRR from 611 subscriptions on Shipped & Paid; TrustMRR shows $89,737 in the last 30 days, 682 subscriptions, and $360,762 all-time on Oct 29, 2026; a16z reports power spenders over-index creative and multi-model tools.",
+      "monetization": "Free plan; Lite $27, Standard $45, and Pro $89 per month; credit packs from $15.",
+      "evidence": [
+        "https://shippedandpaid.com/cases/kolbo-ai-creative-ai-workspace-79k-month-lovable-cursor-claude-code/",
+        "https://trustmrr.com/startup/kolbo-ai",
+        "https://kolbo.ai/",
+        "https://a16z.com/100-gen-ai-apps-7/"
+      ],
+      "how_searched": [
+        "Shipped & Paid top verified revenue",
+        "TrustMRR profile",
+        "a16z Top 100 Gen AI Consumer Apps 7th Edition",
+        "Company site"
+      ],
+      "score": 75.0,
+      "found_at": "2026-10-29T14:24:58.461378+00:00"
+    },
+    {
+      "name": "SocialCrawl",
+      "field": "Social data and opinion search",
+      "summary": "A unified social-web data API covering 69 platforms with one schema, plus a consumer-style search over public opinions, comments, and trends.",
+      "why_now": "Verified at $35,135 in the last 30 days and $95,630 all-time since April 2026 on Shipped & Paid; TrustMRR shows $44,189 in the last 30 days and $111,863 all-time, with only $1,078 MRR because most revenue is usage credits.",
+      "monetization": "100 free credits; one-time credit packs at GBP 15, GBP 49, and GBP 299; enterprise contracts and API usage fees.",
+      "evidence": [
+        "https://shippedandpaid.com/cases/socialcrawl-social-media-data-api-35k-month-claude-code/",
+        "https://trustmrr.com/startup/socialcrawl",
+        "https://www.socialcrawl.dev/"
+      ],
+      "how_searched": [
+        "Shipped & Paid developer-tools case",
+        "TrustMRR profile",
+        "Company API pricing page"
+      ],
+      "score": 72.0,
+      "found_at": "2026-10-29T14:24:59.243969+00:00"
+    },
+    {
       "name": "ReSO AI",
       "field": "SEO/GEO / AI Search Visibility",
       "summary": "Generative engine optimization platform to help brands appear in AI search (ChatGPT, Perplexity, Google AIO).",
@@ -6102,6 +6085,60 @@
       ],
       "score": 59.3,
       "found_at": "2026-10-29T00:58:52.826628+00:00"
+    },
+    {
+      "name": "Laper",
+      "field": "AI screenwriting and film pre-production",
+      "summary": "An AI-native screenplay editor that enforces industry formatting, maps story structure, and turns a script into cast, location, scene, and shot lists.",
+      "why_now": "Verified at $46,509 MRR and $48,641 in the last 30 days, with 1,509 active subscriptions and $193,059 all-time on TrustMRR on Oct 29, 2026; a two-person team built it for a structured professional workflow that generic chat tools handle badly.",
+      "monetization": "Subscription tiers from $20 to $400 per month, per the founder case study.",
+      "evidence": [
+        "https://shippedandpaid.com/cases/laper-ai-screenwriting-software-48k-month-claude-code-codex/",
+        "https://trustmrr.com/startup/laper"
+      ],
+      "how_searched": [
+        "Shipped & Paid top verified revenue ranking",
+        "TrustMRR Stripe-verified profile",
+        "AI-built app revenue report 2026"
+      ],
+      "score": 57.3,
+      "found_at": "2026-10-29T14:24:54.235944+00:00"
+    },
+    {
+      "name": "Microdrama Production Studio",
+      "field": "AI microdrama and short-form video",
+      "summary": "A web studio that turns a premise into a localized microdrama production kit: 60-90 second episode beats, cliffhanger hooks, batch script variants, shot lists, and AI-video prompts.",
+      "why_now": "DataEye estimates overseas microdrama in-app purchases above $2.1B and downloads above 2.2B in Jan-Sep 2026; AI-native VibeShort and StoryReel reached $36M and $28M cumulative IAP, while Sensor Tower puts Q1 downloads at 850M, up 140% year on year.",
+      "monetization": "Free first script; paid plans for hook variants, localization, and production exports; pricing is an assumption, not observed revenue.",
+      "evidence": [
+        "https://www.yfchuhai.com/article/10229277.html",
+        "https://sensortower.com/blog/state-of-short-drama-apps-2026-report"
+      ],
+      "how_searched": [
+        "DataEye data via Yangfan Chuhai",
+        "Sensor Tower State of Short Drama Apps 2026",
+        "AI-native short-drama revenue ranking"
+      ],
+      "score": 53.3,
+      "found_at": "2026-10-29T14:24:57.177931+00:00"
+    },
+    {
+      "name": "ToneAdapt",
+      "field": "Guitar tone and music practice",
+      "summary": "Translates a song's recorded guitar tone into amp, pickup, pedal, and EQ settings matched to the player's own gear.",
+      "why_now": "The founder showed dashboards for more than 25,000 in four weeks, about 11,500 on web Stripe plus 14,000 in the mobile app, though the currency was not stated; the site claims 150,000+ guitarists and a 4.9 App Store rating.",
+      "monetization": "Paid web and app plans; exact pricing was not verified.",
+      "evidence": [
+        "https://shippedandpaid.com/cases/toneadapt-guitar-tone-app-25k-four-weeks-cursor-claude-code/",
+        "https://toneadapt.com/"
+      ],
+      "how_searched": [
+        "Shipped & Paid screenshot case",
+        "Company site",
+        "App Store and Google Play presence"
+      ],
+      "score": 47.3,
+      "found_at": "2026-10-29T14:24:59.664841+00:00"
     }
   ]
 }
