@@ -3533,6 +3533,25 @@
       "found_at": "2026-10-30T01:02:01.102582+00:00"
     },
     {
+      "name": "Accessibility Risk Scanner & Fix Planner",
+      "field": "Accessibility compliance",
+      "summary": "A free web scanner that audits a site against WCAG, explains failures in plain language, and converts them into a prioritized fix plan with owner-ready evidence. Target SMBs, agencies, and SaaS teams facing ADA or state accessibility claims.",
+      "why_now": "UsableNet projects more than 6,000 digital accessibility lawsuits in 2026, while AudioEye reported Q3 2026 revenue of $11.0M and ARR of $43.3M, showing buyers already pay for monitoring and remediation.",
+      "monetization": "Free one-page scan; paid continuous monitoring, multi-page reports, agency white-label seats, and remediation referrals.",
+      "evidence": [
+        "https://info.usablenet.com/2026-midyear-report",
+        "https://www.audioeye.com/post/audioeye-reports-record-third-quarter-2026-results/",
+        "https://blog.usablenet.com/inside-the-2026-midyear-numbers-where-digital-accessibility-litigation-is-going"
+      ],
+      "how_searched": [
+        "web search",
+        "legal industry report",
+        "public company results"
+      ],
+      "score": 84.0,
+      "found_at": "2026-10-30T19:27:16.481257+00:00"
+    },
+    {
       "name": "EU Cyber Resilience Act SBOM & vulnerability-reporting tool",
       "field": "Compliance / software supply chain",
       "summary": "A web platform that generates and continuously maintains machine-readable SBOMs (CycloneDX/SPDX) for products with digital elements sold in the EU, matches components against vulnerability databases, and automates CRA Article 14 actively-exploited-vulnerability reporting to ENISA within 24 hours.",
@@ -5441,6 +5460,25 @@
       "found_at": "2026-10-28T21:14:50.626184+00:00"
     },
     {
+      "name": "AI Professional Headshot Studio",
+      "field": "Consumer AI / photography",
+      "summary": "A free web studio that turns a few selfies into professional headshots, with paid high-resolution packs, attire and background presets, and team-branded options.",
+      "why_now": "Aragon reports 2M+ users, 40M+ photos, 8-figure ARR, and profitability; its reported $900k monthly run rate shows durable willingness to pay despite Canva and low-cost clones.",
+      "monetization": "Free watermarked preview; paid headshot packs; team and employer-branding subscriptions; creator or affiliate distribution.",
+      "evidence": [
+        "https://www.aragon.ai/blog/three-years-of-aragon-2-million-users-40-million-photos-and-the-future-of-ai-photography",
+        "https://www.indiehackers.com/post/tech/building-one-of-the-first-ai-headshot-products-and-hitting-900k-mo-in-3-years-UK9omiPofFtha5Kps2Fj",
+        "https://www.pmf.show/episodes/ep-33-1st-time-founder-grows-ai-headshot-app-from-0-to-10m-arr-in-2-years-with-no-fund"
+      ],
+      "how_searched": [
+        "web search",
+        "founder interview",
+        "company blog"
+      ],
+      "score": 79.0,
+      "found_at": "2026-10-30T19:27:19.503654+00:00"
+    },
+    {
       "name": "Voice-agent QA & live-call benchmark platform",
       "field": "Conversational AI / voice-agent QA",
       "summary": "Testing, simulation and benchmarking for voice AI agents before and during production — speech-to-speech eval on live phone calls, regression suites and CI/CD integration. Cekura Bench launched on Product Hunt Oct 8.",
@@ -6133,49 +6171,6 @@
       ],
       "score": 77.0,
       "found_at": "2026-10-18T23:24:33.400262+00:00"
-    },
-    {
-      "name": "Web-Based Multi-AI Sidebar (Chrome Extension Alternative)",
-      "field": "Productivity / AI Access Tools",
-      "summary": "A free, no-install web app that brings ChatGPT, Claude, Gemini, Grok, and local models into a single persistent sidebar with folders, search, prompt library, and cross-model comparison — accessible from any browser/device without extension permissions or account bans.",
-      "why_now": "Chrome Web Store shows massive demand: Sider 5M users (4.88★, 114K reviews), Monica 3M users (4.9★), AITOPIA 1M users (4.82★), HARPA AI 400K users, AI Toolbox 40K users (4.7★, 5-figure MRR, Featured badge). But extensions face: WebChatGPT removed, platform risk (sidebar redesigns break features), account ban fears. Users want portable, no-lock-in access.",
-      "monetization": "Freemium: free tier with rate limits, BYO API keys (like SheetMagic on AppSumo), paid $8-20/mo for unlimited, sync, prompt chaining, multi-model. AI Toolbox: $9.99/mo or $99 lifetime. AppSumo AI deals: Katteb $39-390, Writecream $59-295, ClickRank $89-356.",
-      "evidence": [
-        "https://chrome-stats.com/d/difoiogjjojoaoomphldepapgpbgkhkb",
-        "https://www.alphamoat.ai/en/ext/monica-ofpnmcalabcbjgholdjcjblkibolbppb",
-        "https://chrome-stats.com/d/becfinhbfclcgokjlobojlnldbfillpf",
-        "https://chromewebstore.google.com/detail/harpa-ai-web-automation-w/eanggfilgoajaocelnaflolkadkeghjp",
-        "https://www.ai-toolbox.co/chatgpt-toolbox-competitors/chatgpt-chrome-extensions-buyers-guide-2026",
-        "https://levelup.gitconnected.com/i-built-the-same-chrome-extension-three-times-each-one-broke-differently-5fcdc7d4fe37"
-      ],
-      "how_searched": [
-        "Chrome Web Store stats (chrome-stats.com, AlphaMoat)",
-        "Extension comparison buyer's guide (AI Toolbox)",
-        "Founder post-mortem on extension platform risk (Adi Leviim)",
-        "AppSumo AI deal listings"
-      ],
-      "score": 77.0,
-      "found_at": "2026-10-21T05:12:12.746786+00:00"
-    },
-    {
-      "name": "EAA accessibility scanner with remediation evidence pack",
-      "field": "Digital accessibility compliance",
-      "summary": "Free scanner that checks EU e-commerce sites and apps against WCAG 2.1 AA and EN 301 549, prioritizes fixes, and generates dated evidence for regulators, courts, and enterprise buyers.",
-      "why_now": "The European Accessibility Act has applied since 28 June 2025. On 4 June 2026, a French court ordered Carrefour to make its site and app fully accessible within six months under a €500-per-day penalty, while WebAIM found 95.9% of the top one million homepages still had detectable WCAG failures in 2026.",
-      "monetization": "Free scan; paid continuous monitoring, audit-ready reports, developer handoff, legal evidence packs, and a vetted remediation consultant marketplace.",
-      "evidence": [
-        "https://europa.eu/youreurope/business/selling-in-eu/selling-goods-services/accessibility/index_en.htm",
-        "https://statutus.ch/en/guides/european-accessibility-act-enforcement-so-far/",
-        "https://auditsu.com/resources/eaa-carrefour-ruling",
-        "https://seemeplease.com/knowledge/blog/eu-uk-digital-accessibility-laws"
-      ],
-      "how_searched": [
-        "European Accessibility Act enforcement 2026",
-        "Carrefour accessibility ruling",
-        "WebAIM Million 2026 results"
-      ],
-      "score": 77.0,
-      "found_at": "2026-10-23T13:34:51.862964+00:00"
     }
   ]
 }
