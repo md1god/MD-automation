@@ -280,6 +280,27 @@
       "found_at": "2026-10-25T19:45:08.365699+00:00"
     },
     {
+      "name": "AI Search Visibility (GEO/AEO) Tracking",
+      "field": "Marketing/SEO Tools",
+      "summary": "Platforms tracking brand mentions and citations across ChatGPT, Perplexity, Claude, Gemini, Google AI Overviews - showing when/where AI models cite/recommend brands.",
+      "why_now": "AI search is redirecting traffic from traditional search. Platforms like Peec reached ~$10M ARR with 2500+ customers in 16 months; AmICited reached $17K MRR growing to $22K; multiple indie GEO tools (ThriveStack citedby, AgentGEO, GEOmind) show strong demand with founders paying $17-399/mo. Enterprise suites start at $99-499/mo.",
+      "monetization": "SaaS subscriptions with tiered pricing (usage/prompts/engines), freemium models, agency plans. Indie examples: AmICited $15-22K MRR (146 subs), Prompt monitoring tools $1K-17K MRR, early movers see strong conversion.",
+      "evidence": [
+        "https://amicited.com/",
+        "https://trustmrr.com/startup/amicited",
+        "https://www.thrivestack.ai/citedby",
+        "https://geomind.app/"
+      ],
+      "how_searched": [
+        "web search",
+        "indie hacker revenue tracking (TrustMRR)",
+        "microSaaS revenue reports",
+        "AI/SEO tool discovery"
+      ],
+      "score": 95.0,
+      "found_at": "2026-10-30T07:09:32.212483+00:00"
+    },
+    {
       "name": "AI PDF Form Filler / Auto-Fill (Vertical-Specific)",
       "field": "Document Automation / Workflow Tools",
       "summary": "AI tool that fills PDFs (including scanned/non-fillable forms) from saved profiles with intelligent field detection and mapping. Focus on high-value verticals like legal, medical, government forms, or insurance where repetition is painful.",
@@ -869,6 +890,28 @@
       ],
       "score": 92.0,
       "found_at": "2026-10-28T16:04:46.848298+00:00"
+    },
+    {
+      "name": "AI Prompt Optimizer / Prompt Engineering Tools",
+      "field": "AI Productivity Tools",
+      "summary": "Tools that rewrite/improve prompts for better LLM outputs (Pretty Prompt, Prompt Genie, Prompt Builder). Often Chrome extensions or web apps.",
+      "why_now": "Non-technical users struggle with prompting; products seeing rapid adoption via TikTok/PH. Pretty Prompt did $300K in 60 days on AppSumo lifetime deals; Prompt Genie went to $10K MRR in 1 month; others report strong traction.",
+      "monetization": "Freemium + subscription, lifetime deals (AppSumo), Chrome extension with freemium. Pretty Prompt $300K+ in 60 days via LTD; Prompt Genie reached $30K MRR; many small indie tools making $1K-20K MRR.",
+      "evidence": [
+        "https://prettypromptai.substack.com/p/from-startup-pivot-to-300k-in-60",
+        "https://www.indiehackers.com/post/hitting-3k-arr-7-days-after-release-H1R97zB61ddgL4yqb1Yh",
+        "https://startupfounderstories.com/stories/prompt-genie-no-code-tiktok-launch",
+        "https://trustmrr.com/startup/prompt-builder-1",
+        "https://www.sideprojectors.com/project/91772/teleprompt"
+      ],
+      "how_searched": [
+        "web search",
+        "indie hacker stories",
+        "AppSumo/TikTok virality tracking",
+        "microSaaS revenue data"
+      ],
+      "score": 92.0,
+      "found_at": "2026-10-30T07:09:34.358323+00:00"
     },
     {
       "name": "Specreel",
@@ -2362,6 +2405,25 @@
       ],
       "score": 86.0,
       "found_at": "2026-10-30T01:01:58.994464+00:00"
+    },
+    {
+      "name": "K-Beauty & Wellness Products on TikTok Shop",
+      "field": "E-commerce/Consumer Products",
+      "summary": "Skincare (medicube), supplements (Toplux Magnesium), wellness products dominating TikTok Shop with strong GMV.",
+      "why_now": "TikTok Shop continues growing; K-beauty brands expanding into adjacencies. medicube did $17.24M in US Sep 2026 alone; top products generating $5-16M per product. Category expansion opportunities exist.",
+      "monetization": "Direct-to-consumer via TikTok Shop/Amazon with high margins; creator affiliate commissions. Massive GMV numbers.",
+      "evidence": [
+        "https://www.z.media/insights/tiktok-shop-index-october-2026",
+        "https://tokconnect.com/trends/products/best-sellers/",
+        "https://www.fastmoss.com/blog/best-selling-tiktok-shop-products-us-q2-2026/"
+      ],
+      "how_searched": [
+        "web search",
+        "TikTok Shop trend reports",
+        "e-commerce data aggregators"
+      ],
+      "score": 86.0,
+      "found_at": "2026-10-30T07:09:38.173662+00:00"
     },
     {
       "name": "Independent MCP server trust directory & safety rating",
@@ -6084,70 +6146,6 @@
       ],
       "score": 77.0,
       "found_at": "2026-10-25T11:34:32.114855+00:00"
-    },
-    {
-      "name": "Private / Anonymous AI Chat Interface",
-      "field": "Privacy-First AI",
-      "summary": "A free, no-account AI chat web app that anonymizes requests (strips IP/metadata), routes to multiple frontier models under zero-data-retention agreements, and never trains on or stores conversations—a surveillance-free alternative to ChatGPT/claude.ai.",
-      "why_now": "Duck.ai (DuckDuckGo) grew 22.5% MoM to 23.9M monthly visits by late 2026; a Reddit analysis of 9,300+ 'I wish there was an app' posts found 7% specifically requesting offline-first/privacy tools due to subscription fatigue. State-of-Local-AI reports confirm privacy is the strongest consumer promise for local/private AI, and searches for private AI tools keep climbing.",
-      "monetization": "Freemium: free anonymous chat with optional paid Pro tier for higher limits/file uploads; Duck.ai model shows distribution via search-engine brand trust rather than ad tracking.",
-      "evidence": [
-        "https://duck.ai/",
-        "https://slowhifi.com/duck-ai-review-private-ai-search-without-tracking/",
-        "https://www.reddit.com/r/AppIdeas/comments/1q5mecg/i_analyzed_9300_i_wish_there_was_an_app_for_this/",
-        "https://www.promptquorum.com/state-of-local-ai/2026-q4/state-of-local-ai-2026-q4-report.pdf",
-        "https://privacytools.io/ai"
-      ],
-      "how_searched": [
-        "Traffic growth trackers (AITrustList)",
-        "Product review sites",
-        "Reddit app-idea opportunity analysis (9,300+ posts)",
-        "State of Local AI industry report",
-        "Privacy tools directory"
-      ],
-      "score": 77.0,
-      "found_at": "2026-10-28T21:14:53.878907+00:00"
-    },
-    {
-      "name": "Kolbo.AI",
-      "field": "AI creative workspace",
-      "summary": "One project workspace and credit pool for 100+ image, video, music, voice, chat, and 3D models, with character consistency, team sharing, and editor plugins.",
-      "why_now": "Verified at $79,244 in the last 30 days and $34,168 MRR from 611 subscriptions on Shipped & Paid; TrustMRR shows $89,737 in the last 30 days, 682 subscriptions, and $360,762 all-time on Oct 29, 2026; a16z reports power spenders over-index creative and multi-model tools.",
-      "monetization": "Free plan; Lite $27, Standard $45, and Pro $89 per month; credit packs from $15.",
-      "evidence": [
-        "https://shippedandpaid.com/cases/kolbo-ai-creative-ai-workspace-79k-month-lovable-cursor-claude-code/",
-        "https://trustmrr.com/startup/kolbo-ai",
-        "https://kolbo.ai/",
-        "https://a16z.com/100-gen-ai-apps-7/"
-      ],
-      "how_searched": [
-        "Shipped & Paid top verified revenue",
-        "TrustMRR profile",
-        "a16z Top 100 Gen AI Consumer Apps 7th Edition",
-        "Company site"
-      ],
-      "score": 75.0,
-      "found_at": "2026-10-29T14:24:58.461378+00:00"
-    },
-    {
-      "name": "AI-Free Search — a search page with AI Overviews permanently stripped out",
-      "field": "Search / productivity web tool",
-      "summary": "A free browser-based search front-end that serves classic blue-link results (udm=14-style) with no AI summary panel, plus an optional extension for on-Google hiding.",
-      "why_now": "DuckDuckGo's own poll drew 175,354 votes with over 90% choosing 'No AI'; the fastest-growing AI-directory extension to 11 Sep 2026 was Hide Google AI Overviews (100,000 → 400,000 installs, +300%) and 'No AI Search' grew 221 → 7,000 users in 30 days in September; press how-tos on hiding AI Overviews were still running on 23 Oct 2026 (AndroidPolice, PCMag).",
-      "monetization": "Display/affiliate ads on results, privacy-respecting search ads, pro tier for history/sync/params, extension upsell. Revenue for the leading tools: null.",
-      "evidence": [
-        "https://uk.pcmag.com/ai/162861/duckduckgo-asked-its-users-how-they-feel-about-ai-search-90-hate-it",
-        "https://zplatform.ai/best-ai-tools/ai-chrome-extensions/",
-        "https://extensionranker.com/research",
-        "https://www.androidpolice.com/i-disabled-google-ai-overviews-and-it-completely-fixed-my-search-results/"
-      ],
-      "how_searched": [
-        "extension-store analytics trackers (install growth)",
-        "news/tech press (last 7 days)",
-        "search-engine vendor survey coverage"
-      ],
-      "score": 74.0,
-      "found_at": "2026-10-29T20:34:55.170323+00:00"
     }
   ]
 }
