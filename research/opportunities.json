@@ -1190,6 +1190,25 @@
       "found_at": "2026-10-27T16:52:20.923719+00:00"
     },
     {
+      "name": "Firecrawl (web data extraction for AI agents)",
+      "field": "AI infrastructure / Web scraping / Agent tooling",
+      "summary": "API to search and extract web content in AI-friendly formats (Markdown/JSON/screenshots), handling JS/rendering/proxies/rate limits.",
+      "why_now": "Massive adoption (196K+ stars), actively used as agent data layer. Highlighted as critical for grounding agents with live web data; appears in multiple agent tool roundups.",
+      "monetization": "Commercial API with usage-based/pricing - monetized at scale. Public revenue numbers not disclosed in sources we opened.",
+      "evidence": [
+        "https://01webmasters.com/5-web-development-tools-trending-on-github-as-of-october-24-2026/",
+        "https://github.com/firecrawl/firecrawl",
+        "https://toolvitals.com/blog/top-50-browser-automation-tools-2026-10/"
+      ],
+      "how_searched": [
+        "GitHub Trending monitoring",
+        "Tool directories/rankings",
+        "Repository metadata inspection"
+      ],
+      "score": 90.0,
+      "found_at": "2026-10-30T01:01:55.978907+00:00"
+    },
+    {
       "name": "AI Search Visibility / GEO Tracking Dashboard",
       "field": "Marketing / SEO / AI Visibility",
       "summary": "A free web dashboard that tracks brand citations, visibility %, position, and sentiment across ChatGPT, Perplexity, Gemini, Google AI Overviews, and Claude — with side-by-side organic vs AI traffic comparison to detect cannibalization (per Omio A/B test).",
@@ -1302,27 +1321,24 @@
       "found_at": "2026-10-24T20:52:14.767149+00:00"
     },
     {
-      "name": "Medical-bill audit & dispute web tool",
-      "field": "Consumer health finance / insurance navigation",
-      "summary": "Upload an itemized hospital or physician bill; it flags duplicate, mis-coded and inflated line items against published price benchmarks and auto-drafts dispute and financial-assistance letters. A free, no-signup web version of what physician-led negotiation startups now sell.",
-      "why_now": "Fresh entrants and rules landed in the last weeks: Clearity Health launched a physician-led negotiation service on 2026-09-28 (20% of savings, capped at $1,000); calliora raised $6M pre-seed on 2026-10-06; CMS began enforcing expanded 2026 hospital price-transparency data on 2026-04-01. The negotiation/payment-plan service market is $2.31B in 2026 heading to $4.28B by 2034 (8.2% CAGR), with CFPB citing ~$88B of medical bills in collections.",
-      "monetization": "Peers charge a share of savings (Clearity: 20% capped at $1,000), flat per-bill fees (mediloop $129 per bill, $499/yr for up to 6 bills), or one-time audits around $99. A free audit tool monetizes via upsell to human negotiation, lead-gen/affiliate, or premium letter packets.",
+      "name": "Browser automation / agent browser tools (Lightpanda, Browser Use, Stagehand)",
+      "field": "AI agents / Browser automation infrastructure",
+      "summary": "Headless/agentic browsers and frameworks enabling agents to interact with web apps (Lightpanda, Browser Use, Stagehand, Skyvern) - essential for tool-using agents.",
+      "why_now": "Category exploding per ToolVitals Oct 2026 ranking; agents need reliable browser control. Many OSS projects with strong health/shipping metrics and large communities.",
+      "monetization": "Mixed - some OSS, others with hosted/browserless offerings (usage-based). Public MRR/revenue not visible in sources we opened.",
       "evidence": [
-        "https://www.prnewswire.com/news-releases/austin-based-clearity-health-launches-physician-led-medical-bill-negotiation-service-with-fees-capped-at-1-000--302890954.html",
-        "https://www.intelmarketresearch.com/medical-bill-negotiationpayment-plan-service-market-44721",
-        "https://techfundingnews.com/bertelsmann-and-redalpine-back-calliora-with-6m-for-ai-that-cuts-hospital-billing-errors/",
-        "https://mediloop.ai/",
-        "https://www.parlio.ai/"
+        "https://toolvitals.com/blog/top-50-browser-automation-tools-2026-10/",
+        "https://github.com/lightpanda-io/browser",
+        "https://github.com/browser-use/browser-use",
+        "https://github.com/browserbase/stagehand"
       ],
       "how_searched": [
-        "news/PR wire",
-        "market-research report",
-        "startup funding news",
-        "competitor product sites",
-        "web search"
+        "Browser automation tool rankings",
+        "GitHub metadata inspection",
+        "Agent tooling trend analysis"
       ],
-      "score": 88.0,
-      "found_at": "2026-10-08T23:25:22.388490+00:00"
+      "score": 89.0,
+      "found_at": "2026-10-30T01:01:57.365822+00:00"
     },
     {
       "name": "AI photo calorie / food-tracking app",
@@ -1721,6 +1737,25 @@
       ],
       "score": 88.0,
       "found_at": "2026-10-27T16:52:22.270059+00:00"
+    },
+    {
+      "name": "AI agent monetization infrastructure (usage/credit-based)",
+      "field": "AI infrastructure / Monetization / Agent platforms",
+      "summary": "Shift from seat-based to usage/credit/outcome-based pricing for agents (observed across Salesforce Agentforce, Intercom Fin, etc.).",
+      "why_now": "Gartner notes <10% of agentic deployments deliver ROI due to cost; providers moving to credits/outcome-based models. Stripe/SaaS data shows pricing evolving rapidly as agent costs scale.",
+      "monetization": "Enables monetization of agents themselves - platforms charging per resolution/action/credits. Large players showing material ARR (Agentforce $1.2B+).",
+      "evidence": [
+        "https://www.gartner.com/en/articles/agentic-ai-next-hurdle-is-cost",
+        "https://www.saasmag.com/how-saas-companies-monetizing-ai-agents/",
+        "https://stripe.com/sessions/2026/inside-the-ai-economy"
+      ],
+      "how_searched": [
+        "Industry reports on agent monetization",
+        "Earnings/pricing analysis",
+        "Market trend synthesis"
+      ],
+      "score": 88.0,
+      "found_at": "2026-10-30T01:01:58.048462+00:00"
     },
     {
       "name": "Retro digicam / film-camera filter web app (Y2K & CCD look)",
@@ -2310,6 +2345,25 @@
       "found_at": "2026-10-27T16:52:25.380328+00:00"
     },
     {
+      "name": "AI sales/outbound agents (e.g. Outbind/Spira-related patterns)",
+      "field": "Sales AI / GTM automation",
+      "summary": "AI agents for prospecting, personalized outreach, learning from responses with volume controls to avoid spam.",
+      "why_now": "Active discussion on Reddit/microSaaS with real products launching; GTM agents remain in demand. Spira Maxima was #1 on Product Hunt Oct 2026.",
+      "monetization": "Subscription-based (Outbind $49/mo mentioned). Spira positioned as autonomous influencers running social end-to-end.",
+      "evidence": [
+        "https://www.producthunt.com/leaderboard/monthly/2026/10",
+        "https://1dea.io/traction/monthly/2026-10",
+        "https://spira.ai"
+      ],
+      "how_searched": [
+        "Product Hunt leaderboard",
+        "Reddit/microSaaS traction tracking",
+        "Launch analysis"
+      ],
+      "score": 86.0,
+      "found_at": "2026-10-30T01:01:58.994464+00:00"
+    },
+    {
       "name": "Independent MCP server trust directory & safety rating",
       "field": "Developer infrastructure / MCP",
       "summary": "A directory that crawls the official Model Context Protocol registry and scores each server for trust, auth, uptime and risky capabilities, because the official registry verifies namespace ownership but stores no security review, auth method, or working-endpoint check. Pairs discovery with a safety/scan layer and a 'exposed server' report.",
@@ -2813,6 +2867,25 @@
       "found_at": "2026-10-28T21:14:37.478967+00:00"
     },
     {
+      "name": "Local-first/open-weight agent tooling",
+      "field": "AI infrastructure / Local LLMs / Privacy",
+      "summary": "Growing interest in running agents locally (Orca manages local agents, tools like DigUp for local search, open-weight models trending).",
+      "why_now": "Strong community interest on Reddit (LocalLLaMA), hardware discussion (Mac Studio pricing, local model deployment), privacy concerns, and cost control driving local adoption.",
+      "monetization": "Often OSS; monetization via managed hosting/support or hybrid models. Direct revenue numbers not visible.",
+      "evidence": [
+        "https://raw.githubusercontent.com/liyedanpdx/reddit-ai-trends/main/reports/latest_report_en.md",
+        "https://pie-ai.org/reddit-ai-top-10-briefing-october-29-2026/",
+        "https://github.com/stablyai/orca"
+      ],
+      "how_searched": [
+        "Reddit AI trend monitoring",
+        "Community discussion analysis",
+        "Tool adoption patterns"
+      ],
+      "score": 85.0,
+      "found_at": "2026-10-30T01:01:59.738839+00:00"
+    },
+    {
       "name": "Prompt-to-game AI builder",
       "field": "AI gaming / prompt-to-game",
       "summary": "Describe a game in plain language and get a playable, shareable browser game with graphics, sound and physics — no coding. Google Playground launched this model on Oct 7, 2026, with a public gallery and Unity building pro-grade 3D tools (Unity Spark) on top.",
@@ -3313,6 +3386,25 @@
       ],
       "score": 84.0,
       "found_at": "2026-10-29T14:24:55.108532+00:00"
+    },
+    {
+      "name": "Agent access control/monetization via MCP",
+      "field": "AI infrastructure / Data monetization / APIs",
+      "summary": "MCP emerging as standard for agent access to enterprise data; companies deciding what to expose and how to monetize (usage/outcome-based).",
+      "why_now": "MCP exploded to 20k+ servers; Bain/Stripe discussions highlight data exposure tradeoffs and new monetization paths as agents bypass UIs.",
+      "monetization": "Emerging - some charge for MCP access/usage, others use hybrid models. Still experimental but high leverage.",
+      "evidence": [
+        "https://www.bain.com/insights/how-ai-is-changing-data-monetization-technology-report-2026/",
+        "https://stripe.com/sessions/2026/inside-the-ai-economy",
+        "https://www.orionplaybook.com/p/the-saas-bill-just-split-into-two-meters"
+      ],
+      "how_searched": [
+        "Enterprise AI reports",
+        "MCP ecosystem analysis",
+        "Pricing strategy research"
+      ],
+      "score": 84.0,
+      "found_at": "2026-10-30T01:02:01.102582+00:00"
     },
     {
       "name": "EU Cyber Resilience Act SBOM & vulnerability-reporting tool",
@@ -6017,25 +6109,6 @@
       "found_at": "2026-10-28T21:14:53.878907+00:00"
     },
     {
-      "name": "AI contract-review / plain-English clause explainer",
-      "field": "Legal tech / contract analysis",
-      "summary": "Upload a contract and get a plain-English summary, flagged one-sided clauses, missing standard terms and suggested redlines. A free self-serve layer under tools that enterprises pay heavily for.",
-      "why_now": "Multiple independent market reports published Aug-Oct 2026 show rapid growth: generative-AI legal contract drafting/review reaches $4.21B in 2026 to $14.76B by 2031 (28.52% CAGR); AI contract-analysis tools $4.3B in 2026 to $12.06B by 2030 (29.6% CAGR); a separate estimate puts AI contract review at $823M in 2025 to $6.83B by 2034 (26.5% CAGR). Vendors report 60-80% cuts in initial review time, pushing adoption from trials to production.",
-      "monetization": "Freemium: free single-contract explanation, paid bulk review, redline packs, team plans, or API. Enterprise incumbents monetize via per-seat/annual subscriptions and per-agreement pricing; a free consumer tier is an open wedge.",
-      "evidence": [
-        "https://www.mordorintelligence.com/industry-reports/generative-ai-in-legal-contract-drafting-and-review-market",
-        "https://www.thebusinessresearchcompany.com/report/artificial-intelligence-ai-powered-contract-analysis-tools-market-report",
-        "https://trendxinsights.com/syndicated-market-research-reports/ai-contract-review-market/",
-        "https://www.technavio.com/report/ai-powered-contract-analysis-software-market-industry-analysis"
-      ],
-      "how_searched": [
-        "market-research reports (multiple firms)",
-        "web search"
-      ],
-      "score": 76.0,
-      "found_at": "2026-10-08T23:25:29.482066+00:00"
-    },
-    {
       "name": "Kolbo.AI",
       "field": "AI creative workspace",
       "summary": "One project workspace and credit pool for 100+ image, video, music, voice, chat, and 3D models, with character consistency, team sharing, and editor plugins.",
@@ -6075,85 +6148,6 @@
       ],
       "score": 74.0,
       "found_at": "2026-10-29T20:34:55.170323+00:00"
-    },
-    {
-      "name": "Vibe-Code Leak Scanner — paste a live URL, get the exposed keys and a fix prompt",
-      "field": "Developer security SaaS",
-      "summary": "A free read-only scanner that checks a shipped AI-built web app for leaked API keys, open Supabase/Firebase tables, exposed .env/.git files and missing headers, returning copy-paste repair prompts for Cursor/Claude/Lovable.",
-      "why_now": "Category is exploding right now: CheckVibe reported $11,795.50 gross (Stripe-verified, 350+ paying customers, ~8k signups) by Oct 2026, and at least eight sibling scanners (bleek, Unspill, Vibeproof, VibeProtect, VibeSafely, AppSafe, vibecheck, GetLeaked) all launched around the same weeks on the same 'your vibe-coded app is leaking' pitch.",
-      "monetization": "Freemium: free header/basic scan, paid deep scan + monitoring (CheckVibe is subscription-based; Unspill runs a pre-launch sale through 30 Nov 2026). CheckVibe revenue $11,795.50; per-plan prices for others: null.",
-      "evidence": [
-        "https://1dea.io/traction/monthly/2026-10",
-        "https://www.bleek.dev/",
-        "https://unspill-scan.vercel.app/",
-        "https://vibeproof.sh/"
-      ],
-      "how_searched": [
-        "public revenue/Stripe profile roundup (Reddit traction aggregator)",
-        "direct competitor landing pages found by web search",
-        "launch/review sites"
-      ],
-      "score": 74.0,
-      "found_at": "2026-10-29T20:34:58.346105+00:00"
-    },
-    {
-      "name": "Product-URL → AI Video Ad Variants (multi-format, platform-ready)",
-      "field": "AI ad-creative generation",
-      "summary": "Free web tool where you paste a product page and get a batch of short-form UGC-style video ad variants (scripts, hooks, aspect ratios) ready for Meta/TikTok.",
-      "why_now": "'AI video' was the most-searched AI term on Upwork in September 2026 and AI video generation/editing grew +329% YoY (fastest-growing skill); 8M+ advertisers used Meta's AI creative tools in Q1 2026 (2x YoY); the AI video generation market is forecast at $18.6B by end of 2026.",
-      "monetization": "Credit/subscription tiers: most self-serve AI video-ad tools bill $9-$249/month, with ecommerce brands budgeting $199-$599/month for ready-to-publish creative; human UGC equivalents cost $500-$2,000 per video. Your own revenue: null.",
-      "evidence": [
-        "https://allwork.space/2026/10/businesses-are-hiring-for-ai-jobs-most-workers-werent-doing-a-year-ago/",
-        "https://www.upwork.com/research/in-demand-skills-2026",
-        "https://resources.rework.com/tools/ai-tools/best-ai-tools-for-facebook-instagram-ads-2026",
-        "https://fotyra.com/blogs/how-much-do-ai-video-ads-cost-in-2026"
-      ],
-      "how_searched": [
-        "freelance job-board trend reports (Upwork/Fiverr)",
-        "market-size/pricing benchmark articles",
-        "ad-platform adoption coverage"
-      ],
-      "score": 73.0,
-      "found_at": "2026-10-29T20:35:00.670742+00:00"
-    },
-    {
-      "name": "SocialCrawl",
-      "field": "Social data and opinion search",
-      "summary": "A unified social-web data API covering 69 platforms with one schema, plus a consumer-style search over public opinions, comments, and trends.",
-      "why_now": "Verified at $35,135 in the last 30 days and $95,630 all-time since April 2026 on Shipped & Paid; TrustMRR shows $44,189 in the last 30 days and $111,863 all-time, with only $1,078 MRR because most revenue is usage credits.",
-      "monetization": "100 free credits; one-time credit packs at GBP 15, GBP 49, and GBP 299; enterprise contracts and API usage fees.",
-      "evidence": [
-        "https://shippedandpaid.com/cases/socialcrawl-social-media-data-api-35k-month-claude-code/",
-        "https://trustmrr.com/startup/socialcrawl",
-        "https://www.socialcrawl.dev/"
-      ],
-      "how_searched": [
-        "Shipped & Paid developer-tools case",
-        "TrustMRR profile",
-        "Company API pricing page"
-      ],
-      "score": 72.0,
-      "found_at": "2026-10-29T14:24:59.243969+00:00"
-    },
-    {
-      "name": "Micro-Drama Season Studio — premise → 60-100 episode vertical series package",
-      "field": "AI video content production",
-      "summary": "A free web studio that turns one premise into a paywall-structured micro-drama season: story bible, episode map, cliffhanger chains, shot lists, 9:16 storyboard and subtitle files.",
-      "why_now": "Short-drama apps hit ~850M downloads and roughly $750M in-app revenue in Q1 2026 (downloads +140% YoY); DramaBox alone took ~$13M of US App Store spend in 30 days to 16 Oct 2026; overseas short-drama ad creatives placed hit 19.61M groups in H1 2026 (+324% YoY), while producer budgets run €150k-250k per title — script/pre-production tooling (Jenova, Redrama, Plot Party, Drama.so) is where solo producers are landing.",
-      "monetization": "Credit-based rendering/export subscriptions on existing tools (Redrama: editing free, credits spent on render; drama.so free-to-start). Category revenue is app-side ($285M overseas IAP in Sept 2026); tool-side revenue: null.",
-      "evidence": [
-        "https://verticalcharts.com/micro-drama-apps-ranking-2026-netshort-dramawave-goodshort-freereels/",
-        "https://www.apptrendkit.com/research/short-drama-apps-us-2026-10",
-        "https://eu.36kr.com/en/p/4043468834477955",
-        "https://www.jenova.ai/en/a/microdrama-screenwriter"
-      ],
-      "how_searched": [
-        "app-store chart/spend estimators",
-        "industry news (market data reports)",
-        "direct competitor product pages"
-      ],
-      "score": 71.0,
-      "found_at": "2026-10-29T20:35:02.641539+00:00"
     }
   ]
 }
