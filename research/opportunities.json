@@ -1801,6 +1801,36 @@
       "found_at": "2026-10-30T01:01:58.048462+00:00"
     },
     {
+      "name": "AI Agent Website Readiness Scanner",
+      "field": "Agentic web / AI crawler compatibility",
+      "summary": "A free web tool that audits any domain the way AI agents (ChatGPT, Claude, shopping agents) actually fetch and use it — bot walls, JS-only pricing pages, missing llms.txt/MCP/OpenAPI — then scores it and hands back machine-readable fixes.",
+      "why_now": "This category exploded in the last 72 hours: Dedica launched on Product Hunt Oct 28 with a free score and $30 fix kit; Cloudflare shipped an Agent Readiness Scanner; AgentCan and AgentsReady went live with free checkers; independent crawls show only ~64/100 mean readiness, ~14% llms.txt adoption, and 17% of popular sites serving bot walls to non-browser clients. Crawlcheck measured 139,788 homepages and found 6.3% blocking AI crawlers and 28% of SaaS sites publishing llms.txt — a fast-moving, measurable gap.",
+      "monetization": "Dedica: free score, $30 one-time per-site fix kit (normally $50). Adjacent buyers: agencies selling agent-readiness audits ($500–1,500 per audit per Rank Prompt-style packaging).",
+      "evidence": [
+        "https://getdedica.com/",
+        "https://www.powerfulai.tools/tool/details/dedica",
+        "https://freshweights.com/launch/dedica-free-checker-that-scores-whether-ai-agents-can-actually-use-a/",
+        "https://web-bot-auth.chambers.cfdata.org/",
+        "https://www.agentsready.dev/",
+        "https://agentcan.dev/",
+        "https://mindpattern.ai/s/2026-10-29-your-next-signup-is-an-agent-and-google-says-ai-answers-earn-less",
+        "https://thegenaimagazine.com/dedica-ai-agent-website-audit-guide-five-use-cases",
+        "https://crawlindex.org/reports/2026-10",
+        "https://crawlcheck.io/blog/state-of-ai-visibility-october-2026-139788-homepages",
+        "https://docketseo.app/index/llms-txt-adoption-2026-10/",
+        "https://shotlane.dev/research/ai-readiness-2026"
+      ],
+      "how_searched": [
+        "Product Hunt daily/monthly leaderboards",
+        "independent crawler measurement studies (CrawlIndex, Crawlcheck, DocketSEO, Shotlane, Wandered)",
+        "vendor product pages and docs",
+        "news/analysis (MindPattern, GenAI Magazine, Fresh Weights)",
+        "Cloudflare official scanner docs"
+      ],
+      "score": 88.0,
+      "found_at": "2026-10-30T14:20:25.205423+00:00"
+    },
+    {
       "name": "Retro digicam / film-camera filter web app (Y2K & CCD look)",
       "field": "Consumer photo / creator tools",
       "summary": "A browser tool that turns any photo or video into the grainy, flash-heavy, early-2000s 'digicam/CCD' look using preset film stocks, light leaks, date stamps and scans — no app install.",
@@ -2946,6 +2976,40 @@
       ],
       "score": 85.0,
       "found_at": "2026-10-30T01:01:59.738839+00:00"
+    },
+    {
+      "name": "Promptless Product-Photo to Video Ad Generator",
+      "field": "Ecommerce AI creative / performance ads",
+      "summary": "Upload one product photo (or paste a Shopify URL) and get finished UGC-style video ads with script, voiceover, captions and 9:16/1:1/16:9 cuts in minutes — no prompt engineering, no shoot.",
+      "why_now": "CreativeClaw (MCP creative studio inside ChatGPT/Claude) hit $106–108K in 30 days (Polar-verified), up from $5K two months earlier. Upwork's Sept 2026 data shows 'AI video' as the #1 most-searched AI term with +329% YoY demand. Shopify's ads category is filling with AI-ad apps (Promer, Predis, AdScale, Lensia, Kluck); ChatGPT Ads just took the #1 organic ads-app rank. Dozens of paid tools ($19–199/mo) prove willingness to pay for exactly this workflow.",
+      "monetization": "Credit packs ($10 = 1,000 credits on CreativeClaw; ~$4 for a finished 15s ad) and subscriptions ($19–199/mo on Shopify apps; Rasgo $19.99/mo). CreativeClaw: $11.7K MRR + heavy one-time credits, ~76% of lifetime revenue in last 30 days.",
+      "evidence": [
+        "https://trustmrr.com/startup/creativeclaw",
+        "https://aiolum.com/story/creativeclaw/",
+        "https://bizpeel.com/project/creativeclaw",
+        "https://openai.com/business/plugins/creative-claw/",
+        "https://creativeclaw.co/ai-ad-generator/",
+        "https://creativeclaw.co/pricing/",
+        "https://apps.shopify.com/adcreator-ai",
+        "https://shhots.ai/",
+        "https://www.rasgo.ai/ai-ad-generator",
+        "https://fattly.app/ai-ad-generator",
+        "https://getvivix.com/tools/ai-ugc-ad-generator",
+        "https://www.wandura.ai/ad-studio",
+        "https://allwork.space/2026/10/businesses-are-hiring-for-ai-jobs-most-workers-werent-doing-a-year-ago/",
+        "https://automatedwealthlab.com/freelancing-with-ai-skills-2026/",
+        "https://rankbase.io/best-shopify-apps/ai-ads",
+        "https://www.shopdigest.com/shopify/apps/keywords/ads/charts"
+      ],
+      "how_searched": [
+        "payment-provider-verified revenue (TrustMRR/Aiolum/runsby)",
+        "Shopify App Store rankings and install trackers (Rankbase, ShopDigest, StoreCensus)",
+        "freelance demand data (Upwork monthly insights, Fiverr trends)",
+        "competitor product/pricing pages",
+        "launch directories"
+      ],
+      "score": 85.0,
+      "found_at": "2026-10-30T14:20:35.520478+00:00"
     },
     {
       "name": "Prompt-to-game AI builder",
@@ -4372,6 +4436,30 @@
       ],
       "score": 82.0,
       "found_at": "2026-10-28T21:14:39.770016+00:00"
+    },
+    {
+      "name": "AI Job Search & Resume-Job Fit Agent",
+      "field": "Careers / recruiting AI",
+      "summary": "An AI headhunter web tool that understands a candidate's profile, scores every posting for real fit (not keyword match), tailors the resume per job, surfaces referral paths, and can auto-apply — free tier for seekers, paid for employers.",
+      "why_now": "Jobright went $1M → $10M ARR in 10 months with 3M US users and 30x YoY growth, then launched the employer-side AI recruiter. H-1B/sponsorship filtering was the wedge that got 50K users with zero marketing. AI-generated application spam has made signal-finding the bottleneck on both sides — a free fit-scoring / resume-tailoring front door is the obvious rebuild.",
+      "monetization": "Jobright monetizes subscriptions + employer seats (unpublished exact tiers); 120+ companies hired through it. Free rebuild can upsell resume packs, priority applications, employer dashboards.",
+      "evidence": [
+        "https://www.linkedin.com/posts/ericcheng26_in-10-months-we-grew-from-1m-to-10m-arr-activity-7515799899511136256-tDq7",
+        "https://www.linkedin.com/feed/update/urn:li:activity:7515799899511136256",
+        "https://techcrunch.com/2024/06/25/jobright-uses-ai-to-help-foreign-workers-navigate-the-us-job-market/",
+        "https://milestonewins.com/stories/jobright-story/",
+        "https://www.arr.club/signal/weekly-growth-recap-10-18-2026",
+        "https://www.gtmforone.com/blog/how-much-do-indie-founders-make"
+      ],
+      "how_searched": [
+        "ARR Club weekly growth leaderboards",
+        "founder LinkedIn milestone posts",
+        "TechCrunch company profile",
+        "MilestoneWins revenue story",
+        "indie revenue research (GTM for One)"
+      ],
+      "score": 82.0,
+      "found_at": "2026-10-30T14:20:39.436462+00:00"
     },
     {
       "name": "Autonomous AI social-media influencer agent",
@@ -6088,64 +6176,6 @@
       ],
       "score": 77.0,
       "found_at": "2026-10-23T13:34:51.862964+00:00"
-    },
-    {
-      "name": "AI Brand Positioning & Marketing Audit",
-      "field": "Marketing / Strategy",
-      "summary": "Free web tool: enter a URL, get an instant brand audit — positioning clarity, messaging gaps, competitor differentiation, SEO/content gaps, and a prioritized fix list.",
-      "why_now": "Branding5 on AppSumo (7 reviews, 'define brand positioning and audit marketing'). Averi 494 upvotes Product Hunt ('AI Marketing Manager'). Highperformr 687 upvotes. buzzabout 1,237 upvotes (1B discussions analyzed).",
-      "monetization": "Free audit. $49-99/mo for ongoing monitoring, competitor alerts, content briefs, team workspace. NeuronWriter 722 reviews AppSumo ($89 LTD) proves SEO content tool demand.",
-      "evidence": [
-        "https://appsumo.com/",
-        "https://www.producthunt.com/leaderboard/monthly/2024/10",
-        "https://grow.seedroc.com/hottest-appsumo-customer-favorites-2024/"
-      ],
-      "how_searched": [
-        "AppSumo Marketplace (deal performance)",
-        "Product Hunt Leaderboard (upvotes)",
-        "AppSumo Tools of Year 2024 (curation)"
-      ],
-      "score": 77.0,
-      "found_at": "2026-10-25T01:29:23.739977+00:00"
-    },
-    {
-      "name": "AI Interview Coach & Copilot",
-      "field": "Career / EdTech",
-      "summary": "Free web tool: paste job description + your resume, get predicted questions, STAR-method answer coaching, live mock interview with AI interviewer, and personalized feedback report.",
-      "why_now": "JobJump 225 score Product Hunt Oct 2024 ('AI Copilot for video interviews'). Auto_Jobs_Applier_AIHawk 17K★ GitHub. Reddit: 'dying for way to automate finding contacts and sending emails' + interview prep. Hiring.studio 210 upvotes Product Hunt.",
-      "monetization": "Free: 3 mock interviews/mo. Pro $15-29/mo: unlimited, industry-specific question banks, video recording, shareable reports. Interviewing.io/Pramp show B2B traction.",
-      "evidence": [
-        "https://www.producthunt.com/leaderboard/daily/2024/10/10",
-        "https://github.com/feder-cr/Auto_Jobs_Applier_AIHawk",
-        "https://www.reddit.com/r/Entrepreneur/comments/1fnedxh/"
-      ],
-      "how_searched": [
-        "Product Hunt Daily Leaderboard",
-        "GitHub Trending (star growth)",
-        "Reddit Pain Point Analysis"
-      ],
-      "score": 77.0,
-      "found_at": "2026-10-25T01:29:34.456695+00:00"
-    },
-    {
-      "name": "Digital Closet & Outfit Planner",
-      "field": "Fashion / lifestyle",
-      "summary": "Build a closet from camera-roll screenshots, auto-segment garments, generate outfits by occasion, weather and colour, and preview looks on a personalised avatar.",
-      "why_now": "Aesty reports $10K MRR from 688 paying subscribers and $121K ARR, payment-verified through RevenueCat. Its founder's own data shows users complete 23-32 try-ons per month, so retention and closet setup, not raw acquisition, are the weak points to exploit.",
-      "monetization": "Free 30-item closet; $9.99 per month or $59 per year for unlimited items, outfit calendar and avatar try-on; affiliate links for missing pieces.",
-      "evidence": [
-        "https://trustmrr.com/startup/aesty",
-        "https://ideawave.io/startup/aesty",
-        "https://www.whatsthe.app/aesty",
-        "https://medium.com/@zueva.nn/virtual-try-on-isnt-a-shopping-tool-9-324-try-ons-say-it-s-a-daily-habit-c41cc37c61df"
-      ],
-      "how_searched": [
-        "TrustMRR and IdeaWave payment-verified revenue checks",
-        "HackerMRR and founder product-analytics posts",
-        "App Store, RevenueCat and outfit-try-on behavior data"
-      ],
-      "score": 77.0,
-      "found_at": "2026-10-25T11:34:32.114855+00:00"
     }
   ]
 }
