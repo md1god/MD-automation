@@ -2088,27 +2088,6 @@
       "found_at": "2026-10-26T19:26:09.300196+00:00"
     },
     {
-      "name": "AI Presentation / Deck Generator (Gamma-model)",
-      "field": "Productivity - presentation & visual-storytelling software",
-      "summary": "A free web tool that turns a topic, prompt, or pasted document into a fully designed slide deck / web-native presentation in seconds. Users type an idea, pick a style, and get editable slides, matching layouts and images.",
-      "why_now": "Gamma is the break-out category winner: $100M ARR reached profitably in under 3 years, 70M users, 600K+ paying subs, 40% of Fortune 500 have a user, and a $68M Series B at $2.1B (Nov 2025). The 'replace PowerPoint with AI' job-to-be-done is proven and still expanding.",
-      "monetization": "Freemium: free generation + watermark/limited exports; paid one-time export packs or a low monthly tier for HD export, more slides, brand kit and PDF/PPTX export.",
-      "evidence": [
-        "https://gamma.app/insights/how-we-built-a-usd100m-business-differently",
-        "https://techcrunch.com/2025/11/10/ai-powerpoint-killer-gamma-hits-2-1b-valuation-100m-arr-founder-says/",
-        "https://stripe.com/customers/gamma",
-        "https://sacra.com/c/gamma/"
-      ],
-      "how_searched": [
-        "Source kind: official company milestone post (gamma.app insights)",
-        "Source kind: tech-press funding coverage (TechCrunch)",
-        "Source kind: payment-processor customer case study (Stripe)",
-        "Source kind: revenue-estimate database (Sacra); query: 'Gamma AI presentation $100M ARR valuation 2026'"
-      ],
-      "score": 86.0,
-      "found_at": "2026-10-09T19:35:53.343225+00:00"
-    },
-    {
       "name": "Screen-recording → executable AI workflow recorder",
       "field": "AI automation / workflow capture",
       "summary": "Record a human performing a task once and AI turns it into a reusable workflow, SOP, or runnable agent skill. IrisGo's 'Watch & Learn' and Cakie both launched this week, converting screen recordings into agent prompts and automation.",
@@ -3849,26 +3828,6 @@
       ],
       "score": 83.0,
       "found_at": "2026-10-28T21:14:37.919940+00:00"
-    },
-    {
-      "name": "AI Headshot & Portrait Generator (Aragon-model)",
-      "field": "Consumer AI photography",
-      "summary": "A free web tool: upload a few selfies, and it generates professional headshots / portraits in multiple outfits and backdrops. Rebuildable purely in-browser/backend with open image models.",
-      "why_now": "Aragon reached 8-figures ARR, profitability, 2M users and 40M photos generated in 3 years with a 15-person team. Category grew from near-zero to an estimated $350-500M by 2025. Repeatable, high-margin B2C purchase with clear SEO acquisition loop.",
-      "monetization": "One-time packs (e.g. $29-$69) for HD headshots, plus team/enterprise credit packs; optional affiliate program (15-30% commission) like incumbents.",
-      "evidence": [
-        "https://www.aragon.ai/blog/three-years-of-aragon-2-million-users-40-million-photos-and-the-future-of-ai-photography",
-        "https://www.founded.org/companies/headshotpro/",
-        "https://stealwhatworks.com/blogs/news/headshot-still-making-money"
-      ],
-      "how_searched": [
-        "Source kind: official company blog/anniversary post (Aragon)",
-        "Source kind: company-profile database (Founded.org)",
-        "Source kind: critical source-audit article (OperatorBook)",
-        "Source kind: business-analysis blog with traffic estimates (Steal What Works)"
-      ],
-      "score": 82.0,
-      "found_at": "2026-10-09T19:36:09.249365+00:00"
     },
     {
       "name": "Chat-with-your-data / AI spreadsheet analyst (upload CSV, ask questions, auto-charts)",
@@ -6171,6 +6130,40 @@
       ],
       "score": 77.0,
       "found_at": "2026-10-18T23:24:33.400262+00:00"
+    },
+    {
+      "name": "CheckVibe",
+      "field": "Developer security",
+      "summary": "Web app security scanner that pastes a URL or connects a GitHub repo to surface leaked secrets, open DB rules, missing headers and 100+ issues in vibecoded apps.",
+      "why_now": "AI-built apps ship fast and leak secrets; 7,000+ developers use it and the CheckVibe founder reported $11,795.50 gross with 350+ paying customers in 5 months.",
+      "monetization": "Monthly SaaS subscriptions from $24 to $99/mo plus team seats; verified gross revenue $11,795.50.",
+      "evidence": [
+        "https://1dea.io/traction/monthly/2026-10",
+        "https://checkvibe.dev/pricing"
+      ],
+      "how_searched": [
+        "indie revenue roundup",
+        "official pricing page"
+      ],
+      "score": 57.3,
+      "found_at": "2026-10-30T23:57:40.650419+00:00"
+    },
+    {
+      "name": "monity.ai",
+      "field": "Competitive intelligence",
+      "summary": "AI website change monitor that watches pages and alerts only on meaningful changes, including price drops, restocks and competitor updates.",
+      "why_now": "Teams need automated competitor/supplier monitoring; free tier plus paid plans and mobile apps indicate active adoption.",
+      "monetization": "Freemium with Personal plans from $10/mo and Business from $25/mo; revenue not disclosed.",
+      "evidence": [
+        "https://monity.ai/",
+        "https://monity.ai/pricing/"
+      ],
+      "how_searched": [
+        "official product site",
+        "official pricing page"
+      ],
+      "score": 52.0,
+      "found_at": "2026-10-30T23:57:41.344516+00:00"
     }
   ]
 }
