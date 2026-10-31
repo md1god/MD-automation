@@ -3531,6 +3531,25 @@
       "found_at": "2026-10-30T19:27:16.481257+00:00"
     },
     {
+      "name": "Denial Appeal Studio",
+      "field": "Healthcare claims",
+      "summary": "A patient-side web tool that turns a denial letter and medical record into a cited appeal letter, tracks deadlines and escalates to the insurer or regulator, with HIPAA-grade controls.",
+      "why_now": "Claimable reports 3 in 4 reversals at $50 per case and more than $30 million recovered. Fewer than 1% of denied claims are appealed while insurers automate denials, leaving a large patient-side gap.",
+      "monetization": "Per-appeal fee, monthly subscription and enterprise or patient-support contracts.",
+      "evidence": [
+        "https://www.pymnts.com/news/artificial-intelligence/2026/insurance-denials-meet-their-match-in-ai-powered-appeals/",
+        "https://www.wabe.org/ai-powered-tool-claimable-helps-patients-fight-insurance-claim-denials/",
+        "https://www.getclaimable.com/post/claimable-debuts-ai-powered-enterprise-patient-access-platform"
+      ],
+      "how_searched": [
+        "news",
+        "company press release",
+        "search engine"
+      ],
+      "score": 84.0,
+      "found_at": "2026-10-31T05:49:36.587823+00:00"
+    },
+    {
       "name": "EU Cyber Resilience Act SBOM & vulnerability-reporting tool",
       "field": "Compliance / software supply chain",
       "summary": "A web platform that generates and continuously maintains machine-readable SBOMs (CycloneDX/SPDX) for products with digital elements sold in the EU, matches components against vulnerability databases, and automates CRA Article 14 actively-exploited-vulnerability reporting to ENISA within 24 hours.",
@@ -3828,28 +3847,6 @@
       ],
       "score": 83.0,
       "found_at": "2026-10-28T21:14:37.919940+00:00"
-    },
-    {
-      "name": "Chat-with-your-data / AI spreadsheet analyst (upload CSV, ask questions, auto-charts)",
-      "field": "Productivity / Data Analytics",
-      "summary": "A free web tool where you upload a CSV/Excel file and interrogate it in plain English — the AI runs real queries, returns exact answers, KPIs and charts. Rebuilt as an original no-code web app (no scraping of others).",
-      "why_now": "The space is exploding right now: Livedocs (\"general data agent\") was #4 on Product Hunt's October 2026 monthly leaderboard with 472 votes; Julius AI reports 2M+ users with $20–45/mo plans; Databricks acquired cloud-spreadsheet startup Row Zero on Sept 24, 2026 to give its AI assistant a spreadsheet surface; Y Combinator's current analytics cohort is full of chat-with-data agents (PandasAI, MinusX, BitBoard, Mito, Upsolve).",
-      "monetization": "Freemium: free tier for small files, paid tiers for larger data, exports and advanced charts. Comparable market pricing: Julius AI Starter $20/mo / Pro $45/mo; ChatCSV paid tier $19/mo.",
-      "evidence": [
-        "https://www.producthunt.com/leaderboard/monthly/2026/10",
-        "https://www.tellius.com/resources/blog/best-ai-analytics-platforms-in-2026-12-tools-compared-by-capability-governance-and-depth-of-insight",
-        "https://www.unite.ai/row-zero-joins-databricks-to-give-genie-a-governed-spreadsheet/",
-        "https://aichief.com/ai-data-management/chatcsv-co/"
-      ],
-      "how_searched": [
-        "Launch/review site (Product Hunt leaderboard)",
-        "Trend & SEO tool content",
-        "Revenue/pricing databases and analysis blogs",
-        "VC portfolio directories (YC)",
-        "Tech news (acquisition coverage)"
-      ],
-      "score": 82.0,
-      "found_at": "2026-10-10T00:11:04.459088+00:00"
     },
     {
       "name": "EU Digital Product Passport (DPP) creation & registration toolkit",
@@ -6132,6 +6129,23 @@
       "found_at": "2026-10-18T23:24:33.400262+00:00"
     },
     {
+      "name": "Agent Feed Auditor",
+      "field": "Agentic commerce / product data",
+      "summary": "An original web tool that audits a store's product feed against Google Merchant Center, ChatGPT and Shopify Catalog requirements, flags missing identifiers, attributes, shipping and returns, and generates per-platform fixes.",
+      "why_now": "AI shopping agents now filter products before showing them. AISell notes Google's Universal Cart launched in the US on 15 October 2026, while Adyen says feed readiness is still immature at most retailers because standard ecommerce feeds lack machine-readable, fresh data.",
+      "monetization": "Free feed scan; paid monitoring, multi-store dashboards, API access and agency seats.",
+      "evidence": [
+        "https://www.adyen.com/knowledge-hub/agentic-commerce-and-product-feeds-guide",
+        "https://aisell.com/article/product-feed-optimization-for-ai-agents"
+      ],
+      "how_searched": [
+        "industry guide",
+        "search engine"
+      ],
+      "score": 58.0,
+      "found_at": "2026-10-31T05:49:35.071930+00:00"
+    },
+    {
       "name": "CheckVibe",
       "field": "Developer security",
       "summary": "Web app security scanner that pastes a URL or connects a GitHub repo to surface leaked secrets, open DB rules, missing headers and 100+ issues in vibecoded apps.",
@@ -6147,23 +6161,6 @@
       ],
       "score": 57.3,
       "found_at": "2026-10-30T23:57:40.650419+00:00"
-    },
-    {
-      "name": "monity.ai",
-      "field": "Competitive intelligence",
-      "summary": "AI website change monitor that watches pages and alerts only on meaningful changes, including price drops, restocks and competitor updates.",
-      "why_now": "Teams need automated competitor/supplier monitoring; free tier plus paid plans and mobile apps indicate active adoption.",
-      "monetization": "Freemium with Personal plans from $10/mo and Business from $25/mo; revenue not disclosed.",
-      "evidence": [
-        "https://monity.ai/",
-        "https://monity.ai/pricing/"
-      ],
-      "how_searched": [
-        "official product site",
-        "official pricing page"
-      ],
-      "score": 52.0,
-      "found_at": "2026-10-30T23:57:41.344516+00:00"
     }
   ]
 }
