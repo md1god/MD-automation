@@ -1831,28 +1831,6 @@
       "found_at": "2026-10-30T14:20:25.205423+00:00"
     },
     {
-      "name": "Retro digicam / film-camera filter web app (Y2K & CCD look)",
-      "field": "Consumer photo / creator tools",
-      "summary": "A browser tool that turns any photo or video into the grainy, flash-heavy, early-2000s 'digicam/CCD' look using preset film stocks, light leaks, date stamps and scans — no app install.",
-      "why_now": "Demand is at a decade high and still climbing: Google searches for 'digicam' hit a ten-year high in 2026, camera-shipment data shows built-in-lens compacts at 117-148% of 2025 levels, and used CCD compacts now sell for ~3.5-4x their old prices with ~5x sales volume. The aesthetic is a Gen-Z/Y2K mainstream trend, not a fad.",
-      "monetization": "Mobile incumbents make serious money: BeautyCam ~$3.0M/mo (Peekly est.), ism ~$300K/mo (~$3.6M annualized, AppRank), Dazzil Cam 20.4M installs at $10K+/mo (59% IAP/41% ads), Vintage Film Camera 4.7M installs at $10K+/mo. A free web version could monetize via watermark removal, HD export, batch and video packs.",
-      "evidence": [
-        "https://www.digitalcameraworld.com/cameras/compact-cameras/i-wrote-off-the-digicam-as-a-temporary-trend-but-three-years-later-crappy-cameras-have-only-become-more-popular",
-        "https://photorumors.com/2026/06/03/used-compact-camera-prices-quadruple-in-japan-as-ccd-models-make-a-comeback/",
-        "https://petapixel.com/2026/06/11/compact-camera-sales-are-still-booming-amid-growing-photo-industry/",
-        "https://peekly.app/apps/cf2bbdaf-1ba0-4746-9b66-58e0e6d9bafd",
-        "https://appgoblin.info/apps/com.camerafilm.lofiretro",
-        "https://apprank.io/ism-retro-camera-vintage-8065"
-      ],
-      "how_searched": [
-        "search-trend + camera-industry news and CIPA shipment data",
-        "app-store revenue/install estimators (Peekly, AppGoblin, AppRank)",
-        "web search"
-      ],
-      "score": 87.0,
-      "found_at": "2026-10-10T21:46:40.513358+00:00"
-    },
-    {
       "name": "Document analytics platform (DocSend alternative)",
       "field": "SaaS / Sales & fundraising / Productivity",
       "summary": "Web tool to share PDFs/decks/data rooms via tracked links: page-by-page dwell analytics, real-time open notifications, per-recipient dynamic watermarking, expiring links, NDA gates, audit logs. Free tier with full analytics; flat pricing instead of DocSend's per-seat model. Highly rebuildable (Next.js + PDF viewer + Stripe).",
@@ -2389,27 +2367,6 @@
       ],
       "score": 86.0,
       "found_at": "2026-10-30T07:09:38.173662+00:00"
-    },
-    {
-      "name": "Universal AI voice-to-text dictation tool",
-      "field": "AI productivity / voice-to-text",
-      "summary": "A free web/desktop app that turns speech into clean, formatted text in any text field, with a bilingual/consumer-friendly free tier and paid Pro/team upgrades.",
-      "why_now": "Wispr Flow raised a $280M Series B at a $2B valuation (Aug 2026) after revenue grew 150%+ for four straight quarters; it reports 60B+ words dictated, 10,000+ enterprises and 100,000 businesses, and its launch of an Android app and India expansion shows the category is still spreading. This is a hot, fundable category with an obvious free-tool wedge for consumers who won't pay enterprise prices.",
-      "monetization": "Freemium: free ~2,000 words/week, then Pro/team/enterprise tiers (Wispr Pro is the market benchmark for pricing).",
-      "evidence": [
-        "https://wisprflow.ai/post/series-b",
-        "https://www.reuters.com/technology/wispr-flow-valued-2-billion-latest-funding-round-2026-08-17/",
-        "https://techcrunch.com/2026/08/17/wispr-raises-280m-at-2b-valuation-as-it-looks-beyond-dictation/",
-        "https://fortune.com/2026/08/17/wispr-2-billion-valuation-dictations-only-the-beginning/",
-        "https://thenextweb.com/news/wispr-series-b-280m-2bn-valuation-menlo-canto",
-        "https://okara.ai/blog/how-wispr-flow-grew"
-      ],
-      "how_searched": [
-        "web search 'Wispr Flow Series B valuation ARR'",
-        "cross-checked company blog, Reuters, TechCrunch, Fortune, TNW"
-      ],
-      "score": 85.0,
-      "found_at": "2026-10-10T17:54:55.707103+00:00"
     },
     {
       "name": "AI content detector & humanizer",
@@ -4288,27 +4245,6 @@
       "found_at": "2026-10-30T14:20:39.436462+00:00"
     },
     {
-      "name": "Free multi-marketplace resale cross-listing tool",
-      "field": "Ecommerce / reseller tooling",
-      "summary": "List one second-hand item once and publish it in one pass to Vinted, eBay, Depop, Poshmark, Mercari, Etsy and more, with auto-delisting when it sells.",
-      "why_now": "Reselling is a large and actively monetized niche: incumbents charge $9–$59/mo (Flyp, Vendoo $14.99, List Perfectly $29, Crosslist $29.99, Zipsale from £15, Relistly from €14, SellerAider $12.99), and Vinted's US push only began in January 2026, so there is fresh, under-served demand. A genuinely free, no-signup lister is a strong wedge into this crowded-but-paid market.",
-      "monetization": "Competitors: Flyp ~$9/mo, Vendoo $14.99/mo, List Perfectly $29/mo, Crosslist $29.99/mo, SellerAider $12.99/mo, Zipsale £15/mo, Relistly €14/mo.",
-      "evidence": [
-        "https://www.resaleos.co/blog/comparing-the-20-best-cross-listing-software-for-resellers-in-2026-the-complete-buyer-s-guide",
-        "https://relistly.io/guides/list-on-vinted-depop-and-ebay-at-the-same-time",
-        "https://resellvault.co.uk/articles/cross-listing-vinted-ebay-depop-uk",
-        "https://www.vendoo.co/uk",
-        "https://www.flipsail.io/blog/cross-list-to-vinted",
-        "https://underpricedai.com/blog/best-cross-listing-apps"
-      ],
-      "how_searched": [
-        "web search 'cross-listing software resellers Vinted eBay Depop 2026'",
-        "compared pricing/feature tables across resale guides and vendor sites"
-      ],
-      "score": 81.0,
-      "found_at": "2026-10-10T17:54:57.465495+00:00"
-    },
-    {
       "name": "Vertical AI Voice Agent Builder for SMBs (Dental / HVAC / Legal / Trades)",
       "field": "Voice AI / Vertical SaaS",
       "summary": "A no-code web builder for creating vertical-specific AI phone agents (dental scheduling, HVAC dispatch, legal intake, contractor qualification) with pre-built workflows, CRM integrations, and HIPAA/PCI-ready compliance — deployable in minutes without developers.",
@@ -4514,26 +4450,6 @@
       ],
       "score": 81.0,
       "found_at": "2026-10-28T21:14:43.074261+00:00"
-    },
-    {
-      "name": "AI astrology / tarot / horoscope web app",
-      "field": "Consumer lifestyle / spirituality",
-      "summary": "A free web app that gives AI-generated daily horoscopes, tarot pulls and chat-style astrological guidance in multiple languages, monetized with ads or premium unlocks.",
-      "why_now": "Explosive and very recent: astrology apps logged ~15 crore (150M) India downloads Jan-Sep 2026, up 75% YoY, and religious/spiritual apps 14.6 crore (+47%) — together nearly 30 crore downloads, already beating all of 2025. AI-native players are the growth engine (AstroSage Kundli +172%, AstroLokal +1,062%). New AI entrants are climbing charts within weeks of launch.",
-      "monetization": "Ad-led and IAP: Astro AI hit 1.6M installs in ~1 month at $10K+/mo (100% ads, AppGoblin); Reva ~3.0M downloads/mo (Peekly); category leader Astrotalk leads with 3 crore downloads. Wiggle room for subscription premium readings.",
-      "evidence": [
-        "https://economictimes.indiatimes.com/news/india/indias-app-economy-goes-spiritual-religious-and-astrology-apps-clock-nearly-30-crore-downloads-in-nine-months/articleshow/134852101.cms",
-        "https://timesofindia.indiatimes.com/business/india-business/religious-spiritual-astrology-apps-see-nearly-30cr-downloads-in-jan-sept/articleshow/134842601.cms",
-        "https://appgoblin.info/apps/com.ai.astrology.horoscope",
-        "https://peekly.app/apps/64b3e722-3a4f-4db1-bd52-f52adf9928d4"
-      ],
-      "how_searched": [
-        "news data reports (Sensor Tower via Times of India / Economic Times)",
-        "app-store analytics estimators (AppGoblin, Peekly)",
-        "web search"
-      ],
-      "score": 80.0,
-      "found_at": "2026-10-10T21:46:41.853135+00:00"
     },
     {
       "name": "Browser City-Sim Game with In-World Brand Billboards",
@@ -5263,28 +5179,6 @@
       ],
       "score": 79.0,
       "found_at": "2026-10-30T19:27:19.503654+00:00"
-    },
-    {
-      "name": "AI landing-page personalization / CRO autopilot (free tier)",
-      "field": "Marketing / growth tools",
-      "summary": "A tool where you paste a URL and each ad, keyword or visitor segment gets an auto-generated, continuously A/B-tested landing page variant; a free version would cover small sites that can't afford enterprise CRO suites.",
-      "why_now": "Hot and heavily funded in 2026: Accel led a $5.7M seed into Fibr AI (targeting $5M ARR), YC-backed Sherpa (S26) reports 15-20% conversion lift, Keep Converting raised $2M pre-seed citing a 64% average conversion lift, and JustAI raised $17M Series A on 5x ARR. GenPage 3.0 hit 510 Product Hunt upvotes (Oct 7) and claims 3,400+ teams.",
-      "monetization": "Enterprise SaaS today (Fibr targets ~50 customers / $5M ARR; GenPage has paid tiers) and pay-on-results pricing (Keep Converting). A free web tool could upsell experiments, custom domains, and analytics.",
-      "evidence": [
-        "https://techcrunch.com/2026/02/04/accel-doubles-down-on-fibr-ai-as-agents-turn-static-websites-into-one-to-one-experiences/",
-        "https://www.genpage.ai/",
-        "https://www.eznewswire.com/newsroom/keep-converting-exits-stealth-2m-pre-seed",
-        "https://www.ycombinator.com/companies/sherpa",
-        "https://www.prnewswire.com/news-releases/justai-raises-17m-series-a-to-build-an-agentic-marketing-platform-302807090.html"
-      ],
-      "how_searched": [
-        "tech-news funding coverage (TechCrunch, PR Newswire)",
-        "YC company directory",
-        "Product Hunt leaderboard",
-        "vendor site"
-      ],
-      "score": 78.0,
-      "found_at": "2026-10-10T21:46:44.002902+00:00"
     },
     {
       "name": "AI conversational travel planner (itinerary + booking)",
@@ -6148,6 +6042,91 @@
       ],
       "score": 57.3,
       "found_at": "2026-10-30T23:57:40.650419+00:00"
+    },
+    {
+      "name": "Rezi",
+      "field": "AI resume builder / job search",
+      "summary": "AI-powered resume builder that tailors resumes to job descriptions and ATS systems, with an AI resume agent, keyword targeting, templates and interview prep.",
+      "why_now": "Verified revenue of about $209,880 in the last 30 days and $241,858 MRR across 10,034 subscriptions (TrustMRR, Stripe-verified, Oct 31 2026); ~4.8M users and ranked #1 AI resume builder by Forbes; job seekers actively need ATS-friendly resumes.",
+      "monetization": "Freemium: Free $0, Pro $29/mo, Lifetime $149 one-time; enterprise tier; revenue verified via Stripe.",
+      "evidence": [
+        "https://trustmrr.com/startup/rezi",
+        "https://www.rezi.ai"
+      ],
+      "how_searched": [
+        "TrustMRR verified revenue",
+        "product site"
+      ],
+      "score": 56.7,
+      "found_at": "2026-10-31T21:48:28.672344+00:00"
+    },
+    {
+      "name": "1Lookup",
+      "field": "Data verification & enrichment API",
+      "summary": "Single API for real-time phone, email and IP validation plus 74 enrichment/intelligence products, with a hosted MCP server for AI agents.",
+      "why_now": "Verified revenue of $495,875 in the last 30 days and $272,326 MRR across 747 subscriptions (TrustMRR, Stripe-verified, Oct 31 2026); ~$5.69M all-time; strong demand from fraud prevention and lead cleaning.",
+      "monetization": "Usage-based credits (1 credit per phone/email/IP check) with paid plans and a 7-day trial; Stripe-verified.",
+      "evidence": [
+        "https://trustmrr.com/startup/1lookup",
+        "https://www.1lookup.io/products"
+      ],
+      "how_searched": [
+        "TrustMRR verified revenue",
+        "product site"
+      ],
+      "score": 53.3,
+      "found_at": "2026-10-31T21:48:29.267407+00:00"
+    },
+    {
+      "name": "AI multi-model creative studio",
+      "field": "AI creative tools (image/video/audio)",
+      "summary": "Web workspace aggregating 40-100+ leading AI image, video and audio models in one subscription with UGC ads, AI influencers, workflow canvas and MCP integration (PromptWise, Kolbo.AI, CreativeClaw).",
+      "why_now": "Multiple independent products show paid demand: PromptWise $94,800/30d with $65,400 MRR, Kolbo.AI $89,213/30d with $38,793 MRR, CreativeClaw $108,340/30d (TrustMRR, Oct 31 2026); creators want one subscription instead of many.",
+      "monetization": "Subscriptions from $19-27/mo up to $149/mo plus credit packs; verified via Stripe/Polar.",
+      "evidence": [
+        "https://trustmrr.com/startup/creativeclaw",
+        "https://trustmrr.com/startup/kolbo-ai"
+      ],
+      "how_searched": [
+        "TrustMRR verified revenue",
+        "product sites"
+      ],
+      "score": 52.0,
+      "found_at": "2026-10-31T21:48:29.770136+00:00"
+    },
+    {
+      "name": "Pastel",
+      "field": "B2B sales intelligence / social intent",
+      "summary": "AI platform that monitors LinkedIn, X, Reddit and 20+ networks for buying-intent conversations, enriches leads with verified contact data and automates outreach.",
+      "why_now": "Verified revenue of $6,419,480 in the last 30 days via Shopify (TrustMRR, Oct 24 2026); founded September 2026 and already ranked #21 on TrustMRR; cold outbound demand shifting to intent-based selling.",
+      "monetization": "Subscriptions starting at 99 EUR/mo with free enrichment/outreach; Shopify-verified revenue.",
+      "evidence": [
+        "https://trustmrr.com/startup/pastel",
+        "https://heypastel.com"
+      ],
+      "how_searched": [
+        "TrustMRR verified revenue",
+        "product site"
+      ],
+      "score": 48.0,
+      "found_at": "2026-10-31T21:48:30.663251+00:00"
+    },
+    {
+      "name": "LLM Gateway",
+      "field": "LLM API gateway / developer tools",
+      "summary": "Open-source OpenAI-compatible gateway routing requests across 40+ providers and 200+ models with cost tracking, caching, failover and embeddable payments.",
+      "why_now": "Verified revenue of $259,539 in the last 30 days and $78,764 MRR across 1,386 subscriptions (TrustMRR); developers need one endpoint and cost visibility across providers.",
+      "monetization": "5% platform fee on prepaid credits, free BYOK and free self-hosted AGPLv3; DevPass/Lounge add-ons.",
+      "evidence": [
+        "https://trustmrr.com/startup/llm-gateway",
+        "https://llmgateway.io/pricing"
+      ],
+      "how_searched": [
+        "TrustMRR verified revenue",
+        "product site"
+      ],
+      "score": 43.3,
+      "found_at": "2026-10-31T21:48:31.115156+00:00"
     }
   ]
 }
