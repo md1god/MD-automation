@@ -2088,50 +2088,6 @@
       "found_at": "2026-10-26T19:26:09.300196+00:00"
     },
     {
-      "name": "Screen-recording → executable AI workflow recorder",
-      "field": "AI automation / workflow capture",
-      "summary": "Record a human performing a task once and AI turns it into a reusable workflow, SOP, or runnable agent skill. IrisGo's 'Watch & Learn' and Cakie both launched this week, converting screen recordings into agent prompts and automation.",
-      "why_now": "IrisGo is #1 on Product Hunt's week of Oct 5 (533 upvotes, 128 comments); Cakie was the #1 launch on Oct 9 ('turn screen recordings into prompts for AI agents'); at least eight new entrants (SpecSnap, SkillForge, SeldonFrame, Routinly, Relayr, Procera, ScreenApp, Explaino) appeared in the last weeks, all converting recordings into docs, MCP skills, or automation scripts.",
-      "monetization": "Freemium SaaS with proven tiers: Routinly Solo $19/mo and Team $59/mo; SeldonFrame agency plans from $99/mo; ScreenApp from $19/mo; BrightBean-style free cores. IrisGo/Cakie revenue null (just launched).",
-      "evidence": [
-        "https://www.producthunt.com/leaderboard/weekly/2026/41",
-        "https://crosswalk.to/crosswalk/ph-launches/g8flh4",
-        "https://routinly.org/",
-        "https://app.seldonframe.com/record",
-        "https://www.skillforge.sh/",
-        "https://specsnap.ai/"
-      ],
-      "how_searched": [
-        "launch leaderboard (Product Hunt weekly)",
-        "launch aggregator (crosswalk)",
-        "product websites with pricing (Routinly, SeldonFrame, SkillForge, SpecSnap)"
-      ],
-      "score": 86.0,
-      "found_at": "2026-10-10T06:18:02.323060+00:00"
-    },
-    {
-      "name": "OpenClaw / SKILL.md agent-skill security scanner & registry",
-      "field": "AI supply-chain security",
-      "summary": "A web tool that scans third-party AI agent skills (SKILL.md packages and OpenClaw plugins) for malware droppers, reverse shells, prompt injection, credential theft and blocklisted C2 infrastructure before a user installs them, and publishes a searchable safety directory. The official ClawHub marketplace shipped with no pre-scan; skills run with full agent permissions, so a malicious skill is just words in a markdown file.",
-      "why_now": "The OpenClaw ecosystem exploded (350K+ GitHub stars, ~40,000 open gateways) and became a live malware channel: Bitdefender found ~17% of analyzed skills malicious, Koi's ClawHavoc documented 341 malicious skills, and VirusTotal analyzed 3,016+ skills with hundreds malicious. Palo Alto Unit 42 found five evasive unblocked skills (Feb-May 2026) using file-size inflation to dodge scanners and novel agentic 'affiliate injection' attacks. VirusTotal and ClawScan were only integrated after the February 2026 outbreak, and third-party scanners are already needed to catch what they miss.",
-      "monetization": "Free open-source scanner (clawscan.dev, MIT, npx) as adoption funnel; paid team/CI tier; per-scan API for marketplaces; 'verified/clean skill' trust badge subscriptions; sponsored security directory listings. Comparable OpenClaw-ecosystem products already monetize (LarryBrain OpenClaw skills marketplace ~$2.7K MRR, $32.7K all-time, Stripe-verified Sep 2026).",
-      "evidence": [
-        "https://unit42.paloaltonetworks.com/openclaw-ai-supply-chain-risk/",
-        "https://blog.virustotal.com/2026/02/from-automation-to-infection-how.html",
-        "https://clawscan.dev/",
-        "https://github.com/openclaw/clawscan",
-        "https://trustmrr.com/startup/larrybrain-openclaw-marketplace"
-      ],
-      "how_searched": [
-        "OpenClaw ClawHub malicious skills security scanner 2026",
-        "OpenClaw ecosystem growth gateways 2026",
-        "agent skills prompt injection malware",
-        "indie hacker OpenClaw MRR"
-      ],
-      "score": 86.0,
-      "found_at": "2026-10-10T12:35:59.373537+00:00"
-    },
-    {
       "name": "Candidate-Fraud & Deepfake-Interview Screening Console",
       "field": "HR / recruitment security",
       "summary": "A free web console where a recruiter pastes a resume, application answers, or interview notes and gets an instant 'authenticity risk' report: signs of AI-generated/templated resumes, recycled or duplicate applicant identities, contradictory employment timelines, and hints of synthetic (deepfake/voice-cloned) interviews. Rebuildable as an original web tool that layers open LLM classification + deterministic rules over user-supplied text; no personal data stored.",
@@ -2433,27 +2389,6 @@
       ],
       "score": 86.0,
       "found_at": "2026-10-30T07:09:38.173662+00:00"
-    },
-    {
-      "name": "Independent MCP server trust directory & safety rating",
-      "field": "Developer infrastructure / MCP",
-      "summary": "A directory that crawls the official Model Context Protocol registry and scores each server for trust, auth, uptime and risky capabilities, because the official registry verifies namespace ownership but stores no security review, auth method, or working-endpoint check. Pairs discovery with a safety/scan layer and a 'exposed server' report.",
-      "why_now": "The official MCP registry went from 'close to two thousand' entries (Nov 2025) to 40,047 servers on 6 Oct 2026 (~20x in ten months; 42% of current versions published in Sept 2026 alone). Remote is default (62.8% offer a hosted endpoint). Exposure is rising faster than fixes: Trend Micro's count of unauthenticated/no-encryption MCP servers nearly tripled (492 in July 2025 to 1,467 in April 2026); Censys found 12,520 internet-reachable MCP services on 8,758 IPs; two MCP flaws reached CISA's exploited-vulnerabilities list in 2026. Existing directories (Glama 97K listings, PulseMCP 21.7K) have no security scoring.",
-      "monetization": "Sponsored/paid directory listings and category placements; a 'trust-verified' badge and badge-API; paid scanning/monitoring SaaS (uptime, auth checks, CVE matching) for server publishers; lead-gen for security vendors.",
-      "evidence": [
-        "https://host0.ai/blog/state-of-mcp-2026",
-        "https://verifymcp.io/stats",
-        "https://www.fewservers.com/posts/mcp-registry-crawl-38000-servers/",
-        "https://devtoolhub.com/mcp-registry-by-the-numbers/",
-        "https://registry.modelcontextprotocol.io/"
-      ],
-      "how_searched": [
-        "MCP registry servers growth 2026 security directory",
-        "MCP registry crawl server count",
-        "MCP exposed unauthenticated servers 2026"
-      ],
-      "score": 85.0,
-      "found_at": "2026-10-10T12:36:22.692661+00:00"
     },
     {
       "name": "Universal AI voice-to-text dictation tool",
@@ -2991,47 +2926,6 @@
       "found_at": "2026-10-30T14:20:35.520478+00:00"
     },
     {
-      "name": "Prompt-to-game AI builder",
-      "field": "AI gaming / prompt-to-game",
-      "summary": "Describe a game in plain language and get a playable, shareable browser game with graphics, sound and physics — no coding. Google Playground launched this model on Oct 7, 2026, with a public gallery and Unity building pro-grade 3D tools (Unity Spark) on top.",
-      "why_now": "Google Playground launched Oct 7, 2026 as a free Google Labs product (weekly creation tokens, Google One subscribers get more); Roblox shares fell up to 8% premarket as investors priced the threat to user-generated games; it was the #2 Product Hunt launch on Oct 10 and listed Oct 9.",
-      "monetization": "Freemium token model (free tier with weekly tokens; Google One upsell); Unity Spark connects to the Unity Asset Store. Google revenue null; Roblox's up-to-8% premarket drop is the demand proof.",
-      "evidence": [
-        "https://nextdiff.com/posts/google-playground-ai-game-creation-unity-spark/",
-        "https://orangebot.ai/product-hunt-today",
-        "https://www.producthunt.com/leaderboard/daily/2026/10/9"
-      ],
-      "how_searched": [
-        "tech news (NextDiff)",
-        "Product Hunt daily tracker (OrangeBot)",
-        "Product Hunt daily leaderboard"
-      ],
-      "score": 84.0,
-      "found_at": "2026-10-10T06:18:04.340505+00:00"
-    },
-    {
-      "name": "EU AI Act Article 50 labeling & machine-readable marking compliance tool",
-      "field": "Compliance software / AI governance",
-      "summary": "A SaaS tool that helps providers and deployers of generative AI comply with AI Act Article 50: disclosure notices for AI interactions, human-facing labels for deepfakes and AI-generated public-interest text, and machine-readable marking (e.g. C2PA/watermarking) of synthetic audio, image, video and text. Outputs audit-ready evidence.",
-      "why_now": "Article 50 has applied since 2 August 2026, with the provider-side marking/detection obligation for systems already on the EEA market deferred only to a hard 2 December 2026 deadline. Non-compliance carries fines up to EUR 15 million or 3% of worldwide annual turnover. The Commission published guidelines on 20 July/6 August 2026 and a Code of Practice on Transparency of AI-generated Content with ~180-190 signatories, but non-signatories must prove compliance 'by alternative equivalently adequate means' - a tooling gap.",
-      "monetization": "SaaS compliance suite (per-system assessments, labeling APIs, audit reports); C2PA/watermarking integration; annual 'Article 50 readiness' subscription; enterprise consulting. Independent market sizing put EU AI Act compliance software at ~$0.92B (2025) rising to ~$1.14B (2026) and ~$4.05B by 2031.",
-      "evidence": [
-        "https://digital-strategy.ec.europa.eu/en/policies/guidelines-ai-transparency-obligations",
-        "https://digital-strategy.ec.europa.eu/en/news/commission-starts-enforcing-ai-act-rules-and-new-transparency-requirements-2-august",
-        "https://digital-strategy.ec.europa.eu/en/policies/code-practice-ai-generated-content",
-        "https://www.cooley.com/news/insight/2026/2026-08-03-eu-ai-act-transparency-obligations-take-effect-2-august-2026",
-        "https://www.morganlewis.com/blogs/sourcingatmorganlewis/2026/08/eu-ai-acts-transparency-rules-what-went-into-effect-on-2-august",
-        "https://www.mordorintelligence.com/industry-reports/eu-ai-act-compliance-software-market"
-      ],
-      "how_searched": [
-        "EU AI Act Article 50 transparency labeling deadline August 2026 companies",
-        "AI Act transparency obligations deepfake marking",
-        "EU AI Act compliance software market"
-      ],
-      "score": 84.0,
-      "found_at": "2026-10-10T12:36:24.276367+00:00"
-    },
-    {
       "name": "Candidate-Side AI Job-Search & Application Tailoring",
       "field": "career / HR tech",
       "summary": "A free web tool where a job seeker pastes a job description and their CV, and gets an ATS-proof tailored resume, cover letter, keyword gap analysis and application tracking. Essentially the candidate-side mirror of the agentic recruiting platforms employers now buy.",
@@ -3550,28 +3444,6 @@
       "found_at": "2026-10-31T05:49:36.587823+00:00"
     },
     {
-      "name": "EU Cyber Resilience Act SBOM & vulnerability-reporting tool",
-      "field": "Compliance / software supply chain",
-      "summary": "A web platform that generates and continuously maintains machine-readable SBOMs (CycloneDX/SPDX) for products with digital elements sold in the EU, matches components against vulnerability databases, and automates CRA Article 14 actively-exploited-vulnerability reporting to ENISA within 24 hours.",
-      "why_now": "Article 14 reporting obligations already apply from 11 September 2026, and full CRA obligations (Annex I SBOM requirements) apply from 11 December 2027, with fines up to EUR 15 million or 2.5% of worldwide turnover. ENISA's 2026 SBOM survey found 72% of organizations increased investment in SBOM tools/automation, yet 62% say high completeness is very/extremely hard, 39% never receive SBOMs from commercial suppliers, only 10% put SBOM clauses in contracts, and 28% lack dedicated staff - i.e., demand for tooling far exceeds internal capability.",
-      "monetization": "SaaS SBOM generation + monitoring platform; vulnerability-matching and 24h-reporting automation; supplier SBOM intake/validation; managed compliance and notified-body readiness packs. Analysts size NIS2+CRA compliance services at ~$4.50B (2026) growing to ~$47B by 2036 (~26.4% CAGR).",
-      "evidence": [
-        "https://www.enisa.europa.eu/sites/default/files/2026-06/SBOM%20Adoption%20State%20of%20Play%202026.pdf",
-        "https://www.goyou.it/en/cybersecurity/2026/06/12/sbom-2026-72-of-eu-companies-increase-investments-for-software-supply-chain.html",
-        "https://www.surecloud.com/blog-hub/eu-cyber-resilience-act-sbom-requirements",
-        "https://digital-strategy.ec.europa.eu/en/policies/cyber-resilience-act",
-        "https://cadeproject.org/updates/enisa-report-finds-cyber-resilience-act-driving-sbom-adoption-across-europe/",
-        "https://www.factmr.com/report/nis2-and-cyber-resilience-act-compliance-services-market"
-      ],
-      "how_searched": [
-        "EU Cyber Resilience Act SBOM compliance market 2026 software revenue",
-        "CRA Article 14 vulnerability reporting deadline",
-        "ENISA SBOM adoption survey 2026"
-      ],
-      "score": 83.0,
-      "found_at": "2026-10-10T12:36:31.585365+00:00"
-    },
-    {
       "name": "Agentic social-media scheduler",
       "field": "Social media management (AI-agent scheduling)",
       "summary": "An open-source, agent-native scheduler where AI agents plan, generate and publish posts to 30+ networks from one visual calendar.",
@@ -3847,27 +3719,6 @@
       ],
       "score": 83.0,
       "found_at": "2026-10-28T21:14:37.919940+00:00"
-    },
-    {
-      "name": "EU Digital Product Passport (DPP) creation & registration toolkit",
-      "field": "Compliance / circular economy",
-      "summary": "A SaaS toolkit that lets brands and manufacturers build item-level Digital Product Passports, map product/BOM/carbon/repair data to ESPR data models, register unique identifiers in the EU DPP Registry via API, and generate QR/NFC data carriers linking physical products to their passports.",
-      "why_now": "The EU DPP Registry went live and operational on 20 July 2026, with six of eight harmonised standards already published. The first binding deadline is 18 February 2027 for certain large batteries and EV/LMT/industrial batteries; iron/steel, textiles, tyres and aluminium follow in 2027 and beyond. The Commission explicitly designed the registry for external DPP service providers and offers free machine-readable data models and registration APIs, making third-party tooling viable now. Market estimates range widely but are steep: ~$253M (2025) to ~$6.7B (2035) at 38.8% CAGR, with DPP compliance services ~$0.6B (2026) to ~$18.5B (2036) at 40.9% CAGR.",
-      "monetization": "SaaS passport platform (per-SKU/per-passport pricing); API registration and data-mapping services; supplier data verification; managed readiness audits. Software is ~69% of offering share and SaaS ~40% of the delivery model.",
-      "evidence": [
-        "https://single-market-economy.ec.europa.eu/single-market/digital-product-passport_en",
-        "https://single-market-economy.ec.europa.eu/news/digital-product-passport-registry-now-live-2026-07-20_en",
-        "https://market.us/report/digital-product-passport-market/",
-        "https://www.factmr.com/report/digital-product-passport-compliance-services-market",
-        "https://www.policy2050.com/reports/dpp-platforms/"
-      ],
-      "how_searched": [
-        "Digital Product Passport software market 2026 companies EU registry",
-        "DPP registry live 2026 batteries deadline",
-        "digital product passport compliance services market"
-      ],
-      "score": 82.0,
-      "found_at": "2026-10-10T12:36:34.429964+00:00"
     },
     {
       "name": "Manifold MCP - marketing data for AI agents",
@@ -4435,27 +4286,6 @@
       ],
       "score": 82.0,
       "found_at": "2026-10-30T14:20:39.436462+00:00"
-    },
-    {
-      "name": "Autonomous AI social-media influencer agent",
-      "field": "AI creator economy / social media agents",
-      "summary": "AI agents that run a social account end-to-end 24/7 — they spot trends, create on-brand content in your voice, publish across TikTok/Instagram/X and optimize for growth, with chat-based or full autonomy.",
-      "why_now": "Spira Maxima is #2 on Product Hunt's week of Oct 5 (522 upvotes) with 10M+ impressions before public launch; internal tests across 42 accounts over 90 days saw top performers cross 25K followers from zero (median 3.8K) and a customer gain of +412% monthly reach. The virtual-influencer market was $6.06B in 2024 and is forecast to reach $45.88B by 2030 at 40.8% CAGR (Grand View Research).",
-      "monetization": "Spira subscriptions from $9/mo with credit-based tiers (free plan 50 credits); AI personas charge $100–$34,000 per sponsored post; Fanvue hit $100M ARR in Jan 2026 with 250K creators, making the monetization path real.",
-      "evidence": [
-        "https://www.producthunt.com/leaderboard/weekly/2026/41",
-        "https://agentlocker.ai/agent/spira-ai",
-        "https://www.grandviewresearch.com/industry-analysis/virtual-influencer-market-report",
-        "https://aipure.ai/products/spira-ai"
-      ],
-      "how_searched": [
-        "launch leaderboard (Product Hunt weekly)",
-        "market research report (Grand View Research)",
-        "product/review aggregators (AgentLocker, AIPure)",
-        "industry rate-card analysis"
-      ],
-      "score": 81.0,
-      "found_at": "2026-10-10T06:18:06.342300+00:00"
     },
     {
       "name": "Free multi-marketplace resale cross-listing tool",
@@ -5435,28 +5265,6 @@
       "found_at": "2026-10-30T19:27:19.503654+00:00"
     },
     {
-      "name": "Voice-agent QA & live-call benchmark platform",
-      "field": "Conversational AI / voice-agent QA",
-      "summary": "Testing, simulation and benchmarking for voice AI agents before and during production — speech-to-speech eval on live phone calls, regression suites and CI/CD integration. Cekura Bench launched on Product Hunt Oct 8.",
-      "why_now": "Voice agents are exploding: ElevenLabs is pacing at $600M ARR with a reported $22B valuation and 15M agent conversations/week (3x since February); voice-AI startups raised ~$7B in Q1 2026 vs under $1B a year earlier; the AI voice agent market was $2.54B in 2025 with 39% CAGR. Job boards show acute demand: Voice AI Agent Engineer $112,090–$160,330 (OhMD, Oct 6), Staff Voice AI Engineer at ServiceNow (Oct 9), Senior Voice AI Engineer $96k (Clera, Oct 2).",
-      "monetization": "Per-seat SaaS and per-minute pricing: Bland from $299/mo plus usage; Retell from $0.07/min (100M+ calls/month for 4,000+ businesses); ElevenLabs Agents minutes bundled $5–$1,320/mo. Cekura revenue null.",
-      "evidence": [
-        "https://www.producthunt.com/leaderboard/daily/2026/10/8",
-        "https://www.techceodaily.com/ai/elevenlabs-22-billion-valuation-voice-agents",
-        "https://morningtick.com/post/elevenlabs-22bn-voice-agents-take-over-calls/",
-        "https://cluerate.com/job/ohmd/voice-ai-agent-engineer-j_ORvnAdihtiUrJGdn_6Du/",
-        "https://recentlypostedjobs.com/job/57289"
-      ],
-      "how_searched": [
-        "launch leaderboard (Product Hunt daily)",
-        "tech news (TechCEO Daily, MorningTick)",
-        "job boards (Cluerate, RecentlyPostedJobs, Remoshift)",
-        "market research reports"
-      ],
-      "score": 78.0,
-      "found_at": "2026-10-10T06:18:10.010454+00:00"
-    },
-    {
       "name": "AI landing-page personalization / CRO autopilot (free tier)",
       "field": "Marketing / growth tools",
       "summary": "A tool where you paste a URL and each ad, keyword or visitor segment gets an auto-generated, continuously A/B-tested landing page variant; a free version would cover small sites that can't afford enterprise CRO suites.",
@@ -6010,25 +5818,24 @@
       "found_at": "2026-10-29T14:24:57.620704+00:00"
     },
     {
-      "name": "SKILL.md agent-skills marketplace & hosting platform",
-      "field": "Developer marketplace",
-      "summary": "A two-sided marketplace / hosted platform for reusable SKILL.md workflow files that teach AI coding agents (Claude Code, Cursor, Codex CLI, Gemini CLI, Copilot, OpenClaw) a specific job - with payments, payouts, security scanning and one-line install.",
-      "why_now": "The ecosystem is early but real: claudemarketplaces.com listed 4,200+ verified skills and ~120K monthly visitors by May 2026 with 2,500+ marketplaces; Agensi grew to 7,000+ skills and 7,500+ users; the hosted-access model reportedly earns ~10x file-sales, with top-decile creators at $5-25K/mo and a median hosted creator at $300-1,500/mo. A non-developer built a working version with Claude Code + Lovable, and SKILL.md now works across 20+ agents, expanding the addressable market each time an agent adopts the standard.",
-      "monetization": "Platform take-rate (Agensi 30% fee / 70-80% creator share), credit and subscription plans ($9-19/mo tiers; hosted access $20-499/mo), plus paid security scanning and one-line install infrastructure.",
+      "name": "Single-sport video technique coach (Brawler pattern)",
+      "field": "AI sports coaching",
+      "summary": "Upload shadowboxing, bag, or sparring footage and get AI scoring for stance, guard, footwork, combinations, and head movement, plus drills and a round timer. Rebuild as a browser-based coach for one sport, with free uploads and paid personalized feedback.",
+      "why_now": "Brawler is RevenueCat-verified at $45,298 in the last 30 days and $23,109 MRR on TrustMRR (Oct 31, 2026); Shipped & Paid documented $55,118/30d on Oct 21, showing paid creator distribution can scale a narrow technique coach.",
+      "monetization": "Monthly/yearly subscription ($9.99/$59.99 at Brawler); free limited uploads, paid detailed breakdowns, coach-review add-ons, and sport-specific drill packs.",
       "evidence": [
-        "https://aismasher.com/the-skills-marketplace-six-months-later-predicted-vs-actual/",
-        "https://www.agensi.io/learn/how-to-monetize-skill-md-skills-developer-guide-2026",
-        "https://ryandoser.com/claude-ai-side-hustle/",
-        "https://videcoder101.com/blog/agensi-non-developer-claude-code-lovable",
-        "https://runbyagents.usectl.com/library/brief-4-indie-agent"
+        "https://shippedandpaid.com/cases/brawler-ai-boxing-coach-app-55k-month-rork/",
+        "https://trustmrr.com/startup/brawler",
+        "https://shippedandpaid.beehiiv.com/p/kolbo-ai-at-79k-a-month-and-brawler-at-55k-plus-30-more-ai-built-apps-with-verified-revenue"
       ],
       "how_searched": [
-        "Claude agent skills marketplace revenue indie hackers 2026",
-        "SKILL.md monetize marketplace Agensi Agent37",
-        "skill marketplace 4200 skills revenue"
+        "Google search for verified AI fitness revenue",
+        "TrustMRR startup profiles",
+        "Shipped & Paid case studies",
+        "Cross-checked TrustMRR against case-study snapshots"
       ],
-      "score": 77.0,
-      "found_at": "2026-10-10T12:36:41.822902+00:00"
+      "score": 78.0,
+      "found_at": "2026-10-31T17:50:21.703716+00:00"
     },
     {
       "name": "Free/open-source AI code review for PRs",
@@ -6127,6 +5934,186 @@
       ],
       "score": 77.0,
       "found_at": "2026-10-18T23:24:33.400262+00:00"
+    },
+    {
+      "name": "AI ebook-to-publish pipeline (GETebook pattern)",
+      "field": "AI publishing",
+      "summary": "Turn a topic, audience, and tone into an outline, chapters, cover art, and export-ready PDF/EPUB/Word. Rebuild as a free browser editor with paid exports, cover templates, and KDP formatting checks.",
+      "why_now": "GETebook.ai is Stripe-verified at $10,886 MRR, 228 active subscriptions, and $155,690 all-time on TrustMRR (Oct 31, 2026); Shipped & Paid highlights its outcome-led ads as a repeatable playbook.",
+      "monetization": "Subscription plus one-off export/formatting credits; affiliate links to editing, cover, and self-publishing services; team seats.",
+      "evidence": [
+        "https://trustmrr.com/startup/getebook-ai",
+        "https://starbelo.com/use-case/getebook-ai-publish-ready-ebooks/",
+        "https://shippedandpaid.beehiiv.com/p/kolbo-ai-at-79k-a-month-and-brawler-at-55k-plus-30-more-ai-built-apps-with-verified-revenue"
+      ],
+      "how_searched": [
+        "TrustMRR revenue profiles",
+        "Shipped & Paid issue and case notes",
+        "Google search for AI ebook revenue",
+        "Cross-checked third-party revenue mirrors"
+      ],
+      "score": 75.0,
+      "found_at": "2026-10-31T17:50:23.125517+00:00"
+    },
+    {
+      "name": "ADA/WCAG compliance scanner and widget for Shopify",
+      "field": "ecommerce accessibility",
+      "summary": "Scan a storefront for WCAG issues, generate AI alt text, add an accessibility widget, and sell remediation/monitoring. Rebuild as a free scanner with paid fixes, monitoring, and a white-label widget.",
+      "why_now": "Shopify accessibility apps are growing fast: StoreCensus shows Ez Accessibility +7,770.6% and Accessibility Assistant +1,705.1% over 90 days; Shoplist tracks hundreds of stores on leading widgets, and Accessify charges $8-$18/mo on Shopify.",
+      "monetization": "Freemium widget; paid monitoring and remediation subscriptions; per-audit reports; agency white-label.",
+      "evidence": [
+        "https://apps.shopify.com/accessify-web-accessibility",
+        "https://www.storecensus.com/stats/most-popular-shopify-accessibility-apps",
+        "https://shoplist.co/shopify-apps/rankings/store-design-site-optimization-accessibility"
+      ],
+      "how_searched": [
+        "Shopify App Store",
+        "StoreCensus category rankings",
+        "Shoplist weekly charts",
+        "Google search for accessibility app pricing"
+      ],
+      "score": 74.0,
+      "found_at": "2026-10-31T17:50:26.244559+00:00"
+    },
+    {
+      "name": "Shopify SEO and page-speed audit",
+      "field": "Shopify SEO",
+      "summary": "Audit meta tags, alt text, structured data, broken links, image weight, and AI-search visibility, then generate fixes. Rebuild as a free store scanner with paid auto-fixes and monitoring.",
+      "why_now": "StoreCensus ranks Smart SEO AI & Image Optimizer #1 fastest-growing Shopify app with 19,169 current installs and +1,916,800% 90-day growth; the app has 961 reviews at 5.0 and charges $14.99/mo.",
+      "monetization": "Freemium scan; monthly subscription for auto-fixes, IndexNow, monitoring, and AI-search visibility; agency plans.",
+      "evidence": [
+        "https://apps.shopify.com/smart-seo",
+        "https://www.storecensus.com/stats/fastest-growing-shopify-apps",
+        "https://shoplist.co/shopify-apps/sherpas-smart-seo"
+      ],
+      "how_searched": [
+        "Shopify App Store",
+        "StoreCensus fastest-growing apps",
+        "Shoplist app page",
+        "Google search for Shopify SEO app growth"
+      ],
+      "score": 73.0,
+      "found_at": "2026-10-31T17:50:27.179452+00:00"
+    },
+    {
+      "name": "Personalized healthy restaurant menu",
+      "field": "healthy dining",
+      "summary": "Tell users exactly what to order at any restaurant based on goals, macros, preferences, and restrictions. Rebuild as a free web/mobile guide with paid personalized plans, saved meals, and grocery/order links.",
+      "why_now": "MenuFit has 55K App Store ratings at 4.8 and ranks #7 in US Health & Fitness (Oct 31, 2026); Google Play shows 17.2K reviews at 4.7, and the app charges $9.99/mo or $19.99/yr.",
+      "monetization": "Freemium subscription; affiliate links to delivery/grocery; branded meal plans; B2B wellness partnerships.",
+      "evidence": [
+        "https://apps.apple.com/us/app/menufit-healthy-eating-out/id6746144481",
+        "https://menufit.com/",
+        "https://play.google.com/store/apps/details?hl=en&id=com.myhealthymenu.app"
+      ],
+      "how_searched": [
+        "App Store search and rankings",
+        "Google Play listing",
+        "Company website",
+        "Fledly young-app category data"
+      ],
+      "score": 72.0,
+      "found_at": "2026-10-31T17:50:29.112310+00:00"
+    },
+    {
+      "name": "AI screenwriting and storyboard workspace (Laper pattern)",
+      "field": "AI screenwriting",
+      "summary": "A script-first workspace for formatting, structure visualization, collaboration, and storyboard/production entities. Rebuild as a free web screenplay editor with paid AI notes, production breakdowns, and collaboration.",
+      "why_now": "Laper is Stripe-verified at $49,325 MRR, 1,523 active subscriptions, and $196,754 all-time on TrustMRR (Oct 31, 2026), with third-party case studies tracking rapid growth since September 2025.",
+      "monetization": "Per-seat subscription; paid AI coverage/structure notes; production-export credits; studio/team plans.",
+      "evidence": [
+        "https://trustmrr.com/startup/laper",
+        "https://imademoneywithai.com/case-studies/laper/",
+        "https://starbelo.com/use-case/laper-ai-screenwriting-storyboard-os/"
+      ],
+      "how_searched": [
+        "TrustMRR",
+        "AI revenue case-study aggregators",
+        "Google search for screenwriting SaaS revenue",
+        "Cross-checked MRR and subscription counts"
+      ],
+      "score": 71.0,
+      "found_at": "2026-10-31T17:50:24.141409+00:00"
+    },
+    {
+      "name": "Image-to-vector converter for makers (VectoSolve pattern)",
+      "field": "image vectorization",
+      "summary": "Convert PNG/JPG/WEBP into editable SVG plus DXF, G-code, and embroidery formats for Cricut, laser, CNC, and embroidery users. Rebuild as a free converter with paid batch/API exports and niche presets.",
+      "why_now": "VectoSolve is Stripe-verified at about $3.3K in the last 30 days, $1.6K MRR, and $22K all-time on TrustMRR (Oct 31, 2026); Shipped & Paid notes roughly half its revenue is one-time credit packs, so the free-tool funnel is proven.",
+      "monetization": "Credit packs plus subscription; API/batch plans; affiliate links to machines, materials, and design marketplaces.",
+      "evidence": [
+        "https://shippedandpaid.com/cases/vectosolve-png-to-svg-converter-2-7k-month-claude-code-manus/",
+        "https://trustmrr.com/startup/vectosolve",
+        "https://aiolum.com/story/vectosolve/"
+      ],
+      "how_searched": [
+        "Shipped & Paid case study",
+        "TrustMRR",
+        "Google search for vectorizer revenue",
+        "Cross-checked revenue trend and pricing"
+      ],
+      "score": 70.0,
+      "found_at": "2026-10-31T17:50:25.022211+00:00"
+    },
+    {
+      "name": "Open-source alternatives directory",
+      "field": "software directory",
+      "summary": "A searchable directory of open-source alternatives to paid software, monetized with sponsor slots and featured listings. Rebuild as a free niche directory with comparisons, migration guides, and paid placement.",
+      "why_now": "OpenAlternative is Stripe-verified at about $6.2K-$6.4K MRR from 24-25 subscriptions and $123K-$127K all-time (Oct 2026); its /advertise page sells $147-$597/mo slots to a claimed 220K monthly visitors.",
+      "monetization": "Sponsored listings and category placements; featured launches; affiliate/hosting referrals; paid migration guides.",
+      "evidence": [
+        "https://www.wlad.me/blog/companies/openalternative",
+        "https://openalternative.co/advertise",
+        "https://trustmrr.com/startup/openalternative"
+      ],
+      "how_searched": [
+        "Boring SaaS revenue case",
+        "OpenAlternative advertising page",
+        "TrustMRR",
+        "Google search for directory MRR"
+      ],
+      "score": 70.0,
+      "found_at": "2026-10-31T17:50:28.366451+00:00"
+    },
+    {
+      "name": "General resale-value scanner",
+      "field": "resale valuation",
+      "summary": "Scan household items, collectibles, tools, and electronics to identify them, estimate resale value from comps, and generate marketplace listings. Rebuild as a free web scanner with paid deep scans, portfolio tracking, and listing exports.",
+      "why_now": "Value Scout has 619 App Store ratings at 4.4 and ranks #18 Top Grossing Shopping (AppMarketSpy, Oct 2026); the app sells weekly/yearly plans from $4.99 to $119.99 and targets the broader resale market beyond trading cards.",
+      "monetization": "Subscription for deep scans and portfolio tracking; one-off appraisal reports; affiliate links to marketplaces; seller tools.",
+      "evidence": [
+        "https://apps.apple.com/us/app/value-scout-ai-value-scanner/id6758783772",
+        "https://thevaluescout.app/",
+        "https://appmarketspy.com/app/value-scout-ai-value-scanner-6758783772"
+      ],
+      "how_searched": [
+        "App Store",
+        "AppMarketSpy rankings",
+        "Company website",
+        "Fledly resale-scanner category data"
+      ],
+      "score": 69.0,
+      "found_at": "2026-10-31T17:50:32.405154+00:00"
+    },
+    {
+      "name": "AI craft-pattern generator",
+      "field": "AI crafting",
+      "summary": "Generate crochet/knitting patterns from a text idea or photo, with stitch math, materials, and step-by-step instructions. Rebuild as a free pattern generator with paid PDF exports, advanced sizing, and project tracking.",
+      "why_now": "AppGoblin estimates YarnPal at 4.6M installs, 256K ratings, and $10K+ monthly revenue; Appto estimates the top three crochet/sewing apps at $857K+/mo combined (Oct 16, 2026), and Fledly flags craft-pattern apps as a repeating young-app category.",
+      "monetization": "Freemium pattern generation; subscription for unlimited patterns and PDF export; pattern marketplace commissions; affiliate yarn links.",
+      "evidence": [
+        "https://appgoblin.info/apps/com.yarnpal.ai",
+        "https://appto.store/ideas/crochet-app",
+        "https://fledly.app/blog/young-apps-us-top-grossing-october-2026/"
+      ],
+      "how_searched": [
+        "App store analytics",
+        "Appto category estimates",
+        "Fledly young-app report",
+        "Google search for crochet app revenue"
+      ],
+      "score": 66.0,
+      "found_at": "2026-10-31T17:50:33.960795+00:00"
     },
     {
       "name": "Agent Feed Auditor",
