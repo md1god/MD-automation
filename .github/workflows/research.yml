@@ -30,13 +30,17 @@ jobs:
       - name: Install OpenCode CLI (free models with web access)
         run: npm install -g opencode-ai
 
+      # Each agent step has its own limit (runner.py also keeps a 20-minute budget per mission),
+      # so one slow mission can no longer eat the whole 45-minute job and starve the next one.
       - name: Agent - what is most in demand, popular and profitable now
         working-directory: md1_global_agent
+        timeout-minutes: 22
         continue-on-error: true
         run: python -m agents.runner opportunities
 
       - name: Agent - free ways to publish and reach a real audience (every 6 hours)
         working-directory: md1_global_agent
+        timeout-minutes: 22
         continue-on-error: true
         run: |
           if [ "$GITHUB_EVENT_NAME" = "workflow_dispatch" ] || [ $(( 10#$(date -u +%H) % 6 )) -eq 0 ]; then
@@ -53,5 +57,13 @@ jobs:
           git add research/opportunities.json research/channels.json 2>/dev/null || true
           if git diff --cached --quiet; then echo "nothing new"; exit 0; fi
           git commit -m "research: hourly findings [skip ci]"
-          git pull --rebase origin "${GITHUB_REF_NAME}"
-          git push origin "HEAD:${GITHUB_REF_NAME}"
+          # Other workflows (pages, scout, telegram) push to main too: rebase and retry on a race.
+          for attempt in 1 2 3 4 5; do
+            if git pull --rebase origin "${GITHUB_REF_NAME}" && git push origin "HEAD:${GITHUB_REF_NAME}"; then
+              exit 0
+            fi
+            git rebase --abort 2>/dev/null || true
+            sleep $(( attempt * 5 ))
+          done
+          echo "::error::could not push the research findings after 5 attempts"
+          exit 1

@@ -3,6 +3,11 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '0 9 * * *'   # كل يوم الساعة 9 صباحًا UTC — عدّل حسب رغبتك
+
+concurrency:
+  group: telegram-publish
+  cancel-in-progress: false
+
 jobs:
   publish:
     runs-on: ubuntu-latest
@@ -24,5 +29,15 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add social/telegram/posts_sequence.py social/publish_log.json 2>/dev/null || true
-          git diff --staged --quiet || git commit -m "chore: update publish log [skip ci]"
-          git push
+          if git diff --staged --quiet; then echo "nothing to commit"; exit 0; fi
+          git commit -m "chore: update publish log [skip ci]"
+          # The hourly page/research workflows push to main too: rebase and retry on a race.
+          for attempt in 1 2 3 4 5; do
+            if git pull --rebase origin "${GITHUB_REF_NAME}" && git push origin "HEAD:${GITHUB_REF_NAME}"; then
+              exit 0
+            fi
+            git rebase --abort 2>/dev/null || true
+            sleep $(( attempt * 5 ))
+          done
+          echo "::error::could not push the publish log after 5 attempts"
+          exit 1

@@ -10,9 +10,11 @@ scales the agent's score by how much evidence survived, and merges into research
 import json
 import os
 import re
+import signal
 import subprocess
 import sys
 import tempfile
+import time
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
@@ -25,6 +27,7 @@ OUT = {"opportunities": ROOT / "research" / "opportunities.json", "channels": RO
 MIN_EVIDENCE = {"opportunities": 2, "channels": 1}
 KEEP_DAYS = {"opportunities": 21, "channels": 365}
 MAX_ITEMS = 300
+TOTAL_BUDGET = 1200   # seconds for ALL model attempts of one mission (the workflow job limit is 45 min)
 JSON_BLOCK = re.compile(r"<<<JSON\s*(\{.*\})\s*JSON>>>", re.S)
 ANSI = re.compile(r"\x1b\[[0-9;]*[A-Za-z]")
 
@@ -55,19 +58,47 @@ def prompt_for(mission: str, known: list) -> str:
             + ("\n".join(f"- {n}" for n in known[:80]) or "- (nothing yet)"))
 
 
-def run_agent(prompt: str, models: list, timeout: int = 600) -> tuple:
+def run_cli(cmd: list, timeout: float, cwd: str, env: dict) -> tuple:
+    """Run a CLI and return (exit code, stdout). On timeout the WHOLE process group is killed.
+
+    subprocess.run(timeout=...) only kills the direct child; when the CLI spawned helpers that keep
+    the output pipe open, the follow-up communicate() blocks and the timeout never fires.
+    """
+    proc = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.DEVNULL, text=True,
+                            cwd=cwd, env=env, start_new_session=True)
+    try:
+        out, _ = proc.communicate(timeout=timeout)
+    except subprocess.TimeoutExpired:
+        try:
+            os.killpg(proc.pid, signal.SIGKILL)
+        except (ProcessLookupError, PermissionError):
+            proc.kill()
+        proc.communicate()
+        raise
+    return proc.returncode, out
+
+
+def run_agent(prompt: str, models: list, timeout: int = 600, total_budget: int = TOTAL_BUDGET) -> tuple:
+    """Try each model in turn, but never spend more than `total_budget` seconds in all."""
     errors = []
+    deadline = time.monotonic() + total_budget
     for model in models:
+        remaining = deadline - time.monotonic()
+        if remaining < 30:
+            errors.append("time budget used up")
+            break
         try:
             with tempfile.TemporaryDirectory() as empty:
-                done = subprocess.run(["opencode", "run", "--model", f"opencode/{model}", prompt],
-                                      capture_output=True, text=True, timeout=timeout, cwd=empty,
-                                      env={**os.environ, "OPENCODE_ENABLE_EXA": "1"})
-            text = ANSI.sub("", done.stdout or "")
+                code, stdout = run_cli(["opencode", "run", "--model", f"opencode/{model}", prompt],
+                                       min(timeout, remaining), empty,
+                                       {**os.environ, "OPENCODE_ENABLE_EXA": "1"})
+            text = ANSI.sub("", stdout or "")
             m = JSON_BLOCK.search(text)
             if m:
                 return json.loads(m.group(1)), model
-            errors.append(f"{model}: no JSON block (exit {done.returncode})")
+            errors.append(f"{model}: no JSON block (exit {code})")
+        except subprocess.TimeoutExpired:
+            errors.append(f"{model}: timed out")
         except Exception as exc:
             errors.append(f"{model}: {str(exc)[:150]}")
     raise RuntimeError(" | ".join(errors) or "no model")

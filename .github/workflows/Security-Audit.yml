@@ -52,9 +52,10 @@ jobs:
             echo "No Solidity source found; Slither audit skipped for this repository."
           fi
       - name: Run Slither
+        id: slither
         if: steps.detect.outputs.present == 'true'
         uses: crytic/slither-action@v0.4.1
-        continue-on-error: true
+        continue-on-error: true      # so the SARIF report below is still uploaded
         with:
           sarif: results.sarif
           fail-on: high
@@ -63,3 +64,9 @@ jobs:
         uses: github/codeql-action/upload-sarif@v3
         with:
           sarif_file: results.sarif
+      # continue-on-error hides failures, so high-severity findings could never turn the job red.
+      - name: Fail the audit if Slither found high-severity issues
+        if: always() && steps.slither.outcome == 'failure'
+        run: |
+          echo "::error::Slither reported high-severity findings (see the uploaded SARIF results)"
+          exit 1

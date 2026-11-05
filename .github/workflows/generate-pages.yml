@@ -5,6 +5,10 @@ on:
     - cron: '0 * * * *'
   workflow_dispatch:
 
+concurrency:
+  group: generate-pages
+  cancel-in-progress: false
+
 jobs:
   generate-pages:
     runs-on: ubuntu-latest
@@ -44,5 +48,13 @@ jobs:
           git config --local user.name "MD1 Bot"
           git add -A
           git commit -m "New page - $(date +%Y-%m-%d_%H-%M-%S)"
-          git pull --rebase
-          git push
+          # Research, scout and telegram workflows also push to main: rebase and retry on a race.
+          for attempt in 1 2 3 4 5; do
+            if git pull --rebase && git push; then
+              exit 0
+            fi
+            git rebase --abort 2>/dev/null || true
+            sleep $(( attempt * 5 ))
+          done
+          echo "::error::could not push the generated page after 5 attempts"
+          exit 1

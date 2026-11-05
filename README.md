@@ -30,10 +30,11 @@ social/                 بوت تليجرام للنشر التلقائي + إح
 | الملف | يشتغل إمتى | بيستدعي |
 |---|---|---|
 | `build.yml` | عند push/PR على main | `reusable-build.yml` |
-| `deploy.yml` | بعد نجاح `Build` | `reusable-deploy.yml` |
 | `auto-fix.yml` | عند فتح/تصنيف Issue بعلامة `build-failed`، بعد التحقق من صلاحيات المستخدم | `reusable-autofix.yml` |
 | `publish.yml` | يدويًا | `reusable-publish.yml` |
-| `pipeline.yml` | كل 6 ساعات | يفحص بناء ريبوهات المواقع الأخرى، ثم يشغّل `publish.yml` لو كل حاجة تمام |
+| `pipeline.yml` | كل 6 ساعات | يفحص بناء ريبوهات المواقع الأخرى (ريبوهات عامة، من غير توكن)، ثم يشغّل `publish.yml` لو كل حاجة تمام |
+
+> `reusable-deploy.yml` و`reusable-deploy-static.yml` و`reusable-watchdog.yml` مخصصة للاستدعاء من ريبوهات المواقع نفسها (لكل موقع `deploy.yml` خاص بيه)، مفيش `deploy.yml` في الريبو ده.
 
 ### مستقلة (منطقها بالكامل جوه الملف، من غير استدعاء)
 
@@ -42,6 +43,10 @@ social/                 بوت تليجرام للنشر التلقائي + إح
 | `Security-Audit.yml` | فحص أمني يومي: `cargo audit` للـ Rust و`slither` للـ Solidity |
 | `generate-pages.yml` | كل ساعة، يولّد صفحة جديدة عبر `page-generator/build-pages.js` ويعمل commit/push للنتيجة |
 | `telegram-publish.yml` | نشر يومي مجدول على تليجرام عبر `social/telegram/bot.py` |
+| `research.yml` | كل ساعة: وكلاء بحث (`md1_global_agent/agents/runner.py`) يكتبوا نتايجهم في `research/*.json`. كل مهمة لها ميزانية 20 دقيقة وكل خطوة لها timeout خاص |
+| `md1-global-scout.yml` | كل 3 ساعات: MD1 Global Scout (تفاصيله في آخر الملف) |
+
+كل الـ workflows اللي بتعمل push على `main` (الصفحات، البحث، السكاوت، تليجرام) بتعمل `pull --rebase` وإعادة محاولة لو حصل تزاحم بينهم.
 
 ## استخدام الـ reusable workflows من ريبو تاني
 
@@ -62,8 +67,8 @@ jobs:
 
 | الاسم | مستخدم في |
 |---|---|
-| `SITES_PAT` | `pipeline.yml` — الوصول لريبوهات المواقع الأخرى (checkout + فتح Issues + تشغيل workflows) |
-| `BOT_TOKEN`, `CHAT_ID` | `publish.yml` → `reusable-publish.yml` — بوت تليجرام لنشر طابور المحتوى |
+| `SITES_PAT` | `md1-global-scout.yml` فقط — checkout لموقع `mdm1.org` وتشغيل نشر الصفحات (`pipeline.yml` مبقاش بيستخدمه لأن الريبوهات عامة) |
+| `BOT_TOKEN`, `CHAT_ID` | `publish.yml` → `reusable-publish.yml` — بوت تليجرام لنشر طابور المحتوى (الـ workflow بيفشل لو تليجرام رفض الرسالة، ومبينقلش الملف لـ `published/` إلا بعد قبولها) |
 | `TELEGRAM_BOT_TOKEN` | `telegram-publish.yml` — بوت تليجرام للنشر اليومي المجدول |
 
 لازم تتأكد إن دول موجودين فعليًا في `Settings → Secrets and variables → Actions` قبل ما تعتمد على أي workflow بيستخدمهم.
