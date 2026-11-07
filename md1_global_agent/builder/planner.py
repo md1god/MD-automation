@@ -67,6 +67,41 @@ DEFAULT_MODELS = {
 MAX_DISCOVERED = 4
 ANSI = re.compile(r"\x1b\[[0-9;]*[A-Za-z]")
 
+LLM_DOWN = "llm-unavailable: "   # prefix callers use to tell "providers are down" from "bad answer"
+MAX_FAILS = 2                    # consecutive failures before a model is benched
+COOLDOWN = 900                   # seconds a benched model is skipped before it gets another chance
+
+
+class LLMUnavailable(RuntimeError):
+    """No provider produced an answer (dead, slow, unconfigured or out of time) - not the prompt's fault."""
+
+
+_HEALTH = {}   # (provider, model) -> (consecutive failures, time of the last one)
+
+
+def reset_health() -> None:
+    _HEALTH.clear()
+
+
+def _is_benched(name: str, model: str) -> bool:
+    fails, at = _HEALTH.get((name, model), (0, 0.0))
+    return fails >= MAX_FAILS and time.time() - at < COOLDOWN
+
+
+def _record(name: str, model: str, ok: bool) -> None:
+    """A model that keeps timing out must not eat the whole budget again on every later call."""
+    if ok:
+        _HEALTH.pop((name, model), None)
+    else:
+        _HEALTH[(name, model)] = (_HEALTH.get((name, model), (0, 0.0))[0] + 1, time.time())
+
+
+def _budget(deadline, default: int) -> int:
+    """Per-call timeout: never longer than the time left before `deadline` (but at least 15 s)."""
+    if not deadline:
+        return default
+    return int(max(15, min(default, deadline - time.time())))
+
 PROMPTS = {
     "modify": (
         "This is an open-source project with a commercial-friendly license. Plan how to "
@@ -144,7 +179,8 @@ def build_prompt(opp: dict) -> str:
         "في القسم السابع اكتب سطرين بالضبط بهذا الشكل:\n"
         "الاسم المقترح: <اسم جديد كليًا>\n"
         "الجملة التسويقية: <جملة واحدة>\n"
-        "كن محددًا ومختصرًا."
+        "كن محددًا وعمليًا. طول الخطة بين 3500 و5500 حرف: اكتب من 4 إلى 6 نقاط مفصلة تحت كل قسم "
+        "(لا تكتفِ بسطر واحد)، مع أرقام وأمثلة ملموسة."
     )
 
 
@@ -216,13 +252,17 @@ def _models_for(name: str, llm: dict, key):
 
 # ---------------------------------------------------------------- calls
 
-def _call_cli(model: str, prompt: str) -> str:
+def _call_cli(model: str, prompt: str, timeout: int = 240) -> str:
     if not shutil.which("opencode"):
         raise RuntimeError("opencode CLI not installed (npm i -g opencode-ai)")
     with tempfile.TemporaryDirectory() as empty:        # no repo files for the agent to touch
-        done = subprocess.run(
-            ["opencode", "run", "--model", f"opencode/{model}", prompt],
-            capture_output=True, text=True, timeout=240, cwd=empty)
+        try:
+            done = subprocess.run(
+                ["opencode", "run", "--model", f"opencode/{model}", prompt],
+                capture_output=True, text=True, timeout=timeout, cwd=empty)
+        except subprocess.TimeoutExpired:
+            # never str() the exception: it contains the whole command line, i.e. the prompt
+            raise RuntimeError(f"cli timeout after {timeout}s") from None
     text = ANSI.sub("", done.stdout or "")
     lines = [ln for ln in text.splitlines() if not ln.lstrip().startswith("> ")]
     text = "\n".join(lines).strip()
@@ -232,7 +272,7 @@ def _call_cli(model: str, prompt: str) -> str:
     return text
 
 
-def _call_http(name: str, model: str, prompt: str, key: str) -> str:
+def _call_http(name: str, model: str, prompt: str, key: str, timeout: int = 180) -> str:
     spec = PROVIDERS[name]
     if spec["style"] == "anthropic":
         headers = {"x-api-key": key, "anthropic-version": "2023-06-01",
@@ -242,7 +282,7 @@ def _call_http(name: str, model: str, prompt: str, key: str) -> str:
     headers.update(spec.get("extra_headers", {}))
     body = {"model": model, "max_tokens": 4000,
             "messages": [{"role": "user", "content": prompt}]}
-    resp = requests.post(spec["url"], headers=headers, json=body, timeout=180)
+    resp = requests.post(spec["url"], headers=headers, json=body, timeout=timeout)
     if not resp.ok:
         raise RuntimeError(f"{resp.status_code}: {resp.text[:300]}")
     try:
@@ -282,15 +322,22 @@ def complete(prompt: str, llm: dict = None, deadline: float = None) -> str:
         for model in models:
             if deadline and time.time() > deadline:
                 errors.append("deadline reached")
-                raise RuntimeError("no LLM provider succeeded -> " + " | ".join(errors))
+                raise LLMUnavailable("no LLM provider succeeded -> " + " | ".join(errors))
+            if _is_benched(name, model):
+                errors.append(f"{name}/{model}: skipped (failing)")
+                continue
             try:
-                text = (_call_cli(model, prompt) if spec["style"] == "cli"
-                        else _call_http(name, model, prompt, key))
+                if spec["style"] == "cli":
+                    text = _call_cli(model, prompt, _budget(deadline, 240))
+                else:
+                    text = _call_http(name, model, prompt, key, _budget(deadline, 180))
+                _record(name, model, True)
                 complete.used = f"{name}/{model}"
                 return text
             except Exception as exc:
+                _record(name, model, False)
                 errors.append(f"{name}/{model}: {str(exc)[:200]}")
-    raise RuntimeError("no LLM provider succeeded -> " + " | ".join(errors))
+    raise LLMUnavailable("no LLM provider succeeded -> " + " | ".join(errors))
 
 
 complete.used = None
@@ -305,3 +352,18 @@ def make_plan(opp: dict, llm: dict = None) -> str:
 
 
 make_plan.used = None
+
+
+def expand_plan(plan_md: str, problem: str, llm: dict = None, deadline: float = None) -> str:
+    """Ask the model to rewrite a plan the page gate rejected (too short / no name). Same sections, more detail."""
+    prompt = (
+        f"الخطة التالية رُفضت قبل النشر للسبب التالي: {problem}.\n"
+        "أعد كتابتها كاملة بنفس الأقسام السبعة وبنفس الترتيب، ووسّع كل قسم بتفاصيل عملية وأرقام وأمثلة ملموسة "
+        "(4 إلى 6 نقاط تحت كل قسم). الطول المطلوب بين 3500 و5500 حرف. باللغة العربية الفصحى المبسطة. "
+        "في القسم السابع اكتب سطرين بالضبط بهذا الشكل:\n"
+        "الاسم المقترح: <اسم جديد كليًا>\n"
+        "الجملة التسويقية: <جملة واحدة>\n"
+        "لا تذكر أي اسم مشروع مصدر أو رابط.\n\n"
+        f"الخطة الحالية:\n{plan_md[:6000]}"
+    )
+    return complete(prompt, llm, deadline)

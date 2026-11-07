@@ -14,7 +14,8 @@ from pathlib import Path
 import yaml
 
 from agent import run
-from builder.planner import make_plan
+from builder import planner
+from builder.planner import LLM_DOWN, LLMUnavailable, make_plan
 from memory.ledger import Ledger, key_for, public_id
 from notify import indexnow, social, stats, telegram
 from privacy import identity_terms
@@ -22,6 +23,8 @@ from publish import app_page, mdm1_page, tool_page
 from publish.translate import translate_all
 
 LEGACY_PLANNED = Path("memory/planned.json")
+MAX_PLAN_FIXES = 2                                  # rewrites allowed for a plan the page gate rejected
+FIXABLE_REJECTIONS = ("قصير جدًا", "بلا اسم مقترح")  # gate reasons a rewrite can cure
 
 
 def migrate_legacy(ledger: Ledger) -> None:
@@ -68,11 +71,24 @@ def plan_and_publish(best: dict, config: dict, ledger: Ledger):
         return str(exc), None, None, None, False
     provider = make_plan.used
     terms = identity_terms(best["repo"])
-    try:
-        payload = mdm1_page.build_payload(plan_md, pub_id, terms, key_for(name))
-    except mdm1_page.PageRejected as exc:
-        print(f"Plan {pub_id}: page rejected - {exc}")
-        return None, {"state": "failed", "url": "", "reason": f"رُفضت الصفحة: {exc}"}, provider, None, False
+    payload = None
+    for fix in range(MAX_PLAN_FIXES + 1):
+        try:
+            payload = mdm1_page.build_payload(plan_md, pub_id, terms, key_for(name))
+            break
+        except mdm1_page.PageRejected as exc:
+            reason = str(exc)
+            curable = any(k in reason for k in FIXABLE_REJECTIONS)
+            if fix < MAX_PLAN_FIXES and curable:
+                print(f"Plan {pub_id}: page rejected ({reason}) - asking the model to rewrite it (try {fix + 1})")
+                try:
+                    plan_md = planner.expand_plan(plan_md, reason, llm)
+                    provider = planner.complete.used or provider
+                    continue
+                except Exception as exc2:
+                    print(f"Plan {pub_id}: rewrite failed ({str(exc2)[:120]})")
+            print(f"Plan {pub_id}: page rejected - {reason}")
+            return None, {"state": "failed", "url": "", "reason": f"رُفضت الصفحة: {reason}"}, provider, None, False
     if not config.get("publish_pages", True):
         # Publishing is paused until a COMPLETE project exists: the plan goes to the owner only.
         sent = telegram.send_private(f"📝 خطة جاهزة للمراجعة — فرصة {pub_id}\n\n{plan_md[:3400]}") or telegram.send(f"📝 خطة جاهزة — فرصة {pub_id}\n\n{payload['body'][:3400]}", config.get("telegram_report_channel", ""))
@@ -139,6 +155,8 @@ def _one_app(config, ledger, slug, text, source):
     spec, provider, why = app_page.build(config.get("llm", {}), slug, text, deadline=deadline, reviewer=reviewer)
     if not spec:
         print(f"App {slug}: build failed ({why[:120]})")
+        if why.startswith(LLM_DOWN):          # providers were down: nothing wrong with the idea itself
+            return f"📱 {slug} لم يُبنَ: مزودو الـLLM غير متاحين الآن — ستُعاد المحاولة في التشغيل القادم", None
         return f"📱 {slug} لم يُبنَ: {why[:120]}", False
     outcome = app_page.publish(spec, mdm1_page.env_token())
     print(f"App {slug}: {outcome['state']} {outcome['reason']}")
@@ -174,7 +192,11 @@ def build_apps(config: dict, ledger: Ledger, opportunities: list):
         while not slug and pool and tried_opps < config.get("app_idea_attempts", 8) and not slug:
             opp = pool.pop(0)
             tried_opps += 1
-            found = app_page.idea_from_opportunity(llm, opp, identity_terms(opp["repo"]), end)
+            try:
+                found = app_page.idea_from_opportunity(llm, opp, identity_terms(opp["repo"]), end)
+            except LLMUnavailable:
+                lines.append("📱 توقف بناء التطبيقات: مزودو الـLLM غير متاحين الآن — ستُعاد المحاولة في التشغيل القادم.")
+                return "\n".join(lines)               # the opportunity stays unexamined for the plan phase
             ledger.mark_examined(opp["repo"]["full_name"], "app-idea")
             if found and not ledger.is_known("app:" + found[0]):
                 slug, text = found
@@ -187,6 +209,8 @@ def build_apps(config: dict, ledger: Ledger, opportunities: list):
             slug, text = curated
         line, ok = _one_app(config, ledger, slug, text, source)
         lines.append(line)
+        if ok is None:                                 # outage: keep the idea for next run, stop wasting the budget
+            break
         if not ok:
             ledger.mark_examined("app:" + slug, "app-failed")      # do not loop on one failing idea
         else:
@@ -261,6 +285,9 @@ def main():
             extra_lines.append(f"📝 خطة إضافية نُشرت: {pl['title']}\n{oc['url']}")
             telegram.send(f"✅ نُشرت الآن: {pl['title']}\n{oc['url']}", config.get("telegram_report_channel", ""))
         elif err or (oc and oc["state"] == "failed"):
+            if err and err.startswith("no LLM provider succeeded"):
+                extra_lines.append("📝 توقفت الخطط الإضافية: كل مزودي الـLLM فشلوا — ستُعاد المحاولة في التشغيل القادم.")
+                break                                  # every remaining plan would fail the same way
             extra_lines.append(f"📝 خطة لم تكتمل ({public_id(o['repo']['full_name'])}): {(err or oc['reason'])[:100]}")
     if extra_lines:
         tool_block = (tool_block + "\n\n" if tool_block else "") + "\n".join(extra_lines)

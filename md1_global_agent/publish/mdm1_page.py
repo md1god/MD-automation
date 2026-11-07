@@ -161,11 +161,26 @@ def preflight(token: str):
     return True, ""
 
 
-def publish(payload: dict, token: str, run_timeout: int = 600, live_timeout: int = 300, poll: int = 15) -> dict:
-    """Dispatch the site workflow, wait for it, verify the live page. Never raises."""
-    ok, reason = preflight(token)
-    if not ok:
-        return _fail(reason)
+IN_FLIGHT = ("queued", "in_progress", "waiting", "pending", "requested")
+
+
+def registry_slug(token: str, scout_id: str) -> str:
+    """Slug of the page the site already holds for `scout_id` ('' if none).
+
+    The site registry is the source of truth: a workflow run can look failed or timed out while its page
+    was in fact committed, and the site refuses to create a second page for the same scout_id.
+    """
+    try:
+        reg = requests.get(f"{API}/repos/{SITE_REPO}/contents/pages-registry.json", params={"ref": "main"},
+                           headers=_headers(token, raw=True), timeout=30).json()
+        entry = next(e for e in reversed(reg) if e.get("scoutId") == scout_id)
+        return str(entry["slug"])
+    except (requests.RequestException, ValueError, StopIteration, TypeError, KeyError):
+        return ""
+
+
+def _dispatch(payload: dict, token: str):
+    """Start the site workflow. Returns (started_at, error_reason_or_None)."""
     started = datetime.now(timezone.utc) - timedelta(seconds=10)
     inputs = {"scout_id": payload["id"], "scout_title": payload["title"],
               "scout_description": payload["description"], "scout_body": payload["body"],
@@ -174,15 +189,32 @@ def publish(payload: dict, token: str, run_timeout: int = 600, live_timeout: int
         r = requests.post(f"{API}/repos/{SITE_REPO}/actions/workflows/{WORKFLOW}/dispatches",
                           headers=_headers(token), json={"ref": "main", "inputs": inputs}, timeout=30)
     except requests.RequestException as exc:
-        return _fail(f"إرسال الـ workflow فشل ({type(exc).__name__})")
+        return started, f"إرسال الـ workflow فشل ({type(exc).__name__})"
     if r.status_code == 403:
-        return _fail("SITES_PAT يحتاج صلاحية Actions: write على mdm1.org")
+        return started, "SITES_PAT يحتاج صلاحية Actions: write على mdm1.org"
     if r.status_code != 204:
-        return _fail(f"إرسال الـ workflow فشل ({r.status_code}: {r.text[:120]})")
+        return started, f"إرسال الـ workflow فشل ({r.status_code}: {r.text[:120]})"
+    return started, None
 
+
+def _wait_run(token: str, started, run_timeout: int, grace: int, poll: int, no_run_after: int):
+    """Follow the run created after `started`. Returns (run | None, state).
+
+    state: 'completed' | 'not_started' (dispatch never produced a run) | 'still_running'.
+    The site's `pages` concurrency group is shared with deploy.yml, so a run can wait in the queue for a long
+    time: past `run_timeout` we keep waiting (up to `grace` more) as long as the run is really queued/running.
+    """
+    t0 = time.time()
+    soft, hard = t0 + run_timeout, t0 + run_timeout + grace
     run = None
-    deadline = time.time() + run_timeout
-    while time.time() < deadline:
+    while True:
+        if run and run["status"] == "completed":
+            return run, "completed"
+        now = time.time()
+        if now >= hard or (now >= soft and not (run and run["status"] in IN_FLIGHT)):
+            break
+        if not run and now - t0 >= no_run_after:
+            return None, "not_started"
         time.sleep(poll)
         try:
             runs = requests.get(f"{API}/repos/{SITE_REPO}/actions/workflows/{WORKFLOW}/runs",
@@ -193,20 +225,10 @@ def publish(payload: dict, token: str, run_timeout: int = 600, live_timeout: int
         fresh = [x for x in runs if datetime.fromisoformat(x["created_at"].replace("Z", "+00:00")) >= started]
         if fresh:
             run = fresh[0]                       # API lists newest first
-            if run["status"] == "completed":
-                break
-    if not run or run["status"] != "completed":
-        return _fail("انتهت مهلة انتظار workflow موقع mdm1.org")
-    if run["conclusion"] != "success":
-        return _fail(f"workflow موقع mdm1.org انتهى بنتيجة {run['conclusion']}")
+    return run, ("still_running" if run else "not_started")
 
-    try:
-        reg = requests.get(f"{API}/repos/{SITE_REPO}/contents/pages-registry.json", params={"ref": "main"},
-                           headers=_headers(token, raw=True), timeout=30).json()
-        entry = next(e for e in reversed(reg) if e.get("scoutId") == payload["id"])
-        slug = str(entry["slug"])
-    except (requests.RequestException, ValueError, StopIteration, TypeError):
-        return _fail("تعذر تحديد رقم الصفحة المنشورة")
+
+def _verify_live(slug: str, payload: dict, live_timeout: int, poll: int) -> dict:
     url = f"{SITE_URL}/pages/{slug}.html"
     needle = _js_escape(payload["title"])
     deadline = time.time() + live_timeout
@@ -219,6 +241,43 @@ def publish(payload: dict, token: str, run_timeout: int = 600, live_timeout: int
             pass
         time.sleep(poll)
     return _fail(f"تم إرسال الصفحة لكنها لم تظهر على {url} بعد")
+
+
+def publish(payload: dict, token: str, run_timeout: int = 600, live_timeout: int = 300, poll: int = 15,
+            grace: int = 600, no_run_after: int = 240) -> dict:
+    """Dispatch the site workflow, wait for it, verify the live page. Never raises.
+
+    Safe to repeat for the same payload: the site dedups by scout_id, and the registry is checked first.
+    """
+    ok, reason = preflight(token)
+    if not ok:
+        return _fail(reason)
+
+    slug = registry_slug(token, payload["id"])    # an earlier attempt may already have produced the page
+    if slug:
+        return _verify_live(slug, payload, live_timeout, poll)
+
+    run, state = None, "not_started"
+    for attempt in (1, 2):
+        started, err = _dispatch(payload, token)
+        if err:
+            return _fail(err)
+        run, state = _wait_run(token, started, run_timeout, grace, poll, no_run_after)
+        if attempt == 1 and (state == "not_started"
+                             or (state == "completed" and run["conclusion"] == "cancelled")):
+            continue                              # lost dispatch / replaced in the shared concurrency queue
+        break
+
+    slug = registry_slug(token, payload["id"])    # even a "failed" or timed-out run may have committed the page
+    if not slug:
+        if state == "still_running":
+            return _fail("انتهت مهلة انتظار workflow موقع mdm1.org (ما زال في الطابور أو قيد التشغيل)")
+        if state == "not_started":
+            return _fail("workflow موقع mdm1.org لم يبدأ بعد الإرسال")
+        if run["conclusion"] != "success":
+            return _fail(f"workflow موقع mdm1.org انتهى بنتيجة {run['conclusion']}")
+        return _fail("تعذر تحديد رقم الصفحة المنشورة")
+    return _verify_live(slug, payload, live_timeout, poll)
 
 
 def env_token() -> str:

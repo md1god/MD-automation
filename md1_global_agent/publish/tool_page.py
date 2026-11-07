@@ -14,7 +14,7 @@ from datetime import datetime, timedelta, timezone
 
 import requests
 
-from builder.planner import complete
+from builder.planner import LLM_DOWN, LLMUnavailable, complete
 from publish.mdm1_page import API, SITE_URL, SITE_REPO, _headers, preflight
 
 TOOL_WORKFLOW = "trend-pages.yml"
@@ -40,6 +40,27 @@ IDEAS = [
     ("unit-converter-arabic", "محول وحدات عربي: الطول والوزن والحرارة والمساحة والحجم"),
     ("net-salary-calculator", "حاسبة صافي الراتب بعد الخصومات والتأمينات والضريبة بنسب يدخلها المستخدم"),
     ("study-time-planner", "مخطط مذاكرة يوزّع المواد على الأيام المتبقية للامتحان حسب الصعوبة"),
+    ("zakat-calculator", "حاسبة زكاة المال: يدخل المستخدم المبلغ المدخر وسعر جرام الذهب ويحسب النصاب (85 جرام ذهب) وحول الحول والديون المستحقة، ثم يعرض مبلغ الزكاة 2.5٪ مع تنبيه بمراجعة جهة الفتوى"),
+    ("gpa-calculator", "حاسبة المعدل التراكمي GPA: مواد بعدد ساعاتها ودرجاتها، اختيار مقياس 4 أو 5 نقاط، إضافة وحذف المواد، حساب المعدل الفصلي والتراكمي مع المعدل المطلوب للوصول لهدف"),
+    ("vat-calculator", "حاسبة ضريبة القيمة المضافة: إضافة الضريبة لسعر قبل الضريبة أو استخراجها من سعر شامل، بنسبة يحددها المستخدم، مع عرض المبلغ الصافي والضريبة والإجمالي"),
+    ("compound-interest-calculator", "حاسبة الفائدة المركبة والادخار الشهري: مبلغ ابتدائي ومساهمة شهرية ونسبة سنوية ومدة بالسنوات، مع جدول نمو سنوي والفرق بين المساهمات والأرباح"),
+    ("number-to-arabic-words", "تحويل الأرقام إلى كلمات عربية للشيكات والفواتير: يدعم الأعداد الصحيحة حتى المليارات مع الكسور العشرية، مع صياغة صحيحة للمذكر والمؤنث وصيغ المثنى"),
+    ("arabic-english-digits-converter", "محول الأرقام بين الهندية (٠١٢٣) والإنجليزية (0123) داخل أي نص لصقه المستخدم، مع نسخ النتيجة بزر واحد"),
+    ("ramadan-eid-countdown", "عدّاد الأيام المتبقية على رمضان وعيد الفطر وعيد الأضحى القادم، باستخدام Intl.DateTimeFormat مع تقويم islamic-umalqura، مع عرض التاريخ المتوقع بالهجري والميلادي وتنبيه أن الرؤية الشرعية قد تغيّر اليوم"),
+    ("timezone-meeting-planner", "مخطط اجتماعات بين المدن: اختيار مدن عربية وعالمية (القاهرة والرياض ودبي ولندن ونيويورك)، إدخال وقت الاجتماع، عرض الوقت المقابل في كل مدينة باستخدام Intl.DateTimeFormat مع تمييز ساعات العمل"),
+    ("electricity-cost-calculator", "حاسبة تكلفة استهلاك الكهرباء: أجهزة بقدرتها بالواط وساعات التشغيل اليومية وسعر الكيلوواط ساعة، مع التكلفة اليومية والشهرية لكل جهاز والإجمالي وأكبر جهاز استهلاكًا"),
+    ("tiles-paint-calculator", "حاسبة البلاط والدهان: أبعاد الغرفة ومقاس البلاط ونسبة الهالك لحساب عدد البلاطات، ومساحة الجدران مع عدد الأبواب والنوافذ ومعدل تغطية اللتر لحساب كمية الدهان"),
+    ("cooking-measure-converter", "محول مقادير الطبخ: كوب وملعقة كبيرة وصغيرة ومللتر وجرام لمكونات شائعة (دقيق وسكر وأرز وزبدة وماء) وتحويل الحرارة بين المئوية والفهرنهايت لدرجات الفرن"),
+    ("work-hours-calculator", "حاسبة ساعات العمل والأجر: وقت الحضور والانصراف وفترة الراحة لعدة أيام، مجموع الساعات والساعات الإضافية والأجر بسعر الساعة"),
+    ("speed-distance-time-calculator", "حاسبة السرعة والمسافة والزمن: أدخل قيمتين لاستخراج الثالثة مع اختيار الوحدات (كم وميل ومتر وساعة ودقيقة) وتحويل السرعة بين كم/س وم/ث"),
+    ("text-diff-checker", "مقارنة نصين: لصق النص الأصلي والمعدّل، إبراز الأسطر المضافة والمحذوفة والمتغيرة بالألوان، مع عدد التغييرات، يعمل على النص العربي والإنجليزي"),
+    ("random-name-picker", "اختيار عشوائي: لصق قائمة أسماء أو خيارات وسحب فائز واحد أو عدة فائزين دون تكرار، وتقسيم القائمة إلى فرق متساوية، مع حفظ آخر قائمة محليًا"),
+    ("color-converter-contrast", "محول الألوان بين HEX وRGB وHSL مع معاينة حية، ومدقق تباين اللون بين النص والخلفية حسب معيار WCAG مع نتيجة نجاح أو فشل لكل مستوى"),
+    ("typing-speed-test-arabic", "اختبار سرعة الكتابة بالعربية: نص عشوائي قصير، مؤقت دقيقة، حساب كلمة في الدقيقة ونسبة الدقة وعدد الأخطاء، مع حفظ أفضل نتيجة محليًا"),
+    ("roman-numeral-converter", "محول الأرقام الرومانية إلى عربية والعكس من 1 إلى 3999 مع شرح خطوات التحويل ورفض المدخلات غير الصحيحة برسالة واضحة"),
+    ("water-intake-calculator", "حاسبة احتياج الماء اليومي التقريبي حسب الوزن والنشاط والطقس، بعدد الأكواب واللترات، مع تنبيه أنها تقدير عام وليست نصيحة طبية"),
+    ("savings-goal-planner", "مخطط هدف الادخار: المبلغ المستهدف والمدخر الحالي والمدة أو المبلغ الشهري، لحساب المطلوب شهريًا أو موعد الوصول للهدف، مع جدول تقدم شهري"),
+    ("rent-vs-buy-calculator", "حاسبة الإيجار مقابل التمليك: سعر العقار والدفعة الأولى ونسبة التمويل ومدته وقيمة الإيجار الشهري، لمقارنة التكلفة الإجمالية خلال سنوات يحددها المستخدم مع ملاحظات واضحة عن الافتراضات"),
 ]
 
 PROMPT = """You are building ONE original, genuinely useful, single-page Arabic web tool for a website.
@@ -92,11 +113,19 @@ def check(spec: dict) -> str:
 def build(llm: dict, slug: str, idea: str, attempts: int = 3, deadline: float = None):
     """Returns (spec | None, provider, reason)."""
     feedback, provider = "", None
+    answered = False
     for _ in range(attempts):
         prompt = PROMPT.format(idea=idea, slug=slug) + (f"\nYour previous answer was rejected: {feedback}. Fix exactly that and return the full JSON again." if feedback else "")
         try:
-            spec = _json(complete(prompt, llm, deadline))
+            raw = complete(prompt, llm, deadline)
+            answered = True
+            spec = _json(raw)
             provider = complete.used
+        except LLMUnavailable as exc:
+            if not answered:       # nothing answered at all: an outage, retrying only burns time
+                return None, provider, f"{LLM_DOWN}{str(exc)[:200]}"
+            feedback = f"{feedback} [time budget used up]"[:300]
+            break
         except Exception as exc:
             feedback = f"invalid answer ({str(exc)[:120]})"
             continue

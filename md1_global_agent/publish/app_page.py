@@ -14,7 +14,7 @@ import requests
 
 import privacy
 from discovery import study as study_mod
-from builder.planner import complete
+from builder.planner import LLM_DOWN, LLMUnavailable, complete
 from publish.mdm1_page import API, SITE_URL, SITE_REPO, _headers, preflight
 
 APP_WORKFLOW = "add-app.yml"
@@ -90,6 +90,8 @@ def idea_from_opportunity(llm: dict, opp: dict, terms: list, deadline: float = N
     repo = opp["repo"]
     try:
         out = complete(IDEA_PROMPT.format(category=repo.get("category", ""), desc=(repo.get("description") or repo.get("full_name", ""))[:300], study=study_mod.study(repo)), llm, deadline)
+    except LLMUnavailable:
+        raise                      # providers are down: the caller must not burn opportunities on it
     except Exception:
         return None
     if re.search(r"^\s*SKIP\b", out or "", re.I | re.M):
@@ -142,11 +144,20 @@ def build(llm: dict, slug: str, idea: str, attempts: int = 4, deadline: float = 
     """Builder model -> local gates -> independent QA (browser + vision model) -> fix cycles.
     `reviewer(spec, idea)` returns visual.review()'s dict; None disables QA (offline tests)."""
     feedback, provider, last_ok = "", None, None
+    answered = False
     for n in range(attempts):
         prompt = PROMPT.format(idea=idea, slug=slug) + (f"\nYour previous version was rejected. Fix ALL of these problems and return the complete result again in the same format:\n{feedback}" if feedback else "")
         try:
             spec = _extract(complete(prompt, llm, deadline), slug)
             provider = complete.used
+            answered = True
+        except LLMUnavailable as exc:
+            if last_ok is not None:
+                break
+            if not answered:       # no model ever answered: an outage, not a bad idea
+                return None, provider, f"{LLM_DOWN}{str(exc)[:200]}"
+            feedback = f"{feedback} [time budget used up]"[:900]     # keep the real content problem
+            break
         except Exception as exc:
             feedback = f"invalid answer ({str(exc)[:120]})"
             continue
