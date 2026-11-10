@@ -2008,26 +2008,6 @@
       "found_at": "2026-10-09T06:45:21.201931+00:00"
     },
     {
-      "name": "Kagi Small Web",
-      "url": "https://github.com/kagisearch/smallweb",
-      "kind": "directory",
-      "requires_account": true,
-      "official_free_api": false,
-      "how_to_use": "Fork the Small Web repo and add your personal blog's RSS/Atom feed plus at least two other qualifying sites in the same commit. Ensure the blog is English, has a recent post, and has no ads, affiliate links, or popups, then open a PR.",
-      "rules_and_risks": "Personal blogs only, no multi-author blogs; no ads, undisclosed affiliate links, or popups; no auto-generated or spammy LLM content; recent post required; must add two other sites in the same commit. Human PR review and the list is curated.",
-      "why_it_works": "Kagi surfaces Small Web posts in its search results and exposes the list via RSS/OPML, giving a high-quality personal blog a curated discovery path outside mainstream search.",
-      "evidence": [
-        "https://github.com/kagisearch/smallweb",
-        "https://kagi.com/smallweb"
-      ],
-      "how_searched": [
-        "Opened the Kagi Small Web GitHub repository and read the full inclusion guidelines.",
-        "Checked the Small Web site and feed/OPML distribution details."
-      ],
-      "score": 45.3,
-      "found_at": "2026-10-23T18:31:21.021707+00:00"
-    },
-    {
       "name": "Homebrew Cask",
       "url": "https://github.com/Homebrew/homebrew-cask",
       "kind": "platform",
@@ -2045,27 +2025,6 @@
       ],
       "score": 44.7,
       "found_at": "2026-10-20T00:48:32.756147+00:00"
-    },
-    {
-      "name": "LibHunt",
-      "url": "https://www.libhunt.com/site/project_submit",
-      "kind": "directory",
-      "requires_account": false,
-      "official_free_api": false,
-      "how_to_use": "For an open-source repo on GitHub/GitLab: find a related project on LibHunt, click 'Suggest alternative', and submit your repo URL (the form needs only the URL, plus optional description, topics, website, docs, language, license). It is approved automatically, giving you a project page among alternatives and similar projects with followed outbound links.",
-      "rules_and_risks": "Only open-source repos (no hosted-only products). Some sources report a 3-7 day manual review despite the auto-approval message; describe the library plainly, no keyword spam. Domain rating around 66, dofollow.",
-      "why_it_works": "It targets developer-intent visitors browsing alternatives, gives a permanent listing, and syndicates into 'alternatives to X' pages that AI systems read.",
-      "evidence": [
-        "https://www.libhunt.com/site/project_submit",
-        "https://submitmap.com/platform/libhunt/",
-        "https://backlinks.fyi/directories/libhunt"
-      ],
-      "how_searched": [
-        "web_search: 'LibHunt submit open source project free listing'",
-        "opened LibHunt submission and third-party submission guides"
-      ],
-      "score": 44.0,
-      "found_at": "2026-10-10T12:40:11.314306+00:00"
     },
     {
       "name": "NewsBreak Publisher",
@@ -2268,26 +2227,6 @@
       "found_at": "2026-10-07T04:19:39.269491+00:00"
     },
     {
-      "name": "Firefox Add-ons (AMO)",
-      "url": "https://addons.mozilla.org/en-US/developers/",
-      "kind": "platform",
-      "requires_account": true,
-      "official_free_api": false,
-      "how_to_use": "Register a free Mozilla account, build a WebExtension, and submit it through the addons.mozilla.org developer hub for review. Publishing extensions is free (no fee, unlike some stores).",
-      "rules_and_risks": "Account creation is manual. Extensions are reviewed for policy/security compliance; not everything is accepted. This only helps if you ship a browser extension.",
-      "why_it_works": "AMO is the official extension store for Firefox, giving free, indexable distribution to a large browser user base.",
-      "evidence": [
-        "https://addons.mozilla.org/en-US/developers/",
-        "https://extensionlaunch.com/blog/publish-firefox-extension"
-      ],
-      "how_searched": [
-        "publish Firefox extension free AMO",
-        "firefox addons developer submission"
-      ],
-      "score": 38.7,
-      "found_at": "2026-10-13T18:47:35.974265+00:00"
-    },
-    {
       "name": "Nostr NIP-23 long-form publishing",
       "url": "https://nostr.blog/study/nostr-long-form-content",
       "kind": "platform",
@@ -2467,6 +2406,25 @@
       "found_at": "2026-10-24T18:20:11.566773+00:00"
     },
     {
+      "name": "Google Business Profile",
+      "url": "https://support.google.com/business/answer/2911778?hl=en",
+      "kind": "directory",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Go to business.google.com/add or find the business on Google Maps, choose 'Claim this business', complete the profile, and verify by the method Google offers. Then add hours, photos, services, and posts, and respond to reviews.",
+      "rules_and_risks": "Google says only eligible businesses can add or claim a profile and that you must follow its address guidelines. Fake, duplicate, or virtual-office listings can be suspended; verification can require video or documents.",
+      "why_it_works": "Google's own help says adding and verifying a Business Profile lets customers find the business on Search and Maps, and that you can add or claim it at no charge.",
+      "evidence": [
+        "https://support.google.com/business/answer/2911778?hl=en"
+      ],
+      "how_searched": [
+        "web search: Google Business Profile add or claim official help",
+        "fetched Google Business Profile help page"
+      ],
+      "score": 30.7,
+      "found_at": "2026-11-10T18:18:15.716842+00:00"
+    },
+    {
       "name": "Eventbrite free events (free event pages that rank in search)",
       "url": "https://www.eventbrite.com/organizer/pricing/",
       "kind": "partnership",
@@ -2505,6 +2463,25 @@
       "found_at": "2026-10-16T13:02:16.638357+00:00"
     },
     {
+      "name": "Apple Business Connect",
+      "url": "https://business.apple.com/en-ww/",
+      "kind": "directory",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Sign up at business.apple.com/signup, claim your location, and complete the Maps card with logo, hours, images, and key details. Use Showcase and Custom Actions where available to add bookings or appointments.",
+      "rules_and_risks": "Apple says feature and service availability varies by country and region. You must claim a real location and keep details accurate; fake or duplicate locations can be rejected. The page does not publish a price, so confirm fees at signup.",
+      "why_it_works": "Apple's page explicitly says 'Put your business on the map for millions to see' and 'Claim your location on Maps so millions of customers can connect with your business', with logo, hours, images, and key details under your control.",
+      "evidence": [
+        "https://business.apple.com/en-ww/"
+      ],
+      "how_searched": [
+        "web search: Apple Business Connect claim location Maps",
+        "fetched Apple Business landing page"
+      ],
+      "score": 29.3,
+      "found_at": "2026-11-10T18:18:15.777251+00:00"
+    },
+    {
       "name": "Telegram public channels via official Bot API",
       "url": "https://core.telegram.org/bots/api/",
       "kind": "platform",
@@ -2521,6 +2498,25 @@
       ],
       "score": 28.7,
       "found_at": "2026-10-16T13:02:17.091203+00:00"
+    },
+    {
+      "name": "Kagi Small Web",
+      "url": "https://github.com/kagisearch/smallweb",
+      "kind": "search",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Open a pull request that adds your personal blog and at least two other sites you do not own in the same commit. Include an RSS or Atom feed and make sure the blog is English, has a post from the last 12 months, and has no ads or undisclosed affiliate links.",
+      "rules_and_risks": "Only personal blogs are accepted, not multi-author or company sites. No auto-generated, LLM-generated, or spam content; no popups, intrusive ads, or undisclosed affiliate links. YouTube channels need at most two posts per week and under 100k subscribers. Violations can get the PR rejected or the site removed.",
+      "why_it_works": "Kagi Small Web is a curated index for independent personal blogs; inclusion puts posts in front of Kagi search users and the small-web feed. The README makes self-submission possible only through the add-two-others rule.",
+      "evidence": [
+        "https://github.com/kagisearch/smallweb"
+      ],
+      "how_searched": [
+        "web search: Kagi Small Web submit blog",
+        "fetched Kagi Small Web GitHub README"
+      ],
+      "score": 28.3,
+      "found_at": "2026-11-10T18:18:16.220449+00:00"
     },
     {
       "name": "Gumroad Discover",
@@ -2670,6 +2666,44 @@
       "found_at": "2026-10-24T18:20:29.514457+00:00"
     },
     {
+      "name": "Telegram Channels",
+      "url": "https://telegram.org/tour/channels/",
+      "kind": "platform",
+      "requires_account": true,
+      "official_free_api": true,
+      "how_to_use": "Create a channel via New Message > New Channel, make it public in the profile settings, and post useful updates. Share the t.me link, use hashtags, pin key posts, and optionally verify the channel with @VerifyBot.",
+      "rules_and_risks": "Only admins can post, and public channel content is visible on the web without an account and indexed by search engines. Do not mass-add subscribers or scrape users; spam and fake engagement can get the channel limited or banned.",
+      "why_it_works": "Telegram's own page says channels broadcast to unlimited subscribers, public channels can be viewed on the web without an account, and their contents are indexed by search engines.",
+      "evidence": [
+        "https://telegram.org/tour/channels/"
+      ],
+      "how_searched": [
+        "web search: Telegram public channel web indexed search",
+        "fetched Telegram Channels page"
+      ],
+      "score": 26.7,
+      "found_at": "2026-11-10T18:18:16.556220+00:00"
+    },
+    {
+      "name": "Firefox Add-ons (AMO)",
+      "url": "https://extensionworkshop.com/documentation/publish/submitting-an-add-on/",
+      "kind": "platform",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Create a free Mozilla account, go to the Add-ons Developer Hub, submit a ZIP/XPI/CRX up to 200 MB, choose 'On this site' so it is listed on AMO, pass the validator, and provide source code if the package is minified or obfuscated.",
+      "rules_and_risks": "Submissions go through review and can be rejected. Obfuscated or minified code needs a source package; malicious behavior, policy violations, or unclear permissions can block listing.",
+      "why_it_works": "Mozilla's submission docs describe a free developer account, a public AMO listing path, a 200 MB limit, validation, and review, which puts the extension in front of Firefox users browsing addons.mozilla.org.",
+      "evidence": [
+        "https://extensionworkshop.com/documentation/publish/submitting-an-add-on/"
+      ],
+      "how_searched": [
+        "web search: Firefox add-on submit AMO official",
+        "fetched Extension Workshop submission docs"
+      ],
+      "score": 26.0,
+      "found_at": "2026-11-10T18:18:16.730913+00:00"
+    },
+    {
       "name": "AlternativeTo 'Suggest new application' listing",
       "url": "https://alternativeto.net/faq/",
       "kind": "directory",
@@ -2742,6 +2776,25 @@
       ],
       "score": 25.3,
       "found_at": "2026-10-16T13:02:17.848672+00:00"
+    },
+    {
+      "name": "Homebrew",
+      "url": "https://docs.brew.sh/Adding-Software-to-Homebrew",
+      "kind": "platform",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Fork homebrew/core for open-source formulae or homebrew/cask for native macOS apps, run `brew create URL`, write and test the formula or cask, then open a pull request. A merged entry is installable with `brew install`.",
+      "rules_and_risks": "Homebrew has an acceptance policy; not every project qualifies. Formulae should build from source, while proprietary or binary-only apps belong in casks. PRs can be rejected for duplicates, poor build quality, or policy violations.",
+      "why_it_works": "Homebrew's docs describe accepting formulae and casks through pull requests, and a merged item becomes part of the package set that Homebrew users install from the command line.",
+      "evidence": [
+        "https://docs.brew.sh/Adding-Software-to-Homebrew"
+      ],
+      "how_searched": [
+        "web search: Homebrew add software formula cask official",
+        "fetched Homebrew adding-software docs"
+      ],
+      "score": 25.3,
+      "found_at": "2026-11-10T18:18:16.746057+00:00"
     },
     {
       "name": "Fanvaiy",
@@ -2855,6 +2908,25 @@
       "found_at": "2026-10-16T13:02:17.973225+00:00"
     },
     {
+      "name": "winget (Windows Package Manager)",
+      "url": "https://learn.microsoft.com/en-us/windows/package-manager/package/repository",
+      "kind": "platform",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Create a manifest for your installer, run `winget validate`, test the install in Windows Sandbox, and open a pull request to github.com/microsoft/winget-pkgs. After automated validation and policy checks, the manifest is merged into the public repository.",
+      "rules_and_risks": "PRs can fail automated validation, policy, or malware checks. Manifests must match the installer and publisher; malicious or misleading packages are rejected.",
+      "why_it_works": "Microsoft's repository docs describe a public PR-based manifest repository with automated validation and policy checks; merged manifests are then available to winget client users.",
+      "evidence": [
+        "https://learn.microsoft.com/en-us/windows/package-manager/package/repository"
+      ],
+      "how_searched": [
+        "web search: winget-pkgs submit manifest official",
+        "fetched Microsoft winget repository docs"
+      ],
+      "score": 24.7,
+      "found_at": "2026-11-10T18:18:16.861225+00:00"
+    },
+    {
       "name": "Hacker News: Show HN and story submissions",
       "url": "https://news.ycombinator.com/newsguidelines.html",
       "kind": "community",
@@ -2947,6 +3019,25 @@
       ],
       "score": 24.0,
       "found_at": "2026-10-18T18:34:11.288513+00:00"
+    },
+    {
+      "name": "Flathub",
+      "url": "https://docs.flathub.org/docs/for-app-authors/submission",
+      "kind": "platform",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Build and test the app locally with Flatpak, run the Flathub linter, fork flathub/flathub, and open a pull request against the `new-pr` branch. Reply to reviewer comments; after approval a test build is started with `bot, build`.",
+      "rules_and_risks": "Submissions can be rejected at any stage or recalled after merge. Reviewers may close PRs that ignore the template, contain excessive AI-generated content, or waste reviewer time, and repeated spam can lead to a ban. Permissions must be explained.",
+      "why_it_works": "Flathub's docs say submissions are managed through GitHub pull requests and, once approved, are merged into a Flathub repository and published to the store, where Linux users install apps.",
+      "evidence": [
+        "https://docs.flathub.org/docs/for-app-authors/submission"
+      ],
+      "how_searched": [
+        "web search: Flathub app submission official docs",
+        "fetched Flathub submission docs"
+      ],
+      "score": 24.0,
+      "found_at": "2026-11-10T18:18:16.876341+00:00"
     },
     {
       "name": "G2 free product listing + profile claim",
@@ -3152,6 +3243,25 @@
       "found_at": "2026-10-24T18:20:30.476819+00:00"
     },
     {
+      "name": "Zapier App Directory",
+      "url": "https://docs.zapier.com/integrations/publish/public-integration",
+      "kind": "platform",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Build an integration with the Platform UI or Platform CLI, test it in the Zap editor, and submit it for review from the Developer Platform. After approval it is listed in beta for 90 days, then becomes public in the Zapier app directory.",
+      "rules_and_risks": "The app must pass Zapier review and remain maintained. It stays private until approved and in beta for 90 days; broken triggers/actions, misleading behavior, or abandonment can hurt listing and partner status.",
+      "why_it_works": "Zapier's docs say building and publishing a public integration is free, approved apps are added to the app directory, and the directory already lists 9,000+ apps, giving exposure to Zapier's automation users.",
+      "evidence": [
+        "https://docs.zapier.com/integrations/publish/public-integration"
+      ],
+      "how_searched": [
+        "web search: Zapier public integration publish free official",
+        "fetched Zapier public integration docs"
+      ],
+      "score": 23.3,
+      "found_at": "2026-11-10T18:18:17.062159+00:00"
+    },
+    {
       "name": "Bluesky starter packs + custom feeds for your niche",
       "url": "https://bsky.social/about/blog/06-26-2024-starter-packs",
       "kind": "feed",
@@ -3244,6 +3354,25 @@
       ],
       "score": 22.7,
       "found_at": "2026-10-18T18:34:13.285599+00:00"
+    },
+    {
+      "name": "Unsplash",
+      "url": "https://help.unsplash.com/en/articles/2610243-upload-a-photo-to-unsplash",
+      "kind": "platform",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Create a free Unsplash account, go to unsplash.com/submit, and upload up to 10 photos per week. Follow the submission guidelines, add accurate descriptions and tags, and engage with the community to lift the limit.",
+      "rules_and_risks": "The initial limit is 10 photos per week and can be re-limited if more than 10 uploads do not meet the guidelines. Duplicates, spam, or low-quality submissions can be removed; check the Unsplash license before uploading.",
+      "why_it_works": "Unsplash's help page confirms a free account and public submission flow, with an initial 10-per-week limit that becomes unlimited after enough community engagement, putting images in front of Unsplash's large search audience.",
+      "evidence": [
+        "https://help.unsplash.com/en/articles/2610243-upload-a-photo-to-unsplash"
+      ],
+      "how_searched": [
+        "web search: Unsplash upload photo submission limits official",
+        "fetched Unsplash help article"
+      ],
+      "score": 22.7,
+      "found_at": "2026-11-10T18:18:17.482783+00:00"
     },
     {
       "name": "Unlinked brand-mention reclamation + resource-page outreach",
@@ -3434,6 +3563,25 @@
       "found_at": "2026-10-24T18:20:30.818026+00:00"
     },
     {
+      "name": "Internet Archive (IAS3)",
+      "url": "https://archive.org/developers/ias3.html",
+      "kind": "platform",
+      "requires_account": true,
+      "official_free_api": true,
+      "how_to_use": "Get S3-like API keys at archive.org/account/s3.php, then PUT your file to https://s3.us.archive.org/<item>/<file> with the `x-amz-auto-make-bucket:1` header and metadata headers such as title, mediatype, and collection. A successful PUT creates a public item page.",
+      "rules_and_risks": "Items are world-readable and only the uploader can write; bucket DELETE is not allowed. The queue can return 503 SlowDown under load. Do not upload illegal or infringing material, and expect items to be public and effectively permanent.",
+      "why_it_works": "The IAS3 docs say the Internet Archive has a public API for storage and retrieval, and a PUT on the S3 endpoint results in a new Internet Archive item with a public details page.",
+      "evidence": [
+        "https://archive.org/developers/ias3.html"
+      ],
+      "how_searched": [
+        "web search: Internet Archive S3 API upload item official",
+        "fetched IAS3 API docs"
+      ],
+      "score": 21.7,
+      "found_at": "2026-11-10T18:18:17.716213+00:00"
+    },
+    {
       "name": "Qiita API v2 — publish developer articles programmatically",
       "url": "https://qiita.com/api/v2/docs",
       "kind": "platform",
@@ -3544,6 +3692,25 @@
       ],
       "score": 20.7,
       "found_at": "2026-10-18T18:34:29.662489+00:00"
+    },
+    {
+      "name": "Lemmy",
+      "url": "https://join-lemmy.org/",
+      "kind": "community",
+      "requires_account": true,
+      "official_free_api": true,
+      "how_to_use": "Pick a server from join-lemmy.org/instances, create an account, find a relevant community, and post a link plus a real discussion comment. Follow the instance and community rules; posts federate to other servers.",
+      "rules_and_risks": "Each instance has its own rules and moderators can remove posts or ban accounts. Self-promotion rules vary by community; spam or vote manipulation gets removed. Federation means a post can spread beyond the server you joined.",
+      "why_it_works": "Lemmy describes itself as a decentralized discussion platform with hundreds of interconnected servers, upvotes and threaded comments, and an open API, so a good post can reach users across the fediverse.",
+      "evidence": [
+        "https://join-lemmy.org/"
+      ],
+      "how_searched": [
+        "web search: Lemmy decentralized communities join",
+        "fetched join-lemmy.org"
+      ],
+      "score": 20.7,
+      "found_at": "2026-11-10T18:18:18.231213+00:00"
     },
     {
       "name": "Wikimedia Commons (free media + Wikipedia reach)",
@@ -3695,6 +3862,25 @@
       "found_at": "2026-10-18T18:34:29.786812+00:00"
     },
     {
+      "name": "Goodreads Author Program",
+      "url": "https://www.goodreads.com/author/program",
+      "kind": "community",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Create a Goodreads account, find your book by ISBN, ASIN, or title, open your author profile, and click 'Is this you? Let us know!' to submit the application. After approval, use giveaways, connect your blog, and answer reader questions with Ask the Author.",
+      "rules_and_risks": "The book must already be in the Goodreads database and the application must be approved, normally within two business days. Fake reviews, rating manipulation, or spam violate author guidelines and can get the profile restricted.",
+      "why_it_works": "Goodreads says any author worldwide can join for free with a published or soon-to-be-published book in its database, and approval adds the official Author badge plus profile, giveaway, blog, and Ask the Author tools.",
+      "evidence": [
+        "https://www.goodreads.com/author/program"
+      ],
+      "how_searched": [
+        "web search: Goodreads Author Program claim profile free",
+        "fetched Goodreads Author Program page"
+      ],
+      "score": 20.0,
+      "found_at": "2026-11-10T18:18:19.082694+00:00"
+    },
+    {
       "name": "Yandex Webmaster (search reach in RU/CIS)",
       "url": "https://webmaster.yandex.com/welcome/",
       "kind": "search",
@@ -3711,6 +3897,25 @@
       ],
       "score": 19.7,
       "found_at": "2026-10-16T13:02:21.433022+00:00"
+    },
+    {
+      "name": "LibHunt",
+      "url": "https://www.libhunt.com/site/project_submit",
+      "kind": "directory",
+      "requires_account": false,
+      "official_free_api": false,
+      "how_to_use": "Find an existing LibHunt project relevant to yours, click 'Suggest alternative', and submit your GitHub or GitLab repository URL in the simple form. No account is required.",
+      "rules_and_risks": "Only open-source projects with a GitHub or GitLab repository are accepted, and the project must be suggested as an alternative to an existing one. Irrelevant, closed-source, or spam submissions can be ignored or removed.",
+      "why_it_works": "LibHunt tracks mentions of open-source projects and libraries across developer communities and shows alternatives; a listed project becomes discoverable to developers comparing tools.",
+      "evidence": [
+        "https://www.libhunt.com/site/project_submit"
+      ],
+      "how_searched": [
+        "web search: LibHunt submit project open source",
+        "fetched LibHunt project submission page"
+      ],
+      "score": 19.3,
+      "found_at": "2026-11-10T18:18:19.196461+00:00"
     },
     {
       "name": "Figma Community",
@@ -3917,6 +4122,25 @@
       ],
       "score": 17.3,
       "found_at": "2026-10-07T04:19:39.697402+00:00"
+    },
+    {
+      "name": "Nostr free public relays",
+      "url": "https://nostr-relays.com/free-nostr-relays",
+      "kind": "community",
+      "requires_account": false,
+      "official_free_api": false,
+      "how_to_use": "Generate a Nostr keypair in any client, publish notes to several free public relays such as nos.lol, relay.damus.io, or relay.primal.net, and publish a NIP-65 relay list so others can find you. No relay signup or payment is required.",
+      "rules_and_risks": "Free relays may prune old notes and some apply spam filters, proof-of-work, or web-of-trust rules. Writing to several relays protects against one dropping data. Relays cannot post as you, but all notes are public and signed by your key.",
+      "why_it_works": "The relay directory says these public relays accept notes from anyone with no payment and no NIP-42 authentication, and lists relays with thousands of users, giving direct access to the Nostr social graph.",
+      "evidence": [
+        "https://nostr-relays.com/free-nostr-relays"
+      ],
+      "how_searched": [
+        "web search: free Nostr relays no signup",
+        "fetched Nostr Relays free relay directory"
+      ],
+      "score": 17.3,
+      "found_at": "2026-11-10T18:18:19.941980+00:00"
     },
     {
       "name": "LaunchFree.io 'The Runway' free launch listing",
