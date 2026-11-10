@@ -1031,27 +1031,6 @@
       "found_at": "2026-10-30T01:01:55.978907+00:00"
     },
     {
-      "name": "Vertical AI Agent Infrastructure for Regulated Industries",
-      "field": "AI Infrastructure / Compliance Tech",
-      "summary": "On-device/private LLM inference layer and agent runtime for healthcare, legal, finance, and government where customer data cannot leave the organization. Provides air-gapped deployments, private endpoints, and local inference with identical feature parity to cloud.",
-      "why_now": "BigIdeasDB analysis of 3,478 micro SaaS shows this niche charges $200-$2,000/mo because compliance is the moat. Partnership on AI (Oct 2026) documents observability gaps in agent frameworks for high-stakes finance/healthcare. AgentIQA reports vertical agents in procurement/legal/finance need domain-specific evals, not generic LLM evals. Harvey's Legal Agent Benchmark (1,200+ tasks) proves enterprise demand.",
-      "monetization": "Per-seat or per-agent pricing $200-$2,000/mo. High margins (60%+) because feature set mirrors cloud but compliance justification unlocks budget. Take-rate economics scale with agent count.",
-      "evidence": [
-        "https://bigideasdb.com/micro-saas-trends-2026",
-        "https://partnershiponai.org/wp-content/uploads/2026/10/PAI_obervability-gap-in-ai-agents.pdf",
-        "https://agentiqa.com/en/blog/testing-vertical-ai-agents",
-        "https://www.harvey.ai/blog/introducing-harveys-legal-agent-benchmark"
-      ],
-      "how_searched": [
-        "BigIdeasDB micro SaaS trend analysis (3,478 startups)",
-        "Partnership on AI research paper",
-        "AgentIQA vertical agent testing framework",
-        "Harvey Legal Agent Benchmark launch"
-      ],
-      "score": 89.0,
-      "found_at": "2026-10-20T20:53:36.765344+00:00"
-    },
-    {
       "name": "Runtime AI Code Review (Execution-Based PR Validation)",
       "field": "Developer Tools / AI Code Quality",
       "summary": "A web platform that spins up ephemeral environments for every pull request, runs the actual application (frontend + backend), navigates user flows like a real user, and returns video replays, logs, and exact-line reproduction steps for bugs that static analysis misses.",
@@ -1411,27 +1390,6 @@
       "found_at": "2026-10-30T14:20:25.205423+00:00"
     },
     {
-      "name": "Real Estate Adjacent Micro SaaS",
-      "field": "PropTech / Vertical SaaS",
-      "summary": "Narrow tools for solo agents and small landlords: MLS-adjacent CMA generators, rental compliance automation by state, single-agent CRMs with AI follow-up, property management for 1-5 units. Not another enterprise PMS.",
-      "why_now": "BigIdeasDB reports 988% average growth rate (from small base) for Real Estate-tagged micro SaaS. AppFolio Q1 2026: $262M revenue (+20% YoY), 9.5M units managed, Realm-X AI agents adopted by 99%+ customers. CoStar $3.2B ARR (+19%). MLS data access negotiations (90-180 days) create moat. Multiples.vc shows property-based subs at $1-$5/door with 75-85% margins.",
-      "monetization": "Per-unit pricing ($19/property/mo for compliance, $49-99/agent/mo for CRM/CMA), transaction fees ($20-500/lease), payment processing take-rates (1.5-3%), lead gen referral fees. Book The Move at $8,755 MRR (80% margin), ControlResell at $9,076 MRR (70% margin).",
-      "evidence": [
-        "https://bigideasdb.com/micro-saas-trends-2026",
-        "https://bigideasdb.com/saas-ideas/real-estate-saas",
-        "https://www.tickertrends.io/transcripts/APPF/Q1-earnings-transcript-2026",
-        "https://multiples.vc/coverage/real-estate-software"
-      ],
-      "how_searched": [
-        "BigIdeasDB micro SaaS trend report",
-        "BigIdeasDB real estate SaaS ideas breakdown",
-        "AppFolio Q1 2026 earnings transcript",
-        "Multiples.vc real estate software sector analysis"
-      ],
-      "score": 87.0,
-      "found_at": "2026-10-20T20:53:38.068953+00:00"
-    },
-    {
       "name": "TikTok Shop AI Analytics & Creator Intelligence",
       "field": "Social Commerce / Creator Economy Tools",
       "summary": "A free web dashboard that tracks TikTok Shop product trends, creator performance, competitor GMV, and video/LIVE analytics — then uses an AI analyst to deliver decision-ready briefs on what to sell, which creators to partner with, and what content will convert.",
@@ -1539,27 +1497,6 @@
       ],
       "score": 87.0,
       "found_at": "2026-10-26T19:26:09.300196+00:00"
-    },
-    {
-      "name": "Embedded Fintech Layer for Vertical SaaS",
-      "field": "Fintech Infrastructure / Vertical SaaS Enabler",
-      "summary": "White-label embedded payments, lending, payroll, and banking APIs that vertical SaaS platforms (construction, fitness, property mgmt, etc.) integrate to monetize their transaction flow. Starts with payments, expands to capital advances, payroll, insurance.",
-      "why_now": "Apideck/BCG: $185B addressable embedded finance revenue for B2B SaaS, <20% captured. Stripe: platforms with embedded finance see 11% lower churn, 49% faster revenue growth. Toast earns 85% of revenue from fintech ($4.25B), Shopify Merchant Solutions 79%. Charge Forward: US ISV payments revenue $16B (2025), 20% CAGR. Bain: US platform revenue from embedded finance $51B in 2026 (2.5x from 2021).",
-      "monetization": "Take-rate on payment volume (50-75 bps net), lending spreads (5-10% net interest margin), payroll per-employee fees, insurance referral commissions. Revenue per customer 2x-5x uplift. EV/Revenue multiples 7-9.5x for embedded vs 4.8-6.2x for software-only.",
-      "evidence": [
-        "https://www.apideck.com/embedded-finance-report",
-        "https://stripe.com/blog/vertical-saas-insights-sessions-2026",
-        "https://chargeforward.io/learn/research/embedded-payments-benchmarks/",
-        "https://www.saasmag.com/embedded-finance-rewriting-saas-unit-economics/"
-      ],
-      "how_searched": [
-        "Apideck State of Embedded Finance 2026 report",
-        "Stripe Sessions 2026 vertical SaaS insights",
-        "Charge Forward embedded payments benchmarks",
-        "SaaS Mag embedded finance unit economics analysis"
-      ],
-      "score": 86.0,
-      "found_at": "2026-10-20T20:53:39.083703+00:00"
     },
     {
       "name": "Curated MCP Server Marketplace with Security Scoring",
@@ -1737,27 +1674,6 @@
       ],
       "score": 86.0,
       "found_at": "2026-10-30T07:09:38.173662+00:00"
-    },
-    {
-      "name": "Single-Platform Analytics Layer (Notionlytics Model)",
-      "field": "Analytics / B2B SaaS",
-      "summary": "Analytics dashboard and widgets built exclusively for one platform's weak native reporting (Notion, Airtable, Webflow, Shopify, Figma, Linear). Turns raw usage data into the reports the platform never built. Embeddable widgets for audience feedback.",
-      "why_now": "BigIdeasDB: Analytics-tagged micro SaaS grows 78% avg. Notionlytics: $43,160 MRR peak, +121.7% growth, 75% margin (TrustMRR verified). RankYourApp confirms $43.1K MRR, 78 customers. Simple Analytics (privacy-first GA alternative) at $39K MRR. Solo dev timeline: $1K MRR by month 6, $15K by month 18, $30K+ by month 24. Platform APIs enriching while native reporting stays thin.",
-      "monetization": "Tiered subscriptions: Pro $10-30/mo, Team $30-90/mo, Business $90+/mo. Per-seat or per-workspace. 75%+ margins typical. Lifetime deal + paid add-ons model also works for prosumer tools.",
-      "evidence": [
-        "https://bigideasdb.com/micro-saas-trends-2026",
-        "https://trustmrr.com/startup/notionlytics",
-        "https://www.rankyourapp.com/app/notionlytics",
-        "https://bigideasdb.com/solo-developer-saas-monthly-revenue-examples"
-      ],
-      "how_searched": [
-        "BigIdeasDB micro SaaS trends (3,478 startups)",
-        "TrustMRR verified revenue for Notionlytics",
-        "RankYourApp verified metrics",
-        "BigIdeasDB solo developer SaaS revenue examples"
-      ],
-      "score": 85.0,
-      "found_at": "2026-10-20T20:53:39.930369+00:00"
     },
     {
       "name": "Bulk Google Workspace Operations Chrome Extensions (Photos, Gmail, Drive)",
@@ -2100,27 +2016,24 @@
       "found_at": "2026-11-10T10:05:19.168875+00:00"
     },
     {
-      "name": "Vertical-Specific AI Agent Evaluation & Observability",
-      "field": "AI Infrastructure / Developer Tools",
-      "summary": "Eval framework and production monitoring for vertical AI agents (legal, finance, procurement, supply chain) that execute write-actions in ERPs/CRMs/legal systems. Tests real workflows in test environments, reads back system state, validates domain rules (currencies, units, deadlines), catches silent failures generic LLM evals miss.",
-      "why_now": "BigIdeasDB: Agent infra (evals, observability, durable execution) is fastest-growing micro SaaS niche. Opening at vertical-specific layer, not horizontal. Partnership on AI (Oct 2026): agent frameworks (OpenAI, Anthropic, LangGraph, CrewAI) inconsistently emit telemetry for unauthorized actions, policy violations, audit trails. AgentIQA: vertical agents judged on outcomes in business processes with money/contracts/compliance attached. Harvey LAB: 1,200+ legal agent tasks, 75K expert rubrics. AWS Bedrock AgentCore: evaluation as deployment gate in CI.",
-      "monetization": "Per-agent or per-eval-run pricing. $200-2,000/mo for regulated verticals. Usage-based for eval runs. Enterprise contracts for compliance reporting. High retention as eval becomes deployment gate.",
+      "name": "Hidden-jobs board: aggregates openings posted only on company career pages",
+      "field": "Job search / employment",
+      "summary": "A web tool that scrapes and indexes jobs published directly on employer websites, surfacing roles that never appear on LinkedIn or Indeed. Career Hound proves the model with 8,500+ users searching 4.5M 'hidden' jobs.",
+      "why_now": "Career Hound is among the fastest risers on Systemaic's November 2026 list ($15K MRR, +101.2% month over month), and a September 2026 founder interview detailed $28K revenue in one month driven by 11.7M social views in 30 days — demand for 'jobs not on LinkedIn' content is peaking right now.",
+      "monetization": "Career Hound: $28,000 revenue last month, $12-15K MRR, 779 active subscriptions, ~$50 average LTV; hard paywall at $7/week, $20/month or $50/year (founder-reported, Sept 2026; MRR cross-checked on Systemaic)",
       "evidence": [
-        "https://bigideasdb.com/micro-saas-trends-2026",
-        "https://partnershiponai.org/wp-content/uploads/2026/10/PAI_obervability-gap-in-ai-agents.pdf",
-        "https://agentiqa.com/en/blog/testing-vertical-ai-agents",
-        "https://aws.amazon.com/blogs/machine-learning/building-trust-in-ai-agents-a-production-ready-evaluation-framework-with-amazon-bedrock-agentcore/",
-        "https://www.harvey.ai/blog/introducing-harveys-legal-agent-benchmark"
+        "https://www.systemaic.com/tools/bootstrapped-risers",
+        "https://careerhound.io",
+        "https://savedthat.app/transcript/youtube/xEoLsAQFnOY",
+        "https://productwatch.io/blogs/how-career-hound-reached-25k-a-month-with-a-simple-job-board"
       ],
       "how_searched": [
-        "BigIdeasDB micro SaaS trend #7",
-        "Partnership on AI observability gap paper",
-        "AgentIQA vertical agent testing methodology",
-        "AWS Bedrock AgentCore evaluation framework",
-        "Harvey Legal Agent Benchmark launch"
+        "websearch micro-SaaS revenue roundups, then opened Systemaic Bootstrapped Risers",
+        "webfetch careerhound.io homepage",
+        "websearch 'Career Hound' revenue, then read Starter Story interview transcript and third-party writeups"
       ],
-      "score": 84.0,
-      "found_at": "2026-10-20T20:53:40.925126+00:00"
+      "score": 85.0,
+      "found_at": "2026-11-10T23:30:37.324254+00:00"
     },
     {
       "name": "Self-Hosted Browser Automation Playground",
@@ -2627,25 +2540,6 @@
       "found_at": "2026-10-28T21:14:37.919940+00:00"
     },
     {
-      "name": "Per-Unit/Value-Based Pricing Infrastructure",
-      "field": "Billing / SaaS Infrastructure",
-      "summary": "Billing system that enables per-unit-of-value pricing ($9/generated report, $29/onboarded client, $0.05/inference, $/API call) instead of seat-based. Handles metering, entitlements, usage aggregation, and invoice generation for AI-native and vertical SaaS products.",
-      "why_now": "BigIdeasDB: SaaS-on-SaaS micro category grows 76.7% with per-unit pricing dominant. Buyers under 100 employees rejecting seat-based pricing. Micro SaaS business models 2026: per-unit-of-value replacing seats, lifetime deal + paid add-ons, embedded fintech revenue share. Stripe data: platforms with multiproduct strategy grow 49% faster. Charge Forward: embedded finance six-stage matrix shows usage metering as Stage 1 foundation.",
-      "monetization": "Percentage of transaction volume (1-3%) or per-event fee. Scales with customer success. High margins as infrastructure. Target: AI agent platforms, vertical SaaS, usage-based products.",
-      "evidence": [
-        "https://bigideasdb.com/micro-saas-trends-2026",
-        "https://chargeforward.io/learn/research/embedded-payments-benchmarks/",
-        "https://stripe.com/blog/vertical-saas-insights-sessions-2026"
-      ],
-      "how_searched": [
-        "BigIdeasDB micro SaaS trend #4 & business models",
-        "Charge Forward embedded finance product matrix",
-        "Stripe vertical SaaS insights 2026"
-      ],
-      "score": 82.0,
-      "found_at": "2026-10-20T20:53:41.318814+00:00"
-    },
-    {
       "name": "AI Agent Observability & Guardrails Dashboard",
       "field": "AI Operations / Developer Tools",
       "summary": "A free web dashboard for monitoring AI agent fleets: cost tracking per agent, loop detection, silent stall alerts, token budget enforcement, PII redaction, and runtime trace visualization — targeting teams deploying agents in production who currently lack per-agent visibility.",
@@ -2943,27 +2837,6 @@
       "found_at": "2026-10-30T14:20:39.436462+00:00"
     },
     {
-      "name": "AI Marketing Agency-in-a-Box for Vertical Niches",
-      "field": "Marketing Tech / Vertical SaaS",
-      "summary": "All-in-one AI marketing stack for a single vertical (dental, HVAC, law firms, real estate agents): content generation, ad creative, lead capture, review management, appointment booking. Replaces agency retainer with $200-500/mo software.",
-      "why_now": "BigIdeasDB: AI marketing tools avg +67.6% growth, 68.1% margins. Winning sub-niches: vertical agencies-in-a-box (Prymatica $9,790 MRR), single-channel lead gen (Juiced Leads $9,250 MRR), single-funnel optimizers (Defined Chase $9,507 MRR). TrustMRR shows multiple $9-10K MRR examples. AgentPickList: SEOBOT at $36K MRR (autonomous SEO agent), Postiz at $273K MRR (open-source social scheduler).",
-      "monetization": "Vertical-specific monthly subscriptions $199-499/mo. Setup/onboarding fees. Upsell: ad spend management take-rate, lead referral fees. High margins (68% avg) as AI replaces human agency labor.",
-      "evidence": [
-        "https://bigideasdb.com/micro-saas-trends-2026",
-        "https://trustmrr.com/startup/seobot",
-        "https://trustmrr.com/startup/postiz",
-        "https://agentpicklist.com/use-cases/sell-an-autonomous-seo-agent-for-49-a-month/"
-      ],
-      "how_searched": [
-        "BigIdeasDB micro SaaS trend #9",
-        "TrustMRR verified revenue for SEOBOT",
-        "TrustMRR verified revenue for Postiz",
-        "AgentPickList verified use cases with revenue"
-      ],
-      "score": 81.0,
-      "found_at": "2026-10-20T20:53:42.060930+00:00"
-    },
-    {
       "name": "AI Skin-Analysis Quiz for Beauty Ecommerce",
       "field": "Beauty e-commerce / computer vision",
       "summary": "A free cosmetic selfie-based skin quiz that scores concerns, builds a routine and recommends products from a brand's catalog, with paid white-label versions for beauty stores.",
@@ -3229,6 +3102,25 @@
       ],
       "score": 80.0,
       "found_at": "2026-10-29T20:34:53.640521+00:00"
+    },
+    {
+      "name": "Live AI translation for church services: QR-code captions and audio on attendees' phones",
+      "field": "Faith tech / live interpretation",
+      "summary": "A web tool that takes a church's existing soundboard feed and streams real-time translated captions/audio to attendees' phones via QR code — no headsets, booths or volunteer interpreters. Glossa, Wordly, Sunflower AI and LiveVoice all monetize this exact pattern.",
+      "why_now": "Glossa just crossed $14,404 MRR (Stripe-verified, revenue synced Oct 19 2026) serving ~1,000 churches; LiveVoice announced 70+ languages and 100+ countries on Oct 8 2026, Sunflower AI published a 47-nationality church case study in May 2026, and r/churchtech shows a rising number of churches asking for exactly this.",
+      "monetization": "Glossa $14,404 MRR, 100 active subscriptions, $196,539 all-time (Stripe-verified via TrustMRR), roughly $5/hour list pricing; category peers Wordly/LiveVoice/Sunflower AI sell to congregations in 100+ countries incl. Willow Creek and Hillsong",
+      "evidence": [
+        "https://shippedandpaid.com/cases/glossa-ai-church-translation-14k-mrr-vibe-coded-claude-code/",
+        "https://churchtechtoday.com/ai-translation-for-churches-interview/",
+        "https://sunflowerai.io/blogs/village-church-brisbane-case-study",
+        "https://www.reddit.com/r/churchtech/comments/1rpyzxp/aitranslation_for_churches/"
+      ],
+      "how_searched": [
+        "websearch AI-built apps with verified revenue, then opened Shipped&Paid Glossa case",
+        "websearch church AI translation demand 2026, then read ChurchTechToday interview, Sunflower AI case study, LiveVoice press release and Reddit r/churchtech thread"
+      ],
+      "score": 80.0,
+      "found_at": "2026-11-10T23:30:38.804407+00:00"
     },
     {
       "name": "Paid Studies & Focus Groups Aggregator",
@@ -3617,6 +3509,25 @@
       "found_at": "2026-11-10T10:05:20.378421+00:00"
     },
     {
+      "name": "AI paid-media manager: autonomous Google/Meta/TikTok ad campaign agent",
+      "field": "Digital advertising / AI agents",
+      "summary": "A web tool that connects to Google, Meta, LinkedIn and TikTok Ads and creates, optimizes and reports on paid campaigns conversationally, including via an MCP server usable from ChatGPT or Claude. Adspirer and AdStellar both monetize this pattern.",
+      "why_now": "Two separate products are rising simultaneously on Systemaic's November 2026 risers list — Adspirer at $55K MRR (+30% MoM) and AdStellar at $39K MRR (+60.8% MoM) — and Maxma reached #5 on Product Hunt's leaderboard for the week of Nov 9 2026.",
+      "monetization": "Adspirer $55K MRR +30.0% MoM; AdStellar $39K MRR +60.8% MoM (Systemaic risers, November 2026); Maxma top-5 Product Hunt launch the same week",
+      "evidence": [
+        "https://www.systemaic.com/tools/bootstrapped-risers",
+        "https://adspirer.com",
+        "https://www.producthunt.com/leaderboard/weekly/2026/46"
+      ],
+      "how_searched": [
+        "websearch micro-SaaS revenue lists, then opened Systemaic Bootstrapped Risers",
+        "webfetch adspirer.com (MCP ads server across 6 platforms)",
+        "websearch Product Hunt leaderboard week 46 2026"
+      ],
+      "score": 76.0,
+      "found_at": "2026-11-10T23:30:39.360275+00:00"
+    },
+    {
       "name": "AI ebook-to-publish pipeline (GETebook pattern)",
       "field": "AI publishing",
       "summary": "Turn a topic, audience, and tone into an outline, chapters, cover art, and export-ready PDF/EPUB/Word. Rebuild as a free browser editor with paid exports, cover templates, and KDP formatting checks.",
@@ -3697,6 +3608,24 @@
       "found_at": "2026-10-31T17:50:29.112310+00:00"
     },
     {
+      "name": "Podcast transcript search engine: keyword search inside millions of episodes",
+      "field": "Podcast / audio search",
+      "summary": "A web tool that transcribes podcasts and lets users keyword-search the full text of millions of episodes, with alerts and an API. Tapesearch monetizes exactly this as a solo founder with ~$100K all-time revenue.",
+      "why_now": "Tapesearch's Stripe-verified revenue was synced Nov 9 2026 at $4,505/month with all-time revenue of $99,743 — it just crossed roughly $100K and keeps growing as podcast research becomes a standard PR, sales and content workflow.",
+      "monetization": "Tapesearch $4,505/month (Stripe-verified, Nov 9 2026), $99,743 all-time, 186+ subscriptions at $16.66-$60/month, plus API; founded Nov 2022, one person, customers acquired via Google Ads",
+      "evidence": [
+        "https://www.proofofincomeai.com/movers/2026-11-09",
+        "https://www.proofofincomeai.com/case-tapesearch",
+        "https://tapesearch.com"
+      ],
+      "how_searched": [
+        "websearch verified open-startup revenue movers, then opened ProofOfIncome movers and case pages",
+        "webfetch tapesearch.com (5M transcripts, 17,000+ listeners, API/MCP)"
+      ],
+      "score": 72.0,
+      "found_at": "2026-11-10T23:30:40.608321+00:00"
+    },
+    {
       "name": "AI screenwriting and storyboard workspace (Laper pattern)",
       "field": "AI screenwriting",
       "summary": "A script-first workspace for formatting, structure visualization, collaboration, and storyboard/production entities. Rebuild as a free web screenplay editor with paid AI notes, production breakdowns, and collaboration.",
@@ -3715,6 +3644,25 @@
       ],
       "score": 71.0,
       "found_at": "2026-10-31T17:50:24.141409+00:00"
+    },
+    {
+      "name": "AI niche-directory website builder: one sentence to a live, monetized directory",
+      "field": "Web publishing / no-code builders",
+      "summary": "A web tool that turns a one-sentence idea (like 'wedding vendors in Texas') into a live, SEO-ready directory with listings, categories and built-in payment collection, letting owners charge businesses for placement. Directify was acquired for $85K and keeps growing under its new owner.",
+      "why_now": "Directify reached $3.1K MRR in August 2026 (+$1K MRR since its February 2026 acquisition) and its site reports 9,900+ builders and 4,000+ directories launched; niche directories remain a leading SEO play as AI answers push sites toward structured, crawlable data.",
+      "monetization": "Directify: sold for $85,000 in Feb 2026 (largest TrustMRR acquisition at the time) after ~$50K lifetime revenue, now $3.1K MRR; plans $39-$149/month with 0% revenue fees",
+      "evidence": [
+        "https://fast-makers.beehiiv.com/p/how-i-sold-directify-for-85-000-and-the-fight-i-picked-next",
+        "https://arrfounder.com/news/directify-reaches-3-1k-mrr",
+        "https://directify.app/",
+        "https://www.soloez.com/weekly/soloez-164"
+      ],
+      "how_searched": [
+        "websearch AI-built apps revenue roundup, then opened SoloEZ issue 164",
+        "websearch 'Directify' launch revenue, then read IndieLessons profile, founder post-acquisition post and product site"
+      ],
+      "score": 71.0,
+      "found_at": "2026-11-10T23:30:45.066048+00:00"
     },
     {
       "name": "Image-to-vector converter for makers (VectoSolve pattern)",
@@ -3757,6 +3705,24 @@
       "found_at": "2026-10-31T17:50:28.366451+00:00"
     },
     {
+      "name": "AI field-inspection report generator: photos and voice notes to a finished PDF",
+      "field": "Field services / inspections",
+      "summary": "A web tool that turns site photos and dictated voice notes into a formatted, client-ready inspection report PDF in minutes. Obsiva (launched Nov 10 2026) and the $30M-ARR incumbent Spectora prove both demand and willingness to pay.",
+      "why_now": "Obsiva hit #1 on Product Hunt today (Nov 10 2026), and competitor Horizon is shutting down December 15 2026 with Spectora named the recommended migration platform — a forced migration wave is hitting inspectors just before the busy season.",
+      "monetization": "Spectora: $30M ARR (founder-reported Jan 2026, ~$40M expected for 2026), $109/month per inspector, 12,000+ inspectors, partial exits at $90M/$110M valuations; Obsiva's own revenue: null (day-old launch)",
+      "evidence": [
+        "https://openaimaster.ai/7-new-ai-tools-10-november-2026/",
+        "https://www.spectora.com/pricing/",
+        "https://www.indiehackers.com/post/tech/hitting-30m-arr-with-the-first-product-he-built-oJ1E1ukp60M7OZZXl2AJ"
+      ],
+      "how_searched": [
+        "websearch Product Hunt top products Nov 10 2026, then read OpenAIMaster coverage of Obsiva",
+        "websearch home inspection software pricing and revenue, then read Spectora pricing page, IndieHackers interview and 2026 cost comparison (Horizon sunset Dec 15 2026)"
+      ],
+      "score": 70.0,
+      "found_at": "2026-11-10T23:30:46.244053+00:00"
+    },
+    {
       "name": "General resale-value scanner",
       "field": "resale valuation",
       "summary": "Scan household items, collectibles, tools, and electronics to identify them, estimate resale value from comps, and generate marketplace listings. Rebuild as a free web scanner with paid deep scans, portfolio tracking, and listing exports.",
@@ -3777,6 +3743,83 @@
       "found_at": "2026-10-31T17:50:32.405154+00:00"
     },
     {
+      "name": "Free order-fraud and chargeback risk scorer for small online merchants",
+      "field": "Ecommerce security",
+      "summary": "A web tool that screens store orders after checkout and before fulfilment, flagging stolen-card patterns, repeat disputers and delivery anomalies. Blockify's +152 net store installs and Chargeflow's new Prevent 2.0 show merchants actively paying for this.",
+      "why_now": "Holiday fraud season is live right now: Stripe data shows fraud began trending up on Nov 8 and hit ~1.4% of payment volume at BFCM 2025 (1.7x normal), Riskified reports merchants receiving AI-agent orders grew ~7X between March and September 2026, and Blockify added +152 net Shopify stores in the 28 days to Nov 9 2026.",
+      "monetization": "Chargeflow Prevent 2.0 charges $0.10 per scanned transaction; Stripe blocked $75M+ in suspected fraud volume at BFCM 2025; refund abuse is an estimated ~$100B/year loss category; Blockify +152 net Shopify stores in 28 days (week of Nov 9 2026)",
+      "evidence": [
+        "https://shoplist.co/shopify-apps/rankings",
+        "https://stripe.com/guides/preparing-for-peak-shopping-season-2026",
+        "https://www.riskified.com/resources/guide/holiday-ecommerce-fraud-and-abuse-management/",
+        "https://e-commerce.news/story/chargeflow-data-flags-black-friday-non-delivery-surge",
+        "https://www.equifax.com/newsroom/all-news/-/story/holiday-shopping-goes-agentic-what-that-means-for-fraud-and-chargebacks/"
+      ],
+      "how_searched": [
+        "websearch Shopify app store rankings, then opened ShopList rankings for week of Nov 9 2026",
+        "websearch ecommerce fraud surge holiday 2026, then read Stripe, Riskified, Equifax and Chargeflow coverage"
+      ],
+      "score": 68.0,
+      "found_at": "2026-11-10T23:30:47.828614+00:00"
+    },
+    {
+      "name": "AI coloring-book maker for KDP and Etsy sellers: idea to print-ready PDF",
+      "field": "Self-publishing / print-on-demand",
+      "summary": "A web tool that generates themed coloring-book pages as clean line art, assembles a print-ready PDF with a spine-sized cover wrap, and exports Amazon KDP-compliant files. ColorCraft nearly tripled revenue in three months; Etsy data confirms the niche's buyer demand.",
+      "why_now": "ColorCraft's Stripe-verified monthly revenue went from $638 (Aug 2026) to $1,845 (Oct 2026) and its MRR hit $1,990 with 109 subscriptions as of Nov 10 2026 (+64.7% in 30 days), while Etsy searches for 'adult coloring pages' grew +105% to 30,729/month (Alura, updated Nov 8 2026).",
+      "monetization": "ColorCraft $1,990 MRR, 109 active subscriptions, +64.7% last 30 days (Stripe-verified, Nov 10 2026); plans $9-$119/month; comparable Etsy shop Coco Wyo did $250K+ total from 85.5K sales at ~$3 average",
+      "evidence": [
+        "https://trustmrr.com/startup/colorcraft",
+        "https://shippedandpaid.com/cases/colorcraft-ai-coloring-book-maker-kdp-1-6k-mrr-vibe-coded-cursor/",
+        "https://aiolum.com/story/colorcraft/",
+        "https://www.alura.io/tools/what-to-sell-on-etsy",
+        "https://urbanplr.com/coco-wyo-etsy-success-story/"
+      ],
+      "how_searched": [
+        "websearch verified revenue cases, then read TrustMRR profile, Shipped&Paid case and Aiolum breakdown",
+        "websearch Etsy coloring pages best sellers November 2026, then read Alura trend data, EtsyHunt rankings and Coco Wyo case"
+      ],
+      "score": 68.0,
+      "found_at": "2026-11-10T23:30:49.613285+00:00"
+    },
+    {
+      "name": "Marketplace of skill packs and style kits for AI coding agents",
+      "field": "AI developer tools",
+      "summary": "A web library of installable 'skills' — instruction packs and visual style kits that give Claude Code, Codex and Cursor a distinct output style for websites, decks, images and video, previewable before install. Skillry reached $5.1K MRR within ~3 months of launch.",
+      "why_now": "Skillry's Stripe-verified data was synced today (Nov 10 2026): $5,166 MRR, 449 subscriptions, $11,902 in the last 30 days, founded only August 2026; adjacent products show the same pull — Bencho did $32K in 30 days selling interactive React component kits.",
+      "monetization": "Skillry $5,166 MRR, 449 active subscriptions, $18,191 all-time (Stripe-verified, Nov 10 2026); free skills plus Premium at $9.99/month or $79/year; peer signal: Bencho $32K in 30 days",
+      "evidence": [
+        "https://trustmrr.com/startup/skillry",
+        "https://www.proofofincomeai.com/case-skillry",
+        "https://www.proofofincomeai.com/movers/2026-11-09",
+        "https://www.soloez.com/weekly/soloez-164"
+      ],
+      "how_searched": [
+        "websearch verified revenue movers, then opened ProofOfIncome movers and case pages",
+        "webfetch trustmrr.com/startup/skillry (Stripe-verified, synced Nov 10 2026)",
+        "websearch AI-built component library traction via SoloEZ issue 164"
+      ],
+      "score": 67.0,
+      "found_at": "2026-11-10T23:30:50.439920+00:00"
+    },
+    {
+      "name": "AI artistic QR-code generator with dynamic links and scan analytics",
+      "field": "Marketing utilities",
+      "summary": "A web tool that generates scannable QR codes blended into brand artwork from text prompts and pairs them with dynamic links and scan tracking. QR Code AI, a two-person side project, has made $336K+ all-time from exactly this.",
+      "why_now": "QR Code AI's Stripe-verified figures were updated Nov 10 2026: $14,719 MRR from 1,540 subscriptions, with September 2026 its highest month ever ($17,157) and ~257K monthly site visits — a durable and still-growing category.",
+      "monetization": "QR Code AI $14,719 MRR, 1,540 active subscriptions, $336,154 all-time (Stripe-verified via TrustMRR, Nov 10 2026); ~257,511 site visits in Oct 2026 (MRRTrack)",
+      "evidence": [
+        "https://trustmrr.com/startup/qr-code-ai",
+        "https://mrrtrack.com/saas/qrcode-ai.com",
+        "https://milestonewins.com/stories/qrcode-ai-story/"
+      ],
+      "how_searched": [
+        "websearch QR code AI generator revenue verified, then read TrustMRR profile, MRRTrack tracker and founder story"
+      ],
+      "score": 67.0,
+      "found_at": "2026-11-10T23:30:57.845503+00:00"
+    },
+    {
       "name": "AI craft-pattern generator",
       "field": "AI crafting",
       "summary": "Generate crochet/knitting patterns from a text idea or photo, with stitch math, materials, and step-by-step instructions. Rebuild as a free pattern generator with paid PDF exports, advanced sizing, and project tracking.",
@@ -3795,6 +3838,65 @@
       ],
       "score": 66.0,
       "found_at": "2026-10-31T17:50:33.960795+00:00"
+    },
+    {
+      "name": "AI stem and vocal separator web tool for musicians",
+      "field": "Music tech / audio tools",
+      "summary": "A web tool that splits any uploaded song into vocals, drums, bass, guitar and other stems plus chords, key and tempo detection — used for practice, karaoke tracks and remixes. Moises built an ~$16M ARR business on this exact pattern.",
+      "why_now": "Moises reported 80M users in September 2026, its traffic is up +23.4% over three months (~3.95M monthly visits), it launched a browser-based collaborative Studio, and a vocal/stem isolator is currently in the Chrome Web Store's trending top charts.",
+      "monetization": "Moises ~$16M ARR (Systemaic/GetLatka estimates), ~80M users, Premium ~$3.99-$5.99/month, Pro ~$24.99-$29.99/month; closest bootstrapped peer Lalal.ai $2.6M ARR",
+      "evidence": [
+        "https://moises.ai/",
+        "https://www.systemaic.com/teardowns/moises",
+        "https://getlatka.com/companies/moises.ai",
+        "https://chromewebstore.google.com/top-charts/trending",
+        "https://www.unmixlabs.com/breakdown"
+      ],
+      "how_searched": [
+        "websearch Moises vocal remover stem revenue, then read Moises site, Systemaic teardown, GetLatka estimate and market breakdown",
+        "webfetch Chrome Web Store trending charts (stem/vocal isolator present)"
+      ],
+      "score": 65.0,
+      "found_at": "2026-11-10T23:30:58.695828+00:00"
+    },
+    {
+      "name": "Browser voice recorder with AI transcription and summaries (no hardware)",
+      "field": "Productivity / voice notes",
+      "summary": "A free web tool that records in-person meetings or phone audio directly in the browser and turns it into searchable transcripts, summaries and action items — Plaud's hardware-plus-subscription model minus the hardware.",
+      "why_now": "Plaud announced $100M+ software ARR in June 2026 after shipping 2M+ devices and targets $500M in 2026 sales with 2.5M users; 'ai voice recorder' searches rose +13% over three months (nextbig, Nov 9 2026) and Plaud Note trended +8,300% on Exploding Topics.",
+      "monetization": "Plaud $100M+ software ARR (company-reported, June 2026), 2M+ devices shipped, $500M 2026 sales target, Pro $99.99/year, Unlimited $239.99/year, ~50% of device buyers upgrade to paid plans",
+      "evidence": [
+        "https://techcrunch.com/2026/06/16/plaud-says-its-software-business-topped-100m-in-arr-after-shipping-over-2m-ai-notetakers/",
+        "https://qz.com/plaud-ai-note-taker-ipo-2028-091726",
+        "https://nextbig.io/weekly/2026-11-09",
+        "https://explodingtopics.com/blog/trending-topics"
+      ],
+      "how_searched": [
+        "websearch Plaud Note AI voice recorder revenue 2026, then read TechCrunch and Quartz coverage",
+        "webfetch nextbig.io weekly (Nov 9 2026) and explodingtopics trending topics (Plaud Note +8,300%)"
+      ],
+      "score": 62.0,
+      "found_at": "2026-11-10T23:30:59.848013+00:00"
+    },
+    {
+      "name": "Web-based focus lock tied to daily prayer or habit completion",
+      "field": "Faith / habit apps",
+      "summary": "A web tool that blocks distracting sites until you complete a guided prayer or habit session — Prayerlock monetizes this as a mobile app, and the faith-app category shows outsized willingness to pay.",
+      "why_now": "Hallow's downloads doubled (+102.2%) in the 90 days to Oct 18 2026 (to 201K/month) at ~$803K estimated monthly revenue, and Prayerlock claims $83K MRR / $1M ARR as of April 2026 — faith-habit monetization is surging this quarter.",
+      "monetization": "Prayerlock $83K MRR / $1M ARR (founder-claimed, April 2026, subscription app); Hallow ~$803K/month estimated revenue (Airbridge, Oct 2026) and ~$40M net revenue in 2025 (Appfigures estimate)",
+      "evidence": [
+        "https://coffounder.com/blog/micro-saas-examples-with-revenue",
+        "https://prayerlock.com",
+        "https://www.airbridge.io/en/app-revenue/hallow",
+        "https://www.prayfocus.app/en/statistics/faith-app-adoption"
+      ],
+      "how_searched": [
+        "websearch micro-SaaS examples with revenue, then opened coffounder list",
+        "webfetch prayerlock.com",
+        "websearch Hallow prayer app revenue 2026, then read Airbridge teardown and Pray Focus category stats"
+      ],
+      "score": 61.0,
+      "found_at": "2026-11-10T23:31:03.164767+00:00"
     },
     {
       "name": "Agent Feed Auditor",
@@ -3866,6 +3968,25 @@
       "found_at": "2026-11-10T10:05:18.100144+00:00"
     },
     {
+      "name": "Multiplayer browser edu-game: parkour courses gated by times-tables quizzes",
+      "field": "EdTech / browser games",
+      "summary": "A free browser-based multiplayer parkour game where multiplication quizzes gate progression — the Roblox 'obby' genre moved to the web for classrooms and homes. 3x3 Speed Escape is currently exploding in search demand.",
+      "why_now": "'3x3 speed escape' grew more than 999% to ~7,300 searches (Ahrefs trending topics) and received fresh coverage on Nov 6 2026; it ranks #3 among 39 games on its hosting network, showing strong organic pull from kids, parents and teachers.",
+      "monetization": null,
+      "evidence": [
+        "https://ahrefs.com/blog/trending-topics/",
+        "https://www.3x3games.net/",
+        "https://www.timestables.com/3x3-speed-escape.html",
+        "https://thestrategicpost.com/information/3x3-speed-escape-multiplayer-math-parkour-guide/"
+      ],
+      "how_searched": [
+        "webfetch ahrefs trending topics (3x3 speed escape, >999% growth)",
+        "websearch '3x3 speed escape', then read hosting sites and November 2026 coverage"
+      ],
+      "score": 54.0,
+      "found_at": "2026-11-10T23:31:03.766515+00:00"
+    },
+    {
       "name": "1Lookup",
       "field": "Data verification & enrichment API",
       "summary": "Single API for real-time phone, email and IP validation plus 74 enrichment/intelligence products, with a hosted MCP server for AI agents.",
@@ -3934,6 +4055,23 @@
       ],
       "score": 49.3,
       "found_at": "2026-11-10T10:05:27.249293+00:00"
+    },
+    {
+      "name": "Back-office web tool for disability care providers: scheduling, notes and AI progress reports",
+      "field": "Health & human services / vertical SaaS",
+      "summary": "A vertical web tool for disability/IDD service providers covering attendance, service documentation, medication tracking and AI-generated progress notes and reports. Kibu proves the vertical, counting The Arc, YMCA, UCP and Chimes among customers.",
+      "why_now": "Kibu is at $234K MRR and grew +52.8% month over month on Systemaic's November 2026 risers list — one of the fastest-growing vertical SaaS products tracked, pulled by Medicaid documentation and billing requirements.",
+      "monetization": "Kibu $234K MRR, +52.8% MoM (Systemaic risers, November 2026)",
+      "evidence": [
+        "https://www.systemaic.com/tools/bootstrapped-risers",
+        "https://kibu.com"
+      ],
+      "how_searched": [
+        "websearch micro-SaaS revenue roundups, then opened Systemaic Bootstrapped Risers",
+        "webfetch kibu.com for customer logos and feature set"
+      ],
+      "score": 48.7,
+      "found_at": "2026-11-10T23:30:39.761057+00:00"
     },
     {
       "name": "Pastel",
