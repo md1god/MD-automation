@@ -858,25 +858,6 @@
       "found_at": "2026-10-24T14:39:00.519914+00:00"
     },
     {
-      "name": "Vertical B2B SaaS for Blue-Collar Trades (Fire Protection, Construction Specialty, AV Rental)",
-      "field": "Vertical SaaS",
-      "summary": "Deeply embedded software for specific, regulated, or operationally complex trades: fire protection compliance, construction job costing/lien waivers/AIA billing, AV/equipment rental operations. Not generic tools — workflow-specific, regulation-aware, data-heavy.",
-      "why_now": "Horizontal SaaS fails in these niches (high CAC, high churn). Vertical pivots show dramatic metrics: construction pivot dropped CAC from $1,420 to $285, churn from 5.4% to 1.8%, grew to $32K MRR in 6 months. Fire protection SaaS at $2.6K MRR with zero paid acquisition. AV rental platform (Rentman) at $15M–$20M ARR. Founders with domain experience win.",
-      "monetization": "B2B subscriptions ($100–$500/mo per company). Construction vertical: $32K MRR. Fire protection: $2.6K MRR, 25 customers, zero paid ads. Rentman: $15M+ ARR.",
-      "evidence": [
-        "https://www.reddit.com/r/SaaS/comments/1qt5s62/construction_vertical_saved_us_from_horizontal/",
-        "https://www.reddit.com/r/micro_saas/comments/1viw05l/b2b_saas_26k_mrr_with_zero_paid_acquisition/",
-        "https://www.indiehackers.com/post/tech/building-a-15m-arr-saas-from-a-gap-he-found-at-his-brick-and-mortar-HFriCBQLHukAmdXVEj1q"
-      ],
-      "how_searched": [
-        "Reddit (r/SaaS, r/micro_saas)",
-        "Indie Hackers case studies",
-        "Vertical SaaS revenue reports"
-      ],
-      "score": 90.0,
-      "found_at": "2026-10-21T10:33:17.646474+00:00"
-    },
-    {
       "name": "EU Withdrawal-Button Compliance Toolkit",
       "field": "E-commerce compliance / EU legal tech",
       "summary": "A free web app that generates an EU-compliant withdrawal button, withdrawal form, confirmation emails and audit trail for online stores, with paid monitoring, multi-language templates and compliance checks.",
@@ -1045,25 +1026,6 @@
       ],
       "score": 89.0,
       "found_at": "2026-10-30T01:01:57.365822+00:00"
-    },
-    {
-      "name": "WhatsApp Business CRM with AI Lead Qualification (LATAM/SMB Focus)",
-      "field": "Vertical SaaS / Chrome Extension",
-      "summary": "A Chrome extension that adds bulk messaging, AI-powered lead qualification, and CRM features directly into WhatsApp Web. Targets small businesses in Latin America and other WhatsApp-heavy markets where WhatsApp is the primary business communication channel.",
-      "why_now": "WhatsApp is the default business communication tool across LATAM, India, Southeast Asia, and parts of Europe. SMBs manage leads manually in chat with no CRM. Two independent builders recently hit revenue: Wapes AI reached $500 in 2 months (10 paying users across 5 LATAM countries) and a WhatsApp CRM SaaS hit $7K MRR with 160+ paying customers at $49/mo. Chrome Web Store provides free organic distribution.",
-      "monetization": "Freemium Chrome extension ($4.99–$14.99/mo) or standalone SaaS ($49/mo per account). Wapes AI: $500 revenue in 60 days. WhatsApp CRM SaaS: $7K MRR, 160+ customers, $49/mo.",
-      "evidence": [
-        "https://www.reddit.com/r/chrome_extensions/comments/1wnhd53/update_crossed_500_in_revenue_with_my_chrome/",
-        "https://www.reddit.com/r/microsaas/comments/1rk28jj/crossed_7kmo_with_my_second_saas_heres_what_i_did/",
-        "https://www.reddit.com/r/chrome_extensions/comments/1vpavwf/my_chrome_extension_made_217_in_its_first_week/"
-      ],
-      "how_searched": [
-        "Reddit (r/chrome_extensions, r/microsaas)",
-        "Indie Hackers revenue reports",
-        "Chrome Web Store organic search"
-      ],
-      "score": 88.0,
-      "found_at": "2026-10-21T10:33:16.743266+00:00"
     },
     {
       "name": "Startup Compliance Evidence Automation (SOC 2 / ISO 27001)",
@@ -1554,25 +1516,6 @@
       ],
       "score": 86.0,
       "found_at": "2026-10-30T07:09:38.173662+00:00"
-    },
-    {
-      "name": "Bulk Google Workspace Operations Chrome Extensions (Photos, Gmail, Drive)",
-      "field": "Productivity Tools / Chrome Extensions",
-      "summary": "Niche Chrome extensions that add bulk operations missing from Google Workspace: bulk edit/delete/download Google Photos, bulk save Gmail attachments to Drive, bulk operations on Drive files. Each solves one specific, painful gap in Google's native UI.",
-      "why_now": "Google Workspace has billions of users but lacks basic bulk operations. Multiple indie builders are quietly monetizing these gaps: Google Photos bulk editor at $600 MRR (650 WAU, 37% store-page-to-install), Gmail attachment bulk-saver at $215 MRR after 8 months, Google Apps Script AI assistant (OKEGAS) did $1,200 revenue in 4 days with 50% paid conversion. Chrome Web Store SEO drives organic installs.",
-      "monetization": "Freemium Chrome extensions ($5–$15/mo or lifetime). Google Photos bulk: $600 MRR. Gmail attachments: $215 MRR. OKEGAS: $1,200 in 4 days, 1,000 users, 4.89 rating.",
-      "evidence": [
-        "https://www.reddit.com/r/SaaS/comments/1w03znn/what_i_learned_getting_a_tiny_google_photos/",
-        "https://www.reddit.com/r/chrome_extensions/comments/1rru4ab/people_making_serious_mrr_from_chrome_extensions/",
-        "https://www.reddit.com/r/chrome_extensions/comments/1slp0z7/hit_240_installs_with_almost_50_percent_paid/"
-      ],
-      "how_searched": [
-        "Reddit (r/SaaS, r/chrome_extensions)",
-        "Chrome Web Store rankings",
-        "Indie Hackers milestone posts"
-      ],
-      "score": 85.0,
-      "found_at": "2026-10-21T10:33:16.875559+00:00"
     },
     {
       "name": "AI Video Clipping & Repurposing (Long-Form → Shorts)",
@@ -2396,25 +2339,6 @@
       "found_at": "2026-10-28T21:14:37.919940+00:00"
     },
     {
-      "name": "Shopify Micro-App Portfolio (Multiple Small Apps vs Single Platform)",
-      "field": "E-commerce / Shopify Ecosystem",
-      "summary": "Instead of building one large Shopify app, build a portfolio of 5–10 micro-apps each solving a specific merchant frustration (bundles, upsells, quantity breaks, virtual try-on, music players). Cross-sell via shared branding and App Store SEO.",
-      "why_now": "Shopify App Store acts like SEO — merchants search for specific problems. Multiple builders prove the portfolio model: $4K MRR with 6 apps (3,500+ installs, 350+ paying), $100K+ MRR portfolio (Kaching Appz), virtual try-on app hit $700 MRR in 3 months. Low CAC via App Store search (~70% of installs).",
-      "monetization": "Monthly subscriptions per app ($5–$30/mo). Portfolio of 6 apps: $4,204 MRR, 350+ paying. Kaching portfolio: 6-figure MRR. Virtual try-on: $700 MRR.",
-      "evidence": [
-        "https://www.reddit.com/r/SaaS/comments/1roedkc/4k_mrr_with_6_shopify_apps_goal_10kmrr/",
-        "https://www.indiehackers.com/post/tech/getting-out-of-the-freelancing-game-by-building-a-100k-mrr-shopify-app-portfolio-qdReVAgLjz6EpW4OrJSI",
-        "https://www.reddit.com/r/SideProject/comments/1qbq04l/building_a_virtual_tryon_shopify_app_to_700_mrr/"
-      ],
-      "how_searched": [
-        "Reddit (r/SaaS, r/SideProject)",
-        "Indie Hackers case studies",
-        "Shopify App Store search analysis"
-      ],
-      "score": 82.0,
-      "found_at": "2026-10-21T10:33:17.246765+00:00"
-    },
-    {
       "name": "Local-First AI Switchboard / Model Router (Privacy-First)",
       "field": "Developer Tools / Privacy Tech",
       "summary": "A polished desktop/web utility that routes AI requests to local open-source models (via Ollama/LM Studio) by default, falling back to cloud APIs only when the task exceeds local capability. Exposes one OpenAI-compatible endpoint, per-request routing rules, cost savings dashboard, and encrypted local memory. Zero data leaves device unless user approves.",
@@ -3014,25 +2938,6 @@
       ],
       "score": 79.0,
       "found_at": "2026-10-30T19:27:19.503654+00:00"
-    },
-    {
-      "name": "Google Apps Script AI Copilot Chrome Extension",
-      "field": "Developer Tools / Google Workspace",
-      "summary": "AI coding assistant embedded directly in the Google Apps Script editor (script.google.com). Generates, reviews, and applies code; fixes errors from execution logs; supports BYOK (Bring Your Own Key) for multiple LLM providers.",
-      "why_now": "25,000+ signups for Google Apps Script Copilot (10K active users, 4.0 rating). OKEGAS competitor hit 1,000 users in 6 months, 4.89 rating, $1,200 revenue in first 4 days with 50% paid conversion. Apps Script developers (millions) have no native AI assistance. Chrome extension distribution is free and organic.",
-      "monetization": "Freemium Chrome extension with BYOK (free tier) + paid tiers for advanced modes (autonomous agent, more providers). OKEGAS: Free/Plus/Pro tiers. GS Copilot: paid features detected, Stripe checkout.",
-      "evidence": [
-        "https://www.linkedin.com/posts/hassan-raza-531152109_googleappsscript-developertools-ai-activity-7502799984707297280-w628",
-        "https://www.reddit.com/r/chrome_extensions/comments/1slp0z7/hit_240_installs_with_almost_50_percent_paid/",
-        "https://chromewebstore.google.com/detail/google-apps-script-copilo/aakmllddlcknkbcgjabmcgggfciofbgo"
-      ],
-      "how_searched": [
-        "LinkedIn (product announcements)",
-        "Reddit (r/chrome_extensions)",
-        "Chrome Web Store listings"
-      ],
-      "score": 78.0,
-      "found_at": "2026-10-21T10:33:18.360286+00:00"
     },
     {
       "name": "AI Agent Observability & Evaluation for Production Workflows",
@@ -3653,6 +3558,23 @@
       "found_at": "2026-11-10T23:30:58.695828+00:00"
     },
     {
+      "name": "Postiz",
+      "field": "Social media management / creator tools",
+      "summary": "Open-source agentic social media scheduler that plans, generates and schedules posts across 30+ networks; a hosted cloud is sold while the AGPL code can be self-hosted.",
+      "why_now": "Stripe-verified MRR rose from about $17k in Jan 2026 to $403,954 on Nov 11, 2026; the repo has 41.4k stars and 7.9k forks, and growth accelerated after adding MCP, CLI and agent surfaces.",
+      "monetization": "$403,954 MRR, $1,844,481 all-time, 11,892 active subscriptions; plans $29-$99/month with a 7-day trial; TrustMRR notes additional Whop revenue is not included.",
+      "evidence": [
+        "https://trustmrr.com/startup/postiz",
+        "https://github.com/gitroomhq/postiz-app"
+      ],
+      "how_searched": [
+        "verified revenue leaderboard (TrustMRR)",
+        "open-source repository metrics (GitHub)"
+      ],
+      "score": 63.3,
+      "found_at": "2026-11-11T15:27:29.705378+00:00"
+    },
+    {
       "name": "Browser voice recorder with AI transcription and summaries (no hardware)",
       "field": "Productivity / voice notes",
       "summary": "A free web tool that records in-person meetings or phone audio directly in the browser and turns it into searchable transcripts, summaries and action items — Plaud's hardware-plus-subscription model minus the hardware.",
@@ -3933,6 +3855,23 @@
       "found_at": "2026-11-11T06:38:39.312735+00:00"
     },
     {
+      "name": "OpenWhen",
+      "field": "Consumer gifting / sentimental web tools",
+      "summary": "Free, no-account web tool for creating sealed digital 'open when' letters; a one-time premium unlocks photos, voice notes, themes, songs and gift cards.",
+      "why_now": "Revenue grew from $17 in Feb 2026 to $436 in Oct 2026, and the live product shows a 4.8/5 rating from 413 senders with no signup friction.",
+      "monetization": "One-time premium upgrade per letter; creator affiliate program pays $1 per paid sale, with partner tiers and letter-pack revenue share.",
+      "evidence": [
+        "https://1dea.io/traction/394",
+        "https://www.openwhen.cards/"
+      ],
+      "how_searched": [
+        "indie revenue roundup (1dea.io)",
+        "product site"
+      ],
+      "score": 50.7,
+      "found_at": "2026-11-11T15:27:31.014190+00:00"
+    },
+    {
       "name": "LiveReview (risk-aware AI code review, auto-approve safe PRs)",
       "field": "developer tools",
       "summary": "Scores every pull request for risk (LLM + incident-trained ML + code graph) and auto-approves the safest 30-50%, routing risky PRs to humans; free and self-hostable.",
@@ -4056,6 +3995,23 @@
       "found_at": "2026-11-10T10:05:27.865059+00:00"
     },
     {
+      "name": "Foundplay",
+      "field": "Game discovery / indie developer tools",
+      "summary": "Free discovery platform for browser games that sends players to creators' own pages, with optional paid Boost campaigns that guarantee counted outbound plays.",
+      "why_now": "The catalog lists 3,269 games with 226,357 counted outbound clicks, about 3,000 plays/day, and paid boosts priced at $15-$59 with refunds for undelivered plays.",
+      "monetization": "Boost costs $15 for 30 counted plays in 5 days; Boost Plus costs $59 for 150 counted plays in 5 days.",
+      "evidence": [
+        "https://foundplay.io/about",
+        "https://foundplay.io/stats"
+      ],
+      "how_searched": [
+        "product site about page",
+        "product site live stats"
+      ],
+      "score": 46.7,
+      "found_at": "2026-11-11T15:27:31.215177+00:00"
+    },
+    {
       "name": "Exa Monitors v2 (scheduled web search for AI agents)",
       "field": "agent infrastructure",
       "summary": "Runs an Exa search on a cadence and pushes only new, relevant results to a webhook with summaries/JSON and citations; dedupes against prior runs.",
@@ -4089,6 +4045,23 @@
       ],
       "score": 45.3,
       "found_at": "2026-11-11T06:38:40.485585+00:00"
+    },
+    {
+      "name": "Mentiohunt Author Finder",
+      "field": "PR / outreach / link building tools",
+      "summary": "Free no-signup web tool that takes an article URL and returns the author plus the best available contact details with confidence labels; a paid product handles multiple lookups.",
+      "why_now": "The free tool drew 1,530 organic visits in Oct 2026 and produced 4 paying customers since mid-October, while competing author finders price from $39-$199/month.",
+      "monetization": "Free single lookups; paid tier for users needing more than one lookup (price not publicly disclosed).",
+      "evidence": [
+        "https://1dea.io/traction/412",
+        "https://mentiohunt.com/free-tools/author-contact-finder"
+      ],
+      "how_searched": [
+        "indie revenue roundup (1dea.io)",
+        "product site"
+      ],
+      "score": 44.0,
+      "found_at": "2026-11-11T15:27:32.083646+00:00"
     },
     {
       "name": "LLM Gateway",
@@ -4144,6 +4117,23 @@
       "found_at": "2026-11-10T10:05:28.543567+00:00"
     },
     {
+      "name": "SeoLoupe",
+      "field": "SEO / AI search visibility tools",
+      "summary": "Web-based SEO, performance, backlink, keyword and AI search (GEO/AEO) audit tool that returns prioritized fix recommendations and PDF reports.",
+      "why_now": "TrustMRR verifies $101 MRR from 7 active subscriptions and $807 all-time revenue, while 1dea reports $1,000 revenue and 64 paying users out of 3,282 signups.",
+      "monetization": "$9 one-time for 3 scans; $12/month Starter with 25 scans; $29/month Professional with unlimited scans and white-label reports.",
+      "evidence": [
+        "https://1dea.io/traction/420",
+        "https://trustmrr.com/startup/seoloupe"
+      ],
+      "how_searched": [
+        "indie revenue roundup (1dea.io)",
+        "verified revenue leaderboard (TrustMRR)"
+      ],
+      "score": 41.3,
+      "found_at": "2026-11-11T15:27:33.142571+00:00"
+    },
+    {
       "name": "RetentionCheck (AI churn-feedback analyzer for SaaS)",
       "field": "SaaS analytics",
       "summary": "Paste cancellation feedback (text/CSV/emails); Claude returns a 0-100 Churn Health Score (A-F), ranked drivers with confidence and quotes, plus one priority action.",
@@ -4160,6 +4150,40 @@
       ],
       "score": 40.0,
       "found_at": "2026-11-10T10:05:29.599624+00:00"
+    },
+    {
+      "name": "ClimbX",
+      "field": "Social media growth / creator tools",
+      "summary": "AI copilot for X that finds high-performing posts in a niche, drafts in the user's voice and schedules through X's official API.",
+      "why_now": "TrustMRR verifies about $1,160 MRR from 40 active subscriptions, and the founder reached about 13k X followers in 200 days before building the tool.",
+      "monetization": "$29/month for the first 100 users, then $39/month, with a 7-day trial requiring a card.",
+      "evidence": [
+        "https://1dea.io/traction/402",
+        "https://trustmrr.com/startup/climbx"
+      ],
+      "how_searched": [
+        "indie revenue roundup (1dea.io)",
+        "verified revenue leaderboard (TrustMRR)"
+      ],
+      "score": 38.7,
+      "found_at": "2026-11-11T15:27:33.756152+00:00"
+    },
+    {
+      "name": "Smart Blur",
+      "field": "Browser privacy / productivity extensions",
+      "summary": "Chrome extension that blurs emails, phone numbers, card numbers and custom keywords on-page before screen sharing, with on-device AI detection in Pro.",
+      "why_now": "It reached 1000+ installs and 10 paying users, with a 20-25% uninstall rate, and the studio publishes privacy-focused guides on hiding sensitive IDs during screen shares.",
+      "monetization": "Freemium model: core features free; Pro available as one-time Lifetime or annual, with yearly team licenses.",
+      "evidence": [
+        "https://1dea.io/traction/416",
+        "https://smartbuildlabs.com"
+      ],
+      "how_searched": [
+        "indie revenue roundup (1dea.io)",
+        "product site"
+      ],
+      "score": 37.3,
+      "found_at": "2026-11-11T15:27:34.403803+00:00"
     }
   ]
 }
