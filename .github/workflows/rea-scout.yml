@@ -1,0 +1,111 @@
+name: REA Scout (paid-product study, private Telegram report)
+
+# Runs HERE, not in MDM1.org, because this repo already owns the working Telegram bot, the LLM keys and the cross-repo token (SITES_PAT).
+# The studied product is written only into the private Telegram report - never into a public log or file.
+
+on:
+  schedule:
+    - cron: '0 5 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  models: read
+
+concurrency:
+  group: rea-scout
+  cancel-in-progress: false
+
+jobs:
+  rea:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install requests (used by the existing notifier)
+        run: pip install requests
+
+      - name: Checkout the site scripts (public repo, read only)
+        uses: actions/checkout@v4
+        with:
+          repository: md1god/mdm1.org
+          path: site
+          fetch-depth: 1
+
+      - name: 1) Pick a product and one core feature
+        working-directory: site
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          OPENCODE_API_KEY: ${{ secrets.OPENCODE_API_KEY }}
+        run: python3 scripts/rea_scout.py pick 2>&1 | tee /tmp/pick.log
+
+      - name: 2) REA - observe the public page (best effort, output kept private)
+        continue-on-error: true
+        run: |
+          test -s /tmp/target.json || exit 0
+          URL=$(python3 -c "import json;print(json.load(open('/tmp/target.json'))['url'])")
+          (google-chrome --headless=new --no-sandbox --remote-debugging-port=9222 "$URL" >/dev/null 2>&1 &)
+          sleep 8
+          npx --yes rea-agents@latest list-browser-targets http://127.0.0.1:9222 --format json > /tmp/targets.json 2>/tmp/rea.err
+          TID=$(python3 -c "import json;d=json.load(open('/tmp/targets.json'));t=d.get('targets',d) if isinstance(d,dict) else d;print(t[0].get('id') or t[0].get('targetId'))")
+          npx --yes rea-agents@latest analyze-web-bundle http://127.0.0.1:9222 "$TID" --detail complete --token-limit 6000 --format md > /tmp/rea-evidence.txt 2>>/tmp/rea.err
+
+      - name: 3) Spec, then build from the spec only, with the site's own gates
+        working-directory: site
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          OPENCODE_API_KEY: ${{ secrets.OPENCODE_API_KEY }}
+        run: python3 scripts/rea_scout.py build
+
+      - name: 4) Hand over to the site's pipeline (tool or app), same way the Global Scout does
+        env:
+          GH_TOKEN: ${{ secrets.SITES_PAT }}
+        run: |
+          test -s /tmp/tool.json || { echo "nothing to hand over today"; exit 0; }
+          KIND=$(python3 -c "import json;print(json.load(open('/tmp/target.json'))['kind'])")
+          if [ "$KIND" = "app" ]; then
+            gh workflow run add-app.yml -R md1god/mdm1.org --ref main -f app_json="$(cat /tmp/tool.json)"
+          else
+            gh workflow run trend-pages.yml -R md1god/mdm1.org --ref main -f tool_json="$(cat /tmp/tool.json)"
+          fi
+          echo ok > /tmp/dispatched.txt
+
+      - name: 5) Build the report text (captured to a file - it must NOT go to the public channel)
+        if: always()
+        working-directory: site
+        run: |
+          python3 - <<'PY'
+          import sys
+          sys.path.insert(0, "scripts")
+          import rea_scout as R
+          R.tg_send = lambda text: open("/tmp/rea-report.txt", "w", encoding="utf-8").write(text)   # capture instead of sending
+          R.report()
+          PY
+          if [ ! -s /tmp/target.json ]; then
+            { echo; echo "آخر سطور التشخيص:"; grep -v '^::add-mask::' /tmp/pick.log 2>/dev/null | tail -8; } >> /tmp/rea-report.txt
+          fi
+
+      - name: 6) Send it privately with the existing Telegram bot
+        if: always()
+        working-directory: md1_global_agent
+        env:
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          CHAT_ID: ${{ secrets.CHAT_ID }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          OWNER_CHAT_ID: ${{ secrets.OWNER_CHAT_ID }}
+          LEDGER_SALT: ${{ secrets.LEDGER_SALT }}
+        run: |
+          python3 -c "
+          import sys
+          from notify.telegram import send_private
+          sys.exit(0 if send_private(open('/tmp/rea-report.txt', encoding='utf-8').read()) else 1)"
