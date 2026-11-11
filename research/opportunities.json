@@ -538,31 +538,6 @@
       "found_at": "2026-10-24T14:38:59.249760+00:00"
     },
     {
-      "name": "AI Content Repurposing Platform (Multi-Format)",
-      "field": "Creator Economy / Marketing SaaS",
-      "summary": "A web tool that takes one long-form input (podcast, video, webinar, blog post) and automatically generates publish-ready assets for every platform: LinkedIn posts, X threads, Instagram captions, TikTok scripts, email newsletters, blog drafts, quote cards, and audiograms — all in the creator's voice via saved prompt chains.",
-      "why_now": "Explosive creator demand for 'write once, publish everywhere' workflows. CastMagic hit ~$130K MRR in 10 months (Starter Story, ProvenStartups). Repurpose.io reached $5M ARR bootstrapped (Latka, Vantaige). Swell AI hit $1.1M ARR in 2 years (Startup Founder Stories). Autoclip shows $13K MRR verified (TrustMRR). Proclips verified on TrustMRR. ClipNow at $220K ARR (Latka). Deep Dive research shows single-platform tools (Taplio $3.5M ARR LinkedIn-only, EasyGen $41.5K MRR in 92 days) prove 5-7x addressable market for multi-platform tools.",
-      "monetization": "Subscription SaaS: tiered by transcription hours/output volume. CastMagic: $21-59/mo. Repurpose.io: ~$25-79/mo. Autoclip: $20-80/mo. Proclips: $15-29/mo. High margins (70-80%) — AI costs are fractional per output. Bootstrapped founders keep marketing <20% of revenue.",
-      "evidence": [
-        "https://stationlm.com/analysis/e16b1558-dc64-43e9-8b02-f6f002906455",
-        "https://provenstartups.com/projects/cast-magic-content-repurposing",
-        "https://vantaige.io/ai-tool/repurpose-io",
-        "https://startupfounderstories.com/stories/cody-schneider-swell-ai-1m-arr-cold-outreach",
-        "https://trustmrr.com/startup/autoclip",
-        "https://trustmrr.com/startup/proclips",
-        "https://getlatka.com/companies/clipnow.ai",
-        "https://gist.github.com/kainulla/5304650c3631bb95384f77a37cf3ff72"
-      ],
-      "how_searched": [
-        "Founder revenue interviews (Starter Story, ProvenStartups)",
-        "Verified revenue directories (TrustMRR, Latka)",
-        "Competitor analysis (Deep Dive market research gist)",
-        "Bootstrapped SaaS case studies (Vantaige, Startup Founder Stories)"
-      ],
-      "score": 92.0,
-      "found_at": "2026-10-21T15:40:18.235968+00:00"
-    },
-    {
       "name": "Photo-based Calorie Estimator (web)",
       "field": "Health & Wellness",
       "summary": "Free browser tool that estimates calories/macros from a meal photo with editable results, avoiding mobile app lock-in and ad gates.",
@@ -964,30 +939,23 @@
       "found_at": "2026-10-30T01:01:55.978907+00:00"
     },
     {
-      "name": "Agent-to-Agent Commerce Marketplace",
-      "field": "AI Infrastructure / Agent Economy",
-      "summary": "A discovery and transaction layer where autonomous AI agents find, evaluate, and pay other agents for microservices (data retrieval, inference, computation, verification) via micropayments — no human in the loop, no API keys, per-request pricing in stablecoins.",
-      "why_now": "Live infrastructure already processing massive volume: x402 protocol shows 165M+ transactions, $50M+ volume, 480K+ transacting agents (Coinbase Agentic.Market launch, AgentLux). Virtuals Protocol: $479M autonomous GDP, $2.63M monthly revenue, 1.77M completed jobs (Dev.to guide). Fetch.ai Agentverse: 2.7-3M agents deployed (LeoDex). Olas Mech Marketplace: 14.8M agent-to-agent transactions, $110K turnover (Olas.network). NEAR AI Agent Market live (Near.ai). OKX: 10K+ agents, 20K+ tasks since July (Gate.com). toku.agency bridges fiat + agent-to-agent (300+ agents). Anthropic's Project Deal proved agents out-negotiate humans (TechSifted). Daily volume ~$28K and growing.",
-      "monetization": "Protocol fees on each transaction (x402 takes ~0.1-0.5%), marketplace listing fees, featured placement, premium discovery/analytics for agent builders. Virtuals: 1% tax on agent token trades + protocol revenue. toku.agency: platform fee on USD payments. High-volume, low-margin per txn but massive scale potential.",
+      "name": "EU AI Act SME Compliance Copilot",
+      "field": "RegTech / compliance",
+      "summary": "A guided web tool that inventories AI systems, generates Article 4 AI-literacy records, flags Article 50 transparency duties, and exports an audit-ready compliance pack for SMEs.",
+      "why_now": "Most EU AI Act obligations became applicable and enforceable on 2 Aug 2026, and SMEs are deployers too. Guides now tell SMEs to keep AI inventories, dated training records and transparency checks; paid compliance tools start at €9.99–$19/mo.",
+      "monetization": "Freemium: free inventory and checker; paid audit-pack exports, monitoring and team seats. Comparable SME tools price from €9.99/mo to $19/mo for basic plans, with higher compliance tiers.",
       "evidence": [
-        "https://www.coinbase.com/developer-platform/discover/launches/agentic-market",
-        "https://agentlux.ai/blog/the-first-wave-of-agent-to-agent-commerce-what-480-000-agents-and-50m-in-volume-tell-us",
-        "https://dev.to/neilvolner/the-complete-guide-to-ai-agent-marketplaces-in-2026-where-agents-get-hired-and-paid-8ja",
-        "https://olas.network/mech-marketplace",
-        "https://near.ai/blog/what-is-agent-market",
-        "https://www.gate.com/news/detail/okx-launches-ai-agent-marketplace-with-10000-agents-24147172",
-        "https://markhendy.com/the-agentic-economy-has-already-started-167-million-transactions-in",
-        "https://techsifted.com/posts/anthropic-agent-commerce-april-2026/"
+        "https://ai-act-service-desk.ec.europa.eu/en/ai-act/eu-ai-act-implementation-timeline",
+        "https://unadhi.com/guides/eu-ai-act-compliance-tools-small-business-2026.html",
+        "https://www.themio.ai/en/blog/best-ai-act-compliance-tools-sme-2026"
       ],
       "how_searched": [
-        "Protocol-level transaction data (x402, Coinbase, Base)",
-        "Decentralized marketplace metrics (Virtuals, Fetch.ai, Olas, NEAR)",
-        "Centralized exchange launches (OKX)",
-        "Industry analysis (AgentLux, Dev.to, Mark Hendy)",
-        "Research experiment (Anthropic Project Deal)"
+        "official EU implementation timeline",
+        "search engine for SME compliance guides",
+        "vendor pricing comparison"
       ],
-      "score": 89.0,
-      "found_at": "2026-10-21T15:40:22.456939+00:00"
+      "score": 90.0,
+      "found_at": "2026-11-11T22:04:49.734824+00:00"
     },
     {
       "name": "AI Meeting Notes & Sales Intelligence",
@@ -1026,26 +994,6 @@
       ],
       "score": 89.0,
       "found_at": "2026-10-30T01:01:57.365822+00:00"
-    },
-    {
-      "name": "Startup Compliance Evidence Automation (SOC 2 / ISO 27001)",
-      "field": "B2B SaaS / security compliance",
-      "summary": "Web platform that auto-drafts policies, pulls evidence from cloud tools, monitors controls, and generates auditor-ready packages for SOC 2, ISO 27001, HIPAA and GDPR so startups close enterprise deals faster.",
-      "why_now": "Comp AI hit Stripe-verified ~$700K in last-30-days revenue and ~$6.1M all-time with only ~49 active subscriptions (high-ACV annual deals), grew ARR 15x YoY past 1,000 customers, and raised a $34M Series A (total $37.5M) in Sept 2026; demand is revenue-blocking security questionnaires, not optional paperwork.",
-      "monetization": "Annual seats + audit-week setup packs; Comp AI MRR snapshot ~$11.7K on 52 subs with L30 ~$700-750K (Stripe-verified); category peers sell $12K+/mo ACV.",
-      "evidence": [
-        "https://trustmrr.com/startup/comp-ai",
-        "https://www.wlad.me/blog/companies/comp-ai",
-        "https://grandvcp.com/we-backed-comp-ai-at-pre-seed-15-months-later-we-doubled-down/",
-        "https://indiepa.ge/leaderboard"
-      ],
-      "how_searched": [
-        "open-startup revenue leaderboard (IndiePage)",
-        "Stripe-verified TrustMRR / Boring SaaS",
-        "VC portfolio case study"
-      ],
-      "score": 88.0,
-      "found_at": "2026-10-21T19:34:15.056731+00:00"
     },
     {
       "name": "Multi-Platform Social Cross-Poster (Post Bridge model)",
@@ -1280,30 +1228,6 @@
       "found_at": "2026-10-30T14:20:25.205423+00:00"
     },
     {
-      "name": "AI-Powered Accounts Receivable / Invoice Automation",
-      "field": "B2B Fintech / SMB SaaS",
-      "summary": "End-to-end AR automation: AI drafts invoices from contracts/time-tracking, sends at optimal times, runs personalized dunning sequences, reconciles payments to invoices, forecasts cash flow, and surfaces only exceptions for human review. Replaces 4-10 hrs/mo manual billing work.",
-      "why_now": "Clear, measurable ROI driving adoption: Billtrust survey shows 99% of AI adopters reduced DSO, 75% by 6+ days (Billed.app). HighRadius reports 95%+ cash application straight-through. NextClerk at $3.2M ARR, 80 contracts (NextClerk.com). Klooks at $50K MRR bootstrapped (FirstMRR). Parseur at 7-figure ARR, 1,000 customers across 70 countries (FirstMRR). Stripe Billing AI recovers 10-30% more failed payments via Smart Retries (Stripe). Stripe disabled native revenue recognition Aug 2026, charging $25-1,650/mo — forcing migration (Puzzle.io). Average SMB payback: 60-120 days, 14% annual ROI (Sinqra).",
-      "monetization": "SaaS subscription: $50-500/mo for SMBs (Bill.com, Fazeshift, Gaviti, Paraglide, Tesorio tiers). Usage-based on invoice volume (Stripe Billing: 0.5-0.7% of revenue). Custom automation builds: $2,500-8,000 setup + $300-1,200/mo (Codexo). High retention — billing is sticky, mission-critical infrastructure.",
-      "evidence": [
-        "https://nextclerk.com/",
-        "https://billed.app/hub/invoicing/ai-agents-for-accounts-receivable/",
-        "https://americanbusinesscenter.org/guides/ai-agent-invoicing-small-business-2026",
-        "https://sinqra.io/blog/automate-recurring-invoices",
-        "https://puzzle.io/blog/puzzle-automates-revenue-recognition-for-stripe-users",
-        "https://topnotchaitools.com/ai-invoicing-tools-for-small-business-7-compared-2026/"
-      ],
-      "how_searched": [
-        "Verified revenue case studies (FirstMRR)",
-        "Vendor product pages with metrics (NextClerk, Puzzle, Ordway)",
-        "Industry surveys (Billtrust, HighRadius via Billed.app)",
-        "ROI calculators and implementation guides (Sinqra, Zarif Automates, Codexo)",
-        "Tool comparison reviews (TopNotchAITools)"
-      ],
-      "score": 87.0,
-      "found_at": "2026-10-21T15:40:30.918468+00:00"
-    },
-    {
       "name": "AI Social Media Viral Post Analyzer (Free Web Tool)",
       "field": "Creator Economy / Social Media Analytics",
       "summary": "A free web tool where creators paste an X/Twitter/LinkedIn/Bluesky post URL and get: virality score, hook breakdown, engagement-rate benchmark vs niche, best-time-to-post heatmap, AI rewrite in their voice, and a \"why this worked\" breakdown. Free tier: 10 analyses/day; Pro adds scheduling, cross-posting, 10M+ viral post library.",
@@ -1364,6 +1288,25 @@
       ],
       "score": 87.0,
       "found_at": "2026-10-26T19:26:09.300196+00:00"
+    },
+    {
+      "name": "AI Lecture-to-Quiz Study Workspace",
+      "field": "EdTech",
+      "summary": "Turns lectures, PDFs, videos and textbooks into quizzes, flashcards and a voice tutor, with progress tracking and spaced repetition.",
+      "why_now": "A listed AI study SaaS has ~$434K ARR, 6,400+ paying subs, 18.2K MAU and ~1.06M questions answered in Sept 2026; Studyflash is estimated at ~$100K MRR and ~50K downloads/mo. Another study-assistant due-diligence report shows $142.6K average gross MRR over the last 30 days.",
+      "monetization": "Monthly/annual subscriptions plus AI-credit top-ups; the Acquire listing shows ~$63.6K last-month revenue and 6,400+ paying subscribers.",
+      "evidence": [
+        "https://app.acquire.com/public/2n3dqsi8x9-ai-study-saas-quizzes-flashcards-ai-voice-tutor-6-4k-paying-subs-434k-arr-61k-sde",
+        "https://peekly.app/apps/1d7497fb-8508-423c-8046-af8a98c22516",
+        "https://approck.com/blog/due-diligence-ai-study-assistant"
+      ],
+      "how_searched": [
+        "acquisition marketplace",
+        "app revenue estimator",
+        "due-diligence report"
+      ],
+      "score": 87.0,
+      "found_at": "2026-11-11T22:04:51.839189+00:00"
     },
     {
       "name": "Reddit & X Buyer-Intent Lead Radar",
@@ -1518,28 +1461,23 @@
       "found_at": "2026-10-30T07:09:38.173662+00:00"
     },
     {
-      "name": "AI Video Clipping & Repurposing (Long-Form → Shorts)",
-      "field": "Creator Tools / Video AI",
-      "summary": "Web tool that ingests long-form video (YouTube, Twitch, podcast recordings) and automatically extracts viral short clips: speaker-aware framing, word-level captions, filler/silence removal, hook scoring, and auto-scheduling to TikTok/Reels/Shorts. One link → a week of ready-to-post verticals.",
-      "why_now": "Podcasters/streamers sit on hours of unclipped content; editing one Short takes 1+ hour manually. Autoclip: $13K MRR verified, 416 subscriptions (TrustMRR). Proclips: TrustMRR verified, launched June 2026, YouTube/Twitch/Vimeo ingestion, scheduler live (TrustMRR). OpusClip: $215M valuation, 10M users, $68M raised (Deep Dive gist). ClipNow: $220K ARR estimated (Latka). Market validation: AutoShorts.ai hit $103K MRR in 6 months for Shorts-only (MicroGaps), proving demand; long-form clipping is the unserved premium segment.",
-      "monetization": "Freemium: free tier with watermark/clip limits. Paid: $15-80/mo by volume (Autoclip: $20-80, Proclips: $15-29, OpusClip: ~$19-95). High margins — GPU inference cost per clip is cents. Agency/team tiers at $200-500/mo.",
+      "name": "AI Scam Link & Message Checker",
+      "field": "Cybersecurity / consumer protection",
+      "summary": "Paste a suspicious URL, SMS or chat message and get a plain-language safety verdict, screenshot preview, red flags and next steps.",
+      "why_now": "GASA estimates $442B lost to scams across 42 countries, with 23% of 46,000 respondents losing money in the past year. Malwarebytes found 85% of people can no longer reliably tell a scam from the real thing and launched a free link checker on 5 Oct 2026; Serus reports ~1.1B scam checks/month.",
+      "monetization": "Free consumer checker funneling to paid family/team protection, API or white-label checks for banks and marketplaces, and affiliate security subscriptions.",
       "evidence": [
-        "https://trustmrr.com/startup/autoclip",
-        "https://trustmrr.com/startup/proclips",
-        "https://gist.github.com/kainulla/5304650c3631bb95384f77a37cf3ff72",
-        "https://getlatka.com/companies/clipnow.ai",
-        "https://www.microgaps.com/gaps/2026-02-06-faceless-youtube-automation",
-        "https://www.madewithmodels.com/money/lists/faceless-ai-youtube-channel-income/"
+        "https://www.serus.ai/research/scams-exposure-erasure/",
+        "https://www.malwarebytes.com/press/2026/10/05/malwarebytes-launches-free-scam-link-check-so-anyone-can-verify-a-link-is-safe-before-they-click",
+        "https://gasa.org/knowledge-base/blog/gasa-policy-agenda-2026"
       ],
       "how_searched": [
-        "Verified revenue directories (TrustMRR)",
-        "Latka revenue estimates",
-        "Market gap analysis (MicroGaps)",
-        "Creator income receipts (MadeWithModels)",
-        "Competitor funding/valuation data (OpusClip via Deep Dive)"
+        "consumer security research",
+        "product launch press release",
+        "anti-scam policy/research report"
       ],
-      "score": 85.0,
-      "found_at": "2026-10-21T15:40:33.488591+00:00"
+      "score": 86.0,
+      "found_at": "2026-11-11T22:04:52.284823+00:00"
     },
     {
       "name": "Financial PDF (Bank Statement) → Spreadsheet Converter",
@@ -1857,26 +1795,6 @@
       ],
       "score": 85.0,
       "found_at": "2026-11-10T23:30:37.324254+00:00"
-    },
-    {
-      "name": "Personal AI Assistant You Text (SMS/WhatsApp Agent)",
-      "field": "Consumer AI agents / messaging",
-      "summary": "An always-on personal agent reachable by text or WhatsApp that books travel, cancels subscriptions, manages email/calendar and completes multi-step tasks using its own phone number and computer—no new app UI.",
-      "why_now": "Instinct went from invite-only launch (Aug 2026) to $10B valuation with $1B Series C in one month, claims 100K+ users and $1B+ annual transaction volume (50% travel); readywhen hit Product Hunt #3 on Oct 19, 2026; TechCrunch catalogued 20+ messaging agents in one week; Meta is shipping free WhatsApp business agents.",
-      "monetization": "Merchant commissions (Instinct cites up to 30% from boutique hotels), subscriptions ($20-35/mo peers: Martin $21/mo, Tomo $19.99/mo, Ohai $9.99+/mo), or free+ads; Instinct itself may stay free for users and charge merchants.",
-      "evidence": [
-        "https://techcrunch.com/2026/09/28/viral-ai-agent-instinct-raises-1b-series-c-at-a-10b-valuation/",
-        "https://techcrunch.com/2026/10/10/all-the-ai-agents-that-can-live-in-your-text-messages/",
-        "https://www.producthunt.com/products/readywhen",
-        "https://skift.com/2026/09/28/instincts-app-is-fueled-by-travel-founder-says-its-half-of-volume/"
-      ],
-      "how_searched": [
-        "funding/valuation news",
-        "Product Hunt daily leaderboard",
-        "tech press category roundup"
-      ],
-      "score": 84.0,
-      "found_at": "2026-10-21T19:34:15.552927+00:00"
     },
     {
       "name": "Autonomous AI Social Media Influencer Agent",
@@ -2339,51 +2257,23 @@
       "found_at": "2026-10-28T21:14:37.919940+00:00"
     },
     {
-      "name": "Local-First AI Switchboard / Model Router (Privacy-First)",
-      "field": "Developer Tools / Privacy Tech",
-      "summary": "A polished desktop/web utility that routes AI requests to local open-source models (via Ollama/LM Studio) by default, falling back to cloud APIs only when the task exceeds local capability. Exposes one OpenAI-compatible endpoint, per-request routing rules, cost savings dashboard, and encrypted local memory. Zero data leaves device unless user approves.",
-      "why_now": "Privacy fatigue + cost pressure driving local-first adoption. Google Trends: 'local llm' 246K monthly searches, ~68x YoY; 'local llms' same (RisingTrends). SurfiAI launched May 2026: 3,800+ active users, 284K API calls, 99.9% uptime (Einpresswire). MumbleFlow: ~$10K revenue in ~1 year, thousands of users (Volanea, Reddit). SurfSense: 16.5K GitHub stars, active Oct 2026 (OpenTechHub). HammerLock AI, Aegis, EdgeProc all shipping local-first. 'LLM model router / cost-optimization calculator' in ALREADY KNOWN is cost-focused; this is privacy/offline-first — different user, different value prop.",
-      "monetization": "Free local-first tier. Pro: $19-49/mo for expanded API usage, all models, team features (SurfiAI). One-time license: $49-99 (Aegis model). Enterprise: self-hosted installer + support. Margins high — user supplies compute. 20K users at $49/yr = ~$1M ARR bootstrapped.",
+      "name": "Interview Rehearsal & Live Answer Coach",
+      "field": "HR tech / career",
+      "summary": "A practice-first interview coach that generates role-specific questions, scores answers against a résumé and job description, and gives live structure prompts with an explicit consent mode.",
+      "why_now": "A stealth AI interview copilot is at $23.5K MRR with 700 subscriptions and $1.03M all-time revenue; another founder reports 6-figure MRR. Employer bans and concealment risk make a consent-first practice product the safer wedge.",
+      "monetization": "Subscription at ~$34/user/mo (derived from $23.5K MRR / 700 subs), annual plans, and B2B outplacement or career-services seats.",
       "evidence": [
-        "https://www.einpresswire.com/article/910588313/surfiai-launches-privacy-first-ai-assistant-that-runs-offline-on-your-own-device",
-        "https://www.volanea.com/blog/local-speech-to-text-saas-10k-growth-lesson",
-        "https://www.opentechhub.io/surfsense/",
-        "https://github.com/hseshadr/edge-proc",
-        "https://www.hammerlockai.com/",
-        "https://aegis.bytrish.me/",
-        "https://www.risingtrends.co/trends/ai-trends-2026",
-        "https://www.startupheist.com/the-local-ai-switchboard-stop-renting-cloud-intelligence-for-49-year/"
+        "https://theaireceipts.com/case-studies/ai-interview-copilot/",
+        "https://www.reddit.com/r/BootstrappedSaaS/comments/1rf0j3w/a_friend_built_an_ai_interview_copilot_from_his/",
+        "https://www.sofarbot.com/stories/interviewcopilot-vegard-1335-mrr"
       ],
       "how_searched": [
-        "Product launches with metrics (SurfiAI press release)",
-        "Founder case studies (MumbleFlow on Volanea/Reddit)",
-        "Open source traction (SurfSense GitHub stars)",
-        "Developer tooling (EdgeProc, HammerLock, Aegis)",
-        "Search trend data (RisingTrends, Google Trends via Cleanor)",
-        "Market analysis (StartupHeist)"
+        "verified revenue case study",
+        "founder community thread",
+        "product teardown and ethics analysis"
       ],
-      "score": 82.0,
-      "found_at": "2026-10-21T15:40:41.198490+00:00"
-    },
-    {
-      "name": "Sports Event Photo Marketplace with Face/Bib Search",
-      "field": "Marketplace / sports photography",
-      "summary": "Two-sided marketplace where race photographers upload event galleries and athletes find themselves in seconds via selfie facial recognition or bib-number OCR, then buy full-res photos; commission take-rate plus photographer subscriptions.",
-      "why_now": "ZebraSnap (Stripe-verified) did ~$31.3K last-30-days (+34.9% MoM) and ~$144.8K all-time at ~75% L30 margin; FindMyShots claims 100K+ photos sold; FlashFrame, RaceShots and picsel show an active multi-player category expanding beyond one incumbent.",
-      "monetization": "Marketplace commission (ZebraSnap free plan ~13-16% down to 4-5% on paid tiers) + photographer seats $16.99-99.99/mo; most cash is take-rate not seats.",
-      "evidence": [
-        "https://www.wlad.me/blog/2026-10-15",
-        "https://zebrasnap.com/for-photographers",
-        "https://app.findmyshots.com/",
-        "https://www.flashframe.io/"
-      ],
-      "how_searched": [
-        "Stripe-verified boring-SaaS board",
-        "product marketplace sites",
-        "competitor landscape pages"
-      ],
-      "score": 82.0,
-      "found_at": "2026-10-21T19:34:16.678928+00:00"
+      "score": 83.0,
+      "found_at": "2026-11-11T22:04:52.534034+00:00"
     },
     {
       "name": "Restaurant Waitlist & Reservation SaaS",
@@ -2596,6 +2486,25 @@
       "found_at": "2026-10-30T14:20:39.436462+00:00"
     },
     {
+      "name": "EAA Web Accessibility Fixer",
+      "field": "Accessibility / compliance",
+      "summary": "Scans an EU-facing website for EAA and EN 301 549 issues, explains each failure, and generates developer-ready fixes and an accessibility statement.",
+      "why_now": "EAA enforcement started 28 June 2025; the 2026 Digital Trust Index found 91.45% of 326,250 European homepages still fail accessibility checks, and French courts plus Dutch and German regulators began enforcement activity in 2026.",
+      "monetization": "Free single-page scan; paid monitoring, multi-page audits, PDF reports and agency white-label. National fines range from €60K to ~€900K.",
+      "evidence": [
+        "https://www.digitaltrustindex.eu/",
+        "https://www.levelaccess.com/blog/eaa-compliance-in-2026-how-enforcement-has-evolved-and-what-to-expect-next/",
+        "https://abilitynet.org.uk/news-blogs/eaa-monitoring-story-so-far"
+      ],
+      "how_searched": [
+        "accessibility benchmark dataset",
+        "law-firm enforcement tracker",
+        "disability-org monitoring report"
+      ],
+      "score": 82.0,
+      "found_at": "2026-11-11T22:04:53.736324+00:00"
+    },
+    {
       "name": "AI Skin-Analysis Quiz for Beauty Ecommerce",
       "field": "Beauty e-commerce / computer vision",
       "summary": "A free cosmetic selfie-based skin quiz that scores concerns, builds a routine and recommends products from a brand's catalog, with paid white-label versions for beauty stores.",
@@ -2675,30 +2584,6 @@
       ],
       "score": 81.0,
       "found_at": "2026-10-28T21:14:43.074261+00:00"
-    },
-    {
-      "name": "SaaS Revenue Recognition & Metrics Automation",
-      "field": "FinTech / Accounting AI",
-      "summary": "AI-native layer that pulls Stripe/subscription data directly into the general ledger, auto-categorizes 100% of transactions, generates GAAP-compliant revenue recognition schedules (ASC 606/IFRS 15), and computes MRR, ARR, churn, NDR in real time — replacing spreadsheets and Stripe's now-paid RevRec add-on.",
-      "why_now": "Stripe disabled native Revenue Recognition for unpaid accounts Aug 20, 2026, now charges $25-1,650/mo (Puzzle.io). Creates immediate migration urgency for thousands of Stripe Billing users. NextClerk at $3.2M ARR, 80 contracts, $267K MRR (NextClerk.com). Puzzle: AI-native accounting with automated Stripe rev rec (Puzzle.io). Ordway: AI contract abstraction, cash application, $50M+ ARR customers (Ordway). SEO Stack: $23K MRR verified, includes AI visibility + data warehousing + rev rec (TrustMRR, 1M.chat). Market: every SaaS >$50K MRR needs this.",
-      "monetization": "SaaS subscription: $50-500/mo by volume (Puzzle, Ordway tiers). Per-seat or per-entity pricing. High stickiness — financial system of record. Expansion into AP/AR, forecasting, board reporting.",
-      "evidence": [
-        "https://nextclerk.com/",
-        "https://puzzle.io/blog/puzzle-automates-revenue-recognition-for-stripe-users",
-        "https://ordwaylabs.com/ai-llm/",
-        "https://trustmrr.com/startup/seo-stack",
-        "https://1m.chat/cases/seo-stack/",
-        "https://www.guptadeepak.com/geo-compass/guides/geo-tooling-market-2026/"
-      ],
-      "how_searched": [
-        "Vendor product pages with live metrics (NextClerk, Puzzle, Ordway)",
-        "Verified revenue (TrustMRR for SEO Stack)",
-        "Platform policy changes (Stripe RevRec pricing via Puzzle blog)",
-        "Case studies (1M.chat)",
-        "Market landscape analysis (GuptaDeepak GEO guide)"
-      ],
-      "score": 80.0,
-      "found_at": "2026-10-21T15:40:44.384027+00:00"
     },
     {
       "name": "Free AI Content Gap / SEO Analyzer (Web Tool)",
@@ -2859,26 +2744,6 @@
       "found_at": "2026-11-10T23:30:38.804407+00:00"
     },
     {
-      "name": "Paid Studies & Focus Groups Aggregator",
-      "field": "B2C side-income / research panels",
-      "summary": "Subscription web directory that aggregates high-paying online studies, focus groups and clinical trials from dozens of research firms into one filterable feed (pay, topic, online vs in-person) with email alerts for new listings.",
-      "why_now": "StudyScout (Stripe-verified) reached ~$5,174 MRR from 694 subscriptions and ~$88K all-time within ~9 months of founding (Jan 2026), 69% L30 margin; StudySnag shows 14K+ members and 890+ studies/week; median study payout $110 with clinical trials at $1,300 proves real money sits behind the filter.",
-      "monetization": "Monthly subscription to unlock full curated feed; founder claims 100% organic UGC growth and 69% profit margin; listed for sale at ~$70K (≈1.1x annual cash).",
-      "evidence": [
-        "https://trustmrr.com/startup/studyscout",
-        "https://www.wlad.me/blog/companies/studyscout",
-        "https://www.studysnag.com/",
-        "https://focusgrouppanel.com/"
-      ],
-      "how_searched": [
-        "Stripe-verified startup database",
-        "competitor product sites",
-        "payout research report"
-      ],
-      "score": 79.0,
-      "found_at": "2026-10-21T19:34:17.531099+00:00"
-    },
-    {
       "name": "AI Web Scraper / Structured Data Extractor",
       "field": "Data / Developer Tools",
       "summary": "Free web tool: enter any URL or list of URLs, get clean JSON/CSV of extracted data (products, prices, reviews, articles) — handles pagination, login, JS rendering, anti-bot.",
@@ -2940,26 +2805,23 @@
       "found_at": "2026-10-30T19:27:19.503654+00:00"
     },
     {
-      "name": "AI Agent Observability & Evaluation for Production Workflows",
-      "field": "AI Infrastructure / DevOps",
-      "summary": "Runtime observability for deployed AI agents: traces, replay, cost tracking, policy enforcement (block unsafe actions), and automated evaluation against golden datasets. Not just logging — executable guardrails that prevent bad deployments. Think 'Datadog for agent actions' with a hard 'no' at runtime.",
-      "why_now": "Agents moving from prototype to production; enterprises need safety. 88% of orgs report AI agent security incidents; 90% of deployed agents over-permissioned (Zylos Research). Salesforce AgentExchange: $800M ARR, 18.5K customers, 50% QoQ growth — enterprise adoption real (Zylos). Anthropic, OpenAI, Microsoft all launching enterprise agent stores with qualification gates. 'Independent AI-Agent Audit & Trust Console' in ALREADY KNOWN but focused on audit; this is runtime observability + enforcement for builders running their own agents. cmux (27K searches) manages multiple coding agents in parallel (RisingTrends). Rill Browser embeds agents in browser (Product Hunt #6 Oct 2026).",
-      "monetization": "SaaS: per-agent/month or per-trace volume. Free tier for devs. Team: $50-200/mo. Enterprise: $1,000-5,000/mo with SSO, audit logs, custom policies. High retention — observability is infrastructure.",
+      "name": "Ad Spend Refund & Invalid-Traffic Auditor",
+      "field": "Adtech / fintech",
+      "summary": "Connects to ad accounts, audits invoices for invalid traffic, billing errors and missed credits, then generates platform-ready refund claims.",
+      "why_now": "Vaudit audited >$1B in ad spend in 2025 and identified >$100M in refunds; its 2026 benchmark of 105 clients found 13.2% of spend was invalid on average. fraud0 markets AI-driven ad refunds recovering up to 10% of spend.",
+      "monetization": "Fixed monthly audit fee or success fee; Vaudit reports 8–15% recovery, e.g. ~$120K/year back on a $100K/month budget. Enterprise and mid-market contracts.",
       "evidence": [
-        "https://zylos.ai/research/2026-03-09-ai-agent-marketplaces-distribution-channels/",
-        "https://www.risingtrends.co/blog/open-source-ai-agents-trend",
-        "https://www.producthunt.com/products/rill-3",
-        "https://www.producthunt.com/products/irisgo-public-beta"
+        "https://www.fraud0.com/",
+        "https://www.vaudit.com/post/vaudit-surpasses-1-billion-in-digital-ads-audited-in-2025-and-100-million-in-refunds-processed-for-global-brands-including-accenture-hp-panasonic-and-volkswagen",
+        "https://kalkine.com.au/stock-analysis/technology/adveritas-asxav1-builds-a-scalable-growth-story-around-digital-ad-fraud-prevention"
       ],
       "how_searched": [
-        "Market research reports (Zylos)",
-        "Search trend analysis (RisingTrends OpenClaw cluster)",
-        "Product Hunt launches (Rill, IrisGo)",
-        "Developer demand signals (Hacker News Ask HN)",
-        "Enterprise adoption data (Salesforce AgentExchange via Zylos)"
+        "vendor product page",
+        "refund-engine press release",
+        "public-company market analysis"
       ],
-      "score": 78.0,
-      "found_at": "2026-10-21T15:40:45.626747+00:00"
+      "score": 79.0,
+      "found_at": "2026-11-11T22:04:53.980547+00:00"
     },
     {
       "name": "Free AI Haircut & Hair-Color Try-On Web Tool",
@@ -3207,6 +3069,25 @@
       "found_at": "2026-11-10T10:05:20.378421+00:00"
     },
     {
+      "name": "Freelancer Contract Risk Scanner",
+      "field": "Legal tech",
+      "summary": "Upload a freelance contract and get clause-level red flags, a dollar-denominated hidden-cost score, and ready-to-send negotiation language.",
+      "why_now": "72.9M US freelancers in 2025, projected 90M by 2028; only 28% use a written contract and 58% hit non-payment or delays. Existing consumer tools charge $3–$30 per contract or $13–$99/month, leaving a dollar-translation wedge.",
+      "monetization": "Pay-per-scan at $19, $29/mo Solo and $79/mo Pro; Startup Heist models $10K–$60K MRR, with human-attorney referral upsell.",
+      "evidence": [
+        "https://beforeyou-sign.com/blog/best-ai-contract-review-tools",
+        "https://www.startupheist.com/the-freelancers-contract-engine-19-scan-60k-mrr-ceiling/",
+        "https://stackranked.co/posts/ai-contract-review-for-freelancers"
+      ],
+      "how_searched": [
+        "pricing comparison guide",
+        "startup opportunity teardown",
+        "freelancer pricing comparison"
+      ],
+      "score": 77.0,
+      "found_at": "2026-11-11T22:04:54.259261+00:00"
+    },
+    {
       "name": "AI paid-media manager: autonomous Google/Meta/TikTok ad campaign agent",
       "field": "Digital advertising / AI agents",
       "summary": "A web tool that connects to Google, Meta, LinkedIn and TikTok Ads and creates, optimizes and reports on paid campaigns conversationally, including via an MCP server usable from ChatGPT or Claude. Adspirer and AdStellar both monetize this pattern.",
@@ -3246,6 +3127,25 @@
       "found_at": "2026-10-31T17:50:23.125517+00:00"
     },
     {
+      "name": "AI Product Photo Studio for Small Stores",
+      "field": "E-commerce / creative",
+      "summary": "Turns phone photos into clean catalog, lifestyle and ad-ready product images with background replacement, lighting fixes and brand presets.",
+      "why_now": "Photta estimates the AI product-photography market at ~$450M in 2024 growing to ~$5B by 2035 (24.5% CAGR); ~67% of leading e-commerce operators already budget for AI imaging. QYResearch sizes the narrower tool market at $915M in 2026.",
+      "monetization": "Credit packs and subscriptions; free watermark preview. High gross margin, but image-API costs require credits.",
+      "evidence": [
+        "https://www.photta.app/blog/state-of-ai-product-photography-2026",
+        "https://www.qyresearch.com/reports/5681103/ai-product-photography-tool",
+        "https://lumepixa.app/blog/ai-product-photography-statistics"
+      ],
+      "how_searched": [
+        "industry data report",
+        "market research report",
+        "statistics roundup"
+      ],
+      "score": 75.0,
+      "found_at": "2026-11-11T22:04:55.105338+00:00"
+    },
+    {
       "name": "ADA/WCAG compliance scanner and widget for Shopify",
       "field": "ecommerce accessibility",
       "summary": "Scan a storefront for WCAG issues, generate AI alt text, add an accessibility widget, and sell remediation/monitoring. Rebuild as a free scanner with paid fixes, monitoring, and a white-label widget.",
@@ -3266,6 +3166,25 @@
       "found_at": "2026-10-31T17:50:26.244559+00:00"
     },
     {
+      "name": "Consumer Deepfake & AI-Image Verifier",
+      "field": "Cybersecurity / media forensics",
+      "summary": "Upload an image, video or link and get a deepfake or AI-generation likelihood score, tamper signals and plain-language next steps.",
+      "why_now": "F-Secure launched a free deepfake detector in Sept 2026 after finding 84% of consumers worry AI makes real content impossible to distinguish; Malwarebytes reports 85% of people can no longer reliably tell a scam from the real thing, and 50% have encountered an AI-driven scam.",
+      "monetization": "Free consumer checks; paid API and enterprise verification, plus bulk media monitoring for newsrooms, insurers and marketplaces.",
+      "evidence": [
+        "https://company.f-secure.com/en/newsroom/f-secure-launches-free-deepfake-detector-to-help-consumers-verify-suspicious-content",
+        "https://www.malwarebytes.com/press/2026/10/05/malwarebytes-launches-free-scam-link-check-so-anyone-can-verify-a-link-is-safe-before-they-click",
+        "https://www.malwarebytes.com/ai-scams"
+      ],
+      "how_searched": [
+        "security vendor press release",
+        "consumer scam research/press",
+        "AI-scam survey report"
+      ],
+      "score": 74.0,
+      "found_at": "2026-11-11T22:04:56.204360+00:00"
+    },
+    {
       "name": "Shopify SEO and page-speed audit",
       "field": "Shopify SEO",
       "summary": "Audit meta tags, alt text, structured data, broken links, image weight, and AI-search visibility, then generate fixes. Rebuild as a free store scanner with paid auto-fixes and monitoring.",
@@ -3284,6 +3203,25 @@
       ],
       "score": 73.0,
       "found_at": "2026-10-31T17:50:27.179452+00:00"
+    },
+    {
+      "name": "Photo-to-Repair Estimate for Used Cars",
+      "field": "Insurtech / automotive",
+      "summary": "Consumers upload photos of car damage and get a likely repair-cost range, damage severity and a shareable inspection report before buying or claiming.",
+      "why_now": "AI damage assessment is forecast to grow from $1.25B in 2025 to $5.83B by 2034 (18.7% CAGR); AI vehicle damage assessment is $1.77B in 2026 at 12.9% CAGR. A consumer Repair+ app is estimated at ~$5K/mo from <5K downloads/mo.",
+      "monetization": "Freemium app; paid detailed reports, dealer and fleet bulk inspections, and insurer/claims API.",
+      "evidence": [
+        "https://peekly.app/apps/4cc0e6b5-eaa1-4f09-acf0-192aca6523cd",
+        "https://www.qyresearch.com/reports/6133511/ai-powered-vehicle-damage-assessment-solution",
+        "https://trendxinsights.com/syndicated-market-research-reports/ai-damage-assessment-market/"
+      ],
+      "how_searched": [
+        "app revenue estimator",
+        "market research report",
+        "market forecast report"
+      ],
+      "score": 73.0,
+      "found_at": "2026-11-11T22:04:57.107078+00:00"
     },
     {
       "name": "Personalized healthy restaurant menu",
@@ -3322,6 +3260,25 @@
       ],
       "score": 72.0,
       "found_at": "2026-11-10T23:30:40.608321+00:00"
+    },
+    {
+      "name": "Virtual Try-On for Small Fashion Stores",
+      "field": "Fashion / e-commerce",
+      "summary": "Shoppers upload a photo and preview garments on their body shape; merchants embed the widget and get size and fit signals.",
+      "why_now": "Virtual try-on technology grew from $12.09B in 2025 to ~$15.29B in 2026 (26.5% CAGR); AI-in-fashion is ~$2.47B in 2026 at 40.8% CAGR. OTB and Google Cloud launched it for Diesel and Jil Sander in May 2026, while indie try-on apps report revenue from ~$33K to ~$965K.",
+      "monetization": "Shopify/widget subscription, per-render credits, and affiliate conversion fees; indie apps show reported revenue from ~$33K to ~$965K.",
+      "evidence": [
+        "https://trends.vc/opportunities/ai-clothes-try-on-apps",
+        "https://floradress.com/news/otb-google-ai-virtual-try-on-2026/",
+        "https://www.thebusinessresearchcompany.com/report/virtual-try-on-technology-global-market-report"
+      ],
+      "how_searched": [
+        "opportunity database",
+        "fashion-industry news",
+        "market research report"
+      ],
+      "score": 72.0,
+      "found_at": "2026-11-11T22:04:58.006472+00:00"
     },
     {
       "name": "AI screenwriting and storyboard workspace (Laper pattern)",
@@ -3419,6 +3376,25 @@
       ],
       "score": 70.0,
       "found_at": "2026-11-10T23:30:46.244053+00:00"
+    },
+    {
+      "name": "AI Receipt-to-Tax-Deduction Scanner",
+      "field": "Fintech / productivity",
+      "summary": "Scan receipts, auto-categorize expenses, flag likely tax deductions and export IRS-friendly reports for freelancers and small businesses.",
+      "why_now": "SimplyWise has 2M installs, 325K MAU, 39K ratings and ~$10K+/mo estimated revenue; Smart Receipts is forecast at ~$13.6K/mo and ranks in the top 2% of finance apps. Both are old incumbents, leaving room for a modern free-first web tool.",
+      "monetization": "Freemium with paid unlimited scans, tax-pack exports and accountant seats; incumbents use $6.99–$99.99 IAP tiers.",
+      "evidence": [
+        "https://appgoblin.info/apps/1538521095",
+        "https://bumetric.com/revenue/smart-receipts-expenses-tax",
+        "https://appgazers.com/reports/apps/ios-905698613"
+      ],
+      "how_searched": [
+        "app-store analytics",
+        "revenue estimator",
+        "app listing and pricing"
+      ],
+      "score": 70.0,
+      "found_at": "2026-11-11T22:05:00.102703+00:00"
     },
     {
       "name": "General resale-value scanner",
