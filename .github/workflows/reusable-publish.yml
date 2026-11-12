@@ -8,7 +8,7 @@ on:
       CHAT_ID: { required: true }
 jobs:
   publish:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-26.04
     permissions: { contents: write }
     # Two overlapping runs would otherwise pick and send the same queued post twice.
     concurrency:

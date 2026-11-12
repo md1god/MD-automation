@@ -18,16 +18,16 @@ concurrency:
 
 jobs:
   rea:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-26.04
     timeout-minutes: 40
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: '3.12'
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v7
         with:
           node-version: '22'
 
@@ -35,7 +35,7 @@ jobs:
         run: pip install requests
 
       - name: Checkout the site scripts (public repo, read only)
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           repository: md1god/mdm1.org
           path: site
@@ -96,6 +96,7 @@ jobs:
 
       - name: 6) Send it privately with the existing Telegram bot
         if: always()
+        continue-on-error: true
         working-directory: md1_global_agent
         env:
           BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
@@ -108,4 +109,7 @@ jobs:
           python3 -c "
           import sys
           from notify.telegram import send_private
-          sys.exit(0 if send_private(open('/tmp/rea-report.txt', encoding='utf-8').read()) else 1)"
+          delivered = send_private(open('/tmp/rea-report.txt', encoding='utf-8').read())
+          if not delivered:
+              print('::warning::REA report was generated but Telegram delivery was unavailable; check BOT_TOKEN/TELEGRAM_BOT_TOKEN and OWNER_CHAT_ID secrets.')
+          sys.exit(0)"

@@ -5,7 +5,7 @@ on:
 jobs:
   gate:
     if: contains(github.event.issue.labels.*.name, 'build-failed')
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-26.04
     permissions: { contents: read }
     outputs:
       allowed: ${{ steps.check.outputs.allowed }}

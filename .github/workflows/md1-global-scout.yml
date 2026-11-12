@@ -15,15 +15,15 @@ concurrency:
 
 jobs:
   scout:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-26.04
     timeout-minutes: 170
     defaults:
       run:
         working-directory: md1_global_agent
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
           cache: pip
@@ -36,7 +36,7 @@ jobs:
         run: python -m playwright install --with-deps chromium
 
       - name: Checkout the site (templates/CSS used to render apps for QA)
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           repository: md1god/mdm1.org
           token: ${{ secrets.SITES_PAT }}

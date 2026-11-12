@@ -13,12 +13,12 @@ on:
 jobs:
   rust-audit:
     name: Rust Dependency Audit (when Rust exists)
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-26.04
     permissions:
       contents: read
       issues: write
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - name: Detect Rust lockfile
         id: detect
         run: |
@@ -36,12 +36,12 @@ jobs:
 
   solidity-audit:
     name: Solidity Static Analysis (when Solidity exists)
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-26.04
     permissions:
       contents: read
       security-events: write
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - name: Detect Solidity sources
         id: detect
         run: |
