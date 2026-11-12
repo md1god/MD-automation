@@ -17,9 +17,9 @@ jobs:
     runs-on: ubuntu-26.04
     timeout-minutes: 45
     steps:
-      - uses: actions/checkout@v7
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
 
-      - uses: actions/setup-python@v6
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
         with:
           python-version: "3.12"
           cache: pip
@@ -28,7 +28,7 @@ jobs:
       - run: pip install -r md1_global_agent/requirements.txt
 
       - name: Install OpenCode CLI (free models with web access)
-        run: npm install -g opencode-ai
+        run: npm install -g opencode-ai@1.19.4
 
       # Each agent step has its own limit (runner.py also keeps a 20-minute budget per mission),
       # so one slow mission can no longer eat the whole 45-minute job and starve the next one.

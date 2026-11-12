@@ -15,22 +15,23 @@ import requests
 import privacy
 from discovery import study as study_mod
 from builder.planner import LLM_DOWN, LLMUnavailable, complete
+from publish import site_gates
 from publish.mdm1_page import API, SITE_URL, SITE_REPO, _headers, preflight
 
 APP_WORKFLOW = "add-app.yml"
 
 IDEAS = [
-    ("cachelens-graphql-inspector", "CacheLens - مفتش GraphQL داخل المتصفح (مشروع من خطط MDM1 رقم 93): لصق استعلام GraphQL وجواب JSON، تنسيق الاستعلام وتلوينه، شجرة قابلة للطي للجواب، كشف الحقول المكررة والمتداخلة (N+1) وحساب عمق الاستعلام وحجم الجواب، محاكاة cache بسيطة تبين ما سيُعاد استخدامه عند تكرار الاستعلام، حفظ جلسات محلية وتصدير تقرير. كله محليًا بدون أي طلب شبكة"),
+    ("cachelens-graphql-inspector", "CacheLens - مفتش GraphQL داخل المتصفح (مشروع من خطط MDM1 رقم 93): لصق استعلام GraphQL وجواب JSON، تنسيق الاستعلام وتلوينه، شجرة قابلة للطي للجواب، كشف الحقول المكررة والمتداخلة (N+1) وحساب عمق الاستعلام وحجم الجواب، محاكاة cache بسيطة تبين ما سيُعاد استخدامه عند تكرار الاستعلام، تصدير تقرير وحفظ الجلسة كملف JSON واستيرادها لاحقًا. كله محليًا بدون أي طلب شبكة"),
     ("nutq-dictation-cleaner", "نُطق - إملاء صوتي ومنظف نصوص (مشروع من خطط MDM1 رقم 97): زر تسجيل يستخدم إملاء المتصفح عند توفره (SpeechRecognition) مع رسالة واضحة عند عدم دعمه، ولوحة نص تنظف المكتوب: حذف كلمات الحشو (يعني، اممم، ايوه)، علامات ترقيم وفقرات، أوامر صوتية (نقطة، سطر جديد)، قوالب ناتج (ملاحظة، بريد، قائمة مهام)، نسخ وتنزيل. يعمل بالكتابة واللصق حتى بدون ميكروفون"),
     ("image-format-converter", "محول صيغ الصور: رفع صورة أو عدة صور، اختيار الصيغة الناتجة (PNG وJPG وWebP) وجودة الضغط، معاينة الحجم قبل وبعد، تنزيل كل صورة أو الكل، بدون رفع أي شيء لخادم"),
     ("photo-editor-pro", "محرر صور: رفع صورة، قص بنسب جاهزة، تدوير 90 درجة وقلب أفقي ورأسي، سطوع وتباين وتشبع وأبيض وأسود وسيبيا، رسم بفرشاة، إضافة نص، تراجع وإعادة، وتنزيل بصيغ PNG وJPG وWebP. أسماء الأزرار واضحة ولا يوجد زر غامض"),
     ("image-compressor-resizer", "ضغط وتصغير الصور: رفع صور متعددة، تحديد العرض أو النسبة والجودة، معاينة الحجم قبل وبعد، تنزيل النتيجة"),
-    ("kanban-task-board", "لوحة مهام كانبان بثلاثة أعمدة، إضافة وتعديل وحذف البطاقات، نقلها بين الأعمدة بأزرار وبالسحب، تواريخ استحقاق وألوان، حفظ في localStorage وتصدير واستيراد JSON"),
-    ("invoice-generator", "منشئ فواتير: بيانات البائع والعميل، بنود وضريبة وخصم، حساب تلقائي، معاينة وطباعة PDF من المتصفح، حفظ المسودات محليًا"),
+    ("kanban-task-board", "لوحة مهام كانبان بثلاثة أعمدة، إضافة وتعديل وحذف البطاقات، نقلها بين الأعمدة بأزرار وبالسحب، تواريخ استحقاق وألوان، حفظ واستعادة اللوحة بتصدير واستيراد ملف JSON (بدون تخزين في المتصفح)"),
+    ("invoice-generator", "منشئ فواتير: بيانات البائع والعميل، بنود وضريبة وخصم، حساب تلقائي، معاينة وطباعة PDF من المتصفح، حفظ المسودة كملف JSON واستيرادها لاحقًا"),
     ("resume-builder-arabic", "منشئ سيرة ذاتية عربية: نماذج للخبرات والتعليم والمهارات، 3 قوالب، معاينة حية وطباعة PDF"),
-    ("markdown-notes-editor", "محرر ملاحظات Markdown مع معاينة حية، بحث، حفظ تلقائي في localStorage وتنزيل الملفات"),
+    ("markdown-notes-editor", "محرر ملاحظات Markdown مع معاينة حية، بحث، تنزيل الملاحظات كملفات وفتحها من جديد"),
     ("whiteboard-drawing", "سبورة رسم: فرشاة وممحاة وأشكال وألوان وسُمك، تراجع وإعادة، حفظ كصورة PNG"),
-    ("habit-and-pomodoro-tracker", "متتبع عادات يومية مع شبكة تقدم وسلاسل إنجاز، ومؤقت بومودورو مدمج وإحصاءات"),
+    ("habit-and-pomodoro-tracker", "متتبع عادات يومية مع شبكة تقدم وسلاسل إنجاز، ومؤقت بومودورو مدمج وإحصاءات، وحفظ البيانات واستعادتها بتصدير واستيراد ملف JSON"),
     ("meme-poster-maker", "صانع ميمز وبوسترات: رفع صورة أو خلفية لونية، نصوص متعددة بخطوط وألوان وحدود، وتنزيل الصورة"),
     ("spreadsheet-lite", "جدول بيانات خفيف: شبكة خلايا قابلة للتحرير، صيغ SUM/AVERAGE/MIN/MAX/IF، تصدير CSV واستيراده"),
     ("json-regex-dev-toolbox", "صندوق أدوات المطور: منسّق JSON ومدقق، مختبر Regex مع إبراز التطابق، محول Base64 وURL"),
@@ -47,11 +48,11 @@ TITLE: Arabic SEO title, at most 70 characters
 H1: Arabic heading
 DESCRIPTION: Arabic meta description, 110 to 160 characters
 ===BODY===
-HTML fragment only (no <html>/<head>/<body>/<script>/<style>/<link>/<iframe>, no inline on* handlers, no external src/href). Start with an introductory paragraph of at least 80 words that starts with a quick answer, then the app UI. Every interactive element has an id. Clear Arabic labels, no ambiguous button names.
+HTML fragment only. Allowed tags ONLY: div span p h2 h3 h4 ul ol li label input select option optgroup textarea button canvas table thead tbody tfoot tr th td caption br hr strong em b i u small code pre section article fieldset legend output details summary progress meter kbd sub sup mark a. NOT allowed: <img>, <svg>, <form>, <meta>, <link>, <style>, <script>, <iframe>, <video>, <audio>, HTML comments. No inline on* handlers. The only allowed href is an in-page "#anchor" on <a>. Use <canvas> or JS-created Image/Audio objects instead of <img>. Start with an introductory paragraph of at least 80 words that starts with a quick answer, then the app UI. Every interactive element has an id. Clear Arabic labels, no ambiguous button names.
 ===CSS===
 At most 60 lines of extra CSS for the app's own layout only (no @import, no url(http...)). Prefix selectors with .app.
 ===JS===
-Vanilla JavaScript wiring the ids. No network (fetch/XMLHttpRequest/WebSocket), no eval/new Function, no document.cookie, no window.open, no URLs. localStorage in try/catch is fine. Every feature must really work, with empty/error states.
+Vanilla JavaScript wiring the ids. The site's security gate REJECTS the whole app (it is silently dropped) if the JS contains any of: fetch/XMLHttpRequest/WebSocket/EventSource/sendBeacon/Worker/postMessage; eval/Function/Reflect/Proxy/globalThis/.constructor; localStorage/sessionStorage/indexedDB/caches/document.cookie (NO browser storage at all: offer export/import of a JSON file instead); location/history/opener/window.open/window.top/window.parent; navigator.clipboard/geolocation/mediaDevices/share; window[...] or document[...] or this[...] bracket access; setTimeout/setInterval with a string; createElement of script/iframe/link/meta/base/form/style; setAttribute of on*/src/srcdoc/action; any string literal starting with // or http: or https: or javascript:. Pass callbacks (never strings) to timers. Every feature must really work, with empty/error states.
 ===FAQ===
 Q: question
 A: answer
@@ -78,7 +79,7 @@ def _extract(text: str, slug: str) -> dict:
 IDEA_PROMPT = """A market scan found this product/project (category: {category}):
 {desc}
 {study}
-Propose ONE original web app that serves the same USER NEED for people anywhere in the world, buildable as a fully client-side tool in a browser (HTML/JS/canvas/localStorage; no server, no accounts, no network, no AI model calls). Reproduce the product's most useful FUNCTIONS as far as a browser can (use the observed features above), with original design, code and naming. The page text is written in Arabic (the site translates it for other languages). Never use the product's name.
+Propose ONE original web app that serves the same USER NEED for people anywhere in the world, buildable as a fully client-side tool in a browser (HTML/JS/canvas; no server, no accounts, no network, no browser storage, no AI model calls). Reproduce the product's most useful FUNCTIONS as far as a browser can (use the observed features above), with original design, code and naming. The page text is written in Arabic (the site translates it for other languages). Never use the product's name.
 Always find the closest useful browser-only version of the idea; answer exactly SKIP only if no part of it can work without a server.
 Otherwise answer in exactly two lines:
 SLUG: english-kebab-case-name (2 to 4 words)
@@ -126,12 +127,15 @@ def check(spec: dict) -> str:
     text = re.sub(r"<[^>]+>", " ", spec["body_html"])
     if len(text) < 300 or not re.search(r"[؀-ۿ]", text):
         return "body too thin or not Arabic"
-    if re.search(r"<script|<iframe|<object|<embed|<link|<style|\son\w+\s*=|(src|href|action|data|poster)\s*=\s*[\"']?(https?:)?//", spec["body_html"], re.I):
-        return "unsafe html in BODY"
-    if re.search(r"@import|url\(\s*[\"']?\s*(https?:)?//|expression\(|</style", css, re.I):
-        return "unsafe css"
-    if re.search(r"fetch\s*\(|XMLHttpRequest|WebSocket|sendBeacon|importScripts|import\s*\(|eval\s*\(|new Function|document\.cookie|window\.open|location\s*=|https?://|</script", spec["script_js"], re.I):
-        return "unsafe js (network/eval/url)"
+    why = site_gates.html_problem(spec["body_html"])
+    if why:
+        return "unsafe html in BODY: " + why
+    why = site_gates.css_problem(css)
+    if why:
+        return "unsafe css: " + why
+    why = site_gates.js_problem(spec["script_js"])
+    if why:
+        return why     # already reads "unsafe js: '<what>' is not allowed"
     with tempfile.NamedTemporaryFile("w", suffix=".js", delete=False) as f:
         f.write(spec["script_js"])
     res = subprocess.run(["node", "--check", f.name], capture_output=True, text=True)
