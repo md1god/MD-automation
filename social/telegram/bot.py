@@ -11,6 +11,12 @@ from stats import log_publish
 
 BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
 API_BASE = f"https://api.telegram.org/bot{BOT_TOKEN}"
+
+
+def _redact(err) -> str:
+    """Request errors embed the URL, and the URL contains the bot token."""
+    text = str(err)
+    return text.replace(BOT_TOKEN, "***") if BOT_TOKEN else text
 POSTS_FILE = os.path.join(os.path.dirname(__file__), "posts_sequence.py")
 
 
@@ -23,7 +29,7 @@ def send_text(text: str):
         )
         return resp.ok, (None if resp.ok else resp.text)
     except requests.RequestException as e:
-        return False, str(e)
+        return False, _redact(e)
 
 
 def send_photo(image_path: str, caption: str):
@@ -37,7 +43,7 @@ def send_photo(image_path: str, caption: str):
             )
         return resp.ok, (None if resp.ok else resp.text)
     except (requests.RequestException, FileNotFoundError) as e:
-        return False, str(e)
+        return False, _redact(e)
 
 
 def mark_as_sent(post_id: str):

@@ -27,12 +27,16 @@ jobs:
     steps:
       - name: Check latest run of target workflow
         id: watch
-        uses: actions/github-script@v7
+        uses: actions/github-script@f28e40c7f34bde8b3046d885e986cb6290c5673b # v7
+        env:
+          WORKFLOW_FILE: ${{ inputs.build-workflow-file }}
+          BRANCH: ${{ inputs.branch }}
+          STALE_HOURS: ${{ inputs.stale-hours }}
         with:
           script: |
-            const workflowFile = '${{ inputs.build-workflow-file }}';
-            const branch = '${{ inputs.branch }}';
-            const staleHours = parseFloat('${{ inputs.stale-hours }}');
+            const workflowFile = process.env.WORKFLOW_FILE;
+            const branch = process.env.BRANCH;
+            const staleHours = parseFloat(process.env.STALE_HOURS);
 
             const { data } = await github.rest.actions.listWorkflowRuns({
               owner: context.repo.owner,
@@ -72,12 +76,16 @@ jobs:
 
       - name: Open or update issue
         if: steps.watch.outputs.problem == 'true'
-        uses: actions/github-script@v7
+        uses: actions/github-script@f28e40c7f34bde8b3046d885e986cb6290c5673b # v7
+        env:
+          WORKFLOW_FILE: ${{ inputs.build-workflow-file }}
+          REASON: ${{ steps.watch.outputs.reason }}
+          RUN_URL: ${{ steps.watch.outputs.run_url }}
         with:
           script: |
-            const workflowFile = '${{ inputs.build-workflow-file }}';
-            const reason = `${{ steps.watch.outputs.reason }}`;
-            const runUrl = `${{ steps.watch.outputs.run_url }}`;
+            const workflowFile = process.env.WORKFLOW_FILE;
+            const reason = process.env.REASON;
+            const runUrl = process.env.RUN_URL;
             const title = `🐕 Watchdog: مشكلة في ${workflowFile}`;
 
             const bodyLines = [
@@ -118,10 +126,12 @@ jobs:
 
       - name: Close stale watchdog issues if healthy
         if: steps.watch.outputs.problem == 'false'
-        uses: actions/github-script@v7
+        uses: actions/github-script@f28e40c7f34bde8b3046d885e986cb6290c5673b # v7
+        env:
+          WORKFLOW_FILE: ${{ inputs.build-workflow-file }}
         with:
           script: |
-            const workflowFile = '${{ inputs.build-workflow-file }}';
+            const workflowFile = process.env.WORKFLOW_FILE;
             const title = `🐕 Watchdog: مشكلة في ${workflowFile}`;
 
             const { data: issues } = await github.rest.issues.listForRepo({

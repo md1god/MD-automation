@@ -175,6 +175,12 @@ class AppBuilderTests(unittest.TestCase):
         self.assertIn("unsafe html", app_page.check(dict(spec, body_html=spec["body_html"] + "<script>1</script>")))
         self.assertIn("unsafe css", app_page.check(dict(spec, css="@import 'x';")))
         self.assertIn("syntax", app_page.check(dict(spec, script_js="var = ;")))
+        # must agree with the site's final gate (MDM1.org scripts/add_app.py)
+        self.assertEqual(app_page.check(dict(spec, script_js="document.getElementById('a').addEventListener('click', function () {});")), "")
+        for bad in ("localStorage.setItem('a','1')", "const f = new Function('return 1')", "window['x']=1", "navigator.clipboard.writeText('a')"):
+            self.assertIn("unsafe js", app_page.check(dict(spec, script_js=bad)), bad)
+        self.assertIn("unsafe html", app_page.check(dict(spec, body_html=spec["body_html"] + '<img src="a.png">')))
+        self.assertIn("unsafe html", app_page.check(dict(spec, body_html=spec["body_html"] + '<a href="https://x.y">x</a>')))
         self.assertIn("faq", app_page.check(dict(spec, faq=[])))
 
     def test_idea_from_opportunity_never_leaks_and_can_skip(self):

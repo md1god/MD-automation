@@ -2,44 +2,46 @@ name: REA Scout (paid-product study, private Telegram report)
 
 # Runs HERE, not in MDM1.org, because this repo already owns the working Telegram bot, the LLM keys and the cross-repo token (SITES_PAT).
 # The studied product is written only into the private Telegram report - never into a public log or file.
+#
+# Three jobs on purpose (security): the job that opens an untrusted page in Chrome (--no-sandbox) and runs
+# a third-party npm package ("observe") has NO secrets, NO checkout and NO token permissions. Secret-bearing
+# steps live in "pick" and "build", which never execute anything fetched from the studied page.
+# Hand-off between jobs is by short-lived artifacts (retention 1 day).
 
 on:
   schedule:
     - cron: '0 5 * * *'
   workflow_dispatch: {}
 
-permissions:
-  contents: read
-  models: read
+permissions: {}
 
 concurrency:
   group: rea-scout
   cancel-in-progress: false
 
 jobs:
-  rea:
+  pick:
     runs-on: ubuntu-26.04
-    timeout-minutes: 40
+    timeout-minutes: 10
+    permissions: { contents: read, models: read }
     steps:
-      - uses: actions/checkout@v7
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with: { persist-credentials: false }
 
-      - uses: actions/setup-python@v6
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
         with:
           python-version: '3.12'
-
-      - uses: actions/setup-node@v7
-        with:
-          node-version: '22'
 
       - name: Install requests (used by the existing notifier)
         run: pip install requests
 
       - name: Checkout the site scripts (public repo, read only)
-        uses: actions/checkout@v7
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
         with:
           repository: md1god/mdm1.org
           path: site
           fetch-depth: 1
+          persist-credentials: false
 
       - name: 1) Pick a product and one core feature
         working-directory: site
@@ -48,16 +50,97 @@ jobs:
           OPENCODE_API_KEY: ${{ secrets.OPENCODE_API_KEY }}
         run: python3 scripts/rea_scout.py pick 2>&1 | tee /tmp/pick.log
 
-      - name: 2) REA - observe the public page (best effort, output kept private)
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7
+        with:
+          name: rea-target
+          path: |
+            /tmp/target.json
+            /tmp/pick.log
+          if-no-files-found: ignore
+          retention-days: 1
+
+  observe:
+    needs: pick
+    runs-on: ubuntu-26.04
+    timeout-minutes: 15
+    permissions: {}
+    steps:
+      - uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8
+        continue-on-error: true
+        with: { name: rea-target, path: /tmp }
+
+      - name: 2) REA - observe the public page (untrusted content, secretless job)
         continue-on-error: true
         run: |
           test -s /tmp/target.json || exit 0
-          URL=$(python3 -c "import json;print(json.load(open('/tmp/target.json'))['url'])")
-          (google-chrome --headless=new --no-sandbox --remote-debugging-port=9222 "$URL" >/dev/null 2>&1 &)
+          URL=$(python3 - <<'PY'
+          import ipaddress, json, socket, sys
+          from urllib.parse import urlsplit
+          u = json.load(open('/tmp/target.json'))['url']
+          p = urlsplit(u)
+          host = (p.hostname or '').lower()
+          bad = (p.scheme != 'https' or not host or p.username or p.password or p.port not in (None, 443)
+                 or host == 'localhost' or host.endswith(('.local', '.internal', '.localhost')))
+          if not bad:
+              try: ipaddress.ip_address(host); bad = True
+              except ValueError: pass
+          if not bad:
+              try: bad = not all(ipaddress.ip_address(i[4][0]).is_global for i in socket.getaddrinfo(host, 443))
+              except Exception: bad = True
+          if bad: sys.exit('unsafe or unresolvable target url, skipped')
+          print(u)
+          PY
+          ) || exit 0
+          (google-chrome --headless=new --no-sandbox --user-data-dir=/tmp/chrome-profile --disable-extensions --no-first-run \
+             --remote-debugging-address=127.0.0.1 --remote-debugging-port=9222 "$URL" >/dev/null 2>&1 &)
           sleep 8
-          npx --yes rea-agents@latest list-browser-targets http://127.0.0.1:9222 --format json > /tmp/targets.json 2>/tmp/rea.err
+          npx --yes rea-agents@6.8.0 list-browser-targets http://127.0.0.1:9222 --format json > /tmp/targets.json 2>/tmp/rea.err
           TID=$(python3 -c "import json;d=json.load(open('/tmp/targets.json'));t=d.get('targets',d) if isinstance(d,dict) else d;print(t[0].get('id') or t[0].get('targetId'))")
-          npx --yes rea-agents@latest analyze-web-bundle http://127.0.0.1:9222 "$TID" --detail complete --token-limit 6000 --format md > /tmp/rea-evidence.txt 2>>/tmp/rea.err
+          npx --yes rea-agents@6.8.0 analyze-web-bundle http://127.0.0.1:9222 "$TID" --detail complete --token-limit 6000 --format md > /tmp/rea-evidence.txt 2>>/tmp/rea.err
+
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7
+        with:
+          name: rea-evidence
+          path: /tmp/rea-evidence.txt
+          if-no-files-found: ignore
+          retention-days: 1
+
+  build:
+    needs: [pick, observe]
+    if: always()
+    runs-on: ubuntu-26.04
+    timeout-minutes: 30
+    permissions: { contents: read, models: read }
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with: { persist-credentials: false }
+
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: '3.12'
+
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7
+        with:
+          node-version: '22'
+
+      - name: Install requests (used by the existing notifier)
+        run: pip install requests
+
+      - name: Checkout the site scripts (public repo, read only)
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          repository: md1god/mdm1.org
+          path: site
+          fetch-depth: 1
+          persist-credentials: false
+
+      - uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8
+        continue-on-error: true
+        with: { name: rea-target, path: /tmp }
+
+      - uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8
+        continue-on-error: true
+        with: { name: rea-evidence, path: /tmp }
 
       - name: 3) Spec, then build from the spec only, with the site's own gates
         working-directory: site
