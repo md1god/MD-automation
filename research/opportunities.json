@@ -996,24 +996,6 @@
       "found_at": "2026-10-30T01:01:57.365822+00:00"
     },
     {
-      "name": "Multi-Platform Social Cross-Poster (Post Bridge model)",
-      "field": "Creator / Solo-Marketer Infrastructure",
-      "summary": "A lightweight dashboard that publishes and schedules the same post to X, Instagram, LinkedIn, TikTok, YouTube, Threads and Bluesky at once, priced for solo marketers rather than enterprise teams.",
-      "why_now": "Post Bridge, the category exemplar, holds ~$49k MRR from 1,663 Stripe-verified subscriptions as of Oct 21, 2026 (92% profit margin, $550k all-time), up from ~$11k MRR six months earlier; the founder's public build-in-public distribution on X (181k followers) shows the channel is still compounding.",
-      "monetization": "Subscription at $39/mo (Marketer) and $99/mo (Operator); verified Stripe MRR ~$49.4k, ~$593k annualized, ~$26 blended ARPU, 92% margin per TrustMRR and Boring SaaS snapshots.",
-      "evidence": [
-        "https://trustmrr.com/startup/post-bridge",
-        "https://www.wlad.me/blog/companies/post-bridge",
-        "https://startupfounderstories.com/stories/jack-friks-post-bridge-11k-mrr"
-      ],
-      "how_searched": [
-        "Stripe-verified revenue dashboards (TrustMRR, Boring SaaS, MRR Wars)",
-        "Founder interview / case study"
-      ],
-      "score": 88.0,
-      "found_at": "2026-10-22T05:00:33.981508+00:00"
-    },
-    {
       "name": "Review-to-Website Builder for Local Businesses",
       "field": "Local-business websites / AI content",
       "summary": "A free tool that turns a Google Maps or Yelp business listing and its customer reviews into a one-page website with specific, review-backed copy, plus a simple editor and hosting.",
@@ -1309,26 +1291,6 @@
       "found_at": "2026-11-11T22:04:51.839189+00:00"
     },
     {
-      "name": "Reddit & X Buyer-Intent Lead Radar",
-      "field": "B2B Lead Generation / Social Listening",
-      "summary": "Tools that scan Reddit, X and LinkedIn for high-intent buyer questions about a product category, score the threads, and deliver a reviewable lead queue with draft replies (human-approved) for founders and sales teams.",
-      "why_now": "Multiple independent solo founders hit real recurring revenue on this exact workflow in 2026: ReddGrow at $10,150 Stripe-verified MRR with 72 subscriptions, Replymer at ~$10k MRR, Leadverse at $3.3k MRR with 130+ paying customers, and Sensorhub landing 6 paying customers and $313 MRR within weeks of launch; buyers are spending because AI-search visibility and Reddit-sourced demand are new budget lines.",
-      "monetization": "SaaS subscriptions: ReddGrow $99/$199/$399 per month tiers; Replymer $99/$199/$399 per month; Leadverse $19-$29 per month entry. ReddGrow's Stripe-verified figure was $10,150 MRR / 72 active subscriptions as of Aug 30, 2026 (with a documented late-summer slowdown).",
-      "evidence": [
-        "https://www.sofarbot.com/stories/reddgrow-ai-yahav-fuchs-10598-mrr",
-        "https://www.mrrstory.com/stories/how-i-survived-26-projects-to-build-an-end-to-end-reddit-x-marketing-saas",
-        "https://www.sofarbot.com/stories/leadverse-jakub-muzik-3300-mrr",
-        "https://blog.kalo.me/p/weeks-17-24-launching-sensorhub-and"
-      ],
-      "how_searched": [
-        "Stripe-verified revenue case studies (sofarbot/TrustMRR)",
-        "Indie Hackers / founder interviews",
-        "r/buildinpublic posts"
-      ],
-      "score": 86.0,
-      "found_at": "2026-10-22T05:00:35.704668+00:00"
-    },
-    {
       "name": "Free price history & coupon tracker (Buyhatke/Honey model)",
       "field": "Consumer savings / e-commerce",
       "summary": "A free web tool and browser extension that tracks price history across stores, auto-applies coupons, compares prices, sets price-drop alerts, and analyzes spending across 100+ stores.",
@@ -1480,23 +1442,24 @@
       "found_at": "2026-11-11T22:04:52.284823+00:00"
     },
     {
-      "name": "Financial PDF (Bank Statement) → Spreadsheet Converter",
-      "field": "Bookkeeping / Document Utility",
-      "summary": "A single-purpose web tool that turns PDF bank and credit-card statements into clean Excel/CSV files for accountants, bookkeepers and freelancers who would otherwise retype rows by hand.",
-      "why_now": "Bank Statement Compounder (Angus Cheng, Hong Kong) proves the category with a four-year public revenue curve: $3,182 (2021) → $49,428 (2022) → $147,337 (2023) → $318,113 (2024), reaching ~$40k MRR / ~$39k monthly profit with ~1,000 paying customers and ~40k monthly visits, run solo with zero ad spend after Google Ads proved unprofitable (0.3x return).",
-      "monetization": "Subscription per statement-scans / monthly plans; current MRR ~$40k, ~$40 ARPU, ~1.3% free-to-paid conversion, ~95% realistic margin after Stripe and infra per third-party fact-check.",
+      "name": "Invalid-traffic and click-fraud audit for small advertisers",
+      "field": "Ad tech / marketing",
+      "summary": "A free web tool where a small advertiser pastes a landing page or connects a lead form and gets a plain-English invalid-traffic report: bot hits, duplicate and fake leads, suspicious geography/device patterns, estimated wasted spend, and a prioritized fix list.",
+      "why_now": "On 2026-11-12 Google began rolling out an Invalid Traffic Overview Card in Google Ads and said it cut advertiser exposure to invalid leads by an average of 30% in 2026. Search Engine Land, Search Engine Roundtable and PPC News Feed all covered it the same day, while most SMB advertisers still have no independent audit of wasted spend.",
+      "monetization": "Free scan; paid deep report/PDF; monthly monitoring subscription; lead referrals to vetted PPC and lead-gen agencies; affiliate deals with click-fraud and consent tools.",
       "evidence": [
-        "https://www.starterstory.com/angus",
-        "https://aidevcases.com/en/cases/bank-statement-converter",
-        "https://incomeidealab.com/research/bank-statement-converter-40k-mrr"
+        "https://blog.google/products/ads-commerce/invalid-traffic-overview-google-ads/",
+        "https://searchengineland.com/google-ads-launches-invalid-traffic-overview-card-501498",
+        "https://ppcnewsfeed.com/ppc-news/2026-11/invalid-traffic-card-added-overview-page/",
+        "https://www.seroundtable.com/google-ads-invalid-traffic-ivt-overview-card-42513.html"
       ],
       "how_searched": [
-        "Starter Story founder revenue interview",
-        "Third-party fact-check / income verification writeup",
-        "GTM case study"
+        "Searched Google and web news for 'Google Ads invalid traffic overview card November 2026'",
+        "Read the Google Ads ads-privacy announcement and Google Ads help page",
+        "Cross-checked same-day coverage on Search Engine Land, Search Engine Roundtable and PPC News Feed"
       ],
-      "score": 85.0,
-      "found_at": "2026-10-22T05:00:36.300774+00:00"
+      "score": 86.0,
+      "found_at": "2026-11-12T19:04:51.838138+00:00"
     },
     {
       "name": "Factur-X / Peppol e-invoice validator and converter",
@@ -1795,46 +1758,6 @@
       ],
       "score": 85.0,
       "found_at": "2026-11-10T23:30:37.324254+00:00"
-    },
-    {
-      "name": "Autonomous AI Social Media Influencer Agent",
-      "field": "AI Social Media Automation",
-      "summary": "Configure an AI agent with a persona, memory and brand context; it watches trends across TikTok/Instagram/X, generates content, and publishes to the brand's accounts end-to-end (with human approval gates), not just a scheduler or one-off video generator.",
-      "why_now": "Spira AI took Product Hunt's #1 daily slot on Oct 5, 2026 with Spira Maxima (602 monthly score, #1 for October 2026 overall) and claims 10M+ impressions before public launch; built by alumni of Creatify, TikTok, CapCut, Meta, Snap and Midjourney; the launch post alone drew ~1.3M X views in two days, and the product page shows a customer testimonial of demo requests tripling in five weeks.",
-      "monetization": "Credit-based subscription: Free trial, Creator $15/mo, Growth $59/mo (10 influencer agents, unlimited account automation), Enterprise custom; Spira Maxima priced at $0.15 per second of finished video. Exact revenue not disclosed (null).",
-      "evidence": [
-        "https://www.producthunt.com/leaderboard/monthly/2026/10",
-        "https://spira.ai/pricing",
-        "https://sloptvnews.com/spira-maxima-text-to-finished-social-video/"
-      ],
-      "how_searched": [
-        "Product Hunt monthly leaderboard",
-        "Vendor pricing page",
-        "Tech press coverage of launch"
-      ],
-      "score": 84.0,
-      "found_at": "2026-10-22T05:00:36.903661+00:00"
-    },
-    {
-      "name": "LotLens",
-      "field": "Resale / collectibles",
-      "summary": "Free browser tool that photographs a shelf, box, or estate-sale lot, identifies cards, coins, antiques, books, and electronics, then ranks each item by expected resale profit after fees and exports marketplace-ready listings.",
-      "why_now": "CollX has 4.5M users, 500K monthly actives, 1-2M card scans per day and about $10M annual revenue; Cardstock runs at about $75K MRR and Scanon at about $17K MRR. The card-scanner niche has 100 apps, four clearing $50K+ per month, and 65 launched in the last 18 months, but 9 of 12 leaders lead with single-card scanning and only three mention binder or bulk scanning. The 2026 secondary-sale index counts 85,602 sale listings, including 32,278 estate sales.",
-      "monetization": "$9.99/month or $39/year for bulk scans; $49/month dealer or estate-sale-company tier; affiliate fees from grading submissions and eBay listings.",
-      "evidence": [
-        "https://technical.ly/entrepreneurship/collx-trading-card-marketplace-profitable/",
-        "https://www.appaloma.com/research/tcg-card-scanners",
-        "https://www.stork.ai/blog/this-hobby-is-now-a-15m-app-empire",
-        "https://finda.sale/blog/state-of-secondary-sales-in-america-2026"
-      ],
-      "how_searched": [
-        "Web search for resale and trading-card market data",
-        "App revenue and niche teardown reports",
-        "Estate-sale listing index review",
-        "Competitor tech press and founder interviews"
-      ],
-      "score": 84.0,
-      "found_at": "2026-10-22T15:22:59.000866+00:00"
     },
     {
       "name": "AI Fundraising Agent & Warm-Intro Planner",
@@ -2276,25 +2199,6 @@
       "found_at": "2026-11-11T22:04:52.534034+00:00"
     },
     {
-      "name": "Restaurant Waitlist & Reservation SaaS",
-      "field": "Restaurant Front-of-House Tech",
-      "summary": "A flat-rate waitlist plus reservation system for independent restaurants: guest self-check-in, SMS/WhatsApp wait notifications, Reserve-with-Google integration and table management, undercutting OpenTable/Yelp on price and complexity.",
-      "why_now": "Waitly (solo founder) reportedly crossed ~$40k/month on track for ~$500k/year serving small restaurants that billion-dollar competitors ignore; the global restaurant waitlist management software market was $806M in 2025 and is projected to hit $2.12B by 2034 (11.2% CAGR); Toast data shows 45% of diners are more likely to choose a restaurant that offers an online waitlist and 65% book directly on the restaurant's website.",
-      "monetization": "Flat monthly SaaS: Waitly Free (1 location, 100 parties/mo), Premium $49/mo, Professional $99/mo, Enterprise from $249/mo; competitors range $27-$149/mo entry. Waitly founder-reported ~$40k/mo revenue.",
-      "evidence": [
-        "https://frontdeskreview.com/software/waitlist-queue-management/waitly/",
-        "https://growthmarketreports.com/report/restaurant-waitlist-management-software-market",
-        "https://pos.toasttab.com/blog/data/restaurant-wait-times-and-reservations-data"
-      ],
-      "how_searched": [
-        "Competitor pricing review site (frontdeskreview)",
-        "Market research report",
-        "Toast public restaurant data blog"
-      ],
-      "score": 82.0,
-      "found_at": "2026-10-22T05:00:37.902990+00:00"
-    },
-    {
       "name": "RFP Requirement Extraction & Compliance Scoring",
       "field": "B2B sales / proposal automation",
       "summary": "A free RFP analyzer that extracts requirements, builds a compliance matrix, flags missing answers and drafts source-cited responses; paid tiers add team review and knowledge-base reuse.",
@@ -2503,6 +2407,26 @@
       ],
       "score": 82.0,
       "found_at": "2026-11-11T22:04:53.736324+00:00"
+    },
+    {
+      "name": "Week-grid meal planner with one aggregated shopping list",
+      "field": "Consumer / food",
+      "summary": "A free browser app: drag home dishes onto a 7-day grid; ingredients from different meals add up into one aisle-sorted shopping list that works offline, with no recipe scraping and no account required for the core.",
+      "why_now": "Appto's 2026-11-07 analysis found four of the top six US Food & Drink grossing apps on 2026-09-26 were under a year old: mise (launched 2026-06-10) at an estimated $519K-$2.08M per month and TapCook (2026-07-17) at $380K-$1.52M per month. Business Research Insights sizes meal-planning apps at about $2.71B in 2026, and Research and Markets puts AI meal-planning at about $1.03B in 2026 growing 24.6%.",
+      "monetization": "Free core; paid one-time unlock or cheap annual plan for unlimited dishes, sync and AI menu suggestions; grocery-affiliate links and printable-list upsells.",
+      "evidence": [
+        "https://appto.store/blog/meal-planner-app-niche",
+        "https://www.businessresearchinsights.com/market-reports/meal-planning-app-market-113013",
+        "https://www.researchandmarkets.com/reports/6227056/ai-driven-meal-planning-apps-market-report",
+        "https://growthmarketreports.com/report/meal-planning-app-market"
+      ],
+      "how_searched": [
+        "Searched App Store revenue blogs for meal-planner niches",
+        "Read Appto's meal-planner niche breakdown and newcomer revenue estimates",
+        "Cross-checked market-size reports from Business Research Insights, Research and Markets and Growth Market Reports"
+      ],
+      "score": 82.0,
+      "found_at": "2026-11-12T19:04:53.255023+00:00"
     },
     {
       "name": "AI Skin-Analysis Quiz for Beauty Ecommerce",
@@ -2744,6 +2668,26 @@
       "found_at": "2026-11-10T23:30:38.804407+00:00"
     },
     {
+      "name": "Budget-first AI gift finder with shareable recipient profiles",
+      "field": "E-commerce / consumer",
+      "summary": "A free web tool that asks for the recipient's interests, relationship, budget and deadline, then returns a short, explainable gift shortlist with live price and availability links plus a shareable list; no login and no stored personal data.",
+      "why_now": "A November 2026 survey wave shows mainstream demand: Gartner (2026-10-07) found 34% of US consumers very or extremely willing to use GenAI for gift recommendations; Visa (2026-10-30) found 54% had used AI for at least one shopping task; Savings.com (2026-10-08) found 77% expect to use AI for Black Friday or Cyber Monday; Harris Poll (2026-11-10) found 51% would let AI choose a gift for someone close. Holiday peak is now.",
+      "monetization": "Affiliate and referral links to retailers; clearly labelled sponsored placement; premium concierge gift plan; white-label for retailers.",
+      "evidence": [
+        "https://www.gartner.com/en/newsroom/press-releases/2026-10-07-gartner-marketing-survey-finds-thirty-four-percent-of-us-consumers-are-willing-to-use-genai-for-holiday-gift-recommendations",
+        "https://corporate.visa.com/en/sites/visa-perspectives/press-releases/secret-santai-visa-survey-finds-americans-turning-to-ai-for-holiday-help.html",
+        "https://www.savings.com/insights/ai-holiday-shopping-study",
+        "https://www.harrisquest.com/blog/where-holiday-shoppers-draw-the-line-on-ai"
+      ],
+      "how_searched": [
+        "Searched holiday 2026 consumer surveys on AI gift shopping",
+        "Compared Gartner, Visa/Morning Consult, Savings.com and Harris Poll samples and question wording",
+        "Checked comfort levels by task: price comparison versus gift choice versus purchase"
+      ],
+      "score": 80.0,
+      "found_at": "2026-11-12T19:04:53.847176+00:00"
+    },
+    {
       "name": "AI Web Scraper / Structured Data Extractor",
       "field": "Data / Developer Tools",
       "summary": "Free web tool: enter any URL or list of URLs, get clean JSON/CSV of extracted data (products, prices, reviews, articles) — handles pagination, login, JS rendering, anti-bot.",
@@ -2822,46 +2766,6 @@
       ],
       "score": 79.0,
       "found_at": "2026-11-11T22:04:53.980547+00:00"
-    },
-    {
-      "name": "Free AI Haircut & Hair-Color Try-On Web Tool",
-      "field": "Consumer beauty / AI photo try-on",
-      "summary": "Upload a selfie, map face/hair, and preview dozens of haircuts, colors and beards on your own face. The mobile apps are booming; a free browser version is the gap.",
-      "why_now": "New May-2026 apps exploded inside 6 months: Beautix - AI Hair Changer shows +2,176% rating acceleration with ~1M monthly downloads; multiple dedicated try-on apps launched May-2026 already at 1.4-2.5M installs and 145K-580K installs/week.",
-      "monetization": "Peer apps already monetize hard: AI Hairstyle Try On & Color runs ~$50K+/month (66% IAP / 34% ads); web version can use ads + paid credits for HD/photoreal renders without the app-store fee.",
-      "evidence": [
-        "https://peekly.app/reports/fastest-growing-apps",
-        "https://www.appgoblin.info/apps/com.tryon.haircolor.aihairstyle",
-        "https://www.appbrain.com/app/ai-hairstyle-try-on-color/com.tryon.haircolor.aihairstyle"
-      ],
-      "how_searched": [
-        "app-store growth-rate tracker (Peekly)",
-        "app analytics + revenue estimators (AppGoblin/AppBrain)"
-      ],
-      "score": 78.0,
-      "found_at": "2026-10-22T10:44:51.911046+00:00"
-    },
-    {
-      "name": "ShipSafe",
-      "field": "Developer security",
-      "summary": "Free one-scan web tool for AI-built apps: paste a deployed URL or repository, detect exposed Supabase keys, missing row-level security, auth bypasses, leaked secrets, and unsafe API routes, then produce agent-ready fix prompts.",
-      "why_now": "A large audit of 9,041 open-source vibe-coded apps examined 200 deployed apps, found 1,186 vulnerabilities, and reported that 91.0% had at least one vulnerability and 65.77% had Critical or High findings. heal.dev launched on Product Hunt, and YC listed vibe-code security as a Spring 2026 request for startups. Competitors are still early: CheckVibe reports about $919 MRR and 35 active subscriptions, while Security Scanner publishes $9 per scan and $29/month for weekly scans.",
-      "monetization": "Free first scan; $19/month indie, $49/month team and $99/month agency plans; $9-$29 per one-off scan.",
-      "evidence": [
-        "https://arxiv.org/abs/2606.23130",
-        "https://www.producthunt.com/leaderboard/daily/2026/10/22",
-        "https://www.microgaps.com/gaps/2026-02-19-vibe-code-security-scanner",
-        "https://trustmrr.com/startup/checkvibe",
-        "https://securityscanner.dev/blog/we-are-live"
-      ],
-      "how_searched": [
-        "arXiv paper search",
-        "Product Hunt daily leaderboard",
-        "Competitor pricing-page review",
-        "Indie MRR tracker and market-gap analysis"
-      ],
-      "score": 78.0,
-      "found_at": "2026-10-22T15:23:00.718167+00:00"
     },
     {
       "name": "AI Business Reviewer (Actionable Analytics)",
@@ -3069,6 +2973,25 @@
       "found_at": "2026-11-10T10:05:20.378421+00:00"
     },
     {
+      "name": "Privacy-first subscription tracker with manual entry and cancel guides",
+      "field": "Personal finance",
+      "summary": "A free web app where users manually add recurring charges without bank scraping, see monthly and annual totals plus renewal dates, and get step-by-step cancellation links; optional reminders and shared-household views.",
+      "why_now": "TGGET's 2026-09-27 niche research measured 1,600 US monthly searches for 'subscription tracker app', up 49% year over year, with 50 competing apps and a median of only 55 ratings, and rated the niche 'Worth building'. Dataintelo reports Rocket Money alone earned $390M in 2025 with 4.583M paying subscribers, proving mainstream willingness to pay for subscription cancellation.",
+      "monetization": "Free manual tracker; paid reminders, sync and household tier; affiliate commissions on bill negotiation or switching offers; disclosed sponsored comparisons.",
+      "evidence": [
+        "https://tgget.io/niches/subscription-tracker-app",
+        "https://dataintelo.com/report/budgeting-app-market",
+        "https://techbullion.com/personal-finance-apps-in-the-us-in-2026-how-budgeting-saving-and-credit-building-tools-are-actually-used/"
+      ],
+      "how_searched": [
+        "Searched niche-research databases for subscription-tracker demand",
+        "Read TGGET's demand, competitor and CPC breakdown",
+        "Cross-checked budgeting-app market data and Rocket Money subscriber counts"
+      ],
+      "score": 78.0,
+      "found_at": "2026-11-12T19:04:54.637140+00:00"
+    },
+    {
       "name": "Freelancer Contract Risk Scanner",
       "field": "Legal tech",
       "summary": "Upload a freelance contract and get clause-level red flags, a dollar-denominated hidden-cost score, and ready-to-send negotiation language.",
@@ -3183,6 +3106,25 @@
       ],
       "score": 74.0,
       "found_at": "2026-11-11T22:04:56.204360+00:00"
+    },
+    {
+      "name": "Cross-agent session memory layer for coding agents",
+      "field": "Developer tools",
+      "summary": "A free, local-first web dashboard plus CLI that ingests session traces from Claude Code, Cursor, Codex, OpenCode and other harnesses, extracts reusable fixes and conventions, and serves them back through MCP or skills, with an open-source core.",
+      "why_now": "beacon.sh ranked number one on Product Hunt's weekly leaderboard for the week of 2026-11-02 with a score of 510 and 127 comments. Its GitHub repository has about 3,425 stars under the MIT license, and independent coverage reports a $5.5M seed round, validating demand while leaving room for a simpler free local alternative.",
+      "monetization": "Open-source core; paid hosted sync and team knowledge base; enterprise audit and secret-redaction features; usage-based cloud storage.",
+      "evidence": [
+        "https://www.producthunt.com/leaderboard/weekly/2026/45",
+        "https://github.com/Asymptote-Labs/agent-beacon",
+        "https://ai.lounge.ai/news/beacon-sh-open-source-self-improving-memory-for-ai-coding-agents"
+      ],
+      "how_searched": [
+        "Read the Product Hunt weekly leaderboard for November 2026",
+        "Checked the GitHub repository, license, star count and feature list",
+        "Read independent launch coverage and funding reporting"
+      ],
+      "score": 74.0,
+      "found_at": "2026-11-12T19:04:55.311715+00:00"
     },
     {
       "name": "Shopify SEO and page-speed audit",
@@ -3532,6 +3474,25 @@
       ],
       "score": 65.0,
       "found_at": "2026-11-10T23:30:58.695828+00:00"
+    },
+    {
+      "name": "Old-photo restoration and colorization with free preview",
+      "field": "Consumer / photo",
+      "summary": "A free-preview web tool that colorizes, de-scratches and upscales old family photos, then charges per photo or pack for full-resolution downloads and prints, built for genealogy and memorial use.",
+      "why_now": "TrustMRR's Stripe-verified colorize.cc profile, updated 2026-11-12, shows $117,821 all-time and about $3.5K-$4.9K in the last 30 days with no subscriptions. 1M.chat's 2026-10-02 case shows steady $2.7K-$5.5K monthly revenue since 2025-10, and PrintCash's 2026-10-31 roundup lists restoration as one of the few profitable photo niches, though purchases are one-off so search traffic is the moat.",
+      "monetization": "Free low-resolution preview; paid per-photo packs; framed-print upsell; studio and museum bulk plans; holiday and genealogy campaigns.",
+      "evidence": [
+        "https://trustmrr.com/startup/colorize-cc",
+        "https://1m.chat/cases/colorize-cc/",
+        "https://printcashwithai.com/guides/ai-photo-editing-business-ideas/"
+      ],
+      "how_searched": [
+        "Browsed TrustMRR verified photo businesses",
+        "Read 1M.chat's month-by-month verified case",
+        "Compared PrintCash's photo-niche revenue roundup"
+      ],
+      "score": 64.0,
+      "found_at": "2026-11-12T19:05:02.313612+00:00"
     },
     {
       "name": "Postiz",
@@ -4106,6 +4067,24 @@
       "found_at": "2026-11-12T03:08:14.368314+00:00"
     },
     {
+      "name": "Photo-based physique assessment and workout-plan web tool",
+      "field": "Health & fitness",
+      "summary": "A free web tool that takes two or three user photos, gives a structured muscle and definition assessment, and generates a weekly training plan with progress-photo comparison, using explicit 'not medical advice' framing and local-only photo handling.",
+      "why_now": "TrustMRR's RevenueCat-verified AbMaxx profile, updated 2026-11-12, shows $40,419 in the last 30 days, $22,003 MRR, 6,127 active subscriptions and $200,944 all-time since March 2026. CoderHype independently logged $41,200 in trailing-30-day revenue on 2026-10-30, showing a small app can turn photo scans into subscriptions.",
+      "monetization": "Free assessment; paid plan for full routines and progress charts; creator-affiliate training programs; one-time challenge plan.",
+      "evidence": [
+        "https://trustmrr.com/startup/abmaxx",
+        "https://coderhype.com/project/abmaxx/"
+      ],
+      "how_searched": [
+        "Browsed TrustMRR verified mobile-app revenue profiles",
+        "Cross-checked CoderHype's independent write-up and revenue snapshot",
+        "Compared MRR, subscription counts and App Store ratings"
+      ],
+      "score": 47.3,
+      "found_at": "2026-11-12T19:04:56.110998+00:00"
+    },
+    {
       "name": "AIDesigner (AI UI design generator with MCP)",
       "field": "design/dev tools",
       "summary": "Generates editable website/app UI, brand kits and images from prompts; MCP server lets Claude Code/Cursor/Codex design inside the coding workflow.",
@@ -4139,6 +4118,24 @@
       ],
       "score": 46.7,
       "found_at": "2026-11-11T15:27:31.215177+00:00"
+    },
+    {
+      "name": "Free wedding planning workspace for DIY couples",
+      "field": "Weddings / events",
+      "summary": "A free web app combining budget buckets, vendor and payment tracking, guest list and online RSVP, checklist and day-of timeline, with support for multi-day and cultural ceremonies instead of a single Western template.",
+      "why_now": "RSVP'd's 2026 report puts the US and Canada wedding market at $72B across 2.24M weddings, with 62-73% of couples planning without a professional planner and AI use doubling from 18% to 36% in twelve months. Coherent Market Insights sizes wedding-planning software at $1.1B in 2026 growing 13% CAGR to $2.55B by 2033, with couples making up 57% of users.",
+      "monetization": "Free core planning and RSVP; paid wedding-website domain, extra collaborators and seating/export tools; vendor marketplace referrals; planner tier.",
+      "evidence": [
+        "https://rsvpd.ai/resources/2026-state-of-wedding-planning-report",
+        "https://www.coherentmarketinsights.com/blog/information-and-communication-technology/wedding-planning-tools-emerging-trends-in-wedding-planning-4262"
+      ],
+      "how_searched": [
+        "Read wedding-industry data reports for DIY share and AI adoption",
+        "Cross-checked market sizing from Coherent Market Insights",
+        "Compared couples-versus-planner split and feature demand"
+      ],
+      "score": 46.7,
+      "found_at": "2026-11-12T19:04:57.516022+00:00"
     },
     {
       "name": "Exa Monitors v2 (scheduled web search for AI agents)",
@@ -4176,6 +4173,24 @@
       "found_at": "2026-11-11T06:38:40.485585+00:00"
     },
     {
+      "name": "Free virtual try-on widget for small fashion stores",
+      "field": "E-commerce / retail",
+      "summary": "A free or low-cost web widget that lets a shopper upload one photo and see a garment on themselves, with size guidance and email capture, embeddable on Shopify, WooCommerce or PrestaShop without code.",
+      "why_now": "Aiolum's verified profile, updated 2026-11-11, shows solo-founder Genlook at $14.2K MRR in August 2026, about $169.8K ARR, roughly 1,100 installs and 250 paying stores. Its live Shopify listing on 2026-11-12 shows a 5.0 rating from 41 reviews and a free plan, while image-model costs keep falling, though several lookalikes now compete.",
+      "monetization": "Free quota; usage-based pricing above quota; paid analytics and email capture; API resale; white-label for agencies.",
+      "evidence": [
+        "https://aiolum.com/story/genlook/",
+        "https://apps.shopify.com/genlook-virtual-try-on"
+      ],
+      "how_searched": [
+        "Read Aiolum's verified solo-founder case with revenue and install counts",
+        "Checked the live Shopify App Store listing, pricing and reviews",
+        "Compared installs, paying customers and competing try-on apps"
+      ],
+      "score": 45.3,
+      "found_at": "2026-11-12T19:04:57.956827+00:00"
+    },
+    {
       "name": "Mentiohunt Author Finder",
       "field": "PR / outreach / link building tools",
       "summary": "Free no-signup web tool that takes an article URL and returns the author plus the best available contact details with confidence labels; a paid product handles multiple lookups.",
@@ -4191,6 +4206,24 @@
       ],
       "score": 44.0,
       "found_at": "2026-11-11T15:27:32.083646+00:00"
+    },
+    {
+      "name": "Free ATS resume checker and tailoring workspace",
+      "field": "Careers / HR",
+      "summary": "A free web tool that scores a resume against a pasted job description, highlights keyword gaps and formatting risks, and produces a tailored editable version; no account needed for the first scan.",
+      "why_now": "BizPeel's report, with data as of 2026-11-12, shows Rezi still earns $2.95M over 12 months and $239K MRR across 9,884 subscriptions despite a 4% decline in 30 days. Jimmy Decodes' 2026-11-06 teardown confirms $10.43M all-time verified Stripe revenue and 10,071 subscriptions but notes incumbents are losing ground to free AI rewrites, which leaves room for a genuinely free, privacy-first checker.",
+      "monetization": "Free scan; paid unlimited tailoring and cover letters; university and career-center bulk licences; recruiter-side white-label.",
+      "evidence": [
+        "https://bizpeel.com/project/rezi",
+        "https://www.jimmydecodes.com/en/cases/rezi/"
+      ],
+      "how_searched": [
+        "Read BizPeel's revenue report for Rezi",
+        "Cross-checked Jimmy Decodes' Stripe and TrustMRR teardown",
+        "Checked pricing, churn and competitive pressure from free AI tools"
+      ],
+      "score": 44.0,
+      "found_at": "2026-11-12T19:05:00.139464+00:00"
     },
     {
       "name": "LLM Gateway",
