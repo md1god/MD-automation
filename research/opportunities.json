@@ -3607,6 +3607,23 @@
       "found_at": "2026-11-10T23:31:03.164767+00:00"
     },
     {
+      "name": "Photo-to-resale listing assistant",
+      "field": "E-commerce / resale tools",
+      "summary": "A free web tool where a reseller uploads a phone photo, gets an item identification, recent sold comps, a price range and a ready-to-edit listing. The model is proven: Underpriced AI is Stripe-verified at about $5.2K/month, reports 6,000+ resellers and $2.8M+ of items priced, and starts at $5/month with the first scan free.",
+      "why_now": "On 11 Nov 2026 eBay launched its enhanced camera-first listing flow in the US, UK, DE, FR, IT and AU; it says 10M+ unique sellers have used its AI features and 800,000+ new AI-assisted listings are created daily. That normalizes photo-first selling and leaves room for an independent, cross-marketplace comps tool.",
+      "monetization": "3-5 free scans/day; $5-15/month or scan packs for bulk pricing and listing drafts; eBay Partner Network affiliate revenue; paid sold-comps/proxy APIs are the main cost.",
+      "evidence": [
+        "https://aipaidme.com/stories/underpriced-ai-reseller-pricing-app-frank-kratzer-5k-month/",
+        "https://www.ebayinc.com/stories/news/ebay-makes-selling-easier-with-a-new-camera-first-experience/"
+      ],
+      "how_searched": [
+        "Stripe-verified indie revenue story (AI Paid Me, 9 Nov 2026)",
+        "Marketplace press release (eBay Newsroom, 11 Nov 2026)"
+      ],
+      "score": 58.7,
+      "found_at": "2026-11-12T03:08:09.301225+00:00"
+    },
+    {
       "name": "Agent Feed Auditor",
       "field": "Agentic commerce / product data",
       "summary": "An original web tool that audits a store's product feed against Google Merchant Center, ChatGPT and Shopify Catalog requirements, flags missing identifiers, attributes, shipping and returns, and generates per-platform fixes.",
@@ -3658,6 +3675,23 @@
       "found_at": "2026-11-11T06:38:36.437977+00:00"
     },
     {
+      "name": "Browser screen recorder with auto-zoom",
+      "field": "Creator tools / video",
+      "summary": "A browser-based recorder that turns raw screen captures into polished demos by auto-applying smooth cursor motion, zoom, framing, captions and motion blur, processed locally. Demand is unusually visible: ~320K monthly visits and 25,000 MAU for Screen Studio, and 25+ separate 'free Screen Studio alternative' Show HN launches since 2023.",
+      "why_now": "Screen Studio 4.0 added Glass Loupe, Camera Cutout and Edit by Transcript, and the product remains macOS-only. 'Screen recorder' still draws ~217,000 monthly searches, while the wave of free-alternative launches proves users are actively hunting for a web option.",
+      "monetization": "Free 1080p export with watermark; $9-29/month or one-time $99 for 4K, local AI captions and share links; team and education plans.",
+      "evidence": [
+        "https://www.systemaic.com/teardowns/screen-studio",
+        "https://screen.studio/"
+      ],
+      "how_searched": [
+        "SaaS teardown with traffic, MAU and clone analysis (Systemaic, 14 Jul 2026)",
+        "Vendor pricing and feature page (screen.studio)"
+      ],
+      "score": 57.3,
+      "found_at": "2026-11-12T03:08:09.695028+00:00"
+    },
+    {
       "name": "Rezi",
       "field": "AI resume builder / job search",
       "summary": "AI-powered resume builder that tailors resumes to job descriptions and ATS systems, with an AI resume agent, keyword targeting, templates and interview prep.",
@@ -3690,6 +3724,23 @@
       ],
       "score": 55.3,
       "found_at": "2026-11-11T06:38:36.903113+00:00"
+    },
+    {
+      "name": "Invalid-traffic audit for ad campaigns",
+      "field": "Adtech / marketing security",
+      "summary": "A free web audit that ingests a placement/source report and flags invalid clicks, bot-like patterns, geo-spoofing and MFA inventory, then outputs a blocklist and savings estimate. The problem is large and worsening: Spider AF measured a 5.58% paid-click fraud rate in H1 2026, up from 4.32% in 2025, and estimates $25.3B exposed in six months.",
+      "why_now": "Spider AF's H1 2026 report (2 Sep 2026) shows bot-driven invalid clicks up ~2.2x and human-mimicking bots at 64.4% of bot traffic. A Lunio survey of 131 marketers cited the same month found 75.6% estimate losing more than 5% of performance budget, yet only 5.3% use a dedicated prevention tool.",
+      "monetization": "Free one-off CSV audit; $49-299/month for continuous monitoring, alerts and agency white-label; affiliate fees for verification vendors.",
+      "evidence": [
+        "https://spideraf.com/adfraud-report-whitepaper-2026-firsthalf",
+        "https://youtarget.com/blog/ad-fraud/"
+      ],
+      "how_searched": [
+        "Vendor fraud benchmark report (Spider AF H1 2026)",
+        "Independent 2026 statistics roundup with methodology comparison (Youtarget, 22 Oct 2026)"
+      ],
+      "score": 55.3,
+      "found_at": "2026-11-12T03:08:10.382500+00:00"
     },
     {
       "name": "Underpriced AI (thrift/eBay reseller photo pricing tool)",
@@ -3727,6 +3778,23 @@
       "found_at": "2026-11-11T06:38:37.601030+00:00"
     },
     {
+      "name": "AI screenplay editor for film/TV writers",
+      "field": "Film and TV writing",
+      "summary": "A professional screenplay editor that adds AI continuation, whole-script diagnosis, character/storyboard extraction and production entities without overwriting the writer's voice. Laper reached $54,825 in Stripe-verified 30-day revenue, $51,541 MRR and 1,585 subscriptions by 5 Nov 2026.",
+      "why_now": "Laper's revenue grew sharply after May 2026 and its TrustMRR sync on 11 Nov 2026 shows $55,802/30 days, $53,917 MRR and 1,644 subscriptions. It sells five tiers up to $400/month, showing writers will pay well for domain-specific AI rather than generic chat.",
+      "monetization": "Free trial/watermarked exports; $9-50/month writer tiers, credit packs for AI runs, and $200-400/month team/production tiers; model inference is the main cost.",
+      "evidence": [
+        "https://horizontal.one/cases/zhao-chunxiang-laper-claude-code-screenwriting/",
+        "https://trustmrr.com/startup/laper"
+      ],
+      "how_searched": [
+        "Founder case study with Stripe-verified metrics (Horizontal, 5 Nov 2026)",
+        "Revenue tracker sync (TrustMRR, 11 Nov 2026)"
+      ],
+      "score": 54.7,
+      "found_at": "2026-11-12T03:08:11.412048+00:00"
+    },
+    {
       "name": "Multiplayer browser edu-game: parkour courses gated by times-tables quizzes",
       "field": "EdTech / browser games",
       "summary": "A free browser-based multiplayer parkour game where multiplication quizzes gate progression — the Roblox 'obby' genre moved to the web for classrooms and homes. 3x3 Speed Escape is currently exploding in search demand.",
@@ -3744,6 +3812,23 @@
       ],
       "score": 54.0,
       "found_at": "2026-11-10T23:31:03.766515+00:00"
+    },
+    {
+      "name": "AI product-photo studio for small sellers",
+      "field": "E-commerce creative",
+      "summary": "A free web tool that turns a phone photo into a clean catalog, on-model or ghost-mannequin shot, then exports channel-ready images. Photta logged 41,558 sellers producing 243,509 images from Nov 2025 to Oct 2026, and the market is forecast to grow from about $450M in 2024 to roughly $5B by 2035.",
+      "why_now": "ABOUT YOU's SCAYLE STUDIOS launched 20 Jul 2026, passed EUR 1M ARR within 2.5 months, and now has 100+ paying brands generating 80,000 outfits in 30 days. It reports ~90% lower production cost and a 9.2% GMV uplift, validating paid demand beyond early adopters.",
+      "monetization": "3 free images/month; $9-49/month credit packs; white-label or API for agencies and marketplaces; GPU inference per image is the main cost.",
+      "evidence": [
+        "https://www.photta.app/blog/state-of-ai-product-photography-2026",
+        "https://corporate.aboutyou.de/en/newsroom/press-releases/in-minutes-instead-of-weeks-about-you-group-launches-ai-powered-photo-studio-with-scayle-studios"
+      ],
+      "how_searched": [
+        "First-party platform data report (Photta, updated 19 Oct 2026)",
+        "Corporate launch press release with ARR and customer metrics (ABOUT YOU/SCAYLE, 20 Jul 2026)"
+      ],
+      "score": 54.0,
+      "found_at": "2026-11-12T03:08:11.884957+00:00"
     },
     {
       "name": "1Lookup",
@@ -3778,6 +3863,23 @@
       ],
       "score": 53.3,
       "found_at": "2026-11-11T06:38:37.902298+00:00"
+    },
+    {
+      "name": "Live AI translation for churches and events",
+      "field": "Faith, events and accessibility",
+      "summary": "A QR-code web app that lets each attendee hear or read a live sermon or event in their own language, with no headsets or extra hardware. Glossa is Stripe-verified at $14,404 MRR from 100 subscriptions and $31,173 in the last 30 days, with $196,539 all-time.",
+      "why_now": "Glossa's numbers were re-reported on 5-9 Nov 2026 and show a ~2,000-user niche paying $5/hour or $99-499/month, with 4 free hours. The church and event niche is underserved, and the product can be rebuilt as a browser listener page using commodity speech and translation APIs.",
+      "monetization": "Free 4 hours/1 language; $5/hour/language; $99, $299 and $499 monthly plans for recurring services; white-label for dioceses and event companies.",
+      "evidence": [
+        "https://trustmrr.com/startup/glossa-live",
+        "https://aipaidme.com/stories/glossa-ai-church-translation-app-anton-karbanovich-14k-mrr/"
+      ],
+      "how_searched": [
+        "Stripe-verified revenue tracker (TrustMRR, data to 19 Oct 2026)",
+        "Verified founder story with pricing and usage details (AI Paid Me, 9 Nov 2026)"
+      ],
+      "score": 52.7,
+      "found_at": "2026-11-12T03:08:12.181652+00:00"
     },
     {
       "name": "AI multi-model creative studio",
@@ -3901,6 +4003,23 @@
       "found_at": "2026-11-11T06:38:40.077157+00:00"
     },
     {
+      "name": "ATS resume scanner and rewrite tool",
+      "field": "Careers / HR tech",
+      "summary": "A free ATS compatibility scanner that grades a resume, shows missing keywords and formatting risks, and offers an optional AI rewrite. Rezi is Stripe-verified at $239,067 MRR, 9,898 subscriptions, $10.5M all-time and about 4.5M users, charging $0/$29/month/$149 lifetime.",
+      "why_now": "Kickresume's 2025 data on 1.22M AI users found 773K (about 64%) used AI to check resumes for ATS compatibility, more than used AI to write them (586K), yet only about 3.5% tailored a resume to a job description. Rezi's revenue synced again on 11 Nov 2026, confirming paid demand.",
+      "monetization": "Free scan with limited fixes; $9-29/month for unlimited scans, rewrites and templates; $149 lifetime; B2B university and career-center seats.",
+      "evidence": [
+        "https://trustmrr.com/startup/rezi",
+        "https://www.kickresume.com/en/press/ai-job-search-data/"
+      ],
+      "how_searched": [
+        "Stripe-verified revenue tracker (TrustMRR, 11 Nov 2026)",
+        "Competitor's aggregated 1.22M-user usage study (Kickresume, 30 Apr 2026)"
+      ],
+      "score": 49.3,
+      "found_at": "2026-11-12T03:08:12.929535+00:00"
+    },
+    {
       "name": "Back-office web tool for disability care providers: scheduling, notes and AI progress reports",
       "field": "Health & human services / vertical SaaS",
       "summary": "A vertical web tool for disability/IDD service providers covering attendance, service documentation, medication tracking and AI-generated progress notes and reports. Kibu proves the vertical, counting The Arc, YMCA, UCP and Chimes among customers.",
@@ -3916,6 +4035,23 @@
       ],
       "score": 48.7,
       "found_at": "2026-11-10T23:30:39.761057+00:00"
+    },
+    {
+      "name": "Plain-English behavioral QA agent",
+      "field": "Developer tools / QA",
+      "summary": "A free web tool where a developer states a goal in plain English and an agent explores the app like a customer, records each run and returns reproducible bugs. Seldon's Wren launched 10 Nov 2026, ranked #5 Product of the Day with 249 upvotes and 99 comments, and charges $3 per completed run after 10 free.",
+      "why_now": "Wren launched two days ago and immediately hit 249 upvotes and 99 comments, with users asking for CI, staging and native-app support. The launch validates demand for intent-based testing instead of hand-written Playwright scripts, and the 10-free-run model is easy to mirror.",
+      "monetization": "10 free runs; $3/completed run; volume and team plans; paid CI integrations and private runs; inference plus browser compute are the main costs.",
+      "evidence": [
+        "https://www.seldon.com/products/wren",
+        "https://hunted.space/product/seldon"
+      ],
+      "how_searched": [
+        "Product page with pricing and mechanics (Seldon Wren)",
+        "Product Hunt launch analytics (Hunted.Space, 10 Nov 2026)"
+      ],
+      "score": 48.7,
+      "found_at": "2026-11-12T03:08:13.397515+00:00"
     },
     {
       "name": "Pastel",
@@ -3951,6 +4087,23 @@
       ],
       "score": 48.0,
       "found_at": "2026-11-10T10:05:25.944782+00:00"
+    },
+    {
+      "name": "AI directory-site builder",
+      "field": "No-code / web publishing",
+      "summary": "A no-code/AI builder that creates a niche directory with seeded listings, categories, SEO pages and a monetization hub. Directify sold for $85,000 at $2,000 MRR, recovered to $50K ARR seven months later, and charges $12-149/month while taking no cut of listing fees.",
+      "why_now": "Directify hit $50K ARR on 13 Sep 2026 and its July 2026 dataset shows 4,039 sites, 513,929 listings and 3,539 businesses creating accounts just to be listed. But 61% of sites never publish a listing, so the opening is a free tool that seeds a complete directory instead of shipping another empty template.",
+      "monetization": "Free 1 directory/10 listings; $12-149/month; optional done-for-you listing import; no commission on customer listing fees, matching Directify's model.",
+      "evidence": [
+        "https://small-start.com/en/cases/global-directify-85k-acquisition/",
+        "https://directify.app/blog/what-4000-directory-websites-taught-us"
+      ],
+      "how_searched": [
+        "Bootstrapped acquisition case study (Small Start, 30 Sep 2026)",
+        "Platform's own 4,039-site dataset (Directify blog, 3 Jul 2026)"
+      ],
+      "score": 47.3,
+      "found_at": "2026-11-12T03:08:14.368314+00:00"
     },
     {
       "name": "AIDesigner (AI UI design generator with MCP)",
