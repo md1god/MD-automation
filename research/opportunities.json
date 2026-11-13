@@ -139,26 +139,6 @@
       "found_at": "2026-10-27T10:37:23.236780+00:00"
     },
     {
-      "name": "AI Interior Design & Renovation",
-      "field": "Consumer AI / Interior Design",
-      "summary": "A free web tool that uploads a room photo, lets the user pick a style and lock the walls, floor, and furniture that must stay, then returns photorealistic redesigns for living rooms, kitchens, exteriors, and gardens.",
-      "why_now": "AI room redesign is open and fully priced: 81 apps, 40 launched in the last 18 months, demand rated 100 and crowding 30, with a $1.2M+ monthly floor. Home AI adds 5,572 ratings a month, DecAI has 1M MAU and $100K+ monthly revenue, and Interior AI is estimated at $45K MRR.",
-      "monetization": "Freemium with paid render credits, $9.99 weekly and $29.99-$64.99 yearly plans, one-off design packs, and white-label plans for real-estate agents and home stagers. Avoid the trial-to-weekly trap and per-render limits that dominate one-star reviews.",
-      "evidence": [
-        "https://www.appgoblin.info/apps/ai.interior.design.home.renovation.app",
-        "https://www.appaloma.com/research/ai-interior-design",
-        "https://catalora.ai/articles/ai-photo-apps-indie-revenue"
-      ],
-      "how_searched": [
-        "App-store revenue analytics (AppGoblin)",
-        "App niche and review research (Appaloma)",
-        "AI photo-app revenue analysis (Catalora)",
-        "Web search for AI interior design revenue"
-      ],
-      "score": 95.0,
-      "found_at": "2026-10-22T19:23:42.267384+00:00"
-    },
-    {
       "name": "PDF Bank Statement to Spreadsheet Converter",
       "field": "Fintech/Accounting Automation",
       "summary": "Web tool that converts PDF bank/credit card statements to clean Excel/CSV files for accountants, bookkeepers and SMBs who need machine-readable transaction data.",
@@ -833,27 +813,6 @@
       "found_at": "2026-10-24T14:39:00.519914+00:00"
     },
     {
-      "name": "EU Withdrawal-Button Compliance Toolkit",
-      "field": "E-commerce compliance / EU legal tech",
-      "summary": "A free web app that generates an EU-compliant withdrawal button, withdrawal form, confirmation emails and audit trail for online stores, with paid monitoring, multi-language templates and compliance checks.",
-      "why_now": "The electronic withdrawal function requirement took effect on 19 June 2026, and a second EU consumer-law update applies on 27 September 2026. Shopify's own help page confirms the requirement, the EW app has 2,315 reviews at 4.9/5, and Shoplist counted 77 legal-category launches among 1,850 new Shopify apps in October 2026, showing both demand and active competition.",
-      "monetization": "Free basic form/button, then paid plans for custom branding, automated confirmations, multi-store management and compliance monitoring; the incumbent EW app already uses a free legally compliant plan with paid customization tiers.",
-      "evidence": [
-        "https://commission.europa.eu/law/law-topic/consumer-protection-law/consumer-contract-law/consumer-rights-directive_en",
-        "https://help.shopify.com/en/manual/compliance/legal/eu-right-of-withdrawal",
-        "https://apps.shopify.com/eu-widerrufsbutton/reviews",
-        "https://shoplist.co/shopify-apps/new-apps-2026/october"
-      ],
-      "how_searched": [
-        "EU regulator and legal guidance",
-        "Shopify merchant documentation",
-        "Shopify App Store reviews",
-        "Shopify new-app launch tracker"
-      ],
-      "score": 90.0,
-      "found_at": "2026-10-22T22:31:52.985408+00:00"
-    },
-    {
       "name": "Vertical AI Agents for Local Trades",
       "field": "Vertical AI/B2B SaaS",
       "summary": "AI agents purpose-built for specific trades (HVAC/plumbing/roofing) handling lead qualification, scheduling, follow-ups, estimates. Huge TAM, underserved.",
@@ -994,27 +953,6 @@
       ],
       "score": 89.0,
       "found_at": "2026-10-30T01:01:57.365822+00:00"
-    },
-    {
-      "name": "Review-to-Website Builder for Local Businesses",
-      "field": "Local-business websites / AI content",
-      "summary": "A free tool that turns a Google Maps or Yelp business listing and its customer reviews into a one-page website with specific, review-backed copy, plus a simple editor and hosting.",
-      "why_now": "Brila generated 7,050 websites, and its case study reports 59 paid conversions in the first three weeks with zero ad spend. Its April 2026 launch drew 1,367 upvotes and 246 comments, and pricing is still $9–$29/mo after a free tier, leaving room for a free-by-default localized alternative.",
-      "monetization": "Freemium with a free single-site tier, $9/mo Pro and $29/mo Agency plans; paid custom domains, HTML export, more reviews and sites, and white-label hosting.",
-      "evidence": [
-        "https://brila.ai/",
-        "https://brila.ai/pricing",
-        "https://launchintel.pro/products/producthunt/1094681",
-        "https://klmln.com/work/brila"
-      ],
-      "how_searched": [
-        "Official product site and pricing",
-        "Product launch directory",
-        "Product Hunt launch tracker",
-        "Designer case study with conversion data"
-      ],
-      "score": 88.0,
-      "found_at": "2026-10-22T22:31:54.379951+00:00"
     },
     {
       "name": "Competitor Pricing Intelligence Dashboard (Free Web Tool)",
@@ -1760,25 +1698,6 @@
       "found_at": "2026-11-10T23:30:37.324254+00:00"
     },
     {
-      "name": "AI Fundraising Agent & Warm-Intro Planner",
-      "field": "Startup fundraising / B2B services",
-      "summary": "A free investor-fit and warm-introduction planner that maps a startup's network to relevant funds and produces a prioritized outreach plan, with paid outreach execution.",
-      "why_now": "Fundraisly launched on 2 June 2026, became #1 Product of the Day with 1,027 upvotes and 261 comments, and reports $1.1B raised across 200+ startups. Its published pricing—$1,000 setup plus $100 per investor call, or $5,000/mo—shows founders pay for this outcome.",
-      "monetization": "High-ticket service: $1,000 setup plus $100 per investor call, or a $5,000/mo agency plan; a free planner can upsell warm-intro research and managed outreach.",
-      "evidence": [
-        "https://fundraisly.com/",
-        "https://www.hunted.space/dashboard/fundraisly",
-        "https://theaiagentindex.com/agents/fundraisly"
-      ],
-      "how_searched": [
-        "Official product site and pricing",
-        "Product Hunt launch tracker",
-        "Independent AI-agent review index"
-      ],
-      "score": 84.0,
-      "found_at": "2026-10-22T22:31:55.909346+00:00"
-    },
-    {
       "name": "AI-agent traffic analytics",
       "field": "B2B web analytics",
       "summary": "Server-side analytics that separates humans, bots, AI crawlers, and AI agents, then shows which pages AI assistants cite and which agents verify cryptographically. Known Agents reports 5,000+ tracked sites; Agent Monitor reports 200+ companies and 110M+ visits analyzed.",
@@ -2004,25 +1923,6 @@
       "found_at": "2026-10-31T05:49:36.587823+00:00"
     },
     {
-      "name": "Shopify Chargeback Evidence & Dispute Automation",
-      "field": "E-commerce payments / chargeback recovery",
-      "summary": "A web tool that assembles chargeback evidence packets, recommends response templates and tracks win rates for Shopify and Stripe merchants, with optional automated submission.",
-      "why_now": "Disputifier serves 11,000+ Shopify stores and generated about $2.1M in 2025 revenue on success-based pricing. Its Shopify app has 137 reviews at 4.6/5, with 89% five-star reviews, while the category remains integration-heavy and leaves room for a focused evidence-pack tool.",
-      "monetization": "20% of won chargeback recovery capped at $250 per dispute; a rebuilt tool could charge per dispute or a flat monthly SaaS fee, with a free evidence-pack builder as acquisition.",
-      "evidence": [
-        "https://chargeforward.io/vendors/disputifier/",
-        "https://apps.shopify.com/disputifier",
-        "https://apps.shopify.com/disputifier/reviews"
-      ],
-      "how_searched": [
-        "Payments vendor database",
-        "Shopify App Store listing",
-        "Shopify App Store reviews"
-      ],
-      "score": 83.0,
-      "found_at": "2026-10-22T22:31:56.743117+00:00"
-    },
-    {
       "name": "HS code and landed-cost calculator for small importers",
       "field": "Cross-border trade compliance",
       "summary": "Free SKU-level HS classification, duty and tariff calculator with de minimis checks, country-of-origin rules, and alerts when rates or classification rules change.",
@@ -2197,25 +2097,6 @@
       ],
       "score": 83.0,
       "found_at": "2026-11-11T22:04:52.534034+00:00"
-    },
-    {
-      "name": "RFP Requirement Extraction & Compliance Scoring",
-      "field": "B2B sales / proposal automation",
-      "summary": "A free RFP analyzer that extracts requirements, builds a compliance matrix, flags missing answers and drafts source-cited responses; paid tiers add team review and knowledge-base reuse.",
-      "why_now": "The RFP-response AI market is projected to grow from $1.35B in 2026 to $2.95B by 2030 at roughly 22% CAGR. Responsive starts at $10,000 and typically sells for $6k–$40k/year, while RFP.ai charges €49–€449/mo, leaving a large self-serve gap.",
-      "monetization": "Freemium self-serve at roughly €49–€449/mo like RFP.ai, plus usage overages and annual team plans; enterprise competitors sell for $10,000+ and often hide pricing.",
-      "evidence": [
-        "https://www.researchandmarkets.com/reports/6215338/request-proposal-rfp-response-automation",
-        "https://www.responsive.io/pricing",
-        "https://rfp.ai/resources/rfp-software-pricing/"
-      ],
-      "how_searched": [
-        "Market research report",
-        "Enterprise vendor pricing page",
-        "Competitor pricing guide"
-      ],
-      "score": 82.0,
-      "found_at": "2026-10-22T22:31:57.535099+00:00"
     },
     {
       "name": "Open-Source SEO Toolkit (Semrush/Ahrefs Alternative)",
@@ -2427,27 +2308,6 @@
       ],
       "score": 82.0,
       "found_at": "2026-11-12T19:04:53.255023+00:00"
-    },
-    {
-      "name": "AI Skin-Analysis Quiz for Beauty Ecommerce",
-      "field": "Beauty e-commerce / computer vision",
-      "summary": "A free cosmetic selfie-based skin quiz that scores concerns, builds a routine and recommends products from a brand's catalog, with paid white-label versions for beauty stores.",
-      "why_now": "The AI skin-analysis market is estimated at $2.13B in 2026 and $6.30B by 2033, growing 16.8% annually. Face Age already charges $59–$499/mo for a similar Shopify app, while Rupam's new listing has zero reviews and ranks #32,492, showing an early, monetizable niche.",
-      "monetization": "Freemium consumer quiz with affiliate or product commissions; paid brand plans for white-label quizzes, analytics and higher scan volumes, benchmarked to Face Age's $59–$499/mo pricing.",
-      "evidence": [
-        "https://rupam.ai/en",
-        "https://www.coherentmarketinsights.com/industry-reports/ai-skin-analysis-market",
-        "https://apps.shopify.com/face-age",
-        "https://appnavigator.io/app/rupam/"
-      ],
-      "how_searched": [
-        "Official AI product site",
-        "Market research report",
-        "Shopify App Store competitor listing and pricing",
-        "Shopify app analytics directory"
-      ],
-      "score": 81.0,
-      "found_at": "2026-10-22T22:31:58.700640+00:00"
     },
     {
       "name": "Supermarket-first AI meal planner with priced shopping list",
@@ -3496,20 +3356,21 @@
     },
     {
       "name": "Postiz",
-      "field": "Social media management / creator tools",
-      "summary": "Open-source agentic social media scheduler that plans, generates and schedules posts across 30+ networks; a hosted cloud is sold while the AGPL code can be self-hosted.",
-      "why_now": "Stripe-verified MRR rose from about $17k in Jan 2026 to $403,954 on Nov 11, 2026; the repo has 41.4k stars and 7.9k forks, and growth accelerated after adding MCP, CLI and agent surfaces.",
-      "monetization": "$403,954 MRR, $1,844,481 all-time, 11,892 active subscriptions; plans $29-$99/month with a 7-day trial; TrustMRR notes additional Whop revenue is not included.",
+      "field": "Social media management / AI content scheduling",
+      "summary": "An open-source social media scheduling and management platform for creators, teams, and businesses to plan and publish content across channels. The rebuild opportunity is a fresh, original web-based scheduler with AI-assisted drafting and multi-channel publishing workflows.",
+      "why_now": "Verified revenue dashboards show it among the top-earning indie AI/SaaS products right now, indicating strong and current demand for social scheduling tools.",
+      "monetization": "Subscription SaaS. TrustMRR/Stripe-verified revenue reported as $403,954 MRR, $443,690 last 30 days, $1,844,481 all-time, 11,892 subscriptions (AI Agents Info, checked 2026-11-12); The AI Receipts lists $408,000 MRR from TrustMRR (Stripe) as of 2026-11-12.",
       "evidence": [
-        "https://trustmrr.com/startup/postiz",
-        "https://github.com/gitroomhq/postiz-app"
+        "https://www.aiagentsinfo.com/verified-revenue",
+        "https://theaireceipts.com/how-much-do-ai-companies-make/"
       ],
       "how_searched": [
-        "verified revenue leaderboard (TrustMRR)",
-        "open-source repository metrics (GitHub)"
+        "web search for current indie/AI revenue milestones",
+        "verified revenue aggregators and payment-data dashboards",
+        "cross-checking MRR figures across independent compilations"
       ],
-      "score": 63.3,
-      "found_at": "2026-11-11T15:27:29.705378+00:00"
+      "score": 62.0,
+      "found_at": "2026-11-13T00:26:02.748170+00:00"
     },
     {
       "name": "Browser voice recorder with AI transcription and summaries (no hardware)",
@@ -3566,6 +3427,24 @@
       ],
       "score": 61.0,
       "found_at": "2026-11-10T23:31:03.164767+00:00"
+    },
+    {
+      "name": "AEO Engine",
+      "field": "AI search / answer engine optimization (AEO)",
+      "summary": "A tool focused on improving visibility in AI answers/search experiences. A rebuildable version could be an original web app that audits content, tracks answer presence, and suggests optimization actions for AI-driven discovery.",
+      "why_now": "As AI answer engines grow, businesses need tooling to appear in AI-generated responses; current verified revenue places it among fast-monetizing AEO products.",
+      "monetization": "Subscription SaaS. TrustMRR/Stripe-verified revenue reported as $188,713 MRR, $173,542 last 30 days, $2,729,739 all-time, 64 subscriptions (AI Agents Info, checked 2026-11-12); The AI Receipts lists $189,000 MRR from TrustMRR (Stripe) as of 2026-11-12.",
+      "evidence": [
+        "https://www.aiagentsinfo.com/verified-revenue",
+        "https://theaireceipts.com/how-much-do-ai-companies-make/"
+      ],
+      "how_searched": [
+        "web search for fastest-growing AI tools and revenue",
+        "verified revenue leaderboards",
+        "cross-checking product-level MRR across sources"
+      ],
+      "score": 59.3,
+      "found_at": "2026-11-13T00:26:03.042794+00:00"
     },
     {
       "name": "Photo-to-resale listing assistant",
@@ -3651,6 +3530,24 @@
       ],
       "score": 57.3,
       "found_at": "2026-11-12T03:08:09.695028+00:00"
+    },
+    {
+      "name": "Audn.AI",
+      "field": "AI security / automated penetration testing for AI apps & agents",
+      "summary": "An automated black-box penetration testing service for AI companies and agent-based applications. A rebuildable idea is an original web security scanner that tests prompts, endpoints, and agent behaviors for common vulnerabilities and produces reports.",
+      "why_now": "Rapid adoption of AI agents is creating urgent security/testing demand; reported verified revenue growth shows fast recent uptake.",
+      "monetization": "B2B subscription/service pricing. Reported at $36,300 MRR from ~110 subscriptions at $999/month, with verified monthly revenue rising from ~$980 in April to $53,400 in October (How I Muse, citing The AI Receipts/TrustMRR data, 2026-11-10); TrustMRR newsletter also listed $10,632 in 30-day revenue with 920% 30-day growth in August 2025.",
+      "evidence": [
+        "https://howimuse.com/ai-money-moves-tuesday-november-10-2026-the-money-is-in-the-plumbing-around-ai/",
+        "https://trustmrr.com/newsletter/this-ai-tool-just-boosted-revenue-by-2308"
+      ],
+      "how_searched": [
+        "web search for recent AI startup revenue and MRR milestones",
+        "news/newsletter sources on AI money/revenue moves",
+        "historical growth snapshots from TrustMRR newsletter"
+      ],
+      "score": 57.3,
+      "found_at": "2026-11-13T00:26:05.763820+00:00"
     },
     {
       "name": "Rezi",
@@ -3826,6 +3723,24 @@
       "found_at": "2026-11-11T06:38:37.902298+00:00"
     },
     {
+      "name": "Underpriced AI",
+      "field": "Reseller pricing / thrift & eBay listing assistant",
+      "summary": "A mobile/web AI app for thrift and eBay resellers that identifies items from photos, estimates resale value, and drafts listings. A rebuildable web version could focus on photo-based item recognition, comps lookup, and listing generation.",
+      "why_now": "Resellers actively seek faster pricing and listing workflows; recent Stripe-verified revenue and founder-reported growth show current demand in this niche.",
+      "monetization": "Subscription app. Indie Hackers shows $5.2K/mo revenue verified by Stripe (checked 2026-11-09); also reported as $5,212 in the last 30 days and $28,031 from Jan–Sep 2026 (Stripe-verified, 2026-10-30).",
+      "evidence": [
+        "https://aipaidme.com/stories/underpriced-ai-reseller-pricing-app-frank-kratzer-5k-month/",
+        "https://shippedandpaid.beehiiv.com/p/glossa-at-14k-mrr-and-mimikflow-at-11k-plus-10-more-ai-built-apps-with-verified-revenue"
+      ],
+      "how_searched": [
+        "web search for verified indie SaaS/app revenue stories",
+        "indie revenue case-study sites and newsletters",
+        "cross-checking Stripe-verified claims across sources"
+      ],
+      "score": 53.3,
+      "found_at": "2026-11-13T00:26:07.252136+00:00"
+    },
+    {
       "name": "Live AI translation for churches and events",
       "field": "Faith, events and accessibility",
       "summary": "A QR-code web app that lets each attendee hear or read a live sermon or event in their own language, with no headsets or extra hardware. Glossa is Stripe-verified at $14,404 MRR from 100 subscriptions and $31,173 in the last 30 days, with $196,539 all-time.",
@@ -3875,6 +3790,42 @@
       ],
       "score": 52.0,
       "found_at": "2026-11-11T06:38:38.618206+00:00"
+    },
+    {
+      "name": "GainFrame",
+      "field": "Fitness tracking / AI body composition from progress photos",
+      "summary": "An iPhone app that estimates body fat and muscle from progress photos, compares changes over time, and suggests plans. A rebuildable web idea is an original privacy-conscious progress-photo analyzer and tracker (clearly labeled as estimates, not medical measurements).",
+      "why_now": "Consumer fitness users continue adopting photo-based progress tracking; recent verified revenue shows ongoing paid demand despite reduced ad spend.",
+      "monetization": "Freemium mobile subscription. Pro priced at $5.99–$7.99/month or $39.99–$49.99/year (App Store, 2026-11-09); verified $2,374/month from 465 active subscriptions (RevenueCat via TrustMRR, 2026-11-09), up from a claimed $2,328 MRR on 2026-10-29.",
+      "evidence": [
+        "https://proofofincome.beehiiv.com/p/he-stopped-paying-for-ads-his-ai-app-still-makes-2-374-a-month",
+        "https://www.proofofincomeai.com/movers/2026-11-09"
+      ],
+      "how_searched": [
+        "web search for recent verified app revenue and movers",
+        "proof-of-income/revenue tracking newsletters",
+        "cross-checking claimed vs verified revenue snapshots"
+      ],
+      "score": 52.0,
+      "found_at": "2026-11-13T00:26:07.892003+00:00"
+    },
+    {
+      "name": "SocialClaw",
+      "field": "Social media scheduling for AI agents",
+      "summary": "A scheduling platform that lets AI agents (e.g., OpenClaw, Claude, Codex, ChatGPT workflows) connect accounts and publish/schedule posts programmatically. A rebuildable web product could provide an original agent-friendly posting API/dashboard with approvals and analytics.",
+      "why_now": "Agentic workflows are increasing demand for tools that let agents act on social channels safely and automatically; recent verified subscription revenue shows early monetization.",
+      "monetization": "Subscription SaaS. Reported $1,691 MRR from 87 active subscriptions and $1,886 in the last 30 days (TrustMRR, Lemon Squeezy-verified, 2026-11-02); TrustMRR startup page I opened showed $2.6k MRR in page content snapshot at time of fetch.",
+      "evidence": [
+        "https://shippedandpaid.beehiiv.com/p/glossa-at-14k-mrr-and-mimikflow-at-11k-plus-10-more-ai-built-apps-with-verified-revenue",
+        "https://trustmrr.com/startup/socialclaw"
+      ],
+      "how_searched": [
+        "web search for AI agent tooling with verified revenue",
+        "newsletters covering AI-built monetized products",
+        "direct fetch of public revenue/profile pages"
+      ],
+      "score": 51.3,
+      "found_at": "2026-11-13T00:26:08.598473+00:00"
     },
     {
       "name": "Live AI translation for events (Glossa model)",
@@ -3927,6 +3878,24 @@
       ],
       "score": 50.0,
       "found_at": "2026-11-10T10:05:24.991529+00:00"
+    },
+    {
+      "name": "ClimbX",
+      "field": "AI LinkedIn prospecting & outreach (official API)",
+      "summary": "A LinkedIn prospecting tool that reads profiles/posts, drafts personalized connection requests and follow-ups, and helps book meetings using the official LinkedIn API. An original rebuild could be a compliant web prospecting assistant focused on research, drafting, and sequencing with user approval.",
+      "why_now": "Sales teams and founders continue paying for outbound personalization and safer LinkedIn automation alternatives; recent verified revenue indicates active demand.",
+      "monetization": "Subscription SaaS. Reported $1,276 MRR from 44 active subscriptions and $1,306 in the last 30 days (TrustMRR, Stripe-verified, 2026-11-02).",
+      "evidence": [
+        "https://shippedandpaid.beehiiv.com/p/glossa-at-14k-mrr-and-mimikflow-at-11k-plus-10-more-ai-built-apps-with-verified-revenue",
+        "https://1dea.io/traction/monthly/2026-11"
+      ],
+      "how_searched": [
+        "web search for micro-SaaS traction in November 2026",
+        "indie product traction aggregators",
+        "verified-revenue newsletters for cross-checking claims"
+      ],
+      "score": 50.0,
+      "found_at": "2026-11-13T00:26:09.051827+00:00"
     },
     {
       "name": "MimikFlow (AI LinkedIn prospecting agent)",
@@ -4312,23 +4281,6 @@
       ],
       "score": 40.0,
       "found_at": "2026-11-10T10:05:29.599624+00:00"
-    },
-    {
-      "name": "ClimbX",
-      "field": "Social media growth / creator tools",
-      "summary": "AI copilot for X that finds high-performing posts in a niche, drafts in the user's voice and schedules through X's official API.",
-      "why_now": "TrustMRR verifies about $1,160 MRR from 40 active subscriptions, and the founder reached about 13k X followers in 200 days before building the tool.",
-      "monetization": "$29/month for the first 100 users, then $39/month, with a 7-day trial requiring a card.",
-      "evidence": [
-        "https://1dea.io/traction/402",
-        "https://trustmrr.com/startup/climbx"
-      ],
-      "how_searched": [
-        "indie revenue roundup (1dea.io)",
-        "verified revenue leaderboard (TrustMRR)"
-      ],
-      "score": 38.7,
-      "found_at": "2026-11-11T15:27:33.756152+00:00"
     },
     {
       "name": "Smart Blur",
