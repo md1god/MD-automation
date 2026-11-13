@@ -139,26 +139,6 @@
       "found_at": "2026-10-27T10:37:23.236780+00:00"
     },
     {
-      "name": "PDF Bank Statement to Spreadsheet Converter",
-      "field": "Fintech/Accounting Automation",
-      "summary": "Web tool that converts PDF bank/credit card statements to clean Excel/CSV files for accountants, bookkeepers and SMBs who need machine-readable transaction data.",
-      "why_now": "Still ubiquitous (banks only issue PDFs), massive SEO demand with minimal competition from purpose-built free tools. Multiple independent sources show this has been compounding for years with strong conversion rates from search traffic.",
-      "monetization": "Subscriptions/pricing by pages; reported MRR $38K-$40K (Angus Cheng/Bank Statement Converter). Some clones show smaller verified MRRs, but the original signals strong recurring revenue from accountants/bookkeepers.",
-      "evidence": [
-        "https://aidevcases.com/en/cases/bank-statement-converter",
-        "https://www.wlad.me/blog/companies/bank-statement-converter",
-        "https://superframeworks.beehiiv.com/p/new-post-ea75",
-        "https://medium.com/@rohidasgowda/the-simple-tool-one-developer-built-to-stop-copy-pasting-bank-statements-now-making-3k-month-34c09fdc20a0"
-      ],
-      "how_searched": [
-        "SEO/organic search (high-intent 'bank statement converter')",
-        "founder interviews",
-        "revenue tracking sites"
-      ],
-      "score": 95.0,
-      "found_at": "2026-10-23T01:33:37.388762+00:00"
-    },
-    {
       "name": "Free website tech-stack detector (BuiltWith/Wappalyzer model)",
       "field": "Sales intelligence / technographic data",
       "summary": "A free web tool that reveals the full technology stack behind any website (CMS, analytics, frameworks, payments, hosting) and turns tech signals into prospect lists, with single lookups free forever and paid bulk/API tiers.",
@@ -794,6 +774,25 @@
       "found_at": "2026-10-25T11:34:24.499745+00:00"
     },
     {
+      "name": "Vibe App Security Scanner",
+      "field": "AI app security",
+      "summary": "A free URL scanner for apps built with Lovable, Bolt, v0 and Supabase that detects public database tables, leaked keys, missing auth checks and exposed PII, then sells continuous monitoring and fix guidance. It targets the fast-growing vibe-coding market rather than generic websites.",
+      "why_now": "Crissy Field found 24,664 of 34,545 Lovable/Supabase sites returned database records without login and 7,403 had tables with emails; UpGuard identified 16,326 databases with readable tables, while a review of 1,029 AI-built apps found 40% had at least one high or critical issue.",
+      "monetization": "Free one-page scan; $19-49/month monitoring, PDF reports and remediation guidance; $99-299 one-off deep scans.",
+      "evidence": [
+        "https://www.upguard.com/blog/everything-everywhere-systemic-data-exposure-in-supabase-apps",
+        "https://pulore.com/blog/lovable-supabase-security-checklist",
+        "https://justinmckelvey.com/blog/best-security-scanners-for-vibe-coded-apps"
+      ],
+      "how_searched": [
+        "Scanned launch communities for security-tool spikes",
+        "Read 2026 vibe-coding exposure research and scanner reviews",
+        "Compared incident counts across UpGuard, The Register and Pulore"
+      ],
+      "score": 91.0,
+      "found_at": "2026-11-13T08:04:51.876183+00:00"
+    },
+    {
       "name": "Apogee",
       "field": "marketing/ads-automation",
       "summary": "Bulk ad uploader/manager for Meta/TikTok/Snapchat with AI naming, copywriting agent, testing structures, and agency features.",
@@ -953,6 +952,25 @@
       ],
       "score": 89.0,
       "found_at": "2026-10-30T01:01:57.365822+00:00"
+    },
+    {
+      "name": "AI Accessibility Fixer",
+      "field": "Digital accessibility",
+      "summary": "A free WCAG scanner plus AI code-fix assistant for AI-generated and no-code sites. Paste a URL, get prioritized fixes for alt text, labels, contrast, focus order and button names, then subscribe for monitoring and developer-ready patches.",
+      "why_now": "AudioEye found 46% of organizations using AI for code or content received an accessibility complaint or lawsuit in 24 months and 71% said AI was involved; EcomBack counted 2,805 ADA website suits in Jan-Sep 2026, with 24% against sites already using accessibility widgets.",
+      "monetization": "Free scan; $29-99/month monitoring and fix reports; $199+ audits; agency white-label.",
+      "evidence": [
+        "https://www.audioeye.com/ai-accessibility-survey/",
+        "https://www.ecomback.com/ada-website-lawsuits-recap-report/q3-2026",
+        "https://accessibility.build/guides/ai-accessibility-lawsuits"
+      ],
+      "how_searched": [
+        "Reviewed 2026 accessibility litigation reports",
+        "Read AI-generated code accessibility studies",
+        "Compared ADA filing data from EcomBack and Accessibility.build"
+      ],
+      "score": 89.0,
+      "found_at": "2026-11-13T08:04:52.480209+00:00"
     },
     {
       "name": "Competitor Pricing Intelligence Dashboard (Free Web Tool)",
@@ -1698,6 +1716,25 @@
       "found_at": "2026-11-10T23:30:37.324254+00:00"
     },
     {
+      "name": "Resale Listing Copilot",
+      "field": "Resale marketplace tools",
+      "summary": "A browser-based assistant for Vinted, Depop and Poshmark sellers: upload phone photos, get a title, description, brand, size, category and price suggestion, then export a copy-ready listing. It deliberately does not scrape or auto-post to marketplaces.",
+      "why_now": "The Guardian reports secondhand clothing sales will reach $289B in 2026, up 12%, with 9% annual growth to $393B; Fleek found 28% of resellers now sell full-time, 65% say Vinted earns them the most, and one-third call photographing and listing items the hardest part.",
+      "monetization": "Free 10 listings/month; $9-19/month for unlimited listings, bulk export and price alerts; affiliate deals with resale tools.",
+      "evidence": [
+        "https://www.theguardian.com/business/2026/apr/02/secondhand-clothes-sales-forecast-to-hit-289bn-as-ai-helps-shoppers-find-deals",
+        "https://retailtechinnovationhub.com/home/2026/9/23/secondhand-clothes-selling-becomes-a-full-time-gig-for-many-with-vinted-the-most-popular-platform",
+        "https://www.vogue.com/article/how-to-crack-resales-ai-algorithms"
+      ],
+      "how_searched": [
+        "Tracked November 2026 resale-market and seller surveys",
+        "Reviewed AI listing tools and marketplace policies",
+        "Compared secondhand growth forecasts with seller workflow pain"
+      ],
+      "score": 85.0,
+      "found_at": "2026-11-13T08:04:53.271646+00:00"
+    },
+    {
       "name": "AI-agent traffic analytics",
       "field": "B2B web analytics",
       "summary": "Server-side analytics that separates humans, bots, AI crawlers, and AI agents, then shows which pages AI assistants cite and which agents verify cryptographically. Known Agents reports 5,000+ tracked sites; Agent Monitor reports 200+ companies and 110M+ visits analyzed.",
@@ -2097,6 +2134,26 @@
       ],
       "score": 83.0,
       "found_at": "2026-11-11T22:04:52.534034+00:00"
+    },
+    {
+      "name": "Prompt-to-Gift Finder",
+      "field": "AI shopping and gifting",
+      "summary": "A free holiday gift discovery tool that turns a natural-language brief such as recipient, interests and budget into a short, explainable shopping list with live prices and alternatives. It is a consumer-facing site, not another brand-side AEO dashboard.",
+      "why_now": "EMarketer reports 4 in 10 US shoppers will use generative AI this holiday season and Adobe expects $275.1B in online spend; Minty found gifts were the top AI shopping theme at 23% of prompts, while 55% of shoppers would let AI build a gift list within budget.",
+      "monetization": "Affiliate commissions on outbound clicks; clearly labeled sponsored slots; free with a $5/month ad-free and price-alert tier.",
+      "evidence": [
+        "https://www.emarketer.com/content/gift-ideas--now-by-prompt--inside-2026-s-ai-holiday-shift",
+        "https://blog.minty.com/blog/ai-shopping-trends-luxury-dupes-holiday-gifts",
+        "https://www.harrisquest.com/blog/where-holiday-shoppers-draw-the-line-on-ai",
+        "https://tinuiti.com/blog/ecommerce/holiday-shopping-statistics/"
+      ],
+      "how_searched": [
+        "Read November 2026 holiday AI-shopping surveys",
+        "Compared AI gift-prompt trend reports",
+        "Checked affiliate and conversion benchmarks"
+      ],
+      "score": 83.0,
+      "found_at": "2026-11-13T08:04:54.194708+00:00"
     },
     {
       "name": "Open-Source SEO Toolkit (Semrush/Ahrefs Alternative)",
@@ -2852,6 +2909,25 @@
       "found_at": "2026-11-12T19:04:54.637140+00:00"
     },
     {
+      "name": "Browser Embroidery Studio",
+      "field": "Machine embroidery software",
+      "summary": "A browser-based embroidery editor and format converter that imports SVG or PNG, previews stitches and exports PES/DST, with guided AI digitizing. It differentiates from the new free desktop ZigZag by being browser and mobile-first and easier for beginners.",
+      "why_now": "The free ZigZag embroidery editor hit 481 points and 176 comments on Show HN on Nov 12, 2026 after its author refused a $300 machine subscription; Brother still charges $12.99/month or $119.99/year for Artspira+, has no PC or Mac app, and Reddit users call the subscription poor value.",
+      "monetization": "Free basic editor and exports; paid AI digitizing credit packs, $8/month cloud projects and batch export, plus a one-time export license.",
+      "evidence": [
+        "https://stitchtested.com/brother-artspira-app-guide/",
+        "https://www.reddit.com/r/MachineEmbroidery/comments/1q7jk1g/do_i_need_artspira_app/",
+        "https://embroiderymachinescout.com/embroidery-software-for-home-machines/"
+      ],
+      "how_searched": [
+        "Monitored Show HN launch velocity",
+        "Read machine-embroidery forums and vendor pricing",
+        "Compared desktop, mobile and browser software gaps"
+      ],
+      "score": 78.0,
+      "found_at": "2026-11-13T08:04:54.950453+00:00"
+    },
+    {
       "name": "Freelancer Contract Risk Scanner",
       "field": "Legal tech",
       "summary": "Upload a freelance contract and get clause-level red flags, a dollar-denominated hidden-cost score, and ready-to-send negotiation language.",
@@ -2871,6 +2947,25 @@
       "found_at": "2026-11-11T22:04:54.259261+00:00"
     },
     {
+      "name": "Retro Digicam Web Studio",
+      "field": "Consumer AI photography",
+      "summary": "A narrow browser-based retro camera simulator: upload a selfie or photo, choose Canon G7X, Kodak Gold, photobooth or night-flash looks, and export a share-ready image. Free local filters drive acquisition; AI re-rendering is the paid upgrade.",
+      "why_now": "TrustMRR shows Boothie at $52,909 MRR with 2,275 active subscriptions and $197,872 all-time revenue, verified through RevenueCat on Nov 13, 2026; Dazz Cam is estimated at about $900K monthly revenue, but Boothie's own analysis flags a crowded, low-moat category where speed and a web-first wedge matter.",
+      "monetization": "Free basic filters; $4.99/week or $19.99/month for AI looks, HD export and credit packs; seasonal brand packs.",
+      "evidence": [
+        "https://trustmrr.com/startup/boothie",
+        "https://www.startupheist.com/the-anti-4k-saas-period-camcorder-looks-at-40k-mrr/",
+        "https://www.buzzincontent.com/news/from-diwali-photo-dumps-to-editing-tutorials-dazz-cam-rides-indias-retro-camera-wave-12802543"
+      ],
+      "how_searched": [
+        "Screened verified-revenue marketplaces",
+        "Checked retro-camera app trend coverage",
+        "Compared consumer photo-app pricing and churn analyses"
+      ],
+      "score": 77.0,
+      "found_at": "2026-11-13T08:04:55.389971+00:00"
+    },
+    {
       "name": "AI paid-media manager: autonomous Google/Meta/TikTok ad campaign agent",
       "field": "Digital advertising / AI agents",
       "summary": "A web tool that connects to Google, Meta, LinkedIn and TikTok Ads and creates, optimizes and reports on paid campaigns conversationally, including via an MCP server usable from ChatGPT or Claude. Adspirer and AdStellar both monetize this pattern.",
@@ -2888,6 +2983,26 @@
       ],
       "score": 76.0,
       "found_at": "2026-11-10T23:30:39.360275+00:00"
+    },
+    {
+      "name": "Speaking-First Language Tutor",
+      "field": "AI language learning",
+      "summary": "A browser-based AI conversation tutor that runs short role-plays for travel, exams and work, corrects pronunciation and tracks vocabulary without flashcard drilling. It can start with one language pair and a narrow scenario set.",
+      "why_now": "TrustMRR shows Verbi at $24,229 MRR, 5,083 active subscriptions and $272,421 all-time revenue, with a 4.6/5 rating from 404 App Store reviews; a survey of 1,408 English learners found 41.3% want 20 minutes of speaking practice daily, and Duolingo is pushing unlimited AI video calls into its main subscription tier.",
+      "monetization": "Free 10 minutes/day; $9-19/month unlimited scenarios and pronunciation feedback; annual plans and exam-specific packs.",
+      "evidence": [
+        "https://trustmrr.com/startup/verbi",
+        "https://elispeak.com/blog/what-1408-english-learners-want-from-an-ai-tutor/",
+        "https://observer.com/2026/11/luis-von-ahn-duolingo-max-super-ai-subscriptions/",
+        "https://xiazishuo.com/en/stories/2026-11-08/verbi-ai-speaking-tutor-revenue/"
+      ],
+      "how_searched": [
+        "Screened education-app revenue trackers",
+        "Read learner surveys and Duolingo earnings coverage",
+        "Compared AI speaking-tutor case studies"
+      ],
+      "score": 76.0,
+      "found_at": "2026-11-13T08:04:58.039673+00:00"
     },
     {
       "name": "AI ebook-to-publish pipeline (GETebook pattern)",
@@ -3024,6 +3139,25 @@
       ],
       "score": 73.0,
       "found_at": "2026-11-11T22:04:57.107078+00:00"
+    },
+    {
+      "name": "Agentic Social Scheduler for Small Teams",
+      "field": "Social media scheduling",
+      "summary": "A narrow social-media scheduler that lets a solo operator or small team plan a week of posts, generate platform-specific variants and approve an agent's schedule from one calendar. It connects through official OAuth APIs and avoids scraping or auto-DM behavior.",
+      "why_now": "Postiz has 41,471 GitHub stars and 7,913 forks and reports $407,672 MRR from 12,000 subscribers, up 53.8% on The AI Receipts fastest-growing list; its open-source traction proves demand but leaves room for a simpler, niche-specific hosted product.",
+      "monetization": "Free 3 channels; $12-29/month for more channels, approvals and AI credits; white-label for agencies.",
+      "evidence": [
+        "https://github.com/gitroomhq/postiz-app/",
+        "https://theaireceipts.com/case-studies/postiz/",
+        "https://theaireceipts.com/fastest-growing-ai-startups/"
+      ],
+      "how_searched": [
+        "Compared GitHub traction with verified revenue case studies",
+        "Reviewed social-scheduler compliance and pricing",
+        "Tracked open-source growth signals"
+      ],
+      "score": 73.0,
+      "found_at": "2026-11-13T08:04:58.728605+00:00"
     },
     {
       "name": "Personalized healthy restaurant menu",
