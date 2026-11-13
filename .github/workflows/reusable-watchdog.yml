@@ -27,7 +27,7 @@ jobs:
     steps:
       - name: Check latest run of target workflow
         id: watch
-        uses: actions/github-script@v7
+        uses: actions/github-script@f28e40c7f34bde8b3046d885e986cb6290c5673b
         with:
           script: |
             const workflowFile = '${{ inputs.build-workflow-file }}';
@@ -72,7 +72,7 @@ jobs:
 
       - name: Open or update issue
         if: steps.watch.outputs.problem == 'true'
-        uses: actions/github-script@v7
+        uses: actions/github-script@f28e40c7f34bde8b3046d885e986cb6290c5673b
         with:
           script: |
             const workflowFile = '${{ inputs.build-workflow-file }}';
@@ -118,7 +118,7 @@ jobs:
 
       - name: Close stale watchdog issues if healthy
         if: steps.watch.outputs.problem == 'false'
-        uses: actions/github-script@v7
+        uses: actions/github-script@f28e40c7f34bde8b3046d885e986cb6290c5673b
         with:
           script: |
             const workflowFile = '${{ inputs.build-workflow-file }}';

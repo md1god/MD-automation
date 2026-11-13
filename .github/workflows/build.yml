@@ -4,5 +4,5 @@ on:
   pull_request: { branches: [main] }
 jobs:
   build:
-    uses: md1god/MD-automation/.github/workflows/reusable-build.yml@main
+    uses: md1god/MD-automation/.github/workflows/reusable-build.yml@3609b98c22ba2615939ddbeafba28431f52f7d9a
     with: { build-command: npm run build }

@@ -9,16 +9,22 @@ jobs:
   fix:
     runs-on: ubuntu-26.04
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
         with: { ref: '${{ inputs.base-branch }}' }
-      - uses: actions/setup-node@v7
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1
         with: { node-version: '${{ inputs.node-version }}' }
       - run: |
           rm -rf node_modules package-lock.json
           npm install
       - id: retry
         continue-on-error: true
-        run: ${{ inputs.build-command }}
+        env:
+          BUILD_COMMAND: ${{ inputs.build-command }}
+        run: |
+          case "$BUILD_COMMAND" in
+            "npm run build") npm run build ;;
+            *) echo "Unsupported build command" >&2; exit 1 ;;
+          esac
       - if: steps.retry.outcome == 'success'
         run: |
           git config user.name "auto-fix-bot"
@@ -26,7 +32,7 @@ jobs:
           git add package-lock.json
           git diff --cached --quiet || git commit -m "fix: regenerate lockfile [auto-fix]"
           git push
-      - uses: actions/github-script@v7
+      - uses: actions/github-script@f28e40c7f34bde8b3046d885e986cb6290c5673b
         with:
           script: |
             const success = '${{ steps.retry.outcome }}' === 'success';
@@ -36,7 +42,7 @@ jobs:
               body: success ? '✅ اتصلح تلقائي والبناء نجح.' : '❌ الإصلاح التلقائي مش كفى، محتاج مراجعة يدوية.'
             });
       - if: steps.retry.outcome == 'success'
-        uses: actions/github-script@v7
+        uses: actions/github-script@f28e40c7f34bde8b3046d885e986cb6290c5673b
         with:
           script: |
             await github.rest.issues.update({

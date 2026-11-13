@@ -17,7 +17,7 @@ jobs:
     env:
       QUEUE_DIR: ${{ inputs.queue-dir }}
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
       - id: pick
         run: |
           file=$(ls "$QUEUE_DIR"/*.txt 2>/dev/null | sort | head -n 1 || true)

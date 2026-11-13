@@ -8,12 +8,12 @@ jobs:
   build:
     runs-on: ubuntu-26.04
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
       - id: detect
         run: |
           if [ -f package.json ]; then echo "has_package=true" >> "$GITHUB_OUTPUT"
           else echo "has_package=false" >> "$GITHUB_OUTPUT"; fi
-      - uses: actions/setup-node@v7
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1
         if: steps.detect.outputs.has_package == 'true'
         with: { node-version: '${{ inputs.node-version }}', cache: 'npm' }
 
@@ -33,13 +33,24 @@ jobs:
         id: build1
         if: steps.detect.outputs.has_package == 'true'
         continue-on-error: true
-        run: ${{ inputs.build-command }}
+        env:
+          BUILD_COMMAND: ${{ inputs.build-command }}
+        run: |
+          case "$BUILD_COMMAND" in
+            "npm run build") npm run build ;;
+            *) echo "Unsupported build command" >&2; exit 1 ;;
+          esac
 
       - name: Build (retry after cache clear)
         if: steps.detect.outputs.has_package == 'true' && steps.build1.outcome == 'failure'
+        env:
+          BUILD_COMMAND: ${{ inputs.build-command }}
         run: |
           rm -rf node_modules/.cache .next dist build 2>/dev/null || true
-          ${{ inputs.build-command }}
+          case "$BUILD_COMMAND" in
+            "npm run build") npm run build ;;
+            *) echo "Unsupported build command" >&2; exit 1 ;;
+          esac
 
       - if: steps.detect.outputs.has_package == 'false'
         run: echo "مشروع static — مفيش build مطلوب"

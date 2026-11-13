@@ -98,7 +98,7 @@ def check(spec: dict) -> str:
         return "faq must have 3-5 items with q and a"
     if len(re.sub(r"<[^>]+>", " ", spec["body_html"])) < 500 or 'id="out"' not in spec["body_html"]:
         return 'body_html too short or no id="out"'
-    if re.search(r"<script|<iframe|<link|<style|\son\w+\s*=|(src|href|action)\s*=\s*[\"']?(https?:)?//", spec["body_html"], re.I):
+    if re.search(r"<script|<iframe|<link|<style|\son\w+\s*=|(?:src|href|action)\s*=\s*[\"']?\s*(?:https?:)?//|(?:src|href|action)\s*=\s*[\"']?\s*(?:javascript|vbscript|data|file):", spec["body_html"], re.I):
         return "unsafe html"
     if re.search(r"fetch\s*\(|XMLHttpRequest|WebSocket|import\s*\(|eval\s*\(|new Function|document\.cookie|https?://|</script", spec["script_js"], re.I):
         return "unsafe js"

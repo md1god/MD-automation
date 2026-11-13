@@ -126,7 +126,7 @@ def check(spec: dict) -> str:
     text = re.sub(r"<[^>]+>", " ", spec["body_html"])
     if len(text) < 300 or not re.search(r"[؀-ۿ]", text):
         return "body too thin or not Arabic"
-    if re.search(r"<script|<iframe|<object|<embed|<link|<style|\son\w+\s*=|(src|href|action|data|poster)\s*=\s*[\"']?(https?:)?//", spec["body_html"], re.I):
+    if re.search(r"<script|<iframe|<object|<embed|<link|<style|\son\w+\s*=|(?:src|href|action|data|poster)\s*=\s*[\"']?\s*(?:https?:)?//|(?:src|href|action|data|poster)\s*=\s*[\"']?\s*(?:javascript|vbscript|data|file):", spec["body_html"], re.I):
         return "unsafe html in BODY"
     if re.search(r"@import|url\(\s*[\"']?\s*(https?:)?//|expression\(|</style", css, re.I):
         return "unsafe css"
