@@ -1418,26 +1418,6 @@
       "found_at": "2026-11-12T19:04:51.838138+00:00"
     },
     {
-      "name": "Factur-X / Peppol e-invoice validator and converter",
-      "field": "B2B e-invoicing compliance",
-      "summary": "Free web tool that validates UBL, CII and Factur-X invoices against French and Peppol rules, flags missing SIREN, VAT or routing data, and converts PDFs or CSV files into compliant e-invoices.",
-      "why_now": "France's receive mandate went live on 1 September 2026 and covers more than 10 million operators, but only 4.1 million had designated a receiving platform by that date. Early rejection rates reached 43.5%, with missing mandatory data driving about 32% of failures, and the SME/micro issuing mandate arrives on 1 September 2027.",
-      "monetization": "Free single validation; paid bulk validation, API access, accountant dashboards, and white-label checks for accredited platforms.",
-      "evidence": [
-        "https://entreprendre.service-public.gouv.fr/actualites/A15683?lang=en",
-        "https://www.vatcalc.com/france/france-e-invoicing-first-weeks-expose-data-interoperability-challenges/",
-        "https://welcome.businessfrance.fr/en/news/e-invoicing/",
-        "https://questions.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE17870.pdf"
-      ],
-      "how_searched": [
-        "France e-invoicing mandate 2026",
-        "Peppol invoice rejection rates 2026",
-        "French e-invoicing platform statistics"
-      ],
-      "score": 85.0,
-      "found_at": "2026-10-23T13:34:40.515150+00:00"
-    },
-    {
       "name": "Dynamic QR Code Platform with AI Art + Analytics",
       "field": "Marketing / Developer Tools",
       "summary": "AI-generated artistic QR codes as a free acquisition hook, layered with a recurring-revenue platform: dynamic redirects, scan analytics, branded short links, bulk/API creation, and campaign management. Businesses pay because printed codes must stay editable and trackable.",
@@ -1960,25 +1940,6 @@
       "found_at": "2026-10-31T05:49:36.587823+00:00"
     },
     {
-      "name": "HS code and landed-cost calculator for small importers",
-      "field": "Cross-border trade compliance",
-      "summary": "Free SKU-level HS classification, duty and tariff calculator with de minimis checks, country-of-origin rules, and alerts when rates or classification rules change.",
-      "why_now": "Trade-compliance infrastructure is consolidating: Global-e paid $350 million upfront for Passport, which provides customs brokerage and is expected to generate about $100 million in 2026 revenue. SMB-focused tools still charge $39 to $150 per month, and small importers under $500,000 in annual duty remain underserved.",
-      "monetization": "Free classification and landed-cost estimate; paid SKU monitoring, bulk API, broker and forwarder referrals, and white-label calculators for 3PLs.",
-      "evidence": [
-        "https://gingercontrol.com/blog/trade-compliance-software-smb-importers",
-        "https://www.stocktitan.net/sec-filings/GLBE/6-k-global-e-online-ltd-current-report-foreign-issuer-a8ff2aaf94ca.html",
-        "https://getlatka.com/companies/zonos"
-      ],
-      "how_searched": [
-        "tariff HS classification SMB 2026",
-        "Passport Global-e acquisition customs",
-        "Zonos revenue landed cost software"
-      ],
-      "score": 83.0,
-      "found_at": "2026-10-23T13:34:41.998389+00:00"
-    },
-    {
       "name": "Free AI Browser Agent Playground (Web-Based, No Signup)",
       "field": "Developer Tools / AI Agent Infrastructure",
       "summary": "A browser-based playground where developers type a natural-language task (\"find the cheapest flight NYC→LAX next Tuesday\"), watch an AI agent control a real cloud browser live (screenshots + DOM logs), compare multiple models side-by-side (Browser Use, Stagehand, Claude Computer Use, OpenAI CUA), and export the generated code. No account, free daily quota.",
@@ -2367,24 +2328,23 @@
       "found_at": "2026-11-12T19:04:53.255023+00:00"
     },
     {
-      "name": "Supermarket-first AI meal planner with priced shopping list",
-      "field": "Consumer food planning",
-      "summary": "Free web app that builds a week of meals around a chosen supermarket, budget, diet, calorie goal, and ingredients already at home, then outputs a priced shopping list.",
-      "why_now": "mise launched on 10 June 2026 and reached about $400,000 per month by September 2026 with roughly 400,000 downloads per month. Among 20 meal-planner apps launched since 2024, six clear $50,000 per month, but half still make under $5,000, showing a large gap between generic recipe apps and budget-aware planners.",
-      "monetization": "Freemium at $7.99 to $9.99 per month or $39.99 to $59.99 per year; grocery affiliate revenue; paid family and creator plans.",
+      "name": "StencilForge",
+      "field": "Tattoo workflow / image conversion",
+      "summary": "A web tool that turns a client reference photo into a print-ready tattoo stencil with line-weight, shading and skin-tone controls, plus artist review, editing and true-to-size export.",
+      "why_now": "Stencil AI shows $48.9k MRR and 1,746 active subscriptions, with 4.7/5 from 302 App Store ratings. Growth has flattened near $45k-$50k, so the opening is better localization, studio workflows and line-quality control.",
+      "monetization": "No free tier; Hobby $13.99/mo, Pro $29.99/mo, Studio $69.99/mo for two artists plus $25 per extra seat; yearly plans and credit top-ups.",
       "evidence": [
-        "https://victoire.dev/en/blog/build-meal-planner-app",
-        "https://peekly.app/apps/dda3e34b-d254-409a-8b42-924a5d1dd7ca",
-        "https://trendapps.dev/app/ios/6777471316/",
-        "https://darkugc.com/newsletter/how-mise-hit-300k-mrr-with-ugc-creators-brand-new-app"
+        "https://trustmrr.com/startup/stencil-ai",
+        "https://theaireceipts.com/case-studies/stencil-ai/",
+        "https://liststartup.in/business/stencil-ai"
       ],
       "how_searched": [
-        "meal planner app revenue 2026",
-        "mise meal planner revenue downloads",
-        "AI meal planner market traction"
+        "TrustMRR revenue database",
+        "The AI Receipts case study",
+        "ListStartup revenue profile"
       ],
-      "score": 81.0,
-      "found_at": "2026-10-23T13:34:48.199850+00:00"
+      "score": 82.0,
+      "found_at": "2026-11-13T16:28:12.696212+00:00"
     },
     {
       "name": "Trending Product Research Snapshot (web)",
@@ -3701,6 +3661,24 @@
       "found_at": "2026-10-31T21:48:28.672344+00:00"
     },
     {
+      "name": "RelistDeck",
+      "field": "Resale operations / e-commerce automation",
+      "summary": "A resale operations workbench for secondhand sellers: AI listing copy, bulk relisting, price and negotiation suggestions, and inventory/sales tracking across Vinted, Depop, eBay and Shopify.",
+      "why_now": "ControlResell shows verified $22.4k MRR, 459 subscriptions and $179k all-time revenue on Nov 13, 2026, with about 1,177 users. It is France-focused, leaving other resale markets and platforms underserved.",
+      "monetization": "Free tier, then Growth EUR 29.99/mo, Business EUR 59.99/mo and Enterprise EUR 119.99/mo; add AI-credit top-ups.",
+      "evidence": [
+        "https://trustmrr.com/startup/controlresell",
+        "https://theaireceipts.com/case-studies/controlresell/"
+      ],
+      "how_searched": [
+        "TrustMRR revenue database",
+        "The AI Receipts case study",
+        "web search"
+      ],
+      "score": 56.0,
+      "found_at": "2026-11-13T16:28:12.111927+00:00"
+    },
+    {
       "name": "Voice-to-text writing assistant (Letterly model)",
       "field": "Productivity / voice AI",
       "summary": "Converts spoken voice notes into polished notes, emails, posts and meeting summaries across web and mobile.",
@@ -3875,6 +3853,24 @@
       "found_at": "2026-11-13T00:26:07.252136+00:00"
     },
     {
+      "name": "SpeakLoop",
+      "field": "Language learning / AI tutoring",
+      "summary": "An AI conversation tutor that runs short speaking sessions, corrects pronunciation and grammar, teaches vocabulary in context, and tracks progress across speaking, listening and recall.",
+      "why_now": "Verbi shows $24.3k MRR, 5,087 active subscriptions and $272.5k all-time revenue, founded in April 2026. It has 4.6/5 from 404 App Store ratings and 3.9/5 from 556 Google Play ratings, validating paid demand for speaking practice over flashcards.",
+      "monetization": "Freemium with in-app subscription; current blended revenue is about $4.80 per subscription per month, leaving room for premium pronunciation feedback and human coaching upsells.",
+      "evidence": [
+        "https://trustmrr.com/startup/verbi",
+        "https://theaireceipts.com/case-studies/verbi/"
+      ],
+      "how_searched": [
+        "TrustMRR revenue database",
+        "The AI Receipts case study",
+        "indie newsletter SoloEZ"
+      ],
+      "score": 53.3,
+      "found_at": "2026-11-13T16:28:12.921759+00:00"
+    },
+    {
       "name": "Live AI translation for churches and events",
       "field": "Faith, events and accessibility",
       "summary": "A QR-code web app that lets each attendee hear or read a live sermon or event in their own language, with no headsets or extra hardware. Glossa is Stripe-verified at $14,404 MRR from 100 subscriptions and $31,173 in the last 30 days, with $196,539 all-time.",
@@ -3890,6 +3886,23 @@
       ],
       "score": 52.7,
       "found_at": "2026-11-12T03:08:12.181652+00:00"
+    },
+    {
+      "name": "AdSweep",
+      "field": "Advertising / Google Ads optimization",
+      "summary": "A Google Ads audit tool that connects via OAuth, scans campaigns for wasted spend, explains the leaks in plain language, and lets the user approve fixes such as bid changes, negative keywords and paused underperformers.",
+      "why_now": "NotFair shows $13.7k MRR, 115 subscriptions and $71.7k all-time revenue, with founder-stated $150k ARR in 6.5 months, 2,700+ connected ad accounts and 95% margins. SMBs and agencies need cheaper ongoing ad ops.",
+      "monetization": "Free scan, then Growth around $79/mo billed annually; agency tiers and execution add-ons.",
+      "evidence": [
+        "https://trustmrr.com/startup/notfair",
+        "https://theaireceipts.com/case-studies/notfair/"
+      ],
+      "how_searched": [
+        "TrustMRR revenue database",
+        "The AI Receipts case study"
+      ],
+      "score": 52.7,
+      "found_at": "2026-11-13T16:28:13.217162+00:00"
     },
     {
       "name": "AI multi-model creative studio",
@@ -3996,6 +4009,24 @@
       "found_at": "2026-11-11T15:27:31.014190+00:00"
     },
     {
+      "name": "ThreadSignal",
+      "field": "Reddit lead intelligence / social listening",
+      "summary": "A Reddit buying-intent finder that searches by niche, scores and deduplicates relevant threads, drafts helpful replies, and pushes qualified leads into a CRM.",
+      "why_now": "Reddit Agency shows $30.4k MRR on The AI Receipts. Subredditsignals is listed at a claimed $67k MRR in a Coffounder roundup. Brands increasingly want Reddit and AI-search recommendations, but manual thread monitoring does not scale.",
+      "monetization": "Monthly subscription with agency seats; optionally charge per qualified lead or per booked call.",
+      "evidence": [
+        "https://coffounder.com/blog/micro-saas-examples-with-revenue",
+        "https://theaireceipts.com/case-studies/reddit-agency/"
+      ],
+      "how_searched": [
+        "Coffounder micro-SaaS roundup",
+        "The AI Receipts case study",
+        "Reddit community research"
+      ],
+      "score": 50.7,
+      "found_at": "2026-11-13T16:28:13.729006+00:00"
+    },
+    {
       "name": "LiveReview (risk-aware AI code review, auto-approve safe PRs)",
       "field": "developer tools",
       "summary": "Scores every pull request for risk (LLM + incident-trained ML + code graph) and auto-approves the safest 30-50%, routing risky PRs to humans; free and self-hostable.",
@@ -4030,6 +4061,23 @@
       ],
       "score": 50.0,
       "found_at": "2026-11-13T00:26:09.051827+00:00"
+    },
+    {
+      "name": "DirectoryDeck",
+      "field": "No-code directory builder / local SEO",
+      "summary": "A no-code directory builder that turns a one-sentence vertical into categories, listing pages, SEO metadata, lead capture, payments and a custom-domain site.",
+      "why_now": "Directify reached $50k ARR after being bought for $85k at $2k MRR. Comparable pricing is $12-$149/mo with 0% commission, showing that vertical directories can be launched cheaply and monetized by their owners.",
+      "monetization": "Free site creation, then Pro/Growth/Agency subscriptions; optional premium listings, top placements, lead capture and ads. Comparable pricing is $12-$149/mo with 0% commission.",
+      "evidence": [
+        "https://small-start.com/en/cases/global-directify-85k-acquisition/",
+        "https://www.soloez.com/weekly/soloez-164"
+      ],
+      "how_searched": [
+        "Small Start acquisition case study",
+        "SoloEZ Indie Maker Weekly"
+      ],
+      "score": 50.0,
+      "found_at": "2026-11-13T16:28:14.581729+00:00"
     },
     {
       "name": "MimikFlow (AI LinkedIn prospecting agent)",
@@ -4118,6 +4166,24 @@
       "found_at": "2026-11-12T03:08:13.397515+00:00"
     },
     {
+      "name": "RunbookLens",
+      "field": "Business process documentation / SOP",
+      "summary": "A browser-based SOP recorder that captures clicks, screenshots and narration, then generates editable step-by-step guides, training videos and searchable runbooks.",
+      "why_now": "Glitter AI reports $18.2k MRR after 2.5 years of indie development. Its official site supports a browser recorder, 99 languages, MCP/API access and free viewer seats, while remote teams still document processes manually.",
+      "monetization": "Free plan with 3 guides; paid Growth/Scale/Enterprise tiers; API, MCP, SSO and compliance add-ons.",
+      "evidence": [
+        "https://www.soloez.com/weekly/soloez-165",
+        "https://www.glitter.io/"
+      ],
+      "how_searched": [
+        "SoloEZ Indie Maker Weekly",
+        "Official product website",
+        "web search"
+      ],
+      "score": 48.7,
+      "found_at": "2026-11-13T16:28:15.093053+00:00"
+    },
+    {
       "name": "Pastel",
       "field": "B2B sales intelligence / social intent",
       "summary": "AI platform that monitors LinkedIn, X, Reddit and 20+ networks for buying-intent conversations, enriches leads with verified contact data and automates outreach.",
@@ -4188,6 +4254,24 @@
       "found_at": "2026-11-12T19:04:56.110998+00:00"
     },
     {
+      "name": "EbookFoundry",
+      "field": "AI publishing / ebook generation",
+      "summary": "An AI ebook studio that turns a short brief into a titled, chaptered book with a cover and store-ready PDF, EPUB and DOCX exports for Amazon KDP, Etsy and Apple Books.",
+      "why_now": "GETebook shows $11.7k MRR, 240 subscribers, $167k all-time revenue and 12,000+ creators. The incumbent reports only 30%-35% margins and depends on paid ads, leaving room for a leaner, better-editing workflow.",
+      "monetization": "Credit-based Pro plans from $29/mo to $99/mo, commercial-use license, and no free download.",
+      "evidence": [
+        "https://theaireceipts.com/case-studies/getebook/",
+        "https://getebook.ai/"
+      ],
+      "how_searched": [
+        "The AI Receipts case study",
+        "Official product website",
+        "SoloEZ Indie Maker Weekly"
+      ],
+      "score": 47.3,
+      "found_at": "2026-11-13T16:28:15.388025+00:00"
+    },
+    {
       "name": "AIDesigner (AI UI design generator with MCP)",
       "field": "design/dev tools",
       "summary": "Generates editable website/app UI, brand kits and images from prompts; MCP server lets Claude Code/Cursor/Codex design inside the coding workflow.",
@@ -4239,6 +4323,24 @@
       ],
       "score": 46.7,
       "found_at": "2026-11-12T19:04:57.516022+00:00"
+    },
+    {
+      "name": "StoreRank",
+      "field": "App Store optimization / ASO",
+      "summary": "A web ASO workbench that audits listings by country, finds keywords, rewrites metadata in many languages, generates screenshots, tracks ranks and exports or uploads changes.",
+      "why_now": "Wow Keywords gained 202 customers in its first week at $99 lifetime and now shows 229 app developers. Agent and MCP-driven ASO workflows are new, while most ASO suites remain subscription-heavy and fragmented.",
+      "monetization": "One-time $99 lifetime license, rising to $109 after the next 45 sales; optional paid audits and agency seats.",
+      "evidence": [
+        "https://www.soloez.com/weekly/soloez-164",
+        "https://www.wowkeywords.com/"
+      ],
+      "how_searched": [
+        "SoloEZ Indie Maker Weekly",
+        "Official product website",
+        "web search"
+      ],
+      "score": 46.0,
+      "found_at": "2026-11-13T16:28:16.033300+00:00"
     },
     {
       "name": "Exa Monitors v2 (scheduled web search for AI agents)",
