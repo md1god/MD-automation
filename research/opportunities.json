@@ -1418,25 +1418,6 @@
       "found_at": "2026-11-12T19:04:51.838138+00:00"
     },
     {
-      "name": "Dynamic QR Code Platform with AI Art + Analytics",
-      "field": "Marketing / Developer Tools",
-      "summary": "AI-generated artistic QR codes as a free acquisition hook, layered with a recurring-revenue platform: dynamic redirects, scan analytics, branded short links, bulk/API creation, and campaign management. Businesses pay because printed codes must stay editable and trackable.",
-      "why_now": "QR Code AI built in 13 days, launched on Product Hunt (top 2, 490+ upvotes, 5K visits, 4K codes in week 1). Reached $15.8K MRR by Aug 30 2026, $16K MRR by Sep 1 with 1,408 subscriptions (Stripe-verified). 3.44M monthly Google search impressions, 55K visitors/month.",
-      "monetization": "Freemium: free static/artistic QR generation; paid plans for dynamic redirects, analytics, branded links, bulk/API, custom domains. $11.42 MRR per subscription average. Affiliate program (30% lifetime).",
-      "evidence": [
-        "https://www.sofarbot.com/stories/qr-code-ai-nicolas-cella-15636-mrr",
-        "https://www.producthunt.com/products/qr-code-ai",
-        "https://trustmrr.com/startup/qr-code-ai"
-      ],
-      "how_searched": [
-        "Founder revenue retrospective with Stripe data",
-        "Product Hunt launch metrics",
-        "TrustMRR verified revenue profile"
-      ],
-      "score": 85.0,
-      "found_at": "2026-10-23T22:22:16.798610+00:00"
-    },
-    {
       "name": "Hide AI Search Overviews (Free Web Proxy / Search Tool)",
       "field": "Consumer Web / Search Experience",
       "summary": "A free web-based search frontend (or browser-extension companion) that fetches Google/Bing results via API, strips AI Overviews / AI Mode / Gemini elements server-side, and returns clean organic links. Also offers a \"lite\" HTML version for slow connections. No tracking, no account.",
@@ -1713,40 +1694,6 @@
       ],
       "score": 85.0,
       "found_at": "2026-11-13T08:04:53.271646+00:00"
-    },
-    {
-      "name": "AI-agent traffic analytics",
-      "field": "B2B web analytics",
-      "summary": "Server-side analytics that separates humans, bots, AI crawlers, and AI agents, then shows which pages AI assistants cite and which agents verify cryptographically. Known Agents reports 5,000+ tracked sites; Agent Monitor reports 200+ companies and 110M+ visits analyzed.",
-      "why_now": "AI crawlers and agents now make up a large and invisible share of traffic. Agent Monitor says over 60% of traffic across 110M+ visits was non-human, while standard analytics hides much of it. Lume already charges $29-$599/month for this visibility.",
-      "monetization": "Event-based SaaS with free tiers; paid plans range from $9-$29/month for small sites to $99-$599/month for agencies and high-traffic sites.",
-      "evidence": [
-        "https://knownagents.com/",
-        "https://agentmonitor.io/",
-        "https://lumetraffic.com/"
-      ],
-      "how_searched": "Searched AI traffic analytics, agent analytics, AI referral attribution, and Chrome-extension-adjacent B2B tools.",
-      "score": 84.0,
-      "found_at": "2026-10-23T18:26:40.051368+00:00"
-    },
-    {
-      "name": "Revenue-Attribution Web Analytics",
-      "field": "Analytics / SaaS",
-      "summary": "Connects Stripe revenue to traffic sources (GA4, Search Console, ads, GitHub) so founders see exactly which channels bring paying customers — not just visits. Replaces dashboards with a prioritized 'what to fix today' list ranked by revenue impact.",
-      "why_now": "DataFast launched on Product Hunt Jan 2026 (#1 day, 901 upvotes) at $17K MRR. TrustMRR now shows $29,951 MRR and 1,386 subscriptions (76% growth post-launch). Solo founder, bootstrapped. StealWhatWorks calls it 'best verified bootstrapped business among 2026 Product Hunt standouts.'",
-      "monetization": "SaaS subscription tiers. DataFast charges for connecting Stripe + analytics sources and delivering daily revenue-attributed insights. High retention because it directly shows ROI.",
-      "evidence": [
-        "https://www.hunted.space/dashboard/datafast/launches/datafast-2",
-        "https://trustmrr.com/startup/datafast",
-        "https://stealwhatworks.com/blogs/news/product-hunt-best-launches-2026"
-      ],
-      "how_searched": [
-        "Product Hunt launch data",
-        "TrustMRR Stripe-verified revenue",
-        "Independent Product Hunt business analysis"
-      ],
-      "score": 84.0,
-      "found_at": "2026-10-23T22:22:17.914280+00:00"
     },
     {
       "name": "Free AI homework tutor web tool (SolvelyAI model)",
@@ -2115,27 +2062,6 @@
       ],
       "score": 83.0,
       "found_at": "2026-11-13T08:04:54.194708+00:00"
-    },
-    {
-      "name": "Open-Source SEO Toolkit (Semrush/Ahrefs Alternative)",
-      "field": "SEO / Developer Tools",
-      "summary": "Open-source (MIT) SEO platform offering keyword research, competitor analysis, backlinks, rank tracking, site audits, and AI visibility checks — all via MCP so coding agents can use it. $10/mo hosted (includes $10 usage) vs $139/mo Semrush. Self-hostable free.",
-      "why_now": "OpenSEO launched Feb 2026, hit 20,900 GitHub stars in 8 months, YC F26 ($500K). Product Hunt #9 monthly (412 score). 3,000+ hosted users. 'openseo' US searches grew from ~10 (Feb) to ~2,900 (Aug). Agencies forking it to replace $200-500/mo tools.",
-      "monetization": "Hosted version: $10/mo + 28% markup on DataForSEO API calls (pay-per-query). Self-hosted free (bring own DataForSEO key). Enterprise/agency plans. Clear usage-based economics.",
-      "evidence": [
-        "https://github.com/every-app/open-seo",
-        "https://www.producthunt.com/products/openseo",
-        "https://www.ababnews.com/en/news/1a6798e0-ec32-4a84-9de7-dd45bf4f6cc6",
-        "https://andrew.ooo/posts/openseo-review-open-source-ahrefs-alternative-mcp/"
-      ],
-      "how_searched": [
-        "GitHub stars/forks/activity",
-        "Product Hunt leaderboard",
-        "Y Combinator batch announcement",
-        "Independent technical reviews"
-      ],
-      "score": 82.0,
-      "found_at": "2026-10-23T22:22:20.178183+00:00"
     },
     {
       "name": "Free open-source SEO audit & keyword tool (OpenSEO model)",
@@ -2643,27 +2569,6 @@
       ],
       "score": 79.0,
       "found_at": "2026-11-11T22:04:53.980547+00:00"
-    },
-    {
-      "name": "AI Business Reviewer (Actionable Analytics)",
-      "field": "Business Intelligence / AI Agents",
-      "summary": "Overnight AI agents (6 specialists + orchestrator) monitor GA4, Google Ads, Search Console, Shopify, Stripe, GitHub, cloud billing — then deliver a prioritized morning brief of revenue-impact fixes: broken tracking, wasted ad spend, SEO regressions, failed payments, checkout bugs.",
-      "why_now": "DailyHelm launched Oct 5 2026, #5 Product of the Day (221 upvotes, 66 comments). $49 first month, then $99/mo. Connects 8+ data sources via read-only OAuth. Solves 'too many dashboards, not enough clarity' for SaaS, e-commerce, B2B, local.",
-      "monetization": "Per-business subscription ($99/mo monthly, $69/mo annual, $66/mo quarterly). Unlimited seats. 14-day money-back guarantee. High value per customer because it prevents revenue leaks.",
-      "evidence": [
-        "https://www.producthunt.com/products/dailyhelm",
-        "https://dailyhelm.com/",
-        "https://lounge.ai/news/dailyhelm-turn-analytics-into-daily-revenue-boosting-fixes",
-        "https://dailyhelm.com/pricing"
-      ],
-      "how_searched": [
-        "Product Hunt launch metrics",
-        "Live product website and pricing",
-        "Tech press coverage",
-        "Pricing page analysis"
-      ],
-      "score": 78.0,
-      "found_at": "2026-10-23T22:22:21.104792+00:00"
     },
     {
       "name": "Free AI Prompt Library & Manager (Web Tool)",
@@ -3558,6 +3463,24 @@
       "found_at": "2026-11-12T03:08:09.301225+00:00"
     },
     {
+      "name": "GLP-1 companion tracker",
+      "field": "health / GLP-1 medication tracking",
+      "summary": "A non-medical tracking web app for people on GLP-1 shots or pills: log doses, injection sites, side effects, protein, water and weight, and show an estimated medication-level curve between doses.",
+      "why_now": "45 apps exist, 33 launched in the last 18 months, and the niche's review pace is 2.1x its earlier rate; nine researched apps have a combined floor above $640k/month. MeAgain launched in April 2025, now has 41K App Store ratings and sits in the $20–50k/month band.",
+      "monetization": "Subscriptions: most leaders charge $29.99–$79.99/year or $8.99–$9.99/month; MeAgain sells eight plans from $14.99 to $119.99.",
+      "evidence": [
+        "https://www.appaloma.com/research/glp1-companions",
+        "https://apps.apple.com/us/app/meagain-glp-1-tracker-app/id6744178534"
+      ],
+      "how_searched": [
+        "niche app-market research with revenue bands",
+        "Apple App Store ratings and in-app pricing",
+        "app-store review-velocity analysis"
+      ],
+      "score": 58.7,
+      "found_at": "2026-11-13T22:46:27.607968+00:00"
+    },
+    {
       "name": "Agent Feed Auditor",
       "field": "Agentic commerce / product data",
       "summary": "An original web tool that audits a store's product feed against Google Merchant Center, ChatGPT and Shopify Catalog requirements, flags missing identifiers, attributes, shipping and returns, and generates per-platform fixes.",
@@ -3679,6 +3602,24 @@
       "found_at": "2026-11-13T16:28:12.111927+00:00"
     },
     {
+      "name": "AI agent simulation and testing",
+      "field": "AI developer tools / agent reliability",
+      "summary": "A sandboxed testing platform that builds a digital twin of a customer-facing AI agent, runs simulated and adversarial users against its tools and policies, and replays production failures with suggested fixes.",
+      "why_now": "Plurai raised a $13M seed led by Team8 and opened its platform on 2026-11-13; its Plurai Simulation product launched on 2026-11-11, hit #1 on Product Hunt the next day, and its launch post passed 1,000 likes and 1.7M views on X.",
+      "monetization": "Plurai offers a free one-time allowance and charges $60/month for its Base plan plus pay-as-you-go usage; design partners claim 82% fewer failures reaching users and 97% lower running costs (company figures).",
+      "evidence": [
+        "https://securitybrief.news/story/plurai-raises-usd-13-million-for-ai-agent-testing-platform",
+        "https://toolhype.dev/new"
+      ],
+      "how_searched": [
+        "startup funding and product news",
+        "weekly AI launch tracker",
+        "Product Hunt launch signal"
+      ],
+      "score": 56.0,
+      "found_at": "2026-11-13T22:46:28.349710+00:00"
+    },
+    {
       "name": "Voice-to-text writing assistant (Letterly model)",
       "field": "Productivity / voice AI",
       "summary": "Converts spoken voice notes into polished notes, emails, posts and meeting summaries across web and mobile.",
@@ -3763,6 +3704,24 @@
       ],
       "score": 54.7,
       "found_at": "2026-11-12T03:08:11.412048+00:00"
+    },
+    {
+      "name": "AI ecommerce product photography",
+      "field": "ecommerce / AI photo editing",
+      "summary": "A web tool that turns seller snapshots into clean product backgrounds, ghost-mannequin shots, on-model fashion photos and campaign scenes suitable for marketplace listings and ads.",
+      "why_now": "Photoroom is estimated at ~$94M ARR with ~19.5M monthly visits, and its free background-remover page alone draws about 2.37M organic visits/month against 3.8M monthly searches for 'background remover'. Look Atlas launched on 2026-11-13 with $49–$399/month plans and a Shopify app.",
+      "monetization": "Photoroom combines consumer subscriptions with a $0.02/image API; Look Atlas charges $49/month Starter, $99/month Pro and $399/month Business, and offers a free first shoot with watermarked images.",
+      "evidence": [
+        "https://www.systemaic.com/teardowns/photoroom",
+        "https://toolhype.dev/new"
+      ],
+      "how_searched": [
+        "SaaS revenue and traffic teardown",
+        "AI launch tracker",
+        "search-volume data inside the teardown"
+      ],
+      "score": 54.7,
+      "found_at": "2026-11-13T22:46:28.608056+00:00"
     },
     {
       "name": "Multiplayer browser edu-game: parkour courses gated by times-tables quizzes",
@@ -3869,6 +3828,24 @@
       ],
       "score": 53.3,
       "found_at": "2026-11-13T16:28:12.921759+00:00"
+    },
+    {
+      "name": "Open-source social media scheduler",
+      "field": "social media / open-source SaaS",
+      "summary": "An open-source, agent-friendly scheduler that plans, generates and publishes posts across X, LinkedIn, Instagram, TikTok and other networks from one calendar.",
+      "why_now": "Postiz shows $456,721 revenue in the last 30 days, $415,847 MRR and 12,244 active subscriptions on TrustMRR, verified through Stripe on 2026-11-13. IndieMakerList separately logs Postiz at $332K MRR.",
+      "monetization": "Postiz charges from $29/month with a 7-day trial and has $1,885,381 in all-time revenue; the open-source model also supports self-hosting alongside paid cloud plans.",
+      "evidence": [
+        "https://trustmrr.com/startup/postiz",
+        "https://indiemakerlist.com/leaderboard/open-source/"
+      ],
+      "how_searched": [
+        "verified revenue tracker with Stripe data",
+        "open-source revenue leaderboard",
+        "subscription-count analysis"
+      ],
+      "score": 53.3,
+      "found_at": "2026-11-13T22:46:29.011797+00:00"
     },
     {
       "name": "Live AI translation for churches and events",
@@ -4132,6 +4109,24 @@
       "found_at": "2026-11-12T03:08:12.929535+00:00"
     },
     {
+      "name": "AI ebook and KDP book generator",
+      "field": "creator tools / AI publishing",
+      "summary": "A generator that turns a topic into an outline, chapters, cover and exportable PDF/EPUB/Word file for self-publishers and low-content book sellers.",
+      "why_now": "GETebook.ai went from under $800/month through June to $19,312 in July, $47,620 in August, $47,730 in September and $36,754 in October; kdpbook.io is at $3,381 MRR, up 316.4% in 90 days.",
+      "monetization": "GETebook's Pro plan starts at $29/month and the business did $32,990 in the last 30 days from 232 subscriptions; kdpbook.io earns $3,381 MRR.",
+      "evidence": [
+        "https://theaireceipts.beehiiv.com/p/deeplead-5-7k-to-22k",
+        "https://www.workainow.com/products"
+      ],
+      "how_searched": [
+        "verified AI revenue newsletter",
+        "TrustMRR-backed revenue leaderboard",
+        "monthly revenue-change tracking"
+      ],
+      "score": 49.3,
+      "found_at": "2026-11-13T22:46:29.878208+00:00"
+    },
+    {
       "name": "Back-office web tool for disability care providers: scheduling, notes and AI progress reports",
       "field": "Health & human services / vertical SaaS",
       "summary": "A vertical web tool for disability/IDD service providers covering attendance, service documentation, medication tracking and AI-generated progress notes and reports. Kibu proves the vertical, counting The Arc, YMCA, UCP and Chimes among customers.",
@@ -4272,6 +4267,24 @@
       "found_at": "2026-11-13T16:28:15.388025+00:00"
     },
     {
+      "name": "AI receipt scanner for small business",
+      "field": "SMB finance / expense automation",
+      "summary": "A receipt scanner and bookkeeping assistant that extracts merchant, date, amount and line items, matches bank transactions, and exports tax-ready reports to QuickBooks, Xero or CSV.",
+      "why_now": "SparkReceipt has processed 4,620,044 receipts across 38,283 businesses in 175 countries, and its App Store listing shows 942 ratings at 4.8 in the Business category.",
+      "monetization": "SparkReceipt charges £9.08/month on annual Elite (£109/year); App Store plans run $8.99/month and $69.99/year, with higher tiers up to $299/year.",
+      "evidence": [
+        "https://sparkreceipt.com/en-gb/",
+        "https://apps.apple.com/us/app/sparkreceipt-expense-scanner/id1660447131"
+      ],
+      "how_searched": [
+        "vendor usage and pricing page",
+        "Apple App Store ratings and in-app prices",
+        "competitor pricing comparison"
+      ],
+      "score": 47.3,
+      "found_at": "2026-11-13T22:46:30.714090+00:00"
+    },
+    {
       "name": "AIDesigner (AI UI design generator with MCP)",
       "field": "design/dev tools",
       "summary": "Generates editable website/app UI, brand kits and images from prompts; MCP server lets Claude Code/Cursor/Codex design inside the coding workflow.",
@@ -4323,6 +4336,24 @@
       ],
       "score": 46.7,
       "found_at": "2026-11-12T19:04:57.516022+00:00"
+    },
+    {
+      "name": "LLM and agent observability",
+      "field": "AI infrastructure / observability",
+      "summary": "A tracing and evaluation service that records prompts, tool calls, latency and token cost, then scores quality, hallucinations and safety across an LLM or agent workflow.",
+      "why_now": "The LLM observability platform market is forecast to grow from $1.97B in 2025 to $2.69B in 2026 at 36.3% CAGR, then to $9.26B by 2030, driven by agentic workflows, token-cost optimization and AI governance.",
+      "monetization": "Langfuse charges $29/month Core, $199/month Pro and $2,499/month Enterprise, plus $8 per 100k units; it also offers a free Hobby tier and free self-hosting.",
+      "evidence": [
+        "https://www.researchandmarkets.com/reports/6215671/large-language-model-llm-observability",
+        "https://langfuse.com/pricing"
+      ],
+      "how_searched": [
+        "market research report",
+        "vendor pricing page",
+        "open-source/commercial pricing comparison"
+      ],
+      "score": 46.7,
+      "found_at": "2026-11-13T22:46:30.997602+00:00"
     },
     {
       "name": "StoreRank",
@@ -4446,6 +4477,24 @@
       ],
       "score": 43.3,
       "found_at": "2026-10-31T21:48:31.115156+00:00"
+    },
+    {
+      "name": "AI headshot generator",
+      "field": "AI photo / professional headshots",
+      "summary": "A web tool that turns a handful of selfies into studio-style professional headshots for LinkedIn, CVs, team pages and sales profiles.",
+      "why_now": "Trends.vc tracks 11 paid companies with typical revenue of $1.2M/year and a range of $17K–$11M; HeadshotPro alone reports 17M headshots, 200K+ shoots and $10M+ revenue since launch.",
+      "monetization": "HeadshotPro sells per-shoot and team packages and reports $10M+ revenue since launch; Trends.vc lists Aragon at $11M/year, HeadshotPro at $3.6M and BetterPic at $3.2M.",
+      "evidence": [
+        "https://trends.vc/opportunities/ai-headshot-generators",
+        "https://www.headshotpro.com/about"
+      ],
+      "how_searched": [
+        "market opportunity database with revenue estimates",
+        "vendor traction and revenue page",
+        "competitor revenue comparison"
+      ],
+      "score": 43.3,
+      "found_at": "2026-11-13T22:46:31.478596+00:00"
     },
     {
       "name": "SocialClaw (social media scheduler built for AI agents)",
