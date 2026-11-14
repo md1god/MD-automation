@@ -119,24 +119,6 @@
       "found_at": "2026-10-27T10:37:23.236780+00:00"
     },
     {
-      "name": "AI Search Visibility (GEO/AEO) Monitoring",
-      "field": "Marketing/SEO Tools",
-      "summary": "Tools that track brand mentions and citations in AI answers (ChatGPT, Google AI Overviews/AI Mode, Perplexity). Market exploding with enterprise demand.",
-      "why_now": "Adobe acquiring Semrush for ~$1.9B (Apr 2026) validates category; Profound valued at $1.8B with $334.5M raised; AI-referred sessions up 527% YoY; 60% of Google searches now zero-click.",
-      "monetization": "SaaS subscriptions - Profound/enterprise tools charge thousands/month; Peec AI grew to $10M ARR in 16 months. Semrush AI products hit $38M ARR (2025).",
-      "evidence": [
-        "https://henkanpartners.ai/en/insights/ai-search-visibility-market-2023-2026/",
-        "https://guptadeepak.com/geo-compass/guides/geo-tooling-market-2026/",
-        "https://everything-pr.com/ahrefs-semrush-and-conductor-push-back-as-geo-pure-plays-raise-hundreds-of-millions"
-      ],
-      "how_searched": [
-        "web search for GEO/AEO market data and funding",
-        "cross-checked acquisition/valuation numbers across multiple sources"
-      ],
-      "score": 95.0,
-      "found_at": "2026-10-24T20:52:06.456970+00:00"
-    },
-    {
       "name": "AI Content Detector (Free Web Tool)",
       "field": "AI Detection / EdTech / Content Integrity",
       "summary": "A free browser-based tool that analyzes text and returns an AI-probability score, highlighting suspicious passages. Targets students, educators, publishers, and hiring managers who need to verify human authorship.",
@@ -241,24 +223,6 @@
       "found_at": "2026-10-28T01:25:34.726803+00:00"
     },
     {
-      "name": "AI Agent Monetization Infrastructure (MCP Payments)",
-      "field": "Developer Tools/Agent Infrastructure",
-      "summary": "Payment layers for MCP tools/agents enabling per-call billing as autonomous agents need to pay for capabilities. Less than 5% of MCP servers monetize today.",
-      "why_now": "MCP exploded to 10k+ servers with 97M+ SDK downloads; x402/Stripe MPP/Alipay MCP payment server emerging; infrastructure buildout happening now with huge whitespace.",
-      "monetization": "Transaction fees/micropayments per tool call. Alipay MCP Payment Server reportedly processed 120M transactions in a week (100M users); x402 doing ~$28K/day.",
-      "evidence": [
-        "https://settlegrid.ai/learn/state-of-mcp-2026",
-        "https://theagenttimes.com/articles/less-than-5-of-mcp-servers-are-monetized-a-payment-stack-is--89b2ee26",
-        "https://dev.to/holistis/a-payment-gateway-for-mcp-servers-and-the-security-bugs-i-found-in-my-own-code-first-337"
-      ],
-      "how_searched": [
-        "web search for MCP monetization/payment infrastructure",
-        "looked for transaction volume data across protocols"
-      ],
-      "score": 94.0,
-      "found_at": "2026-10-24T20:52:07.006612+00:00"
-    },
-    {
       "name": "AI Interior Design / Room Redesign (Web Tool Opportunity)",
       "field": "Consumer AI / Home Design",
       "summary": "Photo upload + style selection + AI redesign for rooms/exteriors/gardens with furniture replacement, declutter, material previews. Proven mobile demand with large revenues; opportunity as free web tool with different UX/positioning.",
@@ -332,24 +296,6 @@
       "found_at": "2026-10-28T16:04:45.115338+00:00"
     },
     {
-      "name": "MCP Security & Trust Scanning",
-      "field": "Security/Developer Tools",
-      "summary": "Tools to audit, scan, and rate MCP servers for security risks as exposure grows faster than fixes. Critical due to supply chain attacks.",
-      "why_now": "147 unauthenticated MCP servers found wide open (Pluto Security); 12,520 internet-reachable MCP services found by Censys; malicious skills found in ClawHavoc (341/2857); CVEs targeting MCP grew rapidly; <5% of servers pass basic safety checks.",
-      "monetization": "B2B SaaS for security teams, API scanning, registry trust scoring, compliance checks. Enterprise demand driven by agentic adoption.",
-      "evidence": [
-        "https://pluto.security/blog/wide-open-hundreds-of-mcps-exposing-root-shells-production-data-and-citizen-records-one-call-away/",
-        "https://archestack.com/reports/state-of-mcp-2026-q4/",
-        "https://www.vulnify.io/blog/we-scanned-1320-public-mcp-servers"
-      ],
-      "how_searched": [
-        "web search for MCP security incidents/exposure data",
-        "reviewed vulnerability reports and scans"
-      ],
-      "score": 93.0,
-      "found_at": "2026-10-24T20:52:07.619923+00:00"
-    },
-    {
       "name": "AI Browser/Agent Operating Layer",
       "field": "Productivity/Browser",
       "summary": "Browsers that embed AI agents/companions to automate tasks across apps - e.g. Strawberry, Rill browser positioning agents beside browsing.",
@@ -365,24 +311,6 @@
       ],
       "score": 93.0,
       "found_at": "2026-10-28T16:04:45.286198+00:00"
-    },
-    {
-      "name": "AI Content Repurposing for Creators",
-      "field": "Creator Economy/SaaS",
-      "summary": "Tools that repurpose one piece of content into multiple formats (shorts/reels/posts). High demand as creators need to distribute everywhere.",
-      "why_now": "Strong revenue signals from verified/founder-reported data: Post Bridge $48.8K MRR verified (Stripe), SuperX $22.3K MRR verified (Stripe), Fastlane ~$69K/month (self-reported). Built quickly with AI coding tools.",
-      "monetization": "Subscription SaaS ($29-$99/month). Many grow via founder-led/content marketing with low CAC.",
-      "evidence": [
-        "https://shippedandpaid.beehiiv.com/p/post-bridge-and-abmaxx-verified-revenue-plus-4-more-ai-built-apps",
-        "https://shippedandpaid.beehiiv.com/p/superx-at-22k-mrr-verified-plus-5-more-ai-built-apps",
-        "https://www.creem.io/blog/ai-saas-ideas-making-money-2026"
-      ],
-      "how_searched": [
-        "reviewed founder revenue reports (Shipped & Paid) with verification",
-        "cross-checked with AI SaaS revenue data"
-      ],
-      "score": 92.0,
-      "found_at": "2026-10-24T20:52:09.648094+00:00"
     },
     {
       "name": "AI Text Humanizer (Free Web Tool)",
@@ -549,24 +477,6 @@
       "found_at": "2026-10-27T10:37:25.459241+00:00"
     },
     {
-      "name": "LinkedIn AI Writing & Growth Tools",
-      "field": "B2B/Social SaaS",
-      "summary": "AI tools for LinkedIn post creation, engagement, and growth - selling to founders/creators/ghostwriters who need B2B visibility.",
-      "why_now": "Kleo hit $61.9K MRR (self-reported), SuperX also serves X/LinkedIn growth; GojiberryAI does AI sales/LinkedIn outreach ($424K MRR but stale in some trackers). B2B buyers have budgets and clear ROI.",
-      "monetization": "SaaS subscriptions targeting solopreneurs/agencies ($29-$149/month). High conversion when tied to measurable outcomes.",
-      "evidence": [
-        "https://shippedandpaid.beehiiv.com/p/kleo-at-62k-mrr-and-erly-at-50k-a-month-plus-4-more-ai-built-apps",
-        "https://shippedandpaid.beehiiv.com/p/superx-at-22k-mrr-verified-plus-5-more-ai-built-apps",
-        "https://imademoneywithai.com/"
-      ],
-      "how_searched": [
-        "analyzed AI business revenue trackers",
-        "reviewed founder-reported MRR with sources"
-      ],
-      "score": 91.0,
-      "found_at": "2026-10-24T20:52:13.040820+00:00"
-    },
-    {
       "name": "Card Value Scanner & Collection Ledger",
       "field": "Collectibles / resale",
       "summary": "A camera-first web/PWA that identifies sports and Pokemon cards, pulls recent sold-price comps, records condition, and builds a value-tracked collection with alerts and CSV export.",
@@ -604,24 +514,6 @@
       ],
       "score": 91.0,
       "found_at": "2026-11-13T08:04:51.876183+00:00"
-    },
-    {
-      "name": "Vertical AI Agents for Local Trades",
-      "field": "Vertical AI/B2B SaaS",
-      "summary": "AI agents purpose-built for specific trades (HVAC/plumbing/roofing) handling lead qualification, scheduling, follow-ups, estimates. Huge TAM, underserved.",
-      "why_now": "Clairvo (AI power dialer for call-heavy trades) hit ~$1M ARR (self-reported); businesses in trades often run on pen/paper with high customer LTV. AI adoption accelerating in blue-collar SMBs.",
-      "monetization": "Per-seat or per-location SaaS, often $200-$1000/month per business. High willingness to pay if it books jobs/reduces missed calls.",
-      "evidence": [
-        "https://shippedandpaid.beehiiv.com/p/superx-at-22k-mrr-verified-plus-5-more-ai-built-apps",
-        "https://www.creem.io/blog/ai-saas-ideas-making-money-2026",
-        "https://www.runsby.ai/"
-      ],
-      "how_searched": [
-        "reviewed vertical AI agent revenue examples",
-        "cross-referenced with AI SaaS opportunity reports"
-      ],
-      "score": 90.0,
-      "found_at": "2026-10-24T20:52:14.061950+00:00"
     },
     {
       "name": "AI Voice Receptionist for SMBs (Free Web Tool + Twilio)",
@@ -708,24 +600,6 @@
       ],
       "score": 90.0,
       "found_at": "2026-11-11T22:04:49.734824+00:00"
-    },
-    {
-      "name": "AI Meeting Notes & Sales Intelligence",
-      "field": "Productivity/Sales Tools",
-      "summary": "AI that summarizes meetings, extracts action items, updates CRM. Consolidation opportunity in verticals or with better integrations.",
-      "why_now": "Fireflies/Otter/tldv are big but still room for niche-specific versions (real estate, legal, healthcare) with better workflow integration. Businesses pay to save time and improve CRM hygiene.",
-      "monetization": "Per-user SaaS ($19-$99/month). Enterprise deals common. Strong retention when integrated into daily workflows.",
-      "evidence": [
-        "https://www.creem.io/blog/ai-saas-ideas-making-money-2026",
-        "https://imademoneywithai.com/",
-        "https://runsby.ai/"
-      ],
-      "how_searched": [
-        "analyzed AI SaaS categories with revenue data",
-        "looked for whitespace in established categories"
-      ],
-      "score": 89.0,
-      "found_at": "2026-10-24T20:52:14.767149+00:00"
     },
     {
       "name": "Browser automation / agent browser tools (Lightpanda, Browser Use, Stagehand)",
@@ -2073,6 +1947,27 @@
       "found_at": "2026-11-14T03:21:57.640219+00:00"
     },
     {
+      "name": "AI Agent Simulation & Reliability Testing",
+      "field": "AI developer tools / agent infrastructure",
+      "summary": "A free web tool that builds a 'digital twin' sandbox of an AI agent and its tools, then runs thousands of synthetic and adversarial users against it to catch failures before customers do.",
+      "why_now": "Plurai launched general availability plus a $13M seed on Nov 11, 2026 with a free tier and hit #1 on Product Hunt (402 upvotes); Raindrop opened its Simulations public beta Nov 5, 2026 after 33,000+ simulations across 1,700+ pull requests. Launch Index shows the AI Agents category's top-3 vote threshold is now 321+, versus 91+ in Productivity, and the top Product Hunt launches were agent-reliability tools.",
+      "monetization": "Plurai: free tier then paid/enterprise (post-trained SLMs, guardrails); Raindrop prices by PRs and compute after a $50M total raise; adjacent launches (three.dev, Seldon, Dex Semantics) sell monitoring/eval.",
+      "evidence": [
+        "https://techcrunch.com/2026/11/11/plurai-wants-to-help-ai-agents-work-better-using-the-same-approach-that-helped-get-self-driving-cars-to-roads/",
+        "https://www.prnewswire.com/news-releases/plurai-raises-13m-to-build-the-simulation-infrastructure-for-trustworthy-self-improving-ai-agents-302936422.html",
+        "https://www.raindrop.ai/blog/introducing-simulations/",
+        "https://launchindex.ai/week/2026-11-09"
+      ],
+      "how_searched": [
+        "launch/review sites",
+        "startup funding news",
+        "company blogs",
+        "launch benchmark trackers"
+      ],
+      "score": 80.0,
+      "found_at": "2026-11-14T21:32:44.390575+00:00"
+    },
+    {
       "name": "AI Web Scraper / Structured Data Extractor",
       "field": "Data / Developer Tools",
       "summary": "Free web tool: enter any URL or list of URLs, get clean JSON/CSV of extracted data (products, prices, reviews, articles) — handles pagination, login, JS rendering, anti-bot.",
@@ -2396,6 +2291,27 @@
       "found_at": "2026-11-14T03:22:01.000661+00:00"
     },
     {
+      "name": "AI Size & Fit Recommender for Apparel",
+      "field": "e-commerce / fashion retail",
+      "summary": "A free embeddable web widget that asks shoppers a few body questions and recommends the correct size per garment, cutting costly apparel returns.",
+      "why_now": "Roughly 93% of apparel returns are sizing/fit related and AI fit tools cut returns 10-40% (Retenzy, Jul 2026); a new 'AI Size Finder' app (Vonili Fit) launched Nov 13, 2026, and a crowded paid field of Shopify size apps has appeared, from $9.99/mo to $1,000/mo.",
+      "monetization": "Paid Shopify apps: AI Fit Finder from $9.99/mo, Measmerize $49/mo, WAIR $125/mo, True Fit $1,000/mo, DerFit from $29/mo, plus per-order/per-scan usage fees.",
+      "evidence": [
+        "https://retenzy.com/shopify-app/shopify-size-fit-apps-to-help-reduce-returns-in-2026/",
+        "https://apps.shopify.com/ai-size-chart-app",
+        "https://apps.shopify.com/measmerize",
+        "https://shoplist.co/shopify-apps/new-apps-2026/november"
+      ],
+      "how_searched": [
+        "app stores",
+        "marketplace analysis blog",
+        "product-launch trackers",
+        "industry reports"
+      ],
+      "score": 78.0,
+      "found_at": "2026-11-14T21:32:46.442358+00:00"
+    },
+    {
       "name": "Freelancer Contract Risk Scanner",
       "field": "Legal tech",
       "summary": "Upload a freelance contract and get clause-level red flags, a dollar-denominated hidden-cost score, and ready-to-send negotiation language.",
@@ -2609,6 +2525,27 @@
       "found_at": "2026-11-12T19:04:55.311715+00:00"
     },
     {
+      "name": "ChatGPT Business Hub Claim & Visibility Toolkit",
+      "field": "AI search visibility / local & e-commerce marketing",
+      "summary": "A free web tool to help businesses claim and verify their listing in ChatGPT, generate product feeds, and monitor how often ChatGPT mentions them versus competitors.",
+      "why_now": "OpenAI launched 'Businesses in ChatGPT' beta on Nov 10, 2026, aimed at 1.2B weekly users, adding a Business Hub for claims plus a Business Agent; it reached #3 on Product Hunt on Nov 14, 2026 (147 upvotes) and its top comment asks for direct quote-request handling, showing immediate demand from service businesses.",
+      "monetization": "Third-party GEO/visibility tools charge $20-$295+/mo (Beamtrace $20, Otterly $29, Peec $95, Profound $99+, Semrush $199); a free claim/onboarding wedge can upsell monitoring, matching OpenAI's move toward paid sponsored placements.",
+      "evidence": [
+        "https://openai.com/index/introducing-businesses-chatgpt/",
+        "https://digiday.com/marketing/chatgpt-is-about-to-show-brands-their-mention-count/",
+        "https://thesearchpost.com/chatgpt-business-hub",
+        "https://hunted.space/product/openai"
+      ],
+      "how_searched": [
+        "official product announcements",
+        "marketing trade press",
+        "launch sites",
+        "AI-search tool comparisons"
+      ],
+      "score": 74.0,
+      "found_at": "2026-11-14T21:32:47.397037+00:00"
+    },
+    {
       "name": "Shopify SEO and page-speed audit",
       "field": "Shopify SEO",
       "summary": "Audit meta tags, alt text, structured data, broken links, image weight, and AI-search visibility, then generate fixes. Rebuild as a free store scanner with paid auto-fixes and monitoring.",
@@ -2761,6 +2698,27 @@
       ],
       "score": 72.0,
       "found_at": "2026-11-14T03:22:02.350747+00:00"
+    },
+    {
+      "name": "Agent-Native Social Media Scheduler (MCP/CLI)",
+      "field": "social media management / creator tools",
+      "summary": "An open-source social scheduler with an MCP server and CLI so AI agents can plan and publish posts, sold as a hosted convenience layer over free self-hosting.",
+      "why_now": "Postiz grew from ~$17K MRR in January 2026 to ~$326K-$400K MRR by autumn after repositioning around AI agents (OpenClaw/MCP); TrustMRR showed ~$413K MRR, +53.8% in 30 days with 12,200 subscriptions as of Nov 13, 2026.",
+      "monetization": "Open-core: free AGPL self-hosted version drives adoption, paid cloud $29-$99/mo; 8,000+ customers and roughly $2.7M-$4M annualized, Stripe-verified.",
+      "evidence": [
+        "https://podcast.trends.vc/episodes/this-free-scheduler-earns-326k-month-from-ai-agents/transcript",
+        "https://theaireceipts.com/fastest-growing-ai-startups/",
+        "https://webtribunal.net/postiz-growth/",
+        "https://www.indiehackers.com/post/tech/growing-an-open-source-product-to-1-3m-arr-in-two-years-hbMiXIoZsueV9D3L58DP"
+      ],
+      "how_searched": [
+        "founder podcast/interviews",
+        "open revenue trackers",
+        "indie community case studies",
+        "open-source growth analyses"
+      ],
+      "score": 72.0,
+      "found_at": "2026-11-14T21:32:48.236480+00:00"
     },
     {
       "name": "AI screenwriting and storyboard workspace (Laper pattern)",
@@ -3001,6 +2959,47 @@
       "found_at": "2026-11-14T03:22:09.133424+00:00"
     },
     {
+      "name": "AI Video Dubbing & Localization for Creators",
+      "field": "creator economy / media localization",
+      "summary": "A free web tool that dubs and localizes short-form video into many languages using the creator's own voice, plus localized titles and captions.",
+      "why_now": "YouTube opened auto-dubbing to all creators across 27 languages and Instagram expanded Reels translation to more languages; Upwork reports AI video generation/editing demand up 329% year over year, and creators report 15-30% viewership gains from dubbed versions.",
+      "monetization": "Dubbing freelancers charge $100-$4,000/mo per client; TrustMRR-verified dubbing businesses run ~$664-$3,745 MRR; the AI dubbing market is projected to grow from ~$52M (2026) toward $620M by 2034.",
+      "evidence": [
+        "https://www.livemint.com/news/ai-dubbing-instagram-reels-youtube-auto-dubbing-regional-content-creators-multilingual-videos-creator-economy-11794547920225.html",
+        "https://www.upwork.com/research/in-demand-skills-2026",
+        "https://perso.ai/research/state-of-ai-dubbing-2026/state-of-ai-dubbing-2026.pdf",
+        "https://printcashwithai.com/guides/ai-translation-language-learning-business/"
+      ],
+      "how_searched": [
+        "news",
+        "freelance/job boards",
+        "market research",
+        "open revenue directories"
+      ],
+      "score": 68.0,
+      "found_at": "2026-11-14T21:32:49.520730+00:00"
+    },
+    {
+      "name": "TikTok Shop / E-commerce Trend & Best-Seller Finder",
+      "field": "e-commerce / dropshipping",
+      "summary": "A free web tool that surfaces trending TikTok Shop and Shopify products with estimated revenue, growth velocity, creator counts and commission data.",
+      "why_now": "TikTok Shop top listings move millions of dollars monthly (medicube body-care set ~$7.2M/30d at +94%, Comfrt blanket ~$3.4M/30d at +97%); 'Sell The Trend AI Dropshipping' is the #1 trending Shopify app with 15.5% share and 1,214 new Shopify apps shipped in Nov 2026 alone.",
+      "monetization": "Paid product-research tools (Sell The Trend, Dropship.io) and affiliate/commission tracking; TikTok Shop creator commissions run ~5-15% and research SaaS is subscription-based.",
+      "evidence": [
+        "https://trendhog.io/products",
+        "https://www.shopdigest.com/shopify/apps/keywords/trending/charts",
+        "https://ugc.live/tiktok-shop-best-sellers",
+        "https://deviantly.ai/trending/products/home"
+      ],
+      "how_searched": [
+        "marketplace best-seller boards",
+        "app store charts",
+        "trend trackers"
+      ],
+      "score": 68.0,
+      "found_at": "2026-11-14T21:32:51.003152+00:00"
+    },
+    {
       "name": "Marketplace of skill packs and style kits for AI coding agents",
       "field": "AI developer tools",
       "summary": "A web library of installable 'skills' — instruction packs and visual style kits that give Claude Code, Codex and Cursor a distinct output style for websites, decks, images and video, previewable before install. Skillry reached $5.1K MRR within ~3 months of launch.",
@@ -3139,6 +3138,26 @@
       "found_at": "2026-11-12T19:05:02.313612+00:00"
     },
     {
+      "name": "On-Device, Privacy-First Transcription & Dictation (Web Tool)",
+      "field": "productivity / privacy software",
+      "summary": "A free browser tool that transcribes, cleans up and summarizes audio or meetings entirely on-device, with no audio leaving the machine.",
+      "why_now": "Google quietly shipped a free, fully offline iOS dictation app in April 2026, undercutting $15/mo cloud rivals; an open-source on-device meeting tool 'Yogurt' hit Hacker News on Nov 11, 2026; a dictation market map counts 79 dictation apps and finds accuracy, not price, is the top user complaint, while ~41% report subscription fatigue.",
+      "monetization": "Incumbent cloud apps charge $15/mo (Wispr Flow, Willow) or $85/yr (Superwhisper); a local-first web tool can charge a one-time/low fee with a BYOK AI cleanup layer to avoid inference costs.",
+      "evidence": [
+        "https://thenextweb.com/news/google-offline-dictation-app-ios",
+        "https://yapapp.cc/market",
+        "https://lumevoice.com/blog/dictation-apps-privacy-compared/"
+      ],
+      "how_searched": [
+        "tech news",
+        "Hacker News",
+        "market maps",
+        "privacy comparison blogs"
+      ],
+      "score": 64.0,
+      "found_at": "2026-11-14T21:32:52.298650+00:00"
+    },
+    {
       "name": "Postiz",
       "field": "Social media management / AI content scheduling",
       "summary": "An open-source social media scheduling and management platform for creators, teams, and businesses to plan and publish content across channels. The rebuild opportunity is a fresh, original web-based scheduler with AI-assisted drafting and multi-channel publishing workflows.",
@@ -3211,6 +3230,26 @@
       ],
       "score": 61.0,
       "found_at": "2026-11-10T23:31:03.164767+00:00"
+    },
+    {
+      "name": "No-Code AI Directory Builder",
+      "field": "no-code / SEO / local marketing",
+      "summary": "A free web tool that generates a niche directory site (categories, listings, SEO pages, lead capture) from a one-sentence description, letting owners monetize listings.",
+      "why_now": "Directify, a no-code directory builder, reached $50K ARR seven months after an $85K acquisition (Sept 2026) and hosts 4,039 sites holding 513,929 listings, though 61% never publish a listing; a hand-done 'AI Directories' business reached $10K/mo, showing demand on both the tool and labor sides.",
+      "monetization": "Subscriptions $12-$149/mo (Directify takes 0% commission); owners monetize via premium listings, top placements, ads, membership tiers and lead sales.",
+      "evidence": [
+        "https://small-start.com/en/cases/global-directify-85k-acquisition/",
+        "https://www.soloez.com/weekly/soloez-164",
+        "https://arrfounder.com/news/directify-reaches-3-1k-mrr",
+        "https://fast-makers.beehiiv.com/p/how-i-sold-directify-for-85-000-and-the-fight-i-picked-next"
+      ],
+      "how_searched": [
+        "indie acquisition case studies",
+        "maker newsletters",
+        "revenue milestone trackers"
+      ],
+      "score": 60.0,
+      "found_at": "2026-11-14T21:32:54.280534+00:00"
     },
     {
       "name": "AEO Engine",
@@ -3300,6 +3339,25 @@
       ],
       "score": 58.0,
       "found_at": "2026-11-14T17:16:14.003942+00:00"
+    },
+    {
+      "name": "Persistent Memory Layer for AI Coding Agents",
+      "field": "AI developer tools",
+      "summary": "An open-source, self-improving memory layer that lets AI coding agents (Claude Code, Cursor, Codex, and others) remember and reuse prior sessions.",
+      "why_now": "beacon.sh was the top-scoring Product Hunt launch of the month and a top Show HN entry (321-516 votes) for 'open-source self-improving memory for AI coding agents'; weekly trend reporting notes open-source agent memory climbing the GitHub trending charts as a distinct category.",
+      "monetization": "Open-source core with paid hosted/team tiers (standard dev-tool model); adjacent agent-memory projects are pitched as swappable infrastructure and are drawing funding.",
+      "evidence": [
+        "https://launchindexai.beehiiv.com/p/same-volume-more-winners-how-hackerbooks-topped-show-hn",
+        "https://wynter.ai/blog/ai-product-report-2026-11-11",
+        "https://www.producthunt.com/"
+      ],
+      "how_searched": [
+        "launch sites",
+        "weekly trend reports",
+        "GitHub trending coverage"
+      ],
+      "score": 58.0,
+      "found_at": "2026-11-14T21:32:55.183373+00:00"
     },
     {
       "name": "CheckVibe",
