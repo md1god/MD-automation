@@ -99,26 +99,6 @@
       "found_at": "2026-10-27T10:37:22.459111+00:00"
     },
     {
-      "name": "Tsenta",
-      "field": "recruiting/hr-tech",
-      "summary": "AI career agent that finds jobs matching a profile and automatically applies across ATS platforms (Workday, Greenhouse, Lever, Ashby), handling account creation, forms, and OTPs.",
-      "why_now": "Job search volume remains high and applying at scale is painful for candidates; YC S26 momentum, traction grew to ~$3M annualized within ~3 months with ~90,000+ job seekers using the platform.",
-      "monetization": "SaaS subscriptions for automated applications (~$19–$99/mo); reported ~$3M annualized revenue with ~90k users (YC/company materials).",
-      "evidence": [
-        "https://tsenta.com/",
-        "https://docs.tsenta.com/product/introduction",
-        "https://www.ycombinator.com/companies/tsenta",
-        "https://www.systemaic.com/tools/bootstrapped-risers"
-      ],
-      "how_searched": [
-        "search engine",
-        "Y Combinator company directory",
-        "Product Hunt/revenue directories (Systemaic)"
-      ],
-      "score": 95.5,
-      "found_at": "2026-10-24T14:38:52.207128+00:00"
-    },
-    {
       "name": "AI Voice Agents for Small Business Missed Calls",
       "field": "AI Voice / SMB SaaS",
       "summary": "24/7 AI phone answering/receptionist that captures leads from missed calls, books appointments, qualifies leads, handles after-hours calls. Targets service businesses (plumbers, HVAC, dentists, law firms) where missed calls = lost revenue.",
@@ -261,25 +241,6 @@
       "found_at": "2026-10-28T01:25:34.726803+00:00"
     },
     {
-      "name": "VirtualJK",
-      "field": "consulting/sales-ai",
-      "summary": "AI 'replicant' of James Kemp trained on $25M of consulting sales that builds offers, creates campaigns/strategies, and sells consulting guidance as a product.",
-      "why_now": "AI agents replicating high-value consultants are gaining traction; verified revenue shows strong growth and product-market fit in the coaching/consulting space.",
-      "monetization": "Weekly/annual subscriptions ($97/week, $5,000/year); TrustMRR shows $48,492 MRR, 93 active subscriptions, $3,390,187 all-time revenue.",
-      "evidence": [
-        "https://trustmrr.com/startup/virtualjk",
-        "https://virtualjk.com/",
-        "https://www.youtube.com/watch?v=lrN3HWRFugM"
-      ],
-      "how_searched": [
-        "search engine",
-        "public revenue directories (TrustMRR)",
-        "video/platform research"
-      ],
-      "score": 94.0,
-      "found_at": "2026-10-24T14:38:54.125810+00:00"
-    },
-    {
       "name": "AI Agent Monetization Infrastructure (MCP Payments)",
       "field": "Developer Tools/Agent Infrastructure",
       "summary": "Payment layers for MCP tools/agents enabling per-call billing as autonomous agents need to pay for capabilities. Less than 5% of MCP servers monetize today.",
@@ -371,42 +332,6 @@
       "found_at": "2026-10-28T16:04:45.115338+00:00"
     },
     {
-      "name": "Dropkiller",
-      "field": "ecommerce/research",
-      "summary": "LATAM-focused dropshipping product and ad spy platform providing access to winning products, ad creatives, and market analysis.",
-      "why_now": "Ecommerce research tools remain in demand; strong verified revenue and high growth in LATAM markets with large user base.",
-      "monetization": "Subscription plans; TrustMRR shows $60,179 MRR, 2,702 active subscriptions, $452,343 all-time, ranked #222; Systemaic reports ~$56k MRR with +41.5% growth.",
-      "evidence": [
-        "https://trustmrr.com/startup/dropkiller",
-        "https://www.dropkiller.com/",
-        "https://www.systemaic.com/tools/bootstrapped-risers"
-      ],
-      "how_searched": [
-        "search engine",
-        "public revenue directories (TrustMRR, Systemaic)"
-      ],
-      "score": 93.5,
-      "found_at": "2026-10-24T14:38:54.751268+00:00"
-    },
-    {
-      "name": "zCAD AI",
-      "field": "cad/ai-design",
-      "summary": "AI-native platform generating parametric, editable 3D CAD models (assemblies, mates) from natural language with export to STEP and browser-based CAD editing.",
-      "why_now": "AI for real CAD (not just meshes) is hot; launched on Product Hunt Oct 24 2026 as #1 on the daily leaderboard with strong community engagement.",
-      "monetization": "Freemium/SaaS; pricing shows Free/Standard/Pro/Enterprise tiers with AI credits and commercial usage rights on paid plans.",
-      "evidence": [
-        "https://www.zcad.ai/pricing",
-        "https://www.producthunt.com/products/zcad-ai",
-        "https://www.producthunt.com/leaderboard/daily/2026/10/24"
-      ],
-      "how_searched": [
-        "search engine",
-        "Product Hunt leaderboard/release data"
-      ],
-      "score": 93.0,
-      "found_at": "2026-10-24T14:38:59.112895+00:00"
-    },
-    {
       "name": "MCP Security & Trust Scanning",
       "field": "Security/Developer Tools",
       "summary": "Tools to audit, scan, and rate MCP servers for security risks as exposure grows faster than fixes. Critical due to supply chain attacks.",
@@ -440,42 +365,6 @@
       ],
       "score": 93.0,
       "found_at": "2026-10-28T16:04:45.286198+00:00"
-    },
-    {
-      "name": "UseIt Studio",
-      "field": "design/print-on-demand",
-      "summary": "AI design studio for physical goods (pins, stickers, packaging, acrylic standees, gift boxes) producing real, editable project files with layers, 3D preview, cut/white-ink layers, and Illustrator export.",
-      "why_now": "Combines AI design with manufacturing readiness; Product Hunt #1 on Oct 21 2026 with 328 upvotes and strong discussion.",
-      "monetization": "Freemium/web app + Windows app; monetization details emerging, demand evidenced by top PH launch and strong use case.",
-      "evidence": [
-        "https://useit.im/",
-        "https://www.producthunt.com/products/useit-studio-from-idea-to-delivery",
-        "https://www.producthunt.com/leaderboard/daily/2026/10/21"
-      ],
-      "how_searched": [
-        "search engine",
-        "Product Hunt leaderboard"
-      ],
-      "score": 92.5,
-      "found_at": "2026-10-24T14:38:59.249760+00:00"
-    },
-    {
-      "name": "Photo-based Calorie Estimator (web)",
-      "field": "Health & Wellness",
-      "summary": "Free browser tool that estimates calories/macros from a meal photo with editable results, avoiding mobile app lock-in and ad gates.",
-      "why_now": "Demand for photo logging is high (Reddit threads show users trying CalAI/SnapCal but complaining about accuracy and paywalls). Independent benchmarks show some photo models achieve ~±1% MAPE (PlateLens) while others have no published validation.",
-      "monetization": "Freemium API costs; keep core photo estimation free (ads/affiliate to cookware/scale) or offer higher daily scan limits - numbers not public, null without concrete revenue data.",
-      "evidence": [
-        "https://clinicalnutritionreport.com/articles/best-ai-calorie-tracker-reddit-2026/",
-        "https://www.reddit.com/r/AppIdeas/comments/1sxchhy/photo_calorie_tracker_totally_free_and_web_based/",
-        "https://www.reddit.com/r/apps/comments/1s00965/app_for_photo_calorie_tracking/"
-      ],
-      "how_searched": [
-        "Reddit AppIdeas/apps/wellness",
-        "Review/comparison articles"
-      ],
-      "score": 92.0,
-      "found_at": "2026-10-24T11:02:41.212314+00:00"
     },
     {
       "name": "AI Content Repurposing for Creators",
@@ -641,25 +530,6 @@
       "found_at": "2026-10-30T07:09:34.358323+00:00"
     },
     {
-      "name": "Specreel",
-      "field": "developer-tools/demos",
-      "summary": "Turns browser flows (Playwright traces or live URL crawls) into narrated, shareable product demos that auto-update on green builds; open source CLI plus hosted cloud.",
-      "why_now": "AI-built products ship fast and demos go stale quickly; addresses demo maintenance pain with test-as-demo approach and strong PH traction (104 upvotes).",
-      "monetization": "Open source CLI free; Cloud free for 1 project, Team $39/mo, Scale $149/mo.",
-      "evidence": [
-        "https://specreel.dev/",
-        "https://www.producthunt.com/products/specreel",
-        "https://github.com/specreel/specreel"
-      ],
-      "how_searched": [
-        "search engine",
-        "Product Hunt",
-        "GitHub/launch data"
-      ],
-      "score": 91.5,
-      "found_at": "2026-10-24T14:38:59.948048+00:00"
-    },
-    {
       "name": "Local/Privacy-Focused AI Model Distribution (Reverse Engineering Tools)",
       "field": "AI Infrastructure / Privacy Tools",
       "summary": "Tools enabling users to reclaim/control their devices with AI assistance - removing manufacturer bloatware/telemetry. The cleanyourtv phenomenon shows massive demand for user sovereignty over devices, with AI making complex tasks accessible to non-technical users.",
@@ -734,25 +604,6 @@
       ],
       "score": 91.0,
       "found_at": "2026-11-13T08:04:51.876183+00:00"
-    },
-    {
-      "name": "Apogee",
-      "field": "marketing/ads-automation",
-      "summary": "Bulk ad uploader/manager for Meta/TikTok/Snapchat with AI naming, copywriting agent, testing structures, and agency features.",
-      "why_now": "Media buyers need scale; verified traction with 300+ buyers and growing adoption; strong revenue indicators on bootstrapped SaaS trackers.",
-      "monetization": "Per-seat SaaS (€69/€99/€199/mo) with volume discounts; Systemaic/Boring SaaS indicate ~$4.1k MRR growing.",
-      "evidence": [
-        "https://www.apogee.ad/en/pricing/",
-        "https://www.systemaic.com/tools/bootstrapped-risers",
-        "https://trustpilot.com/review/apogee.ad"
-      ],
-      "how_searched": [
-        "search engine",
-        "public revenue directories (Systemaic)",
-        "review sites"
-      ],
-      "score": 90.5,
-      "found_at": "2026-10-24T14:39:00.519914+00:00"
     },
     {
       "name": "Vertical AI Agents for Local Trades",
@@ -1089,6 +940,26 @@
       "found_at": "2026-11-14T10:41:15.522885+00:00"
     },
     {
+      "name": "Dealsourcr",
+      "field": "PropTech / UK property deal sourcing SaaS",
+      "summary": "UK property deal-sourcing and analysis platform that surfaces below-market investment deals with scoring and alerts; subscription priced around £84.99–£89.99/mo, with ~1,157 paying subscribers and reported MRR up to ~$158K.",
+      "why_now": "The product has crossed seven-figure cumulative revenue since 2019 and continued to grow MRR through 2026, showing durable, repeatable willingness to pay in a niche that mainstream property portals do not serve well.",
+      "monetization": "Tiered monthly subscriptions (~£85–£90/mo) with annual discounts and upsells for alerts and analysis.",
+      "evidence": [
+        "https://dealsourcr.com/pricing",
+        "https://ashleyrudland.com/",
+        "https://www.profitsearcher.com/en/reports/report-dealsourcr-ltd-1773898003"
+      ],
+      "how_searched": [
+        "websearch: UK property deal sourcing SaaS revenue",
+        "Google Trends: property deal sourcing",
+        "revenue databases (ProfitSearcher, TrustMRR aggregators)",
+        "direct pricing page"
+      ],
+      "score": 88.0,
+      "found_at": "2026-11-14T17:16:13.279136+00:00"
+    },
+    {
       "name": "RemediatePDF",
       "field": "Accessibility / RegTech",
       "summary": "A free browser-based PDF accessibility checker that diagnoses WCAG/EN 301 549 failures and sells an affordable self-serve remediation workflow for SMEs, banks, insurers, and public-sector suppliers.",
@@ -1127,24 +998,6 @@
       ],
       "score": 87.0,
       "found_at": "2026-11-11T22:04:51.839189+00:00"
-    },
-    {
-      "name": "Missing Item / Delivery Fraud Checker (web)",
-      "field": "Consumer Protection",
-      "summary": "Simple web form that generates templated complaint emails to retailers/delivery services with order details and required evidence; tracks missing item patterns.",
-      "why_now": "Frequent Reddit complaints about missing items in sealed packages and ghosting from support (multiple threads about Coles, Rhode, Woot, Genkit, DoorDash). People want standardized recourse.",
-      "monetization": "Free tool; could monetize via lead gen to consumer rights/legal aid if scale - revenue unknown, null.",
-      "evidence": [
-        "https://www.reddit.com/r/coles/comments/1wmbhpu/missing_item_on_coles_app/",
-        "https://www.reddit.com/r/woot/comments/1vu3fbc/item_missing_twice/",
-        "https://www.reddit.com/r/doordash/comments/1qu2jpi/this_cant_be_happening_but_it_is/"
-      ],
-      "how_searched": [
-        "Reddit complaints about orders/missing items",
-        "Cross-checking patterns across retailers"
-      ],
-      "score": 86.0,
-      "found_at": "2026-10-24T11:02:41.414791+00:00"
     },
     {
       "name": "AI-Powered Restaurant Lead Capture & Review Automation",
@@ -1279,6 +1132,27 @@
       ],
       "score": 86.0,
       "found_at": "2026-11-12T19:04:51.838138+00:00"
+    },
+    {
+      "name": "TAXX",
+      "field": "FinTech / tax filing SaaS",
+      "summary": "Luxembourg personal income-tax filing web app that turns a complex national return into a guided online flow; Stripe-verified revenue reached ~$166,537/mo by 2026-11-11, up from ~$140,775 ten days earlier.",
+      "why_now": "Revenue rose roughly 18% in ten days during filing season, demonstrating high-intent, recurring demand in a small market that large international tax suites largely ignore.",
+      "monetization": "Per-return and tiered filing fees with seasonal pricing.",
+      "evidence": [
+        "https://vaqira.com/p/taxx/",
+        "https://www.taxx.lu/en/pricing",
+        "https://getlatka.com/companies/taxxlu",
+        "https://buildin30.com/en/fikirler/taxx-lu"
+      ],
+      "how_searched": [
+        "websearch: Luxembourg tax filing startup revenue",
+        "Indie Hackers revenue timeline",
+        "GetLatka revenue estimates",
+        "direct pricing page"
+      ],
+      "score": 86.0,
+      "found_at": "2026-11-14T17:16:16.911207+00:00"
     },
     {
       "name": "Local LLM Playground & Model Router (Free Web Tool)",
@@ -1516,24 +1390,6 @@
       ],
       "score": 85.0,
       "found_at": "2026-11-13T08:04:53.271646+00:00"
-    },
-    {
-      "name": "Small Web Tool Idea Generator (curated)",
-      "field": "Developer Tools",
-      "summary": "Free site aggregating unbuilt, small-scope web tool ideas sourced from 'what's missing' Reddit posts with difficulty estimates and existing alternatives.",
-      "why_now": "Builders want to ship something people use (multiple Reddit threads asking for ideas, noting internet is missing small useful websites). SEO-friendly long-tail content with clear demand.",
-      "monetization": "Ad-supported or affiliate to hosting/AI APIs - scale dependent, null exact numbers.",
-      "evidence": [
-        "https://www.reddit.com/r/AppIdeas/comments/1u5aiui/whats_a_simple_website_tool_you_wish_existed/",
-        "https://www.reddit.com/r/SomebodyMakeThis/comments/1tqozej/i_feel_like_the_internet_is_weirdly_missing_a_lot/",
-        "https://www.reddit.com/r/hackathon/comments/1rq6e8k/whats_a_simple_website_tool_you_wish_existed/"
-      ],
-      "how_searched": [
-        "Reddit idea-hunting",
-        "Developer community needs"
-      ],
-      "score": 84.0,
-      "found_at": "2026-10-24T11:02:41.638511+00:00"
     },
     {
       "name": "Cross-AI Chat Search & Export Workspace",
@@ -2015,22 +1871,24 @@
       "found_at": "2026-11-13T16:28:12.696212+00:00"
     },
     {
-      "name": "Trending Product Research Snapshot (web)",
-      "field": "E-commerce Intelligence",
-      "summary": "Free web tool summarizing rising products with search growth/competition signals (using public data), filtering out branded SKUs and hardware/illegal categories.",
-      "why_now": "Multiple sources show strong interest in finding trending products to sell (Ahrefs/Shopify/SaleHoo/Dropship lists) but many are paywalled or ad-heavy. Opportunity to aggregate public signals.",
-      "monetization": "Ad-supported or affiliate to suppliers - revenue unknown, null.",
+      "name": "Kiku",
+      "field": "EdTech / language learning mobile app",
+      "summary": "iOS app that teaches Japanese through anime and TV-drama clips with tap-to-translate flashcards; ~$30,005 revenue in 28 days (Oct 2026), ~$7,151 MRR, 9,000+ downloads, and a $49.99/yr Pro plan.",
+      "why_now": "Anime-driven language learning is rising, and the founder's daily short-form video posting produced a repeatable low-cost acquisition loop that a web-first competitor could replicate.",
+      "monetization": "Freemium with a $49.99/yr Pro subscription.",
       "evidence": [
-        "https://ahrefs.com/blog/trending-products/",
-        "https://www.shopify.com/blog/trending-products",
-        "https://www.salehoo.com/learn/finding-trending-products-to-dropship"
+        "https://thenewspaperdaily.com/his-first-app-hit-30k-a-month-in-9-months/",
+        "https://peekly.app/apps/40ed97e4-d4e1-4af4-be19-d23f4569a000",
+        "https://vaqira.com/p/kiku/"
       ],
       "how_searched": [
-        "E-commerce trend reports",
-        "Cross-comparison of public lists"
+        "websearch: app hit 30k month anime language learning",
+        "app store analytics (Peekly)",
+        "revenue aggregators (VAQIRA)",
+        "TikTok/Instagram growth references"
       ],
-      "score": 81.0,
-      "found_at": "2026-10-24T11:02:42.589928+00:00"
+      "score": 82.0,
+      "found_at": "2026-11-14T17:16:18.674561+00:00"
     },
     {
       "name": "Anti-AI-Slop Design Linter & Skill for Coding Agents",
@@ -2615,6 +2473,26 @@
       "found_at": "2026-11-13T08:04:58.039673+00:00"
     },
     {
+      "name": "Paternal",
+      "field": "Health / parenting mobile app",
+      "summary": "Week-by-week pregnancy companion app built for dads, with milestone content and partner-focused guidance; ~$23,385 revenue in its first month (Sep 2026), 6,000+ downloads, 753 active subscribers, and 239 trials.",
+      "why_now": "Partner-focused parenting content remains an overlooked niche dominated by mom-centric products, and a strong first-month revenue result shows clear willingness to pay.",
+      "monetization": "Subscription with free trial, billed via RevenueCat.",
+      "evidence": [
+        "https://devpost.com/software/paternal",
+        "https://hackernoon.com/how-our-shipaton-app-made-%2422k-in-its-first-month",
+        "https://vaqira.com/p/paternal/"
+      ],
+      "how_searched": [
+        "websearch: pregnancy app for dads revenue first month",
+        "Devpost launch page",
+        "HackerNoon founder writeup",
+        "revenue aggregators (VAQIRA)"
+      ],
+      "score": 76.0,
+      "found_at": "2026-11-14T17:16:21.052360+00:00"
+    },
+    {
       "name": "AI ebook-to-publish pipeline (GETebook pattern)",
       "field": "AI publishing",
       "summary": "Turn a topic, audience, and tone into an outline, chapters, cover art, and export-ready PDF/EPUB/Word. Rebuild as a free browser editor with paid exports, cover templates, and KDP formatting checks.",
@@ -2787,6 +2665,26 @@
       ],
       "score": 73.0,
       "found_at": "2026-11-13T08:04:58.728605+00:00"
+    },
+    {
+      "name": "Listadum",
+      "field": "E-commerce / seller analytics SaaS",
+      "summary": "Etsy seller analytics and profit-tracking tool covering listing performance, conversion, keyword context, COGS/profit, and category leaderboards; listed at ~$23.5K/mo revenue in a Nov 2026 roundup.",
+      "why_now": "Etsy sellers increasingly need margin-level insight as fees and competition rise, and niche analytics tools command recurring revenue with modest build complexity.",
+      "monetization": "Monthly subscription tiers.",
+      "evidence": [
+        "https://vaqira.com/d/2026-11-14/",
+        "https://www.listadum.com/pricing",
+        "https://www.listadum.com/solutions/shop-performance"
+      ],
+      "how_searched": [
+        "websearch: Etsy seller analytics tool revenue",
+        "daily revenue roundups (VAQIRA)",
+        "direct pricing and feature pages",
+        "marketplace seller forums"
+      ],
+      "score": 73.0,
+      "found_at": "2026-11-14T17:16:22.653129+00:00"
     },
     {
       "name": "Personalized healthy restaurant menu",
@@ -3000,6 +2898,26 @@
       ],
       "score": 70.0,
       "found_at": "2026-11-14T03:22:08.359221+00:00"
+    },
+    {
+      "name": "Directify",
+      "field": "No-code / directory site builder",
+      "summary": "AI no-code builder for niche directory websites with hosting, monetization, and 0% commission; reached ~$50K ARR (~$4.2K MRR) after an $85K acquisition in Feb 2026.",
+      "why_now": "Programmatic directory sites remain a low-cost content play, and the product's climb from $2K to $50K ARR in seven months shows strong product-market fit in a repeatable template.",
+      "monetization": "Tiered SaaS plans ($12–$149/mo) with no transaction commission.",
+      "evidence": [
+        "https://www.soloez.com/weekly/soloez-164",
+        "https://small-start.com/en/cases/global-directify-85k-acquisition/",
+        "https://www.starterstory.com/businesses/directify/revenue"
+      ],
+      "how_searched": [
+        "websearch: directory site builder ARR acquisition",
+        "acquisition case studies (Small Start)",
+        "Starter Story revenue page",
+        "newsletter roundups (Soloez)"
+      ],
+      "score": 70.0,
+      "found_at": "2026-11-14T17:16:24.258107+00:00"
     },
     {
       "name": "General resale-value scanner",
@@ -3363,6 +3281,25 @@
       ],
       "score": 58.0,
       "found_at": "2026-10-31T05:49:35.071930+00:00"
+    },
+    {
+      "name": "GeoSports",
+      "field": "Browser games / daily sports trivia",
+      "summary": "Free daily sports-geography web game with five clues and a spinning globe; reached ~1M unique users in under a month and ~95K weekday players, monetized by ads plus a ~$40/yr Pro tier (~1,000 subscribers).",
+      "why_now": "A Wordle-style daily game reached a million users with effectively zero marketing spend and only a small Pro base, which points to a large, under-monetized audience that a polished web alternative could capture.",
+      "monetization": "Display and sponsored ads plus a Pro subscription (~$5/mo or $40/yr) for stats, leaderboards, and ad-free play.",
+      "evidence": [
+        "https://www.sportico.com/business/tech/2026/geosports-trivia-game-creator-viral-wordle-1234901573/",
+        "https://shippedandpaid.com/cases/geosports-daily-sports-geography-game-40k-month-claude/"
+      ],
+      "how_searched": [
+        "websearch: breakout daily web games 2026",
+        "Google Trends: GeoSports",
+        "news (Sportico)",
+        "case studies (Shipped & Paid)"
+      ],
+      "score": 58.0,
+      "found_at": "2026-11-14T17:16:14.003942+00:00"
     },
     {
       "name": "CheckVibe",
@@ -3733,6 +3670,25 @@
       "found_at": "2026-11-13T22:46:29.011797+00:00"
     },
     {
+      "name": "Vaultaire",
+      "field": "Privacy / consumer security app",
+      "summary": "Privacy-first encrypted photo, video, and file vault for iPhone/iPad featuring on-device encryption, no accounts, and separate pattern-unlocked vaults; gross App Store sales hit ~$41,425 in Aug 2026, up from ~$26,384 in July.",
+      "why_now": "Month-over-month growth plus App Store ASO tailwinds show rising demand for no-account privacy tools, and the app was built in three weeks with AI coding tools, proving fast replication is feasible.",
+      "monetization": "Subscription and in-app purchases for premium vault features.",
+      "evidence": [
+        "https://shippedandpaid.com/cases/vaultaire-private-photo-vault-app-41k-month-codex-claude-code/",
+        "https://vaqira.com/p/vaultaire/"
+      ],
+      "how_searched": [
+        "websearch: privacy photo vault app revenue 2026",
+        "case study (Shipped & Paid)",
+        "revenue aggregators (VAQIRA)",
+        "App Store market references"
+      ],
+      "score": 53.3,
+      "found_at": "2026-11-14T17:16:19.048480+00:00"
+    },
+    {
       "name": "Live AI translation for churches and events",
       "field": "Faith, events and accessibility",
       "summary": "A QR-code web app that lets each attendee hear or read a live sermon or event in their own language, with no headsets or extra hardware. Glossa is Stripe-verified at $14,404 MRR from 100 subscriptions and $31,173 in the last 30 days, with $196,539 all-time.",
@@ -3765,6 +3721,25 @@
       ],
       "score": 52.7,
       "found_at": "2026-11-13T16:28:13.217162+00:00"
+    },
+    {
+      "name": "Virlo",
+      "field": "Creator economy / short-form video analytics",
+      "summary": "Short-form video research platform tracking TikTok, Instagram Reels, and YouTube Shorts trends for creators and agencies; ~$31K MRR as of 2026-09-30, up from ~$1K in Mar 2025 at roughly 35% MoM growth.",
+      "why_now": "Cross-platform short-form intelligence is increasingly valuable as organic reach fragments, and the rapid MRR climb plus agency/API demand signals a durable B2B niche.",
+      "monetization": "Tiered SaaS subscriptions for creators and agencies plus API access.",
+      "evidence": [
+        "https://www.indiehackers.com/post/tech/using-custom-infrastructure-as-a-competitive-advantage-and-hitting-31k-mrr-KgfHz813vyyWeszqJMIi",
+        "https://buildersofx.com/app/virlo"
+      ],
+      "how_searched": [
+        "websearch: short-form video analytics SaaS MRR",
+        "Indie Hackers revenue posts",
+        "startup directories (Builders of X)",
+        "company blog"
+      ],
+      "score": 52.7,
+      "found_at": "2026-11-14T17:16:19.729991+00:00"
     },
     {
       "name": "AI multi-model creative studio",
@@ -3817,6 +3792,25 @@
       ],
       "score": 52.0,
       "found_at": "2026-11-13T00:26:07.892003+00:00"
+    },
+    {
+      "name": "Kolbo.AI",
+      "field": "Generative AI / creative workspace",
+      "summary": "All-in-one AI creative workspace bundling 100+ image, video, and music models; ~$79,244 revenue in the prior 30 days, ~$34,168 MRR from 611 subscribers, and ~$335,901 all-time, Stripe-verified on 2026-10-23.",
+      "why_now": "Multi-model aggregation is winning as users tire of juggling single-model tools, and a non-coder built this to strong revenue with AI coding tools, showing low barriers to a competing web tool.",
+      "monetization": "Tiered subscription credits for AI generation across models.",
+      "evidence": [
+        "https://trustmrr.com/startup/kolbo-ai",
+        "https://shippedandpaid.com/cases/kolbo-ai-creative-ai-workspace-79k-month-lovable-cursor-claude-code/"
+      ],
+      "how_searched": [
+        "websearch: AI creative workspace 100 models revenue",
+        "TrustMRR verified revenue",
+        "case study (Shipped & Paid)",
+        "Product Hunt / launch references"
+      ],
+      "score": 52.0,
+      "found_at": "2026-11-14T17:16:20.274246+00:00"
     },
     {
       "name": "SocialClaw",
@@ -4331,6 +4325,25 @@
       "found_at": "2026-11-14T10:41:17.828838+00:00"
     },
     {
+      "name": "Points Path",
+      "field": "Travel / browser extension",
+      "summary": "Chrome extension that overlays frequent-flyer points prices onto Google Flights search results; 100,000 users, 4.1 stars from 85 ratings, a Featured badge, and a $1M seed round.",
+      "why_now": "Points-and-miles optimization is growing as cash fares rise, and a 100K-user extension proves distribution, while monetization via Pro and affiliate remains shallow.",
+      "monetization": "Freemium Pro subscription plus affiliate and booking commissions.",
+      "evidence": [
+        "https://chromewebstore.google.com/detail/points-path-for-google-fl/kblbdlhoeakihpcaimpdjnfkjffnhhej",
+        "https://pointspath.com/blog/points-path-announces-1m-seed-round-close"
+      ],
+      "how_searched": [
+        "websearch: Google Flights points extension users",
+        "Chrome Web Store listing",
+        "company blog",
+        "travel/points community references"
+      ],
+      "score": 46.7,
+      "found_at": "2026-11-14T17:16:23.261934+00:00"
+    },
+    {
       "name": "StoreRank",
       "field": "App Store optimization / ASO",
       "summary": "A web ASO workbench that audits listings by country, finds keywords, rewrites metadata in many languages, generates screenshots, tracks ranks and exports or uploads changes.",
@@ -4541,6 +4554,25 @@
       ],
       "score": 41.3,
       "found_at": "2026-11-11T15:27:33.142571+00:00"
+    },
+    {
+      "name": "AI-free search",
+      "field": "Search / browser extension",
+      "summary": "Open-source Chrome extension that hides Google AI Overviews; around 800,000 users, 1.2K ratings, and active updates as of Nov 2026.",
+      "why_now": "Backlash to AI-in-search intensified in Nov 2026 when Microsoft shipped an AI toggle and DuckDuckGo installs rose about 18%, and the extension's large user base shows demand for cleaner, AI-free search experiences.",
+      "monetization": "Free and open source; monetization unverified (possible donations or ads).",
+      "evidence": [
+        "https://chromewebstore.google.com/detail/hide-google-ai-overviews/neibhohkbmfjninidnaoacabkjonbahn",
+        "https://ailistscout.com/ai-tools/best-ai-blockers-hide-google-ai-overviews-2026/"
+      ],
+      "how_searched": [
+        "websearch: hide Google AI Overviews extension users",
+        "Chrome Web Store listing",
+        "AI tool directories (AI List Scout)",
+        "tech news references"
+      ],
+      "score": 41.3,
+      "found_at": "2026-11-14T17:16:24.685518+00:00"
     },
     {
       "name": "RetentionCheck (AI churn-feedback analyzer for SaaS)",
