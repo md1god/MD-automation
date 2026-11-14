@@ -139,25 +139,6 @@
       "found_at": "2026-10-27T10:37:23.236780+00:00"
     },
     {
-      "name": "Free website tech-stack detector (BuiltWith/Wappalyzer model)",
-      "field": "Sales intelligence / technographic data",
-      "summary": "A free web tool that reveals the full technology stack behind any website (CMS, analytics, frameworks, payments, hosting) and turns tech signals into prospect lists, with single lookups free forever and paid bulk/API tiers.",
-      "why_now": "Technographic profiling is a proven $8-31M/yr business with 2-4 employees; BuiltWith reports $31M revenue in 2026 and Wappalyzer $8.3-18M, while millions of sales/marketing users rely on these lookups daily.",
-      "monetization": "Freemium SaaS: free single-site lookups drive traffic/SEO; paid tiers $250-995/mo for bulk lead lists, CRM enrichment, API access, and historical tracking. BuiltWith: $31M/yr with 4 employees; Wappalyzer: $8.3-18M/yr.",
-      "evidence": [
-        "https://www.directorygems.com/case-study/builtwith-com",
-        "https://adamgtm.com/brand/builtwith/",
-        "https://linkedin.com/company/wappalyzer"
-      ],
-      "how_searched": [
-        "Company profile and revenue databases (LinkedIn, RocketReach, CB Insights)",
-        "BuiltWith/Wappalyzer pricing and traffic comparison articles",
-        "Chrome Web Store top charts (Wappalyzer extension)"
-      ],
-      "score": 95.0,
-      "found_at": "2026-10-24T06:11:16.841545+00:00"
-    },
-    {
       "name": "AI Search Visibility (GEO/AEO) Monitoring",
       "field": "Marketing/SEO Tools",
       "summary": "Tools that track brand mentions and citations in AI answers (ChatGPT, Google AI Overviews/AI Mode, Perplexity). Market exploding with enterprise demand.",
@@ -406,25 +387,6 @@
       ],
       "score": 93.5,
       "found_at": "2026-10-24T14:38:54.751268+00:00"
-    },
-    {
-      "name": "Free browser voice cloning & TTS studio (VoiceStudio model)",
-      "field": "Voice AI / audio generation",
-      "summary": "A browser-based studio for voice cloning, voice design, video dubbing, transcription, dictation, and audiobook creation in 600+ languages, running locally with no account or API key.",
-      "why_now": "VoiceStudio hit 83K GitHub stars in ~6 months (+12.5K/week) and ~596K downloads, positioning itself as the open-source ElevenLabs alternative; ElevenLabs charges from $6/mo with only 74 languages on paid plans.",
-      "monetization": "Free local OSS core (AGPL) drives adoption; monetization via optional Pro license ($99/yr or $299) and a hosted cloud tier. ElevenLabs' paid pricing (credits from $6/mo) shows willingness to pay for voice generation.",
-      "evidence": [
-        "https://github.com/debpalash/VoiceStudio",
-        "https://voicestudio.sh/",
-        "https://findarepo.com/repo/debpalash/VoiceStudio/"
-      ],
-      "how_searched": [
-        "GitHub trending and repo stats sites (GitTrend, GitDiscover, findarepo)",
-        "Project homepage and pricing comparison vs ElevenLabs",
-        "Monthly GitHub trending lists"
-      ],
-      "score": 93.0,
-      "found_at": "2026-10-24T06:11:18.199555+00:00"
     },
     {
       "name": "zCAD AI",
@@ -717,25 +679,6 @@
       "found_at": "2026-10-27T10:37:25.459241+00:00"
     },
     {
-      "name": "Free browser photo editor (PhotoCraft/Photoshop model)",
-      "field": "Image editing / creative tools",
-      "summary": "A clean-room, open-source Photoshop reimplementation in Rust with layers, masks, adjustment layers, vectors, brushes, and real PSD support that runs natively on desktop and in the browser via WebAssembly.",
-      "why_now": "PhotoCraft gained 72K GitHub stars in under 4 weeks (peaking #1 on GitHub trending on Oct 7, 2026) and 12.7K forks, becoming the fastest-rising photo editor on GitHub.",
-      "monetization": "Free OSS core (Apache-2.0) with optional paid Pro/Cloud tiers; Adobe Photoshop subscriptions ($20-55/mo) and Canva/Photopea ad models prove large paid demand for browser photo editing.",
-      "evidence": [
-        "https://github.com/storytold/photocraft",
-        "https://photocraft.one/",
-        "https://trendshift.io/repositories/278138"
-      ],
-      "how_searched": [
-        "GitHub trending snapshots (GitStock, Trendshift, GitTrend)",
-        "Project homepage and parity roadmap",
-        "GitHub repo stats and star-history trackers"
-      ],
-      "score": 91.0,
-      "found_at": "2026-10-24T06:11:19.003980+00:00"
-    },
-    {
       "name": "LinkedIn AI Writing & Growth Tools",
       "field": "B2B/Social SaaS",
       "summary": "AI tools for LinkedIn post creation, engagement, and growth - selling to founders/creators/ghostwriters who need B2B visibility.",
@@ -973,25 +916,6 @@
       "found_at": "2026-11-13T08:04:52.480209+00:00"
     },
     {
-      "name": "Free HTML-to-video renderer (HyperFrames model)",
-      "field": "Video generation / motion graphics",
-      "summary": "An open-source framework that turns HTML, CSS, and animations into deterministic MP4 videos, built for AI coding agents and developers to generate marketing/explainer/social videos programmatically.",
-      "why_now": "HyperFrames (by HeyGen) hit 70.8K GitHub stars and 150 days on GitHub trending, with +5.3K stars in the last week; HeyGen is a leading paid AI video platform.",
-      "monetization": "Free OSS core (Apache-2.0) with optional hosted/rendering services; HeyGen subscriptions ($24-120/mo) and Synthesia show strong paid demand for programmatic video.",
-      "evidence": [
-        "https://github.com/heygen-com/hyperframes/",
-        "https://himiao.ai/en/news/2026-10-10-heygen-hyperframes",
-        "https://blog.sopenu.com/en/posts/2026-09-08-github-trending/"
-      ],
-      "how_searched": [
-        "GitHub trending snapshots and repo stats (GitTrend, Trendshift, Upstar)",
-        "News coverage of HeyGen open-sourcing HyperFrames",
-        "GitHub weekly trending lists"
-      ],
-      "score": 88.0,
-      "found_at": "2026-10-24T06:11:25.366013+00:00"
-    },
-    {
       "name": "GEO / AI Search Visibility Checker (Free Web Tool)",
       "summary": "A free tool that queries multiple LLMs (ChatGPT, Claude, Gemini, Perplexity) for a brand's target prompts and returns citation frequency, sentiment, and competitor gaps. Helps marketers optimize for AI search instead of traditional SEO.",
       "field": "Marketing Tech / SEO / Generative Engine Optimization",
@@ -1146,23 +1070,23 @@
       "found_at": "2026-10-30T14:20:25.205423+00:00"
     },
     {
-      "name": "Free AI tutor on infinite whiteboard (Gauth model)",
-      "field": "EdTech / AI tutoring",
-      "summary": "An AI study companion that photographs homework and explains problems step-by-step on a continuous infinite whiteboard with voice tutoring, covering math, physics, chemistry, biology, and more.",
-      "why_now": "Gauth (ByteDance) earns an estimated $1M/mo with 1M downloads/mo and 6.5M MAU on Android; its new Unlimited Digital Canvas whiteboard launched Oct 1, 2026 to strong press coverage.",
-      "monetization": "Free app with in-app subscription (Gauth PLUS $11.99/mo or $49.99-99.99/yr); 300M+ registered users and $1M/mo revenue prove willingness to pay for AI homework help.",
+      "name": "Privacy-first PDF bank statement converter",
+      "field": "Fintech / document automation",
+      "summary": "Browser-local tool that turns PDF bank statements into clean Excel/CSV with separate date, description, deposit, withdrawal and balance columns. Starter Story's 2025 profile of Bank Statement Converter reports $40K/mo MRR from about 1,000 paying users out of 75,000 total users and about 40K monthly traffic; TrustMRR shows newer paid entrants including SimpleBankExcel ($15,076 all-time since Jan 2026) and Bankstatemently ($375 MRR, 14 subscriptions).",
+      "why_now": "New paid micro-SaaS entrants kept appearing through 2026 despite incumbents, and the privacy angle (files never leave the device) is a clear wedge against upload-based converters; TrustMRR's SimpleBankExcel profile was updated Nov 14, 2026.",
+      "monetization": "Freemium with per-file credits plus $9-$49/mo subscriptions and accounting-firm team plans.",
       "evidence": [
-        "https://www.airbridge.io/en/app-revenue/gauth",
-        "https://www.prnewswire.com/news-releases/gauth-launches-unlimited-digital-canvas-gives-students-one-continuous-whiteboard-to-visualize-explore-and-understand-complex-topics-302891205.html",
-        "https://www.alphamoat.ai/en/app/gauth-9581466"
+        "https://www.starterstory.com/angus",
+        "https://trustmrr.com/startup/simplebankexcel",
+        "https://trustmrr.com/startup/bankstatemently"
       ],
       "how_searched": [
-        "App revenue and download analytics (Airbridge, AlphaMoat, AppGoblin)",
-        "Press releases and Chinese tech media coverage",
-        "Chrome Web Store and app store rankings"
+        "Starter Story idea database and founder case studies",
+        "TrustMRR fintech and productivity startup browse",
+        "Web search: bank statement converter PDF to Excel users revenue 2026"
       ],
-      "score": 87.0,
-      "found_at": "2026-10-24T06:11:26.335994+00:00"
+      "score": 88.0,
+      "found_at": "2026-11-14T10:41:15.522885+00:00"
     },
     {
       "name": "RemediatePDF",
@@ -1203,25 +1127,6 @@
       ],
       "score": 87.0,
       "found_at": "2026-11-11T22:04:51.839189+00:00"
-    },
-    {
-      "name": "Free price history & coupon tracker (Buyhatke/Honey model)",
-      "field": "Consumer savings / e-commerce",
-      "summary": "A free web tool and browser extension that tracks price history across stores, auto-applies coupons, compares prices, sets price-drop alerts, and analyzes spending across 100+ stores.",
-      "why_now": "Buyhatke reports 8M+ active users, $4.7M revenue, and a 1M-user Chrome extension (4.94 stars, +325 ratings/week); Honey (PayPal) and Capital One Shopping prove massive affiliate/ads revenue in this niche.",
-      "monetization": "Free consumer tool monetized via affiliate commissions, sponsored placements, and ad sales; Buyhatke reports $4.7M revenue and 100 employees, growing 56% YoY.",
-      "evidence": [
-        "https://buyhatke.com/",
-        "https://linkedin.com/company/buyhatke",
-        "https://chrome-stats.com/d/ojplmecpdpgccookcobabopnaifgidhf"
-      ],
-      "how_searched": [
-        "Chrome Web Store trending and stats sites (chrome-stats, extops)",
-        "Company profile and revenue databases (LinkedIn, Owler, CB Insights)",
-        "Product homepage and feature pages"
-      ],
-      "score": 86.0,
-      "found_at": "2026-10-24T06:11:26.662160+00:00"
     },
     {
       "name": "Missing Item / Delivery Fraud Checker (web)",
@@ -1374,25 +1279,6 @@
       ],
       "score": 86.0,
       "found_at": "2026-11-12T19:04:51.838138+00:00"
-    },
-    {
-      "name": "Free gradient & AI visual resource site (Grainient model)",
-      "field": "Design resources / digital assets",
-      "summary": "A free/low-cost web library of high-quality gradients, textures, animated backgrounds, and AI-generated visuals with a real-time shader tool, licensed for commercial use.",
-      "why_now": "Grainient reached 90.8K monthly visits (+19% MoM) and ~$6K/mo revenue with a $299 lifetime / $59-759 pricing, proving a small niche design-resource site can be profitable.",
-      "monetization": "Lifetime access ($69-299 one-time) and yearly Pro ($59/yr) with commercial license; ~$6K MRR at 50-90K visits/mo shows strong unit economics for a tiny team.",
-      "evidence": [
-        "https://www.indiehackers.com/post/grainient-just-hit-50k-monthly-visitors-and-6k-in-monthly-revenue-hdVp6pwF78GMAEFPkrYW",
-        "https://www.starterstory.com/businesses/grainient",
-        "https://www.turbo0.com/item/grainient"
-      ],
-      "how_searched": [
-        "Indie hacker revenue milestone posts (Indie Hackers)",
-        "Starter Story business profiles and traffic estimators (Similarweb/Turbo0)",
-        "Tool directories (Toolify, BestFor.ai)"
-      ],
-      "score": 85.0,
-      "found_at": "2026-10-24T06:11:27.697566+00:00"
     },
     {
       "name": "Local LLM Playground & Model Router (Free Web Tool)",
@@ -1632,25 +1518,6 @@
       "found_at": "2026-11-13T08:04:53.271646+00:00"
     },
     {
-      "name": "Free AI homework tutor web tool (SolvelyAI model)",
-      "field": "EdTech / AI study tools",
-      "summary": "A free web tool that solves homework across subjects via photo scan, providing step-by-step explanations, an AI tutor, flashcards, and notes for students from middle school to college.",
-      "why_now": "Solvely reports 10M+ students, $300K/mo iOS revenue, and 157K MAU on Android (+156K installs/month); AI homework help is a proven high-demand, high-revenue category.",
-      "monetization": "Free with in-app purchases/subscriptions ($6.99-12.99/mo, $46.99/yr); Solvely earns ~$300K/mo on iOS alone, proving strong paid conversion among students.",
-      "evidence": [
-        "https://apprank.io/solvely-ai-study-tools-0976",
-        "https://appgoblin.info/apps/6446930976",
-        "https://morningtick.com/post/solvely-ai-wants-ai-homework-agents-teach-students/"
-      ],
-      "how_searched": [
-        "App store analytics and revenue estimators (AppRank, AppGoblin, Sensor Tower)",
-        "EdTech industry reports (36Kr) and news coverage",
-        "Chrome Web Store and app store listings"
-      ],
-      "score": 84.0,
-      "found_at": "2026-10-24T06:11:29.332511+00:00"
-    },
-    {
       "name": "Small Web Tool Idea Generator (curated)",
       "field": "Developer Tools",
       "summary": "Free site aggregating unbuilt, small-scope web tool ideas sourced from 'what's missing' Reddit posts with difficulty estimates and existing alternatives.",
@@ -1823,25 +1690,6 @@
       "found_at": "2026-10-31T05:49:36.587823+00:00"
     },
     {
-      "name": "Free AI code security audit web tool (Cloudflare skill model)",
-      "field": "Developer security / code auditing",
-      "summary": "A free web tool that runs a multi-phase AI security audit on a codebase with adversarial verification (separate finder/verifier agents), producing confirmed, needs-validation, and rejected findings with a report.",
-      "why_now": "Cloudflare's security-audit-skill reached 37K-42K GitHub stars and #2 trending globally; the security audits market is $8.94B in 2026 growing 10.3% CAGR, with pentests costing $2.5-50K.",
-      "monetization": "Free OSS core (MIT) drives adoption; monetization via hosted/managed audit SaaS, compliance reports, and enterprise attestation. Security audit/pen-test services command $2.5-50K per engagement.",
-      "evidence": [
-        "https://github.com/cloudflare/security-audit-skill",
-        "https://provenlabs.ai/journal/cloudflare-security-audit-skill",
-        "https://dev.to/max_quimby/who-audits-the-agent-security-review-is-a-category-g4e"
-      ],
-      "how_searched": [
-        "GitHub trending and repo stats (GitTrend, GitDiscover)",
-        "Security market size reports (Mordor Intelligence)",
-        "Developer community analysis (DEV Community, ProvenLabs)"
-      ],
-      "score": 83.0,
-      "found_at": "2026-10-24T06:11:30.203971+00:00"
-    },
-    {
       "name": "Vertical Micro-SaaS for Overlooked Niches (Laundromats/Chiropractors/Vets)",
       "field": "Vertical SaaS",
       "summary": "Free web tools targeting one specific niche: e.g., 'Laundromat Machine Monitor' (QR code on machines → SMS alerts when cycle done), 'Chiro Patient Flow' (auto-recall, insurance verify), 'Vet Vaccine Tracker' (pet owner reminders + clinic dashboard).",
@@ -1975,25 +1823,6 @@
       ],
       "score": 83.0,
       "found_at": "2026-11-13T08:04:54.194708+00:00"
-    },
-    {
-      "name": "Free open-source SEO audit & keyword tool (OpenSEO model)",
-      "field": "SEO / marketing",
-      "summary": "A free/cheap open-source SEO platform (MIT) offering keyword research, rank tracking, backlinks, site audits, and AI-search visibility, self-hostable or $10/mo hosted, as an alternative to Semrush/Ahrefs.",
-      "why_now": "OpenSEO joined YC Fall 2026 with $500K, reached ~20.9K-24K GitHub stars, and has 3,000+ hosted users; Semrush costs $139/mo and Ahrefs $129/mo, creating strong demand for a cheaper option.",
-      "monetization": "Free self-hosted core (MIT) plus hosted plan at $10/mo with $10 usage and a 28% markup on DataForSEO calls; YC backing and 3,000+ hosted users validate paid demand.",
-      "evidence": [
-        "https://www.openseo.so/",
-        "https://www.ababnews.com/en/news/1a6798e0-ec32-4a84-9de7-dd45bf4f6cc6",
-        "https://www.ycombinator.com/companies/openseo"
-      ],
-      "how_searched": [
-        "Product Hunt monthly leaderboards (OpenSEO #9 in October 2026)",
-        "Y Combinator company directory and funding news",
-        "SEO tool comparison reviews and pricing pages"
-      ],
-      "score": 82.0,
-      "found_at": "2026-10-24T06:11:31.425347+00:00"
     },
     {
       "name": "AI Short-Form Video Generator / Repurposer (Free Web Tool)",
@@ -2224,25 +2053,6 @@
       ],
       "score": 81.0,
       "found_at": "2026-10-28T21:14:43.074261+00:00"
-    },
-    {
-      "name": "Free local-first search engine for code/docs/PDFs (XERJ model)",
-      "field": "Developer tools / AI agent infrastructure",
-      "summary": "A free single-binary local search engine (Apache-2.0, Rust) that indexes code, docs, logs, and PDFs for BM25/vector/hybrid search with an Elasticsearch-compatible API and MCP server for AI coding agents.",
-      "why_now": "XERJ gained 13K GitHub stars in ~3.5 months (+7.1K in 7 days) and is on GitHub trending; it cuts coding-agent token usage 2.7x vs grep, a clear cost-saving driver.",
-      "monetization": "Free OSS core (Apache-2.0) with optional paid support/enterprise tiers; Elasticsearch and Sourcegraph subscriptions prove paid demand for code search infrastructure.",
-      "evidence": [
-        "https://github.com/xerj-org/xerj",
-        "https://xerj.org/product",
-        "https://findarepo.com/repo/xerj-org/xerj/"
-      ],
-      "how_searched": [
-        "GitHub trending snapshots (GitStock, Trendshift, findarepo)",
-        "Project documentation and benchmark pages",
-        "Developer case studies and flight logs"
-      ],
-      "score": 80.0,
-      "found_at": "2026-10-24T06:11:32.295633+00:00"
     },
     {
       "name": "AI Cold Email Personalization Engine",
@@ -3817,6 +3627,24 @@
       "found_at": "2026-11-12T03:08:11.884957+00:00"
     },
     {
+      "name": "AI ebook and low-content book generator",
+      "field": "Creator tools / publishing",
+      "summary": "Turns a topic, audience and tone into a structured outline, full chapters, cover art and store-ready PDF/EPUB/DOCX. TrustMRR shows GETebook.ai at $11,717 MRR, 245 active subscriptions and $168,402 all-time revenue, with about 12,000 users and plans from $29/mo; the product site confirms KDP, Etsy and Apple Books export plus a print-ready coloring-book studio.",
+      "why_now": "Solo bootstrapped AI publishing tools are converting creator demand into five-figure MRR; GETebook's TrustMRR data was last updated Nov 14, 2026, and the site now markets both ebooks and low-content coloring books.",
+      "monetization": "Monthly subscription from $29/mo with credit tiers up to $99/mo and a commercial-use licence.",
+      "evidence": [
+        "https://trustmrr.com/startup/getebook-ai",
+        "https://getebook.ai/"
+      ],
+      "how_searched": [
+        "TrustMRR AI and content-creation startup browse",
+        "Web search: fastest growing AI tools November 2026",
+        "Direct review of product pricing and export features"
+      ],
+      "score": 54.0,
+      "found_at": "2026-11-14T10:41:15.863735+00:00"
+    },
+    {
       "name": "1Lookup",
       "field": "Data verification & enrichment API",
       "summary": "Single API for real-time phone, email and IP validation plus 74 enrichment/intelligence products, with a hosted MCP server for AI agents.",
@@ -4009,6 +3837,24 @@
       "found_at": "2026-11-13T00:26:08.598473+00:00"
     },
     {
+      "name": "AI screenwriting and story-bible studio",
+      "field": "Creator tools / film and TV",
+      "summary": "Screenplay editor with industry formatting, structure visualization, character/location/prop entities derived from the script, an AI script doctor and automatic storyboards. TrustMRR shows Laper at $52,549 MRR, 1,633 active subscriptions and $220,036 all-time revenue, run by a 2-5 person bootstrapped team; the site confirms collaboration, story bible, AI visuals and storyboard workflows.",
+      "why_now": "Laper's TrustMRR revenue was updated Nov 14, 2026, and its positioning targets writers who dislike generic AI script generators: assist with structure and diagnosis while keeping the writer's voice.",
+      "monetization": "Subscription SaaS for writers, directors and production teams, with team seats and higher usage tiers.",
+      "evidence": [
+        "https://trustmrr.com/startup/laper",
+        "https://laper.ai/"
+      ],
+      "how_searched": [
+        "TrustMRR AI and entertainment startup browse",
+        "Web search: AI screenwriting software revenue 2026",
+        "Direct review of product features and pricing page"
+      ],
+      "score": 51.3,
+      "found_at": "2026-11-14T10:41:16.095953+00:00"
+    },
+    {
       "name": "Live AI translation for events (Glossa model)",
       "field": "Events / live translation",
       "summary": "Browser-based live speech translation for churches and events, delivered to attendees' phones via QR code.",
@@ -4059,6 +3905,24 @@
       ],
       "score": 50.7,
       "found_at": "2026-11-13T16:28:13.729006+00:00"
+    },
+    {
+      "name": "AI product-photography studio for e-commerce catalogs",
+      "field": "E-commerce / visual AI",
+      "summary": "Upload product photos and generate studio-quality scenes, ghost-mannequin shots, lifestyle backgrounds, model images and video ads. Systemaic's 2026 teardown estimates Photoroom at about $94M ARR, roughly 19.5M monthly visits and 300M registered users, with one free background-remover page drawing about 2.37M organic visits per month; Photoroom's site claims 1M+ businesses and 80M+ background-remover users.",
+      "why_now": "Free-tool SEO plus API distribution is still expanding in 2026; Systemaic's July 2026 teardown shows the model can be replicated by a focused single-purpose tool rather than only a full design suite.",
+      "monetization": "Freemium web tool, monthly subscriptions, per-image API credits and e-commerce platform integrations.",
+      "evidence": [
+        "https://www.systemaic.com/teardowns/photoroom",
+        "https://www.photoroom.com/"
+      ],
+      "how_searched": [
+        "Web search: AI product photography market 2026",
+        "Systemaic teardown pages",
+        "Direct review of Photoroom product and customer claims"
+      ],
+      "score": 50.7,
+      "found_at": "2026-11-14T10:41:16.215144+00:00"
     },
     {
       "name": "LiveReview (risk-aware AI code review, auto-approve safe PRs)",
@@ -4112,6 +3976,24 @@
       ],
       "score": 50.0,
       "found_at": "2026-11-13T16:28:14.581729+00:00"
+    },
+    {
+      "name": "Open-source agentic social media scheduler",
+      "field": "Marketing / social automation",
+      "summary": "Schedules and generates posts across 30+ social platforms with AI agents. TrustMRR shows Postiz at $417,774 MRR, 12,304 active subscriptions and $1,892,652 all-time revenue, plans from $29/mo, open source; wouldit.work's Nov 2, 2026 case study cites $351,828 MRR and 10,316 subscriptions on that date plus 40,000+ GitHub stars.",
+      "why_now": "Open-source distribution plus a hosted cloud is compounding: wouldit.work documents the pivot from Gitroom to Postiz and the rise to $1.3M ARR by June 2026, with revenue still growing into November 2026.",
+      "monetization": "AGPL self-hosted core plus paid cloud from $29/mo, with higher team and API tiers.",
+      "evidence": [
+        "https://trustmrr.com/startup/postiz",
+        "https://wouldit.work/case-studies/postiz"
+      ],
+      "how_searched": [
+        "TrustMRR social-media and AI startup browse",
+        "Web search: open source social media scheduler revenue 2026",
+        "Case-study and GitHub repository review"
+      ],
+      "score": 50.0,
+      "found_at": "2026-11-14T10:41:16.511242+00:00"
     },
     {
       "name": "MimikFlow (AI LinkedIn prospecting agent)",
@@ -4234,6 +4116,24 @@
       ],
       "score": 48.7,
       "found_at": "2026-11-13T16:28:15.093053+00:00"
+    },
+    {
+      "name": "LLM and agent observability trace viewer",
+      "field": "Developer tools / AI observability",
+      "summary": "OpenTelemetry-based tracing, prompt management, evaluations and cost/latency dashboards for LLM apps and agents. TBRC estimates the LLM observability platform market at $1.97B in 2025, $2.69B in 2026 (36.3% growth) and $9.26B by 2030 (36.2% CAGR); Langfuse's open-source repository has 37.4k stars and is now part of ClickHouse.",
+      "why_now": "Agentic workflows are moving into production, and TBRC's September 2026 report explicitly cites agentic workflows, AI governance and token-cost optimization as forecast drivers; open-source Langfuse provides a free distribution wedge.",
+      "monetization": "Open-source self-hosted core plus cloud usage tiers, enterprise SSO/compliance and support.",
+      "evidence": [
+        "https://www.thebusinessresearchcompany.com/report/large-language-model-llm-observability-platform-global-market-report",
+        "https://github.com/langfuse/langfuse"
+      ],
+      "how_searched": [
+        "Web search: LLM observability market size 2026",
+        "GitHub repository and star-count review",
+        "Market report page review"
+      ],
+      "score": 48.7,
+      "found_at": "2026-11-14T10:41:17.465947+00:00"
     },
     {
       "name": "Pastel",
@@ -4413,6 +4313,24 @@
       "found_at": "2026-11-13T22:46:30.997602+00:00"
     },
     {
+      "name": "Short-drama micro-series production toolkit",
+      "field": "Media / short drama",
+      "summary": "Vertical short-drama studio for scripting, shot planning, subtitles, voice/dubbing and episode packaging. Shortee Research (vendor-published) reports 850M+ short-drama downloads in Q1 2026 (+140% YoY), about $750M in-app revenue (+20%), 25 minutes/day average (+85% vs Jan 2025) and Omdia's $14B 2026 global microdrama estimate; AppGazers' Nov 14, 2026 chart shows DramaBox, ReelShort, DramaWave and NetShort with modeled 30-day worldwide revenue bands of $5.3M-$60.2M each.",
+      "why_now": "Download growth is far outpacing in-app revenue, pushing the category toward ad-supported and high-volume production; YouTube and Chinese platforms moved into microdrama in late 2026, increasing demand for low-cost production tooling.",
+      "monetization": "Subscription or credit SaaS for studios, per-episode rendering, dubbing/voice add-ons and white-label licensing.",
+      "evidence": [
+        "https://research.myshortee.com/2026/11/microdrama-by-the-numbers-november-2026/",
+        "https://appgazers.com/reports/top-charts/ios/us/grossing"
+      ],
+      "how_searched": [
+        "Web search: short drama market 2026 downloads revenue",
+        "App Store top-grossing chart via AppGazers",
+        "Vendor research report review"
+      ],
+      "score": 46.7,
+      "found_at": "2026-11-14T10:41:17.828838+00:00"
+    },
+    {
       "name": "StoreRank",
       "field": "App Store optimization / ASO",
       "summary": "A web ASO workbench that audits listings by country, finds keywords, rewrites metadata in many languages, generates screenshots, tracks ranks and exports or uploads changes.",
@@ -4429,6 +4347,24 @@
       ],
       "score": 46.0,
       "found_at": "2026-11-13T16:28:16.033300+00:00"
+    },
+    {
+      "name": "Cross-harness memory manager for coding agents",
+      "field": "Developer tools / AI agent memory",
+      "summary": "Captures session history across Claude Code, Cursor, Codex, OpenCode and 20+ harnesses, then distills reusable workflows, corrections and debugging patterns into skills and MCP-accessible memory. Beacon's open-source repository has 3.5k stars and 305 forks under MIT; its site surfaces a $5.5M seed-round announcement, a Product Hunt top-post badge, local-first storage and a free start.",
+      "why_now": "Agent memory is an active November 2026 launch category: Beacon is running a Product Hunt launch, the repository has grown to 3.5k stars, and the product is positioned as cross-harness memory rather than another IDE or local model runner.",
+      "monetization": "Open-source local core plus paid cloud sync/team memory and enterprise forwarding to SIEM and data lakes.",
+      "evidence": [
+        "https://github.com/asymptote-labs/agent-beacon",
+        "https://beacon.sh/"
+      ],
+      "how_searched": [
+        "Product Hunt monthly leaderboard search",
+        "GitHub repository and star-count review",
+        "Web search: AI coding agent memory layer November 2026"
+      ],
+      "score": 46.0,
+      "found_at": "2026-11-14T10:41:18.417059+00:00"
     },
     {
       "name": "Exa Monitors v2 (scheduled web search for AI agents)",
