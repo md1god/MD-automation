@@ -973,26 +973,6 @@
       "found_at": "2026-11-13T08:04:52.480209+00:00"
     },
     {
-      "name": "Competitor Pricing Intelligence Dashboard (Free Web Tool)",
-      "field": "B2B SaaS / Competitive Intelligence",
-      "summary": "A free web tool that monitors competitor pricing pages 24/7, detects changes via DOM diffing, uses an LLM to summarize what changed (price increases, tier restructuring, feature gating), and emails weekly plain-English briefs with revenue-impact estimates. Target: SaaS founders $500K–$10M ARR.",
-      "why_now": "PriceLens launched on Product Hunt Oct 8 2026 (AI pricing intelligence); RivalSignal charges $199/mo for 14+ data sources; Kompense published 5+ detailed guides Sep–Oct 2026 on \"modern competitor price engines\"; PageCrawl offers SaaS pricing monitoring with AI summaries. Multiple independent sources confirm B2B SaaS teams lose deals to silent pricing changes and current enterprise tools cost $10K+/yr.",
-      "monetization": "Freemium: free tier monitors 3 competitors, weekly email; Pro $29/mo (10 competitors, daily checks, Slack/webhook alerts); Business $79/mo (50 competitors, real-time, CRM integration). RivalSignal at $199/mo proves willingness to pay; PageCrawl Standard $80/yr for 100 monitors.",
-      "evidence": [
-        "https://www.nicheloom.com/launches/45807/",
-        "https://blog.kompense.com/competitive-price-tracking-guide/",
-        "https://pagecrawl.io/blog/saas-pricing-page-monitoring-competitor-changes"
-      ],
-      "how_searched": [
-        "Product Hunt launch tracking (Nicheloom)",
-        "Competitor product analysis (RivalSignal live site)",
-        "Industry guide/content analysis (Kompense blog series)",
-        "Existing tool feature review (PageCrawl)"
-      ],
-      "score": 88.0,
-      "found_at": "2026-10-24T01:02:54.769270+00:00"
-    },
-    {
       "name": "Free HTML-to-video renderer (HyperFrames model)",
       "field": "Video generation / motion graphics",
       "summary": "An open-source framework that turns HTML, CSS, and animations into deterministic MP4 videos, built for AI coding agents and developers to generate marketing/explainer/social videos programmatically.",
@@ -1164,28 +1144,6 @@
       ],
       "score": 88.0,
       "found_at": "2026-10-30T14:20:25.205423+00:00"
-    },
-    {
-      "name": "AI Social Media Viral Post Analyzer (Free Web Tool)",
-      "field": "Creator Economy / Social Media Analytics",
-      "summary": "A free web tool where creators paste an X/Twitter/LinkedIn/Bluesky post URL and get: virality score, hook breakdown, engagement-rate benchmark vs niche, best-time-to-post heatmap, AI rewrite in their voice, and a \"why this worked\" breakdown. Free tier: 10 analyses/day; Pro adds scheduling, cross-posting, 10M+ viral post library.",
-      "why_now": "SuperX: $22,281 MRR Stripe-verified (TrustMRR Oct 17 2026), 523 subscriptions, 9,000 Chrome extension users; built with Claude Code; grew via \"building in public\" on X (launch post 46K views, +$1K MRR in 24h); Postiz (open-source social scheduler) $307K MRR, 8,998 subscriptions (TrustMRR Oct 23 2026); Fastlane $69K MRR turns websites into short-form content. Multiple verified-revenue tools prove creators pay for viral intelligence.",
-      "monetization": "Free: 10 analyses/day, basic breakdown. Pro $29/mo: unlimited, scheduling, cross-post to Bluesky, viral library access, AI content strategist. SuperX charges $39/mo (650 customers per Indie Hackers Jul 2026); Postiz starts at $29/mo. Verified $22K–$307K MRR range.",
-      "evidence": [
-        "https://trustmrr.com/startup/superx",
-        "https://shippedandpaid.beehiiv.com/p/superx-at-22k-mrr-verified-plus-5-more-ai-built-apps",
-        "https://www.indiehackers.com/post/tech/hitting-23k-mrr-in-six-months-after-five-failures-4d64o9ev4AXXhX9ogHQQ",
-        "https://trustmrr.com/startup/postiz",
-        "https://chromewebstore.google.com/detail/superx-twitter-analytics/bjobgelaoehgbnklgcaaehdpckmhkplk"
-      ],
-      "how_searched": [
-        "Verified revenue database (TrustMRR/Stripe)",
-        "Founder interview + revenue breakdown (Indie Hackers, Shipped & Paid)",
-        "Chrome Web Store listing (users, features, ratings)",
-        "Competitor analysis (Postiz, Fastlane)"
-      ],
-      "score": 87.0,
-      "found_at": "2026-10-24T01:03:14.830019+00:00"
     },
     {
       "name": "Free AI tutor on infinite whiteboard (Gauth model)",
@@ -1416,28 +1374,6 @@
       ],
       "score": 86.0,
       "found_at": "2026-11-12T19:04:51.838138+00:00"
-    },
-    {
-      "name": "Hide AI Search Overviews (Free Web Proxy / Search Tool)",
-      "field": "Consumer Web / Search Experience",
-      "summary": "A free web-based search frontend (or browser-extension companion) that fetches Google/Bing results via API, strips AI Overviews / AI Mode / Gemini elements server-side, and returns clean organic links. Also offers a \"lite\" HTML version for slow connections. No tracking, no account.",
-      "why_now": "\"Hide Google AI Overviews\" Chrome extension: 700K users, +100K in 7 days (16.7% growth), 300% growth in 58 days (zPlatform.ai Sep 2026); randomized field experiment (Agarwal & Sen, Jan–Feb 2026, 1,065 users, 68K searches) proved AI Overviews cut organic clicks 39.8% and raise zero-click searches 34.5% with no satisfaction gain; 5+ competing extensions on Chrome Store (Bye Bye Google AI, HideAI, Clean Search); user reviews cite unreliability (70%), no off switch (65%), clutter (50%).",
-      "monetization": "Free core tool (ad-supported or donation). Pro $3/mo for custom block lists (Discussions, Shopping, Videos), multi-engine support (DuckDuckGo, Brave, Kagi), API for developers. Extension market proves demand; 700K+ users with zero paid features (open source, only \"Buy me a Coffee\").",
-      "evidence": [
-        "https://extscope.org/extension/neibhohkbmfjninidnaoacabkjonbahn",
-        "https://simplex.live/en/hide-google-ai-overviews.sdex",
-        "https://seomadman.com/research/ai-overview-ctr-field-experiment",
-        "https://www.searchenginejournal.com/ai-overviews-cut-organic-clicks-38-field-study-finds/573145/",
-        "https://zplatform.ai/best-ai-tools/ai-chrome-extensions/"
-      ],
-      "how_searched": [
-        "Chrome Web Store analytics (ExtScope, zPlatform.ai)",
-        "Academic field experiment (SSRN/SEJ/PPC Land coverage)",
-        "Competitor extension landscape (Chrome Web Store listings)",
-        "User sentiment analysis (Simplex review aggregation)"
-      ],
-      "score": 85.0,
-      "found_at": "2026-10-24T01:03:13.004305+00:00"
     },
     {
       "name": "Free gradient & AI visual resource site (Grainient model)",
@@ -1887,29 +1823,6 @@
       "found_at": "2026-10-31T05:49:36.587823+00:00"
     },
     {
-      "name": "Free AI Browser Agent Playground (Web-Based, No Signup)",
-      "field": "Developer Tools / AI Agent Infrastructure",
-      "summary": "A browser-based playground where developers type a natural-language task (\"find the cheapest flight NYC→LAX next Tuesday\"), watch an AI agent control a real cloud browser live (screenshots + DOM logs), compare multiple models side-by-side (Browser Use, Stagehand, Claude Computer Use, OpenAI CUA), and export the generated code. No account, free daily quota.",
-      "why_now": "Browser Use: 98,462 GitHub stars (Jun 2026), 14% of YC W25 in production, $17M seed; Browserbase: $4.4M revenue, 1,000+ customers, 50M sessions, free tier (60 min/mo); Kane CLI (TestMu AI, ex-LambdaTest $120M ARR) free terminal tool launched Apr 2026; Browserbase Arena (side-by-side comparison) archived but proves concept; HyperPilot (YC launch Mar 2025) free playground for CUA/Claude CU. Developers need no-signup way to test agents before committing to paid infra.",
-      "monetization": "Free playground (rate-limited, 5 tasks/day). Pro $30/mo: higher concurrency, persistent sessions, proxy rotation, CAPTCHA handling, team workspaces, API access. Browserbase Hobby $30/mo + usage; Browser Use Cloud $30/mo; Kernel Start-Up $200/mo. Free tier is acquisition funnel for paid cloud infra.",
-      "evidence": [
-        "https://www.orangecollective.vc/memos/browser-use",
-        "https://docs.browserbase.com/welcome/getting-started",
-        "https://www.sovereignmagazine.com/article/testmu-kane-cli-launch",
-        "https://github.com/browserbase/arena",
-        "https://www.ycombinator.com/launches/N9o-hyperpilot-ai-browser-agent-playground-by-hyperbrowser"
-      ],
-      "how_searched": [
-        "Investment memo with metrics (Orange Collective)",
-        "Official docs + free tier details (Browserbase)",
-        "Founder/product launch coverage (Sovereign Magazine)",
-        "Open source comparison playground (Browserbase Arena GitHub)",
-        "YC launch directory (HyperPilot)"
-      ],
-      "score": 83.0,
-      "found_at": "2026-10-24T01:03:17.253864+00:00"
-    },
-    {
       "name": "Free AI code security audit web tool (Cloudflare skill model)",
       "field": "Developer security / code auditing",
       "summary": "A free web tool that runs a multi-phase AI security audit on a codebase with adversarial verification (separate finder/verifier agents), producing confirmed, needs-validation, and rejected findings with a report.",
@@ -2313,27 +2226,6 @@
       "found_at": "2026-10-28T21:14:43.074261+00:00"
     },
     {
-      "name": "Free AI Content Gap / SEO Analyzer (Web Tool)",
-      "field": "SEO / Content Marketing",
-      "summary": "A free web tool where users enter their domain and a competitor domain; the tool crawls both (or uses Search Console / Ahrefs API if connected), identifies keywords the competitor ranks for that the user doesn't, clusters them into content opportunities with search volume / difficulty / intent, and outputs a prioritized content calendar with AI-generated outlines. Free: 2 analyses/day, 50 keywords each.",
-      "why_now": "Blogr.ai: $1,072 MRR (TrustMRR Oct 2026) for \"AI Action Plans for Search Console Data\"; SiteGPT: 50 free tools drive 90% of 50K monthly Google clicks, 200–300 leads/mo, $13K MRR (Starter Story Jan 2026); PriceLens (PH Oct 8) positions as AI pricing intelligence; Kompense guides emphasize \"AI-driven competitive price engines\" — same stack applies to content gaps. Free SEO tools are proven top-of-funnel for paid SaaS.",
-      "monetization": "Free: 2 analyses/day, 50 keywords, basic clusters. Pro $49/mo: unlimited, Search Console/Ahrefs/Semrush integration, auto-refresh weekly, content brief generator, team seats. Blogr.ai Solo $29/mo; SiteGPT ~$100 ARPU; Ahrefs/Semrush $99–$399/mo. Free tools as lead gen is validated by SiteGPT's 50-tool strategy.",
-      "evidence": [
-        "https://trustmrr.com/startup/blogr-ai",
-        "https://gtmsauce.com/companies/sitegpt",
-        "https://www.nicheloom.com/launches/45807/",
-        "https://blog.kompense.com/competitive-pricing-engine-guide/"
-      ],
-      "how_searched": [
-        "Verified revenue database (TrustMRR)",
-        "Growth tactics case study (GTM Sauce / Starter Story)",
-        "Product Hunt launch tracking (Nicheloom)",
-        "Industry guide analysis (Kompense)"
-      ],
-      "score": 80.0,
-      "found_at": "2026-10-24T01:03:20.240413+00:00"
-    },
-    {
       "name": "Free local-first search engine for code/docs/PDFs (XERJ model)",
       "field": "Developer tools / AI agent infrastructure",
       "summary": "A free single-binary local search engine (Apache-2.0, Rust) that indexes code, docs, logs, and PDFs for BM25/vector/hybrid search with an Elasticsearch-compatible API and MCP server for AI coding agents.",
@@ -2491,6 +2383,28 @@
       "found_at": "2026-11-12T19:04:53.847176+00:00"
     },
     {
+      "name": "Narrated SOP Generator from Screen Recording",
+      "field": "SMB operations / process documentation",
+      "summary": "A free web tool that records your screen and voice, then converts the session into a written SOP with screenshots, captions, and an optional narrated video. It removes the manual writing that makes small teams skip documentation.",
+      "why_now": "Glitter AI, which does exactly this, reports about $18.2K MRR and 11,000+ teams; Scribe already has 2M Chrome users for click-capture guides, and the screen-recording software market is estimated at $2.95B in 2026 growing about 18.5% a year. Narration-aware SOPs are the current differentiator.",
+      "monetization": "Paid SaaS seats, roughly $16-20 per creator per month on entry plans and higher for team tiers; Glitter AI reported about $18.2K MRR. Exact profit is not public.",
+      "evidence": [
+        "https://1dea.io/traction/monthly/2026-11",
+        "https://www.einpresswire.com/article/905721918/glitter-ai-turns-screen-recordings-into-sops-automatically-used-by-11-000-teams",
+        "https://any2.video/resources/ai-sop-generators/",
+        "https://glitter.io/blog/process-documentation/ai-sop-generator-tools",
+        "https://extwatch.com/blog/fastest-growing-chrome-extensions"
+      ],
+      "how_searched": [
+        "revenue and traction aggregator",
+        "PR and news release",
+        "AI-tool comparison site",
+        "Chrome Web Store trend tracker"
+      ],
+      "score": 80.0,
+      "found_at": "2026-11-14T03:21:57.640219+00:00"
+    },
+    {
       "name": "AI Web Scraper / Structured Data Extractor",
       "field": "Data / Developer Tools",
       "summary": "Free web tool: enter any URL or list of URLs, get clean JSON/CSV of extracted data (products, prices, reviews, articles) — handles pagination, login, JS rendering, anti-bot.",
@@ -2571,25 +2485,25 @@
       "found_at": "2026-11-11T22:04:53.980547+00:00"
     },
     {
-      "name": "Free AI Prompt Library & Manager (Web Tool)",
-      "field": "AI Productivity / Developer Tools",
-      "summary": "A free web app to save, organize, version, and share prompts across models (ChatGPT, Claude, Gemini, Grok). Features: folders/tags, dynamic variables ({{date}}, {{topic}}), prompt chaining (multi-step workflows), bulk export/import (JSON/Markdown), public gallery with ratings, one-click copy to clipboard. No account required for local storage; optional cloud sync.",
-      "why_now": "AI Toolbox: 40,000+ active users, 4.7★, $9.99/mo Pro / $99 lifetime (Oct 2026); Superpower ChatGPT: 100K+ users, 4.5★, folders + prompt chains + image gallery; AIPRM: 4,500+ prompt templates, freemium; ChatHub: 200K+ users, 4.7★, side-by-side model comparison. Chrome Web Store shows 132 AI extensions, 67% have paid tiers. Prompt management is a proven paid category with high free-tool adoption.",
-      "monetization": "Free: unlimited local prompts, folders, variables, chains, export. Pro $8/mo: cloud sync across devices, public gallery, team workspaces, analytics (which prompts perform best), priority support. AI Toolbox $9.99/mo / $99 lifetime proves price point; Superpower free with Pro upsell.",
+      "name": "AI Travel Itinerary Planner with Maps and Booking Links",
+      "field": "Travel planning / consumer web",
+      "summary": "A free web tool that turns a destination, dates, budget, and preferences into a day-by-day itinerary with maps, activities, and hotel or tour links. Output can be exported as PDF or shared.",
+      "why_now": "The 22 tracked AI travel planners got 47.2M Google visits in October 2026, up 24% year over year; Wanderboat reached 20.1M visits (+53.6%) and Hark 1.7M (+3,381%). Adobe says AI traffic to travel sites rose 119% year over year in July 2026, though actual AI-attributed bookings are still under 1% at major OTAs.",
+      "monetization": "Affiliate and booking commissions plus optional premium itinerary exports; revenue is not disclosed for the free planners, so verified revenue is null.",
       "evidence": [
-        "https://www.ai-toolbox.co/chatgpt-toolbox-competitors/best-chatgpt-chrome-extensions-2026",
-        "https://chromewebstore.google.com/detail/superpower-chatgpt/",
-        "https://zplatform.ai/best-ai-tools/ai-chrome-extensions/",
-        "https://www.simpliaxis.com/resources/best-ai-chrome-extensions"
+        "https://rankdude.ai/statistics/ai-travel-planner/demand",
+        "https://seektool.ai/ranking/categories/ai_trip_planner",
+        "https://www.forbes.com/sites/joanverdon/2026/08/19/ai-is-becoming-a-travelers-best-friend-driving-engagement-and-bookings/",
+        "https://www.phocuswire.com/news/technology/big-prospects-few-bookings-travel-execs-weigh-in-on-personal-ai-assistants"
       ],
       "how_searched": [
-        "Competitor comparison article (AI Toolbox, Oct 2026)",
-        "Chrome Web Store listings (Superpower, AIPRM, ChatHub)",
-        "Market ranking with install/rating data (zPlatform.ai, 132 extensions)",
-        "Category roundup (Simpliaxis, 11 tools tested)"
+        "search-demand statistics",
+        "traffic estimator",
+        "business news",
+        "travel-industry news"
       ],
-      "score": 78.0,
-      "found_at": "2026-10-24T01:03:18.543111+00:00"
+      "score": 79.0,
+      "found_at": "2026-11-14T03:21:59.120478+00:00"
     },
     {
       "name": "Niche Chrome Extension Builder (SEO/Marketing/AI)",
@@ -2793,6 +2707,27 @@
       "found_at": "2026-11-13T08:04:54.950453+00:00"
     },
     {
+      "name": "Free AI Manga and Webtoon Translator",
+      "field": "Localization / consumer content tool",
+      "summary": "A free web tool that uploads manga, manhwa, or webtoon pages, performs OCR, translates the text, and re-typesets it into the original speech bubbles while preserving the page layout.",
+      "why_now": "Free Manga Translator ranked #10 among the most-searched AI tools in November 2026; mangatranslator.ai had 104.5K visits in September 2026, ai-manga-translator.com 84.8K visits with +26% month-over-month growth, and aimangatranslate.com 22.6K visits with +29%. A Chrome extension in the same niche passed 3,000 users.",
+      "monetization": "Free daily credits, then paid credit packs and subscriptions; one competitor sells a $6.90 starter pack. Formal revenue is not disclosed, so verified revenue is null.",
+      "evidence": [
+        "https://www.trendingaitools.com/trending-ai-tools-november-2026/",
+        "https://www.semrush.com/website/mangatranslator.ai/overview/",
+        "https://probedex.ai/compare/ai-manga-translator.com-vs-mangatranslate.com",
+        "https://chrome-stats.com/d/mfdoonmafafnaenmmjlanmonmldijbcl"
+      ],
+      "how_searched": [
+        "search-trend list",
+        "traffic estimator",
+        "site-growth radar",
+        "Chrome store analytics"
+      ],
+      "score": 78.0,
+      "found_at": "2026-11-14T03:22:01.000661+00:00"
+    },
+    {
       "name": "Freelancer Contract Risk Scanner",
       "field": "Legal tech",
       "summary": "Upload a freelance contract and get clause-level red flags, a dollar-denominated hidden-cost score, and ready-to-send negotiation language.",
@@ -2907,6 +2842,25 @@
       ],
       "score": 75.0,
       "found_at": "2026-11-11T22:04:55.105338+00:00"
+    },
+    {
+      "name": "Open-source Social Media Scheduler with AI Assist",
+      "field": "Marketing / creator tools",
+      "summary": "A free web scheduler that lets solopreneurs create once and publish to many social platforms, with an AI assistant for captions and repurposing. Paid tiers add volume, teams, and analytics.",
+      "why_now": "Postiz, an open-source social scheduler, is at $413K verified MRR with 12,200 paying subscriptions and +52.9% 30-day growth as of Nov 13, 2026; its repository has 40K+ GitHub stars. That proves both demand and a working open-source distribution model.",
+      "monetization": "Hosted subscriptions from $29 per month plus higher team tiers; verified MRR is $350K-$413K across independent trackers.",
+      "evidence": [
+        "https://indiefounder.me/stories/nevo-david-postiz/",
+        "https://wouldit.work/case-studies/postiz",
+        "https://theaireceipts.com/ai-agent-startups-making-money/"
+      ],
+      "how_searched": [
+        "founder case study",
+        "independent case study",
+        "verified revenue leaderboard"
+      ],
+      "score": 75.0,
+      "found_at": "2026-11-14T03:22:01.668690+00:00"
     },
     {
       "name": "ADA/WCAG compliance scanner and widget for Shopify",
@@ -3082,6 +3036,25 @@
       "found_at": "2026-11-11T22:04:58.006472+00:00"
     },
     {
+      "name": "AI Property Photo and ARV Analyzer",
+      "field": "Real estate / investor tools",
+      "summary": "A free web tool for small investors and agents that reads listing or walkthrough photos, estimates condition and repair scope, and returns an ARV range with comparable sales. It can export a simple property brief.",
+      "why_now": "PropGPT reached $109K verified MRR with 2,700 paying subscriptions and +32.6% growth in 30 days by combining property data, photo condition reads, comps, and ARV estimates. The underlying data moat is real, but the photo-and-ARV workflow is now cheap to rebuild with vision models plus public sold data.",
+      "monetization": "Usage-credit subscriptions from $49 to $250 per month; PropGPT shows $109K verified MRR. A free tool can monetize through lead generation to agents, lenders, or investors.",
+      "evidence": [
+        "https://theaireceipts.com/fastest-growing-ai-startups/",
+        "https://www.propgpt.com/",
+        "https://www.doesithaveamoat.com/propgpt.com"
+      ],
+      "how_searched": [
+        "verified revenue leaderboard",
+        "product site and pricing",
+        "competitive moat analysis"
+      ],
+      "score": 72.0,
+      "found_at": "2026-11-14T03:22:02.350747+00:00"
+    },
+    {
       "name": "AI screenwriting and storyboard workspace (Laper pattern)",
       "field": "AI screenwriting",
       "summary": "A script-first workspace for formatting, structure visualization, collaboration, and storyboard/production entities. Rebuild as a free web screenplay editor with paid AI notes, production breakdowns, and collaboration.",
@@ -3198,6 +3171,27 @@
       "found_at": "2026-11-11T22:05:00.102703+00:00"
     },
     {
+      "name": "AI Receipt and Invoice to Spreadsheet",
+      "field": "Finance operations / freelancers",
+      "summary": "A free web tool that scans receipts, invoices, and bank statements, extracts vendor, date, tax, and total, categorizes each expense, and exports clean CSV or Excel files. No accounting software login is required for the basic workflow.",
+      "why_now": "ReceiptsAI grew from 17.4K to 35.4K monthly visits in September 2026, up 104% month over month, with organic search adding 9.9K visits; it ranks #1 for the query ai invoice generator free. The category is moving from manual entry to freemium OCR plus export.",
+      "monetization": "Freemium with paid plans around $12 and $29 per month, plus higher-volume tiers; public revenue is not disclosed, so verified revenue is null.",
+      "evidence": [
+        "https://sigpik.com/tools/receiptsai",
+        "https://openaitools.app/tool/receiptsai",
+        "https://www.toolify.ai/tool/receiptsai/",
+        "https://scanmyreceipts.org/"
+      ],
+      "how_searched": [
+        "SEO growth analytics",
+        "AI-tool traffic directory",
+        "pricing directory",
+        "competitor website"
+      ],
+      "score": 70.0,
+      "found_at": "2026-11-14T03:22:08.359221+00:00"
+    },
+    {
       "name": "General resale-value scanner",
       "field": "resale valuation",
       "summary": "Scan household items, collectibles, tools, and electronics to identify them, estimate resale value from comps, and generate marketplace listings. Rebuild as a free web scanner with paid deep scans, portfolio tracking, and listing exports.",
@@ -3258,6 +3252,27 @@
       "found_at": "2026-11-10T23:30:49.613285+00:00"
     },
     {
+      "name": "AI Thrift and Resale Scanner with Listing Draft",
+      "field": "Resale / e-commerce",
+      "summary": "A free web tool that takes a photo of a thrift, flea-market, or estate-sale item, identifies it, pulls recent sold comps, subtracts fees and shipping, and drafts a marketplace listing. The user gets a clear buy-or-pass profit estimate.",
+      "why_now": "Underpriced AI, a photo-to-resale-price and listing-draft app, shows $5.2K per month Stripe-verified revenue and $28K from January to September 2026. Resellers repeatedly ask for exactly this workflow in r/reselling, and ScanAndFlip already charges $9.99 per month.",
+      "monetization": "Monthly subscriptions around $9.99 plus affiliate links to marketplaces; the verified example is $5.2K per month, with revenue varying by niche.",
+      "evidence": [
+        "https://aipaidme.com/stories/underpriced-ai-reseller-pricing-app-frank-kratzer-5k-month/",
+        "https://scanandflip.tech/",
+        "https://www.reddit.com/r/reselling/comments/1nqs79z/what_apps_do_you_use_to_look_up_item_prices_when/",
+        "https://www.reddit.com/r/reselling/comments/1sulvby/i_built_an_app_that_helps_you_figure_out_what/"
+      ],
+      "how_searched": [
+        "verified revenue story",
+        "competitor website and pricing",
+        "forum demand research",
+        "community product validation"
+      ],
+      "score": 68.0,
+      "found_at": "2026-11-14T03:22:09.133424+00:00"
+    },
+    {
       "name": "Marketplace of skill packs and style kits for AI coding agents",
       "field": "AI developer tools",
       "summary": "A web library of installable 'skills' — instruction packs and visual style kits that give Claude Code, Codex and Cursor a distinct output style for websites, decks, images and video, previewable before install. Skillry reached $5.1K MRR within ~3 months of launch.",
@@ -3295,6 +3310,27 @@
       "found_at": "2026-11-10T23:30:57.845503+00:00"
     },
     {
+      "name": "Temp Mail with Custom Domains and API",
+      "field": "Privacy / everyday utility",
+      "summary": "A free disposable-email website that creates instant inboxes, rotates custom domains when the main ones are blocked, extracts verification codes and links in one click, and offers a simple API for developers.",
+      "why_now": "temp-mail.org drew 16.8M visits in September 2026 and the sector exceeds 40M monthly visits; tempmail.ninja grew to 4.83M visits in September, up 65% month over month. Users increasingly need custom domains and an API because mainstream temporary-email domains are widely blocklisted.",
+      "monetization": "Display advertising plus paid API access and premium custom domains; public revenue is not disclosed, so verified revenue is null.",
+      "evidence": [
+        "https://vaneform.com/e/temp-mail-org",
+        "https://vip.215.im/blog/temp-mail-market-2026-en",
+        "https://www.semrush.com/website/tempmail.ninja/overview/",
+        "https://mail123.click/comparatif-email-jetable"
+      ],
+      "how_searched": [
+        "traffic estimator",
+        "market analysis",
+        "SEMrush traffic data",
+        "provider comparison site"
+      ],
+      "score": 67.0,
+      "found_at": "2026-11-14T03:22:11.886434+00:00"
+    },
+    {
       "name": "AI craft-pattern generator",
       "field": "AI crafting",
       "summary": "Generate crochet/knitting patterns from a text idea or photo, with stitch math, materials, and step-by-step instructions. Rebuild as a free pattern generator with paid PDF exports, advanced sizing, and project tracking.",
@@ -3313,6 +3349,27 @@
       ],
       "score": 66.0,
       "found_at": "2026-10-31T17:50:33.960795+00:00"
+    },
+    {
+      "name": "Browser Screen Recorder with Auto-Zoom and Cursor Effects",
+      "field": "Creator tools / productivity",
+      "summary": "A free browser-based screen recorder that smooths cursor motion, adds automatic zooms and click emphasis, applies backgrounds and captions, and exports a polished demo video without a desktop app.",
+      "why_now": "Screen Studio 4.0 reached #4 on Product Hunt's November 2026 monthly leaderboard with 475 upvotes, and Screen Charm has passed $58K all-time with a macOS recorder. The screen-recording software market is about $2.95B in 2026 with roughly 18.5% annual growth, and browser-based capture is still underserved.",
+      "monetization": "One-time purchases or subscriptions for HD/4K exports and watermark removal; Screen Charm has made $58K all-time, and Screen Studio is a paid desktop product.",
+      "evidence": [
+        "https://www.producthunt.com/leaderboard/monthly/2026/11",
+        "https://shippedandpaid.beehiiv.com/p/yadaphone-at-13-6k-in-30-days-plus-3-more-ai-built-apps-with-verified-revenue",
+        "https://www.fortunebusinessinsights.com/fr/screen-recording-software-market-107056",
+        "https://seektool.ai/ranking/categories/ai_screen_recorder"
+      ],
+      "how_searched": [
+        "Product Hunt leaderboard",
+        "verified-revenue newsletter",
+        "market research report",
+        "traffic estimator"
+      ],
+      "score": 66.0,
+      "found_at": "2026-11-14T03:22:13.425514+00:00"
     },
     {
       "name": "AI stem and vocal separator web tool for musicians",
