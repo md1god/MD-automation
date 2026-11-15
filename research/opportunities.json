@@ -288,26 +288,6 @@
       "found_at": "2026-10-28T16:04:45.286198+00:00"
     },
     {
-      "name": "GEO/AEO Citation Tracking (MentionBird-like visibility tools)",
-      "field": "SEO/AI Search",
-      "summary": "Tools helping brands track when/how they're cited in ChatGPT/Gemini/Perplexity; demand rising as AI search erodes click-throughs.",
-      "why_now": "Gartner projects ~25% of traditional search shifting to AI by 2026 and clickless Google searches hit ~68% in early 2026; multiple launches (ReSO AI, MentionBird) show strong traction.",
-      "monetization": "SaaS subscriptions (tiered by tracked queries/mentions). MentionBird launched on Product Hunt Oct 13 2026 (167 upvotes/23 comments) with pricing not visible from opened pages; ReSO AI (Oct 19 weekly round context) also in space. No public MRR/ARR numbers found in opened sources - numbers unknown.",
-      "evidence": [
-        "https://www.producthunt.com/products/mentionbird",
-        "https://www.producthunt.com/products/reso",
-        "https://sparktoro.com/blog/in-2026-less-than-one-third-of-google-searches-still-send-a-click/",
-        "https://www.reddit.com/r/SaaS/comments/1riiytr/gartner_says_25_of_search_will_shift_to_ai_by/"
-      ],
-      "how_searched": [
-        "Product Hunt leaderboards",
-        "industry reports/clickstream data",
-        "Reddit discussion"
-      ],
-      "score": 92.0,
-      "found_at": "2026-10-25T16:21:21.264283+00:00"
-    },
-    {
       "name": "Free QR Menu & Table Ordering for Restaurants",
       "field": "Restaurant Tech / Hospitality",
       "summary": "Free QR code menu generator with optional table ordering that lets restaurants go digital without expensive commissions or subscriptions.",
@@ -425,26 +405,6 @@
       "found_at": "2026-10-27T10:37:25.459241+00:00"
     },
     {
-      "name": "Card Value Scanner & Collection Ledger",
-      "field": "Collectibles / resale",
-      "summary": "A camera-first web/PWA that identifies sports and Pokemon cards, pulls recent sold-price comps, records condition, and builds a value-tracked collection with alerts and CSV export.",
-      "why_now": "Cardstock reports about $75K MRR from 15K subscriptions, while Scanemon reached about $17K MRR and 16K new customers per month within a year. Cardstock also has 500K+ App Store downloads and 12K ratings, so demand is proven beyond one founder interview.",
-      "monetization": "Free 10 scans per month; $6.99-$9.99 per month for unlimited scans, price alerts, portfolio history and export; affiliate fees on marketplace listings and grading submissions.",
-      "evidence": [
-        "https://www.starterstory.com/stories/i-turned-my-hobby-into-120k-month-apps",
-        "https://gtmsauce.com/episodes/2026-06-07-i-built-two-apps-that-make-120k-month",
-        "https://shippedandpaid.com/cases/scanemon-pokemon-card-scanner-17k-mrr-cursor/",
-        "https://apps.apple.com/us/app/cardstock-sports-card-scanner/id1508888618"
-      ],
-      "how_searched": [
-        "Starter Story and GTM Sauce interviews for card-scanner revenue",
-        "Scanemon RevenueCat and MRR reports",
-        "App Store, AppRank and AppGoblin listing checks"
-      ],
-      "score": 91.0,
-      "found_at": "2026-10-25T11:34:24.499745+00:00"
-    },
-    {
       "name": "Vibe App Security Scanner",
       "field": "AI app security",
       "summary": "A free URL scanner for apps built with Lovable, Bolt, v0 and Supabase that detects public database tables, leaked keys, missing auth checks and exposed PII, then sells continuous monitoring and fix guidance. It targets the fast-growing vibe-coding market rather than generic websites.",
@@ -558,26 +518,6 @@
       ],
       "score": 89.0,
       "found_at": "2026-11-13T08:04:52.480209+00:00"
-    },
-    {
-      "name": "Tattoo Preview & Artist Brief Studio",
-      "field": "Beauty / creative consumer tools",
-      "summary": "Upload a body photo, generate or place a tattoo design with drag, resize and rotate controls, compare styles and colours, then export a placement sheet and artist brief.",
-      "why_now": "Peekly headlines Tatship at $414K per month, while RevShot and ScreensDesign independently estimate about $30K per month. Even the conservative number, plus 500K-949K monthly downloads, shows strong top-of-funnel demand.",
-      "monetization": "Free watermarked previews; $4.99-$9.99 per HD placement pack or $7.99 per month for unlimited previews, saved designs and artist-ready PDFs; studio referral listings.",
-      "evidence": [
-        "https://peekly.app/apps/c03a2647-536e-41fe-8111-6f00eeb43982",
-        "https://revshot.app/app/tattoo-design-try-on-tatship",
-        "https://screensdesign.com/showcase/tatship-tattoo-design-try-on",
-        "https://appgoblin.info/apps/com.tatship"
-      ],
-      "how_searched": [
-        "Peekly fastest-growing app and tattoo-app reports",
-        "RevShot, ScreensDesign and AppGoblin revenue estimates",
-        "App Store and Google Play ranking checks"
-      ],
-      "score": 88.0,
-      "found_at": "2026-10-25T11:34:26.316463+00:00"
     },
     {
       "name": "AI Menu Description Generator (Free Web Tool)",
@@ -943,26 +883,6 @@
       "found_at": "2026-11-15T02:13:35.223383+00:00"
     },
     {
-      "name": "Haircut & Colour Simulator with Face-Shape Guide",
-      "field": "Beauty / personal styling",
-      "summary": "A web tool that applies realistic hairstyles and colours to a selfie, compares looks side by side, and produces a face-shape, colour-palette and salon brief.",
-      "why_now": "AI Hairstyle Try On & Color has about 2.5M installs, 419K monthly active users and $50K+ estimated monthly revenue. Hairisi and Beautix each show roughly 500K-1M downloads per month, but Beautix monetises under $5K per month, exposing a large usage-to-payment gap.",
-      "monetization": "Free three previews per day; $6.99 per week or $29.99 per year for unlimited styles, HD exports and side-by-side comparisons; salon booking and product affiliate revenue.",
-      "evidence": [
-        "https://www.appgoblin.info/apps/com.tryon.haircolor.aihairstyle",
-        "https://appgazers.com/reports/apps/android-com.hairstyle.tryon.haircolor.ai",
-        "https://peekly.app/apps/3d6698c9-c76e-48f1-9280-5af5b6481cec",
-        "https://appinsider.io/android/app/com.hairstyle.tryon.haircolor.ai"
-      ],
-      "how_searched": [
-        "Peekly beauty and hairstyle app leaderboards",
-        "AppGoblin, AppGazers and AppInsider hair-try-on analytics",
-        "Google Play and App Store category ranking checks"
-      ],
-      "score": 85.0,
-      "found_at": "2026-10-25T11:34:27.695286+00:00"
-    },
-    {
       "name": "PeptideDock",
       "field": "Digital health / medication tracking",
       "summary": "A free web tracker for GLP-1 and peptide protocols with dose logging, side-effect tracking, injection-site rotation, and oral-pill support, designed to work without an app-store download.",
@@ -1154,26 +1074,6 @@
       "found_at": "2026-11-15T02:13:36.329981+00:00"
     },
     {
-      "name": "Cross-AI Chat Search & Export Workspace",
-      "field": "AI productivity / knowledge management",
-      "summary": "A local-first browser extension or web workspace that indexes ChatGPT, Claude, Gemini and Grok conversations, adds folders, full-text search, prompt libraries and bulk export.",
-      "why_now": "AI Toolbox reports about $20K-$22K in the last 30 days, 40K+ installs, roughly 47K monthly active users and 1,700+ paying customers. Growth is organic because no AI vendor will index its competitors' chat histories.",
-      "monetization": "Free for 100 conversations; $9.99 per month or $79 lifetime per platform, $199 all-access; $12 per seat per month for shared prompts, admin and analytics.",
-      "evidence": [
-        "https://trustmrr.com/startup/ai-toolbox",
-        "https://1m.chat/cases/ai-toolbox/",
-        "https://www.indiehackers.com/post/tech/leveraging-a-marketplace-and-existing-user-bases-to-hit-a-5-figure-mrr-in-two-years-ltsw3AYvsvslFIYZtYZG",
-        "https://newsletter.aistartup.co/p/the-32-ai-tool-that-now-makes-10k-a-month"
-      ],
-      "how_searched": [
-        "TrustMRR payment-verified revenue leaderboard",
-        "Indie Hackers and AI Startup founder interviews",
-        "Chrome Web Store demand and Product Hunt checks"
-      ],
-      "score": 84.0,
-      "found_at": "2026-10-25T11:34:29.581563+00:00"
-    },
-    {
       "name": "AI Menu Translation for Multilingual Restaurants",
       "field": "Restaurant Tech / Internationalization",
       "summary": "Free web tool to instantly translate restaurant menus into multiple languages with culturally appropriate food descriptions, not just literal translation.",
@@ -1308,22 +1208,25 @@
       "found_at": "2026-10-31T05:49:36.587823+00:00"
     },
     {
-      "name": "'I wish there was...' Opportunity Finder (Reddit/Gaps Scanners)",
-      "field": "Research/Validation Tools",
-      "summary": "Tools scanning Reddit/forums for unmet needs (\"I wish there was...\", workarounds) to find validated ideas before building.",
-      "why_now": "Strong community interest (multiple Reddit posts Jan-Apr 2026 showing people building/analyzing 9300+ posts). Builders want data-backed opportunities vs. vibes; aligns with \"find demand first\" trend.",
-      "monetization": "SaaS/paid access to gap databases/alerts. Some builders discussing monetization; no large public revenue numbers found in opened posts.",
+      "name": "Stocky Successor: Free Shopify PO & Reorder Planner",
+      "field": "E-commerce inventory tools",
+      "summary": "A lightweight, free purchase-order, reorder-point and stocktake tool for small Shopify merchants left stranded after Stocky's shutdown — especially supplier rebuild, partial receiving and landed-cost gaps Shopify still doesn't cover.",
+      "why_now": "Stocky was delisted Feb 2, 2026 and went fully dead Aug 31, 2026; Shopify's own help page confirms suppliers cannot be exported and historical POs don't import. EZstock counted 89 PO apps on Nov 14, 2026 (50 launched in 2026 alone), but community threads still show no agreed free replacement, complaints about $49–$59/mo pricing for what was free, and a hard Nov 29 data-export deadline.",
+      "monetization": "Freemium SaaS: free tier (capped POs/stocktakes) + paid plans ~$19–$49/mo for multi-location, forecasting and supplier spend reports; adjacent paid modules for barcode labels and landed cost. Market proof: 50+ new PO apps launched in 2026 chasing this gap; paid peers price $5–$499/mo.",
       "evidence": [
-        "https://www.reddit.com/r/AppIdeas/comments/1q5mecg/i_analyzed_9300_i_wish_there_was_an_app_for_this/",
-        "https://www.reddit.com/r/SaaS/comments/1q3lnyk/im_building_a_tool_to_spot_rising_trends_on_x/",
-        "https://www.reddit.com/r/SideProject/comments/1sdivai/made_a_thing_that_finds_reddit_posts_where_people/"
+        "https://www.help1.io/blog/stocky-replacement-six-weeks-after-shutdown/",
+        "https://ezstock.app/blog/stocky-replacements-checked",
+        "https://community.shopify.com/t/stocky-is-ending-what-workflow-are-you-most-concerned-about-replacing/672546",
+        "https://help.shopify.com/en/manual/inventory-and-locations/transitioning-from-stocky"
       ],
       "how_searched": [
-        "Reddit (r/SaaS, r/AppIdeas, r/SideProject)",
-        "community validation"
+        "shutdown news + Shopify official migration docs",
+        "Shopify Community & r/shopify threads",
+        "app-store competitive census (EZstock Nov 15 2026)",
+        "vendor replacement roundups"
       ],
-      "score": 83.0,
-      "found_at": "2026-10-25T16:21:23.053123+00:00"
+      "score": 84.0,
+      "found_at": "2026-11-15T17:28:56.097878+00:00"
     },
     {
       "name": "After-Hours Lead Capture for Service Businesses",
@@ -1422,26 +1325,6 @@
       ],
       "score": 83.0,
       "found_at": "2026-11-13T08:04:54.194708+00:00"
-    },
-    {
-      "name": "Conversation-First Language Tutor",
-      "field": "Education / language learning",
-      "summary": "A voice-first web tutor for roleplays, pronunciation feedback, grammar correction and spaced review, with scenario packs for travel, work and exams.",
-      "why_now": "Third-party estimates put Talkpal at roughly $306K-$312K per month, and its Android listing shows 6.3M installs and 109K ratings. Revenue is large enough to support a focused speaking-practice alternative instead of another generic chat tutor.",
-      "monetization": "Free 10 minutes per day; $12.99-$19.99 per month for unlimited voice practice, scenario packs and pronunciation reports; school and employer licences.",
-      "evidence": [
-        "https://www.airbridge.io/en/app-revenue/talkpal",
-        "https://www.alphamoat.ai/en/app/talkpal-14877355",
-        "https://www.appbrain.com/app/talkpal-ai-language-learning/ai.talkpal",
-        "https://screensdesign.com/showcase/talkpal-ai-language-learning"
-      ],
-      "how_searched": [
-        "Airbridge and AlphaMoat app-revenue teardowns",
-        "AppBrain install and rating checks",
-        "Education category rankings and Meta ad-library checks"
-      ],
-      "score": 82.0,
-      "found_at": "2026-10-25T11:34:30.936669+00:00"
     },
     {
       "name": "ZocialComment (social comment exporter)",
@@ -1584,6 +1467,26 @@
       ],
       "score": 82.0,
       "found_at": "2026-11-14T17:16:18.674561+00:00"
+    },
+    {
+      "name": "Photo-to-Calorie Web Tracker",
+      "field": "Consumer health / AI vision",
+      "summary": "Free web tool that estimates calories and macros from a meal photo with one tap — the Cal AI interaction rebuilt as an original browser-first product with optional subscription for unlimited scans and history.",
+      "why_now": "Category proof is extreme: Cal AI hit ~$30–50M ARR and was acquired by MyFitnessPal (Mar 2026); Nutria (Calyra) holds $47k verified MRR from 16,100 subs grown on organic TikTok; global calorie-app market projected $4.8B (2024) → $14.2B by 2033. Demand is daily, universal, and TikTok-native.",
+      "monetization": "Freemium: free daily photo scans, ~$9.99/mo or ~$49–70/yr for unlimited AI scans, macro goals, history and barcode fallback; competitor benchmarks show 30%+ trial-to-paid and $2M+/mo scale for leaders.",
+      "evidence": [
+        "https://www.forbes.com/sites/zoyahasan/2026/03/06/this-u30-kept-launching-apps-until-one-worked-then-sold-it-to-myfitnesspal/",
+        "https://theaireceipts.com/ai-fitness-apps-revenue/",
+        "https://ugcmaxx.com/blog/cal-ai-tiktok-strategy/"
+      ],
+      "how_searched": [
+        "acquisition/news coverage",
+        "verified MRR leaderboard (TrustMRR/RevenueCat)",
+        "TikTok growth case studies",
+        "market-size research"
+      ],
+      "score": 82.0,
+      "found_at": "2026-11-15T17:28:56.330344+00:00"
     },
     {
       "name": "Anti-AI-Slop Design Linter & Skill for Coding Agents",
@@ -1768,6 +1671,27 @@
       ],
       "score": 80.0,
       "found_at": "2026-11-14T21:32:44.390575+00:00"
+    },
+    {
+      "name": "Cross-Harness AI Coding-Agent Memory",
+      "field": "Developer tools / AI agents",
+      "summary": "Local-first memory layer that captures Claude Code, Cursor, Codex, OpenCode etc. sessions and turns corrections into reusable skills retrievable via MCP — free web dashboard + optional cloud sync.",
+      "why_now": "Beacon (Asymptote Labs) took Product Hunt #1 on Nov 2026 (516 score, 132 comments) precisely because each harness forgets independently; mem0 has 67k+ GitHub stars and is AWS Agent SDK's exclusive memory provider; claude-mem alone gained 265 forks in one week. The pain (agent amnesia across tools) is now a top-3 developer complaint category.",
+      "monetization": "Open-core: free local JSONL memory + freemium cloud ($15–20/mo Pro for unlimited findings, MCP recall, alerts) and enterprise telemetry/SSO — same pattern as Beacon Cloud Pro and Mem0's $19–249/mo tiers.",
+      "evidence": [
+        "https://www.producthunt.com/leaderboard/monthly/2026/11",
+        "https://beacon.sh/",
+        "https://www.thetoolnerd.com/p/your-coding-agent-has-amnesia-the",
+        "https://github.com/mem0ai/mem0"
+      ],
+      "how_searched": [
+        "Product Hunt monthly leaderboard",
+        "official product site",
+        "independent comparison articles",
+        "GitHub star/trend data"
+      ],
+      "score": 80.0,
+      "found_at": "2026-11-15T17:28:57.010185+00:00"
     },
     {
       "name": "Agent-Callable Social Media Scheduler (MCP/CLI)",
@@ -2051,6 +1975,26 @@
       "found_at": "2026-11-15T02:13:37.023566+00:00"
     },
     {
+      "name": "SQL → Sheets/Slack Scheduled Query Workspace",
+      "field": "Data productivity",
+      "summary": "Browser SQL editor with shared query library and scheduled pushes of results into Google Sheets/Slack/Excel for non-technical teams — the lightweight SeekWell/PopSQL workflow, free tier first.",
+      "why_now": "SeekWell hit EOL July 31, 2026 and is fully offline (404); PopSQL announced then postponed shutdown (Aug 11, 2026) but ships no new features and promises only limited support. Show HN and r/SQL threads show teams scrambling; ThoughtSpot's official path (full BI license) prices far above the old $50–300/mo tools, leaving a clear mid-market gap.",
+      "monetization": "Freemium: free 1–2 connections + limited schedules; paid $15–49/mo for team libraries, more destinations, approval workflows; annual plans for agencies. Paid peers (SaturnSQL €19+/user, Query Streams $15+, Coefficient $49+) validate willingness to pay.",
+      "evidence": [
+        "https://www.basedash.com/blog/seekwell-shut-down-alternatives",
+        "https://popsql.com/blog/popsql-shutdown-postponed",
+        "https://www.reddit.com/r/SQL/comments/1vepuwk/popsql_and_seekwell_both_shutting_down_so_i_ended/"
+      ],
+      "how_searched": [
+        "shutdown announcements",
+        "Hacker News Show HN",
+        "r/SQL community threads",
+        "migration/alternative roundups"
+      ],
+      "score": 78.0,
+      "found_at": "2026-11-15T17:28:57.691735+00:00"
+    },
+    {
       "name": "Freelancer Contract Risk Scanner",
       "field": "Legal tech",
       "summary": "Upload a freelance contract and get clause-level red flags, a dollar-denominated hidden-cost score, and ready-to-send negotiation language.",
@@ -2087,6 +2031,27 @@
       ],
       "score": 77.0,
       "found_at": "2026-11-13T08:04:55.389971+00:00"
+    },
+    {
+      "name": "Agent Skills & MCP Discovery + Security Scanner",
+      "field": "AI developer ecosystem",
+      "summary": "Free searchable directory of Claude Code skills, plugins and MCP servers with license, typosquat, prompt-injection and shell-permission checks — the quality/trust layer the raw catalog explosion lacks.",
+      "why_now": "On Nov 14, 2026 HostedMCP counted 118,434 active MCP servers and 52,147 agent skills, yet 63.8% have zero stars and ~1.2% of scanned servers carry high-severity findings (prompt injection, typosquats). Skill/MCP-related US searches run ~650k/month; multiple competing directories (skills.sh 1.3M+ listed, Claude Marketplaces 23k skills) prove demand for curation.",
+      "monetization": "Free directory + freemium: verified badges, deeper scan reports, team allowlists ($19–99/mo) and sponsored listings for MCP/skill authors; enterprise policy packs for firms deploying agents at scale.",
+      "evidence": [
+        "https://dev.to/cakra_budiman/the-state-of-mcp-servers-and-agent-skills-november-2026-1lj0",
+        "https://dev.to/skillgild/the-state-of-claude-skills-in-2026-what-38000-searches-say-248n",
+        "https://agentcraft.dev/en/blog/where-to-find-claude-skills/",
+        "https://www.claudemarketplace.net/"
+      ],
+      "how_searched": [
+        "ecosystem census report",
+        "search-volume analysis",
+        "directory comparisons",
+        "marketplace sites"
+      ],
+      "score": 77.0,
+      "found_at": "2026-11-15T17:28:58.148010+00:00"
     },
     {
       "name": "AI paid-media manager: autonomous Google/Meta/TikTok ad campaign agent",
@@ -2285,6 +2250,26 @@
       "found_at": "2026-11-14T21:32:47.397037+00:00"
     },
     {
+      "name": "AI Food-Label Decoder (Free Web Tool)",
+      "field": "Consumer wellness / retail",
+      "summary": "Point a camera at any grocery label and get an instant AI readout of hidden sugars, seed oils, FODMAPs, allergens and UPF flags personalized to dietary goals — Goodie's core loop as a free web tool.",
+      "why_now": "Goodie AI holds ~$11k verified MRR / ~3,600 active subs (RevenueCat via TrustMRR, Nov 14 2026) and ~$181k all-time on a single scan feature, grown via TikTok/Meta; 4.9★ from ~1,000 App Store ratings. Seed-oil/gut-health/UPF discourse keeps expanding the audience faster than free web alternatives exist.",
+      "monetization": "Freemium: free basic label scan; $4.99–9.99/mo or ~$30–70/yr for goal-based scores, full ingredient breakdowns, grocery lists and history; affiliate/retail partnerships later.",
+      "evidence": [
+        "https://trustmrr.com/startup/goodie-ai",
+        "https://theaireceipts.com/case-studies/goodie-ai/",
+        "https://apps.apple.com/us/app/goodie-ai-check-groceries/id6741483227"
+      ],
+      "how_searched": [
+        "verified MRR pages",
+        "case-study deep dives",
+        "App Store listing/pricing",
+        "independent revenue graders"
+      ],
+      "score": 74.0,
+      "found_at": "2026-11-15T17:28:59.237243+00:00"
+    },
+    {
       "name": "Shopify SEO and page-speed audit",
       "field": "Shopify SEO",
       "summary": "Audit meta tags, alt text, structured data, broken links, image weight, and AI-search visibility, then generate fixes. Rebuild as a free store scanner with paid auto-fixes and monitoring.",
@@ -2382,6 +2367,27 @@
       ],
       "score": 73.0,
       "found_at": "2026-11-15T02:13:37.588962+00:00"
+    },
+    {
+      "name": "AI Screenplay Studio for Writers",
+      "field": "Creative software",
+      "summary": "Collaborative screenplay editor with structure-aware AI (beats, dialogue polish, script doctor) plus auto-generated pitch visuals — an original free-tier writing workspace positioned without 'AI slop' aesthetics.",
+      "why_now": "Laper (AI screenwriting) shows ~$52.8k verified MRR / 1,600 paying subs (TrustMRR Nov 14 2026) after launch in Sep 2025; industry surveys report ~71% of professional screenwriters already use AI tools daily for outlining/formatting; LA Times (Nov 11, 2026) and Screenplay News document mainstream adoption even among skeptics.",
+      "monetization": "Freemium editor (free tier with watermarked export) + Pro $20–100/mo for AI generation credits, collaboration seats, FDX/Fountain export and storyboard/video packs; credit add-ons for heavy generation.",
+      "evidence": [
+        "https://theaireceipts.com/fastest-growing-ai-startups/",
+        "https://sparkloreai.com/en/blog/ai-screenwriting-tools-2026",
+        "https://www.latimes.com/entertainment-arts/story/2026-11-11/ai-help-new-screenwriters-film-schools-education",
+        "https://screenplay.biz/ai-screenwriting-tools-have-moved-from-novelty-to-daily-workflow-for-many-writers-even-those-who-publicly-remain-skeptical-of-the-technology/"
+      ],
+      "how_searched": [
+        "verified MRR leaderboard",
+        "tool comparison roundups",
+        "trade press & mainstream news",
+        "industry adoption surveys"
+      ],
+      "score": 73.0,
+      "found_at": "2026-11-15T17:29:00.490937+00:00"
     },
     {
       "name": "Personalized healthy restaurant menu",
@@ -2502,6 +2508,26 @@
       "found_at": "2026-11-15T02:13:39.325971+00:00"
     },
     {
+      "name": "AI Physique / Abs Photo Coach",
+      "field": "Fitness consumer apps",
+      "summary": "Upload a progress photo, get an AI physique assessment and a narrow abs/core plan that adapts weekly — a free web version of the looksmaxxing scan-and-plan loop.",
+      "why_now": "AbMaxx alone holds ~$22k verified MRR from 6,200+ active subs and ~$205k all-time since March 2026 (RevenueCat/TrustMRR Nov 15, 2026), marketed hard on TikTok/IG/Meta; sibling apps (Brawler boxing coach $26.7k MRR) confirm the 'one body-part scan → plan' playbook. Four AI fitness apps now share a verified median ~$24.4k/mo.",
+      "monetization": "Freemium: free first scans + basic plan; $6.99–11.99/mo or $19.99–49.99/yr for full AI plans, progress comparison, guest scans ($2.99 packs) and privacy controls.",
+      "evidence": [
+        "https://trustmrr.com/startup/abmaxx",
+        "https://theaireceipts.com/ai-fitness-apps-revenue/",
+        "https://aisidehustles.lumexforge.com/case/abmaxx-ai-abs-coach-app"
+      ],
+      "how_searched": [
+        "verified payment dashboards",
+        "fitness-app revenue roundups",
+        "App Store pricing/ratings",
+        "growth teardowns"
+      ],
+      "score": 72.0,
+      "found_at": "2026-11-15T17:29:00.916586+00:00"
+    },
+    {
       "name": "AI screenwriting and storyboard workspace (Laper pattern)",
       "field": "AI screenwriting",
       "summary": "A script-first workspace for formatting, structure visualization, collaboration, and storyboard/production entities. Rebuild as a free web screenplay editor with paid AI notes, production breakdowns, and collaboration.",
@@ -2539,6 +2565,26 @@
       ],
       "score": 71.0,
       "found_at": "2026-11-10T23:30:45.066048+00:00"
+    },
+    {
+      "name": "Free Branded WISMO Order-Tracking Page",
+      "field": "E-commerce post-purchase",
+      "summary": "Self-serve branded tracking page + proactive delay alerts for small Shopify stores — free tier first, to cut 'where is my order?' tickets without AfterShip/Loop pricing.",
+      "why_now": "WISMO is 30–50% of ecommerce support tickets (Shopify/industry consensus); Track123 entered Shopify gainers at +127 net stores in 28 days (week of Nov 9, 2026) and CWILL order tracking +55; review threads rage about AfterShip overage billing and $99/mo Loop entry prices. Black Friday demand peaks now.",
+      "monetization": "Freemium: free up to ~50–100 orders/mo; paid $11–49/mo for SMS/email proactive alerts, multi-carrier, analytics; upsells into returns and post-purchase email flows.",
+      "evidence": [
+        "https://www.ringly.io/blog/wismo-tracking",
+        "https://elma.sh/blog/shopify-order-tracking-app-ideas",
+        "https://aissist.io/insights/best-order-tracking-wismo-software"
+      ],
+      "how_searched": [
+        "Shopify app-store weekly gainers",
+        "WISMO benchmark articles",
+        "merchant review analysis",
+        "support-cost research"
+      ],
+      "score": 71.0,
+      "found_at": "2026-11-15T17:29:02.022943+00:00"
     },
     {
       "name": "Image-to-vector converter for makers (VectoSolve pattern)",
@@ -2676,6 +2722,27 @@
       ],
       "score": 70.0,
       "found_at": "2026-11-15T02:13:40.331105+00:00"
+    },
+    {
+      "name": "Free Google Ads Wasted-Spend Auditor",
+      "field": "Adtech / SMB marketing",
+      "summary": "Read-only OAuth audit that ranks zero-conversion search terms, broken landing pages and tracking gaps in dollars, then queues fixes for approval — NotFair's free-audit funnel rebuilt as an independent web tool.",
+      "why_now": "NotFair went $0 → ~$14k verified MRR (Stripe/TrustMRR Nov 2026) in ~6 months on this exact wedge, claiming typical SMB accounts waste 15–35% of spend; founder reports 2,700+ connected accounts and ~$500M budget under management. Free audit pages are their primary acquisition asset — demand for a no-pitch diagnosis is proven.",
+      "monetization": "Free audit as funnel → $49–79/mo for fix automation, multi-platform (Meta/LinkedIn) coverage and agency multi-account dashboards; usage-based credits for write actions.",
+      "evidence": [
+        "https://trustmrr.com/startup/notfair",
+        "https://theaireceipts.com/case-studies/notfair/",
+        "https://notfair.co/google-ads-audit",
+        "https://notfair.co/use-cases/google-ads-wasted-spend"
+      ],
+      "how_searched": [
+        "verified Stripe MRR pages",
+        "case studies",
+        "product funnel pages",
+        "indie-founder growth posts"
+      ],
+      "score": 70.0,
+      "found_at": "2026-11-15T17:29:02.699518+00:00"
     },
     {
       "name": "General resale-value scanner",
@@ -2856,6 +2923,27 @@
       ],
       "score": 67.0,
       "found_at": "2026-11-14T03:22:11.886434+00:00"
+    },
+    {
+      "name": "Niche KDP Book Designer (Journals/Planners/Activity)",
+      "field": "Creator publishing tools",
+      "summary": "AI workspace that researches a specific buyer, designs a differentiated interior+cover, checks KDP royalty math and exports print-ready files — quality-over-volume for the post-cap KDP era.",
+      "why_now": "Low Content AI holds ~$15k verified MRR selling to KDP side-hustlers; since Sep 21, 2026 KDP caps authors at 2 new titles/format/week (down from 10), forcing niche research and design quality instead of bulk upload. Royalty math rewards $9.99+ guided/medium-content books ($3.55–5.95/copy) over generic notebooks.",
+      "monetization": "Subscription $19–49/mo for niche research, interior generators, royalty calculator and batch covers; one-off export packs; upsell Etsy printable twins of the same designs.",
+      "evidence": [
+        "https://theaireceipts.com/fastest-growing-ai-startups/",
+        "https://rushilo.com/blog/low-content-books-kdp-worth-it",
+        "https://www.inkfluenceai.com/blog/low-content-book-income-2026",
+        "https://www.simonvalue.com/low-content-books-ai-niches-that-work-2026"
+      ],
+      "how_searched": [
+        "verified MRR listings",
+        "KDP royalty/rule deep-dives",
+        "niche profitability guides",
+        "creator community posts"
+      ],
+      "score": 67.0,
+      "found_at": "2026-11-15T17:29:03.684723+00:00"
     },
     {
       "name": "AI craft-pattern generator",
@@ -4358,6 +4446,24 @@
       ],
       "score": 44.0,
       "found_at": "2026-11-12T19:05:00.139464+00:00"
+    },
+    {
+      "name": "AI Boxing / Striking Coach Web App",
+      "field": "Fitness consumer apps",
+      "summary": "Photo- or video-based form check and adaptive boxing drills with a narrow performance promise — the Brawler playbook as a free web tool with subscription unlocks.",
+      "why_now": "Brawler hit ~$26.7k verified MRR / 5,100 subs and ~$60k in a 30-day window within months of May 2026 launch (TrustMRR Nov 14, 2026), driven by Meta ads + influencers; category peers (AbMaxx, Nutria) confirm the one-job AI fitness app economics.",
+      "monetization": "Freemium: free intro drills + one form check; $5–10/mo or yearly plans for full adaptive programs, sparring timers and progress analytics; in-app one-off packs.",
+      "evidence": [
+        "https://theaireceipts.com/ai-fitness-apps-revenue/",
+        "https://theaireceipts.com/fastest-growing-ai-startups/"
+      ],
+      "how_searched": [
+        "verified fitness-app MRR table",
+        "fastest-growing AI startups list",
+        "App Store ratings"
+      ],
+      "score": 44.0,
+      "found_at": "2026-11-15T17:29:03.845619+00:00"
     },
     {
       "name": "LLM Gateway",
