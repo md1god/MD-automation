@@ -119,26 +119,6 @@
       "found_at": "2026-10-27T10:37:23.236780+00:00"
     },
     {
-      "name": "AI Phone Answering for Small Businesses (Missed Call Recovery)",
-      "field": "Business Automation / Customer Service",
-      "summary": "AI voice agents that answer missed calls 24/7, capture leads, and book appointments for small businesses that can't afford full-time receptionists.",
-      "why_now": "62% of SMB calls go unanswered (411 Locals), 80% of voicemail callers never leave messages and call competitors instead. Businesses lose $126k/year on average from missed calls. After-hours calls represent 23-30% of volume with high buying intent.",
-      "monetization": "SaaS subscription ($49-$299/month per business) or per-minute billing ($0.06-$0.18/min). ROI is 28-180x; break-even at 1 recovered job/month.",
-      "evidence": [
-        "https://peppersend.com/lead-magnets/state-of-smb-missed-calls-2026.pdf",
-        "https://www.getnextphone.com/blog/ai-receptionist-statistics",
-        "https://upfirst.ai/blog/state-of-voice-ai-2026",
-        "https://prestyj.com/blog/ai-voice-agent-statistics-2026"
-      ],
-      "how_searched": [
-        "web search for missed calls small business stats",
-        "web search for AI receptionist ROI 2026",
-        "industry reports from CallRail/Invoca/PepperSend"
-      ],
-      "score": 95.0,
-      "found_at": "2026-10-25T19:45:08.365699+00:00"
-    },
-    {
       "name": "AI Search Visibility (GEO/AEO) Tracking",
       "field": "Marketing/SEO Tools",
       "summary": "Platforms tracking brand mentions and citations across ChatGPT, Perplexity, Claude, Gemini, Google AI Overviews - showing when/where AI models cite/recommend brands.",
@@ -286,26 +266,6 @@
       ],
       "score": 93.0,
       "found_at": "2026-10-28T16:04:45.286198+00:00"
-    },
-    {
-      "name": "Free QR Menu & Table Ordering for Restaurants",
-      "field": "Restaurant Tech / Hospitality",
-      "summary": "Free QR code menu generator with optional table ordering that lets restaurants go digital without expensive commissions or subscriptions.",
-      "why_now": "QR menus are permanent post-pandemic fixture. Many platforms charge 5-15% commission or $30-300/month. Free alternatives exist but fragmented; demand for commission-free solutions is high, especially for small independent restaurants.",
-      "monetization": "Freemium model - free basic QR menu, charge for ordering, payments, multi-location, white-label. Or zero commission with revenue share only on premium features.",
-      "evidence": [
-        "https://waiterpilot.com/blog/best-qr-table-ordering-systems-small-restaurants/",
-        "https://menyo.pro/",
-        "https://tabres.com/en/articles/top-5-free-restaurant-cafe-qr-menu-generators",
-        "https://syncbite.io/blog/a/qr-code-ordering-system-for-restaurants-cost"
-      ],
-      "how_searched": [
-        "web search for QR menu generator free alternatives 2026",
-        "comparison of restaurant QR ordering costs and commissions",
-        "research on restaurant tech adoption"
-      ],
-      "score": 92.0,
-      "found_at": "2026-10-25T19:45:13.002537+00:00"
     },
     {
       "name": "Zigpoll (ecommerce survey widget)",
@@ -520,26 +480,6 @@
       "found_at": "2026-11-13T08:04:52.480209+00:00"
     },
     {
-      "name": "AI Menu Description Generator (Free Web Tool)",
-      "field": "Restaurant Marketing / Content",
-      "summary": "Free AI tool that writes appetizing, SEO-friendly menu descriptions from dish names and ingredients without signup or branding.",
-      "why_now": "Menu descriptions directly impact sales; good descriptions increase orders. Many restaurants struggle with copywriting. Existing tools are fragmented - some require signup, some have limits. Demand from restaurants updating menus for delivery apps (DoorDash/UberEats) where photos may be missing.",
-      "monetization": "Ad-supported free tool, or lead generation to restaurant services. Can be bundled with QR menu tools for traffic.",
-      "evidence": [
-        "https://www.writecream.com/ai-restaurant-menus-and-descriptions-generator/",
-        "https://foodaidaily.com/blog/best-ai-for-restaurant-menu-descriptions/",
-        "https://marketinc.io/tools/menu-description-writer/",
-        "https://menucrafters.com/tools/ai-menu-generator"
-      ],
-      "how_searched": [
-        "web search for free AI menu description generator no signup",
-        "analysis of restaurant copywriting needs",
-        "comparison of AI food writing tools"
-      ],
-      "score": 88.0,
-      "found_at": "2026-10-25T19:45:15.451274+00:00"
-    },
-    {
       "name": "ScriptMind (video URL to transcript/scripts)",
       "field": "Content/creator tools",
       "summary": "Paste a YouTube/TikTok/Instagram URL and get transcripts, subtitles, summaries, rewrites and SEO articles in seconds.",
@@ -705,25 +645,6 @@
       ],
       "score": 87.0,
       "found_at": "2026-11-11T22:04:51.839189+00:00"
-    },
-    {
-      "name": "AI-Powered Restaurant Lead Capture & Review Automation",
-      "field": "Local Business Marketing",
-      "summary": "Free web tool that helps restaurants automatically collect Google reviews from happy customers via QR codes and SMS, with AI follow-up messages.",
-      "why_now": "Local visibility drives restaurant traffic; review quantity/quality impact rankings. 60% of communication failures cause 1-star reviews. Restaurants need simple review generation without expensive marketing platforms. Google Business Profile is critical for local search.",
-      "monetization": "Freemium - free basic review links, charge for automation, analytics, multi-location management, or integration with POS systems.",
-      "evidence": [
-        "https://peppersend.com/lead-magnets/state-of-smb-missed-calls-2026.pdf",
-        "https://www.quo.com/blog/small-business-callback-statistics/",
-        "https://tabres.com/articles/how-much-does-a-qr-code-menu-cost"
-      ],
-      "how_searched": [
-        "web search for restaurant review generation QR tools",
-        "research on local SEO for restaurants",
-        "analysis of review impact on small business"
-      ],
-      "score": 86.0,
-      "found_at": "2026-10-25T19:45:16.503981+00:00"
     },
     {
       "name": "Vid.AI (faceless video generator)",
@@ -1074,26 +995,6 @@
       "found_at": "2026-11-15T02:13:36.329981+00:00"
     },
     {
-      "name": "AI Menu Translation for Multilingual Restaurants",
-      "field": "Restaurant Tech / Internationalization",
-      "summary": "Free web tool to instantly translate restaurant menus into multiple languages with culturally appropriate food descriptions, not just literal translation.",
-      "why_now": "Tourism recovery driving demand for multilingual menus. Many restaurants in tourist areas need translations but can't afford agencies. AI translation tools exist but not tailored to restaurant menus with proper food terminology and dietary info. 8-11 languages common need.",
-      "monetization": "Freemium - free for small menus, charge for bulk translation, custom glossaries, or integration with QR menu platforms. Or ad-supported.",
-      "evidence": [
-        "https://qorder.me/",
-        "https://wowmenu.me/",
-        "https://www.duck-hub.com/blog/best-digital-menu-software",
-        "https://tabres.com/en/articles/top-5-free-restaurant-cafe-qr-menu-generators"
-      ],
-      "how_searched": [
-        "web search for AI menu translation tools",
-        "research on multilingual restaurant needs",
-        "analysis of tourist-heavy restaurant markets"
-      ],
-      "score": 84.0,
-      "found_at": "2026-10-25T19:45:18.414316+00:00"
-    },
-    {
       "name": "AllergenLens",
       "field": "Food safety / consumer health",
       "summary": "A free tool that scans restaurant menus or uploaded menu photos for the top nine allergens, flags cross-contact risks, and generates a concise order script for diners.",
@@ -1227,25 +1128,6 @@
       ],
       "score": 84.0,
       "found_at": "2026-11-15T17:28:56.097878+00:00"
-    },
-    {
-      "name": "After-Hours Lead Capture for Service Businesses",
-      "field": "Business Automation / Lead Gen",
-      "summary": "Free web tool/widget that captures leads from after-hours website visitors with AI-powered chat that can qualify and schedule callbacks for service businesses.",
-      "why_now": "23-30% of calls arrive after hours with high buying intent (34.8% express buying intent). Service businesses (plumbers, HVAC, electricians) lose thousands in emergency calls. Most don't have 24/7 coverage. AI can capture and qualify these leads.",
-      "monetization": "Freemium lead capture widget - free basic version, charge per qualified lead or monthly subscription for advanced features and integrations.",
-      "evidence": [
-        "https://www.getnextphone.com/blog/ai-receptionist-statistics",
-        "https://callsphere.ai/research/after-hours-call-economics-2026",
-        "https://peppersend.com/lead-magnets/state-of-smb-missed-calls-2026.pdf"
-      ],
-      "how_searched": [
-        "web search for after hours lead capture small business",
-        "analysis of service business missed call economics",
-        "research on emergency service call patterns"
-      ],
-      "score": 83.0,
-      "found_at": "2026-10-25T19:45:20.379366+00:00"
     },
     {
       "name": "Inbox Zero (open-source Superhuman alternative)",
@@ -1489,6 +1371,25 @@
       "found_at": "2026-11-15T17:28:56.330344+00:00"
     },
     {
+      "name": "AI YouTube thumbnail generator",
+      "field": "Creator tools / AI image SaaS",
+      "summary": "Paste a video title (plus optional face/frame) and get 4-8 clickable thumbnail variants tuned to niches like gaming, finance, and vlog. One operator, ThumbnailCreator, is Stripe-verified at ~$38,479 MRR with ~1,091 active subscriptions.",
+      "why_now": "Creator tooling is compounding: video/audio/music was one of the highest-traction launch categories this week (21 of 571 launches got real traction), and the AI thumbnail market is estimated at USD 908M (2025) growing ~27% CAGR. Paid, credit-gated generation is proven to monetize immediately.",
+      "monetization": "Monthly subscription or credit packs; never generate before payment (image APIs bill per run). Upsell brand templates and team seats.",
+      "evidence": [
+        "https://printcashwithai.com/stacks/ai-youtube-thumbnail-generator-saas/",
+        "https://market.us/report/ai-thumbnail-generation-market/",
+        "https://launchindex.ai/week/2026-11-09"
+      ],
+      "how_searched": [
+        "websearch: AI YouTube thumbnail generator market size",
+        "websearch: verified revenue AI thumbnail SaaS",
+        "launch index traction report week of Nov 9-15 2026"
+      ],
+      "score": 82.0,
+      "found_at": "2026-11-15T21:52:35.723497+00:00"
+    },
+    {
       "name": "Anti-AI-Slop Design Linter & Skill for Coding Agents",
       "field": "Developer Tools / Agent Skills",
       "summary": "An installable design skill and browser-based linter that forces Claude Code, Cursor, and Codex to stop shipping generic 'AI-looking' landing pages, scoring output against dozens of deterministic anti-pattern rules.",
@@ -1509,6 +1410,25 @@
       ],
       "score": 81.0,
       "found_at": "2026-10-28T21:14:43.074261+00:00"
+    },
+    {
+      "name": "AI subscription / token spend tracker",
+      "field": "Developer & team productivity",
+      "summary": "A dashboard that aggregates and monitors AI spend across ChatGPT, Claude, Gemini, Copilot, Cursor, etc., surfacing per-seat usage, plan limits, and cost overruns. Products like ToolSpend and multiaicost already exist; a Chrome extension 'Claude Usage Tracker & Monitor' is trending (3K+ users, +43 ratings in 30 days).",
+      "why_now": "Teams now pay multiple AI vendors and routinely blow through plan limits; the pain is new (2025-2026), recurring, and has no dominant default. Chrome Web Store trending data shows real week-over-week velocity for usage/limit monitors.",
+      "monetization": "Freemium with paid team dashboards; alerting and SSO on higher tiers; possible affiliate/reseller margin on AI plans.",
+      "evidence": [
+        "https://toolspend.com/",
+        "https://multiaicost.com/",
+        "https://appgazers.com/reports/chrome-extensions/trending"
+      ],
+      "how_searched": [
+        "websearch: AI subscription spend tracker",
+        "chrome extension store trending report",
+        "websearch: track ChatGPT Claude API costs team"
+      ],
+      "score": 81.0,
+      "found_at": "2026-11-15T21:52:36.509077+00:00"
     },
     {
       "name": "DDSVault",
@@ -1692,6 +1612,26 @@
       ],
       "score": 80.0,
       "found_at": "2026-11-15T17:28:57.010185+00:00"
+    },
+    {
+      "name": "EU online-withdrawal-button compliance tool",
+      "field": "E-commerce compliance / RegTech",
+      "summary": "A drop-in widget/plugin that adds the mandatory EU statutory withdrawal function to an online store, plus the required confirmation flow and records. Multiple rising Shopify apps serve this (e.g. Revoq 'eu-withdrawal-form', EW 'eu-widerrufsbutton' at ~3,715 stores).",
+      "why_now": "Directive (EU) 2023/2673 required a statutory withdrawal function by 19 June 2026; enforcement is ongoing and many small stores remain non-compliant. Deadline-driven demand with clear, repeatable requirements.",
+      "monetization": "Monthly SaaS per store, tiered by order volume; setup/audit service; multi-platform (Shopify, Woo, Wix, custom).",
+      "evidence": [
+        "https://www.ecc.fi/en/current/news/requirement-for-online-stores-to-offer-a-statutory-withdrawal-function-in-june-2026/",
+        "https://hlc.com/en/publications/eu-consumer-protection-law-update-new-mandatory-withdrawal-button-what-online-traders-need-to-know",
+        "https://apps.shopify.com/eu-withdrawal-form",
+        "https://storeleads.app/reports/shopify/app/eu-widerrufsbutton"
+      ],
+      "how_searched": [
+        "websearch: EU mandatory withdrawal button online stores deadline",
+        "Shopify app store listing + store-count reports",
+        "law-firm regulatory update on Directive 2023/2673"
+      ],
+      "score": 80.0,
+      "found_at": "2026-11-15T21:52:38.394881+00:00"
     },
     {
       "name": "Agent-Callable Social Media Scheduler (MCP/CLI)",
@@ -4111,6 +4051,24 @@
       "found_at": "2026-11-10T10:05:25.944782+00:00"
     },
     {
+      "name": "Gmail read-receipt / email open tracking",
+      "field": "Communication / sales productivity",
+      "summary": "A tool that adds read receipts and open/click tracking to Gmail for sales and freelancers. 'Vmail Plus: free Gmail read receipts & dictation' is trending on the Chrome Web Store (5K+ users, +329 ratings in 30 days); other entrants exist (Email Open Tracker, Vmail).",
+      "why_now": "Very fast rating velocity on the store suggests a demand spike; incumbents are thin and privacy/compliance-aware positioning is still an open gap in some regions.",
+      "monetization": "Freemium Chrome extension with paid unlimited tracking, CRM sync, and team analytics.",
+      "evidence": [
+        "https://appgazers.com/reports/chrome-extensions/trending",
+        "https://cmdk.email/post/gmail-read-receipts/"
+      ],
+      "how_searched": [
+        "websearch: Gmail read receipts tool",
+        "Chrome extension store trending report",
+        "blog roundup of Gmail read-receipt tools"
+      ],
+      "score": 48.0,
+      "found_at": "2026-11-15T21:52:38.755034+00:00"
+    },
+    {
       "name": "AI directory-site builder",
       "field": "No-code / web publishing",
       "summary": "A no-code/AI builder that creates a niche directory with seeded listings, categories, SEO pages and a monetization hub. Directify sold for $85,000 at $2,000 MRR, recovered to $50K ARR seven months later, and charges $12-149/month while taking no cut of listing fees.",
@@ -4307,6 +4265,24 @@
       "found_at": "2026-11-15T02:13:41.630929+00:00"
     },
     {
+      "name": "Google Business Profile AI-readiness audit",
+      "field": "Local SEO / GEO",
+      "summary": "A tool that audits a local business's Google Business Profile against the signals AI assistants use when recommending local businesses, producing a fix-list. A study of 10,000 businesses found GBP signals are the top factor in ChatGPT/Perplexity local answers; the 'GBP Reality Check' extension is trending (1K+ users, +17 ratings in 30 days).",
+      "why_now": "AI assistants are becoming a primary local-discovery channel, and most SMBs have no visibility into why AI recommends competitors. Fresh, high-intent, underserved niche.",
+      "monetization": "Freemium audit; paid monthly monitoring + recommendations; agency white-label; done-for-you local SEO upsell.",
+      "evidence": [
+        "https://insites.com/blog/the-7-best-google-business-profile-audit-tools/",
+        "https://appgazers.com/reports/chrome-extensions/trending"
+      ],
+      "how_searched": [
+        "websearch: Google Business Profile audit tool AI search",
+        "Chrome extension store trending report",
+        "local SEO audit-tool roundup"
+      ],
+      "score": 46.7,
+      "found_at": "2026-11-15T21:52:39.590252+00:00"
+    },
+    {
       "name": "StoreRank",
       "field": "App Store optimization / ASO",
       "summary": "A web ASO workbench that audits listings by country, finds keywords, rewrites metadata in many languages, generates screenshots, tracks ranks and exports or uploads changes.",
@@ -4466,6 +4442,24 @@
       "found_at": "2026-11-15T17:29:03.845619+00:00"
     },
     {
+      "name": "AI vocal / background-music remover for video",
+      "field": "Video/audio editing",
+      "summary": "A web tool that strips vocals or background music from a clip so creators can reuse footage without copyright claims. TGGET lists the niche at ~8,100 US monthly searches and 'worth building'; the vocal-remover market is estimated at ~$592.62M (2026).",
+      "why_now": "Short-form video volume keeps rising and copyright strikes are a constant creator pain; browser-based, no-install tools are still fragmented. Note: category search interest has softened (~-19% YoY), so treat as a smaller, defensible niche.",
+      "monetization": "Freemium with paid minutes/HD export; API for editing apps; bulk credits for agencies.",
+      "evidence": [
+        "https://tgget.io/niches/ai-vocal-remover",
+        "https://www.researchandmarkets.com/reports/6136071/vocal-remover-market-global-forecast"
+      ],
+      "how_searched": [
+        "websearch: AI vocal remover niche demand",
+        "market research report on vocal-remover market size",
+        "websearch: remove background music from video tool"
+      ],
+      "score": 44.0,
+      "found_at": "2026-11-15T21:52:40.789952+00:00"
+    },
+    {
       "name": "LLM Gateway",
       "field": "LLM API gateway / developer tools",
       "summary": "Open-source OpenAI-compatible gateway routing requests across 40+ providers and 200+ models with cost tracking, caching, failover and embeddable payments.",
@@ -4517,6 +4511,23 @@
       ],
       "score": 42.7,
       "found_at": "2026-11-10T10:05:30.216062+00:00"
+    },
+    {
+      "name": "SaaS price-change monitoring & alerts",
+      "field": "Procurement / SaaS management",
+      "summary": "A service that watches vendors' pricing pages and alerts teams when a SaaS plan's price or terms change. saaspricealerts.com tracks 355 vendors; comparison/roundup content already ranks for the topic.",
+      "why_now": "SaaS budgets are under scrutiny and vendors raise prices frequently; buyers lack a cheap, always-on watcher. Low-cost to build, clear recurring value for finance/ops teams.",
+      "monetization": "Freemium watchlist; paid team alerts (Slack/Teams/Discord), exportable change history, and negotiation intel.",
+      "evidence": [
+        "https://saaspricealerts.com/",
+        "https://www.getpricepulse.com/blog/saas-price-alert-tools-slack-teams-discord-2026.html"
+      ],
+      "how_searched": [
+        "websearch: SaaS price change alert tool",
+        "blog roundup of SaaS price-alert tools 2026"
+      ],
+      "score": 42.7,
+      "found_at": "2026-11-15T21:52:41.136143+00:00"
     },
     {
       "name": "Kupkaike (Etsy niche scanner + digital product generator)",
