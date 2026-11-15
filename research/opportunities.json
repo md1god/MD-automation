@@ -119,31 +119,6 @@
       "found_at": "2026-10-27T10:37:23.236780+00:00"
     },
     {
-      "name": "AI Content Detector (Free Web Tool)",
-      "field": "AI Detection / EdTech / Content Integrity",
-      "summary": "A free browser-based tool that analyzes text and returns an AI-probability score, highlighting suspicious passages. Targets students, educators, publishers, and hiring managers who need to verify human authorship.",
-      "why_now": "Explosive demand: 'ai detector' is #1 trending AI term on Google Trends (10,000% of GPTs baseline, 2.7M monthly US searches per Treendly, seasonal October peak). GPTZero reached 19M users and $30M ARR before acquisition by Superhuman. Turnitin does $203M/yr across 17K institutions. Lunchbreak AI (detector + humanizer) shows $33K verified MRR. Market sized at $749.8M in 2026, 32% CAGR.",
-      "monetization": "Freemium: free scans up to 2K words; Pro $9-15/mo for 50K-100K words, bulk upload, API, multi-detector consensus (GPTZero, Copyleaks, Originality), PDF reports. Enterprise/education site licenses $2-6/student/yr. Affiliate revenue from humanizer upsell.",
-      "evidence": [
-        "https://tiderank.tech/en/ai-trends-rank",
-        "https://www.treendly.com/trend/ai-detector",
-        "https://startupfortune.com/superhuman-bets-on-trust-as-it-buys-ai-detection-startup-gptzero-for-its-19-million-users-and-30m-arr/",
-        "https://1m.chat/cases/lunchbreak/",
-        "https://detectiondrama.com/ai-detection-industry-report-2026/",
-        "https://www.risingtrends.co/trends/ai-trends-2026"
-      ],
-      "how_searched": [
-        "Google Trends / TideRank trending keywords",
-        "Treendly trend analysis with search volume",
-        "Indie Hackers / 1M.chat verified revenue (Stripe)",
-        "Market research reports (Detection Drama, MarketsandMarkets)",
-        "Rising Trends AI trend database",
-        "Product Hunt / news coverage of GPTZero acquisition"
-      ],
-      "score": 95.0,
-      "found_at": "2026-10-24T23:30:09.476369+00:00"
-    },
-    {
       "name": "AI Phone Answering for Small Businesses (Missed Call Recovery)",
       "field": "Business Automation / Customer Service",
       "summary": "AI voice agents that answer missed calls 24/7, capture leads, and book appointments for small businesses that can't afford full-time receptionists.",
@@ -311,33 +286,6 @@
       ],
       "score": 93.0,
       "found_at": "2026-10-28T16:04:45.286198+00:00"
-    },
-    {
-      "name": "AI Text Humanizer (Free Web Tool)",
-      "summary": "A free web tool that rewrites AI-generated text to sound human and bypass detectors. Includes a 'humanization dial' for tone/register control, multi-detector verification panel, and credit-based usage.",
-      "field": "AI Writing / Content Marketing / SEO",
-      "why_now": "Companion market to detectors rising in lockstep: 'humanizer ai' 2,000% of GPTs peak, 'ai humanizer' 1,667% peak (TideRank). Undetectable AI bootstrapped to ~$10M ARR, 22M+ users (Stripe case study: 48% gross profit increase). Lunchbreak AI combines detection + humanization at $33K verified MRR. Multiple smaller tools (undetectedgpt.ai $6.2K MRR, Phrasly, StealthGPT) show viable niche. Trustpilot complaints on billing reveal pricing power and retention.",
-      "monetization": "Freemium: 250-word free trial; Starter $5-10/mo (10K words), Pro $10-20/mo (20-35K), Advanced $15-31/mo (35-50K), Enterprise custom. API access on all paid tiers. Annual billing 50% discount. Credit packs for burst usage.",
-      "evidence": [
-        "https://tiderank.tech/en/ai-trends-rank",
-        "https://stripe.com/customers/undetectable",
-        "https://www.everydev.ai/developers/undetectable-inc",
-        "https://1m.chat/cases/lunchbreak/",
-        "https://probedex.ai/domain/undetectedgpt.ai",
-        "https://verva.com/blog/largest-ai-humanizers",
-        "https://aitoolblaze.com/blog/undetectable-ai-review-2026"
-      ],
-      "how_searched": [
-        "Google Trends / TideRank trending keywords",
-        "Stripe customer case study (verified revenue)",
-        "Company directory / business model disclosures",
-        "Indie Hackers / 1M.chat verified revenue (Stripe)",
-        "Probedex traffic & revenue estimates",
-        "Industry blog analysis of market leaders",
-        "Independent product reviews with testing data"
-      ],
-      "score": 92.0,
-      "found_at": "2026-10-24T23:30:12.156351+00:00"
     },
     {
       "name": "GEO/AEO Citation Tracking (MentionBird-like visibility tools)",
@@ -516,35 +464,6 @@
       "found_at": "2026-11-13T08:04:51.876183+00:00"
     },
     {
-      "name": "AI Voice Receptionist for SMBs (Free Web Tool + Twilio)",
-      "summary": "A browser-based builder for AI phone agents that answer calls, book appointments, capture leads, and integrate with calendars/CRM. Users connect a Twilio number, configure knowledge base, and deploy in minutes. No code required.",
-      "field": "Voice AI / SMB SaaS / Customer Support",
-      "why_now": "Breakout buyer intent: 'ai receptionist' 450K monthly searches (+125x YoY), 'ai call centers' 301K (+300x), 'ai voice agents' 201K (+106x) per Rising Trends. fonio.ai hit $10M ARR in <12 months (30% MoM growth, 7K+ customers). Retell AI $60M annualized (+650% YoY). Clarvo $1M ARR at $250/seat. Aeva $60K MRR (healthcare niche). VOISA ~$7K MRR (DACH, 48 subs). Setter AI $10K MRR (40 clients). Pricing $500-1,500/mo/client proves willingness to pay.",
-      "monetization": "Free tier: 100 mins/mo, 1 number, basic flows. Starter $49/mo (500 mins), Pro $149/mo (2,000 mins, CRM sync), Business $299/mo (5,000 mins, white-label, webhook). Per-minute overage $0.10-0.20. Setup fee $99-499 for complex integrations. White-label reseller program 70-90% margin.",
-      "evidence": [
-        "https://www.risingtrends.co/trends/ai-trends-2026",
-        "https://thenextweb.com/news/fonio-ai-10-million-arr-vienna-voice-ai",
-        "https://sacra.com/research/retell-ai-60m-yr-up-650-yoy/",
-        "https://provenstartups.com/blog/ai-agencies/ai-voice-agent-business",
-        "https://www.sofarbot.com/stories/voisa-itouch-7070-mrr",
-        "https://ponicorn.com/startups/aeva-ai-receptionist",
-        "https://getpodcast.com/at/podcast/the-top-entrepreneurs-in-money-marketing-business-and-life/how-flossy-reached-4m-arr-with-ai-dental-receptionists_a19aac4427",
-        "https://callsphere.ai/blog/vw7a-white-label-ai-voice-agency-model-2026"
-      ],
-      "how_searched": [
-        "Rising Trends AI search trend database (year-over-year growth)",
-        "Tech news coverage (The Next Web) with founder revenue claims",
-        "Sacra research report (verified ARR estimates)",
-        "ProvenStartups revenue case studies",
-        "SoFarBot / TrustMRR historical Stripe snapshots",
-        "Ponicorn startup database (founder-reported MRR)",
-        "Podcast interview with Flossy CEO ($4M ARR)",
-        "Agency white-label playbook with margin math"
-      ],
-      "score": 90.0,
-      "found_at": "2026-10-24T23:30:14.602677+00:00"
-    },
-    {
       "name": "Zernio (marketing infrastructure API for products/agents)",
       "field": "Developer tools / marketing infra",
       "summary": "One API covering social posting, ads, messaging, calls and analytics across 16+ platforms, built for developers and AI agents.",
@@ -639,52 +558,6 @@
       ],
       "score": 89.0,
       "found_at": "2026-11-13T08:04:52.480209+00:00"
-    },
-    {
-      "name": "GEO / AI Search Visibility Checker (Free Web Tool)",
-      "summary": "A free tool that queries multiple LLMs (ChatGPT, Claude, Gemini, Perplexity) for a brand's target prompts and returns citation frequency, sentiment, and competitor gaps. Helps marketers optimize for AI search instead of traditional SEO.",
-      "field": "Marketing Tech / SEO / Generative Engine Optimization",
-      "why_now": "New category exploding: GEO market $1.09B in 2026 (+28.5% YoY), 40.6% CAGR (Dimension Market Research). Peec AI: $10M ARR in 14 months (doubled from $4M in 6 months, TechCrunch-verified). Pixis Visibility: $3M ARR in 60 days. Semrush AI products: $38M ARR (up from $4M). Promptwatch: €2M ARR in 12 months. Profound raised $334.5M at $1.8B valuation. Self-serve plans $29-500/mo. Only 23% of marketers investing yet — early mover advantage.",
-      "monetization": "Free: 5 prompts/day across 3 engines. Starter $29/mo (50 prompts, 5 engines). Pro $99/mo (200 prompts, all engines, competitor tracking). Agency $299/mo (1,000 prompts, white-label reports, API). Enterprise custom. Credit packs for burst audits.",
-      "evidence": [
-        "https://henkanpartners.ai/en/insights/ai-search-visibility-market-2023-2026/",
-        "https://theoutpost.ai/news-story/peec-ai-doubles-revenue-to-10-m-helping-brands-show-up-in-chat-gpt-and-ai-search-results-26581/",
-        "https://markets.businessinsider.com/news/currencies/pixis-visibility-reaches-3-million-in-arr-within-60-days-as-brands-adapt-to-ai-driven-search-1036616000",
-        "https://www.sianamarketing.com/resources/ai-seo-market-size",
-        "https://www.marketdecipher.com/report/generative-engine-optimization-market",
-        "https://dimensionmarketresearch.com/report/us-generative-engine-optimization-market/",
-        "https://www.demandlocal.com/blog/geo-revenue-stream-advertising/",
-        "https://cite.solutions/blog/geo-budget-line-2026-funding"
-      ],
-      "how_searched": [
-        "Market research reports (Henkan, Dimension, Market Decipher, Siana)",
-        "TechCrunch-verified revenue milestones (Peec AI, Pixis)",
-        "Public company filings (Semrush AI revenue breakdown)",
-        "Startup announcements (Promptwatch, Profound funding)",
-        "Agency revenue model guides with retainer math",
-        "Budget recommendation articles with spend data"
-      ],
-      "score": 88.0,
-      "found_at": "2026-10-24T23:30:18.704033+00:00"
-    },
-    {
-      "name": "AI Code Documentation Generator",
-      "field": "Developer Tools",
-      "summary": "A free web tool that auto-generates and maintains code documentation (README, API docs, architecture diagrams) from any GitHub repo using LLMs, with live sync on every push.",
-      "why_now": "Documentation is developers' #1 pain point (Stack Overflow 2024 survey). Qodo reports catching 5 bugs/dev/month via docs+tests. GitHub trending shows AutoGen (167K★), GPT-Engineer (52K★), OpenHands (74K★) all building doc-aware agents. Stripe AI economy: dev tools hit $1M ARR in 5 months median.",
-      "monetization": "Freemium: free for public repos; $15-30/mo for private repos, team features, custom templates. CodeRabbit $15M ARR proves devs pay for PR-integrated AI.",
-      "evidence": [
-        "https://github.com/trending",
-        "https://www.sacra.com/research/cursor-at-65m-arr/",
-        "https://trends.vc/opportunities/ai-code-review-tools"
-      ],
-      "how_searched": [
-        "GitHub Trending (star growth)",
-        "Stripe AI Economy Report (revenue benchmarks)",
-        "Trends.vc Market Analysis (revenue data)"
-      ],
-      "score": 88.0,
-      "found_at": "2026-10-25T01:29:16.067658+00:00"
     },
     {
       "name": "Tattoo Preview & Artist Brief Studio",
@@ -832,6 +705,26 @@
       ],
       "score": 88.0,
       "found_at": "2026-11-14T17:16:13.279136+00:00"
+    },
+    {
+      "name": "Prompt-to-Company Builder (AI builds & runs your business)",
+      "field": "Autonomous AI company / agent-run business",
+      "summary": "Free web tool where a prompt instantly generates a landing page, product, payments inbox and daily agent to-do reports — an original rebuild of the 'AI runs a company for you' wedge (new code, name, design).",
+      "why_now": "Polsia went from ~$1.5M to $20M+ run rate in 7 months with ~50,000 paying customers and one human (Solo Founders podcast, Nov 12 2026); NanoCorp reported ~$9M annual run-rate and 15,000+ AI companies created on HN. $30M raised at $250M valuation.",
+      "monetization": "Subscriptions $20–$1,000/mo per company plus credit packs, ad-spend fee (20%) and payment cut (3% as of Sep 2026); Polsia run rate $20M+ (founder-reported Oct 2026), ~$11M of $18.7M headline recurring (Sep 2026).",
+      "evidence": [
+        "https://solofounders.beehiiv.com/p/1-5m-to-20m-run-rate-in-7-months-solo",
+        "https://agent-built.vercel.app/biz/polsia",
+        "https://horizontal.one/cases/polsia-ai-agents-run-companies/"
+      ],
+      "how_searched": [
+        "open-startup/revenue case-study sites",
+        "founder podcast & newsletter coverage",
+        "Hacker News Launch/Show HN threads",
+        "funding news aggregators"
+      ],
+      "score": 88.0,
+      "found_at": "2026-11-15T02:13:33.226628+00:00"
     },
     {
       "name": "RemediatePDF",
@@ -1029,51 +922,25 @@
       "found_at": "2026-11-14T17:16:16.911207+00:00"
     },
     {
-      "name": "Local LLM Playground & Model Router (Free Web Tool)",
-      "summary": "A browser-based UI (via WebLLM / WebGPU or local Ollama bridge) that lets users chat with open-weight models privately, compare models side-by-side, and route prompts to the cheapest/best model. Includes cost calculator, prompt templates, and API key management for cloud fallback.",
-      "field": "Developer Tools / Local AI / Privacy Tech",
-      "why_now": "Surging practitioner demand: 'Self Hosting LlM' 9,900 searches (+21x YoY), 'local llm' 246K searches (+68x YoY) per Rising Trends. LM Studio $10M revenue, AnythingLLM $2.4M, Jan AI $1.8M (Trends.vc). Featherless.ai $3.6M ARR, 10K customers (serverless 6,700 models). LLM Gateway $79K MRR ($470K in 12 months, 200+ models, 20+ providers). Silkwave/VaultBox $7.3M ARR. Solo operators renting M5 Mac compute at $800-2,400/mo. WebGPU/WebLLM now enables zero-install browser inference.",
-      "monetization": "Free: local models via WebGPU, basic chat. Pro $15/mo: cloud model router (200+ models), cost tracking, fallback chains, team workspaces, API keys. Enterprise $99/mo: SSO, audit logs, private cloud deployment, SLA. Marketplace commission on model referrals. DevPass-style flat-rate for AI coding tools ($29-179/mo).",
+      "name": "Prompt-to-Game Studio (free browser game maker)",
+      "field": "AI game creation / no-code game engine",
+      "summary": "Free web tool that turns a text description into a playable browser game (code + assets) with one-click share links — the idea behind the current AI game-making wave.",
+      "why_now": "Roblox's Q3 2026 shareholder letter: 500k+ users published 70k+ games in 5 months via prompt-to-game 'Build', 80% of top-100 games used AI tools; itch.io game-page creations doubled in 2 months. Wanaka Studio (AI 3D game engine) was Product Hunt #3 for Nov 2026 (495 score); Google launched free Playground, Unity shipped Spark.",
+      "monetization": "Freemium AI credits: Rosebud $15/mo, GDevelop $7.99/mo, Summer Engine $20/mo; Roblox Build free (ads inside top games); marketplace/take-rate upside on shared games.",
       "evidence": [
-        "https://www.risingtrends.co/trends/ai-trends-2026",
-        "https://trends.vc/opportunities/local-llm-desktop-apps",
-        "https://www.tapesearch.com/episode/featherless-3-6m-revenue-running-6-700-open-source-ai-models-eugene-cheah/kZ5wqsYX5EBpKiF8vPpKUK",
-        "https://milestonewins.com/stories/llm-gateway-story/",
-        "https://smakosh.com/blog/building-llm-gateway",
-        "https://betonai.net/renting-out-m5-mac-local-ai-compute-800-2400-month-solo-operators-2026/",
-        "https://www.linkedin.com/company/silkwave-ai",
-        "https://www.antseed.com/blog/earn-from-your-local-ai-model/"
+        "https://gamer2go.com/news/roblox-says-ai-tools-helped-publish-70000-games-in-five-months/",
+        "https://www.producthunt.com/leaderboard/monthly/2026/11",
+        "https://maccus.fr/en/roblox-ai-built-games/",
+        "https://rosebud.ai/ai-game-creator"
       ],
       "how_searched": [
-        "Rising Trends AI search trend database",
-        "Trends.vc market analysis with revenue figures",
-        "Podcast transcript with founder revenue disclosure (Featherless)",
-        "MilestoneWins / founder blog with TrustMRR-verified revenue",
-        "BetOnAI operator revenue case studies (compute rental)",
-        "LinkedIn company financials (Silkwave)",
-        "Platform launch announcements (Antseed marketplace)"
+        "public company shareholder filings / news",
+        "Product Hunt monthly leaderboard",
+        "game-industry news",
+        "competitor pricing pages"
       ],
-      "score": 85.0,
-      "found_at": "2026-10-24T23:30:21.486308+00:00"
-    },
-    {
-      "name": "AI Resume Builder & ATS Optimizer",
-      "field": "Career / HR Tech",
-      "summary": "Free web tool that tailors resumes to specific job descriptions, scores ATS compatibility, and generates tailored cover letters — all from a single upload + target role.",
-      "why_now": "Auto_Jobs_Applier_AIHawk hit 17K★ on GitHub (+249★/day) automating job apps. ResumeUp.AI on AppSumo (43 reviews). Reddit r/Entrepreneur threads show 'finding right talent' and 'job search' as top pains. LinkedIn AI Writing tools trending.",
-      "monetization": "Free core builder; $9-19/mo for unlimited tailoring, ATS scoring, cover letters, interview prep. Top education products on Gumroad sell at $79-149 (CreatorOS $216K in 7mo).",
-      "evidence": [
-        "https://github.com/feder-cr/Auto_Jobs_Applier_AIHawk",
-        "https://appsumo.com/",
-        "https://www.reddit.com/r/Entrepreneur/comments/1fnedxh/"
-      ],
-      "how_searched": [
-        "GitHub Trending (star velocity)",
-        "AppSumo Marketplace (reviews/revenue)",
-        "Reddit Pain Point Analysis"
-      ],
-      "score": 85.0,
-      "found_at": "2026-10-25T01:29:17.157967+00:00"
+      "score": 86.0,
+      "found_at": "2026-11-15T02:13:35.223383+00:00"
     },
     {
       "name": "Haircut & Colour Simulator with Face-Shape Guide",
@@ -1266,6 +1133,27 @@
       "found_at": "2026-11-13T08:04:53.271646+00:00"
     },
     {
+      "name": "Manuscript-to-Published-Book Pipeline (agentic publishing)",
+      "field": "AI book publishing / self-publishing",
+      "summary": "Free web tool that takes a finished manuscript and runs it through agents for formatting, cover, EPUB/PDF export, metadata and distribution checklists — original rebuild of the agentic publishing idea.",
+      "why_now": "Spines hit $50M revenue run rate, +400% YoY, 8,000 authors / 12,000 titles, ~400 new authors/month, and raised $64M (Nov 9 2026) — covered independently by Fortune, Publishers Weekly and Sacra. Revenue went from ~$5M (end 2024) to $50M in under two years.",
+      "monetization": "Production packages $3,000–$20,000 (most authors pick $5k–$7k) plus ongoing royalty share (authors keep 70–80% of net); Sacra estimates $50M annualized at end of Oct 2026.",
+      "evidence": [
+        "https://fortune.com/2026/11/09/publisher-spines-raises-64-million-in-new-funding-to-accelerate-effort-to-automate-book-publishing-with-ai-agents/",
+        "https://www.publishersweekly.com/pw/by-topic/industry-news/publisher-news/article/101729-self-pub-platform-spines-raises-64-million-recasts-its-ai-pitch.html",
+        "https://sacra.com/c/spines/",
+        "https://www.prnewswire.com/news-releases/spines-secures-64m-to-help-more-authors-publish-and-reach-readers-worldwide-302933315.html"
+      ],
+      "how_searched": [
+        "funding news (PR wire)",
+        "trade press (Publishers Weekly)",
+        "revenue research sites (Sacra)",
+        "business press (Fortune)"
+      ],
+      "score": 85.0,
+      "found_at": "2026-11-15T02:13:36.329981+00:00"
+    },
+    {
       "name": "Cross-AI Chat Search & Export Workspace",
       "field": "AI productivity / knowledge management",
       "summary": "A local-first browser extension or web workspace that indexes ChatGPT, Claude, Gemini and Grok conversations, adds folders, full-text search, prompt libraries and bulk export.",
@@ -1420,25 +1308,6 @@
       "found_at": "2026-10-31T05:49:36.587823+00:00"
     },
     {
-      "name": "Vertical Micro-SaaS for Overlooked Niches (Laundromats/Chiropractors/Vets)",
-      "field": "Vertical SaaS",
-      "summary": "Free web tools targeting one specific niche: e.g., 'Laundromat Machine Monitor' (QR code on machines → SMS alerts when cycle done), 'Chiro Patient Flow' (auto-recall, insurance verify), 'Vet Vaccine Tracker' (pet owner reminders + clinic dashboard).",
-      "why_now": "a16z analyzed 620 NAICS codes: laundromats $2.7B labor, chiropractors $4.5B, vets $13.8B. PYMNTS: AI makes these viable (10x LTV). Tidemark: 31% vertical SaaS have AI product, 39% launching.",
-      "monetization": "Free tool as lead gen for paid vertical SaaS ($49-199/mo). Or free tool + marketplace (parts, supplies, services) taking 5-10% transaction fee. ServiceTitan/Jobber prove $100M+ ARR.",
-      "evidence": [
-        "https://a16z.com/vsaas-vertical-saas-ai-opens-new-markets/",
-        "https://www.pymnts.com/news/artificial-intelligence/2024/ai-opens-gold-rush-niche-business-software-markets/",
-        "https://tidemarkcap.com/post/2024-vertical-smb-saas-benchmark-report/"
-      ],
-      "how_searched": [
-        "a16z Market Analysis (NAICS data)",
-        "PYMNTS Industry Report",
-        "Tidemark Benchmark Report (250 operators)"
-      ],
-      "score": 83.0,
-      "found_at": "2026-10-25T01:29:33.133076+00:00"
-    },
-    {
       "name": "'I wish there was...' Opportunity Finder (Reddit/Gaps Scanners)",
       "field": "Research/Validation Tools",
       "summary": "Tools scanning Reddit/forums for unmet needs (\"I wish there was...\", workarounds) to find validated ideas before building.",
@@ -1553,54 +1422,6 @@
       ],
       "score": 83.0,
       "found_at": "2026-11-13T08:04:54.194708+00:00"
-    },
-    {
-      "name": "AI Short-Form Video Generator / Repurposer (Free Web Tool)",
-      "summary": "A browser-based tool that turns long-form content (YouTube, podcasts, blogs, PDFs) into viral short-form videos (TikTok/Reels/Shorts) with auto-captions, B-roll, voiceover, and direct publishing. Template library of proven viral formats.",
-      "field": "Creator Tools / Video AI / Social Media Marketing",
-      "why_now": "Multiple revenue-verified winners: Revid $600K MRR claimed (500K monthly visits, 3M+ signups), AutoShorts.ai $103K MRR, Speel.co $66K MRR (Stripe-verified), Promptwise $63K MRR, Vid.AI $46K MRR, StoryShort.ai $22K MRR (processor-verified). MadeWithModels lists 15+ tools with revenue. KanonAgent tracks Speel.co, Promptwise, Render AI, Vid.AI all $50K+/mo. Motionvid.ai $7.7K MRR in 21 days (AppSumo launch).",
-      "monetization": "Free: 3 videos/mo, watermark. Hobby $39/mo (2K credits, ~20 videos). Growth $89/mo (5K credits, voice clone, API). Ultra $199/mo (12K credits, team, auto-publish). Credit packs $49/1K. API/MCP access for agents. Template marketplace commission.",
-      "evidence": [
-        "https://madewithmodels.com/money/lists/ai-video-tools-revenue/",
-        "https://buildradar.leapd.ai/revid",
-        "https://developer.volcengine.com/articles/7587307824548413494",
-        "https://www.alphamoat.ai/en/ai/revid-ai",
-        "https://kanonagent.com/en/c/Software",
-        "https://www.mrrstory.com/stories/how-we-built-a-77k-mrr-ai-video-tool-in-21-days-no-ads",
-        "https://www.revid.ai/ai-instructions",
-        "https://getlatka.com/companies/revid.ai"
-      ],
-      "how_searched": [
-        "Revenue leaderboard sites (MadeWithModels, KanonAgent)",
-        "BuildRadar revenue estimates from public sources",
-        "Chinese tech analysis with traffic/revenue breakdown",
-        "AlphaMoat traffic analytics (monthly visits, rank)",
-        "KanonAgent automated traction tracking (MRR)",
-        "MRRStory founder case study (AppSumo launch)",
-        "Company's own API/instructions documentation",
-        "GetLatka revenue estimates"
-      ],
-      "score": 82.0,
-      "found_at": "2026-10-24T23:30:27.259869+00:00"
-    },
-    {
-      "name": "AI Video Clip Generator from Long-Form",
-      "field": "Creator Tools",
-      "summary": "Free web tool: drop a 10-60 min video, get 5-15 viral-ready vertical clips (TikTok/Reels/Shorts) with auto-captions, reframing, and hook detection.",
-      "why_now": "JoggAI 636 upvotes Product Hunt Oct 2024. MoneyPrinterTurbo 16.4K★ GitHub (+76/day). FujiwaraChoki/MoneyPrinter 10K★. Video SDK 3.0 1,107 upvotes. OpusClip/Descript commercial validation.",
-      "monetization": "Free tier: 10 clips/mo, watermark. Pro $19-29/mo: 100 clips, 4K, no watermark, brand kit, direct publish. Gumroad video presets (Essential Motion 2.0) did $1.8M.",
-      "evidence": [
-        "https://www.producthunt.com/leaderboard/monthly/2024/10",
-        "https://github.com/harry0703/MoneyPrinterTurbo",
-        "https://profitable.app/gumroad"
-      ],
-      "how_searched": [
-        "Product Hunt Leaderboard (upvotes)",
-        "GitHub Trending (star growth)",
-        "Gumroad Sales Tracker (revenue)"
-      ],
-      "score": 82.0,
-      "found_at": "2026-10-25T01:29:18.776750+00:00"
     },
     {
       "name": "Conversation-First Language Tutor",
@@ -1787,25 +1608,6 @@
       "found_at": "2026-10-28T21:14:43.074261+00:00"
     },
     {
-      "name": "AI Cold Email Personalization Engine",
-      "field": "Sales / Marketing",
-      "summary": "Free web tool that researches a prospect (LinkedIn, website, news), writes a hyper-personalized cold email, and predicts reply rate — one click from a CSV upload.",
-      "why_now": "pipl.ai 2.0 launched Product Hunt Oct 2024. FullEnrich 2.0 798 upvotes (waterfall enrichment 15 vendors). Generect 466 upvotes (97.5% deliverability). Reoon Email Verifier 485 reviews AppSumo.",
-      "monetization": "Free: 50 emails/mo. Pro $29-49/mo: unlimited, A/B testing, CRM sync, deliverability monitoring. Instantly.ai/Smartlead show $10M+ ARR in this category.",
-      "evidence": [
-        "https://www.producthunt.com/leaderboard/daily/2024/10/10",
-        "https://appsumo.com/",
-        "https://www.indiehackers.com/post/this-week-in-micro-saas-chrome-extension-making-9k-mrr-and-more-ce34f97ab7"
-      ],
-      "how_searched": [
-        "Product Hunt Launches (upvotes/comments)",
-        "AppSumo Reviews (customer validation)",
-        "Indie Hackers Revenue Reports"
-      ],
-      "score": 80.0,
-      "found_at": "2026-10-25T01:29:19.781262+00:00"
-    },
-    {
       "name": "DDSVault",
       "field": "Supply-chain compliance / RegTech",
       "summary": "A low-cost EUDR evidence workspace for small importers that collects supplier geolocation and legality documents, runs risk checks, stores audit evidence for five years, and prepares due-diligence statements for TRACES.",
@@ -1968,25 +1770,6 @@
       "found_at": "2026-11-14T21:32:44.390575+00:00"
     },
     {
-      "name": "AI Web Scraper / Structured Data Extractor",
-      "field": "Data / Developer Tools",
-      "summary": "Free web tool: enter any URL or list of URLs, get clean JSON/CSV of extracted data (products, prices, reviews, articles) — handles pagination, login, JS rendering, anti-bot.",
-      "why_now": "Crawl4AI 12.9K★ (+83/day). Firecrawl 123K★. ScrapegraphAI 14.8K★. Skyvern 5.9K★. browser-use 95K★. Bright Data/Apify commercial validation ($100M+ ARR).",
-      "monetization": "Free: 100 pages/mo. Pro $29-99/mo: 10K pages, scheduling, webhooks, proxy rotation, dedicated support. ScraperAPI/Apify charge $49-499/mo.",
-      "evidence": [
-        "https://github.com/unclecode/crawl4ai",
-        "https://github.com/Skyvern-AI/skyvern",
-        "https://github.com/browser-use/browser-use"
-      ],
-      "how_searched": [
-        "GitHub Trending (star velocity)",
-        "GitHub Star Rankings (yearly movers)",
-        "Commercial Competitor Validation"
-      ],
-      "score": 79.0,
-      "found_at": "2026-10-25T01:29:26.333013+00:00"
-    },
-    {
       "name": "Agent-Callable Social Media Scheduler (MCP/CLI)",
       "field": "Social Media / Agent Infrastructure",
       "summary": "An open-source, agentic social media scheduler that AI agents (Claude, Codex, OpenClaw, Cursor) can call via MCP endpoint and CLI to plan, generate, and publish posts across 30+ networks, with a paid managed cloud on top.",
@@ -2067,71 +1850,6 @@
       ],
       "score": 79.0,
       "found_at": "2026-11-14T03:21:59.120478+00:00"
-    },
-    {
-      "name": "Niche Chrome Extension Builder (SEO/Marketing/AI)",
-      "summary": "A free web tool that generates Chrome extension boilerplate (Manifest V3, React/TypeScript, Tailwind) for common niches: SERP overlays, competitor price trackers, content extractors, AI prompt injectors. One-click deploy to Chrome Web Store.",
-      "field": "Developer Tools / Browser Extensions / Micro-SaaS",
-      "why_now": "Chrome Web Store has 270K+ extensions but only ~390 with 1M+ users (ExtWatch). Top 10% of SEO/Marketing extensions average $5K-15K/mo (NicheCheck). Fastest-growing: Scribe 2M users ($2M ARR implied), Hide Google AI Overviews 600K users, YouTube to NotebookLM 500K users. ExtWatch: 13% of 1K+ extensions gained users last month. Games/Education lead growth (27%/26%). Proton Pass, Scribe, Enhancer for YouTube all crossed 2M users recently.",
-      "monetization": "Free: boilerplate generator, basic templates. Pro $29/mo: premium templates (AI SERP overlay, price tracker, form filler), auto-update pipeline, analytics dashboard, Chrome Store optimization checklist. Agency $99/mo: white-label, multi-extension management, client billing. Template marketplace 30% commission.",
-      "evidence": [
-        "https://extwatch.com/blog/make-money-chrome-extension",
-        "https://nichecheck.com/blog/chrome-extension-market-size-2026",
-        "https://extwatch.com/blog/fastest-growing-chrome-extensions",
-        "https://extwatch.com/blog/browser-extension-examples",
-        "https://storetally.com/chrome/featured",
-        "https://chrome-stats.com/chrome/top",
-        "https://extops.dev/extensions"
-      ],
-      "how_searched": [
-        "ExtWatch research blog (market size, revenue distribution, growth data)",
-        "NicheCheck market size report with revenue by category",
-        "ExtWatch fastest-growing extensions analysis (monthly user gains)",
-        "ExtWatch 100K+ user extension case studies",
-        "StoreTally featured extensions (user counts, ratings)",
-        "Chrome-Stats top extensions by user count",
-        "ExtOps daily catalog statistics (373K listings)"
-      ],
-      "score": 78.0,
-      "found_at": "2026-10-24T23:30:34.910180+00:00"
-    },
-    {
-      "name": "AI Affiliate Program Manager",
-      "field": "E-commerce / Marketing",
-      "summary": "Free web tool to launch and run an affiliate program in minutes: auto-generate signup pages, tracking links, payout rules, and fraud detection — no code, integrates with Stripe/Paddle.",
-      "why_now": "Push Lap Growth on AppSumo (38 reviews, 'launch affiliate program in 10 minutes'). Gumroad top sellers (CreatorOS, Easlo) rely on affiliates. Stripe AI economy: usage-based billing growing. Creator economy $250B+ market.",
-      "monetization": "Free up to 50 affiliates. $29-79/mo for unlimited, white-label, custom commissions, fraud protection. FirstPromoter/ReferralCandy charge $49-149/mo.",
-      "evidence": [
-        "https://appsumo.com/collections/sumo-day/",
-        "https://profitable.app/gumroad",
-        "https://go.stripe.global/rs/072-MDK-283/images/Indexing_the_AI_economy_EN-GB.pdf"
-      ],
-      "how_searched": [
-        "AppSumo New Deals (reviews)",
-        "Gumroad Best Sellers (affiliate usage)",
-        "Stripe AI Economy Report (billing trends)"
-      ],
-      "score": 78.0,
-      "found_at": "2026-10-25T01:29:22.983761+00:00"
-    },
-    {
-      "name": "AI OCR & Document Understanding (Receipts/Invoices/Forms)",
-      "field": "Finance / Productivity",
-      "summary": "Free web tool: drag-drop any PDF/image (receipt, invoice, form, ID), get structured JSON + searchable PDF + spreadsheet export — 90+ languages, table detection, key-value extraction.",
-      "why_now": "GOT-OCR2.0 5.1K★ (+130/day). Surya 10.2K★ (+37/day). Marker 16.9K★ (+49/day). PaddleOCR 43K★. Umi-OCR 26K★. Veryfi/Nanonets commercial success. SparkReceipt 4.6M receipts processed.",
-      "monetization": "Free: 50 pages/mo. Pro $15-29/mo: 1000 pages, batch, API, webhooks, custom fields. Mindee/Affordable OCR APIs charge $0.01-0.05/page.",
-      "evidence": [
-        "https://github.com/Ucas-HaoranWei/GOT-OCR2.0",
-        "https://github.com/VikParuchuri/surya",
-        "https://sparkreceipt.com/"
-      ],
-      "how_searched": [
-        "GitHub Trending (daily star growth)",
-        "Commercial SaaS Metrics (SparkReceipt)",
-        "OCR Market Validation"
-      ],
-      "score": 78.0,
-      "found_at": "2026-10-25T01:29:28.880350+00:00"
     },
     {
       "name": "Onepin (AI voiceover validation/normalization)",
@@ -2310,6 +2028,27 @@
       ],
       "score": 78.0,
       "found_at": "2026-11-14T21:32:46.442358+00:00"
+    },
+    {
+      "name": "MSP AI Control Plane (AI toolkit for IT service providers)",
+      "field": "MSP / IT services software",
+      "summary": "Free web tool that audits an MSP's client base for 'shadow AI' risk and generates a ready-to-sell AI service package — aimed at the managed-service-provider channel that is buying AI fastest.",
+      "why_now": "Hatz AI raised $24M Series A (Nov 12 2026): active MSP partners tripled YoY, revenue grew faster, ~1,000 MSP partners, 15,000+ AI certifications. Informa 2026 MSP 501: 57% of MSPs expect AI among their largest revenue-growth areas (vs 37% prior year). 'it crm software' search +26% in 3 months, ~+57K/month (NextBig, week of Nov 9 2026).",
+      "monetization": "Multi-tenant SaaS sold through MSPs to SMBs (Hatz revenue undisclosed but growing faster than 3x partner growth); MSP software market $600M/quarter, +15.6% YoY (Omdia Q2 2026).",
+      "evidence": [
+        "https://www.prnewswire.com/news-releases/hatz-ai-raises-24m-series-a-to-solidify-position-as-the-ai-platform-for-managed-service-providers-and-small-and-medium-sized-businesses-302936133.html",
+        "https://www.crn.com/news/ai/2026/hatz-ai-s-tripled-growth-driven-by-ai-adoption-and-our-team-s-speed-to-ship",
+        "https://nextbig.io/weekly/2026-11-09",
+        "https://www.channelinsider.com/channel-business/hatz-ai-24m-series-a-msp-growth/"
+      ],
+      "how_searched": [
+        "funding press releases",
+        "IT channel trade press",
+        "search-trend aggregators",
+        "industry analyst coverage"
+      ],
+      "score": 78.0,
+      "found_at": "2026-11-15T02:13:37.023566+00:00"
     },
     {
       "name": "Freelancer Contract Risk Scanner",
@@ -2624,6 +2363,27 @@
       "found_at": "2026-11-14T17:16:22.653129+00:00"
     },
     {
+      "name": "Cross-Agent Memory Layer (persistent context for your AI)",
+      "field": "AI agent memory / developer tools",
+      "summary": "Free web tool that captures what your AI assistants do across sessions, compresses it, and lets you search/replay it from one dashboard — the rebuildable idea behind the agent-memory wave.",
+      "why_now": "claude-mem hit ~117k GitHub stars (+~382 stars/day, 75k npm weekly downloads) in Nov 2026; whole category (Mem0 69k, MemPalace 60k, Hindsight 61k stars) is accelerating. beacon.sh (open-source agent memory) was Product Hunt #1 of Nov 2026 with score 516.",
+      "monetization": "Open core: free local install, paid hosted sync/team workspace (claude-mem ships optional cloud sync); hosted memory API tiers (Mem0/Supermemory pattern).",
+      "evidence": [
+        "https://agentdataco.com/repo/thedotmack/claude-mem",
+        "https://followagents.com/en/compare/agent-memory",
+        "https://www.producthunt.com/leaderboard/monthly/2026/11",
+        "https://www.npmjs.com/package/claude-mem"
+      ],
+      "how_searched": [
+        "GitHub star-tracking services",
+        "Product Hunt monthly leaderboard",
+        "package registry download stats",
+        "category comparison roundups"
+      ],
+      "score": 73.0,
+      "found_at": "2026-11-15T02:13:37.588962+00:00"
+    },
+    {
       "name": "Personalized healthy restaurant menu",
       "field": "healthy dining",
       "summary": "Tell users exactly what to order at any restaurant based on goals, macros, preferences, and restrictions. Rebuild as a free web/mobile guide with paid personalized plans, saved meals, and grocery/order links.",
@@ -2719,6 +2479,27 @@
       ],
       "score": 72.0,
       "found_at": "2026-11-14T21:32:48.236480+00:00"
+    },
+    {
+      "name": "ADHD / Neurodivergent Planner Generator",
+      "field": "Digital planners / consumer printables",
+      "summary": "Free web tool that generates hyperlinked, low-friction ADHD-style planners (task breakdown, brain-dump, energy planning) ready to export or sell — original build in the hottest planner sub-niche.",
+      "why_now": "'adhd planner' averages 14,800 monthly searches (US 55%) with seasonal Dec–Jan peaks; ADHD planner search grew ~340% Q1 2025→Q1 2026; top Etsy digital-planner listing shows ~$2.9M estimated lifetime revenue and an ADHD planner ~$1.3M (Alura, Oct 2026). Workbooks outsell generic planners ~2:1 in revenue per listing.",
+      "monetization": "Freemium generator; export packs sold $8–$24 (ADHD workbooks $14–$24, planners $7–$12); Etsy digital downloads run ~95% margin; bundle conversion 2.7x singles.",
+      "evidence": [
+        "https://www.rankhero.com/keywords/adhd-planner",
+        "https://www.insightagent.app/guides/etsy-printables-best-sellers",
+        "https://www.alura.io/best-selling-etsy-items/paper-party-supplies",
+        "https://kupkaike.com/blog/adhd-planner-etsy-niche-2026"
+      ],
+      "how_searched": [
+        "marketplace keyword-analytics tools",
+        "Etsy best-seller revenue estimators",
+        "niche research blogs",
+        "marketplace search pages"
+      ],
+      "score": 72.0,
+      "found_at": "2026-11-15T02:13:39.325971+00:00"
     },
     {
       "name": "AI screenwriting and storyboard workspace (Laper pattern)",
@@ -2876,6 +2657,25 @@
       ],
       "score": 70.0,
       "found_at": "2026-11-14T17:16:24.258107+00:00"
+    },
+    {
+      "name": "Agent Workflow Recipe Gallery (n8n / Claude Code automation kits)",
+      "field": "AI automation implementation tools",
+      "summary": "Free web tool: browse, preview and one-click deploy pre-built agent/automation workflows (lead capture, inbox triage, report gen) — packaging the implementation demand freelancers are drowning in.",
+      "why_now": "Two independent marketplaces agree: Fiverr searches for Claude Code specialists +938% and n8n AI automation +125% in six months (2026 Business Trends Index); Upwork found AI integration demand +178% YoY — its fastest-growing coding skill. flconsole counted 31 new AI-agent-dev jobs/day and 16 n8n jobs/day on Upwork (30 days to Oct 15 2026) at $25–30/hr median.",
+      "monetization": "Free core gallery; premium workflow packs, hosted runners and marketplace commissions; mirrors freelance fixed-price builds ($300–$2,000 per automation).",
+      "evidence": [
+        "https://www.fiverr.com/news/business-trends-index-ai-2026",
+        "https://www.upwork.com/press/releases/upworks-in-demand-skills-2026-demand-for-top-ai-skills-more-than-doubles-as-ai-is-embedded-into-everyday-work",
+        "https://flconsole.com/blog/upwork-in-demand-skills"
+      ],
+      "how_searched": [
+        "freelance marketplace trend reports",
+        "freelance job-count trackers",
+        "cross-marketplace demand comparison"
+      ],
+      "score": 70.0,
+      "found_at": "2026-11-15T02:13:40.331105+00:00"
     },
     {
       "name": "General resale-value scanner",
@@ -4402,6 +4202,23 @@
       "found_at": "2026-11-14T17:16:23.261934+00:00"
     },
     {
+      "name": "SOC 2 / ISO Readiness Scanner (compliance gap checker)",
+      "field": "Cybersecurity compliance for startups",
+      "summary": "Free web tool that scans a company's docs and stack, then outputs a SOC 2 / ISO 27001 gap checklist and evidence folder structure — the rebuildable wedge of automated compliance.",
+      "why_now": "Comp AI grew MRR +47.6% month-over-month to ~$18k (Systemaic Bootstrapped Risers, refreshed daily) and shows Stripe-verified MRR $17,383 / +44% on NeewP's Nov 14 2026 leaderboard — two independent revenue trackers. Compliance demand is non-discretionary for B2B SaaS sales.",
+      "monetization": "Freemium gap scan; paid monitoring/automation subscriptions (Vanta/Drata pattern, Comp AI ~$18k MRR and climbing); add-on evidence-collection credits.",
+      "evidence": [
+        "https://www.systemaic.com/tools/bootstrapped-risers",
+        "https://neewp.com/"
+      ],
+      "how_searched": [
+        "bootstrapped-SaaS MRR leaderboards",
+        "Stripe-verified revenue leaderboards"
+      ],
+      "score": 46.7,
+      "found_at": "2026-11-15T02:13:41.630929+00:00"
+    },
+    {
       "name": "StoreRank",
       "field": "App Store optimization / ASO",
       "summary": "A web ASO workbench that audits listings by country, finds keywords, rewrites metadata in many languages, generates screenshots, tracks ranks and exports or uploads changes.",
@@ -4489,6 +4306,23 @@
       ],
       "score": 45.3,
       "found_at": "2026-11-12T19:04:57.956827+00:00"
+    },
+    {
+      "name": "Anti-Slop Design Grader (agent UI taste checker)",
+      "field": "Design quality tooling for AI output",
+      "summary": "Free web tool that scores AI-generated pages/UI against a 'design vocabulary' (spacing, type, hierarchy) and returns concrete fixes — turning the hottest agent-skill genre into a browser tool.",
+      "why_now": "Nutlope/hallmark ('Anti-AI-slop design skill') gained +24,631 stars in November 2026 to ~55k total (GitStock monthly #1); companion repos pbakaus/impeccable (+4,689/7d, 110k total) and Leonxlnx/taste-skill (+3,999/7d) show the whole 'design taste for agents' category pulling thousands of stars weekly (whatstrending.ai, Nov 8–15 2026).",
+      "monetization": "Free grade + before/after report; pro tiers for design tokens, Figma export and CI checks; agency/white-label API.",
+      "evidence": [
+        "https://gitstock.org/trending/monthly/2026-11-14",
+        "https://whatstrending.ai/repos"
+      ],
+      "how_searched": [
+        "GitHub monthly/weekly star-rank trackers",
+        "agent-skill repository trend feeds"
+      ],
+      "score": 44.7,
+      "found_at": "2026-11-15T02:13:44.821521+00:00"
     },
     {
       "name": "Mentiohunt Author Finder",
@@ -4649,6 +4483,23 @@
       ],
       "score": 40.0,
       "found_at": "2026-11-10T10:05:29.599624+00:00"
+    },
+    {
+      "name": "Agent-to-Agent Deal Network (your site negotiates with other agents)",
+      "field": "Agentic commerce / B2B matching",
+      "summary": "Free web tool that gives a business a public agent address so other companies' AI agents can find it, book calls and negotiate — a lightweight original take on agents-selling-to-agents.",
+      "why_now": "Tobira Site Agent was Product Hunt top-10 for Nov 2026 (score 401, 101 comments, 1.8k followers) and Wynter's Nov 11 2026 AI Product Report called it 'a small, strange preview of agents selling to agents'; Product Hunt MCP (score 443) and Scalekit MCP gateway (437) in the same week show agent-to-agent plumbing is the launch theme of the moment.",
+      "monetization": "Free handle/site claim; premium routing, qualification and booking fees when an agent closes a deal; marketplace take-rate on agent-negotiated orders (modelled on commerce-agent checkout rails raising $15–80M in Nov 2026).",
+      "evidence": [
+        "https://www.producthunt.com/leaderboard/monthly/2026/11",
+        "https://wynter.ai/blog/ai-product-report-2026-11-11"
+      ],
+      "how_searched": [
+        "Product Hunt monthly/weekly leaderboards",
+        "independent AI product newsletters"
+      ],
+      "score": 40.0,
+      "found_at": "2026-11-15T02:13:45.321616+00:00"
     },
     {
       "name": "Smart Blur",
