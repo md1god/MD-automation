@@ -60,25 +60,6 @@
       "found_at": "2026-10-28T01:25:32.024519+00:00"
     },
     {
-      "name": "Tally (no-code form builder)",
-      "field": "Forms / no-code",
-      "summary": "Bootstrapped form builder with a generous free tier; 2.5M users and $6M ARR from subscriptions.",
-      "why_now": "Crossed $6M ARR with a 10-person team; 43% of new users now arrive via AI search and Tally AI handled 1M+ calls in a month.",
-      "monetization": "Freemium subscriptions; $501k MRR ($6M ARR) reported Sept 2026.",
-      "evidence": [
-        "https://blog.tally.so/6-years-in-6-million-far/",
-        "https://www.indiehackers.com/post/6-years-in-6-million-far-Zf0kp5NGfnrdWefXXFBv",
-        "https://www.arr.club/signal/tally-surpasses-6m-arr-with-a-team-of-just-10-people-bootstrapped"
-      ],
-      "how_searched": [
-        "Indie Hackers revenue story",
-        "Open startup blog",
-        "ARR Club signal"
-      ],
-      "score": 96.0,
-      "found_at": "2026-10-25T22:58:02.353590+00:00"
-    },
-    {
       "name": "CleanYourTV (TV Bloatware/Ad Removal)",
       "field": "Consumer Tech / Privacy Tools",
       "summary": "AI-assisted tool to debloat Android TV/Google TV over Wi-Fi, disable ads/bloatware without root or uninstalling, with a clean Apple TV-style launcher. No app store gate, works via ADB automation guided by an LLM prompt or companion Android app.",
@@ -268,25 +249,6 @@
       "found_at": "2026-10-28T16:04:45.286198+00:00"
     },
     {
-      "name": "Zigpoll (ecommerce survey widget)",
-      "field": "Surveys / customer feedback",
-      "summary": "Embeddable micro-survey and feedback widget for Shopify and SaaS merchants.",
-      "why_now": "Reached $141k MRR in Aug 2026 with 2,500+ customers and ~44% H1 growth; solo founder.",
-      "monetization": "Subscriptions; $141k MRR / $1.7M annual run rate; 50%-lifetime affiliate program.",
-      "evidence": [
-        "https://www.linkedin.com/posts/jason-zigelbaum_august-pushed-zigpoll-past-141000-in-monthly-activity-7500545550866440193-hdBi",
-        "https://www.indiehackers.com/post/tech/hitting-125k-mrr-as-a-solo-founder-by-doubling-down-on-the-right-segment-c4o2Tfs6mjdpip5yZhaO",
-        "https://www.systemaic.com/teardowns/zigpoll"
-      ],
-      "how_searched": [
-        "LinkedIn founder revenue post",
-        "Indie Hackers case study",
-        "Systemaic teardown"
-      ],
-      "score": 92.0,
-      "found_at": "2026-10-25T22:58:03.240600+00:00"
-    },
-    {
       "name": "Kiwi - Proactive AI Assistant (Text-First)",
       "field": "Personal AI Assistant / Ambient Computing",
       "summary": "Proactive AI assistant that texts you first via iMessage/WhatsApp before you ask - monitors calendar/email/trips/bills and offers to take action (book rides, change deliveries, plan activities) when it matters. No app required, just SMS/iMessage.",
@@ -439,6 +401,26 @@
       ],
       "score": 90.0,
       "found_at": "2026-11-11T22:04:49.734824+00:00"
+    },
+    {
+      "name": "Laper",
+      "field": "AI screenwriting and pre-production software",
+      "summary": "Screenplay editor with AI continuation, structure diagnosis, character sheets and storyboard generation for writers and directors.",
+      "why_now": "Stripe-verified MRR rose from under $1k in early 2026 to about $52k by mid-November 2026, with roughly 1,500-1,600 active subscriptions and about 121k estimated monthly visits.",
+      "monetization": "Subscriptions from about $9 to $400 per month plus credit packs; $51-55k MRR, $52-56k last 30 days, about $190-221k all-time.",
+      "evidence": [
+        "https://whyitearns.com/daily/2026-11-14",
+        "https://horizontal.one/cases/zhao-chunxiang-laper-claude-code-screenwriting/",
+        "https://www.jimmydecodes.com/en/cases/laper/",
+        "https://mrrtrack.com/saas/laper.ai"
+      ],
+      "how_searched": [
+        "AI revenue daily feed",
+        "TrustMRR-derived revenue trackers",
+        "product case-study sites"
+      ],
+      "score": 90.0,
+      "found_at": "2026-11-16T02:25:34.067718+00:00"
     },
     {
       "name": "Browser automation / agent browser tools (Lightpanda, Browser Use, Stagehand)",
@@ -645,25 +627,6 @@
       ],
       "score": 87.0,
       "found_at": "2026-11-11T22:04:51.839189+00:00"
-    },
-    {
-      "name": "Vid.AI (faceless video generator)",
-      "field": "AI video content",
-      "summary": "Turns a topic or script into faceless YouTube/Shorts/TikTok videos with AI voiceover and visuals.",
-      "why_now": "TrustMRR verifies $46.8k MRR and $1.65M all-time; founder reports ~$65k MRR and $47k domain purchase.",
-      "monetization": "Subscriptions $39-$199/mo plus credits; ~$46.8k MRR, ~100k users.",
-      "evidence": [
-        "https://trustmrr.com/startup/vidai-llc",
-        "https://www.linkedin.com/posts/priyamraj_2-years-ago-i-partnered-with-a-creator-matt-activity-7485424859032989696-1ybl",
-        "https://www.systemaic.com/teardowns/vidai-llc"
-      ],
-      "how_searched": [
-        "TrustMRR verified revenue",
-        "LinkedIn founder post",
-        "Systemaic teardown"
-      ],
-      "score": 86.0,
-      "found_at": "2026-10-25T22:58:04.882269+00:00"
     },
     {
       "name": "OpenSEO (open-source Semrush/Ahrefs alternative)",
@@ -1033,25 +996,6 @@
       "found_at": "2026-10-27T16:52:29.324352+00:00"
     },
     {
-      "name": "GETebook.ai",
-      "field": "AI publishing and digital products",
-      "summary": "Turns a topic into a chaptered ebook or coloring book, designs a cover, and exports KDP/Etsy-ready PDF, EPUB, and DOCX files.",
-      "why_now": "Verified at $35,469 in the last 30 days, $10,629 MRR from 223 subscriptions, and $153,572 all-time on TrustMRR on Oct 29, 2026; the site reports 12,000+ creators and sells the publishing outcome rather than the tool.",
-      "monetization": "Pro plans from $29 to $99 per month with credits and full commercial rights.",
-      "evidence": [
-        "https://shippedandpaid.com/cases/getebook-ai-ebook-generator-35k-month-claude-code/",
-        "https://trustmrr.com/startup/getebook-ai",
-        "https://getebook.ai/"
-      ],
-      "how_searched": [
-        "Shipped & Paid verified case",
-        "TrustMRR profile",
-        "Company pricing page"
-      ],
-      "score": 84.0,
-      "found_at": "2026-10-29T14:24:55.108532+00:00"
-    },
-    {
       "name": "Agent access control/monetization via MCP",
       "field": "AI infrastructure / Data monetization / APIs",
       "summary": "MCP emerging as standard for agent access to enterprise data; companies deciding what to expose and how to monetize (usage/outcome-based).",
@@ -1128,6 +1072,26 @@
       ],
       "score": 84.0,
       "found_at": "2026-11-15T17:28:56.097878+00:00"
+    },
+    {
+      "name": "NotFair",
+      "field": "AI ad-spend optimization for small advertisers",
+      "summary": "Connects Google, Meta, X, LinkedIn, Reddit and TikTok ad accounts, finds wasted spend, recommends fixes, and executes approved bid and keyword changes.",
+      "why_now": "Founded April 2026 and reached about $14k MRR by mid-November 2026 with 118-120 active subscriptions; listed for sale at $1.5M.",
+      "monetization": "Freemium plus Growth at about $79 per month billed annually; $14.0k MRR, $18.0k last 30 days, $73.7k all-time.",
+      "evidence": [
+        "https://whyitearns.com/daily/2026-11-15",
+        "https://trustmrr.com/startup/notfair",
+        "https://theaireceipts.com/case-studies/notfair/",
+        "https://mrrledger.com/b/notfair/"
+      ],
+      "how_searched": [
+        "AI revenue daily feed",
+        "TrustMRR startup profile",
+        "verified revenue case studies"
+      ],
+      "score": 84.0,
+      "found_at": "2026-11-16T02:25:35.629607+00:00"
     },
     {
       "name": "Inbox Zero (open-source Superhuman alternative)",
@@ -1388,6 +1352,26 @@
       ],
       "score": 82.0,
       "found_at": "2026-11-15T21:52:35.723497+00:00"
+    },
+    {
+      "name": "Yadaphone",
+      "field": "Browser-based international calling",
+      "summary": "Pay-as-you-go web dialer for cheap international calls from a browser tab, with a business plan adding call recording and transcripts.",
+      "why_now": "Built after Skype's shutdown; reached about $14-15k in 30 days and 20,000+ users, with strong demand around Skype-alternative searches.",
+      "monetization": "Pay-as-you-go credits plus a phone-number subscription; $14.5k 30-day revenue, $1.3-1.4k MRR, $277k all-time.",
+      "evidence": [
+        "https://shippedandpaid.beehiiv.com/p/yadaphone-at-13-6k-in-30-days-plus-3-more-ai-built-apps-with-verified-revenue",
+        "https://trustmrr.com/startup/yadaphone",
+        "https://missumai.com/p/yadaphone",
+        "https://www.nichepursuits.com/denis-yurchak/"
+      ],
+      "how_searched": [
+        "AI-built app revenue newsletter",
+        "TrustMRR startup profile",
+        "founder interview"
+      ],
+      "score": 82.0,
+      "found_at": "2026-11-16T02:25:36.568636+00:00"
     },
     {
       "name": "Anti-AI-Slop Design Linter & Skill for Coding Agents",
@@ -1714,6 +1698,26 @@
       ],
       "score": 79.0,
       "found_at": "2026-11-14T03:21:59.120478+00:00"
+    },
+    {
+      "name": "GETebook.ai",
+      "field": "AI ebook generation for creators and marketers",
+      "summary": "Generates an outline, chapters and cover from topic, audience and tone, exporting PDF, EPUB and Word for lead magnets or KDP products.",
+      "why_now": "Solo founder took it from under $800 per month through June 2026 to about $11.7k MRR and about $32-33k in 30 days by November 2026.",
+      "monetization": "From $29 per month plus credits and one-off sales; $11.7k MRR, $32.4k last 30 days, $169k all-time.",
+      "evidence": [
+        "https://whyitearns.com/daily/2026-11-15",
+        "https://trustmrr.com/startup/getebook-ai",
+        "https://theaireceipts.com/case-studies/getebook/",
+        "https://danraine.substack.com/p/he-couldnt-code-18-months-ago-his"
+      ],
+      "how_searched": [
+        "AI revenue daily feed",
+        "TrustMRR startup profile",
+        "verified revenue case studies"
+      ],
+      "score": 78.0,
+      "found_at": "2026-11-16T02:25:39.300599+00:00"
     },
     {
       "name": "Onepin (AI voiceover validation/normalization)",
@@ -2053,6 +2057,26 @@
       "found_at": "2026-11-14T17:16:21.052360+00:00"
     },
     {
+      "name": "Local SEO Bot",
+      "field": "Local SEO and Google Maps automation",
+      "summary": "Automates Google Business Profile posting, review replies, citations and map-rank tracking for local businesses.",
+      "why_now": "Stripe-verified MRR grew to about $11.2k by November 2026 from only about 1.4k visits per month in August, serving 82 subscribers.",
+      "monetization": "From $99 per month with a 30-day guarantee; $11.2k MRR, $13.1k 30-day revenue, $116.7k all-time.",
+      "evidence": [
+        "https://whyitearns.com/daily/2026-11-15",
+        "https://trustmrr.com/startup/local-seo-bot",
+        "https://mrrtrack.com/saas/localseobot.com",
+        "https://whyitearns.com/ranking"
+      ],
+      "how_searched": [
+        "AI revenue daily feed",
+        "TrustMRR startup profile",
+        "revenue tracker"
+      ],
+      "score": 76.0,
+      "found_at": "2026-11-16T02:25:42.967182+00:00"
+    },
+    {
       "name": "AI ebook-to-publish pipeline (GETebook pattern)",
       "field": "AI publishing",
       "summary": "Turn a topic, audience, and tone into an outline, chapters, cover art, and export-ready PDF/EPUB/Word. Rebuild as a free browser editor with paid exports, cover templates, and KDP formatting checks.",
@@ -2208,6 +2232,26 @@
       ],
       "score": 74.0,
       "found_at": "2026-11-15T17:28:59.237243+00:00"
+    },
+    {
+      "name": "Imposter AI",
+      "field": "AI party game",
+      "summary": "Pass-the-phone social-deduction party game with AI-generated categories and online play.",
+      "why_now": "RevenueCat-verified MRR is about $20.7k with 5,571 subscriptions and $254k all-time, driven by TikTok, Instagram and App Store optimization.",
+      "monetization": "Free download with in-app subscription; $20.7k MRR, $19.2-20.4k 30-day revenue, $254k all-time.",
+      "evidence": [
+        "https://whyitearns.com/daily/2026-11-14",
+        "https://trustmrr.com/startup/imposter-ai",
+        "https://theaireceipts.com/case-studies/imposter-ai/",
+        "https://www.jimmydecodes.com/en/cases/debatium-imposter-ai-coupleai-vs-werewolf-undercover/"
+      ],
+      "how_searched": [
+        "AI revenue daily feed",
+        "TrustMRR startup profile",
+        "verified revenue case studies"
+      ],
+      "score": 74.0,
+      "found_at": "2026-11-16T02:25:43.534390+00:00"
     },
     {
       "name": "Shopify SEO and page-speed audit",
@@ -2625,26 +2669,6 @@
       "found_at": "2026-11-14T03:22:08.359221+00:00"
     },
     {
-      "name": "Directify",
-      "field": "No-code / directory site builder",
-      "summary": "AI no-code builder for niche directory websites with hosting, monetization, and 0% commission; reached ~$50K ARR (~$4.2K MRR) after an $85K acquisition in Feb 2026.",
-      "why_now": "Programmatic directory sites remain a low-cost content play, and the product's climb from $2K to $50K ARR in seven months shows strong product-market fit in a repeatable template.",
-      "monetization": "Tiered SaaS plans ($12–$149/mo) with no transaction commission.",
-      "evidence": [
-        "https://www.soloez.com/weekly/soloez-164",
-        "https://small-start.com/en/cases/global-directify-85k-acquisition/",
-        "https://www.starterstory.com/businesses/directify/revenue"
-      ],
-      "how_searched": [
-        "websearch: directory site builder ARR acquisition",
-        "acquisition case studies (Small Start)",
-        "Starter Story revenue page",
-        "newsletter roundups (Soloez)"
-      ],
-      "score": 70.0,
-      "found_at": "2026-11-14T17:16:24.258107+00:00"
-    },
-    {
       "name": "Agent Workflow Recipe Gallery (n8n / Claude Code automation kits)",
       "field": "AI automation implementation tools",
       "summary": "Free web tool: browse, preview and one-click deploy pre-built agent/automation workflows (lead capture, inbox triage, report gen) — packaging the implementation demand freelancers are drowning in.",
@@ -2685,6 +2709,26 @@
       "found_at": "2026-11-15T17:29:02.699518+00:00"
     },
     {
+      "name": "Excel Formula Bot (Better Analyst)",
+      "field": "AI spreadsheet formula and data analysis",
+      "summary": "Turns plain-English requests into Excel and Google Sheets formulas, expanded into an AI data-analysis chat over uploaded files and connected sources.",
+      "why_now": "Viral Reddit and TikTok launch led to 1M+ users; founder reports about $23k per month early and about $42k per month by May 2025.",
+      "monetization": "Freemium with $2.99 to $80 per month plans; self-reported about $42k MRR, about $500k ARR, and about $21k profit in May 2023.",
+      "evidence": [
+        "https://finance.yahoo.com/video/does-simple-website-23k-month-223242293.html",
+        "https://aiolum.com/story/formula-bot/",
+        "https://startupfounderstories.com/stories/david-bressler-formulabot-20k",
+        "https://buildr.news/issue-002"
+      ],
+      "how_searched": [
+        "Starter Story video",
+        "founder-story database",
+        "founder case study"
+      ],
+      "score": 70.0,
+      "found_at": "2026-11-16T02:25:44.436317+00:00"
+    },
+    {
       "name": "General resale-value scanner",
       "field": "resale valuation",
       "summary": "Scan household items, collectibles, tools, and electronics to identify them, estimate resale value from comps, and generate marketplace listings. Rebuild as a free web scanner with paid deep scans, portfolio tracking, and listing exports.",
@@ -2703,6 +2747,26 @@
       ],
       "score": 69.0,
       "found_at": "2026-10-31T17:50:32.405154+00:00"
+    },
+    {
+      "name": "Directify",
+      "field": "No-code directory website builder",
+      "summary": "Generates a vertical directory site from one sentence, with listings, SEO, custom domains, lead capture and monetization tools.",
+      "why_now": "Reached $50k ARR in September 2026 under a new owner, after recovering from a revenue dip during handover.",
+      "monetization": "$12 to $149 per month subscriptions plus customers' own listing and ad revenue; about $4-5k MRR, $50k ARR.",
+      "evidence": [
+        "https://www.soloez.com/weekly/soloez-164",
+        "https://arrfounder.com/news/directify-reaches-50k-arr",
+        "https://small-start.com/en/cases/global-directify-85k-acquisition/",
+        "https://www.starterstory.com/businesses/directify"
+      ],
+      "how_searched": [
+        "indie SaaS weekly newsletter",
+        "ARR milestone tracker",
+        "acquisition case study"
+      ],
+      "score": 68.0,
+      "found_at": "2026-11-16T02:25:45.655703+00:00"
     },
     {
       "name": "Free order-fraud and chargeback risk scorer for small online merchants",
