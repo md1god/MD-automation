@@ -589,27 +589,6 @@
       "found_at": "2026-11-15T02:13:33.226628+00:00"
     },
     {
-      "name": "RemediatePDF",
-      "field": "Accessibility / RegTech",
-      "summary": "A free browser-based PDF accessibility checker that diagnoses WCAG/EN 301 549 failures and sells an affordable self-serve remediation workflow for SMEs, banks, insurers, and public-sector suppliers.",
-      "why_now": "The European Accessibility Act has applied since 28 June 2025 and covers PDFs that carry information about consumer services. A 2026 CAAT study of about 70,000 public-sector PDFs found fewer than 10% met auto-testable accessibility requirements, while ComplyLoft already charges €500–€1,500/month for remediation software.",
-      "monetization": "Freemium scan with paid remediation credits and team plans; ComplyLoft’s published pricing is €500/mo for Team and €1,500/mo for Business, showing willingness to pay.",
-      "evidence": [
-        "https://www.caat.report/en/blog/post/2026/announcement-caat-study-on-pdf-documents-in-the-public-sector",
-        "https://www.complyloft.com/accessibility/eaa/pdfs-and-documents",
-        "https://www.complyloft.com/pricing",
-        "https://pac.pdf-accessibility.org/en"
-      ],
-      "how_searched": [
-        "Accessibility compliance research",
-        "Government/regulatory guidance",
-        "Competitor pricing pages",
-        "Industry PDF accessibility study"
-      ],
-      "score": 87.0,
-      "found_at": "2026-10-26T19:26:09.300196+00:00"
-    },
-    {
       "name": "AI Lecture-to-Quiz Study Workspace",
       "field": "EdTech",
       "summary": "Turns lectures, PDFs, videos and textbooks into quizzes, flashcards and a voice tutor, with progress tracking and spaced repetition.",
@@ -765,25 +744,6 @@
       ],
       "score": 86.0,
       "found_at": "2026-11-15T02:13:35.223383+00:00"
-    },
-    {
-      "name": "PeptideDock",
-      "field": "Digital health / medication tracking",
-      "summary": "A free web tracker for GLP-1 and peptide protocols with dose logging, side-effect tracking, injection-site rotation, and oral-pill support, designed to work without an app-store download.",
-      "why_now": "The category already has 45 apps, two doing over $20K/month, with 33 launched in the last 18 months; Pep AI reached $60K MRR. In the peptide-tracker niche, 7 of 18 newcomers cleared 50 ratings, median top price is $59.99, and 5 of 5 top apps use in-app purchases, showing demand but still-open keyword gaps.",
-      "monetization": "Freemium subscriptions for protocol history, reminders, exports, and caregiver sharing; top peers earn $20K+/month and Pep AI reports $60K MRR.",
-      "evidence": [
-        "https://www.appaloma.com/research/glp1-companions",
-        "https://nichestillopen.com/market/app-store-us/peptide-tracker/",
-        "https://www.mrrstory.com/stories/he-got-his-first-100-users-from-one-reddit-post-now-hit-60k-mrr"
-      ],
-      "how_searched": [
-        "App-store revenue analytics",
-        "App niche and review research",
-        "Founder MRR case study"
-      ],
-      "score": 85.0,
-      "found_at": "2026-10-26T19:26:11.276063+00:00"
     },
     {
       "name": "Anakin (web data API + AI visibility/GEO)",
@@ -958,25 +918,6 @@
       "found_at": "2026-11-15T02:13:36.329981+00:00"
     },
     {
-      "name": "AllergenLens",
-      "field": "Food safety / consumer health",
-      "summary": "A free tool that scans restaurant menus or uploaded menu photos for the top nine allergens, flags cross-contact risks, and generates a concise order script for diners.",
-      "why_now": "Allergy-safe menu scanning shows 43,570 monthly searches, an 8,200/10k opportunity score, a competition gap of 86, only 10 page-one products, $2.72 CPC, and 18.6% three-month growth. California SB 68 took effect in July 2026, requiring 20+ location brands to disclose major allergens.",
-      "monetization": "Freemium consumer scans plus restaurant compliance subscriptions for menu auditing and allergen-disclosure workflows; the allergy-scanner market is estimated at $468.44M in 2025 growing 13.7% annually to $1.48B by 2034.",
-      "evidence": [
-        "https://unbuilt.software/topics/allergy-safe-menu-scanning",
-        "https://foodondemand.com/08122026/allergy-compliance-tech-emerges-as-guest-acquisition-tool/",
-        "https://www.datainsightsreports.com/reports/allergy-restaurant-scanner-app-market-309098"
-      ],
-      "how_searched": [
-        "Search-demand opportunity database",
-        "Food-industry regulation news",
-        "Market research report"
-      ],
-      "score": 84.0,
-      "found_at": "2026-10-26T19:26:15.088695+00:00"
-    },
-    {
       "name": "MelodySeek (find music from any video)",
       "field": "Audio/music tools",
       "summary": "Paste a TikTok/Reels/Shorts link, upload a file or record audio to identify the song in seconds, with streaming links.",
@@ -1094,6 +1035,28 @@
       "found_at": "2026-11-16T02:25:35.629607+00:00"
     },
     {
+      "rank": 1,
+      "name": "Trendtrack",
+      "category": "E-commerce ad intelligence",
+      "summary": "Ad-spy and competitor-intelligence workspace for e-commerce teams, covering shops, advertisers, and Meta/Google/TikTok ad libraries.",
+      "why_now": "Founder reports $800K MRR and 100% bootstrapping; press coverage reports 100,000 users, showing durable demand for affordable e-commerce research.",
+      "monetization": "Freemium ad-library search, paid seats, alerts, and agency/API access.",
+      "free_rebuild_angle": "Free daily ad-library search with saved-competitor watchlists; monetize team workspaces, alerts, and bulk exports.",
+      "evidence": [
+        "https://www.trendtrack.io/",
+        "https://clickarticles.net/trendtrack-revendique-100-000-utilisateurs-pour-sa-veille-publicitaire-e-commerce",
+        "https://www.linkedin.com/posts/vincent-alo_im-26-french-and-18-months-ago-we-started-activity-7505914282065432576-b6fj"
+      ],
+      "how_searched": [
+        "ARR/founder-signal sweep",
+        "opened company site",
+        "opened press coverage",
+        "opened founder LinkedIn"
+      ],
+      "score": 84.0,
+      "found_at": "2026-11-16T20:37:38.039457+00:00"
+    },
+    {
       "name": "Inbox Zero (open-source Superhuman alternative)",
       "field": "Email productivity",
       "summary": "Open-source AI email client for Gmail/Outlook with labeling, drafts, cold-email blocking and bulk unsubscribe; AGPL, self-hostable.",
@@ -1171,6 +1134,28 @@
       ],
       "score": 83.0,
       "found_at": "2026-11-13T08:04:54.194708+00:00"
+    },
+    {
+      "rank": 2,
+      "name": "Postiz",
+      "category": "Agentic social-media scheduling",
+      "summary": "Open-source social-media scheduler that lets AI agents draft, queue, and publish across channels.",
+      "why_now": "AI Receipts verified $418,575 MRR on 2026-11-14; TrustMRR showed $427,514 MRR, 12,583 active subscriptions, and $1,935,274 all-time revenue on 2026-11-16.",
+      "monetization": "SaaS subscriptions from $29/mo, with higher tiers for teams, channels, and automation.",
+      "free_rebuild_angle": "Free single-user scheduler with AI-assisted drafts and limited channels; paid team collaboration and cross-channel automation.",
+      "evidence": [
+        "https://theaireceipts.com/case-studies/postiz/",
+        "https://trustmrr.com/startup/postiz",
+        "https://postiz.com/"
+      ],
+      "how_searched": [
+        "revenue/case-study sweep",
+        "opened AI Receipts",
+        "opened TrustMRR",
+        "opened product site"
+      ],
+      "score": 83.0,
+      "found_at": "2026-11-16T20:37:38.368301+00:00"
     },
     {
       "name": "ZocialComment (social comment exporter)",
@@ -1415,25 +1400,6 @@
       "found_at": "2026-11-15T21:52:36.509077+00:00"
     },
     {
-      "name": "DDSVault",
-      "field": "Supply-chain compliance / RegTech",
-      "summary": "A low-cost EUDR evidence workspace for small importers that collects supplier geolocation and legality documents, runs risk checks, stores audit evidence for five years, and prepares due-diligence statements for TRACES.",
-      "why_now": "EUDR obligations begin 30 December 2026 for large/medium operators and micro/small timber businesses, and 30 June 2027 for remaining micro/small operators. Ten of 14 compared EUDR tools publish no prices, and smaller-company contracts run about €6,000–€40,000/year, leaving a gap for transparent self-serve pricing.",
-      "monetization": "Monthly SaaS tiers with supplier limits and filing credits; EUDRReady already validates €29–€79/month SME pricing, while enterprise tools run €12,000–€150,000+/year.",
-      "evidence": [
-        "https://eudrready.eu/eudr-software-small-business/",
-        "https://environment.ec.europa.eu/topics/forests/deforestation/regulation-deforestation-free-products_en",
-        "https://polygon-one.com/en/article-eudr-software-comparison"
-      ],
-      "how_searched": [
-        "Regulatory official EU pages",
-        "SME compliance software comparison",
-        "Vendor pricing research"
-      ],
-      "score": 80.0,
-      "found_at": "2026-10-26T19:26:16.479499+00:00"
-    },
-    {
       "name": "Spira Maxima (script to viral social video)",
       "field": "AI video generation",
       "summary": "Turns a script (or photo/recording) into a finished vertical social video with presenter, B-roll, captions and music in one pass.",
@@ -1618,6 +1584,27 @@
       "found_at": "2026-11-15T21:52:38.394881+00:00"
     },
     {
+      "rank": 4,
+      "name": "Bustem",
+      "category": "Brand protection and DMCA takedowns",
+      "summary": "Pay-per-takedown service that removes counterfeit listings, fake ads, and infringing websites for e-commerce brands.",
+      "why_now": "Founder interview reports $1M ARR within 60 days; Bustem says it protects 200+ e-commerce brands.",
+      "monetization": "Per-takedown fees and monthly brand-protection retainers.",
+      "free_rebuild_angle": "Free infringement scanner and guided DMCA packet generator; paid monitoring, enforcement, and retainer coverage.",
+      "evidence": [
+        "https://bustem.com/",
+        "https://bustem.com/about",
+        "https://joinhampton.com/blog/oliver-brocato-bustem"
+      ],
+      "how_searched": [
+        "brand-protection founder-interview sweep",
+        "opened company site",
+        "opened founder interview"
+      ],
+      "score": 80.0,
+      "found_at": "2026-11-16T20:37:40.097295+00:00"
+    },
+    {
       "name": "Agent-Callable Social Media Scheduler (MCP/CLI)",
       "field": "Social Media / Agent Infrastructure",
       "summary": "An open-source, agentic social media scheduler that AI agents (Claude, Codex, OpenClaw, Cursor) can call via MCP endpoint and CLI to plan, generate, and publish posts across 30+ networks, with a paid managed cloud on top.",
@@ -1698,6 +1685,27 @@
       ],
       "score": 79.0,
       "found_at": "2026-11-14T03:21:59.120478+00:00"
+    },
+    {
+      "rank": 5,
+      "name": "Zigpoll",
+      "category": "Shopify post-purchase surveys",
+      "summary": "Post-purchase and on-site survey layer for Shopify that attributes revenue and captures zero-party data.",
+      "why_now": "Founder posts report August MRR above $141K, a $1.7M annual run rate, and 13% quarterly growth, with three consecutive record months.",
+      "monetization": "Shopify app subscription with response/usage tiers and agency plans.",
+      "free_rebuild_angle": "Free post-purchase attribution survey with limited responses; paid advanced targeting, integrations, and agency seats.",
+      "evidence": [
+        "https://www.linkedin.com/posts/jason-zigelbaum_august-pushed-zigpoll-past-141000-in-monthly-activity-7500545550866440193-hdBi",
+        "https://www.linkedin.com/posts/jason-zigelbaum_q3-ends-today-three-numbers-all-from-before-activity-7511054776873140224-llJ3",
+        "https://www.zigpoll.com/"
+      ],
+      "how_searched": [
+        "founder-post sweep",
+        "opened founder LinkedIn posts",
+        "opened product site"
+      ],
+      "score": 79.0,
+      "found_at": "2026-11-16T20:37:41.039322+00:00"
     },
     {
       "name": "GETebook.ai",
@@ -2037,24 +2045,26 @@
       "found_at": "2026-11-13T08:04:58.039673+00:00"
     },
     {
+      "rank": 7,
       "name": "Paternal",
-      "field": "Health / parenting mobile app",
-      "summary": "Week-by-week pregnancy companion app built for dads, with milestone content and partner-focused guidance; ~$23,385 revenue in its first month (Sep 2026), 6,000+ downloads, 753 active subscribers, and 239 trials.",
-      "why_now": "Partner-focused parenting content remains an overlooked niche dominated by mom-centric products, and a strong first-month revenue result shows clear willingness to pay.",
-      "monetization": "Subscription with free trial, billed via RevenueCat.",
+      "category": "Pregnancy app for expectant fathers",
+      "summary": "Pregnancy companion app built for expectant fathers and birth partners, with week-by-week guidance, tasks, and practical tools.",
+      "why_now": "Launched in August 2026 and reported over $23K first-month revenue, 6,000+ downloads, and 750+ subscriptions.",
+      "monetization": "Consumer subscription plus premium content and partner/sponsor placements.",
+      "free_rebuild_angle": "Free web week-by-week dad guide with checklists, contraction timer, and shareable partner tasks; paid personalized plans.",
       "evidence": [
-        "https://devpost.com/software/paternal",
-        "https://hackernoon.com/how-our-shipaton-app-made-%2422k-in-its-first-month",
-        "https://vaqira.com/p/paternal/"
+        "https://reicaps.com/card/6077",
+        "https://paternalapp.com/",
+        "https://www.linkedin.com/posts/patrick-mark-brennan_paternal-dad-pregnancy-app-official-tiktok-activity-7518685877926289408-v-Uj"
       ],
       "how_searched": [
-        "websearch: pregnancy app for dads revenue first month",
-        "Devpost launch page",
-        "HackerNoon founder writeup",
-        "revenue aggregators (VAQIRA)"
+        "parenting-app revenue-card sweep",
+        "opened Reicaps card",
+        "opened official site",
+        "opened founder LinkedIn"
       ],
       "score": 76.0,
-      "found_at": "2026-11-14T17:16:21.052360+00:00"
+      "found_at": "2026-11-16T20:37:43.147315+00:00"
     },
     {
       "name": "Local SEO Bot",
@@ -2729,6 +2739,29 @@
       "found_at": "2026-11-16T02:25:44.436317+00:00"
     },
     {
+      "rank": 9,
+      "name": "Senja",
+      "category": "Testimonial collection and display",
+      "summary": "Testimonial collection and display platform with widgets, Wall of Love pages, and AI video testimonials.",
+      "why_now": "Arrfounder reports $90K MRR in March 2026 while bootstrapped, following earlier $1M+ ARR milestones.",
+      "monetization": "Freemium SaaS with paid widgets, video features, team access, and branding removal.",
+      "free_rebuild_angle": "Free testimonial collection page and embeddable wall; paid custom branding, video, and team workflows.",
+      "evidence": [
+        "https://arrfounder.com/news/senja-hits-90k-mrr",
+        "https://arrfounder.com/@helloitsolly",
+        "https://www.linkedin.com/posts/olivermeakings_buildinpublic-activity-7445017884021518336-ndWH",
+        "https://senja.io/"
+      ],
+      "how_searched": [
+        "ARR founder/announcement sweep",
+        "opened Arrfounder news",
+        "opened Arrfounder profile",
+        "opened product site"
+      ],
+      "score": 70.0,
+      "found_at": "2026-11-16T20:37:44.695502+00:00"
+    },
+    {
       "name": "General resale-value scanner",
       "field": "resale valuation",
       "summary": "Scan household items, collectibles, tools, and electronics to identify them, estimate resale value from comps, and generate marketplace listings. Rebuild as a free web scanner with paid deep scans, portfolio tracking, and listing exports.",
@@ -2991,6 +3024,28 @@
       "found_at": "2026-11-14T03:22:13.425514+00:00"
     },
     {
+      "rank": 10,
+      "name": "Lannis",
+      "category": "AI accounting for freelancers",
+      "summary": "WhatsApp-based AI accountant for Argentine freelancers and small businesses, covering tax guidance, invoicing, and payment integrations.",
+      "why_now": "iProUP reported about 4,000 active individuals and 150 SMBs, with a projection of $800K annual revenue.",
+      "monetization": "Monthly subscription plus premium tax filings and advisory.",
+      "free_rebuild_angle": "Free tax calendar and ARCA/monotributo checklists; paid filing automation and advisory workflows.",
+      "evidence": [
+        "https://www.iproup.com/innovacion/60538-crearon-el-primer-contador-con-ia-para-freelancers-y-preven-facturar-us800-mil-en-un-ano",
+        "https://www.lannis.ai/",
+        "https://www.cronista.com/economia-politica/como-la-inteligencia-artificial-ya-simplifica-la-liquidacion-de-impuestos-y-agiliza-tiempos/"
+      ],
+      "how_searched": [
+        "Latin America startup press sweep",
+        "opened iProUP",
+        "opened product site",
+        "opened Cronista context"
+      ],
+      "score": 66.0,
+      "found_at": "2026-11-16T20:37:45.101334+00:00"
+    },
+    {
       "name": "AI stem and vocal separator web tool for musicians",
       "field": "Music tech / audio tools",
       "summary": "A web tool that splits any uploaded song into vocals, drums, bass, guitar and other stems plus chords, key and tempo detection — used for practice, karaoke tracks and remixes. Moises built an ~$16M ARR business on this exact pattern.",
@@ -3048,24 +3103,6 @@
       ],
       "score": 64.0,
       "found_at": "2026-11-14T21:32:52.298650+00:00"
-    },
-    {
-      "name": "Postiz",
-      "field": "Social media management / AI content scheduling",
-      "summary": "An open-source social media scheduling and management platform for creators, teams, and businesses to plan and publish content across channels. The rebuild opportunity is a fresh, original web-based scheduler with AI-assisted drafting and multi-channel publishing workflows.",
-      "why_now": "Verified revenue dashboards show it among the top-earning indie AI/SaaS products right now, indicating strong and current demand for social scheduling tools.",
-      "monetization": "Subscription SaaS. TrustMRR/Stripe-verified revenue reported as $403,954 MRR, $443,690 last 30 days, $1,844,481 all-time, 11,892 subscriptions (AI Agents Info, checked 2026-11-12); The AI Receipts lists $408,000 MRR from TrustMRR (Stripe) as of 2026-11-12.",
-      "evidence": [
-        "https://www.aiagentsinfo.com/verified-revenue",
-        "https://theaireceipts.com/how-much-do-ai-companies-make/"
-      ],
-      "how_searched": [
-        "web search for current indie/AI revenue milestones",
-        "verified revenue aggregators and payment-data dashboards",
-        "cross-checking MRR figures across independent compilations"
-      ],
-      "score": 62.0,
-      "found_at": "2026-11-13T00:26:02.748170+00:00"
     },
     {
       "name": "Browser voice recorder with AI transcription and summaries (no hardware)",
@@ -3212,25 +3249,6 @@
       ],
       "score": 58.0,
       "found_at": "2026-10-31T05:49:35.071930+00:00"
-    },
-    {
-      "name": "GeoSports",
-      "field": "Browser games / daily sports trivia",
-      "summary": "Free daily sports-geography web game with five clues and a spinning globe; reached ~1M unique users in under a month and ~95K weekday players, monetized by ads plus a ~$40/yr Pro tier (~1,000 subscribers).",
-      "why_now": "A Wordle-style daily game reached a million users with effectively zero marketing spend and only a small Pro base, which points to a large, under-monetized audience that a polished web alternative could capture.",
-      "monetization": "Display and sponsored ads plus a Pro subscription (~$5/mo or $40/yr) for stats, leaderboards, and ad-free play.",
-      "evidence": [
-        "https://www.sportico.com/business/tech/2026/geosports-trivia-game-creator-viral-wordle-1234901573/",
-        "https://shippedandpaid.com/cases/geosports-daily-sports-geography-game-40k-month-claude/"
-      ],
-      "how_searched": [
-        "websearch: breakout daily web games 2026",
-        "Google Trends: GeoSports",
-        "news (Sportico)",
-        "case studies (Shipped & Paid)"
-      ],
-      "score": 58.0,
-      "found_at": "2026-11-14T17:16:14.003942+00:00"
     },
     {
       "name": "Persistent Memory Layer for AI Coding Agents",
@@ -3406,6 +3424,26 @@
       ],
       "score": 55.3,
       "found_at": "2026-11-12T03:08:10.382500+00:00"
+    },
+    {
+      "rank": 3,
+      "name": "GeoSports",
+      "category": "Daily sports-geography game",
+      "summary": "Browser sports-geography game that turned a weekend build into a recurring daily habit with spin-off game variants.",
+      "why_now": "Founder interview reports about $40K/month, several spin-off games, and two national-TV features, showing high revenue relative to build cost.",
+      "monetization": "Programmatic/display ads plus optional premium play and sponsored daily challenges.",
+      "free_rebuild_angle": "Free daily sports-geography challenge with shareable results, leaderboards, and sponsor slots.",
+      "evidence": [
+        "https://viewrankai.com/tools/youtube-transcript/s9aLA4IOSZE.txt",
+        "https://www.starterstory.com/businesses/geosports"
+      ],
+      "how_searched": [
+        "Starter Story/YouTube transcript sweep",
+        "opened interview transcript",
+        "opened business profile"
+      ],
+      "score": 54.7,
+      "found_at": "2026-11-16T20:37:39.637679+00:00"
     },
     {
       "name": "Underpriced AI (thrift/eBay reseller photo pricing tool)",
@@ -3799,6 +3837,26 @@
       "found_at": "2026-11-14T10:41:16.095953+00:00"
     },
     {
+      "rank": 6,
+      "name": "Enrich Labs",
+      "category": "B2B data enrichment infrastructure",
+      "summary": "API-first B2B people and company enrichment infrastructure for AI agents and workflow builders.",
+      "why_now": "Press reports $18M ARR without outside funding, reached in 26 months after a 2024 Dubai launch.",
+      "monetization": "Usage-based API credits and enterprise plans.",
+      "free_rebuild_angle": "Free limited enrichment API and playground with transparent credits; paid volume, compliance controls, and SLAs.",
+      "evidence": [
+        "https://www.zawya.com/en/press-release/companies-news/enrich-labs-challenges-venture-capital-playbook-after-reaching-18m-arr-without-raising-funding-458885",
+        "https://en.incarabia.com/enrich-labs-rahul-lakhaney-on-how-his-startup-managed-to-reach-us18-million-in-annual-recurring-revenue-without-raising-outside-cap-891729.html"
+      ],
+      "how_searched": [
+        "B2B data-enrichment press sweep",
+        "opened Zawya release",
+        "opened Inc Arabia profile"
+      ],
+      "score": 51.3,
+      "found_at": "2026-11-16T20:37:41.975408+00:00"
+    },
+    {
       "name": "Live AI translation for events (Glossa model)",
       "field": "Events / live translation",
       "summary": "Browser-based live speech translation for churches and events, delivered to attendees' phones via QR code.",
@@ -4131,6 +4189,26 @@
       ],
       "score": 48.0,
       "found_at": "2026-11-15T21:52:38.755034+00:00"
+    },
+    {
+      "rank": 8,
+      "name": "VMEG AI",
+      "category": "AI video localization",
+      "summary": "AI video localization platform for dubbing and translation across 170+ languages, including an enterprise review workflow.",
+      "why_now": "MarTechSeries reports $2M ARR in 15 months and a new Glass Box dubbing workflow for enterprise video localization.",
+      "monetization": "Usage-based dubbing minutes plus enterprise localization contracts.",
+      "free_rebuild_angle": "Free short-video subtitle and translation tool with watermark; paid minutes, voice options, and team review.",
+      "evidence": [
+        "https://martechseries.com/video/vmeg-ai-surpasses-2m-arr-launches-glass-box-dubbing-workflow-for-enterprise-video-localization/",
+        "https://www.vmeg.ai/"
+      ],
+      "how_searched": [
+        "video-localization press sweep",
+        "opened MarTechSeries",
+        "opened product site"
+      ],
+      "score": 48.0,
+      "found_at": "2026-11-16T20:37:43.700522+00:00"
     },
     {
       "name": "AI directory-site builder",
