@@ -11,6 +11,7 @@ import sys
 from datetime import datetime, timedelta, timezone
 
 import requests
+import yaml
 
 from notify import telegram
 
@@ -60,7 +61,8 @@ def main():
             lines.append(f"❌ {r['name']}: {r['conclusion']} ({why(r) or 'راجع السجل'})\n   {r['html_url']}")
         for r in done:
             lines.append(f"✅ {r['name']}: نجح")
-        if not telegram.send("\n".join(lines)):
+        channel = (yaml.safe_load(open("config.yaml", encoding="utf-8")) or {}).get("telegram_report_channel", "")   # the channel the bot already posts to
+        if not telegram.send("\n".join(lines), channel):
             # Exit 0 on purpose: a red run would e-mail the owner every 30 minutes. The reason is in the log above and the next run retries.
             print("::warning::Telegram not delivered (see the lines above: set OWNER_CHAT_ID, or send /start to the bot); state not advanced")
             return 0
