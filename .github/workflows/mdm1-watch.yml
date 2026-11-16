@@ -20,7 +20,7 @@ jobs:
           python-version: "3.12"
       - run: pip install requests pyyaml
       - name: Restore last-checked time
-        uses: actions/cache/restore@v4
+        uses: actions/cache/restore@v6
         with:
           path: md1_global_agent/.watch_state.json
           key: mdm1-watch-none
@@ -38,7 +38,7 @@ jobs:
         run: python -u mdm1_watch.py
       - name: Save last-checked time
         if: always()
-        uses: actions/cache/save@v4
+        uses: actions/cache/save@v6
         with:
           path: md1_global_agent/.watch_state.json
           key: mdm1-watch-${{ github.run_id }}
