@@ -61,8 +61,9 @@ def main():
         for r in done:
             lines.append(f"✅ {r['name']}: نجح")
         if not telegram.send("\n".join(lines)):
-            print("Telegram send failed; state not advanced so the next run retries")
-            return 1
+            # Exit 0 on purpose: a red run would e-mail the owner every 30 minutes. The reason is in the log above and the next run retries.
+            print("::warning::Telegram not delivered (see the lines above: set OWNER_CHAT_ID, or send /start to the bot); state not advanced")
+            return 0
     else:
         print("nothing new")
     json.dump({"checked_at": now.isoformat()}, open(STATE, "w"))
