@@ -47,7 +47,9 @@ def announce(payload: dict, outcome: dict, config: dict) -> bool:
 def retry_pending(ledger: Ledger, config: dict) -> list:
     """Pages whose publishing failed earlier (e.g. expired token). Returns (id, result) pairs."""
     results = []
-    for payload in mdm1_page.load_pending():
+    # Each stale page waits ~5 minutes for a live URL that never comes; 15 of them used 75 of the 170 job minutes
+    # and the run was cancelled before it built a single app. Only a few per run.
+    for payload in mdm1_page.load_pending()[: int(config.get("pending_per_run", 2))]:
         outcome = mdm1_page.publish(payload, mdm1_page.env_token())
         print(f"Pending {payload['id']}: {outcome['state']} {outcome['reason']}")
         if outcome["state"] == "published":

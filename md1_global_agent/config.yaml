@@ -9,12 +9,13 @@ publish_pages: true
 publish_tools: true    # build one free working tool per run into mdm1.org/tools (traffic + ads)
 tool_budget_seconds: 600
 tools_per_run: 1
+pending_per_run: 2        # stale unpublished pages retried per run
 publish_apps: true     # every tested app is published immediately (no daily cap) into mdm1.org/apps
 apps_per_run: 3
 app_budget_seconds: 1200       # per app
 apps_budget_seconds: 2700
-plans_per_run: 40          # every scanned opportunity becomes a published plan page (no filter on taste)
-plans_budget_seconds: 3000      # whole app phase
+plans_per_run: 3          # every scanned opportunity becomes a published plan page (no filter on taste)
+plans_budget_seconds: 1500      # whole app phase
 app_idea_attempts: 8           # opportunities turned into app ideas per run
 max_pages: 8            # GitHub search pages scanned per category to find NEW (never examined) projects
 # Page languages (Arabic is always included). The site opens each page in the visitor's device

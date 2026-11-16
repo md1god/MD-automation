@@ -161,7 +161,7 @@ def send_channel(text: str, channel: str) -> bool:
 def promo_text(payload: dict, url: str, language_codes) -> str:
     """Arabic first (the owner's audience) + English line; the page itself opens in the visitor's language."""
     en = (payload.get("translations") or {}).get("en")
-    lines = ["🆕 مشروع جديد قيد الدراسة على MDM1", "", payload["title"], payload["description"]]
+    lines = ["📝 خطة مشروع جديدة على MDM1", "", payload["title"], payload["description"]]
     if en:
         lines += ["", f"🌍 {en['title']}", en["description"]]
     lines += ["", f"🔗 {url}",
