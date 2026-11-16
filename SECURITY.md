@@ -1,21 +1,19 @@
-# Security Policy
+# Security Policy / سياسة الأمان
 
-## Supported Versions
+## Reporting a vulnerability / الإبلاغ عن ثغرة
+Please report security issues **privately** through GitHub private vulnerability reporting:
+<https://github.com/md1god/MD-automation/security/advisories/new>
+من فضلك أبلغ عن أي ثغرة **بشكل خاص** عبر الرابط أعلاه، ولا تنشرها في Issues عامة.
+If private reporting is unavailable you can email info@md1usd.com instead.
+Include the affected URL or file, steps to reproduce, and the impact you observed. Please do not run automated scans that degrade the service, access other people's data, or test social engineering.
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+## What to expect
+- Acknowledgement as soon as it is seen (target: within 7 days).
+- A fix or mitigation plan for confirmed issues, and credit if you want it.
+- Please allow a reasonable period for a fix before public disclosure.
 
-| Version | Supported          |
-| ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
+## Supported versions
+Only the current `main` branch (the version deployed at the live site) receives security fixes.
 
-## Reporting a Vulnerability
-
-Use this section to tell people how to report a vulnerability.
-
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+## Scope
+The site's source code, its GitHub Actions workflows, and the public pages served from this repository. Third-party services (GitHub Pages, Supabase, ad networks, wallets, blockchains) should be reported to their own vendors.

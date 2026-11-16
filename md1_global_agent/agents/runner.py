@@ -78,6 +78,21 @@ def run_cli(cmd: list, timeout: float, cwd: str, env: dict) -> tuple:
     return proc.returncode, out
 
 
+# The opencode CLI is an LLM agent with web search that reads untrusted pages. It must NEVER see the
+# repository's other secrets (SITES_PAT, Bluesky/Mastodon/Telegram tokens, LEDGER_SALT): a prompt
+# injection from any page could otherwise exfiltrate them. Only the model key and the bare minimum
+# needed to run a process are passed through.
+AGENT_ENV_ALLOW = ("PATH", "HOME", "LANG", "LC_ALL", "TMPDIR", "TERM", "OPENCODE_API_KEY")
+
+
+def agent_env() -> dict:
+    env = {k: v for k, v in os.environ.items() if k in AGENT_ENV_ALLOW}
+    env["OPENCODE_ENABLE_EXA"] = "1"
+    # Web search stays on; shell and file edits are denied (opencode 1.x "permission" syntax).
+    env["OPENCODE_CONFIG_CONTENT"] = json.dumps({"permission": {"bash": "deny", "edit": "deny"}})
+    return env
+
+
 def run_agent(prompt: str, models: list, timeout: int = 600, total_budget: int = TOTAL_BUDGET) -> tuple:
     """Try each model in turn, but never spend more than `total_budget` seconds in all."""
     errors = []
@@ -91,7 +106,7 @@ def run_agent(prompt: str, models: list, timeout: int = 600, total_budget: int =
             with tempfile.TemporaryDirectory() as empty:
                 code, stdout = run_cli(["opencode", "run", "--model", f"opencode/{model}", prompt],
                                        min(timeout, remaining), empty,
-                                       {**os.environ, "OPENCODE_ENABLE_EXA": "1"})
+                                       agent_env())
             text = ANSI.sub("", stdout or "")
             m = JSON_BLOCK.search(text)
             if m:

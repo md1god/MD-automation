@@ -59,5 +59,40 @@ class RunnerTimeoutTests(unittest.TestCase):
         self.assertEqual(result, {"items": [1]})
 
 
+class AgentEnvTests(unittest.TestCase):
+    SECRETS = ("SITES_PAT", "BSKY_APP_PASSWORD", "MASTODON_ACCESS_TOKEN", "BOT_TOKEN",
+               "TELEGRAM_BOT_TOKEN", "LEDGER_SALT", "OPENROUTER_API_KEY", "GROQ_API_KEY")
+
+    def setUp(self):
+        self._orig_run_cli = runner.run_cli
+        self._saved = dict(os.environ)
+        for k in self.SECRETS:
+            os.environ[k] = "secret-" + k
+        os.environ["OPENCODE_API_KEY"] = "model-key"
+
+    def tearDown(self):
+        runner.run_cli = self._orig_run_cli
+        os.environ.clear()
+        os.environ.update(self._saved)
+
+    def test_agent_env_has_no_repo_secrets(self):
+        env = runner.agent_env()
+        for k in self.SECRETS:
+            self.assertNotIn(k, env)
+        self.assertEqual(env["OPENCODE_API_KEY"], "model-key")
+        self.assertEqual(env["OPENCODE_ENABLE_EXA"], "1")
+        self.assertIn('"bash": "deny"', env["OPENCODE_CONFIG_CONTENT"])
+
+    def test_run_agent_passes_the_restricted_env_to_the_cli(self):
+        seen = []
+        runner.run_cli = lambda cmd, timeout, cwd, env: seen.append(env) or (0, "")
+        with self.assertRaises(RuntimeError):
+            runner.run_agent("p", ["m1"], timeout=60, total_budget=300)
+        self.assertEqual(len(seen), 1)
+        for k in self.SECRETS:
+            self.assertNotIn(k, seen[0])
+        self.assertNotIn("secret-SITES_PAT", " ".join(seen[0].values()))
+
+
 if __name__ == "__main__":
     unittest.main()

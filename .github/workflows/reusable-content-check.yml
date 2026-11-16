@@ -32,11 +32,11 @@ jobs:
     runs-on: ubuntu-26.04
     steps:
       - name: Checkout
-        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
 
       - name: Setup Node
         if: ${{ inputs.skip-build == false }}
-        uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1
+        uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7
         with:
           node-version: ${{ inputs.node-version }}
 
@@ -46,7 +46,7 @@ jobs:
           if [ -f "pnpm-lock.yaml" ]; then
             echo "PKG_MANAGER=pnpm" >> "$GITHUB_ENV"
             corepack enable
-            corepack prepare pnpm@latest --activate
+            corepack prepare pnpm@10.34.9 --activate
             pnpm install --frozen-lockfile || pnpm install
           elif [ -f "yarn.lock" ]; then
             echo "PKG_MANAGER=yarn" >> "$GITHUB_ENV"
@@ -66,7 +66,7 @@ jobs:
       - name: Build project
         if: ${{ inputs.skip-build == false }}
         env:
-          BUILD_COMMAND: ${{ inputs.build-command }}
+          BUILD_CMD: ${{ inputs.build-command }}
         run: |
           if [ "$PKG_MANAGER" = "none" ]; then
             echo "مفيش package.json، تخطي خطوة البناء"
@@ -75,20 +75,16 @@ jobs:
           elif [ "$PKG_MANAGER" = "yarn" ]; then
             yarn build
           else
-            case "$BUILD_COMMAND" in
-              "npm run build") npm run build ;;
-              *) echo "Unsupported build command" >&2; exit 1 ;;
-            esac
+            bash -c "$BUILD_CMD"
           fi
 
       - name: Check required files
         id: content_check
         env:
-          MIN_BYTES_INPUT: ${{ inputs.min-bytes }}
+          MIN_BYTES: ${{ inputs.min-bytes }}
           REQUIRED_FILES: ${{ inputs.required-files }}
         run: |
           set +e
-          MIN_BYTES="$MIN_BYTES_INPUT"
           FAILED=0
           REPORT=""
 
@@ -109,10 +105,11 @@ jobs:
           done <<< "$REQUIRED_FILES"
 
           echo -e "$REPORT"
+          DELIM="EOF_$(od -An -N8 -tx1 /dev/urandom | tr -d ' \n')"
           {
-            echo "report<<EOF"
+            echo "report<<$DELIM"
             echo -e "$REPORT"
-            echo "EOF"
+            echo "$DELIM"
           } >> "$GITHUB_OUTPUT"
 
           if [ "$FAILED" -eq 1 ]; then
@@ -123,12 +120,12 @@ jobs:
 
       - name: Open issue on failure
         if: steps.content_check.outputs.failed == 'true'
+        uses: actions/github-script@f28e40c7f34bde8b3046d885e986cb6290c5673b # v7
         env:
-          CONTENT_REPORT: ${{ steps.content_check.outputs.report }}
-        uses: actions/github-script@f28e40c7f34bde8b3046d885e986cb6290c5673b
+          REPORT: ${{ steps.content_check.outputs.report }}
         with:
           script: |
-            const report = process.env.CONTENT_REPORT || '';
+            const report = process.env.REPORT;
             const title = `🚨 فشل فحص المحتوى - ${new Date().toISOString().slice(0,10)}`;
             const body = [
               'فحص المحتوى الدوري لقى مشكلة في الملفات المطلوبة:',

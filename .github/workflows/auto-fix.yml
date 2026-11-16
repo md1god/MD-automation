@@ -11,7 +11,7 @@ jobs:
       allowed: ${{ steps.check.outputs.allowed }}
     steps:
       - id: check
-        uses: actions/github-script@f28e40c7f34bde8b3046d885e986cb6290c5673b
+        uses: actions/github-script@f28e40c7f34bde8b3046d885e986cb6290c5673b # v7
         with:
           script: |
             const { data } = await github.rest.repos.getCollaboratorPermissionLevel({
@@ -28,6 +28,6 @@ jobs:
   fix:
     needs: gate
     if: needs.gate.outputs.allowed == 'true'
-    permissions: { contents: write, issues: write }
-    uses: md1god/MD-automation/.github/workflows/reusable-autofix.yml@3609b98c22ba2615939ddbeafba28431f52f7d9a
+    permissions: { contents: write, pull-requests: write, issues: write }
+    uses: ./.github/workflows/reusable-autofix.yml
     with: { build-command: npm run build }
