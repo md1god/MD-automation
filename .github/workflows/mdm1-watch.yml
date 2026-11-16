@@ -1,0 +1,44 @@
+name: mdm1.org watcher (Telegram)
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: mdm1-watch
+  cancel-in-progress: false
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - name: Restore last-checked time
+        uses: actions/cache/restore@v4
+        with:
+          path: md1_global_agent/.watch_state.json
+          key: mdm1-watch-none
+          restore-keys: mdm1-watch-
+      - name: Report finished mdm1.org runs to Telegram
+        working-directory: md1_global_agent
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SITES_PAT: ${{ secrets.SITES_PAT }}
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          CHAT_ID: ${{ secrets.CHAT_ID }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          OWNER_CHAT_ID: ${{ secrets.OWNER_CHAT_ID }}
+        run: python -u mdm1_watch.py
+      - name: Save last-checked time
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: md1_global_agent/.watch_state.json
+          key: mdm1-watch-${{ github.run_id }}

@@ -1641,6 +1641,26 @@
       "found_at": "2026-10-14T18:47:55.761628+00:00"
     },
     {
+      "name": "Google Business Profile",
+      "url": "https://business.google.com/us/business-profile/",
+      "kind": "platform",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Create/sign in with a Google Account, add your business (name, category, location or service area, website, hours, phone), complete verification (postcard, phone, email or video), then post updates/photos and collect reviews. Your profile surfaces in Google Search and Maps with a link to your site.",
+      "rules_and_risks": "Only for businesses with a real physical location or a defined service area — online-only businesses are not eligible, and fake/PO-box addresses or keyword-stuffed names get suspended. Verification can take days (postcard). One profile per real location; duplicates and misrepresentation lead to removal.",
+      "why_it_works": "Google is the default local discovery surface; a verified profile shows your site to people actively searching for your category in your area, at zero cost.",
+      "evidence": [
+        "https://business.google.com/us/business-profile/",
+        "https://support.google.com/business/answer/7039811"
+      ],
+      "how_searched": [
+        "websearch: free ways to list a business online 2026",
+        "webfetch: Google Business Profile official page and eligibility help doc"
+      ],
+      "score": 56.0,
+      "found_at": "2026-11-13T00:30:47.588108+00:00"
+    },
+    {
       "name": "Opera add-ons",
       "url": "https://help.opera.com/en/extensions/publishing-guidelines/",
       "kind": "platform",
@@ -1843,6 +1863,26 @@
       ],
       "score": 52.0,
       "found_at": "2026-10-14T18:47:57.141728+00:00"
+    },
+    {
+      "name": "Apple Business (formerly Business Connect)",
+      "url": "https://business.apple.com/en-ww/",
+      "kind": "platform",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Sign in with an Apple Account, claim/create your business place card, verify ownership, fill in details and link your website. The place card appears across Apple Maps, Messages, Wallet, Siri and Spotlight, and now accepts online-only businesses.",
+      "rules_and_risks": "Requires a real Apple Account and ownership verification; inaccurate or duplicate listings can be rejected. No auto-creation of accounts — you must sign in and verify manually.",
+      "why_it_works": "Apple's ecosystem reaches over a billion devices; a claimed place card puts your site link in front of high-intent users on iPhone/Mac with no fee.",
+      "evidence": [
+        "https://business.apple.com/en-ww/",
+        "https://www.apple.com/newsroom/2023/01/introducing-apple-business-connect/"
+      ],
+      "how_searched": [
+        "websearch: Apple Business Connect free listing online-only 2026",
+        "webfetch: Apple Business official site and Apple Newsroom announcement"
+      ],
+      "score": 50.7,
+      "found_at": "2026-11-13T00:30:51.115230+00:00"
     },
     {
       "name": "HackerNoon free story submission (human editor review)",
@@ -2067,6 +2107,26 @@
       "found_at": "2026-10-23T18:31:22.003827+00:00"
     },
     {
+      "name": "Help a B2B Writer / MentionMatch",
+      "url": "https://helpab2bwriter.com/",
+      "kind": "community",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Register as a source (select expertise areas), then respond to writer requests that match you with a genuine, quotable insight. If featured, you get a named mention and a link on a B2B publication. Requests arrive by daily email digest.",
+      "rules_and_risks": "B2B topics only; you must provide real, non-salesy expertise, not a pitch. Spammy or off-topic replies get you ignored or removed. Links/mentions are at the writer's discretion.",
+      "why_it_works": "It replaces cold pitching: journalists and content marketers actively look for sources, so responses convert into high-authority editorial backlinks and referral traffic.",
+      "evidence": [
+        "https://helpab2bwriter.com/",
+        "https://mentionmatch.com/"
+      ],
+      "how_searched": [
+        "websearch: free expert quote source sites B2B 2026",
+        "webfetch: Help a B2B Writer and MentionMatch official sites"
+      ],
+      "score": 42.7,
+      "found_at": "2026-11-13T00:30:53.365704+00:00"
+    },
+    {
       "name": "Mastodon (fediverse, fully documented free API)",
       "url": "https://docs.joinmastodon.org/methods/statuses/",
       "kind": "community",
@@ -2205,6 +2265,26 @@
       ],
       "score": 40.0,
       "found_at": "2026-10-09T06:45:26.174273+00:00"
+    },
+    {
+      "name": "Uneed",
+      "url": "https://www.uneed.best/submit-a-tool",
+      "kind": "directory",
+      "requires_account": true,
+      "official_free_api": true,
+      "how_to_use": "Paste your product URL (no account needed to start — the site auto-fetches details), then sign up to save and launch. Choose the free waiting-line launch, which grants homepage visibility and a do-follow backlink from a high-authority domain. An official API/MCP exists for agents.",
+      "rules_and_risks": "Free launches sit in a waiting line and launch one at a time; staying published/keeping the do-follow backlink may require a minimum launch-day upvote score. No cheating (vote manipulation) — the operator actively removes it.",
+      "why_it_works": "It is an active maker community that sends sustained referral traffic and provides a strong do-follow backlink, with testimonials citing months of ongoing visitors.",
+      "evidence": [
+        "https://www.uneed.best/submit-a-tool",
+        "https://help.uneed.best/getting-started/how-to-submit-your-first-product"
+      ],
+      "how_searched": [
+        "websearch: free startup launchpads do-follow backlink 2026",
+        "webfetch: Uneed submit page"
+      ],
+      "score": 40.0,
+      "found_at": "2026-11-13T00:30:55.821303+00:00"
     },
     {
       "name": "Podcast guesting and cross-promotion swaps with peer sites",
@@ -2370,6 +2450,26 @@
       "found_at": "2026-10-11T19:02:19.248978+00:00"
     },
     {
+      "name": "Baidu Search Resource Platform (Ziyuan)",
+      "url": "https://ziyuan.baidu.com/dailysubmit",
+      "kind": "search",
+      "requires_account": true,
+      "official_free_api": true,
+      "how_to_use": "Register a Baidu account (requires a Chinese mobile number and real-name verification), verify site ownership, then submit URLs via the API or sitemap for fast indexing into Baidu search.",
+      "rules_and_risks": "The hard barrier is account creation: a Chinese phone number and real-name verification are required, so it is impractical for many non-China operators. Submission quotas and content rules apply; spam is penalized.",
+      "why_it_works": "Baidu is the dominant search engine in China; the resource platform is the sanctioned way to get a site crawled and indexed quickly for Chinese audiences.",
+      "evidence": [
+        "https://ziyuan.baidu.com/dailysubmit",
+        "https://ziyuan.baidu.com/college/articleinfo?id=3329"
+      ],
+      "how_searched": [
+        "websearch: Baidu ziyuan submit site free 2026",
+        "webfetch: Baidu Search Resource Platform pages"
+      ],
+      "score": 32.0,
+      "found_at": "2026-11-13T00:30:59.673591+00:00"
+    },
+    {
       "name": "IndexNow",
       "url": "https://www.indexnow.org/",
       "kind": "search",
@@ -2404,25 +2504,6 @@
       ],
       "score": 31.7,
       "found_at": "2026-10-24T18:20:11.566773+00:00"
-    },
-    {
-      "name": "Google Business Profile",
-      "url": "https://support.google.com/business/answer/2911778?hl=en",
-      "kind": "directory",
-      "requires_account": true,
-      "official_free_api": false,
-      "how_to_use": "Go to business.google.com/add or find the business on Google Maps, choose 'Claim this business', complete the profile, and verify by the method Google offers. Then add hours, photos, services, and posts, and respond to reviews.",
-      "rules_and_risks": "Google says only eligible businesses can add or claim a profile and that you must follow its address guidelines. Fake, duplicate, or virtual-office listings can be suspended; verification can require video or documents.",
-      "why_it_works": "Google's own help says adding and verifying a Business Profile lets customers find the business on Search and Maps, and that you can add or claim it at no charge.",
-      "evidence": [
-        "https://support.google.com/business/answer/2911778?hl=en"
-      ],
-      "how_searched": [
-        "web search: Google Business Profile add or claim official help",
-        "fetched Google Business Profile help page"
-      ],
-      "score": 30.7,
-      "found_at": "2026-11-10T18:18:15.716842+00:00"
     },
     {
       "name": "Eventbrite free events (free event pages that rank in search)",
@@ -2498,25 +2579,6 @@
       ],
       "score": 28.7,
       "found_at": "2026-10-16T13:02:17.091203+00:00"
-    },
-    {
-      "name": "Kagi Small Web",
-      "url": "https://github.com/kagisearch/smallweb",
-      "kind": "search",
-      "requires_account": true,
-      "official_free_api": false,
-      "how_to_use": "Open a pull request that adds your personal blog and at least two other sites you do not own in the same commit. Include an RSS or Atom feed and make sure the blog is English, has a post from the last 12 months, and has no ads or undisclosed affiliate links.",
-      "rules_and_risks": "Only personal blogs are accepted, not multi-author or company sites. No auto-generated, LLM-generated, or spam content; no popups, intrusive ads, or undisclosed affiliate links. YouTube channels need at most two posts per week and under 100k subscribers. Violations can get the PR rejected or the site removed.",
-      "why_it_works": "Kagi Small Web is a curated index for independent personal blogs; inclusion puts posts in front of Kagi search users and the small-web feed. The README makes self-submission possible only through the add-two-others rule.",
-      "evidence": [
-        "https://github.com/kagisearch/smallweb"
-      ],
-      "how_searched": [
-        "web search: Kagi Small Web submit blog",
-        "fetched Kagi Small Web GitHub README"
-      ],
-      "score": 28.3,
-      "found_at": "2026-11-10T18:18:16.220449+00:00"
     },
     {
       "name": "Gumroad Discover",
@@ -2628,24 +2690,6 @@
       ],
       "score": 27.3,
       "found_at": "2026-10-24T06:13:20.807723+00:00"
-    },
-    {
-      "name": "Yandex Webmaster",
-      "url": "https://webmaster.yandex.com/",
-      "kind": "search",
-      "requires_account": true,
-      "official_free_api": false,
-      "how_to_use": "Verify site, submit sitemap/feeds via interface; follow Yandex indexing guidance.",
-      "rules_and_risks": "Regional importance (Russia/CIS); follow guidelines; no obvious bulk programmatic URL submit like IndexNow/Bing documented in general docs.",
-      "why_it_works": "Access to Yandex search in relevant markets.",
-      "evidence": [
-        "https://yandex.com/support/webmaster/en/"
-      ],
-      "how_searched": [
-        "webfetch Yandex Webmaster help"
-      ],
-      "score": 26.7,
-      "found_at": "2026-10-24T18:20:12.549245+00:00"
     },
     {
       "name": "BetaList",
@@ -2813,24 +2857,6 @@
       ],
       "score": 25.0,
       "found_at": "2026-10-18T18:34:10.437859+00:00"
-    },
-    {
-      "name": "Naver Search Advisor",
-      "url": "https://searchadvisor.naver.com/",
-      "kind": "search",
-      "requires_account": true,
-      "official_free_api": false,
-      "how_to_use": "Verify site, submit RSS/sitemap via Search Advisor interface.",
-      "rules_and_risks": "Korean market focus; feeds must meet validation (same domain, item counts, size limits).",
-      "why_it_works": "Important for Korean audience discoverability.",
-      "evidence": [
-        "https://searchadvisor.naver.com/guide/request-feed"
-      ],
-      "how_searched": [
-        "webfetch Naver Search Advisor guide"
-      ],
-      "score": 25.0,
-      "found_at": "2026-10-24T18:20:13.438576+00:00"
     },
     {
       "name": "Google Scholar (inclusion)",
@@ -3038,6 +3064,25 @@
       ],
       "score": 24.0,
       "found_at": "2026-11-10T18:18:16.876341+00:00"
+    },
+    {
+      "name": "Google Web Stories",
+      "url": "https://developers.google.com/search/docs/appearance/enable-web-stories",
+      "kind": "tactic",
+      "requires_account": false,
+      "official_free_api": false,
+      "how_to_use": "Publish AMP-valid Web Stories on your own domain, add required metadata (publisher logo, poster image, canonical), and include them in your sitemap. They can then appear as a single-story carousel in Google Search and Discover. No submission account needed beyond normal Search Console.",
+      "rules_and_risks": "Must be valid AMP with the required structured data or they are ignored. Discover surfacing is not guaranteed and is strongest in the US, India and Brazil. Thin/clickbait stories are demoted or dropped.",
+      "why_it_works": "Discover is a massive passive-traffic surface; a well-made story can be shown to users who never searched for you, driving clicks to your site.",
+      "evidence": [
+        "https://developers.google.com/search/docs/appearance/enable-web-stories"
+      ],
+      "how_searched": [
+        "websearch: Google Web Stories Discover requirements 2026",
+        "webfetch: Google Search Central Web Stories documentation"
+      ],
+      "score": 24.0,
+      "found_at": "2026-11-13T00:30:51.652997+00:00"
     },
     {
       "name": "G2 free product listing + profile claim",
@@ -3262,6 +3307,25 @@
       "found_at": "2026-11-10T18:18:17.062159+00:00"
     },
     {
+      "name": "Dzen",
+      "url": "https://dzen.ru/about/media",
+      "kind": "platform",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Sign in with a Yandex ID or VK ID, create a channel, and publish articles/short videos — or connect your site's RSS feed for automatic import. Content is distributed by Dzen's recommendation feed to Russian-speaking readers.",
+      "rules_and_risks": "Requires a Yandex ID or VK ID (manual signup, not automatable). Content must follow Russian law and platform rules; low-quality or republished content gets limited distribution.",
+      "why_it_works": "Dzen reaches tens of millions of daily Russian-speaking users through an algorithmic feed, giving new sites organic discovery without ad spend.",
+      "evidence": [
+        "https://dzen.ru/about/media"
+      ],
+      "how_searched": [
+        "websearch: Dzen free publishing RSS feed 2026",
+        "webfetch: Dzen official about page"
+      ],
+      "score": 23.3,
+      "found_at": "2026-11-13T00:30:52.134631+00:00"
+    },
+    {
       "name": "Bluesky starter packs + custom feeds for your niche",
       "url": "https://bsky.social/about/blog/06-26-2024-starter-packs",
       "kind": "feed",
@@ -3433,25 +3497,6 @@
       "found_at": "2026-10-11T19:02:42.163132+00:00"
     },
     {
-      "name": "itch.io",
-      "url": "https://itch.io/docs/creators/getting-indexed",
-      "kind": "platform",
-      "requires_account": true,
-      "official_free_api": false,
-      "how_to_use": "Create an itch.io account, upload games, tools, or assets, and follow the documented indexing guidance (clear titles, descriptions, tags, and links) so your project appears in itch.io browse and search.",
-      "rules_and_risks": "Account creation is manual. Publishing is free for most content, but you must own the rights to what you upload and follow the platform's content rules. Indexing depends on filling page metadata correctly.",
-      "why_it_works": "itch.io is a well-known indie distribution marketplace with its own browse/search discovery, giving creators a free, indexable storefront.",
-      "evidence": [
-        "https://itch.io/docs/creators/getting-indexed"
-      ],
-      "how_searched": [
-        "itch.io getting indexed creators docs",
-        "itch.io publish free indie marketplace"
-      ],
-      "score": 22.0,
-      "found_at": "2026-10-13T18:47:32.200882+00:00"
-    },
-    {
       "name": "Read the Docs Community (open-source docs hosting)",
       "url": "https://app.readthedocs.org/accounts/signup/",
       "kind": "platform",
@@ -3468,6 +3513,25 @@
       ],
       "score": 22.0,
       "found_at": "2026-10-16T13:02:19.074982+00:00"
+    },
+    {
+      "name": "NewsBreak Contributor Program",
+      "url": "https://creators.newsbreak.com/",
+      "kind": "platform",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Apply through the Contributor onboarding form, get approved, then publish local-interest articles in the contributor dashboard. Approved content is distributed in the NewsBreak app to US local audiences.",
+      "rules_and_risks": "US-focused and best for genuinely local content; you can publish before monetization but approval and ongoing compliance are required. Duplicate or non-local content is rejected.",
+      "why_it_works": "NewsBreak is a large US local-news app; local articles reach readers in specific cities where you have no existing following.",
+      "evidence": [
+        "https://creators.newsbreak.com/"
+      ],
+      "how_searched": [
+        "websearch: NewsBreak contributor program free 2026",
+        "webfetch: NewsBreak creators official page"
+      ],
+      "score": 22.0,
+      "found_at": "2026-11-13T00:30:52.473280+00:00"
     },
     {
       "name": "Web Stories in Google Search and Discover",
@@ -3657,6 +3721,25 @@
       "found_at": "2026-10-16T13:02:19.866519+00:00"
     },
     {
+      "name": "Naver Search Advisor",
+      "url": "https://searchadvisor.naver.com/start",
+      "kind": "search",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Sign in with a Naver account, register your site in Search Advisor, verify ownership (HTML file/meta tag), then submit sitemaps/RSS and monitor collection and indexing. Naver's crawler auto-collects pages once the site is registered.",
+      "rules_and_risks": "Requires a Naver account and ownership verification — no automation. Only sites you own can be registered; the service reports status rather than guaranteeing rankings.",
+      "why_it_works": "Naver dominates Korean search; registering your site is the standard way to make sure Korean users can find and index your content.",
+      "evidence": [
+        "https://searchadvisor.naver.com/start"
+      ],
+      "how_searched": [
+        "websearch: Naver Search Advisor site registration 2026",
+        "webfetch: Naver Search Advisor start page"
+      ],
+      "score": 20.7,
+      "found_at": "2026-11-13T00:30:54.077440+00:00"
+    },
+    {
       "name": "Slashdot story submission",
       "url": "https://slashdot.org/submit",
       "kind": "community",
@@ -3711,6 +3794,25 @@
       ],
       "score": 20.7,
       "found_at": "2026-11-10T18:18:18.231213+00:00"
+    },
+    {
+      "name": "Yandex Webmaster",
+      "url": "https://webmaster.yandex.com/welcome/",
+      "kind": "search",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Sign in with a Yandex ID, add your site, and verify ownership via one of the offered methods (meta tag, DNS, file). Then use Sitemap/robots tools, indexing monitor and diagnostics to get your pages into Yandex search. The whole service is free.",
+      "rules_and_risks": "You can only add sites you can verify ownership of; a Yandex ID must be created manually. Reports help diagnose problems but do not guarantee rankings.",
+      "why_it_works": "Yandex is the leading search engine in Russia; verified registration is the standard path to organic traffic from Russian-speaking users.",
+      "evidence": [
+        "https://webmaster.yandex.com/welcome/"
+      ],
+      "how_searched": [
+        "websearch: Yandex Webmaster add site free 2026",
+        "webfetch: Yandex Webmaster official page"
+      ],
+      "score": 20.3,
+      "found_at": "2026-11-13T00:30:55.033456+00:00"
     },
     {
       "name": "Wikimedia Commons (free media + Wikipedia reach)",
@@ -3975,6 +4077,25 @@
       "found_at": "2026-10-10T00:17:36.097591+00:00"
     },
     {
+      "name": "Kagi Small Web",
+      "url": "https://github.com/kagisearch/smallweb",
+      "kind": "search",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Open a pull request to add your blog's RSS/Atom feed to smallweb.txt. Rules require you to also add at least 2 other non-owned sites not yet in the list in the same commit. Approved feeds surface in Kagi search and the Small Web RSS feed.",
+      "rules_and_risks": "Strict eligibility: English only, personal (single-author) blog, a post newer than 12 months, no ads/undisclosed affiliate links, no popups, no LLM-generated/spam content; multi-author and commercial blogs are rejected. A GitHub account is required.",
+      "why_it_works": "Kagi deliberately boosts small, human-written sites in its search results and RSS feed, giving personal blogs visibility they would not get from mainstream engines.",
+      "evidence": [
+        "https://github.com/kagisearch/smallweb"
+      ],
+      "how_searched": [
+        "websearch: Kagi Small Web submit blog 2026",
+        "webfetch: kagisearch/smallweb GitHub repository"
+      ],
+      "score": 18.3,
+      "found_at": "2026-11-13T00:30:56.503205+00:00"
+    },
+    {
       "name": "Crunchbase free company profile",
       "url": "https://support.crunchbase.com/hc/en-us/articles/115011823988-How-do-I-create-a-Crunchbase-profile",
       "kind": "directory",
@@ -4106,6 +4227,25 @@
       "found_at": "2026-10-10T00:17:39.481134+00:00"
     },
     {
+      "name": "Telegram public channels",
+      "url": "https://telegram.org/faq",
+      "kind": "feed",
+      "requires_account": true,
+      "official_free_api": true,
+      "how_to_use": "Create a free Telegram account, create a channel, set a public username so it gets a t.me/yourname web page, and post. Share the t.me link. Developers can use the free Bot API to publish programmatically.",
+      "rules_and_risks": "Account creation requires a phone number and manual verification — it cannot be automated. Public t.me pages are crawlable, but discovery is mostly driven by you sharing the link; large channels may show Telegram's own ads. Spam/illegal content is removed.",
+      "why_it_works": "Telegram has over a billion users and channels broadcast to unlimited audiences; a public t.me page can be indexed and shared widely at no cost.",
+      "evidence": [
+        "https://telegram.org/faq"
+      ],
+      "how_searched": [
+        "websearch: Telegram public channel free reach 2026",
+        "webfetch: Telegram official FAQ"
+      ],
+      "score": 17.7,
+      "found_at": "2026-11-13T00:30:56.892825+00:00"
+    },
+    {
       "name": "Lobsters: invite-tree link aggregator for computing topics",
       "url": "https://lobste.rs/about",
       "kind": "community",
@@ -4141,6 +4281,25 @@
       ],
       "score": 17.3,
       "found_at": "2026-11-10T18:18:19.941980+00:00"
+    },
+    {
+      "name": "itch.io",
+      "url": "https://itch.io/docs/creators/getting-indexed",
+      "kind": "platform",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Create a free account, upload your game/asset/tool, set visibility to Public, add a cover image and downloadable or playable files, and tag it accurately. Published projects appear in Search/Browse and Devlogs are indexed too.",
+      "rules_and_risks": "No cover image or empty/placeholder pages will not be indexed; new sellers' first paid project goes through a human review queue. Abusing tags, faking views, or circumventing indexing (alt accounts, deleting/recreating pages) can get you deindexed.",
+      "why_it_works": "itch.io is a large destination for indie games and tools; browse/tag pages and devlog email digests give free discovery to new creators.",
+      "evidence": [
+        "https://itch.io/docs/creators/getting-indexed"
+      ],
+      "how_searched": [
+        "websearch: itch.io free publishing indexing 2026",
+        "webfetch: itch.io getting indexed docs"
+      ],
+      "score": 16.7,
+      "found_at": "2026-11-13T00:30:57.162918+00:00"
     },
     {
       "name": "LaunchFree.io 'The Runway' free launch listing",
@@ -4198,6 +4357,25 @@
       ],
       "score": 16.7,
       "found_at": "2026-10-13T18:47:41.779360+00:00"
+    },
+    {
+      "name": "Read the Docs Community",
+      "url": "https://about.readthedocs.com/choosing-a-platform/",
+      "kind": "platform",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Sign up for a free community account, connect a public Git repository containing your Sphinx/MkDocs documentation, and build/host it. Docs are served on a public readthedocs.io subdomain and are heavily linked and indexed.",
+      "rules_and_risks": "Free tier is only for open-source projects on public repos, and hosted sites carry EthicalAds advertising. Commercial/private docs require the paid plan. Content must be genuinely open source.",
+      "why_it_works": "It is the default docs host for open-source projects, so developer audiences already search and browse it, giving documentation organic search and referral traffic.",
+      "evidence": [
+        "https://about.readthedocs.com/choosing-a-platform/"
+      ],
+      "how_searched": [
+        "websearch: free documentation hosting open source 2026",
+        "webfetch: Read the Docs choosing-a-platform page"
+      ],
+      "score": 16.7,
+      "found_at": "2026-11-13T00:30:57.024251+00:00"
     },
     {
       "name": "RSS/Atom feed directories (FeedBagel + rss.mobi) — incl. AI-agent discovery",

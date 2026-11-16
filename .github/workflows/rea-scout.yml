@@ -47,7 +47,7 @@ jobs:
         working-directory: site
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          OPENCODE_API_KEY: ${{ secrets.OPENCODE_API_KEY }}
+          OPENCODE_API_KEY: ${{ secrets.OPENCODE_API_KEY || secrets.OPENCODE }}
         run: python3 scripts/rea_scout.py pick 2>&1 | tee /tmp/pick.log
 
       - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7
@@ -146,7 +146,7 @@ jobs:
         working-directory: site
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          OPENCODE_API_KEY: ${{ secrets.OPENCODE_API_KEY }}
+          OPENCODE_API_KEY: ${{ secrets.OPENCODE_API_KEY || secrets.OPENCODE }}
         run: python3 scripts/rea_scout.py build
 
       - name: 4) Hand over to the site's pipeline (tool or app), same way the Global Scout does
