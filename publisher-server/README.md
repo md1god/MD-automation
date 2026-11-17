@@ -21,7 +21,7 @@
 | telegram | `TELEGRAM_BOT_TOKEN` `TELEGRAM_CHAT_ID` |
 | discord | `DISCORD_WEBHOOK_URL` |
 | linkedin | `LINKEDIN_ACCESS_TOKEN` `LINKEDIN_AUTHOR_URN` (اختياري `LINKEDIN_API_VERSION`) |
-| x | `X_ACCESS_TOKEN` (OAuth2 user token بصلاحية tweet.write) |
+| x (**مدفوع**) | `X_ACCESS_TOKEN`. واجهة X الرسمية لا طبقة مجانية فيها (نحو 0.015$ للمنشور و0.20$ إن احتوى رابطًا حسب ما وجدته في نوفمبر 2026). لا تضبطه إن أردت بلا تكلفة |
 | facebook (صفحة) | `FACEBOOK_PAGE_ID` `FACEBOOK_PAGE_TOKEN` |
 | reddit | `REDDIT_CLIENT_ID` `REDDIT_CLIENT_SECRET` `REDDIT_USERNAME` `REDDIT_PASSWORD` (`REDDIT_SUBREDDIT`) |
 | devto | `DEVTO_API_KEY` |
@@ -38,6 +38,10 @@
 ## ربط LinkedIn تلقائياً
 
 أنشئ تطبيقاً في linkedin.com/developers وفعّل «Share on LinkedIn» و«Sign In with LinkedIn using OpenID Connect»، وأضف Redirect URL: `<PUBLIC_URL>/oauth/linkedin/callback`، ثم ضع `LINKEDIN_CLIENT_ID` و`LINKEDIN_CLIENT_SECRET`. افتح `<PUBLIC_URL>/oauth/linkedin/start?key=<API_KEY>` فتظهر لك قيمتا `LINKEDIN_ACCESS_TOKEN` و`LINKEDIN_AUTHOR_URN` لتنسخهما إلى Render. الرمز ينتهي بعد نحو 60 يوماً فكرّر الربط.
+
+## ما هو مجاني فعلًا
+
+مجاني بلا تكلفة نشر: Bluesky وMastodon وTelegram وDiscord وDEV.to وGitHub Pages وWordPress (موقعك) وWebhook. وLinkedIn عبر منتج Share on LinkedIn المجاني للتطبيقات الجديدة. أما Facebook وReddit فشروط الوصول والمراجعة عندهما تتغير ولم أتحقق منها حيًا، فاعتبرهما غير مضمونتين. الاستضافة على خطة Render المجانية تنام عند الخمول وقد تتغير شروطها.
 
 ## حدود صريحة
 
