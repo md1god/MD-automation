@@ -231,25 +231,6 @@
       "found_at": "2026-11-13T08:04:51.876183+00:00"
     },
     {
-      "name": "Zernio (marketing infrastructure API for products/agents)",
-      "field": "Developer tools / marketing infra",
-      "summary": "One API covering social posting, ads, messaging, calls and analytics across 16+ platforms, built for developers and AI agents.",
-      "why_now": "Crossed $3M ARR in 13 months (bootstrapped, 8 people) with MRR of $365K in Sep 2026 (+31% MoM); now expanding to RCS, branded calling, pixels and commerce.",
-      "monetization": "SaaS tiers $19/$49/$999/mo plus usage; $3M ARR, $365K MRR, 500+ phone numbers issued in 2 weeks.",
-      "evidence": [
-        "https://www.indiehackers.com/post/tech/leaving-his-vc-backed-company-to-bootstrap-a-product-to-1m-arr-in-10-months-42RGhUiSGBTIdX6zLsaD",
-        "https://www.linkedin.com/posts/miquelpalet_we-just-crossed-3m-arr-in-13-months-zernio-activity-7498302504737214467-T-dh",
-        "https://zernio.com/blog/october-1-2026-product-updates"
-      ],
-      "how_searched": [
-        "Indie Hackers founder interview",
-        "LinkedIn founder post",
-        "Product blog updates"
-      ],
-      "score": 90.0,
-      "found_at": "2026-10-27T16:52:20.923719+00:00"
-    },
-    {
       "name": "Firecrawl (web data extraction for AI agents)",
       "field": "AI infrastructure / Web scraping / Agent tooling",
       "summary": "API to search and extract web content in AI-friendly formats (Markdown/JSON/screenshots), handling JS/rendering/proxies/rate limits.",
@@ -345,25 +326,6 @@
       ],
       "score": 89.0,
       "found_at": "2026-11-13T08:04:52.480209+00:00"
-    },
-    {
-      "name": "ScriptMind (video URL to transcript/scripts)",
-      "field": "Content/creator tools",
-      "summary": "Paste a YouTube/TikTok/Instagram URL and get transcripts, subtitles, summaries, rewrites and SEO articles in seconds.",
-      "why_now": "Monthly visits jumped +371% to 340.6K in Sep 2026 (Similarweb via Turbo0), ranking #1 fastest-growing; 76% search-driven, freemium with paid plans.",
-      "monetization": "Freemium with Creator $6.42/mo and Growth $14.92/mo plans; credit packs; 60 free credits/mo.",
-      "evidence": [
-        "https://turbo0.com/collection/fastest-growing",
-        "https://probedex.ai/domain/scriptmind.co",
-        "https://indieai.directory/tools/scriptmind/"
-      ],
-      "how_searched": [
-        "Turbo0 fastest-growing ranking",
-        "Probedex traffic estimator",
-        "IndieAI directory"
-      ],
-      "score": 88.0,
-      "found_at": "2026-10-27T16:52:22.270059+00:00"
     },
     {
       "name": "AI agent monetization infrastructure (usage/credit-based)",
@@ -514,25 +476,6 @@
       "found_at": "2026-11-11T22:04:51.839189+00:00"
     },
     {
-      "name": "OpenSEO (open-source Semrush/Ahrefs alternative)",
-      "field": "SEO tools",
-      "summary": "MIT-licensed front end + MCP server over DataForSEO: keyword research, backlinks, rank tracking, site audits, AI visibility, pay-as-you-go.",
-      "why_now": "GitHub stars rose from ~4K to ~20K+ in months; YC F26 ($500K); searches for 'openseo' rose from ~10 to ~2,900/mo; 3,000+ hosted users; 414 PH upvotes.",
-      "monetization": "Hosted $10/mo with 28% markup on DataForSEO calls; self-host free; agency usage up to ~$50/mo.",
-      "evidence": [
-        "https://solooperatorstack.com/blog/openseo-solo-founder-open-source-ahrefs-alternative/",
-        "https://unscriptedseo.com/ben-senescu-open-source-seo-99-ceiling/",
-        "https://www.ababnews.com/en/news/1a6798e0-ec32-4a84-9de7-dd45bf4f6cc6"
-      ],
-      "how_searched": [
-        "Solo founder blog",
-        "Founder interview",
-        "YC funding news"
-      ],
-      "score": 86.0,
-      "found_at": "2026-10-27T16:52:25.380328+00:00"
-    },
-    {
       "name": "AI sales/outbound agents (e.g. Outbind/Spira-related patterns)",
       "field": "Sales AI / GTM automation",
       "summary": "AI agents for prospecting, personalized outreach, learning from responses with volume controls to avoid spam.",
@@ -650,25 +593,6 @@
       ],
       "score": 86.0,
       "found_at": "2026-11-15T02:13:35.223383+00:00"
-    },
-    {
-      "name": "Anakin (web data API + AI visibility/GEO)",
-      "field": "Developer tools / data API",
-      "summary": "One API for scraping, crawling, search and 940+ site actions, plus tracking brand mentions across ChatGPT, Gemini, Perplexity and Google AI Overview.",
-      "why_now": "Traffic up +379% to 112.4K visits in Sep 2026 (Turbo0 #1 growth); YC S21; pricing from free 300 credits to $100+/mo; strong GEO/AEO demand.",
-      "monetization": "Free 300 credits; Pro $19/mo, Scale $100/mo, LLM visibility $100-$4,500/mo; 50+ billion-dollar customers claimed.",
-      "evidence": [
-        "https://turbo0.com/item/anakin",
-        "https://anakin.io/",
-        "https://anakin.io/use-cases/llm-visibility"
-      ],
-      "how_searched": [
-        "Turbo0 fastest-growing ranking",
-        "Product site",
-        "Use-case docs"
-      ],
-      "score": 85.0,
-      "found_at": "2026-10-27T16:52:27.458579+00:00"
     },
     {
       "name": "AI Job Search Copilot & Autofill Agent",
@@ -843,25 +767,6 @@
       "found_at": "2026-11-17T04:13:42.917205+00:00"
     },
     {
-      "name": "MelodySeek (find music from any video)",
-      "field": "Audio/music tools",
-      "summary": "Paste a TikTok/Reels/Shorts link, upload a file or record audio to identify the song in seconds, with streaming links.",
-      "why_now": "Visits up +1,125% to 49.8K in Sep 2026 (Turbo0 #1 growth in Audio Editing); 35% US traffic; ad-free, no login.",
-      "monetization": "One-time credit packs $2.99 (100) to $19.99 (2000); subscription ~$9.99/mo for 1,000 credits; freemium.",
-      "evidence": [
-        "https://turbo0.com/item/melodyseek",
-        "https://www.toolify.ai/tool/melodyseek",
-        "https://rightaichoice.com/tools/melodyseek"
-      ],
-      "how_searched": [
-        "Turbo0 fastest-growing ranking",
-        "Tool directory traffic data",
-        "Viability monitor"
-      ],
-      "score": 84.0,
-      "found_at": "2026-10-27T16:52:29.324352+00:00"
-    },
-    {
       "name": "Agent access control/monetization via MCP",
       "field": "AI infrastructure / Data monetization / APIs",
       "summary": "MCP emerging as standard for agent access to enterprise data; companies deciding what to expose and how to monetize (usage/outcome-based).",
@@ -982,25 +887,6 @@
       "found_at": "2026-11-16T20:37:38.039457+00:00"
     },
     {
-      "name": "Inbox Zero (open-source Superhuman alternative)",
-      "field": "Email productivity",
-      "summary": "Open-source AI email client for Gmail/Outlook with labeling, drafts, cold-email blocking and bulk unsubscribe; AGPL, self-hostable.",
-      "why_now": "12.8K GitHub stars, 25K+ signups, $10K+/mo MRR; Oct 2026 PH launch #1 of the day (379 upvotes) for new mail client; open-source trust demand.",
-      "monetization": "Hosted assistant/client $18-$42/user/mo; ~$10K+ MRR, ~$330K/yr estimate (Latka).",
-      "evidence": [
-        "https://aiolum.com/story/inbox-zero/",
-        "https://www.starterstory.com/stories/inbox-zero",
-        "https://www.getinboxzero.com/best-superhuman-alternative"
-      ],
-      "how_searched": [
-        "Revenue aggregator profile",
-        "Founder interview",
-        "Product comparison page"
-      ],
-      "score": 83.0,
-      "found_at": "2026-10-27T16:52:30.134310+00:00"
-    },
-    {
       "name": "AI Shopping / Commerce Agent",
       "field": "Consumer AI Commerce",
       "summary": "A personal AI agent that browses, compares, and completes purchases across e-commerce sites on the user's behalf, acting as a shoppable assistant rather than a chatbot.",
@@ -1100,25 +986,6 @@
       ],
       "score": 83.0,
       "found_at": "2026-11-17T04:13:43.396129+00:00"
-    },
-    {
-      "name": "ZocialComment (social comment exporter)",
-      "field": "Data/marketing tools",
-      "summary": "Export comments from TikTok, Instagram, YouTube, Reddit, Facebook, X, Threads and more to CSV/Excel/JSON; no signup, first 100 free.",
-      "why_now": "Listed as new & fast-growing on Turbo0; 10.5K users, 2.5M comments exported in 30 days; pay-as-you-go passes; Chrome extension launched Jul 2026.",
-      "monetization": "Free first 100 comments; $9 3-day unlimited pass; $39 Pro pass; $1 per 100 comments; AI/audience analysis add-ons.",
-      "evidence": [
-        "https://turbo0.com/collection/fastest-growing",
-        "https://zocialcomment.com/",
-        "https://zocialcomment.com/export/tiktok"
-      ],
-      "how_searched": [
-        "Turbo0 fastest-growing ranking",
-        "Product site stats",
-        "Platform export page"
-      ],
-      "score": 82.0,
-      "found_at": "2026-10-27T16:52:32.822053+00:00"
     },
     {
       "name": "Marketplace Reseller Automation Agent",
@@ -1283,6 +1150,27 @@
       "found_at": "2026-11-15T21:52:35.723497+00:00"
     },
     {
+      "name": "Secure DocShare + Virtual Data Rooms (open-source DocSend pattern)",
+      "field": "Document security / fundraising data rooms",
+      "summary": "Link-based document sharing with page-level view analytics, permissions, watermarking and virtual data rooms for pitch decks and due diligence. Rebuild as an original free tool with self-hosting and paid hosted teams.",
+      "why_now": "Papermark crossed $4M ARR in October 2026, its biggest month, up from $3M in August. October had 338,863 document views (+42%), sign-ups +82% and 37.4% data-room trial-to-paid; the milestone was reported Nov 4-5.",
+      "monetization": "Hosted subscriptions and data rooms; roughly $333K MRR implied by $4M ARR, site claims 70,000+ companies; founder-reported, not audited.",
+      "evidence": [
+        "https://indiefounder.me/stories/iuliia-shnai-papermark/",
+        "https://www.arr.club/signal/papermark-crossed-4m-arr",
+        "https://arrfounder.com/news/papermark-crosses-4m-arr",
+        "https://www.papermark.com/news"
+      ],
+      "how_searched": [
+        "open-startup revenue milestone coverage",
+        "founder-post aggregator",
+        "vendor news page",
+        "category comparison search"
+      ],
+      "score": 82.0,
+      "found_at": "2026-11-17T22:28:23.931841+00:00"
+    },
+    {
       "name": "Anti-AI-Slop Design Linter & Skill for Coding Agents",
       "field": "Developer Tools / Agent Skills",
       "summary": "An installable design skill and browser-based linter that forces Claude Code, Cursor, and Codex to stop shipping generic 'AI-looking' landing pages, scoring output against dozens of deterministic anti-pattern rules.",
@@ -1322,25 +1210,6 @@
       ],
       "score": 81.0,
       "found_at": "2026-11-15T21:52:36.509077+00:00"
-    },
-    {
-      "name": "Spira Maxima (script to viral social video)",
-      "field": "AI video generation",
-      "summary": "Turns a script (or photo/recording) into a finished vertical social video with presenter, B-roll, captions and music in one pass.",
-      "why_now": "PH #1 of the day (Oct 5, 2026) and #1 of the week; 41.5K monthly visits; open-source release gated; 10M+ pilot impressions claimed.",
-      "monetization": "$0.15/sec (launch $0.075); Free 20s cap, Creator 60s, Growth 90s; per-finished-post pricing.",
-      "evidence": [
-        "https://www.producthunt.com/products/spira-ai",
-        "https://spira.ai/spira-maxima",
-        "https://sloptvnews.com/spira-maxima-text-to-finished-social-video/"
-      ],
-      "how_searched": [
-        "Product Hunt leaderboard",
-        "Product pricing page",
-        "Launch coverage"
-      ],
-      "score": 80.0,
-      "found_at": "2026-10-27T16:52:33.854606+00:00"
     },
     {
       "name": "Social-Listening Lead Generator",
@@ -1670,25 +1539,6 @@
       ],
       "score": 78.0,
       "found_at": "2026-11-16T02:25:39.300599+00:00"
-    },
-    {
-      "name": "Onepin (AI voiceover validation/normalization)",
-      "field": "Audio/voice tools",
-      "summary": "Production step after TTS: normalizes prices/dates/abbreviations, checks names against a 4M-word pronunciation dictionary, scores each line, fixes mispronunciations.",
-      "why_now": "PH #1 Product of the Day (Oct 10, 2026) with 443 upvotes; founder from Podonos (150K human listeners); demand from teams shipping AI voiceover at volume.",
-      "monetization": "Free 1,000 credits; Creator $16/mo, Studio $80/mo, Scale $240/mo; 100 credits/$1; BYO keys.",
-      "evidence": [
-        "https://www.producthunt.com/products/onepin",
-        "https://hunted.space/product/onepin",
-        "https://onepin.ai/pricing"
-      ],
-      "how_searched": [
-        "Product Hunt leaderboard",
-        "Hunted.space PH tracker",
-        "Pricing page"
-      ],
-      "score": 78.0,
-      "found_at": "2026-10-27T16:52:34.636050+00:00"
     },
     {
       "name": "AI Speaking Tutor (Voice Conversation Practice)",
@@ -2048,6 +1898,28 @@
       ],
       "score": 76.0,
       "found_at": "2026-11-16T02:25:42.967182+00:00"
+    },
+    {
+      "name": "Browser Embroidery Digitizer & Stitch-File Studio",
+      "field": "Maker tools / machine embroidery",
+      "summary": "Free browser tool to import SVG or trace PNG/JPEG into stitches, edit lettering and thread colors, preview stitch-outs and export PES/DST/JEF/EXP/VP3 without a vendor app or subscription.",
+      "why_now": "A Nov 12 Show HN post about a $300 embroidery machine needing a subscription hit 742 points and 258 comments; Apache-2.0 ZigZag launched. A Nov 9 converter guide shows active demand; Etsy machine embroidery has ~276,936 estimated sales (+11.5%) and a rising embroidery-font listing +1,050%.",
+      "monetization": "Adjacent paid suites: Hatch $199-$1,199 one-time, Wilcom GBP 69-99/mo, Embrilliance modules $119-$179; contract digitizing $10-$25/design. Free tool can charge for auto-digitizing or bulk exports.",
+      "evidence": [
+        "https://itsfoss.com/news/zigzag-embroidery-software/",
+        "https://broidry.com/guides/machine-embroidery-software-explained",
+        "https://www.veloradigitizing.com/blog/free-embroidery-file-converters",
+        "https://www.alura.io/tools/what-to-sell-on-etsy"
+      ],
+      "how_searched": [
+        "community/Show HN launch ranking",
+        "tech news article",
+        "buyer guide with vendor prices",
+        "app/tool comparison article",
+        "marketplace trend data"
+      ],
+      "score": 76.0,
+      "found_at": "2026-11-17T22:28:26.238634+00:00"
     },
     {
       "name": "AI ebook-to-publish pipeline (GETebook pattern)",
@@ -2523,6 +2395,27 @@
       "found_at": "2026-11-17T04:13:49.910346+00:00"
     },
     {
+      "name": "Transcript-to-Deck AI Slides",
+      "field": "AI presentations / meeting productivity",
+      "summary": "Paste a meeting transcript, summary or document and get an editable deck with layouts, speaker notes and .pptx export.",
+      "why_now": "Zoom Slides launched Nov 16, 2026 and took #1 Product of the Day with 296 upvotes, 101 comments and 343 reviews at 4.62. Alternative/comparison pages were published the same day, and commenters describe real meeting-to-deck workflows.",
+      "monetization": "Zoom AI Productivity Suite $8.33/user/month (1,000 credits) and ZoomMate $16.67/user/month (2,200 credits); revenue specific to Slides not disclosed.",
+      "evidence": [
+        "https://www.producthunt.com/leaderboard/daily/2026/11/16",
+        "https://hunted.space/dashboard/zoom",
+        "https://www.zoom.com/en/products/ai-slides/",
+        "https://toolradar.com/alternatives/zoom-slides"
+      ],
+      "how_searched": [
+        "launch site leaderboard",
+        "launch analytics dashboard",
+        "vendor product page",
+        "alternatives comparison site"
+      ],
+      "score": 72.0,
+      "found_at": "2026-11-17T22:28:31.042476+00:00"
+    },
+    {
       "name": "AI screenwriting and storyboard workspace (Laper pattern)",
       "field": "AI screenwriting",
       "summary": "A script-first workspace for formatting, structure visualization, collaboration, and storyboard/production entities. Rebuild as a free web screenplay editor with paid AI notes, production breakdowns, and collaboration.",
@@ -2761,6 +2654,28 @@
       ],
       "score": 70.0,
       "found_at": "2026-11-16T20:37:44.695502+00:00"
+    },
+    {
+      "name": "Cross-AI Chat Search & Workspace",
+      "field": "AI productivity / personal knowledge management",
+      "summary": "Local-first web or extension workspace that imports chat history from ChatGPT, Claude, Gemini and Grok, then offers full-text search, folders, tags, saved prompts and exports.",
+      "why_now": "Outlira launched Nov 9-10, 2026 and grew about 18,125% in a week to roughly 729 Chrome users; it sits in a trending chat export/backup category. Native search remains per-platform (OpenAI help updated 12 days ago, Claude's this week).",
+      "monetization": "Freemium Pro subscription; price shown at checkout and revenue not public, so profit evidence is weak.",
+      "evidence": [
+        "https://outlira.com/",
+        "https://outlira.com/pricing",
+        "https://chrome-stats.com/chrome/trending/trending-week",
+        "https://saasearch.io/product/outlira",
+        "https://help.openai.com/en/articles/10056348-finding-your-chats-projects-and-files-in-chatgpt"
+      ],
+      "how_searched": [
+        "Chrome extension analytics/trending",
+        "product launch database",
+        "vendor pricing and privacy pages",
+        "vendor help docs"
+      ],
+      "score": 70.0,
+      "found_at": "2026-11-17T22:28:32.207746+00:00"
     },
     {
       "name": "General resale-value scanner",
@@ -3047,6 +2962,46 @@
       "found_at": "2026-11-16T20:37:45.101334+00:00"
     },
     {
+      "name": "Verified Revenue Leaderboard & Micro-Startup Marketplace",
+      "field": "Indie founder data / marketplaces",
+      "summary": "Stripe-verified database of startup revenues plus a marketplace to buy and sell small products. Rebuild as an original free leaderboard with paid verification or listings.",
+      "why_now": "On Nov 6, 2026 Marc Lou said he rejected a $2.5M all-cash offer for TrustMRR, up from a $1.2M January offer; the marketplace closed about $2.2M of acquisitions in 365 days and lists roughly 12,500 startups.",
+      "monetization": "Listings and marketplace; founder said about $45K/mo while its listing showed $32,512 in 30 days and $13,491 MRR. Self-reported and internally inconsistent.",
+      "evidence": [
+        "https://www.indiehackers.com/post/tech/marc-lou-says-he-turned-down-2-5m-in-cash-for-his-revenue-database-Gd2Vs2WSq9PlQdu8TtJK",
+        "https://getleadwave.io/blog/saas-indie-hackers",
+        "https://coffounder.com/blog/how-much-do-indie-hackers-make"
+      ],
+      "how_searched": [
+        "indie founder news",
+        "revenue database directory",
+        "founder MRR survey"
+      ],
+      "score": 66.0,
+      "found_at": "2026-11-17T22:28:33.319969+00:00"
+    },
+    {
+      "name": "Seasonal Custom Printable Generator",
+      "field": "Etsy digital products / printables",
+      "summary": "Free web tool that generates print-ready, personalized Christmas stockings, ornaments, cards and gift tags at standard sizes and DPI for sellers and consumers.",
+      "why_now": "Podezzy data to Nov 9, 2026: christmas stocking +282.7%, christmas ornament +145.2%, christmas decor +141.5%. eMarketInsight's week to Nov 15 had 23 of 30 rising phrases tied to Thanksgiving; Alura shows christmas digital download +292%.",
+      "monetization": "Etsy printables: advent calendars average $38.35, digital download median $4, wedding templates $12.36; a seller keeps about $4 on a $5 bundle after fees.",
+      "evidence": [
+        "https://podezzy.com/blog/top-etsy-keywords",
+        "https://www.emarketinsight.com/reports/trending-on-etsy",
+        "https://www.alura.io/tools/what-to-sell-on-etsy",
+        "https://www.optimsy.com/en/blog/digital-products-to-sell"
+      ],
+      "how_searched": [
+        "marketplace keyword/sales data",
+        "weekly marketplace trend report",
+        "seller research tool data",
+        "niche measurement article"
+      ],
+      "score": 66.0,
+      "found_at": "2026-11-17T22:28:36.195203+00:00"
+    },
+    {
       "name": "AI stem and vocal separator web tool for musicians",
       "field": "Music tech / audio tools",
       "summary": "A web tool that splits any uploaded song into vocals, drums, bass, guitar and other stems plus chords, key and tempo detection — used for practice, karaoke tracks and remixes. Moises built an ~$16M ARR business on this exact pattern.",
@@ -3104,6 +3059,26 @@
       ],
       "score": 64.0,
       "found_at": "2026-11-14T21:32:52.298650+00:00"
+    },
+    {
+      "name": "Zero-Friction Visual Proofing & Sign-off",
+      "field": "Creative collaboration",
+      "summary": "Upload images or PDFs, drop pinned or timestamped comments via a no-login link, and collect one-click approvals with version history.",
+      "why_now": "A November 2026 indie report shows about 40 customers at $29/month (roughly $1.2K/mo). MarkUp.io's jump from $29 to $79/mo and removal of its free plan still drives a steady stream of alternative searches and comparison pages in 2026.",
+      "monetization": "$29/mo indie tool; competitors $15-$79/mo per team, enterprise $499/mo.",
+      "evidence": [
+        "https://1dea.io/traction/monthly/2026-11",
+        "https://www.simplecommenter.com/alternatives/markup-io-alternatives",
+        "https://aligno.io/blog/best-design-feedback-tools-2026-compared",
+        "https://drobber.com/alternatives/"
+      ],
+      "how_searched": [
+        "vetted indie revenue roundup",
+        "alternatives/price-change comparison",
+        "category comparison articles"
+      ],
+      "score": 64.0,
+      "found_at": "2026-11-17T22:28:39.306009+00:00"
     },
     {
       "name": "Browser voice recorder with AI transcription and summaries (no hardware)",
@@ -3197,6 +3172,29 @@
       ],
       "score": 60.0,
       "found_at": "2026-11-14T21:32:54.280534+00:00"
+    },
+    {
+      "name": "Paid Attention During AI Wait Time",
+      "field": "Adtech / AI consumer utilities",
+      "summary": "A browser or web layer that places one dismissible sponsored line in idle space while ChatGPT, Claude or Gemini generates, splitting ad revenue with the user.",
+      "why_now": "Chatwait has about 70K Chrome users, +728 ratings in 30 days and +23.5% weekly growth in early-to-mid Nov 2026, with public source and self-serve CPM ads at a $20 minimum.",
+      "monetization": "CPM ads split 50/50; users report $3-8/mo, cashout $10 minimum via Whop; platform revenue not public. Reviews complain about stalled earnings and host-ToS risk.",
+      "evidence": [
+        "https://chatwait.com/",
+        "https://chromewebstore.google.com/detail/chatwait-get-paid-while-a/fjbgbmkdallahjigblomfalbpblojfng",
+        "https://github.com/chatwait/chatwait-extension/",
+        "https://stringers.io/en/ext/chrome_fjbgbmkdallahjigblomfalbpblojfng.html",
+        "https://appgazers.com/reports/chrome-extensions/trending",
+        "https://storetally.com/chrome/week"
+      ],
+      "how_searched": [
+        "Chrome extension store analytics",
+        "vendor site and open-source repo",
+        "independent extension teardown",
+        "extension trend dashboards"
+      ],
+      "score": 60.0,
+      "found_at": "2026-11-17T22:28:43.214526+00:00"
     },
     {
       "name": "AEO Engine",
@@ -4896,6 +4894,23 @@
       ],
       "score": 40.0,
       "found_at": "2026-11-15T02:13:45.321616+00:00"
+    },
+    {
+      "name": "Daily Guess-the-X Puzzle Site",
+      "field": "Daily web games / display ads",
+      "summary": "Habit-forming daily puzzle such as guessing an actor from filmography, with sister games and ad monetization.",
+      "why_now": "A Nov 2026 roundup reports actorle.com at about $4K/mo with 144K-201K monthly visits, roughly 33K daily page views and a new Cinections spin-off; daily-game launches also appeared in November's Show HN rankings.",
+      "monetization": "Display ads at roughly $6 CPM, about $4K/mo; small paid subscriptions also mentioned.",
+      "evidence": [
+        "https://1dea.io/traction/monthly/2026-11",
+        "https://bestofshowhn.com/2026/11"
+      ],
+      "how_searched": [
+        "vetted indie revenue roundup",
+        "Show HN monthly ranking"
+      ],
+      "score": 38.7,
+      "found_at": "2026-11-17T22:28:44.832868+00:00"
     },
     {
       "name": "Smart Blur",
