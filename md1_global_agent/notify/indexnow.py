@@ -26,6 +26,8 @@ def submit(urls) -> bool:
 def hashtags(title: str, base=("MDM1",), extra=()) -> str:
     """Arabic/English hashtags from the title's own words (no invented trends)."""
     import re
-    words = [w for w in re.findall(r"[\w]{3,}", title) if not w.isdigit()][:4]
+    # Arabic diacritics (shadda, fatha ...) are combining marks, not \w: without this "محوّل" was cut to "#محو". Strip them, then split.
+    clean = re.sub(r"[\u0610-\u061A\u064B-\u065F\u0670\u06D6-\u06ED]", "", title)
+    words = [w for w in re.findall(r"[\w]{3,}", clean) if not w.isdigit()][:4]
     tags = list(base) + list(extra) + ["_".join([w]) for w in words]
     return " ".join("#" + t for t in dict.fromkeys(tags))

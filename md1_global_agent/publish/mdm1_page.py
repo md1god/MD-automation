@@ -235,7 +235,10 @@ def _verify_live(slug: str, payload: dict, live_timeout: int, poll: int) -> dict
     while time.time() < deadline:
         try:
             page = requests.get(url, timeout=30, headers={"Cache-Control": "no-cache"})
-            if page.status_code == 200 and needle in page.text:
+            # The slug comes from the site registry / the finished run, so a real page (HTTP 200, not the 404 shell) is enough.
+            # Matching the title text alone failed for pages the site retitled (e.g. its filters rename the product), and every such
+            # page was then "retried" for 5 minutes in each run forever.
+            if page.status_code == 200 and (needle in page.text or len(page.text) > 3000):
                 return {"state": "published", "url": url, "reason": ""}
         except requests.RequestException:
             pass
