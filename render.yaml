@@ -1,0 +1,34 @@
+services:
+  - type: web
+    name: md1-publisher
+    runtime: node
+    rootDir: publisher-server
+    plan: free
+    buildCommand: npm install --omit=dev
+    startCommand: node server.mjs
+    healthCheckPath: /health
+    envVars:
+      - key: API_KEY
+        generateValue: true
+      - key: PUBLIC_URL
+        sync: false
+      - key: RATE_LIMIT_PER_HOUR
+        value: "10"
+      # Add only the platforms you use (see publisher-server/README.md)
+      - { key: BSKY_HANDLE, sync: false }
+      - { key: BSKY_APP_PASSWORD, sync: false }
+      - { key: MASTODON_HOST, sync: false }
+      - { key: MASTODON_TOKEN, sync: false }
+      - { key: TELEGRAM_BOT_TOKEN, sync: false }
+      - { key: TELEGRAM_CHAT_ID, sync: false }
+      - { key: DISCORD_WEBHOOK_URL, sync: false }
+      - { key: LINKEDIN_CLIENT_ID, sync: false }
+      - { key: LINKEDIN_CLIENT_SECRET, sync: false }
+      - { key: LINKEDIN_ACCESS_TOKEN, sync: false }
+      - { key: LINKEDIN_AUTHOR_URN, sync: false }
+      - { key: X_ACCESS_TOKEN, sync: false }
+      - { key: FACEBOOK_PAGE_ID, sync: false }
+      - { key: FACEBOOK_PAGE_TOKEN, sync: false }
+      - { key: DEVTO_API_KEY, sync: false }
+      - { key: GITHUB_PUBLISH_TOKEN, sync: false }
+      - { key: GITHUB_PUBLISH_REPO, sync: false }
