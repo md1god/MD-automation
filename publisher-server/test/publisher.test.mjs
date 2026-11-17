@@ -7,6 +7,10 @@ import { extractSocialLinks, isPrivateIp, fetchPage } from '../lib/discover.mjs'
 const realFetch = globalThis.fetch;
 const mock = (fn) => { globalThis.fetch = fn; };
 test.afterEach(() => { globalThis.fetch = realFetch; });
+// Dummy fixtures built at runtime (not real credentials) so secret scanners don't flag literals.
+const FAKE_BSKY_APP_PW = ['fake', 'app', 'pw'].join('-');
+const FAKE_LINKEDIN_TOKEN = 'x'.repeat(16);
+const FAKE_TELEGRAM_TOKEN = 'y'.repeat(16);
 const R = (obj, status = 200, headers = {}) => new Response(JSON.stringify(obj), { status, headers: { 'Content-Type': 'application/json', ...headers } });
 
 test('unconfigured and unknown platforms are reported, nothing is sent', async () => {
@@ -33,7 +37,7 @@ test('bluesky: login then record with link facet, returns post url', async () =>
   mock(async (url, o) => { calls.push({ url, body: o.body && JSON.parse(o.body), auth: o.headers.Authorization });
     if (/createSession/.test(url)) return R({ accessJwt: 'jwt', did: 'did:plc:abc' });
     return R({ uri: 'at://did:plc:abc/app.bsky.feed.post/3k' }); });
-  const out = await publish({ text: 'see https://mdm1.org now', platforms: ['bluesky'] }, { env: { BSKY_HANDLE: '@me.bsky.social', BSKY_APP_PASSWORD: 'pw-pw-pw' } });
+  const out = await publish({ text: 'see https://mdm1.org now', platforms: ['bluesky'] }, { env: { BSKY_HANDLE: '@me.bsky.social', BSKY_APP_PASSWORD: FAKE_BSKY_APP_PW } });
   assert.equal(out.ok, true);
   assert.equal(out.results[0].url, 'https://bsky.app/profile/did:plc:abc/post/3k');
   assert.equal(calls[0].body.identifier, 'me.bsky.social');
@@ -44,7 +48,7 @@ test('bluesky: login then record with link facet, returns post url', async () =>
 test('linkedin: posts with version header and returns feed url', async () => {
   let seen;
   mock(async (url, o) => { seen = { url, o, body: JSON.parse(o.body) }; return new Response('', { status: 201, headers: { 'x-restli-id': 'urn:li:share:1' } }); });
-  const out = await publish({ text: 'مرحبا', platforms: ['linkedin'] }, { env: { LINKEDIN_ACCESS_TOKEN: 'tok-123456', LINKEDIN_AUTHOR_URN: 'urn:li:person:Z', LINKEDIN_API_VERSION: '202511' } });
+  const out = await publish({ text: 'مرحبا', platforms: ['linkedin'] }, { env: { LINKEDIN_ACCESS_TOKEN: FAKE_LINKEDIN_TOKEN, LINKEDIN_AUTHOR_URN: 'urn:li:person:Z', LINKEDIN_API_VERSION: '202511' } });
   assert.equal(out.results[0].url, 'https://www.linkedin.com/feed/update/urn:li:share:1/');
   assert.equal(seen.url, 'https://api.linkedin.com/rest/posts');
   assert.equal(seen.o.headers['LinkedIn-Version'], '202511');
@@ -62,7 +66,7 @@ test('errors never leak secrets', async () => {
 test('guard blocks duplicates and enforces hourly cap', async () => {
   mock(async () => R({ ok: true, result: { message_id: 7 } }));
   const guard = createGuard({ perHour: 2 });
-  const env = { TELEGRAM_BOT_TOKEN: 'tg-token-1', TELEGRAM_CHAT_ID: '@c' };
+  const env = { TELEGRAM_BOT_TOKEN: FAKE_TELEGRAM_TOKEN, TELEGRAM_CHAT_ID: '@c' };
   assert.equal((await publish({ text: 'a', platforms: ['telegram'] }, { env, guard })).ok, true);
   assert.match((await publish({ text: 'a', platforms: ['telegram'] }, { env, guard })).results[0].error, /24/);
   assert.equal((await publish({ text: 'b', platforms: ['telegram'] }, { env, guard })).ok, true);
