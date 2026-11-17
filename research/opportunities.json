@@ -1,26 +1,6 @@
 {
   "items": [
     {
-      "name": "Pancake (Vercel for GTM / Agentic GTM Infrastructure)",
-      "field": "GTM/Marketing Automation + AI Agents",
-      "summary": "Infrastructure that lets AI agents run go-to-market: GTM brain from website, 40+ data providers/enrichment, sending infrastructure, MCP for Claude/Codex. Deploys Plays that find leads and follow up autonomously.",
-      "why_now": "Product Hunt #1 (Oct 2026), hit ~$200K ARR in under 5 weeks; onboarding ~20 companies/day in beta; founders report $30K MRR with ~2 hours/week human management and $80 CAC using agent-run GTM. Strong shift toward agent-executed GTM.",
-      "monetization": "SaaS from $99/month/workspace with credits; expanding to higher tiers as usage grows. Reported trajectory toward $1M ARR in weeks.",
-      "evidence": [
-        "https://www.producthunt.com/products/pancake-6",
-        "https://www.arr.club/signal/pancake-hit-200k-arr-in-under-5-weeks",
-        "https://getpancake.ai/blog/autonomous-company-benchmark-2026",
-        "https://www.linkedin.com/company/get-pancake"
-      ],
-      "how_searched": [
-        "Product Hunt leaderboards (Oct 2026)",
-        "ARR Club revenue signals",
-        "Company blog/LinkedIn"
-      ],
-      "score": 98.0,
-      "found_at": "2026-10-26T23:55:56.173996+00:00"
-    },
-    {
       "name": "TheySaid (AI User Testing with Synthetic Testers)",
       "field": "UX Research / Product Validation",
       "summary": "AI-powered user testing platform where synthetic users (trained on customer data) watch, click, think aloud on screen with video/audio, or run alongside real testers via MCP in Claude/Cursor/v0/Lovable and ticket automation in Jira/Linear.",
@@ -159,24 +139,6 @@
       "found_at": "2026-10-28T01:25:34.726803+00:00"
     },
     {
-      "name": "AI Interior Design / Room Redesign (Web Tool Opportunity)",
-      "field": "Consumer AI / Home Design",
-      "summary": "Photo upload + style selection + AI redesign for rooms/exteriors/gardens with furniture replacement, declutter, material previews. Proven mobile demand with large revenues; opportunity as free web tool with different UX/positioning.",
-      "why_now": "DecAI/Home AI type apps generate significant revenue ($100K-$900K/month reported across platforms) with huge MAU; competition is mostly mobile apps with credits/paywalls. Web-first free tool with better SEO/embeds could capture demand.",
-      "monetization": "Freemium credits, subscriptions, affiliate to furniture/paint, lead gen for contractors/designers. Multiple revenue models proven by incumbents.",
-      "evidence": [
-        "https://appgoblin.info/apps/ai.interior.design.home.renovation.app",
-        "https://peekly.app/apps/dd053e1b-f4e2-4ca4-a250-5fcbe437b22c",
-        "https://fluxbuilder.com/explore/decai-ai-home-design/"
-      ],
-      "how_searched": [
-        "App store revenue analytics (AppGoblin/Peekly/FluxBuilder)",
-        "AI consumer app revenue trends"
-      ],
-      "score": 94.0,
-      "found_at": "2026-10-26T23:55:58.703214+00:00"
-    },
-    {
       "name": "OpenSEO (Open-Source Semrush Alternative)",
       "field": "SEO/GEO Tools",
       "summary": "Open-source SEO toolkit (keyword research, competitor analysis, backlinks, site audits) starting at $10/month vs $100+; connects to MCP so agents can build SEO strategies and content.",
@@ -306,6 +268,26 @@
       ],
       "score": 92.0,
       "found_at": "2026-10-30T07:09:34.358323+00:00"
+    },
+    {
+      "name": "AI Text Humanizer (De-AI Rewriter)",
+      "field": "AI writing tools",
+      "summary": "Web tool that rewrites AI-generated text to read more human and evade AI detectors.",
+      "why_now": "TrustMRR-verified humanizer businesses at $11.8K-$30.6K MRR; QYResearch sizes market at $861M in 2026 growing 19.6% CAGR to $2.52B by 2032; Adalytica reports 200+ tools in the category; STE80 Humanizer drew 114 HN points.",
+      "monetization": "Subscriptions $18-35/mo; market $861M in 2026.",
+      "evidence": [
+        "https://theaireceipts.com/ai-text-humanizer-businesses/",
+        "https://www.qyresearch.com/reports/6090078/undetectable-ai-rewriter",
+        "https://adalytica.com/news/ai-humanizer-tools-detection-arms-race-2d2cbd9b"
+      ],
+      "how_searched": [
+        "TrustMRR verified revenue tracker",
+        "market research report",
+        "news aggregator",
+        "Hacker News Show HN"
+      ],
+      "score": 92.0,
+      "found_at": "2026-11-17T04:13:40.806308+00:00"
     },
     {
       "name": "Local/Privacy-Focused AI Model Distribution (Reverse Engineering Tools)",
@@ -587,6 +569,27 @@
       ],
       "score": 88.0,
       "found_at": "2026-11-15T02:13:33.226628+00:00"
+    },
+    {
+      "name": "AI Meeting Notes / Transcription (Granola alternative)",
+      "field": "AI productivity",
+      "summary": "Browser-based meeting notetaker that transcribes and summarizes calls without a bot joining.",
+      "why_now": "Granola valued $1.5B with estimated $17-54M ARR and 66% org adoption on Ramp (Oct 2026); free open-source alt 'Yogurt' hit 305 HN points on Nov 11; revenue grew 2.5x since Jan 2026.",
+      "monetization": "$14-35/user/mo; Granola est. $17-54M ARR.",
+      "evidence": [
+        "https://getleadwave.io/dossier/granola",
+        "https://originnotes.substack.com/p/granola-gtm-playbook",
+        "https://bestofshowhn.com/2026/11",
+        "https://www.tryspecter.com/revenue-valuation/granola"
+      ],
+      "how_searched": [
+        "company dossier",
+        "GTM teardown",
+        "Hacker News Show HN",
+        "revenue estimator"
+      ],
+      "score": 88.0,
+      "found_at": "2026-11-17T04:13:42.032468+00:00"
     },
     {
       "name": "AI Lecture-to-Quiz Study Workspace",
@@ -918,6 +921,25 @@
       "found_at": "2026-11-15T02:13:36.329981+00:00"
     },
     {
+      "name": "AutoDub YouTube AI Dubbing",
+      "field": "video translation",
+      "summary": "Free tool that dubs YouTube videos into 42 languages with AI voices and bilingual subtitles.",
+      "why_now": "Chrome extension grew from 10K to 30K users in ~6 weeks (+200% in 30 days); site at 65.65K visits/mo +21% MoM; 89 ratings 4.3.",
+      "monetization": "Currently free; paid tiers possible; competitor Checksub at 103K visits/mo.",
+      "evidence": [
+        "https://extensiontracker.com/extension/kallpmoklcckbobcoccenpphbhbijndc",
+        "https://openaitools.app/tool/autodub",
+        "https://chromewebstore.google.com/detail/youtube-video-translator/kallpmoklcckbobcoccenpphbhbijndc"
+      ],
+      "how_searched": [
+        "Chrome Web Store tracker",
+        "AI tool directory traffic",
+        "Chrome Web Store listing"
+      ],
+      "score": 85.0,
+      "found_at": "2026-11-17T04:13:42.917205+00:00"
+    },
+    {
       "name": "MelodySeek (find music from any video)",
       "field": "Audio/music tools",
       "summary": "Paste a TikTok/Reels/Shorts link, upload a file or record audio to identify the song in seconds, with streaming links.",
@@ -1156,6 +1178,25 @@
       ],
       "score": 83.0,
       "found_at": "2026-11-16T20:37:38.368301+00:00"
+    },
+    {
+      "name": "Buying Signals / Intent Data (B2B lead gen)",
+      "field": "B2B sales intelligence",
+      "summary": "Tool that surfaces companies showing buying intent (hiring, funding, tech changes) and drafts outreach.",
+      "why_now": "Product Hunt Alsona 521 upvotes; GojiberryAI verified $424K MRR on TrustMRR; StoreIntel notes B2B GTM tools dominate high-growth tier.",
+      "monetization": "$424K MRR (GojiberryAI); Alsona 521 PH votes.",
+      "evidence": [
+        "https://www.producthunt.com/leaderboard/monthly/2026/11",
+        "https://dev.to/storeintel/we-analyzed-60-stripe-verified-saas-startups-on-trustmrr-tech-stacks-mrr-vs-one-time-sales--54h7",
+        "https://trustmrr.com/"
+      ],
+      "how_searched": [
+        "Product Hunt leaderboard",
+        "TrustMRR verified revenue",
+        "DEV Community analysis"
+      ],
+      "score": 83.0,
+      "found_at": "2026-11-17T04:13:43.396129+00:00"
     },
     {
       "name": "ZocialComment (social comment exporter)",
@@ -1605,6 +1646,26 @@
       "found_at": "2026-11-16T20:37:40.097295+00:00"
     },
     {
+      "name": "Etsy SEO Keyword Research Tool",
+      "field": "e-commerce SEO",
+      "summary": "Keyword research and competition analysis for Etsy sellers using live Etsy/Google data.",
+      "why_now": "RankKW Chrome ext 5K users 507 ratings; 4.5M active Etsy sellers; eRank/EverBee paid $5.99-69/mo; MicroSaaS HQ lists $5K-15K MRR potential.",
+      "monetization": "$5.99-69/mo subscriptions; 4.5M Etsy sellers.",
+      "evidence": [
+        "https://www.trendlytic.io/blog/best-etsy-keyword-research-tools",
+        "https://microsaashq.com/saas-ideas/etsy-seo-tool-131",
+        "https://rankkw.com/",
+        "https://appgazers.com/reports/chrome-extensions/trending"
+      ],
+      "how_searched": [
+        "Chrome Web Store trending",
+        "marketplace SEO tool comparison",
+        "micro-SaaS idea database"
+      ],
+      "score": 80.0,
+      "found_at": "2026-11-17T04:13:45.955304+00:00"
+    },
+    {
       "name": "Agent-Callable Social Media Scheduler (MCP/CLI)",
       "field": "Social Media / Agent Infrastructure",
       "summary": "An open-source, agentic social media scheduler that AI agents (Claude, Codex, OpenClaw, Cursor) can call via MCP endpoint and CLI to plan, generate, and publish posts across 30+ networks, with a paid managed cloud on top.",
@@ -1947,6 +2008,25 @@
       "found_at": "2026-11-15T17:28:57.691735+00:00"
     },
     {
+      "name": "Dual Subtitles Language Learning (web tool)",
+      "field": "language learning",
+      "summary": "Browser tool showing two subtitle tracks simultaneously with click-to-translate and flashcards.",
+      "why_now": "Linglass Chrome ext 4.8 rating (52 ratings); premium $7.99/mo; competitors Language Reactor; Netflix/YouTube lack native dual subs.",
+      "monetization": "$7.99/mo premium; free tier with daily limits.",
+      "evidence": [
+        "https://chromewebstore.google.com/detail/linglass-%E2%80%94-dual-subtitles/nhncklckpmkkhjcijjgfcgclfpbbkcba",
+        "https://linglass.app/",
+        "https://linglass.app/blog/netflix-dual-subtitles"
+      ],
+      "how_searched": [
+        "Chrome Web Store listing",
+        "product website",
+        "review site"
+      ],
+      "score": 78.0,
+      "found_at": "2026-11-17T04:13:47.843375+00:00"
+    },
+    {
       "name": "Freelancer Contract Risk Scanner",
       "field": "Legal tech",
       "summary": "Upload a freelance contract and get clause-level red flags, a dollar-denominated hidden-cost score, and ready-to-send negotiation language.",
@@ -2143,6 +2223,25 @@
       ],
       "score": 75.0,
       "found_at": "2026-11-14T03:22:01.668690+00:00"
+    },
+    {
+      "name": "Gmail Read Receipts Web Tool",
+      "field": "email productivity",
+      "summary": "Free web tool/extension tracking email opens in Gmail (personal accounts lack read receipts).",
+      "why_now": "Vmail Plus Chrome ext reached 3K users and 206 ratings in ~1 month (+2K in 7 days); Gmail has no read receipts for personal accounts.",
+      "monetization": "Brand play for paid phone-email service ($4-18/mo); email tracking SaaS market.",
+      "evidence": [
+        "https://extensiontracker.com/extension/hljhpjednhmpnfidpffflkfbmhchcodl",
+        "https://stringers.io/en/ext/chrome_hljhpjednhmpnfidpffflkfbmhchcodl.html",
+        "https://support.google.com/mail/answer/9413651?hl=en"
+      ],
+      "how_searched": [
+        "Chrome Web Store tracker",
+        "extension teardown",
+        "official Gmail help"
+      ],
+      "score": 75.0,
+      "found_at": "2026-11-17T04:13:48.505454+00:00"
     },
     {
       "name": "ADA/WCAG compliance scanner and widget for Shopify",
@@ -2520,6 +2619,25 @@
       ],
       "score": 72.0,
       "found_at": "2026-11-15T17:29:00.916586+00:00"
+    },
+    {
+      "name": "AI Stock Analysis / Trading Assistant",
+      "field": "retail investing",
+      "summary": "Web tool for market analysis, screening and trade journaling for individual investors.",
+      "why_now": "tradermonty/claude-trading-skills 3.9K GitHub stars +553/week; daily_stock_analysis 72K stars; FMP/FINVIZ paid APIs $29-139/mo ecosystem.",
+      "monetization": "Paid data APIs $29-139/mo; trading tool subscriptions.",
+      "evidence": [
+        "https://github.com/tradermonty/claude-trading-skills",
+        "https://githubtrending.today/archive/2026-11-15/",
+        "https://gitstock.org/trending/weekly/2026-11-17"
+      ],
+      "how_searched": [
+        "GitHub trending archive",
+        "GitHub repository",
+        "weekly trending snapshot"
+      ],
+      "score": 72.0,
+      "found_at": "2026-11-17T04:13:49.910346+00:00"
     },
     {
       "name": "AI screenwriting and storyboard workspace (Laper pattern)",
