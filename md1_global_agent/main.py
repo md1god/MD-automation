@@ -138,7 +138,7 @@ def build_tool(config: dict, ledger: Ledger):
     if outcome["state"] != "published":
         return f"🛠️ أداة اليوم ({spec['h1']}) لم تُنشر: {outcome['reason']}"
     ledger.mark_examined("tool:" + slug, "tool-published")
-    promo = (f"🛠️ أداة مجانية جديدة: {spec['h1']}\n{spec['description']}\n\n🔗 {outcome['url']}\n\n" + indexnow.hashtags(spec["h1"], extra=("أدوات_مجانية",)))
+    promo = (f"🛠️ أداة مجانية جديدة: {telegram._no_lang_label(spec['h1'])}\n{telegram._no_lang_label(spec['description'])}\n\n🔗 {outcome['url']}\n\n" + indexnow.hashtags(spec["h1"], extra=("أدوات_مجانية",)))
     indexnow.submit([outcome["url"]])
     sent = telegram.send_channel(promo, config.get("telegram_report_channel", ""))
     telegram.send(f"✅ نُشرت الآن: {spec['h1']}\n{outcome['url']}", config.get("telegram_report_channel", ""))

@@ -28,7 +28,7 @@ IDEAS = [
     ("image-compressor-resizer", "ضغط وتصغير الصور: رفع صور متعددة، تحديد العرض أو النسبة والجودة، معاينة الحجم قبل وبعد، تنزيل النتيجة"),
     ("kanban-task-board", "لوحة مهام كانبان بثلاثة أعمدة، إضافة وتعديل وحذف البطاقات، نقلها بين الأعمدة بأزرار وبالسحب، تواريخ استحقاق وألوان، حفظ واستعادة اللوحة بتصدير واستيراد ملف JSON (بدون تخزين في المتصفح)"),
     ("invoice-generator", "منشئ فواتير: بيانات البائع والعميل، بنود وضريبة وخصم، حساب تلقائي، معاينة وطباعة PDF من المتصفح، حفظ المسودة كملف JSON واستيرادها لاحقًا"),
-    ("resume-builder-arabic", "منشئ سيرة ذاتية عربية: نماذج للخبرات والتعليم والمهارات، 3 قوالب، معاينة حية وطباعة PDF"),
+    ("resume-builder-pro", "منشئ سيرة ذاتية: نماذج للخبرات والتعليم والمهارات، 3 قوالب، معاينة حية وطباعة PDF"),
     ("markdown-notes-editor", "محرر ملاحظات Markdown مع معاينة حية، بحث، تنزيل الملاحظات كملفات وفتحها من جديد"),
     ("whiteboard-drawing", "سبورة رسم: فرشاة وممحاة وأشكال وألوان وسُمك، تراجع وإعادة، حفظ كصورة PNG"),
     ("habit-and-pomodoro-tracker", "متتبع عادات يومية مع شبكة تقدم وسلاسل إنجاز، ومؤقت بومودورو مدمج وإحصاءات، وحفظ البيانات واستعادتها بتصدير واستيراد ملف JSON"),
@@ -57,7 +57,7 @@ Vanilla JavaScript wiring the ids. The site's security gate REJECTS the whole ap
 Q: question
 A: answer
 (3 to 5 pairs)
-Rules: write everything from scratch, never imitate a product's name or branding. Total under 30000 characters."""
+Rules: NEVER label the tool, app or page as Arabic: the words Arabic / عربي / عربية / بالعربية / العربية must not appear in the title, h1, description, FAQ, body text or slug (unless the product is truly about the Arabic language itself). It is a global product for every visitor in the world, and the page is auto-translated, so write it like a normal international product page. Write everything from scratch, never imitate a product's name or branding. Total under 30000 characters."""
 
 
 def _section(text, name, nxt):
@@ -113,6 +113,18 @@ def pick_idea(ledger):
     return None
 
 
+
+_LANG_LABEL = re.compile(r"عربي|عربية|بالعربية|العربية|\bArabic\b", re.I)
+def lang_label_problem(spec):
+    """Reject pages that advertise themselves as 'Arabic': they are global products (the page is translated for every visitor)."""
+    if "arabic" in str(spec.get("slug", "")).lower(): return ""
+    parts = [spec.get("title", ""), spec.get("h1", ""), spec.get("description", ""), re.sub(r"<[^>]+>", " ", str(spec.get("body_html", "")))]
+    parts += [str(x.get("q", "")) + " " + str(x.get("a", "")) for x in (spec.get("faq") or []) if isinstance(x, dict)]
+    joined = re.sub(r"المملكة العربية السعودية|الإمارات العربية المتحدة|جمهورية مصر العربية|العربية السعودية|العربية المتحدة|مصر العربية|الجامعة العربية|الأرقام العربية", " ", " ".join(str(p) for p in parts))   # country / fixed names are fine
+    m = _LANG_LABEL.search(joined)
+    return ("do not label the product as Arabic ('%s'): it is a global product for every visitor, write it as a normal international page" % m.group(0)) if m else ""
+
+
 def check(spec: dict) -> str:
     """Mirror of the site's gates (scripts/add_app.py). '' = ok, else the reason (fed back to the model)."""
     for k in ("slug", "title", "h1", "description", "body_html", "script_js"):
@@ -127,6 +139,9 @@ def check(spec: dict) -> str:
     text = re.sub(r"<[^>]+>", " ", spec["body_html"])
     if len(text) < 300 or not re.search(r"[؀-ۿ]", text):
         return "body too thin or not Arabic"
+    why = lang_label_problem(spec)
+    if why:
+        return why
     why = site_gates.html_problem(spec["body_html"])
     if why:
         return "unsafe html in BODY: " + why

@@ -128,7 +128,7 @@ class TranslateTests(unittest.TestCase):
 
 class ToolBuilderTests(unittest.TestCase):
     GOOD = {"slug": "x", "title": "حاسبة", "h1": "حاسبة", "description": "وصف",
-            "body_html": "<p>" + "نص عربي مفيد " * 60 + '</p><input id="a"><button id="go">احسب</button><div class="out" id="out"></div>',
+            "body_html": "<p>" + "نص مفيد جدا " * 60 + '</p><input id="a"><button id="go">احسب</button><div class="out" id="out"></div>',
             "script_js": "document.getElementById('go').onclick=function(){};",
             "faq": [{"q": "س", "a": "ج"}] * 3}
 
@@ -162,7 +162,7 @@ class ToolBuilderTests(unittest.TestCase):
 
 
 class AppBuilderTests(unittest.TestCase):
-    ANSWER = ("TITLE: محول صور\nH1: محول الصور\nDESCRIPTION: وصف عربي\n===BODY===\n<p>" + "نص عربي عن التطبيق وكيفية استخدامه. " * 30 +
+    ANSWER = ("TITLE: محول صور\nH1: محول الصور\nDESCRIPTION: وصف مختصر\n===BODY===\n<p>" + "نص عن التطبيق وكيفية استخدامه. " * 30 +
               '</p><input id="f" type="file"><button id="go">حوّل</button>\n===CSS===\n.app #go{margin:0}\n===JS===\n'
               "document.getElementById('go').onclick=function(){};\n===FAQ===\nQ: س1\nA: ج1\nQ: س2\nA: ج2\nQ: س3\nA: ج3\n")
 

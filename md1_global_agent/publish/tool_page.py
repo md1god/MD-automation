@@ -37,7 +37,7 @@ IDEAS = [
     ("password-generator", "مولّد كلمات مرور قوية مع مقياس القوة داخل المتصفح"),
     ("split-bill-calculator", "حاسبة تقسيم الفاتورة بين الأصدقاء مع البقشيش والضريبة"),
     ("trip-fuel-cost-calculator", "حاسبة تكلفة الرحلة والبنزين حسب المسافة واستهلاك السيارة وسعر اللتر"),
-    ("unit-converter-arabic", "محول وحدات عربي: الطول والوزن والحرارة والمساحة والحجم"),
+    ("unit-converter-all", "محول وحدات شامل: الطول والوزن والحرارة والمساحة والحجم"),
     ("net-salary-calculator", "حاسبة صافي الراتب بعد الخصومات والتأمينات والضريبة بنسب يدخلها المستخدم"),
     ("study-time-planner", "مخطط مذاكرة يوزّع المواد على الأيام المتبقية للامتحان حسب الصعوبة"),
     ("zakat-calculator", "حاسبة زكاة المال: يدخل المستخدم المبلغ المدخر وسعر جرام الذهب ويحسب النصاب (85 جرام ذهب) وحول الحول والديون المستحقة، ثم يعرض مبلغ الزكاة 2.5٪ مع تنبيه بمراجعة جهة الفتوى"),
@@ -65,7 +65,7 @@ IDEAS = [
 
 PROMPT = """You are building ONE original, genuinely useful, single-page Arabic web tool for a website.
 Tool to build: {idea}
-Rules: fully working CLIENT-SIDE tool (HTML form + vanilla JS; no server, no network, no external libs); everything written from scratch; Arabic UI text; correct logic and sensible validation of inputs.
+Rules: NEVER label the tool, app or page as Arabic: the words Arabic / عربي / عربية / بالعربية / العربية must not appear in the title, h1, description, FAQ, body text or slug (unless the product is truly about the Arabic language itself). It is a global product for every visitor in the world, and the page is auto-translated, so write it like a normal international product page. Fully working CLIENT-SIDE tool (HTML form + vanilla JS; no server, no network, no external libs); everything written from scratch; Arabic UI text; correct logic and sensible validation of inputs.
 Return ONLY JSON, no markdown fences:
 {{"slug":"{slug}","title":"Arabic SEO title <=70 chars","h1":"Arabic heading","description":"Arabic meta description 110-160 chars",
 "body_html":"intro paragraph (>=80 words, starts with a quick answer) + form/inputs/button/output. Every element needs an id; wrap the result in <div class=\\"out\\" id=\\"out\\" style=\\"display:none\\">; use only <p>,<b>,<label>,<input>,<select>,<option>,<textarea>,<button>,<div>,<br>,<small>; NO <script>, NO <style>, NO inline on* handlers, NO external src/href",
@@ -88,11 +88,26 @@ def _json(text: str):
     return json.loads(text[start:end + 1])
 
 
+
+_LANG_LABEL = re.compile(r"عربي|عربية|بالعربية|العربية|\bArabic\b", re.I)
+def lang_label_problem(spec):
+    """Reject pages that advertise themselves as 'Arabic': they are global products (the page is translated for every visitor)."""
+    if "arabic" in str(spec.get("slug", "")).lower(): return ""
+    parts = [spec.get("title", ""), spec.get("h1", ""), spec.get("description", ""), re.sub(r"<[^>]+>", " ", str(spec.get("body_html", "")))]
+    parts += [str(x.get("q", "")) + " " + str(x.get("a", "")) for x in (spec.get("faq") or []) if isinstance(x, dict)]
+    joined = re.sub(r"المملكة العربية السعودية|الإمارات العربية المتحدة|جمهورية مصر العربية|العربية السعودية|العربية المتحدة|مصر العربية|الجامعة العربية|الأرقام العربية", " ", " ".join(str(p) for p in parts))   # country / fixed names are fine
+    m = _LANG_LABEL.search(joined)
+    return ("do not label the product as Arabic ('%s'): it is a global product for every visitor, write it as a normal international page" % m.group(0)) if m else ""
+
+
 def check(spec: dict) -> str:
     """'' if the spec passes local checks, else the reason (also fed back to the model)."""
     for k in ("slug", "title", "h1", "description", "body_html", "script_js"):
         if not isinstance(spec.get(k), str) or not spec[k].strip():
             return f"missing {k}"
+    why = lang_label_problem(spec)
+    if why:
+        return why
     faq = spec.get("faq")
     if not isinstance(faq, list) or not 3 <= len(faq) <= 6 or not all(isinstance(x, dict) and x.get("q") and x.get("a") for x in faq):
         return "faq must have 3-5 items with q and a"

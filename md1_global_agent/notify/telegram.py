@@ -158,6 +158,12 @@ def send_channel(text: str, channel: str) -> bool:
     return False
 
 
+def _no_lang_label(text: str) -> str:
+    """Promo text must not call a global product 'Arabic' (\u0639\u0631\u0628\u064a\u0629 as an adjective)."""
+    import re
+    return re.sub(r"\s+(\u0639\u0631\u0628\u064a\u0629|\u0639\u0631\u0628\u064a)(?=\s)", "", text)
+
+
 def promo_text(payload: dict, url: str, language_codes) -> str:
     """Arabic first (the owner's audience) + English line; the page itself opens in the visitor's language."""
     en = (payload.get("translations") or {}).get("en")
