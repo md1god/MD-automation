@@ -1,0 +1,8 @@
+version: 2
+# Test fixtures contain dummy values, never real credentials.
+secret:
+  ignored_paths:
+    - "**/test/**"
+    - "tests/**"
+    - "**/*.test.mjs"
+    - "**/*.test.js"
