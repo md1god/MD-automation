@@ -40,46 +40,6 @@
       "found_at": "2026-10-28T01:25:32.024519+00:00"
     },
     {
-      "name": "CleanYourTV (TV Bloatware/Ad Removal)",
-      "field": "Consumer Tech / Privacy Tools",
-      "summary": "AI-assisted tool to debloat Android TV/Google TV over Wi-Fi, disable ads/bloatware without root or uninstalling, with a clean Apple TV-style launcher. No app store gate, works via ADB automation guided by an LLM prompt or companion Android app.",
-      "why_now": "Viral growth: GitHub repo hit ~40K+ stars in under 2 weeks (Oct 2026), 300+ TV models documented, massive international press coverage (285+ articles in 41 countries). Community-driven with 430+ contributors. Solves real consumer frustration with ad-heavy smart TVs.",
-      "monetization": "Free and open-source (MIT). Potential monetization: sponsorships, premium support, affiliate links to ad-blocking DNS/services, or a SaaS/web tool version. Revenue not publicly disclosed but huge traffic/brand recognition.",
-      "evidence": [
-        "https://github.com/Gathin23/cleanyourtv",
-        "https://cleanyour.tv/",
-        "https://cleanyour.tv/app/android",
-        "https://gitdiscover.org/repositories/Gathin23/cleanyourtv"
-      ],
-      "how_searched": [
-        "GitHub trending search",
-        "Product Hunt/viral tech news",
-        "Reddit discussions on TV bloatware"
-      ],
-      "score": 96.0,
-      "found_at": "2026-10-27T10:37:22.459111+00:00"
-    },
-    {
-      "name": "AI Voice Agents for Small Business Missed Calls",
-      "field": "AI Voice / SMB SaaS",
-      "summary": "24/7 AI phone answering/receptionist that captures leads from missed calls, books appointments, qualifies leads, handles after-hours calls. Targets service businesses (plumbers, HVAC, dentists, law firms) where missed calls = lost revenue.",
-      "why_now": "62% of SMB calls go unanswered, 85% never call back, 62% go to competitors. AI adoption by SMBs jumped from 39% to 55% in 2025. Real deployments show 8-15x ROI, $4K-$45K/month recovered revenue. Market growing to $47.5B by 2034.",
-      "monetization": "Usage-based ($0.06-$0.18/min fully loaded) or subscription ($65-$999/month). Many charge per call/minute with setup fees. Strong unit economics vs human receptionists ($30K-$60K/year).",
-      "evidence": [
-        "https://upfirst.ai/blog/state-of-voice-ai-2026",
-        "https://mintec.co/blog/ai-voice-agents-small-business/",
-        "https://www.brilo.ai/resources/ai-receptionist-trends-2026",
-        "https://prestyj.com/blog/ai-voice-agent-statistics-2026"
-      ],
-      "how_searched": [
-        "Voice AI market research",
-        "SMB pain point analysis",
-        "Revenue/ROI data from deployments"
-      ],
-      "score": 95.5,
-      "found_at": "2026-10-27T10:37:23.236780+00:00"
-    },
-    {
       "name": "AI Search Visibility (GEO/AEO) Tracking",
       "field": "Marketing/SEO Tools",
       "summary": "Platforms tracking brand mentions and citations across ChatGPT, Perplexity, Claude, Gemini, Google AI Overviews - showing when/where AI models cite/recommend brands.",
@@ -99,26 +59,6 @@
       ],
       "score": 95.0,
       "found_at": "2026-10-30T07:09:32.212483+00:00"
-    },
-    {
-      "name": "AI PDF Form Filler / Auto-Fill (Vertical-Specific)",
-      "field": "Document Automation / Workflow Tools",
-      "summary": "AI tool that fills PDFs (including scanned/non-fillable forms) from saved profiles with intelligent field detection and mapping. Focus on high-value verticals like legal, medical, government forms, or insurance where repetition is painful.",
-      "why_now": "Document automation is growing fast (PDF editing market $5.55B in 2026 -> $25B by 2035). Tools like Instafill, Filly AI gaining traction. Small businesses spend ~16 hours/week on admin tasks. Specific vertical tools can charge $0.10-$0.75 per document or subscriptions.",
-      "monetization": "Per-document/credit pricing or SaaS subscriptions. Vertical-specific tools (legal intake, medical forms) command higher prices. Some indie tools report traction with minimal marketing.",
-      "evidence": [
-        "https://www.indiehackers.com/product/instafill-ai",
-        "https://getfilly.app/",
-        "https://www.fillwizard.com/blog/ai-pdf-autofill-ultimate-guide-2026",
-        "https://jakeinsight.com/side-income/2026-04-24-build-aipowered-pdf-or-document-tool-and-charge-pe/"
-      ],
-      "how_searched": [
-        "Indie Hackers product research",
-        "PDF market trends",
-        "Reddit side project discussions"
-      ],
-      "score": 94.5,
-      "found_at": "2026-10-27T10:37:24.237080+00:00"
     },
     {
       "name": "TradingAgents (Multi-Agent LLM Financial Trading Framework)",
@@ -211,24 +151,6 @@
       "found_at": "2026-10-28T16:04:45.286198+00:00"
     },
     {
-      "name": "Kiwi - Proactive AI Assistant (Text-First)",
-      "field": "Personal AI Assistant / Ambient Computing",
-      "summary": "Proactive AI assistant that texts you first via iMessage/WhatsApp before you ask - monitors calendar/email/trips/bills and offers to take action (book rides, change deliveries, plan activities) when it matters. No app required, just SMS/iMessage.",
-      "why_now": "Launched on Product Hunt Oct 26 2026, #11 that day with strong engagement. Different from reactive assistants - focuses on 'ambient' help that reduces screen time. Free during pilot, building Kiwi Band wearable. Addresses digital fatigue.",
-      "monetization": "Pilot is free currently. Potential: freemium with premium automations, subscription tiers, or hardware (Kiwi Band). Early traction on Product Hunt suggests interest in screen-time reduction tools.",
-      "evidence": [
-        "https://www.producthunt.com/products/kiwi-7",
-        "https://www.powerfulai.tools/tool/details/kiwi",
-        "https://huntscreens.com/products/kiwi-7bf"
-      ],
-      "how_searched": [
-        "Product Hunt daily launches Oct 26-27 2026",
-        "AI assistant trends"
-      ],
-      "score": 92.0,
-      "found_at": "2026-10-27T10:37:25.288662+00:00"
-    },
-    {
       "name": "UGC/AI Influencer Content Automation",
       "field": "Creator Economy/Marketing",
       "summary": "Tools that create AI influencers/UGC-style videos and automate posting across platforms (Spira model).",
@@ -288,25 +210,6 @@
       ],
       "score": 92.0,
       "found_at": "2026-11-17T04:13:40.806308+00:00"
-    },
-    {
-      "name": "Local/Privacy-Focused AI Model Distribution (Reverse Engineering Tools)",
-      "field": "AI Infrastructure / Privacy Tools",
-      "summary": "Tools enabling users to reclaim/control their devices with AI assistance - removing manufacturer bloatware/telemetry. The cleanyourtv phenomenon shows massive demand for user sovereignty over devices, with AI making complex tasks accessible to non-technical users.",
-      "why_now": "Samsung TV ads/telemetry backlash, r/opensource debates about AI, viral success of cleanyourtv (40K stars in weeks). Growing movement against enshittification of consumer devices. AI coding assistants democratize reverse engineering.",
-      "monetization": "Mostly free/open source now, but potential for hosting services, premium device profiles, consulting, or tools for other device categories (routers, set-top boxes, cars).",
-      "evidence": [
-        "https://github.com/Gathin23/cleanyourtv",
-        "https://www.reddit.com/r/singularity/comments/1xfh36p/",
-        "https://cleanyour.tv/blog/reintroducing-cleanyourtv"
-      ],
-      "how_searched": [
-        "Reddit AI trends Oct 26 2026",
-        "GitHub viral repos",
-        "Consumer rights/enshittification discussions"
-      ],
-      "score": 91.5,
-      "found_at": "2026-10-27T10:37:25.459241+00:00"
     },
     {
       "name": "Vibe App Security Scanner",
@@ -1378,26 +1281,6 @@
       ],
       "score": 82.0,
       "found_at": "2026-11-15T21:52:35.723497+00:00"
-    },
-    {
-      "name": "Yadaphone",
-      "field": "Browser-based international calling",
-      "summary": "Pay-as-you-go web dialer for cheap international calls from a browser tab, with a business plan adding call recording and transcripts.",
-      "why_now": "Built after Skype's shutdown; reached about $14-15k in 30 days and 20,000+ users, with strong demand around Skype-alternative searches.",
-      "monetization": "Pay-as-you-go credits plus a phone-number subscription; $14.5k 30-day revenue, $1.3-1.4k MRR, $277k all-time.",
-      "evidence": [
-        "https://shippedandpaid.beehiiv.com/p/yadaphone-at-13-6k-in-30-days-plus-3-more-ai-built-apps-with-verified-revenue",
-        "https://trustmrr.com/startup/yadaphone",
-        "https://missumai.com/p/yadaphone",
-        "https://www.nichepursuits.com/denis-yurchak/"
-      ],
-      "how_searched": [
-        "AI-built app revenue newsletter",
-        "TrustMRR startup profile",
-        "founder interview"
-      ],
-      "score": 82.0,
-      "found_at": "2026-11-16T02:25:36.568636+00:00"
     },
     {
       "name": "Anti-AI-Slop Design Linter & Skill for Coding Agents",
@@ -3279,6 +3162,23 @@
       "found_at": "2026-11-10T23:31:03.164767+00:00"
     },
     {
+      "name": "Yadaphone",
+      "field": "VoIP / international calling",
+      "summary": "Browser-based pay-as-you-go dialer for cheap international calls to landlines and mobiles, with team credit pools and call recording.",
+      "why_now": "Skype's shutdown left a validated niche of expats, travelers and businesses needing laptop-based international calls; founder reports 20,000+ users and roughly $17,500/month, with one updated listicle placement driving about 50 signups/day.",
+      "monetization": "Pay-per-minute credits plus a phone-number subscription; about $13,593 in the last 30 days and $273,332 all-time (Stripe-verified), with 30 enterprise customers generating 30-40% of monthly revenue.",
+      "evidence": [
+        "https://www.nichepursuits.com/denis-yurchak/",
+        "https://shippedandpaid.com/cases/yadaphone-browser-international-calls-13-6k-month-cursor/"
+      ],
+      "how_searched": [
+        "founder interview",
+        "verified revenue tracker (TrustMRR)"
+      ],
+      "score": 60.0,
+      "found_at": "2026-11-17T13:40:00.738818+00:00"
+    },
+    {
       "name": "No-Code AI Directory Builder",
       "field": "no-code / SEO / local marketing",
       "summary": "A free web tool that generates a niche directory site (categories, listings, SEO pages, lead capture) from a one-sentence description, letting owners monetize listings.",
@@ -3350,6 +3250,23 @@
       ],
       "score": 58.7,
       "found_at": "2026-11-13T22:46:27.607968+00:00"
+    },
+    {
+      "name": "Fastlane",
+      "field": "AI short-form video marketing",
+      "summary": "AI tool that turns a product website into thousands of Tinder-style short-form videos and schedules them to TikTok, Instagram and YouTube.",
+      "why_now": "Solopreneurs and indie builders need distribution without filming; the product reached 1,000+ paid users and about $69,000 MRR within roughly two months of its March 2026 launch.",
+      "monetization": "Subscriptions at $29/$49/$149 per month plus $1.50 per post upload and agency services; about $69,000 MRR and over $1 million ARR across the business.",
+      "evidence": [
+        "https://www.starterstory.com/stories/fastlane-create-winning-short-form-content-in-seconds",
+        "https://superframeworks.com/case-study/fastlane"
+      ],
+      "how_searched": [
+        "founder case study",
+        "revenue teardown"
+      ],
+      "score": 58.7,
+      "found_at": "2026-11-17T13:40:01.381162+00:00"
     },
     {
       "name": "Agent Feed Auditor",
@@ -3457,6 +3374,23 @@
       "found_at": "2026-11-13T00:26:05.763820+00:00"
     },
     {
+      "name": "Submagic",
+      "field": "AI video editing / captions",
+      "summary": "AI editor that turns raw footage into captioned, viral-ready short clips in minutes, including Magic Clips extraction from long videos.",
+      "why_now": "Short-form content demand keeps rising; Submagic reached $1 million ARR in 90 days and $8 million ARR by June 2025 with 13 people and 250,000 monthly signups.",
+      "monetization": "Subscriptions at $19/$39/$69 per month; about $8 million ARR, 2,500 new paid customers last month, 20% of ARR from a 30%-lifetime affiliate program.",
+      "evidence": [
+        "https://getlatka.com/companies/submagic.co/interviews/submagic-david-zitoun-2025",
+        "https://www.ideaindex.so/case-studies/submagic"
+      ],
+      "how_searched": [
+        "founder interview (Latka)",
+        "case-study aggregator"
+      ],
+      "score": 57.3,
+      "found_at": "2026-11-17T13:40:02.050442+00:00"
+    },
+    {
       "name": "Rezi",
       "field": "AI resume builder / job search",
       "summary": "AI-powered resume builder that tailors resumes to job descriptions and ATS systems, with an AI resume agent, keyword targeting, templates and interview prep.",
@@ -3472,6 +3406,23 @@
       ],
       "score": 56.7,
       "found_at": "2026-10-31T21:48:28.672344+00:00"
+    },
+    {
+      "name": "ParakeetAI",
+      "field": "Real-time AI call assistant",
+      "summary": "Real-time AI assistant that listens to live calls, transcribes questions and suggests answers, with mock interviews, notes and document context.",
+      "why_now": "Job interviews, sales calls and meetings create high-stakes demand for live assistance; founder reports 1.5 million users, about 20% monthly growth and 6 billion organic views.",
+      "monetization": "Subscriptions and credits, including $149.90/month unlimited and $59 per 3 credits; founder claims $1 million+ MRR, though figures are self-reported and not processor-verified.",
+      "evidence": [
+        "https://www.indiehackers.com/post/tech/from-weekend-project-to-1m-mrr-in-two-years-YRaa1QlGTjaqh0XgzWkc",
+        "https://the-ai-future.com/reviews/parakeet-ai"
+      ],
+      "how_searched": [
+        "founder interview (Indie Hackers)",
+        "independent product review"
+      ],
+      "score": 56.7,
+      "found_at": "2026-11-17T13:40:03.065265+00:00"
     },
     {
       "name": "RelistDeck",
@@ -3508,6 +3459,23 @@
       ],
       "score": 56.0,
       "found_at": "2026-11-13T22:46:28.349710+00:00"
+    },
+    {
+      "name": "Photo AI",
+      "field": "AI photography / headshots",
+      "summary": "Browser-based personal AI studio that trains on about 20 photos and generates photorealistic headshots, outfits, scenes and short video.",
+      "why_now": "People and small businesses still pay to avoid $250-$1,500 photo shoots; the founder reports $86,000/month currently after a $150,000/month peak.",
+      "monetization": "Subscriptions at $19-$199 per month (or discounted yearly), plus credits; founder-reported $105,000 revenue and $80,000 profit in March 2026, about 76% margin.",
+      "evidence": [
+        "https://theaireceipts.com/blog/how-much-does-photo-ai-make/",
+        "https://aiolum.com/story/photo-ai/"
+      ],
+      "how_searched": [
+        "founder revenue analysis",
+        "revenue tracker"
+      ],
+      "score": 56.0,
+      "found_at": "2026-11-17T13:40:03.511575+00:00"
     },
     {
       "name": "Voice-to-text writing assistant (Letterly model)",
@@ -3632,6 +3600,23 @@
       ],
       "score": 54.7,
       "found_at": "2026-11-13T22:46:28.608056+00:00"
+    },
+    {
+      "name": "SuperX",
+      "field": "X (Twitter) growth analytics",
+      "summary": "Web app plus Chrome extension for finding viral X posts, analyzing accounts, drafting, scheduling and engagement workflows.",
+      "why_now": "Creators and founders monetize X audiences; SuperX hit roughly $23,000 MRR within six months and still shows about $17,700 MRR with 422 active subscriptions.",
+      "monetization": "Pro $49/month, Advanced $99/month (launch price $49) and Ultra $199/month; about $17,718 MRR, $270,606 all-time revenue and 122,500 monthly visits.",
+      "evidence": [
+        "https://www.indiehackers.com/post/tech/hitting-23k-mrr-in-six-months-after-five-failures-4d64o9ev4AXXhX9ogHQQ",
+        "https://trustmrr.com/startup/superx"
+      ],
+      "how_searched": [
+        "founder interview (Indie Hackers)",
+        "verified revenue tracker (TrustMRR)"
+      ],
+      "score": 54.7,
+      "found_at": "2026-11-17T13:40:04.677443+00:00"
     },
     {
       "name": "Multiplayer browser edu-game: parkour courses gated by times-tables quizzes",
@@ -3846,6 +3831,23 @@
       ],
       "score": 52.7,
       "found_at": "2026-11-14T17:16:19.729991+00:00"
+    },
+    {
+      "name": "GeoSports / GeoGames",
+      "field": "Daily web games",
+      "summary": "Free daily geography game where players tap a map for sports clues, with shareable scores and niche spin-offs like GeoHistory and GeoFooty.",
+      "why_now": "Shareable daily games spread through group chats and social feeds; the founder reports about 700,000 monthly active users and roughly $40,000/month within months of launch.",
+      "monetization": "Programmatic ads (about $30,000-$35,000/month) plus a $4.99/month or $39.99/year Pro plan with about 1,800 subscribers and $0 marketing spend.",
+      "evidence": [
+        "https://www.sportico.com/business/tech/2026/geosports-trivia-game-creator-viral-wordle-1234901573/",
+        "https://finance.biggo.com/podcast/8741b4bfb38c2632"
+      ],
+      "how_searched": [
+        "sports business reporting",
+        "founder interview summary"
+      ],
+      "score": 52.7,
+      "found_at": "2026-11-17T13:40:06.461492+00:00"
     },
     {
       "name": "AI multi-model creative studio",
@@ -4114,6 +4116,23 @@
       ],
       "score": 50.0,
       "found_at": "2026-11-14T10:41:16.511242+00:00"
+    },
+    {
+      "name": "Auto-zoom screen recorder web tool",
+      "field": "Screen recording / demos",
+      "summary": "Screen recorder that automatically adds zooms, smooth cursor motion, captions, webcam overlay and 4K export for polished product demos without editing.",
+      "why_now": "Founders and course creators need demo videos but lack editing skills; Screen Charm reached about $58,000 all-time and Screen Studio 4.0 drew 474 Product Hunt upvotes in November 2026.",
+      "monetization": "One-time licenses around $79-$99 plus a small subscription base; Screen Charm made about $1,603-$1,920 in the last 30 days and about $58,126 all-time (Stripe-verified).",
+      "evidence": [
+        "https://trustmrr.com/startup/screen-charm",
+        "https://www.producthunt.com/leaderboard/monthly/2026/11"
+      ],
+      "how_searched": [
+        "verified revenue tracker (TrustMRR)",
+        "launch leaderboard (Product Hunt)"
+      ],
+      "score": 50.0,
+      "found_at": "2026-11-17T13:40:07.332555+00:00"
     },
     {
       "name": "MimikFlow (AI LinkedIn prospecting agent)",
