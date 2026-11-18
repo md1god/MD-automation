@@ -22,25 +22,6 @@
       "found_at": "2026-10-30T07:09:32.212483+00:00"
     },
     {
-      "name": "Orbit",
-      "field": "Digital wellness / Focus / App blocking",
-      "summary": "App blocker where unlocking apps costs effort - do physical tasks (squats, holding orb), ask friends, or pay. Makes doomscrolling have a price rather than just being blocked.",
-      "why_now": "Launched Oct 27 2026 on Product Hunt, #4 on daily leaderboard (216 upvotes), trending in iOS/Productivity/Health categories. Gamifies friction in a way that addresses the 'learn to bypass blockers' problem.",
-      "monetization": "IAP/subscription model (typical for productivity apps of this class); exact revenue not publicly reported.",
-      "evidence": [
-        "https://www.producthunt.com/products/orbit-app-blocker",
-        "https://apps.apple.com/us/app/orbit-app-blocker-focus/id6795471478",
-        "https://hunted.space/product/orbit-app-blocker"
-      ],
-      "how_searched": [
-        "Product Hunt daily leaderboard (2026-10-28)",
-        "App Store search",
-        "Web search for 'Orbit app blocker gamification'"
-      ],
-      "score": 94.0,
-      "found_at": "2026-10-28T08:34:20.877363+00:00"
-    },
-    {
       "name": "AI Visibility/GEO Monitoring (Free Web Tool)",
       "field": "SEO/Marketing Tech",
       "summary": "Track how brands appear in AI search (ChatGPT, Perplexity, Google AI Overviews) and citations - 'GEO'/'AEO' monitoring.",
@@ -382,6 +363,27 @@
       "found_at": "2026-11-17T04:13:42.032468+00:00"
     },
     {
+      "name": "AI receptionist / missed-call recovery web tool",
+      "field": "AI voice agents for local businesses",
+      "summary": "Build a free browser-based missed-call recovery tool that answers common questions, qualifies callers, books appointments, captures voicemail, and sends SMS/email follow-ups without requiring businesses to buy telephony hardware.",
+      "why_now": "Retell reported a $100M revenue run rate, 4,000+ customers, and 100M+ calls/month; RingCentral reported 22,000+ AI Receptionist customers, nearly 4x YoY, and $400M AI product ARR; SMB missed-call loss is a clear pain point.",
+      "monetization": "Free tier for call capture and basic booking; charge for extra numbers, CRM/calendar integrations, custom scripts, multi-language support, analytics, and team accounts.",
+      "evidence": [
+        "https://www.retellai.com/blog/retell-100m-revenue-run-rate",
+        "https://www.fool.com/earnings/call-transcripts/2026/10/22/ringcentral-rng-q3-2026-earnings-call-transcript/",
+        "https://www.antler.co/blog/sophiie-ai"
+      ],
+      "how_searched": [
+        "websearch",
+        "webfetch",
+        "vendor site",
+        "earnings transcript",
+        "VC blog"
+      ],
+      "score": 88.0,
+      "found_at": "2026-11-18T14:05:01.565819+00:00"
+    },
+    {
       "name": "AI Lecture-to-Quiz Study Workspace",
       "field": "EdTech",
       "summary": "Turns lectures, PDFs, videos and textbooks into quizzes, flashcards and a voice tutor, with progress tracking and spaced repetition.",
@@ -690,6 +692,27 @@
       ],
       "score": 85.0,
       "found_at": "2026-11-17T04:13:42.917205+00:00"
+    },
+    {
+      "name": "Long-video to short-clip editor",
+      "field": "creator tools / AI video editing",
+      "summary": "Create a free transcript-first web editor that finds engaging moments in long videos, crops them into vertical clips, adds captions, removes silence, and exports platform-ready shorts.",
+      "why_now": "OpusClip reached 20M users, 300,000 paying customers, and over $50M ARR within three years; Sacra estimated $50M ARR and 150% growth; creator-editor displacement is already being covered in 2026 reporting.",
+      "monetization": "Free clips with watermark or limited minutes; charge for HD exports, brand kits, batch processing, scheduling, team workspaces, and API access.",
+      "evidence": [
+        "https://www.withtitan.com/founders/young",
+        "https://sacra.com/c/opusclip/",
+        "https://www.digitaltrends.com/computing/the-influencer-economys-invisible-workers-are-first-in-line-for-the-ai-chop/"
+      ],
+      "how_searched": [
+        "websearch",
+        "webfetch",
+        "revenue teardown",
+        "founder interview",
+        "news"
+      ],
+      "score": 85.0,
+      "found_at": "2026-11-18T14:05:02.462499+00:00"
     },
     {
       "name": "Agent access control/monetization via MCP",
@@ -1094,6 +1117,29 @@
       ],
       "score": 82.0,
       "found_at": "2026-11-17T22:28:23.931841+00:00"
+    },
+    {
+      "name": "Browser voice dictation with custom commands",
+      "field": "AI productivity / accessibility",
+      "summary": "Build a free web dictation tool with reusable snippets, custom commands, formatting rules, and app-specific templates for email, chat, docs, and support replies.",
+      "why_now": "AudioPen reached $15K-$20K/month; Wispr raised at a $2B valuation with 100,000 business customers and >150% revenue growth for four quarters; voice input is being positioned as the next major interface.",
+      "monetization": "Free local dictation and basic snippets; charge for cloud sync, unlimited command libraries, team snippets, premium transcription models, and integrations.",
+      "evidence": [
+        "https://www.indiehackers.com/post/tech/building-an-ai-tool-in-a-half-day-hackathon-and-hitting-20k-mo-BCloDTDRfjuip0pDghap",
+        "https://fortune.com/2026/08/17/wispr-2-billion-valuation-dictations-only-the-beginning/",
+        "https://perspectives.acrewcapital.com/p/why-we-backed-wispr-the-interface",
+        "https://transcribe.so/blog/audiopen-starter-story-interview-answered"
+      ],
+      "how_searched": [
+        "websearch",
+        "webfetch",
+        "community",
+        "news",
+        "VC blog",
+        "founder interview"
+      ],
+      "score": 82.0,
+      "found_at": "2026-11-18T14:05:03.075155+00:00"
     },
     {
       "name": "Anti-AI-Slop Design Linter & Skill for Coding Agents",
@@ -1910,6 +1956,27 @@
       ],
       "score": 76.0,
       "found_at": "2026-11-18T04:23:43.306395+00:00"
+    },
+    {
+      "name": "AI mini-course / microlearning builder",
+      "field": "education tools / lead magnets",
+      "summary": "Create a free web tool that turns PDFs, notes, links, or videos into short interactive courses with quizzes, checklists, certificates, and embeddable lead-capture pages.",
+      "why_now": "Mini Course Generator shows 11,257 AppSumo purchases and 226 reviews; online classes has 22,200 monthly searches and online courses 18,471; AI course creator demand is small but rising.",
+      "monetization": "Free course builder with one published course; charge for hosting, custom domains, SCORM export, analytics, lead capture, remove branding, and team seats.",
+      "evidence": [
+        "https://appsumo.com/products/mini-course-generator/",
+        "https://www.appsumoreview.com/reviews/mini-course-generator/",
+        "https://thepayday.ai/trends/online-courses"
+      ],
+      "how_searched": [
+        "websearch",
+        "webfetch",
+        "AppSumo listing",
+        "AppSumo review",
+        "trend explorer"
+      ],
+      "score": 76.0,
+      "found_at": "2026-11-18T14:05:04.622704+00:00"
     },
     {
       "name": "AI ebook-to-publish pipeline (GETebook pattern)",
@@ -2888,6 +2955,28 @@
       "found_at": "2026-11-14T21:32:51.003152+00:00"
     },
     {
+      "name": "Competitor ad creative research from public ad libraries",
+      "field": "marketing intelligence",
+      "summary": "Create a free ad-library research tool that tracks public ads across Meta, Google, TikTok, and LinkedIn, extracts hooks and transcripts, and compares creative angles, timing, and landing pages.",
+      "why_now": "Rival Ads sold 484 deals at $49 with a 4.94 rating; PowerAdSpy claims 500M+ indexed ads and 50K+/500K+ daily ads; Hawky's 2026 comparison shows paid tools ranging from $49 to $175/month.",
+      "monetization": "Free search with limited history; charge for alerts, unlimited filters, creative downloads, transcript search, white-label reports, and team folders.",
+      "evidence": [
+        "https://appsumo.com/products/rival-ads/",
+        "https://hawky.ai/blog/facebook-ad-spy-tools",
+        "https://poweradspy.com/",
+        "https://poweradspy.com/competitor-ad-intelligence/"
+      ],
+      "how_searched": [
+        "websearch",
+        "webfetch",
+        "AppSumo listing",
+        "competitor blog",
+        "vendor site"
+      ],
+      "score": 68.0,
+      "found_at": "2026-11-18T14:05:07.648055+00:00"
+    },
+    {
       "name": "Marketplace of skill packs and style kits for AI coding agents",
       "field": "AI developer tools",
       "summary": "A web library of installable 'skills' — instruction packs and visual style kits that give Claude Code, Codex and Cursor a distinct output style for websites, decks, images and video, previewable before install. Skillry reached $5.1K MRR within ~3 months of launch.",
@@ -3208,6 +3297,27 @@
       ],
       "score": 62.0,
       "found_at": "2026-11-10T23:30:59.848013+00:00"
+    },
+    {
+      "name": "AI slide generator from meeting or chat context",
+      "field": "presentations / meeting productivity",
+      "summary": "Build a free web tool that turns Zoom transcripts, meeting notes, or chat threads into editable slides with speaker notes, outlines, and simple visuals.",
+      "why_now": "Zoom Slides was Product Hunt Product of the Day on 2026-11-16 with 296 upvotes and 101 comments; Gamma reached $102M ARR in Oct 2025, but standalone AI slides are collapsing into broader suites, so this is a narrower wedge.",
+      "monetization": "Free basic decks with limited slides; charge for premium templates, brand themes, PowerPoint export, team collaboration, and integrations with meeting tools.",
+      "evidence": [
+        "https://hunted.space/dashboard/zoom",
+        "https://sacra.com/research/rip-ai-slides-2022-2026/",
+        "https://thenextweb.com/news/kristin-fracchia-gamma-ai-second-buyer-marketing-tnw-podcast"
+      ],
+      "how_searched": [
+        "websearch",
+        "webfetch",
+        "Product Hunt/Hunted.space",
+        "revenue teardown",
+        "news"
+      ],
+      "score": 62.0,
+      "found_at": "2026-11-18T14:05:08.723686+00:00"
     },
     {
       "name": "AI spreadsheet formula & data-analysis assistant (Formula Bot model)",
@@ -3909,6 +4019,25 @@
       "found_at": "2026-11-14T17:16:19.048480+00:00"
     },
     {
+      "name": "Screen-recording beautifier",
+      "field": "demo and tutorial creation",
+      "summary": "Build a free browser screen recorder that auto-zooms clicks, smooths cursor movement, adds camera/layout options, and produces polished demo videos without desktop-only software.",
+      "why_now": "Screen Studio had ~320K monthly visits, ~25K MAU, 19+ active ads, and shifted from a $89 one-time price to $29/month or $9/month yearly; HN has 4 major threads with 972+ points and explicit demand for free alternatives.",
+      "monetization": "Free recording and standard export; charge for HD/4K export, cloud storage, branded backgrounds, template packs, team libraries, and hosted share pages.",
+      "evidence": [
+        "https://www.systemaic.com/teardowns/screen-studio",
+        "https://aitool.wiki/screen-studio-review/"
+      ],
+      "how_searched": [
+        "websearch",
+        "webfetch",
+        "revenue teardown",
+        "product review"
+      ],
+      "score": 53.3,
+      "found_at": "2026-11-18T14:05:03.306065+00:00"
+    },
+    {
       "name": "Live AI translation for churches and events",
       "field": "Faith, events and accessibility",
       "summary": "A QR-code web app that lets each attendee hear or read a live sermon or event in their own language, with no headsets or extra hardware. Glossa is Stripe-verified at $14,404 MRR from 100 subscriptions and $31,173 in the last 30 days, with $196,539 all-time.",
@@ -4475,6 +4604,25 @@
       ],
       "score": 48.0,
       "found_at": "2026-11-16T20:37:43.700522+00:00"
+    },
+    {
+      "name": "Local Google Maps lead finder + outreach",
+      "field": "sales prospecting / local marketing",
+      "summary": "Build a free lead research web app that searches Google Maps categories and locations, flags businesses without websites or weak reviews, enriches contacts, and drafts personalized outreach.",
+      "why_now": "NotiQ sold 484 deals at $69 with 22 reviews by combining Google Maps leads, verified contact data, and AI cold email; local businesses remain underserved by simple prospecting tools.",
+      "monetization": "Free limited daily searches; charge for bulk export, verified emails/phones, enrichment credits, campaign tracking, saved lists, and CRM integrations.",
+      "evidence": [
+        "https://appsumo.com/products/notiq/",
+        "https://thepromotes.com/notiq-lifetime-deal-review/"
+      ],
+      "how_searched": [
+        "websearch",
+        "webfetch",
+        "AppSumo listing",
+        "product review"
+      ],
+      "score": 48.0,
+      "found_at": "2026-11-18T14:05:04.943674+00:00"
     },
     {
       "name": "AI directory-site builder",
