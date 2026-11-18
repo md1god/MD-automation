@@ -1,45 +1,6 @@
 {
   "items": [
     {
-      "name": "TheySaid (AI User Testing with Synthetic Testers)",
-      "field": "UX Research / Product Validation",
-      "summary": "AI-powered user testing platform where synthetic users (trained on customer data) watch, click, think aloud on screen with video/audio, or run alongside real testers via MCP in Claude/Cursor/v0/Lovable and ticket automation in Jira/Linear.",
-      "why_now": "Launched TheySaid 4.0 recently (Oct 2026) with synthetic audiences that catch ~89% of issues vs humans at ~90%, showing side-by-side accuracy; Product Hunt #1 that day (TheySaid 4.0) and strong demand as teams ship faster with AI coding tools but lack validation.",
-      "monetization": "SaaS pricing (from website: free start, paid plans; per-test pricing mentioned as low as $1/synthetic test). Reported revenue ~$2.5M ARR (GetLatka est Dec 2025) and $750K-2.5M range reported; raised $8.3M total funding. Growing as validation becomes infrastructure.",
-      "evidence": [
-        "https://www.theysaid.io/",
-        "https://www.producthunt.com/products/theysaid",
-        "https://getlatka.com/companies/theysaid.io",
-        "https://linkedin.com/company/theysaid-app"
-      ],
-      "how_searched": [
-        "Product Hunt daily leaderboard (Oct 27 2026)",
-        "Company website feature analysis (synthetic testers + MCP + ticket testing)",
-        "Revenue/funding lookups (GetLatka/LinkedIn)"
-      ],
-      "score": 97.0,
-      "found_at": "2026-10-28T01:25:31.188895+00:00"
-    },
-    {
-      "name": "Spira AI (AI Influencer / Autonomous Social Media Agent)",
-      "field": "Marketing Automation / Social Media AI",
-      "summary": "End-to-end AI agent that creates, posts, and grows social channels autonomously - 'AI Influencers' that make content in brand voice, publish across TikTok/Instagram/YT, with built-in models (Seedance/Kling/Wan/GPT-Image) and analytics.",
-      "why_now": "Spira Maxima #1 Product of Week on Product Hunt (Oct 2026) with 10M+ impressions pre-launch; viral traction, built by ex-CapCut/TikTok/Meta/Midjourney team; demand for 'do-it-for-me' content automation is surging as brands compete in short-form video.",
-      "monetization": "Freemium/credits-based SaaS (Creator/Growth/Enterprise plans per website); high usage of video models creates strong monetization potential. Massive attention (top PH product) indicates commercial viability.",
-      "evidence": [
-        "https://spira.ai/",
-        "https://www.producthunt.com/products/spira-ai",
-        "https://mtdtechnologies.com/7-trending-ai-tools-on-product-hunt-worth-trying-october-2026/"
-      ],
-      "how_searched": [
-        "Product Hunt monthly/daily leaderboards (Oct 2026)",
-        "Third-party PH roundups",
-        "Company website analysis"
-      ],
-      "score": 96.5,
-      "found_at": "2026-10-28T01:25:32.024519+00:00"
-    },
-    {
       "name": "AI Search Visibility (GEO/AEO) Tracking",
       "field": "Marketing/SEO Tools",
       "summary": "Platforms tracking brand mentions and citations across ChatGPT, Perplexity, Claude, Gemini, Google AI Overviews - showing when/where AI models cite/recommend brands.",
@@ -59,42 +20,6 @@
       ],
       "score": 95.0,
       "found_at": "2026-10-30T07:09:32.212483+00:00"
-    },
-    {
-      "name": "TradingAgents (Multi-Agent LLM Financial Trading Framework)",
-      "field": "AI Agents / Fintech Infrastructure",
-      "summary": "Open-source multi-agent framework using LLMs for algorithmic trading - agents simulate analyst/debate/research/trading roles, with backtesting capabilities. Very popular on GitHub.",
-      "why_now": "Trending #2 on GitHub Oct 27 2026 with 116k+ stars and massive recent growth (+1395 stars/day); demonstrates huge interest in agentic trading systems. While open-source, commercial wrappers (hosted agents, premium data, execution) are monetizable.",
-      "monetization": "Open-source core with potential for hosted SaaS (agent-as-a-service), premium data feeds, prop-firm style or white-label; revenue not public yet but attention is massive - opportunity to rebuild as a simplified web tool.",
-      "evidence": [
-        "https://github.com/TauricResearch/TradingAgents",
-        "https://reporadar.spreix.com/reports/daily/2026-10-27",
-        "https://githubtrending.today/archive/2026-10-27/"
-      ],
-      "how_searched": [
-        "GitHub trending (daily/weekly Oct 2026)",
-        "RepoRadar trending reports"
-      ],
-      "score": 94.5,
-      "found_at": "2026-10-28T01:25:34.726803+00:00"
-    },
-    {
-      "name": "OpenSEO (Open-Source Semrush Alternative)",
-      "field": "SEO/GEO Tools",
-      "summary": "Open-source SEO toolkit (keyword research, competitor analysis, backlinks, site audits) starting at $10/month vs $100+; connects to MCP so agents can build SEO strategies and content.",
-      "why_now": "Top 10 on Product Hunt Oct 2026 (#10 in PH products list), riding demand for cheaper SEO tools and GEO/AI search visibility needs; open-source with commercial hosting creates freemium opportunity.",
-      "monetization": "Hosted SaaS from $10/month, self-hosted free; MCP integration drives adoption by AI agent users. Competitive with established tools but price-disruptive.",
-      "evidence": [
-        "https://www.producthunt.com/products/openseo",
-        "https://openseo.so",
-        "https://www.producthunt.com/leaderboard/monthly/2026/10"
-      ],
-      "how_searched": [
-        "Product Hunt monthly leaderboard (Oct 2026)",
-        "Product page analysis"
-      ],
-      "score": 94.0,
-      "found_at": "2026-10-28T01:25:34.967865+00:00"
     },
     {
       "name": "Orbit",
@@ -1418,6 +1343,28 @@
       "found_at": "2026-11-17T04:13:45.955304+00:00"
     },
     {
+      "name": "Self-hostable LLM/agent observability & cost-tracing dashboard",
+      "field": "AI developer infrastructure",
+      "summary": "An open-source web dashboard that traces every LLM/agent call with prompts, tool steps, tokens, cost, latency and quality scores, with a free self-hosted tier. Take the idea, not the code.",
+      "why_now": "LLM observability is one of the fastest-rising queries in Exploding Topics' Nov 2026 list (+9,300% 5-yr search growth); the market goes from $1.97B (2025) to $2.69B (2026) at 36.3% CAGR, eval/observability startups raised $272M in Jan–Sep 2026, and incumbents were acquired (Langfuse by ClickHouse, Galileo by Cisco). Agentic apps moving to production need audit logs ahead of EU AI Act duties (Dec 2027).",
+      "monetization": "Open-core: free self-hosted tracing, paid hosted retention/evals/governance; market $9.26B by 2030, Fiddler grew revenue 4x in 18 months after a $30M Series C; rebuild revenue null.",
+      "evidence": [
+        "https://explodingtopics.com/blog/trending-topics",
+        "https://www.giiresearch.com/report/tbrc1981334-large-language-model-llm-observability-platform.html",
+        "https://botmemo.com/ai-observability-llmops-funding-map",
+        "https://www.fiddler.ai/press-releases/fiddler-raises-30m-series-c"
+      ],
+      "how_searched": [
+        "search-trend tool",
+        "market-research report",
+        "funding/tracker analysis",
+        "startup press release",
+        "community Show HN"
+      ],
+      "score": 80.0,
+      "found_at": "2026-11-18T04:23:38.086089+00:00"
+    },
+    {
       "name": "Agent-Callable Social Media Scheduler (MCP/CLI)",
       "field": "Social Media / Agent Infrastructure",
       "summary": "An open-source, agentic social media scheduler that AI agents (Claude, Codex, OpenClaw, Cursor) can call via MCP endpoint and CLI to plan, generate, and publish posts across 30+ networks, with a paid managed cloud on top.",
@@ -1760,6 +1707,28 @@
       "found_at": "2026-11-17T04:13:47.843375+00:00"
     },
     {
+      "name": "AI long-video-to-shorts clipping web tool",
+      "field": "Creator tools / video",
+      "summary": "Paste a podcast, stream or video link and get ranked, captioned, reframed vertical clips ready for Shorts/Reels/TikTok, with an original editor and free credit tier.",
+      "why_now": "Viblo was the #1 most-searched AI tool in Nov 2026; 'ai clipping tool' search up 92% to ~1,300/mo; the clipping economy is exploding (NPR: a 40,000-clipper network, one clipper earned $2,500 in two weeks; agencies pay $300–$1,500 per 1M views). Viblo's estimated traffic rose 354K→544K visits Aug–Oct 2026.",
+      "monetization": "Per-clip credits/subscriptions: Viblo $25/mo for 30 clips, $49 for 90, $99 for 200; Opus Clip ~$15/mo. Viblo est. $72K/mo (third-party estimate, not verified).",
+      "evidence": [
+        "https://www.trendingaitools.com/trending-ai-tools-november-2026/",
+        "https://www.risingtrends.co/trends/ai-trends-2026",
+        "https://mrrtrack.com/saas/viblo.ai",
+        "https://www.npr.org/2026/05/12/nx-s1-5794670/influencers-creators-video-clips"
+      ],
+      "how_searched": [
+        "search-trend tool",
+        "most-searched-tool directory",
+        "traffic/revenue estimator",
+        "news report",
+        "product site"
+      ],
+      "score": 78.0,
+      "found_at": "2026-11-18T04:23:41.336229+00:00"
+    },
+    {
       "name": "Freelancer Contract Risk Scanner",
       "field": "Legal tech",
       "summary": "Upload a freelance contract and get clause-level red flags, a dollar-denominated hidden-cost score, and ready-to-send negotiation language.",
@@ -1922,6 +1891,27 @@
       "found_at": "2026-11-17T22:28:26.238634+00:00"
     },
     {
+      "name": "Free Gmail read receipts / email open tracking",
+      "field": "Email productivity",
+      "summary": "A free web/extension tool that gives personal Gmail users invisible read receipts and open/link tracking — the feature Google withholds from ~1.8B consumer accounts.",
+      "why_now": "Google's own help page confirms receipts are work/school only; a May 2026 r/GMail thread (23 comments) asks for an actually free option and complains that MailTracker etc. are trial-gated; Chrome tracker AppGazers shows 'Vmail Plus: free Gmail read receipts & dictation' at 5K users with +333 ratings in 30 days — clear unmet demand in the last month.",
+      "monetization": "Freemium tracking SaaS (Mailtrack/Yesware/Mixmax charge monthly); a rebuild's revenue figure null.",
+      "evidence": [
+        "https://support.google.com/mail/answer/9413651?hl=en",
+        "https://www.reddit.com/r/GMail/comments/1ta419f/actually_free_extension_or_app_to_receive_read/",
+        "https://www.gblock.app/articles/gmail-read-receipt-tracking-tools-compared-2026",
+        "https://appgazers.com/reports/chrome-extensions/trending"
+      ],
+      "how_searched": [
+        "official vendor docs",
+        "community/forum complaint mining",
+        "review/analysis article",
+        "app-store trend tracking"
+      ],
+      "score": 76.0,
+      "found_at": "2026-11-18T04:23:43.306395+00:00"
+    },
+    {
       "name": "AI ebook-to-publish pipeline (GETebook pattern)",
       "field": "AI publishing",
       "summary": "Turn a topic, audience, and tone into an outline, chapters, cover art, and export-ready PDF/EPUB/Word. Rebuild as a free browser editor with paid exports, cover templates, and KDP formatting checks.",
@@ -1997,6 +1987,26 @@
       ],
       "score": 75.0,
       "found_at": "2026-11-17T04:13:48.505454+00:00"
+    },
+    {
+      "name": "AI manga / manhwa / comic image translator",
+      "field": "Language & entertainment tools",
+      "summary": "Upload comic pages, detect and erase text, translate and re-letter it into speech bubbles while preserving layout, as an original free web tool with credit packs.",
+      "why_now": "'Free Manga Translator' ranked in the top 10 most-searched AI tools in Nov 2026; 'manga translation' has ~4,400 monthly searches and +650% 5-yr interest; a leading site (mangatranslate.com) draws ~153K monthly visits, and competing domains get 22K–55K visits — proven traffic with credit monetization.",
+      "monetization": "Freemium + non-expiring credit packs (e.g., $2–$10 top-ups); MangaTranslator.io sells packs and a paid 'Remove Text' tool; exact revenue null.",
+      "evidence": [
+        "https://www.trendingaitools.com/trending-ai-tools-november-2026/",
+        "https://probedex.ai/domain/mangatranslate.com",
+        "https://openaitools.app/tool/free-online-ai-manga-translator-manhwa-translator"
+      ],
+      "how_searched": [
+        "most-searched-tool directory",
+        "keyword/trend tool",
+        "domain traffic estimator",
+        "competitor teardown"
+      ],
+      "score": 75.0,
+      "found_at": "2026-11-18T04:23:44.981117+00:00"
     },
     {
       "name": "ADA/WCAG compliance scanner and widget for Shopify",
@@ -2236,6 +2246,26 @@
       ],
       "score": 73.0,
       "found_at": "2026-11-15T17:29:00.490937+00:00"
+    },
+    {
+      "name": "Shopify bulk variant-metafield editor with preview/undo",
+      "field": "Ecommerce merchant tools",
+      "summary": "A spreadsheet-style bulk editor for product AND variant metafields with diff preview, validation and one-click rollback, built as an installable free web tool.",
+      "why_now": "GapQuery's Aug 2026 Shopify review analysis puts bulk editor and order editing at ~5.4% workaround density (3.2x ecosystem baseline) — demand proven by manual spreadsheets that 'took all year'; a Sep 2026 Shopify Community thread names variant metafields, safe bulk writes and rollback as the remaining gaps, and Q3 2026 saw 'Loggr: Product History & Revert' jump +1,696 rank positions.",
+      "monetization": "Shopify app subscription/freemium (competitors charge $20–$100+/mo); rebuild revenue null.",
+      "evidence": [
+        "https://www.gapquery.com/blog/shopify-review-sentiment-validation",
+        "https://community.shopify.com/t/how-do-people-manage-metafields-in-2026/675141",
+        "https://letsmetrix.com/reports/shopify-app-market"
+      ],
+      "how_searched": [
+        "app-marketplace review sentiment analysis",
+        "merchant community thread",
+        "marketplace rank tracker",
+        "competitor docs"
+      ],
+      "score": 73.0,
+      "found_at": "2026-11-18T04:23:46.367877+00:00"
     },
     {
       "name": "Personalized healthy restaurant menu",
@@ -2678,6 +2708,25 @@
       "found_at": "2026-11-17T22:28:32.207746+00:00"
     },
     {
+      "name": "Disposable email with inbox recovery",
+      "field": "Privacy utilities",
+      "summary": "A fast, free throwaway-email web tool with a recovery token so users can get back into an inbox — the weakness most generators ignore.",
+      "why_now": "~6.1M monthly searches for 'temp mail'; on Nov 2, 2026 five variants ('temp mail', 'temporary email', 'temp email', etc.) were all Google Trends 'Breakout' (>5,000%) simultaneously; temp-mail.org still drew 7.5M visits in Oct 2026 with an estimated $965.9K traffic value.",
+      "monetization": "Display ads; incumbents' search traffic value ~$966K/mo is a proxy; rebuild revenue null.",
+      "evidence": [
+        "https://treendly.com/trend/temp-mail",
+        "https://tempomailusa.com/post/temporary-email-generator-2026",
+        "https://ahrefstop.com/websites/temp-mail.org"
+      ],
+      "how_searched": [
+        "search-trend tool",
+        "Google Trends analysis article",
+        "SEO traffic estimator"
+      ],
+      "score": 70.0,
+      "found_at": "2026-11-18T04:23:48.528871+00:00"
+    },
+    {
       "name": "General resale-value scanner",
       "field": "resale valuation",
       "summary": "Scan household items, collectibles, tools, and electronics to identify them, estimate resale value from comps, and generate marketplace listings. Rebuild as a free web scanner with paid deep scans, portfolio tracking, and listing exports.",
@@ -2696,6 +2745,25 @@
       ],
       "score": 69.0,
       "found_at": "2026-10-31T17:50:32.405154+00:00"
+    },
+    {
+      "name": "AI guardrails / prompt-injection & output-safety checker",
+      "field": "AI security",
+      "summary": "A free web tool/API that scans prompts and model outputs for injection, jailbreaks, PII and policy violations before they ship, with an original rules engine.",
+      "why_now": "'AI Guardrails' is +8,400% over five years in Exploding Topics' Nov 2026 list; the inference-guardrails market grows from $1.96B (2025) to $2.59B (2026) at 32.3% CAGR, driven by governance mandates; EU AI Act logging obligations start Dec 2027.",
+      "monetization": "Freemium per-request API / managed policy dashboard; market projected $7.99B by 2030; rebuild revenue null.",
+      "evidence": [
+        "https://explodingtopics.com/blog/trending-topics",
+        "https://www.researchandmarkets.com/reports/6231652/inference-guardrails-large-language-models",
+        "https://www.researchandmarkets.com/reports/6288408/ai-observability-market-global-forecast"
+      ],
+      "how_searched": [
+        "search-trend tool",
+        "industry market reports",
+        "regulatory analysis"
+      ],
+      "score": 69.0,
+      "found_at": "2026-11-18T04:23:49.459375+00:00"
     },
     {
       "name": "Directify",
@@ -2899,6 +2967,27 @@
       "found_at": "2026-11-15T17:29:03.684723+00:00"
     },
     {
+      "name": "Lightweight free AI music generator web tool",
+      "field": "AI media generation",
+      "summary": "No-sign-up, limited-free-credit song/beat generator from text or lyrics, differentiated on speed, no watermark and export rather than competing head-on with Suno.",
+      "why_now": "'AI Music Generator' is +5,200% in Exploding Topics' Nov 2026 trends; Suno hit 2M paid subscribers and $300M ARR in Feb 2026; the category drew 5.6M Google visits in Oct 2026 (+41% YoY) with 301K monthly searches, and TGGET flags strong 'free/no sign-up' demand.",
+      "monetization": "Freemium credits/subscription (Suno ~$10/mo; 2M subs, $300M ARR); rebuild revenue null.",
+      "evidence": [
+        "https://explodingtopics.com/blog/trending-topics",
+        "https://techcrunch.com/2026/02/27/ai-music-generator-suno-hits-2-million-paid-subscribers-and-300m-in-annual-recurring-revenue/",
+        "https://rankdude.ai/statistics/ai-music-generator",
+        "https://tgget.io/niches/ai-music-generator"
+      ],
+      "how_searched": [
+        "search-trend tool",
+        "news/startup funding",
+        "traffic statistics tracker",
+        "niche-demand validator"
+      ],
+      "score": 67.0,
+      "found_at": "2026-11-18T04:23:50.684904+00:00"
+    },
+    {
       "name": "AI craft-pattern generator",
       "field": "AI crafting",
       "summary": "Generate crochet/knitting patterns from a text idea or photo, with stitch math, materials, and step-by-step instructions. Rebuild as a free pattern generator with paid PDF exports, advanced sizing, and project tracking.",
@@ -3022,6 +3111,27 @@
       "found_at": "2026-11-10T23:30:58.695828+00:00"
     },
     {
+      "name": "Dual-subtitle language-learning web tool",
+      "field": "Education / language learning",
+      "summary": "A web player/extension that overlays two subtitle lines on YouTube/Netflix-style video with hover translation and saved vocabulary, in a new design and name.",
+      "why_now": "Language Reactor has 2M Chrome users and charges ~$40/yr; Trancy has 300K users and charges $42/yr; Oct 2026 comparisons list 8–21 active tools, and Chrome trend trackers show new entrants (Linglass, Funlingo) gaining ratings in the last month — sustained paid demand.",
+      "monetization": "Freemium Pro subscriptions $40–$42/yr or ~$6.99/mo; rebuild revenue null.",
+      "evidence": [
+        "https://chromewebstore.google.com/detail/language-reactor/hoombieeljmmljlkjmnheibnpciblicm",
+        "https://fluentbyaccident.com/blog/youtube-dual-subtitles/",
+        "https://www.jolii.ai/netflix-dual-subtitles/",
+        "https://appgazers.com/reports/chrome-extensions/trending"
+      ],
+      "how_searched": [
+        "app store listing",
+        "independent comparison review",
+        "competitor product test",
+        "app-store trend tracker"
+      ],
+      "score": 65.0,
+      "found_at": "2026-11-18T04:23:52.125216+00:00"
+    },
+    {
       "name": "Old-photo restoration and colorization with free preview",
       "field": "Consumer / photo",
       "summary": "A free-preview web tool that colorizes, de-scratches and upscales old family photos, then charges per photo or pack for full-resolution downloads and prints, built for genealogy and memorial use.",
@@ -3135,6 +3245,27 @@
       ],
       "score": 61.0,
       "found_at": "2026-11-10T23:31:03.164767+00:00"
+    },
+    {
+      "name": "Notes/meeting-to-designed-slides web tool",
+      "field": "Productivity / presentations",
+      "summary": "Paste rough notes or a transcript, review an outline, then generate and hand-tune designed slides with editable export — an original clone of the idea only.",
+      "why_now": "Zoom Slides was the #1 Product Hunt productivity launch on Nov 16, 2026 (~300 upvotes) after Zoom's June 2026 AI Productivity Suite launch at $10/user/mo with AI Companion monthly active users tripling; Flamigo launched in Oct–Nov 2026 with rapid changelog iterations and an MCP hook. Note: Tome reached 25M users but struggled to monetize at $10/mo, so this is a cautioned bet.",
+      "monetization": "Freemium credit packs ($2/$5/$10 on Flamigo) or per-seat add-on ($10/user/mo on Zoom); rebuild revenue null.",
+      "evidence": [
+        "https://www.producthunt.com/leaderboard/daily/2026/11/16",
+        "https://news.zoom.com/zoom-launches-ai-productivity-suite/",
+        "https://chatgate.ai/post/flamigo",
+        "https://www.forbes.com/sites/rashishrivastava/2026/07/20/ai-startups-are-pivoting-from-flashy-demos-to-tech-that-pays-the-bills/"
+      ],
+      "how_searched": [
+        "launch-site leaderboard",
+        "vendor news release",
+        "product review",
+        "business press"
+      ],
+      "score": 61.0,
+      "found_at": "2026-11-18T04:23:53.603660+00:00"
     },
     {
       "name": "Yadaphone",
@@ -4805,6 +4936,24 @@
       ],
       "score": 42.7,
       "found_at": "2026-11-15T21:52:41.136143+00:00"
+    },
+    {
+      "name": "Email tracking-pixel blocker & privacy scanner",
+      "field": "Privacy utilities",
+      "summary": "A free web/extension tool that detects hidden 1x1 tracking pixels in incoming mail, flags who is tracking you and blocks the beacons locally.",
+      "why_now": "Ugly Email, a once-popular 20K-user open-source blocker, was removed from the Chrome Web Store on Aug 31, 2026 and users are publicly asking for alternatives; a July 2026 analysis notes ~1.8B personal Gmail accounts are tracked via invisible pixels and that ~80% of email users would rather not have receipts sent about them.",
+      "monetization": "Free/privacy-tool donations or freemium; direct revenue null.",
+      "evidence": [
+        "https://chrome-stats.com/d/ldgiafaliifpknmgofiifianlnbgflgj",
+        "https://www.gblock.app/articles/gmail-read-receipt-tracking-tools-compared-2026"
+      ],
+      "how_searched": [
+        "extension analytics/delisting tracker",
+        "privacy analysis article",
+        "user review mining"
+      ],
+      "score": 42.0,
+      "found_at": "2026-11-18T04:23:52.547914+00:00"
     },
     {
       "name": "Kupkaike (Etsy niche scanner + digital product generator)",
