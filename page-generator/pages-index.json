@@ -7990,5 +7990,13 @@
     "audio": "theme-horus.mp3",
     "date": "2026-11-19T06:14:40.399Z",
     "file": "pages/page-0999.html"
+  },
+  {
+    "id": "page-1000",
+    "title": "الاحتياطي الكامل",
+    "image": "reserves-vault.jpg",
+    "audio": "theme-calm.mp3",
+    "date": "2026-11-19T16:21:39.830Z",
+    "file": "pages/page-1000.html"
   }
 ]
