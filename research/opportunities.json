@@ -22,60 +22,6 @@
       "found_at": "2026-10-30T07:09:32.212483+00:00"
     },
     {
-      "name": "AI Visibility/GEO Monitoring (Free Web Tool)",
-      "field": "SEO/Marketing Tech",
-      "summary": "Track how brands appear in AI search (ChatGPT, Perplexity, Google AI Overviews) and citations - 'GEO'/'AEO' monitoring.",
-      "why_now": "Exploding Topics shows 'Answer Engine Optimization' growing 99x+, 'AI SEO' trending. Product Hunt has ReSO AI and OpenSEO gaining traction as Semrush alternatives for AI search visibility.",
-      "monetization": "Freemium SaaS (free checker driving to paid dashboards); OpenSEO positions at $10/month vs $100+ incumbents.",
-      "evidence": [
-        "https://explodingtopics.com/blog/trending-topics",
-        "https://www.producthunt.com/products/reso",
-        "https://www.producthunt.com/products/openseo"
-      ],
-      "how_searched": [
-        "Exploding Topics",
-        "Product Hunt"
-      ],
-      "score": 94.0,
-      "found_at": "2026-10-28T16:04:45.115338+00:00"
-    },
-    {
-      "name": "AI Browser/Agent Operating Layer",
-      "field": "Productivity/Browser",
-      "summary": "Browsers that embed AI agents/companions to automate tasks across apps - e.g. Strawberry, Rill browser positioning agents beside browsing.",
-      "why_now": "Product Hunt shows Strawberry, Rill getting strong traction; demand for 'show once, run workflow' automation (IrisGo). Agents need browser context to take actions.",
-      "monetization": "Freemium + usage/API or subscription; strong user growth signals.",
-      "evidence": [
-        "https://www.producthunt.com/products/strawberry-1",
-        "https://www.producthunt.com/products/rill-3",
-        "https://www.producthunt.com/products/irisgo-public-beta"
-      ],
-      "how_searched": [
-        "Product Hunt (daily/monthly leaders)"
-      ],
-      "score": 93.0,
-      "found_at": "2026-10-28T16:04:45.286198+00:00"
-    },
-    {
-      "name": "UGC/AI Influencer Content Automation",
-      "field": "Creator Economy/Marketing",
-      "summary": "Tools that create AI influencers/UGC-style videos and automate posting across platforms (Spira model).",
-      "why_now": "TikTok trends show shopping content dominates; Exploding Topics shows 'UGC Creator' up 8600%. Spira Maxima was #1 on Product Hunt monthly (670 score). Demand for affordable video/content at scale.",
-      "monetization": "Subscription per AI influencer/credits; B2C creators and SMBs paying for content automation.",
-      "evidence": [
-        "https://www.producthunt.com/products/spira-ai",
-        "https://explodingtopics.com/blog/trending-topics",
-        "https://www.trenz.ai/radar/2026-10-27"
-      ],
-      "how_searched": [
-        "Product Hunt monthly",
-        "Exploding Topics",
-        "TikTok Shop trends (Trenz)"
-      ],
-      "score": 92.0,
-      "found_at": "2026-10-28T16:04:46.848298+00:00"
-    },
-    {
       "name": "AI Prompt Optimizer / Prompt Engineering Tools",
       "field": "AI Productivity Tools",
       "summary": "Tools that rewrite/improve prompts for better LLM outputs (Pretty Prompt, Prompt Genie, Prompt Builder). Often Chrome extensions or web apps.",
@@ -522,27 +468,6 @@
       "found_at": "2026-11-15T02:13:35.223383+00:00"
     },
     {
-      "name": "AI Job Search Copilot & Autofill Agent",
-      "field": "Career / Job Search SaaS",
-      "summary": "An end-to-end AI agent that crawls fresh job listings, scores fit against a user's resume, tailors applications per role, and autofills complex ATS forms (Greenhouse, Lever, Workday) in under two minutes instead of thirty.",
-      "why_now": "Jobright grew from $1M to $10M ARR in 10 months (announced Oct 13, 2026) with 3M US professionals on the platform; the founder reports a 15% reply rate vs 4-5% for cold outreach and 40% of engaged candidates moving to interviews. Demand is reinforced by Reddit threads on job-search automation and the explosion of AI-generated applications forcing recruiters to seek better signal.",
-      "monetization": "Consumer subscription for job seekers plus employer-side recruiting seats; Jobright hit $10M ARR with 3M users and 120+ hiring companies including Perplexity and MediaTek.",
-      "evidence": [
-        "https://www.arr.club/signal/jobright-arr-hit-10m-up-from-1m-in-10-months",
-        "https://www.linkedin.com/posts/ericcheng26_jobright-aijobs-jobsearch-activity-7429940295175323648-Nbf5",
-        "https://henrythe9th.substack.com/p/how-jobright-hit-5m-arr-with-9-people"
-      ],
-      "how_searched": [
-        "ARR Club growth tracker",
-        "LinkedIn founder announcements",
-        "Substack product teardown",
-        "News roundtable coverage",
-        "Reddit r/SaaS job-search pain threads"
-      ],
-      "score": 85.0,
-      "found_at": "2026-10-28T21:14:37.478967+00:00"
-    },
-    {
       "name": "Local-first/open-weight agent tooling",
       "field": "AI infrastructure / Local LLMs / Privacy",
       "summary": "Growing interest in running agents locally (Orca manages local agents, tools like DigUp for local search, open-weight models trending).",
@@ -835,25 +760,24 @@
       "found_at": "2026-11-16T20:37:38.039457+00:00"
     },
     {
-      "name": "AI Shopping / Commerce Agent",
-      "field": "Consumer AI Commerce",
-      "summary": "A personal AI agent that browses, compares, and completes purchases across e-commerce sites on the user's behalf, acting as a shoppable assistant rather than a chatbot.",
-      "why_now": "Meta's Muse hit 10.9M downloads in 40 days (10.2M US), reached 2.5M DAU, and Meta disclosed that over a quarter of engaged users who shop through the agent have an average purchase size above $200. Zuckerberg said Muse will eventually earn more revenue per user than Facebook/Instagram/WhatsApp family apps, with commerce take-rate as the primary monetization.",
-      "monetization": "Commerce take-rate on agent-initiated purchases plus premium model/token tiers; Meta projects ARPU exceeding its social apps (currently several hundred dollars annually per user).",
+      "name": "Verified Revenue Micro-Acquisition Marketplace",
+      "field": "Startup data / micro-acquisitions",
+      "summary": "A free public database where founders opt in to verify monthly revenue from payment processors, publish anonymized business metrics, and receive acquisition offers through a simple escrow-backed flow.",
+      "why_now": "TrustMRR reports 200K monthly visitors; its founder says it made just over $300K revenue plus ~$30K acquisition fees, acquired 154 founders, and sold ad spots from $299 to $1,499/month. Indie Hackers reports a rejected $2.5M offer, 214 acquisitions, ~$2.22M volume, a 3% closing fee, and a 23-day average time to acquisition.",
+      "monetization": "3% closing fee plus escrow pass-through, promoted listings, founder-tool ads, premium analytics, and optional buyer/investor leads.",
       "evidence": [
-        "https://techcrunch.com/2026/10/20/metas-muse-hits-10m-u-s-downloads-in-40-days-a-milestone-reached-by-only-11-other-apps/",
-        "https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity/",
-        "https://www.forbes.com/sites/maryroeloffs/2026/09/30/metas-muse-ai-assistant-hits-5-million-downloads-outpacing-growth-of-chatgpt-grok-and-claude/",
-        "https://s21.q4cdn.com/399680738/files/doc_financials/2026/q2/META-Q2-2026-Earnings-Call-Transcript.pdf"
+        "https://trustmrr.com/",
+        "https://marclou.beehiiv.com/p/i-vibe-coded-330k-in-9-months",
+        "https://www.indiehackers.com/post/tech/marc-lou-says-he-turned-down-2-5m-in-cash-for-his-revenue-database-Gd2Vs2WSq9PlQdu8TtJK"
       ],
       "how_searched": [
-        "TechCrunch launch coverage",
-        "Sensor Tower download data via press",
-        "Meta Q2 2026 earnings call transcript",
-        "Forbes early-momentum report"
+        "startup revenue databases",
+        "indie founder interviews",
+        "Indie Hackers revenue news",
+        "founder blog post"
       ],
-      "score": 83.0,
-      "found_at": "2026-10-28T21:14:37.919940+00:00"
+      "score": 84.0,
+      "found_at": "2026-11-19T03:32:43.520015+00:00"
     },
     {
       "name": "Interview Rehearsal & Live Answer Coach",
@@ -934,27 +858,6 @@
       ],
       "score": 83.0,
       "found_at": "2026-11-17T04:13:43.396129+00:00"
-    },
-    {
-      "name": "Marketplace Reseller Automation Agent",
-      "field": "E-commerce / Reselling Tools",
-      "summary": "An AI agent for professional Vinted/Shopify resellers that writes listings, auto-relists and price-drops, messages favoriters, negotiates with buyers 24/7 above a seller-set floor, retrieves shipping labels, and syncs multi-platform inventory.",
-      "why_now": "ControlResell grew from ~$3k to $21.6k MRR in 10 months (Stripe-verified via TrustMRR, Oct 28 2026) with 450 active subscriptions and 1,177 connected accounts; the platform claims 3.5M€ in user-generated revenue and 5M automated messages. Secondhand reselling is a durable, labor-heavy niche with clear willingness to pay for time savings.",
-      "monetization": "Tiered subscriptions at €29.99/mo (Growth), €59.99/mo (Business, includes AI negotiation and buyer replies), €119.99/mo (Enterprise, unlimited volume); avg revenue per sub ~$48.",
-      "evidence": [
-        "https://controlresell.com/en",
-        "https://trustmrr.com/startup/controlresell",
-        "https://agentmoneylist.com/e/controlresell/",
-        "https://imademoneywithai.com/fastest-growing-ai-startups/"
-      ],
-      "how_searched": [
-        "Stripe-verified revenue tracker (TrustMRR)",
-        "Product website and pricing pages",
-        "Playbook teardown sites",
-        "Fastest-growing AI startups leaderboard"
-      ],
-      "score": 82.0,
-      "found_at": "2026-10-28T21:14:39.770016+00:00"
     },
     {
       "name": "AI Job Search & Resume-Job Fit Agent",
@@ -1142,28 +1045,6 @@
       "found_at": "2026-11-18T14:05:03.075155+00:00"
     },
     {
-      "name": "Anti-AI-Slop Design Linter & Skill for Coding Agents",
-      "field": "Developer Tools / Agent Skills",
-      "summary": "An installable design skill and browser-based linter that forces Claude Code, Cursor, and Codex to stop shipping generic 'AI-looking' landing pages, scoring output against dozens of deterministic anti-pattern rules.",
-      "why_now": "Hallmark (Nutlope/Together AI) surged past 37k GitHub stars gaining 2,200+ per day in late October 2026; Impeccable reached 89k stars with 62 deterministic rules and 24 design commands. Both launched in 2026 and ride the massive wave of agent-generated code that needs a quality floor.",
-      "monetization": "Open-core: free MIT/Apache skill plus paid hosted redesign/audit service and custom theme generation; Together AI uses Hallmark as a distribution funnel for its inference platform.",
-      "evidence": [
-        "https://github.com/nutlope/hallmark/",
-        "https://impeccable.style/",
-        "https://theterminal.space/software/hallmark-impeccable-anti-ai-design-skills",
-        "https://andrew.ooo/posts/hallmark-nutlope-anti-ai-slop-design-skill-review/",
-        "https://reporadar.spreix.com/reports/daily/2026-10-27"
-      ],
-      "how_searched": [
-        "GitHub repository star counts and trending",
-        "GitHub trending daily report",
-        "Independent review and comparison articles",
-        "Product sites"
-      ],
-      "score": 81.0,
-      "found_at": "2026-10-28T21:14:43.074261+00:00"
-    },
-    {
       "name": "AI subscription / token spend tracker",
       "field": "Developer & team productivity",
       "summary": "A dashboard that aggregates and monitors AI spend across ChatGPT, Claude, Gemini, Copilot, Cursor, etc., surfacing per-seat usage, plan limits, and cost overruns. Products like ToolSpend and multiaicost already exist; a Chrome extension 'Claude Usage Tracker & Monitor' is trending (3K+ users, +43 ratings in 30 days).",
@@ -1181,27 +1062,6 @@
       ],
       "score": 81.0,
       "found_at": "2026-11-15T21:52:36.509077+00:00"
-    },
-    {
-      "name": "Social-Listening Lead Generator",
-      "field": "B2B Sales / Lead Gen",
-      "summary": "A SaaS that continuously monitors social media engagement signals (who likes, comments, and shares content in a target market) and auto-builds warm B2B lead lists that feed directly into outbound sequences.",
-      "why_now": "traxy.ai hit $51.8k MRR (Stripe-verified, 238 subs) within 9 months of a January 2026 launch, crossed $500K ARR in 5 months per the founder, and charges $149/mo with high self-serve upgrade rates. The founder reports a user with $410k MRR upgrading within 3 hours of signup.",
-      "monetization": "Pro subscription at $149/mo; Enterprise custom; avg revenue per sub ~$217; all-time revenue $151k as of Oct 28 2026.",
-      "evidence": [
-        "https://trustmrr.com/startup/traxy-ai",
-        "https://www.linkedin.com/posts/ben-buaron_5-months-after-launching-traxy-hit-500k-activity-7512881822981079040-qUHu",
-        "https://imademoneywithai.com/case-studies/traxy-ai/",
-        "https://agentmoneyboard.com/e/traxy-ai/"
-      ],
-      "how_searched": [
-        "Stripe-verified revenue tracker",
-        "LinkedIn founder milestone posts",
-        "AI revenue case-study databases",
-        "Agent money board aggregators"
-      ],
-      "score": 80.0,
-      "found_at": "2026-10-28T21:14:44.669456+00:00"
     },
     {
       "name": "Dupe Finder — paste a product link or photo, get the identical cheaper listing",
@@ -1411,29 +1271,6 @@
       "found_at": "2026-11-18T04:23:38.086089+00:00"
     },
     {
-      "name": "Agent-Callable Social Media Scheduler (MCP/CLI)",
-      "field": "Social Media / Agent Infrastructure",
-      "summary": "An open-source, agentic social media scheduler that AI agents (Claude, Codex, OpenClaw, Cursor) can call via MCP endpoint and CLI to plan, generate, and publish posts across 30+ networks, with a paid managed cloud on top.",
-      "why_now": "Postiz grew from ~$21k to $324k MRR in 2026 (Stripe-verified, +45% MoM to Oct 24) after pivoting to agent-native interfaces in February; the founder reports the OpenClaw integration alone tripled MRR from $21k to $70k in two months. 37k+ GitHub stars and 8,900+ paying subscribers validate the open-core distribution model.",
-      "monetization": "Open-core: free self-hosted (AGPL) plus Cloud subscriptions at $29-$99/mo; 8,900-9,500 active subs at ~$34 avg; cumulative revenue $1.5M+.",
-      "evidence": [
-        "https://www.indiehackers.com/post/tech/growing-an-open-source-product-to-1-3m-arr-in-two-years-hbMiXIoZsueV9D3L58DP",
-        "https://webtribunal.net/postiz-growth/",
-        "https://signals.tw/articles/postiz-agent-cli-as-distribution/",
-        "https://doesithaveamoat.com/postiz",
-        "https://imademoneywithai.com/fastest-growing-ai-startups/"
-      ],
-      "how_searched": [
-        "Indie Hackers founder interview",
-        "Stripe-verified revenue trackers",
-        "Open-source growth analyses",
-        "Moat analysis sites",
-        "Fastest-growing AI startups leaderboard"
-      ],
-      "score": 79.0,
-      "found_at": "2026-10-28T21:14:50.626184+00:00"
-    },
-    {
       "name": "AI Professional Headshot Studio",
       "field": "Consumer AI / photography",
       "summary": "A free web studio that turns a few selfies into professional headshots, with paid high-resolution packs, attire and background presets, and team-branded options.",
@@ -1532,27 +1369,6 @@
       ],
       "score": 78.0,
       "found_at": "2026-11-16T02:25:39.300599+00:00"
-    },
-    {
-      "name": "AI Speaking Tutor (Voice Conversation Practice)",
-      "field": "Language Learning",
-      "summary": "A voice-first language tutor app where learners hold a button, speak in the target language, and an AI tutor responds conversationally, corrects grammar, and scores the session—filling the speaking-practice gap left by flashcard-first apps.",
-      "why_now": "Verbi reached $22k MRR and 4,784 active subscriptions within 6 months of an April 2026 launch (RevenueCat-verified via TrustMRR), with $263k all-time revenue; revenue jumped from $685 in April to $128k in September alone. Duolingo's $1B+ revenue proves the category, but speaking practice remains underserved.",
-      "monetization": "Freemium mobile subscription (weekly ~$7.99, yearly ~$47.99-59.99); avg MRR per sub ~$4.63; 55% reported profit margin; growth via TikTok/Instagram UGC at zero initial ad spend.",
-      "evidence": [
-        "https://trustmrr.com/startup/verbi",
-        "https://imademoneywithai.com/case-studies/verbi/",
-        "https://aiolum.com/story/verbi/",
-        "https://www.whatsthe.app/verbi"
-      ],
-      "how_searched": [
-        "RevenueCat-verified revenue tracker",
-        "AI revenue case studies",
-        "Detailed founder revenue breakdowns",
-        "App analytics aggregators"
-      ],
-      "score": 78.0,
-      "found_at": "2026-10-28T21:14:52.958727+00:00"
     },
     {
       "name": "Dedica",
@@ -2195,6 +2011,26 @@
       "found_at": "2026-11-16T02:25:43.534390+00:00"
     },
     {
+      "name": "Browser-Game Discovery and Pay-Per-Play Directory",
+      "field": "Gaming / creator marketplace",
+      "summary": "A free directory that crawls and ranks no-download browser games, publishes daily drops, gives creators analytics pages, and sells guaranteed-play promotion packages with refunds for undelivered plays.",
+      "why_now": "Foundplay lists 3,386 games, 8,243 players this week, $15 for 30 plays and $59 for 150 plays, and claims 152,500+ visitors in 24 hours. 1dea reports Foundplay reached 200K plays, 2,659 games, and $755 from 38 sales in 3 weeks. Zivvi shows gaming micro-session demand with Qureka +410%, Maxroll +194%, and PurposeGames +120%.",
+      "monetization": "Paid guaranteed plays, featured collections, creator analytics subscriptions, sponsored daily drops, and display ads on non-game pages.",
+      "evidence": [
+        "https://foundplay.io/",
+        "https://1dea.io/traction/monthly/2026-11",
+        "https://zivvi.app/blog/fastest-growing-web-apps-november-2026"
+      ],
+      "how_searched": [
+        "browser game directory research",
+        "indie product revenue roundup",
+        "web traffic trend report",
+        "creator marketplace search"
+      ],
+      "score": 74.0,
+      "found_at": "2026-11-19T03:32:44.084091+00:00"
+    },
+    {
       "name": "Shopify SEO and page-speed audit",
       "field": "Shopify SEO",
       "summary": "Audit meta tags, alt text, structured data, broken links, image weight, and AI-search visibility, then generate fixes. Rebuild as a free store scanner with paid auto-fixes and monitoring.",
@@ -2513,6 +2349,26 @@
       "found_at": "2026-11-17T22:28:31.042476+00:00"
     },
     {
+      "name": "Daily Filmography Puzzle Network",
+      "field": "Consumer web games / daily puzzles",
+      "summary": "A free daily web puzzle where players identify an actor from filmography clues, with streaks, leaderboards, share cards, expert modes, and sister puzzle formats.",
+      "why_now": "1dea reports actorle at ~$4K/month with 144K–201K monthly visits, ~7K daily users on the main game, and ~$6 CPM. Actorle.com is live with multiple sister sites and advertising. Zivvi shows live quiz and casual-game demand with Qureka +410% and PurposeGames +120%.",
+      "monetization": "Display ads, optional ad-free subscription, sponsored clue days, streaming affiliate links, and merch or gift subscriptions.",
+      "evidence": [
+        "https://1dea.io/traction/monthly/2026-11",
+        "https://actorle.com/",
+        "https://zivvi.app/blog/fastest-growing-web-apps-november-2026"
+      ],
+      "how_searched": [
+        "monthly micro-SaaS revenue roundup",
+        "live game site inspection",
+        "web traffic climbers",
+        "daily puzzle competitor search"
+      ],
+      "score": 72.0,
+      "found_at": "2026-11-19T03:32:44.320522+00:00"
+    },
+    {
       "name": "AI screenwriting and storyboard workspace (Laper pattern)",
       "field": "AI screenwriting",
       "summary": "A script-first workspace for formatting, structure visualization, collaboration, and storyboard/production entities. Rebuild as a free web screenplay editor with paid AI notes, production breakdowns, and collaboration.",
@@ -2794,6 +2650,26 @@
       "found_at": "2026-11-18T04:23:48.528871+00:00"
     },
     {
+      "name": "Timed Letters and Group Memory Jars",
+      "field": "Consumer gifting / sentimental web tools",
+      "summary": "A free no-signup site for writing sealed letters that unlock by date or guardian question, plus note jars and group jars for birthdays, long-distance relationships, graduations, and farewells.",
+      "why_now": "OpenWhen reports 56,670 letters sealed by 33,686 senders and 73% opened as of November 3, 2026; its product reference lists one-time pricing from $0.99 to $12.99. 1dea reports revenue growing from $17 in February to $280 in August, $355 in September, and $436 in October.",
+      "monetization": "One-time premium messages, stickers, jar sealing, occasion add-ons, gift-card partnerships, and paid creator template packs.",
+      "evidence": [
+        "https://www.openwhen.cards/about",
+        "https://www.openwhen.cards/ai-docs",
+        "https://1dea.io/traction/monthly/2026-11"
+      ],
+      "how_searched": [
+        "consumer web revenue roundup",
+        "product reference inspection",
+        "founder metrics page",
+        "gifting utility search"
+      ],
+      "score": 70.0,
+      "found_at": "2026-11-19T03:32:44.546399+00:00"
+    },
+    {
       "name": "General resale-value scanner",
       "field": "resale valuation",
       "summary": "Scan household items, collectibles, tools, and electronics to identify them, estimate resale value from comps, and generate marketplace listings. Rebuild as a free web scanner with paid deep scans, portfolio tracking, and listing exports.",
@@ -2975,6 +2851,26 @@
       ],
       "score": 68.0,
       "found_at": "2026-11-18T14:05:07.648055+00:00"
+    },
+    {
+      "name": "Indie App Testing and Feedback Exchange",
+      "field": "Developer tools / user research",
+      "summary": "A credit-based web exchange where makers test each other's apps, leave structured written reports, publish app archives, and aggregate feedback themes by platform and app type.",
+      "why_now": "IndieAppCircle reports 6,532 tests started, 1,417 in the last 30 days, and a research dataset of 3,177 written reports on 691 apps. 1dea reports $2K total revenue, ~$167/month, 4,488 users, 5,280 tests, and 1,387 apps.",
+      "monetization": "Paid credit packs, featured app placements, verified testimonial packages, team plans for closed-testing coordination, and downloadable market reports.",
+      "evidence": [
+        "https://www.indieappcircle.com/stats",
+        "https://www.indieappcircle.com/state-of-indie-app-feedback",
+        "https://1dea.io/traction/monthly/2026-11"
+      ],
+      "how_searched": [
+        "indie developer community research",
+        "public statistics page",
+        "feedback dataset inspection",
+        "micro-SaaS revenue roundup"
+      ],
+      "score": 68.0,
+      "found_at": "2026-11-19T03:32:44.719066+00:00"
     },
     {
       "name": "Marketplace of skill packs and style kits for AI coding agents",
@@ -3318,6 +3214,26 @@
       ],
       "score": 62.0,
       "found_at": "2026-11-18T14:05:08.723686+00:00"
+    },
+    {
+      "name": "Screen-Share and Screenshot Redaction Layer",
+      "field": "Privacy / remote work",
+      "summary": "A free browser-based privacy layer that auto-detects emails, phone numbers, cards, API keys and custom terms, supports click/draw blur, and creates clean screenshots locally without uploads.",
+      "why_now": "Smart Blur's Chrome Web Store listing shows 383 users, 4.9 from 15 ratings, and an update on November 17, 2026. 1dea reports 1,000+ installs and 10 paying Pro users. Zivvi shows privacy/security demand rising with BrowserLeaks +120% and DefensX +133%.",
+      "monetization": "One-time lifetime or annual Pro for auto-share detection, blurred screenshots, saved page rules, local AI redaction, and team policy controls.",
+      "evidence": [
+        "https://chromewebstore.google.com/detail/smart-blur-blur-redact-sc/jocedhlmkcjjolkjkjglcnpkinoodlhf",
+        "https://1dea.io/traction/monthly/2026-11",
+        "https://zivvi.app/blog/fastest-growing-web-apps-november-2026"
+      ],
+      "how_searched": [
+        "Chrome Web Store privacy extension search",
+        "indie product revenue roundup",
+        "web traffic security trends",
+        "screen-sharing safety query"
+      ],
+      "score": 62.0,
+      "found_at": "2026-11-19T03:32:44.967859+00:00"
     },
     {
       "name": "AI spreadsheet formula & data-analysis assistant (Formula Bot model)",
@@ -4177,6 +4093,25 @@
       ],
       "score": 52.0,
       "found_at": "2026-11-14T17:16:20.274246+00:00"
+    },
+    {
+      "name": "HSA/FSA Benefits Maximizer",
+      "field": "Benefits / ecommerce utility",
+      "summary": "A free web checker that flags potentially HSA/FSA/LSA-eligible products, stores itemized receipts, exports reimbursement packets, and helps shoppers compare eligible alternatives without making medical or legal determinations.",
+      "why_now": "Caeli's Chrome Web Store listing shows 20,000 users, 5.0 from 17 ratings, and an update on November 15, 2026. ExtScope shows the same extension growing from 9K/12K to 20K users over six days and 5.0 rating; reviews mention FSA deadline panic and avoiding manual eligibility PDFs.",
+      "monetization": "Freemium receipt vault and exports, employer/benefits-admin SaaS, retailer affiliate fees, sponsored eligible-product discovery, and one-time Pro unlocks.",
+      "evidence": [
+        "https://chromewebstore.google.com/detail/caeli-shop-with-hsa-fsa-b/dekfdfadajndgnicbjaeacnahmljpmka",
+        "https://extscope.org/extension/dekfdfadajndgnicbjaeacnahmljpmka"
+      ],
+      "how_searched": [
+        "Chrome Web Store trends",
+        "extension analytics",
+        "HSA FSA shopping query",
+        "benefits deadline reviews"
+      ],
+      "score": 52.0,
+      "found_at": "2026-11-19T03:32:43.859156+00:00"
     },
     {
       "name": "SocialClaw",
@@ -5158,6 +5093,25 @@
       "found_at": "2026-11-14T17:16:24.685518+00:00"
     },
     {
+      "name": "No-Signup URL Shortener with Real Analytics",
+      "field": "Link management / lightweight analytics",
+      "summary": "A free URL shortener that supports internationalized and Punycode domains, UTM preservation, QR codes, click tracking, bot filtering, CSV exports, and no account requirement.",
+      "why_now": "Clipr.cc shows 183,200 links, 10,622,577 clicks, 31,341 active users, and 4.5 from 175 ratings. 1dea reports 180,000 short links, 10M visits, ~150 daily active users, ~15,000 redirected visits/day, but only ~$20 revenue, showing demand without strong monetization.",
+      "monetization": "Ads on non-redirect pages, paid custom domains, branded links, advanced analytics/API access, and team workspaces.",
+      "evidence": [
+        "https://clipr.cc/",
+        "https://1dea.io/traction/monthly/2026-11"
+      ],
+      "how_searched": [
+        "micro-SaaS revenue roundup",
+        "live utility site inspection",
+        "URL shortener feature comparison",
+        "link analytics query"
+      ],
+      "score": 40.7,
+      "found_at": "2026-11-19T03:32:46.390538+00:00"
+    },
+    {
       "name": "RetentionCheck (AI churn-feedback analyzer for SaaS)",
       "field": "SaaS analytics",
       "summary": "Paste cancellation feedback (text/CSV/emails); Claude returns a 0-100 Churn Health Score (A-F), ranked drivers with confidence and quotes, plus one priority action.",
@@ -5191,6 +5145,25 @@
       ],
       "score": 40.0,
       "found_at": "2026-11-15T02:13:45.321616+00:00"
+    },
+    {
+      "name": "Lightweight K-12 Assessment and Grading Workspace",
+      "field": "Education operations / teacher tools",
+      "summary": "A free web workspace for tutors and small schools to upload assignments, group responses by student or question, apply rubrics, track intervention needs, and export grade and parent-update reports.",
+      "why_now": "Zivvi's November report says education dominated growth: DMAC Solutions +389%, Illuminate Education +339%, Gradescope +320%, Zearn Math +313%, Typing.com +255%, and Quizlet +169%. 1dea reports an exam-prep SaaS with 54 subscribers, €754 MRR, €9,053 ARR, and 10% monthly churn, showing both demand and retention risk.",
+      "monetization": "Freemium teacher workspace, paid class seats, school admin plans, paid question banks, and export/report add-ons.",
+      "evidence": [
+        "https://zivvi.app/blog/fastest-growing-web-apps-november-2026",
+        "https://1dea.io/traction/monthly/2026-11"
+      ],
+      "how_searched": [
+        "monthly web traffic climbers",
+        "education category trend report",
+        "micro-SaaS revenue roundup",
+        "exam-prep subscription search"
+      ],
+      "score": 40.0,
+      "found_at": "2026-11-19T03:32:46.529365+00:00"
     },
     {
       "name": "Daily Guess-the-X Puzzle Site",
