@@ -3633,6 +3633,23 @@
       "found_at": "2026-11-17T13:40:03.511575+00:00"
     },
     {
+      "name": "Conductor",
+      "field": "Developer tools / accounting integrations (QuickBooks Desktop API)",
+      "summary": "A managed API that lets developers read and write QuickBooks Desktop and Enterprise data over REST, Python, or Node without dealing with the Web Connector or qbXML.",
+      "why_now": "QuickBooks Desktop remains widely used by SMBs and integrators, and Conductor shows current paying demand: Stripe-verified $50,145 MRR from 344 subscriptions and $46,591 in the last 30 days (synced Nov 19, 2026); the listing is also marked for sale.",
+      "monetization": "Subscription SaaS priced at $49 per company file per month (production), with Stripe-verified $50,145 MRR / 344 active subscriptions and $533,116 all-time revenue (TrustMRR, Nov 19, 2026).",
+      "evidence": [
+        "https://trustmrr.com/startup/conductor",
+        "https://www.wlad.me/blog/2026-11-07"
+      ],
+      "how_searched": [
+        "verified startup revenue databases (TrustMRR listings)",
+        "indie SaaS revenue roundups/blogs (Boring SaaS)"
+      ],
+      "score": 56.0,
+      "found_at": "2026-11-19T13:12:52.372074+00:00"
+    },
+    {
       "name": "Voice-to-text writing assistant (Letterly model)",
       "field": "Productivity / voice AI",
       "summary": "Converts spoken voice notes into polished notes, emails, posts and meeting summaries across web and mobile.",
@@ -3772,6 +3789,23 @@
       ],
       "score": 54.7,
       "found_at": "2026-11-17T13:40:04.677443+00:00"
+    },
+    {
+      "name": "GoMotion AI",
+      "field": "AI video generation for faceless YouTube channels",
+      "summary": "A web app that turns a script into a finished long-form YouTube documentary with voiceover, matched footage, captions, motion graphics, and music.",
+      "why_now": "Demand for automated long-form/faceless channel production is surging: TrustMRR-verified monthly revenue rose from $18,400 (Aug 2026) to $87,600 (Oct 2026), reaching $74,500 MRR from 1,600 subscriptions as of Nov 19, 2026.",
+      "monetization": "Credit-based monthly subscriptions (Creator $27/mo, Studio $59/mo, Agency $110/mo) with $74,500 MRR, $97,300 in the last 30 days, and $210,000 all-time revenue (TrustMRR-verified via The AI Receipts, Nov 19, 2026).",
+      "evidence": [
+        "https://theaireceipts.com/case-studies/gomotion-ai/",
+        "https://theaireceipts.com/ai-saas-ideas/"
+      ],
+      "how_searched": [
+        "verified AI revenue case-study databases (The AI Receipts)",
+        "ranked verified AI SaaS revenue lists (The AI Receipts)"
+      ],
+      "score": 54.7,
+      "found_at": "2026-11-19T13:12:52.706072+00:00"
     },
     {
       "name": "Multiplayer browser edu-game: parkour courses gated by times-tables quizzes",
@@ -4774,6 +4808,23 @@
       "found_at": "2026-11-15T21:52:39.590252+00:00"
     },
     {
+      "name": "QR Code AI",
+      "field": "Marketing utilities / AI QR code generator and analytics",
+      "summary": "A web tool for creating branded or artistic AI-generated QR codes with scan tracking and analytics.",
+      "why_now": "Simple utility-to-subscription conversion is working now: $14,300 MRR from 1,500 subscriptions with $341,000 all-time revenue, driven primarily by SEO (TrustMRR-verified, Nov 19, 2026).",
+      "monetization": "Subscription SaaS with free-to-paid funnel and analytics upsell; $14,300 MRR, $15,800 in the last 30 days, 1,500 active subscriptions (TrustMRR-verified via The AI Receipts, Nov 19, 2026).",
+      "evidence": [
+        "https://theaireceipts.com/case-studies/qr-code-ai/",
+        "https://theaireceipts.com/ai-saas-ideas/"
+      ],
+      "how_searched": [
+        "verified AI revenue case-study databases (The AI Receipts)",
+        "ranked verified AI SaaS revenue lists (The AI Receipts)"
+      ],
+      "score": 46.7,
+      "found_at": "2026-11-19T13:12:53.027918+00:00"
+    },
+    {
       "name": "StoreRank",
       "field": "App Store optimization / ASO",
       "summary": "A web ASO workbench that audits listings by country, finds keywords, rewrites metadata in many languages, generates screenshots, tracks ranks and exports or uploads changes.",
@@ -4951,6 +5002,23 @@
       "found_at": "2026-11-15T21:52:40.789952+00:00"
     },
     {
+      "name": "Tether Mobile",
+      "field": "Telecom SaaS / SMS forwarding for travelers and expats",
+      "summary": "A service that provides phone numbers in select countries and forwards incoming SMS messages to email or messaging apps, useful for 2FA and ongoing message access abroad.",
+      "why_now": "Recent growth shows rising demand from travelers, expats, and digital nomads: $3,000 in 30-day revenue with 1,115% growth in the week of Nov 16, 2026, and $2,945 MRR from 150 active subscriptions on the live Stripe-verified listing.",
+      "monetization": "Recurring subscriptions (from $10/month per number in Canada or $15/month in US/UK/Netherlands); $2,945 MRR from 150 subscriptions and $4,196 all-time revenue (TrustMRR, Nov 19, 2026).",
+      "evidence": [
+        "https://trustmrr.com/startup/tether-mobile",
+        "https://trustmrr.com/newsletter/this-ai-photo-service-grew-1-736-to-13-8k"
+      ],
+      "how_searched": [
+        "verified startup revenue databases (TrustMRR listings)",
+        "startup revenue/growth newsletters (TrustMRR newsletter)"
+      ],
+      "score": 44.0,
+      "found_at": "2026-11-19T13:12:53.668782+00:00"
+    },
+    {
       "name": "LLM Gateway",
       "field": "LLM API gateway / developer tools",
       "summary": "Open-source OpenAI-compatible gateway routing requests across 40+ providers and 200+ models with cost tracking, caching, failover and embeddable payments.",
@@ -5021,6 +5089,23 @@
       "found_at": "2026-11-15T21:52:41.136143+00:00"
     },
     {
+      "name": "Unrestricted.sh",
+      "field": "Developer infrastructure / uncensored LLM API for security and coding",
+      "summary": "An OpenAI-compatible API offering access to capable open-weight models for security research, red-teaming, and coding workflows, positioned around fewer refusals and zero prompt retention.",
+      "why_now": "Fast recent traction indicates demand from developers and security researchers: $8,175 in 30-day revenue with 717% growth reported Nov 16, 2026, and $4,041 MRR from 131 subscriptions on the live Stripe-verified listing.",
+      "monetization": "API/SaaS subscriptions and usage; $4,041 MRR from 131 active subscriptions and $9,176 all-time revenue (TrustMRR, Nov 19, 2026).",
+      "evidence": [
+        "https://trustmrr.com/startup/unrestricted",
+        "https://trustmrr.com/newsletter/this-ai-photo-service-grew-1-736-to-13-8k"
+      ],
+      "how_searched": [
+        "verified startup revenue databases (TrustMRR listings)",
+        "startup revenue/growth newsletters (TrustMRR newsletter)"
+      ],
+      "score": 42.7,
+      "found_at": "2026-11-19T13:12:54.188266+00:00"
+    },
+    {
       "name": "Email tracking-pixel blocker & privacy scanner",
       "field": "Privacy utilities",
       "summary": "A free web/extension tool that detects hidden 1x1 tracking pixels in incoming mail, flags who is tracking you and blocks the beacons locally.",
@@ -5037,6 +5122,23 @@
       ],
       "score": 42.0,
       "found_at": "2026-11-18T04:23:52.547914+00:00"
+    },
+    {
+      "name": "Glowy",
+      "field": "AI image generation for creators, influencers, and personal branding",
+      "summary": "A web-based AI photo service that generates hyperrealistic images from user photos and reference styles for social media, dating profiles, and creator content.",
+      "why_now": "Very recent breakout growth: $13,843 in 30-day revenue with 1,736% growth reported Nov 16, 2026, and $14,674 all-time revenue since an August 2026 launch on the Stripe-verified listing.",
+      "monetization": "Credit-based/pay-per-use pricing; $13,843 in 30-day revenue (TrustMRR newsletter, Nov 16, 2026) and $14,674 all-time revenue (TrustMRR listing, Nov 19, 2026). MRR: null.",
+      "evidence": [
+        "https://trustmrr.com/startup/glowy",
+        "https://trustmrr.com/newsletter/this-ai-photo-service-grew-1-736-to-13-8k"
+      ],
+      "how_searched": [
+        "verified startup revenue databases (TrustMRR listings)",
+        "startup revenue/growth newsletters (TrustMRR newsletter)"
+      ],
+      "score": 42.0,
+      "found_at": "2026-11-19T13:12:54.716176+00:00"
     },
     {
       "name": "Kupkaike (Etsy niche scanner + digital product generator)",
@@ -5112,6 +5214,23 @@
       "found_at": "2026-11-19T03:32:46.390538+00:00"
     },
     {
+      "name": "MagicSlides",
+      "field": "AI productivity / presentation generation",
+      "summary": "A web app that generates slide decks from prompts, documents, URLs, or YouTube videos for students, professionals, and teams.",
+      "why_now": "Established paying demand despite a crowded category: $9,600 MRR from 740 subscriptions and $733,000 all-time revenue (TrustMRR-verified, Nov 19, 2026), with the business listed for sale at a $700,000 asking price.",
+      "monetization": "Freemium subscription plans (Essential $8/mo, Pro $16/mo, Premium $29/mo per case study) generating $9,600 MRR and $8,300 in the last 30 days (TrustMRR-verified via The AI Receipts, Nov 19, 2026).",
+      "evidence": [
+        "https://theaireceipts.com/case-studies/magicslides/",
+        "https://theaireceipts.com/ai-saas-ideas/"
+      ],
+      "how_searched": [
+        "verified AI revenue case-study databases (The AI Receipts)",
+        "ranked verified AI SaaS revenue lists (The AI Receipts)"
+      ],
+      "score": 40.7,
+      "found_at": "2026-11-19T13:12:55.025305+00:00"
+    },
+    {
       "name": "RetentionCheck (AI churn-feedback analyzer for SaaS)",
       "field": "SaaS analytics",
       "summary": "Paste cancellation feedback (text/CSV/emails); Claude returns a 0-100 Churn Health Score (A-F), ranked drivers with confidence and quotes, plus one priority action.",
@@ -5164,6 +5283,23 @@
       ],
       "score": 40.0,
       "found_at": "2026-11-19T03:32:46.529365+00:00"
+    },
+    {
+      "name": "Visualizee.ai",
+      "field": "AI design tools for architecture and interior visualization",
+      "summary": "A web tool that converts sketches, floor plans, or clay models into photorealistic renders for architects and designers without traditional 3D rendering workflows.",
+      "why_now": "Current verified revenue shows ongoing willingness to pay in a professional niche: $7,700 MRR from 280 subscriptions and $99,200 all-time revenue as of Nov 19, 2026.",
+      "monetization": "Tiered subscriptions including a free watermarked tier and paid plans ($15/$35/$80 per month per case study); $7,700 MRR and $7,800 in the last 30 days (TrustMRR-verified via The AI Receipts, Nov 19, 2026).",
+      "evidence": [
+        "https://theaireceipts.com/case-studies/visualizee/",
+        "https://theaireceipts.com/ai-saas-ideas/"
+      ],
+      "how_searched": [
+        "verified AI revenue case-study databases (The AI Receipts)",
+        "ranked verified AI SaaS revenue lists (The AI Receipts)"
+      ],
+      "score": 40.0,
+      "found_at": "2026-11-19T13:12:55.359962+00:00"
     },
     {
       "name": "Daily Guess-the-X Puzzle Site",
