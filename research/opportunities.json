@@ -1064,27 +1064,6 @@
       "found_at": "2026-11-15T21:52:36.509077+00:00"
     },
     {
-      "name": "Dupe Finder — paste a product link or photo, get the identical cheaper listing",
-      "field": "Consumer shopping / price comparison",
-      "summary": "A free web tool that takes any product URL or screenshot and returns the same item sold cheaper elsewhere, with a 0-100 match score and price history, aimed at shoppers hunting 'dupes'.",
-      "why_now": "TikTok's own search counts for the week to 30 Sep 2026 show 1,490,773 dupe searches with 10 of 11 dupe queries returning zero competing videos ('l19 dupe' 313,543 searches / 0 videos; 'the row dupe' +16,642% to 200,739) — demand with an empty content shelf; the '#dupe' hashtag is cited at 6-7B TikTok views, and a wave of paid dupe apps (Dupely, Stealsy, Glossy, BeautyFlow, Shoppy, StyleLens) has shipped in 2026 while no dominant free web version exists.",
-      "monetization": "Freemium subscriptions: Stealsy locks unlimited scans behind Pro (free tier = 5 catches/2 watched prices), StyleLens runs $4.99-15.99/month, Dupely and Glossy sell iOS/Android subscriptions. Exact market revenue: null.",
-      "evidence": [
-        "https://tokconnect.com/trends/products/october-2026/",
-        "https://www.vust.ai/dupe-finder",
-        "https://www.dupely.io/",
-        "https://www.stealsy.app/about",
-        "https://stylelensai.com/"
-      ],
-      "how_searched": [
-        "search-trend tool (TikTok search-volume tracker)",
-        "product/app pages on launch and app directories",
-        "competitor pricing pages"
-      ],
-      "score": 80.0,
-      "found_at": "2026-10-29T20:34:53.640521+00:00"
-    },
-    {
       "name": "Live AI translation for church services: QR-code captions and audio on attendees' phones",
       "field": "Faith tech / live interpretation",
       "summary": "A web tool that takes a church's existing soundboard feed and streams real-time translated captions/audio to attendees' phones via QR code — no headsets, booths or volunteer interpreters. Glossa, Wordly, Sunflower AI and LiveVoice all monetize this exact pattern.",
@@ -1369,25 +1348,6 @@
       ],
       "score": 78.0,
       "found_at": "2026-11-16T02:25:39.300599+00:00"
-    },
-    {
-      "name": "Dedica",
-      "field": "AI agent readiness audits",
-      "summary": "Audits whether AI agents can discover, read, navigate, sign up for, and pay on a website, then sells a fix kit written for coding agents.",
-      "why_now": "Cloudflare Radar's April 2026 scan of 200,000 domains found only 4% declaring content signals, 3.9% supporting markdown negotiation, and fewer than 15 sites with MCP Server Cards or API Catalogs; Dedica reports 115,752 sites scanned and shows a Product Hunt daily badge.",
-      "monetization": "Free score; $30 launch price or $50 regular one-time fix kit per domain, with no subscription.",
-      "evidence": [
-        "https://getdedica.com/",
-        "https://blog.cloudflare.com/agent-readiness",
-        "https://getdedica.com/pricing"
-      ],
-      "how_searched": [
-        "Cloudflare Agent Readiness launch",
-        "Dedica homepage and pricing",
-        "Product Hunt badge on Dedica"
-      ],
-      "score": 78.0,
-      "found_at": "2026-10-29T14:24:57.620704+00:00"
     },
     {
       "name": "Single-sport video technique coach (Brawler pattern)",
@@ -2029,6 +1989,24 @@
       ],
       "score": 74.0,
       "found_at": "2026-11-19T03:32:44.084091+00:00"
+    },
+    {
+      "name": "Browser DTF gang-sheet designer",
+      "field": "Print-on-demand / Shopify tools",
+      "summary": "Build a free web-based gang-sheet builder with drag-and-drop artwork placement, auto-nesting, cut lines, 300 DPI preview, PNG/PDF export and shop embeddable product widgets.",
+      "why_now": "Shopify's Build a Gang Sheet app has 4.4 stars from 45 ratings and charges 5% per fulfilled gang sheet up to $12 per order; Gang Sheet PRO has 4.5 stars from 8 reviews with recent 2026 reviews praising 300 DPI files, auto-nesting, AI background removal and mobile usability; Kixxl's 2026 comparison shows multiple competing fee models.",
+      "monetization": "Free core designer, per-order transaction fee, flat monthly shop plans, white-label embeds and paid AI layout/background-removal credits.",
+      "evidence": [
+        "https://apps.shopify.com/build-a-gang-sheet",
+        "https://apps.shopify.com/gang-sheet-pro/reviews",
+        "https://kixxl.com/best-gang-sheet-builders-2026-a-detailed-comparison/"
+      ],
+      "how_searched": [
+        "websearch: Shopify gang sheet builder reviews pricing 2026",
+        "webfetch: Shopify app listing, Gang Sheet PRO reviews and 2026 comparison article"
+      ],
+      "score": 74.0,
+      "found_at": "2026-11-19T21:41:40.252211+00:00"
     },
     {
       "name": "Shopify SEO and page-speed audit",
@@ -3236,6 +3214,24 @@
       "found_at": "2026-11-19T03:32:44.967859+00:00"
     },
     {
+      "name": "Paid waiting-screen browser extension",
+      "field": "Browser extensions / ad monetization",
+      "summary": "Build a browser extension that shows an optional sponsored line while AI sites generate responses, shares revenue with users and pays out through a third-party payout platform.",
+      "why_now": "Chatwait's Chrome Web Store listing shows 70K users, 946 ratings and a 3.5 rating; its site says users receive 50% of ad revenue via Whop, is open source and asks only four host permissions; StoreTally listed it at #1,358 among Productivity extensions.",
+      "monetization": "50% revenue share from sponsors, payouts via Whop with a $10 minimum, premium placements and optional merchant subscriptions.",
+      "evidence": [
+        "https://chatwait.com/",
+        "https://chromewebstore.google.com/detail/chatwait-get-paid-while-a/fjbgbmkdallahjigblomfalbpblojfng",
+        "https://storetally.com/chrome/fjbgbmkdallahjigblomfalbpblojfng/chatwait-get-paid-while-a"
+      ],
+      "how_searched": [
+        "websearch: Chrome extension get paid while ChatGPT thinks revenue share",
+        "webfetch: official site, Chrome Web Store listing and StoreTally analytics"
+      ],
+      "score": 62.0,
+      "found_at": "2026-11-19T21:41:43.990103+00:00"
+    },
+    {
       "name": "AI spreadsheet formula & data-analysis assistant (Formula Bot model)",
       "field": "Productivity / Spreadsheet AI",
       "summary": "Web tool that turns plain-English requests into Excel/Google Sheets formulas and broader spreadsheet analysis.",
@@ -3684,6 +3680,24 @@
       "found_at": "2026-11-12T03:08:10.382500+00:00"
     },
     {
+      "name": "SMS waitlist and queue manager",
+      "field": "Local business operations / SaaS",
+      "summary": "Build a browser-based waitlist tool for restaurants, salons, barbers, retail and events with guest links, SMS alerts, kiosk mode, floor planning, reservations and analytics.",
+      "why_now": "Exploding Topics shows Waitlist Me search volume rising from 108 to 1,300 monthly searches between October 2024 and September 2026, a 1,100% increase; its Google Play listing shows 50K+ downloads, a 3.5 rating and features including text alerts, kiosk mode, public waitlist pages, floorplans and analytics.",
+      "monetization": "Subscription plans from $27.99/mo, annual discounts, location add-ons, SMS credits and premium analytics.",
+      "evidence": [
+        "https://explodingtopics.com/business-topics",
+        "https://www.waitlist.me/",
+        "https://play.google.com/store/apps/details?hl=en_US&id=com.nosh.list.NoshList"
+      ],
+      "how_searched": [
+        "websearch: exploding business topics waitlist management SMS app",
+        "webfetch: Exploding Topics business page, official site and Google Play listing"
+      ],
+      "score": 55.0,
+      "found_at": "2026-11-19T21:41:46.710863+00:00"
+    },
+    {
       "rank": 3,
       "name": "GeoSports",
       "category": "Daily sports-geography game",
@@ -3806,6 +3820,23 @@
       ],
       "score": 54.7,
       "found_at": "2026-11-19T13:12:52.706072+00:00"
+    },
+    {
+      "name": "Phone, email and IP validation API with a free checker",
+      "field": "Developer tools / data validation",
+      "summary": "Build a free single-field checker plus bulk CSV upload and a paid API that unifies phone validation, email verification, IP intelligence, spam checks, enrichment and CRM integrations behind one credit balance.",
+      "why_now": "1Lookup shows $550,266 in 30-day revenue, $256,260 MRR, 721 active subscriptions and $6,015,963 all-time revenue verified by Stripe; 76 data products and REST/MCP/HubSpot/Salesforce support show demand beyond a simple validator.",
+      "monetization": "Paid API credits and subscriptions: $99/mo for 20,000 credits, $299/mo for 85,000, $799/mo for 250,000 and $1,999/mo for 1,000,000, with a 7-day trial and rollover credits.",
+      "evidence": [
+        "https://trustmrr.com/startup/1lookup",
+        "https://www.1lookup.io/pricing"
+      ],
+      "how_searched": [
+        "websearch: verified revenue directories for phone, email and IP validation APIs",
+        "webfetch: TrustMRR profile and official pricing page"
+      ],
+      "score": 54.7,
+      "found_at": "2026-11-19T21:41:38.572640+00:00"
     },
     {
       "name": "Multiplayer browser edu-game: parkour courses gated by times-tables quizzes",
@@ -4058,6 +4089,23 @@
       "found_at": "2026-11-17T13:40:06.461492+00:00"
     },
     {
+      "name": "Link-native event pages with built-in ticket payments",
+      "field": "Events / social planning",
+      "summary": "Build a free themed RSVP page and share-by-link event planner, then add paid host tools for tiered tickets, capacity limits, QR check-in, guest messaging and lightweight add-ons.",
+      "why_now": "Airbridge estimated Partiful at $542K/mo revenue and 600K monthly downloads as of October 2026, up 78.9% and 50% versus the prior period, with 270.9K 5-star ratings; WIRED reported in June 2026 that Partiful began taking in-app ticket payments and a cut of sales.",
+      "monetization": "Ticket-platform cut, Partiful Plus at $4.99/mo, add-ons at $1.99-$9.90, and optional host upgrades for pages, analytics and guest communication.",
+      "evidence": [
+        "https://www.airbridge.io/en/app-revenue/partiful",
+        "https://www.wired.com/story/partiful-is-putting-ticket-payments-on-its-platform/"
+      ],
+      "how_searched": [
+        "websearch: fast-growing event invitation apps monetizing tickets",
+        "webfetch: Airbridge revenue teardown and WIRED monetization report"
+      ],
+      "score": 52.7,
+      "found_at": "2026-11-19T21:41:39.055107+00:00"
+    },
+    {
       "name": "AI multi-model creative studio",
       "field": "AI creative tools (image/video/audio)",
       "summary": "Web workspace aggregating 40-100+ leading AI image, video and audio models in one subscription with UGC ads, AI influencers, workflow canvas and MCP integration (PromptWise, Kolbo.AI, CreativeClaw).",
@@ -4272,6 +4320,23 @@
       ],
       "score": 50.7,
       "found_at": "2026-11-14T10:41:16.215144+00:00"
+    },
+    {
+      "name": "Self-serve UGC creator marketplace",
+      "field": "Creator marketing / marketplace",
+      "summary": "Create a structured marketplace where brands post fixed-cost briefs, creators apply, deliver short videos within days, and payments and rights are handled on-platform.",
+      "why_now": "Creator Flow reported more than 200% YoY revenue growth in 2025, 2,400 brand and agency connections and typical delivery within 72 hours; Kale's 2026 report says everyday brand superfans drive 7.88% engagement versus 0.5% for traditional influencer campaigns and that Kale grew revenue 92x from 2022 to 2025.",
+      "monetization": "Marketplace take rate on fixed-price commissions, brand subscriptions, concierge campaign fees, creator subscription tiers and paid talent discovery.",
+      "evidence": [
+        "https://www.prnewswire.com/apac/news-releases/creator-flow-reports-over-200-growth-in-2025-as-ugc-demand-accelerates-across-australia-302726949.html",
+        "https://www.getkale.com/reports/2026/data-report"
+      ],
+      "how_searched": [
+        "websearch: UGC creator marketplace growth and brand demand",
+        "webfetch: PR Newswire Creator Flow release and Kale annual data report"
+      ],
+      "score": 50.7,
+      "found_at": "2026-11-19T21:41:39.386327+00:00"
     },
     {
       "name": "LiveReview (risk-aware AI code review, auto-approve safe PRs)",
@@ -4665,6 +4730,23 @@
       "found_at": "2026-11-13T22:46:30.714090+00:00"
     },
     {
+      "name": "Prompt-to-sound-effect generator",
+      "field": "Audio / creative tools",
+      "summary": "Build a free text-to-SFX generator that produces short royalty-free sound variations from descriptions, with public library browsing, commercial licensing, API access and DAW/game/video exports.",
+      "why_now": "A founder reported SFX Engine at $2,000 MRR in an August 2026 Hacker News thread; the product site shows 5 free sounds without a card, commercial-use licensing, use cases across games, film, podcasts and ads, and paid plans with API access.",
+      "monetization": "Monthly credit plans at $10, $25 and $90, yearly discounts, API/MCP access, higher credit limits and team/commercial licenses.",
+      "evidence": [
+        "https://sfxengine.com/",
+        "https://rogutkuba.com/"
+      ],
+      "how_searched": [
+        "websearch: micro SaaS MRR updates August 2026 sound effects AI",
+        "webfetch: HN thread, SFX Engine site and founder portfolio"
+      ],
+      "score": 47.3,
+      "found_at": "2026-11-19T21:41:41.226318+00:00"
+    },
+    {
       "name": "AIDesigner (AI UI design generator with MCP)",
       "field": "design/dev tools",
       "summary": "Generates editable website/app UI, brand kits and images from prompts; MCP server lets Claude Code/Cursor/Codex design inside the coding workflow.",
@@ -4914,6 +4996,23 @@
       "found_at": "2026-11-12T19:04:57.956827+00:00"
     },
     {
+      "name": "Private metasearch with a small-web index",
+      "field": "Search / privacy tools",
+      "summary": "Build a paid privacy-first search front end that combines independent providers, user-controlled ranking boosts, domain rewriting, scoped searches, image search and an index of indie/small-web sites.",
+      "why_now": "Uruky reached 400 monthly active accounts in October 2026 and passed 1M URLs in its Site Search index by November 2026; a founder-reported case study shows more than €1k/month, about 60 paying customers as of May 2026, and a €5/mo no-free-plan model.",
+      "monetization": "€5/mo subscriptions, vouchers, crypto and cash-by-mail payments, paid website-owner indexing and optional business search widgets.",
+      "evidence": [
+        "https://uruky.com/whats-new?il=en",
+        "https://mrrteardown.com/en/case/uruky/"
+      ],
+      "how_searched": [
+        "websearch: indie private search engine Kagi alternative revenue",
+        "webfetch: Uruky changelog, Hacker News launch and revenue teardown"
+      ],
+      "score": 45.3,
+      "found_at": "2026-11-19T21:41:42.212487+00:00"
+    },
+    {
       "name": "Anti-Slop Design Grader (agent UI taste checker)",
       "field": "Design quality tooling for AI output",
       "summary": "Free web tool that scores AI-generated pages/UI against a 'design vocabulary' (spacing, type, hierarchy) and returns concrete fixes — turning the hottest agent-skill genre into a browser tool.",
@@ -5052,6 +5151,23 @@
       ],
       "score": 43.3,
       "found_at": "2026-11-13T22:46:31.478596+00:00"
+    },
+    {
+      "name": "Car fitment and compatibility checker",
+      "field": "Automotive / ecommerce utilities",
+      "summary": "Build a free vehicle selector that checks whether parts, tires, wheels or accessories fit a specific car, then offer embeddable fitment widgets and dealer lead tools.",
+      "why_now": "Exploding Topics' September 2026 analytics report shows carsized.com at 1.5M monthly visits, global rank 36,238, US rank 56,328, automotive category rank 1,141 and authority score 51, indicating strong evergreen high-intent traffic.",
+      "monetization": "Affiliate commissions to parts and tire retailers, display ads, paid dealer widgets, lead fees and a fitment-data API.",
+      "evidence": [
+        "https://analytics.explodingtopics.com/website/carsized.com",
+        "https://www.semrush.com/website/carsized.com/overview/"
+      ],
+      "how_searched": [
+        "websearch: high-traffic car fit checker website analytics",
+        "webfetch: Exploding Topics analytics page and Semrush overview"
+      ],
+      "score": 43.3,
+      "found_at": "2026-11-19T21:41:43.364027+00:00"
     },
     {
       "name": "SocialClaw (social media scheduler built for AI agents)",
@@ -5302,6 +5418,40 @@
       "found_at": "2026-11-19T13:12:55.359962+00:00"
     },
     {
+      "name": "Visual edit-as-you-browse layer",
+      "field": "Website tooling / growth engineering",
+      "summary": "Build a script and browser layer that lets users click text or elements on any website, describe changes, preview them and open a pull request for a developer or coding agent to implement.",
+      "why_now": "Letter's YC launch presents Letterpress-1 as a coding-agent harness and IDE for growth engineering with A/B testing and pull requests; the product page shows pressing command-L over a live site, typing or circling changes, previewing variants and creating PRs.",
+      "monetization": "Per-site seats, team workspaces, paid A/B testing, hosted experiment variants, premium integrations and enterprise OAuth/role controls.",
+      "evidence": [
+        "https://letter.dev/commandl",
+        "https://www.ycombinator.com/launches/WbJ-letterpress-1-the-world-s-first-coding-agent-harness-and-ide-for-growth-engineering"
+      ],
+      "how_searched": [
+        "websearch: Product Hunt visual website editor command L pull request launch",
+        "webfetch: official product page and YC launch page"
+      ],
+      "score": 40.0,
+      "found_at": "2026-11-19T21:41:44.618038+00:00"
+    },
+    {
+      "name": "Prompt-to-faceless-video generator",
+      "field": "AI video / content creation",
+      "summary": "Build a simple prompt-to-video tool that writes scripts, plans scenes, generates consistent visuals, voices, captions and music, then exports or auto-posts short and long videos.",
+      "why_now": "StoryShort shows $22,416 MRR, 377 active subscriptions, $613,256 all-time revenue and about 27,000 users as of November 19, 2026, with plans from $39 to $199; its help center describes script-to-scene generation, consistent characters, API/MCP and auto-posting.",
+      "monetization": "Tiered monthly subscriptions at $39, $69, $129 and $199, usage credits, API access and agency seats.",
+      "evidence": [
+        "https://trustmrr.com/startup/storyshort",
+        "https://storyshort.ai/help/what-is-storyshort"
+      ],
+      "how_searched": [
+        "websearch: verified revenue faceless AI video generator",
+        "webfetch: TrustMRR profile and official help center"
+      ],
+      "score": 39.3,
+      "found_at": "2026-11-19T21:41:45.012704+00:00"
+    },
+    {
       "name": "Daily Guess-the-X Puzzle Site",
       "field": "Daily web games / display ads",
       "summary": "Habit-forming daily puzzle such as guessing an actor from filmography, with sister games and ad monetization.",
@@ -5317,6 +5467,23 @@
       ],
       "score": 38.7,
       "found_at": "2026-11-17T22:28:44.832868+00:00"
+    },
+    {
+      "name": "Prompt-to-deck slide generator",
+      "field": "Productivity / presentations",
+      "summary": "Build a free prompt-to-slides web app that turns a topic, document or spreadsheet into editable presentations with export to PowerPoint, PDF and Google Slides.",
+      "why_now": "MagicSlides shows $9,595 MRR, 733 active subscriptions, $733,109 all-time revenue and about 2.3M users, with Stripe-verified revenue; the founder reports no employees, ~80% margin and organic SEO as the main acquisition channel.",
+      "monetization": "Annual plan at $80, monthly subscriptions, presentation quotas, PDF/PPT/Google Slides exports, team seats and add-on integrations.",
+      "evidence": [
+        "https://trustmrr.com/startup/magicslides-app",
+        "https://www.magicslides.app/pricing"
+      ],
+      "how_searched": [
+        "websearch: verified revenue AI presentation generator bootstrapped",
+        "webfetch: TrustMRR profile and official pricing page"
+      ],
+      "score": 38.0,
+      "found_at": "2026-11-19T21:41:45.587625+00:00"
     },
     {
       "name": "Smart Blur",
