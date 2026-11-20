@@ -1,49 +1,6 @@
 {
   "items": [
     {
-      "name": "AI Search Visibility (GEO/AEO) Tracking",
-      "field": "Marketing/SEO Tools",
-      "summary": "Platforms tracking brand mentions and citations across ChatGPT, Perplexity, Claude, Gemini, Google AI Overviews - showing when/where AI models cite/recommend brands.",
-      "why_now": "AI search is redirecting traffic from traditional search. Platforms like Peec reached ~$10M ARR with 2500+ customers in 16 months; AmICited reached $17K MRR growing to $22K; multiple indie GEO tools (ThriveStack citedby, AgentGEO, GEOmind) show strong demand with founders paying $17-399/mo. Enterprise suites start at $99-499/mo.",
-      "monetization": "SaaS subscriptions with tiered pricing (usage/prompts/engines), freemium models, agency plans. Indie examples: AmICited $15-22K MRR (146 subs), Prompt monitoring tools $1K-17K MRR, early movers see strong conversion.",
-      "evidence": [
-        "https://amicited.com/",
-        "https://trustmrr.com/startup/amicited",
-        "https://www.thrivestack.ai/citedby",
-        "https://geomind.app/"
-      ],
-      "how_searched": [
-        "web search",
-        "indie hacker revenue tracking (TrustMRR)",
-        "microSaaS revenue reports",
-        "AI/SEO tool discovery"
-      ],
-      "score": 95.0,
-      "found_at": "2026-10-30T07:09:32.212483+00:00"
-    },
-    {
-      "name": "AI Prompt Optimizer / Prompt Engineering Tools",
-      "field": "AI Productivity Tools",
-      "summary": "Tools that rewrite/improve prompts for better LLM outputs (Pretty Prompt, Prompt Genie, Prompt Builder). Often Chrome extensions or web apps.",
-      "why_now": "Non-technical users struggle with prompting; products seeing rapid adoption via TikTok/PH. Pretty Prompt did $300K in 60 days on AppSumo lifetime deals; Prompt Genie went to $10K MRR in 1 month; others report strong traction.",
-      "monetization": "Freemium + subscription, lifetime deals (AppSumo), Chrome extension with freemium. Pretty Prompt $300K+ in 60 days via LTD; Prompt Genie reached $30K MRR; many small indie tools making $1K-20K MRR.",
-      "evidence": [
-        "https://prettypromptai.substack.com/p/from-startup-pivot-to-300k-in-60",
-        "https://www.indiehackers.com/post/hitting-3k-arr-7-days-after-release-H1R97zB61ddgL4yqb1Yh",
-        "https://startupfounderstories.com/stories/prompt-genie-no-code-tiktok-launch",
-        "https://trustmrr.com/startup/prompt-builder-1",
-        "https://www.sideprojectors.com/project/91772/teleprompt"
-      ],
-      "how_searched": [
-        "web search",
-        "indie hacker stories",
-        "AppSumo/TikTok virality tracking",
-        "microSaaS revenue data"
-      ],
-      "score": 92.0,
-      "found_at": "2026-10-30T07:09:34.358323+00:00"
-    },
-    {
       "name": "AI Text Humanizer (De-AI Rewriter)",
       "field": "AI writing tools",
       "summary": "Web tool that rewrites AI-generated text to read more human and evade AI detectors.",
@@ -291,25 +248,6 @@
       "found_at": "2026-11-11T22:04:51.839189+00:00"
     },
     {
-      "name": "K-Beauty & Wellness Products on TikTok Shop",
-      "field": "E-commerce/Consumer Products",
-      "summary": "Skincare (medicube), supplements (Toplux Magnesium), wellness products dominating TikTok Shop with strong GMV.",
-      "why_now": "TikTok Shop continues growing; K-beauty brands expanding into adjacencies. medicube did $17.24M in US Sep 2026 alone; top products generating $5-16M per product. Category expansion opportunities exist.",
-      "monetization": "Direct-to-consumer via TikTok Shop/Amazon with high margins; creator affiliate commissions. Massive GMV numbers.",
-      "evidence": [
-        "https://www.z.media/insights/tiktok-shop-index-october-2026",
-        "https://tokconnect.com/trends/products/best-sellers/",
-        "https://www.fastmoss.com/blog/best-selling-tiktok-shop-products-us-q2-2026/"
-      ],
-      "how_searched": [
-        "web search",
-        "TikTok Shop trend reports",
-        "e-commerce data aggregators"
-      ],
-      "score": 86.0,
-      "found_at": "2026-10-30T07:09:38.173662+00:00"
-    },
-    {
       "name": "AI Scam Link & Message Checker",
       "field": "Cybersecurity / consumer protection",
       "summary": "Paste a suspicious URL, SMS or chat message and get a plain-language safety verdict, screenshot preview, red flags and next steps.",
@@ -389,6 +327,29 @@
       ],
       "score": 86.0,
       "found_at": "2026-11-15T02:13:35.223383+00:00"
+    },
+    {
+      "name": "Always-On AI Bot Team Workspace (own-computer agents, bring-your-own subscriptions)",
+      "field": "AI agents / prosumer productivity",
+      "summary": "A browser workspace where you create named bots that each get a sandboxed computer, memory, scheduled routines and approval gates, then delegate tasks between them; original code/name/design, BYO model keys.",
+      "why_now": "Grok Bot's Aug 2026 launch triggered a clone wave: Rakazo gained 5,801 GitHub stars in 61 days (8.4k total, 1,155 forks) and took 410 Product Hunt upvotes on Nov 15; MausBot had ~22k stars by Nov 14; three rival 'Grok Bot alternative' launches (Rakazo, Turnstone 278, dusk bot 141) shipped in Nov; Meta's Muse sidebar reached 200k Chrome users by Nov 19.",
+      "monetization": "MausBot reports $18,841 MRR from 490 subscriptions (DodoPayment-verified, Nov 20) at $15/$49/$89 personal and $169+ team tiers; WhyItEarns ranks it the fastest-growing Nov 2026 product at +365%. Rakazo charges $15-$99/mo hosted.",
+      "evidence": [
+        "https://trustmrr.com/startup/mausbot",
+        "https://whyitearns.com/monthly/2026-11",
+        "https://trendshift.io/repositories/151572",
+        "https://www.producthunt.com/leaderboard/monthly/2026/11",
+        "https://crewmark.ai/blog/open-source-grok-bot-alternatives"
+      ],
+      "how_searched": [
+        "Product Hunt monthly leaderboard",
+        "GitHub star-trend tracker",
+        "open-startup revenue page (TrustMRR)",
+        "verified-revenue monthly report",
+        "comparison-article sweep"
+      ],
+      "score": 86.0,
+      "found_at": "2026-11-20T11:51:46.867933+00:00"
     },
     {
       "name": "Promptless Product-Photo to Video Ad Generator",
@@ -947,6 +908,27 @@
       ],
       "score": 82.0,
       "found_at": "2026-11-20T03:20:16.981374+00:00"
+    },
+    {
+      "name": "One-Key Data Validation & Enrichment Checker (phone, email, IP)",
+      "field": "Data quality / sales infrastructure",
+      "summary": "A free web checker for whether phone numbers, emails and IPs are real and risky, with bulk CSV upload and one shared credit balance across dozens of checks, plus an optional API for agents.",
+      "why_now": "1Lookup added an MCP server and an 'every new lead checks itself' agent pitch while expanding to 76 data products; its $10M for-sale listing (Oct 21) had 71,941 views and 75 interested buyers, and 30-day revenue ($513,650) is nearly twice MRR.",
+      "monetization": "$271,697 MRR from 751 subscriptions and $5,728,373 all-time, Stripe-verified Nov 4; $99-$1,999/mo plans; business listed for $10M. A free checker can earn from credits/API tiers and affiliate enrichment.",
+      "evidence": [
+        "https://untoldstartups.com/stories/1lookup-robby-frank-data-validation-api-272k-mrr",
+        "https://builtbynpcs.com/stories/1lookup-266k-mrr-validation-api",
+        "https://whyitearns.com/monthly/2026-11",
+        "https://trustmrr.com/startup/mausbot"
+      ],
+      "how_searched": [
+        "open-startup revenue page (TrustMRR)",
+        "indie founder profile article",
+        "startup-for-sale listing coverage",
+        "monthly verified-revenue report"
+      ],
+      "score": 82.0,
+      "found_at": "2026-11-20T11:51:48.490145+00:00"
     },
     {
       "name": "AI subscription / token spend tracker",
@@ -1512,6 +1494,28 @@
       ],
       "score": 77.0,
       "found_at": "2026-11-15T17:28:58.148010+00:00"
+    },
+    {
+      "name": "AI-Free Search Launcher (Overview/AI-Mode stripper + setup generator)",
+      "field": "Search utilities / browser tools",
+      "summary": "One free website that generates the correct no-AI search setup for every browser and phone (udm=14 default engine, bookmarklets, blocker rules) and offers a clean results front-end.",
+      "why_now": "'Hide Google AI Overviews' has 800,000 users and 1.2k ratings (updated Nov 10); 'Disable AI Mode & AI Overview' has 20,000 users (updated Nov 9); a paid 'NoAI' variant launched Nov 4; four independent removal guides appeared Nov 4-19 after Google told schools its AI search cannot be turned off.",
+      "monetization": "Freemium pattern: NoAI sells a weekly subscription or one-time lifetime purchase (price null); most rivals are free/open-source. A free launcher can monetize optional team/school deployment and affiliate search.",
+      "evidence": [
+        "https://chromewebstore.google.com/detail/hide-google-ai-overviews/neibhohkbmfjninidnaoacabkjonbahn",
+        "https://chromewebstore.google.com/detail/disable-ai-mode-ai-overvi/ebefbfhaicjahbdopihcjonaokjjmchp",
+        "https://chromewebstore.google.com/detail/noai-hide-google-ai-overv/iegfeojpbjhifbpgmaiglfcbaofcfofc",
+        "https://techxplore.com/news/2026-11-dont-ai-online-options.pdf",
+        "https://bushe.co/blog/how-to-get-rid-of-ai-overview/"
+      ],
+      "how_searched": [
+        "Chrome Web Store listing analytics",
+        "tech news article",
+        "how-to guide sweep",
+        "competitor user-count comparison"
+      ],
+      "score": 77.0,
+      "found_at": "2026-11-20T11:51:49.338744+00:00"
     },
     {
       "name": "AI paid-media manager: autonomous Google/Meta/TikTok ad campaign agent",
@@ -2999,6 +3003,27 @@
       "found_at": "2026-11-18T04:23:52.125216+00:00"
     },
     {
+      "name": "3D File-to-One-Link Viewer with Viewer Analytics",
+      "field": "3D / AEC / e-commerce media",
+      "summary": "A web tool that takes a GLB/FBX/IFC file or floor plan, streams a progressive browser viewer, and returns a revocable share link, embed code and viewer analytics.",
+      "why_now": "Verse Engine launched Nov 16-19 with a 10.3-billion-triangle city streaming in Chrome (founder post Nov 5), ranked #2 on Product Hunt on Nov 19, and was listed by Khronos on Nov 10; it claims 45s Blender-to-link and 0.9s first picture.",
+      "monetization": "Published tiers: Free, Starter $29/mo, Pro $99, Scale $499, Enterprise from $2,000/mo; actual revenue null. Claimed delivery cost $252 per 1,000 viewer-hours vs $498-$6,000 for cloud-GPU streaming.",
+      "evidence": [
+        "https://www.producthunt.com/products/verse-engine-by-ctruh",
+        "https://verse.ctruh.com/",
+        "https://ecosystem.khronos.org/pe-project/verse-engine-by-ctruh/",
+        "https://www.startupstarter.co/launches/verse-engine-ctruh-browser-3d-streaming"
+      ],
+      "how_searched": [
+        "Product Hunt daily leaderboard",
+        "vendor pricing/feature page",
+        "Khronos ecosystem directory",
+        "launch coverage article"
+      ],
+      "score": 65.0,
+      "found_at": "2026-11-20T11:51:51.370155+00:00"
+    },
+    {
       "name": "Old-photo restoration and colorization with free preview",
       "field": "Consumer / photo",
       "summary": "A free-preview web tool that colorizes, de-scratches and upscales old family photos, then charges per photo or pack for full-resolution downloads and prints, built for genealogy and memorial use.",
@@ -3056,6 +3081,25 @@
       ],
       "score": 64.0,
       "found_at": "2026-11-17T22:28:39.306009+00:00"
+    },
+    {
+      "name": "AI DM Closer for High-Ticket Offers (agency white-label)",
+      "field": "Sales automation / agencies",
+      "summary": "A web-based chat agent that qualifies inbound DM leads, pitches a high-ticket offer and books calls, sold with an agency tier to resell under your brand.",
+      "why_now": "DM Champ's October 2026 cash revenue spiked to $28,426, roughly 3x its typical $6.2k-$12.3k month, alongside an AppSumo 'Best Seller 2026' badge and a Nov 18 relaunch; WhyItEarns lists it at +91% growth for Nov 2026.",
+      "monetization": "$241,273 all-time cash and a reported $53,882 'MRR' from 61 subscriptions, but the MRR cannot be reconciled with listed prices — treat it as unreliable. Yearly plans are $48.50/$148.50/$248.50 per month.",
+      "evidence": [
+        "https://trustmrr.com/startup/dm-champ",
+        "https://oddig.com/reports/dm-champ-revenue-teardown",
+        "https://whyitearns.com/monthly/2026-11"
+      ],
+      "how_searched": [
+        "open-startup revenue page (TrustMRR)",
+        "independent revenue teardown",
+        "monthly verified-revenue report"
+      ],
+      "score": 63.0,
+      "found_at": "2026-11-20T11:51:52.416335+00:00"
     },
     {
       "name": "Browser voice recorder with AI transcription and summaries (no hardware)",
@@ -3192,6 +3236,26 @@
       ],
       "score": 61.0,
       "found_at": "2026-11-18T04:23:53.603660+00:00"
+    },
+    {
+      "name": "SaaS Exit Planner: Data Export & Alternative Finder",
+      "field": "SaaS migration / consumer tools",
+      "summary": "A free website that tells you how to get your data out of a tool before cancelling, with maintained export scripts and alternatives per product.",
+      "why_now": "ExitPath ('open-source ways out of Slack, Notion and Microsoft 365') got 248 points and 93 comments on Show HN on Nov 18; HackerChurn (which SaaS HN wants to cancel) got 71 points Nov 3; complaints spiked about NotebookLM (196 points Oct 12), Cursor (57 points Oct 13) and Webflow price hikes (72 points).",
+      "monetization": "No verified revenue for the exit-tools themselves — null. Realistic revenue would be affiliate links to alternatives, sponsored migration guides and paid concierge exports.",
+      "evidence": [
+        "https://bestofshowhn.com/2026/11",
+        "https://www.reddit.com/r/SaaS/comments/1ua9jau/why_modern_saas_products_are_becoming_unbearable/",
+        "https://www.reddit.com/r/notebooklm/comments/1x47dg6/i_used_notebooklm_8_hours_a_day_after_the_update/",
+        "https://www.reddit.com/r/webflow/comments/1tdyfdo/recent_price_changes_are_we_serious_been_with/"
+      ],
+      "how_searched": [
+        "Show HN aggregator",
+        "Reddit complaint threads",
+        "launch-rank tracker"
+      ],
+      "score": 61.0,
+      "found_at": "2026-11-20T11:51:52.679675+00:00"
     },
     {
       "name": "Yadaphone",
@@ -3566,6 +3630,25 @@
       ],
       "score": 56.0,
       "found_at": "2026-11-20T03:20:16.474045+00:00"
+    },
+    {
+      "name": "Idle-Time Ad Revenue Split for AI Chats",
+      "field": "Adtech / AI consumer",
+      "summary": "A privacy-preserving layer that shows one sponsored line in the empty space while an AI generates, splitting ad revenue with the user; rebuildable as an original free site plus optional companion.",
+      "why_now": "Chatwait reached 70,000 Chrome users (+10k in 30 days) and 812 ratings by Nov 18 and was the #2 fastest-rising Chrome extension for Nov 16-22 (+18.4%, +120 ratings); its rating fell from 4.49 (Oct 29) to 3.65 (Nov 18) as users complained payouts are too low.",
+      "monetization": "Claims 50% of ad revenue in cash via Whop ($10 minimum; heavy users $3-$8/mo) but no verified revenue was found — null. Treat the earnings claims and host-ToS compliance as unproven.",
+      "evidence": [
+        "https://chromewebstore.google.com/detail/chatwait-get-paid-while-a/fjbgbmkdallahjigblomfalbpblojfng",
+        "https://extensiontracker.com/extension/fjbgbmkdallahjigblomfalbpblojfng",
+        "https://storetally.com/chrome/week"
+      ],
+      "how_searched": [
+        "Chrome Web Store listing",
+        "extension analytics tracker",
+        "weekly app-store riser dashboard"
+      ],
+      "score": 56.0,
+      "found_at": "2026-11-20T11:51:53.062620+00:00"
     },
     {
       "name": "Voice-to-text writing assistant (Letterly model)",
@@ -5005,6 +5088,25 @@
       ],
       "score": 45.3,
       "found_at": "2026-11-20T03:20:18.282824+00:00"
+    },
+    {
+      "name": "Satellite Overpass & Imagery Explorer",
+      "field": "Geospatial / data-visualization tools",
+      "summary": "Enter any place to see which Earth-observation satellites crossed it in the last 7 days, replay the pass, and view the matching public Sentinel-2/Landsat/NASA image with cloud cover.",
+      "why_now": "watched.earth hit 500 points and 89 comments on Show HN on Nov 9 and passed 40,000 places checked within a day (Nov 10); three independent write-ups followed Nov 9-10; CelesTrak TLEs are refreshed every 6 hours.",
+      "monetization": "None found: free, MIT, no ads — revenue null. Plausible paid layer would be imagery alerts/API for agriculture, insurance and newsrooms, but no money is proven yet.",
+      "evidence": [
+        "https://hnflash.com/stories/show-hn-every-satellite-that-passed-over-any-place-this-week-50428907",
+        "https://sinapti.ca/post/en/watched-the-site-that-shows-which-satellites-passed-over-any-8fjuj9au"
+      ],
+      "how_searched": [
+        "Show HN",
+        "HN aggregation tracker",
+        "independent tech write-up",
+        "GitHub project details via article"
+      ],
+      "score": 45.3,
+      "found_at": "2026-11-20T11:51:50.639481+00:00"
     },
     {
       "name": "Anti-Slop Design Grader (agent UI taste checker)",
