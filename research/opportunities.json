@@ -83,25 +83,6 @@
       "found_at": "2026-11-13T08:04:51.876183+00:00"
     },
     {
-      "name": "Firecrawl (web data extraction for AI agents)",
-      "field": "AI infrastructure / Web scraping / Agent tooling",
-      "summary": "API to search and extract web content in AI-friendly formats (Markdown/JSON/screenshots), handling JS/rendering/proxies/rate limits.",
-      "why_now": "Massive adoption (196K+ stars), actively used as agent data layer. Highlighted as critical for grounding agents with live web data; appears in multiple agent tool roundups.",
-      "monetization": "Commercial API with usage-based/pricing - monetized at scale. Public revenue numbers not disclosed in sources we opened.",
-      "evidence": [
-        "https://01webmasters.com/5-web-development-tools-trending-on-github-as-of-october-24-2026/",
-        "https://github.com/firecrawl/firecrawl",
-        "https://toolvitals.com/blog/top-50-browser-automation-tools-2026-10/"
-      ],
-      "how_searched": [
-        "GitHub Trending monitoring",
-        "Tool directories/rankings",
-        "Repository metadata inspection"
-      ],
-      "score": 90.0,
-      "found_at": "2026-10-30T01:01:55.978907+00:00"
-    },
-    {
       "name": "EU AI Act SME Compliance Copilot",
       "field": "RegTech / compliance",
       "summary": "A guided web tool that inventories AI systems, generates Article 4 AI-literacy records, flags Article 50 transparency duties, and exports an audit-ready compliance pack for SMEs.",
@@ -141,26 +122,6 @@
       "found_at": "2026-11-16T02:25:34.067718+00:00"
     },
     {
-      "name": "Browser automation / agent browser tools (Lightpanda, Browser Use, Stagehand)",
-      "field": "AI agents / Browser automation infrastructure",
-      "summary": "Headless/agentic browsers and frameworks enabling agents to interact with web apps (Lightpanda, Browser Use, Stagehand, Skyvern) - essential for tool-using agents.",
-      "why_now": "Category exploding per ToolVitals Oct 2026 ranking; agents need reliable browser control. Many OSS projects with strong health/shipping metrics and large communities.",
-      "monetization": "Mixed - some OSS, others with hosted/browserless offerings (usage-based). Public MRR/revenue not visible in sources we opened.",
-      "evidence": [
-        "https://toolvitals.com/blog/top-50-browser-automation-tools-2026-10/",
-        "https://github.com/lightpanda-io/browser",
-        "https://github.com/browser-use/browser-use",
-        "https://github.com/browserbase/stagehand"
-      ],
-      "how_searched": [
-        "Browser automation tool rankings",
-        "GitHub metadata inspection",
-        "Agent tooling trend analysis"
-      ],
-      "score": 89.0,
-      "found_at": "2026-10-30T01:01:57.365822+00:00"
-    },
-    {
       "name": "AI Accessibility Fixer",
       "field": "Digital accessibility",
       "summary": "A free WCAG scanner plus AI code-fix assistant for AI-generated and no-code sites. Paste a URL, get prioritized fixes for alt text, labels, contrast, focus order and button names, then subscribe for monitoring and developer-ready patches.",
@@ -178,25 +139,6 @@
       ],
       "score": 89.0,
       "found_at": "2026-11-13T08:04:52.480209+00:00"
-    },
-    {
-      "name": "AI agent monetization infrastructure (usage/credit-based)",
-      "field": "AI infrastructure / Monetization / Agent platforms",
-      "summary": "Shift from seat-based to usage/credit/outcome-based pricing for agents (observed across Salesforce Agentforce, Intercom Fin, etc.).",
-      "why_now": "Gartner notes <10% of agentic deployments deliver ROI due to cost; providers moving to credits/outcome-based models. Stripe/SaaS data shows pricing evolving rapidly as agent costs scale.",
-      "monetization": "Enables monetization of agents themselves - platforms charging per resolution/action/credits. Large players showing material ARR (Agentforce $1.2B+).",
-      "evidence": [
-        "https://www.gartner.com/en/articles/agentic-ai-next-hurdle-is-cost",
-        "https://www.saasmag.com/how-saas-companies-monetizing-ai-agents/",
-        "https://stripe.com/sessions/2026/inside-the-ai-economy"
-      ],
-      "how_searched": [
-        "Industry reports on agent monetization",
-        "Earnings/pricing analysis",
-        "Market trend synthesis"
-      ],
-      "score": 88.0,
-      "found_at": "2026-10-30T01:01:58.048462+00:00"
     },
     {
       "name": "AI Agent Website Readiness Scanner",
@@ -349,25 +291,6 @@
       "found_at": "2026-11-11T22:04:51.839189+00:00"
     },
     {
-      "name": "AI sales/outbound agents (e.g. Outbind/Spira-related patterns)",
-      "field": "Sales AI / GTM automation",
-      "summary": "AI agents for prospecting, personalized outreach, learning from responses with volume controls to avoid spam.",
-      "why_now": "Active discussion on Reddit/microSaaS with real products launching; GTM agents remain in demand. Spira Maxima was #1 on Product Hunt Oct 2026.",
-      "monetization": "Subscription-based (Outbind $49/mo mentioned). Spira positioned as autonomous influencers running social end-to-end.",
-      "evidence": [
-        "https://www.producthunt.com/leaderboard/monthly/2026/10",
-        "https://1dea.io/traction/monthly/2026-10",
-        "https://spira.ai"
-      ],
-      "how_searched": [
-        "Product Hunt leaderboard",
-        "Reddit/microSaaS traction tracking",
-        "Launch analysis"
-      ],
-      "score": 86.0,
-      "found_at": "2026-10-30T01:01:58.994464+00:00"
-    },
-    {
       "name": "K-Beauty & Wellness Products on TikTok Shop",
       "field": "E-commerce/Consumer Products",
       "summary": "Skincare (medicube), supplements (Toplux Magnesium), wellness products dominating TikTok Shop with strong GMV.",
@@ -466,25 +389,6 @@
       ],
       "score": 86.0,
       "found_at": "2026-11-15T02:13:35.223383+00:00"
-    },
-    {
-      "name": "Local-first/open-weight agent tooling",
-      "field": "AI infrastructure / Local LLMs / Privacy",
-      "summary": "Growing interest in running agents locally (Orca manages local agents, tools like DigUp for local search, open-weight models trending).",
-      "why_now": "Strong community interest on Reddit (LocalLLaMA), hardware discussion (Mac Studio pricing, local model deployment), privacy concerns, and cost control driving local adoption.",
-      "monetization": "Often OSS; monetization via managed hosting/support or hybrid models. Direct revenue numbers not visible.",
-      "evidence": [
-        "https://raw.githubusercontent.com/liyedanpdx/reddit-ai-trends/main/reports/latest_report_en.md",
-        "https://pie-ai.org/reddit-ai-top-10-briefing-october-29-2026/",
-        "https://github.com/stablyai/orca"
-      ],
-      "how_searched": [
-        "Reddit AI trend monitoring",
-        "Community discussion analysis",
-        "Tool adoption patterns"
-      ],
-      "score": 85.0,
-      "found_at": "2026-10-30T01:01:59.738839+00:00"
     },
     {
       "name": "Promptless Product-Photo to Video Ad Generator",
@@ -638,25 +542,6 @@
       ],
       "score": 85.0,
       "found_at": "2026-11-18T14:05:02.462499+00:00"
-    },
-    {
-      "name": "Agent access control/monetization via MCP",
-      "field": "AI infrastructure / Data monetization / APIs",
-      "summary": "MCP emerging as standard for agent access to enterprise data; companies deciding what to expose and how to monetize (usage/outcome-based).",
-      "why_now": "MCP exploded to 20k+ servers; Bain/Stripe discussions highlight data exposure tradeoffs and new monetization paths as agents bypass UIs.",
-      "monetization": "Emerging - some charge for MCP access/usage, others use hybrid models. Still experimental but high leverage.",
-      "evidence": [
-        "https://www.bain.com/insights/how-ai-is-changing-data-monetization-technology-report-2026/",
-        "https://stripe.com/sessions/2026/inside-the-ai-economy",
-        "https://www.orionplaybook.com/p/the-saas-bill-just-split-into-two-meters"
-      ],
-      "how_searched": [
-        "Enterprise AI reports",
-        "MCP ecosystem analysis",
-        "Pricing strategy research"
-      ],
-      "score": 84.0,
-      "found_at": "2026-10-30T01:02:01.102582+00:00"
     },
     {
       "name": "Accessibility Risk Scanner & Fix Planner",
@@ -1043,6 +928,25 @@
       ],
       "score": 82.0,
       "found_at": "2026-11-18T14:05:03.075155+00:00"
+    },
+    {
+      "name": "Cross-platform AI chat organizer and exporter",
+      "field": "AI productivity / personal knowledge management",
+      "summary": "One web workspace that imports chats from ChatGPT, Claude, Gemini and Grok into nested folders, prompt library, full-text search, cross-model transfer, and clean PDF/Markdown/Notion export.",
+      "why_now": "Sortbase reports 20,000+ accounts and 400+ ratings with a 7-day trial; AI Exporter has 100,000 Chrome downloads, 4.8 stars and 1,651 reviews, plus 20,766 Edge downloads and 4,636 Firefox downloads, showing heavy demand for taming scattered AI chats.",
+      "monetization": "Sortbase is $10/mo or $100/yr after trial; AI Exporter Pro is $3.88/mo billed annually ($46.56/yr) with free PDF 3/day and Word 8/day caps.",
+      "evidence": [
+        "https://sortbase.ai/",
+        "https://tooltivity.com/extensions/ai-exporter",
+        "https://chromewebstore.google.com/detail/sortbase-%E2%80%93-one-ai-workspa/gdocioajfidpnaejbgmbnkflgmppibfe"
+      ],
+      "how_searched": [
+        "startup website with user counts",
+        "extension review site with download and rating data",
+        "Chrome Web Store listing"
+      ],
+      "score": 82.0,
+      "found_at": "2026-11-20T03:20:16.981374+00:00"
     },
     {
       "name": "AI subscription / token spend tracker",
@@ -3646,6 +3550,24 @@
       "found_at": "2026-11-19T13:12:52.372074+00:00"
     },
     {
+      "name": "Fair-priced single-job Amazon seller research tool",
+      "field": "E-commerce / Amazon seller SaaS",
+      "summary": "A focused web tool that does one seller job well - reverse-ASIN keyword research or product-size/price-history checks - rebuilt from scratch instead of another expensive all-in-one suite.",
+      "why_now": "Launch Fast hit $30K MRR and 330 active extension users after solving 20-30 hours of manual Google Sheets research per product; Helium 10 retired its $39/mo Starter, made $99/mo Platinum the entry plan with 100 keyword searches and no rank tracking, pushing sellers toward $29-$49/mo alternatives.",
+      "monetization": "Launch Fast reports $30K MRR; comparable tools charge $19-$279/mo (sellerboard $19, Jungle Scout $29-$49, Helium 10 Diamond $279).",
+      "evidence": [
+        "https://www.indiehackers.com/post/tech/building-a-product-in-48-hours-and-hitting-30k-mrr-as-a-non-technical-founder-wWtWIH5tmwASUbxKaLT9",
+        "https://amztoolset.com/helium-10-alternatives/"
+      ],
+      "how_searched": [
+        "Indie Hackers revenue case study",
+        "Amazon seller tool pricing roundup",
+        "forum complaint snippets"
+      ],
+      "score": 56.0,
+      "found_at": "2026-11-20T03:20:16.474045+00:00"
+    },
+    {
       "name": "Voice-to-text writing assistant (Letterly model)",
       "field": "Productivity / voice AI",
       "summary": "Converts spoken voice notes into polished notes, emails, posts and meeting summaries across web and mobile.",
@@ -4196,6 +4118,24 @@
       "found_at": "2026-11-19T03:32:43.859156+00:00"
     },
     {
+      "name": "3D file to shareable browser link",
+      "field": "3D / spatial web tooling",
+      "summary": "Upload a GLB/OBJ/IFC file or publish from Blender, Unity or Unreal and get a private revocable link that streams the scene in any browser with no app or download.",
+      "why_now": "Verse Engine launched Nov 19, 2026 and placed #3 Product of the Day with 254 upvotes and 56 comments; it claims a 10.3B-triangle city opens in a laptop browser, 0.9s to first picture, and 45s Blender-to-link.",
+      "monetization": "Verse plans: Free $0, Starter $29/mo, Pro $99/mo, Scale $499/mo, Enterprise from $2,000/mo; delivery claimed at $252 per 1,000 viewer-hours vs $498-$6,000 for cloud GPU streaming.",
+      "evidence": [
+        "https://www.hunted.space/product/verse-engine-by-ctruh",
+        "https://verse.ctruh.com/"
+      ],
+      "how_searched": [
+        "Product Hunt launch analytics",
+        "product website and pricing page",
+        "news coverage snippets"
+      ],
+      "score": 52.0,
+      "found_at": "2026-11-20T03:20:17.494435+00:00"
+    },
+    {
       "name": "SocialClaw",
       "field": "Social media scheduling for AI agents",
       "summary": "A scheduling platform that lets AI agents (e.g., OpenClaw, Claude, Codex, ChatGPT workflows) connect accounts and publish/schedule posts programmatically. A rebuildable web product could provide an original agent-friendly posting API/dashboard with approvals and analytics.",
@@ -4495,6 +4435,24 @@
       ],
       "score": 49.3,
       "found_at": "2026-11-13T22:46:29.878208+00:00"
+    },
+    {
+      "name": "MCP plugin marketplace readiness and release tester",
+      "field": "Developer tools / AI agent distribution",
+      "summary": "A web tool that runs marketplace publishing checks on an MCP server, generates listing copy and reviewer test cases, runs evals across ChatGPT/Claude/Codex/Cursor, and tracks sessions.",
+      "why_now": "Manufact launched Nov 19, 2026 at #7 with 184 upvotes and 53 comments; its maker says Product Hunt used its tooling for its own MCP, and the mcp-use SDK behind it has 10k GitHub stars.",
+      "monetization": "Manufact Free $0 with $5/mo usage, Pro $300/mo or $250/mo annually, eval runs from $0.70 each; our revenue figure is null.",
+      "evidence": [
+        "https://www.hunted.space/product/manufact",
+        "https://manufact.com/"
+      ],
+      "how_searched": [
+        "Product Hunt launch analytics",
+        "product website and FAQ",
+        "developer community snippets"
+      ],
+      "score": 49.3,
+      "found_at": "2026-11-20T03:20:17.802040+00:00"
     },
     {
       "name": "Back-office web tool for disability care providers: scheduling, notes and AI progress reports",
@@ -4907,6 +4865,24 @@
       "found_at": "2026-11-19T13:12:53.027918+00:00"
     },
     {
+      "name": "Open-source AI spreadsheet for sourced web enrichment",
+      "field": "Sales ops / data tooling",
+      "summary": "A spreadsheet where you prompt a list of companies or people, add AI columns in plain English, and each cell searches the live web while keeping sources and confidence scores.",
+      "why_now": "Enrichable launched as a free MIT-licensed Clay alternative with 1,000 rows/sheet, 10 sheets/workspace, email-provider waterfall, and an MCP server; Context.dev reports 5,000+ businesses using its API and a 2.5K-follower Product Hunt page.",
+      "monetization": "Software is free/MIT; self-hosting uses your own Context.dev and OpenAI keys. Hosted revenue is null.",
+      "evidence": [
+        "https://www.enrichable.io/",
+        "https://www.producthunt.com/products/context-dev"
+      ],
+      "how_searched": [
+        "Product Hunt launch data",
+        "open-source product website",
+        "GitHub repo snippets"
+      ],
+      "score": 46.7,
+      "found_at": "2026-11-20T03:20:17.897572+00:00"
+    },
+    {
       "name": "StoreRank",
       "field": "App Store optimization / ASO",
       "summary": "A web ASO workbench that audits listings by country, finds keywords, rewrites metadata in many languages, generates screenshots, tracks ranks and exports or uploads changes.",
@@ -5013,6 +4989,24 @@
       "found_at": "2026-11-19T21:41:42.212487+00:00"
     },
     {
+      "name": "Nicotine taper planner and craving web tool",
+      "field": "Health and wellness self-help",
+      "summary": "Convert vape puffs, pouches or cigarettes into mg/day, choose a quit date or weekly taper, log with one tap, and run short craving exercises; rebuild as a browser tool with local-first logs.",
+      "why_now": "Cleared launched Nov 19, 2026 at #12 with 101 upvotes and 11 comments; maker cites 1 in 5 European 15-16-year-olds vaping, US pouch sales up about 3.5x in under three years, and 2 in 3 young adult nicotine users wanting to quit.",
+      "monetization": "Cleared Plus is $49.99/yr or $12.99/mo via App Store; Craving SOS, slip flow, day count and quit buddy are free.",
+      "evidence": [
+        "https://www.hunted.space/product/cleared-quit-nicotine",
+        "https://apps.apple.com/us/app/cleared-quit-vaping-pouches/id6821403846"
+      ],
+      "how_searched": [
+        "Product Hunt launch analytics",
+        "App Store listing",
+        "health trend snippets"
+      ],
+      "score": 45.3,
+      "found_at": "2026-11-20T03:20:18.282824+00:00"
+    },
+    {
       "name": "Anti-Slop Design Grader (agent UI taste checker)",
       "field": "Design quality tooling for AI output",
       "summary": "Free web tool that scores AI-generated pages/UI against a 'design vocabulary' (spacing, type, hierarchy) and returns concrete fixes — turning the hottest agent-skill genre into a browser tool.",
@@ -5116,6 +5110,24 @@
       ],
       "score": 44.0,
       "found_at": "2026-11-19T13:12:53.668782+00:00"
+    },
+    {
+      "name": "Dividend safety and ex-date research web tool",
+      "field": "Personal finance / investing data",
+      "summary": "Show A-F dividend safety grades, payout ratios, growth streaks, next ex-date 'last day to buy', and a 12-month income forecast for any ticker, with a public grade track record.",
+      "why_now": "SmarterDividends covers 8,000+ stocks/ETFs and says 75% of the 16 tracked cuts were graded C or lower beforehand, with C-or-lower names cutting at 4.5x the rate of A/B names; its Chrome extension was listed in mid-Nov 2026.",
+      "monetization": "Pro is $99/yr ($8.25/mo equivalent), 7-day no-card trial, 14-day refund; free tier caps at 10 holdings and 500 API requests/day.",
+      "evidence": [
+        "https://smarterdividends.com/pricing",
+        "https://smarterdividends.com/chrome-extension"
+      ],
+      "how_searched": [
+        "product pricing page",
+        "Chrome extension listing",
+        "finance tool roundup snippets"
+      ],
+      "score": 44.0,
+      "found_at": "2026-11-20T03:20:19.674374+00:00"
     },
     {
       "name": "LLM Gateway",
@@ -5311,6 +5323,24 @@
       "found_at": "2026-11-14T17:16:24.685518+00:00"
     },
     {
+      "name": "Template-based launch and feature video studio",
+      "field": "Marketing / motion design",
+      "summary": "Pick the pacing of a known launch-video template, swap in your own UI screens and copy, review frames, and export MP4 as a simple browser editor.",
+      "why_now": "Impractical launched Nov 19, 2026 at #14 with 95 upvotes; founder comments cite agency costs 'a couple grand' and After Effects' learning curve as the pain being solved.",
+      "monetization": "Free to start with 20 signup credits before Dec 6; paid pricing is not shown on opened pages, so revenue is null.",
+      "evidence": [
+        "https://www.hunted.space/product/impractical",
+        "https://impractical.ai/product"
+      ],
+      "how_searched": [
+        "Product Hunt launch analytics",
+        "product website",
+        "founder comment snippets"
+      ],
+      "score": 41.3,
+      "found_at": "2026-11-20T03:20:19.865365+00:00"
+    },
+    {
       "name": "No-Signup URL Shortener with Real Analytics",
       "field": "Link management / lightweight analytics",
       "summary": "A free URL shortener that supports internationalized and Punycode domains, UTM preservation, QR codes, click tracking, bot filtering, CSV exports, and no account requirement.",
@@ -5435,6 +5465,24 @@
       "found_at": "2026-11-19T21:41:44.618038+00:00"
     },
     {
+      "name": "UGC creator rate-card and brief-to-delivery workspace",
+      "field": "Creator economy / marketing",
+      "summary": "A free web tool for UGC creators to build a portfolio and rate card, turn a brand brief into a shot list, and track delivery without a large following.",
+      "why_now": "Next Big reports 46K US searches/mo for 'ugc creator', CPC $7.41 and ranking difficulty 19/100 as of Nov 19, 2026, though it stopped passing the trend check on Nov 3; rising related searches are rates +250%, platform +80%, portfolio +60%.",
+      "monetization": "Marketplaces Billo and Insense take transaction fees and list 5,000+ creators / 100,000+ creators respectively; standalone tool revenue is null.",
+      "evidence": [
+        "https://nextbig.io/trend/ugc-creator",
+        "https://explodingtopics.com/blog/trending-topics"
+      ],
+      "how_searched": [
+        "search-trend platform",
+        "exploding topics dataset",
+        "creator marketplace snippets"
+      ],
+      "score": 40.0,
+      "found_at": "2026-11-20T03:20:20.359190+00:00"
+    },
+    {
       "name": "Prompt-to-faceless-video generator",
       "field": "AI video / content creation",
       "summary": "Build a simple prompt-to-video tool that writes scripts, plans scenes, generates consistent visuals, voices, captions and music, then exports or auto-posts short and long videos.",
@@ -5501,6 +5549,24 @@
       ],
       "score": 37.3,
       "found_at": "2026-11-11T15:27:34.403803+00:00"
+    },
+    {
+      "name": "Natural-language web page to spreadsheet extractor",
+      "field": "Data extraction / productivity",
+      "summary": "Describe columns in plain English, extract a clean table from the current page, preview/reorder columns, and copy to Sheets or download CSV/Excel using your own API key.",
+      "why_now": "ScooprDoopr was updated Nov 11, 2026 with a free 5-extractions/day tier and Pro at $6.99/mo; the store listing has no ratings yet, but adjacent AI scraper extensions show established demand.",
+      "monetization": "Pro is $6.99/mo or $49/yr via Polar; revenue is null.",
+      "evidence": [
+        "https://chromewebstore.google.com/detail/scooprdoopr-ai-table-data/ahdhofaekfifggnbgjajoaailndgogeb",
+        "https://extensionlaunch.com/product/scooprdoopr-ai-table-data-extractor-ahdhof"
+      ],
+      "how_searched": [
+        "Chrome Web Store listing",
+        "extension launch directory",
+        "adjacent extension comparison snippets"
+      ],
+      "score": 37.3,
+      "found_at": "2026-11-20T03:20:21.232166+00:00"
     }
   ]
 }
