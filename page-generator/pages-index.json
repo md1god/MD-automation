@@ -8014,5 +8014,13 @@
     "audio": "theme-calm.mp3",
     "date": "2026-11-20T05:59:18.053Z",
     "file": "pages/page-1002.html"
+  },
+  {
+    "id": "page-1003",
+    "title": "ثقة بلا وسيط",
+    "image": "code-trust.jpg",
+    "audio": "theme-horus.mp3",
+    "date": "2026-11-20T15:17:56.037Z",
+    "file": "pages/page-1003.html"
   }
 ]
