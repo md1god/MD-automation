@@ -483,25 +483,6 @@
       "found_at": "2026-11-18T14:05:02.462499+00:00"
     },
     {
-      "name": "Denial Appeal Studio",
-      "field": "Healthcare claims",
-      "summary": "A patient-side web tool that turns a denial letter and medical record into a cited appeal letter, tracks deadlines and escalates to the insurer or regulator, with HIPAA-grade controls.",
-      "why_now": "Claimable reports 3 in 4 reversals at $50 per case and more than $30 million recovered. Fewer than 1% of denied claims are appealed while insurers automate denials, leaving a large patient-side gap.",
-      "monetization": "Per-appeal fee, monthly subscription and enterprise or patient-support contracts.",
-      "evidence": [
-        "https://www.pymnts.com/news/artificial-intelligence/2026/insurance-denials-meet-their-match-in-ai-powered-appeals/",
-        "https://www.wabe.org/ai-powered-tool-claimable-helps-patients-fight-insurance-claim-denials/",
-        "https://www.getclaimable.com/post/claimable-debuts-ai-powered-enterprise-patient-access-platform"
-      ],
-      "how_searched": [
-        "news",
-        "company press release",
-        "search engine"
-      ],
-      "score": 84.0,
-      "found_at": "2026-10-31T05:49:36.587823+00:00"
-    },
-    {
       "name": "Stocky Successor: Free Shopify PO & Reorder Planner",
       "field": "E-commerce inventory tools",
       "summary": "A lightweight, free purchase-order, reorder-point and stocktake tool for small Shopify merchants left stranded after Stocky's shutdown — especially supplier rebuild, partial receiving and landed-cost gaps Shopify still doesn't cover.",
@@ -3345,23 +3326,6 @@
       "found_at": "2026-11-17T13:40:01.381162+00:00"
     },
     {
-      "name": "Agent Feed Auditor",
-      "field": "Agentic commerce / product data",
-      "summary": "An original web tool that audits a store's product feed against Google Merchant Center, ChatGPT and Shopify Catalog requirements, flags missing identifiers, attributes, shipping and returns, and generates per-platform fixes.",
-      "why_now": "AI shopping agents now filter products before showing them. AISell notes Google's Universal Cart launched in the US on 15 October 2026, while Adyen says feed readiness is still immature at most retailers because standard ecommerce feeds lack machine-readable, fresh data.",
-      "monetization": "Free feed scan; paid monitoring, multi-store dashboards, API access and agency seats.",
-      "evidence": [
-        "https://www.adyen.com/knowledge-hub/agentic-commerce-and-product-feeds-guide",
-        "https://aisell.com/article/product-feed-optimization-for-ai-agents"
-      ],
-      "how_searched": [
-        "industry guide",
-        "search engine"
-      ],
-      "score": 58.0,
-      "found_at": "2026-10-31T05:49:35.071930+00:00"
-    },
-    {
       "name": "Persistent Memory Layer for AI Coding Agents",
       "field": "AI developer tools",
       "summary": "An open-source, self-improving memory layer that lets AI coding agents (Claude Code, Cursor, Codex, and others) remember and reuse prior sessions.",
@@ -3839,6 +3803,24 @@
       ],
       "score": 54.7,
       "found_at": "2026-11-21T02:20:55.387069+00:00"
+    },
+    {
+      "name": "No-Timeline Template Video Editor",
+      "field": "creative tools",
+      "summary": "Rebuild as a free browser editor where users pick a trending template, replace text/photos/video, auto-sync captions and effects, and export square, vertical, or carousel posts.",
+      "why_now": "Product Hunt #1 Product of the Day on Nov 13 2026 with 391 upvotes and 95 comments. Official claims of 1.5M downloads and 3M+ videos show mass short-form demand.",
+      "monetization": "Free plus Pro at $4.99 weekly, $12.99 monthly, $39.99 annually, and $4.99 for 250 AI credits; revenue null.",
+      "evidence": [
+        "https://hunted.space/product/templify — Product of the Day 1st on Nov 13 2026, 391 upvotes, 95 comments, 1,200+ templates, 1M+ downloads, 3M+ videos, bootstrapped.",
+        "https://aitoolgyaan.org/en/review/templify-ai-review/ — Nov 14 2026 review, 4/5, Free and Pro pricing, 1,000+ templates, 1M+ downloads, mobile-only."
+      ],
+      "how_searched": [
+        "Product Hunt daily leaderboard November 2026 template video editor",
+        "Templify AI 1M downloads Product Hunt 2026",
+        "Templify AI review pricing templates 2026"
+      ],
+      "score": 54.7,
+      "found_at": "2026-11-21T17:38:59.849539+00:00"
     },
     {
       "name": "Multiplayer browser edu-game: parkour courses gated by times-tables quizzes",
