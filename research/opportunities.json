@@ -1153,26 +1153,6 @@
       "found_at": "2026-11-16T02:25:39.300599+00:00"
     },
     {
-      "name": "Single-sport video technique coach (Brawler pattern)",
-      "field": "AI sports coaching",
-      "summary": "Upload shadowboxing, bag, or sparring footage and get AI scoring for stance, guard, footwork, combinations, and head movement, plus drills and a round timer. Rebuild as a browser-based coach for one sport, with free uploads and paid personalized feedback.",
-      "why_now": "Brawler is RevenueCat-verified at $45,298 in the last 30 days and $23,109 MRR on TrustMRR (Oct 31, 2026); Shipped & Paid documented $55,118/30d on Oct 21, showing paid creator distribution can scale a narrow technique coach.",
-      "monetization": "Monthly/yearly subscription ($9.99/$59.99 at Brawler); free limited uploads, paid detailed breakdowns, coach-review add-ons, and sport-specific drill packs.",
-      "evidence": [
-        "https://shippedandpaid.com/cases/brawler-ai-boxing-coach-app-55k-month-rork/",
-        "https://trustmrr.com/startup/brawler",
-        "https://shippedandpaid.beehiiv.com/p/kolbo-ai-at-79k-a-month-and-brawler-at-55k-plus-30-more-ai-built-apps-with-verified-revenue"
-      ],
-      "how_searched": [
-        "Google search for verified AI fitness revenue",
-        "TrustMRR startup profiles",
-        "Shipped & Paid case studies",
-        "Cross-checked TrustMRR against case-study snapshots"
-      ],
-      "score": 78.0,
-      "found_at": "2026-10-31T17:50:21.703716+00:00"
-    },
-    {
       "name": "Directify (AI no-code directory website builder)",
       "field": "no-code site builders",
       "summary": "Describe a vertical in one sentence; AI generates categories, listings, page design and SEO for a directory site, with custom domains and payments.",
@@ -1601,26 +1581,6 @@
       "found_at": "2026-11-18T14:05:04.622704+00:00"
     },
     {
-      "name": "AI ebook-to-publish pipeline (GETebook pattern)",
-      "field": "AI publishing",
-      "summary": "Turn a topic, audience, and tone into an outline, chapters, cover art, and export-ready PDF/EPUB/Word. Rebuild as a free browser editor with paid exports, cover templates, and KDP formatting checks.",
-      "why_now": "GETebook.ai is Stripe-verified at $10,886 MRR, 228 active subscriptions, and $155,690 all-time on TrustMRR (Oct 31, 2026); Shipped & Paid highlights its outcome-led ads as a repeatable playbook.",
-      "monetization": "Subscription plus one-off export/formatting credits; affiliate links to editing, cover, and self-publishing services; team seats.",
-      "evidence": [
-        "https://trustmrr.com/startup/getebook-ai",
-        "https://starbelo.com/use-case/getebook-ai-publish-ready-ebooks/",
-        "https://shippedandpaid.beehiiv.com/p/kolbo-ai-at-79k-a-month-and-brawler-at-55k-plus-30-more-ai-built-apps-with-verified-revenue"
-      ],
-      "how_searched": [
-        "TrustMRR revenue profiles",
-        "Shipped & Paid issue and case notes",
-        "Google search for AI ebook revenue",
-        "Cross-checked third-party revenue mirrors"
-      ],
-      "score": 75.0,
-      "found_at": "2026-10-31T17:50:23.125517+00:00"
-    },
-    {
       "name": "AI Product Photo Studio for Small Stores",
       "field": "E-commerce / creative",
       "summary": "Turns phone photos into clean catalog, lifestyle and ad-ready product images with background replacement, lighting fixes and brand presets.",
@@ -1696,26 +1656,6 @@
       ],
       "score": 75.0,
       "found_at": "2026-11-18T04:23:44.981117+00:00"
-    },
-    {
-      "name": "ADA/WCAG compliance scanner and widget for Shopify",
-      "field": "ecommerce accessibility",
-      "summary": "Scan a storefront for WCAG issues, generate AI alt text, add an accessibility widget, and sell remediation/monitoring. Rebuild as a free scanner with paid fixes, monitoring, and a white-label widget.",
-      "why_now": "Shopify accessibility apps are growing fast: StoreCensus shows Ez Accessibility +7,770.6% and Accessibility Assistant +1,705.1% over 90 days; Shoplist tracks hundreds of stores on leading widgets, and Accessify charges $8-$18/mo on Shopify.",
-      "monetization": "Freemium widget; paid monitoring and remediation subscriptions; per-audit reports; agency white-label.",
-      "evidence": [
-        "https://apps.shopify.com/accessify-web-accessibility",
-        "https://www.storecensus.com/stats/most-popular-shopify-accessibility-apps",
-        "https://shoplist.co/shopify-apps/rankings/store-design-site-optimization-accessibility"
-      ],
-      "how_searched": [
-        "Shopify App Store",
-        "StoreCensus category rankings",
-        "Shoplist weekly charts",
-        "Google search for accessibility app pricing"
-      ],
-      "score": 74.0,
-      "found_at": "2026-10-31T17:50:26.244559+00:00"
     },
     {
       "name": "Consumer Deepfake & AI-Image Verifier",
@@ -1855,26 +1795,6 @@
       "found_at": "2026-11-19T21:41:40.252211+00:00"
     },
     {
-      "name": "Shopify SEO and page-speed audit",
-      "field": "Shopify SEO",
-      "summary": "Audit meta tags, alt text, structured data, broken links, image weight, and AI-search visibility, then generate fixes. Rebuild as a free store scanner with paid auto-fixes and monitoring.",
-      "why_now": "StoreCensus ranks Smart SEO AI & Image Optimizer #1 fastest-growing Shopify app with 19,169 current installs and +1,916,800% 90-day growth; the app has 961 reviews at 5.0 and charges $14.99/mo.",
-      "monetization": "Freemium scan; monthly subscription for auto-fixes, IndexNow, monitoring, and AI-search visibility; agency plans.",
-      "evidence": [
-        "https://apps.shopify.com/smart-seo",
-        "https://www.storecensus.com/stats/fastest-growing-shopify-apps",
-        "https://shoplist.co/shopify-apps/sherpas-smart-seo"
-      ],
-      "how_searched": [
-        "Shopify App Store",
-        "StoreCensus fastest-growing apps",
-        "Shoplist app page",
-        "Google search for Shopify SEO app growth"
-      ],
-      "score": 73.0,
-      "found_at": "2026-10-31T17:50:27.179452+00:00"
-    },
-    {
       "name": "Photo-to-Repair Estimate for Used Cars",
       "field": "Insurtech / automotive",
       "summary": "Consumers upload photos of car damage and get a likely repair-cost range, damage severity and a shareable inspection report before buying or claiming.",
@@ -1993,26 +1913,6 @@
       ],
       "score": 73.0,
       "found_at": "2026-11-18T04:23:46.367877+00:00"
-    },
-    {
-      "name": "Personalized healthy restaurant menu",
-      "field": "healthy dining",
-      "summary": "Tell users exactly what to order at any restaurant based on goals, macros, preferences, and restrictions. Rebuild as a free web/mobile guide with paid personalized plans, saved meals, and grocery/order links.",
-      "why_now": "MenuFit has 55K App Store ratings at 4.8 and ranks #7 in US Health & Fitness (Oct 31, 2026); Google Play shows 17.2K reviews at 4.7, and the app charges $9.99/mo or $19.99/yr.",
-      "monetization": "Freemium subscription; affiliate links to delivery/grocery; branded meal plans; B2B wellness partnerships.",
-      "evidence": [
-        "https://apps.apple.com/us/app/menufit-healthy-eating-out/id6746144481",
-        "https://menufit.com/",
-        "https://play.google.com/store/apps/details?hl=en&id=com.myhealthymenu.app"
-      ],
-      "how_searched": [
-        "App Store search and rankings",
-        "Google Play listing",
-        "Company website",
-        "Fledly young-app category data"
-      ],
-      "score": 72.0,
-      "found_at": "2026-10-31T17:50:29.112310+00:00"
     },
     {
       "name": "Podcast transcript search engine: keyword search inside millions of episodes",
@@ -2193,26 +2093,6 @@
       "found_at": "2026-11-19T03:32:44.320522+00:00"
     },
     {
-      "name": "AI screenwriting and storyboard workspace (Laper pattern)",
-      "field": "AI screenwriting",
-      "summary": "A script-first workspace for formatting, structure visualization, collaboration, and storyboard/production entities. Rebuild as a free web screenplay editor with paid AI notes, production breakdowns, and collaboration.",
-      "why_now": "Laper is Stripe-verified at $49,325 MRR, 1,523 active subscriptions, and $196,754 all-time on TrustMRR (Oct 31, 2026), with third-party case studies tracking rapid growth since September 2025.",
-      "monetization": "Per-seat subscription; paid AI coverage/structure notes; production-export credits; studio/team plans.",
-      "evidence": [
-        "https://trustmrr.com/startup/laper",
-        "https://imademoneywithai.com/case-studies/laper/",
-        "https://starbelo.com/use-case/laper-ai-screenwriting-storyboard-os/"
-      ],
-      "how_searched": [
-        "TrustMRR",
-        "AI revenue case-study aggregators",
-        "Google search for screenwriting SaaS revenue",
-        "Cross-checked MRR and subscription counts"
-      ],
-      "score": 71.0,
-      "found_at": "2026-10-31T17:50:24.141409+00:00"
-    },
-    {
       "name": "AI niche-directory website builder: one sentence to a live, monetized directory",
       "field": "Web publishing / no-code builders",
       "summary": "A web tool that turns a one-sentence idea (like 'wedding vendors in Texas') into a live, SEO-ready directory with listings, categories and built-in payment collection, letting owners charge businesses for placement. Directify was acquired for $85K and keeps growing under its new owner.",
@@ -2250,46 +2130,6 @@
       ],
       "score": 71.0,
       "found_at": "2026-11-15T17:29:02.022943+00:00"
-    },
-    {
-      "name": "Image-to-vector converter for makers (VectoSolve pattern)",
-      "field": "image vectorization",
-      "summary": "Convert PNG/JPG/WEBP into editable SVG plus DXF, G-code, and embroidery formats for Cricut, laser, CNC, and embroidery users. Rebuild as a free converter with paid batch/API exports and niche presets.",
-      "why_now": "VectoSolve is Stripe-verified at about $3.3K in the last 30 days, $1.6K MRR, and $22K all-time on TrustMRR (Oct 31, 2026); Shipped & Paid notes roughly half its revenue is one-time credit packs, so the free-tool funnel is proven.",
-      "monetization": "Credit packs plus subscription; API/batch plans; affiliate links to machines, materials, and design marketplaces.",
-      "evidence": [
-        "https://shippedandpaid.com/cases/vectosolve-png-to-svg-converter-2-7k-month-claude-code-manus/",
-        "https://trustmrr.com/startup/vectosolve",
-        "https://aiolum.com/story/vectosolve/"
-      ],
-      "how_searched": [
-        "Shipped & Paid case study",
-        "TrustMRR",
-        "Google search for vectorizer revenue",
-        "Cross-checked revenue trend and pricing"
-      ],
-      "score": 70.0,
-      "found_at": "2026-10-31T17:50:25.022211+00:00"
-    },
-    {
-      "name": "Open-source alternatives directory",
-      "field": "software directory",
-      "summary": "A searchable directory of open-source alternatives to paid software, monetized with sponsor slots and featured listings. Rebuild as a free niche directory with comparisons, migration guides, and paid placement.",
-      "why_now": "OpenAlternative is Stripe-verified at about $6.2K-$6.4K MRR from 24-25 subscriptions and $123K-$127K all-time (Oct 2026); its /advertise page sells $147-$597/mo slots to a claimed 220K monthly visitors.",
-      "monetization": "Sponsored listings and category placements; featured launches; affiliate/hosting referrals; paid migration guides.",
-      "evidence": [
-        "https://www.wlad.me/blog/companies/openalternative",
-        "https://openalternative.co/advertise",
-        "https://trustmrr.com/startup/openalternative"
-      ],
-      "how_searched": [
-        "Boring SaaS revenue case",
-        "OpenAlternative advertising page",
-        "TrustMRR",
-        "Google search for directory MRR"
-      ],
-      "score": 70.0,
-      "found_at": "2026-10-31T17:50:28.366451+00:00"
     },
     {
       "name": "AI field-inspection report generator: photos and voice notes to a finished PDF",
@@ -2492,26 +2332,6 @@
       ],
       "score": 70.0,
       "found_at": "2026-11-19T03:32:44.546399+00:00"
-    },
-    {
-      "name": "General resale-value scanner",
-      "field": "resale valuation",
-      "summary": "Scan household items, collectibles, tools, and electronics to identify them, estimate resale value from comps, and generate marketplace listings. Rebuild as a free web scanner with paid deep scans, portfolio tracking, and listing exports.",
-      "why_now": "Value Scout has 619 App Store ratings at 4.4 and ranks #18 Top Grossing Shopping (AppMarketSpy, Oct 2026); the app sells weekly/yearly plans from $4.99 to $119.99 and targets the broader resale market beyond trading cards.",
-      "monetization": "Subscription for deep scans and portfolio tracking; one-off appraisal reports; affiliate links to marketplaces; seller tools.",
-      "evidence": [
-        "https://apps.apple.com/us/app/value-scout-ai-value-scanner/id6758783772",
-        "https://thevaluescout.app/",
-        "https://appmarketspy.com/app/value-scout-ai-value-scanner-6758783772"
-      ],
-      "how_searched": [
-        "App Store",
-        "AppMarketSpy rankings",
-        "Company website",
-        "Fledly resale-scanner category data"
-      ],
-      "score": 69.0,
-      "found_at": "2026-10-31T17:50:32.405154+00:00"
     },
     {
       "name": "AI guardrails / prompt-injection & output-safety checker",
@@ -2795,26 +2615,6 @@
       ],
       "score": 67.0,
       "found_at": "2026-11-18T04:23:50.684904+00:00"
-    },
-    {
-      "name": "AI craft-pattern generator",
-      "field": "AI crafting",
-      "summary": "Generate crochet/knitting patterns from a text idea or photo, with stitch math, materials, and step-by-step instructions. Rebuild as a free pattern generator with paid PDF exports, advanced sizing, and project tracking.",
-      "why_now": "AppGoblin estimates YarnPal at 4.6M installs, 256K ratings, and $10K+ monthly revenue; Appto estimates the top three crochet/sewing apps at $857K+/mo combined (Oct 16, 2026), and Fledly flags craft-pattern apps as a repeating young-app category.",
-      "monetization": "Freemium pattern generation; subscription for unlimited patterns and PDF export; pattern marketplace commissions; affiliate yarn links.",
-      "evidence": [
-        "https://appgoblin.info/apps/com.yarnpal.ai",
-        "https://appto.store/ideas/crochet-app",
-        "https://fledly.app/blog/young-apps-us-top-grossing-october-2026/"
-      ],
-      "how_searched": [
-        "App store analytics",
-        "Appto category estimates",
-        "Fledly young-app report",
-        "Google search for crochet app revenue"
-      ],
-      "score": 66.0,
-      "found_at": "2026-10-31T17:50:33.960795+00:00"
     },
     {
       "name": "Browser Screen Recorder with Auto-Zoom and Cursor Effects",
@@ -3433,21 +3233,21 @@
       "found_at": "2026-11-21T02:20:53.471227+00:00"
     },
     {
-      "name": "Rezi",
-      "field": "AI resume builder / job search",
-      "summary": "AI-powered resume builder that tailors resumes to job descriptions and ATS systems, with an AI resume agent, keyword targeting, templates and interview prep.",
-      "why_now": "Verified revenue of about $209,880 in the last 30 days and $241,858 MRR across 10,034 subscriptions (TrustMRR, Stripe-verified, Oct 31 2026); ~4.8M users and ranked #1 AI resume builder by Forbes; job seekers actively need ATS-friendly resumes.",
-      "monetization": "Freemium: Free $0, Pro $29/mo, Lifetime $149 one-time; enterprise tier; revenue verified via Stripe.",
+      "name": "DataFast",
+      "field": "Web analytics",
+      "summary": "Revenue-first analytics that attributes traffic sources to Stripe/Lemon Squeezy/Polar payments so founders see which channels bring paying customers.",
+      "why_now": "Stripe-verified MRR rose from about $15.8K in Jan 2026 to roughly $27-31K by Nov 2026, with ~1,300 active subscriptions and ~25.8K users.",
+      "monetization": "SaaS subscriptions from $9/month by monthly event volume; ~$28-31K MRR and ~$346K all-time revenue.",
       "evidence": [
-        "https://trustmrr.com/startup/rezi",
-        "https://www.rezi.ai"
+        "https://trustmrr.com/startup/datafast",
+        "https://indiemakerlist.com/revenue/datafast/"
       ],
       "how_searched": [
-        "TrustMRR verified revenue",
-        "product site"
+        "verified revenue leaderboard (TrustMRR)",
+        "maker revenue directory"
       ],
-      "score": 56.7,
-      "found_at": "2026-10-31T21:48:28.672344+00:00"
+      "score": 57.3,
+      "found_at": "2026-11-21T23:34:19.208244+00:00"
     },
     {
       "name": "ParakeetAI",
@@ -3735,23 +3535,6 @@
       "found_at": "2026-11-13T22:46:28.608056+00:00"
     },
     {
-      "name": "SuperX",
-      "field": "X (Twitter) growth analytics",
-      "summary": "Web app plus Chrome extension for finding viral X posts, analyzing accounts, drafting, scheduling and engagement workflows.",
-      "why_now": "Creators and founders monetize X audiences; SuperX hit roughly $23,000 MRR within six months and still shows about $17,700 MRR with 422 active subscriptions.",
-      "monetization": "Pro $49/month, Advanced $99/month (launch price $49) and Ultra $199/month; about $17,718 MRR, $270,606 all-time revenue and 122,500 monthly visits.",
-      "evidence": [
-        "https://www.indiehackers.com/post/tech/hitting-23k-mrr-in-six-months-after-five-failures-4d64o9ev4AXXhX9ogHQQ",
-        "https://trustmrr.com/startup/superx"
-      ],
-      "how_searched": [
-        "founder interview (Indie Hackers)",
-        "verified revenue tracker (TrustMRR)"
-      ],
-      "score": 54.7,
-      "found_at": "2026-11-17T13:40:04.677443+00:00"
-    },
-    {
       "name": "GoMotion AI",
       "field": "AI video generation for faceless YouTube channels",
       "summary": "A web app that turns a script into a finished long-form YouTube documentary with voiceover, matched footage, captions, motion graphics, and music.",
@@ -3823,6 +3606,23 @@
       "found_at": "2026-11-21T17:38:59.849539+00:00"
     },
     {
+      "name": "Comp AI",
+      "field": "Compliance automation",
+      "summary": "AI compliance platform automating SOC 2, ISO 27001, HIPAA and GDPR evidence collection, policy generation and continuous monitoring.",
+      "why_now": "TrustMRR shows about $0.9-1.05M in 30-day Stripe collections and roughly $6.7-6.9M all-time, with 1,000+ reported customers.",
+      "monetization": "Quoted annual contracts and subscriptions; verified Stripe collections around $1.05M per 30 days, MRR about $17-20K.",
+      "evidence": [
+        "https://trustmrr.com/startup/comp-ai",
+        "https://untoldstartups.com/stories/comp-ai-lewis-carhart-ai-compliance-6-9m-revenue"
+      ],
+      "how_searched": [
+        "verified revenue leaderboard (TrustMRR)",
+        "startup revenue reporting"
+      ],
+      "score": 54.7,
+      "found_at": "2026-11-21T23:34:21.221147+00:00"
+    },
+    {
       "name": "Multiplayer browser edu-game: parkour courses gated by times-tables quizzes",
       "field": "EdTech / browser games",
       "summary": "A free browser-based multiplayer parkour game where multiplication quizzes gate progression — the Roblox 'obby' genre moved to the web for classrooms and homes. 3x3 Speed Escape is currently exploding in search demand.",
@@ -3875,23 +3675,6 @@
       ],
       "score": 54.0,
       "found_at": "2026-11-14T10:41:15.863735+00:00"
-    },
-    {
-      "name": "1Lookup",
-      "field": "Data verification & enrichment API",
-      "summary": "Single API for real-time phone, email and IP validation plus 74 enrichment/intelligence products, with a hosted MCP server for AI agents.",
-      "why_now": "Verified revenue of $495,875 in the last 30 days and $272,326 MRR across 747 subscriptions (TrustMRR, Stripe-verified, Oct 31 2026); ~$5.69M all-time; strong demand from fraud prevention and lead cleaning.",
-      "monetization": "Usage-based credits (1 credit per phone/email/IP check) with paid plans and a 7-day trial; Stripe-verified.",
-      "evidence": [
-        "https://trustmrr.com/startup/1lookup",
-        "https://www.1lookup.io/products"
-      ],
-      "how_searched": [
-        "TrustMRR verified revenue",
-        "product site"
-      ],
-      "score": 53.3,
-      "found_at": "2026-10-31T21:48:29.267407+00:00"
     },
     {
       "name": "Website screenshot API and web tool (ScreenshotOne model)",
@@ -4090,23 +3873,6 @@
       "found_at": "2026-11-19T21:41:39.055107+00:00"
     },
     {
-      "name": "AI multi-model creative studio",
-      "field": "AI creative tools (image/video/audio)",
-      "summary": "Web workspace aggregating 40-100+ leading AI image, video and audio models in one subscription with UGC ads, AI influencers, workflow canvas and MCP integration (PromptWise, Kolbo.AI, CreativeClaw).",
-      "why_now": "Multiple independent products show paid demand: PromptWise $94,800/30d with $65,400 MRR, Kolbo.AI $89,213/30d with $38,793 MRR, CreativeClaw $108,340/30d (TrustMRR, Oct 31 2026); creators want one subscription instead of many.",
-      "monetization": "Subscriptions from $19-27/mo up to $149/mo plus credit packs; verified via Stripe/Polar.",
-      "evidence": [
-        "https://trustmrr.com/startup/creativeclaw",
-        "https://trustmrr.com/startup/kolbo-ai"
-      ],
-      "how_searched": [
-        "TrustMRR verified revenue",
-        "product sites"
-      ],
-      "score": 52.0,
-      "found_at": "2026-10-31T21:48:29.770136+00:00"
-    },
-    {
       "name": "Prompt-to-UI design generator (AI Designer model)",
       "field": "Design tools / AI UI",
       "summary": "Web tool that generates polished UI screens, logos, brand kits and images from short text prompts.",
@@ -4196,6 +3962,23 @@
       ],
       "score": 52.0,
       "found_at": "2026-11-20T03:20:17.494435+00:00"
+    },
+    {
+      "name": "LLM Gateway",
+      "field": "AI infrastructure",
+      "summary": "Open-source API gateway that routes requests across LLM providers, centralizes API keys, and tracks token usage and costs.",
+      "why_now": "TrustMRR recorded $78.8K MRR, 1,386 subscriptions and $259.5K in 30-day revenue before the Stripe key expired; founder later reported $1.2M+ gross all-time revenue.",
+      "monetization": "Free self-hosting plus 5% fee on hosted credits, DevPass plans, enterprise licensing; verified $78.8K MRR at last sync.",
+      "evidence": [
+        "https://trustmrr.com/startup/llm-gateway",
+        "https://smakosh.com/blog/llm-gateway-flat-rate-economics"
+      ],
+      "how_searched": [
+        "verified revenue leaderboard (TrustMRR)",
+        "founder revenue retrospective"
+      ],
+      "score": 52.0,
+      "found_at": "2026-11-21T23:34:21.650087+00:00"
     },
     {
       "name": "SocialClaw",
@@ -4358,6 +4141,23 @@
       ],
       "score": 50.7,
       "found_at": "2026-11-21T02:20:58.214188+00:00"
+    },
+    {
+      "name": "Screen Studio",
+      "field": "Screen recording",
+      "summary": "Screen recorder that automatically smooths cursor movement and applies cinematic auto-zoom/editing for polished demos and tutorials.",
+      "why_now": "Founder-reported ~$30K first month and six-figure monthly revenue, with ~25,000 monthly active users and 25+ clone launches defining against it.",
+      "monetization": "Subscription pricing at $29/month or $108/year (legacy one-time licenses still valid); estimated ~$33K monthly revenue.",
+      "evidence": [
+        "https://trends.vc/opportunities/companies/screen-studio",
+        "https://www.starterstory.com/screen-studio-breakdown"
+      ],
+      "how_searched": [
+        "screen-recording market analysis",
+        "founder revenue reporting"
+      ],
+      "score": 50.7,
+      "found_at": "2026-11-21T23:34:22.342266+00:00"
     },
     {
       "name": "LiveReview (risk-aware AI code review, auto-approve safe PRs)",
@@ -4536,6 +4336,23 @@
       "found_at": "2026-11-20T03:20:17.802040+00:00"
     },
     {
+      "name": "Launch Fast",
+      "field": "Amazon seller research",
+      "summary": "Chrome extension plus dashboard that scores Amazon niches, estimates revenue/units, checks IP and tracks rank for private-label sellers.",
+      "why_now": "Founder-reported growth from $10K MRR at day 30 to about $30K MRR by mid-2026 with 330 paying extension users.",
+      "monetization": "Subscription-only plans at $49/$89/$199 per month (annual options) with no free tier; self-reported ~$30K MRR.",
+      "evidence": [
+        "https://www.sofarbot.com/stories/launch-fast-hasaam-bhatti-30000-mrr",
+        "https://stealwhatworks.com/blogs/news/chrome-extensions-over-10k-month-now"
+      ],
+      "how_searched": [
+        "founder interview reconstruction",
+        "Chrome extension revenue analysis"
+      ],
+      "score": 49.3,
+      "found_at": "2026-11-21T23:34:20.364460+00:00"
+    },
+    {
       "name": "Back-office web tool for disability care providers: scheduling, notes and AI progress reports",
       "field": "Health & human services / vertical SaaS",
       "summary": "A vertical web tool for disability/IDD service providers covering attendance, service documentation, medication tracking and AI-generated progress notes and reports. Kibu proves the vertical, counting The Arc, YMCA, UCP and Chimes among customers.",
@@ -4606,21 +4423,21 @@
       "found_at": "2026-11-14T10:41:17.465947+00:00"
     },
     {
-      "name": "Pastel",
-      "field": "B2B sales intelligence / social intent",
-      "summary": "AI platform that monitors LinkedIn, X, Reddit and 20+ networks for buying-intent conversations, enriches leads with verified contact data and automates outreach.",
-      "why_now": "Verified revenue of $6,419,480 in the last 30 days via Shopify (TrustMRR, Oct 24 2026); founded September 2026 and already ranked #21 on TrustMRR; cold outbound demand shifting to intent-based selling.",
-      "monetization": "Subscriptions starting at 99 EUR/mo with free enrichment/outreach; Shopify-verified revenue.",
+      "name": "SuperX",
+      "field": "Social media growth",
+      "summary": "X growth platform combining viral-post discovery, analytics, AI writing, scheduling and a Chrome extension built into X.",
+      "why_now": "Reported $1K MRR on launch day and about $23K MRR within six months, with ~650 paying customers and 20-25% monthly growth.",
+      "monetization": "$39-199/month subscriptions; founder-reported ~$23K MRR and 30% trial-to-paid conversion.",
       "evidence": [
-        "https://trustmrr.com/startup/pastel",
-        "https://heypastel.com"
+        "https://www.indiehackers.com/post/tech/hitting-23k-mrr-in-six-months-after-five-failures-4d64o9ev4AXXhX9ogHQQ",
+        "https://stealwhatworks.com/blogs/news/chrome-extensions-over-10k-month-now"
       ],
       "how_searched": [
-        "TrustMRR verified revenue",
-        "product site"
+        "founder interview (Indie Hackers)",
+        "Chrome extension revenue analysis"
       ],
       "score": 48.0,
-      "found_at": "2026-10-31T21:48:30.663251+00:00"
+      "found_at": "2026-11-21T23:34:20.749373+00:00"
     },
     {
       "name": "Beacon (cross-harness memory for AI coding agents)",
@@ -5107,6 +4924,23 @@
       "found_at": "2026-11-20T11:51:50.639481+00:00"
     },
     {
+      "name": "Perit Marketplace",
+      "field": "AI training data marketplace",
+      "summary": "Marketplace connecting data owners and domain experts with frontier AI labs for datasets and RL tasks/benchmarks.",
+      "why_now": "YC F26 company reported crossing $9-11M in 4.5 months, with 29 listed datasets and expert task workbench demand.",
+      "monetization": "B2B data and RL-task sales to AI labs; self-reported $9-11M revenue in 4.5 months, contributor payouts on adoption.",
+      "evidence": [
+        "https://www.producthunt.com/products/perit-marketplace",
+        "https://www.ycombinator.com/companies/peritai"
+      ],
+      "how_searched": [
+        "launch platform (Product Hunt)",
+        "accelerator company page (Y Combinator)"
+      ],
+      "score": 45.3,
+      "found_at": "2026-11-21T23:34:23.332885+00:00"
+    },
+    {
       "name": "Anti-Slop Design Grader (agent UI taste checker)",
       "field": "Design quality tooling for AI output",
       "summary": "Free web tool that scores AI-generated pages/UI against a 'design vocabulary' (spacing, type, hierarchy) and returns concrete fixes — turning the hottest agent-skill genre into a browser tool.",
@@ -5230,21 +5064,21 @@
       "found_at": "2026-11-20T03:20:19.674374+00:00"
     },
     {
-      "name": "LLM Gateway",
-      "field": "LLM API gateway / developer tools",
-      "summary": "Open-source OpenAI-compatible gateway routing requests across 40+ providers and 200+ models with cost tracking, caching, failover and embeddable payments.",
-      "why_now": "Verified revenue of $259,539 in the last 30 days and $78,764 MRR across 1,386 subscriptions (TrustMRR); developers need one endpoint and cost visibility across providers.",
-      "monetization": "5% platform fee on prepaid credits, free BYOK and free self-hosted AGPLv3; DevPass/Lounge add-ons.",
+      "name": "RankSpot",
+      "field": "SEO and AI search",
+      "summary": "Pay-as-you-go SEO execution layer for AI agents: AI visibility checks, article generation/publishing, keyword/backlink updates and outreach.",
+      "why_now": "TrustMRR verifies Stripe revenue and shows a Product Hunt #1 daily launch in May 2026 plus 93% 30-day growth in one tracker, though revenue later fell to about $1.2-3.0K per 30 days.",
+      "monetization": "No subscription; per-action pricing such as $3/article and $0.004/prompt check, with ~$1.35K MRR and ~$15.6K all-time revenue.",
       "evidence": [
-        "https://trustmrr.com/startup/llm-gateway",
-        "https://llmgateway.io/pricing"
+        "https://trustmrr.com/startup/rankspot",
+        "https://quietmoney.000ooo.ooo/s/rankspot.ai/"
       ],
       "how_searched": [
-        "TrustMRR verified revenue",
-        "product site"
+        "verified revenue leaderboard (TrustMRR)",
+        "startup revenue dossier"
       ],
-      "score": 43.3,
-      "found_at": "2026-10-31T21:48:31.115156+00:00"
+      "score": 44.0,
+      "found_at": "2026-11-21T23:34:22.859788+00:00"
     },
     {
       "name": "AI headshot generator",
