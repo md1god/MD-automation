@@ -21,6 +21,27 @@
       "found_at": "2026-11-17T04:13:40.806308+00:00"
     },
     {
+      "name": "AI Answer Share-of-Voice Auditor for Local Brands",
+      "field": "Marketing / AI search / SEO",
+      "summary": "A free web tool that takes a domain, competitor set, country, and 20 target prompts, then reports where the brand is cited across AI answers, why competitors won the citation, missing source pages, sentiment, and a weekly fix list; paid plans add daily monitoring and agency workspaces.",
+      "why_now": "Dageno AI 2.0 launched on 2026-11-09 with 388 Product Hunt votes and 89 comments, covering 12,000+ niche markets, 3M+ brands, nine AI platforms, and 86+ countries. Hunted.Space shows Dageno AI 2.0 at 375 votes/63 comments in November marketing products, while Launch Index shows RankSpot at 417 votes and EkLine at 261 votes in the same week. A Yahoo headline forecasts GEO software reaching $4.12B by 2036 at 27.3% CAGR.",
+      "monetization": "Free one-off audit; paid continuous prompt tracking, competitor alerts, citation-repair recommendations, multi-location dashboards, and white-label agency reports.",
+      "evidence": [
+        "https://chatgate.ai/post/dageno-ai-2-0",
+        "https://www.hunted.space/top-products/2026/November",
+        "https://launchindex.ai/week/2026-11-16",
+        "https://finance.yahoo.com/technology/ai/articles/generative-engine-optimization-geo-software-153900636.html"
+      ],
+      "how_searched": [
+        "Product Hunt launch rankings",
+        "launch aggregator scans",
+        "GEO market forecast search",
+        "AI search visibility tool queries"
+      ],
+      "score": 92.0,
+      "found_at": "2026-11-21T02:20:52.716786+00:00"
+    },
+    {
       "name": "Vibe App Security Scanner",
       "field": "AI app security",
       "summary": "A free URL scanner for apps built with Lovable, Bolt, v0 and Supabase that detects public database tables, leaked keys, missing auth checks and exposed PII, then sells continuous monitoring and fix guidance. It targets the fast-growing vibe-coding market rather than generic websites.",
@@ -98,34 +119,25 @@
       "found_at": "2026-11-13T08:04:52.480209+00:00"
     },
     {
-      "name": "AI Agent Website Readiness Scanner",
-      "field": "Agentic web / AI crawler compatibility",
-      "summary": "A free web tool that audits any domain the way AI agents (ChatGPT, Claude, shopping agents) actually fetch and use it — bot walls, JS-only pricing pages, missing llms.txt/MCP/OpenAPI — then scores it and hands back machine-readable fixes.",
-      "why_now": "This category exploded in the last 72 hours: Dedica launched on Product Hunt Oct 28 with a free score and $30 fix kit; Cloudflare shipped an Agent Readiness Scanner; AgentCan and AgentsReady went live with free checkers; independent crawls show only ~64/100 mean readiness, ~14% llms.txt adoption, and 17% of popular sites serving bot walls to non-browser clients. Crawlcheck measured 139,788 homepages and found 6.3% blocking AI crawlers and 28% of SaaS sites publishing llms.txt — a fast-moving, measurable gap.",
-      "monetization": "Dedica: free score, $30 one-time per-site fix kit (normally $50). Adjacent buyers: agencies selling agent-readiness audits ($500–1,500 per audit per Rank Prompt-style packaging).",
+      "name": "AI-Written PR Risk Triage and Auto-Merge Gate",
+      "field": "Developer tools / code review / DevOps",
+      "summary": "A free web app that ingests a GitHub PR or pasted diff, ranks regression, auth, data-loss, and rollback risk, recommends which files need human review, and produces an auto-approve eligibility report; paid plans add GitHub App checks and team policy controls.",
+      "why_now": "LiveReview launched 2026-11-07 around the claim that AI made code cheap to write while review stayed expensive, with a 40-50% low-risk PR auto-approval angle. Hunted.Space shows LiveReview at 252 votes/52 comments in November GitHub products, and arXiv 2611.18939v1, submitted 2026-11-13, uses interviews n=24 and a survey n=2,590 to document the AI-code-review bottleneck. Launch Index reports 28 of 477 developer-tool launches got traction that week.",
+      "monetization": "Free PR risk score; paid GitHub/GitLab app, risk-policy presets, review-time analytics, audit logs, and team seats.",
       "evidence": [
-        "https://getdedica.com/",
-        "https://www.powerfulai.tools/tool/details/dedica",
-        "https://freshweights.com/launch/dedica-free-checker-that-scores-whether-ai-agents-can-actually-use-a/",
-        "https://web-bot-auth.chambers.cfdata.org/",
-        "https://www.agentsready.dev/",
-        "https://agentcan.dev/",
-        "https://mindpattern.ai/s/2026-10-29-your-next-signup-is-an-agent-and-google-says-ai-answers-earn-less",
-        "https://thegenaimagazine.com/dedica-ai-agent-website-audit-guide-five-use-cases",
-        "https://crawlindex.org/reports/2026-10",
-        "https://crawlcheck.io/blog/state-of-ai-visibility-october-2026-139788-homepages",
-        "https://docketseo.app/index/llms-txt-adoption-2026-10/",
-        "https://shotlane.dev/research/ai-readiness-2026"
+        "https://journal.hexmos.com/introducing-livereview/",
+        "https://arxiv.org/abs/2611.18939v1",
+        "https://www.hunted.space/top-products/2026/November",
+        "https://launchindex.ai/week/2026-11-16"
       ],
       "how_searched": [
-        "Product Hunt daily/monthly leaderboards",
-        "independent crawler measurement studies (CrawlIndex, Crawlcheck, DocketSEO, Shotlane, Wandered)",
-        "vendor product pages and docs",
-        "news/analysis (MindPattern, GenAI Magazine, Fresh Weights)",
-        "Cloudflare official scanner docs"
+        "developer launch rankings",
+        "Show HN and Product Hunt scans",
+        "academic paper search",
+        "vendor teardown review"
       ],
-      "score": 88.0,
-      "found_at": "2026-10-30T14:20:25.205423+00:00"
+      "score": 89.0,
+      "found_at": "2026-11-21T02:20:53.178783+00:00"
     },
     {
       "name": "Privacy-first PDF bank statement converter",
@@ -352,40 +364,6 @@
       "found_at": "2026-11-20T11:51:46.867933+00:00"
     },
     {
-      "name": "Promptless Product-Photo to Video Ad Generator",
-      "field": "Ecommerce AI creative / performance ads",
-      "summary": "Upload one product photo (or paste a Shopify URL) and get finished UGC-style video ads with script, voiceover, captions and 9:16/1:1/16:9 cuts in minutes — no prompt engineering, no shoot.",
-      "why_now": "CreativeClaw (MCP creative studio inside ChatGPT/Claude) hit $106–108K in 30 days (Polar-verified), up from $5K two months earlier. Upwork's Sept 2026 data shows 'AI video' as the #1 most-searched AI term with +329% YoY demand. Shopify's ads category is filling with AI-ad apps (Promer, Predis, AdScale, Lensia, Kluck); ChatGPT Ads just took the #1 organic ads-app rank. Dozens of paid tools ($19–199/mo) prove willingness to pay for exactly this workflow.",
-      "monetization": "Credit packs ($10 = 1,000 credits on CreativeClaw; ~$4 for a finished 15s ad) and subscriptions ($19–199/mo on Shopify apps; Rasgo $19.99/mo). CreativeClaw: $11.7K MRR + heavy one-time credits, ~76% of lifetime revenue in last 30 days.",
-      "evidence": [
-        "https://trustmrr.com/startup/creativeclaw",
-        "https://aiolum.com/story/creativeclaw/",
-        "https://bizpeel.com/project/creativeclaw",
-        "https://openai.com/business/plugins/creative-claw/",
-        "https://creativeclaw.co/ai-ad-generator/",
-        "https://creativeclaw.co/pricing/",
-        "https://apps.shopify.com/adcreator-ai",
-        "https://shhots.ai/",
-        "https://www.rasgo.ai/ai-ad-generator",
-        "https://fattly.app/ai-ad-generator",
-        "https://getvivix.com/tools/ai-ugc-ad-generator",
-        "https://www.wandura.ai/ad-studio",
-        "https://allwork.space/2026/10/businesses-are-hiring-for-ai-jobs-most-workers-werent-doing-a-year-ago/",
-        "https://automatedwealthlab.com/freelancing-with-ai-skills-2026/",
-        "https://rankbase.io/best-shopify-apps/ai-ads",
-        "https://www.shopdigest.com/shopify/apps/keywords/ads/charts"
-      ],
-      "how_searched": [
-        "payment-provider-verified revenue (TrustMRR/Aiolum/runsby)",
-        "Shopify App Store rankings and install trackers (Rankbase, ShopDigest, StoreCensus)",
-        "freelance demand data (Upwork monthly insights, Fiverr trends)",
-        "competitor product/pricing pages",
-        "launch directories"
-      ],
-      "score": 85.0,
-      "found_at": "2026-10-30T14:20:35.520478+00:00"
-    },
-    {
       "name": "Glossa (live AI translation for church services)",
       "field": "event/live translation",
       "summary": "Live AI translation of sermons and Christian events into 100+ languages; listeners hear/read on their phones via QR code, no headsets.",
@@ -503,25 +481,6 @@
       ],
       "score": 85.0,
       "found_at": "2026-11-18T14:05:02.462499+00:00"
-    },
-    {
-      "name": "Accessibility Risk Scanner & Fix Planner",
-      "field": "Accessibility compliance",
-      "summary": "A free web scanner that audits a site against WCAG, explains failures in plain language, and converts them into a prioritized fix plan with owner-ready evidence. Target SMBs, agencies, and SaaS teams facing ADA or state accessibility claims.",
-      "why_now": "UsableNet projects more than 6,000 digital accessibility lawsuits in 2026, while AudioEye reported Q3 2026 revenue of $11.0M and ARR of $43.3M, showing buyers already pay for monitoring and remediation.",
-      "monetization": "Free one-page scan; paid continuous monitoring, multi-page reports, agency white-label seats, and remediation referrals.",
-      "evidence": [
-        "https://info.usablenet.com/2026-midyear-report",
-        "https://www.audioeye.com/post/audioeye-reports-record-third-quarter-2026-results/",
-        "https://blog.usablenet.com/inside-the-2026-midyear-numbers-where-digital-accessibility-litigation-is-going"
-      ],
-      "how_searched": [
-        "web search",
-        "legal industry report",
-        "public company results"
-      ],
-      "score": 84.0,
-      "found_at": "2026-10-30T19:27:16.481257+00:00"
     },
     {
       "name": "Denial Appeal Studio",
@@ -704,30 +663,6 @@
       ],
       "score": 83.0,
       "found_at": "2026-11-17T04:13:43.396129+00:00"
-    },
-    {
-      "name": "AI Job Search & Resume-Job Fit Agent",
-      "field": "Careers / recruiting AI",
-      "summary": "An AI headhunter web tool that understands a candidate's profile, scores every posting for real fit (not keyword match), tailors the resume per job, surfaces referral paths, and can auto-apply — free tier for seekers, paid for employers.",
-      "why_now": "Jobright went $1M → $10M ARR in 10 months with 3M US users and 30x YoY growth, then launched the employer-side AI recruiter. H-1B/sponsorship filtering was the wedge that got 50K users with zero marketing. AI-generated application spam has made signal-finding the bottleneck on both sides — a free fit-scoring / resume-tailoring front door is the obvious rebuild.",
-      "monetization": "Jobright monetizes subscriptions + employer seats (unpublished exact tiers); 120+ companies hired through it. Free rebuild can upsell resume packs, priority applications, employer dashboards.",
-      "evidence": [
-        "https://www.linkedin.com/posts/ericcheng26_in-10-months-we-grew-from-1m-to-10m-arr-activity-7515799899511136256-tDq7",
-        "https://www.linkedin.com/feed/update/urn:li:activity:7515799899511136256",
-        "https://techcrunch.com/2024/06/25/jobright-uses-ai-to-help-foreign-workers-navigate-the-us-job-market/",
-        "https://milestonewins.com/stories/jobright-story/",
-        "https://www.arr.club/signal/weekly-growth-recap-10-18-2026",
-        "https://www.gtmforone.com/blog/how-much-do-indie-founders-make"
-      ],
-      "how_searched": [
-        "ARR Club weekly growth leaderboards",
-        "founder LinkedIn milestone posts",
-        "TechCrunch company profile",
-        "MilestoneWins revenue story",
-        "indie revenue research (GTM for One)"
-      ],
-      "score": 82.0,
-      "found_at": "2026-10-30T14:20:39.436462+00:00"
     },
     {
       "name": "EAA Web Accessibility Fixer",
@@ -1136,23 +1071,24 @@
       "found_at": "2026-11-18T04:23:38.086089+00:00"
     },
     {
-      "name": "AI Professional Headshot Studio",
-      "field": "Consumer AI / photography",
-      "summary": "A free web studio that turns a few selfies into professional headshots, with paid high-resolution packs, attire and background presets, and team-branded options.",
-      "why_now": "Aragon reports 2M+ users, 40M+ photos, 8-figure ARR, and profitability; its reported $900k monthly run rate shows durable willingness to pay despite Canva and low-cost clones.",
-      "monetization": "Free watermarked preview; paid headshot packs; team and employer-branding subscriptions; creator or affiliate distribution.",
+      "name": "California Chatbot Disclosure and Human-Handoff Auditor",
+      "field": "AI compliance / customer experience",
+      "summary": "A free web scanner that reviews a website chatbot or IVR flow for AI disclosure, one-click human escalation, 15-minute connection or callback language, posted support numbers, and SLA logging; paid plans add continuous monitoring and evidence exports.",
+      "why_now": "AB 1609 takes effect 2027-01-01 and applies to large private businesses with over $500M revenue. Hunton's 2026-11-17 analysis details four duties: AI disclosure, simple human escalation, 15-minute connection or one-business-day callback, and hold/queue limits; Latham says California enacted more than two dozen AI laws in 2026 and penalties are up to $5,000 initially and $10,000 subsequently.",
+      "monetization": "Free single-site audit; paid multi-brand monitoring, escalation-flow testing, SLA dashboards, audit evidence, and vendor SLAs.",
       "evidence": [
-        "https://www.aragon.ai/blog/three-years-of-aragon-2-million-users-40-million-photos-and-the-future-of-ai-photography",
-        "https://www.indiehackers.com/post/tech/building-one-of-the-first-ai-headshot-products-and-hitting-900k-mo-in-3-years-UK9omiPofFtha5Kps2Fj",
-        "https://www.pmf.show/episodes/ep-33-1st-time-founder-grows-ai-headshot-app-from-0-to-10m-arr-in-2-years-with-no-fund"
+        "https://www.hunton.com/hunton-retail-law-resource/californias-new-chatbot-law-requires-human-customer-service-access",
+        "https://www.lw.com/en/insights/newest-slate-of-ai-laws-keeps-california-at-the-forefront-of-us-regulation",
+        "https://www.quarles.com/newsroom/publications/please-hold-for-no-longer-than-fifteen-minutes-new-customer-service-requirements-for-ai-chatbots"
       ],
       "how_searched": [
-        "web search",
-        "founder interview",
-        "company blog"
+        "state AI law search",
+        "law-firm client alert comparison",
+        "chatbot compliance query",
+        "customer-service regulation scan"
       ],
-      "score": 79.0,
-      "found_at": "2026-10-30T19:27:19.503654+00:00"
+      "score": 80.0,
+      "found_at": "2026-11-21T02:20:56.421137+00:00"
     },
     {
       "name": "Ad Spend Refund & Invalid-Traffic Auditor",
@@ -1435,6 +1371,27 @@
       ],
       "score": 78.0,
       "found_at": "2026-11-18T04:23:41.336229+00:00"
+    },
+    {
+      "name": "Content Provenance Verification and AI-Use Label Generator",
+      "field": "Media tools / trust and safety / compliance",
+      "summary": "A free web tool that reads C2PA Content Credentials and other embedded provenance data from uploads, shows an asset history, detects missing or stripped credentials, and generates a shareable disclosure label; paid plans add batch checks, publisher widgets, and audit logs.",
+      "why_now": "C2PA's 2026-08-11 implementation guide covers machine-readable AI classification, AI-disclosure assertions, region-level edits, generation-recipe ingredients, and standardized actions, with 500+ members and 6,000+ affiliates. OpenAI announced Content Credentials, SynthID, and a public verification tool in May 2026 and expanded to text in the EU on 2026-10-05; The Verge reported in April 2026 on proof-of-human-made content demands, and POY cites EU AI Act Article 50 enforceability from 2026-08-02.",
+      "monetization": "Free single-file verification; paid batch API, publisher embed, brand-protection alerts, compliance exports, and studio workspaces.",
+      "evidence": [
+        "https://c2pa.org/a-new-implementation-guide-for-content-credentials/",
+        "https://openai.com/index/advancing-content-provenance/",
+        "https://www.theverge.com/tech/906453/human-made-ai-free-logo-creative-content",
+        "https://poyverify.com/products/ai-content-label"
+      ],
+      "how_searched": [
+        "content provenance standards search",
+        "AI labeling regulation search",
+        "company announcement review",
+        "media trust news scan"
+      ],
+      "score": 78.0,
+      "found_at": "2026-11-21T02:20:57.117561+00:00"
     },
     {
       "name": "Freelancer Contract Risk Scanner",
@@ -3424,23 +3381,6 @@
       "found_at": "2026-11-14T21:32:55.183373+00:00"
     },
     {
-      "name": "CheckVibe",
-      "field": "Developer security",
-      "summary": "Web app security scanner that pastes a URL or connects a GitHub repo to surface leaked secrets, open DB rules, missing headers and 100+ issues in vibecoded apps.",
-      "why_now": "AI-built apps ship fast and leak secrets; 7,000+ developers use it and the CheckVibe founder reported $11,795.50 gross with 350+ paying customers in 5 months.",
-      "monetization": "Monthly SaaS subscriptions from $24 to $99/mo plus team seats; verified gross revenue $11,795.50.",
-      "evidence": [
-        "https://1dea.io/traction/monthly/2026-10",
-        "https://checkvibe.dev/pricing"
-      ],
-      "how_searched": [
-        "indie revenue roundup",
-        "official pricing page"
-      ],
-      "score": 57.3,
-      "found_at": "2026-10-30T23:57:40.650419+00:00"
-    },
-    {
       "name": "LLM chat frontend (TypingMind model)",
       "field": "AI assistants / chat UI",
       "summary": "Browser-based chat interface for multiple LLMs using users' own API keys, with agents, plugins and team workspaces.",
@@ -3508,6 +3448,25 @@
       ],
       "score": 57.3,
       "found_at": "2026-11-17T13:40:02.050442+00:00"
+    },
+    {
+      "name": "HSA/FSA Eligibility Checker and Receipt Vault",
+      "field": "Consumer fintech / benefits",
+      "summary": "A free browser-based checker that scans a product URL or shopping cart, estimates HSA/FSA/LSA eligibility and tax savings, flags uncertain categories, and stores itemized receipts for reimbursement; it deliberately avoids letters of medical necessity or licensed clinical workflows.",
+      "why_now": "Caeli's Chrome Web Store listing shows 40,000 users, a 5.0 rating with 18 ratings, and an update on 2026-11-20. Ulu Ventures describes Caeli as targeting 150M Americans and cites founder data that 42% of people waste benefit dollars, with real-time browser eligibility, wallet stacking, and receipt vaulting as the core workflow.",
+      "monetization": "Free eligibility lookup and receipt capture; paid family benefit profiles, long-term receipt vault, multi-employer perk support, employer referral SaaS, and exportable reimbursement packets.",
+      "evidence": [
+        "https://chromewebstore.google.com/detail/caeli-shop-with-hsa-fsa-b/dekfdfadajndgnicbjaeacnahmljpmka",
+        "https://uluventures.com/helping-employees-maximize-their-benefits-using-ai/"
+      ],
+      "how_searched": [
+        "Chrome Web Store trend search",
+        "extension growth search",
+        "founder story and investor interview scan",
+        "benefits-eligibility keyword research"
+      ],
+      "score": 57.3,
+      "found_at": "2026-11-21T02:20:53.471227+00:00"
     },
     {
       "name": "Rezi",
@@ -3649,6 +3608,25 @@
       ],
       "score": 56.0,
       "found_at": "2026-11-20T11:51:53.062620+00:00"
+    },
+    {
+      "name": "Croatia Base-Price and Machine-Readable Price-List Generator",
+      "field": "Regulatory tech / retail pricing",
+      "summary": "A free web validator that uploads a CSV/XLSX catalog, checks required retail price fields, calculates and stores the base price, flags sale-price errors, and exports the official machine-readable price list for websites; paid plans add hosted feeds and multi-store monitoring.",
+      "why_now": "Croatia's NN 132/2026 regulation is dated 2026-11-16, and Billko states the new base-price and website price-list rules apply from 2026-11-17. Billko also says price lists must be published in machine-readable XML/CSV form and that fines apply; this creates an immediate, deadline-driven need for retailers.",
+      "monetization": "Free validation for one catalog; paid hosted XML/CSV feeds, multi-location catalogs, change history, audit-ready exports, and agency/accountant plans.",
+      "evidence": [
+        "https://www.zakon.hr/c/podzakonski-propis/1615715/nn-132-2026-%2816.11.2026.%29%2C-pravilnik-o-nacinu-objave-cjenika-proizvoda",
+        "https://www.billko.eu/en/resources/bazne-cijene"
+      ],
+      "how_searched": [
+        "regulation search",
+        "legal text review",
+        "accounting and compliance source scan",
+        "deadline-driven retail compliance query"
+      ],
+      "score": 56.0,
+      "found_at": "2026-11-21T02:20:54.238418+00:00"
     },
     {
       "name": "Voice-to-text writing assistant (Letterly model)",
@@ -3842,6 +3820,25 @@
       ],
       "score": 54.7,
       "found_at": "2026-11-19T21:41:38.572640+00:00"
+    },
+    {
+      "name": "Australia APP 1.7 Automated-Decision Disclosure Builder",
+      "field": "Privacy compliance / governance SaaS",
+      "summary": "A free web questionnaire that maps software, spreadsheets, AI tools, and third-party programs used in significant decisions, then drafts the APP 1.7-1.9 privacy-policy disclosures and vendor information requests; paid plans add monitoring across HR, pricing, lending, grants, and customer-support tools.",
+      "why_now": "The Australian obligation starts 2026-12-10. Legal500/Corrs says APP 1.7-1.9 covers AI, algorithms, chatbots, spreadsheets, and third-party tools where decisions significantly affect rights or interests, and requires disclosure of personal-information types and decision types. Makinson d'Apice emphasizes human review is not enough to avoid scope and warns that generic statements like 'we may use AI' are insufficient.",
+      "monetization": "Free gap check; paid policy generator, automated inventory, vendor-questionnaire workflows, review reminders, and consultant/legal-firm workspaces.",
+      "evidence": [
+        "https://www.legal500.com/intelligence/australia/privacy/transparency-in-automated-decision-making-what-the-oaic-guidance-means-for-your-business",
+        "https://www.makdap.com.au/is-your-charitys-privacy-policy-ready-for-automated-decision-making-changes/"
+      ],
+      "how_searched": [
+        "privacy law search",
+        "regulator guidance follow-up",
+        "law-firm article comparison",
+        "automated decision disclosure queries"
+      ],
+      "score": 54.7,
+      "found_at": "2026-11-21T02:20:55.387069+00:00"
     },
     {
       "name": "Multiplayer browser edu-game: parkour courses gated by times-tables quizzes",
@@ -4360,6 +4357,25 @@
       ],
       "score": 50.7,
       "found_at": "2026-11-19T21:41:39.386327+00:00"
+    },
+    {
+      "name": "Provenance-Safe Old Photo Restoration Studio",
+      "field": "Consumer image tools",
+      "summary": "A free browser tool for old family photos that deblurs, denoises, upscales, repairs scratches, and colorizes with a conservative mode that preserves the original face and marks generated detail; paid plans add batch restoration, print exports, and archival metadata.",
+      "why_now": "Airbridge estimates Remini at $3M/month with 602K monthly downloads, 92 active Meta ads, a 4.6 rating, and 356.5K ratings as of October 2026, with ad copy explicitly targeting old family memories. Trending AI Tools ranks ZEnhancer #6 among the most-searched AI tools in November 2026 and describes it as sharpening blurry photos and restoring old pictures, showing continued demand for one-job image utilities.",
+      "monetization": "Free limited restores with visible before/after; paid HD/print exports, batches, archival labeling, and family-history workspace sharing.",
+      "evidence": [
+        "https://www.airbridge.io/en/app-revenue/remini",
+        "https://www.trendingaitools.com/trending-ai-tools-november-2026/"
+      ],
+      "how_searched": [
+        "app revenue estimate search",
+        "ad-library teardown review",
+        "AI tool search-interest ranking",
+        "photo utility trend scan"
+      ],
+      "score": 50.7,
+      "found_at": "2026-11-21T02:20:58.214188+00:00"
     },
     {
       "name": "LiveReview (risk-aware AI code review, auto-approve safe PRs)",
