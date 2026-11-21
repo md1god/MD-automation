@@ -4,8 +4,8 @@ Two layers, deliberately not trusting the builder model:
   1. Objective checks (no model): page loads offline, no JS errors, enough interactive elements, the screenshot
      is not blank/flat, nothing overflows horizontally on a phone viewport.
   2. A free VISION model looks at the screenshots (desktop + phone, before and after clicking every button)
-     and reports what is broken or confusing. Providers are tried free-first: OpenRouter free vision models,
-     Groq vision models, then GitHub Models. If no vision model answers, layer 1 still decides.
+     and reports what is broken or confusing. Providers are tried free-first: Groq vision models,
+     then GitHub Models. If no vision model answers, layer 1 still decides.
 Result: review(spec) -> {"ok": bool, "problems": [str], "vision": "used"|"unavailable"}.
 The problems are fed back to the BUILDER model so it can fix them.
 """
@@ -96,17 +96,6 @@ Mark works=false if the area is blank, controls are missing or unreadable, text 
 
 def _vision_candidates():
     out = []
-    key = planner._key_for("openrouter", planner.PROVIDERS["openrouter"])
-    if key:
-        try:
-            data = requests.get(planner.PROVIDERS["openrouter"]["models_url"], timeout=30).json().get("data", [])
-            for m in data:
-                price = m.get("pricing") or {}
-                ins = (m.get("architecture") or {}).get("input_modalities") or []
-                if "image" in ins and str(price.get("prompt")) == "0" and str(price.get("completion")) == "0":
-                    out.append(("openrouter", m["id"], key))
-        except Exception:
-            pass
     key = planner._key_for("groq", planner.PROVIDERS["groq"])
     if key:
         try:

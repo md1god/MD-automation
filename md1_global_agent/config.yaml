@@ -72,7 +72,7 @@ destinations:
   - mdm1.org
 
 # Free-first planning providers, tried in order. Models are discovered at run time where possible
-# (OpenRouter free list, Groq key's model list, OpenCode CLI model list); names below are preferences.
+# (Groq key's model list, OpenCode CLI model list); names below are preferences.
 # opencode_cli = the real OpenCode CLI (free models are refused over the API).
 llm:
   providers: [opencode_cli, groq, github]

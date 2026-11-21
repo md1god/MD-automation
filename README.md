@@ -112,7 +112,7 @@ node --check page-generator/build-pages.js
 |---|---|
 | `SITES_PAT` | توكن بصلاحية **Actions: write + Contents: write** على `MDM1.org` (لتشغيل الـ workflow وقراءة السجل) |
 | `BOT_TOKEN` / `TELEGRAM_BOT_TOKEN`, `CHAT_ID` | تقرير تليجرام والترويج في القناة (البوت يجب أن يكون مشرفًا في القناة) |
-| `GROQ_API_KEY` / `OPENROUTER_API_KEY` / `OPENCODE_API_KEY` / `API_KEYS` | نماذج الخطة والترجمة |
+| `GROQ_API_KEY` / `OPENCODE_API_KEY` / `API_KEYS` | نماذج الخطة والترجمة |
 | `LEDGER_SALT` (اختياري) | تقوية هاش سجل منع التكرار |
 
 إعادة بناء كود مشاريع خارجية ليست مفعّلة تلقائيًا: الوكيل يولد خطة فقط ولا يشغّل كودًا غير موثوق داخل GitHub Actions.

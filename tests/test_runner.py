@@ -61,7 +61,7 @@ class RunnerTimeoutTests(unittest.TestCase):
 
 class AgentEnvTests(unittest.TestCase):
     SECRETS = ("SITES_PAT", "BSKY_APP_PASSWORD", "MASTODON_ACCESS_TOKEN", "BOT_TOKEN",
-               "TELEGRAM_BOT_TOKEN", "LEDGER_SALT", "OPENROUTER_API_KEY", "GROQ_API_KEY")
+               "TELEGRAM_BOT_TOKEN", "LEDGER_SALT", "GROQ_API_KEY")
 
     def setUp(self):
         self._orig_run_cli = runner.run_cli
