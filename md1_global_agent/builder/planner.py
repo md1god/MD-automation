@@ -7,9 +7,7 @@ Secret values are never printed.
 Why these providers behave as they do (learned from real runs):
   opencode_cli  OpenCode's free models are refused over the API ("free tier can only be used
                 from within OpenCode"), so we run the real `opencode` CLI instead.
-  openrouter    the `openrouter/free` router can answer with an empty body, and fixed model
-                names go stale, so free models are discovered from /models at run time.
-  groq          model names are deprecated often; the models the key can use are listed first.
+  groq         model names are deprecated often; the models the key can use are listed first.
   github        GitHub Models; non-JSON answers are reported readably.
 Each provider tries several models, so one dead model never stops the run.
 """
@@ -27,12 +25,6 @@ PROVIDERS = {
     "opencode": {
         "url": "https://opencode.ai/zen/v1/chat/completions",
         "key_env": "OPENCODE_API_KEY",
-        "style": "openai",
-    },
-    "openrouter": {
-        "url": "https://openrouter.ai/api/v1/chat/completions",
-        "models_url": "https://openrouter.ai/api/v1/models",
-        "key_env": "OPENROUTER_API_KEY",
         "style": "openai",
     },
     "groq": {
@@ -58,7 +50,6 @@ PROVIDERS = {
 DEFAULT_MODELS = {
     "opencode_cli": ["big-pickle", "mimo-v2.6-flash-free", "nemotron-3-ultra-free"],
     "opencode": ["big-pickle"],
-    "openrouter": [],
     "groq": [],
     "github": ["openai/gpt-4o"],
     "anthropic": ["claude-sonnet-4-5"],
@@ -142,9 +133,7 @@ def _bundle_keys():
         return out
     for token in raw.replace(",", " ").split():
         token = token.strip().strip('"').strip("'")
-        if token.startswith("sk-or-v1-"):
-            out["OPENROUTER_API_KEY"] = token
-        elif token.startswith("gsk_"):
+        if token.startswith("gsk_"):
             out["GROQ_API_KEY"] = token
     return out
 
@@ -191,23 +180,6 @@ def _size_hint(model_id: str) -> int:
     return max(nums) if nums else 0
 
 
-def discover_openrouter(key: str, spec: dict):
-    """Free text models, biggest context first. The /models list is public."""
-    resp = requests.get(spec["models_url"], timeout=30)
-    resp.raise_for_status()
-    free = []
-    for m in resp.json().get("data", []):
-        price = m.get("pricing") or {}
-        if str(price.get("prompt")) != "0" or str(price.get("completion")) != "0":
-            continue
-        outs = (m.get("architecture") or {}).get("output_modalities") or ["text"]
-        if outs != ["text"]:
-            continue
-        free.append((m.get("context_length") or 0, m["id"]))
-    free.sort(reverse=True)
-    return [mid for _, mid in free]
-
-
 def discover_groq(key: str, spec: dict):
     """Chat models this key can use, largest first."""
     resp = requests.get(spec["models_url"], headers={"Authorization": f"Bearer {key}"}, timeout=30)
@@ -227,7 +199,7 @@ def discover_opencode_cli():
     return [n for n in names if n == "big-pickle" or n.endswith("-free")]
 
 
-DISCOVER = {"openrouter": discover_openrouter, "groq": discover_groq}
+DISCOVER = {"groq": discover_groq}
 
 
 def _models_for(name: str, llm: dict, key):
@@ -306,7 +278,7 @@ def complete(prompt: str, llm: dict = None, deadline: float = None) -> str:
     llm = llm or {}
     errors = []
     complete.used = None
-    for name in llm.get("providers", ["opencode_cli", "openrouter", "groq", "github"]):
+    for name in llm.get("providers", ["opencode_cli", "groq", "github"]):
         spec = PROVIDERS.get(name)
         if not spec:
             errors.append(f"{name}: unsupported provider")
