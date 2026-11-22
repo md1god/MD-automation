@@ -1355,6 +1355,28 @@
       "found_at": "2026-11-21T02:20:57.117561+00:00"
     },
     {
+      "name": "AI microdrama & audio-serial platform (episode-unlock fiction)",
+      "field": "Consumer entertainment / serialized fiction",
+      "summary": "A free web platform that publishes short vertical dramas and audio series—largely AI-generated—and monetizes by letting users unlock episodes with micropayments or ads, the Pocket FM/DramaBox pattern rebuilt for the browser.",
+      "why_now": "The category is exploding right now: Sensor Tower counted 850M+ short-drama downloads in Q1 2026 (+140% YoY) and ~$750M IAP (+20% YoY); Pocket FM hit $500M ARR with 93% AI content and its 3-month-old AI video app Pocket Saga runs at ~$15M ARR; DramaBox and ReelShort each grossed ~$140M in Q1 alone, and Omdia projects $14B global microdrama revenue in 2026.",
+      "monetization": "Per-episode unlocks and subscriptions: Pocket FM derives ~$415M of its $500M run-rate from users paying to unlock episodes (plus ~$85M ads); DramaBox/ReelShort ~$140M/quarter each; category IAP ~$750M/quarter.",
+      "evidence": [
+        "https://techcrunch.com/2026/09/10/indias-pocket-fm-doubles-revenue-run-rate-to-500m-as-ai-powers-93-of-audio-content/",
+        "https://sensortower.com/blog/state-of-short-drama-apps-2026-report",
+        "https://research.myshortee.com/2026/11/microdrama-by-the-numbers-november-2026/",
+        "https://www.prnewswire.com/news-releases/pocket-entertainment-surpasses-500m-arr-as-ai-reshapes-how-entertainment-is-created-and-scaled-302875605.html",
+        "https://www.forbes.com/sites/mattcraig/2026/09/10/inside-pocket-fms-400-million-microdrama-content-farm/"
+      ],
+      "how_searched": [
+        "news (TechCrunch, Forbes, PR Newswire)",
+        "app-market analytics (Sensor Tower report)",
+        "independent research digest (Shortee Research)",
+        "revenue run-rate disclosures"
+      ],
+      "score": 78.0,
+      "found_at": "2026-11-22T03:32:20.908018+00:00"
+    },
+    {
       "name": "Freelancer Contract Risk Scanner",
       "field": "Legal tech",
       "summary": "Upload a freelance contract and get clause-level red flags, a dollar-denominated hidden-cost score, and ready-to-send negotiation language.",
@@ -1795,6 +1817,27 @@
       "found_at": "2026-11-19T21:41:40.252211+00:00"
     },
     {
+      "name": "GLP-1 & peptide injection tracker (free web + freemium)",
+      "field": "Digital health self-tracking",
+      "summary": "A browser-based tracker for weekly GLP-1/peptide shots: dose schedule, injection-site rotation, weight curve, side effects, protein/water goals and vial inventory—the Shotsy/MeAgain/PeptidePal job done as a free website.",
+      "why_now": "The niche is open and accelerating: Appaloma reports 45 apps (33 launched in 18 months) with review pace at 2.1x and demand score 73/100; MeAgain alone is estimated at ~$100K/month (41K ratings, #50–86 US grossing Health & Fitness); PeptidePal hit ~$100K/month six months after launch; Shotsy passed $4.7M/year.",
+      "monetization": "Freemium subscriptions: leaders charge $9.99–$14.99/month or $29.99–$119.99/year—MeAgain ~$100K/mo (Peekly/AppGazers), Shotsy $4.7M/yr and PeptidePal ~$100K/mo (Trends.vc/Airbridge), with a $640K+/month floor across 45 researched apps.",
+      "evidence": [
+        "https://trends.vc/opportunities/glp-1-companion-apps",
+        "https://www.appaloma.com/research/glp1-companions",
+        "https://appgazers.com/reports/apps/ios-6744178534",
+        "https://www.airbridge.io/en/app-revenue/peptidepal",
+        "https://peekly.app/apps/887785da-b5c8-4514-ba22-01d6e5f4c7d5"
+      ],
+      "how_searched": [
+        "app revenue estimators (AppGazers, Peekly, Airbridge)",
+        "niche market reports (Trends.vc, Appaloma)",
+        "store chart reads"
+      ],
+      "score": 74.0,
+      "found_at": "2026-11-22T03:32:22.905042+00:00"
+    },
+    {
       "name": "Photo-to-Repair Estimate for Used Cars",
       "field": "Insurtech / automotive",
       "summary": "Consumers upload photos of car damage and get a likely repair-cost range, damage severity and a shareable inspection report before buying or claiming.",
@@ -2093,6 +2136,27 @@
       "found_at": "2026-11-19T03:32:44.320522+00:00"
     },
     {
+      "name": "AI UGC video ad generator",
+      "field": "Ad creative / performance marketing",
+      "summary": "A free web tool that turns a product link or photo into actor-style UGC video ads (scripts, avatars, captions, aspect ratios) for Meta/TikTok, with paid exports or credits.",
+      "why_now": "Upwork's October 2026 insights call 'AI UGC video' the fastest-growing AI-related search YoY with AI Video Ads growing two straight months and AI video generation/editing skills up +329% for the year; category traffic is concentrated but large (Vora 1.38M monthly visits, Arcads 609K); Product Hunt's Creatify Max scored 414 on Nov 17; search interest for AI video tools is up 344% YoY.",
+      "monetization": "SaaS credits/subscriptions: AIGC ad-creative tools market ~$2.875B in 2026 (QY Research); AI video generator software ~$1.04B (Grand View); 62% of digital video buyers now use gen-AI for creative (IAB); UGC ads convert 6.73x better than non-UGC (Emplifi Q1 2026).",
+      "evidence": [
+        "https://www.upwork.com/research/upwork-monthly-hiring-insights-october-2026",
+        "https://nextbig.io/markets/ai-video-generators",
+        "https://clipstudio.ai/resources/ai-video-ad-statistics-2026"
+      ],
+      "how_searched": [
+        "freelance job-market data (Upwork research)",
+        "tool traffic rankings (ToolMesh, SeekTool)",
+        "search-demand market pages (Next Big)",
+        "ad-statistics hubs citing IAB/Emplifi/Wyzowl",
+        "launch site (Product Hunt daily leaderboard)"
+      ],
+      "score": 72.0,
+      "found_at": "2026-11-22T03:32:23.898516+00:00"
+    },
+    {
       "name": "AI niche-directory website builder: one sentence to a live, monetized directory",
       "field": "Web publishing / no-code builders",
       "summary": "A web tool that turns a one-sentence idea (like 'wedding vendors in Texas') into a live, SEO-ready directory with listings, categories and built-in payment collection, letting owners charge businesses for placement. Directify was acquired for $85K and keeps growing under its new owner.",
@@ -2334,6 +2398,29 @@
       "found_at": "2026-11-19T03:32:44.546399+00:00"
     },
     {
+      "name": "GTA 6 interactive map, checklist & guides companion",
+      "field": "Gaming companion tools / web utilities",
+      "summary": "A free, no-signup browser map and 100%-completion checklist for GTA 6 (collectibles, safes, stunts, money spots) with spoiler shields, progress saved locally and shareable pin links—monetized with ads, affiliates and an optional one-time Pro.",
+      "why_now": "GTA 6 launched 19 Nov 2026 and did $3.79B day-one retail sales (biggest entertainment launch ever); Google Trends UK is surfacing queries like 'gta 6 bowling alley safe code'; at least a dozen map/checklist sites (gtadb.io with 4,170 markers, HeistMaps, WantedKit, FullSweep, Six Intel HQ, GTA6Atlas) raced to launch in 72 hours, proving live demand and thin supply of verified data.",
+      "monetization": "Display ads + affiliate links on high-traffic guide pages; FullSweep already charges €4.99 one-time Pro (route optimizer, sync); pattern proven by GTA5-era map sites.",
+      "evidence": [
+        "https://www.bbc.com/news/articles/c9zr5nyv5dj2o",
+        "https://www.cnbc.com/2026/11/20/take-two-sales-as-gta-vi-launches-to-massive-fanfare.html",
+        "https://sensortower.com/blog/gta-vi-hits-all-time-record-2-3b-pre-orders",
+        "https://gtadb.io/gta-6/map",
+        "https://heistmaps.com/",
+        "https://trendoday.com/google-trends"
+      ],
+      "how_searched": [
+        "news (BBC, CNBC, Axios)",
+        "sales trackers (Sensor Tower)",
+        "search-trend pages (Google Trends trending via Trendoday)",
+        "direct scan of competing launch sites"
+      ],
+      "score": 70.0,
+      "found_at": "2026-11-22T03:32:25.153245+00:00"
+    },
+    {
       "name": "AI guardrails / prompt-injection & output-safety checker",
       "field": "AI security",
       "summary": "A free web tool/API that scans prompts and model outputs for injection, jailbreaks, PII and policy violations before they ship, with an original rules engine.",
@@ -2517,6 +2604,27 @@
       "found_at": "2026-11-19T03:32:44.719066+00:00"
     },
     {
+      "name": "Free AI video generator (prompt/photo to finished clip)",
+      "field": "Creative AI tools",
+      "summary": "A free web workspace that turns a prompt, product photo or script into a short finished video clip (no camera/crew), with watermarked free tier and paid HD/export credits—positioned for the 'AI video generator free' searcher.",
+      "why_now": "Next Big scores this market opportunity 84/100 with median searches up 344% YoY, 8 of 8 measured trends rising, and 'AI video generator free' at ~90K–697K searches/month; 63% of video marketers used AI video tools this year (up from 51%); the software market grows from $788.5M (2025) to $1.04B (2026).",
+      "monetization": "Freemium credits/subscription: advertisers pay a median $7.31 CPC in the category; market size $1.04B in 2026 growing ~20–22% CAGR; 92% of marketers plan same-or-more video spend in 2026.",
+      "evidence": [
+        "https://nextbig.io/markets/ai-video-generators",
+        "https://sepia-lab.com/en/blog/ai-video-statistics-2026",
+        "https://www.giiresearch.com/report/tbrc1970100-artificial-intelligence-ai-video-generator-global.html",
+        "https://investors.upwork.com/news-releases/news-release-details/upworks-demand-skills-2026-demand-top-ai-skills-more-doubles-ai"
+      ],
+      "how_searched": [
+        "search-demand/market pages (Next Big, Google Ads volumes)",
+        "market research summaries (Grand View via GII)",
+        "adoption surveys (Wyzowl/Animoto via Sepia)",
+        "freelance skills report (Upwork)"
+      ],
+      "score": 68.0,
+      "found_at": "2026-11-22T03:32:25.985684+00:00"
+    },
+    {
       "name": "Marketplace of skill packs and style kits for AI coding agents",
       "field": "AI developer tools",
       "summary": "A web library of installable 'skills' — instruction packs and visual style kits that give Claude Code, Codex and Cursor a distinct output style for websites, decks, images and video, previewable before install. Skillry reached $5.1K MRR within ~3 months of launch.",
@@ -2615,6 +2723,28 @@
       ],
       "score": 67.0,
       "found_at": "2026-11-18T04:23:50.684904+00:00"
+    },
+    {
+      "name": "Reading tracker & book-club platform (Goodreads challenger)",
+      "field": "Consumer apps / reading",
+      "summary": "A free web reading tracker with rich stats (pace, streaks, sessions), goal-setting, mood-based discovery and lightweight book clubs—the Fable/StoryGraph/Readwise idea rebuilt as an original site.",
+      "why_now": "BookTok-driven demand is peaking: Fable made $200K in-app last month on 300K downloads, StoryGraph >$50K/month, Booktok $60K/month; Readwise launched a Goodreads/Kindle rival on 2 Nov 2026; Bookclubs (1.5M members) shipped social features 20 Nov 2026; reading streaks on Fable hit 29 days (+300% YoY) and 64% of 18–24s read more than last year.",
+      "monetization": "Freemium subscriptions and clubs: Fable $200K/mo IAP, StoryGraph $50K+/mo, Readwise apps $7.99–$9.99/mo; global reading-tracking app market $2.8B (2025) → $7.4B (2033).",
+      "evidence": [
+        "https://www.socialgrowthengineers.com/tiktoks-obsession-untapped-mrr",
+        "https://techcrunch.com/2026/11/02/readwise-takes-on-amazons-kindle-and-goodreads-with-its-new-app-for-book-lovers/",
+        "https://www.scribdinc.com/newsroom/the-2026-state-of-reading-report-human-recommendations-surpass-algorithms-in-the-ai-era",
+        "https://mainebiz.biz/article/camden-based-bookclubs-platform-adds-social-features-to-rival-goodreads/",
+        "https://dataintelo.com/report/reading-tracking-apps-market"
+      ],
+      "how_searched": [
+        "app revenue case studies (Social Growth Engineers)",
+        "news (TechCrunch, Mainebiz)",
+        "publisher research (Scribd State of Reading)",
+        "market-size reports (Dataintelo)"
+      ],
+      "score": 67.0,
+      "found_at": "2026-11-22T03:32:26.971993+00:00"
     },
     {
       "name": "Browser Screen Recorder with Auto-Zoom and Cursor Effects",
@@ -2821,6 +2951,25 @@
       "found_at": "2026-11-17T22:28:39.306009+00:00"
     },
     {
+      "name": "Local free-stuff finder (free web aggregator)",
+      "field": "Marketplace utilities / local deals",
+      "summary": "A free website that aggregates $0 items being given away near you (curbside furniture, electronics, household goods) from public listings into one searchable, filterable map with alerts—Snag's information-arbitrage idea as a browser tool.",
+      "why_now": "Snag reached ~$30K MRR, 100K+ users and ~9,000 paying conversions within four months of launch (Superwall dashboard shown on Starter Story), proving people will pay a few dollars a month to stop hunting freebies across a dozen boards; growth was entirely UGC/Meta ads, so the underlying search demand is broad.",
+      "monetization": "Subscription freemium (Snag: weekly/monthly/yearly plans at a few dollars a month, ~$30K MRR, $80K+ total proceeds) plus affiliate/local ads on a free tier; web version can be free with premium alerts/sync.",
+      "evidence": [
+        "https://shippedandpaid.com/cases/snag-free-stuff-finder-app-30k-mrr-claude-code-cursor/",
+        "https://gtmsauce.com/companies/snag",
+        "https://milestonewins.com/stories/snag-story/",
+        "https://aidevcases.com/en/cases/snag"
+      ],
+      "how_searched": [
+        "indie revenue case studies (Shipped & Paid, GTM Sauce, MilestoneWins, AI Dev Cases)",
+        "founder interview writeups"
+      ],
+      "score": 64.0,
+      "found_at": "2026-11-22T03:32:28.540401+00:00"
+    },
+    {
       "name": "AI DM Closer for High-Ticket Offers (agency white-label)",
       "field": "Sales automation / agencies",
       "summary": "A web-based chat agent that qualifies inbound DM leads, pitches a high-ticket offer and books calls, sold with an agency tier to resell under your brand.",
@@ -2838,6 +2987,27 @@
       ],
       "score": 63.0,
       "found_at": "2026-11-20T11:51:52.416335+00:00"
+    },
+    {
+      "name": "Simple returns & exchanges portal for small stores",
+      "field": "E-commerce SaaS",
+      "summary": "A hosted, self-serve returns/exchange page for small merchants (branded URL, rules, labels, store credit) that is cheaper and far simpler than Loop/AfterShip—the 3.7x-fastest-growing Shopify category rebuilt as a lightweight web tool.",
+      "why_now": "Returns & exchanges was one of the fastest-growing Shopify categories by review volume (+3.7x YoY, App Market Gap); 17 of the top 25 returns apps are still growing (Redo +49.1% installs in 90 days); merchants' #1 complaints are support silence, settings changing without consent and label failures—classic gap for a simple product; returns are 7.4% of global ecommerce revenue heading to 9% by 2029.",
+      "monetization": "SaaS plans: category entry prices median $9.99–$19/mo running up to $179; top apps hold tens of thousands of installs across 2.4M stores; ~7.4% of ecommerce revenue flows through returns.",
+      "evidence": [
+        "https://appmarketgap.com/reports/state-of-shopify-apps-2026",
+        "https://www.storecensus.com/stats/most-popular-shopify-returns-and-exchanges-apps",
+        "https://pickashippingapp.com/apps/return-prime",
+        "https://www.indiehackers.com/post/we-scored-237-apps-in-one-shopify-category-because-the-star-ratings-were-useless-741dce11ba",
+        "https://www.shopify.com/blog/returns-management-software"
+      ],
+      "how_searched": [
+        "Shopify App Store analyses (App Market Gap, StoreCensus, BestAppify/Indie Hackers)",
+        "merchant review mining (PickAShippingApp)",
+        "platform blog stats (Shopify)"
+      ],
+      "score": 63.0,
+      "found_at": "2026-11-22T03:32:30.137180+00:00"
     },
     {
       "name": "Browser voice recorder with AI transcription and summaries (no hardware)",
@@ -3054,6 +3224,25 @@
       ],
       "score": 60.0,
       "found_at": "2026-11-17T22:28:43.214526+00:00"
+    },
+    {
+      "name": "AI sketch-to-render for architects & designers",
+      "field": "Pro creative AI tools",
+      "summary": "A free web tool where architects upload a sketch or basic 3D massing and get photoreal renders in seconds via a guided chat prompt—Visualizee's sketch-to-render workflow as an original site.",
+      "why_now": "Visualizee went from ~$100–150/month for two years to ~$8.2K MRR (TrustMRR-verified, ~300 subscribers) in 2026 after replacing its node editor with a single chat box and an AI assistant—proof the simplified prompt-to-render UX unlocks the market; AI image/video adoption among marketers keeps rising (63% using AI video tools; 76% using any AI).",
+      "monetization": "Pro/Max subscriptions: Visualizee $8,204 MRR verified (TrustMRR) with ~300 subscribers after the 2026 pivot; typical creative-AI SaaS tiers $20–100/month.",
+      "evidence": [
+        "https://indiemakerlist.com/p/piotr-obidowski/",
+        "https://shippedandpaid.com/reports/ai-built-app-revenue-2026-10/data.csv",
+        "https://sepia-lab.com/en/blog/ai-video-statistics-2026"
+      ],
+      "how_searched": [
+        "indie maker directories (IndieMakerList)",
+        "verified-revenue datasets (Shipped & Paid report CSV)",
+        "AI adoption statistics"
+      ],
+      "score": 60.0,
+      "found_at": "2026-11-22T03:32:30.720404+00:00"
     },
     {
       "name": "AEO Engine",
