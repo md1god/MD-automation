@@ -299,6 +299,25 @@
       "found_at": "2026-11-22T11:43:04.861125+00:00"
     },
     {
+      "name": "Benefits Eligibility & Receipt Vault",
+      "field": "consumer finance / employee benefits",
+      "summary": "A free web tool that checks whether everyday purchases are HSA, FSA, LSA, or employer-perk eligible, estimates tax savings, tells users which benefit card or wallet to use, and stores itemized receipts and eligibility notes for later reimbursement.",
+      "why_now": "Caeli says it passed 10,000 users, is No. 1 in Chrome's HSA/FSA shopping-assistance category, and targets 150 million Americans while claiming 42% of benefit dollars are wasted; Chrome extension trend data in this research showed +45,000 users in 7 days for the category leader, so demand is moving now.",
+      "monetization": "B2B2C employer/benefits-provider referral plus retailer and benefits partnerships; comparable Caeli says users and employers do not pay directly, public revenue null.",
+      "evidence": [
+        "https://uluventures.com/helping-employees-maximize-their-benefits-using-ai/",
+        "https://www.getcaeli.com/",
+        "https://extops.dev/extensions/trending"
+      ],
+      "how_searched": [
+        "opened VC founder profile with recent milestone numbers",
+        "opened live product site for feature and positioning details",
+        "cross-checked Chrome extension growth tracking"
+      ],
+      "score": 87.0,
+      "found_at": "2026-11-22T19:45:06.246054+00:00"
+    },
+    {
       "name": "AI Scam Link & Message Checker",
       "field": "Cybersecurity / consumer protection",
       "summary": "Paste a suspicious URL, SMS or chat message and get a plain-language safety verdict, screenshot preview, red flags and next steps.",
@@ -641,6 +660,25 @@
       ],
       "score": 84.0,
       "found_at": "2026-11-22T11:43:06.379838+00:00"
+    },
+    {
+      "name": "Manufacturable Prompt-to-CAD Checker",
+      "field": "CAD / manufacturing software",
+      "summary": "An original browser tool that turns a plain-language part request into editable parametric CAD code, checks dimensions and manufacturability, produces a quote-ready export, and explains which constraints are missing before ordering a prototype.",
+      "why_now": "zCAD AI hit about 590 votes on the November 2026 Product Hunt monthly board; CADFrontier reported the top open-source text-to-CAD project passed 25,700 stars by Nov 6, while benchmarks show text-to-CAD is still weak enough that guidance and DFM checks create a clear wedge.",
+      "monetization": "Freemium CAD generation with paid STEP/STL/DXF exports, design-rule libraries, DFM checks, and supplier quote referrals; public revenue null.",
+      "evidence": [
+        "https://productlist.info/top-products/month",
+        "https://www.blackscarab.ai/insights/vibe-manufacturing-ai-physical-product-development",
+        "https://cadfrontier.com/articles/text-to-cad-status-routes-open-source-benchmarks?lang=en"
+      ],
+      "how_searched": [
+        "opened current Product Hunt-derived launch leaderboard",
+        "opened industry analysis with manufacturing market and funding numbers",
+        "cross-checked with a recent text-to-CAD benchmark and open-source review"
+      ],
+      "score": 84.0,
+      "found_at": "2026-11-22T19:45:07.520601+00:00"
     },
     {
       "name": "Interview Rehearsal & Live Answer Coach",
@@ -2741,6 +2779,25 @@
       "found_at": "2026-11-22T03:32:25.985684+00:00"
     },
     {
+      "name": "Pixel & Consent Leak Inspector",
+      "field": "adtech compliance / analytics QA",
+      "summary": "A free browser-style web tool that audits tracking tags, Consent Mode states, PII leaks, duplicate conversions, silent pixels, and server-side tracking, then exports a client-ready audit report.",
+      "why_now": "Pixel Auditor shipped v2.7.6 updated Oct 28, 2026 with 24 tag types, PII-under-denied-consent checks, cross-frame CMP testing, and A-F health scoring; Chrome Web Store currently shows 10,000 users and a 5.0 rating, and extension trend data flagged +15,000 users in 7 days.",
+      "monetization": "Free core audit with paid agency workspaces, scheduled site scans, branded PDF reports, and compliance history; public revenue null.",
+      "evidence": [
+        "https://pixelauditor.ratanjhadigital.com/",
+        "https://chromewebstore.google.com/detail/pixel-auditor-tag-pii-con/eclgcapbbmjdgialkpcikjficpahmidd",
+        "https://extops.dev/extensions/trending"
+      ],
+      "how_searched": [
+        "opened product site for feature and version history",
+        "opened Chrome Web Store listing for users, rating, and update date",
+        "cross-checked browser extension growth tracking"
+      ],
+      "score": 68.0,
+      "found_at": "2026-11-22T19:45:10.402340+00:00"
+    },
+    {
       "name": "Marketplace of skill packs and style kits for AI coding agents",
       "field": "AI developer tools",
       "summary": "A web library of installable 'skills' — instruction packs and visual style kits that give Claude Code, Codex and Cursor a distinct output style for websites, decks, images and video, previewable before install. Skillry reached $5.1K MRR within ~3 months of launch.",
@@ -4303,6 +4360,23 @@
       "found_at": "2026-11-21T23:34:21.650087+00:00"
     },
     {
+      "name": "Checkout Deal-Stack Optimizer",
+      "field": "e-commerce / shopping agents",
+      "summary": "A web shopping tool that compares the same item across stores and stacks coupons, cashback, card offers, gift-card routes, shipping, and tax into one ranked final-cost plan, then prepares checkout for human approval.",
+      "why_now": "Launch Index shows Saparo beat 99% of Product Hunt launches on Nov 20, 2026, finishing #1 of 1,158 with 330 votes and 73 comments; an independent Nov 20 teardown describes the same all-in cost stacking flow and credit-based beta.",
+      "monetization": "Credit packs or subscriptions plus disclosed affiliate/cashback partnerships; comparable Saparo uses credits and says merchant rebates do not change ranking, public revenue null.",
+      "evidence": [
+        "https://launchindex.ai/product/171319",
+        "https://chatgate.ai/post/saparo"
+      ],
+      "how_searched": [
+        "opened launch analytics page for rank and traction numbers",
+        "opened independent launch teardown for pricing and product mechanics"
+      ],
+      "score": 52.0,
+      "found_at": "2026-11-22T19:45:08.120655+00:00"
+    },
+    {
       "name": "SocialClaw",
       "field": "Social media scheduling for AI agents",
       "summary": "A scheduling platform that lets AI agents (e.g., OpenClaw, Claude, Codex, ChatGPT workflows) connect accounts and publish/schedule posts programmatically. A rebuildable web product could provide an original agent-friendly posting API/dashboard with approvals and analytics.",
@@ -4837,6 +4911,23 @@
       "found_at": "2026-11-18T14:05:04.943674+00:00"
     },
     {
+      "name": "Viral Video Reverse-Engineer",
+      "field": "creator tools / social media analytics",
+      "summary": "A free web tool that accepts a TikTok or Reels link, breaks down why the video worked second by second, identifies hooks and retention patterns, and generates a original script and pre-post checklist.",
+      "why_now": "TrustMRR shows ViralSpy launched Oct 18, 2026, was last updated Nov 22, 2026, has $963 MRR, 25 active subscriptions, $813 all-time revenue, and charges $29/$49 per month; Fiverr's 2026 report shows AI video and animation demand up 278% and AI UGC video ads up 265%.",
+      "monetization": "Subscription tiers for unlimited teardowns, competitor viral alerts, and team workspaces; verified comparable MRR $963 with 25 active subscriptions.",
+      "evidence": [
+        "https://trustmrr.com/startup/viral-spy",
+        "https://www.fiverr.com/resources/guides/reports/business-trends-index-june-2026"
+      ],
+      "how_searched": [
+        "opened verified revenue page for current MRR, subscriptions, pricing, and launch date",
+        "cross-checked marketplace demand report for AI video growth"
+      ],
+      "score": 48.0,
+      "found_at": "2026-11-22T19:45:08.551144+00:00"
+    },
+    {
       "name": "AI directory-site builder",
       "field": "No-code / web publishing",
       "summary": "A no-code/AI builder that creates a niche directory with seeded listings, categories, SEO pages and a monetization hub. Directify sold for $85,000 at $2,000 MRR, recovered to $50K ARR seven months later, and charges $12-149/month while taking no cut of listing fees.",
@@ -5103,6 +5194,24 @@
       "found_at": "2026-11-20T03:20:17.897572+00:00"
     },
     {
+      "name": "Revenue Leak Replay Triage",
+      "field": "product analytics / session replay",
+      "summary": "A lightweight web dashboard that groups session replays into journey cohorts, flags likely conversion and onboarding leaks, and outputs a plain-language fix brief for a coding agent instead of forcing users to watch recordings manually.",
+      "why_now": "A Nov 18, 2026 open-source replay roundup says AI scanners and agent-readable replay access are now core differentiators; Rejourney's HN launch reports about 2.5 million recordings processed, one user gaining 30% onboarding conversion, and first 3 paid users covering costs.",
+      "monetization": "Paid issue alerts, team dashboards, and agent-fix exports; comparable break-even at 3 paid users is stated, public MRR null.",
+      "evidence": [
+        "https://posthog.com/compare/best-open-source-session-replay-tools",
+        "https://openreplay.com/product/core/product-analytics/"
+      ],
+      "how_searched": [
+        "opened HN launch for usage and early payment evidence",
+        "opened recent open-source replay comparison for recency and category direction",
+        "opened vendor product page for baseline replay/funnel/heatmap features"
+      ],
+      "score": 46.7,
+      "found_at": "2026-11-22T19:45:08.867920+00:00"
+    },
+    {
       "name": "StoreRank",
       "field": "App Store optimization / ASO",
       "summary": "A web ASO workbench that audits listings by country, finds keywords, rewrites metadata in many languages, generates screenshots, tracks ranks and exports or uploads changes.",
@@ -5278,6 +5387,23 @@
       ],
       "score": 44.7,
       "found_at": "2026-11-15T02:13:44.821521+00:00"
+    },
+    {
+      "name": "Regional Pricing & PPP Test Bench",
+      "field": "SaaS pricing / growth tooling",
+      "summary": "A free web calculator and checkout helper that groups countries into purchasing-power tiers, shows localized rounded prices, simulates revenue per visitor, and generates Stripe or Paddle-ready price tier rules.",
+      "why_now": "ZeroRaised published a PPP pricing guide on Nov 10, 2026 with 2025 World Bank index values and tool gaps; Leverprice is actively promoting tiered PPP pricing with a $49 lifetime deal until Dec 15, 2026, plus examples such as $29 in the US and $12 in India.",
+      "monetization": "Free calculator with paid tier templates, checkout integrations, and 60-90 day price-test dashboards; public revenue null.",
+      "evidence": [
+        "https://leverprice.com/ppp-pricing",
+        "https://zeroraised.com/blog/purchasing-power-parity-pricing-for-saas"
+      ],
+      "how_searched": [
+        "opened live PPP pricing product page for tiers and examples",
+        "cross-checked with an independent founder guide published in November 2026"
+      ],
+      "score": 44.7,
+      "found_at": "2026-11-22T19:45:10.793619+00:00"
     },
     {
       "name": "Mentiohunt Author Finder",
@@ -5525,6 +5651,23 @@
       "found_at": "2026-11-19T13:12:54.716176+00:00"
     },
     {
+      "name": "Focus Reading Overlay",
+      "field": "accessibility / reading tools",
+      "summary": "An original web reading overlay with dyslexia-friendly typography, line focus, sentence highlighting, syllable splitting, hover definitions, text scaling, read-aloud, and simple-language rewriting.",
+      "why_now": "ExtScope shows Dyslexia Reader growing from about 2,000 to 10,000 users across Nov 16-22, 2026, a +8,000 or +400% six-day move with a 5.0 rating and 107 reviews; Chrome Web Store related listings also show strong existing demand for dyslexia, ADHD, and focus readers.",
+      "monetization": "Free reader with paid teacher/parent dashboards, saved profiles, and school/workspace licensing; public revenue null.",
+      "evidence": [
+        "https://extscope.org/extension/emipneekalekehabedhmgnpmlfciialf",
+        "https://chromewebstore.google.com/detail/opendyslexic-for-chrome/cdnapgfjopgaggbmfgbiinmmbdcglnam"
+      ],
+      "how_searched": [
+        "opened extension intelligence page for 7-day growth and review data",
+        "cross-checked Chrome Web Store listing for established category demand"
+      ],
+      "score": 42.0,
+      "found_at": "2026-11-22T19:45:11.751752+00:00"
+    },
+    {
       "name": "Kupkaike (Etsy niche scanner + digital product generator)",
       "field": "creator/e-commerce tools",
       "summary": "Free scanner measures demand/competition/pricing on live Etsy listings; $9 one-time generates a complete digital product (guide, app, cover, pins, copy).",
@@ -5577,148 +5720,6 @@
       ],
       "score": 41.3,
       "found_at": "2026-11-14T17:16:24.685518+00:00"
-    },
-    {
-      "name": "Template-based launch and feature video studio",
-      "field": "Marketing / motion design",
-      "summary": "Pick the pacing of a known launch-video template, swap in your own UI screens and copy, review frames, and export MP4 as a simple browser editor.",
-      "why_now": "Impractical launched Nov 19, 2026 at #14 with 95 upvotes; founder comments cite agency costs 'a couple grand' and After Effects' learning curve as the pain being solved.",
-      "monetization": "Free to start with 20 signup credits before Dec 6; paid pricing is not shown on opened pages, so revenue is null.",
-      "evidence": [
-        "https://www.hunted.space/product/impractical",
-        "https://impractical.ai/product"
-      ],
-      "how_searched": [
-        "Product Hunt launch analytics",
-        "product website",
-        "founder comment snippets"
-      ],
-      "score": 41.3,
-      "found_at": "2026-11-20T03:20:19.865365+00:00"
-    },
-    {
-      "name": "No-Signup URL Shortener with Real Analytics",
-      "field": "Link management / lightweight analytics",
-      "summary": "A free URL shortener that supports internationalized and Punycode domains, UTM preservation, QR codes, click tracking, bot filtering, CSV exports, and no account requirement.",
-      "why_now": "Clipr.cc shows 183,200 links, 10,622,577 clicks, 31,341 active users, and 4.5 from 175 ratings. 1dea reports 180,000 short links, 10M visits, ~150 daily active users, ~15,000 redirected visits/day, but only ~$20 revenue, showing demand without strong monetization.",
-      "monetization": "Ads on non-redirect pages, paid custom domains, branded links, advanced analytics/API access, and team workspaces.",
-      "evidence": [
-        "https://clipr.cc/",
-        "https://1dea.io/traction/monthly/2026-11"
-      ],
-      "how_searched": [
-        "micro-SaaS revenue roundup",
-        "live utility site inspection",
-        "URL shortener feature comparison",
-        "link analytics query"
-      ],
-      "score": 40.7,
-      "found_at": "2026-11-19T03:32:46.390538+00:00"
-    },
-    {
-      "name": "MagicSlides",
-      "field": "AI productivity / presentation generation",
-      "summary": "A web app that generates slide decks from prompts, documents, URLs, or YouTube videos for students, professionals, and teams.",
-      "why_now": "Established paying demand despite a crowded category: $9,600 MRR from 740 subscriptions and $733,000 all-time revenue (TrustMRR-verified, Nov 19, 2026), with the business listed for sale at a $700,000 asking price.",
-      "monetization": "Freemium subscription plans (Essential $8/mo, Pro $16/mo, Premium $29/mo per case study) generating $9,600 MRR and $8,300 in the last 30 days (TrustMRR-verified via The AI Receipts, Nov 19, 2026).",
-      "evidence": [
-        "https://theaireceipts.com/case-studies/magicslides/",
-        "https://theaireceipts.com/ai-saas-ideas/"
-      ],
-      "how_searched": [
-        "verified AI revenue case-study databases (The AI Receipts)",
-        "ranked verified AI SaaS revenue lists (The AI Receipts)"
-      ],
-      "score": 40.7,
-      "found_at": "2026-11-19T13:12:55.025305+00:00"
-    },
-    {
-      "name": "RetentionCheck (AI churn-feedback analyzer for SaaS)",
-      "field": "SaaS analytics",
-      "summary": "Paste cancellation feedback (text/CSV/emails); Claude returns a 0-100 Churn Health Score (A-F), ranked drivers with confidence and quotes, plus one priority action.",
-      "why_now": "Churn analysis is a recurring founder pain; published 2026 benchmarks across MRR tiers and comparisons showing feedback-analysis gap vs cancel-flow tools.",
-      "monetization": "Free: 3 analyses/mo, no signup; Founder $99/mo (100 analyses) or $950/yr; Pro $249/mo unlimited; annual saves 20%.",
-      "evidence": [
-        "https://retentioncheck.com/",
-        "https://retentioncheck.com/benchmarks"
-      ],
-      "how_searched": [
-        "SaaS churn tool comparisons",
-        "founder blogs",
-        "benchmark pages"
-      ],
-      "score": 40.0,
-      "found_at": "2026-11-10T10:05:29.599624+00:00"
-    },
-    {
-      "name": "Agent-to-Agent Deal Network (your site negotiates with other agents)",
-      "field": "Agentic commerce / B2B matching",
-      "summary": "Free web tool that gives a business a public agent address so other companies' AI agents can find it, book calls and negotiate — a lightweight original take on agents-selling-to-agents.",
-      "why_now": "Tobira Site Agent was Product Hunt top-10 for Nov 2026 (score 401, 101 comments, 1.8k followers) and Wynter's Nov 11 2026 AI Product Report called it 'a small, strange preview of agents selling to agents'; Product Hunt MCP (score 443) and Scalekit MCP gateway (437) in the same week show agent-to-agent plumbing is the launch theme of the moment.",
-      "monetization": "Free handle/site claim; premium routing, qualification and booking fees when an agent closes a deal; marketplace take-rate on agent-negotiated orders (modelled on commerce-agent checkout rails raising $15–80M in Nov 2026).",
-      "evidence": [
-        "https://www.producthunt.com/leaderboard/monthly/2026/11",
-        "https://wynter.ai/blog/ai-product-report-2026-11-11"
-      ],
-      "how_searched": [
-        "Product Hunt monthly/weekly leaderboards",
-        "independent AI product newsletters"
-      ],
-      "score": 40.0,
-      "found_at": "2026-11-15T02:13:45.321616+00:00"
-    },
-    {
-      "name": "Lightweight K-12 Assessment and Grading Workspace",
-      "field": "Education operations / teacher tools",
-      "summary": "A free web workspace for tutors and small schools to upload assignments, group responses by student or question, apply rubrics, track intervention needs, and export grade and parent-update reports.",
-      "why_now": "Zivvi's November report says education dominated growth: DMAC Solutions +389%, Illuminate Education +339%, Gradescope +320%, Zearn Math +313%, Typing.com +255%, and Quizlet +169%. 1dea reports an exam-prep SaaS with 54 subscribers, €754 MRR, €9,053 ARR, and 10% monthly churn, showing both demand and retention risk.",
-      "monetization": "Freemium teacher workspace, paid class seats, school admin plans, paid question banks, and export/report add-ons.",
-      "evidence": [
-        "https://zivvi.app/blog/fastest-growing-web-apps-november-2026",
-        "https://1dea.io/traction/monthly/2026-11"
-      ],
-      "how_searched": [
-        "monthly web traffic climbers",
-        "education category trend report",
-        "micro-SaaS revenue roundup",
-        "exam-prep subscription search"
-      ],
-      "score": 40.0,
-      "found_at": "2026-11-19T03:32:46.529365+00:00"
-    },
-    {
-      "name": "Visualizee.ai",
-      "field": "AI design tools for architecture and interior visualization",
-      "summary": "A web tool that converts sketches, floor plans, or clay models into photorealistic renders for architects and designers without traditional 3D rendering workflows.",
-      "why_now": "Current verified revenue shows ongoing willingness to pay in a professional niche: $7,700 MRR from 280 subscriptions and $99,200 all-time revenue as of Nov 19, 2026.",
-      "monetization": "Tiered subscriptions including a free watermarked tier and paid plans ($15/$35/$80 per month per case study); $7,700 MRR and $7,800 in the last 30 days (TrustMRR-verified via The AI Receipts, Nov 19, 2026).",
-      "evidence": [
-        "https://theaireceipts.com/case-studies/visualizee/",
-        "https://theaireceipts.com/ai-saas-ideas/"
-      ],
-      "how_searched": [
-        "verified AI revenue case-study databases (The AI Receipts)",
-        "ranked verified AI SaaS revenue lists (The AI Receipts)"
-      ],
-      "score": 40.0,
-      "found_at": "2026-11-19T13:12:55.359962+00:00"
-    },
-    {
-      "name": "Visual edit-as-you-browse layer",
-      "field": "Website tooling / growth engineering",
-      "summary": "Build a script and browser layer that lets users click text or elements on any website, describe changes, preview them and open a pull request for a developer or coding agent to implement.",
-      "why_now": "Letter's YC launch presents Letterpress-1 as a coding-agent harness and IDE for growth engineering with A/B testing and pull requests; the product page shows pressing command-L over a live site, typing or circling changes, previewing variants and creating PRs.",
-      "monetization": "Per-site seats, team workspaces, paid A/B testing, hosted experiment variants, premium integrations and enterprise OAuth/role controls.",
-      "evidence": [
-        "https://letter.dev/commandl",
-        "https://www.ycombinator.com/launches/WbJ-letterpress-1-the-world-s-first-coding-agent-harness-and-ide-for-growth-engineering"
-      ],
-      "how_searched": [
-        "websearch: Product Hunt visual website editor command L pull request launch",
-        "webfetch: official product page and YC launch page"
-      ],
-      "score": 40.0,
-      "found_at": "2026-11-19T21:41:44.618038+00:00"
     }
   ]
 }
