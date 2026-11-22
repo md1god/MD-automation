@@ -241,6 +241,25 @@
       "found_at": "2026-11-18T14:05:01.565819+00:00"
     },
     {
+      "name": "Consent-first AI job-application autopilot with human review and outcome ledger",
+      "field": "HR tech / job search",
+      "summary": "A web tool that imports a resume, finds matching roles, tailors application materials, fills ATS forms with explicit user approval, and logs every submission and employer response. Differentiate with transparency, consent controls, and response-rate analytics rather than silent mass applying.",
+      "why_now": "Tsenta was reported at about $3M annualized within three months, 90,000+ job seekers, and $170K MRR up from $17K in seven weeks; UMD's newer Pinloop had 3,000 sign-ups by Nov 10, 2026, 183 paying users and over $4,000 MRR by Nov 17, 2026. Application automation is moving from autofill to agentic submission.",
+      "monetization": "Volume credits and subscriptions; Tsenta charges $19.99/$39.99/$99.99 per month for 600/1,500/4,500 applications and $0.09 per API-submitted application. New entrant revenue is unknown (null).",
+      "evidence": [
+        "https://www.founderland.ai/articles/tsenta-reaches-3m-arr-in-three-months-with-ai-job-agent-mtsdkmz7",
+        "https://www.cs.umd.edu/article/2026/11/taking-work-out-job-hunting",
+        "https://www.ycombinator.com/companies/tsenta"
+      ],
+      "how_searched": [
+        "startup profile",
+        "founder news article",
+        "university research news"
+      ],
+      "score": 88.0,
+      "found_at": "2026-11-22T11:43:03.068261+00:00"
+    },
+    {
       "name": "AI Lecture-to-Quiz Study Workspace",
       "field": "EdTech",
       "summary": "Turns lectures, PDFs, videos and textbooks into quizzes, flashcards and a voice tutor, with progress tracking and spaced repetition.",
@@ -258,6 +277,26 @@
       ],
       "score": 87.0,
       "found_at": "2026-11-11T22:04:51.839189+00:00"
+    },
+    {
+      "name": "EU battery Digital Product Passport builder and supplier evidence vault",
+      "field": "RegTech / EU product compliance",
+      "summary": "A self-serve web workspace that turns supplier documents into battery passport drafts, checks Annex XIII-style completeness, hosts QR passport pages, and tracks evidence confidence and version history. Original wedge: a small-importer-friendly builder with gap narratives and registry-ready exports.",
+      "why_now": "The European Commission published DPP Registry technical guidance on Nov 16, 2026 covering OpenAPI, service accounts, self-hosted authentication, and semantic data resources. Traceable says the EU Battery Regulation requires passports from Feb 18, 2027 for LMT/EV batteries and industrial batteries over 2 kWh, and vendors already charge substantial per-passport fees.",
+      "monetization": "Per-passport SaaS and activation fees: Traceable lists €15/passport up to 500, €12/passport up to 2,000, €8/passport up to 5,000, €2,000 activation, and €18 pay-as-you-go; DPP Hero lists €49/€99/€249 monthly tiers. Circularise has $12.68M raised and 35 employees, showing funded B2B demand.",
+      "evidence": [
+        "https://single-market-economy.ec.europa.eu/news/digital-product-passport-registry-technical-guidance-available-2026-11-16_en",
+        "https://traceable.digital/pricing/",
+        "https://dpphero.com/en/pricing/",
+        "https://www.bouncewatch.com/company/circularise"
+      ],
+      "how_searched": [
+        "official EU regulatory announcement",
+        "vendor pricing pages",
+        "company funding profile"
+      ],
+      "score": 87.0,
+      "found_at": "2026-11-22T11:43:04.861125+00:00"
     },
     {
       "name": "AI Scam Link & Message Checker",
@@ -483,6 +522,25 @@
       "found_at": "2026-11-18T14:05:02.462499+00:00"
     },
     {
+      "name": "German B2B e-invoicing validator and PDF-to-XRechnung/ZUGFeRD converter",
+      "field": "Accounting / EU compliance",
+      "summary": "A web tool that validates invoices against EN 16931 rules, converts simple PDFs into XRechnung or ZUGFeRD, explains rejected fields, and archives machine-readable output for SMEs. Original wedge: plain-language remediation and a free validator before paid conversion.",
+      "why_now": "Germany's BMF FAQ updated Oct 29, 2026 says businesses must be able to receive e-invoices from Jan 1, 2025; issuers above €800,000 prior-year turnover move to mandatory issuance in 2027 and all businesses in 2028. XRechnung and ZUGFeRD 2.0.1 are named compliant formats, and validation is recommended.",
+      "monetization": "Per-invoice credits, monthly SaaS, and accounting integrations; Kontier lists €0/month plus 2.6% pay-as-you-go and fixed plans from €199/month. New entrant revenue is unknown (null).",
+      "evidence": [
+        "https://www.bundesfinanzministerium.de/Content/DE/FAQ/e-rechnung.html",
+        "https://kontier.eu/en/billing-germany/",
+        "https://www.viovenia.com/en/blog/ecommerce-compliance-calendar-2027"
+      ],
+      "how_searched": [
+        "government FAQ",
+        "regulatory calendar",
+        "vendor pricing page"
+      ],
+      "score": 85.0,
+      "found_at": "2026-11-22T11:43:05.788919+00:00"
+    },
+    {
       "name": "Stocky Successor: Free Shopify PO & Reorder Planner",
       "field": "E-commerce inventory tools",
       "summary": "A lightweight, free purchase-order, reorder-point and stocktake tool for small Shopify merchants left stranded after Stocky's shutdown — especially supplier rebuild, partial receiving and landed-cost gaps Shopify still doesn't cover.",
@@ -564,6 +622,25 @@
       ],
       "score": 84.0,
       "found_at": "2026-11-19T03:32:43.520015+00:00"
+    },
+    {
+      "name": "Agentic-commerce product-data and storefront readiness auditor",
+      "field": "Ecommerce / AI search",
+      "summary": "A web audit that checks whether a store's catalog, policies, structured data, options, inventory, and feeds are ready for ChatGPT, Google AI Mode, Gemini, Copilot, Meta AI, and Shop discovery. Original wedge: a scorecard plus concrete fixes for non-Shopify stores.",
+      "why_now": "Shopify's Nov 11, 2026 guide details Catalog and Agentic Storefronts across major AI channels. Shopify's Q3 2026 call reported AI traffic up 2.6x, AI-channel orders up 3.3x, catalog-powered searches converting at 2x general AI search, and 1B+ product pages structured; CNBC also documented OpenAI's pivot away from Instant Checkout because product data and selection were inadequate.",
+      "monetization": "Per-store/month audits, feed fixes, and implementation retainers; Shopify's Agentic Plan has no monthly fee but card rates from 2.9% + 30¢. Auditor revenue is unknown (null).",
+      "evidence": [
+        "https://www.shopify.com/blog/how-agentic-commerce-works?country=us&lang=en",
+        "https://www.fool.com/earnings/call-transcripts/2026/11/03/shopify-shop-q3-2026-earnings-call-transcript/",
+        "https://www.cnbc.com/2026/03/20/open-ai-agentic-shopping-etsy-shopify-walmart-amazon.html"
+      ],
+      "how_searched": [
+        "official product documentation",
+        "earnings call transcript",
+        "technology news"
+      ],
+      "score": 84.0,
+      "found_at": "2026-11-22T11:43:06.379838+00:00"
     },
     {
       "name": "Interview Rehearsal & Live Answer Coach",
@@ -1133,6 +1210,26 @@
       "found_at": "2026-11-16T20:37:41.039322+00:00"
     },
     {
+      "name": "EU software product-liability evidence ledger and update-attestation SaaS",
+      "field": "RegTech / software compliance",
+      "summary": "A web ledger that anchors each software release, configuration, supplier component, security update, and disclosure decision to tamper-evident records, then exports evidence packs for product-liability claims. Original wedge: startup-friendly release evidence and support-window records.",
+      "why_now": "Directive (EU) 2024/2853 applies to products placed on the market or put into service after Dec 8, 2026; the European Commission says software and AI systems are covered, including defects appearing after release because of updates, upgrades, or machine-learning features. Evidence disclosure and burden-of-proof rules make records commercially important before the deadline.",
+      "monetization": "B2B SaaS per product, per release, or per audit pack; no public revenue figure found (null).",
+      "evidence": [
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX%3A02024L2853-20241118",
+        "https://single-market-economy.ec.europa.eu/single-market/goods/free-movement-sectors/liability-defective-products_en",
+        "https://reltime.com/rails/pld",
+        "https://cra.toledotechnologies.com/pld/"
+      ],
+      "how_searched": [
+        "official EU law database",
+        "regulator site",
+        "vendor compliance pages"
+      ],
+      "score": 79.0,
+      "found_at": "2026-11-22T11:43:08.262861+00:00"
+    },
+    {
       "name": "GETebook.ai",
       "field": "AI ebook generation for creators and marketers",
       "summary": "Generates an outline, chapters and cover from topic, audience and tone, exporting PDF, EPUB and Word for lead magnets or KDP products.",
@@ -1678,6 +1775,25 @@
       ],
       "score": 75.0,
       "found_at": "2026-11-18T04:23:44.981117+00:00"
+    },
+    {
+      "name": "AI patent-figure generator with office-format compliance checks",
+      "field": "Legal tech / patents",
+      "summary": "A web tool that turns a text description, sketch, or photo into black-and-white patent line drawings, multi-view figures, and flowcharts with editable reference numerals and filing-sheet exports. Original wedge: jurisdiction checklists and correction suggestions before export.",
+      "why_now": "PatentFig launched in Feb 2026 and TrustMRR shows $17,130 all-time revenue, $2,790 MRR, 66 active subscriptions, and $6,030 in the last-30-day snapshot, with data last updated Jul 18, 2026. USPTO guidance still requires strict margins, FIG. labeling, reference characters, lead lines, and reproducible black lines, so format compliance remains a real problem.",
+      "monetization": "Credit subscriptions; PatentFig lists $20/$40/$80 per month for roughly 50/150/400 figures, plus a free tier.",
+      "evidence": [
+        "https://trustmrr.com/startup/patentfig",
+        "https://patentfig.ai/pricing",
+        "https://www.uspto.gov/patents/basics/apply/utility-patent"
+      ],
+      "how_searched": [
+        "revenue tracker",
+        "vendor pricing page",
+        "official patent-office requirements"
+      ],
+      "score": 75.0,
+      "found_at": "2026-11-22T11:43:08.673700+00:00"
     },
     {
       "name": "Consumer Deepfake & AI-Image Verifier",
@@ -3866,6 +3982,23 @@
       "found_at": "2026-11-14T10:41:15.863735+00:00"
     },
     {
+      "name": "AI freight and 3PL invoice discrepancy auditor",
+      "field": "Logistics / finance ops",
+      "summary": "A web tool that ingests carrier or warehouse invoices, matches each line to tariff and shipment records, flags duplicate billing and service/weight/surcharge mismatches, and builds a dispute evidence pack. Original wedge: a lightweight importer for PDFs, CSVs, EDI, and XML before enterprise TMS integration.",
+      "why_now": "nShift launched nShift Audit on Aug 27, 2026, using AI to structure invoice formats and fixed checks against tariffs and shipment records; it cites recoveries of 3% to 7% of freight spend and says about three in four of 120+ surveyed companies still check invoices manually or not at all. FreightOptics separately sells a 3PL audit product for warehouse invoices.",
+      "monetization": "B2B subscription, per-invoice pricing, or a percentage of recovered overcharges; recovered-savings rate is unknown (null).",
+      "evidence": [
+        "https://nshift.com/newsroom/nshift-announces-nshift-audit-ai-powered-freight-invoice-audit",
+        "https://www.freightoptics.com/platform/3pl-audit/"
+      ],
+      "how_searched": [
+        "vendor press release",
+        "vendor product page"
+      ],
+      "score": 54.0,
+      "found_at": "2026-11-22T11:43:07.090157+00:00"
+    },
+    {
       "name": "Website screenshot API and web tool (ScreenshotOne model)",
       "field": "Developer tools / screenshot API",
       "summary": "Hosted API that renders web pages into screenshots, PDFs and videos with ad/cookie blocking.",
@@ -5586,110 +5719,6 @@
       ],
       "score": 40.0,
       "found_at": "2026-11-19T21:41:44.618038+00:00"
-    },
-    {
-      "name": "UGC creator rate-card and brief-to-delivery workspace",
-      "field": "Creator economy / marketing",
-      "summary": "A free web tool for UGC creators to build a portfolio and rate card, turn a brand brief into a shot list, and track delivery without a large following.",
-      "why_now": "Next Big reports 46K US searches/mo for 'ugc creator', CPC $7.41 and ranking difficulty 19/100 as of Nov 19, 2026, though it stopped passing the trend check on Nov 3; rising related searches are rates +250%, platform +80%, portfolio +60%.",
-      "monetization": "Marketplaces Billo and Insense take transaction fees and list 5,000+ creators / 100,000+ creators respectively; standalone tool revenue is null.",
-      "evidence": [
-        "https://nextbig.io/trend/ugc-creator",
-        "https://explodingtopics.com/blog/trending-topics"
-      ],
-      "how_searched": [
-        "search-trend platform",
-        "exploding topics dataset",
-        "creator marketplace snippets"
-      ],
-      "score": 40.0,
-      "found_at": "2026-11-20T03:20:20.359190+00:00"
-    },
-    {
-      "name": "Prompt-to-faceless-video generator",
-      "field": "AI video / content creation",
-      "summary": "Build a simple prompt-to-video tool that writes scripts, plans scenes, generates consistent visuals, voices, captions and music, then exports or auto-posts short and long videos.",
-      "why_now": "StoryShort shows $22,416 MRR, 377 active subscriptions, $613,256 all-time revenue and about 27,000 users as of November 19, 2026, with plans from $39 to $199; its help center describes script-to-scene generation, consistent characters, API/MCP and auto-posting.",
-      "monetization": "Tiered monthly subscriptions at $39, $69, $129 and $199, usage credits, API access and agency seats.",
-      "evidence": [
-        "https://trustmrr.com/startup/storyshort",
-        "https://storyshort.ai/help/what-is-storyshort"
-      ],
-      "how_searched": [
-        "websearch: verified revenue faceless AI video generator",
-        "webfetch: TrustMRR profile and official help center"
-      ],
-      "score": 39.3,
-      "found_at": "2026-11-19T21:41:45.012704+00:00"
-    },
-    {
-      "name": "Daily Guess-the-X Puzzle Site",
-      "field": "Daily web games / display ads",
-      "summary": "Habit-forming daily puzzle such as guessing an actor from filmography, with sister games and ad monetization.",
-      "why_now": "A Nov 2026 roundup reports actorle.com at about $4K/mo with 144K-201K monthly visits, roughly 33K daily page views and a new Cinections spin-off; daily-game launches also appeared in November's Show HN rankings.",
-      "monetization": "Display ads at roughly $6 CPM, about $4K/mo; small paid subscriptions also mentioned.",
-      "evidence": [
-        "https://1dea.io/traction/monthly/2026-11",
-        "https://bestofshowhn.com/2026/11"
-      ],
-      "how_searched": [
-        "vetted indie revenue roundup",
-        "Show HN monthly ranking"
-      ],
-      "score": 38.7,
-      "found_at": "2026-11-17T22:28:44.832868+00:00"
-    },
-    {
-      "name": "Prompt-to-deck slide generator",
-      "field": "Productivity / presentations",
-      "summary": "Build a free prompt-to-slides web app that turns a topic, document or spreadsheet into editable presentations with export to PowerPoint, PDF and Google Slides.",
-      "why_now": "MagicSlides shows $9,595 MRR, 733 active subscriptions, $733,109 all-time revenue and about 2.3M users, with Stripe-verified revenue; the founder reports no employees, ~80% margin and organic SEO as the main acquisition channel.",
-      "monetization": "Annual plan at $80, monthly subscriptions, presentation quotas, PDF/PPT/Google Slides exports, team seats and add-on integrations.",
-      "evidence": [
-        "https://trustmrr.com/startup/magicslides-app",
-        "https://www.magicslides.app/pricing"
-      ],
-      "how_searched": [
-        "websearch: verified revenue AI presentation generator bootstrapped",
-        "webfetch: TrustMRR profile and official pricing page"
-      ],
-      "score": 38.0,
-      "found_at": "2026-11-19T21:41:45.587625+00:00"
-    },
-    {
-      "name": "Smart Blur",
-      "field": "Browser privacy / productivity extensions",
-      "summary": "Chrome extension that blurs emails, phone numbers, card numbers and custom keywords on-page before screen sharing, with on-device AI detection in Pro.",
-      "why_now": "It reached 1000+ installs and 10 paying users, with a 20-25% uninstall rate, and the studio publishes privacy-focused guides on hiding sensitive IDs during screen shares.",
-      "monetization": "Freemium model: core features free; Pro available as one-time Lifetime or annual, with yearly team licenses.",
-      "evidence": [
-        "https://1dea.io/traction/416",
-        "https://smartbuildlabs.com"
-      ],
-      "how_searched": [
-        "indie revenue roundup (1dea.io)",
-        "product site"
-      ],
-      "score": 37.3,
-      "found_at": "2026-11-11T15:27:34.403803+00:00"
-    },
-    {
-      "name": "Natural-language web page to spreadsheet extractor",
-      "field": "Data extraction / productivity",
-      "summary": "Describe columns in plain English, extract a clean table from the current page, preview/reorder columns, and copy to Sheets or download CSV/Excel using your own API key.",
-      "why_now": "ScooprDoopr was updated Nov 11, 2026 with a free 5-extractions/day tier and Pro at $6.99/mo; the store listing has no ratings yet, but adjacent AI scraper extensions show established demand.",
-      "monetization": "Pro is $6.99/mo or $49/yr via Polar; revenue is null.",
-      "evidence": [
-        "https://chromewebstore.google.com/detail/scooprdoopr-ai-table-data/ahdhofaekfifggnbgjajoaailndgogeb",
-        "https://extensionlaunch.com/product/scooprdoopr-ai-table-data-extractor-ahdhof"
-      ],
-      "how_searched": [
-        "Chrome Web Store listing",
-        "extension launch directory",
-        "adjacent extension comparison snippets"
-      ],
-      "score": 37.3,
-      "found_at": "2026-11-20T03:20:21.232166+00:00"
     }
   ]
 }
