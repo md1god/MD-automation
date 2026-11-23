@@ -302,6 +302,25 @@
       "found_at": "2026-11-22T11:43:03.068261+00:00"
     },
     {
+      "name": "White-label social DM sales closer for agencies",
+      "field": "AI sales automation",
+      "summary": "A free web tool that turns Instagram, Facebook, WhatsApp and website DMs into qualified sales conversations, with a white-label client dashboard, handoff notes and booking links.",
+      "why_now": "The AI Receipts listed DM Champ as the fastest-growing verified AI startup in the 30 days to Nov 12, 2026, up 299.2 percent to about 136,000 dollars a month. TrustMRR showed 244,756 dollars all-time revenue and 77 active subscriptions on its DM Champ listing, with pricing at 97, 297 and 497 dollars a month.",
+      "monetization": "Free single-channel workflow, then paid agency seats, client workspaces, white-label domains and per-connection fees.",
+      "evidence": [
+        "https://trustmrr.com/startup/dm-champ",
+        "https://dmchamp.com/pricing/",
+        "https://theaireceipts.com/fastest-growing-ai-startups/"
+      ],
+      "how_searched": [
+        "white label AI DM closer Instagram WhatsApp Facebook DM automation agencies 2026",
+        "TrustMRR DM Champ revenue 2026",
+        "fastest growing AI startups TrustMRR 2026"
+      ],
+      "score": 88.0,
+      "found_at": "2026-11-23T21:30:37.323556+00:00"
+    },
+    {
       "name": "AI Lecture-to-Quiz Study Workspace",
       "field": "EdTech",
       "summary": "Turns lectures, PDFs, videos and textbooks into quizzes, flashcards and a voice tutor, with progress tracking and spaced repetition.",
@@ -1086,6 +1105,25 @@
       "found_at": "2026-11-20T11:51:48.490145+00:00"
     },
     {
+      "name": "Personal AI agent action approval and deletion receipt ledger",
+      "field": "AI agent governance",
+      "summary": "A free web dashboard that wraps personal AI agents with per-action approval cards, narrow scopes, copied-data inventory, deletion receipts and an exportable action timeline.",
+      "why_now": "G2 review research on 2,270 plus AI marketing agent reviews found that three quarters of vendors say customers start with approvals before increasing autonomy. Instinct AI reached a 10 billion dollar valuation pre-launch, but researchers found that disconnecting email did not delete data the agent had already copied. Google added pre-action policy checks and auditable decision logs to Gemini agent tooling in Nov 2026.",
+      "monetization": "Free local or single-agent tier, then paid cloud sync, team policies, longer retention, connector alerts and audit export.",
+      "evidence": [
+        "https://learn.g2.com/ai-agents-for-marketing",
+        "https://cellcog.ai/blog/what-is-instinct-ai/",
+        "https://developers.googleblog.com/check-what-your-ai-agents-do-before-they-do-it-with-semantic-governance-policies/"
+      ],
+      "how_searched": [
+        "AI agents for marketing G2 reviews 2026",
+        "AI agent permissions deletion copied data security consumer agents 2026 audit ledger",
+        "AI agent approvals audit trail 2026"
+      ],
+      "score": 82.0,
+      "found_at": "2026-11-23T21:30:41.176385+00:00"
+    },
+    {
       "name": "AI subscription / token spend tracker",
       "field": "Developer & team productivity",
       "summary": "A dashboard that aggregates and monitors AI spend across ChatGPT, Claude, Gemini, Copilot, Cursor, etc., surfacing per-seat usage, plan limits, and cost overruns. Products like ToolSpend and multiaicost already exist; a Chrome extension 'Claude Usage Tracker & Monitor' is trending (3K+ users, +43 ratings in 30 days).",
@@ -1450,6 +1488,26 @@
       ],
       "score": 79.0,
       "found_at": "2026-11-23T09:13:49.655424+00:00"
+    },
+    {
+      "name": "Script-to-faceless-documentary video generator",
+      "field": "AI video generation",
+      "summary": "A browser tool that converts a long-form script into a finished documentary-style video with voiceover, matched stock footage, captions, motion graphics and export presets.",
+      "why_now": "GoMotion AI was shown at 71,400 dollars MRR on Nov 23, 2026, and Vid.AI at 54,700 dollars MRR with 760 subscriptions and 1.69 million dollars all-time revenue. WhyItEarns listed OpenShorts growing 161 percent in November 2026, and its content creation cohort had 15 products in the 1,000 to 10,000 dollar monthly band with a 3,804 dollar median.",
+      "monetization": "Free watermarked preview and one export, then paid HD exports, longer scripts, brand kits, bulk queues and API access.",
+      "evidence": [
+        "https://theaireceipts.com/case-studies/gomotion-ai/",
+        "https://theaireceipts.com/case-studies/vid-ai/",
+        "https://whyitearns.com/monthly/2026-11",
+        "https://doesitpay.org/ai-video-ad-services/research/"
+      ],
+      "how_searched": [
+        "script to AI documentary video generator revenue 2026",
+        "GoMotion AI revenue MRR TrustMRR",
+        "AI video ad services make money brands 2026"
+      ],
+      "score": 79.0,
+      "found_at": "2026-11-23T21:30:38.969560+00:00"
     },
     {
       "name": "GETebook.ai",
@@ -1984,6 +2042,25 @@
       "found_at": "2026-11-18T14:05:04.622704+00:00"
     },
     {
+      "name": "Full-mix audio to MIDI and sheet music workspace",
+      "field": "Music production tools",
+      "summary": "A free web tool that uploads a song and returns per-instrument MIDI, sheet music PDFs, guitar tabs, tempo maps and downbeat grids for DAW import.",
+      "why_now": "Kyutai reported that users transcribe hundreds of songs per day using MuScriptor, with tempo and downbeat detection inserted into MIDI. The public MuScriptor demo says the free open-source system turns an mp3 or wav into MIDI, sheet music PDFs and guitar tabs for every instrument.",
+      "monetization": "Free single-file transcription, then paid cloud queue, longer tracks, stem separation, batch export, DAW presets and commercial-use exports.",
+      "evidence": [
+        "https://www.linkedin.com/posts/kyutai-labs_users-transcribe-hundreds-of-songs-per-day-activity-7491175887044857857-locw",
+        "https://muscriptor.kyutai.org/",
+        "https://kyutai.org/blog/2026-07-10-muscriptor/"
+      ],
+      "how_searched": [
+        "MuScriptor Kyutai Mirelo audio to MIDI open source 2026",
+        "Kyutai users transcribe hundreds songs per day MuScriptor",
+        "free web audio to MIDI sheet music full mix 2026"
+      ],
+      "score": 76.0,
+      "found_at": "2026-11-23T21:30:43.477891+00:00"
+    },
+    {
       "name": "AI Product Photo Studio for Small Stores",
       "field": "E-commerce / creative",
       "summary": "Turns phone photos into clean catalog, lifestyle and ad-ready product images with background replacement, lighting fixes and brand presets.",
@@ -2279,6 +2356,25 @@
       ],
       "score": 74.0,
       "found_at": "2026-11-23T09:14:01.133976+00:00"
+    },
+    {
+      "name": "AI UGC ad creative generator for small brands",
+      "field": "AI advertising creative",
+      "summary": "A free web workspace that turns one product brief into short UGC-style ad variants with hooks, captions, disclosures and aspect ratios for Meta, TikTok and Shorts.",
+      "why_now": "Speel.co was reported at 63,600 dollars MRR with 1,000 subscriptions and 49 to 139 dollar monthly plans, although last-30-day cash was only about 8,000 dollars. Does It Pay found that brands do buy AI-made video ads, with one agency citing retainers from 4,000 euros per month, but warned that newcomers usually get low marketplace prices and documented earners already had ad or film experience.",
+      "monetization": "Free variant generation with watermark, then paid exports, usage rights, client approval links, ad-account integrations and agency seats.",
+      "evidence": [
+        "https://theaireceipts.com/case-studies/speel/",
+        "https://doesitpay.org/ai-video-ad-services/research/",
+        "https://whyitearns.com/monthly/2026-11"
+      ],
+      "how_searched": [
+        "site:theaireceipts.com/case-studies Speel AI UGC revenue MRR TrustMRR",
+        "AI UGC video business revenue TrustMRR 2026",
+        "AI video ad services make money brands 2026"
+      ],
+      "score": 74.0,
+      "found_at": "2026-11-23T21:30:39.708929+00:00"
     },
     {
       "name": "Photo-to-Repair Estimate for Used Cars",
@@ -3128,6 +3224,25 @@
       "found_at": "2026-11-22T19:45:10.402340+00:00"
     },
     {
+      "name": "AI agent adversarial test runner",
+      "field": "AI security testing",
+      "summary": "A free web simulator that tests an agent specification or endpoint against prompt injection, data exfiltration, unsafe tool calls and social-engineering prompts, then outputs a patch checklist.",
+      "why_now": "Audn.AI was reported at 42,400 dollars MRR on Nov 23, 2026, up from under 1,400 dollars a month until July 2026, with a 53,400 dollar October and 110 subscriptions. Its product page describes a 7x24 ethical AI hacker trained by 5,000 hackers over 1.5 years and a retest loop mapped to OWASP, NIST and the EU AI Act. Google's Nov 2026 policy post shows enterprises are adding inline tool-call checks and audit logs.",
+      "monetization": "Free single-agent scan, then paid continuous monitoring, custom attack packs, compliance reports, retest history and expert review.",
+      "evidence": [
+        "https://audn.ai/",
+        "https://theaireceipts.com/case-studies/audn-ai/",
+        "https://developers.googleblog.com/check-what-your-ai-agents-do-before-they-do-it-with-semantic-governance-policies/"
+      ],
+      "how_searched": [
+        "site:theaireceipts.com/case-studies Audn revenue MRR security AI pentest",
+        "autonomous AI pentesting agents revenue 2026",
+        "AI agent security prompt injection audit logs 2026"
+      ],
+      "score": 68.0,
+      "found_at": "2026-11-23T21:30:44.655439+00:00"
+    },
+    {
       "name": "Marketplace of skill packs and style kits for AI coding agents",
       "field": "AI developer tools",
       "summary": "A web library of installable 'skills' — instruction packs and visual style kits that give Claude Code, Codex and Cursor a distinct output style for websites, decks, images and video, previewable before install. Skillry reached $5.1K MRR within ~3 months of launch.",
@@ -3589,6 +3704,25 @@
       ],
       "score": 62.0,
       "found_at": "2026-11-19T21:41:43.990103+00:00"
+    },
+    {
+      "name": "AI Overview clean search mode",
+      "field": "Search utilities",
+      "summary": "A free browser extension or web wrapper that forces clean web results, preserves source links, hides AI answer panels and lets users share a clean-search preset.",
+      "why_now": "TideRank scored the how to get rid of AI Overview trend at 95.6, with a peak around 625 percent of GPTs and 40 trending keywords as of Nov 15, 2026. Tom's Hardware reported a blocking extension installed by 41,000 people, while Bushe noted that Google calls AI Overviews a core Search feature and says users cannot turn them off directly.",
+      "monetization": "Free personal mode, then paid family or team presets, custom filters, site allowlists and managed search policies.",
+      "evidence": [
+        "https://tiderank.tech/en/ai-trends-rank",
+        "https://www.tomshardware.com/how-to/block-google-ai-overviews",
+        "https://bushe.co/blog/how-to-get-rid-of-ai-overview/"
+      ],
+      "how_searched": [
+        "how to get rid of AI Overview trend 2026",
+        "block Google AI Overviews extension installs 2026",
+        "Google AI Overviews cannot be turned off Web filter udm 14"
+      ],
+      "score": 62.0,
+      "found_at": "2026-11-23T21:30:42.003455+00:00"
     },
     {
       "name": "AI spreadsheet formula & data-analysis assistant (Formula Bot model)",
@@ -4529,6 +4663,24 @@
       ],
       "score": 53.3,
       "found_at": "2026-11-18T14:05:03.306065+00:00"
+    },
+    {
+      "name": "Article 50 AI content marking and verification badge",
+      "field": "Regulatory web utilities",
+      "summary": "A narrow web utility that labels AI-generated images and audio with signed C2PA manifests, an invisible watermark, a disclosure line and a public verification badge.",
+      "why_now": "Tellmark already offers 100 free marks per month with no card, lists C2PA conformant generation for image, audio and video marking, and positions the tool around Article 50 of the EU AI Act. EU Deadlines tracks 40 deadlines for a small EU company, including AI Act obligations.",
+      "monetization": "Free monthly marks and verification, then paid API volume, team workspaces, brand verification pages and archived proof packs.",
+      "evidence": [
+        "https://tellmark.si/",
+        "https://eudeadlines.eu/"
+      ],
+      "how_searched": [
+        "EU AI Act Article 50 C2PA marking watermark compliance 2026",
+        "C2PA conformant product AI image audio marking 2026",
+        "EU compliance deadlines AI Act 2026 small company"
+      ],
+      "score": 53.3,
+      "found_at": "2026-11-23T21:30:41.841607+00:00"
     },
     {
       "name": "Live AI translation for churches and events",
@@ -5630,149 +5782,6 @@
       ],
       "score": 46.7,
       "found_at": "2026-11-22T19:45:08.867920+00:00"
-    },
-    {
-      "name": "StoreRank",
-      "field": "App Store optimization / ASO",
-      "summary": "A web ASO workbench that audits listings by country, finds keywords, rewrites metadata in many languages, generates screenshots, tracks ranks and exports or uploads changes.",
-      "why_now": "Wow Keywords gained 202 customers in its first week at $99 lifetime and now shows 229 app developers. Agent and MCP-driven ASO workflows are new, while most ASO suites remain subscription-heavy and fragmented.",
-      "monetization": "One-time $99 lifetime license, rising to $109 after the next 45 sales; optional paid audits and agency seats.",
-      "evidence": [
-        "https://www.soloez.com/weekly/soloez-164",
-        "https://www.wowkeywords.com/"
-      ],
-      "how_searched": [
-        "SoloEZ Indie Maker Weekly",
-        "Official product website",
-        "web search"
-      ],
-      "score": 46.0,
-      "found_at": "2026-11-13T16:28:16.033300+00:00"
-    },
-    {
-      "name": "Cross-harness memory manager for coding agents",
-      "field": "Developer tools / AI agent memory",
-      "summary": "Captures session history across Claude Code, Cursor, Codex, OpenCode and 20+ harnesses, then distills reusable workflows, corrections and debugging patterns into skills and MCP-accessible memory. Beacon's open-source repository has 3.5k stars and 305 forks under MIT; its site surfaces a $5.5M seed-round announcement, a Product Hunt top-post badge, local-first storage and a free start.",
-      "why_now": "Agent memory is an active November 2026 launch category: Beacon is running a Product Hunt launch, the repository has grown to 3.5k stars, and the product is positioned as cross-harness memory rather than another IDE or local model runner.",
-      "monetization": "Open-source local core plus paid cloud sync/team memory and enterprise forwarding to SIEM and data lakes.",
-      "evidence": [
-        "https://github.com/asymptote-labs/agent-beacon",
-        "https://beacon.sh/"
-      ],
-      "how_searched": [
-        "Product Hunt monthly leaderboard search",
-        "GitHub repository and star-count review",
-        "Web search: AI coding agent memory layer November 2026"
-      ],
-      "score": 46.0,
-      "found_at": "2026-11-14T10:41:18.417059+00:00"
-    },
-    {
-      "name": "Exa Monitors v2 (scheduled web search for AI agents)",
-      "field": "agent infrastructure",
-      "summary": "Runs an Exa search on a cadence and pushes only new, relevant results to a webhook with summaries/JSON and citations; dedupes against prior runs.",
-      "why_now": "v2 cut price 7x to $2 per 1k runs (from $15); launched Oct 29/Nov 2, 2026 and featured on Product Hunt as agents need fresh, push-based web monitoring.",
-      "monetization": "Usage-based: $2 per 1,000 runs (v2), down from $15; minimum 1-hour interval; enterprise adds SSO/HIPAA/zero-retention.",
-      "evidence": [
-        "https://exa.ai/blog/monitors-v2",
-        "https://chatgate.ai/post/exa-monitors-v2"
-      ],
-      "how_searched": [
-        "Product Hunt launches",
-        "vendor blogs",
-        "API docs"
-      ],
-      "score": 45.3,
-      "found_at": "2026-11-10T10:05:26.773599+00:00"
-    },
-    {
-      "name": "Chat-with-PDF document assistant (PDF.ai model)",
-      "field": "Document AI / PDF tools",
-      "summary": "Web tool that lets users ask questions about PDFs and extract structured data via API.",
-      "why_now": "Founder reported reaching $25K MRR and $60K revenue in a month within 6 months of launch; domain-driven SEO brought ~1M monthly visits.",
-      "monetization": "Freemium plus subscriptions from $15/month and API plans; reported $60K monthly revenue at peak.",
-      "evidence": [
-        "https://www.indiehackers.com/post/pdf-ai-tool-made-25k-in-mrr-last-month-07148fa17d",
-        "https://aiolum.com/story/pdf-ai/"
-      ],
-      "how_searched": [
-        "Indie Hackers case study",
-        "revenue verification site"
-      ],
-      "score": 45.3,
-      "found_at": "2026-11-11T06:38:40.485585+00:00"
-    },
-    {
-      "name": "Free virtual try-on widget for small fashion stores",
-      "field": "E-commerce / retail",
-      "summary": "A free or low-cost web widget that lets a shopper upload one photo and see a garment on themselves, with size guidance and email capture, embeddable on Shopify, WooCommerce or PrestaShop without code.",
-      "why_now": "Aiolum's verified profile, updated 2026-11-11, shows solo-founder Genlook at $14.2K MRR in August 2026, about $169.8K ARR, roughly 1,100 installs and 250 paying stores. Its live Shopify listing on 2026-11-12 shows a 5.0 rating from 41 reviews and a free plan, while image-model costs keep falling, though several lookalikes now compete.",
-      "monetization": "Free quota; usage-based pricing above quota; paid analytics and email capture; API resale; white-label for agencies.",
-      "evidence": [
-        "https://aiolum.com/story/genlook/",
-        "https://apps.shopify.com/genlook-virtual-try-on"
-      ],
-      "how_searched": [
-        "Read Aiolum's verified solo-founder case with revenue and install counts",
-        "Checked the live Shopify App Store listing, pricing and reviews",
-        "Compared installs, paying customers and competing try-on apps"
-      ],
-      "score": 45.3,
-      "found_at": "2026-11-12T19:04:57.956827+00:00"
-    },
-    {
-      "name": "Private metasearch with a small-web index",
-      "field": "Search / privacy tools",
-      "summary": "Build a paid privacy-first search front end that combines independent providers, user-controlled ranking boosts, domain rewriting, scoped searches, image search and an index of indie/small-web sites.",
-      "why_now": "Uruky reached 400 monthly active accounts in October 2026 and passed 1M URLs in its Site Search index by November 2026; a founder-reported case study shows more than €1k/month, about 60 paying customers as of May 2026, and a €5/mo no-free-plan model.",
-      "monetization": "€5/mo subscriptions, vouchers, crypto and cash-by-mail payments, paid website-owner indexing and optional business search widgets.",
-      "evidence": [
-        "https://uruky.com/whats-new?il=en",
-        "https://mrrteardown.com/en/case/uruky/"
-      ],
-      "how_searched": [
-        "websearch: indie private search engine Kagi alternative revenue",
-        "webfetch: Uruky changelog, Hacker News launch and revenue teardown"
-      ],
-      "score": 45.3,
-      "found_at": "2026-11-19T21:41:42.212487+00:00"
-    },
-    {
-      "name": "Nicotine taper planner and craving web tool",
-      "field": "Health and wellness self-help",
-      "summary": "Convert vape puffs, pouches or cigarettes into mg/day, choose a quit date or weekly taper, log with one tap, and run short craving exercises; rebuild as a browser tool with local-first logs.",
-      "why_now": "Cleared launched Nov 19, 2026 at #12 with 101 upvotes and 11 comments; maker cites 1 in 5 European 15-16-year-olds vaping, US pouch sales up about 3.5x in under three years, and 2 in 3 young adult nicotine users wanting to quit.",
-      "monetization": "Cleared Plus is $49.99/yr or $12.99/mo via App Store; Craving SOS, slip flow, day count and quit buddy are free.",
-      "evidence": [
-        "https://www.hunted.space/product/cleared-quit-nicotine",
-        "https://apps.apple.com/us/app/cleared-quit-vaping-pouches/id6821403846"
-      ],
-      "how_searched": [
-        "Product Hunt launch analytics",
-        "App Store listing",
-        "health trend snippets"
-      ],
-      "score": 45.3,
-      "found_at": "2026-11-20T03:20:18.282824+00:00"
-    },
-    {
-      "name": "Satellite Overpass & Imagery Explorer",
-      "field": "Geospatial / data-visualization tools",
-      "summary": "Enter any place to see which Earth-observation satellites crossed it in the last 7 days, replay the pass, and view the matching public Sentinel-2/Landsat/NASA image with cloud cover.",
-      "why_now": "watched.earth hit 500 points and 89 comments on Show HN on Nov 9 and passed 40,000 places checked within a day (Nov 10); three independent write-ups followed Nov 9-10; CelesTrak TLEs are refreshed every 6 hours.",
-      "monetization": "None found: free, MIT, no ads — revenue null. Plausible paid layer would be imagery alerts/API for agriculture, insurance and newsrooms, but no money is proven yet.",
-      "evidence": [
-        "https://hnflash.com/stories/show-hn-every-satellite-that-passed-over-any-place-this-week-50428907",
-        "https://sinapti.ca/post/en/watched-the-site-that-shows-which-satellites-passed-over-any-8fjuj9au"
-      ],
-      "how_searched": [
-        "Show HN",
-        "HN aggregation tracker",
-        "independent tech write-up",
-        "GitHub project details via article"
-      ],
-      "score": 45.3,
-      "found_at": "2026-11-20T11:51:50.639481+00:00"
     }
   ]
 }
