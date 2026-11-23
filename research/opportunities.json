@@ -122,6 +122,26 @@
       "found_at": "2026-11-16T02:25:34.067718+00:00"
     },
     {
+      "name": "GLP-1 dose, protein and side-effect companion",
+      "field": "Health / GLP-1 medication tracking",
+      "summary": "A web and mobile companion for people on Ozempic, Wegovy, Mounjaro and Zepbound: shot and pill logging, injection-site rotation, a medication-level curve, protein and fiber targets, side-effect tracking and a doctor-ready PDF report.",
+      "why_now": "The niche has 45 apps, 33 launched in the last 18 months, and review velocity is 2.1x its earlier pace. Two leaders sit in the $20K-$50K a month band, and researched apps have a combined revenue floor above $640K a month (Appaloma, updated Nov 11, 2026). Pep AI went from launch to about $60K MRR by May 2026, and Shotsy alone is estimated at $26.2K-$213.6K in October 2026 on iOS.",
+      "monetization": "Subscriptions: most leaders charge $8.99-$9.99 a month or $29.99-$119.99 a year. Pep AI reported $60K MRR; Shotsy was estimated at $26.2K-$213.6K gross in Oct 2026. A free web tool can gate PDF reports, stacked reminders and an AI coach.",
+      "evidence": [
+        "https://www.appaloma.com/research/glp1-companions",
+        "https://startupfounderstories.com/stories/cedric-roberge-pep-ai-60k-mrr-glp1-tracker",
+        "https://appgazers.com/reports/apps/ios-6499510249",
+        "https://peekly.app/apps/59885e58-f2ae-4e13-b6b6-1382829a7c88"
+      ],
+      "how_searched": [
+        "app-store revenue estimators (Appaloma, AppGazers, Peekly)",
+        "founder revenue interviews",
+        "app ranking and review-velocity research"
+      ],
+      "score": 90.0,
+      "found_at": "2026-11-23T09:13:25.580153+00:00"
+    },
+    {
       "name": "AI Accessibility Fixer",
       "field": "Digital accessibility",
       "summary": "A free WCAG scanner plus AI code-fix assistant for AI-generated and no-code sites. Paste a URL, get prioritized fixes for alt text, labels, contrast, focus order and button names, then subscribe for monitoring and developer-ready patches.",
@@ -463,6 +483,27 @@
       "found_at": "2026-11-23T01:01:35.859199+00:00"
     },
     {
+      "name": "Class-action settlement and unclaimed-money finder",
+      "field": "Consumer finance / legal claims",
+      "summary": "A free checker that matches a short anonymous profile to open class actions, FTC and CFPB refund programmes and state unclaimed-property databases, then shows deadlines, proof requirements and estimated payouts.",
+      "why_now": "One settlement-finder app launched in August 2025 reached about $1.22M ARR, 500K+ downloads and about 19,500 paying subscribers, and was listed for sale on Acquire.com after peaking at $1.83M ARR in June 2026. The theme has 123,003 monthly US searches, including 32,357 for 'class action settlement' (Payday AI). ClaimBee says 50K+ people already use its checker and 10+ new cases are added daily.",
+      "monetization": "Subscriptions plus law-firm lead sales. The Acquire listing reports about $905K TTM proceeds, $1.22M ARR, about 19,500 paying subscribers, $141K in law-firm affiliate revenue in May 2026 alone and about 71% net margin. No revenue figure exists for a free tool; affiliate lead-gen and premium alerts are the paths.",
+      "evidence": [
+        "https://app.acquire.com/public/q27ozn42ns-mobile-app-that-helps-consumers-find-class-action-settlements-they-qualify-for-and-claim-their-money",
+        "https://www.claimbee.app/",
+        "https://thepayday.ai/trends/unclaimed-money-recovery",
+        "https://appinsider.io/apps/collect-settlement-finder-6752740187"
+      ],
+      "how_searched": [
+        "acquisition marketplace listing (Acquire.com)",
+        "search-demand trend tool",
+        "product landing pages",
+        "app download estimator"
+      ],
+      "score": 86.0,
+      "found_at": "2026-11-23T09:13:27.749995+00:00"
+    },
+    {
       "name": "Glossa (live AI translation for church services)",
       "field": "event/live translation",
       "summary": "Live AI translation of sermons and Christian events into 100+ languages; listeners hear/read on their phones via QR code, no headsets.",
@@ -722,6 +763,27 @@
       "found_at": "2026-11-22T19:45:07.520601+00:00"
     },
     {
+      "name": "Trading-card scanner, price and grading-ROI tracker",
+      "field": "Collectibles / Pokemon TCG",
+      "summary": "A card scanner and collection tracker that identifies Pokemon and other TCG cards from a photo, shows recent sold prices, estimates grading ROI against PSA/CGC/TAG fees, and tracks portfolio value and set completion.",
+      "why_now": "PSA's backlog was still 7.2M items on Oct 20, 2026, after peaking at 12.4M in July; April-May submissions were 2.5x a year earlier and Value grading reopened at $39.99 a card (CNBC, Polygon). UltraBall verified 569,900 US eBay card sales worth $70.3M in October 2026, and the PSA 10 premium over raw widened to 17.7x. TCGCharts puts the tracked Pokemon market at $15.47B.",
+      "monetization": "No public revenue for a scanner tool. The category pays through grading fees ($24.99-$39.99 a card), price-data subscriptions and marketplace affiliate links. The 17.7x PSA 10 premium creates strong demand for pre-submission screening.",
+      "evidence": [
+        "https://www.cnbc.com/2026/11/06/card-pokemon-grading-psa-collectors-price.html",
+        "https://ultraball.com/news/market/pokemon-card-market-report-october-2026",
+        "https://www.crowdhandler.com/blog/the-card-boom-is-back-and-so-is-the-traffic",
+        "https://tcgcharts.com/research/market-pulse-23-october-2026"
+      ],
+      "how_searched": [
+        "financial news",
+        "market data research",
+        "grading-company reporting",
+        "collectibles market index"
+      ],
+      "score": 84.0,
+      "found_at": "2026-11-23T09:13:29.024434+00:00"
+    },
+    {
       "name": "Interview Rehearsal & Live Answer Coach",
       "field": "HR tech / career",
       "summary": "A practice-first interview coach that generates role-specific questions, scores answers against a résumé and job description, and gives live structure prompts with an explicit consent mode.",
@@ -800,6 +862,27 @@
       ],
       "score": 83.0,
       "found_at": "2026-11-17T04:13:43.396129+00:00"
+    },
+    {
+      "name": "HYROX race finder and training-plan generator",
+      "field": "Fitness / hybrid racing",
+      "summary": "A HYROX race finder, results and percentile tracker, and personalised 8-station training-plan generator for singles, doubles and relay athletes.",
+      "why_now": "HYROX grew from about 650 competitors at its first event to more than 1M participants, and 2026 finishes hit 1,049,327 by October, 2.3x the same period in 2025 (Reuters, Roxpace). Seoul sold out in about an hour and added a third day (Korea Herald); New York sold out in 40 minutes and London drew 70,000 applicants for 16,000 places (Seoul Economic Daily). Denver's first race drew nearly 14,000 athletes on Nov 12-15, 2026.",
+      "monetization": "Race entries cost about $140-$258 and ticket revenue has grown roughly 100% a year. A free tool monetises through training-plan subscriptions, gear affiliates and race or venue partnerships. No standalone revenue figure was found.",
+      "evidence": [
+        "https://www.reuters.com/sports/hyroxs-popularity-soars-fitness-racing-hybrid-chases-olympic-dream-2026-08-19/",
+        "https://www.roxpace.app/blog/state-of-hyrox-2026",
+        "https://www.koreaherald.com/article/10932253",
+        "https://en.sedaily.com/society/2026/10/05/fitness-race-hyrox-draws-koreas-young-runners-as-entries"
+      ],
+      "how_searched": [
+        "international news",
+        "event participation data research",
+        "local news",
+        "race-operator case study"
+      ],
+      "score": 83.0,
+      "found_at": "2026-11-23T09:13:31.582532+00:00"
     },
     {
       "name": "EAA Web Accessibility Fixer",
@@ -1247,6 +1330,27 @@
       "found_at": "2026-11-23T01:01:38.060429+00:00"
     },
     {
+      "name": "Black Friday real-price history checker",
+      "field": "Retail / deal intelligence",
+      "summary": "An 'is this really a deal?' price-history checker and drop-alert tool for Black Friday and Cyber Monday that compares current offers with the same product's pre-sale low across major retailers.",
+      "why_now": "US searches for 'black friday deals' hit 80.6K in September 2026, up 418% from August, and November 2025 saw about 7M (Similarweb). Google interest in 'black friday' reached a 92-day high of 95 on Nov 18, 2026, while TikTok views rose 443% to 173.4M (Trends MCP). BFCM.ai launched a free hourly tracker on Nov 16 and says new offers tripled weekly from 130 to 1,360; Scouted Brands finds 60.3% of 150,552 tracked products are marked down, with an average 48% claimed discount.",
+      "monetization": "Affiliate commissions on tracked retailer links plus display ads. No verified revenue for these new tracker sites was published; the category monetises on outbound shopping clicks, so a free tool is viable but seasonal.",
+      "evidence": [
+        "https://www.similarweb.com/blog/daas/data-analysis/black-friday-2026-us-electronics/",
+        "https://www.trendsmcp.ai/reports/black-friday-demand-signals-2026",
+        "https://www.prnewswire.com/news-releases/shopvision-launches-bfcmai-a-free-live-tracker-of-black-friday-and-cyber-monday-offers-302939747.html",
+        "https://www.pricewatchpro.com/"
+      ],
+      "how_searched": [
+        "traffic and search-demand estimator (Similarweb)",
+        "search-trend API report",
+        "launch press release",
+        "live price-tracking site"
+      ],
+      "score": 80.0,
+      "found_at": "2026-11-23T09:13:33.084398+00:00"
+    },
+    {
       "name": "Ad Spend Refund & Invalid-Traffic Auditor",
       "field": "Adtech / fintech",
       "summary": "Connects to ad accounts, audits invoices for invalid traffic, billing errors and missed credits, then generates platform-ready refund claims.",
@@ -1326,6 +1430,26 @@
       ],
       "score": 79.0,
       "found_at": "2026-11-22T11:43:08.262861+00:00"
+    },
+    {
+      "name": "Baby wake-window and nap-schedule planner",
+      "field": "Parenting / infant sleep",
+      "summary": "A wake-window and nap-schedule planner for babies and toddlers that turns age, sleep logs and wake times into a predicted next nap, bedtime plan and shareable routine.",
+      "why_now": "Huckleberry, the category leader, is estimated at $300K-$1M a month on the App Store in October 2026, about $900K a month overall in July, with 5M+ families and 52K-236K monthly downloads (Appto, FluxBuilder, AppGazers). Its paid plans are $11.99-$119.99 and it ranks #1-2 in US Medical grossing. The free tracking layer is exactly what a web tool can replicate.",
+      "monetization": "Subscriptions of $11.99-$119.99 for Plus/Premium; Huckleberry is estimated at $18M a year. A free planner could charge for custom sleep plans, expert chat or multi-child histories.",
+      "evidence": [
+        "https://appto.store/apps/huckleberry",
+        "https://fluxbuilder.com/explore/huckleberry-baby-tracker/",
+        "https://appgazers.com/reports/developers/ios-1169136077"
+      ],
+      "how_searched": [
+        "app revenue estimators",
+        "app-store teardown",
+        "download estimator",
+        "parenting category ranking data"
+      ],
+      "score": 79.0,
+      "found_at": "2026-11-23T09:13:49.655424+00:00"
     },
     {
       "name": "GETebook.ai",
@@ -1572,6 +1696,27 @@
       "found_at": "2026-11-22T03:32:20.908018+00:00"
     },
     {
+      "name": "AI dating reply and profile coach",
+      "field": "Consumer / dating",
+      "summary": "A dating-chat and profile coach that reads a screenshot of a conversation or bio and suggests replies in a chosen tone, plus a profile-photo and bio scorer.",
+      "why_now": "RIZZ is estimated at $60K-$330K a month on iOS (AppCurrents) and $100K-$300K a month (Appto) in October 2026, with 40K US ratings; another tracker puts it at about $480K a month and 92K downloads. It claims 15M downloads and 5B+ creator-driven views, and ranks around #80 US grossing (Chartjump). The format is simple to rebuild as a free web tool.",
+      "monetization": "Subscriptions from $3.99 to $99.99; RIZZ's founder has claimed $15M+ cumulative revenue. A free tool can monetise through a daily message cap, tone packs, profile audits and ads.",
+      "evidence": [
+        "https://appto.store/apps/rizz",
+        "https://appcurrents.com/apps/rizz-ios-1663430725",
+        "https://chartjump.com/app/rizz",
+        "https://www.appstoretracker.com/app/rizz-1663430725"
+      ],
+      "how_searched": [
+        "app revenue estimators",
+        "app growth teardown",
+        "app store tracker",
+        "founder/creator distribution analysis"
+      ],
+      "score": 78.0,
+      "found_at": "2026-11-23T09:13:52.253327+00:00"
+    },
+    {
       "name": "Freelancer Contract Risk Scanner",
       "field": "Legal tech",
       "summary": "Upload a freelance contract and get clause-level red flags, a dollar-denominated hidden-cost score, and ready-to-send negotiation language.",
@@ -1651,6 +1796,47 @@
       ],
       "score": 77.0,
       "found_at": "2026-11-20T11:51:49.338744+00:00"
+    },
+    {
+      "name": "Personal data-broker exposure scanner",
+      "field": "Privacy / consumer data removal",
+      "summary": "A free personal-exposure scanner that checks people-search and data-broker sites for a name, city and phone, shows what is public, and guides or automates opt-outs with links to removal services.",
+      "why_now": "Data removal is described as one of the fastest-growing corners of consumer privacy; Incogni covers 420+ brokers and has sent 245M+ removals, with plans at $95.88-$275.88 a year (Gizmodo, Cyberpresso). A 2024 Consumer Reports test found only 35% of exposed records stayed off sites after four months, and manual opt-out beat most paid services at 70%, leaving room for a smarter free workflow. The broker industry is estimated at $278B a year.",
+      "monetization": "Affiliate commissions on $96-$276 a year removal subscriptions, plus premium monitoring. No public revenue for a free scanner; Incogni and DeleteMe pricing and retention economics are documented.",
+      "evidence": [
+        "https://gizmodo.com/best-data-removal-service",
+        "https://cyberpresso.com/blog/deleteme-vs-incogni",
+        "https://primedigger.com/incogni-vs-deleteme/",
+        "https://www.cnbc.com/select/data-removal-services-worth-it/"
+      ],
+      "how_searched": [
+        "review and comparison sites",
+        "independent consumer testing (Consumer Reports via review)",
+        "pricing pages",
+        "consumer finance news"
+      ],
+      "score": 77.0,
+      "found_at": "2026-11-23T09:13:55.332820+00:00"
+    },
+    {
+      "name": "CBAM exposure and certificate calculator",
+      "field": "Trade compliance / carbon",
+      "summary": "A free CBAM exposure and certificate calculator for EU importers and non-EU suppliers: enter CN codes, tonnage and supplier emissions to see whether the 50-tonne threshold applies, estimate certificates and assemble a verifier-ready evidence pack.",
+      "why_now": "CBAM's definitive regime started Jan 1, 2026, with authorised-declarant status, verified actual emissions and certificate obligations (European Commission). The compliance-software market is put at $4.18B in 2026, growing to $8.94B by 2031 at 16.44% CAGR (Mordor). 39 vendors already sell CBAM software, with published prices from free tiers to EUR 2,990 a year, and the first annual declaration is due Sept 30, 2027 (CBAM Guide, updated Nov 21, 2026).",
+      "monetization": "B2B SaaS: published tiers run EUR 79-EUR 2,990 a year, with advisory and verifier services on top. A free calculator can qualify leads and upsell supplier portals and filing. No revenue figure exists for a hypothetical free tool.",
+      "evidence": [
+        "https://www.mordorintelligence.com/industry-reports/carbon-border-adjustment-mechanism-cbam-compliance-software-market",
+        "https://cbamguide.com/software/",
+        "https://taxation-customs.ec.europa.eu/carbon-border-adjustment-mechanism/cbam-definitive-regime_en",
+        "https://trade.ec.europa.eu/access-to-markets/en/news/start-definitive-period-cbam-eu"
+      ],
+      "how_searched": [
+        "regulatory primary sources (European Commission, Access2Markets)",
+        "market research report",
+        "vendor comparison directory"
+      ],
+      "score": 77.0,
+      "found_at": "2026-11-23T09:13:56.645609+00:00"
     },
     {
       "name": "AI paid-media manager: autonomous Google/Meta/TikTok ad campaign agent",
@@ -1894,6 +2080,28 @@
       "found_at": "2026-11-22T11:43:08.673700+00:00"
     },
     {
+      "name": "EU pay-transparency job-ad and pay-gap checker",
+      "field": "HR compliance / pay equity",
+      "summary": "A free EU pay-transparency checker that audits job ads for a salary range and pay-history question, calculates a company's gender pay gap from a CSV, and flags the 5% joint-assessment trigger by country.",
+      "why_now": "Directive (EU) 2023/970 became applicable on 7 June 2026 and requires a salary range before interview, a ban on pay-history questions, pay-gap reporting for employers with 100+ staff and a joint assessment when the gap is 5%+ (European Commission, EUR-Lex). As of 20 Nov 2026 only 6 of 27 member states had a full transposing law in force, 166 days after the deadline (Deloitte), leaving employers exposed and confused.",
+      "monetization": "B2B compliance software and advisory; vendors such as Parmetra, Figures and Trusaic sell annual seats. A free job-ad checker can capture employer leads and upsell gap analysis. No public revenue for a free tool.",
+      "evidence": [
+        "https://commission.europa.eu/news-and-media/news/new-eu-rules-pay-transparency-explained-2026-06-05_en",
+        "https://eur-lex.europa.eu/EN/legal-content/summary/equal-pay-for-equal-work-or-work-of-equal-value-between-men-and-women-rules-on-pay-transparency.html",
+        "https://legalbriefs.deloitte.com/post/102oak4/eu-pay-transparency-directive-latest-country-updates-as-at-20-november-2026",
+        "https://parmetra.com/en",
+        "https://figures.hr/post/eu-transparency-job-ads"
+      ],
+      "how_searched": [
+        "regulatory primary sources (European Commission, EUR-Lex)",
+        "legal update from a professional-services firm",
+        "vendor landing pages",
+        "HR compliance guides"
+      ],
+      "score": 75.0,
+      "found_at": "2026-11-23T09:13:59.757808+00:00"
+    },
+    {
       "name": "Consumer Deepfake & AI-Image Verifier",
       "field": "Cybersecurity / media forensics",
       "summary": "Upload an image, video or link and get a deepfake or AI-generation likelihood score, tamper signals and plain-language next steps.",
@@ -2052,6 +2260,27 @@
       "found_at": "2026-11-22T03:32:22.905042+00:00"
     },
     {
+      "name": "AI product-photo studio for marketplace sellers",
+      "field": "E-commerce / product imagery",
+      "summary": "A free product-photo studio for Etsy, Shopify, Amazon and eBay sellers: background removal, AI scene and backdrop generation, ghost-mannequin and virtual-model shots, and batch catalogue cleanup.",
+      "why_now": "Photoroom reports 300M people have used it, 7B images a year, 1M+ businesses and 180+ countries, with named conversion lifts of 23%-50% (company blog, June 2026). It was at $50M ARR in Aug 2025 and Sacra estimated $94M ARR for 2024, while Airbridge estimates about $2M a month in Oct 2026 from 504K downloads. Prices run $5.99 a week to $249.99 a year.",
+      "monetization": "Freemium subscriptions ($89.99-$249.99 a year on mobile) plus API and enterprise deals. A free web tool can monetise on batch credits, brand kits and marketplace integrations.",
+      "evidence": [
+        "https://www.photoroom.com/inside-photoroom/brand-refresh",
+        "https://www.airbridge.io/en/app-revenue/photoroom",
+        "https://sacra.com/c/photoroom/",
+        "https://startupfounderstories.com/stories/matthieu-rouif-photoroom-two-week-build"
+      ],
+      "how_searched": [
+        "company blog and customer outcomes",
+        "app revenue estimator",
+        "private-company revenue research",
+        "founder revenue interview"
+      ],
+      "score": 74.0,
+      "found_at": "2026-11-23T09:14:01.133976+00:00"
+    },
+    {
       "name": "Photo-to-Repair Estimate for Used Cars",
       "field": "Insurtech / automotive",
       "summary": "Consumers upload photos of car damage and get a likely repair-cost range, damage severity and a shareable inspection report before buying or claiming.",
@@ -2170,6 +2399,26 @@
       ],
       "score": 73.0,
       "found_at": "2026-11-18T04:23:46.367877+00:00"
+    },
+    {
+      "name": "Browser pronunciation and clarity coach",
+      "field": "Education / spoken English",
+      "summary": "A browser-based pronunciation and clarity coach for non-native English speakers that records short speech, scores phoneme-level errors, and generates a daily drill plan for interviews, meetings and presentations.",
+      "why_now": "BoldVoice raised a $21M Series A in Jan 2026 after crossing $10M ARR with 5M+ downloads in 150+ countries and just seven employees (PR Newswire, Slator). It charges $150 a year against $200-$300 an hour for human accent coaches, and its founder says the market is about 1B non-native English speakers. Competitor VocalImage is reported at $12M ARR on $19.99 a month.",
+      "monetization": "Subscription at about $150 a year (BoldVoice); the competitor charges $19.99 a month. A free web tool can cap daily minutes and sell interview-specific packs, team plans and recruiter referrals.",
+      "evidence": [
+        "https://www.prnewswire.com/news-releases/boldvoice-raises-21m-series-a-to-give-a-billion-non-native-english-speakers-their-own-ai-voice-coach-302671777.html",
+        "https://www.pmf.show/blog/boldvoice-anada-lakra-consumer-app-10m-arr",
+        "https://startupeable.com/en/boldvoice-audio-ai-lab/"
+      ],
+      "how_searched": [
+        "funding press release",
+        "founder podcast interview",
+        "industry news",
+        "startup case study"
+      ],
+      "score": 73.0,
+      "found_at": "2026-11-23T09:14:01.999597+00:00"
     },
     {
       "name": "Podcast transcript search engine: keyword search inside millions of episodes",
@@ -2633,6 +2882,27 @@
       ],
       "score": 70.0,
       "found_at": "2026-11-22T03:32:25.153245+00:00"
+    },
+    {
+      "name": "Image-to-3D printability studio",
+      "field": "3D / creator tools",
+      "summary": "A free image-to-3D web tool for 3D-printing hobbyists and game prototypers: upload a photo or prompt, generate a textured GLB or STL, repair non-manifold meshes and preview printability.",
+      "why_now": "Meshy crossed $100M ARR in Sept 2026, up 100x in under two years, with 15M registered users and 100M generated models (PR Newswire). It ranked No. 31 on a16z's first consumer AI revenue list, the only 3D product, and closed a roughly $400M Series B at a $1.5B valuation. Tripo reached $1M+ monthly revenue with 90% of users outside China (Dealroom).",
+      "monetization": "Credits and subscriptions: Meshy Pro is about $20 a month for 1,000 credits, with enterprise API deals. A free tool can monetise through print-on-demand affiliates, paid high-resolution exports and queue priority. No revenue figure exists for a hypothetical free tool.",
+      "evidence": [
+        "https://www.prnewswire.com/news-releases/meshy-surpasses-100-million-in-annual-recurring-revenue-growing-100x-in-under-two-years-302894078.html",
+        "https://3dprintingindustry.com/news/meshy-ranks-on-a16zs-first-ai-apps-by-revenue-list-256149/",
+        "https://app.dealroom.co/news/feed/chinese-ai-startups-tripo-and-isales-target-global-markets-with-90-of-users-outside-china",
+        "https://eu.36kr.com/en/p/3783556211825920"
+      ],
+      "how_searched": [
+        "company press release",
+        "industry trade press",
+        "venture database news feed",
+        "startup revenue reporting"
+      ],
+      "score": 70.0,
+      "found_at": "2026-11-23T09:14:03.146731+00:00"
     },
     {
       "name": "AI guardrails / prompt-injection & output-safety checker",
@@ -5503,233 +5773,6 @@
       ],
       "score": 45.3,
       "found_at": "2026-11-20T11:51:50.639481+00:00"
-    },
-    {
-      "name": "Perit Marketplace",
-      "field": "AI training data marketplace",
-      "summary": "Marketplace connecting data owners and domain experts with frontier AI labs for datasets and RL tasks/benchmarks.",
-      "why_now": "YC F26 company reported crossing $9-11M in 4.5 months, with 29 listed datasets and expert task workbench demand.",
-      "monetization": "B2B data and RL-task sales to AI labs; self-reported $9-11M revenue in 4.5 months, contributor payouts on adoption.",
-      "evidence": [
-        "https://www.producthunt.com/products/perit-marketplace",
-        "https://www.ycombinator.com/companies/peritai"
-      ],
-      "how_searched": [
-        "launch platform (Product Hunt)",
-        "accelerator company page (Y Combinator)"
-      ],
-      "score": 45.3,
-      "found_at": "2026-11-21T23:34:23.332885+00:00"
-    },
-    {
-      "name": "Anti-Slop Design Grader (agent UI taste checker)",
-      "field": "Design quality tooling for AI output",
-      "summary": "Free web tool that scores AI-generated pages/UI against a 'design vocabulary' (spacing, type, hierarchy) and returns concrete fixes — turning the hottest agent-skill genre into a browser tool.",
-      "why_now": "Nutlope/hallmark ('Anti-AI-slop design skill') gained +24,631 stars in November 2026 to ~55k total (GitStock monthly #1); companion repos pbakaus/impeccable (+4,689/7d, 110k total) and Leonxlnx/taste-skill (+3,999/7d) show the whole 'design taste for agents' category pulling thousands of stars weekly (whatstrending.ai, Nov 8–15 2026).",
-      "monetization": "Free grade + before/after report; pro tiers for design tokens, Figma export and CI checks; agency/white-label API.",
-      "evidence": [
-        "https://gitstock.org/trending/monthly/2026-11-14",
-        "https://whatstrending.ai/repos"
-      ],
-      "how_searched": [
-        "GitHub monthly/weekly star-rank trackers",
-        "agent-skill repository trend feeds"
-      ],
-      "score": 44.7,
-      "found_at": "2026-11-15T02:13:44.821521+00:00"
-    },
-    {
-      "name": "Regional Pricing & PPP Test Bench",
-      "field": "SaaS pricing / growth tooling",
-      "summary": "A free web calculator and checkout helper that groups countries into purchasing-power tiers, shows localized rounded prices, simulates revenue per visitor, and generates Stripe or Paddle-ready price tier rules.",
-      "why_now": "ZeroRaised published a PPP pricing guide on Nov 10, 2026 with 2025 World Bank index values and tool gaps; Leverprice is actively promoting tiered PPP pricing with a $49 lifetime deal until Dec 15, 2026, plus examples such as $29 in the US and $12 in India.",
-      "monetization": "Free calculator with paid tier templates, checkout integrations, and 60-90 day price-test dashboards; public revenue null.",
-      "evidence": [
-        "https://leverprice.com/ppp-pricing",
-        "https://zeroraised.com/blog/purchasing-power-parity-pricing-for-saas"
-      ],
-      "how_searched": [
-        "opened live PPP pricing product page for tiers and examples",
-        "cross-checked with an independent founder guide published in November 2026"
-      ],
-      "score": 44.7,
-      "found_at": "2026-11-22T19:45:10.793619+00:00"
-    },
-    {
-      "name": "Mentiohunt Author Finder",
-      "field": "PR / outreach / link building tools",
-      "summary": "Free no-signup web tool that takes an article URL and returns the author plus the best available contact details with confidence labels; a paid product handles multiple lookups.",
-      "why_now": "The free tool drew 1,530 organic visits in Oct 2026 and produced 4 paying customers since mid-October, while competing author finders price from $39-$199/month.",
-      "monetization": "Free single lookups; paid tier for users needing more than one lookup (price not publicly disclosed).",
-      "evidence": [
-        "https://1dea.io/traction/412",
-        "https://mentiohunt.com/free-tools/author-contact-finder"
-      ],
-      "how_searched": [
-        "indie revenue roundup (1dea.io)",
-        "product site"
-      ],
-      "score": 44.0,
-      "found_at": "2026-11-11T15:27:32.083646+00:00"
-    },
-    {
-      "name": "Free ATS resume checker and tailoring workspace",
-      "field": "Careers / HR",
-      "summary": "A free web tool that scores a resume against a pasted job description, highlights keyword gaps and formatting risks, and produces a tailored editable version; no account needed for the first scan.",
-      "why_now": "BizPeel's report, with data as of 2026-11-12, shows Rezi still earns $2.95M over 12 months and $239K MRR across 9,884 subscriptions despite a 4% decline in 30 days. Jimmy Decodes' 2026-11-06 teardown confirms $10.43M all-time verified Stripe revenue and 10,071 subscriptions but notes incumbents are losing ground to free AI rewrites, which leaves room for a genuinely free, privacy-first checker.",
-      "monetization": "Free scan; paid unlimited tailoring and cover letters; university and career-center bulk licences; recruiter-side white-label.",
-      "evidence": [
-        "https://bizpeel.com/project/rezi",
-        "https://www.jimmydecodes.com/en/cases/rezi/"
-      ],
-      "how_searched": [
-        "Read BizPeel's revenue report for Rezi",
-        "Cross-checked Jimmy Decodes' Stripe and TrustMRR teardown",
-        "Checked pricing, churn and competitive pressure from free AI tools"
-      ],
-      "score": 44.0,
-      "found_at": "2026-11-12T19:05:00.139464+00:00"
-    },
-    {
-      "name": "AI Boxing / Striking Coach Web App",
-      "field": "Fitness consumer apps",
-      "summary": "Photo- or video-based form check and adaptive boxing drills with a narrow performance promise — the Brawler playbook as a free web tool with subscription unlocks.",
-      "why_now": "Brawler hit ~$26.7k verified MRR / 5,100 subs and ~$60k in a 30-day window within months of May 2026 launch (TrustMRR Nov 14, 2026), driven by Meta ads + influencers; category peers (AbMaxx, Nutria) confirm the one-job AI fitness app economics.",
-      "monetization": "Freemium: free intro drills + one form check; $5–10/mo or yearly plans for full adaptive programs, sparring timers and progress analytics; in-app one-off packs.",
-      "evidence": [
-        "https://theaireceipts.com/ai-fitness-apps-revenue/",
-        "https://theaireceipts.com/fastest-growing-ai-startups/"
-      ],
-      "how_searched": [
-        "verified fitness-app MRR table",
-        "fastest-growing AI startups list",
-        "App Store ratings"
-      ],
-      "score": 44.0,
-      "found_at": "2026-11-15T17:29:03.845619+00:00"
-    },
-    {
-      "name": "AI vocal / background-music remover for video",
-      "field": "Video/audio editing",
-      "summary": "A web tool that strips vocals or background music from a clip so creators can reuse footage without copyright claims. TGGET lists the niche at ~8,100 US monthly searches and 'worth building'; the vocal-remover market is estimated at ~$592.62M (2026).",
-      "why_now": "Short-form video volume keeps rising and copyright strikes are a constant creator pain; browser-based, no-install tools are still fragmented. Note: category search interest has softened (~-19% YoY), so treat as a smaller, defensible niche.",
-      "monetization": "Freemium with paid minutes/HD export; API for editing apps; bulk credits for agencies.",
-      "evidence": [
-        "https://tgget.io/niches/ai-vocal-remover",
-        "https://www.researchandmarkets.com/reports/6136071/vocal-remover-market-global-forecast"
-      ],
-      "how_searched": [
-        "websearch: AI vocal remover niche demand",
-        "market research report on vocal-remover market size",
-        "websearch: remove background music from video tool"
-      ],
-      "score": 44.0,
-      "found_at": "2026-11-15T21:52:40.789952+00:00"
-    },
-    {
-      "name": "Tether Mobile",
-      "field": "Telecom SaaS / SMS forwarding for travelers and expats",
-      "summary": "A service that provides phone numbers in select countries and forwards incoming SMS messages to email or messaging apps, useful for 2FA and ongoing message access abroad.",
-      "why_now": "Recent growth shows rising demand from travelers, expats, and digital nomads: $3,000 in 30-day revenue with 1,115% growth in the week of Nov 16, 2026, and $2,945 MRR from 150 active subscriptions on the live Stripe-verified listing.",
-      "monetization": "Recurring subscriptions (from $10/month per number in Canada or $15/month in US/UK/Netherlands); $2,945 MRR from 150 subscriptions and $4,196 all-time revenue (TrustMRR, Nov 19, 2026).",
-      "evidence": [
-        "https://trustmrr.com/startup/tether-mobile",
-        "https://trustmrr.com/newsletter/this-ai-photo-service-grew-1-736-to-13-8k"
-      ],
-      "how_searched": [
-        "verified startup revenue databases (TrustMRR listings)",
-        "startup revenue/growth newsletters (TrustMRR newsletter)"
-      ],
-      "score": 44.0,
-      "found_at": "2026-11-19T13:12:53.668782+00:00"
-    },
-    {
-      "name": "Dividend safety and ex-date research web tool",
-      "field": "Personal finance / investing data",
-      "summary": "Show A-F dividend safety grades, payout ratios, growth streaks, next ex-date 'last day to buy', and a 12-month income forecast for any ticker, with a public grade track record.",
-      "why_now": "SmarterDividends covers 8,000+ stocks/ETFs and says 75% of the 16 tracked cuts were graded C or lower beforehand, with C-or-lower names cutting at 4.5x the rate of A/B names; its Chrome extension was listed in mid-Nov 2026.",
-      "monetization": "Pro is $99/yr ($8.25/mo equivalent), 7-day no-card trial, 14-day refund; free tier caps at 10 holdings and 500 API requests/day.",
-      "evidence": [
-        "https://smarterdividends.com/pricing",
-        "https://smarterdividends.com/chrome-extension"
-      ],
-      "how_searched": [
-        "product pricing page",
-        "Chrome extension listing",
-        "finance tool roundup snippets"
-      ],
-      "score": 44.0,
-      "found_at": "2026-11-20T03:20:19.674374+00:00"
-    },
-    {
-      "name": "RankSpot",
-      "field": "SEO and AI search",
-      "summary": "Pay-as-you-go SEO execution layer for AI agents: AI visibility checks, article generation/publishing, keyword/backlink updates and outreach.",
-      "why_now": "TrustMRR verifies Stripe revenue and shows a Product Hunt #1 daily launch in May 2026 plus 93% 30-day growth in one tracker, though revenue later fell to about $1.2-3.0K per 30 days.",
-      "monetization": "No subscription; per-action pricing such as $3/article and $0.004/prompt check, with ~$1.35K MRR and ~$15.6K all-time revenue.",
-      "evidence": [
-        "https://trustmrr.com/startup/rankspot",
-        "https://quietmoney.000ooo.ooo/s/rankspot.ai/"
-      ],
-      "how_searched": [
-        "verified revenue leaderboard (TrustMRR)",
-        "startup revenue dossier"
-      ],
-      "score": 44.0,
-      "found_at": "2026-11-21T23:34:22.859788+00:00"
-    },
-    {
-      "name": "AI headshot generator",
-      "field": "AI photo / professional headshots",
-      "summary": "A web tool that turns a handful of selfies into studio-style professional headshots for LinkedIn, CVs, team pages and sales profiles.",
-      "why_now": "Trends.vc tracks 11 paid companies with typical revenue of $1.2M/year and a range of $17K–$11M; HeadshotPro alone reports 17M headshots, 200K+ shoots and $10M+ revenue since launch.",
-      "monetization": "HeadshotPro sells per-shoot and team packages and reports $10M+ revenue since launch; Trends.vc lists Aragon at $11M/year, HeadshotPro at $3.6M and BetterPic at $3.2M.",
-      "evidence": [
-        "https://trends.vc/opportunities/ai-headshot-generators",
-        "https://www.headshotpro.com/about"
-      ],
-      "how_searched": [
-        "market opportunity database with revenue estimates",
-        "vendor traction and revenue page",
-        "competitor revenue comparison"
-      ],
-      "score": 43.3,
-      "found_at": "2026-11-13T22:46:31.478596+00:00"
-    },
-    {
-      "name": "Car fitment and compatibility checker",
-      "field": "Automotive / ecommerce utilities",
-      "summary": "Build a free vehicle selector that checks whether parts, tires, wheels or accessories fit a specific car, then offer embeddable fitment widgets and dealer lead tools.",
-      "why_now": "Exploding Topics' September 2026 analytics report shows carsized.com at 1.5M monthly visits, global rank 36,238, US rank 56,328, automotive category rank 1,141 and authority score 51, indicating strong evergreen high-intent traffic.",
-      "monetization": "Affiliate commissions to parts and tire retailers, display ads, paid dealer widgets, lead fees and a fitment-data API.",
-      "evidence": [
-        "https://analytics.explodingtopics.com/website/carsized.com",
-        "https://www.semrush.com/website/carsized.com/overview/"
-      ],
-      "how_searched": [
-        "websearch: high-traffic car fit checker website analytics",
-        "webfetch: Exploding Topics analytics page and Semrush overview"
-      ],
-      "score": 43.3,
-      "found_at": "2026-11-19T21:41:43.364027+00:00"
-    },
-    {
-      "name": "SocialClaw (social media scheduler built for AI agents)",
-      "field": "social publishing",
-      "summary": "Schedule/publish across 11 networks via REST API, MCP (18 tools), CLI and agent skills; media hosting, analytics, retries; works for humans and agents.",
-      "why_now": "Verified MRR grew from $0 (Mar 2026) to $1,804 (Nov 2026); 13,549 visits in Sep 2026; taps agent-driven marketing wave and official platform APIs.",
-      "monetization": "Starter $15/mo (3 accounts, 200 posts), Startup $29, Plus $67 (most popular), Pro $99; yearly -20%; $1,804 MRR from 92 subscriptions.",
-      "evidence": [
-        "https://trustmrr.com/startup/socialclaw",
-        "https://www.openpr.com/news/4604990/socialclaw-launches-api-first-social-media-scheduling-built"
-      ],
-      "how_searched": [
-        "open startup revenue (TrustMRR)",
-        "press releases",
-        "traffic estimates"
-      ],
-      "score": 42.7,
-      "found_at": "2026-11-10T10:05:30.216062+00:00"
     }
   ]
 }
