@@ -42,6 +42,28 @@
       "found_at": "2026-11-21T02:20:52.716786+00:00"
     },
     {
+      "name": "Hosted SEO and Search-Console MCP Execution Layer",
+      "field": "SEO tooling for AI agents",
+      "summary": "Build a free hosted connector that gives coding agents and marketing agents read-only access to Google Search Console, GA4, Ads, SERP, backlink, keyword, and Core Web Vitals data, with optional write actions.",
+      "why_now": "Advanced GSC MCP shows $4,902 MRR, $20,928 all-time, and 146 active subscriptions; Aiolum reported $4.9K MRR in October 2026 and open-source-led growth. RankSpot 2.0 launched on Nov 17, 2026 after a prior #1 Product of the Day, pivoting from SEO automation to agent SEO superpowers.",
+      "monetization": "Free local connector and one-property tier; paid hosted tiers for agencies, multiple properties, write actions, scheduled reports, team seats, and usage limits.",
+      "evidence": [
+        "https://aiolum.com/story/advanced-gsc-mcp/",
+        "https://trustmrr.com/startup/advanced-gsc-mcp",
+        "https://www.advancedgsc.com/mcp",
+        "https://chromewebstore.google.com/detail/cdiccpnglfpnclonhpchpaaoigfpieel",
+        "https://www.indiehackers.com/post/rankspot-2-0-launching-on-ph-after-1-product-of-the-day-xA50A7c10BMWQlEDpHZQ"
+      ],
+      "how_searched": [
+        "revenue-tracker search for SEO MCP products",
+        "vendor docs review",
+        "Chrome Web Store traction check",
+        "Indie Hackers launch cross-check"
+      ],
+      "score": 92.0,
+      "found_at": "2026-11-23T01:01:35.600008+00:00"
+    },
+    {
       "name": "Vibe App Security Scanner",
       "field": "AI app security",
       "summary": "A free URL scanner for apps built with Lovable, Bolt, v0 and Supabase that detects public database tables, leaked keys, missing auth checks and exposed PII, then sells continuous monitoring and fix guidance. It targets the fast-growing vibe-coding market rather than generic websites.",
@@ -420,6 +442,25 @@
       ],
       "score": 86.0,
       "found_at": "2026-11-20T11:51:46.867933+00:00"
+    },
+    {
+      "name": "X Growth Copilot With Voice Matching and Analytics",
+      "field": "Creator growth tooling",
+      "summary": "Build a free X-focused growth web tool that finds high-performing posts in a niche, drafts in the user's voice, schedules posts, and tracks engagement and follower growth.",
+      "why_now": "TrustMRR shows SuperX at $17,291 MRR, $273,986 all-time, and 409 active subscriptions as of Nov 22, 2026; AI Founder Atlas also reported $18,945 MRR and verified Stripe revenue. A November 2026 traction roundup cited Tweet Hunter at $83K/mo, confirming paid demand for X-specific scheduling and growth analytics.",
+      "monetization": "Free limited scheduling and analytics; paid tiers for niche trend alerts, higher scheduling limits, voice training, competitor tracking, and team workflows.",
+      "evidence": [
+        "https://trustmrr.com/startup/superx",
+        "https://ai-founder-atlas.pages.dev/cases/superx/",
+        "https://1dea.io/traction/monthly/2026-11"
+      ],
+      "how_searched": [
+        "verified revenue database search",
+        "AI founder case-study review",
+        "monthly traction roundup scan"
+      ],
+      "score": 86.0,
+      "found_at": "2026-11-23T01:01:35.859199+00:00"
     },
     {
       "name": "Glossa (live AI translation for church services)",
@@ -1185,6 +1226,25 @@
       ],
       "score": 80.0,
       "found_at": "2026-11-21T02:20:56.421137+00:00"
+    },
+    {
+      "name": "Screen-Share Blur, Redact, and Screenshot Utility",
+      "field": "Privacy and meeting tools",
+      "summary": "Build a free browser or desktop web utility that blurs sensitive windows, redacts regions during screen share, and captures clean screenshots without exposing private tabs.",
+      "why_now": "Chrome Web Store shows Smart Blur at 4.9 stars, 15 ratings, and 433 users; TrustMRR shows BlurWeb at $33,979 all-time and BlurScreen at $17,534 all-time, proving willingness to pay despite modest current MRR.",
+      "monetization": "Free basic blur and screenshot capture; paid one-time licenses or subscriptions for teams, rule presets, auto-detection, audit logs, and admin controls.",
+      "evidence": [
+        "https://chromewebstore.google.com/detail/smart-blur-blur-redact-sc/jocedhlmkcjjolkjkjglcnpkinoodlhf",
+        "https://trustmrr.com/startup/blurweb-app",
+        "https://trustmrr.com/startup/blurscreen-app"
+      ],
+      "how_searched": [
+        "Chrome Web Store extension search",
+        "verified revenue tracker search",
+        "comparison of similar micro-SaaS products"
+      ],
+      "score": 80.0,
+      "found_at": "2026-11-23T01:01:38.060429+00:00"
     },
     {
       "name": "Ad Spend Refund & Invalid-Traffic Auditor",
@@ -3755,6 +3815,24 @@
       "found_at": "2026-11-21T02:20:54.238418+00:00"
     },
     {
+      "name": "Browser Audio-to-MIDI Studio",
+      "field": "Music AI and creator tools",
+      "summary": "Build a free browser tool that converts singing, humming, piano, and instrument audio into editable MIDI with local or privacy-safe processing.",
+      "why_now": "Dettato was released on Nov 16, 2026 with 20M parameters, about 65x smaller than MuScriptor's 1.3B model, and reported a 60.8 composite score versus 56.1, 47.4, and 45.7 for alternatives. The Show HN reached 308 points and 70 comments in 2 days.",
+      "monetization": "Free constrained transcription; paid credits for longer files, stems, batch export, DAW integrations, higher polyphony, and commercial-grade cleanup.",
+      "evidence": [
+        "https://kobi.music/research/dettato",
+        "https://github.com/kobimusic/dettato"
+      ],
+      "how_searched": [
+        "Show HN popularity scan",
+        "technical research-page review",
+        "GitHub open-source check"
+      ],
+      "score": 56.0,
+      "found_at": "2026-11-23T01:01:36.594101+00:00"
+    },
+    {
       "name": "Voice-to-text writing assistant (Letterly model)",
       "field": "Productivity / voice AI",
       "summary": "Converts spoken voice notes into polished notes, emails, posts and meeting summaries across web and mobile.",
@@ -3983,6 +4061,24 @@
       ],
       "score": 54.7,
       "found_at": "2026-11-21T23:34:21.221147+00:00"
+    },
+    {
+      "name": "Natural-Language OpenStreetMap Search and Routing",
+      "field": "Maps and local discovery",
+      "summary": "Build a free map web app that turns plain-language queries such as cafes near a landmark, open pharmacies, or peaks above a height into deterministic OpenStreetMap queries with routing.",
+      "why_now": "HippoMaps Show HN reached 138 points and 48 comments in 2 days. Its GitHub API description emphasizes privacy-focused maps, natural-language search, routing, and traffic info, with concrete examples like open supermarkets near Lake Zurich.",
+      "monetization": "Free map search; paid tiers for saved searches, live alerts, traffic-aware routing, API access, business listings, and embeddable maps.",
+      "evidence": [
+        "https://api.github.com/repos/cdutsov/hippomaps",
+        "https://hippomaps.ch/?q=cafes+by+the+Limmat+100+m+from+the+lake+in+zurich#map=15.02/47.36708/8.54935"
+      ],
+      "how_searched": [
+        "Show HN launch scan",
+        "GitHub API metadata check",
+        "product website inspection"
+      ],
+      "score": 54.7,
+      "found_at": "2026-11-23T01:01:37.518369+00:00"
     },
     {
       "name": "Multiplayer browser edu-game: parkour courses gated by times-tables quizzes",
@@ -4377,6 +4473,24 @@
       "found_at": "2026-11-22T19:45:08.120655+00:00"
     },
     {
+      "name": "Issue-to-PR Open-Source Software Factory",
+      "field": "Developer productivity",
+      "summary": "Build a free agentic kanban workspace that converts repository issues into plans, implementations, reviewed pull requests, and maintained project docs.",
+      "why_now": "Mastra Factory Show HN reached 158 points and 45 comments in 4 days. The post reported nearly 4M weekly downloads for Mastra and said Factory opened and merged 238 PRs in one week while humans merged 630 PRs. The product site describes an open-source software factory connected to a repository.",
+      "monetization": "Free self-hosted starter; paid hosted sandboxes, team Slack integration, private memory, repository analytics, compliance controls, and priority agents.",
+      "evidence": [
+        "https://factory.mastra.ai",
+        "https://github.com/mastra-ai/template-factory"
+      ],
+      "how_searched": [
+        "Show HN developer-tool scan",
+        "vendor product-site review",
+        "GitHub template inspection"
+      ],
+      "score": 52.0,
+      "found_at": "2026-11-23T01:01:38.639424+00:00"
+    },
+    {
       "name": "SocialClaw",
       "field": "Social media scheduling for AI agents",
       "summary": "A scheduling platform that lets AI agents (e.g., OpenClaw, Claude, Codex, ChatGPT workflows) connect accounts and publish/schedule posts programmatically. A rebuildable web product could provide an original agent-friendly posting API/dashboard with approvals and analytics.",
@@ -4554,6 +4668,24 @@
       ],
       "score": 50.7,
       "found_at": "2026-11-21T23:34:22.342266+00:00"
+    },
+    {
+      "name": "Ad Attribution Reconciliation Dashboard",
+      "field": "Marketing analytics",
+      "summary": "Build a free dashboard that reconciles conversions and revenue across Meta Ads, Google Ads, GA4, Shopify, and other sources, then explains likely causes of mismatches.",
+      "why_now": "Clauday's Nov 19, 2026 Ideas Radar described a marketer moving $40K with dashboards reporting 212, 141, 96, 74, and 38 conversions. A marketing article specifically covers why Meta, Google Ads, GA4, and Shopify never match and was last verified Oct 27, 2026.",
+      "monetization": "Free basic source-connection and discrepancy report; paid tiers for automated attribution windows, anomaly alerts, warehouse sync, client reports, and agency workspaces.",
+      "evidence": [
+        "https://clauday.com/article/b0e86e49-46a5-4081-b6d8-4b3f60f71fba",
+        "https://growthmarketer.com/blog/why-marketing-data-is-wrong/"
+      ],
+      "how_searched": [
+        "idea-radar pain-point scan",
+        "marketing analytics article review",
+        "cross-check of attribution mismatch language"
+      ],
+      "score": 50.7,
+      "found_at": "2026-11-23T01:01:39.843823+00:00"
     },
     {
       "name": "LiveReview (risk-aware AI code review, auto-approve safe PRs)",
@@ -4926,6 +5058,24 @@
       ],
       "score": 48.0,
       "found_at": "2026-11-22T19:45:08.551144+00:00"
+    },
+    {
+      "name": "AI-Agent Authorization and Allowed-Action Checker",
+      "field": "Agent commerce compliance",
+      "summary": "Build a free web tool that audits whether a merchant, airline, or travel site allows third-party AI agents, generates a compliant access manifest, and shows safe fallback flows.",
+      "why_now": "Clauday's Nov 19, 2026 Ideas Radar flagged United restricting third-party personal AI agents. TechTarget reported on Nov 17, 2026 that United updated terms on Nov 11 to bar unauthorized agents from tickets even with human supervision and require written permission.",
+      "monetization": "Free public checker for consumers and small sites; paid tiers for merchants, travel agencies, policy monitoring, agent-access manifests, legal export packs, and alerting.",
+      "evidence": [
+        "https://clauday.com/article/b0e86e49-46a5-4081-b6d8-4b3f60f71fba",
+        "https://www.techtarget.com/news/united-airlines-crackdown-puts-personal-ai-agents-to-the-test/874936/"
+      ],
+      "how_searched": [
+        "news search for AI-agent restrictions",
+        "idea-radar trend scan",
+        "cross-check against industry reporting"
+      ],
+      "score": 48.0,
+      "found_at": "2026-11-23T01:01:40.927814+00:00"
     },
     {
       "name": "AI directory-site builder",
@@ -5580,146 +5730,6 @@
       ],
       "score": 42.7,
       "found_at": "2026-11-10T10:05:30.216062+00:00"
-    },
-    {
-      "name": "SaaS price-change monitoring & alerts",
-      "field": "Procurement / SaaS management",
-      "summary": "A service that watches vendors' pricing pages and alerts teams when a SaaS plan's price or terms change. saaspricealerts.com tracks 355 vendors; comparison/roundup content already ranks for the topic.",
-      "why_now": "SaaS budgets are under scrutiny and vendors raise prices frequently; buyers lack a cheap, always-on watcher. Low-cost to build, clear recurring value for finance/ops teams.",
-      "monetization": "Freemium watchlist; paid team alerts (Slack/Teams/Discord), exportable change history, and negotiation intel.",
-      "evidence": [
-        "https://saaspricealerts.com/",
-        "https://www.getpricepulse.com/blog/saas-price-alert-tools-slack-teams-discord-2026.html"
-      ],
-      "how_searched": [
-        "websearch: SaaS price change alert tool",
-        "blog roundup of SaaS price-alert tools 2026"
-      ],
-      "score": 42.7,
-      "found_at": "2026-11-15T21:52:41.136143+00:00"
-    },
-    {
-      "name": "Unrestricted.sh",
-      "field": "Developer infrastructure / uncensored LLM API for security and coding",
-      "summary": "An OpenAI-compatible API offering access to capable open-weight models for security research, red-teaming, and coding workflows, positioned around fewer refusals and zero prompt retention.",
-      "why_now": "Fast recent traction indicates demand from developers and security researchers: $8,175 in 30-day revenue with 717% growth reported Nov 16, 2026, and $4,041 MRR from 131 subscriptions on the live Stripe-verified listing.",
-      "monetization": "API/SaaS subscriptions and usage; $4,041 MRR from 131 active subscriptions and $9,176 all-time revenue (TrustMRR, Nov 19, 2026).",
-      "evidence": [
-        "https://trustmrr.com/startup/unrestricted",
-        "https://trustmrr.com/newsletter/this-ai-photo-service-grew-1-736-to-13-8k"
-      ],
-      "how_searched": [
-        "verified startup revenue databases (TrustMRR listings)",
-        "startup revenue/growth newsletters (TrustMRR newsletter)"
-      ],
-      "score": 42.7,
-      "found_at": "2026-11-19T13:12:54.188266+00:00"
-    },
-    {
-      "name": "Email tracking-pixel blocker & privacy scanner",
-      "field": "Privacy utilities",
-      "summary": "A free web/extension tool that detects hidden 1x1 tracking pixels in incoming mail, flags who is tracking you and blocks the beacons locally.",
-      "why_now": "Ugly Email, a once-popular 20K-user open-source blocker, was removed from the Chrome Web Store on Aug 31, 2026 and users are publicly asking for alternatives; a July 2026 analysis notes ~1.8B personal Gmail accounts are tracked via invisible pixels and that ~80% of email users would rather not have receipts sent about them.",
-      "monetization": "Free/privacy-tool donations or freemium; direct revenue null.",
-      "evidence": [
-        "https://chrome-stats.com/d/ldgiafaliifpknmgofiifianlnbgflgj",
-        "https://www.gblock.app/articles/gmail-read-receipt-tracking-tools-compared-2026"
-      ],
-      "how_searched": [
-        "extension analytics/delisting tracker",
-        "privacy analysis article",
-        "user review mining"
-      ],
-      "score": 42.0,
-      "found_at": "2026-11-18T04:23:52.547914+00:00"
-    },
-    {
-      "name": "Glowy",
-      "field": "AI image generation for creators, influencers, and personal branding",
-      "summary": "A web-based AI photo service that generates hyperrealistic images from user photos and reference styles for social media, dating profiles, and creator content.",
-      "why_now": "Very recent breakout growth: $13,843 in 30-day revenue with 1,736% growth reported Nov 16, 2026, and $14,674 all-time revenue since an August 2026 launch on the Stripe-verified listing.",
-      "monetization": "Credit-based/pay-per-use pricing; $13,843 in 30-day revenue (TrustMRR newsletter, Nov 16, 2026) and $14,674 all-time revenue (TrustMRR listing, Nov 19, 2026). MRR: null.",
-      "evidence": [
-        "https://trustmrr.com/startup/glowy",
-        "https://trustmrr.com/newsletter/this-ai-photo-service-grew-1-736-to-13-8k"
-      ],
-      "how_searched": [
-        "verified startup revenue databases (TrustMRR listings)",
-        "startup revenue/growth newsletters (TrustMRR newsletter)"
-      ],
-      "score": 42.0,
-      "found_at": "2026-11-19T13:12:54.716176+00:00"
-    },
-    {
-      "name": "Focus Reading Overlay",
-      "field": "accessibility / reading tools",
-      "summary": "An original web reading overlay with dyslexia-friendly typography, line focus, sentence highlighting, syllable splitting, hover definitions, text scaling, read-aloud, and simple-language rewriting.",
-      "why_now": "ExtScope shows Dyslexia Reader growing from about 2,000 to 10,000 users across Nov 16-22, 2026, a +8,000 or +400% six-day move with a 5.0 rating and 107 reviews; Chrome Web Store related listings also show strong existing demand for dyslexia, ADHD, and focus readers.",
-      "monetization": "Free reader with paid teacher/parent dashboards, saved profiles, and school/workspace licensing; public revenue null.",
-      "evidence": [
-        "https://extscope.org/extension/emipneekalekehabedhmgnpmlfciialf",
-        "https://chromewebstore.google.com/detail/opendyslexic-for-chrome/cdnapgfjopgaggbmfgbiinmmbdcglnam"
-      ],
-      "how_searched": [
-        "opened extension intelligence page for 7-day growth and review data",
-        "cross-checked Chrome Web Store listing for established category demand"
-      ],
-      "score": 42.0,
-      "found_at": "2026-11-22T19:45:11.751752+00:00"
-    },
-    {
-      "name": "Kupkaike (Etsy niche scanner + digital product generator)",
-      "field": "creator/e-commerce tools",
-      "summary": "Free scanner measures demand/competition/pricing on live Etsy listings; $9 one-time generates a complete digital product (guide, app, cover, pins, copy).",
-      "why_now": "Published a 4,388-niche Etsy dataset (Jul 2026) and trending-niche pages; 15 free scans/day with no signup; addresses creator demand for validated niches.",
-      "monetization": "Free niche analysis; $9 one-time per full product bundle; $1,468 total revenue Mar-Sep 2026 (Stripe-verified), $45 in last 30 days.",
-      "evidence": [
-        "https://shippedandpaid.com/cases/kupkaike-etsy-niche-finder-digital-products-1-5k-total-claude-code/",
-        "https://kupkaike.com/"
-      ],
-      "how_searched": [
-        "indie revenue trackers",
-        "product landing pages",
-        "public datasets"
-      ],
-      "score": 41.3,
-      "found_at": "2026-11-10T10:05:28.543567+00:00"
-    },
-    {
-      "name": "SeoLoupe",
-      "field": "SEO / AI search visibility tools",
-      "summary": "Web-based SEO, performance, backlink, keyword and AI search (GEO/AEO) audit tool that returns prioritized fix recommendations and PDF reports.",
-      "why_now": "TrustMRR verifies $101 MRR from 7 active subscriptions and $807 all-time revenue, while 1dea reports $1,000 revenue and 64 paying users out of 3,282 signups.",
-      "monetization": "$9 one-time for 3 scans; $12/month Starter with 25 scans; $29/month Professional with unlimited scans and white-label reports.",
-      "evidence": [
-        "https://1dea.io/traction/420",
-        "https://trustmrr.com/startup/seoloupe"
-      ],
-      "how_searched": [
-        "indie revenue roundup (1dea.io)",
-        "verified revenue leaderboard (TrustMRR)"
-      ],
-      "score": 41.3,
-      "found_at": "2026-11-11T15:27:33.142571+00:00"
-    },
-    {
-      "name": "AI-free search",
-      "field": "Search / browser extension",
-      "summary": "Open-source Chrome extension that hides Google AI Overviews; around 800,000 users, 1.2K ratings, and active updates as of Nov 2026.",
-      "why_now": "Backlash to AI-in-search intensified in Nov 2026 when Microsoft shipped an AI toggle and DuckDuckGo installs rose about 18%, and the extension's large user base shows demand for cleaner, AI-free search experiences.",
-      "monetization": "Free and open source; monetization unverified (possible donations or ads).",
-      "evidence": [
-        "https://chromewebstore.google.com/detail/hide-google-ai-overviews/neibhohkbmfjninidnaoacabkjonbahn",
-        "https://ailistscout.com/ai-tools/best-ai-blockers-hide-google-ai-overviews-2026/"
-      ],
-      "how_searched": [
-        "websearch: hide Google AI Overviews extension users",
-        "Chrome Web Store listing",
-        "AI tool directories (AI List Scout)",
-        "tech news references"
-      ],
-      "score": 41.3,
-      "found_at": "2026-11-14T17:16:24.685518+00:00"
     }
   ]
 }
