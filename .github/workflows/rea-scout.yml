@@ -95,9 +95,28 @@ jobs:
              --remote-debugging-address=127.0.0.1 --remote-debugging-port=9222 "$URL" >/dev/null 2>&1 &)
           sleep 8
           npx --yes rea-agents@6.8.0 list-browser-targets http://127.0.0.1:9222 --format json > /tmp/targets.json 2>/tmp/rea.err
-          TID=$(python3 -c "import json;d=json.load(open('/tmp/targets.json'));t=d.get('targets',d) if isinstance(d,dict) else d;print(t[0].get('id') or t[0].get('targetId'))")
-          npx --yes rea-agents@6.8.0 analyze-web-bundle http://127.0.0.1:9222 "$TID" --detail complete --token-limit 6000 --format md > /tmp/rea-evidence.txt 2>>/tmp/rea.err
-
+          TID=$(python3 - <<'PY'
+          import json, sys
+          d = json.load(open('/tmp/targets.json'))
+          def find(x):
+              if isinstance(x, dict):
+                  for k in ('target_id', 'targetId'):
+                      if isinstance(x.get(k), str): return x[k]
+                  for v in x.values():
+                      r = find(v)
+                      if r: return r
+              elif isinstance(x, list):
+                  for v in x:
+                      r = find(v)
+                      if r: return r
+          tid = find(d)
+          if not tid:
+              print('no target id; top-level keys: %s' % (sorted(d)[:8] if isinstance(d, dict) else type(d).__name__), file=sys.stderr)
+              sys.exit(1)
+          print(tid)
+          PY
+          )
+          npx --yes rea-agents@6.8.0 inspect-web-page http://127.0.0.1:9222 "$TID" --include-accessibility-text --include-json-body-shapes --observation-ms 3000 --format md --token-limit 5000 > /tmp/rea-evidence.txt 2>>/tmp/rea.err
       - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7
         with:
           name: rea-evidence
