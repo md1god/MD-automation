@@ -680,6 +680,24 @@
       "found_at": "2026-11-22T11:43:05.788919+00:00"
     },
     {
+      "name": "Data Center Referendum Watch",
+      "field": "civic tech and infrastructure",
+      "summary": "A free map and alert tool that tracks local data-center moratoriums, zoning actions, referenda, utility constraints, and project exposure by county, with watchlists and exportable evidence links.",
+      "why_now": "GridFriction's data through November 10, 2026 records 1,121 adverse actions and 209 approvals since 2020 across 46 states; on November 3, voters in 45 local measures backed limiting measures in 44 with median support of 77%, while Ballotpedia reported the limiting side won 40 of 41 local ballot measures.",
+      "monetization": "Free public map and basic alerts; paid developer/utility/insurer dashboards, weekly briefings, siting risk reports, and API access.",
+      "evidence": [
+        "https://gridfriction.com/findings/",
+        "https://news.ballotpedia.org/2026/11/06/voters-favored-limiting-data-center-development-in-40-of-41-local-ballot-measures-on-nov-3/",
+        "https://www.geekwire.com/2026/data-center-developers-brace-for-new-reality-as-election-backlash-sinks-in/"
+      ],
+      "how_searched": [
+        "searched November 2026 data center ballot measures and local opposition",
+        "cross-checked civic tracker counts with election reporting and regional news"
+      ],
+      "score": 85.0,
+      "found_at": "2026-11-24T17:54:22.865017+00:00"
+    },
+    {
       "name": "Stocky Successor: Free Shopify PO & Reorder Planner",
       "field": "E-commerce inventory tools",
       "summary": "A lightweight, free purchase-order, reorder-point and stocktake tool for small Shopify merchants left stranded after Stocky's shutdown — especially supplier rebuild, partial receiving and landed-cost gaps Shopify still doesn't cover.",
@@ -1567,6 +1585,24 @@
       "found_at": "2026-11-24T06:08:09.298704+00:00"
     },
     {
+      "name": "Robocall Consent & Opt-Out Auditor",
+      "field": "telecom compliance",
+      "summary": "A free tool for call centers and small businesses that reviews scripts, SMS flows, and opt-out wording against the new FCC revocation rules and produces a compliant call/text disclosure kit.",
+      "why_now": "The FCC final rule published October 26, 2026 takes effect November 25, 2026, allowing category-specific informational revocations and designated automated opt-out methods; a companion proposed rule has comments due November 25 on revoke-all methods, two-way texting, and revocation timing. CRS also flagged delayed consent rules and AI-generated robocalls in its 2026 report.",
+      "monetization": "Free disclosure checker; paid call-flow audits, monthly compliance monitoring, staff training packets, and vendor/carrier documentation.",
+      "evidence": [
+        "https://www.federalregister.gov/documents/2026/10/26/2026-21821/enhancing-the-ability-of-consumers-to-control-the-robocalls",
+        "https://www.federalregister.gov/documents/2026/10/26/2026-21820/modernizing-the-ability-of-consumers-to-control-robocalls",
+        "https://www.congress.gov/crs_external_products/R/HTML/R48941.html"
+      ],
+      "how_searched": [
+        "searched Federal Register for robocall rules effective in November 2026",
+        "cross-checked with CRS report on robocalls and robotexts"
+      ],
+      "score": 79.0,
+      "found_at": "2026-11-24T17:54:27.068216+00:00"
+    },
+    {
       "name": "GETebook.ai",
       "field": "AI ebook generation for creators and marketers",
       "summary": "Generates an outline, chapters and cover from topic, audience and tone, exporting PDF, EPUB and Word for lead magnets or KDP products.",
@@ -1952,6 +1988,24 @@
       ],
       "score": 77.0,
       "found_at": "2026-11-23T09:13:56.645609+00:00"
+    },
+    {
+      "name": "App Store Screenshot Localization Pack Builder",
+      "field": "mobile app release tooling",
+      "summary": "A browser-only tool that turns raw app screenshots into localized App Store and Google Play ZIP packs with per-screen captions, overflow checks, RTL/CJK handling, exact required device sizes, and no server uploads.",
+      "why_now": "ScreenParcel launched November 22, 2026 with browser-only rendering, exact 1206x2622 App Store ZIPs, zero uploads, BYO-key translation, and $9 one-time pricing; another Indie Hackers post described losing 2 days per iOS release to Figma and existing tools costing $200/mo or $500 per design gig, while Launchglot launched November 9 around the related problem of localization breaking placeholders and store listings.",
+      "monetization": "Free sample export; paid one-time release packs, multi-app passes, template packs, team workspaces, and store-listing localization add-ons.",
+      "evidence": [
+        "https://www.indiehackers.com/post/i-got-tired-of-29-mo-app-store-screenshot-saas-ai-markups-so-i-rebuilt-my-browser-only-tool-9-one-time-byo-api-key-zlhVw77Z1mcptxoFSCIA",
+        "https://www.indiehackers.com/post/i-built-an-ai-app-store-screenshot-generator-because-figma-made-me-cry-looking-for-brutal-feedback-0dLl6vB9bOHqTAZtcHhK",
+        "https://www.indiehackers.com/post/launchglot-translate-app-strings-store-listings-without-breaking-placeholders-1bEPJ6fJxOcp9fthD5dm"
+      ],
+      "how_searched": [
+        "searched Indie Hackers for app store screenshot localization pain",
+        "cross-checked recent launches around screenshots, AI captions, and store listing translation"
+      ],
+      "score": 77.0,
+      "found_at": "2026-11-24T17:54:27.681928+00:00"
     },
     {
       "name": "AI paid-media manager: autonomous Google/Meta/TikTok ad campaign agent",
@@ -3077,6 +3131,24 @@
       "found_at": "2026-11-23T09:14:03.146731+00:00"
     },
     {
+      "name": "Late-Order Rescue Dashboard",
+      "field": "ecommerce operations",
+      "summary": "A free Shopify-connected dashboard that flags unfulfilled orders, stuck parcels, carrier exceptions, and missed delivery dates, then drafts customer updates before support tickets or bad reviews appear.",
+      "why_now": "LateKit launched on the Shopify App Store on October 12, 2026 and shows 5.0 from 14 reviews, a free plan, and paid tiers at $3.99/month and $7.99/month; Shoplist's October 12 launch report highlighted it among 114 new Shopify apps that day.",
+      "monetization": "Free late-order watchlist; paid multi-recipient alerts, Slack notifications, unlimited order monitoring, customer-update drafts, and agency dashboards.",
+      "evidence": [
+        "https://apps.shopify.com/latekit",
+        "https://shoplist.co/shopify-apps/new-apps-2026/october-12",
+        "https://shoplist.co/shopify-apps/latekit-late-shipment-alerts"
+      ],
+      "how_searched": [
+        "searched newly launched Shopify apps for shipping and order tracking",
+        "cross-checked Shopify App Store reviews and pricing with launch-tracker data"
+      ],
+      "score": 70.0,
+      "found_at": "2026-11-24T17:54:31.041112+00:00"
+    },
+    {
       "name": "AI guardrails / prompt-injection & output-safety checker",
       "field": "AI security",
       "summary": "A free web tool/API that scans prompts and model outputs for injection, jailbreaks, PII and policy violations before they ship, with an original rules engine.",
@@ -4028,6 +4100,23 @@
       "found_at": "2026-11-17T13:40:01.381162+00:00"
     },
     {
+      "name": "XSLT Migration Checker",
+      "field": "browser compatibility tooling",
+      "summary": "A free site that scans uploaded XSL/XSLT files and stylesheets, maps affected pages, detects browser-specific breakage risk, and generates a migration plan to JavaScript or server-side rendering.",
+      "why_now": "Chrome removes XSLT in version 158 on November 17, 2026, with Firefox and WebKit also planning removal; the XSLT Polyfill Chrome Web Store listing still shows 200,000 users and was updated November 20, 2026, so there is a dated forced-migration event with a visible installed base.",
+      "monetization": "Free scanner and migration checklist; paid bulk scans, CI integration, exported remediation reports, and agency/team dashboards.",
+      "evidence": [
+        "https://developer.chrome.com/docs/web-platform/deprecating-xslt",
+        "https://chromewebstore.google.com/detail/xslt-polyfill/hlahhpnhgficldhfioiafojgdhcppklm"
+      ],
+      "how_searched": [
+        "searched browser deprecation notes and breaking changes for November 2026",
+        "checked Chrome Web Store XSLT polyfill users and update dates"
+      ],
+      "score": 58.7,
+      "found_at": "2026-11-24T17:54:21.700221+00:00"
+    },
+    {
       "name": "Persistent Memory Layer for AI Coding Agents",
       "field": "AI developer tools",
       "summary": "An open-source, self-improving memory layer that lets AI coding agents (Claude Code, Cursor, Codex, and others) remember and reuse prior sessions.",
@@ -4150,6 +4239,23 @@
       ],
       "score": 57.3,
       "found_at": "2026-11-21T23:34:19.208244+00:00"
+    },
+    {
+      "name": "Checkout Fairness Scanner",
+      "field": "consumer law compliance",
+      "summary": "A free URL and checkout-flow scanner that flags dark patterns, drip pricing, fake scarcity, confirmshaming, subscription renewal gaps, loot-box disclosures, and missing termination or withdrawal controls, with a downloadable evidence packet.",
+      "why_now": "The European Commission published the draft Digital Fairness Act on November 11, 2026; the proposal explicitly targets dark patterns, drip pricing, fake reviews, addictive design, subscriptions, influencer marketing, and paid variable-reward systems, with proposed EU-level fines up to 6% of worldwide annual turnover and a one-year transition.",
+      "monetization": "Free single-page scan; paid full-journey audits, evidence vaults, re-scan monitoring, PDF reports, and consultant/agency workspaces.",
+      "evidence": [
+        "https://www.bclplaw.com/en-US/events-insights-news/the-eus-draft-digital-fairness-act-overhauling-consumer-protection-for-the-digital-age.html",
+        "https://www.theverge.com/policy/1031575/digital-fairness-act-eu-dfa-consumer-protection"
+      ],
+      "how_searched": [
+        "searched recent EU consumer protection regulation changes",
+        "cross-checked legal analysis with consumer-tech news coverage"
+      ],
+      "score": 57.3,
+      "found_at": "2026-11-24T17:54:22.284065+00:00"
     },
     {
       "name": "ParakeetAI",
@@ -4313,6 +4419,23 @@
       "found_at": "2026-11-23T01:01:36.594101+00:00"
     },
     {
+      "name": "AI Music Release Gatekeeper",
+      "field": "music rights and creator tools",
+      "summary": "A free browser tool that audits a track, upload package, or release metadata for AI-generation policy risk, provenance gaps, missing human-authorship evidence, and platform-specific release blockers before distribution.",
+      "why_now": "On November 24, 2026, TechCrunch reported Tidal would ban and remove millions of AI-generated tracks, and The Verge reported Tidal would start banning AI-generated music next month with estimates of millions of tracks being deleted; this creates an immediate policy shock for distributors and artists.",
+      "monetization": "Free preflight check; paid provenance packets, distributor/artist dashboard, batch scans, policy updates, and label/studio workspaces.",
+      "evidence": [
+        "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/",
+        "https://www.theverge.com/entertainment/1041362/tidal-ai-music-ban"
+      ],
+      "how_searched": [
+        "searched music platform policy changes in November 2026",
+        "cross-checked Tidal AI music ban across two news sources"
+      ],
+      "score": 56.0,
+      "found_at": "2026-11-24T17:54:23.077013+00:00"
+    },
+    {
       "name": "Voice-to-text writing assistant (Letterly model)",
       "field": "Productivity / voice AI",
       "summary": "Converts spoken voice notes into polished notes, emails, posts and meeting summaries across web and mobile.",
@@ -4345,6 +4468,23 @@
       ],
       "score": 55.3,
       "found_at": "2026-11-12T03:08:10.382500+00:00"
+    },
+    {
+      "name": "Local Ad Lead-to-Job ROAS Reconciler",
+      "field": "local services marketing ops",
+      "summary": "A free web tool that imports Google Ads/LSA leads and CRM job outcomes, reconciles platform-reported leads against booked jobs and revenue, and flags calls that failed to connect or never became jobs.",
+      "why_now": "A November 2026 Hacker News discussion had 309 points and 1,122 comments, including a founder saying Google's LSA dashboard left a lot to be desired and his tool was nearing 3x ROAS; Tower33 reported on October 15 and updated November 16 that LSAs are migrating into Performance Max pay-per-lead campaigns and that merchants must reconcile platform leads with CRM cost per booked job.",
+      "monetization": "Free one-off reconciliation report; paid recurring sync, call-quality scoring, booked-job attribution, multi-location dashboards, and agency reporting.",
+      "evidence": [
+        "https://tower33.com/articles/track-google-local-services-ads/",
+        "https://www.marchex.com/local-services-ads-whats-changing-and-how-to-measure-calls-that-drive-results/"
+      ],
+      "how_searched": [
+        "searched Hacker News for local ads and lead quality complaints",
+        "searched Google Local Services Ads migration and call attribution changes"
+      ],
+      "score": 55.3,
+      "found_at": "2026-11-24T17:54:24.973658+00:00"
     },
     {
       "name": "SMS waitlist and queue manager",
@@ -4561,6 +4701,23 @@
       "found_at": "2026-11-23T01:01:37.518369+00:00"
     },
     {
+      "name": "AI-Agent Visitor Analytics",
+      "field": "web analytics",
+      "summary": "A privacy-first, self-hostable analytics web app that separates human visitors, AI crawler fetches, AI-answer referrals, and session replays, with consent-gated company identification and clear match-rate caveats.",
+      "why_now": "Letter Visitors launched November 23, 2026 and earned #1 Product of the Day with 402 upvotes and 63 comments on Hunted.Space; independent coverage noted that its main hook is showing people, companies, and AI agents reading pages on the site itself, while also admitting no published match rate and weak B2C identification.",
+      "monetization": "Free AI-agent and referral analytics; paid host connectors, consent-gated B2B identification, session replay, team inboxes, and CRM exports.",
+      "evidence": [
+        "https://hunted.space/product/visitors",
+        "https://ainews.gemivo.de/news/letter-visitors-zeigt-welche-menschen-und-ki-agents-eine-cmwu0zpr9034"
+      ],
+      "how_searched": [
+        "searched Product Hunt launches for AI agent analytics",
+        "cross-checked launch traction with independent product coverage"
+      ],
+      "score": 54.7,
+      "found_at": "2026-11-24T17:54:25.622316+00:00"
+    },
+    {
       "name": "Multiplayer browser edu-game: parkour courses gated by times-tables quizzes",
       "field": "EdTech / browser games",
       "summary": "A free browser-based multiplayer parkour game where multiplication quizzes gate progression — the Roblox 'obby' genre moved to the web for classrooms and homes. 3x3 Speed Escape is currently exploding in search demand.",
@@ -4757,6 +4914,23 @@
       ],
       "score": 53.3,
       "found_at": "2026-11-23T21:30:41.841607+00:00"
+    },
+    {
+      "name": "n8n Workflow Reliability Auditor",
+      "field": "automation QA",
+      "summary": "A free web tool that validates n8n JSON exports for missing error handling, retry loops, credential leakage, untested branches, silent failures, docs gaps, and idempotency problems, then produces a reliability score and fix checklist.",
+      "why_now": "Flconsole found 476 new Upwork jobs tagged n8n in 30 days to October 15, 2026, about 16 per day, with median $25/hr and median past spend $3,645; only 1-2 of the top 10 freelancer profiles offered tests, error handling, or docs. Fiverr's 2026 report shows n8n AI automation searches up 125%.",
+      "monetization": "Free single-workflow audit; paid CI checks, team dashboards, client handoff reports, template marketplace, and implementation services.",
+      "evidence": [
+        "https://flconsole.com/research/n8n-jobs-upwork",
+        "https://www.fiverr.com/resources/guides/reports/business-trends-index-june-2026"
+      ],
+      "how_searched": [
+        "searched n8n freelance demand and reliability pain points",
+        "cross-checked marketplace search growth and job-volume data"
+      ],
+      "score": 53.3,
+      "found_at": "2026-11-24T17:54:26.705582+00:00"
     },
     {
       "name": "Live AI translation for churches and events",
@@ -5309,6 +5483,23 @@
       "found_at": "2026-11-17T13:40:07.332555+00:00"
     },
     {
+      "name": "WordPress Restore & Change Receipt Auditor",
+      "field": "WordPress operations",
+      "summary": "A free web audit that connects to a WordPress site, inventories themes/plugins/uploads, shows risky changes, verifies restore coverage, and exports human-readable change and rollback receipts.",
+      "why_now": "TrustMRR reported Respira for WordPress at $12,199 in the last 30 days, $67,993 all-time, $7,780 MRR, and 432 active subscriptions with Polar-verified data as of November 24, 2026; WhyItEarns independently showed $7,678 MRR, 426 paying subscribers, and recurring pricing across maker, builder, and studio tiers.",
+      "monetization": "Free risk audit and restore checklist; paid backups, one-click rollback, white-label client reports, agency sites, and annual support.",
+      "evidence": [
+        "https://trustmrr.com/startup/respira-for-wordpress-1",
+        "https://whyitearns.com/opportunities/respira-for-wordpress-1"
+      ],
+      "how_searched": [
+        "searched verified revenue trackers for fast-growing WordPress utilities",
+        "cross-checked MRR, subscribers, and pricing across two revenue sources"
+      ],
+      "score": 50.0,
+      "found_at": "2026-11-24T17:54:29.333851+00:00"
+    },
+    {
       "name": "MimikFlow (AI LinkedIn prospecting agent)",
       "field": "sales/outbound",
       "summary": "AI agent that reads prospect profiles/posts, writes personal connection requests and follow-ups, and books meetings via the official LinkedIn API (Unipile).",
@@ -5484,6 +5675,23 @@
       "found_at": "2026-11-14T10:41:17.465947+00:00"
     },
     {
+      "name": "2027 Planner Launch Kit",
+      "field": "digital products",
+      "summary": "A free web tool that generates a niche-specific 2027 planner skeleton, cover concepts, printable/PDF exports, listing copy, and keyword clusters for Etsy, Gumroad, Notion, and KDP sellers.",
+      "why_now": "KDPTop's November 5, 2026 keyword study reported 299,721 monthly searches for 2027 planner, 3,417 estimated purchases, 86% indie share, and median reviews of 0; Inkfluence's November 2026 update said 2027 planner and 2027 calendar searches hit five-year highs in the week of November 8-14 and that planner demand peaks again in late December and January.",
+      "monetization": "Free planner MVP and keyword report; paid niche bundles, editable Canva/Notion templates, white-label packs, seasonal listing refresh subscriptions, and mockup libraries.",
+      "evidence": [
+        "https://kdptop.com/blog/2027-planner-keyword-research/",
+        "https://www.inkfluenceai.com/blog/best-digital-product-niches-2026"
+      ],
+      "how_searched": [
+        "searched 2027 planner keyword demand and seasonal digital product trends",
+        "cross-checked keyword data with updated niche-demand reporting"
+      ],
+      "score": 48.7,
+      "found_at": "2026-11-24T17:54:29.670398+00:00"
+    },
+    {
       "name": "SuperX",
       "field": "Social media growth",
       "summary": "X growth platform combining viral-post discovery, analytics, AI writing, scheduling and a Chrome extension built into X.",
@@ -5574,218 +5782,6 @@
       ],
       "score": 48.0,
       "found_at": "2026-11-18T14:05:04.943674+00:00"
-    },
-    {
-      "name": "Viral Video Reverse-Engineer",
-      "field": "creator tools / social media analytics",
-      "summary": "A free web tool that accepts a TikTok or Reels link, breaks down why the video worked second by second, identifies hooks and retention patterns, and generates a original script and pre-post checklist.",
-      "why_now": "TrustMRR shows ViralSpy launched Oct 18, 2026, was last updated Nov 22, 2026, has $963 MRR, 25 active subscriptions, $813 all-time revenue, and charges $29/$49 per month; Fiverr's 2026 report shows AI video and animation demand up 278% and AI UGC video ads up 265%.",
-      "monetization": "Subscription tiers for unlimited teardowns, competitor viral alerts, and team workspaces; verified comparable MRR $963 with 25 active subscriptions.",
-      "evidence": [
-        "https://trustmrr.com/startup/viral-spy",
-        "https://www.fiverr.com/resources/guides/reports/business-trends-index-june-2026"
-      ],
-      "how_searched": [
-        "opened verified revenue page for current MRR, subscriptions, pricing, and launch date",
-        "cross-checked marketplace demand report for AI video growth"
-      ],
-      "score": 48.0,
-      "found_at": "2026-11-22T19:45:08.551144+00:00"
-    },
-    {
-      "name": "AI-Agent Authorization and Allowed-Action Checker",
-      "field": "Agent commerce compliance",
-      "summary": "Build a free web tool that audits whether a merchant, airline, or travel site allows third-party AI agents, generates a compliant access manifest, and shows safe fallback flows.",
-      "why_now": "Clauday's Nov 19, 2026 Ideas Radar flagged United restricting third-party personal AI agents. TechTarget reported on Nov 17, 2026 that United updated terms on Nov 11 to bar unauthorized agents from tickets even with human supervision and require written permission.",
-      "monetization": "Free public checker for consumers and small sites; paid tiers for merchants, travel agencies, policy monitoring, agent-access manifests, legal export packs, and alerting.",
-      "evidence": [
-        "https://clauday.com/article/b0e86e49-46a5-4081-b6d8-4b3f60f71fba",
-        "https://www.techtarget.com/news/united-airlines-crackdown-puts-personal-ai-agents-to-the-test/874936/"
-      ],
-      "how_searched": [
-        "news search for AI-agent restrictions",
-        "idea-radar trend scan",
-        "cross-check against industry reporting"
-      ],
-      "score": 48.0,
-      "found_at": "2026-11-23T01:01:40.927814+00:00"
-    },
-    {
-      "name": "AI directory-site builder",
-      "field": "No-code / web publishing",
-      "summary": "A no-code/AI builder that creates a niche directory with seeded listings, categories, SEO pages and a monetization hub. Directify sold for $85,000 at $2,000 MRR, recovered to $50K ARR seven months later, and charges $12-149/month while taking no cut of listing fees.",
-      "why_now": "Directify hit $50K ARR on 13 Sep 2026 and its July 2026 dataset shows 4,039 sites, 513,929 listings and 3,539 businesses creating accounts just to be listed. But 61% of sites never publish a listing, so the opening is a free tool that seeds a complete directory instead of shipping another empty template.",
-      "monetization": "Free 1 directory/10 listings; $12-149/month; optional done-for-you listing import; no commission on customer listing fees, matching Directify's model.",
-      "evidence": [
-        "https://small-start.com/en/cases/global-directify-85k-acquisition/",
-        "https://directify.app/blog/what-4000-directory-websites-taught-us"
-      ],
-      "how_searched": [
-        "Bootstrapped acquisition case study (Small Start, 30 Sep 2026)",
-        "Platform's own 4,039-site dataset (Directify blog, 3 Jul 2026)"
-      ],
-      "score": 47.3,
-      "found_at": "2026-11-12T03:08:14.368314+00:00"
-    },
-    {
-      "name": "Photo-based physique assessment and workout-plan web tool",
-      "field": "Health & fitness",
-      "summary": "A free web tool that takes two or three user photos, gives a structured muscle and definition assessment, and generates a weekly training plan with progress-photo comparison, using explicit 'not medical advice' framing and local-only photo handling.",
-      "why_now": "TrustMRR's RevenueCat-verified AbMaxx profile, updated 2026-11-12, shows $40,419 in the last 30 days, $22,003 MRR, 6,127 active subscriptions and $200,944 all-time since March 2026. CoderHype independently logged $41,200 in trailing-30-day revenue on 2026-10-30, showing a small app can turn photo scans into subscriptions.",
-      "monetization": "Free assessment; paid plan for full routines and progress charts; creator-affiliate training programs; one-time challenge plan.",
-      "evidence": [
-        "https://trustmrr.com/startup/abmaxx",
-        "https://coderhype.com/project/abmaxx/"
-      ],
-      "how_searched": [
-        "Browsed TrustMRR verified mobile-app revenue profiles",
-        "Cross-checked CoderHype's independent write-up and revenue snapshot",
-        "Compared MRR, subscription counts and App Store ratings"
-      ],
-      "score": 47.3,
-      "found_at": "2026-11-12T19:04:56.110998+00:00"
-    },
-    {
-      "name": "EbookFoundry",
-      "field": "AI publishing / ebook generation",
-      "summary": "An AI ebook studio that turns a short brief into a titled, chaptered book with a cover and store-ready PDF, EPUB and DOCX exports for Amazon KDP, Etsy and Apple Books.",
-      "why_now": "GETebook shows $11.7k MRR, 240 subscribers, $167k all-time revenue and 12,000+ creators. The incumbent reports only 30%-35% margins and depends on paid ads, leaving room for a leaner, better-editing workflow.",
-      "monetization": "Credit-based Pro plans from $29/mo to $99/mo, commercial-use license, and no free download.",
-      "evidence": [
-        "https://theaireceipts.com/case-studies/getebook/",
-        "https://getebook.ai/"
-      ],
-      "how_searched": [
-        "The AI Receipts case study",
-        "Official product website",
-        "SoloEZ Indie Maker Weekly"
-      ],
-      "score": 47.3,
-      "found_at": "2026-11-13T16:28:15.388025+00:00"
-    },
-    {
-      "name": "AI receipt scanner for small business",
-      "field": "SMB finance / expense automation",
-      "summary": "A receipt scanner and bookkeeping assistant that extracts merchant, date, amount and line items, matches bank transactions, and exports tax-ready reports to QuickBooks, Xero or CSV.",
-      "why_now": "SparkReceipt has processed 4,620,044 receipts across 38,283 businesses in 175 countries, and its App Store listing shows 942 ratings at 4.8 in the Business category.",
-      "monetization": "SparkReceipt charges £9.08/month on annual Elite (£109/year); App Store plans run $8.99/month and $69.99/year, with higher tiers up to $299/year.",
-      "evidence": [
-        "https://sparkreceipt.com/en-gb/",
-        "https://apps.apple.com/us/app/sparkreceipt-expense-scanner/id1660447131"
-      ],
-      "how_searched": [
-        "vendor usage and pricing page",
-        "Apple App Store ratings and in-app prices",
-        "competitor pricing comparison"
-      ],
-      "score": 47.3,
-      "found_at": "2026-11-13T22:46:30.714090+00:00"
-    },
-    {
-      "name": "Prompt-to-sound-effect generator",
-      "field": "Audio / creative tools",
-      "summary": "Build a free text-to-SFX generator that produces short royalty-free sound variations from descriptions, with public library browsing, commercial licensing, API access and DAW/game/video exports.",
-      "why_now": "A founder reported SFX Engine at $2,000 MRR in an August 2026 Hacker News thread; the product site shows 5 free sounds without a card, commercial-use licensing, use cases across games, film, podcasts and ads, and paid plans with API access.",
-      "monetization": "Monthly credit plans at $10, $25 and $90, yearly discounts, API/MCP access, higher credit limits and team/commercial licenses.",
-      "evidence": [
-        "https://sfxengine.com/",
-        "https://rogutkuba.com/"
-      ],
-      "how_searched": [
-        "websearch: micro SaaS MRR updates August 2026 sound effects AI",
-        "webfetch: HN thread, SFX Engine site and founder portfolio"
-      ],
-      "score": 47.3,
-      "found_at": "2026-11-19T21:41:41.226318+00:00"
-    },
-    {
-      "name": "AIDesigner (AI UI design generator with MCP)",
-      "field": "design/dev tools",
-      "summary": "Generates editable website/app UI, brand kits and images from prompts; MCP server lets Claude Code/Cursor/Codex design inside the coding workflow.",
-      "why_now": "Stripe-verified MRR jumped from ~$1K (Mar 2026) to $14,082 (Apr 2026) after shipping MCP; ~18,000 users claimed; demand from 'vibe coders' needing non-generic UI.",
-      "monetization": "Free credits + Pro $25/mo (100 credits) up to $2,250/mo; $8,563 MRR (Oct 2026), $79,038 all-time; 20% affiliate commission.",
-      "evidence": [
-        "https://aiolum.com/story/aidesigner/",
-        "https://shippedandpaid.com/cases/ai-designer-ui-design-tool-8-3k-mrr-vibe-coded-cursor-claude-code/"
-      ],
-      "how_searched": [
-        "verified-revenue trackers",
-        "founder build-in-public posts",
-        "MCP ecosystem pages"
-      ],
-      "score": 46.7,
-      "found_at": "2026-11-10T10:05:27.865059+00:00"
-    },
-    {
-      "name": "Foundplay",
-      "field": "Game discovery / indie developer tools",
-      "summary": "Free discovery platform for browser games that sends players to creators' own pages, with optional paid Boost campaigns that guarantee counted outbound plays.",
-      "why_now": "The catalog lists 3,269 games with 226,357 counted outbound clicks, about 3,000 plays/day, and paid boosts priced at $15-$59 with refunds for undelivered plays.",
-      "monetization": "Boost costs $15 for 30 counted plays in 5 days; Boost Plus costs $59 for 150 counted plays in 5 days.",
-      "evidence": [
-        "https://foundplay.io/about",
-        "https://foundplay.io/stats"
-      ],
-      "how_searched": [
-        "product site about page",
-        "product site live stats"
-      ],
-      "score": 46.7,
-      "found_at": "2026-11-11T15:27:31.215177+00:00"
-    },
-    {
-      "name": "Free wedding planning workspace for DIY couples",
-      "field": "Weddings / events",
-      "summary": "A free web app combining budget buckets, vendor and payment tracking, guest list and online RSVP, checklist and day-of timeline, with support for multi-day and cultural ceremonies instead of a single Western template.",
-      "why_now": "RSVP'd's 2026 report puts the US and Canada wedding market at $72B across 2.24M weddings, with 62-73% of couples planning without a professional planner and AI use doubling from 18% to 36% in twelve months. Coherent Market Insights sizes wedding-planning software at $1.1B in 2026 growing 13% CAGR to $2.55B by 2033, with couples making up 57% of users.",
-      "monetization": "Free core planning and RSVP; paid wedding-website domain, extra collaborators and seating/export tools; vendor marketplace referrals; planner tier.",
-      "evidence": [
-        "https://rsvpd.ai/resources/2026-state-of-wedding-planning-report",
-        "https://www.coherentmarketinsights.com/blog/information-and-communication-technology/wedding-planning-tools-emerging-trends-in-wedding-planning-4262"
-      ],
-      "how_searched": [
-        "Read wedding-industry data reports for DIY share and AI adoption",
-        "Cross-checked market sizing from Coherent Market Insights",
-        "Compared couples-versus-planner split and feature demand"
-      ],
-      "score": 46.7,
-      "found_at": "2026-11-12T19:04:57.516022+00:00"
-    },
-    {
-      "name": "LLM and agent observability",
-      "field": "AI infrastructure / observability",
-      "summary": "A tracing and evaluation service that records prompts, tool calls, latency and token cost, then scores quality, hallucinations and safety across an LLM or agent workflow.",
-      "why_now": "The LLM observability platform market is forecast to grow from $1.97B in 2025 to $2.69B in 2026 at 36.3% CAGR, then to $9.26B by 2030, driven by agentic workflows, token-cost optimization and AI governance.",
-      "monetization": "Langfuse charges $29/month Core, $199/month Pro and $2,499/month Enterprise, plus $8 per 100k units; it also offers a free Hobby tier and free self-hosting.",
-      "evidence": [
-        "https://www.researchandmarkets.com/reports/6215671/large-language-model-llm-observability",
-        "https://langfuse.com/pricing"
-      ],
-      "how_searched": [
-        "market research report",
-        "vendor pricing page",
-        "open-source/commercial pricing comparison"
-      ],
-      "score": 46.7,
-      "found_at": "2026-11-13T22:46:30.997602+00:00"
-    },
-    {
-      "name": "Short-drama micro-series production toolkit",
-      "field": "Media / short drama",
-      "summary": "Vertical short-drama studio for scripting, shot planning, subtitles, voice/dubbing and episode packaging. Shortee Research (vendor-published) reports 850M+ short-drama downloads in Q1 2026 (+140% YoY), about $750M in-app revenue (+20%), 25 minutes/day average (+85% vs Jan 2025) and Omdia's $14B 2026 global microdrama estimate; AppGazers' Nov 14, 2026 chart shows DramaBox, ReelShort, DramaWave and NetShort with modeled 30-day worldwide revenue bands of $5.3M-$60.2M each.",
-      "why_now": "Download growth is far outpacing in-app revenue, pushing the category toward ad-supported and high-volume production; YouTube and Chinese platforms moved into microdrama in late 2026, increasing demand for low-cost production tooling.",
-      "monetization": "Subscription or credit SaaS for studios, per-episode rendering, dubbing/voice add-ons and white-label licensing.",
-      "evidence": [
-        "https://research.myshortee.com/2026/11/microdrama-by-the-numbers-november-2026/",
-        "https://appgazers.com/reports/top-charts/ios/us/grossing"
-      ],
-      "how_searched": [
-        "Web search: short drama market 2026 downloads revenue",
-        "App Store top-grossing chart via AppGazers",
-        "Vendor research report review"
-      ],
-      "score": 46.7,
-      "found_at": "2026-11-14T10:41:17.828838+00:00"
     }
   ]
 }
