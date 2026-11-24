@@ -740,6 +740,35 @@
       "found_at": "2026-10-20T00:48:22.922918+00:00"
     },
     {
+      "name": "Firefox Browser Add-ons / AMO listing",
+      "url": "https://extensionworkshop.com/documentation/publish/submitting-an-add-on/",
+      "kind": "directory",
+      "requires_account": {
+        "needed": true,
+        "automatic_creation": "no",
+        "details": "A Mozilla account and AMO developer account are required for listing."
+      },
+      "official_free_api": {
+        "available": true,
+        "mechanism": "Official free Developer Hub submission for AMO listing or signed self-distribution; account creation is manual.",
+        "automatic_account_creation": "no"
+      },
+      "how_to_use": "If the product can be a useful browser extension, package it as a WebExtension, submit through the AMO Developer Hub, choose AMO listing for discovery, and link the listing to the project site.",
+      "rules_and_risks": "Packages use .zip, .xpi, or .crx and have a 200 MB limit; the validator and review process can block release; AMO policies cover content, privacy, data collection, monetization, and security.",
+      "why_it_works": "AMO listings are installed by Firefox users actively looking for extensions, and a useful extension can create recurring exposure and referral traffic without paid promotion.",
+      "evidence": [
+        "https://extensionworkshop.com/documentation/publish/signing-and-distribution-overview/",
+        "https://extensionworkshop.com/documentation/publish/submitting-an-add-on/",
+        "https://extensionworkshop.com/documentation/publish/add-on-policies/"
+      ],
+      "how_searched": [
+        "websearch: browser extension stores beyond Chrome and Edge 2026",
+        "webfetch: Firefox Extension Workshop signing, submission, and policies docs"
+      ],
+      "score": 74.0,
+      "found_at": "2026-11-24T06:15:13.490631+00:00"
+    },
+    {
       "name": "Reddit: niche subreddits where your users already gather",
       "url": "https://www.reddit.com/",
       "kind": "community",
@@ -866,6 +895,36 @@
       "found_at": "2026-10-23T18:31:20.063779+00:00"
     },
     {
+      "name": "Postman API Network public workspaces",
+      "url": "https://learning.postman.com/docs/postman-api-network/overview",
+      "kind": "directory",
+      "requires_account": {
+        "needed": true,
+        "automatic_creation": "no",
+        "details": "A Postman account is needed to create public workspaces and publish API Network content."
+      },
+      "official_free_api": {
+        "available": true,
+        "mechanism": "Free plan includes public workspaces and Public API Network; pricing also lists 10,000 monthly Postman API calls on Free.",
+        "automatic_account_creation": "no"
+      },
+      "how_to_use": "If the site has an API, create a clean public collection with example requests, clear descriptions, a fast first 200 OK response, and publish the workspace so it appears in Postman discovery.",
+      "rules_and_risks": "Only publish APIs intended to be usable or discoverable; avoid secrets in public collections, keep documentation accurate, and note that custom branding and some advanced distribution options require paid plans.",
+      "why_it_works": "Postman API Network helps APIs get discovered by developers searching inside Postman and on the web, with public workspaces and team profiles acting as durable developer-facing landing pages.",
+      "evidence": [
+        "https://learning.postman.com/docs/postman-api-network/overview",
+        "https://learning.postman.com/docs/postman-api-network/showcase/publish/overview",
+        "https://learning.postman.com/docs/collaborating-in-postman/using-workspaces/public-workspaces/",
+        "https://www.postman.com/pricing/"
+      ],
+      "how_searched": [
+        "websearch: free API discovery networks 2026",
+        "webfetch: Postman API Network, public workspace, and pricing docs"
+      ],
+      "score": 72.0,
+      "found_at": "2026-11-24T06:15:14.269264+00:00"
+    },
+    {
       "name": "Medium (free publishing + import tool with canonical links)",
       "url": "https://help.medium.com/hc/en-us/articles/214550207-Importing-a-post-to-Medium",
       "kind": "platform",
@@ -990,6 +1049,35 @@
       ],
       "score": 68.0,
       "found_at": "2026-10-20T00:48:30.307337+00:00"
+    },
+    {
+      "name": "Qwoted free expert profile and pitch plan",
+      "url": "https://www.qwoted.com/pricing",
+      "kind": "platform",
+      "requires_account": {
+        "needed": true,
+        "automatic_creation": "no",
+        "details": "A complete human expert profile and manual signup are required."
+      },
+      "official_free_api": {
+        "available": false,
+        "mechanism": "Self-service expert profile and pitch system, not an API.",
+        "automatic_account_creation": "no"
+      },
+      "how_to_use": "Create a credible profile in the site's actual area of expertise, complete headshot/bio/employment/interests, then send relevant expert pitches to reporter requests within the free basic allowance.",
+      "rules_and_risks": "Basic is free with 2 pitches/month and a 2-hour delivery delay; community rules require real people, authentic expertise, quality pitches, no AI-generated commentary, and no direct pitching of reporter requests outside Qwoted unless specifically requested.",
+      "why_it_works": "Journalists search Qwoted for qualified sources, so a relevant expert profile can earn legitimate media mentions and backlinks that bring real referral traffic.",
+      "evidence": [
+        "https://www.qwoted.com/pricing",
+        "https://www.qwoted.com/qwoted-faqs-how-to-make-the-most-of-your-account/",
+        "https://www.qwoted.com/qwoted-community-guidelines/"
+      ],
+      "how_searched": [
+        "websearch: HARO alternatives free expert source platforms 2026",
+        "webfetch: Qwoted pricing, account FAQ, and community guidelines"
+      ],
+      "score": 68.0,
+      "found_at": "2026-11-24T06:15:14.854708+00:00"
     },
     {
       "name": "Google News: Publisher Center setup + Google News sitemap",
@@ -1262,6 +1350,36 @@
       "found_at": "2026-10-07T04:19:37.303621+00:00"
     },
     {
+      "name": "Qiita technical articles and Qiita API v2",
+      "url": "https://qiita.com/api/v2/docs",
+      "kind": "community",
+      "requires_account": {
+        "needed": true,
+        "automatic_creation": "no",
+        "details": "Posting articles and using write-scoped API tokens require a Qiita account; token creation is manual."
+      },
+      "official_free_api": {
+        "available": true,
+        "mechanism": "Official Qiita API v2 supports item and comment operations with access tokens and scopes.",
+        "automatic_account_creation": "no"
+      },
+      "how_to_use": "Publish useful, reusable Japanese-language engineering articles tied to the project, then optionally use the official API with a write_qiita scope token to create items programmatically where allowed.",
+      "rules_and_risks": "Qiita API limits are 1,000 authenticated requests per hour and 60 unauthenticated requests per hour per IP; ads monetization violates API terms, scraping is not allowed, and articles must follow community/article guidelines on titles, tags, citations, confidentiality, licenses, and AI-generated content.",
+      "why_it_works": "Qiita articles appear in feeds and search and are read by engineers looking for practical implementation knowledge, making it a strong channel for developer-tool discovery.",
+      "evidence": [
+        "https://help.qiita.com/ja/articles/qiita-api",
+        "https://qiita.com/api/v2/docs",
+        "https://help.qiita.com/ja/articles/qiita-community-guideline",
+        "https://help.qiita.com/ja/articles/qiita-article-guideline"
+      ],
+      "how_searched": [
+        "websearch: Qiita API post article community guidelines 2026",
+        "webfetch: official Qiita API help, API v2 docs, community guidelines, and article guidelines"
+      ],
+      "score": 63.0,
+      "found_at": "2026-11-24T06:15:16.319991+00:00"
+    },
+    {
       "name": "AI answer-engine visibility via robots.txt crawler allowlists",
       "url": "https://docs.perplexity.ai/docs/resources/perplexity-crawlers",
       "kind": "tactic",
@@ -1367,6 +1485,35 @@
       ],
       "score": 62.0,
       "found_at": "2026-10-20T00:48:36.118438+00:00"
+    },
+    {
+      "name": "Yandex Webmaster and Naver Search Advisor sitemap submission",
+      "url": "https://webmaster.yandex.com/welcome/",
+      "kind": "search",
+      "requires_account": {
+        "needed": true,
+        "automatic_creation": "no",
+        "details": "Separate webmaster accounts are needed for Yandex and Naver submission tools."
+      },
+      "official_free_api": {
+        "available": false,
+        "mechanism": "Free webmaster UI sitemap submission, not IndexNow and not an account-creation API.",
+        "automatic_account_creation": "no"
+      },
+      "how_to_use": "Add and verify the site in Yandex Webmaster and Naver Search Advisor, submit the XML sitemap, monitor indexing reports, and use expedited Yandex reindexing sparingly for important updated pages.",
+      "rules_and_risks": "Yandex says robots and indexed pages can take about two weeks; expedited requests are limited to 10 per host and then 30 days; Naver requires a valid XML sitemap under the domain and request via its advisor.",
+      "why_it_works": "Yandex and Naver have their own crawlers and search ecosystems, so explicit sitemap submission can help the site get discovered by audiences not reached through Google or Bing submission alone.",
+      "evidence": [
+        "https://webmaster.yandex.com/welcome/",
+        "https://yandex.com/support/webmaster/en/indexing-options/sitemap",
+        "https://help.naver.com/service/30010/contents/17629?lang=ko&osType=PC"
+      ],
+      "how_searched": [
+        "websearch: non Google search engine sitemap submission Yandex Naver 2026",
+        "webfetch: official Yandex Webmaster, Yandex sitemap support, and Naver Search Advisor help"
+      ],
+      "score": 61.0,
+      "found_at": "2026-11-24T06:15:19.999167+00:00"
     },
     {
       "name": "GitHub as a discovery channel (GitHub SEO)",
@@ -1661,6 +1808,34 @@
       "found_at": "2026-11-13T00:30:47.588108+00:00"
     },
     {
+      "name": "OS package-manager distribution via winget, Flathub, and Chocolatey",
+      "url": "https://learn.microsoft.com/en-us/windows/package-manager/package/",
+      "kind": "directory",
+      "requires_account": {
+        "needed": true,
+        "automatic_creation": "no",
+        "details": "winget and Flathub use GitHub-based repository workflows; Chocolatey community publishing uses an API key tied to an account."
+      },
+      "official_free_api": {
+        "available": true,
+        "mechanism": "Official open submission mechanisms: public manifests/repositories and Chocolatey choco push; not an auto-account growth API.",
+        "automatic_account_creation": "no"
+      },
+      "how_to_use": "If the site has a downloadable app, publish a winget manifest, submit a Flathub app through its Git PR process, or create and push a Chocolatey package; link back to the site from package metadata and README.",
+      "rules_and_risks": "winget and Flathub require repo-hosted manifests/submissions and review; Flathub requires build/lint/permission checks; Chocolatey rules prohibit illegal software, malware, packages without distribution rights, duplicates, junk, and non-publicly-relevant packages.",
+      "why_it_works": "Package catalogs expose the project to people actively searching for installable software, with durable install instructions that can drive repeat visits and documentation traffic.",
+      "evidence": [
+        "https://learn.microsoft.com/en-us/windows/package-manager/package/",
+        "https://docs.chocolatey.org/en-us/create/create-packages/"
+      ],
+      "how_searched": [
+        "websearch: free desktop software distribution channels package managers 2026",
+        "webfetch: official winget, Flathub, and Chocolatey packaging/submission docs"
+      ],
+      "score": 56.0,
+      "found_at": "2026-11-24T06:15:11.369284+00:00"
+    },
+    {
       "name": "Opera add-ons",
       "url": "https://help.opera.com/en/extensions/publishing-guidelines/",
       "kind": "platform",
@@ -1865,6 +2040,34 @@
       "found_at": "2026-10-14T18:47:57.141728+00:00"
     },
     {
+      "name": "Eventbrite free event listings and discovery marketplace",
+      "url": "https://www.eventbrite.com/features/event-discovery/",
+      "kind": "platform",
+      "requires_account": {
+        "needed": true,
+        "automatic_creation": "no",
+        "details": "An organizer account is needed to create and manage event listings."
+      },
+      "official_free_api": {
+        "available": false,
+        "mechanism": "Free self-service event listing and discovery, not an account-creation or follower API.",
+        "automatic_account_creation": "no"
+      },
+      "how_to_use": "Host a genuinely useful free launch, workshop, demo, AM session, or community meetup; create a complete listing with clear topic, date, host profile, and links back to the site.",
+      "rules_and_risks": "The free-event tier has no platform fee and unlimited free events, but paid features and fees can apply; Eventbrite discovery favors complete, relevant listings, and spammy or low-quality events may get little visibility.",
+      "why_it_works": "Eventbrite operates a discovery marketplace where users browse events by topic and location, so a well-targeted free event can reach people who are not already following the site.",
+      "evidence": [
+        "https://www.eventbrite.com/organizer/pricing/",
+        "https://www.eventbrite.com/features/event-discovery/"
+      ],
+      "how_searched": [
+        "websearch: free event discovery platforms for new website visitors 2026",
+        "webfetch: Eventbrite organizer pricing and event discovery docs"
+      ],
+      "score": 52.0,
+      "found_at": "2026-11-24T06:15:12.170468+00:00"
+    },
+    {
       "name": "Apple Business (formerly Business Connect)",
       "url": "https://business.apple.com/en-ww/",
       "kind": "platform",
@@ -1883,6 +2086,34 @@
       ],
       "score": 50.7,
       "found_at": "2026-11-13T00:30:51.115230+00:00"
+    },
+    {
+      "name": "Google Dataset Search via Dataset structured data",
+      "url": "https://developers.google.com/search/docs/appearance/structured-data/dataset",
+      "kind": "search",
+      "requires_account": {
+        "needed": false,
+        "automatic_creation": "not_applicable",
+        "details": "Public dataset pages can be discovered without a Google account if they are crawlable and properly marked up."
+      },
+      "official_free_api": {
+        "available": false,
+        "mechanism": "Open inclusion through schema.org Dataset, DataCatalog, and DataDownload markup; no submission API relied on.",
+        "automatic_account_creation": "not_applicable"
+      },
+      "how_to_use": "If the site publishes data, create a stable public dataset landing page, add Dataset structured data with name, description, license, distribution/download URLs, and make the page crawlable and included in the sitemap.",
+      "rules_and_risks": "Only use this for real datasets with accurate metadata and lawful licensing; misleading markup, broken download URLs, or thin pages can reduce trust and search visibility.",
+      "why_it_works": "Google Dataset Search discovers datasets hosted across thousands of repositories, and structured data helps search systems understand and surface dataset pages to researchers and data users.",
+      "evidence": [
+        "https://developers.google.com/search/docs/appearance/structured-data/dataset",
+        "https://datasetsearch.research.google.com/help"
+      ],
+      "how_searched": [
+        "websearch: free niche search discovery channels datasets 2026",
+        "webfetch: Google Dataset Search structured data and help docs"
+      ],
+      "score": 50.7,
+      "found_at": "2026-11-24T06:15:12.868931+00:00"
     },
     {
       "name": "HackerNoon free story submission (human editor review)",
@@ -2026,6 +2257,34 @@
       ],
       "score": 46.7,
       "found_at": "2026-10-20T00:48:23.158778+00:00"
+    },
+    {
+      "name": "Artifact Hub repository submission",
+      "url": "https://artifacthub.io/docs/topics/repositories/",
+      "kind": "directory",
+      "requires_account": {
+        "needed": true,
+        "automatic_creation": "no",
+        "details": "Publishers sign in and add repositories from the Artifact Hub control panel."
+      },
+      "official_free_api": {
+        "available": true,
+        "mechanism": "Official repository submission and periodic indexing; account creation is manual.",
+        "automatic_account_creation": "no"
+      },
+      "how_to_use": "If the project ships Helm charts, OLM operators, Krew plugins, Tekton tasks, Backstage plugins, or other supported artifacts, host a repository, add it in the control panel, and use artifacthub-repo.yml for verification and ownership.",
+      "rules_and_risks": "Supported repository kinds are specific, official status has strict ownership rules and is not quality-reviewed, and verified publisher requires repository metadata served at the repository path.",
+      "why_it_works": "Artifact Hub indexes many cloud-native artifact types from many repositories, so a submitted repository can attract operators and developers already searching for installable packages.",
+      "evidence": [
+        "https://artifacthub.io/docs/topics/repositories/",
+        "https://artifacthub.io/docs/topics/repositories/helm-charts/"
+      ],
+      "how_searched": [
+        "websearch: free cloud native artifact directories Helm chart directories 2026",
+        "webfetch: Artifact Hub repositories and Helm charts docs"
+      ],
+      "score": 46.7,
+      "found_at": "2026-11-24T06:15:14.492591+00:00"
     },
     {
       "name": "Connectively (HARO's successor — new facts on the free plan)",
@@ -2287,6 +2546,34 @@
       "found_at": "2026-11-13T00:30:55.821303+00:00"
     },
     {
+      "name": "Apple Business / Apple Business Connect local listing",
+      "url": "https://support.apple.com/guide/business/sign-up-and-verify-your-organization-axm402206497/web",
+      "kind": "directory",
+      "requires_account": {
+        "needed": true,
+        "automatic_creation": "no",
+        "details": "A business account and organization verification are required."
+      },
+      "official_free_api": {
+        "available": false,
+        "mechanism": "Free/self-service business listing workflow, not an API and not automatic account creation.",
+        "automatic_account_creation": "no"
+      },
+      "how_to_use": "For a real local business, sign up with Apple Business, complete organization verification, then use Apple Business Connect to manage place cards, actions, contact details, and links back to the website.",
+      "rules_and_risks": "Verification may use business contact methods and take up to five business days, with a limited window to finish; eligibility depends on real business identity, legal details, domain or document validation, and accurate location information.",
+      "why_it_works": "Apple Business Connect feeds business information into Apple apps and maps, where users can find local places and follow direct links to the business site.",
+      "evidence": [
+        "https://support.apple.com/guide/business/sign-up-and-verify-your-organization-axm402206497/web",
+        "https://www.apple.com/newsroom/2023/01/introducing-apple-business-connect/"
+      ],
+      "how_searched": [
+        "websearch: free local business listing channels beyond Google Business Profile 2026",
+        "webfetch: Apple Business sign-up verification and Apple Business Connect announcement"
+      ],
+      "score": 39.3,
+      "found_at": "2026-11-24T06:15:21.172840+00:00"
+    },
+    {
       "name": "Podcast guesting and cross-promotion swaps with peer sites",
       "url": "https://www.varynforge.com/blog/how-to-get-organic-traffic-free-tactics-small-sites",
       "kind": "partnership",
@@ -2328,6 +2615,34 @@
       "found_at": "2026-10-10T12:40:15.840566+00:00"
     },
     {
+      "name": "PeerTube video publishing and federation",
+      "url": "https://www.joinpeertube.org/publish-videos",
+      "kind": "platform",
+      "requires_account": {
+        "needed": true,
+        "automatic_creation": "no",
+        "details": "An account on a PeerTube instance is needed to upload videos, create channels, and embed content."
+      },
+      "official_free_api": {
+        "available": true,
+        "mechanism": "PeerTube REST API supports video upload, resumable upload, and imports from URL, magnet, or torrent; account creation is manual.",
+        "automatic_account_creation": "no"
+      },
+      "how_to_use": "Create an account on a relevant PeerTube instance, upload useful videos or import existing public-domain/own videos, create a channel, add site links in descriptions, and embed PeerTube videos on the site.",
+      "rules_and_risks": "Each instance has its own rules and moderation; federation can expand reach but also means takedowns or defederation; promotional content may need to be flagged and video quality matters.",
+      "why_it_works": "PeerTube is federated and human-moderated rather than purely algorithm-driven, so niche technical or community videos can be discovered across instances and embedded elsewhere.",
+      "evidence": [
+        "https://www.joinpeertube.org/publish-videos",
+        "https://docs.joinpeertube.org/api-rest-reference/api/video-upload.html"
+      ],
+      "how_searched": [
+        "websearch: decentralized video platforms for free promotion 2026",
+        "webfetch: PeerTube publishing page and REST video upload docs"
+      ],
+      "score": 38.0,
+      "found_at": "2026-11-24T06:15:22.032815+00:00"
+    },
+    {
       "name": "Wiby",
       "url": "https://wiby.me/",
       "kind": "search",
@@ -2345,6 +2660,34 @@
       ],
       "score": 36.7,
       "found_at": "2026-10-20T00:48:33.372356+00:00"
+    },
+    {
+      "name": "Slack Marketplace app submission",
+      "url": "https://docs.slack.dev/slack-marketplace/slack-marketplace-review-guide/",
+      "kind": "directory",
+      "requires_account": {
+        "needed": true,
+        "automatic_creation": "no",
+        "details": "A Slack developer/app account and a real installed app are required."
+      },
+      "official_free_api": {
+        "available": false,
+        "mechanism": "Official marketplace submission and review workflow; no account automation.",
+        "automatic_account_creation": "no"
+      },
+      "how_to_use": "If the site provides a Slack app, polish the app listing, provide a demo video and support process, and submit only after the app is installed on enough real active workspaces.",
+      "rules_and_risks": "Coded workflows are not eligible; the app must be fully functional, publicly available, installable, tested on a non-dev workspace, installed on 10 or more active workspaces, and have an active workspace used in the past 28 days; review can be blocked otherwise.",
+      "why_it_works": "Slack Marketplace exposes apps to teams actively searching for workflow tools, and a useful listing can produce installs, referrals, and credibility.",
+      "evidence": [
+        "https://docs.slack.dev/changelog/2026/11/02/slack-marketplace-submission-criteria",
+        "https://docs.slack.dev/slack-marketplace/slack-marketplace-review-guide/"
+      ],
+      "how_searched": [
+        "websearch: Slack Marketplace submission requirements 2026",
+        "webfetch: Slack submission criteria changelog and review guide"
+      ],
+      "score": 36.7,
+      "found_at": "2026-11-24T06:15:22.250160+00:00"
     },
     {
       "name": "There's An AI For That (TAAFT) — AI tool directory",
@@ -2407,6 +2750,34 @@
       ],
       "score": 35.3,
       "found_at": "2026-10-11T19:02:18.777563+00:00"
+    },
+    {
+      "name": "Lemmy communities and API/RSS participation",
+      "url": "https://join-lemmy.org/docs/contributors/04-api.html",
+      "kind": "community",
+      "requires_account": {
+        "needed": true,
+        "automatic_creation": "no",
+        "details": "Accounts are instance-specific and manually created; RSS/Atom consumption may not require an account."
+      },
+      "official_free_api": {
+        "available": true,
+        "mechanism": "Official OpenAPI and JS client docs expose community and site APIs; account creation is manual.",
+        "automatic_account_creation": "no"
+      },
+      "how_to_use": "Find active Lemmy communities matching the site's topic, join relevant instances, participate substantively, share genuinely useful posts or project updates, and monitor RSS/Atom feeds for community activity.",
+      "rules_and_risks": "Each instance has its own moderation and culture; 2026 reporting suggests a relatively small, privacy/self-hosting-oriented audience, so mass posting or promotional-only behavior can get removed or banned.",
+      "why_it_works": "Lemmy communities are topic-focused and federated, so authentic participation can reach engaged niche audiences without paid promotion.",
+      "evidence": [
+        "https://join-lemmy.org/docs/contributors/04-api.html",
+        "https://www.poster.ly/guides/lemmy-guide"
+      ],
+      "how_searched": [
+        "websearch: decentralized communities free traffic Lemmy 2026",
+        "webfetch: official Lemmy API docs and recent Lemmy guide"
+      ],
+      "score": 35.3,
+      "found_at": "2026-11-24T06:15:23.350836+00:00"
     },
     {
       "name": "Micro.blog Discover",
@@ -3646,6 +4017,33 @@
       "found_at": "2026-11-10T18:18:17.716213+00:00"
     },
     {
+      "name": "public-apis public API directory contribution",
+      "url": "https://raw.githubusercontent.com/public-apis/public-apis/master/CONTRIBUTING.md",
+      "kind": "directory",
+      "requires_account": {
+        "needed": true,
+        "automatic_creation": "no",
+        "details": "A GitHub account is needed to open a pull request."
+      },
+      "official_free_api": {
+        "available": true,
+        "mechanism": "Open GitHub PR submission to a public directory; no API or automatic account creation.",
+        "automatic_account_creation": "no"
+      },
+      "how_to_use": "If the site exposes a genuinely free API, open one PR adding a single row in the required table format with API name, description, auth, HTTPS, CORS, and a working call URL.",
+      "rules_and_risks": "APIs must be free or have a free tier, full access at least at that tier, no device purchase requirement, correct formatting, and no marketing attempts; rejected PRs should not be resubmitted unchanged.",
+      "why_it_works": "The directory is a curated discovery point for developers looking for usable free APIs, and a listing can send targeted traffic to API docs and signup pages.",
+      "evidence": [
+        "https://raw.githubusercontent.com/public-apis/public-apis/master/CONTRIBUTING.md"
+      ],
+      "how_searched": [
+        "websearch: free public API directories submission 2026",
+        "webfetch: public-apis CONTRIBUTING.md via raw GitHub"
+      ],
+      "score": 21.7,
+      "found_at": "2026-11-24T06:15:14.870808+00:00"
+    },
+    {
       "name": "Qiita API v2 — publish developer articles programmatically",
       "url": "https://qiita.com/api/v2/docs",
       "kind": "platform",
@@ -4281,6 +4679,33 @@
       ],
       "score": 17.3,
       "found_at": "2026-11-10T18:18:19.941980+00:00"
+    },
+    {
+      "name": "Google Scholar author publication pages",
+      "url": "https://scholar.google.com/intl/en/scholar/inclusion.html",
+      "kind": "search",
+      "requires_account": {
+        "needed": false,
+        "automatic_creation": "not_applicable",
+        "details": "Inclusion is based on publicly crawlable author/institution pages and PDFs, not a Scholar account."
+      },
+      "official_free_api": {
+        "available": false,
+        "mechanism": "Open web inclusion guidance; no submission API relied on.",
+        "automatic_account_creation": "not_applicable"
+      },
+      "how_to_use": "If the site has genuine research output, upload each paper PDF to the site, create a clear publications page linking to those PDFs, and make the pages crawlable with stable metadata.",
+      "rules_and_risks": "Only applies to real papers; avoid misleading metadata, duplicate thin pages, or hosting material without rights.",
+      "why_it_works": "Google Scholar guidance says authors can make work visible by placing PDFs on their websites and linking from publications pages, which can bring highly qualified academic traffic to the site.",
+      "evidence": [
+        "https://scholar.google.com/intl/en/scholar/inclusion.html"
+      ],
+      "how_searched": [
+        "websearch: free academic discovery channels for websites 2026",
+        "webfetch: Google Scholar inclusion guidelines"
+      ],
+      "score": 17.0,
+      "found_at": "2026-11-24T06:15:23.388383+00:00"
     },
     {
       "name": "itch.io",

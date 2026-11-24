@@ -523,6 +523,25 @@
       "found_at": "2026-11-23T09:13:27.749995+00:00"
     },
     {
+      "name": "SpecGuard: spec-first E2E regression copilot for AI-built apps",
+      "field": "developer tools, QA automation",
+      "summary": "A web tool where a founder pastes a PR, repo, or plain-language spec and gets a real browser test suite that checks the stated behavior after every change, with readable failure reports and PR comments.",
+      "why_now": "TestSprite launched version 4.0 on 2026-11-20 explicitly for teams whose coding agents break working features, with browser-running tests, PR/Slack/Linear/Jira checks, free 150 credits, $19/$39/$69 monthly tiers, $8.4M total funding, and $550K 2025 revenue recorded by Caplight.",
+      "monetization": "Free one-app tier; paid per-run credits and repo/environment seats, following observed $19, $39, and $69 monthly comparables.",
+      "evidence": [
+        "https://www.testsprite.com/blog/introducing-testsprite-4-0",
+        "https://www.testsprite.com/pricing",
+        "https://www.caplight.com/company/testsprite"
+      ],
+      "how_searched": [
+        "vendor launch blog",
+        "vendor pricing page",
+        "private-market/funding database"
+      ],
+      "score": 86.0,
+      "found_at": "2026-11-24T06:08:08.624496+00:00"
+    },
+    {
       "name": "Glossa (live AI translation for church services)",
       "field": "event/live translation",
       "summary": "Live AI translation of sermons and Christian events into 100+ languages; listeners hear/read on their phones via QR code, no headsets.",
@@ -1124,6 +1143,25 @@
       "found_at": "2026-11-23T21:30:41.176385+00:00"
     },
     {
+      "name": "HelpfulIntent: consent-first Reddit buyer-intent reply desk",
+      "field": "growth, community-led acquisition",
+      "summary": "A web app that finds fresh posts where people ask for a product like yours, scores buying intent, drafts rule-following helpful answers, and requires human approval before posting from accounts the user controls.",
+      "why_now": "Rankhog launched 2026-11-22 with 348 upvotes, 41 comments, #2 Product of the Day, a $99/month per-product plan, and 500+ founders claimed to have used its free audit; Bazzly is self-reported at $25,000 MRR on 2026-11-02 with a $199/month plan, though Reddit policy and account-ban risk are real.",
+      "monetization": "Free subreddit/intent audit; paid per-product monitoring, draft credits, and optional managed account warm-up with clear compliance guardrails.",
+      "evidence": [
+        "https://hunted.space/product/rankhog",
+        "https://rnkhg.com/ph",
+        "https://aihustletracker.com/en/cases/bazzly-filip-panoski/"
+      ],
+      "how_searched": [
+        "Product Hunt launch mirror",
+        "competitor pricing and product page",
+        "indie revenue case study"
+      ],
+      "score": 82.0,
+      "found_at": "2026-11-24T06:08:09.044622+00:00"
+    },
+    {
       "name": "AI subscription / token spend tracker",
       "field": "Developer & team productivity",
       "summary": "A dashboard that aggregates and monitors AI spend across ChatGPT, Claude, Gemini, Copilot, Cursor, etc., surfacing per-seat usage, plan limits, and cost overruns. Products like ToolSpend and multiaicost already exist; a Chrome extension 'Claude Usage Tracker & Monitor' is trending (3K+ users, +43 ratings in 30 days).",
@@ -1508,6 +1546,25 @@
       ],
       "score": 79.0,
       "found_at": "2026-11-23T21:30:38.969560+00:00"
+    },
+    {
+      "name": "LaunchReel: URL-to-branded launch video studio",
+      "field": "marketing video, launch tooling",
+      "summary": "A free web tool that takes a public URL, extracts real screenshots, copy, colors, and logo, then produces a short launch/demo video with editable scenes instead of generic stock footage or talking-head avatars.",
+      "why_now": "Motionflare reached #2 Product of the Day on 2026-11-23 with 300 upvotes and 41 comments; founder notes about 3,000 videos already made and positions the product against roughly $10k agency videos, while pricing is $15 for a credit pack, $29/month Pro, $99/month Max, and $950/month Ultra.",
+      "monetization": "Free watermarked preview; pay-as-you-go export credits and tiered monthly plans, with cheaper draft models and paid premium renders.",
+      "evidence": [
+        "https://hunted.space/product/motionflare",
+        "https://motionflare.ai/pricing",
+        "https://dev.to/sugukavi/motionflare-turns-your-website-into-a-launch-video-but-the-credit-math-decides-what-it-costs-you-252"
+      ],
+      "how_searched": [
+        "Product Hunt launch mirror",
+        "vendor pricing page",
+        "independent pricing teardown"
+      ],
+      "score": 79.0,
+      "found_at": "2026-11-24T06:08:09.298704+00:00"
     },
     {
       "name": "GETebook.ai",
@@ -2375,6 +2432,25 @@
       ],
       "score": 74.0,
       "found_at": "2026-11-23T21:30:39.708929+00:00"
+    },
+    {
+      "name": "FixLoop: lightweight customer-concern graph",
+      "field": "product feedback, support ops",
+      "summary": "A small web dashboard that imports support threads, community posts, and sales-call notes, deduplicates repeated complaints into topics, links each topic to issues/PRs, and drafts follow-ups when fixes ship.",
+      "why_now": "Modem 2.0 launched 2026-11-18 around a customer-product graph spanning almost 20 channels; an independent launch wire on 2026-11-23 lists Free, Startup $80/month, and Scale $250/month, showing willingness to pay for turning feedback into tracked engineering work.",
+      "monetization": "Free small-team tier; priced by feedback events or connected channels, with paid issue-tracker sync and follow-up automation.",
+      "evidence": [
+        "https://modem.ai/blog/modem-2-0-customer-product-graph",
+        "https://modem.ai/guides/best-tools-to-automate-customer-feedback-analysis",
+        "https://www.startupstarter.co/launches/modem-customer-feedback-agent"
+      ],
+      "how_searched": [
+        "vendor launch post",
+        "vendor category guide",
+        "independent launch wire"
+      ],
+      "score": 74.0,
+      "found_at": "2026-11-24T06:08:10.106659+00:00"
     },
     {
       "name": "Photo-to-Repair Estimate for Used Cars",
@@ -4913,6 +4989,24 @@
       "found_at": "2026-11-23T01:01:38.639424+00:00"
     },
     {
+      "name": "TrackSplit: browser audio-to-MIDI and tab studio for your own tracks",
+      "field": "music tools, creator utilities",
+      "summary": "A browser studio that converts uploaded own/public-domain audio, full mixes, or YouTube links the user owns into editable MIDI, tabs, and stem-aware notation with manual correction.",
+      "why_now": "A 2026-11 HN launch about a small open-weight audio-to-MIDI model got 310 points and 70 comments; Mirelo reported that within six weeks nearly 1 in 11 riffle music makers used Convert to MIDI and over one-third repeated; Songscription reported 150,000 users and over 20% MoM growth after a $5M raise.",
+      "monetization": "Free short-file conversions; paid longer files, batch export, stem separation, and collaboration links, with licensing checks and no copyrighted-track scraping.",
+      "evidence": [
+        "https://mirelo.ai/blog/riffle-audio-to-midi-case-study",
+        "https://www.aimusicpreneur.com/ai-tools-news/songscription-publisher-licensing-deals-play-anything-rebrand/"
+      ],
+      "how_searched": [
+        "Hacker News Show HN",
+        "product case study",
+        "music-industry news"
+      ],
+      "score": 52.0,
+      "found_at": "2026-11-24T06:08:09.765574+00:00"
+    },
+    {
       "name": "SocialClaw",
       "field": "Social media scheduling for AI agents",
       "summary": "A scheduling platform that lets AI agents (e.g., OpenClaw, Claude, Codex, ChatGPT workflows) connect accounts and publish/schedule posts programmatically. A rebuildable web product could provide an original agent-friendly posting API/dashboard with approvals and analytics.",
@@ -5108,6 +5202,23 @@
       ],
       "score": 50.7,
       "found_at": "2026-11-23T01:01:39.843823+00:00"
+    },
+    {
+      "name": "QuietInbox: local-first AI email triage web app",
+      "field": "email productivity, privacy tools",
+      "summary": "A privacy-first mailbox front end focused on one-key triage, plain-language summaries, in-your-voice drafts, waiting-on replies, code extraction, and explicit agent permissions for read/archive/draft actions only.",
+      "why_now": "Glassmail launched 2026-11-21 with 158 upvotes, 15 comments, and #4 Product of the Day; its $29 one-time launch price, then $49, plus local-only AI directly challenges $10-$30/month cloud AI email clients.",
+      "monetization": "Free local/PWA core; one-time lifetime license or low-cost self-hosted AI pack, avoiding per-seat subscriptions.",
+      "evidence": [
+        "https://hunted.space/product/glassmail",
+        "https://glassmail.app/"
+      ],
+      "how_searched": [
+        "Product Hunt launch mirror",
+        "vendor product and pricing page"
+      ],
+      "score": 50.7,
+      "found_at": "2026-11-24T06:08:09.863337+00:00"
     },
     {
       "name": "LiveReview (risk-aware AI code review, auto-approve safe PRs)",
@@ -5675,113 +5786,6 @@
       ],
       "score": 46.7,
       "found_at": "2026-11-14T10:41:17.828838+00:00"
-    },
-    {
-      "name": "Points Path",
-      "field": "Travel / browser extension",
-      "summary": "Chrome extension that overlays frequent-flyer points prices onto Google Flights search results; 100,000 users, 4.1 stars from 85 ratings, a Featured badge, and a $1M seed round.",
-      "why_now": "Points-and-miles optimization is growing as cash fares rise, and a 100K-user extension proves distribution, while monetization via Pro and affiliate remains shallow.",
-      "monetization": "Freemium Pro subscription plus affiliate and booking commissions.",
-      "evidence": [
-        "https://chromewebstore.google.com/detail/points-path-for-google-fl/kblbdlhoeakihpcaimpdjnfkjffnhhej",
-        "https://pointspath.com/blog/points-path-announces-1m-seed-round-close"
-      ],
-      "how_searched": [
-        "websearch: Google Flights points extension users",
-        "Chrome Web Store listing",
-        "company blog",
-        "travel/points community references"
-      ],
-      "score": 46.7,
-      "found_at": "2026-11-14T17:16:23.261934+00:00"
-    },
-    {
-      "name": "SOC 2 / ISO Readiness Scanner (compliance gap checker)",
-      "field": "Cybersecurity compliance for startups",
-      "summary": "Free web tool that scans a company's docs and stack, then outputs a SOC 2 / ISO 27001 gap checklist and evidence folder structure — the rebuildable wedge of automated compliance.",
-      "why_now": "Comp AI grew MRR +47.6% month-over-month to ~$18k (Systemaic Bootstrapped Risers, refreshed daily) and shows Stripe-verified MRR $17,383 / +44% on NeewP's Nov 14 2026 leaderboard — two independent revenue trackers. Compliance demand is non-discretionary for B2B SaaS sales.",
-      "monetization": "Freemium gap scan; paid monitoring/automation subscriptions (Vanta/Drata pattern, Comp AI ~$18k MRR and climbing); add-on evidence-collection credits.",
-      "evidence": [
-        "https://www.systemaic.com/tools/bootstrapped-risers",
-        "https://neewp.com/"
-      ],
-      "how_searched": [
-        "bootstrapped-SaaS MRR leaderboards",
-        "Stripe-verified revenue leaderboards"
-      ],
-      "score": 46.7,
-      "found_at": "2026-11-15T02:13:41.630929+00:00"
-    },
-    {
-      "name": "Google Business Profile AI-readiness audit",
-      "field": "Local SEO / GEO",
-      "summary": "A tool that audits a local business's Google Business Profile against the signals AI assistants use when recommending local businesses, producing a fix-list. A study of 10,000 businesses found GBP signals are the top factor in ChatGPT/Perplexity local answers; the 'GBP Reality Check' extension is trending (1K+ users, +17 ratings in 30 days).",
-      "why_now": "AI assistants are becoming a primary local-discovery channel, and most SMBs have no visibility into why AI recommends competitors. Fresh, high-intent, underserved niche.",
-      "monetization": "Freemium audit; paid monthly monitoring + recommendations; agency white-label; done-for-you local SEO upsell.",
-      "evidence": [
-        "https://insites.com/blog/the-7-best-google-business-profile-audit-tools/",
-        "https://appgazers.com/reports/chrome-extensions/trending"
-      ],
-      "how_searched": [
-        "websearch: Google Business Profile audit tool AI search",
-        "Chrome extension store trending report",
-        "local SEO audit-tool roundup"
-      ],
-      "score": 46.7,
-      "found_at": "2026-11-15T21:52:39.590252+00:00"
-    },
-    {
-      "name": "QR Code AI",
-      "field": "Marketing utilities / AI QR code generator and analytics",
-      "summary": "A web tool for creating branded or artistic AI-generated QR codes with scan tracking and analytics.",
-      "why_now": "Simple utility-to-subscription conversion is working now: $14,300 MRR from 1,500 subscriptions with $341,000 all-time revenue, driven primarily by SEO (TrustMRR-verified, Nov 19, 2026).",
-      "monetization": "Subscription SaaS with free-to-paid funnel and analytics upsell; $14,300 MRR, $15,800 in the last 30 days, 1,500 active subscriptions (TrustMRR-verified via The AI Receipts, Nov 19, 2026).",
-      "evidence": [
-        "https://theaireceipts.com/case-studies/qr-code-ai/",
-        "https://theaireceipts.com/ai-saas-ideas/"
-      ],
-      "how_searched": [
-        "verified AI revenue case-study databases (The AI Receipts)",
-        "ranked verified AI SaaS revenue lists (The AI Receipts)"
-      ],
-      "score": 46.7,
-      "found_at": "2026-11-19T13:12:53.027918+00:00"
-    },
-    {
-      "name": "Open-source AI spreadsheet for sourced web enrichment",
-      "field": "Sales ops / data tooling",
-      "summary": "A spreadsheet where you prompt a list of companies or people, add AI columns in plain English, and each cell searches the live web while keeping sources and confidence scores.",
-      "why_now": "Enrichable launched as a free MIT-licensed Clay alternative with 1,000 rows/sheet, 10 sheets/workspace, email-provider waterfall, and an MCP server; Context.dev reports 5,000+ businesses using its API and a 2.5K-follower Product Hunt page.",
-      "monetization": "Software is free/MIT; self-hosting uses your own Context.dev and OpenAI keys. Hosted revenue is null.",
-      "evidence": [
-        "https://www.enrichable.io/",
-        "https://www.producthunt.com/products/context-dev"
-      ],
-      "how_searched": [
-        "Product Hunt launch data",
-        "open-source product website",
-        "GitHub repo snippets"
-      ],
-      "score": 46.7,
-      "found_at": "2026-11-20T03:20:17.897572+00:00"
-    },
-    {
-      "name": "Revenue Leak Replay Triage",
-      "field": "product analytics / session replay",
-      "summary": "A lightweight web dashboard that groups session replays into journey cohorts, flags likely conversion and onboarding leaks, and outputs a plain-language fix brief for a coding agent instead of forcing users to watch recordings manually.",
-      "why_now": "A Nov 18, 2026 open-source replay roundup says AI scanners and agent-readable replay access are now core differentiators; Rejourney's HN launch reports about 2.5 million recordings processed, one user gaining 30% onboarding conversion, and first 3 paid users covering costs.",
-      "monetization": "Paid issue alerts, team dashboards, and agent-fix exports; comparable break-even at 3 paid users is stated, public MRR null.",
-      "evidence": [
-        "https://posthog.com/compare/best-open-source-session-replay-tools",
-        "https://openreplay.com/product/core/product-analytics/"
-      ],
-      "how_searched": [
-        "opened HN launch for usage and early payment evidence",
-        "opened recent open-source replay comparison for recency and category direction",
-        "opened vendor product page for baseline replay/funnel/heatmap features"
-      ],
-      "score": 46.7,
-      "found_at": "2026-11-22T19:45:08.867920+00:00"
     }
   ]
 }
