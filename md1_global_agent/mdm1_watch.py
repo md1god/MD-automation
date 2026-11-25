@@ -63,6 +63,17 @@ def autofix_prs(since):
     return out
 
 
+def merged_before_ci(run):
+    """CI on an auto-fix PR that was merged within seconds of being opened: the run starts and dies with no jobs at all.
+    That is not a test failure (the auto-fix workflow smoke-tests the change itself before it merges), so it is not reported."""
+    if run.get("event") != "pull_request" or not str(run.get("head_branch", "")).startswith("autofix/"):
+        return False
+    try:
+        return api(f"actions/runs/{run['id']}/jobs", per_page=1).get("total_count", 1) == 0
+    except Exception:
+        return False
+
+
 def main():
     now = datetime.now(timezone.utc)
     try:
@@ -71,7 +82,7 @@ def main():
         since = now - timedelta(hours=2)
     runs = api("actions/runs", per_page=100, status="completed")["workflow_runs"]
     fresh = [r for r in runs if parse(r["updated_at"]) > since and not any(i in r["name"] for i in IGNORE)]
-    fails = [r for r in fresh if r["conclusion"] in BAD]
+    fails = [r for r in fresh if r["conclusion"] in BAD and not merged_before_ci(r)]
     done = [r for r in fresh if r["conclusion"] == "success" and any(p in r["name"] for p in PUBLISHERS)]
     fixes = autofix_prs(since)
     if fails or done or fixes:
