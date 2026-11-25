@@ -1868,6 +1868,21 @@
       "found_at": "2026-11-23T09:13:52.253327+00:00"
     },
     {
+      "name": "WP Change Shield",
+      "field": "site operations",
+      "summary": "A safety layer for AI-assisted site edits that copies a site, previews changes, blocks duplicates, requires approval and supports one-click rollback.",
+      "why_now": "WhyItEarns lists Respira for WordPress at $7,678 MRR, 426 paying subscribers and $11,828 in the last 30 days, checked Nov 23; the same monthly report names it the fastest-growing product at +367%, and its site reports G2 4.7/5 from 11 reviews.",
+      "monetization": "Per-site monthly subscription for preview environments, approval logs, backups and rollback history.",
+      "evidence": [
+        "https://whyitearns.com/opportunities/respira-for-wordpress-1",
+        "https://www.respira.press/",
+        "https://whyitearns.com/monthly/2026-11"
+      ],
+      "how_searched": "Cross-checked a monthly growth report, an individual revenue-opportunity page and the live vendor site.",
+      "score": 78.0,
+      "found_at": "2026-11-25T02:38:11.754008+00:00"
+    },
+    {
       "name": "Freelancer Contract Risk Scanner",
       "field": "Legal tech",
       "summary": "Upload a freelance contract and get clause-level red flags, a dollar-denominated hidden-cost score, and ready-to-send negotiation language.",
@@ -2170,6 +2185,22 @@
       ],
       "score": 76.0,
       "found_at": "2026-11-23T21:30:43.477891+00:00"
+    },
+    {
+      "name": "BoardSpark Pin Studio",
+      "field": "content distribution",
+      "summary": "A URL-to-Pinterest campaign tool that turns a product or blog page into ready-to-post pins, titles, descriptions, images and a scheduled calendar.",
+      "why_now": "URL2Pin hit a $2,000 MRR milestone on Nov 18, charges from $9/mo, claims 1,500+ creators and 36,000+ pins, and uses the official Pinterest API; Pinterest announced a Microsoft Advertising integration on Nov 23 built around Pinterest search queries and first-party intent data.",
+      "monetization": "Creator subscription for scheduled pins, bulk URL imports, brand templates and analytics.",
+      "evidence": [
+        "https://mrrbench.com/t/url2pin.html",
+        "https://url2pin.com/",
+        "https://newsroom.pinterest.com/news/pinterest-microsoft-advertising-integration-2026/",
+        "https://mrrbench.com/milestones.html"
+      ],
+      "how_searched": "Checked a revenue milestone, product page, launch tracker and official Pinterest newsroom announcement.",
+      "score": 76.0,
+      "found_at": "2026-11-25T02:38:12.412660+00:00"
     },
     {
       "name": "AI Product Photo Studio for Small Stores",
@@ -2846,6 +2877,21 @@
       "found_at": "2026-11-22T03:32:23.898516+00:00"
     },
     {
+      "name": "App Ad Scene Builder",
+      "field": "marketing automation",
+      "summary": "A tool that takes an app or product URL and produces short ad concepts, scripts, storyboards, captions and faceless reels for founders.",
+      "why_now": "Upsight counted 69,246 Upwork jobs from Oct 20 to Nov 11 with Video Editing at 9.9%, Graphic Design at 9.1% and Social Media Marketing at 8.0%; lightugc shows $1,100 MRR on Nov 22 with $49-$149 tiers, while AppZoku shows $1,576 MRR, 70 active subscriptions and a Nov export-based model.",
+      "monetization": "Free generation with paid exports, commercial seats, brand-kit storage and scheduled publishing.",
+      "evidence": [
+        "https://www.upsight.fyi/blog/upwork-skills-in-demand-2026",
+        "https://mrrbench.com/t/lightugc.html",
+        "https://trustmrr.com/startup/appzoku"
+      ],
+      "how_searched": "Combined a job-demand study with two independent revenue-tracker pages and product details.",
+      "score": 72.0,
+      "found_at": "2026-11-25T02:38:12.947397+00:00"
+    },
+    {
       "name": "AI niche-directory website builder: one sentence to a live, monetized directory",
       "field": "Web publishing / no-code builders",
       "summary": "A web tool that turns a one-sentence idea (like 'wedding vendors in Texas') into a live, SEO-ready directory with listings, categories and built-in payment collection, letting owners charge businesses for placement. Directify was acquired for $85K and keeps growing under its new owner.",
@@ -3511,6 +3557,22 @@
       ],
       "score": 67.0,
       "found_at": "2026-11-22T03:32:26.971993+00:00"
+    },
+    {
+      "name": "Crawler Readout",
+      "field": "analytics",
+      "summary": "A privacy-friendly dashboard that separates AI crawler reads from AI assistant referrals and shows whether key pages are readable in raw HTML.",
+      "why_now": "Letter Visitors sells visitor and AI-agent identification with API/CLI/MCP and pricing from $100/mo; a Nov 21 104-day log found 28,850 AI bot fetches with OAI-SearchBot rising from 5 to 1,837 and PerplexityBot from 10 to 3,388, while a Nov 8 64-site study found 22,614 crawler requests in six days but only 1,174 assistant referrals in ten months.",
+      "monetization": "Free single-page report with paid history, alerts, multi-site dashboards and team export.",
+      "evidence": [
+        "https://letter.dev/visitors",
+        "https://letter.dev/pricing",
+        "https://bloggingtitan.com/blog-seo/ai-crawler-log-104-days/",
+        "https://divitiai.com/blog/ai-crawlers-vs-ai-referrals-what-64-sites-show/"
+      ],
+      "how_searched": "Compared a live product/pricing page with two independent field-log studies published in November.",
+      "score": 67.0,
+      "found_at": "2026-11-25T02:38:15.031721+00:00"
     },
     {
       "name": "Browser Screen Recorder with Auto-Zoom and Cursor Effects",
@@ -4256,6 +4318,20 @@
       ],
       "score": 57.3,
       "found_at": "2026-11-24T17:54:22.284065+00:00"
+    },
+    {
+      "name": "Pickup Stock Radar",
+      "field": "ecommerce monitoring",
+      "summary": "A web tool that watches public retailer inventory pages for exact model, color and store availability, then sends instant pickup alerts with deep links.",
+      "why_now": "Store Stock Checker shows $33,605 MRR, 4,392 active subscriptions, about 14,970 users, $5/$10/$20 monthly tiers and Stripe-verified revenue; its site reports 471,119 notifications across 471 Apple Stores since Oct 22 with alerts in about 2 seconds.",
+      "monetization": "Low monthly tiers by store count, product count and alert speed; sell team/region dashboards.",
+      "evidence": [
+        "https://trustmrr.com/startup/store-stock-checker",
+        "https://www.storestockchecker.com/"
+      ],
+      "how_searched": "Compared verified revenue-tracker data with the live product page and recent milestone pages.",
+      "score": 57.3,
+      "found_at": "2026-11-25T02:38:08.164148+00:00"
     },
     {
       "name": "ParakeetAI",
@@ -5690,98 +5766,6 @@
       ],
       "score": 48.7,
       "found_at": "2026-11-24T17:54:29.670398+00:00"
-    },
-    {
-      "name": "SuperX",
-      "field": "Social media growth",
-      "summary": "X growth platform combining viral-post discovery, analytics, AI writing, scheduling and a Chrome extension built into X.",
-      "why_now": "Reported $1K MRR on launch day and about $23K MRR within six months, with ~650 paying customers and 20-25% monthly growth.",
-      "monetization": "$39-199/month subscriptions; founder-reported ~$23K MRR and 30% trial-to-paid conversion.",
-      "evidence": [
-        "https://www.indiehackers.com/post/tech/hitting-23k-mrr-in-six-months-after-five-failures-4d64o9ev4AXXhX9ogHQQ",
-        "https://stealwhatworks.com/blogs/news/chrome-extensions-over-10k-month-now"
-      ],
-      "how_searched": [
-        "founder interview (Indie Hackers)",
-        "Chrome extension revenue analysis"
-      ],
-      "score": 48.0,
-      "found_at": "2026-11-21T23:34:20.749373+00:00"
-    },
-    {
-      "name": "Beacon (cross-harness memory for AI coding agents)",
-      "field": "developer tools",
-      "summary": "Captures agent sessions across Claude Code, Cursor, Codex and 20+ harnesses, distills reusable skills via a 'dreaming' loop, retrievable over MCP.",
-      "why_now": "#1 Product of the Day on Product Hunt (Nov 2, 2026, 499 upvotes); Asymptote Labs raised $5.5M seed; 3,400+ GitHub stars; addresses session-forgetting pain as agent usage surges.",
-      "monetization": "Free open-source core + free cloud tier; Pro $20/mo (annual) adds agent-saved memories, unlimited findings, alerts; Team/Enterprise tiers.",
-      "evidence": [
-        "https://beacon.sh/",
-        "https://mtdtechnologies.com/beacon-sh-memory-ai-coding-agents-how-shared-memory-stops-your-agents-re-teaching-themselves/"
-      ],
-      "how_searched": [
-        "Product Hunt leaderboards",
-        "funding news",
-        "GitHub star counts"
-      ],
-      "score": 48.0,
-      "found_at": "2026-11-10T10:05:25.944782+00:00"
-    },
-    {
-      "name": "Gmail read-receipt / email open tracking",
-      "field": "Communication / sales productivity",
-      "summary": "A tool that adds read receipts and open/click tracking to Gmail for sales and freelancers. 'Vmail Plus: free Gmail read receipts & dictation' is trending on the Chrome Web Store (5K+ users, +329 ratings in 30 days); other entrants exist (Email Open Tracker, Vmail).",
-      "why_now": "Very fast rating velocity on the store suggests a demand spike; incumbents are thin and privacy/compliance-aware positioning is still an open gap in some regions.",
-      "monetization": "Freemium Chrome extension with paid unlimited tracking, CRM sync, and team analytics.",
-      "evidence": [
-        "https://appgazers.com/reports/chrome-extensions/trending",
-        "https://cmdk.email/post/gmail-read-receipts/"
-      ],
-      "how_searched": [
-        "websearch: Gmail read receipts tool",
-        "Chrome extension store trending report",
-        "blog roundup of Gmail read-receipt tools"
-      ],
-      "score": 48.0,
-      "found_at": "2026-11-15T21:52:38.755034+00:00"
-    },
-    {
-      "rank": 8,
-      "name": "VMEG AI",
-      "category": "AI video localization",
-      "summary": "AI video localization platform for dubbing and translation across 170+ languages, including an enterprise review workflow.",
-      "why_now": "MarTechSeries reports $2M ARR in 15 months and a new Glass Box dubbing workflow for enterprise video localization.",
-      "monetization": "Usage-based dubbing minutes plus enterprise localization contracts.",
-      "free_rebuild_angle": "Free short-video subtitle and translation tool with watermark; paid minutes, voice options, and team review.",
-      "evidence": [
-        "https://martechseries.com/video/vmeg-ai-surpasses-2m-arr-launches-glass-box-dubbing-workflow-for-enterprise-video-localization/",
-        "https://www.vmeg.ai/"
-      ],
-      "how_searched": [
-        "video-localization press sweep",
-        "opened MarTechSeries",
-        "opened product site"
-      ],
-      "score": 48.0,
-      "found_at": "2026-11-16T20:37:43.700522+00:00"
-    },
-    {
-      "name": "Local Google Maps lead finder + outreach",
-      "field": "sales prospecting / local marketing",
-      "summary": "Build a free lead research web app that searches Google Maps categories and locations, flags businesses without websites or weak reviews, enriches contacts, and drafts personalized outreach.",
-      "why_now": "NotiQ sold 484 deals at $69 with 22 reviews by combining Google Maps leads, verified contact data, and AI cold email; local businesses remain underserved by simple prospecting tools.",
-      "monetization": "Free limited daily searches; charge for bulk export, verified emails/phones, enrichment credits, campaign tracking, saved lists, and CRM integrations.",
-      "evidence": [
-        "https://appsumo.com/products/notiq/",
-        "https://thepromotes.com/notiq-lifetime-deal-review/"
-      ],
-      "how_searched": [
-        "websearch",
-        "webfetch",
-        "AppSumo listing",
-        "product review"
-      ],
-      "score": 48.0,
-      "found_at": "2026-11-18T14:05:04.943674+00:00"
     }
   ]
 }
