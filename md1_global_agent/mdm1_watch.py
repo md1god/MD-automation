@@ -2,7 +2,8 @@
 
 mdm1.org has no Telegram secrets of its own; this repo does. Every run of this script lists the finished workflow runs of
 md1god/MDM1.org since the last check and sends ONE Telegram message: every failure (with the failing step) plus a one-line
-result for the pipelines that publish (REA Scout, Plan queue, Trend tool pages, Add app, Generate pages).
+result for the pipelines that publish (REA Scout, Plan queue, Trend tool pages, Add app, Generate pages), and every
+auto-fix PR that the "Auto-fix alerts and failures" workflow merged (title, link and the reason it wrote).
 State (the last time it looked) is kept in .watch_state.json, restored/saved by the workflow through actions/cache.
 """
 import json
@@ -45,6 +46,23 @@ def why(run):
     return ""
 
 
+def autofix_prs(since):
+    """Auto-fix PRs (branch autofix/*) merged since the last check, with the first lines of the reason in the PR body."""
+    out = []
+    try:
+        prs = api("pulls", state="closed", sort="updated", direction="desc", per_page=30)
+    except Exception:
+        return out
+    for pr in prs:
+        if not pr.get("merged_at") or not (pr.get("head") or {}).get("ref", "").startswith("autofix/"):
+            continue
+        if parse(pr["merged_at"]) <= since:
+            continue
+        body = (pr.get("body") or "").split("\n\n", 1)[-1].strip()
+        out.append({"title": pr["title"], "url": pr["html_url"], "reason": body[:900] + ("…" if len(body) > 900 else "")})
+    return out
+
+
 def main():
     now = datetime.now(timezone.utc)
     try:
@@ -55,12 +73,15 @@ def main():
     fresh = [r for r in runs if parse(r["updated_at"]) > since and not any(i in r["name"] for i in IGNORE)]
     fails = [r for r in fresh if r["conclusion"] in BAD]
     done = [r for r in fresh if r["conclusion"] == "success" and any(p in r["name"] for p in PUBLISHERS)]
-    if fails or done:
+    fixes = autofix_prs(since)
+    if fails or done or fixes:
         lines = ["📡 mdm1.org — تقرير المسارات", ""]
         for r in fails:
             lines.append(f"❌ {r['name']}: {r['conclusion']} ({why(r) or 'راجع السجل'})\n   {r['html_url']}")
         for r in done:
             lines.append(f"✅ {r['name']}: نجح")
+        for f in fixes:
+            lines.append(f"🛡️ إصلاح تلقائي تم دمجه: {f['title']}\n   {f['url']}\n{f['reason']}")
         channel = (yaml.safe_load(open("config.yaml", encoding="utf-8")) or {}).get("telegram_report_channel", "")   # the channel the bot already posts to
         if not telegram.send("\n".join(lines), channel):
             # Exit 0 on purpose: a red run would e-mail the owner every 30 minutes. The reason is in the log above and the next run retries.
