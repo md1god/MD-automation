@@ -542,6 +542,29 @@
       "found_at": "2026-11-24T06:08:08.624496+00:00"
     },
     {
+      "name": "AI UGC video-ad generator",
+      "field": "AI advertising / creator economy",
+      "summary": "A web tool that turns a product URL or brief into batches of short UGC-style talking-head ad variants (hooks, scripts, avatars, aspect ratios) for TikTok/Meta/YouTube testing.",
+      "why_now": "Fiverr's CEO said demand for AI UGC video ads rose 265% in Q2 2026 while overall Fiverr transaction volume fell; Upwork's fastest-growing skill was AI video generation/editing (+329%); HeyGen reportedly crossed $200M ARR mid-2026, Arcads ~$10M ARR, Creatify $9M+ ARR — and Creatify Max was Product Hunt's #9 launch of Nov 2026 (437 score, 141 comments).",
+      "monetization": "Subscription + credits (Arcads ~$110/mo for 10 videos, Creatify from $39/mo); one Acquire.com-listed AI UGC marketplace showed $864K TTM revenue, $208K profit, 1,700+ paying subscribers.",
+      "evidence": [
+        "https://catalora.ai/articles/ai-ugc-ads-business",
+        "https://doesitpay.org/ai-video-ad-services/research/",
+        "https://www.producthunt.com/leaderboard/monthly/2026/11",
+        "https://app.acquire.com/public/tsw65udv4f-profitable-ai-ugc-marketplace-for-brands-creators-864k-ttm-67-growth",
+        "https://www.credenceresearch.com/report/ugc-ad-creator-marketplace-market"
+      ],
+      "how_searched": [
+        "launch site leaderboards (Product Hunt monthly Nov 2026)",
+        "freelance-marketplace demand reports (Fiverr/Upwork indices via secondary reporting)",
+        "market-research report",
+        "M&A marketplace listing with revenue",
+        "deep-dive industry research page"
+      ],
+      "score": 86.0,
+      "found_at": "2026-11-25T13:15:37.191122+00:00"
+    },
+    {
       "name": "Glossa (live AI translation for church services)",
       "field": "event/live translation",
       "summary": "Live AI translation of sermons and Christian events into 100+ languages; listeners hear/read on their phones via QR code, no headsets.",
@@ -838,6 +861,28 @@
       ],
       "score": 84.0,
       "found_at": "2026-11-23T09:13:29.024434+00:00"
+    },
+    {
+      "name": "Party invite, RSVP and ticketing page builder",
+      "field": "Social events / consumer web",
+      "summary": "Free shareable event pages (link opens without app install) with themed designs, guest list, RSVP/text blasts, and optional paid-ticket checkout with QR entry.",
+      "why_now": "Exploding Topics lists Partiful at 99x+ search growth (Nov 2026 update); Partiful just launched in-app ticketing (its first monetization) and third-party estimates show revenue up ~79% to ~$542K/mo with ~600K downloads/mo; Apple's Invites hit 9.7M downloads, proving mass demand for the category while Partiful still owns the Gen Z share.",
+      "monetization": "Ticket cut on paid events (observed ~14-30% fee uplift to hit host target), freemium add-ons (Partiful Plus $4.99/mo, add-ons $1.99-$9.90), group-order/commerce fees.",
+      "evidence": [
+        "https://www.theverge.com/report/960635/partiful-app-event-planning-data-palantir",
+        "https://www.wired.com/story/partiful-is-putting-ticket-payments-on-its-platform/",
+        "https://www.cnbc.com/2025/04/19/meet-partiful-the-gen-z-party-planning-staple-thats-taking-on-apple.html",
+        "https://www.airbridge.io/en/app-revenue/partiful",
+        "https://explodingtopics.com/blog/trending-topics"
+      ],
+      "how_searched": [
+        "trend-search database (Exploding Topics trending topics, updated Nov 2026)",
+        "news magazine deep-dive (The Verge, WIRED)",
+        "business news (CNBC/Sensor Tower estimates)",
+        "third-party app revenue estimator (Airbridge)"
+      ],
+      "score": 84.0,
+      "found_at": "2026-11-25T13:15:39.195465+00:00"
     },
     {
       "name": "Interview Rehearsal & Live Answer Coach",
@@ -1180,6 +1225,29 @@
       "found_at": "2026-11-24T06:08:09.044622+00:00"
     },
     {
+      "name": "Free web AI music generator",
+      "field": "AI audio / music",
+      "summary": "Browser-based text-hum-to-song generator (freemium credits or bring-your-own API key) with lyrics, stems and commercial-use tiers.",
+      "why_now": "Exploding Topics ranks 'AI Music Generator' at +5,200% search growth in its Nov 17-20 2026 update; Suno — the category leader — announced $300M ARR and 2M paid subscribers, with AppTrendKit estimating ~$36M App Store spend and 1.3M downloads in the 30 days to Nov 22, 2026.",
+      "monetization": "Freemium subscription (Suno: free 10 songs/day, $10/mo for 500 songs, $30/mo for 2,000) plus app-store IAP; incumbents show $7M-$36M/month gross spend pools.",
+      "evidence": [
+        "https://explodingtopics.com/blog/trending-topics",
+        "https://techcrunch.com/2026/02/27/ai-music-generator-suno-hits-2-million-paid-subscribers-and-300m-in-annual-recurring-revenue/",
+        "https://www.apptrendkit.com/apps/ios/6480136315",
+        "https://sacra.com/c/suno/",
+        "https://www.airbridge.io/en/app-revenue/suno"
+      ],
+      "how_searched": [
+        "trend-search database (Exploding Topics top-100 Nov 2026)",
+        "tech news (TechCrunch)",
+        "app-store revenue estimator (AppTrendKit, window ending Nov 22 2026)",
+        "private-company revenue tracker (Sacra)",
+        "app intelligence teardown (Airbridge)"
+      ],
+      "score": 82.0,
+      "found_at": "2026-11-25T13:15:40.249802+00:00"
+    },
+    {
       "name": "AI subscription / token spend tracker",
       "field": "Developer & team productivity",
       "summary": "A dashboard that aggregates and monitors AI spend across ChatGPT, Claude, Gemini, Copilot, Cursor, etc., surfacing per-seat usage, plan limits, and cost overruns. Products like ToolSpend and multiaicost already exist; a Chrome extension 'Claude Usage Tracker & Monitor' is trending (3K+ users, +43 ratings in 30 days).",
@@ -1443,6 +1511,28 @@
       ],
       "score": 80.0,
       "found_at": "2026-11-23T09:13:33.084398+00:00"
+    },
+    {
+      "name": "Landlord rental bookkeeping and rent-ledger tool",
+      "field": "SMB fintech / real estate",
+      "summary": "Free web back-office for small landlords: per-property rent ledger, expense categorization, receipt vault, cash-flow and Schedule-E-ready tax exports.",
+      "why_now": "'Baselane' search growth hit +7,300% on Exploding Topics (Nov 2026); the category leader announced $34.4M funding after 900% growth, 50,000+ investors and $2B+ processed annually — and an Apr 2026 partnership release put volume at $3.1B/yr while mid-term rental demand rose 136%.",
+      "monetization": "Free core with paid automation tier (Baselane Smart), rent-payment ACH fees ($2/invoice), banking interchange/wire fees; RocketReach estimates Baselane revenue at $25.8M.",
+      "evidence": [
+        "https://explodingtopics.com/blog/trending-topics",
+        "https://www.prnewswire.com/news-releases/baselane-announces-34m-in-new-funding-debuts-ai-powered-tools-to-automate-banking-and-bookkeeping-for-real-estate-investors-302572023.html",
+        "https://www.prnewswire.com/news-releases/baselane-and-furnished-finder-partner-to-bring-automated-rent-collection--financial-tools-to-mid-term-rental-owners-as-market-accelerates-302736463.html",
+        "https://rocketreach.co/baselane-profile_b43df619c19cfadb",
+        "https://www.alleywatch.com/2025/10/baselane-ai-landlord-bookkeping-banking-collection-rental-property-financial-management-platform-mathias-korder-fort/"
+      ],
+      "how_searched": [
+        "trend-search database (Exploding Topics trending topics)",
+        "company press releases with volume/funding numbers",
+        "data-company profile (RocketReach revenue estimate)",
+        "venture/industry interview (AlleyWatch)"
+      ],
+      "score": 80.0,
+      "found_at": "2026-11-25T13:15:41.141072+00:00"
     },
     {
       "name": "Ad Spend Refund & Invalid-Traffic Auditor",
@@ -1883,6 +1973,28 @@
       "found_at": "2026-11-25T02:38:11.754008+00:00"
     },
     {
+      "name": "Year-end FSA spend-down and eligibility planner",
+      "field": "Employee benefits / consumer fintech",
+      "summary": "Free web tool that counts down to the Dec 31 FSA deadline, checks whether a product or expense is HSA/FSA-eligible, and plans how to spend a remaining balance before it's forfeited.",
+      "why_now": "This is peak FSA season right now: Truemed data (updated Nov 24, 2026) shows Nov transaction volume 122.5% and Dec 148.9% above monthly average, with Sept 2026 the second-highest month on record; a wave of 'use it or lose it' stories ran Nov 13-22 (USA Today, Real Simple, Fox, Motley Fool), FSA Store launched an Early Black Friday promo Nov 10 for the Dec 31 deadline, and a Chrome HSA/FSA shopping extension grew +20K users in 7 days.",
+      "monetization": "Affiliate commissions on eligible-product recommendations, paid letter-of-medical-necessity/referral flows, premium family plan trackers; direct tool revenue null — market context: ~half of FSA holders forfeit funds, avg $436 each, ~$4.5B/yr forfeited (EBRI), $174B held across 41.7M HSAs.",
+      "evidence": [
+        "https://www.truemed.com/blog/open-enrollment-hsa-fsa-report",
+        "https://www.prnewswire.com/news-releases/early-black-friday-arrives-at-fsa-store-bundle-select-eligible-items-and-save-up-to-20-ahead-of-the-december-31-fsa-deadline-302933319.html",
+        "https://www.fool.com/retirement/2026/11/22/trying-to-use-up-your-fsa-funds-before-2026-ends-5-things-you-can-spend-them-on/",
+        "https://www.foxnews.com/deals/fsa-hsa-last-minute-funds",
+        "https://extops.dev/extensions/trending"
+      ],
+      "how_searched": [
+        "seasonal-timing analysis from a benefits platform's public data report",
+        "press-release promo calendar (FSA Store)",
+        "news cycle sweep of last-7-days consumer-finance stories",
+        "Chrome extension growth tracker (extops weekly, Nov 25 2026)"
+      ],
+      "score": 78.0,
+      "found_at": "2026-11-25T13:15:42.135975+00:00"
+    },
+    {
       "name": "Freelancer Contract Risk Scanner",
       "field": "Legal tech",
       "summary": "Upload a freelance contract and get clause-level red flags, a dollar-denominated hidden-cost score, and ready-to-send negotiation language.",
@@ -2021,6 +2133,29 @@
       ],
       "score": 77.0,
       "found_at": "2026-11-24T17:54:27.681928+00:00"
+    },
+    {
+      "name": "AI conversation partner for language speaking practice",
+      "field": "EdTech / language learning",
+      "summary": "Free web app for live voice/text roleplay, debate and call-mode practice with an AI in 100+ languages, with freemium limits and a subscription for unlimited calls.",
+      "why_now": "'TalkPal' search growth is +6,600% on Exploding Topics (Nov 2026); Duolingo's Q3 2026 shareholder letter (Nov 2026) made AI Video Call its headline feature — cutting cost per call from $0.30 to under $0.01 and moving it into the core Super tier while sunsetting Max — proving speaking-practice AI is the category's main monetization lever.",
+      "monetization": "Subscription (TalkPal Premium $19.99/mo, $119.99/yr; est. $306K/mo revenue, ~102K downloads/mo per Airbridge Oct 2026); category anchor Duolingo booked $309M revenue and 13.1M paid subscribers in Q3 2026.",
+      "evidence": [
+        "https://explodingtopics.com/blog/trending-topics",
+        "https://www.airbridge.io/en/app-revenue/talkpal",
+        "https://investors.duolingo.com/static-files/e1ee336e-b024-486f-875c-afd722653067",
+        "https://ads.openai.com/customers/talkpal",
+        "https://hightechinvesting.substack.com/p/hgi-earnings-radar-3-airbnb-duolingo-df1"
+      ],
+      "how_searched": [
+        "trend-search database (Exploding Topics)",
+        "app revenue estimator (Airbridge)",
+        "public-company investor filing (Duolingo Q3 FY26 letter)",
+        "ad-platform case study (OpenAI Ads)",
+        "earnings commentary substack"
+      ],
+      "score": 77.0,
+      "found_at": "2026-11-25T13:15:42.960336+00:00"
     },
     {
       "name": "AI paid-media manager: autonomous Google/Meta/TikTok ad campaign agent",
@@ -2319,6 +2454,29 @@
       ],
       "score": 75.0,
       "found_at": "2026-11-23T09:13:59.757808+00:00"
+    },
+    {
+      "name": "Tip pooling and daily tip-out calculator for restaurants",
+      "field": "Hospitality operations / payroll",
+      "summary": "Free web calculator and audit trail for tip pools, point/weighted splits and tip-outs across shifts and job codes, with exportable compliance records (no money movement).",
+      "why_now": "Vista Equity made a growth investment in TipHaus announced Nov 16-17 2026 — Endeavor Strategy only backs software with $10M+ recurring revenue — while TipHaus projects $7B in tips overseen by end-2027 and 74% growth in daily tip payouts; search growth for TipHaus is +2,000% (Exploding Topics), digital/QR tipping adoption rose 29%, and the new federal tips tax deduction (OBBBA, 2025-2028) is forcing accurate tip reporting.",
+      "monetization": "Per-location SaaS for calculation/reporting (freemium), paid integrations with POS/payroll; benchmark: Vista's $10M+ ARR bar implies TipHaus clears $10M ARR on ~$4.5M previously raised; payout rails deferred (licensing) — direct revenue for a pure calculator null.",
+      "evidence": [
+        "https://www.tiphaus.com/blog/tiphaus-vista-equity-partners-strategic-growth-investment/",
+        "https://www.privateequityinternational.com/vista-equity-partners-makes-growth-investment-in-tip-software-firm-tiphaus/",
+        "https://dealroom.co/news/173058-vista-backs-tip-software-maker-tiphaus-in-growth-deal/",
+        "https://explodingtopics.com/blog/trending-topics",
+        "https://www.tiphaus.com/resources/tipping-trends-report-2026/"
+      ],
+      "how_searched": [
+        "breaking PE/industry news (this week)",
+        "company press release with volume metrics",
+        "funding database journalism (Dealroom, SEC Form D check)",
+        "trend-search database (Exploding Topics)",
+        "vendor research report on tip-pool trends"
+      ],
+      "score": 75.0,
+      "found_at": "2026-11-25T13:15:46.492271+00:00"
     },
     {
       "name": "Consumer Deepfake & AI-Image Verifier",
@@ -2890,6 +3048,29 @@
       "how_searched": "Combined a job-demand study with two independent revenue-tracker pages and product details.",
       "score": 72.0,
       "found_at": "2026-11-25T02:38:12.947397+00:00"
+    },
+    {
+      "name": "Padel court finder and open-play matchmaking",
+      "field": "Sports recreation / local marketplace",
+      "summary": "Free web directory of US padel clubs and courts with price filters, open-play/session boards and partner matching for players who don't know where to play.",
+      "why_now": "US padel searches rose 171% YoY (Aug-Oct 2026, Trendmule); SFIA's Apr 2026 report counted 1,073,000 US players for the first time and USPA club membership grew 51.5% YoY; CourtsApp says padel is its second-most-searched category with 'people genuinely don't know where to play', and Padel Browser found 45% of 392 US clubs have no online booking at all.",
+      "monetization": "Direct tool revenue null; market money exists around it — median non-member play $25/player/hour peak, $4.5M monthly takings across 80 measured clubs (Padelnomics), club featured listings and booking-affiliate fees as the obvious paths.",
+      "evidence": [
+        "https://trendmule.com/blog/trending-products-us-november-2026",
+        "https://padelbusinessmagazine.com/p/sfia-report-padel-surpasses-1-million-players-in-the-us",
+        "https://www.padelbrowser.com/blog/padel-booking-platforms-us-2026",
+        "https://www.primetimepadel.com/p/build-it-and-they-will-come",
+        "https://athletechnews.com/business-of-padel-just-getting-started-in-the-us-stakeholders-say/"
+      ],
+      "how_searched": [
+        "search-trend analysis with YoY percentages (Trendmule)",
+        "sports participation census (SFIA report coverage)",
+        "independent directory audit (Padel Browser club-by-club count)",
+        "industry newsletter interview (CourtsApp founder)",
+        "trade news on booking-platform market share"
+      ],
+      "score": 72.0,
+      "found_at": "2026-11-25T13:15:49.929362+00:00"
     },
     {
       "name": "AI niche-directory website builder: one sentence to a live, monetized directory",
@@ -3575,6 +3756,27 @@
       "found_at": "2026-11-25T02:38:15.031721+00:00"
     },
     {
+      "name": "Automation workflow recipe library (n8n / Zapier / GoHighLevel)",
+      "field": "Automation / no-code tools",
+      "summary": "A searchable web library of ready-to-import automation recipes (lead capture, CRM sync, invoicing, AI steps) with ROI estimates and one-click handoff to n8n/Make/Zapier.",
+      "why_now": "Automation is one of the biggest freelance categories right now: 1,718 Upwork automation jobs in 30 days (6.3% of posts, Pushbuild Nov 22 2026), n8n named the #7 skill clients ask for (ProfilePush week of Nov 18-25), Fiverr shows 19,243 n8n listings and n8n AI-automation search +125%, and GoHighLevel tops client requests with 143 mentions.",
+      "monetization": "Paid template packs and premium recipe tiers, implementation-marketplace referral fees; comparable Fiverr n8n gigs start at $10 with median first-page start ~$60, and GHL/n8n specialists bill $60-90/hr — direct library revenue null (freemium template sales the model).",
+      "evidence": [
+        "https://pushbuild.com/research/freelance-demand/",
+        "https://profilepush.ai/freelance-demand-report",
+        "https://www.indiehackers.com/post/ai-side-hustles-2026-what-upwork-and-fiverrs-own-data-says-about-ai-freelancing-4Je4b0lytdmiuB1BOAZB",
+        "https://www.upsight.fyi/blog/upwork-skills-in-demand-2026"
+      ],
+      "how_searched": [
+        "job-market aggregator counts (Pushbuild: 42,101 jobs, 30 days to Nov 22)",
+        "cross-forum request tracker (ProfilePush, Nov 18-25)",
+        "platform trend reports (Fiverr Business Trends Index via Indie Hackers)",
+        "large Upwork skill-tag census (Upsight: 69,246 jobs)"
+      ],
+      "score": 67.0,
+      "found_at": "2026-11-25T13:15:52.989357+00:00"
+    },
+    {
       "name": "Browser Screen Recorder with Auto-Zoom and Cursor Effects",
       "field": "Creator tools / productivity",
       "summary": "A free browser-based screen recorder that smooths cursor motion, adds automatic zooms and click emphasis, applies backgrounds and captions, and exports a polished demo video without a desktop app.",
@@ -3656,6 +3858,28 @@
       ],
       "score": 66.0,
       "found_at": "2026-11-17T22:28:36.195203+00:00"
+    },
+    {
+      "name": "Passkey / passwordless readiness auditor",
+      "field": "Web security / identity",
+      "summary": "Free site scanner that detects whether a domain supports WebAuthn/passkeys (native or via Google/Apple sign-in), scores login security, and issues a fix-it checklist.",
+      "why_now": "FIDO Alliance reported 5 billion passkeys worldwide on May 7 2026 and its Oct 2026 Passkey Index shows 36% of successful sign-ins now use passkeys (up from 26%) with 9 of 13 major relying parties planning passwordless within 12 months — yet a Feb 2026 census of the Tranco top 100K found only 11.3% of sites support passkeys (20% of the top 100), and 'passwordless' search growth is +1,933% on Exploding Topics.",
+      "monetization": "Direct revenue null at launch; freemium model: free single-site scan, paid continuous monitoring and agency white-label reports (Dashlane-style vendors show category spend exists but publish no scanner pricing).",
+      "evidence": [
+        "https://fidoalliance.org/fido-alliance-reports-accelerating-global-passkey-adoption-on-world-passkey-day-2026/",
+        "https://fidoalliance.org/passkey-index-2026/",
+        "https://arxiv.org/abs/2602.15135",
+        "https://www.dashlane.com/blog/passkey-report-2026",
+        "https://explodingtopics.com/blog/trending-topics"
+      ],
+      "how_searched": [
+        "standards-body adoption reports (FIDO Alliance)",
+        "academic measurement census (arxiv, top-100K crawler)",
+        "vendor telemetry report (Dashlane Power 20, Jul 2025-Jun 2026 data)",
+        "trend-search database (Exploding Topics)"
+      ],
+      "score": 66.0,
+      "found_at": "2026-11-25T13:15:54.095207+00:00"
     },
     {
       "name": "AI stem and vocal separator web tool for musicians",
@@ -3836,6 +4060,28 @@
       ],
       "score": 63.0,
       "found_at": "2026-11-22T03:32:30.137180+00:00"
+    },
+    {
+      "name": "AI economic calendar and market-event briefing",
+      "field": "Fintech data / retail markets",
+      "summary": "Free economic-calendar web tool (global releases, holidays, impact levels) with AI-generated plain-language briefings, alerts and historical-move context for retail traders.",
+      "why_now": "Financial searches are dominating Google Trends this week — 'anthropic stock' is #1 on Nov 25, 2026, with 'spacex stock', 'nasdaq today', 'gold price today' (after a 9% weekly gold crash) and DJIA also trending — while Flippa's H1 2026 report shows AI Apps & Tools became a transacting category (14 sales, avg $535,714) and SaaS sales rose 21%.",
+      "monetization": "Freemium premium alerts and AI briefings, affiliate/referral revenue from broker partnerships; proof the niche pays: a one-year-old AI economic-calendar SaaS with ~905 subscribers and $192K ARR at 92% net margin sold on Flippa for $230,000 in July 2026.",
+      "evidence": [
+        "https://trends.compsetly.com/top-searches/2026-w48/",
+        "https://www.trendsmcp.ai/trending/google-trending-searches-november-25-2026",
+        "https://flippa.com/blog/digital-ma-insights-h1-2026/",
+        "https://stealwhatworks.com/blogs/news/micro-saas-getting-acquired-now",
+        "https://greyjournal.net/hustle/grow/how-to-sell-a-micro-saas-business-2026/"
+      ],
+      "how_searched": [
+        "Google Trends weekly crawl (Nov 23-25 2026)",
+        "trend-board API snapshot (Nov 25 2026)",
+        "M&A marketplace insights report (Flippa H1 2026)",
+        "sold-deal disclosures (Steal What Works, Grey Journal)"
+      ],
+      "score": 63.0,
+      "found_at": "2026-11-25T13:15:55.811725+00:00"
     },
     {
       "name": "Browser voice recorder with AI transcription and summaries (no hardware)",
@@ -5574,198 +5820,6 @@
       ],
       "score": 50.0,
       "found_at": "2026-11-24T17:54:29.333851+00:00"
-    },
-    {
-      "name": "MimikFlow (AI LinkedIn prospecting agent)",
-      "field": "sales/outbound",
-      "summary": "AI agent that reads prospect profiles/posts, writes personal connection requests and follow-ups, and books meetings via the official LinkedIn API (Unipile).",
-      "why_now": "Stripe-verified revenue grew from $1,873 (Apr 2026) to $11,300 (Oct 2026); 54% reply rate vs 3-10% industry; targets pain of Chrome-extension bans.",
-      "monetization": "Discovery €49/mo, Pro €97/mo, Agency €167/mo; $11,302 MRR from 81 subscriptions, $37,064 all-time.",
-      "evidence": [
-        "https://trustmrr.com/startup/mimikflow",
-        "https://shippedandpaid.com/cases/mimikflow-ai-linkedin-prospecting-11k-month-claude-code/"
-      ],
-      "how_searched": [
-        "open startup revenue (TrustMRR)",
-        "verified-revenue newsletters",
-        "founder interviews"
-      ],
-      "score": 49.3,
-      "found_at": "2026-11-10T10:05:27.249293+00:00"
-    },
-    {
-      "name": "Branded AI QR code generator (QR Code AI model)",
-      "field": "Marketing tools / QR codes",
-      "summary": "Web platform for creating custom, scannable AI-styled QR codes with dynamic redirects and scan analytics.",
-      "why_now": "Stripe-verified MRR of $14.8K with 1,500+ subscriptions and $336K all-time revenue; reported 3.4M search impressions in 30 days.",
-      "monetization": "Freemium with paid dynamic/analytics/API tiers; reported $14.8K MRR.",
-      "evidence": [
-        "https://trustmrr.com/startup/qr-code-ai",
-        "https://milestonewins.com/stories/qrcode-ai-story/"
-      ],
-      "how_searched": [
-        "Stripe-verified revenue directory",
-        "founder case study"
-      ],
-      "score": 49.3,
-      "found_at": "2026-11-11T06:38:40.077157+00:00"
-    },
-    {
-      "name": "ATS resume scanner and rewrite tool",
-      "field": "Careers / HR tech",
-      "summary": "A free ATS compatibility scanner that grades a resume, shows missing keywords and formatting risks, and offers an optional AI rewrite. Rezi is Stripe-verified at $239,067 MRR, 9,898 subscriptions, $10.5M all-time and about 4.5M users, charging $0/$29/month/$149 lifetime.",
-      "why_now": "Kickresume's 2025 data on 1.22M AI users found 773K (about 64%) used AI to check resumes for ATS compatibility, more than used AI to write them (586K), yet only about 3.5% tailored a resume to a job description. Rezi's revenue synced again on 11 Nov 2026, confirming paid demand.",
-      "monetization": "Free scan with limited fixes; $9-29/month for unlimited scans, rewrites and templates; $149 lifetime; B2B university and career-center seats.",
-      "evidence": [
-        "https://trustmrr.com/startup/rezi",
-        "https://www.kickresume.com/en/press/ai-job-search-data/"
-      ],
-      "how_searched": [
-        "Stripe-verified revenue tracker (TrustMRR, 11 Nov 2026)",
-        "Competitor's aggregated 1.22M-user usage study (Kickresume, 30 Apr 2026)"
-      ],
-      "score": 49.3,
-      "found_at": "2026-11-12T03:08:12.929535+00:00"
-    },
-    {
-      "name": "AI ebook and KDP book generator",
-      "field": "creator tools / AI publishing",
-      "summary": "A generator that turns a topic into an outline, chapters, cover and exportable PDF/EPUB/Word file for self-publishers and low-content book sellers.",
-      "why_now": "GETebook.ai went from under $800/month through June to $19,312 in July, $47,620 in August, $47,730 in September and $36,754 in October; kdpbook.io is at $3,381 MRR, up 316.4% in 90 days.",
-      "monetization": "GETebook's Pro plan starts at $29/month and the business did $32,990 in the last 30 days from 232 subscriptions; kdpbook.io earns $3,381 MRR.",
-      "evidence": [
-        "https://theaireceipts.beehiiv.com/p/deeplead-5-7k-to-22k",
-        "https://www.workainow.com/products"
-      ],
-      "how_searched": [
-        "verified AI revenue newsletter",
-        "TrustMRR-backed revenue leaderboard",
-        "monthly revenue-change tracking"
-      ],
-      "score": 49.3,
-      "found_at": "2026-11-13T22:46:29.878208+00:00"
-    },
-    {
-      "name": "MCP plugin marketplace readiness and release tester",
-      "field": "Developer tools / AI agent distribution",
-      "summary": "A web tool that runs marketplace publishing checks on an MCP server, generates listing copy and reviewer test cases, runs evals across ChatGPT/Claude/Codex/Cursor, and tracks sessions.",
-      "why_now": "Manufact launched Nov 19, 2026 at #7 with 184 upvotes and 53 comments; its maker says Product Hunt used its tooling for its own MCP, and the mcp-use SDK behind it has 10k GitHub stars.",
-      "monetization": "Manufact Free $0 with $5/mo usage, Pro $300/mo or $250/mo annually, eval runs from $0.70 each; our revenue figure is null.",
-      "evidence": [
-        "https://www.hunted.space/product/manufact",
-        "https://manufact.com/"
-      ],
-      "how_searched": [
-        "Product Hunt launch analytics",
-        "product website and FAQ",
-        "developer community snippets"
-      ],
-      "score": 49.3,
-      "found_at": "2026-11-20T03:20:17.802040+00:00"
-    },
-    {
-      "name": "Launch Fast",
-      "field": "Amazon seller research",
-      "summary": "Chrome extension plus dashboard that scores Amazon niches, estimates revenue/units, checks IP and tracks rank for private-label sellers.",
-      "why_now": "Founder-reported growth from $10K MRR at day 30 to about $30K MRR by mid-2026 with 330 paying extension users.",
-      "monetization": "Subscription-only plans at $49/$89/$199 per month (annual options) with no free tier; self-reported ~$30K MRR.",
-      "evidence": [
-        "https://www.sofarbot.com/stories/launch-fast-hasaam-bhatti-30000-mrr",
-        "https://stealwhatworks.com/blogs/news/chrome-extensions-over-10k-month-now"
-      ],
-      "how_searched": [
-        "founder interview reconstruction",
-        "Chrome extension revenue analysis"
-      ],
-      "score": 49.3,
-      "found_at": "2026-11-21T23:34:20.364460+00:00"
-    },
-    {
-      "name": "Back-office web tool for disability care providers: scheduling, notes and AI progress reports",
-      "field": "Health & human services / vertical SaaS",
-      "summary": "A vertical web tool for disability/IDD service providers covering attendance, service documentation, medication tracking and AI-generated progress notes and reports. Kibu proves the vertical, counting The Arc, YMCA, UCP and Chimes among customers.",
-      "why_now": "Kibu is at $234K MRR and grew +52.8% month over month on Systemaic's November 2026 risers list — one of the fastest-growing vertical SaaS products tracked, pulled by Medicaid documentation and billing requirements.",
-      "monetization": "Kibu $234K MRR, +52.8% MoM (Systemaic risers, November 2026)",
-      "evidence": [
-        "https://www.systemaic.com/tools/bootstrapped-risers",
-        "https://kibu.com"
-      ],
-      "how_searched": [
-        "websearch micro-SaaS revenue roundups, then opened Systemaic Bootstrapped Risers",
-        "webfetch kibu.com for customer logos and feature set"
-      ],
-      "score": 48.7,
-      "found_at": "2026-11-10T23:30:39.761057+00:00"
-    },
-    {
-      "name": "Plain-English behavioral QA agent",
-      "field": "Developer tools / QA",
-      "summary": "A free web tool where a developer states a goal in plain English and an agent explores the app like a customer, records each run and returns reproducible bugs. Seldon's Wren launched 10 Nov 2026, ranked #5 Product of the Day with 249 upvotes and 99 comments, and charges $3 per completed run after 10 free.",
-      "why_now": "Wren launched two days ago and immediately hit 249 upvotes and 99 comments, with users asking for CI, staging and native-app support. The launch validates demand for intent-based testing instead of hand-written Playwright scripts, and the 10-free-run model is easy to mirror.",
-      "monetization": "10 free runs; $3/completed run; volume and team plans; paid CI integrations and private runs; inference plus browser compute are the main costs.",
-      "evidence": [
-        "https://www.seldon.com/products/wren",
-        "https://hunted.space/product/seldon"
-      ],
-      "how_searched": [
-        "Product page with pricing and mechanics (Seldon Wren)",
-        "Product Hunt launch analytics (Hunted.Space, 10 Nov 2026)"
-      ],
-      "score": 48.7,
-      "found_at": "2026-11-12T03:08:13.397515+00:00"
-    },
-    {
-      "name": "RunbookLens",
-      "field": "Business process documentation / SOP",
-      "summary": "A browser-based SOP recorder that captures clicks, screenshots and narration, then generates editable step-by-step guides, training videos and searchable runbooks.",
-      "why_now": "Glitter AI reports $18.2k MRR after 2.5 years of indie development. Its official site supports a browser recorder, 99 languages, MCP/API access and free viewer seats, while remote teams still document processes manually.",
-      "monetization": "Free plan with 3 guides; paid Growth/Scale/Enterprise tiers; API, MCP, SSO and compliance add-ons.",
-      "evidence": [
-        "https://www.soloez.com/weekly/soloez-165",
-        "https://www.glitter.io/"
-      ],
-      "how_searched": [
-        "SoloEZ Indie Maker Weekly",
-        "Official product website",
-        "web search"
-      ],
-      "score": 48.7,
-      "found_at": "2026-11-13T16:28:15.093053+00:00"
-    },
-    {
-      "name": "LLM and agent observability trace viewer",
-      "field": "Developer tools / AI observability",
-      "summary": "OpenTelemetry-based tracing, prompt management, evaluations and cost/latency dashboards for LLM apps and agents. TBRC estimates the LLM observability platform market at $1.97B in 2025, $2.69B in 2026 (36.3% growth) and $9.26B by 2030 (36.2% CAGR); Langfuse's open-source repository has 37.4k stars and is now part of ClickHouse.",
-      "why_now": "Agentic workflows are moving into production, and TBRC's September 2026 report explicitly cites agentic workflows, AI governance and token-cost optimization as forecast drivers; open-source Langfuse provides a free distribution wedge.",
-      "monetization": "Open-source self-hosted core plus cloud usage tiers, enterprise SSO/compliance and support.",
-      "evidence": [
-        "https://www.thebusinessresearchcompany.com/report/large-language-model-llm-observability-platform-global-market-report",
-        "https://github.com/langfuse/langfuse"
-      ],
-      "how_searched": [
-        "Web search: LLM observability market size 2026",
-        "GitHub repository and star-count review",
-        "Market report page review"
-      ],
-      "score": 48.7,
-      "found_at": "2026-11-14T10:41:17.465947+00:00"
-    },
-    {
-      "name": "2027 Planner Launch Kit",
-      "field": "digital products",
-      "summary": "A free web tool that generates a niche-specific 2027 planner skeleton, cover concepts, printable/PDF exports, listing copy, and keyword clusters for Etsy, Gumroad, Notion, and KDP sellers.",
-      "why_now": "KDPTop's November 5, 2026 keyword study reported 299,721 monthly searches for 2027 planner, 3,417 estimated purchases, 86% indie share, and median reviews of 0; Inkfluence's November 2026 update said 2027 planner and 2027 calendar searches hit five-year highs in the week of November 8-14 and that planner demand peaks again in late December and January.",
-      "monetization": "Free planner MVP and keyword report; paid niche bundles, editable Canva/Notion templates, white-label packs, seasonal listing refresh subscriptions, and mockup libraries.",
-      "evidence": [
-        "https://kdptop.com/blog/2027-planner-keyword-research/",
-        "https://www.inkfluenceai.com/blog/best-digital-product-niches-2026"
-      ],
-      "how_searched": [
-        "searched 2027 planner keyword demand and seasonal digital product trends",
-        "cross-checked keyword data with updated niche-demand reporting"
-      ],
-      "score": 48.7,
-      "found_at": "2026-11-24T17:54:29.670398+00:00"
     }
   ]
 }
