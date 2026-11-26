@@ -15,6 +15,7 @@ from datetime import datetime, timedelta, timezone
 import requests
 
 from builder.planner import LLM_DOWN, LLMUnavailable, complete
+from publish import js_repair
 from publish.mdm1_page import API, SITE_URL, SITE_REPO, _headers, preflight
 
 TOOL_WORKFLOW = "trend-pages.yml"
@@ -117,12 +118,7 @@ def check(spec: dict) -> str:
         return "unsafe html"
     if re.search(r"fetch\s*\(|XMLHttpRequest|WebSocket|import\s*\(|eval\s*\(|new Function|document\.cookie|https?://|</script", spec["script_js"], re.I):
         return "unsafe js"
-    with tempfile.NamedTemporaryFile("w", suffix=".js", delete=False) as f:
-        f.write(spec["script_js"])
-    res = subprocess.run(["node", "--check", f.name], capture_output=True, text=True)
-    if res.returncode not in (0, 127):
-        return "js syntax error: " + res.stderr[:200]
-    return ""
+    return js_repair.check_and_repair(spec)   # '' or "js syntax error: ..."; fixes a literal backslash-n glitch in place
 
 
 def build(llm: dict, slug: str, idea: str, attempts: int = 3, deadline: float = None):
