@@ -125,16 +125,16 @@ export const ADAPTERS = {
     },
   },
   github: {
-    name: 'GitHub Pages', limit: 100000, env: ['GITHUB_PUBLISH_TOKEN', 'GITHUB_PUBLISH_REPO'],
+    name: 'GitHub Pages', limit: 100000, env: ['PUBLISH_GH_TOKEN', 'PUBLISH_GH_REPO'],
     async post({ text }, env) {
-      const repo = env.GITHUB_PUBLISH_REPO;
-      if (!/^[\w.-]+\/[\w.-]+$/.test(repo)) throw new Error('GITHUB_PUBLISH_REPO must be owner/repo');
+      const repo = env.PUBLISH_GH_REPO;
+      if (!/^[\w.-]+\/[\w.-]+$/.test(repo)) throw new Error('PUBLISH_GH_REPO must be owner/repo');
       const d = new Date(); const p = (n) => String(n).padStart(2, '0');
       const name = `${d.getUTCFullYear()}${p(d.getUTCMonth() + 1)}${p(d.getUTCDate())}-${p(d.getUTCHours())}${p(d.getUTCMinutes())}${p(d.getUTCSeconds())}.html`;
-      const dir = (env.GITHUB_PUBLISH_DIR || 'posts').replace(/^\/+|\/+$/g, '');
+      const dir = (env.PUBLISH_GH_DIR || 'posts').replace(/^\/+|\/+$/g, '');
       const body = { message: `Publish ${name}`, content: Buffer.from(toHtmlPage(text), 'utf8').toString('base64') };
-      if (env.GITHUB_PUBLISH_BRANCH) body.branch = env.GITHUB_PUBLISH_BRANCH;
-      const c = await call(`https://api.github.com/repos/${repo}/contents/${dir}/${name}`, { method: 'PUT', headers: { ...JSON_H, Accept: 'application/vnd.github+json', Authorization: `Bearer ${env.GITHUB_PUBLISH_TOKEN}`, 'User-Agent': 'md1-publisher' }, body: JSON.stringify(body) });
+      if (env.PUBLISH_GH_BRANCH) body.branch = env.PUBLISH_GH_BRANCH;
+      const c = await call(`https://api.github.com/repos/${repo}/contents/${dir}/${name}`, { method: 'PUT', headers: { ...JSON_H, Accept: 'application/vnd.github+json', Authorization: `Bearer ${env.PUBLISH_GH_TOKEN}`, 'User-Agent': 'md1-publisher' }, body: JSON.stringify(body) });
       if (!c.r.ok) fail('GitHub', c);
       return { url: c.j && c.j.content && c.j.content.html_url };
     },

@@ -26,8 +26,14 @@
 | reddit | `REDDIT_CLIENT_ID` `REDDIT_CLIENT_SECRET` `REDDIT_USERNAME` `REDDIT_PASSWORD` (`REDDIT_SUBREDDIT`) |
 | devto | `DEVTO_API_KEY` |
 | wordpress | `WORDPRESS_URL` `WORDPRESS_USER` `WORDPRESS_APP_PASSWORD` |
-| github | `GITHUB_PUBLISH_TOKEN` `GITHUB_PUBLISH_REPO` (`GITHUB_PUBLISH_DIR` `GITHUB_PUBLISH_BRANCH`) |
+| github | `PUBLISH_GH_TOKEN` `PUBLISH_GH_REPO` (`PUBLISH_GH_DIR` `PUBLISH_GH_BRANCH`) |
 | webhook | `WEBHOOK_URL` |
+
+## النشر بلا أي استضافة (الأسهل والمجاني تمامًا): GitHub Actions
+
+لا تحتاج Render ولا خادمًا. في ريبو `MD-automation`: Settings ← Secrets and variables ← Actions، وأضف أسرار المنصات التي تريدها فقط بنفس أسماء الجدول أعلاه (مثلًا `BSKY_HANDLE` و`BSKY_APP_PASSWORD`). ثم Actions ← **Publish post (free, no server)** ← Run workflow، واكتب النص والمنصات (مثل `bluesky,telegram,discord`). الافتراضي `dry_run` مفعّل للتجربة، ألغِه للنشر الفعلي. يمكن لـ Claude تشغيله أيضًا بالأمر `gh workflow run publish-post.yml -f text=... -f platforms=... -f dry_run=false`.
+
+ملاحظات: GitHub يمنع أسرارًا تبدأ بـ`GITHUB_` لذلك اسما نشر GitHub Pages هما `PUBLISH_GH_TOKEN` و`PUBLISH_GH_REPO`. الحماية من التكرار غير محفوظة بين التشغيلات هنا، فراجع النص قبل التشغيل. الاستخدام مجاني ضمن حصة Actions للريبوهات العامة، وقد تتغير شروط GitHub.
 
 ## النشر على Render (من الجوال)
 
