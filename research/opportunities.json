@@ -64,6 +64,29 @@
       "found_at": "2026-11-23T01:01:35.600008+00:00"
     },
     {
+      "name": "AI Interactive Story & Playable Narrative Builder",
+      "field": "AI entertainment / interactive fiction",
+      "summary": "Free web tool where users create and play branching, AI-generated stories or visual-novel-style adventures with choices, characters and shareable links—idea only, original code/design/name.",
+      "why_now": "Category is exploding with verified money: OOC reportedly ~$70M ARR and ~$100K/day, CHAI $120M annualized run-rate (Oct 2026), Wrtn on track for $100M ARR with 5M+ MAU, dotdotdot $12M revenue in 18 months, Tipsy Chat ~$15.2M H1 2026 consumer spend; Yoroll (no-engine playable stories) was Product Hunt #1 on Nov 22 with 365 votes. Market sized $310M (2025)→$1.7B (2034) with 21% CAGR.",
+      "monetization": "Subscriptions + consumable credits/gems for generations; public comps show tens of dollars ARPU (Talefy ~$29/sub, OOC token packs). Free tier for entry, paid for longer memory/premium models.",
+      "evidence": [
+        "https://fortune.com/2026/03/05/korea-startup-wrtn-arr-antler-loneliness-epidemic-ai-entertainment/",
+        "https://podimo.com/en/shows/two-a-half-gamers/episode/ea166a39-b60c-53c3-8227-7e842a1a485c",
+        "https://www.tmcnet.com/usubmit/2026/10/26/10469711.htm",
+        "https://dataintelo.com/report/ai-generated-personalized-storytelling-game-market",
+        "https://www.producthunt.com/leaderboard/daily/2026/11/22",
+        "https://www.sofarbot.com/stories/talefy-23479-mrr"
+      ],
+      "how_searched": [
+        "revenue/ARR trackers and press releases",
+        "Product Hunt daily/weekly leaderboards",
+        "market-size research reports",
+        "TrustMRR/Stripe-verified MRR pages"
+      ],
+      "score": 92.0,
+      "found_at": "2026-11-26T15:29:13.887249+00:00"
+    },
+    {
       "name": "Vibe App Security Scanner",
       "field": "AI app security",
       "summary": "A free URL scanner for apps built with Lovable, Bolt, v0 and Supabase that detects public database tables, leaked keys, missing auth checks and exposed PII, then sells continuous monitoring and fix guidance. It targets the fast-growing vibe-coding market rather than generic websites.",
@@ -565,6 +588,28 @@
       "found_at": "2026-11-25T13:15:37.191122+00:00"
     },
     {
+      "name": "Website Visitor ID + AI-Agent Traffic Inspector",
+      "field": "B2B marketing analytics",
+      "summary": "Embeddable free web widget that shows site owners which companies (and whether AI agents/bots) are visiting their pages, with session replay on their own site—original rebuild of the visitor-ID + agentic-traffic idea.",
+      "why_now": "Letter Visitors was Product Hunt weekly #1 (Nov 23 week, score 414, 65 comments). Paid comps are hot: RB2B free→$79–$149/mo, Warmly acquired by HubSpot (Jun 2026). Simultaneously AI-agent traffic is surging: DataDome logged 52.7B AI agent/crawler requests Jul 2025–Jun 2026 (+82%), share of web requests 1.2%→1.7%, and ~80% of AI agents don't identify themselves—marketers can't see this in GA.",
+      "monetization": "Freemium: free company-level reverse-IP on own site; paid tiers for person-level alerts, hot-page triggers, CRM/Slack push (RB2B pricing $0/$79/$149 per month as market anchor).",
+      "evidence": [
+        "https://www.producthunt.com/leaderboard/weekly/2026/48",
+        "https://datadome.co/resources/bot-and-agent-security-report/ai-traffic-trends/",
+        "https://www.rb2b.com/",
+        "https://theleadseeker.com/insights/intent-data/website-visitor-identification-vendors-comparison/",
+        "https://www.rudderstack.com/blog/we-looked-at-179-million-web-sessions-for-ai-agents/"
+      ],
+      "how_searched": [
+        "Product Hunt weekly leaderboard",
+        "bot/security industry reports",
+        "vendor pricing pages",
+        "analytics engineering studies"
+      ],
+      "score": 86.0,
+      "found_at": "2026-11-26T15:29:14.934097+00:00"
+    },
+    {
       "name": "Glossa (live AI translation for church services)",
       "field": "event/live translation",
       "summary": "Live AI translation of sermons and Christian events into 100+ languages; listeners hear/read on their phones via QR code, no headsets.",
@@ -719,6 +764,30 @@
       ],
       "score": 85.0,
       "found_at": "2026-11-24T17:54:22.865017+00:00"
+    },
+    {
+      "name": "AI Deal Truth Checker & Promo-Code Stack Optimizer",
+      "field": "E-commerce / consumer savings",
+      "summary": "Free web tool that verifies whether an online discount is real (cross-store same-item compare, fake 'was' price detection) and finds which promo codes actually stack at checkout—year-round, not only Black Friday.",
+      "why_now": "Peak BFCM week (BF Nov 27): Stackline pre-BFCM pulse shows 48% of shoppers plan to use an AI tool to check deals (up from 39% in 2025), 73% demand 40%+ starting discounts; SimplyCodes measured 2.19× normal daily code copies over BF weekend (464K codes on BF alone) from 21M checkout tests; Saparo (AI deal-stack agent) hit PH #6 week of Nov 16 with 346 votes; free checkers (Deal.ai, SaleOrNOT, DealForecast) launched this month.",
+      "monetization": "Affiliate/commerce links, premium watchlists and price-drop alerts; coupon platforms like SimplyCodes already prove traffic scale (15.47M visits Sep 2026) with free extension + ads.",
+      "evidence": [
+        "https://www.stackline.com/news/what-shoppers-are-telling-us-about-black-friday-and-cyber-monday-2026",
+        "https://simplycodes.com/blog/state-of-coupon-codes-2026",
+        "https://simplycodes.com/blog/live-data/black-friday-code-reliability-study",
+        "https://www.producthunt.com/leaderboard/weekly/2026/47",
+        "https://deal.ai/deal-checker",
+        "https://www.prnewswire.com/news-releases/shopvision-launches-bfcmai-a-free-live-tracker-of-black-friday-and-cyber-monday-offers-302939747.html"
+      ],
+      "how_searched": [
+        "consumer shopping surveys",
+        "coupon-platform live data studies",
+        "Product Hunt leaderboards",
+        "free deal-checker product pages",
+        "Google Trends Black Friday queries"
+      ],
+      "score": 85.0,
+      "found_at": "2026-11-26T15:29:15.532052+00:00"
     },
     {
       "name": "Stocky Successor: Free Shopify PO & Reorder Planner",
@@ -1995,6 +2064,28 @@
       "found_at": "2026-11-25T13:15:42.135975+00:00"
     },
     {
+      "name": "Photo / Screenshot / PDF → Calendar Events",
+      "field": "Productivity utilities",
+      "summary": "Browser tool that extracts dates, times, locations from photos, flyers, screenshots, PDFs or pasted text and exports ready-to-import calendar events (.ics / Google / Outlook).",
+      "why_now": "Agenda Hero Magic launched on Product Hunt Nov 24 (#10, score 116) with strong reviews for image/PDF→calendar; Photo2Calendar has 10K+ Play downloads and paid tiers ($4.99/mo); comparison roundups (Yotei, Image2Cal) show 8+ competing apps with freemium limits—demand confirmed by recurring Reddit 'wish this existed' threads about schedule sheets and flyers.",
+      "monetization": "Free scans per week/month; Pro subscription ~$3–5/mo or $25–30/yr for bulk sync, ICS export, advanced AI (prices observed on Photo2Calendar, Calendar Vision lifetime $9.99, Screenshot-to-Calendar Pro $7/mo).",
+      "evidence": [
+        "https://www.producthunt.com/leaderboard/daily/2026/11/24",
+        "https://play.google.com/store/apps/details?hl=en_US&id=com.photo2calendar.app",
+        "https://yotei.win/blog/best-screenshot-to-calendar-apps",
+        "https://www.image2cal.com/blog/best-apps-scan-schedule-to-calendar",
+        "https://www.reddit.com/r/answers/comments/1s7rpt7/what_everyday_app_do_you_wish_existed_or_worked/"
+      ],
+      "how_searched": [
+        "Product Hunt daily launches",
+        "app store listings and pricing",
+        "comparison blog roundups",
+        "Reddit wish-list threads"
+      ],
+      "score": 78.0,
+      "found_at": "2026-11-26T15:29:17.331513+00:00"
+    },
+    {
       "name": "Freelancer Contract Risk Scanner",
       "field": "Legal tech",
       "summary": "Upload a freelance contract and get clause-level red flags, a dollar-denominated hidden-cost score, and ready-to-send negotiation language.",
@@ -2156,6 +2247,27 @@
       ],
       "score": 77.0,
       "found_at": "2026-11-25T13:15:42.960336+00:00"
+    },
+    {
+      "name": "Tinnitus Pitch Finder + Notched Sound Therapy",
+      "field": "Digital health / wellness audio",
+      "summary": "Free browser tool that helps users match the exact frequency of their tinnitus ring, then plays ambient sound with that pitch notched out—original wellness utility, no diagnosis claims.",
+      "why_now": "Show HN 'Tinnitus frequency finder and audio notch tool' scored 236 points / 144 comments on Nov 18, 2026; a related indie tinnitus app post got 44 points on r/SideProject; commercial sites claim 150K+ users helped; meta-analyses of internet-delivered tinnitus therapies show significant THI/TFI improvements—large chronic condition (~750M affected worldwide claim) with weak existing free web options.",
+      "monetization": "Freemium: free pitch match + limited daily notch playback; paid Mac/app unlock, premium therapy packs or clinician-facing exports (AudioNotch and peers use free tuner + paid app pattern).",
+      "evidence": [
+        "https://www.reddit.com/r/SideProject/comments/1x6p2h1/i_built_a_tinnitus_app_that_cuts_a_notch_at_your/",
+        "https://audionotch.com/",
+        "https://audiocleanai.com/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11355874/"
+      ],
+      "how_searched": [
+        "Show HN rankings",
+        "Reddit side-project posts",
+        "product homepages",
+        "PubMed/PMC meta-analyses"
+      ],
+      "score": 77.0,
+      "found_at": "2026-11-26T15:29:18.608085+00:00"
     },
     {
       "name": "AI paid-media manager: autonomous Google/Meta/TikTok ad campaign agent",
@@ -2479,6 +2591,28 @@
       "found_at": "2026-11-25T13:15:46.492271+00:00"
     },
     {
+      "name": "Community-Recommended Book Discovery (forum-signal bookshelf)",
+      "field": "Content discovery / reading",
+      "summary": "Site that ranks books by how often real community members (tech forums, Reddit, HN) actually recommend them—with source comments, topic shelves and rising lists—idea only, new data pipeline and design.",
+      "why_now": "Show HN HackerBooks was the #1 Show HN of November 2026 (1,870 points, 308 comments on Nov 1) covering 15,737 books / 285K mentions; multiple clones launched within days (hacker-books.io, runany.dev build with 16,543 books), proving viral demand for peer-signal book lists over Goodreads algorithms.",
+      "monetization": "Amazon/bookstore affiliate links (HackerBooks already uses Associates), premium reading lists, email digests, API for publishers—zero COGS content site.",
+      "evidence": [
+        "https://bestofshowhn.com/2026/11",
+        "https://hackerbooks.org/about",
+        "https://hackerbooks.org/mentioned",
+        "https://runany.dev/blog/hacker-books/",
+        "https://www.hacker-books.io/"
+      ],
+      "how_searched": [
+        "Show HN monthly rankings",
+        "project about pages and datasets",
+        "clone/competitor launches",
+        "affiliate model inspection"
+      ],
+      "score": 75.0,
+      "found_at": "2026-11-26T15:29:19.702743+00:00"
+    },
+    {
       "name": "Consumer Deepfake & AI-Image Verifier",
       "field": "Cybersecurity / media forensics",
       "summary": "Upload an image, video or link and get a deepfake or AI-generation likelihood score, tamper signals and plain-language next steps.",
@@ -2696,6 +2830,26 @@
       "found_at": "2026-11-24T06:08:10.106659+00:00"
     },
     {
+      "name": "SaaS Exit & Data-Export Migration Planner",
+      "field": "IT / data portability",
+      "summary": "Free directory and step-by-step planner that shows how to export data from Slack, Notion, Microsoft 365 etc., what you lose on each plan, and rated open-source alternatives for the switch.",
+      "why_now": "Show HN ExitPath hit 253 points / 94 comments on Nov 18, 2026; HN comments reveal real migration pain (calendar/free-busy, SSO, Slack Connect lock-in). Timing is regulatory: EU Data Act switching duties for SaaS apply from 12 Jan 2027, forcing vendors to offer machine-readable exports and remove switching obstacles.",
+      "monetization": "Freemium checklists, paid migration readiness audits for companies, lead-gen for MSPs/consultants, premium comparison data—B2B buyers already pay $10K–$100K for archives in shutdown deals.",
+      "evidence": [
+        "https://reveneau.com/ainews/exitpath-open-source-alternatives-slack-notion-microsoft-365-249-points",
+        "https://rightmark.ai/export-guides/",
+        "https://syntaqx.com/books/workplace-and-collaboration/migrations-and-switching"
+      ],
+      "how_searched": [
+        "Show HN front page",
+        "migration/export guide sites",
+        "EU Data Act summaries",
+        "vendor export documentation"
+      ],
+      "score": 74.0,
+      "found_at": "2026-11-26T15:29:21.731605+00:00"
+    },
+    {
       "name": "Photo-to-Repair Estimate for Used Cars",
       "field": "Insurtech / automotive",
       "summary": "Consumers upload photos of car damage and get a likely repair-cost range, damage severity and a shareable inspection report before buying or claiming.",
@@ -2834,6 +2988,28 @@
       ],
       "score": 73.0,
       "found_at": "2026-11-23T09:14:01.999597+00:00"
+    },
+    {
+      "name": "Paste-In AI Code Review (no repo install)",
+      "field": "Developer tools",
+      "summary": "Free browser tool: paste a snippet or public PR URL and get a severity-ranked AI review (bugs, security, style) without installing GitHub apps or connecting a repository.",
+      "why_now": "CodeRabbit alone grew $10M→$100M ARR in ~1 year (announced Nov 12, 2026) with 20K customers and 3M PRs/week—category demand is proven. Free tiers are heavily used (CodeRabbit free for public repos, Greptile 50 credits/mo); browser paste tools (Musely, free.ai, Pullora dry-run reviews) launched this year specifically for no-install use cases.",
+      "monetization": "Free daily reviews; Pro ~$10–20/mo for larger files, private snippets, history and team features; API credits for power users (mirrors Pullora $19/mo Pro, Musely $19.9/mo Creator).",
+      "evidence": [
+        "https://www.coderabbit.ai/blog/coderabbit-100-million-arr",
+        "https://dev.to/paullovelace/best-ai-code-review-tool-in-2026-coderabbit-vs-qodo-vs-claude-ship-vs-copilot-vs-greptile-16p4",
+        "https://musely.ai/tools/code-checker",
+        "https://pullora.ai/",
+        "https://dev.to/izgorodin/any-free-open-source-code-review-bots-1beb"
+      ],
+      "how_searched": [
+        "company ARR announcements",
+        "tool comparison articles",
+        "free-tier product pages",
+        "open-source review bot surveys"
+      ],
+      "score": 73.0,
+      "found_at": "2026-11-26T15:29:23.067637+00:00"
     },
     {
       "name": "Podcast transcript search engine: keyword search inside millions of episodes",
@@ -3071,6 +3247,25 @@
       ],
       "score": 72.0,
       "found_at": "2026-11-25T13:15:49.929362+00:00"
+    },
+    {
+      "name": "Scoped AI-Agent Email Permission Sandbox",
+      "field": "AI security / productivity",
+      "summary": "Rules engine that lets users grant AI agents narrow, plain-English access to email (read travel only, draft but never send) with a full attempt log—permission layer for agents, original implementation.",
+      "why_now": "Clam AI ('inbox safely shared with AI agents') launched Product Hunt Nov 24 (#4, score 188) positioning itself as 'the permission layer for MCP.' Broader context: agent spoofing rose 45% Feb→Jul 2026 (DataDome), and Claude/ChatGPT browser extensions now hold 24M and 10M Chrome users—agents are inside inboxes at scale with no standard consent model.",
+      "monetization": "Free personal tier for one mailbox; team/enterprise plans for policy, audit exports and SSO—comparable to security SaaS seat pricing; adjacent to known agent-approval ledgers but scoped specifically to email data access.",
+      "evidence": [
+        "https://www.producthunt.com/leaderboard/daily/2026/11/24",
+        "https://datadome.co/resources/bot-and-agent-security-report/ai-traffic-trends/",
+        "https://www.chromeextensions.org/top/"
+      ],
+      "how_searched": [
+        "Product Hunt daily leaderboard",
+        "bot-spoofing security reports",
+        "Chrome Web Store user counts"
+      ],
+      "score": 72.0,
+      "found_at": "2026-11-26T15:29:23.473904+00:00"
     },
     {
       "name": "AI niche-directory website builder: one sentence to a live, monetized directory",
@@ -3374,6 +3569,26 @@
       ],
       "score": 70.0,
       "found_at": "2026-11-24T17:54:31.041112+00:00"
+    },
+    {
+      "name": "URL-to-Launch-Video / Brand Film Maker",
+      "field": "AI video marketing",
+      "summary": "Paste a product URL and get a short branded launch/demo video using the site's real screenshots, copy and colors, with chat refinement and 4K export—original tool, no copied assets.",
+      "why_now": "Motionflare ranked #2 on Product Hunt week of Nov 23 (score 345, 49 comments). Adjacent category is proven: Creatify Max (#1 PH week of Nov 16, 438 votes) raised on AI ads; AI video gen demand keeps growing (Google Flow searches +437% YoY). Upwork still shows video editing on 9.9% of jobs—supply of human editors remains high while AI tools eat the low end.",
+      "monetization": "Credits per export, subscription for teams/agencies, watermark-free HD/4K tiers—typical generative-video pricing; agencies already buy Creatify-style ad tools.",
+      "evidence": [
+        "https://www.producthunt.com/leaderboard/weekly/2026/48",
+        "https://www.producthunt.com/leaderboard/weekly/2026/47",
+        "https://digitaltatva.com/fastest-growing-ai-tools/",
+        "https://www.upsight.fyi/blog/upwork-skills-in-demand-2026"
+      ],
+      "how_searched": [
+        "Product Hunt weekly leaderboards",
+        "search-trend reports for AI video tools",
+        "Upwork skill-share data"
+      ],
+      "score": 70.0,
+      "found_at": "2026-11-26T15:29:24.324806+00:00"
     },
     {
       "name": "AI guardrails / prompt-injection & output-safety checker",
@@ -5644,182 +5859,6 @@
       ],
       "score": 50.7,
       "found_at": "2026-11-19T21:41:39.386327+00:00"
-    },
-    {
-      "name": "Provenance-Safe Old Photo Restoration Studio",
-      "field": "Consumer image tools",
-      "summary": "A free browser tool for old family photos that deblurs, denoises, upscales, repairs scratches, and colorizes with a conservative mode that preserves the original face and marks generated detail; paid plans add batch restoration, print exports, and archival metadata.",
-      "why_now": "Airbridge estimates Remini at $3M/month with 602K monthly downloads, 92 active Meta ads, a 4.6 rating, and 356.5K ratings as of October 2026, with ad copy explicitly targeting old family memories. Trending AI Tools ranks ZEnhancer #6 among the most-searched AI tools in November 2026 and describes it as sharpening blurry photos and restoring old pictures, showing continued demand for one-job image utilities.",
-      "monetization": "Free limited restores with visible before/after; paid HD/print exports, batches, archival labeling, and family-history workspace sharing.",
-      "evidence": [
-        "https://www.airbridge.io/en/app-revenue/remini",
-        "https://www.trendingaitools.com/trending-ai-tools-november-2026/"
-      ],
-      "how_searched": [
-        "app revenue estimate search",
-        "ad-library teardown review",
-        "AI tool search-interest ranking",
-        "photo utility trend scan"
-      ],
-      "score": 50.7,
-      "found_at": "2026-11-21T02:20:58.214188+00:00"
-    },
-    {
-      "name": "Screen Studio",
-      "field": "Screen recording",
-      "summary": "Screen recorder that automatically smooths cursor movement and applies cinematic auto-zoom/editing for polished demos and tutorials.",
-      "why_now": "Founder-reported ~$30K first month and six-figure monthly revenue, with ~25,000 monthly active users and 25+ clone launches defining against it.",
-      "monetization": "Subscription pricing at $29/month or $108/year (legacy one-time licenses still valid); estimated ~$33K monthly revenue.",
-      "evidence": [
-        "https://trends.vc/opportunities/companies/screen-studio",
-        "https://www.starterstory.com/screen-studio-breakdown"
-      ],
-      "how_searched": [
-        "screen-recording market analysis",
-        "founder revenue reporting"
-      ],
-      "score": 50.7,
-      "found_at": "2026-11-21T23:34:22.342266+00:00"
-    },
-    {
-      "name": "Ad Attribution Reconciliation Dashboard",
-      "field": "Marketing analytics",
-      "summary": "Build a free dashboard that reconciles conversions and revenue across Meta Ads, Google Ads, GA4, Shopify, and other sources, then explains likely causes of mismatches.",
-      "why_now": "Clauday's Nov 19, 2026 Ideas Radar described a marketer moving $40K with dashboards reporting 212, 141, 96, 74, and 38 conversions. A marketing article specifically covers why Meta, Google Ads, GA4, and Shopify never match and was last verified Oct 27, 2026.",
-      "monetization": "Free basic source-connection and discrepancy report; paid tiers for automated attribution windows, anomaly alerts, warehouse sync, client reports, and agency workspaces.",
-      "evidence": [
-        "https://clauday.com/article/b0e86e49-46a5-4081-b6d8-4b3f60f71fba",
-        "https://growthmarketer.com/blog/why-marketing-data-is-wrong/"
-      ],
-      "how_searched": [
-        "idea-radar pain-point scan",
-        "marketing analytics article review",
-        "cross-check of attribution mismatch language"
-      ],
-      "score": 50.7,
-      "found_at": "2026-11-23T01:01:39.843823+00:00"
-    },
-    {
-      "name": "QuietInbox: local-first AI email triage web app",
-      "field": "email productivity, privacy tools",
-      "summary": "A privacy-first mailbox front end focused on one-key triage, plain-language summaries, in-your-voice drafts, waiting-on replies, code extraction, and explicit agent permissions for read/archive/draft actions only.",
-      "why_now": "Glassmail launched 2026-11-21 with 158 upvotes, 15 comments, and #4 Product of the Day; its $29 one-time launch price, then $49, plus local-only AI directly challenges $10-$30/month cloud AI email clients.",
-      "monetization": "Free local/PWA core; one-time lifetime license or low-cost self-hosted AI pack, avoiding per-seat subscriptions.",
-      "evidence": [
-        "https://hunted.space/product/glassmail",
-        "https://glassmail.app/"
-      ],
-      "how_searched": [
-        "Product Hunt launch mirror",
-        "vendor product and pricing page"
-      ],
-      "score": 50.7,
-      "found_at": "2026-11-24T06:08:09.863337+00:00"
-    },
-    {
-      "name": "LiveReview (risk-aware AI code review, auto-approve safe PRs)",
-      "field": "developer tools",
-      "summary": "Scores every pull request for risk (LLM + incident-trained ML + code graph) and auto-approves the safest 30-50%, routing risky PRs to humans; free and self-hostable.",
-      "why_now": "Launched Nov 7, 2026 and was Product Hunt #1 of the day (259 upvotes, 57 comments); positions against Meta RADAR approach as PR volume from coding agents explodes.",
-      "monetization": "Free tier (30k reviewed LOC/mo, BYO keys); paid from $32/mo for 100k LOC with unlimited seats; enterprise custom.",
-      "evidence": [
-        "https://journal.hexmos.com/introducing-livereview/",
-        "https://github.com/HexmosTech/LiveReview"
-      ],
-      "how_searched": [
-        "Product Hunt daily leaderboards",
-        "launch review blogs",
-        "open-source repos"
-      ],
-      "score": 50.0,
-      "found_at": "2026-11-10T10:05:24.991529+00:00"
-    },
-    {
-      "name": "ClimbX",
-      "field": "AI LinkedIn prospecting & outreach (official API)",
-      "summary": "A LinkedIn prospecting tool that reads profiles/posts, drafts personalized connection requests and follow-ups, and helps book meetings using the official LinkedIn API. An original rebuild could be a compliant web prospecting assistant focused on research, drafting, and sequencing with user approval.",
-      "why_now": "Sales teams and founders continue paying for outbound personalization and safer LinkedIn automation alternatives; recent verified revenue indicates active demand.",
-      "monetization": "Subscription SaaS. Reported $1,276 MRR from 44 active subscriptions and $1,306 in the last 30 days (TrustMRR, Stripe-verified, 2026-11-02).",
-      "evidence": [
-        "https://shippedandpaid.beehiiv.com/p/glossa-at-14k-mrr-and-mimikflow-at-11k-plus-10-more-ai-built-apps-with-verified-revenue",
-        "https://1dea.io/traction/monthly/2026-11"
-      ],
-      "how_searched": [
-        "web search for micro-SaaS traction in November 2026",
-        "indie product traction aggregators",
-        "verified-revenue newsletters for cross-checking claims"
-      ],
-      "score": 50.0,
-      "found_at": "2026-11-13T00:26:09.051827+00:00"
-    },
-    {
-      "name": "DirectoryDeck",
-      "field": "No-code directory builder / local SEO",
-      "summary": "A no-code directory builder that turns a one-sentence vertical into categories, listing pages, SEO metadata, lead capture, payments and a custom-domain site.",
-      "why_now": "Directify reached $50k ARR after being bought for $85k at $2k MRR. Comparable pricing is $12-$149/mo with 0% commission, showing that vertical directories can be launched cheaply and monetized by their owners.",
-      "monetization": "Free site creation, then Pro/Growth/Agency subscriptions; optional premium listings, top placements, lead capture and ads. Comparable pricing is $12-$149/mo with 0% commission.",
-      "evidence": [
-        "https://small-start.com/en/cases/global-directify-85k-acquisition/",
-        "https://www.soloez.com/weekly/soloez-164"
-      ],
-      "how_searched": [
-        "Small Start acquisition case study",
-        "SoloEZ Indie Maker Weekly"
-      ],
-      "score": 50.0,
-      "found_at": "2026-11-13T16:28:14.581729+00:00"
-    },
-    {
-      "name": "Open-source agentic social media scheduler",
-      "field": "Marketing / social automation",
-      "summary": "Schedules and generates posts across 30+ social platforms with AI agents. TrustMRR shows Postiz at $417,774 MRR, 12,304 active subscriptions and $1,892,652 all-time revenue, plans from $29/mo, open source; wouldit.work's Nov 2, 2026 case study cites $351,828 MRR and 10,316 subscriptions on that date plus 40,000+ GitHub stars.",
-      "why_now": "Open-source distribution plus a hosted cloud is compounding: wouldit.work documents the pivot from Gitroom to Postiz and the rise to $1.3M ARR by June 2026, with revenue still growing into November 2026.",
-      "monetization": "AGPL self-hosted core plus paid cloud from $29/mo, with higher team and API tiers.",
-      "evidence": [
-        "https://trustmrr.com/startup/postiz",
-        "https://wouldit.work/case-studies/postiz"
-      ],
-      "how_searched": [
-        "TrustMRR social-media and AI startup browse",
-        "Web search: open source social media scheduler revenue 2026",
-        "Case-study and GitHub repository review"
-      ],
-      "score": 50.0,
-      "found_at": "2026-11-14T10:41:16.511242+00:00"
-    },
-    {
-      "name": "Auto-zoom screen recorder web tool",
-      "field": "Screen recording / demos",
-      "summary": "Screen recorder that automatically adds zooms, smooth cursor motion, captions, webcam overlay and 4K export for polished product demos without editing.",
-      "why_now": "Founders and course creators need demo videos but lack editing skills; Screen Charm reached about $58,000 all-time and Screen Studio 4.0 drew 474 Product Hunt upvotes in November 2026.",
-      "monetization": "One-time licenses around $79-$99 plus a small subscription base; Screen Charm made about $1,603-$1,920 in the last 30 days and about $58,126 all-time (Stripe-verified).",
-      "evidence": [
-        "https://trustmrr.com/startup/screen-charm",
-        "https://www.producthunt.com/leaderboard/monthly/2026/11"
-      ],
-      "how_searched": [
-        "verified revenue tracker (TrustMRR)",
-        "launch leaderboard (Product Hunt)"
-      ],
-      "score": 50.0,
-      "found_at": "2026-11-17T13:40:07.332555+00:00"
-    },
-    {
-      "name": "WordPress Restore & Change Receipt Auditor",
-      "field": "WordPress operations",
-      "summary": "A free web audit that connects to a WordPress site, inventories themes/plugins/uploads, shows risky changes, verifies restore coverage, and exports human-readable change and rollback receipts.",
-      "why_now": "TrustMRR reported Respira for WordPress at $12,199 in the last 30 days, $67,993 all-time, $7,780 MRR, and 432 active subscriptions with Polar-verified data as of November 24, 2026; WhyItEarns independently showed $7,678 MRR, 426 paying subscribers, and recurring pricing across maker, builder, and studio tiers.",
-      "monetization": "Free risk audit and restore checklist; paid backups, one-click rollback, white-label client reports, agency sites, and annual support.",
-      "evidence": [
-        "https://trustmrr.com/startup/respira-for-wordpress-1",
-        "https://whyitearns.com/opportunities/respira-for-wordpress-1"
-      ],
-      "how_searched": [
-        "searched verified revenue trackers for fast-growing WordPress utilities",
-        "cross-checked MRR, subscribers, and pricing across two revenue sources"
-      ],
-      "score": 50.0,
-      "found_at": "2026-11-24T17:54:29.333851+00:00"
     }
   ]
 }
