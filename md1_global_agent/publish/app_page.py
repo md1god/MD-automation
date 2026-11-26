@@ -15,7 +15,7 @@ import requests
 import privacy
 from discovery import study as study_mod
 from builder.planner import LLM_DOWN, LLMUnavailable, complete
-from publish import site_gates
+from publish import site_gates, js_repair
 from publish.mdm1_page import API, SITE_URL, SITE_REPO, _headers, preflight
 
 APP_WORKFLOW = "add-app.yml"
@@ -151,12 +151,7 @@ def check(spec: dict) -> str:
     why = site_gates.js_problem(spec["script_js"])
     if why:
         return why     # already reads "unsafe js: '<what>' is not allowed"
-    with tempfile.NamedTemporaryFile("w", suffix=".js", delete=False) as f:
-        f.write(spec["script_js"])
-    res = subprocess.run(["node", "--check", f.name], capture_output=True, text=True)
-    if res.returncode not in (0, 127):
-        return "js syntax error: " + res.stderr[:200]
-    return ""
+    return js_repair.check_and_repair(spec)   # '' or "js syntax error: ..."; fixes a literal backslash-n glitch in place
 
 
 def build(llm: dict, slug: str, idea: str, attempts: int = 4, deadline: float = None, reviewer=None):

@@ -38,3 +38,17 @@ class AutomationSmokeTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+def test_js_repair_fixes_literal_backslash_n_between_statements():
+    from md1_global_agent.publish import js_repair
+    spec = {"script_js": "const a = 1;\\n  const b = () => { return a; };\\n  b();"}
+    assert js_repair.check_and_repair(spec) == ""
+    assert "\\n" not in spec["script_js"] and "\n  const b" in spec["script_js"]
+
+
+def test_js_repair_keeps_valid_scripts_and_still_rejects_real_errors():
+    from md1_global_agent.publish import js_repair
+    ok = {"script_js": "const s = 'a\\nb';\nconsole.log(s);"}
+    assert js_repair.check_and_repair(ok) == "" and ok["script_js"] == "const s = 'a\\nb';\nconsole.log(s);"
+    assert js_repair.check_and_repair({"script_js": "const x = ;"}).startswith("js syntax error")
