@@ -5,6 +5,6 @@
   "type": "module",
   "description": "Direct social/web publishing server (REST + MCP) for MD1 projects. Zero dependencies.",
   "engines": { "node": ">=20" },
-  "scripts": { "start": "node server.mjs", "test": "node --test test/*.test.mjs" },
+  "scripts": { "start": "node server.mjs", "test": "node --test test/*.test.mjs", "promote": "node auto.mjs" },
   "license": "MIT"
 }

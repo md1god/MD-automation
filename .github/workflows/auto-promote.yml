@@ -1,0 +1,43 @@
+name: Auto promote (free, runs by itself)
+on:
+  schedule:
+    - cron: '0 9 * * *'   # once a day, 09:00 UTC
+  workflow_dispatch:
+    inputs:
+      dry_run: { description: 'Show what would be posted, publish nothing', type: boolean, default: true }
+permissions:
+  contents: write   # to record which page was promoted
+  models: read      # free GitHub Models, used to write the post text
+concurrency:
+  group: auto-promote
+  cancel-in-progress: false
+jobs:
+  promote:
+    runs-on: ubuntu-26.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+      - name: Pick a page, write the post, publish to your own channels
+        working-directory: publisher-server
+        env:
+          DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run || 'false' }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SITE_URL: ${{ vars.PROMO_SITE_URL }}
+          PROMO_PLATFORMS: ${{ vars.PROMO_PLATFORMS }}
+          BSKY_HANDLE: ${{ secrets.BSKY_HANDLE }}
+          BSKY_APP_PASSWORD: ${{ secrets.BSKY_APP_PASSWORD }}
+          MASTODON_HOST: ${{ secrets.MASTODON_HOST }}
+          MASTODON_TOKEN: ${{ secrets.MASTODON_TOKEN }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          LINKEDIN_ACCESS_TOKEN: ${{ secrets.LINKEDIN_ACCESS_TOKEN }}
+          LINKEDIN_AUTHOR_URN: ${{ secrets.LINKEDIN_AUTHOR_URN }}
+          FACEBOOK_PAGE_ID: ${{ secrets.FACEBOOK_PAGE_ID }}
+          FACEBOOK_PAGE_TOKEN: ${{ secrets.FACEBOOK_PAGE_TOKEN }}
+        run: node auto.mjs
+      - name: Remember what was promoted
+        run: |
+          git config user.name "MD1 Bot"; git config user.email "action@github.com"
+          git add publisher-server/state/promoted.json
+          if git diff --cached --quiet; then echo "nothing new"; else git commit -m "auto-promote: record promoted page" && git pull --rebase origin "${GITHUB_REF_NAME}" && git push origin "HEAD:${GITHUB_REF_NAME}"; fi
