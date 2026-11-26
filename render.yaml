@@ -30,5 +30,5 @@ services:
       - { key: FACEBOOK_PAGE_ID, sync: false }
       - { key: FACEBOOK_PAGE_TOKEN, sync: false }
       - { key: DEVTO_API_KEY, sync: false }
-      - { key: GITHUB_PUBLISH_TOKEN, sync: false }
-      - { key: GITHUB_PUBLISH_REPO, sync: false }
+      - { key: PUBLISH_GH_TOKEN, sync: false }
+      - { key: PUBLISH_GH_REPO, sync: false }

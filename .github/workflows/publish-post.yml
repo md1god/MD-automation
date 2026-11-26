@@ -1,0 +1,57 @@
+name: Publish post (free, no server)
+on:
+  workflow_dispatch:
+    inputs:
+      text:      { description: 'Post text', required: true }
+      platforms: { description: 'Comma list: bluesky,mastodon,telegram,discord,linkedin,facebook,reddit,devto,wordpress,github,webhook,x', required: true }
+      link:      { description: 'Optional link', required: false }
+      title:     { description: 'Optional title (reddit, devto, wordpress)', required: false }
+      subreddit: { description: 'Optional subreddit', required: false }
+      tags:      { description: 'Optional DEV.to tags, comma list', required: false }
+      dry_run:   { description: 'Validate only, publish nothing', type: boolean, default: true }
+permissions:
+  contents: read
+concurrency:
+  group: publish-post
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-26.04
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+      - name: Publish
+        working-directory: publisher-server
+        # Inputs go through env only, never interpolated into the script, so they cannot inject commands.
+        env:
+          POST_TEXT: ${{ inputs.text }}
+          PLATFORMS: ${{ inputs.platforms }}
+          POST_LINK: ${{ inputs.link }}
+          POST_TITLE: ${{ inputs.title }}
+          SUBREDDIT: ${{ inputs.subreddit }}
+          TAGS: ${{ inputs.tags }}
+          DRY_RUN: ${{ inputs.dry_run }}
+          BSKY_HANDLE: ${{ secrets.BSKY_HANDLE }}
+          BSKY_APP_PASSWORD: ${{ secrets.BSKY_APP_PASSWORD }}
+          MASTODON_HOST: ${{ secrets.MASTODON_HOST }}
+          MASTODON_TOKEN: ${{ secrets.MASTODON_TOKEN }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          LINKEDIN_ACCESS_TOKEN: ${{ secrets.LINKEDIN_ACCESS_TOKEN }}
+          LINKEDIN_AUTHOR_URN: ${{ secrets.LINKEDIN_AUTHOR_URN }}
+          FACEBOOK_PAGE_ID: ${{ secrets.FACEBOOK_PAGE_ID }}
+          FACEBOOK_PAGE_TOKEN: ${{ secrets.FACEBOOK_PAGE_TOKEN }}
+          REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
+          REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
+          REDDIT_USERNAME: ${{ secrets.REDDIT_USERNAME }}
+          REDDIT_PASSWORD: ${{ secrets.REDDIT_PASSWORD }}
+          DEVTO_API_KEY: ${{ secrets.DEVTO_API_KEY }}
+          WORDPRESS_URL: ${{ secrets.WORDPRESS_URL }}
+          WORDPRESS_USER: ${{ secrets.WORDPRESS_USER }}
+          WORDPRESS_APP_PASSWORD: ${{ secrets.WORDPRESS_APP_PASSWORD }}
+          PUBLISH_GH_TOKEN: ${{ secrets.PUBLISH_GH_TOKEN }}
+          PUBLISH_GH_REPO: ${{ secrets.PUBLISH_GH_REPO }}
+          WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+        run: node cli.mjs
