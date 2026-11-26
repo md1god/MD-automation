@@ -29,6 +29,14 @@
 | github | `PUBLISH_GH_TOKEN` `PUBLISH_GH_REPO` (`PUBLISH_GH_DIR` `PUBLISH_GH_BRANCH`) |
 | webhook | `WEBHOOK_URL` |
 
+## الناشر التلقائي (يعمل وحده كل يوم)
+
+سير العمل `Auto promote` يعمل يوميًا بلا تدخل منك: يقرأ قائمة صفحات موقعك، ويختار الصفحة التالية وحده (الجديدة أولًا ثم الأقدم نشرًا بعد 45 يومًا)، ويكتب نص المنشور بنموذج GitHub Models المجاني (بلا مفتاح، عبر `GITHUB_TOKEN`)، وإن تعذّر النموذج يستخدم قالبًا جاهزًا. يرفض أي نص يحوي رابطًا غير رابط صفحتك. ثم ينشر على **قنواتك أنت** التي أضفت أسرارها، ويسجّل ما نُشر في `state/promoted.json` حتى لا يكرره.
+
+**التفعيل مرة واحدة:** أضف سرًّا واحدًا على الأقل لمنصة تملكها (الأسهل Telegram: `TELEGRAM_BOT_TOKEN` و`TELEGRAM_CHAT_ID`، أو Discord: `DISCORD_WEBHOOK_URL`). لا يتغير شيء قبل ذلك: يطبع «لا توجد منصة مضبوطة» وينتهي بنجاح. للتجربة شغّله يدويًا من Actions (الافتراضي dry_run يعرض النص دون نشر). لإيقافه عطّل الـworkflow. اختياريًا: متغير `PROMO_PLATFORMS` (مثل `telegram,bluesky`) ومتغير `PROMO_SITE_URL`.
+
+**ما لم أبنِه عمدًا:** التعليق على منشورات الآخرين بروابط موقعك، أو النشر بلا حساب. هذا سبام تحظره كل المنصات ويؤدي لحظر حسابك ونطاقك، ولا يوجد نشر بلا حساب أصلًا. الدعاية المستدامة تكون من قنواتك ومنشورات صادقة.
+
 ## النشر بلا أي استضافة (الأسهل والمجاني تمامًا): GitHub Actions
 
 لا تحتاج Render ولا خادمًا. في ريبو `MD-automation`: Settings ← Secrets and variables ← Actions، وأضف أسرار المنصات التي تريدها فقط بنفس أسماء الجدول أعلاه (مثلًا `BSKY_HANDLE` و`BSKY_APP_PASSWORD`). ثم Actions ← **Publish post (free, no server)** ← Run workflow، واكتب النص والمنصات (مثل `bluesky,telegram,discord`). الافتراضي `dry_run` مفعّل للتجربة، ألغِه للنشر الفعلي. يمكن لـ Claude تشغيله أيضًا بالأمر `gh workflow run publish-post.yml -f text=... -f platforms=... -f dry_run=false`.
