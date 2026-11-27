@@ -1317,6 +1317,25 @@
       "found_at": "2026-11-25T13:15:40.249802+00:00"
     },
     {
+      "name": "Faceless Documentary Pipeline",
+      "field": "video creation",
+      "summary": "Free browser workspace that turns a topic into a storyboard, research packet, voiceover script, royalty-aware footage list, captions, and an editable long-form draft that users can finish in any editor.",
+      "why_now": "GoMotion AI had $70.3k MRR verified on Nov 27, 2026; an independent report showed $73,992 MRR from 1,613 subscriptions, an $87,405 best month, and $27/$59/$107 tiers. A separate market teardown said seven long-form faceless-video tools did $189K in October 2026, with GoMotion at $87,619.",
+      "monetization": "Free script and storyboard output; paid render credits, premium footage sources, team seats, and scheduled publishing.",
+      "evidence": [
+        "https://theaireceipts.com/case-studies/gomotion-ai/",
+        "https://oddig.com/reports/gomotion-ai-revenue-teardown",
+        "https://stringers.io/en/m/043.html"
+      ],
+      "how_searched": [
+        "verified AI revenue case study",
+        "independent business report",
+        "faceless-video market teardown"
+      ],
+      "score": 82.0,
+      "found_at": "2026-11-27T19:31:53.830112+00:00"
+    },
+    {
       "name": "AI subscription / token spend tracker",
       "field": "Developer & team productivity",
       "summary": "A dashboard that aggregates and monitors AI spend across ChatGPT, Claude, Gemini, Copilot, Cursor, etc., surfacing per-seat usage, plan limits, and cost overruns. Products like ToolSpend and multiaicost already exist; a Chrome extension 'Claude Usage Tracker & Monitor' is trending (3K+ users, +43 ratings in 30 days).",
@@ -1602,6 +1621,25 @@
       ],
       "score": 80.0,
       "found_at": "2026-11-25T13:15:41.141072+00:00"
+    },
+    {
+      "name": "Prompt-Guided Mastering Lab",
+      "field": "audio tools",
+      "summary": "Free web studio for prompt-guided music mastering, reference-track matching, stem separation, loudness checks, and before/after previews, with original audio processing rather than a generic music generator.",
+      "why_now": "SoundBoost.ai showed $36,059 MRR and 3,041 active subscriptions on Nov 27, 2026; an independent case study reported $35.8k MRR, about 3,000 subscriptions, $56.2k in the last 30 days, $411k all-time, $16/month and $48/year pricing, plus free LUFS, vocal-remover, and preview tools as the funnel.",
+      "monetization": "Free stem splitting, LUFS meter, and limited previews; paid unlimited mastering, reference matching, and batch exports.",
+      "evidence": [
+        "https://trustmrr.com/startup/soundboost-ai-formerly-diktatorial",
+        "https://theaireceipts.com/case-studies/soundboost/",
+        "https://theaireceipts.beehiiv.com/p/11k-mrr-on-nov-12-24k-now"
+      ],
+      "how_searched": [
+        "payment-verified revenue dashboard",
+        "AI revenue case study",
+        "AI business newsletter"
+      ],
+      "score": 80.0,
+      "found_at": "2026-11-27T19:31:54.747895+00:00"
     },
     {
       "name": "Ad Spend Refund & Invalid-Traffic Auditor",
@@ -3012,6 +3050,27 @@
       "found_at": "2026-11-26T15:29:23.067637+00:00"
     },
     {
+      "name": "Speak-First Language Coach",
+      "field": "education",
+      "summary": "Browser speaking-practice room that runs real conversations, corrects pronunciation and phrasing, introduces vocabulary in context, and keeps a progress journal tied to travel, exams, or work scenarios.",
+      "why_now": "Verbi had $26,417 MRR, 5,309 active subscriptions, $278,609 all-time revenue, and a 4.6/5 App Store rating with 405 ratings on Nov 27, 2026; a case study showed MRR climbing from $21.6k on Oct 24 to $26.3k on Nov 27.",
+      "monetization": "Free daily conversation and limited corrections; paid lesson packs, pronunciation deep dives, accents, exam tracks, and long-term progress history.",
+      "evidence": [
+        "https://trustmrr.com/startup/verbi",
+        "https://theaireceipts.com/case-studies/verbi/",
+        "https://apps.apple.com/us/app/verbi-speak-a-new-language/id6760734657",
+        "https://mrrwars.com/startup/verbi"
+      ],
+      "how_searched": [
+        "payment-verified revenue dashboard",
+        "AI revenue case study",
+        "App Store listing",
+        "MRR tracker"
+      ],
+      "score": 73.0,
+      "found_at": "2026-11-27T19:31:56.955047+00:00"
+    },
+    {
       "name": "Podcast transcript search engine: keyword search inside millions of episodes",
       "field": "Podcast / audio search",
       "summary": "A web tool that transcribes podcasts and lets users keyword-search the full text of millions of episodes, with alerts and an API. Tapesearch monetizes exactly this as a solo founder with ~$100K all-time revenue.",
@@ -3305,6 +3364,25 @@
       ],
       "score": 71.0,
       "found_at": "2026-11-15T17:29:02.022943+00:00"
+    },
+    {
+      "name": "Combat Sport Video Breakdown",
+      "field": "sports training",
+      "summary": "Free web uploader that analyzes boxing or MMA rounds, returns timestamped coaching notes, a skill score, recommended drills, and progress tracking without requiring a mobile app or camera-specific gear.",
+      "why_now": "Brawler had 3.3K App Store ratings at 4.8 and ranked #46 in Sports on Nov 27, 2026; app intelligence estimated $22K monthly revenue, 64K monthly downloads, and 55 active Meta ads as of Oct 2026, while recent review windows were much weaker because of trial and subscription complaints.",
+      "monetization": "Free single-round summary; paid detailed technique reports, opponent scouting, training plans, and cohort challenges.",
+      "evidence": [
+        "https://apps.apple.com/us/app/brawler-future-of-boxing/id6760366949",
+        "https://www.airbridge.io/en/app-revenue/brawler-future-of-boxing",
+        "https://appinsider.io/app/brawler-future-of-boxing-6760366949"
+      ],
+      "how_searched": [
+        "App Store listing",
+        "app-intelligence revenue teardown",
+        "app analytics tracker"
+      ],
+      "score": 71.0,
+      "found_at": "2026-11-27T19:31:57.590989+00:00"
     },
     {
       "name": "AI field-inspection report generator: photos and voice notes to a finished PDF",
@@ -3608,6 +3686,25 @@
       ],
       "score": 69.0,
       "found_at": "2026-11-18T04:23:49.459375+00:00"
+    },
+    {
+      "name": "Renovation Floor Plan Studio",
+      "field": "home design",
+      "summary": "Free browser tool for generating editable 2D floor plans from room descriptions, converting sketches to clean layouts, previewing simple 3D massing, and exporting DXF/PDF renovation packs.",
+      "why_now": "BuildersHQ reported ai floor plan at 22.2K Google searches per month, 22.3K Google+Bing searches, and +125% YoY in September 2026; RankDude reported 43 AI home-design sites drew about 833,999 Google visits in October 2026, up 31% YoY, while an Indie Hackers case described an $8K/month founder project in this workflow.",
+      "monetization": "Free one-plan editor and PDF export; paid DXF export, 3D views, material takeoffs, contractor sheets, and unlimited saved projects.",
+      "evidence": [
+        "https://buildershq.net/keywords/ai-floor-plan",
+        "https://rankdude.ai/statistics/ai-home-design",
+        "https://www.indiehackers.com/post/my-eighth-project-reached-a-monthly-revenue-of-8k-just-because-im-a-real-customer-4MO7Xzu2TpNOY2BkAnVa"
+      ],
+      "how_searched": [
+        "keyword demand tool",
+        "AI home-design traffic statistics",
+        "Indie Hackers revenue story"
+      ],
+      "score": 69.0,
+      "found_at": "2026-11-27T19:31:58.025523+00:00"
     },
     {
       "name": "Directify",
@@ -4235,6 +4332,27 @@
       ],
       "score": 64.0,
       "found_at": "2026-11-22T03:32:28.540401+00:00"
+    },
+    {
+      "name": "Usage-Priced Newsletter Console",
+      "field": "newsletter infrastructure",
+      "summary": "Free self-hostable newsletter sender and hosted web console priced by emails sent, with staged sends, bounce guards, signup forms, issue pages, and an agent-friendly API for draft-and-approve workflows.",
+      "why_now": "MailCheap showed $3,462 MRR, 122 active subscriptions, $3,748 in the last 30 days, and $5,567 all-time on Nov 27, 2026, only about six weeks after launch; ProofOfIncome reported $3,399 MRR on Nov 23, up 51.5% from Nov 2, and Indie Hackers highlighted a $19 monthly cost versus $109 on beehiiv Lite for 4,000 weekly subscribers.",
+      "monetization": "Free self-hosted edition and tiny hosted tier; paid send credits, larger plans, custom domains, and managed deliverability.",
+      "evidence": [
+        "https://trustmrr.com/startup/mailcheap",
+        "https://www.proofofincomeai.com/case-mailcheap",
+        "https://www.indiehackers.com/post/tech/marc-lou-says-ai-bills-made-his-newsletter-tool-his-first-unprofitable-product-irCgb7dhykbqxOik9U2j",
+        "https://printcashwithai.com/stacks/newsletter-platform-priced-per-email-mailcheap/"
+      ],
+      "how_searched": [
+        "payment-verified revenue dashboard",
+        "independent proof checker",
+        "Indie Hackers newsroom",
+        "AI stack directory"
+      ],
+      "score": 64.0,
+      "found_at": "2026-11-27T19:31:59.258168+00:00"
     },
     {
       "name": "AI DM Closer for High-Ticket Offers (agency white-label)",
@@ -5752,113 +5870,6 @@
       ],
       "score": 51.3,
       "found_at": "2026-11-14T10:41:16.095953+00:00"
-    },
-    {
-      "rank": 6,
-      "name": "Enrich Labs",
-      "category": "B2B data enrichment infrastructure",
-      "summary": "API-first B2B people and company enrichment infrastructure for AI agents and workflow builders.",
-      "why_now": "Press reports $18M ARR without outside funding, reached in 26 months after a 2024 Dubai launch.",
-      "monetization": "Usage-based API credits and enterprise plans.",
-      "free_rebuild_angle": "Free limited enrichment API and playground with transparent credits; paid volume, compliance controls, and SLAs.",
-      "evidence": [
-        "https://www.zawya.com/en/press-release/companies-news/enrich-labs-challenges-venture-capital-playbook-after-reaching-18m-arr-without-raising-funding-458885",
-        "https://en.incarabia.com/enrich-labs-rahul-lakhaney-on-how-his-startup-managed-to-reach-us18-million-in-annual-recurring-revenue-without-raising-outside-cap-891729.html"
-      ],
-      "how_searched": [
-        "B2B data-enrichment press sweep",
-        "opened Zawya release",
-        "opened Inc Arabia profile"
-      ],
-      "score": 51.3,
-      "found_at": "2026-11-16T20:37:41.975408+00:00"
-    },
-    {
-      "name": "Live AI translation for events (Glossa model)",
-      "field": "Events / live translation",
-      "summary": "Browser-based live speech translation for churches and events, delivered to attendees' phones via QR code.",
-      "why_now": "Stripe-verified revenue reached $31.8K in September 2026, up from $7.0K in November 2025; reported 1,000+ churches using it.",
-      "monetization": "Pay-as-you-go at $5/hour/language plus plans from $99/month; reported $14.4K MRR and $31K+ last 30 days.",
-      "evidence": [
-        "https://trustmrr.com/startup/glossa-live",
-        "https://aiolum.com/story/glossa-live/"
-      ],
-      "how_searched": [
-        "Stripe-verified revenue directory",
-        "revenue verification site"
-      ],
-      "score": 50.7,
-      "found_at": "2026-11-11T06:38:39.312735+00:00"
-    },
-    {
-      "name": "OpenWhen",
-      "field": "Consumer gifting / sentimental web tools",
-      "summary": "Free, no-account web tool for creating sealed digital 'open when' letters; a one-time premium unlocks photos, voice notes, themes, songs and gift cards.",
-      "why_now": "Revenue grew from $17 in Feb 2026 to $436 in Oct 2026, and the live product shows a 4.8/5 rating from 413 senders with no signup friction.",
-      "monetization": "One-time premium upgrade per letter; creator affiliate program pays $1 per paid sale, with partner tiers and letter-pack revenue share.",
-      "evidence": [
-        "https://1dea.io/traction/394",
-        "https://www.openwhen.cards/"
-      ],
-      "how_searched": [
-        "indie revenue roundup (1dea.io)",
-        "product site"
-      ],
-      "score": 50.7,
-      "found_at": "2026-11-11T15:27:31.014190+00:00"
-    },
-    {
-      "name": "ThreadSignal",
-      "field": "Reddit lead intelligence / social listening",
-      "summary": "A Reddit buying-intent finder that searches by niche, scores and deduplicates relevant threads, drafts helpful replies, and pushes qualified leads into a CRM.",
-      "why_now": "Reddit Agency shows $30.4k MRR on The AI Receipts. Subredditsignals is listed at a claimed $67k MRR in a Coffounder roundup. Brands increasingly want Reddit and AI-search recommendations, but manual thread monitoring does not scale.",
-      "monetization": "Monthly subscription with agency seats; optionally charge per qualified lead or per booked call.",
-      "evidence": [
-        "https://coffounder.com/blog/micro-saas-examples-with-revenue",
-        "https://theaireceipts.com/case-studies/reddit-agency/"
-      ],
-      "how_searched": [
-        "Coffounder micro-SaaS roundup",
-        "The AI Receipts case study",
-        "Reddit community research"
-      ],
-      "score": 50.7,
-      "found_at": "2026-11-13T16:28:13.729006+00:00"
-    },
-    {
-      "name": "AI product-photography studio for e-commerce catalogs",
-      "field": "E-commerce / visual AI",
-      "summary": "Upload product photos and generate studio-quality scenes, ghost-mannequin shots, lifestyle backgrounds, model images and video ads. Systemaic's 2026 teardown estimates Photoroom at about $94M ARR, roughly 19.5M monthly visits and 300M registered users, with one free background-remover page drawing about 2.37M organic visits per month; Photoroom's site claims 1M+ businesses and 80M+ background-remover users.",
-      "why_now": "Free-tool SEO plus API distribution is still expanding in 2026; Systemaic's July 2026 teardown shows the model can be replicated by a focused single-purpose tool rather than only a full design suite.",
-      "monetization": "Freemium web tool, monthly subscriptions, per-image API credits and e-commerce platform integrations.",
-      "evidence": [
-        "https://www.systemaic.com/teardowns/photoroom",
-        "https://www.photoroom.com/"
-      ],
-      "how_searched": [
-        "Web search: AI product photography market 2026",
-        "Systemaic teardown pages",
-        "Direct review of Photoroom product and customer claims"
-      ],
-      "score": 50.7,
-      "found_at": "2026-11-14T10:41:16.215144+00:00"
-    },
-    {
-      "name": "Self-serve UGC creator marketplace",
-      "field": "Creator marketing / marketplace",
-      "summary": "Create a structured marketplace where brands post fixed-cost briefs, creators apply, deliver short videos within days, and payments and rights are handled on-platform.",
-      "why_now": "Creator Flow reported more than 200% YoY revenue growth in 2025, 2,400 brand and agency connections and typical delivery within 72 hours; Kale's 2026 report says everyday brand superfans drive 7.88% engagement versus 0.5% for traditional influencer campaigns and that Kale grew revenue 92x from 2022 to 2025.",
-      "monetization": "Marketplace take rate on fixed-price commissions, brand subscriptions, concierge campaign fees, creator subscription tiers and paid talent discovery.",
-      "evidence": [
-        "https://www.prnewswire.com/apac/news-releases/creator-flow-reports-over-200-growth-in-2025-as-ugc-demand-accelerates-across-australia-302726949.html",
-        "https://www.getkale.com/reports/2026/data-report"
-      ],
-      "how_searched": [
-        "websearch: UGC creator marketplace growth and brand demand",
-        "webfetch: PR Newswire Creator Flow release and Kale annual data report"
-      ],
-      "score": 50.7,
-      "found_at": "2026-11-19T21:41:39.386327+00:00"
     }
   ]
 }
