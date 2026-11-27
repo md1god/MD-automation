@@ -523,6 +523,28 @@
       "found_at": "2026-10-25T06:14:05.492630+00:00"
     },
     {
+      "name": "DEV Community / dev.to (official article API + RSS import)",
+      "url": "https://developers.forem.com/api/v1",
+      "kind": "platform",
+      "requires_account": true,
+      "official_free_api": true,
+      "how_to_use": "Create a human account, generate a key in Settings > Extensions, then POST https://dev.to/api/articles with article{title,body_markdown,published,tags (max 4),canonical_url,organization_id}; point canonical_url at the original page on your site. Alternative no-code route: Settings > Extensions > 'Publishing to DEV from RSS' with 'Mark the RSS source as canonical URL'. Publish a genuinely useful article, then check GET /api/analytics/referrers.",
+      "rules_and_risks": "Account creation cannot be automated; low-effort promotional crossposts are ignored; canonical_url must resolve to a live original; API writes are rate-limited. A Nov 2026 A/B-style report found posts from brand-new accounts got ~30 reads or fewer and 3 visits total — use it for durable indexed pages/backlinks, not instant traffic; never bulk-post.",
+      "why_it_works": "A 2026 zero-audience case recorded a dev.to article ranking #1 in DuckDuckGo for 'where to launch a side project' within 3 days while the author's new domain was not in the top 20; the same report notes established domains lend visibility new domains lack. Free API and canonical-import make it safe to syndicate full articles.",
+      "evidence": [
+        "https://developers.forem.com/api/v1",
+        "https://developers.forem.com/api",
+        "https://dev.to/hatchlit/how-we-are-getting-first-users-for-a-side-project-with-no-audience-2dnn",
+        "https://aiyun.com.au/guides/zero-budget-website-traffic-experiment/"
+      ],
+      "how_searched": [
+        "websearch: dev.to API publish articles canonical URL official documentation free 2026",
+        "webfetch: opened Forem API v1 docs and two Nov 2026 zero-audience case studies"
+      ],
+      "score": 80.0,
+      "found_at": "2026-11-27T00:46:30.711982+00:00"
+    },
+    {
       "name": "Apple Podcasts catalog + podcast databases (Podchaser, Listen Notes)",
       "url": "https://podcasters.apple.com/support/897-submit-a-show",
       "kind": "platform",
@@ -565,6 +587,27 @@
       ],
       "score": 78.0,
       "found_at": "2026-10-20T00:48:21.593717+00:00"
+    },
+    {
+      "name": "Zapier App Directory (free public integration)",
+      "url": "https://docs.zapier.com/integrations/publish/public-integration",
+      "kind": "partnership",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "If your site exposes a public HTTPS API, build triggers/actions in the Zapier Platform UI (no code) or CLI, test real Zaps, then log in at zapier.com/app/developer > Integration Home > Publish > Submit for Review. Approved apps enter the app directory with a Beta tag for 90 days; add Zap templates and a help page on your own site, and embed a Zapier signup to exit Beta early.",
+      "rules_and_risks": "Account is manual; needs a publicly launched app, documented endpoints, English UI and a permanent test account for integration-testing@zapier.com; duplicates/scraping-style apps rejected; developer replies in 1 week or less, then 90-day beta. No reach if your project has no API.",
+      "why_it_works": "Zapier's own docs state building and publishing is free with no fees from usage, and the directory connects thousands of apps to users actively looking for integrations; a listing is a durable discovery path rather than a one-day spike.",
+      "evidence": [
+        "https://docs.zapier.com/integrations/publish/public-integration",
+        "https://docs.zapier.com/integrations/publish/integration-publishing-requirements",
+        "https://zapier.com/apps"
+      ],
+      "how_searched": [
+        "websearch: Zapier app directory submit integration free developer official 2026",
+        "webfetch: opened official public-integration publishing guide and requirements"
+      ],
+      "score": 78.0,
+      "found_at": "2026-11-27T00:46:31.302685+00:00"
     },
     {
       "name": "IndexNow: instant URL notifications to Bing, Naver, Seznam, Yandex & Yep",
@@ -1226,6 +1269,27 @@
       "found_at": "2026-10-20T00:48:28.565789+00:00"
     },
     {
+      "name": "Google Indexing API fast-lane for JobPosting / BroadcastEvent pages",
+      "url": "https://developers.google.com/search/apis/indexing-api/v3/prereqs",
+      "kind": "search",
+      "requires_account": true,
+      "official_free_api": true,
+      "how_to_use": "For real job pages with valid JobPosting JSON-LD (or BroadcastEvent embedded in VideoObject), verify the site in Search Console, create a Google Cloud project and service account, add the service-account email as a delegated Search Console owner, get an OAuth token with scope https://www.googleapis.com/auth/indexing, then POST {\"url\":\".../job/42\",\"type\":\"URL_UPDATED\"} to https://indexing.googleapis.com/v3/urlNotifications:publish (use URL_DELETED for removals).",
+      "rules_and_risks": "Account/cloud setup is manual; API is limited to JobPosting and BroadcastEvent pages — generic pages are ineligible; abuse can revoke access; no ranking or traffic guarantee. Irrelevant to sites with no jobs or livestream events.",
+      "why_it_works": "Official Google documentation confirms direct notification of newly added/removed eligible URLs plus eligibility for Google's job experience — a fast, free search discovery mechanism most site owners never use.",
+      "evidence": [
+        "https://developers.google.com/search/apis/indexing-api/v3/prereqs",
+        "https://developers.google.com/search/apis/indexing-api/v3/using-api",
+        "https://developers.google.com/search/docs/appearance/structured-data/job-posting"
+      ],
+      "how_searched": [
+        "websearch: site:developers.google.com/search Indexing API JobPosting BroadcastEvent official",
+        "webfetch: opened Indexing API prerequisites, usage and structured-data docs"
+      ],
+      "score": 65.0,
+      "found_at": "2026-11-27T00:46:35.376479+00:00"
+    },
+    {
       "name": "TikTok (organic video reach, no follower base needed)",
       "url": "https://sydium.com/blog/tiktok-algorithm-explained",
       "kind": "platform",
@@ -1707,6 +1771,27 @@
       "found_at": "2026-10-10T12:40:08.369957+00:00"
     },
     {
+      "name": "Apple Business / Apple Maps locations (2026)",
+      "url": "https://business.apple.com/",
+      "kind": "search",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Sign up at business.apple.com, verify the organization (email/phone plus a second method such as D-U-N-S, EIN, DNS or official documents), then in Brands > Locations > Add Location enter name, address, category, hours, phone and website; request transfer if a location already exists. Keep details accurate so Maps users can contact you.",
+      "rules_and_risks": "Account and verification are manual; intended for businesses customers can physically visit; local-only — near-zero value for an online-only site; Apple Ads are a separate paid product; no ranking or click guarantee.",
+      "why_it_works": "Apple's new all-in-one Apple Business platform explicitly offers a free way to claim a location so 'millions' of Apple Maps users can find the business, with control over logo, hours, images and key details — a separate discovery index from Google/Bing Places.",
+      "evidence": [
+        "https://business.apple.com/",
+        "https://support.apple.com/guide/business/add-a-single-location-abcb98816a34/web",
+        "https://www.apple.com/newsroom/2026/03/introducing-apple-business-a-new-all-in-one-platform-for-businesses-of-all-sizes/"
+      ],
+      "how_searched": [
+        "websearch: Apple Business Connect claim location free 2026 support.apple.com guide",
+        "webfetch: opened Apple Business homepage, location guide and March 2026 announcement"
+      ],
+      "score": 58.0,
+      "found_at": "2026-11-27T00:46:38.226169+00:00"
+    },
+    {
       "name": "Microsoft Edge Add-ons",
       "url": "https://learn.microsoft.com/en-us/microsoft-edge/extensions/publish/create-dev-account",
       "kind": "platform",
@@ -1897,6 +1982,27 @@
       ],
       "score": 55.0,
       "found_at": "2026-10-15T19:03:15.754423+00:00"
+    },
+    {
+      "name": "InboxReads free newsletter listing",
+      "url": "https://inboxreads.co/submit",
+      "kind": "directory",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Register manually with email/password and reCAPTCHA, submit your newsletter for free approval, keep name/topic/description accurate, then use the free directory browse/search to find similar newsletters and follow their public cross-promotion preferences; pitch partners from your own inbox.",
+      "rules_and_risks": "Account cannot be auto-created; since 21 Apr 2026 outreach/messaging is paid-only and free accounts can only explore the directory — do not assume the older 'free outreach' claims still hold; directory listing alone brings modest traffic.",
+      "why_it_works": "A live, actively updated directory of 6,000+ newsletters with changelog entries through 28 Oct 2026; a free listing is a durable discovery page and a legitimate way to identify real newsletter partnership targets without paying for a tool.",
+      "evidence": [
+        "https://inboxreads.co/changelog",
+        "https://inboxreads.co/submit",
+        "https://inboxreads.co/cross-promotions"
+      ],
+      "how_searched": [
+        "websearch: InboxReads free newsletter submission official cross promotions 2026",
+        "webfetch: opened official changelog, submit and cross-promotions pages"
+      ],
+      "score": 55.0,
+      "found_at": "2026-11-27T00:46:38.893178+00:00"
     },
     {
       "name": "DevHunt",
@@ -2198,6 +2304,26 @@
       "found_at": "2026-10-18T06:24:25.363427+00:00"
     },
     {
+      "name": "HackerNoon open story submission",
+      "url": "https://help.hackernoon.com/submit-a-story-checklist",
+      "kind": "platform",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Log in manually, click Start Writing, check the topic is not already covered, write a first-person technical story, set ~8 tags, a feature image and meta description, disclose any vested interest, then Submit Story for Review; accepted stories are distributed by the publication.",
+      "rules_and_risks": "Account cannot be auto-created; staff review is '3 business days-ish' and not every story is accepted; avoid SEO-spam, gambling and undisclosed brand promotion — brands pay for brand-as-author, so publish under a human byline.",
+      "why_it_works": "Free editorial gate plus explicit distribution and SEO-oriented story pages; the official checklist promises 'we'll distribute, distribute, distribute your tech story' on acceptance, giving a new site a credible byline and link from an established tech publication.",
+      "evidence": [
+        "https://help.hackernoon.com/submit-a-story-checklist",
+        "https://help.hackernoon.com/how-do-i-get-published"
+      ],
+      "how_searched": [
+        "websearch: HackerNoon write for us official submission guidelines",
+        "webfetch: opened official submit-a-story checklist and writing guide"
+      ],
+      "score": 49.3,
+      "found_at": "2026-11-27T00:46:31.605953+00:00"
+    },
+    {
       "name": "Apple Business Connect — claim your location on Apple Maps",
       "url": "https://businessconnect.apple.com/",
       "kind": "platform",
@@ -2287,6 +2413,25 @@
       "found_at": "2026-11-24T06:15:14.492591+00:00"
     },
     {
+      "name": "PodcastGuests.com free twice-weekly guest leads",
+      "url": "https://podcastguests.com/faqs/",
+      "kind": "partnership",
+      "requires_account": false,
+      "how_to_use": "Enter your email in the free newsletter signup on the homepage; read the two weekly emails listing ~20 podcasts actively seeking guests, click through to each show's pitch form, and send a customized pitch that explains your expertise and how you will promote the episode. No paid directory listing is needed for this route.",
+      "rules_and_risks": "Free newsletter needs only an email, not an account; DIY — no matching service or messaging; FAQ admits some listed shows will be irrelevant; paid guest appearances are banned; premium listings (not the free route) are what get rotating newsletter inclusion. Do not mass-pitch generic copy.",
+      "why_it_works": "The platform says its emails reach 42,000+ potential guest experts and that podcasters submit shows to be featured; a guest appearance puts your site and name in front of a host's existing audience without ads.",
+      "evidence": [
+        "https://podcastguests.com/faqs/",
+        "https://podcastguests.com/"
+      ],
+      "how_searched": [
+        "websearch: PodcastGuests.com free podcast guest matching official 2026",
+        "webfetch: opened official FAQ and homepage"
+      ],
+      "score": 46.7,
+      "found_at": "2026-11-27T00:46:33.006609+00:00"
+    },
+    {
       "name": "Connectively (HARO's successor — new facts on the free plan)",
       "url": "https://docs.connectively.us/en/articles/15233722-what-s-included-with-connectively-s-free-plan",
       "kind": "partnership",
@@ -2305,6 +2450,26 @@
       ],
       "score": 46.0,
       "found_at": "2026-10-09T06:45:21.201931+00:00"
+    },
+    {
+      "name": "Stack Exchange self-answer",
+      "url": "https://stackoverflow.com/help/self-answer",
+      "kind": "community",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Ask a specific, non-duplicate, answerable question that your site/tool actually solves, tick 'Answer your own question' (available above 15 reputation) or add the answer later, and write a complete solution with your affiliation disclosed and the site link only where directly relevant; wait 48 hours before accepting your own answer.",
+      "rules_and_risks": "Account is manual; question must be answerable by others and not a disguised ad — overt self-promotion is flagged/deleted; tool-recommendation questions are off-topic; contributions are CC BY-SA; do not create multiple accounts or astroturf votes.",
+      "why_it_works": "Explicitly encouraged by Stack Exchange and indexed permanently; a well-scoped question/answer pair can keep receiving search visitors and qualified clicks long after posting, at the cost of one careful write-up.",
+      "evidence": [
+        "https://stackoverflow.com/help/self-answer",
+        "https://stackoverflow.com/help/promotion"
+      ],
+      "how_searched": [
+        "websearch: Stack Overflow official self-answer rules help center 2026",
+        "webfetch: opened official self-answer and promotion help pages"
+      ],
+      "score": 45.3,
+      "found_at": "2026-11-27T00:46:33.255231+00:00"
     },
     {
       "name": "Homebrew Cask",
@@ -2465,6 +2630,26 @@
       "found_at": "2026-10-13T18:47:34.226885+00:00"
     },
     {
+      "name": "Kagi Small Web index (RSS feed PR)",
+      "url": "https://github.com/kagisearch/smallweb/blob/main/README.md",
+      "kind": "feed",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "For an English, personal, non-commercial blog with a recent post, open a GitHub PR adding its RSS/Atom URL to smallweb.txt in sorted order; if submitting your own site, add at least 2 other qualifying non-owned sites in the same commit. Reuse the public Small Web RSS/OPML and display the community badge.",
+      "rules_and_risks": "GitHub account required, created manually; English only, personal single-author blogs only, no ads, popups or undisclosed affiliates, no LLM-generated content, post <12 months old (and <7 days to appear on the Small Web site); Kagi search itself is paid. Commercial/multi-author sites will be rejected.",
+      "why_it_works": "Kagi says Small Web posts are mixed into relevant Kagi search results, and its March 2026 update reports 30,000+ featured sites plus categories, browser extensions and mobile apps — a real curated discovery surface a new personal site can enter for free.",
+      "evidence": [
+        "https://github.com/kagisearch/smallweb/blob/main/README.md",
+        "https://blog.kagi.com/small-web-updates"
+      ],
+      "how_searched": [
+        "websearch: Kagi search submit website index official webmaster 2026",
+        "webfetch: opened smallweb README and 12 Mar 2026 'Small Web Just Got Bigger' post"
+      ],
+      "score": 40.7,
+      "found_at": "2026-11-27T00:46:36.993291+00:00"
+    },
+    {
       "name": "Free instant web directories with no account: DevElif and Directory Index",
       "url": "https://develif.com/",
       "kind": "directory",
@@ -2544,6 +2729,26 @@
       ],
       "score": 40.0,
       "found_at": "2026-11-13T00:30:55.821303+00:00"
+    },
+    {
+      "name": "Raycast Store extension submission",
+      "url": "https://developers.raycast.com/basics/publish-an-extension",
+      "kind": "directory",
+      "requires_account": true,
+      "official_free_api": false,
+      "how_to_use": "Build an extension wrapping your site's useful feature, run npm run build, then npm run publish (npx @raycast/api@latest publish) which authenticates with GitHub and opens a PR in raycast/extensions; respond to the reviewer, and after merge the extension is published in the Raycast Store; copy its share link from Manage Extensions.",
+      "rules_and_risks": "GitHub/Raycast accounts are manual; MIT license, 512x512 icon, no duplicates or native-feature clones, README if setup is needed; PRs go stale after 14 days and close after 21; monthly Featured selection (3/month) is extra visibility but not guaranteed. Only relevant for developer/productivity utilities.",
+      "why_it_works": "Free CLI-driven PR submission into a store that is searchable inside Raycast, putting a useful wrapper for your site in front of productivity-focused users; the docs also expose an MCP/llms.txt index for agents.",
+      "evidence": [
+        "https://developers.raycast.com/basics/publish-an-extension",
+        "https://developers.raycast.com/basics/prepare-an-extension-for-store.md"
+      ],
+      "how_searched": [
+        "websearch: Raycast Store official submit extension publish documentation",
+        "webfetch: opened official publish and store-preparation docs"
+      ],
+      "score": 40.0,
+      "found_at": "2026-11-27T00:46:37.351857+00:00"
     },
     {
       "name": "Apple Business / Apple Business Connect local listing",
@@ -3324,6 +3529,25 @@
       "found_at": "2026-11-10T18:18:16.861225+00:00"
     },
     {
+      "name": "JetBrains Marketplace plugin listing",
+      "url": "https://plugins.jetbrains.com/docs/intellij/publishing-plugin.html",
+      "kind": "directory",
+      "requires_account": true,
+      "official_free_api": true,
+      "how_to_use": "Create a JetBrains account, sign the plugin, log in to plugins.jetbrains.com > Profile > Add new plugin and upload the ZIP (first upload is manual). Afterwards generate a Personal Access Token and automate new versions with the Gradle publishPlugin task; put your site/docs link in the marketplace description.",
+      "rules_and_risks": "Manual account and first upload required; automated checks, Plugin Verifier compatibility checks and human review with no guaranteed timeframe (~3-4 working days per reviewer report); name ≤30 chars and must not contain 'Plugin'/'IntelliJ'/'JetBrains', custom 40x40 SVG logo, English description, working links, EULA and privacy policy if collecting data. Only relevant if you ship an IDE plugin.",
+      "why_it_works": "The plugin appears in a searchable marketplace inside IntelliJ-family IDEs, reaching developers at the moment they look for tooling; free publishing plus Gradle token automation makes repeat distribution cheap.",
+      "evidence": [
+        "https://plugins.jetbrains.com/docs/intellij/publishing-plugin.html"
+      ],
+      "how_searched": [
+        "websearch: JetBrains Marketplace publish plugin official documentation free account upload",
+        "webfetch: opened official publishing docs and marketplace approval guidelines (page dated 25 Nov 2026)"
+      ],
+      "score": 24.7,
+      "found_at": "2026-11-27T00:46:32.296309+00:00"
+    },
+    {
       "name": "Hacker News: Show HN and story submissions",
       "url": "https://news.ycombinator.com/newsguidelines.html",
       "kind": "community",
@@ -3454,6 +3678,25 @@
       ],
       "score": 24.0,
       "found_at": "2026-11-13T00:30:51.652997+00:00"
+    },
+    {
+      "name": "SchemaStore.org catalog (JSON schema PR)",
+      "url": "https://github.com/SchemaStore/schemastore/blob/master/CONTRIBUTING.md",
+      "kind": "directory",
+      "requires_account": true,
+      "official_free_api": true,
+      "how_to_use": "If you own a config file format, fork SchemaStore, run npm clean-install and node cli.js new-schema, add positive/negative tests, register the schema in src/api/json/catalog.json with a distinctive fileMatch and your docs URL in descriptions, then validate with node cli.js check --schema-name=<name> and open a PR. You can also register a self-hosted schema by pointing catalog.json's url field at your own domain.",
+      "rules_and_risks": "GitHub account required and cannot be auto-created; schema must target a commonly used config file; generic fileMatch globs are rejected; draft-07 recommended; Ajv strict-mode validation and CI formatting must pass; catalog is consumed by VS Code, Red Hat YAML LS, Taplo, Tombi and JetBrains, but inclusion is not guaranteed.",
+      "why_it_works": "A merged catalog entry gives your tool free autocomplete/documentation inside multiple editors and language servers, plus a public JSON API at schemastore.org — an unusually cheap, permanent distribution surface for developer tools with a config format.",
+      "evidence": [
+        "https://github.com/SchemaStore/schemastore/blob/master/CONTRIBUTING.md"
+      ],
+      "how_searched": [
+        "websearch: JSON Schema Store add schema official github submit documentation",
+        "webfetch: opened official CONTRIBUTING.md with catalog and fileMatch rules"
+      ],
+      "score": 24.0,
+      "found_at": "2026-11-27T00:46:32.683928+00:00"
     },
     {
       "name": "G2 free product listing + profile claim",
@@ -3905,6 +4148,25 @@
       "found_at": "2026-11-13T00:30:52.473280+00:00"
     },
     {
+      "name": "Kaggle public datasets via official CLI/API",
+      "url": "https://github.com/Kaggle/kaggle-cli/blob/main/docs/datasets.md",
+      "kind": "directory",
+      "requires_account": true,
+      "official_free_api": true,
+      "how_to_use": "Create a free Kaggle account and API token, put your data in a folder, run kaggle datasets init -p <folder>, edit dataset-metadata.json (title, 6-50 char title, slug, license), then kaggle datasets create -p <folder> --public and kaggle datasets status <user>/<slug>; update with kaggle datasets version -m 'notes'. Link your site from the dataset description and notebooks.",
+      "rules_and_risks": "Account creation is manual (API calls need a user token, not automated signup); datasets default to PRIVATE — --public is mandatory; allowed licenses are restricted; processing takes time; discoverability depends on metadata and real usefulness, not volume.",
+      "why_it_works": "A public dataset gets a versioned, indexed page on a large ML audience site and can be consumed by other people's notebooks, which in turn reference the source project.",
+      "evidence": [
+        "https://github.com/Kaggle/kaggle-cli/blob/main/docs/datasets.md"
+      ],
+      "how_searched": [
+        "websearch: Kaggle datasets official API create dataset documentation free",
+        "webfetch: opened official Kaggle CLI datasets documentation"
+      ],
+      "score": 22.0,
+      "found_at": "2026-11-27T00:46:33.533081+00:00"
+    },
+    {
       "name": "Web Stories in Google Search and Discover",
       "url": "https://developers.google.com/search/docs/appearance/enable-web-stories",
       "kind": "tactic",
@@ -4082,6 +4344,25 @@
       "found_at": "2026-10-10T00:17:34.701671+00:00"
     },
     {
+      "name": "Open VSX registry (Eclipse Foundation)",
+      "url": "https://github.com/eclipse-openvsx/openvsx/wiki/Publishing-Extensions",
+      "kind": "directory",
+      "requires_account": true,
+      "official_free_api": true,
+      "how_to_use": "Register an eclipse.org account with the exact GitHub username, log in to open-vsx.org with GitHub, sign the Publisher Agreement, generate an access token, run npx ovsx create-namespace <name> -p <token>, then npx ovsx publish -p <token> (or use the documented GitHub Action) and check the extension page metadata.",
+      "rules_and_risks": "Accounts and Publisher Agreement are manual; namespace creation does not grant ownership/verified badge until claimed; automated secret detection, blocklist and typosquatting/namespace-similarity scans can reject; token shown once; useful only if you ship a VS Code-compatible extension.",
+      "why_it_works": "Open VSX is the default extension registry for VSCodium/Gitpod-style editors and is now managed by the Eclipse Foundation; listing is free and gives a searchable page with your README links to the project site.",
+      "evidence": [
+        "https://github.com/eclipse-openvsx/openvsx/wiki/Publishing-Extensions"
+      ],
+      "how_searched": [
+        "websearch: Open VSX registry publish extension official documentation ovsx npm",
+        "webfetch: opened official wiki (edited 26 Feb 2026)"
+      ],
+      "score": 21.3,
+      "found_at": "2026-11-27T00:46:35.640629+00:00"
+    },
+    {
       "name": "Yandex Webmaster (free indexing for Russian-speaking search)",
       "url": "https://webmaster.yandex.com/",
       "kind": "search",
@@ -4117,6 +4398,25 @@
       ],
       "score": 21.0,
       "found_at": "2026-10-16T13:02:19.866519+00:00"
+    },
+    {
+      "name": "Baidu Search Resource Platform API push",
+      "url": "https://ziyuan.baidu.com/college/courseinfo?id=267&page=2",
+      "kind": "search",
+      "requires_account": true,
+      "official_free_api": true,
+      "how_to_use": "Create a Baidu account, add and verify your site, obtain the 16-character token, put one URL per line in urls.txt and POST with Content-Type:text/plain to http://data.zz.baidu.com/urls?site=www.example.com&token=<token>; check success/remain/not_same_site/not_valid in the JSON response and submit new pages immediately on publication.",
+      "rules_and_risks": "Account and site verification are manual; max 2,000 URLs per request; duplicate old URLs waste quota and repeated reuse can lower or revoke API permission; sitemap text files max 50,000 URLs and <10 MB; Baidu does not guarantee crawl or indexation. Worth the effort only if Chinese search matters.",
+      "why_it_works": "Official docs say API push is the fastest submission method and shortens the time for Baidu's crawler to discover new links — useful because a Google-only workflow misses Baidu's separate index.",
+      "evidence": [
+        "https://ziyuan.baidu.com/college/courseinfo?id=267&page=2"
+      ],
+      "how_searched": [
+        "websearch: site:ziyuan.baidu.com Baidu webmaster 普通收录 API push official docs",
+        "webfetch: opened official platform manual (©2026 footer)"
+      ],
+      "score": 21.0,
+      "found_at": "2026-11-27T00:46:36.469727+00:00"
     },
     {
       "name": "Naver Search Advisor",
