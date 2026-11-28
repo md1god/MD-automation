@@ -165,6 +165,28 @@
       "found_at": "2026-11-23T09:13:25.580153+00:00"
     },
     {
+      "name": "TikTok slideshow remixer for app marketers",
+      "field": "Short-form marketing / social content",
+      "summary": "Build a free browser studio that finds viral TikTok slideshow patterns, turns them into editable product-focused slide decks, and schedules drafts; charge for team workspaces, extra saved research, and publishing integrations.",
+      "why_now": "TrustMRR shows slideshow at $18,728 in the last 30 days on Nov 28, 2026, verified by Stripe, with $249 one-time pricing and a November 2026 launch; Starter Story shows the run-rate rising from $8.3K/mo on Oct 25 to $18K/mo on Nov 27; Indie Hackers covered it briefly topping Marc Lou's $100K Hackathon board, then self-disqualifying over pre-contest code, which is a caveat but also confirms the demand spike.",
+      "monetization": "Free remix editor and viral-pattern search; paid credits for bulk research, AI image redraws, multi-account scheduling, team seats, and a one-time lifetime tier.",
+      "evidence": [
+        "https://trustmrr.com/startup/slideshow",
+        "https://www.starterstory.com/businesses/slideshow/revenue",
+        "https://www.indiehackers.com/post/numbers/a-mac-app-for-tiktok-marketers-tops-marc-lous-hackathon-board-by-5-xzBkx5UdK7QmCS7Iv5KE",
+        "https://www.indiehackers.com/post/news/second-place-in-marc-lous-hackathon-disqualifies-himself-over-old-code-Gvc0jUUkOsjIkqXnhfPj",
+        "https://slideshow.sh/"
+      ],
+      "how_searched": [
+        "Indie Hackers November 2026 hackathon revenue board TikTok slideshow app",
+        "TrustMRR slideshow Stripe verified revenue November 28 2026",
+        "Starter Story slideshow revenue run-rate November 2026",
+        "Product Hunt and launch-board searches for recent social-media tools"
+      ],
+      "score": 90.0,
+      "found_at": "2026-11-28T11:49:11.597442+00:00"
+    },
+    {
       "name": "AI Accessibility Fixer",
       "field": "Digital accessibility",
       "summary": "A free WCAG scanner plus AI code-fix assistant for AI-generated and no-code sites. Paste a URL, get prioritized fixes for alt text, labels, contrast, focus order and button names, then subscribe for monitoring and developer-ready patches.",
@@ -342,6 +364,25 @@
       ],
       "score": 88.0,
       "found_at": "2026-11-23T21:30:37.323556+00:00"
+    },
+    {
+      "name": "Local-business website prospector and pitch-page generator",
+      "field": "B2B sales / web design agencies",
+      "summary": "Build a free web tool that finds local businesses with weak or missing websites, generates a few editable sample pages, and produces outreach messages and a simple sales pipeline for agencies.",
+      "why_now": "TrustMRR shows webdesign.so at $17,949 in the last 30 days on Nov 28, 2026, verified by Stripe, founded November 2026, with $219 lifetime and $29/month plans; Indie Hackers reported it led Marc Lou's hackathon board at $17,052 on Nov 27 after the slideshow entry exited.",
+      "monetization": "Free limited prospect list and one sample site; paid credits per generated site, Google Maps prospecting, outreach sequences, Cloudflare publishing, and agency workspaces.",
+      "evidence": [
+        "https://trustmrr.com/startup/webdesign-so",
+        "https://www.indiehackers.com/post/news/second-place-in-marc-lous-hackathon-disqualifies-himself-over-old-code-Gvc0jUUkOsjIkqXnhfPj",
+        "https://www.indiehackers.com/post/numbers/a-mac-app-for-tiktok-marketers-tops-marc-lous-hackathon-board-by-5-xzBkx5UdK7QmCS7Iv5KE"
+      ],
+      "how_searched": [
+        "Marc Lou $100K Hackathon leaderboard local-business site builder",
+        "TrustMRR webdesign.so revenue November 2026",
+        "November 2026 B2B lead generation website builder launch"
+      ],
+      "score": 88.0,
+      "found_at": "2026-11-28T11:49:11.835941+00:00"
     },
     {
       "name": "AI Lecture-to-Quiz Study Workspace",
@@ -788,6 +829,25 @@
       ],
       "score": 85.0,
       "found_at": "2026-11-26T15:29:15.532052+00:00"
+    },
+    {
+      "name": "LinkedIn post-performance auditor and voice-matched content planner",
+      "field": "B2B marketing / creator tools",
+      "summary": "Build a browser tool where a user imports public posts or analytics, sees which formats beat their own average, gets ideas backed by those numbers, and drafts posts in their own voice with human approval before publishing.",
+      "why_now": "Depost AI launched Nov 27, 2026, reached Product Hunt #2 Product of the Day with 216 upvotes and 38 comments, prices at $399 lifetime or $59/month, and reports a 52-post audit finding behind-the-scenes posts at 1.28x the user's average versus teaching posts at 0.75x; a Nov 28 Indie Hackers MRR roundup shows adjacent done-for-you LinkedIn tool Redak up 68% to $16.2k/mo.",
+      "monetization": "Free single-profile audit; paid team workspaces, monthly idea packs, graphics, scheduling, reply drafting, and per-brand voice memory.",
+      "evidence": [
+        "https://hunted.space/product/depost-ai",
+        "https://depost.ai/blog/depost-ai-black-friday",
+        "https://www.indiehackers.com/post/5-startups-that-spiked-in-mrr-this-week-plus-3-specific-gaps-you-can-build-this-weekend-554OIfe23ORBYCkQDlEm"
+      ],
+      "how_searched": [
+        "Product Hunt November 27 2026 LinkedIn AI agent voice matching",
+        "Depost AI Black Friday pricing and launch details",
+        "Indie Hackers fastest-growing LinkedIn tools November 2026 MRR"
+      ],
+      "score": 85.0,
+      "found_at": "2026-11-28T11:49:12.030886+00:00"
     },
     {
       "name": "Stocky Successor: Free Shopify PO & Reorder Planner",
@@ -1353,6 +1413,26 @@
       ],
       "score": 81.0,
       "found_at": "2026-11-15T21:52:36.509077+00:00"
+    },
+    {
+      "name": "AI-Overview-free search and citation-check layer",
+      "field": "Education search / digital literacy",
+      "summary": "Build a free web search front end, bookmarklet, or classroom portal that strips AI Overviews, surfaces source links first, flags unreviewable claims, and gives students a citation-check checklist.",
+      "why_now": "TideRank shows 'how to get rid of ai overview' as a new breakout on Nov 11, 2026, peaking at about 625% of GPTs with an overall score of 95.6, and 'how to disable ai overview' at 56.3; WIRED reports Google is refusing schools an off switch next year and that only about 42% of AI Overviews could be fully verified from their citations; NPR reports parents and educators angry that schools lose Google Search unless they accept AI Overviews.",
+      "monetization": "Free consumer web layer; paid teacher dashboards, district licensing, policy reports, and citation-verification credits.",
+      "evidence": [
+        "https://tiderank.tech/en/ai-trends-rank",
+        "https://www.wired.com/story/google-is-forcing-ai-overviews-in-classrooms-schools-are-searching-for-a-way-out/",
+        "https://www.npr.org/2026/11/13/nx-s1-6029408/google-ai-search-schools"
+      ],
+      "how_searched": [
+        "Google Trends AI tools November 2026 how to get rid of AI Overview",
+        "WIRED November 2026 Google AI Overviews schools way out",
+        "NPR November 13 2026 schools Google Search AI Overviews",
+        "AI-overview blocker demand and school workarounds"
+      ],
+      "score": 81.0,
+      "found_at": "2026-11-28T11:49:13.722437+00:00"
     },
     {
       "name": "Live AI translation for church services: QR-code captions and audio on attendees' phones",
@@ -3385,6 +3465,25 @@
       "found_at": "2026-11-27T19:31:57.590989+00:00"
     },
     {
+      "name": "Renovation floor-plan generator with CAD export",
+      "field": "Home renovation / real estate tools",
+      "summary": "Build a free web tool that turns room requirements or sketches into editable 2D plans, offers 3D previews, and charges for high-resolution exports or CAD files used with contractors and listings.",
+      "why_now": "A Nov 26, 2026 Indie Hackers post reports Floor Plan AI reached $8K monthly revenue after adding an editor, 2D-to-3D conversion, rendering, and DXF/DWG export; its site shows plans from $19.99/month or $199/year, 600 monthly credits on the professional tier, and claims 3M+ users; Indie Hackers also lists newly started PlanCaliber from November 2026 offering browser 2D/3D CAD and AI sketch-to-CAD from $9 one-time.",
+      "monetization": "Free credits for basic plans; paid credit packs, 4K renders, 3D walkthroughs, DXF/DWG/PDF export, and agent or real-estate team workspaces.",
+      "evidence": [
+        "https://www.indiehackers.com/post/my-eighth-project-reached-a-monthly-revenue-of-8k-just-because-im-a-real-customer-4MO7Xzu2TpNOY2BkAnVa",
+        "https://floor-plan.ai/",
+        "https://www.indiehackers.com/product/plancaliber"
+      ],
+      "how_searched": [
+        "Indie Hackers November 26 2026 floor plan AI $8K monthly revenue",
+        "floor-plan.ai pricing DXF DWG 3D features",
+        "Indie Hackers products browser 2D 3D floor plan CAD started November 2026"
+      ],
+      "score": 71.0,
+      "found_at": "2026-11-28T11:49:18.358324+00:00"
+    },
+    {
       "name": "AI field-inspection report generator: photos and voice notes to a finished PDF",
       "field": "Field services / inspections",
       "summary": "A web tool that turns site photos and dictated voice notes into a formatted, client-ready inspection report PDF in minutes. Obsiva (launched Nov 10 2026) and the $30M-ARR incumbent Spectora prove both demand and willingness to pay.",
@@ -5142,6 +5241,24 @@
       "found_at": "2026-11-24T17:54:24.973658+00:00"
     },
     {
+      "name": "Browser SVG-to-embroidery digitizer",
+      "field": "Creator tools / embroidery workflow",
+      "summary": "Build a free web digitizer that converts SVG artwork to stitches, previews thread paths, exports common embroidery formats, and offers paid machine profile packs and cloud project storage.",
+      "why_now": "ZigZag hit 743 Hacker News points and 260 comments, was #1 Show HN on Nov 12 with 724 Launch Index points, gained 669 GitHub stars and shipped 4 releases in 72 hours; Launch Index ties the launch to a $300 machine and $12/month required app, while Etsy search data shows 'embroidered shirt' up 238% with 37,324 estimated 30-day sales in the week to Nov 22, 2026.",
+      "monetization": "Free browser preview and basic exports; paid high-quality stitch presets, bulk conversion, uncommon machine formats, shared project links, and commercial-use design tooling.",
+      "evidence": [
+        "https://launchindex.ai/breakouts/zigzag",
+        "https://www.emarketinsight.com/reports/trending-on-etsy"
+      ],
+      "how_searched": [
+        "Show HN November 2026 $300 embroidery machine subscription app",
+        "Launch Index ZigZag breakout November 2026",
+        "Etsy trending embroidered shirt sales November 2026"
+      ],
+      "score": 55.3,
+      "found_at": "2026-11-28T11:49:12.849249+00:00"
+    },
+    {
       "name": "SMS waitlist and queue manager",
       "field": "Local business operations / SaaS",
       "summary": "Build a browser-based waitlist tool for restaurants, salons, barbers, retail and events with guest links, SMS alerts, kiosk mode, floor planning, reservations and analytics.",
@@ -5675,6 +5792,24 @@
       "found_at": "2026-11-19T21:41:39.055107+00:00"
     },
     {
+      "name": "Template render API and MCP layer for AI agents",
+      "field": "Developer tools / AI agent infrastructure",
+      "summary": "Build a free browser-based template renderer for agents that turns structured data into branded images, PDFs, carousels, and short videos through a simple API or MCP-style tool interface.",
+      "why_now": "Orshot's open dashboard shows 48,250 users, +18,405 this month, 1.76M lifetime renders, 682.9k renders in 91 days, $11,827 MRR with +$3,462 new this month, and 36% of renders coming from AI agents over MCP; RunsBy independently tracked MRR rising from $2,260 on Jan 7, 2026 to $12,154 on Nov 24, 2026.",
+      "monetization": "Free template editor and low-volume renders; paid API usage, team brand kits, storage, premium templates, and higher-rate agent tool calls.",
+      "evidence": [
+        "https://orshot.com/open",
+        "https://www.runsby.ai/b/orshot.html"
+      ],
+      "how_searched": [
+        "open startup API template image PDF video generation November 2026",
+        "RunsBy Orshot MRR history 2026",
+        "AI agent MCP render API revenue dashboard"
+      ],
+      "score": 52.7,
+      "found_at": "2026-11-28T11:49:17.881126+00:00"
+    },
+    {
       "name": "Prompt-to-UI design generator (AI Designer model)",
       "field": "Design tools / AI UI",
       "summary": "Web tool that generates polished UI screens, logos, brand kits and images from short text prompts.",
@@ -5746,130 +5881,6 @@
       ],
       "score": 52.0,
       "found_at": "2026-11-19T03:32:43.859156+00:00"
-    },
-    {
-      "name": "3D file to shareable browser link",
-      "field": "3D / spatial web tooling",
-      "summary": "Upload a GLB/OBJ/IFC file or publish from Blender, Unity or Unreal and get a private revocable link that streams the scene in any browser with no app or download.",
-      "why_now": "Verse Engine launched Nov 19, 2026 and placed #3 Product of the Day with 254 upvotes and 56 comments; it claims a 10.3B-triangle city opens in a laptop browser, 0.9s to first picture, and 45s Blender-to-link.",
-      "monetization": "Verse plans: Free $0, Starter $29/mo, Pro $99/mo, Scale $499/mo, Enterprise from $2,000/mo; delivery claimed at $252 per 1,000 viewer-hours vs $498-$6,000 for cloud GPU streaming.",
-      "evidence": [
-        "https://www.hunted.space/product/verse-engine-by-ctruh",
-        "https://verse.ctruh.com/"
-      ],
-      "how_searched": [
-        "Product Hunt launch analytics",
-        "product website and pricing page",
-        "news coverage snippets"
-      ],
-      "score": 52.0,
-      "found_at": "2026-11-20T03:20:17.494435+00:00"
-    },
-    {
-      "name": "LLM Gateway",
-      "field": "AI infrastructure",
-      "summary": "Open-source API gateway that routes requests across LLM providers, centralizes API keys, and tracks token usage and costs.",
-      "why_now": "TrustMRR recorded $78.8K MRR, 1,386 subscriptions and $259.5K in 30-day revenue before the Stripe key expired; founder later reported $1.2M+ gross all-time revenue.",
-      "monetization": "Free self-hosting plus 5% fee on hosted credits, DevPass plans, enterprise licensing; verified $78.8K MRR at last sync.",
-      "evidence": [
-        "https://trustmrr.com/startup/llm-gateway",
-        "https://smakosh.com/blog/llm-gateway-flat-rate-economics"
-      ],
-      "how_searched": [
-        "verified revenue leaderboard (TrustMRR)",
-        "founder revenue retrospective"
-      ],
-      "score": 52.0,
-      "found_at": "2026-11-21T23:34:21.650087+00:00"
-    },
-    {
-      "name": "Checkout Deal-Stack Optimizer",
-      "field": "e-commerce / shopping agents",
-      "summary": "A web shopping tool that compares the same item across stores and stacks coupons, cashback, card offers, gift-card routes, shipping, and tax into one ranked final-cost plan, then prepares checkout for human approval.",
-      "why_now": "Launch Index shows Saparo beat 99% of Product Hunt launches on Nov 20, 2026, finishing #1 of 1,158 with 330 votes and 73 comments; an independent Nov 20 teardown describes the same all-in cost stacking flow and credit-based beta.",
-      "monetization": "Credit packs or subscriptions plus disclosed affiliate/cashback partnerships; comparable Saparo uses credits and says merchant rebates do not change ranking, public revenue null.",
-      "evidence": [
-        "https://launchindex.ai/product/171319",
-        "https://chatgate.ai/post/saparo"
-      ],
-      "how_searched": [
-        "opened launch analytics page for rank and traction numbers",
-        "opened independent launch teardown for pricing and product mechanics"
-      ],
-      "score": 52.0,
-      "found_at": "2026-11-22T19:45:08.120655+00:00"
-    },
-    {
-      "name": "Issue-to-PR Open-Source Software Factory",
-      "field": "Developer productivity",
-      "summary": "Build a free agentic kanban workspace that converts repository issues into plans, implementations, reviewed pull requests, and maintained project docs.",
-      "why_now": "Mastra Factory Show HN reached 158 points and 45 comments in 4 days. The post reported nearly 4M weekly downloads for Mastra and said Factory opened and merged 238 PRs in one week while humans merged 630 PRs. The product site describes an open-source software factory connected to a repository.",
-      "monetization": "Free self-hosted starter; paid hosted sandboxes, team Slack integration, private memory, repository analytics, compliance controls, and priority agents.",
-      "evidence": [
-        "https://factory.mastra.ai",
-        "https://github.com/mastra-ai/template-factory"
-      ],
-      "how_searched": [
-        "Show HN developer-tool scan",
-        "vendor product-site review",
-        "GitHub template inspection"
-      ],
-      "score": 52.0,
-      "found_at": "2026-11-23T01:01:38.639424+00:00"
-    },
-    {
-      "name": "TrackSplit: browser audio-to-MIDI and tab studio for your own tracks",
-      "field": "music tools, creator utilities",
-      "summary": "A browser studio that converts uploaded own/public-domain audio, full mixes, or YouTube links the user owns into editable MIDI, tabs, and stem-aware notation with manual correction.",
-      "why_now": "A 2026-11 HN launch about a small open-weight audio-to-MIDI model got 310 points and 70 comments; Mirelo reported that within six weeks nearly 1 in 11 riffle music makers used Convert to MIDI and over one-third repeated; Songscription reported 150,000 users and over 20% MoM growth after a $5M raise.",
-      "monetization": "Free short-file conversions; paid longer files, batch export, stem separation, and collaboration links, with licensing checks and no copyrighted-track scraping.",
-      "evidence": [
-        "https://mirelo.ai/blog/riffle-audio-to-midi-case-study",
-        "https://www.aimusicpreneur.com/ai-tools-news/songscription-publisher-licensing-deals-play-anything-rebrand/"
-      ],
-      "how_searched": [
-        "Hacker News Show HN",
-        "product case study",
-        "music-industry news"
-      ],
-      "score": 52.0,
-      "found_at": "2026-11-24T06:08:09.765574+00:00"
-    },
-    {
-      "name": "SocialClaw",
-      "field": "Social media scheduling for AI agents",
-      "summary": "A scheduling platform that lets AI agents (e.g., OpenClaw, Claude, Codex, ChatGPT workflows) connect accounts and publish/schedule posts programmatically. A rebuildable web product could provide an original agent-friendly posting API/dashboard with approvals and analytics.",
-      "why_now": "Agentic workflows are increasing demand for tools that let agents act on social channels safely and automatically; recent verified subscription revenue shows early monetization.",
-      "monetization": "Subscription SaaS. Reported $1,691 MRR from 87 active subscriptions and $1,886 in the last 30 days (TrustMRR, Lemon Squeezy-verified, 2026-11-02); TrustMRR startup page I opened showed $2.6k MRR in page content snapshot at time of fetch.",
-      "evidence": [
-        "https://shippedandpaid.beehiiv.com/p/glossa-at-14k-mrr-and-mimikflow-at-11k-plus-10-more-ai-built-apps-with-verified-revenue",
-        "https://trustmrr.com/startup/socialclaw"
-      ],
-      "how_searched": [
-        "web search for AI agent tooling with verified revenue",
-        "newsletters covering AI-built monetized products",
-        "direct fetch of public revenue/profile pages"
-      ],
-      "score": 51.3,
-      "found_at": "2026-11-13T00:26:08.598473+00:00"
-    },
-    {
-      "name": "AI screenwriting and story-bible studio",
-      "field": "Creator tools / film and TV",
-      "summary": "Screenplay editor with industry formatting, structure visualization, character/location/prop entities derived from the script, an AI script doctor and automatic storyboards. TrustMRR shows Laper at $52,549 MRR, 1,633 active subscriptions and $220,036 all-time revenue, run by a 2-5 person bootstrapped team; the site confirms collaboration, story bible, AI visuals and storyboard workflows.",
-      "why_now": "Laper's TrustMRR revenue was updated Nov 14, 2026, and its positioning targets writers who dislike generic AI script generators: assist with structure and diagnosis while keeping the writer's voice.",
-      "monetization": "Subscription SaaS for writers, directors and production teams, with team seats and higher usage tiers.",
-      "evidence": [
-        "https://trustmrr.com/startup/laper",
-        "https://laper.ai/"
-      ],
-      "how_searched": [
-        "TrustMRR AI and entertainment startup browse",
-        "Web search: AI screenwriting software revenue 2026",
-        "Direct review of product features and pricing page"
-      ],
-      "score": 51.3,
-      "found_at": "2026-11-14T10:41:16.095953+00:00"
     }
   ]
 }
