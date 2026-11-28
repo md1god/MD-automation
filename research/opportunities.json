@@ -385,6 +385,25 @@
       "found_at": "2026-11-28T11:49:11.835941+00:00"
     },
     {
+      "name": "Local Data-Broker Opt-Out Desk",
+      "field": "privacy tools",
+      "summary": "A free web tool that builds a personalized data-broker opt-out and deletion-request checklist, tracks sent requests, and exports proof/history locally without uploading personal data.",
+      "why_now": "A November 26, 2026 Show HN post reached 245 points, 55 comments, and 1,080 GitHub stars with +1,080 in 7 days; Security.org reports only 6% of U.S. adults have used data-removal services and 12% of non-users are highly likely to start within a year; TechList estimates DeleteMe at $21M annual revenue and 754.2K monthly visits.",
+      "monetization": "Free guided opt-outs; paid monitoring, recurring re-checks, PDF reports, and referrals to paid removal services. Security.org reports typical spend of $15-$20/month or $120-$150/year; TechList estimates $21M annual revenue for DeleteMe.",
+      "evidence": [
+        "https://ossradar.net/hacker-news",
+        "https://www.security.org/resources/data-removal-service-usage-study/",
+        "https://techlist.ai/joindeleteme.com"
+      ],
+      "how_searched": [
+        "Hacker News/OSS Radar last-30-day repo leaderboard",
+        "consumer privacy survey",
+        "traffic and revenue estimator search"
+      ],
+      "score": 88.0,
+      "found_at": "2026-11-28T20:06:08.691060+00:00"
+    },
+    {
       "name": "AI Lecture-to-Quiz Study Workspace",
       "field": "EdTech",
       "summary": "Turns lectures, PDFs, videos and textbooks into quizzes, flashcards and a voice tutor, with progress tracking and spaced repetition.",
@@ -1435,6 +1454,25 @@
       "found_at": "2026-11-28T11:49:13.722437+00:00"
     },
     {
+      "name": "Shopify Preorder and Back-in-Stock Control Panel",
+      "field": "ecommerce operations",
+      "summary": "A lightweight merchant web app for preorders, back-in-stock alerts, quantity limits, scheduled discounts, and BFCM surge handling with clear conflict detection.",
+      "why_now": "Shoplist's week of November 23, 2026 ranks Preorder, Back In Stock - STOQ first with +342 net stores over 28 days; CareCart says Black Friday is November 27, Cyber Monday is November 30, and Adobe expects $47.5B in U.S. online Cyber Week spending; Sappsy reports 2,765 Shopify app launches in October, 5.0x year over year.",
+      "monetization": "Free basic alerts and preorder buttons; paid tiers for bulk orders, SMS/email notifications, analytics, and multi-store syncing. Comparable BFCM apps in the CareCart guide charge $9.99-$29.99/month.",
+      "evidence": [
+        "https://shoplist.co/shopify-apps/rankings",
+        "https://carecart.io/best-shopify-apps-bfcm-2026/",
+        "https://www.sappsy.com/state/2026-11"
+      ],
+      "how_searched": [
+        "Shopify app install-change rankings",
+        "BFCM 2026 ecommerce guide",
+        "Shopify App Store state report"
+      ],
+      "score": 81.0,
+      "found_at": "2026-11-28T20:06:09.264746+00:00"
+    },
+    {
       "name": "Live AI translation for church services: QR-code captions and audio on attendees' phones",
       "field": "Faith tech / live interpretation",
       "summary": "A web tool that takes a church's existing soundboard feed and streams real-time translated captions/audio to attendees' phones via QR code — no headsets, booths or volunteer interpreters. Glossa, Wordly, Sunflower AI and LiveVoice all monetize this exact pattern.",
@@ -2202,6 +2240,26 @@
       ],
       "score": 78.0,
       "found_at": "2026-11-26T15:29:17.331513+00:00"
+    },
+    {
+      "name": "Browser Embroidery Digitizing Studio",
+      "field": "creative fabrication",
+      "summary": "A free web-based SVG/PNG-to-embroidery digitizer with stitch preview, stitch-type editing, and exports to PES, DST, EXP, JEF, and VP3, without requiring a paid app subscription.",
+      "why_now": "ZigZag was the #3 Show HN post of November 2026 with 743 points and 260 comments, and OSS Radar shows 1,194 stars with +190 in 7 days; reporting around ZigZag highlights Brother Artspira+ at C$17.99/month, limited free tools, and Hatch costing over $1,000.",
+      "monetization": "Free tracing and basic stitch editing; paid cloud projects, high-resolution exports, batch conversion, and machine-profile presets. Existing paid alternatives justify willingness to pay: Artspira+ C$17.99/month and Hatch over $1,000.",
+      "evidence": [
+        "https://bestofshowhn.com/2026/11",
+        "https://ossradar.net/hacker-news",
+        "https://itsfoss.com/news/zigzag-embroidery-software/",
+        "https://heynomade.com/blog/embroidery-machine-subscription"
+      ],
+      "how_searched": [
+        "Show HN monthly top posts",
+        "Hacker News/OSS Radar repo leaderboard",
+        "home-embroidery subscription reporting"
+      ],
+      "score": 78.0,
+      "found_at": "2026-11-28T20:06:10.142568+00:00"
     },
     {
       "name": "Freelancer Contract Risk Scanner",
@@ -5825,62 +5883,6 @@
       ],
       "score": 52.0,
       "found_at": "2026-11-11T06:38:38.618206+00:00"
-    },
-    {
-      "name": "GainFrame",
-      "field": "Fitness tracking / AI body composition from progress photos",
-      "summary": "An iPhone app that estimates body fat and muscle from progress photos, compares changes over time, and suggests plans. A rebuildable web idea is an original privacy-conscious progress-photo analyzer and tracker (clearly labeled as estimates, not medical measurements).",
-      "why_now": "Consumer fitness users continue adopting photo-based progress tracking; recent verified revenue shows ongoing paid demand despite reduced ad spend.",
-      "monetization": "Freemium mobile subscription. Pro priced at $5.99–$7.99/month or $39.99–$49.99/year (App Store, 2026-11-09); verified $2,374/month from 465 active subscriptions (RevenueCat via TrustMRR, 2026-11-09), up from a claimed $2,328 MRR on 2026-10-29.",
-      "evidence": [
-        "https://proofofincome.beehiiv.com/p/he-stopped-paying-for-ads-his-ai-app-still-makes-2-374-a-month",
-        "https://www.proofofincomeai.com/movers/2026-11-09"
-      ],
-      "how_searched": [
-        "web search for recent verified app revenue and movers",
-        "proof-of-income/revenue tracking newsletters",
-        "cross-checking claimed vs verified revenue snapshots"
-      ],
-      "score": 52.0,
-      "found_at": "2026-11-13T00:26:07.892003+00:00"
-    },
-    {
-      "name": "Kolbo.AI",
-      "field": "Generative AI / creative workspace",
-      "summary": "All-in-one AI creative workspace bundling 100+ image, video, and music models; ~$79,244 revenue in the prior 30 days, ~$34,168 MRR from 611 subscribers, and ~$335,901 all-time, Stripe-verified on 2026-10-23.",
-      "why_now": "Multi-model aggregation is winning as users tire of juggling single-model tools, and a non-coder built this to strong revenue with AI coding tools, showing low barriers to a competing web tool.",
-      "monetization": "Tiered subscription credits for AI generation across models.",
-      "evidence": [
-        "https://trustmrr.com/startup/kolbo-ai",
-        "https://shippedandpaid.com/cases/kolbo-ai-creative-ai-workspace-79k-month-lovable-cursor-claude-code/"
-      ],
-      "how_searched": [
-        "websearch: AI creative workspace 100 models revenue",
-        "TrustMRR verified revenue",
-        "case study (Shipped & Paid)",
-        "Product Hunt / launch references"
-      ],
-      "score": 52.0,
-      "found_at": "2026-11-14T17:16:20.274246+00:00"
-    },
-    {
-      "name": "HSA/FSA Benefits Maximizer",
-      "field": "Benefits / ecommerce utility",
-      "summary": "A free web checker that flags potentially HSA/FSA/LSA-eligible products, stores itemized receipts, exports reimbursement packets, and helps shoppers compare eligible alternatives without making medical or legal determinations.",
-      "why_now": "Caeli's Chrome Web Store listing shows 20,000 users, 5.0 from 17 ratings, and an update on November 15, 2026. ExtScope shows the same extension growing from 9K/12K to 20K users over six days and 5.0 rating; reviews mention FSA deadline panic and avoiding manual eligibility PDFs.",
-      "monetization": "Freemium receipt vault and exports, employer/benefits-admin SaaS, retailer affiliate fees, sponsored eligible-product discovery, and one-time Pro unlocks.",
-      "evidence": [
-        "https://chromewebstore.google.com/detail/caeli-shop-with-hsa-fsa-b/dekfdfadajndgnicbjaeacnahmljpmka",
-        "https://extscope.org/extension/dekfdfadajndgnicbjaeacnahmljpmka"
-      ],
-      "how_searched": [
-        "Chrome Web Store trends",
-        "extension analytics",
-        "HSA FSA shopping query",
-        "benefits deadline reviews"
-      ],
-      "score": 52.0,
-      "found_at": "2026-11-19T03:32:43.859156+00:00"
     }
   ]
 }
