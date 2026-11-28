@@ -27,7 +27,7 @@ jobs:
     steps:
       - name: Check latest run of target workflow
         id: watch
-        uses: actions/github-script@f28e40c7f34bde8b3046d885e986cb6290c5673b # v7
+        uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9.0.0
         env:
           WORKFLOW_FILE: ${{ inputs.build-workflow-file }}
           BRANCH: ${{ inputs.branch }}
@@ -76,7 +76,7 @@ jobs:
 
       - name: Open or update issue
         if: steps.watch.outputs.problem == 'true'
-        uses: actions/github-script@f28e40c7f34bde8b3046d885e986cb6290c5673b # v7
+        uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9.0.0
         env:
           WORKFLOW_FILE: ${{ inputs.build-workflow-file }}
           REASON: ${{ steps.watch.outputs.reason }}
@@ -126,7 +126,7 @@ jobs:
 
       - name: Close stale watchdog issues if healthy
         if: steps.watch.outputs.problem == 'false'
-        uses: actions/github-script@f28e40c7f34bde8b3046d885e986cb6290c5673b # v7
+        uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9.0.0
         env:
           WORKFLOW_FILE: ${{ inputs.build-workflow-file }}
         with:
